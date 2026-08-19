@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -155,16 +156,18 @@ overview: 'HiBob publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   HiBob''s developer surface includes authentication, documentation, support, pricing, and 6 more developer resources.'
 random_paper: 69
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -4.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 52.2
-    developer_ergonomics: 23.9
-    discoverability: 81.5
+    contract_governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 10.7
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 28.8
   provenance:
     agentic_access: derived
@@ -173,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibob/refs/heads/main/screenshots/hibob-2026-06-20T182725.png
 security:

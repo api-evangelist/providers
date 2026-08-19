@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -688,7 +689,9 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
 random_paper: 0
 rules:
-- name: Cognite API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cognite API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -696,7 +699,10 @@ rules:
     info: 2
     warn: 3
   slug: cognite-jsonschema-spectral-rules
-- name: Cognite API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Cognite API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -711,15 +717,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 33.2
+  delta: -8.2
   facets:
-    commercial_clarity: 18.4
-    contract_quality: 70.5
-    developer_ergonomics: 37.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 9.8
+    contract_quality: 68.1
+    developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -728,9 +736,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
 security:
 - kind: authentication

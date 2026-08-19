@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -201,15 +202,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 30.3
+  delta: -0.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 48.5
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 45.5
+    developer_ergonomics: 14.3
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 31.1
   provenance:
     agentic_access: derived
@@ -218,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
 security:

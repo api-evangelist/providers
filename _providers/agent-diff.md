@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,7 +187,9 @@ rate_limits:
   name: Agent Diff Rate Limits
   slug: agent-diff-rate-limits
 rules:
-- name: Agent Diff API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agent Diff API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -194,7 +197,10 @@ rules:
     info: 1
     warn: 4
   slug: agent-diff-jsonschema-spectral-rules
-- name: Agent Diff API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Agent Diff API Rules
   rule_count: 30
   severity_counts:
     error: 14
@@ -203,15 +209,17 @@ rules:
     warn: 16
   slug: agent-diff-spectral-rules
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -6.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 72.4
-    developer_ergonomics: 30.4
-    discoverability: 75.9
-    governance: 68.8
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 33.3
+    discoverability: 68.5
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 44.2
   provenance:
@@ -221,9 +229,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/screenshots/agent-diff-2026-06-20T165854.png
 security:
 - kind: authentication

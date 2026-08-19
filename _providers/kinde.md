@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -654,7 +655,9 @@ rate_limits:
   name: Kinde Rate Limits
   slug: kinde-rate-limits
 rules:
-- name: Kinde API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Kinde API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -662,7 +665,10 @@ rules:
     info: 1
     warn: 4
   slug: kinde-jsonschema-spectral-rules
-- name: Kinde API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Kinde API Rules
   rule_count: 12
   severity_counts:
     error: 2
@@ -671,16 +677,18 @@ rules:
     warn: 8
   slug: kinde-rules
 score:
-  band: exemplar
-  composite: 70.3
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: -7.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 69.2
-    developer_ergonomics: 60.9
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 25.0
+    contract_quality: 69.6
+    developer_ergonomics: 66.7
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 73.7
+    governance: 25.0
+    operational_transparency: 57.9
   previous_composite: 70.3
   provenance:
     agentic_access: derived
@@ -689,9 +697,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
 security:
 - kind: authentication

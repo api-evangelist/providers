@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -468,15 +468,17 @@ scopes:
   summary_line: 3 scopes · authorization_code/refresh_token/client_credentials/device_code
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 57.9
+  delta: 0.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 70.6
-    developer_ergonomics: 73.4
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 66.1
+    developer_ergonomics: 64.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 30.3
+    operational_transparency: 7.9
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -493,9 +495,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

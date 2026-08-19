@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,7 +286,10 @@ rate_limits:
   name: U S Treasury Fiscal Data Rate Limits
   slug: u-s-treasury-fiscal-data-rate-limits
 rules:
-- name: U.S. Treasury Fiscal Data API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: U.S. Treasury Fiscal Data API Rules
   rule_count: 31
   severity_counts:
     error: 6
@@ -293,7 +297,9 @@ rules:
     info: 12
     warn: 13
   slug: treasury-fiscal-data-api-rules
-- name: U.S. Treasury Fiscal Data API Rules
+- effective_rule_count: 5
+  extends: []
+  name: U.S. Treasury Fiscal Data API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -302,16 +308,18 @@ rules:
     warn: 4
   slug: u-s-treasury-fiscal-data-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.0
-  delta: 0.0
+  band: emerging
+  composite: 25.5
+  delta: -2.5
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 28.2
-    developer_ergonomics: 8.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 69.7
+    contract_quality: 26.8
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 69.7
+    operational_transparency: 10.5
   previous_composite: 28.0
   provenance:
     agentic_access: derived
@@ -326,8 +334,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png
 security:

@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: 'The MikMak Headless Commerce API (v1) lets brands and their authorized agencies power commerce experiences on brand-owned websites and media ad units with MikMak''s retailer network: product lookup by '
@@ -256,18 +256,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 47.6
+  delta: -4.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 54.8
-    developer_ergonomics: 67.4
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 16.7
+    contract_quality: 53.4
+    developer_ergonomics: 41.1
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 52.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:

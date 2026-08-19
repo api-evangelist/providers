@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Netradyne partner/developer API, documented on a Stoplight-hosted developer portal (sign-in required). Exposes fleet, driver, vehicle, safety-event, and video-access data for integrating Driver·i tele
@@ -110,18 +111,20 @@ overview: 'Netradyne publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 76
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 22.2
+  delta: 0.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netradyne/refs/heads/main/screenshots/netradyne-2026-08-07T184940.png
 security:

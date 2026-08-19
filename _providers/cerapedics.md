@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-17'
+  score: 16.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) server operated by Cerapedics at mcp.cerapedics.com. The endpoint publishes RFC 9728 protected-resource metadata and RFC 8414 authorization-server metad
@@ -122,14 +123,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 23.0
+  delta: -0.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.7
+    developer_ergonomics: 14.3
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 23.8
   provenance:
@@ -141,8 +144,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerapedics/refs/heads/main/screenshots/cerapedics-2026-08-07T163308.png
 security:

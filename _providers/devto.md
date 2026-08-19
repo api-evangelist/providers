@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -772,7 +773,9 @@ rate_limits:
   name: Devto Rate Limits
   slug: devto-rate-limits
 rules:
-- name: DEV Community API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DEV Community API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -781,15 +784,17 @@ rules:
     warn: 4
   slug: devto-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.1
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -5.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 58.7
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 57.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 44.1
   provenance:
@@ -799,9 +804,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/screenshots/devto-2026-06-20T175951.png
 security:
 - kind: authentication

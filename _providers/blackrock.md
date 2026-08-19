@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -169,7 +170,9 @@ rate_limits:
   name: Blackrock Rate Limits
   slug: blackrock-rate-limits
 rules:
-- name: BlackRock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BlackRock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,7 +180,9 @@ rules:
     info: 2
     warn: 3
   slug: blackrock-jsonschema-spectral-rules
-- name: BlackRock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BlackRock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,20 +191,22 @@ rules:
     warn: 5
   slug: blackrock-spectral-rules
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: emerging
+  composite: 19.4
+  delta: -12.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 29.0
-    developer_ergonomics: 10.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 2.4
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 31.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Blackrock Domain Security

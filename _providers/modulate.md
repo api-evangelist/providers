@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -268,15 +268,17 @@ rate_limits:
   slug: modulate-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 58.5
+  delta: 0.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 70.8
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 67.9
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 57.7
   provenance:
     conformance: first-party
@@ -287,8 +289,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

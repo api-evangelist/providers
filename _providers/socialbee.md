@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 21.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
@@ -195,19 +196,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.1
-  delta: 17.2
+  composite: 40.9
+  delta: -2.2
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 78.9
-  previous_composite: 25.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 76.3
+  previous_composite: 43.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/screenshots/socialbee-2026-06-20T194123.png
 security:
 - kind: authentication

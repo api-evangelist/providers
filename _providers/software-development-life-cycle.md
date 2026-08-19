@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: APIs and tools for capturing, tracking, and managing software requirements throughout the development life cycle, including user stories, acceptance criteria, and traceability matrices.
@@ -143,7 +144,9 @@ rate_limits:
   name: Software Development Life Cycle Rate Limits
   slug: software-development-life-cycle-rate-limits
 rules:
-- name: Software Development Life Cycle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Software Development Life Cycle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -152,20 +155,22 @@ rules:
     warn: 4
   slug: software-development-life-cycle-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.6
-  delta: 0.0
+  band: emerging
+  composite: 24.5
+  delta: -7.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 45.2
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 39.4
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-development-life-cycle/refs/heads/main/screenshots/software-development-life-cycle-2026-06-20T194134.png
 security:
 - kind: domain-security

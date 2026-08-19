@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -188,15 +189,17 @@ overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 80
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 46.4
+  delta: -3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.7
-    developer_ergonomics: 69.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 63.6
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -208,9 +211,10 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/screenshots/priorlabs-2026-08-17T081338.png
 security:
 - kind: authentication
   name: Priorlabs Authentication

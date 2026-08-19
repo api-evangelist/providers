@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -297,7 +298,9 @@ rate_limits:
   name: Anrok Rate Limits
   slug: anrok-rate-limits
 rules:
-- name: Anrok API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Anrok API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,15 +310,17 @@ rules:
   slug: anrok-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 43.4
+  delta: -6.7
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 73.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 70.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 50.1
   provenance:
     agentic_access: derived
@@ -324,9 +329,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/screenshots/anrok-2026-06-20T172015.png
 security:
 - kind: authentication

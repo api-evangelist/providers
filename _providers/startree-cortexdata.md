@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 35.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
@@ -166,15 +167,17 @@ overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 53
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 47.7
+  delta: -3.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 58.2
-    developer_ergonomics: 58.2
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 54.5
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 50.9
   provenance:
     conformance: first-party
@@ -185,9 +188,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:
 - kind: authentication
   name: Startree Cortexdata Authentication

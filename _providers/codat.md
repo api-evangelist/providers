@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -1295,7 +1296,9 @@ rate_limits:
   name: Codat Rate Limits
   slug: codat-rate-limits
 rules:
-- name: Codat API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Codat API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1305,15 +1308,17 @@ rules:
   slug: codat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 46.1
+  delta: -5.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 69.1
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 67.9
+    developer_ergonomics: 61.9
     discoverability: 48.1
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -1322,9 +1327,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:
 - kind: authentication

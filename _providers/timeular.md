@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-17'
+  score: 25.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -216,15 +217,17 @@ overview: 'Timeular publishes 11 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 122
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 43.6
+  delta: -1.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 70.4
-    developer_ergonomics: 45.1
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 68.6
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -236,9 +239,10 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/screenshots/timeular-2026-08-17T082357.png
 security:
 - kind: authentication
   name: Timeular Authentication

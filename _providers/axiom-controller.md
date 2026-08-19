@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -180,16 +181,18 @@ rate_limits:
   name: Axiom Controller Rate Limits
   slug: axiom-controller-rate-limits
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -4.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 45.5
-    developer_ergonomics: 56.5
+    contract_governance: 0.0
+    contract_quality: 42.7
+    developer_ergonomics: 40.5
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -198,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:

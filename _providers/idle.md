@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +188,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Idle Finance API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Idle Finance API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -196,16 +199,18 @@ rules:
     warn: 4
   slug: idle-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: -13.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 68.4
-    developer_ergonomics: 26.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 64.1
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -214,9 +219,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/screenshots/idle-2026-06-20T183210.png
 security:
 - kind: authentication

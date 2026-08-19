@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
@@ -298,7 +299,9 @@ rate_limits:
   name: Imgur Rate Limits
   slug: imgur-rate-limits
 rules:
-- name: Imgur API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Imgur API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,7 +309,10 @@ rules:
     info: 1
     warn: 4
   slug: imgur-jsonschema-spectral-rules
-- name: Imgur API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Imgur API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -315,16 +321,18 @@ rules:
     warn: 5
   slug: imgur-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -5.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 66.5
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 65.8
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 57.7
   provenance:
     contracts:
@@ -332,9 +340,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:
 - kind: domain-security

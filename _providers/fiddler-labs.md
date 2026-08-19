@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 39.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Fiddler REST API (v3) is organized around resource-oriented URLs with JSON request/response bodies, Bearer-token authentication, and standard HTTP verbs and status codes. Resource groups include P
@@ -183,21 +183,23 @@ rate_limits:
   slug: fiddler-labs-rate-limits
 score:
   band: strong
-  composite: 56.9
-  delta: 0.0
+  composite: 55.0
+  delta: -1.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.6
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 66.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 68.4
+    governance: 18.2
+    operational_transparency: 65.8
   previous_composite: 56.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/screenshots/fiddler-labs-2026-07-25T214410.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The Content API is Prismic's primary read surface. It queries published documents from a repository with a bracketed filter language (`q`), orderings, locale selection, link expansion (`fetchLinks`) a
@@ -256,19 +257,25 @@ rate_limits:
   slug: prismic-rate-limits
 score:
   band: exemplar
-  composite: 70.3
-  delta: 44.1
+  composite: 70.8
+  delta: 0.5
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 56.8
-    developer_ergonomics: 82.6
+    contract_governance: 18.2
+    contract_quality: 51.1
+    developer_ergonomics: 90.5
     discoverability: 100.0
-    governance: 12.5
-    operational_transparency: 86.8
-  previous_composite: 26.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 84.2
+  previous_composite: 70.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png
 security:
 - kind: authentication

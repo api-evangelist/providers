@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -209,15 +210,17 @@ scopes:
   slug: banksa-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.2
-  delta: 0.0
+  band: developing
+  composite: 40.8
+  delta: 3.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 52.2
-    developer_ergonomics: 34.2
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 18.4
   previous_composite: 37.2
   provenance:
@@ -235,9 +238,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 55.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 73.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

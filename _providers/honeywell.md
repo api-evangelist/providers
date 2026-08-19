@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Honeywell Forge is the connected enterprise platform that provides developer integration capabilities for building automation, industrial IoT, aerospace data, and connected building management. Access
@@ -104,18 +105,26 @@ rate_limits:
   slug: honeywell-rate-limits
 score:
   band: emerging
-  composite: 16.1
-  delta: 0.0
+  composite: 15.4
+  delta: -0.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 16.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png
 security:

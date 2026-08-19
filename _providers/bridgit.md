@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -387,12 +388,14 @@ overview: 'Bridgit publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 145
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 28.4
+  delta: -2.0
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 57.9
-    developer_ergonomics: 26.1
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
+    contract_quality: 54.8
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -404,8 +407,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

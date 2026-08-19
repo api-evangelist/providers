@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Artifacts API from Lemma — 6 operation(s) for artifacts.
@@ -191,14 +192,16 @@ overview: 'Lemma publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 112
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.2
+  delta: -1.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 68.7
-    developer_ergonomics: 58.7
+    contract_governance: 16.7
+    contract_quality: 64.3
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 28.9
   previous_composite: 46.4
   provenance:
@@ -210,9 +213,10 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/screenshots/uselemma-2026-08-17T082716.png
 security:
 - kind: authentication
   name: Uselemma Authentication

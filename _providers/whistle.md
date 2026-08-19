@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy tool. It lets developers intercept, inspect, and modify network traffic using a rule-based configuration system. Fea
@@ -129,7 +130,9 @@ rate_limits:
   name: Whistle Rate Limits
   slug: whistle-rate-limits
 rules:
-- name: Whistle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Whistle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -138,20 +141,22 @@ rules:
     warn: 4
   slug: whistle-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.2
-  delta: 0.0
+  band: emerging
+  composite: 23.3
+  delta: -6.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 29.6
+    developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 30.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whistle/refs/heads/main/screenshots/whistle-2026-06-20T201441.png
 security:
 - kind: domain-security

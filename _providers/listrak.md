@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -607,7 +607,9 @@ rate_limits:
   name: Listrak Rate Limits
   slug: listrak-rate-limits
 rules:
-- name: Listrak API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Listrak API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -622,32 +624,37 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 78.3
-  delta: 30.6
+  composite: 77.7
+  delta: -0.6
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 78.1
-    developer_ergonomics: 65.2
+    contract_governance: 41.7
+    contract_quality: 74.3
+    developer_ergonomics: 60.1
     discoverability: 66.7
-    governance: 89.6
-    operational_transparency: 86.8
-  previous_composite: 47.7
+    governance: 41.7
+    operational_transparency: 84.2
+  previous_composite: 78.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 53
+      total: 56
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:
 - kind: authentication

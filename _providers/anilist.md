@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -494,7 +494,9 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 22 more developer resources.'
 random_paper: 11
 rules:
-- name: AniList API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AniList API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -502,7 +504,10 @@ rules:
     info: 2
     warn: 3
   slug: anilist-jsonschema-spectral-rules
-- name: AniList API Rules
+- effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: AniList API Rules
   rule_count: 49
   severity_counts:
     error: 18
@@ -517,15 +522,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 40.4
+  delta: -6.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 28.7
-    developer_ergonomics: 65.2
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 9.8
+    contract_quality: 27.1
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -534,9 +541,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:
 - kind: authentication

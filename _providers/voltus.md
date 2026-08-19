@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -263,16 +263,18 @@ rate_limits:
   name: Voltus Rate Limits
   slug: voltus-rate-limits
 score:
-  band: developing
-  composite: 50.9
-  delta: 0.0
+  band: strong
+  composite: 56.9
+  delta: 6.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.7
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 61.5
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 57.9
+    governance: 30.3
+    operational_transparency: 55.3
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -289,10 +291,11 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 44.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/screenshots/voltus-2026-08-17T082820.png
 security:
 - kind: authentication
   name: Voltus Authentication

@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Public, anonymous, read-only JSON API reporting the live operational state of Utilita Energy's services. Eight GET endpoints under https://status.utilita.co.uk/api/v2 return the page status indicator,
@@ -197,14 +198,16 @@ overview: 'Utilita publishes 1 API on the [APIs.io](https://apis.io/) network: S
 random_paper: 19
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 51.4
+  delta: 8.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 66.4
-    developer_ergonomics: 34.2
+    contract_governance: 4.5
+    contract_quality: 65.0
+    developer_ergonomics: 37.5
     discoverability: 87.0
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 23.7
   previous_composite: 42.9
   provenance:
@@ -220,10 +223,11 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 62.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/screenshots/utilita-2026-08-17T082702.png
 security:
 - kind: authentication
   name: Utilita Authentication

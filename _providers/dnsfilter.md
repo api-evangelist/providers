@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -442,15 +443,17 @@ overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 77
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 43.4
+  delta: -1.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 57.6
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 60.5
+    developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -462,8 +465,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/screenshots/dnsfilter-2026-07-25T212151.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Exchange an API key for a short-lived access token.
@@ -186,15 +187,17 @@ overview: 'Reson8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 random_paper: 11
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 45.8
+  delta: -4.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 63.4
-    developer_ergonomics: 58.2
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 60.1
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 50.3
   provenance:
     conformance: derived
@@ -205,9 +208,10 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/screenshots/reson8-2026-08-17T081533.png
 security:
 - kind: authentication
   name: Reson8 Authentication

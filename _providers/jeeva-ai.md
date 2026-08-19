@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -161,19 +162,23 @@ rate_limits:
   slug: jeeva-ai-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 14.4
+  composite: 34.9
+  delta: -0.5
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 26.3
-  previous_composite: 21.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 23.7
+  previous_composite: 35.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeva-ai/refs/heads/main/screenshots/jeeva-ai-2026-07-25T223125.png
 security:
 - kind: domain-security

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 44.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -205,15 +205,17 @@ overview: 'Bucket publishes 1 API on the [APIs.io](https://apis.io/) network: Ap
 random_paper: 42
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 55.1
+  delta: -3.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 59.7
-    developer_ergonomics: 71.2
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 58.0
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 58.6
   provenance:
     agentic_access: derived
@@ -225,8 +227,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:

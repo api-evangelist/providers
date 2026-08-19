@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: A seller's orders (authenticated).
@@ -149,15 +150,17 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 random_paper: 41
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 31.1
+  delta: -1.3
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 58.2
-    developer_ergonomics: 27.7
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 24.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 32.4
   provenance:
     conformance: derived
@@ -168,8 +171,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

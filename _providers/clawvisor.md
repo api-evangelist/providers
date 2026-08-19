@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 52.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -209,15 +210,17 @@ overview: 'Clawvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 92
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 50.1
+  delta: -3.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 66.7
-    developer_ergonomics: 71.7
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 30.3
+    contract_quality: 62.9
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -229,8 +232,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
 security:

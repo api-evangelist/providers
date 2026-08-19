@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 45.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Installment, interest and service-fee breakdown.
@@ -228,15 +229,17 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 51.4
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  delta: 3.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.4
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 66.7
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 34.2
   previous_composite: 51.4
   provenance:
@@ -254,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:

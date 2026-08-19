@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 56.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,15 +200,17 @@ scopes:
   slug: liquid-death-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.2
-  delta: 0.0
+  band: developing
+  composite: 43.6
+  delta: 6.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 55.8
-    developer_ergonomics: 47.3
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 54.3
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 37.2
   provenance:
@@ -220,9 +223,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/screenshots/liquid-death-2026-08-07T171733.png
 security:
 - kind: authentication

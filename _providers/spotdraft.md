@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -636,7 +637,9 @@ rate_limits:
   name: Spotdraft Rate Limits
   slug: spotdraft-rate-limits
 rules:
-- name: SpotDraft API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SpotDraft API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -644,7 +647,10 @@ rules:
     info: 1
     warn: 4
   slug: spotdraft-jsonschema-spectral-rules
-- name: SpotDraft API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: SpotDraft API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -653,15 +659,17 @@ rules:
     warn: 5
   slug: spotdraft-rules
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 46.3
+  delta: -10.9
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.1
-    developer_ergonomics: 30.4
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 9.8
+    contract_quality: 64.4
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 57.2
   provenance:
@@ -671,9 +679,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:
 - kind: authentication

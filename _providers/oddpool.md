@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -148,15 +149,17 @@ overview: 'Oddpool publishes 1 API on the [APIs.io](https://apis.io/) network: W
   Oddpool''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, authentication, and 14 more developer resources.'
 random_paper: 8
 score:
-  band: thin
-  composite: 40.9
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  delta: 0.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 49.4
-    developer_ergonomics: 52.2
+    contract_governance: 4.5
+    contract_quality: 44.4
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 40.9
   provenance:
@@ -168,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/screenshots/oddpool-2026-08-07T185952.png
 security:

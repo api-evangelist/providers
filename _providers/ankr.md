@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -421,7 +422,10 @@ rate_limits:
   name: Ankr Rate Limits
   slug: ankr-rate-limits
 rules:
-- name: ankr API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: ankr API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -429,7 +433,9 @@ rules:
     info: 0
     warn: 7
   slug: ankr-asyncapi-spectral-rules
-- name: ankr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ankr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -437,7 +443,10 @@ rules:
     info: 2
     warn: 3
   slug: ankr-jsonschema-spectral-rules
-- name: ankr API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: ankr API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -446,15 +455,17 @@ rules:
     warn: 3
   slug: ankr-rules
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: -3.1
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 82.5
-    developer_ergonomics: 60.9
+    contract_governance: 26.5
+    contract_quality: 78.1
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 36.8
   previous_composite: 67.2
   provenance:
@@ -464,8 +475,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:

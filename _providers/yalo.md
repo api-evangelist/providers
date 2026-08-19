@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,19 +111,21 @@ overview: 'Yalo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 139
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 25.4
+  delta: 7.0
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 14.3
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 18.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: domain-security
   name: Yalo Domain Security

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -248,15 +249,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 43.8
+  delta: -1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 58.7
-    developer_ergonomics: 56.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 55.4
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -268,8 +271,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:

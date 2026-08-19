@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -216,7 +217,9 @@ rate_limits:
   name: Thermo Fisher Scientific Rate Limits
   slug: thermo-fisher-scientific-rate-limits
 rules:
-- name: Thermo Fisher Scientific API Rules
+- effective_rule_count: 9
+  extends: []
+  name: Thermo Fisher Scientific API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -224,7 +227,9 @@ rules:
     info: 1
     warn: 6
   slug: thermo-fisher-rules
-- name: Thermo Fisher Scientific API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Thermo Fisher Scientific API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,15 +239,23 @@ rules:
   slug: thermo-fisher-scientific-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 34.6
+  delta: 3.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 56.8
-    developer_ergonomics: 21.7
+    contract_governance: 39.4
+    contract_quality: 53.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 27.1
+    governance: 39.4
     operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 31.4
   provenance:
     agentic_access: derived
@@ -257,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png
 security:

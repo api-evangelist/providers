@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-17'
+  score: 55.7
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -232,15 +233,17 @@ rate_limits:
   slug: spaitial-ai-rate-limits
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 56.4
+  delta: -1.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 61.1
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 57.6
   provenance:
     conformance: derived
@@ -251,9 +254,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/screenshots/spaitial-ai-2026-08-17T125411.png
 security:
 - kind: authentication
   name: Spaitial Ai Authentication

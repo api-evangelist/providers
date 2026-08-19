@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -7307,7 +7308,9 @@ rate_limits:
   name: Amadeus Rate Limits
   slug: amadeus-rate-limits
 rules:
-- name: Amadeus API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amadeus API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -7315,7 +7318,10 @@ rules:
     info: 2
     warn: 3
   slug: amadeus-jsonschema-spectral-rules
-- name: Amadeus API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Amadeus API Rules
   rule_count: 32
   severity_counts:
     error: 6
@@ -7324,16 +7330,18 @@ rules:
     warn: 14
   slug: amadeus-rules
 score:
-  band: exemplar
-  composite: 70.4
-  delta: 0.0
+  band: developing
+  composite: 50.4
+  delta: -20.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 77.5
-    developer_ergonomics: 71.7
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 73.6
+    developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 70.4
   provenance:
     agentic_access: derived
@@ -7342,9 +7350,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:
 - kind: domain-security

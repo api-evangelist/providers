@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
+  score: 10.3
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for Keploy Cloud providing test generation and execution capabilities, app/test-suite management, recordings/mocks, test reports, schema coverage, API keys, clusters, and account/subscription
@@ -92,21 +93,23 @@ overview: 'Keploy publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 64
 score:
   band: minimal
-  composite: 7.9
-  delta: 0.0
+  composite: 8.1
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 70.4
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 7.9
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/screenshots/keploy-2026-07-25T223630.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -287,7 +288,9 @@ rate_limits:
   name: Checkpoint Rate Limits
   slug: checkpoint-rate-limits
 rules:
-- name: Check Point API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Check Point API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -296,15 +299,17 @@ rules:
     warn: 3
   slug: checkpoint-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 36.7
+  delta: -8.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 59.0
-    developer_ergonomics: 26.1
-    discoverability: 72.2
-    governance: 58.3
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 55.2
+    developer_ergonomics: 28.6
+    discoverability: 64.8
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 45.0
   provenance:
@@ -314,9 +319,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/screenshots/checkpoint-2026-07-25T205134.png
 security:
 - kind: authentication

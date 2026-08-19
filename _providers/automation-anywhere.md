@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -594,7 +595,9 @@ rate_limits:
   name: Automation Anywhere Rate Limits
   slug: automation-anywhere-rate-limits
 rules:
-- name: automation-anywhere API Rules
+- effective_rule_count: 6
+  extends: []
+  name: automation-anywhere API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -603,16 +606,18 @@ rules:
     warn: 4
   slug: automation-anywhere-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -6.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 72.2
-    developer_ergonomics: 34.8
-    discoverability: 40.7
-    governance: 58.3
-    operational_transparency: 10.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 71.5
+    developer_ergonomics: 35.7
+    discoverability: 59.3
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -621,9 +626,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/screenshots/automation-anywhere-2026-06-20T172657.png
 security:
 - kind: authentication

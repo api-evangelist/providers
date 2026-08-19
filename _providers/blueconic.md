@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-08-17'
+  score: 55.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -753,7 +754,9 @@ rate_limits:
   name: Blueconic Rate Limits
   slug: blueconic-rate-limits
 rules:
-- name: BlueConic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BlueConic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -768,26 +771,31 @@ scopes:
   summary_line: 27 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 76.7
-  delta: 31.6
+  composite: 70.4
+  delta: -6.3
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 71.2
-    developer_ergonomics: 80.4
+    contract_governance: 43.9
+    contract_quality: 69.4
+    developer_ergonomics: 78.6
     discoverability: 87.0
-    governance: 89.6
+    governance: 43.9
     operational_transparency: 94.7
-  previous_composite: 45.1
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:
 - kind: authentication

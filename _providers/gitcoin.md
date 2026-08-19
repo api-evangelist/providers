@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Gitcoin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Gitcoin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,16 +241,18 @@ rules:
     warn: 4
   slug: gitcoin-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 49.5
+  delta: -6.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 75.1
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 71.8
+    developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 56.1
   provenance:
     agentic_access: derived
@@ -256,9 +261,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/screenshots/gitcoin-2026-08-17T123547.png
 security:
 - kind: authentication
   name: Gitcoin Authentication

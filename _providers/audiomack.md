@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 27.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -243,15 +244,17 @@ overview: 'Audiomack publishes 8 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 48
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 33.5
+  delta: -4.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 55.4
-    developer_ergonomics: 43.5
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 54.4
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -260,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/screenshots/audiomack-2026-06-20T172548.png
 security:

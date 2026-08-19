@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: A public, free GraphQL endpoint that exposes queryable fields for countries, continents, and languages. Countries can be filtered by code, currency, or continent, and each country record includes fiel
@@ -90,15 +91,23 @@ overview: 'Countries GraphQL API publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 145
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 19.0
+  delta: -0.8
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 37.0
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 33.3
+    developer_ergonomics: 9.5
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 19.8
   regulatory:
     applies: true
@@ -106,8 +115,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/screenshots/countries-graphql-2026-06-20T175102.png
 security:

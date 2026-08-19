@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -374,7 +375,9 @@ rate_limits:
   name: Oura Rate Limits
   slug: oura-rate-limits
 rules:
-- name: Oura Ring API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oura Ring API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -389,14 +392,16 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 51.5
+  delta: -1.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.0
-    developer_ergonomics: 21.7
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 52.7
   provenance:
@@ -412,8 +417,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png
 security:

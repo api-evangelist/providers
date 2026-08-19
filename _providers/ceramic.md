@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -248,7 +249,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Ceramic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ceramic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,15 +261,17 @@ rules:
   slug: ceramic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 28.8
+  delta: -10.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 40.6
-    developer_ergonomics: 15.2
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 38.3
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -275,9 +280,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/screenshots/ceramic-2026-06-20T174136.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Integration API from Flash App — 1 operation(s) for integration.
@@ -184,15 +185,17 @@ overview: 'Flash App publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 147
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 44.4
+  delta: -2.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 55.2
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 51.7
+    developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 46.7
   provenance:
     conformance: derived
@@ -209,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

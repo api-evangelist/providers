@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: DEGIRO API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DEGIRO API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,16 +222,18 @@ rules:
     warn: 3
   slug: degiro-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.3
-  delta: 0.0
+  band: thin
+  composite: 33.2
+  delta: -13.1
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 56.7
-    developer_ergonomics: 17.4
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 9.8
+    contract_quality: 53.4
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -242,10 +247,11 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/screenshots/degiro-2026-08-17T080852.png
 security:
 - kind: authentication
   name: Degiro Authentication

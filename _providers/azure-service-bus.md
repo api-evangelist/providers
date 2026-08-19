@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -293,7 +294,10 @@ rate_limits:
   name: Azure Service Bus Rate Limits
   slug: azure-service-bus-rate-limits
 rules:
-- name: Azure Service Bus API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Azure Service Bus API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -301,7 +305,9 @@ rules:
     info: 1
     warn: 2
   slug: azure-service-bus-asyncapi-spectral-rules
-- name: Azure Service Bus API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure Service Bus API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,7 +315,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-service-bus-jsonschema-spectral-rules
-- name: Azure Service Bus API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Azure Service Bus API Rules
   rule_count: 14
   severity_counts:
     error: 8
@@ -324,14 +333,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 46.5
+  delta: -5.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 76.7
-    developer_ergonomics: 45.7
+    contract_governance: 13.6
+    contract_quality: 71.9
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 13.6
     operational_transparency: 34.2
   previous_composite: 52.2
   provenance:
@@ -341,9 +352,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:
 - kind: authentication

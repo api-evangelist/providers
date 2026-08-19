@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -237,15 +237,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 53.3
+  delta: 1.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.2
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 67.7
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -257,8 +259,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

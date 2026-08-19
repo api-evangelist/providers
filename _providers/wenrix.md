@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 4.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Predictive price-assurance API that optimizes fares across EDIFACT, NDC, GDS, aggregators, and low-cost carriers, applying margin protection at both the search and post-booking stages.
@@ -101,20 +102,22 @@ overview: 'Wenrix publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 73
 score:
   band: emerging
-  composite: 19.9
-  delta: 0.0
+  composite: 15.3
+  delta: -4.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.9
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

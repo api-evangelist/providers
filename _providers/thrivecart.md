@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -10,16 +9,17 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for a ThriveCart account. Reads products, bump offers, upsells, downsells and their pricing options; searches transactions and affiliates; reads customer records; refunds transactions; cancel
@@ -212,26 +212,38 @@ scopes:
   slug: thrivecart-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 63.1
-  delta: 0.0
+  band: exemplar
+  composite: 68.3
+  delta: 5.2
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 59.7
-    developer_ergonomics: 58.7
+    contract_governance: 30.3
+    contract_quality: 59.4
+    developer_ergonomics: 58.3
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 73.7
+    governance: 30.3
+    operational_transparency: 71.1
   previous_composite: 63.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/screenshots/thrivecart-2026-08-17T082349.png
 security:
 - kind: authentication
   name: Thrivecart Authentication

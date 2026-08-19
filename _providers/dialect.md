@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -250,15 +251,17 @@ overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 130
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 50.5
+  delta: 0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 64.9
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 61.7
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -276,8 +279,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 5
@@ -276,7 +277,9 @@ rate_limits:
   name: Nycu Rate Limits
   slug: nycu-rate-limits
 rules:
-- name: National Yang Ming Chiao Tung University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: National Yang Ming Chiao Tung University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,7 +287,9 @@ rules:
     info: 2
     warn: 3
   slug: nycu-jsonschema-spectral-rules
-- name: National Yang Ming Chiao Tung University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: National Yang Ming Chiao Tung University API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -294,14 +299,16 @@ rules:
   slug: nycu-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 29.9
+  delta: -4.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 49.5
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 47.7
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 34.5
   provenance:
@@ -314,11 +321,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png
 security:

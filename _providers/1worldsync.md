@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,14 +190,16 @@ overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 52.4
+  delta: 1.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 59.0
-    developer_ergonomics: 64.7
+    contract_governance: 30.3
+    contract_quality: 57.3
+    developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 50.9
   provenance:
@@ -209,8 +212,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

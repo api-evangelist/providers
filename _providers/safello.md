@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 39.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -240,16 +241,18 @@ scopes:
   slug: safello-scopes
   summary_line: 8 scopes · urn:safello:params:oauth:grant-type:bankid/clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 51.2
-  delta: 0.0
+  band: strong
+  composite: 54.4
+  delta: 3.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 60.8
-    developer_ergonomics: 60.3
+    contract_governance: 30.3
+    contract_quality: 58.1
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -267,9 +270,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png
 security:
 - kind: authentication
   name: Safello Authentication

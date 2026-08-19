@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -428,7 +429,9 @@ rate_limits:
   name: Therundown Rate Limits
   slug: therundown-rate-limits
 rules:
-- name: The Rundown API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Rundown API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -438,15 +441,17 @@ rules:
   slug: therundown-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 44.3
+  delta: -7.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 60.3
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 58.2
+    developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -455,9 +460,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/screenshots/therundown-2026-06-20T195255.png
 security:
 - kind: authentication

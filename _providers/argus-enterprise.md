@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -622,7 +623,9 @@ rate_limits:
   name: Argus Enterprise Rate Limits
   slug: argus-enterprise-rate-limits
 rules:
-- name: ARGUS Enterprise API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ARGUS Enterprise API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -630,7 +633,10 @@ rules:
     info: 2
     warn: 3
   slug: argus-enterprise-jsonschema-spectral-rules
-- name: ARGUS Enterprise API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: ARGUS Enterprise API Rules
   rule_count: 23
   severity_counts:
     error: 6
@@ -640,15 +646,17 @@ rules:
   slug: argus-enterprise-spectral-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 44.3
+  delta: -7.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 66.2
-    developer_ergonomics: 50.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 18.4
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -657,10 +665,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-06-20T172428.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-08-17T082506.png
 security:
 - kind: authentication
   name: Argus Enterprise Authentication

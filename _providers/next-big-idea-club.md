@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Membership, subscription, library and course operations.
@@ -127,14 +128,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 35.1
+  delta: 2.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 53.7
-    developer_ergonomics: 19.6
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 12.1
+    contract_quality: 50.3
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 0.0
   previous_composite: 32.8
   provenance:
@@ -144,8 +147,14 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:

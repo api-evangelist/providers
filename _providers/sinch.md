@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 36.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -561,7 +562,10 @@ rate_limits:
   name: Sinch Rate Limits
   slug: sinch-rate-limits
 rules:
-- name: Sinch API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Sinch API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -569,7 +573,9 @@ rules:
     info: 1
     warn: 6
   slug: sinch-asyncapi-spectral-rules
-- name: Sinch API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Sinch API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -577,7 +583,9 @@ rules:
     info: 1
     warn: 5
   slug: sinch-jsonschema-spectral-rules
-- name: Sinch API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Sinch API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -592,14 +600,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 57.0
+  delta: -2.7
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 80.4
-    developer_ergonomics: 45.7
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 13.6
+    contract_quality: 76.5
+    developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 28.9
   previous_composite: 59.7
   provenance:
@@ -614,9 +624,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

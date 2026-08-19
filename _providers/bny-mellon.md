@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -114,15 +115,17 @@ overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 127
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 19.1
+  delta: -2.6
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 21.7
   regulatory:
     applies: true
@@ -130,8 +133,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-mellon/refs/heads/main/screenshots/bny-mellon-2026-07-25T203518.png
 security:

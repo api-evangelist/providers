@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -440,7 +441,9 @@ rate_limits:
   name: Adafruit Io Rate Limits
   slug: adafruit-io-rate-limits
 rules:
-- name: Adafruit IO API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adafruit IO API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -448,7 +451,10 @@ rules:
     info: 1
     warn: 4
   slug: adafruit-io-jsonschema-spectral-rules
-- name: Adafruit IO API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Adafruit IO API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -457,15 +463,17 @@ rules:
     warn: 5
   slug: adafruit-io-rules
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: -5.3
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 67.0
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 67.9
   provenance:
@@ -475,9 +483,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:
 - kind: authentication

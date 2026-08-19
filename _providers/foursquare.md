@@ -11,25 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +266,9 @@ rate_limits:
   name: Foursquare Rate Limits
   slug: foursquare-rate-limits
 rules:
-- name: Foursquare API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Foursquare API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,7 +276,9 @@ rules:
     info: 1
     warn: 4
   slug: foursquare-jsonschema-spectral-rules
-- name: Foursquare API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Foursquare API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -283,15 +288,17 @@ rules:
   slug: foursquare-places-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 41.3
+  delta: -8.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 72.0
-    developer_ergonomics: 54.3
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 10.5
+    contract_governance: 9.8
+    contract_quality: 67.5
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -300,9 +307,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/screenshots/foursquare-2026-06-20T181457.png
 security:
 - kind: authentication

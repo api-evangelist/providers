@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -793,7 +794,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: iNaturalist API Rules
+- effective_rule_count: 5
+  extends: []
+  name: iNaturalist API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -803,14 +806,16 @@ rules:
   slug: inaturalist-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 43.3
+  delta: -6.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 49.2
-    developer_ergonomics: 34.8
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 49.4
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 49.7
   provenance:
@@ -820,9 +825,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/screenshots/inaturalist-2026-06-20T183309.png
 security:
 - kind: authentication

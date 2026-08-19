@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -346,27 +347,32 @@ scopes:
   slug: rocketreach-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 23.5
+  band: strong
+  composite: 62.7
+  delta: -3.6
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 71.6
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 69.2
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 47.4
-  previous_composite: 42.8
+    governance: 30.3
+    operational_transparency: 40.8
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:
 - kind: authentication

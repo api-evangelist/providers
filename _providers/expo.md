@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -153,18 +154,20 @@ rate_limits:
   slug: expo-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 31.4
+  delta: -0.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 17.7
-    developer_ergonomics: 17.4
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/screenshots/expo-2026-06-20T180939.png
 security:

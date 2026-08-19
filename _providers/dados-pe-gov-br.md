@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: CKAN Action API for Pernambuco Open Data, covering ~40 datasets. Base URL https://dados.pe.gov.br/api/3/action/.
@@ -91,12 +92,14 @@ rate_limits:
   slug: dados-pe-gov-br-rate-limits
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 12.0
+  delta: -1.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
@@ -107,8 +110,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dados-pe-gov-br/refs/heads/main/screenshots/dados-pe-gov-br-2026-06-20T175429.png
 security:

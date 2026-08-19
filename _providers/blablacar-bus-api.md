@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -223,7 +224,9 @@ rate_limits:
   name: Blablacar Bus Api Rate Limits
   slug: blablacar-bus-api-rate-limits
 rules:
-- name: BlaBlaCar Bus API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BlaBlaCar Bus API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,10 @@ rules:
     info: 1
     warn: 4
   slug: blablacar-bus-api-jsonschema-spectral-rules
-- name: BlaBlaCar Bus API API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: BlaBlaCar Bus API API Rules
   rule_count: 41
   severity_counts:
     error: 13
@@ -241,15 +247,17 @@ rules:
   slug: blablacar-bus-api-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 27.2
+  delta: -6.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 24.3
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 22.8
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -258,9 +266,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/screenshots/blablacar-bus-api-2026-06-20T173332.png
 security:
 - kind: authentication

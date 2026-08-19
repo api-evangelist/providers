@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -557,7 +558,9 @@ rate_limits:
   name: Openweathermap Rate Limits
   slug: openweathermap-rate-limits
 rules:
-- name: OpenWeatherMap API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OpenWeatherMap API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -565,7 +568,10 @@ rules:
     info: 1
     warn: 4
   slug: openweathermap-jsonschema-spectral-rules
-- name: OpenWeatherMap API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: OpenWeatherMap API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -574,16 +580,18 @@ rules:
     warn: 10
   slug: openweathermap-rules
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: -8.3
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 78.7
-    developer_ergonomics: 56.5
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 41.7
+    contract_quality: 76.9
+    developer_ergonomics: 59.5
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 36.8
+    governance: 41.7
+    operational_transparency: 34.2
   previous_composite: 70.6
   provenance:
     agentic_access: derived
@@ -594,9 +602,9 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:
 - kind: authentication

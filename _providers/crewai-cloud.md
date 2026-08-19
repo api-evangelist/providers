@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -441,7 +442,10 @@ rate_limits:
   name: Crewai Cloud Rate Limits
   slug: crewai-cloud-rate-limits
 rules:
-- name: CrewAI Cloud API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: CrewAI Cloud API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -449,7 +453,10 @@ rules:
     info: 0
     warn: 4
   slug: crewai-amp-rest-api-rules
-- name: CrewAI Cloud API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: CrewAI Cloud API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -457,7 +464,9 @@ rules:
     info: 0
     warn: 7
   slug: crewai-cloud-asyncapi-spectral-rules
-- name: CrewAI Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CrewAI Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -466,16 +475,18 @@ rules:
     warn: 3
   slug: crewai-cloud-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -13.9
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 77.8
-    developer_ergonomics: 76.1
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 45.5
+    contract_quality: 73.9
+    developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 45.5
+    operational_transparency: 18.4
   previous_composite: 66.5
   provenance:
     agentic_access: derived
@@ -484,9 +495,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/screenshots/crewai-cloud-2026-06-20T175231.png
 security:
 - kind: authentication

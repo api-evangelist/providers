@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -156,23 +157,25 @@ scopes:
   slug: lemon-perfect-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken/jwtBearer
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: developing
+  composite: 41.4
+  delta: 0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 48.1
-    developer_ergonomics: 45.1
+    contract_governance: 18.2
+    contract_quality: 43.3
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 31.6
   previous_composite: 41.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/screenshots/lemon-perfect-2026-08-07T171544.png
 security:

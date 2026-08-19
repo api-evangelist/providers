@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,12 +108,14 @@ overview: 'DNS Check publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 135
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 30.1
+  delta: -0.3
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 54.5
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 51.0
+    developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
@@ -124,8 +127,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/screenshots/dns-check-2026-06-20T180058.png
 security:

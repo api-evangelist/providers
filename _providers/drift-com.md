@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -224,15 +225,17 @@ rate_limits:
   slug: drift-com-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 30.9
+  delta: -2.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 49.0
-    developer_ergonomics: 43.5
+    contract_governance: 0.0
+    contract_quality: 47.0
+    developer_ergonomics: 36.9
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -241,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:

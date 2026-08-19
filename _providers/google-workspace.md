@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -506,7 +507,9 @@ rate_limits:
   name: Google Workspace Rate Limits
   slug: google-workspace-rate-limits
 rules:
-- name: Google Workspace API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Workspace API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -514,7 +517,10 @@ rules:
     info: 2
     warn: 4
   slug: google-workspace-jsonschema-spectral-rules
-- name: Google Workspace API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Google Workspace API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -529,15 +535,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 47.5
+  delta: -7.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 70.9
-    developer_ergonomics: 54.3
+    contract_governance: 9.8
+    contract_quality: 69.9
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -546,9 +554,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/screenshots/google-workspace-2026-06-20T182248.png
 security:
 - kind: authentication

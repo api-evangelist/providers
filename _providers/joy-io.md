@@ -1,6 +1,76 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://joy.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://faq.joy.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://joy.io/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://joy.io/nos-offres
+- group: start
+  title: ''
+  type: Login
+  url: https://app.joy.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.privateaser.com/cgu
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://joy.io/politique-de-confidentialite
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/joy-io-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/joy-io-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/joy-io-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/joy-io-packages.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/joy-io-domain-security.yml
 coverage:
   checked: '2026-08-17'
   detail: Joy ships software only as an end-user product — a manager web/mobile app plus a hosted booking widget — and publishes no developer portal, API reference, OpenAPI, webhook catalogue or SDK; the private backend its own app calls, manager-api.privateaser.com (read from https://app.joy.io/config.js), returns HTTP 404 on /openapi.json and every other spec path and is gated by an AWS Cognito user pool, and the 90-article help-center index at faq.joy.io/llms.txt never uses the word "api".
@@ -23,7 +93,38 @@ modified: '2026-08-17'
 name: Joy (ex-Privateaser)
 nav: Providers
 network: true
+overview: 'Joy (ex-Privateaser) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Reservations, Bookings, and Restaurants.
+
+
+  Joy (ex-Privateaser)''s developer surface includes support, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Joy Io Plans Pricing
+  plan_count: 3
+  slug: joy-io-plans-pricing
 random_paper: 3
+rate_limits:
+- limit_count: 0
+  name: Joy Io Rate Limits
+  slug: joy-io-rate-limits
+score:
+  band: emerging
+  composite: 23.5
+  facets:
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 68.5
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: domain-security
+  name: Joy Io Domain Security
+  slug: joy-io-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: joy-io
 tags:
 - Company
@@ -35,4 +136,5 @@ tags:
 - Events
 - SaaS
 - France
+website: https://joy.io/
 ---

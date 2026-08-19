@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -186,7 +187,9 @@ rate_limits:
   name: Scalable Software And Systems Rate Limits
   slug: scalable-software-and-systems-rate-limits
 rules:
-- name: Scalable Software and Systems API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scalable Software and Systems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -196,14 +199,16 @@ rules:
   slug: scalable-software-and-systems-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 29.1
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 55.2
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 52.4
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 34.9
   provenance:
@@ -213,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/screenshots/scalable-software-and-systems-2026-06-20T193456.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -167,7 +168,9 @@ rate_limits:
   name: Zoho Sheet Rate Limits
   slug: zoho-sheet-rate-limits
 rules:
-- name: Zoho Sheet API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zoho Sheet API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,14 +185,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 43.8
+  delta: -5.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 58.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 49.6
   provenance:
@@ -199,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/screenshots/zoho-sheet-2026-06-20T201949.png
 security:
 - kind: authentication

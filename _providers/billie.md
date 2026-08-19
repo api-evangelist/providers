@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'OAuth2 client-credentials REST API for B2B BNPL: checkout sessions, hosted payment page, backend order creation, order management, captures (invoices), payment confirmation, refunds/credit notes, and '
@@ -198,15 +199,17 @@ overview: 'Billie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 29
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 40.3
+  delta: -4.8
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 54.2
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 39.5
+    governance: 4.5
+    operational_transparency: 31.6
   previous_composite: 45.1
   provenance:
     conformance: derived
@@ -218,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/screenshots/billie-2026-07-25T202942.png
 security:

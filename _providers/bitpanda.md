@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 37.8
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -204,15 +205,17 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 90
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 50.9
+  delta: -5.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 62.7
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 58.7
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 55.9
   provenance:
     conformance: first-party
@@ -229,9 +232,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:
 - kind: authentication

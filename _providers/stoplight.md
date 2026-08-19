@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -205,7 +206,9 @@ rate_limits:
   name: Stoplight Rate Limits
   slug: stoplight-rate-limits
 rules:
-- name: Stoplight API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stoplight API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,20 +217,22 @@ rules:
     warn: 3
   slug: stoplight-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 35.4
+  delta: -6.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 12.9
-    developer_ergonomics: 41.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 39.5
   previous_composite: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:
 - kind: domain-security

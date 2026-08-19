@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-17'
+  score: 24.3
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The Account API from Johrh — 9 operation(s) for account.
@@ -132,11 +133,13 @@ overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 92
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 17.7
+  delta: -0.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 43.8
+    contract_governance: 0.0
+    contract_quality: 41.0
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 0.0
@@ -148,8 +151,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -183,7 +184,10 @@ rate_limits:
   name: Stream Io Rate Limits
   slug: stream-io-rate-limits
 rules:
-- name: Stream API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Stream API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -192,15 +196,17 @@ rules:
     warn: 5
   slug: stream-io-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -3.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 61.5
-    developer_ergonomics: 19.6
+    contract_governance: 11.4
+    contract_quality: 61.1
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 42.0
   provenance:
@@ -210,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:

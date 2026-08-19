@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -693,7 +694,9 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 43 more developer resources.'
 random_paper: 116
 rules:
-- name: EVE Online API Rules
+- effective_rule_count: 5
+  extends: []
+  name: EVE Online API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -701,7 +704,10 @@ rules:
     info: 1
     warn: 4
   slug: eve-online-jsonschema-spectral-rules
-- name: EVE Online API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: EVE Online API Rules
   rule_count: 37
   severity_counts:
     error: 11
@@ -716,14 +722,16 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 41.3
+  delta: -7.7
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 59.4
-    developer_ergonomics: 60.9
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 9.8
+    contract_quality: 57.9
+    developer_ergonomics: 64.3
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 49.0
   provenance:
@@ -733,9 +741,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:
 - kind: authentication

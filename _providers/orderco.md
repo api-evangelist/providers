@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: The individual services Order.co reports health for.
@@ -256,16 +257,18 @@ overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
 random_paper: 5
 score:
-  band: emerging
-  composite: 27.5
-  delta: 0.0
+  band: thin
+  composite: 31.4
+  delta: 3.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 13.5
-    developer_ergonomics: 14.7
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 12.7
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 27.5
   provenance:
     conformance: derived
@@ -281,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:

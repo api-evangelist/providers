@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 16.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
@@ -162,20 +163,26 @@ rate_limits:
   name: Ematic Solutions Rate Limits
   slug: ematic-solutions-rate-limits
 score:
-  band: thin
-  composite: 28.6
-  delta: 20.2
+  band: emerging
+  composite: 24.8
+  delta: -3.8
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 8.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 28.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -263,14 +264,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 47.7
+  delta: -2.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 60.5
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 50.5
   provenance:
@@ -283,8 +286,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/screenshots/clarifeye-2026-07-25T205502.png
 security:

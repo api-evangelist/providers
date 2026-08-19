@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -311,7 +312,9 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
 random_paper: 127
 rules:
-- name: Amazon CloudTrail API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CloudTrail API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -319,7 +322,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-cloudtrail-jsonschema-spectral-rules
-- name: Amazon CloudTrail API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon CloudTrail API Rules
   rule_count: 24
   severity_counts:
     error: 12
@@ -328,16 +334,18 @@ rules:
     warn: 10
   slug: amazon-cloudtrail-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 50.8
+  delta: -6.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 73.1
-    developer_ergonomics: 39.1
+    contract_governance: 41.7
+    contract_quality: 69.9
+    developer_ergonomics: 33.3
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -348,9 +356,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:
 - kind: domain-security

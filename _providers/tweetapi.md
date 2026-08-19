@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 29.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -184,19 +185,26 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 48.3
+  delta: -0.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 63.2
+    governance: 18.2
+    operational_transparency: 60.5
   previous_composite: 48.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/screenshots/tweetapi-2026-08-17T082504.png
 security:
 - kind: authentication
   name: Tweetapi Authentication

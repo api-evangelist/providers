@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -311,7 +312,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Mangopay API Rules
+- effective_rule_count: 2
+  extends: []
+  name: Mangopay API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -326,15 +329,17 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 43.9
+  delta: -5.3
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 63.1
-    developer_ergonomics: 39.1
+    contract_governance: 7.6
+    contract_quality: 59.2
+    developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 52.1
-    operational_transparency: 44.7
+    governance: 7.6
+    operational_transparency: 26.3
   previous_composite: 49.2
   provenance:
     agentic_access: derived
@@ -349,9 +354,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:
 - kind: authentication

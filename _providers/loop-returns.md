@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -246,7 +247,9 @@ rate_limits:
   name: Loop Returns Rate Limits
   slug: loop-returns-rate-limits
 rules:
-- name: Loop Returns API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Loop Returns API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,15 +264,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 57.6
+  delta: -1.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 68.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 70.2
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 57.9
+    governance: 25.0
+    operational_transparency: 55.3
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -284,8 +289,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -209,14 +210,16 @@ overview: 'Materials Zone publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 110
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 38.1
+  delta: -2.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 59.3
-    developer_ergonomics: 56.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 59.8
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 40.7
   provenance:
@@ -235,8 +238,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

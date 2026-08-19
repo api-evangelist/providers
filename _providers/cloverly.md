@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -244,7 +245,9 @@ rate_limits:
   name: Cloverly Rate Limits
   slug: cloverly-rate-limits
 rules:
-- name: Cloverly API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cloverly API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +255,10 @@ rules:
     info: 1
     warn: 4
   slug: cloverly-jsonschema-spectral-rules
-- name: Cloverly API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Cloverly API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -262,15 +268,23 @@ rules:
   slug: cloverly-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 50.6
+  delta: 0.2
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 67.9
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 64.7
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -285,8 +299,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
 security:

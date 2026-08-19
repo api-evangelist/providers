@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -660,7 +661,9 @@ rate_limits:
   name: Facebook Rate Limits
   slug: facebook-rate-limits
 rules:
-- name: Facebook API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Facebook API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -668,7 +671,10 @@ rules:
     info: 1
     warn: 4
   slug: facebook-jsonschema-spectral-rules
-- name: Facebook API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: Facebook API Rules
   rule_count: 33
   severity_counts:
     error: 13
@@ -677,16 +683,18 @@ rules:
     warn: 15
   slug: facebook-spectral-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -7.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 23.6
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 22.2
+    developer_ergonomics: 45.2
     discoverability: 88.9
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -695,9 +703,9 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:
 - kind: authentication

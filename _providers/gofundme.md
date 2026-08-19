@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 api_count: 72
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -628,15 +629,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials/password
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 60.0
+  delta: -1.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.9
-    developer_ergonomics: 56.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 65.4
+    developer_ergonomics: 28.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 61.5
   provenance:
     conformance: derived
@@ -652,9 +655,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:

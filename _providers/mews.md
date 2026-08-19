@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 1
@@ -3739,7 +3740,9 @@ rate_limits:
   name: Mews Rate Limits
   slug: mews-rate-limits
 rules:
-- name: Mews API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mews API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3749,15 +3752,17 @@ rules:
   slug: mews-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 27.0
+  delta: -6.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 59.0
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 57.3
+    developer_ergonomics: 2.4
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -3766,9 +3771,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews/refs/heads/main/screenshots/mews-2026-06-20T185313.png
 security:
 - kind: domain-security

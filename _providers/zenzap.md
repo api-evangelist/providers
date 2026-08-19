@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -243,14 +244,16 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 53.0
+  delta: 0.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 73.1
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 71.6
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 52.1
   provenance:
@@ -263,9 +266,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/screenshots/zenzap-2026-08-17T083047.png
 security:
 - kind: authentication
   name: Zenzap Authentication

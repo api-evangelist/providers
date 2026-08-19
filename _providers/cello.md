@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-08-17'
+  score: 57.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -256,16 +257,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.0
-  delta: 7.4
+  composite: 59.4
+  delta: -0.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 54.3
-    developer_ergonomics: 75.5
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 30.3
+    contract_quality: 51.3
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
-  previous_composite: 52.6
+    governance: 30.3
+    operational_transparency: 18.4
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,10 +278,10 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:
 - kind: authentication

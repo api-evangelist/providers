@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization surface behind MainStreet sign-in, served from login.mainstreet.com on an Auth0 tenant. It publishes a complete OIDC Discovery 1.0 document and an RFC 8414
@@ -131,20 +132,22 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/implicit/deviceCode
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 30.6
+  delta: 0.3
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 50.0
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 30.3
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/screenshots/mainstreet-2026-08-07T171931.png
 security:

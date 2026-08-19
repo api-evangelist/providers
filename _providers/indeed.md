@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -620,7 +621,9 @@ rate_limits:
   name: Indeed Rate Limits
   slug: indeed-rate-limits
 rules:
-- name: Indeed API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Indeed API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -628,7 +631,10 @@ rules:
     info: 2
     warn: 3
   slug: indeed-jsonschema-spectral-rules
-- name: Indeed API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Indeed API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -643,15 +649,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 42.8
+  delta: -12.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 74.6
-    developer_ergonomics: 47.8
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 9.8
+    contract_quality: 75.5
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 31.6
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -660,9 +668,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/screenshots/indeed-2026-06-20T183344.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -257,15 +258,17 @@ rate_limits:
   slug: apollo-rate-limits
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 34.9
+  delta: -5.3
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 53.6
-    developer_ergonomics: 26.1
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 13.1
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -274,9 +277,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/screenshots/apollo-2026-06-20T172305.png
 security:
 - kind: domain-security

@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-17'
+  score: 25.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,16 +140,18 @@ overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Ch
   Preply''s developer surface includes engineering blog, support, and 16 more developer resources.'
 random_paper: 72
 score:
-  band: thin
-  composite: 30.0
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: 9.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 45.5
-    developer_ergonomics: 10.3
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 44.8
+    developer_ergonomics: 8.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 30.0
   provenance:
     agentic_access: derived
@@ -160,9 +163,15 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: domain-security
   name: Preply Domain Security

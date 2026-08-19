@@ -12,26 +12,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
-    mcp_server: false
+    idempotency: na
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 70.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,25 +254,38 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.1
-  delta: 0.0
+  composite: 73.4
+  delta: 1.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 64.9
-    developer_ergonomics: 82.6
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 16.7
+    contract_quality: 67.1
+    developer_ergonomics: 85.7
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 84.2
   previous_composite: 72.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 71.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
 security:
 - kind: authentication
   name: Alphaai Authentication

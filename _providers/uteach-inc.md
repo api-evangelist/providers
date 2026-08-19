@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -142,20 +143,28 @@ overview: 'Uteach, Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 99
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 38.7
+  delta: 3.5
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 17.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 19.0
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 35.2
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

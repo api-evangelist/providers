@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'Rite Aid supports Electronic Data Interchange (EDI) for vendor integration using ANSI/ASC X12 standards (versions 4010 and 5010). Supported transactions include purchase orders (850), invoices (810), '
@@ -146,7 +147,9 @@ rate_limits:
   name: Rite Aid Rate Limits
   slug: rite-aid-rate-limits
 rules:
-- name: Rite Aid API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rite Aid API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -156,25 +159,27 @@ rules:
   slug: rite-aid-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 14.7
+  delta: -11.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 12.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
-    discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 10.5
+    discoverability: 59.3
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 26.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 13.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/screenshots/rite-aid-2026-06-20T193130.png
 security:
 - kind: domain-security

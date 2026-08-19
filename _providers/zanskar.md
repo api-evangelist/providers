@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,12 +75,14 @@ overview: 'Zanskar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 17
 score:
   band: minimal
-  composite: 11.7
-  delta: 0.0
+  composite: 7.0
+  delta: -4.7
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 0.0
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -89,9 +92,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 13.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

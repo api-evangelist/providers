@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -27,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Ritten External API is the public REST contract for Ritten integrating partners. It covers patients (create, read, patch, vitals, forms, relationships, attachments, external-id lookup), contacts, '
@@ -170,27 +170,37 @@ rate_limits:
   slug: ritten-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 29.7
+  composite: 52.6
+  delta: 4.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 58.7
-    developer_ergonomics: 54.3
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 60.6
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 18.3
+    governance: 30.3
+    operational_transparency: 42.1
+  previous_composite: 48.0
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/screenshots/ritten-2026-08-17T081615.png
 security:
 - kind: authentication
   name: Ritten Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -111,7 +112,9 @@ rate_limits:
   name: Ugi Rate Limits
   slug: ugi-rate-limits
 rules:
-- name: UGI Corporation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: UGI Corporation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -121,14 +124,16 @@ rules:
   slug: ugi-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 13.6
+  delta: -6.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 17.7
+    contract_governance: 9.8
+    contract_quality: 15.5
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 19.8
   regulatory:
@@ -137,9 +142,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png
 security:
 - kind: domain-security

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.9
-  scored_at: '2026-08-17'
+  score: 5.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Cresta's production API host. https://api.cresta.com resolves and answers anonymously with a gRPC-JSON transcoding gateway error envelope ({"code":2,"httpStatus":500,"message":"the requested gRPC meth
@@ -304,19 +305,24 @@ rate_limits:
   slug: cresta-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 6.8
+  composite: 31.4
+  delta: -0.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 23.9
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 11.3
+    developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 31.6
-  previous_composite: 25.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 28.9
+  previous_composite: 32.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/screenshots/cresta-2026-06-20T175228.png
 security:
 - kind: domain-security

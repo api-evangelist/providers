@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -1370,7 +1371,9 @@ rate_limits:
   name: Amazon Lookout For Vision Rate Limits
   slug: amazon-lookout-for-vision-rate-limits
 rules:
-- name: Amazon Lookout for Vision API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Lookout for Vision API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1378,7 +1381,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-lookout-for-vision-jsonschema-spectral-rules
-- name: Amazon Lookout for Vision API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon Lookout for Vision API Rules
   rule_count: 22
   severity_counts:
     error: 7
@@ -1387,16 +1393,18 @@ rules:
     warn: 10
   slug: amazon-lookout-for-vision-spectral-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: -10.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -1405,9 +1413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png
 security:
 - kind: authentication

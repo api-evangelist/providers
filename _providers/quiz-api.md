@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -129,12 +130,14 @@ rate_limits:
   slug: quiz-api-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 34.2
+  delta: -0.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 59.0
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 57.3
+    developer_ergonomics: 28.6
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
@@ -146,8 +149,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 22.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/screenshots/quiz-api-2026-06-20T192440.png
 security:

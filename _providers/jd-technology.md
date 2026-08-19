@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: JD Cloud OpenAPI is the programmatic control plane for JD Technology's public cloud — compute (VM), storage, databases (RDS), networking, containers, CDN, AI and security services. Each product expose
@@ -99,19 +100,21 @@ overview: 'JD Technology publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 143
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 13.2
+  delta: -7.3
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 26.2
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 20.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/screenshots/jd-technology-2026-07-25T223219.png
 security:
 - kind: authentication

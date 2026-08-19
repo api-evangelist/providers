@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 73.0
-  scored_at: '2026-08-17'
+  score: 63.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 235
   human_in_the_loop: 25
@@ -377,7 +378,9 @@ rate_limits:
   name: Treasure Data Rate Limits
   slug: treasure-data-rate-limits
 rules:
-- name: Treasure Data API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Treasure Data API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -392,26 +395,31 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 83.4
-  delta: 30.4
+  composite: 77.2
+  delta: -6.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 72.4
-    developer_ergonomics: 82.6
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 55.3
+    contract_quality: 71.9
+    developer_ergonomics: 81.0
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 76.3
-  previous_composite: 53.0
+    governance: 55.3
+    operational_transparency: 73.7
+  previous_composite: 83.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 17
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/screenshots/treasure-data-2026-06-20T195643.png
 security:
 - kind: authentication

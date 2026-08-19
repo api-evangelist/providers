@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -237,7 +238,9 @@ rate_limits:
   name: Keen Rate Limits
   slug: keen-rate-limits
 rules:
-- name: Keen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Keen API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,14 +250,16 @@ rules:
   slug: keen-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 46.7
+  delta: -9.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.7
-    developer_ergonomics: 54.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 58.7
+    developer_ergonomics: 59.5
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 55.9
   provenance:
@@ -264,9 +269,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/screenshots/keen-2026-06-20T183939.png
 security:
 - kind: authentication

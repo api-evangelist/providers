@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a polling schedule. Authentication is handled wit
@@ -101,19 +102,21 @@ rate_limits:
   name: Construction Monitor Rate Limits
   slug: construction-monitor-rate-limits
 score:
-  band: emerging
-  composite: 15.4
-  delta: 0.0
+  band: minimal
+  composite: 10.9
+  delta: -4.5
   facets:
-    commercial_clarity: 36.8
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 15.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/screenshots/construction-monitor-2026-06-20T174915.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: 'REST API for brands and advertisers: partners, programs, contracts, actions and conversions, deals, promo codes, catalogs, ads, tracking links, invoices, exception lists, reports and bulk export jobs.'
@@ -281,19 +282,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.0
-  delta: 37.3
+  composite: 68.3
+  delta: -0.7
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 65.3
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 65.7
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 94.7
-  previous_composite: 31.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 69.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 98.6
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'B2B REST API for investment-portfolio consolidation and analytics: create portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time series. Authenticated with a static API key in the A'
@@ -131,20 +132,22 @@ overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 42
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 30.3
+  delta: 0.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 57.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 30.1
   provenance:
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/screenshots/gorila-2026-07-25T220111.png
 security:

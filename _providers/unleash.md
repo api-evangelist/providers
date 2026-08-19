@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 9
@@ -379,7 +380,9 @@ rate_limits:
   name: Unleash Rate Limits
   slug: unleash-rate-limits
 rules:
-- name: Unleash API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unleash API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -387,7 +390,10 @@ rules:
     info: 2
     warn: 3
   slug: unleash-jsonschema-spectral-rules
-- name: Unleash API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Unleash API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -397,14 +403,16 @@ rules:
   slug: unleash-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 41.4
+  delta: -4.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 64.1
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 63.7
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 46.2
   provenance:
@@ -414,8 +422,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/screenshots/unleash-2026-06-20T200436.png
 security:

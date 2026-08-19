@@ -16,22 +16,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -595,7 +596,10 @@ rate_limits:
   name: Zoho Crm Rate Limits
   slug: zoho-crm-rate-limits
 rules:
-- name: Zoho CRM API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Zoho CRM API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -610,25 +614,31 @@ scopes:
   summary_line: 458 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 80.9
-  delta: 42.4
+  composite: 75.2
+  delta: -5.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.1
-    developer_ergonomics: 91.3
+    contract_governance: 41.7
+    contract_quality: 64.2
+    developer_ergonomics: 80.4
     discoverability: 87.0
-    governance: 62.5
-    operational_transparency: 86.8
-  previous_composite: 38.5
+    governance: 41.7
+    operational_transparency: 84.2
+  previous_composite: 80.9
   provenance:
+    agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 2.9
       derived: 0
       marker_coverage: 0.0
-      total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 105
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:
 - kind: authentication

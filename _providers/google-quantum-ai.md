@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -418,7 +419,9 @@ rate_limits:
   name: Google Quantum Ai Rate Limits
   slug: google-quantum-ai-rate-limits
 rules:
-- name: Google Quantum AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Quantum AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -426,7 +429,10 @@ rules:
     info: 2
     warn: 3
   slug: google-quantum-ai-jsonschema-spectral-rules
-- name: Google Quantum AI API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Google Quantum AI API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -441,14 +447,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.9
-  delta: 0.0
+  composite: 58.6
+  delta: -5.3
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 71.6
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 68.5
+    developer_ergonomics: 71.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 63.9
   provenance:
@@ -458,9 +466,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/screenshots/google-quantum-ai-2026-06-20T182227.png
 security:
 - kind: authentication

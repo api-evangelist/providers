@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -444,7 +445,9 @@ rate_limits:
   name: Parcellab Rate Limits
   slug: parcellab-rate-limits
 rules:
-- name: parcelLab API Rules
+- effective_rule_count: 5
+  extends: []
+  name: parcelLab API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -452,7 +455,10 @@ rules:
     info: 1
     warn: 4
   slug: parcellab-jsonschema-spectral-rules
-- name: parcelLab API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: parcelLab API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -461,16 +467,18 @@ rules:
     warn: 5
   slug: parcellab-rules
 score:
-  band: exemplar
-  composite: 69.5
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: -8.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 71.7
-    developer_ergonomics: 78.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 25.0
+    contract_quality: 68.1
+    developer_ergonomics: 78.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 69.5
   provenance:
     agentic_access: derived
@@ -479,9 +487,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:
 - kind: authentication

@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +148,9 @@ rate_limits:
   name: Thermal Power Rate Limits
   slug: thermal-power-rate-limits
 rules:
-- name: Thermal Power API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Thermal Power API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,7 +158,9 @@ rules:
     info: 2
     warn: 3
   slug: thermal-power-jsonschema-spectral-rules
-- name: Thermal Power API Rules
+- effective_rule_count: 8
+  extends: []
+  name: Thermal Power API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -165,14 +170,16 @@ rules:
   slug: thermal-power-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 36.5
+  delta: -2.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 68.7
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 65.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 39.4
   provenance:
@@ -188,8 +195,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/screenshots/thermal-power-2026-06-20T195251.png
 security:

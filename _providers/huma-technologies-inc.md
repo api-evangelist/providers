@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,26 +98,28 @@ overview: 'Huma Technologies Inc. is profiled on the [APIs.io](https://apis.io/)
   Huma Technologies Inc.''s developer surface includes documentation, signup flow, support, and 10 more developer resources.'
 random_paper: 29
 score:
-  band: emerging
-  composite: 20.5
-  delta: 0.0
+  band: minimal
+  composite: 9.7
+  delta: -10.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.4
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 13.2
   previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 18.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/screenshots/huma-technologies-inc-2026-07-25T221647.png
 security:
 - kind: domain-security

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,6 +103,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 2 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
+  reason: no_published_contract
+  state: none
 created: '2026-06-03'
 description: 'The National University of Singapore (NUS) is Singapore''s flagship public research university, ranked #8 in the QS World University Rankings 2025. NUS does not operate a single unified, public developer portal; its documented, programmatically accessible footprint is concentrated in its open scholarly infrastructure. The institutional repository ScholarBank@NUS runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH metadata harvesting interface. Module and timetable data is also available via the community-maintained NUSMods API (unofficial), which normalizes NUS course information. Most administrative and student-facing systems sit behind ADFS/SAML single sign-on and are not publicly documented.'
 examples:
@@ -160,7 +165,9 @@ rate_limits:
   name: Nus Rate Limits
   slug: nus-rate-limits
 rules:
-- name: National University of Singapore API Rules
+- effective_rule_count: 6
+  extends: []
+  name: National University of Singapore API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -168,7 +175,9 @@ rules:
     info: 2
     warn: 4
   slug: nus-jsonschema-spectral-rules
-- name: National University of Singapore API Rules
+- effective_rule_count: 6
+  extends: []
+  name: National University of Singapore API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -177,15 +186,17 @@ rules:
     warn: 4
   slug: nus-rules
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: -5.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 67.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 64.7
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 42.1
   provenance:
@@ -195,9 +206,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png
 security:
 - kind: domain-security

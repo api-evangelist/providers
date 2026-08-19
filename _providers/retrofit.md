@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Retrofit is a type-safe HTTP client for the JVM that turns annotated Java/Kotlin interfaces into HTTP API calls. Supports all HTTP methods via annotations. Built on OkHttp with support for synchronous
@@ -127,7 +128,9 @@ rate_limits:
   name: Retrofit Rate Limits
   slug: retrofit-rate-limits
 rules:
-- name: Retrofit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Retrofit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -136,20 +139,28 @@ rules:
     warn: 3
   slug: retrofit-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.0
-  delta: 0.0
+  band: emerging
+  composite: 18.2
+  delta: -10.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 19.7
+    developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 29.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 9.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/retrofit/refs/heads/main/screenshots/retrofit-2026-06-20T193038.png
 slug: retrofit
 tags:

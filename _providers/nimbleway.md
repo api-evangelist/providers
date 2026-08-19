@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 55.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -270,15 +271,17 @@ rate_limits:
   slug: nimbleway-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 56.6
+  delta: -2.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.4
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 55.6
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 57.9
+    governance: 30.3
+    operational_transparency: 39.5
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -290,8 +293,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:

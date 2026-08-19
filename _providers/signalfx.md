@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 11.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The SignalFx REST API manages metadata and configuration objects in Splunk Observability Cloud / SignalFx: metrics and dimension metadata, detectors and alert muting rules, charts, dashboards and dash'
@@ -36,6 +37,10 @@ apis:
   slug: signalfx-rest-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/splunk/
 - group: auth
   title: ''
   type: TrustCenter
@@ -152,32 +157,34 @@ mcp_servers:
 - description: ''
   name: signalfx-mcp.yml
   slug: signalfx-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-19'
 name: SignalFx
 nav: Providers
 network: true
 overview: 'SignalFx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Monitoring, Metrics, and Time Series.
 
 
-  SignalFx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 20 more developer resources.'
+  SignalFx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 21 more developer resources.'
 random_paper: 115
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 31.9
+  delta: -3.4
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 23.7
+    governance: 4.5
+    operational_transparency: 21.1
   previous_composite: 35.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

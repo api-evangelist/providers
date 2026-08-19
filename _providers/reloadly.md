@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -214,7 +215,9 @@ rate_limits:
   name: Reloadly Rate Limits
   slug: reloadly-rate-limits
 rules:
-- name: Reloadly API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Reloadly API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -222,7 +225,9 @@ rules:
     info: 2
     warn: 4
   slug: reloadly-jsonschema-spectral-rules
-- name: Reloadly API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Reloadly API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -231,16 +236,18 @@ rules:
     warn: 4
   slug: reloadly-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 34.4
+  delta: -10.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 70.9
-    developer_ergonomics: 26.1
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 67.7
+    developer_ergonomics: 13.1
+    discoverability: 74.1
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -255,9 +262,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/screenshots/reloadly-2026-06-20T192834.png
 security:
 - kind: authentication

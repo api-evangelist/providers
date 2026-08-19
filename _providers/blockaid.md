@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 41.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -309,15 +309,17 @@ overview: 'Blockaid publishes 23 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 80
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 41.2
+  delta: -1.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 69.0
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 67.4
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -335,8 +337,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
 security:

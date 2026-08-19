@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 51.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -547,14 +548,16 @@ overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 3
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.4
+  delta: -2.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 67.2
-    developer_ergonomics: 64.7
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 16.7
+    contract_quality: 64.2
+    developer_ergonomics: 61.3
     discoverability: 57.4
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 23.7
   previous_composite: 50.5
   provenance:
@@ -567,8 +570,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:

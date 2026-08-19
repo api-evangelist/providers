@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 38.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -304,14 +304,16 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 56
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 48.6
+  delta: 0.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.0
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 52.3
+    developer_ergonomics: 55.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 26.3
   previous_composite: 48.2
   provenance:
@@ -330,8 +332,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/screenshots/cable-2026-07-25T204213.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Anonymous Model Context Protocol endpoint served from the Cooler Heads web host. It is the Wix Site MCP surface (platform-provided, not a first-party Cooler Heads API): nine tools that let an agent re'
@@ -97,14 +98,16 @@ overview: 'Cooler Heads publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 14
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 12.3
+  delta: -2.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 14.4
   provenance:
@@ -116,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

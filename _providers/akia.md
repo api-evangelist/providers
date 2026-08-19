@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -176,21 +177,23 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 48.1
+  delta: -1.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 49.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
 security:

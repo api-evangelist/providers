@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Anonymous, read-mostly public REST API for syndicating Bungalow's residential rental inventory. Covers markets (23 active US metros with geo bounds, timezone and rent premiums), marketable property li
@@ -169,14 +170,16 @@ overview: 'Bungalow publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 118
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 41.2
+  delta: -0.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 52.0
-    developer_ergonomics: 56.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 48.8
+    developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 42.1
   provenance:
@@ -188,8 +191,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/screenshots/bungalow-2026-08-07T162850.png
 security:

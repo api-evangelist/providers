@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -457,7 +458,9 @@ rate_limits:
   name: Inngest Rate Limits
   slug: inngest-rate-limits
 rules:
-- name: Inngest API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Inngest API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -465,7 +468,9 @@ rules:
     info: 1
     warn: 4
   slug: inngest-jsonschema-spectral-rules
-- name: Inngest API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Inngest API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -474,15 +479,17 @@ rules:
     warn: 0
   slug: inngest-rules
 score:
-  band: exemplar
-  composite: 68.6
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: -8.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 72.0
-    developer_ergonomics: 69.6
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 67.7
+    developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 60.5
   previous_composite: 68.6
   provenance:
@@ -492,9 +499,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:
 - kind: authentication

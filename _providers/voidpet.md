@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -123,15 +124,17 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
 random_paper: 18
 score:
-  band: thin
-  composite: 33.3
-  delta: 0.0
+  band: developing
+  composite: 41.5
+  delta: 8.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 47.0
-    developer_ergonomics: 43.5
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 44.1
+    developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 33.3
   provenance:
@@ -149,9 +152,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Voidpet Authentication

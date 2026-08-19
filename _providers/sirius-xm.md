@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -151,7 +152,9 @@ rate_limits:
   name: Sirius Xm Rate Limits
   slug: sirius-xm-rate-limits
 rules:
-- name: Sirius XM API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sirius XM API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,20 +163,22 @@ rules:
     warn: 4
   slug: sirius-xm-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: emerging
+  composite: 23.9
+  delta: -5.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 12.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 29.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/screenshots/sirius-xm-2026-06-20T193948.png
 security:
 - kind: domain-security

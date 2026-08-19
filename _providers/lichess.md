@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 45.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -519,7 +520,10 @@ rate_limits:
   name: Lichess Rate Limits
   slug: lichess-rate-limits
 rules:
-- name: Lichess API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Lichess API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -527,7 +531,9 @@ rules:
     info: 1
     warn: 7
   slug: lichess-asyncapi-spectral-rules
-- name: Lichess API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lichess API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -535,7 +541,9 @@ rules:
     info: 2
     warn: 3
   slug: lichess-jsonschema-spectral-rules
-- name: Lichess API Rules
+- effective_rule_count: 11
+  extends: []
+  name: Lichess API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -550,14 +558,16 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 58.0
+  delta: -3.8
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 84.7
-    developer_ergonomics: 60.9
+    contract_governance: 13.6
+    contract_quality: 81.5
+    developer_ergonomics: 66.7
     discoverability: 74.1
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 52.6
   previous_composite: 61.8
   provenance:
@@ -567,8 +577,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:

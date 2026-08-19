@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'Internal API platform built on MuleSoft Anypoint that exposes reusable experience, process, and system APIs across The Coca-Cola Company''s bottling, marketing, ecommerce, and supply-chain operations. '
@@ -138,19 +139,21 @@ rate_limits:
   name: Coca Cola Rate Limits
   slug: coca-cola-rate-limits
 score:
-  band: emerging
-  composite: 14.7
-  delta: 0.0
+  band: minimal
+  composite: 10.1
+  delta: -4.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 14.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png
 security:

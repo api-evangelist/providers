@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -197,7 +198,10 @@ rate_limits:
   name: Braintrust Data Rate Limits
   slug: braintrust-data-rate-limits
 rules:
-- name: Braintrust API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Braintrust API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -207,15 +211,17 @@ rules:
   slug: braintrust-data-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 42.6
+  delta: -1.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 66.8
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 66.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -224,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/screenshots/braintrust-data-2026-06-20T173631.png
 security:

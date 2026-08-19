@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -172,14 +173,16 @@ rate_limits:
   slug: sfox-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 44.7
+  delta: -1.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 54.3
-    developer_ergonomics: 60.9
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 48.9
+    developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 44.7
   previous_composite: 46.1
   provenance:
@@ -190,10 +193,11 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 55.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
 security:
 - kind: authentication
   name: Sfox Authentication

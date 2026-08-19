@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,15 +189,17 @@ overview: 'NAIC publishes 1 API on the [APIs.io](https://apis.io/) network: Cont
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
 random_paper: 113
 score:
-  band: emerging
-  composite: 26.6
-  delta: 0.0
+  band: thin
+  composite: 33.8
+  delta: 7.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 14.4
-    developer_ergonomics: 38.6
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 14.2
+    developer_ergonomics: 39.9
     discoverability: 87.0
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 26.6
   provenance:
@@ -215,9 +218,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:
 - kind: authentication

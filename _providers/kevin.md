@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -143,14 +144,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 29.5
+  delta: -2.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 42.9
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 36.3
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 32.3
   provenance:
@@ -163,8 +166,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

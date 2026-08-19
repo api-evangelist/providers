@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -537,7 +538,10 @@ rate_limits:
   name: Microsoft Teams Rate Limits
   slug: microsoft-teams-rate-limits
 rules:
-- name: Microsoft Teams API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Microsoft Teams API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -545,7 +549,9 @@ rules:
     info: 1
     warn: 5
   slug: microsoft-teams-asyncapi-spectral-rules
-- name: Microsoft Teams API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Teams API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -553,7 +559,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-teams-jsonschema-spectral-rules
-- name: Microsoft Teams API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Microsoft Teams API Rules
   rule_count: 28
   severity_counts:
     error: 14
@@ -567,16 +576,18 @@ scopes:
   slug: microsoft-teams-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.6
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: -3.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 47.8
-    developer_ergonomics: 63.0
+    contract_governance: 45.5
+    contract_quality: 48.1
+    developer_ergonomics: 66.7
     discoverability: 92.6
-    governance: 69.8
-    operational_transparency: 42.1
+    governance: 45.5
+    operational_transparency: 31.6
   previous_composite: 56.6
   provenance:
     agentic_access: derived
@@ -587,8 +598,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

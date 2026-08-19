@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -153,7 +154,9 @@ rate_limits:
   name: Aklivity Rate Limits
   slug: aklivity-rate-limits
 rules:
-- name: Aklivity API Rules
+- effective_rule_count: 11
+  extends: []
+  name: Aklivity API Rules
   rule_count: 11
   severity_counts:
     error: 8
@@ -163,18 +166,20 @@ rules:
   slug: aklivity-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 39.0
+  delta: -0.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 59.7
-    developer_ergonomics: 21.7
+    contract_governance: 39.4
+    contract_quality: 52.1
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 27.1
-    operational_transparency: 39.5
+    governance: 39.4
+    operational_transparency: 36.8
   previous_composite: 39.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -145,19 +146,21 @@ rate_limits:
   slug: imagine-ai-rate-limits
 score:
   band: emerging
-  composite: 23.2
-  delta: 11.4
+  composite: 21.6
+  delta: -1.6
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 11.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    operational_transparency: 2.6
+  previous_composite: 23.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagine-ai/refs/heads/main/screenshots/imagine-ai-2026-07-25T222121.png
 security:
 - kind: domain-security

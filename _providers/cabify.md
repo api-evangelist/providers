@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -273,15 +274,17 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 26
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 53.4
+  delta: 0.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 70.2
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 67.2
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -293,8 +296,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

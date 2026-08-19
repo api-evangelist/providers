@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -502,7 +503,9 @@ rate_limits:
   name: Maxar Technologies Rate Limits
   slug: maxar-technologies-rate-limits
 rules:
-- name: Maxar Technologies API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Maxar Technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -510,7 +513,10 @@ rules:
     info: 1
     warn: 4
   slug: maxar-technologies-jsonschema-spectral-rules
-- name: Maxar Technologies API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Maxar Technologies API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -519,16 +525,18 @@ rules:
     warn: 5
   slug: maxar-technologies-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: developing
+  composite: 50.1
+  delta: -10.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 63.5
-    developer_ergonomics: 47.8
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 25.0
+    contract_quality: 60.1
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -537,9 +545,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:
 - kind: authentication

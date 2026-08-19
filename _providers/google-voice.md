@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +164,9 @@ rate_limits:
   name: Google Voice Rate Limits
   slug: google-voice-rate-limits
 rules:
-- name: Google Voice API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Voice API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -173,14 +176,16 @@ rules:
   slug: google-voice-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 43.0
+  delta: -7.7
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 62.7
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 58.7
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 50.7
   provenance:
@@ -196,9 +201,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/screenshots/google-voice-2026-06-20T182246.png
 security:
 - kind: domain-security

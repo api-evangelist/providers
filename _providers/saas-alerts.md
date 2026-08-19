@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,7 +175,9 @@ rate_limits:
   name: Saas Alerts Rate Limits
   slug: saas-alerts-rate-limits
 rules:
-- name: SaaS Alerts API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SaaS Alerts API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,7 +185,10 @@ rules:
     info: 2
     warn: 3
   slug: saas-alerts-jsonschema-spectral-rules
-- name: SaaS Alerts API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: SaaS Alerts API Rules
   rule_count: 17
   severity_counts:
     error: 3
@@ -192,14 +198,16 @@ rules:
   slug: saas-alerts-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 43.0
+  delta: -7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.2
-    developer_ergonomics: 32.6
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 64.0
+    developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 50.3
   provenance:
@@ -209,10 +217,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/screenshots/saas-alerts-2026-06-20T193314.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/screenshots/saas-alerts-2026-08-17T083027.png
 security:
 - kind: authentication
   name: Saas Alerts Authentication

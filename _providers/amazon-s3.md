@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 44.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -1004,7 +1004,9 @@ rate_limits:
   name: Amazon S3 Rate Limits
   slug: amazon-s3-rate-limits
 rules:
-- name: Amazon S3 API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon S3 API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1012,7 +1014,10 @@ rules:
     info: 2
     warn: 4
   slug: amazon-s3-jsonschema-spectral-rules
-- name: Amazon S3 API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amazon S3 API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -1021,16 +1026,18 @@ rules:
     warn: 5
   slug: amazon-s3-spectral-rules
 score:
-  band: exemplar
-  composite: 69.5
-  delta: 0.0
+  band: strong
+  composite: 60.7
+  delta: -8.8
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 80.2
-    developer_ergonomics: 60.9
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 26.5
+    contract_quality: 75.6
+    developer_ergonomics: 57.1
     discoverability: 85.2
-    governance: 69.8
-    operational_transparency: 55.3
+    governance: 26.5
+    operational_transparency: 52.6
   previous_composite: 69.5
   provenance:
     agentic_access: derived
@@ -1041,9 +1048,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Salt Security API Protection Platform provides full lifecycle API security including automated API discovery, posture governance, real-time threat protection, and remediation insights. It uses AI '
@@ -148,7 +149,9 @@ rate_limits:
   name: Salt Security Rate Limits
   slug: salt-security-rate-limits
 rules:
-- name: Salt Security API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salt Security API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -158,19 +161,21 @@ rules:
   slug: salt-security-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 13.9
+  delta: -10.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 8.1
-    developer_ergonomics: 10.9
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 7.0
+    developer_ergonomics: 2.4
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-security/refs/heads/main/screenshots/salt-security-2026-06-20T193357.png
 security:
 - kind: domain-security

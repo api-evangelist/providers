@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -270,7 +271,9 @@ rate_limits:
   name: Amazon Keyspaces Rate Limits
   slug: amazon-keyspaces-rate-limits
 rules:
-- name: Amazon Keyspaces API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Keyspaces API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +281,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-keyspaces-jsonschema-spectral-rules
-- name: Amazon Keyspaces API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Keyspaces API Rules
   rule_count: 24
   severity_counts:
     error: 9
@@ -287,16 +293,18 @@ rules:
     warn: 14
   slug: amazon-keyspaces-spectral-rules
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.0
+  band: strong
+  composite: 61.3
+  delta: -6.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 73.9
-    developer_ergonomics: 69.6
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 73.8
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 67.3
   provenance:
     agentic_access: derived
@@ -305,9 +313,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/screenshots/amazon-keyspaces-2026-06-20T171716.png
 security:
 - kind: authentication

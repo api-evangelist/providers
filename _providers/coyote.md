@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -543,7 +544,9 @@ rate_limits:
   name: Coyote Rate Limits
   slug: coyote-rate-limits
 rules:
-- name: Coyote Logistics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Coyote Logistics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -552,16 +555,18 @@ rules:
     warn: 3
   slug: coyote-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -7.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 59.2
-    developer_ergonomics: 10.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 56.8
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -576,9 +581,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/screenshots/coyote-2026-06-20T175149.png
 security:
 - kind: domain-security

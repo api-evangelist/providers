@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -502,7 +503,9 @@ rate_limits:
   name: Aflac Rate Limits
   slug: aflac-rate-limits
 rules:
-- name: aflac API Rules
+- effective_rule_count: 5
+  extends: []
+  name: aflac API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -510,7 +513,10 @@ rules:
     info: 1
     warn: 4
   slug: aflac-jsonschema-spectral-rules
-- name: aflac API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: aflac API Rules
   rule_count: 30
   severity_counts:
     error: 14
@@ -525,15 +531,17 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 28.1
+  delta: -9.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 24.3
-    developer_ergonomics: 26.1
-    discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 10.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 26.3
+    developer_ergonomics: 28.6
+    discoverability: 64.8
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -542,9 +550,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:
 - kind: authentication

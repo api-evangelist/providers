@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Microsoft's organization-wide REST API design guidelines, originally published in 2016 and now maintained as separate Azure and Microsoft Graph guideline documents under the umbrella Guidelines.md. Li
@@ -194,7 +195,9 @@ overview: 'API Style Guides publishes 11 APIs on the [APIs.io](https://apis.io/)
   API Style Guides'' developer surface includes code examples and 10 more developer resources.'
 random_paper: 55
 rules:
-- name: API Style Guides API Rules
+- effective_rule_count: 5
+  extends: []
+  name: API Style Guides API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -204,19 +207,21 @@ rules:
   slug: style-guides-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.9
-  delta: 0.0
+  composite: 19.0
+  delta: -5.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 27.4
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 24.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/style-guides/refs/heads/main/screenshots/style-guides-2026-06-20T194625.png
 security:
 - kind: domain-security

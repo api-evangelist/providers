@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
@@ -151,15 +152,17 @@ rate_limits:
   slug: google-pay-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 33.6
+  delta: -1.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 32.3
-    developer_ergonomics: 39.1
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 38.1
     discoverability: 63.0
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 34.8
   regulatory:
     applies: true
@@ -167,8 +170,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/screenshots/google-pay-2026-06-20T182221.png
 security:

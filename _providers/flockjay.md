@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -179,19 +180,30 @@ scopes:
   slug: flockjay-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 27.2
-  delta: 13.8
+  band: thin
+  composite: 33.2
+  delta: 6.0
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 9.7
-    developer_ergonomics: 26.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 8.5
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
-  previous_composite: 13.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 18.2
+    operational_transparency: 13.2
+  previous_composite: 27.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 85.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
 security:

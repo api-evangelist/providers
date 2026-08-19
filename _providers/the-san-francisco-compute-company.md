@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 54.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -287,15 +288,17 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 random_paper: 21
 score:
   band: strong
-  composite: 56.6
-  delta: 0.0
+  composite: 55.7
+  delta: -0.9
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 60.0
-    developer_ergonomics: 80.4
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 16.7
+    contract_quality: 61.7
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 56.6
   provenance:
     agentic_access: derived
@@ -307,9 +310,10 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/screenshots/the-san-francisco-compute-company-2026-08-17T082343.png
 security:
 - kind: authentication
   name: The San Francisco Compute Company Authentication

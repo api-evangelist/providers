@@ -11,25 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -352,7 +353,9 @@ rate_limits:
   name: Sportmonks Rate Limits
   slug: sportmonks-rate-limits
 rules:
-- name: Sportmonks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sportmonks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -360,7 +363,10 @@ rules:
     info: 1
     warn: 4
   slug: sportmonks-jsonschema-spectral-rules
-- name: Sportmonks API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Sportmonks API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -370,15 +376,17 @@ rules:
   slug: sportmonks-rules
 score:
   band: strong
-  composite: 63.9
-  delta: 0.0
+  composite: 56.0
+  delta: -7.9
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 61.9
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 58.5
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 63.9
   provenance:
     agentic_access: derived
@@ -387,10 +395,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/screenshots/sportmonks-2026-06-20T194341.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/screenshots/sportmonks-2026-08-17T125430.png
 security:
 - kind: authentication
   name: Sportmonks Authentication

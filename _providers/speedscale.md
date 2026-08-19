@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -150,7 +151,9 @@ rate_limits:
   name: Speedscale Rate Limits
   slug: speedscale-rate-limits
 rules:
-- name: Speedscale API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Speedscale API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -158,7 +161,10 @@ rules:
     info: 2
     warn: 3
   slug: speedscale-jsonschema-spectral-rules
-- name: Speedscale API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Speedscale API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -168,19 +174,21 @@ rules:
   slug: speedscale-rules
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 27.8
+  delta: -7.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 27.4
-    developer_ergonomics: 21.7
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 25.4
+    developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 35.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/screenshots/speedscale-2026-06-20T194303.png
 security:
 - kind: domain-security

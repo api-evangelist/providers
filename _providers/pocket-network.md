@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -467,7 +468,9 @@ rate_limits:
   name: Pocket Network Rate Limits
   slug: pocket-network-rate-limits
 rules:
-- name: Pocket Network API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Pocket Network API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -475,7 +478,11 @@ rules:
     info: 1
     warn: 5
   slug: pocket-network-jsonschema-spectral-rules
-- name: Pocket Network API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: Pocket Network API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -484,15 +491,17 @@ rules:
     warn: 5
   slug: pocket-network-rules
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: -5.1
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 66.0
-    developer_ergonomics: 65.2
+    contract_governance: 25.0
+    contract_quality: 61.8
+    developer_ergonomics: 71.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 67.4
   provenance:
@@ -502,9 +511,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:
 - kind: authentication

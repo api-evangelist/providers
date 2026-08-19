@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -799,7 +800,9 @@ rate_limits:
   name: Oanda Rate Limits
   slug: oanda-rate-limits
 rules:
-- name: OANDA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OANDA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -809,15 +812,23 @@ rules:
   slug: oanda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 47.3
+  delta: -3.0
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 53.0
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 50.7
+    developer_ergonomics: 50.0
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -832,8 +843,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -355,15 +357,17 @@ scopes:
   summary_line: 67 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 58.1
+  delta: -0.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 47.5
-    developer_ergonomics: 71.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 45.7
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 68.4
+    governance: 30.3
+    operational_transparency: 65.8
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -375,9 +379,10 @@ score:
       total: 24
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/screenshots/roboflow-2026-08-17T081621.png
 security:
 - kind: authentication
   name: Roboflow Authentication

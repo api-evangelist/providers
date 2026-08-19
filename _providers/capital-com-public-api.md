@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -178,7 +179,10 @@ rate_limits:
   name: Capital Com Public Api Rate Limits
   slug: capital-com-public-api-rate-limits
 rules:
-- name: Capital.com Public API API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Capital.com Public API API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -187,16 +191,18 @@ rules:
     warn: 3
   slug: capital-com-public-api-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 45.7
-  delta: 0.0
+  band: thin
+  composite: 34.7
+  delta: -11.0
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 66.0
-    developer_ergonomics: 32.6
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 13.6
+    contract_quality: 65.4
+    developer_ergonomics: 25.0
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -210,10 +216,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 53.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:
 - kind: authentication

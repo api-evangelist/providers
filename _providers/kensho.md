@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Asynchronous speech-to-text transcription API that turns audio and video into text with high accuracy. Supports batch, real-time, and human-in-the-loop transcription, multipart and remote-URL submissi
@@ -192,22 +193,24 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 45.2
+  delta: -4.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/screenshots/kensho-2026-07-25T223619.png
 security:

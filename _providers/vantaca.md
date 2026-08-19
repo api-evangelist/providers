@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 25.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -125,12 +126,14 @@ rate_limits:
   slug: vantaca-rate-limits
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 32.1
+  delta: -1.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 50.9
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 49.1
+    developer_ergonomics: 4.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
@@ -142,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

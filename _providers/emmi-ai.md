@@ -9,27 +9,28 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
+  score: 9.8
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -50,11 +51,11 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://noether-docs.emmi.ai/
+  url: https://noether-docs.emmi.ai/autoapi/noether/index.html
 - group: start
   title: ''
   type: GettingStarted
-  url: https://noether-docs.emmi.ai/
+  url: https://noether-docs.emmi.ai/tutorials/getting_started_install_and_verify.html
 - group: build
   title: ''
   type: GitHubOrganization
@@ -103,33 +104,94 @@ common:
   title: ''
   type: Compliance
   url: https://emmi.ai/security-compliance
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/emmi-ai-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/emmi-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/emmi-ai-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/emmi-ai-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/emmi-ai-robots.txt
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/Emmi-AI/noether
+- group: commercial
+  title: ''
+  type: License
+  url: https://raw.githubusercontent.com/Emmi-AI/noether/main/LICENSE.txt
+coverage:
+  checked: '2026-08-17'
+  detail: 'Emmi AI ships an open-source Python framework (emmiai-noether) and a CLI that run on the customer''s own CPU/GPU/SLURM hardware - there is no hosted service and no API: no api./app./platform./console./mcp. host resolves under emmi.ai, and every contract-discovery probe (openapi.json, agent-card.json, agent.json, every /.well-known/ path on both emmi.ai and noether-docs.emmi.ai) returned 404 or NXDOMAIN.'
+  evidence:
+  - status: 404
+    url: https://emmi.ai/openapi.json
+  - status: 404
+    url: https://emmi.ai/.well-known/agent-card.json
+  - status: 404
+    url: https://noether-docs.emmi.ai/.well-known/agent.json
+  - status: 404
+    url: https://emmi.ai/api
+  - status: 200
+    url: https://pypi.org/pypi/emmiai-noether/json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Emmi AI is an Austrian engineering-AI company building Large Engineering Models (LEMs) - pre-trained, physics-accurate neural networks that replace traditional CAE/CFD solvers to deliver real-time, GPU-accelerated simulation and design validation for manufacturing, aerospace, semiconductor, and energy engineering. Its flagship open-source Noether framework (the emmiai-noether PyTorch package) provides transformer building blocks, a model/dataset/recipe zoo, and a command-line toolchain for training, fine-tuning, and deploying industrial physics models, alongside vertical products such as NeuralWing (aircraft wing validation), NeuralMould (injection moulding), and NeuralDEM (particulate flows). Emmi AI was acquired by Mistral AI in May 2026 to build an industrial AI stack.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emmi-ai.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-17'
 name: Emmi Ai
 nav: Providers
 network: true
 overview: 'Emmi Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineering AI, Physics Simulation, Machine Learning, and Deep Learning.
 
 
-  Emmi Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 11 more developer resources.'
+  Emmi Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
+plans:
+- name: Emmi Ai Plans Pricing
+  plan_count: 0
+  slug: emmi-ai-plans-pricing
 random_paper: 75
+rate_limits:
+- limit_count: 0
+  name: Emmi Ai Rate Limits
+  slug: emmi-ai-rate-limits
 score:
-  band: emerging
-  composite: 26.7
-  delta: 0.0
+  band: thin
+  composite: 31.0
+  delta: 4.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 66.7
     discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 26.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emmi-ai/refs/heads/main/screenshots/emmi-ai-2026-07-25T213243.png
 security:

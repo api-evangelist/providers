@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -290,7 +290,9 @@ rate_limits:
   name: Apimatic Rate Limits
   slug: apimatic-rate-limits
 rules:
-- name: APIMatic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APIMatic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,16 +301,18 @@ rules:
     warn: 3
   slug: apimatic-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.4
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  delta: -9.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 74.0
-    developer_ergonomics: 63.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 69.4
+    developer_ergonomics: 59.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -317,9 +321,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png
 security:
 - kind: authentication

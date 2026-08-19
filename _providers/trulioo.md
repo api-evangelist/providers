@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -641,7 +641,9 @@ rate_limits:
   name: Trulioo Rate Limits
   slug: trulioo-rate-limits
 rules:
-- name: Trulioo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trulioo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -649,7 +651,10 @@ rules:
     info: 1
     warn: 4
   slug: trulioo-jsonschema-spectral-rules
-- name: Trulioo API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Trulioo API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -663,16 +668,18 @@ scopes:
   slug: trulioo-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 80.9
-  delta: 0.0
+  band: strong
+  composite: 56.6
+  delta: -24.3
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 76.4
-    developer_ergonomics: 87.0
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 72.4
+    developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 71.1
+    governance: 9.8
+    operational_transparency: 46.1
   previous_composite: 80.9
   provenance:
     agentic_access: derived
@@ -681,9 +688,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:
 - kind: authentication

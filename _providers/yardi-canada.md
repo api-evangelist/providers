@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -215,16 +216,18 @@ scopes:
   slug: yardi-canada-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 49.1
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 13.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 55.2
-    developer_ergonomics: 36.4
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 30.3
+    contract_quality: 53.8
+    developer_ergonomics: 30.4
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -241,10 +244,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/screenshots/yardi-canada-2026-08-17T083014.png
 security:
 - kind: authentication
   name: Yardi Canada Authentication

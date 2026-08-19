@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 53.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -160,16 +161,18 @@ scopes:
   slug: monid-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -4.9
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 56.7
-    developer_ergonomics: 69.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 55.2
+    developer_ergonomics: 66.7
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -181,8 +184,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

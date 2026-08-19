@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-17'
+  score: 26.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Ip API from Sunrise Atelier — 2 operation(s) for ip.
@@ -108,14 +109,16 @@ overview: 'Sunrise Atelier publishes 2 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 74
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 38.2
+  delta: 7.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 59.7
-    developer_ergonomics: 16.8
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 16.1
     discoverability: 75.9
-    governance: 8.3
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 31.1
   provenance:
@@ -127,9 +130,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Sunrise Atelier Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -845,7 +846,9 @@ rate_limits:
   name: Deliverect Rate Limits
   slug: deliverect-rate-limits
 rules:
-- name: Deliverect API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Deliverect API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -853,7 +856,10 @@ rules:
     info: 2
     warn: 3
   slug: deliverect-jsonschema-spectral-rules
-- name: Deliverect API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Deliverect API Rules
   rule_count: 36
   severity_counts:
     error: 9
@@ -868,15 +874,17 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 32.6
+  delta: -8.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 23.6
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 22.1
+    developer_ergonomics: 40.5
     discoverability: 57.4
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -885,9 +893,9 @@ score:
       derived: 30
       marker_coverage: 100.0
       total: 30
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:
 - kind: authentication

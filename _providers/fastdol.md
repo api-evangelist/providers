@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -506,7 +507,9 @@ rate_limits:
   name: Fastdol Rate Limits
   slug: fastdol-rate-limits
 rules:
-- name: FastDOL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: FastDOL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -514,7 +517,10 @@ rules:
     info: 1
     warn: 4
   slug: fastdol-jsonschema-spectral-rules
-- name: FastDOL API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: FastDOL API Rules
   rule_count: 32
   severity_counts:
     error: 8
@@ -523,15 +529,17 @@ rules:
     warn: 18
   slug: fastdol-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -9.0
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 70.6
-    developer_ergonomics: 43.5
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 66.5
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 58.7
   provenance:
@@ -546,10 +554,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:
 - kind: domain-security

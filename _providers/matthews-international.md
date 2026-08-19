@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -132,25 +133,27 @@ rate_limits:
   slug: matthews-international-rate-limits
 score:
   band: emerging
-  composite: 15.4
-  delta: 5.7
+  composite: 20.0
+  delta: 4.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 9.7
+    operational_transparency: 21.1
+  previous_composite: 15.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/screenshots/matthews-international-2026-06-20T185042.png
 security:
 - kind: domain-security

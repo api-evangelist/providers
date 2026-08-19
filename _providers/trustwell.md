@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -218,7 +219,9 @@ rate_limits:
   name: Trustwell Rate Limits
   slug: trustwell-rate-limits
 rules:
-- name: Trustwell API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Trustwell API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -226,7 +229,10 @@ rules:
     info: 2
     warn: 4
   slug: trustwell-jsonschema-spectral-rules
-- name: Trustwell API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Trustwell API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -236,14 +242,16 @@ rules:
   slug: trustwell-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 39.5
+  delta: -6.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 64.7
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 60.6
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 45.8
   provenance:
@@ -253,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/screenshots/trustwell-2026-06-20T195809.png
 security:
 - kind: authentication

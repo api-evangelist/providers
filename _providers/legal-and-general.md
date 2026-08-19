@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.5
-  scored_at: '2026-08-17'
+  score: 4.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -147,15 +148,17 @@ overview: 'Legal & General is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 9
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 22.7
+  delta: -1.5
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 39.5
+    governance: 18.2
+    operational_transparency: 36.8
   previous_composite: 24.2
   provenance:
     conformance: first-party
@@ -166,8 +169,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-and-general/refs/heads/main/screenshots/legal-and-general-2026-07-25T224825.png
 security:

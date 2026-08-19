@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.1
-  scored_at: '2026-08-17'
+  score: 60.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Flora.ai public REST API (v1.6.0) exposes the FLORA creative canvas programmatically: discover and run saved Techniques, start one-off model generations, list the model catalog, manage workspaces '
@@ -275,19 +276,30 @@ scopes:
   slug: flora-fauna-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.5
-  delta: 0.0
+  band: strong
+  composite: 66.3
+  delta: -2.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.9
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 63.6
+    developer_ergonomics: 70.8
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 68.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:

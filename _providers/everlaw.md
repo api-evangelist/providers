@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Everlaw REST API provides programmatic access to the Everlaw eDiscovery platform, enabling automation of case management, document uploads, billing reporting, and analytics. API keys are required '
@@ -123,18 +124,20 @@ rate_limits:
   slug: everlaw-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 34.4
+  delta: -2.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 56.8
-    developer_ergonomics: 15.2
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 0.0
+    contract_quality: 51.1
+    developer_ergonomics: 16.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlaw/refs/heads/main/screenshots/everlaw-2026-06-20T180906.png
 security:

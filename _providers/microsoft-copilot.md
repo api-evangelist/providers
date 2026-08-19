@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -583,7 +584,9 @@ rate_limits:
   name: Microsoft Copilot Rate Limits
   slug: microsoft-copilot-rate-limits
 rules:
-- name: Microsoft Copilot API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Copilot API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -591,7 +594,10 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-copilot-jsonschema-spectral-rules
-- name: Microsoft Copilot API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Microsoft Copilot API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -605,16 +611,18 @@ scopes:
   slug: microsoft-copilot-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.2
-  delta: 0.0
+  band: developing
+  composite: 50.1
+  delta: -8.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 73.9
-    developer_ergonomics: 47.8
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 9.8
+    contract_quality: 73.7
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 50.0
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 58.2
   provenance:
     agentic_access: derived
@@ -623,9 +631,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:
 - kind: authentication

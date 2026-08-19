@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,12 +180,14 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 36.2
+  delta: 1.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 48.2
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 46.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -202,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

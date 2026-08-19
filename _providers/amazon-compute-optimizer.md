@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 34.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -2251,7 +2251,9 @@ overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://a
   Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 random_paper: 112
 rules:
-- name: Amazon Compute Optimizer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Compute Optimizer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2259,7 +2261,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-compute-optimizer-jsonschema-spectral-rules
-- name: Amazon Compute Optimizer API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon Compute Optimizer API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -2269,15 +2274,17 @@ rules:
   slug: amazon-compute-optimizer-spectral-rules
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 48.3
+  delta: -6.5
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 72.4
-    developer_ergonomics: 50.0
+    contract_governance: 41.7
+    contract_quality: 69.9
+    developer_ergonomics: 45.2
     discoverability: 59.3
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 54.8
   provenance:
     agentic_access: derived
@@ -2288,9 +2295,9 @@ score:
       marker_coverage: 0.0
       total: 21
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -651,7 +652,10 @@ rate_limits:
   name: Marqeta Rate Limits
   slug: marqeta-rate-limits
 rules:
-- name: Marqeta API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Marqeta API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -659,7 +663,9 @@ rules:
     info: 0
     warn: 6
   slug: marqeta-asyncapi-spectral-rules
-- name: Marqeta API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Marqeta API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -669,15 +675,17 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 46.3
+  delta: -2.2
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 77.0
-    developer_ergonomics: 13.0
+    contract_governance: 11.4
+    contract_quality: 74.3
+    developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 41.7
-    operational_transparency: 52.6
+    governance: 11.4
+    operational_transparency: 50.0
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -692,8 +700,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:

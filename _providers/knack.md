@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -125,15 +126,17 @@ overview: 'Knack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ob
 random_paper: 73
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 33.4
+  delta: -1.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 62.7
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 59.8
+    developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -142,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/screenshots/knack-2026-06-20T184106.png
 security:

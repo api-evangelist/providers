@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -245,13 +246,15 @@ rate_limits:
   name: Daily Co Rate Limits
   slug: daily-co-rate-limits
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 41.9
+  delta: 0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.4
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 63.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 55.3
@@ -263,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

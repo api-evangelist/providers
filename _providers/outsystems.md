@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -438,15 +439,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 61.6
+  delta: 0.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 54.8
-    developer_ergonomics: 71.2
+    contract_governance: 16.7
+    contract_quality: 55.0
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 84.2
   previous_composite: 60.9
   provenance:
     agentic_access: derived
@@ -458,9 +461,10 @@ score:
       total: 36
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/screenshots/outsystems-2026-08-17T124448.png
 security:
 - kind: authentication
   name: Outsystems Authentication

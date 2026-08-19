@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -232,16 +233,18 @@ rate_limits:
   slug: logikio-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.8
+  composite: 37.1
+  delta: 1.2
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 56.0
-    developer_ergonomics: 45.1
+    contract_governance: 30.3
+    contract_quality: 55.9
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 35.1
+    governance: 30.3
+    operational_transparency: 2.6
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,8 +255,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -127,18 +128,20 @@ rate_limits:
   slug: middleware-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 23.0
+  delta: -2.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 8.1
-    developer_ergonomics: 21.7
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 0.0
+    contract_quality: 7.0
+    developer_ergonomics: 19.0
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 25.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/screenshots/middleware-2026-06-20T185551.png
 security:

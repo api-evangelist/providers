@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -254,14 +255,16 @@ overview: 'Weld publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 130
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 47.8
+  delta: -2.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.9
-    developer_ergonomics: 62.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 50.4
   provenance:
@@ -274,9 +277,10 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/screenshots/weld-2026-08-17T082909.png
 security:
 - kind: authentication
   name: Weld Authentication

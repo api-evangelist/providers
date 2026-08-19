@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -243,7 +244,10 @@ rate_limits:
   name: Cyclr Rate Limits
   slug: cyclr-rate-limits
 rules:
-- name: Cyclr API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Cyclr API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -251,7 +255,10 @@ rules:
     info: 0
     warn: 3
   slug: cyclr-api-rules
-- name: Cyclr API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Cyclr API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -259,7 +266,9 @@ rules:
     info: 0
     warn: 5
   slug: cyclr-asyncapi-spectral-rules
-- name: Cyclr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cyclr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,15 +278,17 @@ rules:
   slug: cyclr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 49.6
+  delta: 1.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 82.8
-    developer_ergonomics: 13.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 60.6
+    contract_quality: 79.7
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 31.3
-    operational_transparency: 39.5
+    governance: 60.6
+    operational_transparency: 36.8
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -286,8 +297,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
 security:

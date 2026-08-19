@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -218,16 +219,18 @@ overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 23 more developer resources.'
 random_paper: 114
 score:
-  band: thin
-  composite: 39.7
-  delta: 0.0
+  band: developing
+  composite: 41.4
+  delta: 1.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 14.4
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 17.0
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -239,8 +242,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

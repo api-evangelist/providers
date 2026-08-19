@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Boku Direct is Boku's payment gateway API for accepting local payment methods — mobile wallets, account-to-account transfers, and direct carrier billing — with support for one-off charges, subscriptio
@@ -98,12 +99,14 @@ overview: 'Boku publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 135
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 16.8
+  delta: -3.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 23.8
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
@@ -114,8 +117,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/screenshots/boku-2026-07-25T203528.png
 security:

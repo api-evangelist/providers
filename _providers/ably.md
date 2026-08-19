@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -473,7 +474,10 @@ rate_limits:
   name: Ably Rate Limits
   slug: ably-rate-limits
 rules:
-- name: Ably API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Ably API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -481,7 +485,9 @@ rules:
     info: 1
     warn: 7
   slug: ably-asyncapi-spectral-rules
-- name: Ably API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ably API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -491,14 +497,16 @@ rules:
   slug: ably-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 43.5
+  delta: -3.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 65.3
-    developer_ergonomics: 30.4
+    contract_governance: 13.6
+    contract_quality: 65.7
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 28.9
   previous_composite: 46.9
   provenance:
@@ -508,8 +516,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:

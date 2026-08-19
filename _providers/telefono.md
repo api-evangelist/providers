@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -200,7 +201,9 @@ rate_limits:
   name: Telefono Rate Limits
   slug: telefono-rate-limits
 rules:
-- name: Telefono API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telefono API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +211,10 @@ rules:
     info: 1
     warn: 4
   slug: telefono-jsonschema-spectral-rules
-- name: Telefono API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Telefono API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -217,16 +223,18 @@ rules:
     warn: 4
   slug: telefono-rules
 score:
-  band: developing
-  composite: 48.1
-  delta: 0.0
+  band: thin
+  composite: 32.8
+  delta: -15.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.4
-    developer_ergonomics: 26.1
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 62.2
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -240,10 +248,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 15.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/screenshots/telefono-2026-06-20T195031.png
 security:
 - kind: authentication

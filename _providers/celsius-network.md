@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -185,15 +186,17 @@ overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 93
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 46.0
+  delta: 2.4
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 65.7
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 62.6
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -210,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:

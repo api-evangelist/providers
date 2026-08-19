@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -191,7 +192,9 @@ rate_limits:
   name: Charter Communications Rate Limits
   slug: charter-communications-rate-limits
 rules:
-- name: Charter Communications API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Charter Communications API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,14 +204,16 @@ rules:
   slug: charter-communications-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 26.3
+  delta: -9.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 58.2
-    developer_ergonomics: 4.3
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 54.5
+    developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 35.7
   provenance:
@@ -223,10 +228,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 20.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The machine-consumable surface of the Grubbly Farms Shopify storefront: a hosted Storefront MCP server for agentic product discovery and cart/checkout, plus a Customer Account OpenID Connect / OAuth 2'
@@ -116,21 +117,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 19.7
+  delta: -0.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 20.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/screenshots/grubbly-farms-2026-08-07T165848.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -141,18 +142,20 @@ rate_limits:
   slug: cosign-rate-limits
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 26.7
+  delta: -2.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 32.3
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 36.8
   previous_composite: 28.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/screenshots/cosign-2026-06-20T175045.png
 security:

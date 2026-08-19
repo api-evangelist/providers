@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -135,15 +136,17 @@ rate_limits:
   slug: ingram-micro-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 22.3
+  delta: -1.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 54.5
+    contract_governance: 0.0
+    contract_quality: 51.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 23.5
   provenance:
     agentic_access: derived
@@ -152,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/screenshots/ingram-micro-2026-06-20T183355.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -815,7 +816,10 @@ rate_limits:
   name: Oracle Database Rate Limits
   slug: oracle-database-rate-limits
 rules:
-- name: Oracle Database API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Oracle Database API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -823,7 +827,9 @@ rules:
     info: 1
     warn: 5
   slug: oracle-database-asyncapi-spectral-rules
-- name: Oracle Database API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle Database API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -837,16 +843,18 @@ scopes:
   slug: oracle-database-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 48.3
+  delta: -10.5
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 13.6
     contract_quality: 82.2
-    developer_ergonomics: 56.5
+    developer_ergonomics: 42.9
     discoverability: 40.7
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 13.6
+    operational_transparency: 26.3
   previous_composite: 58.8
   provenance:
     agentic_access: derived
@@ -855,9 +863,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:
 - kind: authentication

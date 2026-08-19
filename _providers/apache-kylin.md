@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -283,7 +284,9 @@ rate_limits:
   name: Apache Kylin Rate Limits
   slug: apache-kylin-rate-limits
 rules:
-- name: Apache Kylin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Kylin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,7 +294,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-kylin-jsonschema-spectral-rules
-- name: Apache Kylin API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Apache Kylin API Rules
   rule_count: 17
   severity_counts:
     error: 10
@@ -300,16 +306,18 @@ rules:
     warn: 6
   slug: apache-kylin-spectral-rules
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -8.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 64.4
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 60.4
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -318,9 +326,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/screenshots/apache-kylin-2026-06-20T172119.png
 security:
 - kind: authentication

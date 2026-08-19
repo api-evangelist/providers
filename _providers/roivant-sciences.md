@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -261,7 +262,10 @@ rate_limits:
   name: Roivant Sciences Rate Limits
   slug: roivant-sciences-rate-limits
 rules:
-- name: Roivant Sciences API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Roivant Sciences API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -269,7 +273,9 @@ rules:
     info: 0
     warn: 4
   slug: datavant-healthjump-rules
-- name: Roivant Sciences API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Roivant Sciences API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,15 +290,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 52.9
+  delta: 4.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 68.9
-    developer_ergonomics: 30.4
+    contract_governance: 60.6
+    contract_quality: 64.6
+    developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 31.3
-    operational_transparency: 5.3
+    governance: 60.6
+    operational_transparency: 2.6
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -307,8 +315,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:

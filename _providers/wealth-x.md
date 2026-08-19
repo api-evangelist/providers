@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Retrieve individual and company wealth-intelligence dossiers.
@@ -227,28 +228,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.0
-  delta: 23.0
+  composite: 51.4
+  delta: 1.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 15.3
-    developer_ergonomics: 60.3
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 30.3
+    contract_quality: 14.3
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
+    governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 27.0
+  previous_composite: 50.0
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 3
       marker_coverage: 100.0
       total: 3
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png
 security:
 - kind: authentication
   name: Wealth X Authentication

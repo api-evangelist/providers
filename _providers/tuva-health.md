@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -175,27 +176,37 @@ rate_limits:
   slug: tuva-health-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: 21.8
+  composite: 47.3
+  delta: 4.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 44.0
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 43.4
+    developer_ergonomics: 80.4
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 28.9
-  previous_composite: 20.6
+    governance: 30.3
+    operational_transparency: 26.3
+  previous_composite: 42.4
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:
 - kind: authentication
   name: Tuva Health Authentication

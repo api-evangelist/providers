@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -115,20 +116,22 @@ press:
   url: https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-launches-prototype-of-glueline-free-packaging-solution
 random_paper: 137
 score:
-  band: emerging
-  composite: 13.6
-  delta: 0.0
+  band: minimal
+  composite: 6.9
+  delta: -6.7
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.7
+    developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Westrock Domain Security

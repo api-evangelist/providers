@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 29.5
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -161,7 +162,10 @@ rate_limits:
   name: Opentelemetry Rate Limits
   slug: opentelemetry-rate-limits
 rules:
-- name: OpenTelemetry API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: OpenTelemetry API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -171,14 +175,16 @@ rules:
   slug: opentelemetry-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 40.7
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.9
-    developer_ergonomics: 32.6
+    contract_governance: 13.6
+    contract_quality: 65.7
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 58.3
+    governance: 13.6
     operational_transparency: 39.5
   previous_composite: 46.0
   provenance:
@@ -187,9 +193,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:
 - kind: domain-security

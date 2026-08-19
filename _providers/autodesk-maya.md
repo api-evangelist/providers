@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: 'Python API for scripting and extending Maya functionality, providing access to Maya''s scene graph and node architecture. Includes Python API 2.0 with a more Pythonic workflow and improved performance '
@@ -145,18 +146,20 @@ rate_limits:
   slug: autodesk-maya-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 20.8
+  delta: -0.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 21.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 21.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/screenshots/autodesk-maya-2026-06-20T172637.png
 security:

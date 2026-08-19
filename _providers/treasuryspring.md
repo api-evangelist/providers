@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-08-17'
+  score: 60.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -256,15 +257,17 @@ overview: 'TreasurySpring publishes 13 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 64
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 44.7
+  delta: -2.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 71.9
-    developer_ergonomics: 53.8
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 68.7
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -282,9 +285,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/screenshots/treasuryspring-2026-08-17T082431.png
 security:
 - kind: authentication
   name: Treasuryspring Authentication

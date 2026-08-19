@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -228,7 +229,9 @@ rate_limits:
   name: Wayfair Rate Limits
   slug: wayfair-rate-limits
 rules:
-- name: Wayfair API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wayfair API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,7 +239,10 @@ rules:
     info: 1
     warn: 4
   slug: wayfair-jsonschema-spectral-rules
-- name: Wayfair API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  name: Wayfair API Rules
   rule_count: 35
   severity_counts:
     error: 14
@@ -246,15 +252,17 @@ rules:
   slug: wayfair-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 39.4
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 80.2
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 75.2
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -263,9 +271,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png
 security:
 - kind: authentication

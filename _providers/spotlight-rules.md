@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +123,9 @@ rate_limits:
   name: Spotlight Rules Rate Limits
   slug: spotlight-rules-rate-limits
 rules:
-- name: Spotlight Rules API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spotlight Rules API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -131,16 +134,18 @@ rules:
     warn: 3
   slug: spotlight-rules-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.7
-  delta: 0.0
+  band: emerging
+  composite: 23.6
+  delta: -10.1
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 60.4
-    developer_ergonomics: 8.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 33.7
   provenance:
     agentic_access: derived
@@ -149,9 +154,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotlight-rules/refs/heads/main/screenshots/spotlight-rules-2026-06-20T194354.png
 security:
 - kind: domain-security

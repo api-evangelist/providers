@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -298,7 +299,9 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 23 more developer resources.'
 random_paper: 140
 rules:
-- name: Docling API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Docling API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -306,7 +309,10 @@ rules:
     info: 1
     warn: 5
   slug: docling-jsonschema-spectral-rules
-- name: Docling API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Docling API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -316,15 +322,17 @@ rules:
   slug: docling-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 39.8
+  delta: -5.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 66.8
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 64.2
+    developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 31.6
+    governance: 9.8
+    operational_transparency: 28.9
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -333,9 +341,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling
 tags:

@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -289,15 +290,17 @@ rate_limits:
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 58.8
+  delta: -2.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 61.4
-    developer_ergonomics: 66.8
+    contract_governance: 4.5
+    contract_quality: 58.8
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 60.5
+    governance: 4.5
+    operational_transparency: 50.0
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -310,8 +313,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:

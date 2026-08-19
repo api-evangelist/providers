@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -245,7 +246,9 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
 random_paper: 10
 rules:
-- name: NOAA CO-OPS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NOAA CO-OPS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,14 +258,16 @@ rules:
   slug: noaa-co-ops-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 32.7
+  delta: -6.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 53.7
-    developer_ergonomics: 17.4
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 25.0
+    contract_quality: 50.8
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 15.8
   previous_composite: 38.9
   provenance:
@@ -277,10 +282,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 27.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:
 - kind: domain-security

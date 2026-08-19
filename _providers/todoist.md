@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -289,7 +290,9 @@ rate_limits:
   name: Todoist Rate Limits
   slug: todoist-rate-limits
 rules:
-- name: Todoist API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Todoist API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -297,7 +300,10 @@ rules:
     info: 1
     warn: 4
   slug: todoist-jsonschema-spectral-rules
-- name: Todoist API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Todoist API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -306,16 +312,18 @@ rules:
     warn: 6
   slug: todoist-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 48.5
+  delta: -9.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 72.7
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -324,9 +332,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:
 - kind: authentication

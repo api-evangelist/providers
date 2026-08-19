@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -574,7 +575,9 @@ rate_limits:
   name: Wpengine Rate Limits
   slug: wpengine-rate-limits
 rules:
-- name: WP Engine API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WP Engine API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -584,15 +587,17 @@ rules:
   slug: wpengine-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 40.2
+  delta: -9.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 55.1
-    developer_ergonomics: 21.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 56.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -601,9 +606,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:
 - kind: authentication

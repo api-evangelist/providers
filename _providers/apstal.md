@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -199,20 +200,26 @@ scopes:
   slug: apstal-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
-  band: strong
-  composite: 58.2
-  delta: 52.3
+  band: developing
+  composite: 53.4
+  delta: -4.8
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 70.4
-    governance: 12.5
-    operational_transparency: 52.6
-  previous_composite: 5.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 58.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
 - kind: authentication

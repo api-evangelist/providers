@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1064,7 +1065,9 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
   Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
 random_paper: 81
 rules:
-- name: Amazon CodeGuru Profiler API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CodeGuru Profiler API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1072,7 +1075,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-codeguru-profiler-jsonschema-spectral-rules
-- name: Amazon CodeGuru Profiler API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amazon CodeGuru Profiler API Rules
   rule_count: 16
   severity_counts:
     error: 5
@@ -1082,14 +1088,16 @@ rules:
   slug: amazon-codeguru-profiler-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 31.7
+  delta: -6.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 72.4
-    developer_ergonomics: 15.2
+    contract_governance: 26.5
+    contract_quality: 69.9
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
   previous_composite: 37.7
   provenance:
@@ -1101,9 +1109,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:
 - kind: authentication

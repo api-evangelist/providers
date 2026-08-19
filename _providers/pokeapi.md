@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 20.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -752,7 +753,9 @@ overview: 'PokéAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network
   PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 13 more developer resources.'
 random_paper: 0
 rules:
-- name: PokéAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PokéAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -760,7 +763,9 @@ rules:
     info: 1
     warn: 4
   slug: pokeapi-jsonschema-spectral-rules
-- name: PokéAPI API Rules
+- effective_rule_count: 27
+  extends: []
+  name: PokéAPI API Rules
   rule_count: 27
   severity_counts:
     error: 8
@@ -770,14 +775,16 @@ rules:
   slug: pokeapi-rules
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 42.0
+  delta: -1.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 62.7
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 60.5
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 43.4
   provenance:
@@ -793,8 +800,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/screenshots/pokeapi-2026-06-20T191844.png
 security:

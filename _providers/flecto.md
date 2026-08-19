@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,13 +78,15 @@ overview: 'Flecto is profiled on the [APIs.io](https://apis.io/) network. Tagged
   Flecto''s developer surface includes signup flow, support, and 6 more developer resources.'
 random_paper: 41
 score:
-  band: emerging
-  composite: 14.1
-  delta: 0.0
+  band: minimal
+  composite: 6.8
+  delta: -7.3
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -93,10 +96,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 15.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flecto/refs/heads/main/screenshots/flecto-2026-07-25T214726.png
 security:
 - kind: domain-security

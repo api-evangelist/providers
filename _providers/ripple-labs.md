@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -439,15 +440,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.1
-  delta: 0.0
+  composite: 60.8
+  delta: 3.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 68.5
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 67.9
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -465,9 +468,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:
 - kind: authentication
   name: Ripple Labs Authentication

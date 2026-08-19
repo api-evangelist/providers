@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -559,7 +559,10 @@ rate_limits:
   name: Dun And Bradstreet Rate Limits
   slug: dun-and-bradstreet-rate-limits
 rules:
-- name: Dun & Bradstreet API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Dun & Bradstreet API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -567,7 +570,9 @@ rules:
     info: 1
     warn: 4
   slug: dnb-direct-plus-rules
-- name: Dun & Bradstreet API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dun & Bradstreet API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -582,26 +587,31 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.2
-  delta: 15.6
+  composite: 68.5
+  delta: -6.7
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 83.2
-    developer_ergonomics: 71.7
+    contract_governance: 100.0
+    contract_quality: 79.3
+    developer_ergonomics: 28.0
     discoverability: 87.0
-    governance: 58.3
-    operational_transparency: 50.0
-  previous_composite: 59.6
+    governance: 100.0
+    operational_transparency: 34.2
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/screenshots/dun-and-bradstreet-2026-06-20T180319.png
 security:
 - kind: authentication

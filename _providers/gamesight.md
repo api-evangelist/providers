@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -224,16 +225,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.3
-  delta: 1.3
+  composite: 49.6
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.7
-    developer_ergonomics: 69.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 30.3
+    contract_quality: 55.9
+    developer_ergonomics: 54.2
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 57.9
-  previous_composite: 54.0
+    governance: 30.3
+    operational_transparency: 55.3
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,11 +245,11 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:
 - kind: authentication

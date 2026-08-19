@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,18 +106,20 @@ overview: 'SiLC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 129
 score:
   band: minimal
-  composite: 8.3
-  delta: 0.0
+  composite: 6.2
+  delta: -2.1
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

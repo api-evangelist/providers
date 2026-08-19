@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -402,7 +403,10 @@ rate_limits:
   name: Tensor Rate Limits
   slug: tensor-rate-limits
 rules:
-- name: Tensor API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Tensor API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -410,7 +414,9 @@ rules:
     info: 1
     warn: 8
   slug: tensor-asyncapi-spectral-rules
-- name: Tensor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tensor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -418,7 +424,10 @@ rules:
     info: 2
     warn: 3
   slug: tensor-jsonschema-spectral-rules
-- name: Tensor API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Tensor API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -428,14 +437,16 @@ rules:
   slug: tensor-rules
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 53.0
+  delta: -1.5
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 75.2
-    developer_ergonomics: 60.9
+    contract_governance: 13.6
+    contract_quality: 71.6
+    developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 36.8
   previous_composite: 54.5
   provenance:
@@ -451,8 +462,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/screenshots/tensor-2026-06-20T195119.png
 security:

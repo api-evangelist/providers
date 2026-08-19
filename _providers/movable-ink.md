@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: A write-only HTTP collector that ingests customer behavioral events in real time so Movable Ink Studio can use them for targeting and content generation. Callers POST Segment-shaped JSON events (type,
@@ -200,20 +201,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.4
+  delta: -1.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 52.6
   previous_composite: 50.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/movable-ink/refs/heads/main/screenshots/movable-ink-2026-08-07T184344.png
 security:

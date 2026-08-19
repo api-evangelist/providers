@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: gRPC bundle-submission interface for searchers. Authenticate with a Solana keypair (challenge-response to Bearer tokens), then submit atomic transaction bundles with revert protection. Backwards-compa
@@ -157,23 +158,25 @@ overview: 'Harmonic GG publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   Harmonic GG''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 18 more developer resources.'
 random_paper: 57
 score:
-  band: emerging
-  composite: 25.5
-  delta: 0.0
+  band: thin
+  composite: 30.4
+  delta: 4.9
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 60.3
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 25.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/screenshots/harmonic-gg-2026-07-25T220716.png
 security:

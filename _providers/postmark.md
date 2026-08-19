@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -638,7 +639,10 @@ rate_limits:
   name: Postmark Rate Limits
   slug: postmark-rate-limits
 rules:
-- name: Postmark API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Postmark API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -646,7 +650,9 @@ rules:
     info: 0
     warn: 7
   slug: postmark-asyncapi-spectral-rules
-- name: Postmark API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Postmark API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -656,26 +662,31 @@ rules:
   slug: postmark-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.8
-  delta: 21.8
+  composite: 73.1
+  delta: 0.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 60.2
-    developer_ergonomics: 91.3
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 43.2
+    contract_quality: 60.1
+    developer_ergonomics: 90.5
     discoverability: 75.9
-    governance: 72.9
-    operational_transparency: 60.5
-  previous_composite: 51.0
+    governance: 43.2
+    operational_transparency: 81.6
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:
 - kind: authentication

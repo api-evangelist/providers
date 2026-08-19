@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -208,7 +209,9 @@ rate_limits:
   name: Harbor Compliance Rate Limits
   slug: harbor-compliance-rate-limits
 rules:
-- name: Harbor Compliance API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Harbor Compliance API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -218,14 +221,16 @@ rules:
   slug: harbor-compliance-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 45.6
+  delta: -7.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.9
-    developer_ergonomics: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 67.5
+    developer_ergonomics: 54.8
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 18.4
   previous_composite: 52.7
   provenance:
@@ -235,9 +240,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:
 - kind: authentication

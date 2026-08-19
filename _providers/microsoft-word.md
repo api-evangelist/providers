@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -585,7 +585,9 @@ rate_limits:
   name: Microsoft Word Rate Limits
   slug: microsoft-word-rate-limits
 rules:
-- name: Microsoft Word API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Word API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -593,7 +595,10 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-word-jsonschema-spectral-rules
-- name: Microsoft Word API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Microsoft Word API Rules
   rule_count: 41
   severity_counts:
     error: 18
@@ -608,15 +613,17 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 48.1
+  delta: -7.5
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 31.1
-    developer_ergonomics: 63.0
+    contract_governance: 41.7
+    contract_quality: 32.1
+    developer_ergonomics: 59.5
     discoverability: 68.5
-    governance: 80.2
-    operational_transparency: 55.3
+    governance: 41.7
+    operational_transparency: 36.8
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -627,9 +634,9 @@ score:
       marker_coverage: 100.0
       total: 18
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:
 - kind: authentication

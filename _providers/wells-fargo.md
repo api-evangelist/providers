@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: Wells Fargo Rate Limits
   slug: wells-fargo-rate-limits
 rules:
-- name: wells-fargo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: wells-fargo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +238,10 @@ rules:
     info: 2
     warn: 3
   slug: wells-fargo-jsonschema-spectral-rules
-- name: wells-fargo API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: wells-fargo API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -249,15 +255,17 @@ scopes:
   slug: wells-fargo-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -11.6
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 77.2
-    developer_ergonomics: 32.6
-    discoverability: 66.7
-    governance: 68.8
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 25.0
+    contract_quality: 72.9
+    developer_ergonomics: 16.7
+    discoverability: 59.3
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 49.5
   provenance:
@@ -267,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:
 - kind: authentication

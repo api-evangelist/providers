@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -189,16 +190,18 @@ rate_limits:
   name: Tmx Group Rate Limits
   slug: tmx-group-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 42.7
+  delta: 0.9
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 44.7
+    governance: 4.5
+    operational_transparency: 42.1
   previous_composite: 41.8
   provenance:
     conformance: derived
@@ -207,9 +210,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png
 security:

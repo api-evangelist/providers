@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 16.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -92,7 +93,10 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
 random_paper: 106
 rules:
-- name: Talkdesk API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Talkdesk API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -102,19 +106,27 @@ rules:
   slug: talkdesk-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 27.3
+  delta: -7.0
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 54.3
-    developer_ergonomics: 23.9
+    contract_governance: 13.6
+    contract_quality: 48.9
+    developer_ergonomics: 16.7
     discoverability: 59.3
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
   previous_composite: 34.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png
 security:
 - kind: domain-security

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -189,16 +189,18 @@ rate_limits:
   name: Wattwatchers Rate Limits
   slug: wattwatchers-rate-limits
 score:
-  band: thin
-  composite: 39.4
-  delta: 0.0
+  band: developing
+  composite: 45.8
+  delta: 6.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 61.2
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 59.4
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -215,10 +217,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Wattwatchers Authentication

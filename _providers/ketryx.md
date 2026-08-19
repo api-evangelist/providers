@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-17'
+  score: 27.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,15 +172,17 @@ overview: 'Ketryx publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 random_paper: 83
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 36.7
+  delta: -2.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 15.7
-    developer_ergonomics: 51.6
+    contract_governance: 30.3
+    contract_quality: 14.7
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -196,9 +199,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 43.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

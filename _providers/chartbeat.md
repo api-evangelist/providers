@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Live audience and traffic data updated every three seconds — top pages, referrers, geographies, engaged time, loyalty, and live concurrent visitors — the data behind the Real-Time Dashboard. HTTP GET,
@@ -183,19 +184,24 @@ rate_limits:
   slug: chartbeat-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 10.7
+  composite: 43.4
+  delta: -1.6
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 42.1
-  previous_composite: 34.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 39.5
+  previous_composite: 45.0
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png
 security:
 - kind: authentication

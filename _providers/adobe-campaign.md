@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -687,7 +687,10 @@ rate_limits:
   name: Adobe Campaign Rate Limits
   slug: adobe-campaign-rate-limits
 rules:
-- name: Adobe Campaign API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Adobe Campaign API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -695,7 +698,9 @@ rules:
     info: 1
     warn: 4
   slug: adobe-campaign-asyncapi-spectral-rules
-- name: Adobe Campaign API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adobe Campaign API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -703,7 +708,9 @@ rules:
     info: 2
     warn: 3
   slug: adobe-campaign-jsonschema-spectral-rules
-- name: Adobe Campaign API Rules
+- effective_rule_count: 17
+  extends: []
+  name: Adobe Campaign API Rules
   rule_count: 17
   severity_counts:
     error: 14
@@ -718,32 +725,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.7
-  delta: 24.7
+  composite: 77.8
+  delta: 3.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 79.3
-    developer_ergonomics: 80.4
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 43.9
+    contract_quality: 75.8
+    developer_ergonomics: 72.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 60.5
-  previous_composite: 50.0
+    governance: 43.9
+    operational_transparency: 57.9
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication

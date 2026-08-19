@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: Endpoints for creating and managing loan application contracts
@@ -255,15 +255,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 49.9
+  delta: 3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 67.3
-    developer_ergonomics: 51.6
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 63.9
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 46.5
   provenance:
     conformance: derived
@@ -279,9 +281,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 70.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

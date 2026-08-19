@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-17'
+  score: 24.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -187,24 +188,27 @@ scopes:
   slug: unwrap-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -3.0
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.7
+    developer_ergonomics: 61.3
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 42.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/screenshots/unwrap-2026-08-17T082635.png
 security:
 - kind: authentication
   name: Unwrap Authentication

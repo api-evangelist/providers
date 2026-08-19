@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Brevian's hosted (remote) Model Context Protocol server, exposing revenue-execution context (knowledge, deals, conversations, pipeline) to MCP-capable agents. Access is gated by OAuth 2.1 (authorizati
@@ -140,20 +141,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 27.5
-  delta: 0.0
+  composite: 23.4
+  delta: -4.1
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 38.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 27.5
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevian/refs/heads/main/screenshots/brevian-2026-07-25T203755.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -202,7 +203,9 @@ rate_limits:
   name: Frankieone Rate Limits
   slug: frankieone-rate-limits
 rules:
-- name: FrankieOne API Rules
+- effective_rule_count: 0
+  extends: []
+  name: FrankieOne API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -210,7 +213,9 @@ rules:
     info: 0
     warn: 0
   slug: frankieone-core-rules
-- name: FrankieOne API Rules
+- effective_rule_count: 0
+  extends: []
+  name: FrankieOne API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -220,15 +225,17 @@ rules:
   slug: frankieone-kyc-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 36.0
+  delta: -2.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 64.2
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 64.9
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 10.4
-    operational_transparency: 13.2
+    governance: 0.0
+    operational_transparency: 10.5
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -237,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/screenshots/frankieone-2026-06-20T181611.png
 security:

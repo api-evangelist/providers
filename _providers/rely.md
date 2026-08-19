@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -184,7 +185,9 @@ rate_limits:
   name: Rely Rate Limits
   slug: rely-rate-limits
 rules:
-- name: Rely.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rely.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +195,9 @@ rules:
     info: 2
     warn: 3
   slug: rely-jsonschema-spectral-rules
-- name: Rely.io API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Rely.io API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -202,15 +207,17 @@ rules:
   slug: rely-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 39.3
+  delta: -5.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 70.9
-    developer_ergonomics: 23.9
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 26.2
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -219,9 +226,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/screenshots/rely-2026-06-20T192840.png
 security:
 - kind: authentication

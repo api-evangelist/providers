@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-17'
+  score: 66.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -328,15 +329,17 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 61.2
+  delta: -2.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 70.1
-    developer_ergonomics: 77.7
+    contract_governance: 30.3
+    contract_quality: 68.3
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 64.0
   provenance:
     agentic_access: derived
@@ -348,8 +351,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 15
@@ -496,7 +497,9 @@ rate_limits:
   name: Sonatype Rate Limits
   slug: sonatype-rate-limits
 rules:
-- name: Sonatype API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sonatype API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -504,7 +507,10 @@ rules:
     info: 2
     warn: 3
   slug: sonatype-jsonschema-spectral-rules
-- name: Sonatype API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Sonatype API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -513,16 +519,18 @@ rules:
     warn: 6
   slug: sonatype-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 37.0
+  delta: -7.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 58.8
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 57.5
+    developer_ergonomics: 38.1
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 13.2
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -531,9 +539,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/screenshots/sonatype-2026-06-20T194159.png
 security:
 - kind: authentication

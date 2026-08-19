@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -173,16 +174,18 @@ rate_limits:
   name: Canvas Rate Limits
   slug: canvas-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: 0.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 52.2
-    developer_ergonomics: 26.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 51.0
+    developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -191,8 +194,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/screenshots/canvas-2026-06-20T173929.png
 security:

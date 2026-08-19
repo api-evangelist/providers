@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -183,15 +184,17 @@ rate_limits:
   slug: amazon-resilience-hub-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 32.6
+  delta: -1.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 16.0
-    developer_ergonomics: 41.3
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 0.0
+    contract_quality: 15.4
+    developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 34.1
   provenance:
     agentic_access: derived
@@ -200,8 +203,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:

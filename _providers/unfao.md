@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +141,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: FAO FAOSTAT API Rules
+- effective_rule_count: 4
+  extends: []
+  name: FAO FAOSTAT API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -150,14 +153,16 @@ rules:
   slug: unfao-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 30.3
+  delta: -4.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 64.8
+    contract_governance: 9.8
+    contract_quality: 61.4
     developer_ergonomics: 0.0
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 34.6
   provenance:
@@ -173,8 +178,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/screenshots/unfao-2026-06-20T200026.png
 security:

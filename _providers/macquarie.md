@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -218,7 +219,9 @@ rate_limits:
   name: Macquarie Rate Limits
   slug: macquarie-rate-limits
 rules:
-- name: Macquarie University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Macquarie University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,7 +229,10 @@ rules:
     info: 2
     warn: 3
   slug: macquarie-jsonschema-spectral-rules
-- name: Macquarie University API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Macquarie University API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -241,14 +247,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 40.8
+  delta: -2.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 74.6
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 73.0
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 43.5
   provenance:
@@ -258,8 +266,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png
 security:

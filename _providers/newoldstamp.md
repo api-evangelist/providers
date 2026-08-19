@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-17'
+  score: 19.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The undocumented application GraphQL API that powers the Newoldstamp dashboard — signatures, departments, campaigns, segments, Google Workspace and Microsoft 365 deployment, and billing. Introspection
@@ -115,19 +116,24 @@ rate_limits:
   slug: newoldstamp-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 21.8
+  composite: 35.3
+  delta: -1.7
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 43.2
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 18.5
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 37.0
+  provenance:
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/screenshots/newoldstamp-2026-08-07T185122.png
 security:
 - kind: authentication

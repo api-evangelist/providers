@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -27,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 44.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Asynchronous REST APIs that export Observe.AI contact-center data into external systems: Interactions (Moments, transcripts and metadata for voice calls, webchat and email), Summarization AI (GenAI su'
@@ -232,19 +232,30 @@ rate_limits:
   slug: observeai-rate-limits
 score:
   band: strong
-  composite: 64.5
-  delta: 46.7
+  composite: 58.8
+  delta: -5.7
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 56.0
-    developer_ergonomics: 58.7
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 54.2
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 86.8
-  previous_composite: 17.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 84.2
+  previous_composite: 64.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:
 - kind: authentication

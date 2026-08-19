@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-17'
+  score: 54.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -327,16 +328,18 @@ rate_limits:
   name: Zavu Rate Limits
   slug: zavu-rate-limits
 score:
-  band: developing
-  composite: 54.7
-  delta: 0.0
+  band: strong
+  composite: 55.7
+  delta: 1.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 67.0
-    developer_ergonomics: 75.5
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 68.0
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -354,9 +357,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/screenshots/zavu-2026-08-17T083039.png
 security:
 - kind: authentication
   name: Zavu Authentication

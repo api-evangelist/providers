@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,7 +202,10 @@ rate_limits:
   name: Reuters Rate Limits
   slug: reuters-rate-limits
 rules:
-- name: Reuters API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Reuters API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -209,7 +213,9 @@ rules:
     info: 2
     warn: 4
   slug: reuters-connect-api-rules
-- name: Reuters API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Reuters API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -219,15 +225,17 @@ rules:
   slug: reuters-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 44.4
+  delta: -0.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 79.1
-    developer_ergonomics: 26.1
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 69.7
+    contract_quality: 75.2
+    developer_ergonomics: 15.5
     discoverability: 64.8
-    governance: 37.5
-    operational_transparency: 13.2
+    governance: 69.7
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -236,9 +244,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/screenshots/reuters-2026-08-17T125210.png
 security:
 - kind: authentication
   name: Reuters Authentication

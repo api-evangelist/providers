@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 40.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -202,23 +202,25 @@ overview: 'Higgsfield publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 48.3
+  delta: -3.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 45.1
+    developer_ergonomics: 73.2
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/screenshots/higgsfield-2026-07-25T221304.png
 security:

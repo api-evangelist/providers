@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Public Access to Court Electronic Records (PACER) provides online access to U.S. Federal Court case and docket information from Federal Courts including the U.S. Court of Appeals for the Federal Circu
@@ -174,7 +175,9 @@ rate_limits:
   name: Us Court Of Appeals For The Federal Circuit Rate Limits
   slug: us-court-of-appeals-for-the-federal-circuit-rate-limits
 rules:
-- name: US Court of Appeals for the Federal Circuit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Court of Appeals for the Federal Circuit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -184,14 +187,16 @@ rules:
   slug: us-court-of-appeals-for-the-federal-circuit-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 27.1
+  delta: -4.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 31.2
   regulatory:
@@ -200,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/screenshots/us-court-of-appeals-for-the-federal-circuit-2026-06-20T200611.png
 security:

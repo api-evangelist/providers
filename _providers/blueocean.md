@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The application backend for BlueOcean's Spark agentic marketing assistant — saved prompts and prompt analytics, "Siren" recurring schedules, session document upload, persistent user memory, conversati
@@ -131,19 +132,29 @@ rate_limits:
   slug: blueocean-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 19.6
+  composite: 32.7
+  delta: 0.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 43.3
-    developer_ergonomics: 13.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 44.6
+    developer_ergonomics: 14.3
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 13.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 30.3
+    operational_transparency: 2.6
+  previous_composite: 32.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/screenshots/blueocean-2026-07-25T203459.png
 security:
 - kind: authentication

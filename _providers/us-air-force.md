@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research findings, and operational information. The pro
@@ -90,7 +91,9 @@ rate_limits:
   name: Us Air Force Rate Limits
   slug: us-air-force-rate-limits
 rules:
-- name: US Air Force API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Air Force API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -100,15 +103,23 @@ rules:
   slug: us-air-force-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.0
+  composite: 16.0
+  delta: -6.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
+    contract_governance: 9.8
+    contract_quality: 19.7
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 22.4
   regulatory:
     applies: true
@@ -116,9 +127,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/screenshots/us-air-force-2026-06-20T200539.png
 security:
 - kind: domain-security

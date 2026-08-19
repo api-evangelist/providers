@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Intrinio's REST API for financial data — stock prices, options, fundamentals, estimates, ETFs, indices, corporate actions, and ESG — with API-key authentication, next_page cursor pagination, and swagg
@@ -188,15 +189,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 58.0
+  delta: -2.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 54.8
     discoverability: 94.4
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 60.8
   provenance:
     conformance: first-party
@@ -207,10 +210,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/screenshots/intrinio-2026-06-20T183509.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/screenshots/intrinio-2026-08-17T082615.png
 security:
 - kind: authentication
   name: Intrinio Authentication

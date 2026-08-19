@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 43.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -228,15 +228,17 @@ overview: 'Monoova publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 22
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 57.7
+  delta: 1.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.9
-    developer_ergonomics: 73.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 68.7
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -253,9 +255,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 53.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png
 security:

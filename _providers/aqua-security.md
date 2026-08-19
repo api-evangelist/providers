@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -503,7 +504,9 @@ rate_limits:
   name: Aqua Security Rate Limits
   slug: aqua-security-rate-limits
 rules:
-- name: Aqua Security API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Aqua Security API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -511,7 +514,10 @@ rules:
     info: 1
     warn: 4
   slug: aqua-security-jsonschema-spectral-rules
-- name: Aqua Security API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Aqua Security API Rules
   rule_count: 36
   severity_counts:
     error: 12
@@ -520,16 +526,18 @@ rules:
     warn: 21
   slug: aqua-security-spectral-rules
 score:
-  band: developing
-  composite: 49.9
-  delta: 0.0
+  band: thin
+  composite: 36.3
+  delta: -13.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 28.7
-    developer_ergonomics: 47.8
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 27.0
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 49.9
   provenance:
     agentic_access: derived
@@ -538,9 +546,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
 security:
 - kind: authentication

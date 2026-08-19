@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -144,7 +145,10 @@ rate_limits:
   name: Google Cloud Pubsub Rate Limits
   slug: google-cloud-pubsub-rate-limits
 rules:
-- name: Google Cloud Pub/Sub API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Google Cloud Pub/Sub API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -152,7 +156,9 @@ rules:
     info: 1
     warn: 6
   slug: google-cloud-pubsub-asyncapi-spectral-rules
-- name: Google Cloud Pub/Sub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Cloud Pub/Sub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -166,16 +172,18 @@ scopes:
   slug: google-cloud-pubsub-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -5.3
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 79.1
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 74.1
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -184,9 +192,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication

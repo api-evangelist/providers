@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -227,15 +227,17 @@ rate_limits:
   slug: 73-strings-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 53.8
+  delta: 0.3
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 61.9
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 60.1
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -247,8 +249,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

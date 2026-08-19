@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Agents API from Zoho Desk — 2 operation(s) for agents.
@@ -116,16 +117,18 @@ overview: 'Zoho Desk publishes 3 APIs on the [APIs.io](https://apis.io/) network
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
 random_paper: 22
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: emerging
+  composite: 25.3
+  delta: -4.5
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 55.6
-    developer_ergonomics: 15.2
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 29.8
   provenance:
     contracts:
@@ -133,8 +136,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:

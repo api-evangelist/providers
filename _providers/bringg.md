@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 35.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -573,7 +574,10 @@ rate_limits:
   name: Bringg Rate Limits
   slug: bringg-rate-limits
 rules:
-- name: Bringg API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Bringg API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -581,7 +585,9 @@ rules:
     info: 0
     warn: 2
   slug: bringg-asyncapi-spectral-rules
-- name: Bringg API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bringg API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -589,7 +595,10 @@ rules:
     info: 1
     warn: 4
   slug: bringg-jsonschema-spectral-rules
-- name: Bringg API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Bringg API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -604,15 +613,17 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 58.5
+  delta: -6.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 80.3
-    developer_ergonomics: 52.2
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 11.4
+    contract_quality: 75.8
+    developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 52.1
-    operational_transparency: 76.3
+    governance: 11.4
+    operational_transparency: 61.8
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -626,10 +637,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 59.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 56.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:
 - kind: authentication

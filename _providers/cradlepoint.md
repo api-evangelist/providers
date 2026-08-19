@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -284,7 +285,9 @@ rate_limits:
   name: Cradlepoint Rate Limits
   slug: cradlepoint-rate-limits
 rules:
-- name: Cradlepoint API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cradlepoint API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -292,7 +295,10 @@ rules:
     info: 1
     warn: 4
   slug: cradlepoint-jsonschema-spectral-rules
-- name: Cradlepoint API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Cradlepoint API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -302,14 +308,16 @@ rules:
   slug: cradlepoint-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 40.4
+  delta: -8.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.9
-    developer_ergonomics: 26.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 48.4
   provenance:
@@ -319,9 +327,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/screenshots/cradlepoint-2026-06-20T175202.png
 security:
 - kind: authentication

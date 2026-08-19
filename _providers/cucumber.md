@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -162,7 +163,9 @@ rate_limits:
   name: Cucumber Rate Limits
   slug: cucumber-rate-limits
 rules:
-- name: Cucumber API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cucumber API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,20 +174,22 @@ rules:
     warn: 3
   slug: cucumber-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.6
-  delta: 0.0
+  band: emerging
+  composite: 25.7
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 19.7
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/screenshots/cucumber-2026-06-20T175327.png
 security:
 - kind: domain-security

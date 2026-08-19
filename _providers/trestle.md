@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.2
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -226,23 +227,25 @@ scopes:
   slug: trestle-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 40.9
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: 1.1
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 0.0
-    developer_ergonomics: 60.3
+    contract_governance: 18.2
+    contract_quality: 7.0
+    developer_ergonomics: 63.7
     discoverability: 83.3
-    governance: 12.5
-    operational_transparency: 81.6
+    governance: 18.2
+    operational_transparency: 65.8
   previous_composite: 40.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

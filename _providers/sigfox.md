@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: RESTful backend API for the Sigfox 0G network — manage devices, device types, contracts, groups, users and base stations; retrieve device messages; predict coverage; and configure callbacks that deliv
@@ -135,15 +136,17 @@ rate_limits:
   slug: sigfox-rate-limits
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 38.9
+  delta: -0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 32.3
-    developer_ergonomics: 50.0
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 60.5
+    governance: 4.5
+    operational_transparency: 57.9
   previous_composite: 39.8
   provenance:
     conformance: derived
@@ -153,8 +156,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

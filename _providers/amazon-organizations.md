@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -318,7 +319,9 @@ rate_limits:
   name: Amazon Organizations Rate Limits
   slug: amazon-organizations-rate-limits
 rules:
-- name: Amazon Organizations API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon Organizations API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -326,7 +329,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-organizations-jsonschema-spectral-rules
-- name: Amazon Organizations API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Organizations API Rules
   rule_count: 25
   severity_counts:
     error: 10
@@ -335,16 +341,18 @@ rules:
     warn: 14
   slug: amazon-organizations-spectral-rules
 score:
-  band: strong
-  composite: 61.0
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -7.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 73.1
-    developer_ergonomics: 54.3
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 25.0
+    contract_quality: 68.5
+    developer_ergonomics: 59.5
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -353,9 +361,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/screenshots/amazon-organizations-2026-06-20T171753.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Wagtail REST API v2 exposes site content — pages, images, documents, and redirects — as JSON. Endpoints support filtering by field value, tree relationships (child_of, ancestor_of, descendant_of),
@@ -119,18 +120,20 @@ rate_limits:
   slug: wagtail-rate-limits
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 19.9
+  delta: 0.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/screenshots/wagtail-2026-06-20T201200.png
 security:

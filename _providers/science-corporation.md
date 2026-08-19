@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -86,15 +87,17 @@ overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/
 random_paper: 38
 score:
   band: emerging
-  composite: 15.8
-  delta: 0.0
+  composite: 23.0
+  delta: 7.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 32.6
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 15.8
   provenance:
     conformance: derived
@@ -106,9 +109,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: domain-security
   name: Science Corporation Domain Security

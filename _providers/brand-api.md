@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 52.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The consolidated Brandfetch REST API — nine operations spanning brand lookup by domain, stock/ETF ticker, ISIN and crypto symbol, brand search, LLM-ready brand context, transaction-to-merchant resolut
@@ -261,31 +262,36 @@ scopes:
   slug: brand-api-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 60.4
-  delta: 21.5
+  band: exemplar
+  composite: 66.8
+  delta: 6.4
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 72.1
-    developer_ergonomics: 56.5
+    contract_governance: 30.3
+    contract_quality: 69.0
+    developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 52.6
-  previous_composite: 38.9
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 60.4
   provenance:
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:

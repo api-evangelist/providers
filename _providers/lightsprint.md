@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 12.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
@@ -188,23 +189,31 @@ scopes:
   slug: lightsprint-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: thin
-  composite: 39.0
-  delta: 0.0
+  band: developing
+  composite: 39.9
+  delta: 0.9
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 39.0
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:

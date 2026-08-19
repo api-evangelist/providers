@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -528,7 +529,10 @@ rate_limits:
   name: Sumo Logic Rate Limits
   slug: sumo-logic-rate-limits
 rules:
-- name: Sumo Logic API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Sumo Logic API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -536,7 +540,9 @@ rules:
     info: 1
     warn: 7
   slug: sumo-logic-asyncapi-spectral-rules
-- name: Sumo Logic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sumo Logic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -544,7 +550,10 @@ rules:
     info: 2
     warn: 3
   slug: sumo-logic-jsonschema-spectral-rules
-- name: Sumo Logic API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Sumo Logic API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -554,15 +563,17 @@ rules:
   slug: sumo-logic-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 45.8
+  delta: -2.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 71.5
-    developer_ergonomics: 47.8
+    contract_governance: 13.6
+    contract_quality: 74.9
+    developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 47.9
-    operational_transparency: 28.9
+    governance: 13.6
+    operational_transparency: 26.3
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -571,8 +582,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

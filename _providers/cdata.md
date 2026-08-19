@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -513,15 +514,23 @@ rate_limits:
   slug: cdata-rate-limits
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 38.6
+  delta: -0.8
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 56.2
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 52.7
+    developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -530,8 +539,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/screenshots/cdata-2026-06-20T174101.png
 security:

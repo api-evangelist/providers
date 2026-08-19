@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -350,7 +351,10 @@ rate_limits:
   name: Datahub Rate Limits
   slug: datahub-rate-limits
 rules:
-- name: DataHub API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: DataHub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -358,7 +362,9 @@ rules:
     info: 1
     warn: 4
   slug: datahub-asyncapi-spectral-rules
-- name: DataHub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DataHub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,7 +372,10 @@ rules:
     info: 2
     warn: 3
   slug: datahub-jsonschema-spectral-rules
-- name: DataHub API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: DataHub API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -376,14 +385,16 @@ rules:
   slug: datahub-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 48.6
+  delta: -5.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 72.5
-    developer_ergonomics: 50.0
+    contract_governance: 28.8
+    contract_quality: 69.3
+    developer_ergonomics: 52.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 28.8
     operational_transparency: 47.4
   previous_composite: 53.8
   provenance:
@@ -393,9 +404,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:
 - kind: authentication

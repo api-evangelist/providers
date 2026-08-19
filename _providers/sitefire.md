@@ -16,21 +16,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 55.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -203,18 +204,22 @@ scopes:
   slug: sitefire-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.2
-  delta: 16.7
+  band: developing
+  composite: 54.2
+  delta: -4.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 56.0
-    developer_ergonomics: 52.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 16.7
+    contract_quality: 52.4
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 52.6
-  previous_composite: 41.5
+    governance: 16.7
+    operational_transparency: 50.0
+  previous_composite: 58.2
   provenance:
+    agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -222,9 +227,10 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png
 security:
 - kind: authentication
   name: Sitefire Authentication

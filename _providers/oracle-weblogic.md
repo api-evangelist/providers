@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -549,7 +550,9 @@ rate_limits:
   name: Oracle Weblogic Rate Limits
   slug: oracle-weblogic-rate-limits
 rules:
-- name: Oracle WebLogic Server API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Oracle WebLogic Server API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -559,15 +562,17 @@ rules:
   slug: oracle-weblogic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 42.5
+  delta: -5.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 66.7
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 65.8
+    developer_ergonomics: 28.6
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -576,9 +581,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:
 - kind: authentication

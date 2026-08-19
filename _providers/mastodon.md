@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -109,7 +110,10 @@ rate_limits:
   name: Mastodon Rate Limits
   slug: mastodon-rate-limits
 rules:
-- name: Mastodon API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Mastodon API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -119,15 +123,23 @@ rules:
   slug: mastodon-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 28.1
+  delta: -2.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 41.9
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 44.1
+    developer_ergonomics: 31.0
     discoverability: 50.0
-    governance: 41.7
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 31.0
   provenance:
     contracts:
@@ -135,8 +147,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png
 security:

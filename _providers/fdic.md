@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +192,9 @@ rate_limits:
   name: Fdic Rate Limits
   slug: fdic-rate-limits
 rules:
-- name: FDIC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: FDIC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,14 +204,16 @@ rules:
   slug: fdic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 34.4
+  delta: -4.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 62.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 58.7
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 39.1
   provenance:
@@ -224,8 +229,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png
 security:

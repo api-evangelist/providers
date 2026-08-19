@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -152,7 +153,10 @@ rate_limits:
   name: Jumio Rate Limits
   slug: jumio-rate-limits
 rules:
-- name: Jumio API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Jumio API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -162,19 +166,21 @@ rules:
   slug: jumio-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 28.8
+  delta: -5.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 50.6
-    developer_ergonomics: 10.9
+    contract_governance: 13.6
+    contract_quality: 45.6
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 33.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/screenshots/jumio-2026-06-20T183827.png
 security:
 - kind: domain-security

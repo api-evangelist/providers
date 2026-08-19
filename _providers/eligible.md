@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -206,26 +207,32 @@ rate_limits:
   name: Eligible Rate Limits
   slug: eligible-rate-limits
 score:
-  band: developing
-  composite: 50.4
-  delta: 38.1
+  band: strong
+  composite: 56.8
+  delta: 6.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 51.6
-    developer_ergonomics: 45.7
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 28.9
-  previous_composite: 12.3
+    governance: 18.2
+    operational_transparency: 26.3
+  previous_composite: 50.4
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/screenshots/eligible-2026-08-17T123412.png
 security:
 - kind: authentication
   name: Eligible Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Southwest Airlines internal flight booking API powers the southwest.com website for searching and booking flights. It provides flight availability, pricing, schedules, and air booking shopping cap
@@ -151,7 +152,9 @@ rate_limits:
   name: Southwest Airlines Rate Limits
   slug: southwest-airlines-rate-limits
 rules:
-- name: Southwest Airlines API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Southwest Airlines API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,19 +164,21 @@ rules:
   slug: southwest-airlines-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 28.9
+  delta: -7.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 74.1
+    contract_governance: 25.0
+    contract_quality: 66.7
     developer_ergonomics: 0.0
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 36.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png
 security:
 - kind: domain-security

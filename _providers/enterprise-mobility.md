@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -140,15 +141,17 @@ scopes:
   slug: enterprise-mobility-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 27.8
-  delta: 0.0
+  band: thin
+  composite: 28.1
+  delta: 0.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 27.8
   provenance:
@@ -159,8 +162,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/screenshots/enterprise-mobility-2026-08-07T164933.png
 security:

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -294,7 +295,10 @@ rate_limits:
   name: Copper Rate Limits
   slug: copper-rate-limits
 rules:
-- name: Copper API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Copper API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -302,7 +306,10 @@ rules:
     info: 0
     warn: 5
   slug: copper-asyncapi-spectral-rules
-- name: Copper API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Copper API Rules
   rule_count: 14
   severity_counts:
     error: 6
@@ -310,7 +317,9 @@ rules:
     info: 1
     warn: 7
   slug: copper-developer-api-rules
-- name: Copper API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Copper API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,15 +329,17 @@ rules:
   slug: copper-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 43.5
+  delta: -9.9
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 69.3
-    developer_ergonomics: 45.7
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 11.4
+    contract_quality: 68.7
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 26.3
+    governance: 11.4
+    operational_transparency: 23.7
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -337,9 +348,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png
 security:
 - kind: authentication

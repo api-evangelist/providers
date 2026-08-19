@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,15 +197,17 @@ overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 76
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 29.2
+  delta: -10.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 30.2
-    developer_ergonomics: 60.3
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 28.3
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -216,9 +219,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Zazzle Authentication

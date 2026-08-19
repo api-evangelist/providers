@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Southern Company Customer Account API provides access to utility account data for Alabama Power, Georgia Power, and Mississippi Power customers. It supports reading energy usage data, account bala
@@ -137,7 +138,9 @@ rate_limits:
   name: Southern Rate Limits
   slug: southern-rate-limits
 rules:
-- name: Southern Company API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Southern Company API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -147,15 +150,17 @@ rules:
   slug: southern-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.9
-  delta: 0.0
+  composite: 19.3
+  delta: -5.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 33.9
+    contract_governance: 25.0
+    contract_quality: 29.6
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 24.9
   regulatory:
     applies: true
@@ -163,9 +168,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/screenshots/southern-2026-06-20T194228.png
 security:
 - kind: domain-security

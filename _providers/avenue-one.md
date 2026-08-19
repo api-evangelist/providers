@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,18 +100,20 @@ overview: 'Avenue One is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 117
 score:
   band: emerging
-  composite: 14.6
-  delta: 0.0
+  composite: 13.3
+  delta: -1.3
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue-one/refs/heads/main/screenshots/avenue-one-2026-08-07T162022.png
 security:

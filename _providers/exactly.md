@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -262,7 +263,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Exactly Protocol API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Exactly Protocol API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -271,15 +274,17 @@ rules:
     warn: 3
   slug: exactly-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.4
-  delta: 0.0
+  band: thin
+  composite: 35.7
+  delta: -10.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.7
-    developer_ergonomics: 15.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 61.1
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 46.4
   provenance:
@@ -289,9 +294,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/screenshots/exactly-2026-06-20T180920.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for accessing Fellow meeting data — recordings, transcripts, structured notes, and action items — plus recording uploads and webhook management. Uses X-API-KEY authentication, cursor-based pa
@@ -199,23 +200,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 48.7
+  delta: -7.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 49.4
-    developer_ergonomics: 62.5
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 44.4
+    developer_ergonomics: 39.9
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 65.8
+    governance: 18.2
+    operational_transparency: 63.2
   previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/screenshots/fellow-2026-07-25T214332.png
 security:
 - kind: authentication

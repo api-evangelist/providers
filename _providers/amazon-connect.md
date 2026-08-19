@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1204,7 +1205,9 @@ rate_limits:
   name: Amazon Connect Rate Limits
   slug: amazon-connect-rate-limits
 rules:
-- name: Amazon Connect API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Connect API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1212,7 +1215,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-connect-jsonschema-spectral-rules
-- name: Amazon Connect API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Amazon Connect API Rules
   rule_count: 42
   severity_counts:
     error: 16
@@ -1222,15 +1228,17 @@ rules:
   slug: amazon-connect-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 47.1
+  delta: -6.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 37.7
-    developer_ergonomics: 45.7
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 25.0
+    contract_quality: 36.0
+    developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -1239,9 +1247,9 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

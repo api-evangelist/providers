@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -178,7 +179,9 @@ rate_limits:
   name: Tesla Rate Limits
   slug: tesla-rate-limits
 rules:
-- name: Tesla API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tesla API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,7 +189,10 @@ rules:
     info: 1
     warn: 4
   slug: tesla-jsonschema-spectral-rules
-- name: Tesla API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Tesla API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -196,14 +202,16 @@ rules:
   slug: tesla-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 33.2
+  delta: -3.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 21.4
     discoverability: 88.9
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 36.4
   provenance:
@@ -219,8 +227,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

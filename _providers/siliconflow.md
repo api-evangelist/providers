@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -167,15 +168,17 @@ rate_limits:
   slug: siliconflow-rate-limits
 score:
   band: thin
-  composite: 29.3
-  delta: 0.0
+  composite: 28.2
+  delta: -1.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 59.7
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 29.3
   provenance:
     contracts:
@@ -183,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

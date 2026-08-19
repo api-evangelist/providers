@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -261,7 +262,9 @@ rate_limits:
   name: Consul Rate Limits
   slug: consul-rate-limits
 rules:
-- name: HashiCorp Consul API Rules
+- effective_rule_count: 5
+  extends: []
+  name: HashiCorp Consul API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +272,10 @@ rules:
     info: 1
     warn: 4
   slug: consul-jsonschema-spectral-rules
-- name: HashiCorp Consul API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: HashiCorp Consul API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -278,16 +284,18 @@ rules:
     warn: 3
   slug: consul-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -5.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 55.2
-    developer_ergonomics: 37.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 52.0
+    developer_ergonomics: 36.9
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -301,10 +309,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/screenshots/consul-2026-06-20T174916.png
 security:
 - kind: authentication

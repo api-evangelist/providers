@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -497,7 +498,9 @@ rate_limits:
   name: Temporal Rate Limits
   slug: temporal-rate-limits
 rules:
-- name: Temporal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Temporal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -505,7 +508,10 @@ rules:
     info: 2
     warn: 3
   slug: temporal-jsonschema-spectral-rules
-- name: Temporal API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Temporal API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -514,16 +520,18 @@ rules:
     warn: 6
   slug: temporal-spectral-rules
 score:
-  band: exemplar
-  composite: 66.4
-  delta: 0.0
+  band: strong
+  composite: 59.4
+  delta: -7.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 63.4
-    developer_ergonomics: 73.9
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 26.5
+    contract_quality: 59.4
+    developer_ergonomics: 78.6
     discoverability: 64.8
-    governance: 69.8
-    operational_transparency: 55.3
+    governance: 26.5
+    operational_transparency: 52.6
   previous_composite: 66.4
   provenance:
     agentic_access: derived
@@ -534,9 +542,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:
 - kind: authentication

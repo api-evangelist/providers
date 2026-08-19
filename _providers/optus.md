@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -239,15 +240,17 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
 random_paper: 124
 score:
-  band: developing
-  composite: 50.9
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  delta: 4.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 52.1
-    developer_ergonomics: 53.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 50.4
+    developer_ergonomics: 56.5
     discoverability: 72.2
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 57.9
   previous_composite: 50.9
   provenance:
@@ -265,9 +268,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

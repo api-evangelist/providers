@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The current cove.tool REST API. Thirteen operations across six tags — User, Profiles, Energy Codes, Projects, Project Geometry and Daylight Analysis — covering account creation, project create/read/up
@@ -143,24 +144,35 @@ rate_limits:
   slug: cove.tool-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 37.2
+  delta: -0.2
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 48.6
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 16.7
+    contract_quality: 51.2
     developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 37.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 28.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 23.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

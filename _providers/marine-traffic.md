@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -355,7 +356,9 @@ rate_limits:
   name: Marine Traffic Rate Limits
   slug: marine-traffic-rate-limits
 rules:
-- name: MarineTraffic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: MarineTraffic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -363,7 +366,10 @@ rules:
     info: 1
     warn: 4
   slug: marine-traffic-jsonschema-spectral-rules
-- name: MarineTraffic API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: MarineTraffic API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -373,14 +379,16 @@ rules:
   slug: marine-traffic-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 40.3
+  delta: -5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 69.9
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 67.0
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 45.6
   provenance:
@@ -390,9 +398,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:
 - kind: domain-security

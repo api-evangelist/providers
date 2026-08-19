@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 39.0
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
@@ -298,15 +299,17 @@ overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 51.6
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
     contract_quality: 64.5
-    developer_ergonomics: 53.8
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 54.8
   provenance:
     conformance: derived
@@ -317,9 +320,10 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/screenshots/superai-2026-08-17T082158.png
 security:
 - kind: authentication
   name: Superai Authentication

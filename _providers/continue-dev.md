@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -347,7 +348,9 @@ rate_limits:
   name: Continue Dev Rate Limits
   slug: continue-dev-rate-limits
 rules:
-- name: Continue API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Continue API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -355,7 +358,10 @@ rules:
     info: 2
     warn: 3
   slug: continue-dev-jsonschema-spectral-rules
-- name: Continue API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Continue API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -364,16 +370,18 @@ rules:
     warn: 3
   slug: continue-dev-rules
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 48.6
+  delta: -8.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.4
-    developer_ergonomics: 52.2
-    discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 39.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 57.1
+    discoverability: 74.1
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 57.2
   provenance:
     agentic_access: derived
@@ -382,9 +390,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:
 - kind: authentication

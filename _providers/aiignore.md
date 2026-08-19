@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Command-line tool that generates .aiignore configuration files to protect secrets from AI coding tools including JetBrains AI, Cursor, GitHub Copilot, Claude Code, Codeium, and Windsurf with a single '
@@ -169,7 +170,9 @@ rate_limits:
   name: Aiignore Rate Limits
   slug: aiignore-rate-limits
 rules:
-- name: .AIIgnore API Rules
+- effective_rule_count: 5
+  extends: []
+  name: .AIIgnore API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -179,19 +182,27 @@ rules:
   slug: aiignore-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 17.9
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 19.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/screenshots/aiignore-2026-06-20T170859.png
 security:
 - kind: domain-security

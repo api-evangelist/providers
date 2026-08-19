@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -277,15 +278,17 @@ rate_limits:
   slug: cerebras-systems-rate-limits
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 64.2
+  delta: -0.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 56.4
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 64.3
   provenance:
     agentic_access: derived
@@ -297,8 +300,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

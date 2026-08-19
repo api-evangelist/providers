@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.8
-  scored_at: '2026-08-17'
+  score: 25.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Era''s remote Model Context Protocol server. Connect bank accounts to any MCP-compatible AI agent and manage money through natural conversation: spending analysis, cash-flow forecasting, transaction au'
@@ -169,15 +170,17 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 43.5
+  delta: 0.8
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.2
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 42.7
   provenance:
     conformance: first-party
@@ -189,8 +192,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/screenshots/era-2026-07-25T213555.png
 security:

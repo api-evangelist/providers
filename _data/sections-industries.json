@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5229
+  "count": 5231
  },
  {
   "slug": "automotive",
@@ -39,7 +39,7 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1114
+  "count": 1115
  },
  {
   "slug": "blockchain-crypto",
@@ -109,14 +109,14 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2077
+  "count": 2086
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2309
+  "count": 2313
  },
  {
   "slug": "defense",
@@ -130,14 +130,14 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2971
+  "count": 2980
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1746
+  "count": 1748
  },
  {
   "slug": "e-commerce-platform",
@@ -151,7 +151,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1095
+  "count": 1102
  },
  {
   "slug": "energy",
@@ -165,7 +165,7 @@
   "name": "Enterprise Software",
   "description": "Companies developing software solutions that support large-scale business operations, including cloud computing, ERP, and IT service management.",
   "icon": "business_center",
-  "count": 67
+  "count": 66
  },
  {
   "slug": "entertainment",
@@ -256,7 +256,7 @@
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 875
+  "count": 876
  },
  {
   "slug": "industrial",
@@ -284,7 +284,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1102
+  "count": 1104
  },
  {
   "slug": "life-sciences",
@@ -403,7 +403,7 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1021
+  "count": 1026
  },
  {
   "slug": "semiconductors-hardware",
@@ -431,7 +431,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1203
+  "count": 1202
  },
  {
   "slug": "tax-compliance-software",
@@ -445,14 +445,14 @@
   "name": "Technology",
   "description": "Companies that develop and provide hardware, software, internet services, and IT infrastructure solutions across multiple sectors.",
   "icon": "memory",
-  "count": 133
+  "count": 132
  },
  {
   "slug": "telecommunications",
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1262
+  "count": 1272
  },
  {
   "slug": "transportation",
@@ -480,7 +480,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1379
+  "count": 1380
  },
  {
   "slug": "video-streaming",

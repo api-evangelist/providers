@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -211,7 +212,9 @@ rate_limits:
   name: Apache Httpd Rate Limits
   slug: apache-httpd-rate-limits
 rules:
-- name: Apache HTTP Server API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache HTTP Server API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,7 +222,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-httpd-jsonschema-spectral-rules
-- name: Apache HTTP Server API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Apache HTTP Server API Rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -229,15 +235,17 @@ rules:
   slug: apache-httpd-spectral-rules
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 33.1
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 57.5
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 53.8
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 23.7
+    governance: 25.0
+    operational_transparency: 21.1
   previous_composite: 39.3
   provenance:
     agentic_access: derived
@@ -246,9 +254,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:
 - kind: domain-security

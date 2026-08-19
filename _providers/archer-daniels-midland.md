@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +248,9 @@ rate_limits:
   name: Archer Daniels Midland Rate Limits
   slug: archer-daniels-midland-rate-limits
 rules:
-- name: Archer Daniels Midland API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Archer Daniels Midland API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,7 +258,10 @@ rules:
     info: 2
     warn: 3
   slug: archer-daniels-midland-jsonschema-spectral-rules
-- name: Archer Daniels Midland API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Archer Daniels Midland API Rules
   rule_count: 21
   severity_counts:
     error: 10
@@ -264,15 +270,17 @@ rules:
     warn: 11
   slug: archer-daniels-midland-spectral-rules
 score:
-  band: thin
-  composite: 29.4
-  delta: 0.0
+  band: emerging
+  composite: 23.7
+  delta: -5.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 24.3
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 22.7
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 29.4
   provenance:
@@ -282,9 +290,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:
 - kind: authentication

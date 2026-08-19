@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -213,7 +214,9 @@ rate_limits:
   name: Simplelegal Rate Limits
   slug: simplelegal-rate-limits
 rules:
-- name: SimpleLegal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SimpleLegal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -221,7 +224,10 @@ rules:
     info: 1
     warn: 4
   slug: simplelegal-jsonschema-spectral-rules
-- name: SimpleLegal API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SimpleLegal API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -230,15 +236,17 @@ rules:
     warn: 5
   slug: simplelegal-rules
 score:
-  band: developing
-  composite: 44.7
-  delta: 0.0
+  band: thin
+  composite: 36.5
+  delta: -8.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 64.7
-    developer_ergonomics: 26.1
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 60.6
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 44.7
   provenance:
@@ -248,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -411,15 +412,17 @@ overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://ap
 random_paper: 139
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 36.1
+  delta: 0.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 49.7
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 48.0
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 35.9
   provenance:
     agentic_access: derived
@@ -431,8 +434,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:

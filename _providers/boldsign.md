@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -222,7 +223,9 @@ rate_limits:
   name: Boldsign Rate Limits
   slug: boldsign-rate-limits
 rules:
-- name: BoldSign API Rules
+- effective_rule_count: 6
+  extends: []
+  name: BoldSign API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -232,15 +235,17 @@ rules:
   slug: boldsign-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 45.4
+  delta: -7.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 69.4
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 69.7
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -249,9 +254,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png
 security:
 - kind: authentication

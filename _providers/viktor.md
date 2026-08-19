@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,21 +119,23 @@ overview: 'Viktor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 75
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 21.0
+  delta: -5.6
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 26.6
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Viktor Domain Security

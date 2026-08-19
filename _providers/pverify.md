@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -27,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -288,33 +288,39 @@ rate_limits:
   name: Pverify Rate Limits
   slug: pverify-rate-limits
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 32.0
+  band: strong
+  composite: 57.7
+  delta: -8.4
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 68.7
-    developer_ergonomics: 76.1
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 45.5
+    contract_quality: 64.4
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 31.3
-    operational_transparency: 52.6
-  previous_composite: 34.1
+    governance: 45.5
+    operational_transparency: 34.2
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 13
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 27.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
 security:
 - kind: authentication
   name: Pverify Authentication

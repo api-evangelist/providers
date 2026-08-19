@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -283,7 +284,9 @@ rate_limits:
   name: Swagger Codegen Rate Limits
   slug: swagger-codegen-rate-limits
 rules:
-- name: Swagger Codegen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Swagger Codegen API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,7 +294,10 @@ rules:
     info: 2
     warn: 3
   slug: swagger-codegen-jsonschema-spectral-rules
-- name: Swagger Codegen API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Swagger Codegen API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -301,15 +307,17 @@ rules:
   slug: swagger-codegen-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 58.7
+  delta: -7.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 61.0
-    developer_ergonomics: 75.5
+    contract_governance: 40.2
+    contract_quality: 57.1
+    developer_ergonomics: 80.4
     discoverability: 72.2
-    governance: 79.2
-    operational_transparency: 63.2
+    governance: 40.2
+    operational_transparency: 44.7
   previous_composite: 65.8
   provenance:
     agentic_access: derived
@@ -321,9 +329,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
 - kind: authentication

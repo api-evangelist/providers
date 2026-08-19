@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +289,9 @@ rate_limits:
   name: Riot Games Rate Limits
   slug: riot-games-rate-limits
 rules:
-- name: Riot Games API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Riot Games API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -296,7 +299,9 @@ rules:
     info: 2
     warn: 3
   slug: riot-games-jsonschema-spectral-rules
-- name: Riot Games API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Riot Games API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -306,14 +311,16 @@ rules:
   slug: riot-games-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 40.1
+  delta: -7.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.7
-    developer_ergonomics: 19.6
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 63.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 48.0
   provenance:
@@ -323,9 +330,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png
 security:
 - kind: authentication

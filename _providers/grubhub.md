@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -762,7 +763,10 @@ rate_limits:
   name: Grubhub Rate Limits
   slug: grubhub-rate-limits
 rules:
-- name: grubhub API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: grubhub API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -770,7 +774,9 @@ rules:
     info: 0
     warn: 8
   slug: grubhub-asyncapi-spectral-rules
-- name: grubhub API Rules
+- effective_rule_count: 6
+  extends: []
+  name: grubhub API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -778,7 +784,10 @@ rules:
     info: 1
     warn: 5
   slug: grubhub-jsonschema-spectral-rules
-- name: grubhub API Rules
+- effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: grubhub API Rules
   rule_count: 51
   severity_counts:
     error: 8
@@ -793,15 +802,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 35.8
+  delta: -4.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 81.0
-    developer_ergonomics: 13.0
+    contract_governance: 26.5
+    contract_quality: 77.2
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 13.2
+    governance: 26.5
+    operational_transparency: 10.5
   previous_composite: 39.9
   provenance:
     agentic_access: derived
@@ -810,8 +821,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

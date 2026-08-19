@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -197,16 +198,18 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 100
 score:
-  band: thin
-  composite: 40.7
-  delta: 0.0
+  band: developing
+  composite: 39.4
+  delta: -1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.7
-    developer_ergonomics: 36.4
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -224,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:

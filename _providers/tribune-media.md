@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +235,10 @@ rate_limits:
   name: Tribune Media Rate Limits
   slug: tribune-media-rate-limits
 rules:
-- name: Tribune Media API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Tribune Media API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -242,7 +246,9 @@ rules:
     info: 0
     warn: 5
   slug: tms-onconnect-rules
-- name: Tribune Media API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tribune Media API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -251,15 +257,17 @@ rules:
     warn: 3
   slug: tribune-media-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 3.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 64.5
-    developer_ergonomics: 39.1
+    contract_governance: 45.5
+    contract_quality: 62.1
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 41.8
   provenance:
@@ -269,8 +277,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png
 security:

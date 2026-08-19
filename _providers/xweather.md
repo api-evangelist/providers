@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -358,7 +359,9 @@ rate_limits:
   name: Xweather Rate Limits
   slug: xweather-rate-limits
 rules:
-- name: Xweather API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Xweather API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,7 +369,10 @@ rules:
     info: 2
     warn: 3
   slug: xweather-jsonschema-spectral-rules
-- name: Xweather API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Xweather API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -376,15 +382,17 @@ rules:
   slug: xweather-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 41.9
+  delta: -5.9
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 69.1
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 66.1
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -393,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
 security:
 - kind: authentication

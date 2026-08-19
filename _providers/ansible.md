@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 35.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -346,7 +347,9 @@ rate_limits:
   name: Ansible Rate Limits
   slug: ansible-rate-limits
 rules:
-- name: Ansible API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ansible API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,15 +359,17 @@ rules:
   slug: ansible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 48.3
+  delta: -7.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 57.5
-    developer_ergonomics: 65.2
+    contract_governance: 25.0
+    contract_quality: 55.2
+    developer_ergonomics: 59.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -373,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:
 - kind: authentication

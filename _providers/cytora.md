@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Cytora's production REST API for digital risk processing — the "preferred method" of submission intake described in its own Risk Flow Academy. The gateway is real (api.cytora.com resolves via gateway.
@@ -150,15 +151,17 @@ scopes:
   summary_line: 14 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 29.4
+  delta: -2.5
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 31.9
   provenance:
     conformance: first-party
@@ -168,8 +171,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 65.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cytora/refs/heads/main/screenshots/cytora-2026-07-25T211113.png
 security:

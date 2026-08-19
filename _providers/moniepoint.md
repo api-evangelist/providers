@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 42.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -579,7 +580,9 @@ rate_limits:
   name: Moniepoint Rate Limits
   slug: moniepoint-rate-limits
 rules:
-- name: Moniepoint API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Moniepoint API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -587,7 +590,10 @@ rules:
     info: 2
     warn: 3
   slug: moniepoint-jsonschema-spectral-rules
-- name: Moniepoint API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Moniepoint API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -596,16 +602,18 @@ rules:
     warn: 3
   slug: moniepoint-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: -7.8
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 68.2
-    developer_ergonomics: 71.7
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 25.0
+    contract_quality: 65.3
+    developer_ergonomics: 51.2
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 60.5
+    governance: 25.0
+    operational_transparency: 57.9
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -619,10 +627,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:
 - kind: authentication

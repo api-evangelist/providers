@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Programmatic access to Sankun's construction big-data platform — company, site, construction, bid, contract, reputation and news databases. Marketed at data.sankun.com; developer documentation is gate
@@ -69,19 +70,21 @@ overview: 'Sankun publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   Sankun''s developer surface includes pricing, engineering blog, signup flow, and 2 more developer resources.'
 random_paper: 60
 score:
-  band: minimal
-  composite: 12.0
-  delta: 0.0
+  band: emerging
+  composite: 12.1
+  delta: 0.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

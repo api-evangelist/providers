@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-17'
+  score: 29.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -277,15 +278,17 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
 random_paper: 143
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 41.8
+  delta: 0.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 55.0
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 51.5
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 10.5
   previous_composite: 41.3
   provenance:
@@ -304,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

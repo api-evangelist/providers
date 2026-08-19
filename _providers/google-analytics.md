@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -1615,7 +1616,9 @@ rate_limits:
   name: Google Analytics Rate Limits
   slug: google-analytics-rate-limits
 rules:
-- name: Google Analytics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Analytics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1623,7 +1626,10 @@ rules:
     info: 2
     warn: 3
   slug: google-analytics-jsonschema-spectral-rules
-- name: Google Analytics API Rules
+- effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: Google Analytics API Rules
   rule_count: 67
   severity_counts:
     error: 18
@@ -1638,26 +1644,31 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 70.5
-  delta: 10.0
+  composite: 67.3
+  delta: -3.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.6
-    developer_ergonomics: 84.8
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 26.5
+    contract_quality: 64.0
+    developer_ergonomics: 74.4
     discoverability: 75.9
-    governance: 79.2
-    operational_transparency: 63.2
-  previous_composite: 60.5
+    governance: 26.5
+    operational_transparency: 84.2
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:
 - kind: authentication

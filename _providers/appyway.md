@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -352,7 +353,9 @@ rate_limits:
   name: Appyway Rate Limits
   slug: appyway-rate-limits
 rules:
-- name: AppyWay API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AppyWay API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -360,7 +363,10 @@ rules:
     info: 2
     warn: 3
   slug: appyway-jsonschema-spectral-rules
-- name: AppyWay API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: AppyWay API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -375,15 +381,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 33.8
+  delta: -4.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 68.5
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 64.8
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 38.0
   provenance:
     agentic_access: derived
@@ -398,8 +406,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 36.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -308,7 +309,10 @@ rate_limits:
   name: Shippo Rate Limits
   slug: shippo-rate-limits
 rules:
-- name: Shippo API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Shippo API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -316,7 +320,9 @@ rules:
     info: 0
     warn: 7
   slug: shippo-asyncapi-spectral-rules
-- name: Shippo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shippo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -324,7 +330,10 @@ rules:
     info: 1
     warn: 4
   slug: shippo-jsonschema-spectral-rules
-- name: Shippo API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Shippo API Rules
   rule_count: 14
   severity_counts:
     error: 3
@@ -334,14 +343,16 @@ rules:
   slug: shippo-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 49.3
+  delta: -3.3
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 83.7
-    developer_ergonomics: 58.7
+    contract_governance: 11.4
+    contract_quality: 80.6
+    developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 10.5
   previous_composite: 52.6
   provenance:
@@ -351,8 +362,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -8577,7 +8578,10 @@ rate_limits:
   name: Auth0 Rate Limits
   slug: auth0-rate-limits
 rules:
-- name: Auth0 API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Auth0 API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -8585,7 +8589,10 @@ rules:
     info: 0
     warn: 7
   slug: auth0-asyncapi-spectral-rules
-- name: Auth0 API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Auth0 API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -8593,7 +8600,10 @@ rules:
     info: 0
     warn: 3
   slug: auth0-authentication-rules
-- name: Auth0 API Rules
+- effective_rule_count: 43
+  extends:
+  - spectral:oas
+  name: Auth0 API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -8601,7 +8611,9 @@ rules:
     info: 1
     warn: 1
   slug: auth0-fga-rules
-- name: Auth0 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Auth0 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -8609,7 +8621,10 @@ rules:
     info: 1
     warn: 4
   slug: auth0-jsonschema-spectral-rules
-- name: Auth0 API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Auth0 API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -8623,16 +8638,18 @@ scopes:
   slug: auth0-scopes
   summary_line: 221 scopes · clientCredentials
 score:
-  band: strong
-  composite: 61.8
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -9.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 68.9
-    developer_ergonomics: 63.0
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 26.5
+    contract_quality: 69.2
+    developer_ergonomics: 57.1
     discoverability: 50.0
-    governance: 62.5
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 42.1
   previous_composite: 61.8
   provenance:
     agentic_access: derived
@@ -8641,9 +8658,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:
 - kind: authentication

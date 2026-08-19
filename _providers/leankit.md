@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 api_count: 25
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -430,15 +431,17 @@ overview: 'LeanKit publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 148
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 62.2
+  delta: 1.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 71.5
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 70.5
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 60.8
   provenance:
     conformance: first-party
@@ -449,8 +452,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -485,7 +486,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: AYLIEN API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AYLIEN API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -495,14 +498,16 @@ rules:
   slug: aylien-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 43.3
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.7
-    developer_ergonomics: 21.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 17.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 51.8
   provenance:
@@ -512,9 +517,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Aylien Authentication

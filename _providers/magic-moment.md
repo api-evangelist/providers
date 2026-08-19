@@ -12,11 +12,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -163,22 +164,32 @@ rate_limits:
   name: Magic Moment Rate Limits
   slug: magic-moment-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: 28.0
+  band: developing
+  composite: 41.4
+  delta: -0.4
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 41.6
-    developer_ergonomics: 32.6
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 30.3
+    contract_quality: 46.4
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 41.8
   provenance:
+    agentic_access: derived
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png
 security:
 - kind: authentication

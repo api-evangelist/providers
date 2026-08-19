@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1489,7 +1490,10 @@ rate_limits:
   name: Twilio Rate Limits
   slug: twilio-rate-limits
 rules:
-- name: Twilio API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Twilio API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1497,7 +1501,9 @@ rules:
     info: 1
     warn: 5
   slug: twilio-asyncapi-spectral-rules
-- name: Twilio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Twilio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1505,7 +1511,10 @@ rules:
     info: 1
     warn: 4
   slug: twilio-jsonschema-spectral-rules
-- name: Twilio API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Twilio API Rules
   rule_count: 12
   severity_counts:
     error: 2
@@ -1515,14 +1524,16 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 73.8
+  delta: 3.4
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 72.0
-    developer_ergonomics: 84.8
+    contract_governance: 45.5
+    contract_quality: 71.9
+    developer_ergonomics: 83.3
     discoverability: 66.7
-    governance: 69.8
+    governance: 45.5
     operational_transparency: 71.1
   previous_composite: 70.4
   provenance:
@@ -1541,8 +1552,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

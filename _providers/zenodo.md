@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -310,7 +311,9 @@ rate_limits:
   name: Zenodo Rate Limits
   slug: zenodo-rate-limits
 rules:
-- name: Zenodo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zenodo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,15 +323,17 @@ rules:
   slug: zenodo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 48.0
+  delta: -0.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 65.6
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -343,8 +348,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/screenshots/zenodo-2026-06-20T201814.png
 security:

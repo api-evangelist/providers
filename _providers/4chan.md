@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -316,7 +317,9 @@ rate_limits:
   name: 4Chan Rate Limits
   slug: 4chan-rate-limits
 rules:
-- name: 4chan API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 4chan API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -324,7 +327,10 @@ rules:
     info: 1
     warn: 4
   slug: 4chan-jsonschema-spectral-rules
-- name: 4chan API Rules
+- effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: 4chan API Rules
   rule_count: 45
   severity_counts:
     error: 14
@@ -334,15 +340,17 @@ rules:
   slug: 4chan-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 29.7
+  delta: -5.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 22.9
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 21.5
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -351,9 +359,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:
 - kind: domain-security

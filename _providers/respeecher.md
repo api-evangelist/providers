@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -224,7 +225,10 @@ rate_limits:
   name: Respeecher Rate Limits
   slug: respeecher-rate-limits
 rules:
-- name: Respeecher API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Respeecher API Rules
   rule_count: 2
   severity_counts:
     error: 1
@@ -234,14 +238,16 @@ rules:
   slug: respeecher-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 33.4
+  delta: -3.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 56.0
-    developer_ergonomics: 10.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 11.4
+    contract_quality: 57.3
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 20.8
+    governance: 11.4
     operational_transparency: 0.0
   previous_composite: 36.6
   provenance:
@@ -251,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

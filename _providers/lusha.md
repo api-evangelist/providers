@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.6
-  scored_at: '2026-08-17'
+  score: 54.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -350,26 +351,31 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 69.4
-  delta: 38.6
+  composite: 72.2
+  delta: 2.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 69.8
-    developer_ergonomics: 78.3
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 30.3
+    contract_quality: 68.3
+    developer_ergonomics: 61.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 30.8
+    governance: 30.3
+    operational_transparency: 86.8
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/screenshots/lusha-2026-06-20T184813.png
 security:
 - kind: authentication

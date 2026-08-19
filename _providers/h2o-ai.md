@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 45.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -342,15 +343,17 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 65
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.0
+  delta: -1.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 57.4
-    developer_ergonomics: 64.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 57.8
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -362,8 +365,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

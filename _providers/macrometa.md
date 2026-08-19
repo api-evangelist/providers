@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -545,15 +546,17 @@ overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 59
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.5
+  delta: -1.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 61.1
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -565,8 +568,8 @@ score:
       total: 63
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:

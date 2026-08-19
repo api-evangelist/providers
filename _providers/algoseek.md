@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 34
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -368,15 +369,17 @@ overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 98
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 46.9
+  delta: 0.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 57.4
-    developer_ergonomics: 62.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 59.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 46.3
   provenance:
     conformance: derived
@@ -393,8 +396,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -276,32 +276,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.4
-  delta: 37.9
+  composite: 76.8
+  delta: 4.4
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 62.9
-    developer_ergonomics: 80.4
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 30.3
+    contract_quality: 58.9
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 34.5
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png
 security:
 - kind: authentication

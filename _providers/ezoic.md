@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -258,29 +258,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.4
-  delta: 8.4
+  composite: 60.7
+  delta: -0.7
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 61.0
-    developer_ergonomics: 75.5
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 30.3
+    contract_quality: 57.6
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
-  previous_composite: 53.0
+    governance: 30.3
+    operational_transparency: 36.8
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 3
+      marker_coverage: 60.0
+      total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:
 - kind: authentication

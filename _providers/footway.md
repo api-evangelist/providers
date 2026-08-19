@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The footway.com storefront''s agent-facing commerce surface. Built on Shopify, it implements the Universal Commerce Protocol (UCP) for agent-driven commerce: a UCP merchant profile at /.well-known/ucp '
@@ -128,22 +129,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.0
+  composite: 24.1
+  delta: -0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.1
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/screenshots/footway-2026-07-25T214920.png
 security:

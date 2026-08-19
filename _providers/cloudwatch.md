@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -1131,7 +1132,9 @@ rate_limits:
   name: Cloudwatch Rate Limits
   slug: cloudwatch-rate-limits
 rules:
-- name: AWS CloudWatch API Rules
+- effective_rule_count: 6
+  extends: []
+  name: AWS CloudWatch API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1139,7 +1142,10 @@ rules:
     info: 1
     warn: 5
   slug: cloudwatch-jsonschema-spectral-rules
-- name: AWS CloudWatch API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: AWS CloudWatch API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -1148,15 +1154,17 @@ rules:
     warn: 7
   slug: cloudwatch-spectral-rules
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: -5.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 76.9
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 73.8
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 39.5
   previous_composite: 56.7
   provenance:
@@ -1166,9 +1174,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication

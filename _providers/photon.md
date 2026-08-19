@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 54.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -246,19 +247,22 @@ scopes:
   slug: photon-scopes
   summary_line: 6 scopes
 score:
-  band: developing
-  composite: 54.5
-  delta: 5.7
+  band: strong
+  composite: 59.2
+  delta: 4.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.3
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 60.5
+    developer_ergonomics: 53.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
-  previous_composite: 48.8
+    governance: 30.3
+    operational_transparency: 26.3
+  previous_composite: 54.5
   provenance:
-    conformance: derived
+    agentic_access: first-party
+    conformance: first-party
     mcp: derived
     skills: derived
   regulatory:
@@ -266,10 +270,11 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 66.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/screenshots/photon-2026-08-17T081212.png
 security:
 - kind: authentication
   name: Photon Authentication

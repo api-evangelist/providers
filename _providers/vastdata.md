@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 50.7
+  scored_at: '2026-08-19'
 api_count: 126
 apis:
 - description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
@@ -912,12 +913,14 @@ score:
   composite: 39.0
   delta: 0.0
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 48.6
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 49.5
+    developer_ergonomics: 71.4
     discoverability: 57.4
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 39.0
   provenance:
     conformance: derived
@@ -928,8 +931,8 @@ score:
       total: 126
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

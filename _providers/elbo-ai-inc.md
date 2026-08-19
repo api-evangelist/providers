@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.3
-  scored_at: '2026-08-17'
+  score: 57.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,14 +218,16 @@ overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 130
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 49.7
+  delta: -0.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 64.5
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 61.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 50.4
   provenance:
@@ -237,8 +240,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 11.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The OpenID Connect / OAuth 2.0 identity provider behind Good Energy''s customer hub at account.goodenergy.co.uk. It is NOT a developer-facing API and Good Energy publishes no documentation for it — it '
@@ -131,14 +132,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials/implicit/deviceCode/ciba
 score:
   band: thin
-  composite: 28.2
-  delta: 0.0
+  composite: 29.1
+  delta: 0.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 28.2
   provenance:
@@ -149,8 +152,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-energy/refs/heads/main/screenshots/good-energy-2026-08-07T165801.png
 security:

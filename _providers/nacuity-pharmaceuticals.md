@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -233,14 +234,16 @@ overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://api
 random_paper: 16
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 34.4
+  delta: 5.3
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 58.4
-    developer_ergonomics: 16.8
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 16.7
+    contract_quality: 54.7
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 29.1
   provenance:
@@ -257,9 +260,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:
 - kind: authentication

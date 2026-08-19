@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -241,16 +242,18 @@ rate_limits:
   slug: luma-health-rate-limits
 score:
   band: developing
-  composite: 45.3
-  delta: 1.9
+  composite: 49.2
+  delta: 3.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 50.8
-    developer_ergonomics: 45.1
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 53.2
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 43.4
+    governance: 16.7
+    operational_transparency: 28.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,9 +269,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

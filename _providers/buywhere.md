@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 36.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -213,7 +214,9 @@ rate_limits:
   name: Buywhere Rate Limits
   slug: buywhere-rate-limits
 rules:
-- name: BuyWhere API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BuyWhere API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -221,7 +224,10 @@ rules:
     info: 1
     warn: 4
   slug: buywhere-jsonschema-spectral-rules
-- name: BuyWhere API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: BuyWhere API Rules
   rule_count: 14
   severity_counts:
     error: 3
@@ -231,14 +237,16 @@ rules:
   slug: buywhere-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 46.1
+  delta: -5.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 75.3
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 71.9
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 36.8
   previous_composite: 51.8
   provenance:
@@ -248,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:
 - kind: authentication

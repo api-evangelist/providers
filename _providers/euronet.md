@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -203,15 +204,17 @@ rate_limits:
   name: Euronet Rate Limits
   slug: euronet-rate-limits
 score:
-  band: thin
-  composite: 40.3
-  delta: 0.0
+  band: developing
+  composite: 41.4
+  delta: 1.1
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 42.2
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 44.1
+    developer_ergonomics: 45.8
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 40.3
   provenance:
@@ -225,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

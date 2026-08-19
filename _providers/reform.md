@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -187,19 +188,23 @@ rate_limits:
   slug: reform-rate-limits
 score:
   band: developing
-  composite: 51.5
-  delta: 25.1
+  composite: 50.9
+  delta: -0.6
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 64.5
-    developer_ergonomics: 37.0
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 51.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png
 security:
 - kind: authentication

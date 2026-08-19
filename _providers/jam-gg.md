@@ -1,6 +1,64 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jam-gg-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://jam.gg/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/piepacker
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jam-gg-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/jam-gg-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/jam-gg-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jam-gg-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/jam-gg-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/jam-gg-llms.txt
 coverage:
   checked: '2026-08-17'
   detail: Jam.gg never shipped an HTTP API, and the company is now listed Inactive by Y Combinator — its own web property cannot complete a TLS handshake on either host (jam.gg answers the ClientHello with TLS alert 80 internal_error from Netlify/AWS Global Accelerator, www.jam.gg answers with alert 40 handshake_failure from the Webflow proxy), piepacker.com has left DNS, and no api/docs/developers subdomain resolves, so the only reachable artifacts are the first-party SDK repositories on GitHub.
@@ -28,7 +86,38 @@ modified: '2026-08-17'
 name: Jam.gg
 nav: Providers
 network: true
+overview: 'Jam.gg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Cloud Gaming, Games, and Game Development.
+
+
+  Jam.gg''s developer surface includes sandbox and 8 more developer resources.'
+plans:
+- name: Jam Gg Plans Pricing
+  plan_count: 0
+  slug: jam-gg-plans-pricing
 random_paper: 116
+rate_limits:
+- limit_count: 0
+  name: Jam Gg Rate Limits
+  slug: jam-gg-rate-limits
+score:
+  band: minimal
+  composite: 8.9
+  facets:
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 2.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: domain-security
+  name: Jam Gg Domain Security
+  slug: jam-gg-domain-security
+  summary_line: DMARC
 slug: jam-gg
 tags:
 - Company
@@ -40,4 +129,5 @@ tags:
 - SDK
 - WebRTC
 - France
+website: https://jam.gg/
 ---

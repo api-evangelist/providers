@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: OData 4 (recommended) and legacy OData 3 access to Creatio platform entities. The OData 4 service is at /0/odata with EDMX metadata at /0/odata/$metadata; supports $filter/$select/$expand/$orderby/$to
@@ -191,21 +192,24 @@ rate_limits:
   slug: creatio-rate-limits
 score:
   band: strong
-  composite: 59.9
-  delta: 30.7
+  composite: 60.1
+  delta: 0.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 29.2
+  previous_composite: 59.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png
 security:
 - kind: authentication

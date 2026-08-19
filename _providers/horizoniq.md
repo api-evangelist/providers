@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 36.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -229,14 +230,16 @@ overview: 'HorizonIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 101
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 43.6
+  delta: -3.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.2
-    developer_ergonomics: 56.0
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 47.1
   provenance:
@@ -249,8 +252,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -518,7 +519,10 @@ rate_limits:
   name: Messagebird Rate Limits
   slug: messagebird-rate-limits
 rules:
-- name: messagebird API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: messagebird API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -526,7 +530,9 @@ rules:
     info: 1
     warn: 7
   slug: messagebird-asyncapi-spectral-rules
-- name: messagebird API Rules
+- effective_rule_count: 6
+  extends: []
+  name: messagebird API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -536,15 +542,17 @@ rules:
   slug: messagebird-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 33.1
+  delta: -4.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 75.7
-    developer_ergonomics: 10.9
+    contract_governance: 13.6
+    contract_quality: 75.3
+    developer_ergonomics: 11.9
     discoverability: 57.4
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -553,8 +561,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png
 security:

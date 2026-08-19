@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The NGINX Service Mesh control plane exposes a REST API used by the `nginx-meshctl` CLI to manage mesh configuration, sidecar injection, certificate authority operations, traffic policies, and resourc
@@ -99,18 +100,20 @@ rate_limits:
   slug: nginx-service-mesh-rate-limits
 score:
   band: emerging
-  composite: 15.9
-  delta: 0.0
+  composite: 12.0
+  delta: -3.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.7
+    developer_ergonomics: 2.4
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 15.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx-service-mesh/refs/heads/main/screenshots/nginx-service-mesh-2026-06-20T190307.png
 security:

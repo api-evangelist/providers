@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -144,15 +145,17 @@ overview: 'MirrorFly Messages API publishes 1 API on the [APIs.io](https://apis.
   MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 23
 score:
-  band: thin
-  composite: 37.3
-  delta: 0.0
+  band: developing
+  composite: 40.3
+  delta: 3.0
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 21.1
   previous_composite: 37.3
   provenance:
@@ -163,8 +166,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

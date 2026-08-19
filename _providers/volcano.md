@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -187,7 +188,9 @@ rate_limits:
   name: Volcano Rate Limits
   slug: volcano-rate-limits
 rules:
-- name: Volcano API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Volcano API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -195,7 +198,10 @@ rules:
     info: 2
     warn: 4
   slug: volcano-jsonschema-spectral-rules
-- name: Volcano API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Volcano API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -205,15 +211,17 @@ rules:
   slug: volcano-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 35.0
+  delta: -5.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 61.9
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 63.6
+    developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -222,9 +230,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/screenshots/volcano-2026-06-20T201130.png
 security:
 - kind: domain-security

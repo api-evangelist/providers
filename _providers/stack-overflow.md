@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -217,7 +218,9 @@ rate_limits:
   name: Stack Overflow Rate Limits
   slug: stack-overflow-rate-limits
 rules:
-- name: Stack Overflow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stack Overflow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +228,10 @@ rules:
     info: 1
     warn: 4
   slug: stack-overflow-jsonschema-spectral-rules
-- name: Stack Overflow API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Stack Overflow API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -239,16 +245,18 @@ scopes:
   slug: stack-overflow-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -6.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 66.7
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 63.7
+    developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -257,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/screenshots/stack-overflow-2026-06-20T194441.png
 security:
 - kind: authentication

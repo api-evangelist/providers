@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -233,7 +234,9 @@ rate_limits:
   name: Telefon Rate Limits
   slug: telefon-rate-limits
 rules:
-- name: Telefon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telefon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +244,10 @@ rules:
     info: 1
     warn: 4
   slug: telefon-jsonschema-spectral-rules
-- name: Telefon API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Telefon API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -250,16 +256,18 @@ rules:
     warn: 4
   slug: telefon-rules
 score:
-  band: developing
-  composite: 51.7
-  delta: 0.0
+  band: thin
+  composite: 35.1
+  delta: -16.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 66.4
-    developer_ergonomics: 39.1
-    discoverability: 88.9
-    governance: 58.3
-    operational_transparency: 42.1
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 9.8
+    contract_quality: 62.2
+    developer_ergonomics: 25.0
+    discoverability: 81.5
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -273,10 +281,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 23.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:
 - kind: authentication

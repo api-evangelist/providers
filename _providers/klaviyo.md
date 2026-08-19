@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -4101,7 +4102,10 @@ rate_limits:
   name: Klaviyo Rate Limits
   slug: klaviyo-rate-limits
 rules:
-- name: Klaviyo API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Klaviyo API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -4109,7 +4113,9 @@ rules:
     info: 0
     warn: 6
   slug: klaviyo-asyncapi-spectral-rules
-- name: Klaviyo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Klaviyo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4124,32 +4130,37 @@ scopes:
   summary_line: 46 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.8
-  delta: 18.9
+  composite: 77.1
+  delta: 1.3
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 73.9
-    developer_ergonomics: 84.8
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 41.7
+    contract_quality: 73.7
+    developer_ergonomics: 57.7
     discoverability: 92.6
-    governance: 62.5
-    operational_transparency: 71.1
-  previous_composite: 56.9
+    governance: 41.7
+    operational_transparency: 76.3
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 23
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:
 - kind: authentication

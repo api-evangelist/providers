@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 30.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
@@ -174,16 +175,18 @@ overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quot
   Eco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
 random_paper: 13
 score:
-  band: thin
-  composite: 40.5
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 2.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 45.0
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 44.3
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 40.5
   provenance:
     conformance: derived
@@ -200,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:

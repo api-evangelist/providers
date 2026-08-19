@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Polly is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Rate Limiter, and Fallback in '
@@ -101,7 +102,9 @@ rate_limits:
   name: Polly Rate Limits
   slug: polly-rate-limits
 rules:
-- name: Polly API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Polly API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -111,19 +114,21 @@ rules:
   slug: polly-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 18.0
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 8.5
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 24.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/polly/refs/heads/main/screenshots/polly-2026-06-20T191856.png
 security:
 - kind: domain-security

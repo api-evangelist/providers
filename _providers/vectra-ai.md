@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Vectra AI Platform REST API (api.vectra.io) provides programmatic access to detections, hosts, accounts, assignments, threat-intelligence indicators, and platform configuration for the Vectra AI P
@@ -147,18 +148,20 @@ rate_limits:
   slug: vectra-ai-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 21.2
+  delta: -3.9
   facets:
-    commercial_clarity: 57.9
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectra-ai/refs/heads/main/screenshots/vectra-ai-2026-06-20T200847.png
 security:

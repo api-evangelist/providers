@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 33.6
+  scored_at: '2026-08-19'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -277,21 +278,23 @@ rate_limits:
   slug: sql-server-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 41.0
+  delta: -2.2
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 32.3
-    developer_ergonomics: 52.2
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 39.5
   previous_composite: 43.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:

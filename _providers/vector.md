@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +192,9 @@ rate_limits:
   name: Vector Rate Limits
   slug: vector-rate-limits
 rules:
-- name: Vector API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Vector API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -199,7 +202,10 @@ rules:
     info: 1
     warn: 3
   slug: vector-jsonschema-spectral-rules
-- name: Vector API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Vector API Rules
   rule_count: 17
   severity_counts:
     error: 9
@@ -208,16 +214,18 @@ rules:
     warn: 8
   slug: vector-spectral-rules
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: emerging
+  composite: 21.1
+  delta: -8.8
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 20.9
-    developer_ergonomics: 15.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 19.6
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 29.9
   provenance:
     agentic_access: derived
@@ -226,9 +234,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/screenshots/vector-2026-06-20T200848.png
 security:
 - kind: domain-security

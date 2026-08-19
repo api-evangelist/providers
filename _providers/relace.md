@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -196,15 +197,17 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 24
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 45.9
+  delta: -4.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 52.2
-    developer_ergonomics: 71.2
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 51.0
+    developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -216,9 +219,10 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/screenshots/relace-2026-08-17T081505.png
 security:
 - kind: authentication
   name: Relace Authentication

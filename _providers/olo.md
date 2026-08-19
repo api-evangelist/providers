@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -427,7 +428,10 @@ rate_limits:
   name: Olo Rate Limits
   slug: olo-rate-limits
 rules:
-- name: Olo API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Olo API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -435,7 +439,9 @@ rules:
     info: 1
     warn: 6
   slug: olo-asyncapi-spectral-rules
-- name: Olo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Olo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -443,7 +449,10 @@ rules:
     info: 2
     warn: 3
   slug: olo-jsonschema-spectral-rules
-- name: Olo API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Olo API Rules
   rule_count: 36
   severity_counts:
     error: 8
@@ -453,15 +462,17 @@ rules:
   slug: olo-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 64.8
+  delta: -0.7
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 79.7
-    developer_ergonomics: 54.3
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 28.8
+    contract_quality: 77.1
+    developer_ergonomics: 59.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 63.2
+    governance: 28.8
+    operational_transparency: 50.0
   previous_composite: 65.5
   provenance:
     agentic_access: derived
@@ -476,8 +487,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -226,14 +227,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 42.3
+  delta: -0.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 56.8
-    developer_ergonomics: 49.5
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 56.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 42.6
   provenance:
@@ -246,8 +249,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

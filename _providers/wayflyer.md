@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 37.8
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The Auth API from Wayflyer — 2 operation(s) for auth.
@@ -252,15 +253,17 @@ overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 138
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 50.8
+  delta: -1.5
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 58.4
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 56.3
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 52.3
   provenance:
     conformance: derived
@@ -271,9 +274,10 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/screenshots/wayflyer-2026-08-17T082841.png
 security:
 - kind: authentication
   name: Wayflyer Authentication

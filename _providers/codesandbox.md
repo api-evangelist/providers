@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -229,7 +230,9 @@ rate_limits:
   name: Codesandbox Rate Limits
   slug: codesandbox-rate-limits
 rules:
-- name: CodeSandbox API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CodeSandbox API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,15 +242,17 @@ rules:
   slug: codesandbox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 46.1
+  delta: -8.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 72.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 68.9
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 54.8
   provenance:
     agentic_access: derived
@@ -256,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:
 - kind: authentication

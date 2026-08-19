@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 41
 common:
@@ -245,7 +246,9 @@ overview: 'WSDL is profiled on the [APIs.io](https://apis.io/) network. Tagged a
   WSDL''s developer surface includes documentation and 26 more developer resources.'
 random_paper: 144
 rules:
-- name: WSDL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WSDL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,19 +258,27 @@ rules:
   slug: wsdl-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 16.2
+  delta: -5.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 14.3
     discoverability: 57.4
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 21.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/screenshots/wsdl-2026-06-20T201632.png
 security:
 - kind: domain-security

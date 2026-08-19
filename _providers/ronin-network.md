@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Standard Ethereum-style JSON-RPC endpoint for Ronin mainnet (chain ID 2020). Used by wallets, games, dApps, indexers, and tooling to read chain state and submit transactions on Ronin.
@@ -133,18 +134,20 @@ rate_limits:
   slug: ronin-network-rate-limits
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 20.4
+  delta: 0.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ronin-network/refs/heads/main/screenshots/ronin-network-2026-06-20T193214.png
 security:

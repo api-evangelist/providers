@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Real-time campground availability data at the campsite level across all public campgrounds Campflare tracks. Developers can query current and upcoming availability, inspect amenities (hookups, facilit
@@ -95,18 +96,20 @@ rate_limits:
   slug: campflare-rate-limits
 score:
   band: emerging
-  composite: 14.6
-  delta: 0.0
+  composite: 14.4
+  delta: -0.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 14.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/screenshots/campflare-2026-06-20T173909.png
 security:

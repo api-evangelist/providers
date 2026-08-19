@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Abstract REST API provides programmatic access to design projects, branches, commits, files, collections, and component libraries managed within the Abstract platform. Access is provided via the a
@@ -122,7 +123,9 @@ rate_limits:
   name: Abstract Rate Limits
   slug: abstract-rate-limits
 rules:
-- name: Abstract API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Abstract API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -131,20 +134,22 @@ rules:
     warn: 4
   slug: abstract-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.7
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -9.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 6.0
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract/refs/heads/main/screenshots/abstract-2026-06-20T163425.png
 security:
 - kind: domain-security

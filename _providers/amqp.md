@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: AsyncAPI specification for AMQP messaging patterns including publish/subscribe, request/reply, and point-to-point messaging via exchanges, queues, and bindings.
@@ -236,7 +237,10 @@ rate_limits:
   name: Amqp Rate Limits
   slug: amqp-rate-limits
 rules:
-- name: AMQP API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: AMQP API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -244,7 +248,9 @@ rules:
     info: 1
     warn: 7
   slug: amqp-asyncapi-spectral-rules
-- name: AMQP API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AMQP API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +258,9 @@ rules:
     info: 2
     warn: 3
   slug: amqp-jsonschema-spectral-rules
-- name: AMQP API Rules
+- effective_rule_count: 9
+  extends: []
+  name: AMQP API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -262,19 +270,21 @@ rules:
   slug: amqp-spectral-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 29.9
+  delta: -8.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.3
-    developer_ergonomics: 17.4
+    contract_governance: 28.8
+    contract_quality: 53.3
+    developer_ergonomics: 9.5
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 28.8
+    operational_transparency: 10.5
   previous_composite: 38.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/screenshots/amqp-2026-06-20T171940.png
 security:
 - kind: domain-security

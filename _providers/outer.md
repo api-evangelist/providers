@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-17'
+  score: 23.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Outer's storefront exposes over MCP, advertised in the merchant profile at https://liveouter.com/.well-known/ucp. It carries the dev.ucp.shopping servi
@@ -118,22 +119,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 21.9
+  delta: -0.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 26.2
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outer/refs/heads/main/screenshots/outer-2026-08-07T191054.png
 security:

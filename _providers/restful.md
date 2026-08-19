@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: 'A model by Leonard Richardson that breaks down the maturity of a RESTful API into four levels: Level 0 (The Swamp of POX), Level 1 (Resources), Level 2 (HTTP Verbs), and Level 3 (Hypermedia Controls /'
@@ -107,7 +108,9 @@ rate_limits:
   name: Restful Rate Limits
   slug: restful-rate-limits
 rules:
-- name: RESTful API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RESTful API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -117,19 +120,21 @@ rules:
   slug: restful-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 13.7
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 9.8
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 20.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/screenshots/restful-2026-06-20T193020.png
 security:
 - kind: domain-security

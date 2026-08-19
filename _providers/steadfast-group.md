@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,15 +202,17 @@ scopes:
   slug: steadfast-group-scopes
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password
 score:
-  band: thin
-  composite: 37.8
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 8.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.4
-    developer_ergonomics: 19.0
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 20.8
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 37.8
   provenance:
@@ -228,9 +231,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Steadfast Group Authentication

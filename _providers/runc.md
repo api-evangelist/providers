@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification, pro
@@ -114,7 +115,9 @@ rate_limits:
   name: Runc Rate Limits
   slug: runc-rate-limits
 rules:
-- name: Runc API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Runc API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -124,19 +127,21 @@ rules:
   slug: runc-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.0
-  delta: 0.0
+  composite: 20.3
+  delta: -6.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 19.7
+    developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 23.7
+    governance: 9.8
+    operational_transparency: 21.1
   previous_composite: 27.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/screenshots/runc-2026-06-20T193250.png
 security:
 - kind: domain-security

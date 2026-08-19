@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -336,16 +336,18 @@ overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network
   Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 120
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -8.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.7
-    developer_ergonomics: 80.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 69.8
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -357,9 +359,9 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:
 - kind: authentication

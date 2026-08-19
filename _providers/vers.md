@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
@@ -232,15 +233,17 @@ overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 1
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 41.5
+  delta: -1.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 44.3
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 43.6
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 43.2
   provenance:
     conformance: derived
@@ -251,9 +254,10 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/screenshots/vers-2026-08-17T082735.png
 security:
 - kind: authentication
   name: Vers Authentication

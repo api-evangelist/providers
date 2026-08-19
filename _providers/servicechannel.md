@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -571,15 +572,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 45.9
+  delta: 0.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 53.7
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 52.1
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -591,9 +594,10 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/screenshots/servicechannel-2026-08-17T081815.png
 security:
 - kind: authentication
   name: Servicechannel Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -375,15 +376,17 @@ overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 35
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 44.8
+  delta: -4.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 50.2
-    developer_ergonomics: 62.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 47.0
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -400,9 +403,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 55.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
 security:

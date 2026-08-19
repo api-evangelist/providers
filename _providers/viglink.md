@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -284,19 +285,21 @@ rate_limits:
   slug: viglink-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: 9.7
+  composite: 56.4
+  delta: -4.2
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 55.4
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 52.4
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 52.6
-  previous_composite: 50.9
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -304,9 +307,10 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/screenshots/viglink-2026-08-17T082748.png
 security:
 - kind: authentication
   name: Viglink Authentication

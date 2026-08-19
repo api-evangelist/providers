@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -193,20 +194,22 @@ rate_limits:
   slug: inmobi-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 45.1
+  delta: 0.1
   facets:
-    commercial_clarity: 81.6
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 63.2
+    governance: 18.2
+    operational_transparency: 60.5
   previous_composite: 45.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/screenshots/inmobi-2026-07-25T222451.png
 security:

@@ -11,25 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Conga Advantage Platform REST API exposes Conga's Revenue Lifecycle Management services - Contract Lifecycle Management (CLM), cart/CPQ, catalog, user management, X-Author authoring, document- and
@@ -243,21 +243,30 @@ scopes:
   summary_line: 28 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.1
-  delta: 25.5
+  composite: 61.9
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 58.5
-    developer_ergonomics: 87.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 63.1
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 39.6
+  previous_composite: 65.1
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -240,7 +241,9 @@ rate_limits:
   name: Tango Card Rate Limits
   slug: tango-card-rate-limits
 rules:
-- name: Tango Card API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tango Card API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,15 +258,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 40.4
+  delta: -7.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 67.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 65.6
+    developer_ergonomics: 13.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -278,9 +283,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/screenshots/tango-card-2026-06-20T194915.png
 security:
 - kind: authentication

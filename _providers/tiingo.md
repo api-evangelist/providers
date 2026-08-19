@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: derived
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 41.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,16 +235,18 @@ rate_limits:
   name: Tiingo Rate Limits
   slug: tiingo-rate-limits
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 57.7
+  delta: 1.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 63.4
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -261,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

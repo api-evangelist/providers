@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -785,7 +786,10 @@ rate_limits:
   name: Netlify Rate Limits
   slug: netlify-rate-limits
 rules:
-- name: Netlify API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Netlify API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -793,7 +797,9 @@ rules:
     info: 0
     warn: 7
   slug: netlify-asyncapi-spectral-rules
-- name: Netlify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Netlify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -807,16 +813,18 @@ scopes:
   slug: netlify-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 52.5
+  delta: -4.6
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 53.5
-    developer_ergonomics: 65.2
+    contract_governance: 11.4
+    contract_quality: 53.8
+    developer_ergonomics: 61.9
     discoverability: 48.1
-    governance: 41.7
-    operational_transparency: 55.3
+    governance: 11.4
+    operational_transparency: 52.6
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -825,8 +833,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:

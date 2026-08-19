@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -333,7 +334,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: disease.sh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: disease.sh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -343,14 +346,16 @@ rules:
   slug: disease-sh-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 27.5
+  delta: -6.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 47.0
-    developer_ergonomics: 8.7
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 45.0
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 33.8
   provenance:
@@ -365,10 +370,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 13.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/screenshots/disease-sh-2026-06-20T180044.png
 security:
 - kind: domain-security

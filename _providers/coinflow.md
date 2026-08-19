@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -297,15 +298,17 @@ overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network
   Coinflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, sandbox, and 29 more developer resources.'
 random_paper: 120
 score:
-  band: developing
-  composite: 55.6
-  delta: 0.0
+  band: strong
+  composite: 59.2
+  delta: 3.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 63.1
-    developer_ergonomics: 75.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 16.7
+    contract_quality: 61.2
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 34.2
   previous_composite: 55.6
   provenance:
@@ -323,9 +326,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 84.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:

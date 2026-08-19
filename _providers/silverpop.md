@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -272,7 +272,9 @@ rate_limits:
   name: Silverpop Rate Limits
   slug: silverpop-rate-limits
 rules:
-- name: Silverpop API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Silverpop API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -280,7 +282,10 @@ rules:
     info: 1
     warn: 4
   slug: silverpop-jsonschema-spectral-rules
-- name: Silverpop API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Silverpop API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -290,32 +295,36 @@ rules:
   slug: silverpop-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 18.3
+  composite: 65.6
+  delta: 2.7
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 65.7
-    developer_ergonomics: 71.7
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 28.0
+    contract_quality: 61.5
+    developer_ergonomics: 48.8
     discoverability: 92.6
-    governance: 70.8
-    operational_transparency: 34.2
-  previous_composite: 44.6
+    governance: 28.0
+    operational_transparency: 47.4
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 51.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:
 - kind: authentication

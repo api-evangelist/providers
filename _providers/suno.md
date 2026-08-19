@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -195,15 +196,17 @@ rate_limits:
   slug: suno-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 31.1
+  delta: -5.2
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 59.7
-    developer_ergonomics: 17.4
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 19.0
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 36.3
   provenance:
     agentic_access: derived
@@ -212,9 +215,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/screenshots/suno-2026-06-20T194658.png
 security:
 - kind: authentication

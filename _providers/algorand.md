@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -389,7 +390,9 @@ rate_limits:
   name: Algorand Rate Limits
   slug: algorand-rate-limits
 rules:
-- name: Algorand API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Algorand API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -398,16 +401,18 @@ rules:
     warn: 4
   slug: algorand-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 50.7
+  delta: -7.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 53.4
-    developer_ergonomics: 71.7
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 51.4
+    developer_ergonomics: 78.6
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -416,9 +421,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -781,7 +782,9 @@ rate_limits:
   name: Microsoft Azure Monitor Rate Limits
   slug: microsoft-azure-monitor-rate-limits
 rules:
-- name: Azure Monitor API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Azure Monitor API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -796,15 +799,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 56.5
+  delta: -5.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 73.1
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 72.9
+    developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -813,9 +818,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -228,7 +229,9 @@ rate_limits:
   name: Sisense Rate Limits
   slug: sisense-rate-limits
 rules:
-- name: Sisense API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sisense API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,7 +239,9 @@ rules:
     info: 2
     warn: 3
   slug: sisense-jsonschema-spectral-rules
-- name: Sisense API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Sisense API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -246,14 +251,16 @@ rules:
   slug: sisense-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 43.6
+  delta: -8.0
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 64.9
-    developer_ergonomics: 39.1
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 63.5
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 51.6
   provenance:
@@ -263,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
 security:
 - kind: authentication

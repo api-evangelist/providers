@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -233,7 +234,9 @@ rate_limits:
   name: Secure Code Warrior Rate Limits
   slug: secure-code-warrior-rate-limits
 rules:
-- name: Secure Code Warrior API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Secure Code Warrior API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +244,10 @@ rules:
     info: 2
     warn: 3
   slug: secure-code-warrior-jsonschema-spectral-rules
-- name: Secure Code Warrior API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Secure Code Warrior API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -251,14 +257,16 @@ rules:
   slug: secure-code-warrior-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 42.0
+  delta: -2.6
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 64.5
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 64.8
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 44.6
   provenance:
@@ -268,8 +276,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 40.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/screenshots/secure-code-warrior-2026-06-20T193625.png
 security:

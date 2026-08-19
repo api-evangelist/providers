@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +200,10 @@ rate_limits:
   name: Ai21 Labs Rate Limits
   slug: ai21-labs-rate-limits
 rules:
-- name: AI21 Labs API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: AI21 Labs API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -209,15 +213,17 @@ rules:
   slug: ai21-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 44.2
+  delta: -4.3
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 65.1
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 61.9
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 42.1
+    governance: 11.4
+    operational_transparency: 39.5
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -226,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/screenshots/ai21-labs-2026-06-20T170826.png
 security:

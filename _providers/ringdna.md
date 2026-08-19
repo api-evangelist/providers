@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Programmatic entry points into the Guided Selling managed package for completing participant actions, skipping (deferring) participant actions, and creating sequence-independent quick actions. These a
@@ -207,19 +208,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: 26.1
+  composite: 40.1
+  delta: -9.4
   facets:
-    commercial_clarity: 100.0
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 21.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 23.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
 security:
 - kind: authentication

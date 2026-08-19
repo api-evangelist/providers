@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -683,15 +683,17 @@ scopes:
   slug: agicap-scopes
   summary_line: 5 scopes · clientCredentials/implicit
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -4.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.9
-    developer_ergonomics: 62.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 62.3
+    developer_ergonomics: 23.2
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 34.2
   previous_composite: 58.1
   provenance:
@@ -709,9 +711,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 74.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

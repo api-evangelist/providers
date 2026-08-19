@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -158,15 +159,17 @@ rate_limits:
   slug: apiclarity-rate-limits
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 29.0
+  delta: -0.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 44.0
-    developer_ergonomics: 23.9
+    contract_governance: 0.0
+    contract_quality: 42.8
+    developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 29.2
   provenance:
     agentic_access: derived
@@ -175,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/screenshots/apiclarity-2026-06-20T172238.png
 security:

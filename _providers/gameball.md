@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 52.7
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: RESTful loyalty & gamification API for managing customers, events, orders, payments, points transactions, holds, coupons, reward campaigns, VIP tiers, redemption options, leaderboards and batch operat
@@ -258,22 +259,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.8
-  delta: 9.7
+  composite: 58.7
+  delta: -2.1
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 50.6
-    developer_ergonomics: 80.4
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 16.7
+    contract_quality: 53.0
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 76.3
-  previous_composite: 51.1
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 60.8
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:
 - kind: authentication

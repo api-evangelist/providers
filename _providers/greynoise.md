@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -1043,7 +1044,9 @@ rate_limits:
   name: Greynoise Rate Limits
   slug: greynoise-rate-limits
 rules:
-- name: GreyNoise Intelligence API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GreyNoise Intelligence API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1051,7 +1054,10 @@ rules:
     info: 1
     warn: 4
   slug: greynoise-jsonschema-spectral-rules
-- name: GreyNoise Intelligence API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: GreyNoise Intelligence API Rules
   rule_count: 42
   severity_counts:
     error: 15
@@ -1060,16 +1066,18 @@ rules:
     warn: 24
   slug: greynoise-spectral-rules
 score:
-  band: exemplar
-  composite: 69.5
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: -11.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 72.4
-    developer_ergonomics: 58.7
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 25.0
+    contract_quality: 69.1
+    developer_ergonomics: 51.2
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 69.5
   provenance:
     agentic_access: derived
@@ -1078,9 +1086,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:
 - kind: authentication

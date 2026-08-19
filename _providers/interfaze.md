@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: near-conformant
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.4
-  scored_at: '2026-08-17'
+  score: 44.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -182,15 +182,17 @@ overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 74
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 48.3
+  delta: -1.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 59.7
-    developer_ergonomics: 60.9
+    contract_governance: 16.7
+    contract_quality: 58.0
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -202,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:

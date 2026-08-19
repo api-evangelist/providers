@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -597,15 +598,17 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 14
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 50.3
+  delta: -3.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 64.0
-    developer_ergonomics: 75.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 62.0
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 53.3
   provenance:
     agentic_access: derived
@@ -617,9 +620,10 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/screenshots/skedulo-2026-08-17T081911.png
 security:
 - kind: authentication
   name: Skedulo Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -155,15 +156,17 @@ rate_limits:
   slug: openclinica-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 38.3
+  delta: 2.0
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 61.7
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 57.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 36.3
   provenance:
     agentic_access: derived
@@ -178,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/screenshots/openclinica-2026-08-07T190538.png
 security:

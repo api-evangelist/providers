@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -420,7 +421,9 @@ rate_limits:
   name: Schema Org Rate Limits
   slug: schema-org-rate-limits
 rules:
-- name: Schema.org API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Schema.org API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -428,7 +431,9 @@ rules:
     info: 2
     warn: 4
   slug: schema-org-jsonschema-spectral-rules
-- name: Schema.org API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Schema.org API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -438,19 +443,23 @@ rules:
   slug: schema-org-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 9.4
+  composite: 31.9
+  delta: -4.8
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 17.7
-    developer_ergonomics: 34.8
+    contract_governance: 43.2
+    contract_quality: 15.5
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 81.3
-    operational_transparency: 28.9
-  previous_composite: 27.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 43.2
+    operational_transparency: 26.3
+  previous_composite: 36.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/screenshots/schema-org-2026-06-20T193515.png
 security:
 - kind: domain-security

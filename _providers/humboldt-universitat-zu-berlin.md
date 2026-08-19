@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +177,9 @@ rate_limits:
   name: Humboldt Universitat Zu Berlin Rate Limits
   slug: humboldt-universitat-zu-berlin-rate-limits
 rules:
-- name: Humboldt-Universität zu Berlin API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Humboldt-Universität zu Berlin API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -184,7 +187,9 @@ rules:
     info: 3
     warn: 3
   slug: humboldt-universitat-zu-berlin-jsonschema-spectral-rules
-- name: Humboldt-Universität zu Berlin API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Humboldt-Universität zu Berlin API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -194,14 +199,16 @@ rules:
   slug: humboldt-universitat-zu-berlin-rules
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 33.4
+  delta: -6.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 59.5
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 57.1
+    developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 39.7
   provenance:
@@ -211,9 +218,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 42.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png
 security:
 - kind: domain-security

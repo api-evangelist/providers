@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The partner-facing API for Web.com's International ("NTS") platform, fronted by Azure API Management. Ten documented operations cover the sales-order lifecycle (create, list with paging and filtering,
@@ -158,19 +158,30 @@ rate_limits:
   slug: websitepros-rate-limits
 score:
   band: thin
-  composite: 41.4
-  delta: 36.4
+  composite: 29.5
+  delta: -11.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 57.2
-    developer_ergonomics: 71.7
+    contract_governance: 16.7
+    contract_quality: 18.3
+    developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 5.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 41.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Websitepros Authentication

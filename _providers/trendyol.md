@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-17'
+  score: 33.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Trendyol Marketplace / Partner API for sellers and integrators — product, order/shipment, returns, invoice, settlement, and webhook operations.
@@ -129,24 +130,27 @@ rate_limits:
   name: Trendyol Rate Limits
   slug: trendyol-rate-limits
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 34.4
+  delta: -7.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 56.0
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 76.3
+    governance: 4.5
+    operational_transparency: 57.9
   previous_composite: 42.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/screenshots/trendyol-2026-08-17T082435.png
 security:
 - kind: authentication
   name: Trendyol Authentication

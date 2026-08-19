@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-17'
+  score: 62.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -347,15 +348,17 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 62.0
+  delta: 3.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 62.4
-    developer_ergonomics: 77.7
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 75.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 60.5
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -368,8 +371,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

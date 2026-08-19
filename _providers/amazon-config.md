@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 34.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -4440,7 +4441,9 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
   Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
 random_paper: 129
 rules:
-- name: Amazon Config API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Config API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4448,7 +4451,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-config-jsonschema-spectral-rules
-- name: Amazon Config API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Config API Rules
   rule_count: 25
   severity_counts:
     error: 8
@@ -4458,15 +4464,17 @@ rules:
   slug: amazon-config-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 49.1
+  delta: -5.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 72.3
-    developer_ergonomics: 43.5
+    contract_governance: 41.7
+    contract_quality: 69.6
+    developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -4477,9 +4485,9 @@ score:
       marker_coverage: 0.0
       total: 92
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:
 - kind: authentication

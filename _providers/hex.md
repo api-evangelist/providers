@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -262,15 +263,17 @@ overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 27
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 52.9
+  delta: -2.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 53.7
-    developer_ergonomics: 71.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 55.1
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 55.5
   provenance:
     agentic_access: derived
@@ -282,8 +285,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/screenshots/hex-2026-07-25T221110.png
 security:

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.9
-  scored_at: '2026-08-17'
+  score: 5.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -142,23 +143,28 @@ rate_limits:
   name: Flatpay Rate Limits
   slug: flatpay-rate-limits
 score:
-  band: thin
-  composite: 28.1
+  band: emerging
+  composite: 25.8
+  delta: -2.3
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 28.9
+  previous_composite: 28.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Flatpay Domain Security

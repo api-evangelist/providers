@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -179,12 +180,14 @@ rate_limits:
   slug: flightaware-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 38.8
+  delta: 0.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 61.9
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 61.5
+    developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
@@ -196,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

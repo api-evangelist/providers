@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST service for managing the customer (cliente) records behind Atom''s WhatsApp conversations. The provider knowledge base documents three operations: create or update a customer, retrieve the list of'
@@ -148,20 +149,25 @@ rate_limits:
   name: Atom Rate Limits
   slug: atom-rate-limits
 score:
-  band: developing
-  composite: 45.7
-  delta: 34.7
+  band: thin
+  composite: 38.2
+  delta: -7.5
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 51.6
-    developer_ergonomics: 37.0
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 11.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 45.7
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/atom/refs/heads/main/screenshots/atom-2026-07-25T201559.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,13 +94,15 @@ press:
   url: https://gabelli.com/research/ai-ev-can-utilities-generate-enough-power/
 random_paper: 60
 score:
-  band: emerging
-  composite: 13.6
-  delta: 0.0
+  band: minimal
+  composite: 6.9
+  delta: -6.7
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -109,10 +112,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 8.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynegy/refs/heads/main/screenshots/dynegy-2026-06-20T180344.png
 security:
 - kind: domain-security

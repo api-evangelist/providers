@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -111,18 +112,20 @@ rate_limits:
   slug: eventmobi-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 22.1
+  delta: -0.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 22.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/screenshots/eventmobi-2026-07-25T213712.png
 security:

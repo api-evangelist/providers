@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -348,12 +349,14 @@ overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 83
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 46.5
+  delta: 0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 56.8
-    developer_ergonomics: 56.5
+    contract_governance: 0.0
+    contract_quality: 54.2
+    developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
@@ -365,8 +368,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/screenshots/loops-so-2026-06-20T184721.png
 security:

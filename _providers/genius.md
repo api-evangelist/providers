@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -251,7 +252,9 @@ rate_limits:
   name: Genius Rate Limits
   slug: genius-rate-limits
 rules:
-- name: Genius API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Genius API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,7 +262,10 @@ rules:
     info: 1
     warn: 4
   slug: genius-jsonschema-spectral-rules
-- name: Genius API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Genius API Rules
   rule_count: 13
   severity_counts:
     error: 8
@@ -274,15 +280,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 28.9
+  delta: -5.6
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 28.5
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 27.1
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -291,9 +299,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Genius Authentication

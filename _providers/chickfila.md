@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -519,7 +520,9 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 15 more developer resources.'
 random_paper: 32
 rules:
-- name: Chick-fil-A API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Chick-fil-A API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -527,7 +530,10 @@ rules:
     info: 2
     warn: 3
   slug: chickfila-jsonschema-spectral-rules
-- name: Chick-fil-A API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Chick-fil-A API Rules
   rule_count: 37
   severity_counts:
     error: 5
@@ -537,15 +543,17 @@ rules:
   slug: chickfila-spectral-rules
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 16.6
+  delta: -7.1
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 20.9
-    developer_ergonomics: 2.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 25.0
+    contract_quality: 19.8
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 23.7
   provenance:
     agentic_access: derived
@@ -554,9 +562,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:
 - kind: domain-security

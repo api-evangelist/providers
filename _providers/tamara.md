@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -425,7 +426,9 @@ rate_limits:
   name: Tamara Rate Limits
   slug: tamara-rate-limits
 rules:
-- name: Tamara API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tamara API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -433,7 +436,10 @@ rules:
     info: 1
     warn: 4
   slug: tamara-jsonschema-spectral-rules
-- name: Tamara API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Tamara API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -442,15 +448,17 @@ rules:
     warn: 6
   slug: tamara-rules
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: developing
+  composite: 48.9
+  delta: -11.7
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 69.3
-    developer_ergonomics: 63.0
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 25.0
+    contract_quality: 67.3
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 60.6
   provenance:
@@ -465,10 +473,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:
 - kind: authentication

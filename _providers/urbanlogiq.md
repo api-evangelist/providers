@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 11.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The signed-request platform API behind the UrbanLogiq community intelligence platform — data catalog objects, aggregate queries, and streams served in Apache Arrow, Parquet, CSV, XLSX, JSON, text, and
@@ -154,16 +155,18 @@ overview: 'UrbanLogiq publishes 1 API on the [APIs.io](https://apis.io/) network
   UrbanLogiq''s developer surface includes documentation, engineering blog, support, CLI, authentication, sandbox, and 19 more developer resources.'
 random_paper: 33
 score:
-  band: thin
-  composite: 33.9
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -9.8
   facets:
-    commercial_clarity: 36.8
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 7.9
   previous_composite: 33.9
   provenance:
     conformance: first-party
@@ -173,10 +176,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 42.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Urbanlogiq Authentication

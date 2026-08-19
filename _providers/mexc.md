@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 6
@@ -239,7 +240,9 @@ rate_limits:
   name: Mexc Rate Limits
   slug: mexc-rate-limits
 rules:
-- name: MEXC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: MEXC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -249,15 +252,17 @@ rules:
   slug: mexc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 47.0
+  delta: -3.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 54.9
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 51.4
+    developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -272,8 +277,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/screenshots/mexc-2026-06-20T185344.png
 security:

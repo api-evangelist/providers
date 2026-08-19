@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -297,7 +298,9 @@ rate_limits:
   name: Albato A Single No Code Platform For All Automations Rate Limits
   slug: albato-a-single-no-code-platform-for-all-automations-rate-limits
 rules:
-- name: Albato A Single No Code Platform For All Automations API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Albato A Single No Code Platform For All Automations API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -305,7 +308,10 @@ rules:
     info: 1
     warn: 4
   slug: albato-a-single-no-code-platform-for-all-automations-jsonschema-spectral-rules
-- name: Albato A Single No Code Platform For All Automations API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Albato A Single No Code Platform For All Automations API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -313,7 +319,9 @@ rules:
     info: 0
     warn: 8
   slug: albato-a-single-no-code-platform-for-all-automations-spectral-rules
-- name: Albato A Single No Code Platform For All Automations API Rules
+- effective_rule_count: 25
+  extends: []
+  name: Albato A Single No Code Platform For All Automations API Rules
   rule_count: 25
   severity_counts:
     error: 15
@@ -323,14 +331,16 @@ rules:
   slug: albato-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 46.9
+  delta: -4.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 72.2
-    developer_ergonomics: 39.1
+    contract_governance: 41.7
+    contract_quality: 71.2
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 7.9
   previous_composite: 51.5
   provenance:
@@ -342,8 +352,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:

@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: REST API for brands/advertisers to manage programs, partner recruitment and contracts, product catalogs, conversions and action reconciliation, promo codes, deals, reporting and payouts across affilia
@@ -451,21 +452,30 @@ rate_limits:
   slug: impact-radius-rate-limits
 score:
   band: exemplar
-  composite: 71.7
-  delta: 20.9
+  composite: 68.1
+  delta: -3.6
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 66.3
-    developer_ergonomics: 73.9
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 16.7
+    contract_quality: 66.6
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 94.7
-  previous_composite: 50.8
+    governance: 16.7
+    operational_transparency: 92.1
+  previous_composite: 71.7
   provenance:
+    conformance: derived
+    contracts:
+      callable: 98.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 67
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
 - kind: authentication

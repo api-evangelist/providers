@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,15 +168,17 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 138
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 36.1
+  delta: -1.9
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 59.0
-    developer_ergonomics: 45.1
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 57.9
+    developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 38.0
   provenance:
     agentic_access: derived
@@ -192,9 +195,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 36.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 50.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

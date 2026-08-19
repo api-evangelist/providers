@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -914,7 +915,9 @@ rate_limits:
   name: Oracle Enterprise Manager Rate Limits
   slug: oracle-enterprise-manager-rate-limits
 rules:
-- name: Oracle Enterprise Manager API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle Enterprise Manager API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -922,7 +925,10 @@ rules:
     info: 2
     warn: 3
   slug: oracle-enterprise-manager-jsonschema-spectral-rules
-- name: Oracle Enterprise Manager API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Oracle Enterprise Manager API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -932,15 +938,17 @@ rules:
   slug: oracle-enterprise-manager-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 54.6
+  delta: -6.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 74.5
-    developer_ergonomics: 58.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 26.5
+    contract_quality: 75.1
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 69.8
-    operational_transparency: 39.5
+    governance: 26.5
+    operational_transparency: 36.8
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -951,9 +959,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:
 - kind: authentication

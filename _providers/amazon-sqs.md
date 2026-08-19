@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -380,7 +381,10 @@ rate_limits:
   name: Amazon Sqs Rate Limits
   slug: amazon-sqs-rate-limits
 rules:
-- name: Amazon SQS API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Amazon SQS API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -388,7 +392,9 @@ rules:
     info: 1
     warn: 8
   slug: amazon-sqs-asyncapi-spectral-rules
-- name: Amazon SQS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon SQS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -396,7 +402,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-sqs-jsonschema-spectral-rules
-- name: Amazon SQS API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Amazon SQS API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -406,14 +415,16 @@ rules:
   slug: amazon-sqs-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 44.4
+  delta: -4.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 75.4
-    developer_ergonomics: 28.3
+    contract_governance: 13.6
+    contract_quality: 72.4
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 23.7
   previous_composite: 48.8
   provenance:
@@ -423,8 +434,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

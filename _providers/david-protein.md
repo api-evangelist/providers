@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Universal Commerce Protocol commerce server David serves at davidprotein.com/api/ucp/mcp, advertised in the store robots.txt and agents.md. Thirteen MCP tools cover catalog search and lookup, prod
@@ -195,24 +196,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 32.1
+  delta: -0.8
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 32.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

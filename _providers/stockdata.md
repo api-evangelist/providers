@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,7 +272,9 @@ rate_limits:
   name: Stockdata Rate Limits
   slug: stockdata-rate-limits
 rules:
-- name: StockData API Rules
+- effective_rule_count: 5
+  extends: []
+  name: StockData API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -279,7 +282,10 @@ rules:
     info: 1
     warn: 4
   slug: stockdata-jsonschema-spectral-rules
-- name: StockData API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: StockData API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -289,14 +295,16 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 63.4
+  delta: -1.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 64.9
-    developer_ergonomics: 58.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 41.7
+    contract_quality: 63.6
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 31.6
   previous_composite: 64.4
   provenance:
@@ -315,8 +323,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

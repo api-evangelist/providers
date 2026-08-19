@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -417,7 +417,9 @@ rate_limits:
   name: Seismic Rate Limits
   slug: seismic-rate-limits
 rules:
-- name: Seismic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Seismic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -425,7 +427,10 @@ rules:
     info: 2
     warn: 3
   slug: seismic-jsonschema-spectral-rules
-- name: Seismic API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Seismic API Rules
   rule_count: 14
   severity_counts:
     error: 3
@@ -434,16 +439,18 @@ rules:
     warn: 8
   slug: seismic-rules
 score:
-  band: strong
-  composite: 61.5
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: -13.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 78.4
-    developer_ergonomics: 50.0
-    discoverability: 79.6
-    governance: 68.8
-    operational_transparency: 47.4
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 76.9
+    developer_ergonomics: 31.0
+    discoverability: 72.2
+    governance: 25.0
+    operational_transparency: 35.5
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -452,9 +459,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/screenshots/seismic-2026-06-20T193646.png
 security:
 - kind: authentication

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,7 +150,10 @@ rate_limits:
   name: Mobula Rate Limits
   slug: mobula-rate-limits
 rules:
-- name: Mobula API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Mobula API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -159,15 +163,17 @@ rules:
   slug: mobula-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 40.8
+  delta: -2.6
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 70.1
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 66.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -182,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/screenshots/mobula-2026-08-07T183915.png
 security:

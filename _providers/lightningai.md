@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.7
-  scored_at: '2026-08-17'
+  score: 15.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM gateway. Call hosted models from OpenAI, Anthropic, Google and open-weights providers through a single Bearer-authenticated endpoint with one bill, using provider/model names suc
@@ -149,23 +150,25 @@ rate_limits:
   name: Lightningai Rate Limits
   slug: lightningai-rate-limits
 score:
-  band: thin
-  composite: 30.3
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -7.9
   facets:
-    commercial_clarity: 18.4
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 30.3
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightningai/refs/heads/main/screenshots/lightningai-2026-07-25T225125.png
 security:
 - kind: authentication

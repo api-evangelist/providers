@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Key/secret exchange for bearer tokens and drone access discovery
@@ -219,7 +220,9 @@ rate_limits:
   name: Saildrone Rate Limits
   slug: saildrone-rate-limits
 rules:
-- name: Saildrone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Saildrone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,7 +230,10 @@ rules:
     info: 2
     warn: 3
   slug: saildrone-jsonschema-spectral-rules
-- name: Saildrone API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Saildrone API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -237,14 +243,16 @@ rules:
   slug: saildrone-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 40.4
+  delta: -6.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 75.1
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 71.1
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 36.8
   previous_composite: 46.6
   provenance:
@@ -253,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -2694,7 +2695,9 @@ rate_limits:
   name: Argo Cd Rate Limits
   slug: argo-cd-rate-limits
 rules:
-- name: Argo CD API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Argo CD API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2702,7 +2705,10 @@ rules:
     info: 2
     warn: 3
   slug: argo-cd-jsonschema-spectral-rules
-- name: Argo CD API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Argo CD API Rules
   rule_count: 21
   severity_counts:
     error: 7
@@ -2712,15 +2718,17 @@ rules:
   slug: argo-cd-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 33.8
+  delta: -3.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 18.8
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 21.6
+    developer_ergonomics: 54.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 37.7
   provenance:
     agentic_access: derived
@@ -2729,8 +2737,8 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/screenshots/argo-cd-2026-06-20T172417.png
 security:

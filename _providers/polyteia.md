@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,15 +195,17 @@ overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 20 more developer resources.'
 random_paper: 126
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 55.6
+  delta: -0.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.7
-    developer_ergonomics: 56.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 61.5
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 55.7
   provenance:
@@ -220,10 +223,11 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 57.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
 security:
 - kind: authentication
   name: Polyteia Authentication

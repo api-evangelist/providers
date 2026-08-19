@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -208,7 +209,9 @@ rate_limits:
   name: Zoho Creator Rate Limits
   slug: zoho-creator-rate-limits
 rules:
-- name: Zoho Creator API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zoho Creator API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,15 +225,17 @@ scopes:
   slug: zoho-creator-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.4
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -8.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 63.8
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 59.8
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 47.4
   provenance:
@@ -240,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/screenshots/zoho-creator-2026-06-20T201937.png
 security:
 - kind: authentication

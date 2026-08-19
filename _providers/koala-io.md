@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 76.6
-  scored_at: '2026-08-17'
+  score: 63.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -343,7 +344,9 @@ rate_limits:
   name: Koala Io Rate Limits
   slug: koala-io-rate-limits
 rules:
-- name: Koala API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Koala API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -353,26 +356,31 @@ rules:
   slug: koala-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 80.8
-  delta: 26.3
+  composite: 66.8
+  delta: -14.0
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 76.3
-    developer_ergonomics: 63.0
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 41.7
+    contract_quality: 71.5
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 78.9
-  previous_composite: 54.5
+    governance: 41.7
+    operational_transparency: 60.5
+  previous_composite: 80.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:
 - kind: authentication

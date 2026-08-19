@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 32.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +207,9 @@ overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 15 more developer resources.'
 random_paper: 24
 rules:
-- name: Traefik Mesh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Traefik Mesh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,7 +217,9 @@ rules:
     info: 2
     warn: 3
   slug: traefik-mesh-jsonschema-spectral-rules
-- name: Traefik Mesh API Rules
+- effective_rule_count: 15
+  extends: []
+  name: Traefik Mesh API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -223,16 +228,18 @@ rules:
     warn: 7
   slug: traefik-mesh-rules
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 32.1
+  delta: -10.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 64.8
-    developer_ergonomics: 15.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 60.8
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -241,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/screenshots/traefik-mesh-2026-06-20T195533.png
 security:
 - kind: domain-security

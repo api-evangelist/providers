@@ -3,22 +3,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.5
-  scored_at: '2026-08-17'
+  score: 59.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -304,25 +305,38 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 65.3
+  delta: 5.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.3
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 69.1
+    developer_ergonomics: 73.2
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 73.7
+    governance: 16.7
+    operational_transparency: 71.1
   previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 87.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 58.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:
 - kind: authentication
   name: Egym Authentication

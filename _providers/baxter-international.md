@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -154,7 +155,9 @@ rate_limits:
   name: Baxter International Rate Limits
   slug: baxter-international-rate-limits
 rules:
-- name: Baxter International API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Baxter International API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -164,14 +167,16 @@ rules:
   slug: baxter-spectral-rules
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 20.6
+  delta: -3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 45.5
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 15.8
   previous_composite: 24.0
   regulatory:
@@ -179,9 +184,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 13.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:

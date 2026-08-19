@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: First American developer APIs include Find an Office (locate offices by city, state, or ZIP), Order Management (open new orders), Document Exchange (send and receive order-related documents), Messagin
@@ -103,13 +104,15 @@ rate_limits:
   slug: first-american-financial-rate-limits
 score:
   band: minimal
-  composite: 12.4
-  delta: 0.0
+  composite: 9.8
+  delta: -2.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 66.7
+    developer_ergonomics: 11.9
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 12.4
@@ -119,8 +122,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png
 security:

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -229,16 +229,18 @@ scopes:
   slug: very-good-security-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: strong
-  composite: 62.4
-  delta: 0.0
+  band: exemplar
+  composite: 67.8
+  delta: 5.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 68.4
-    developer_ergonomics: 86.4
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 69.7
+    developer_ergonomics: 85.1
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 62.4
   provenance:
     conformance: derived
@@ -254,10 +256,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/screenshots/very-good-security-2026-08-17T082738.png
 security:
 - kind: authentication
   name: Very Good Security Authentication

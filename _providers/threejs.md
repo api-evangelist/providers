@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -225,7 +226,9 @@ overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network.
   Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 22 more developer resources.'
 random_paper: 12
 rules:
-- name: Three.js API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Three.js API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,20 +237,28 @@ rules:
     warn: 3
   slug: threejs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.4
-  delta: 0.0
+  band: emerging
+  composite: 24.7
+  delta: -5.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 29.0
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 26.8
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 30.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/threejs/refs/heads/main/screenshots/threejs-2026-06-20T195317.png
 security:
 - kind: domain-security

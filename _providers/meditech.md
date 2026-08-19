@@ -12,25 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -354,7 +354,9 @@ rate_limits:
   name: Meditech Rate Limits
   slug: meditech-rate-limits
 rules:
-- name: MEDITECH API Rules
+- effective_rule_count: 6
+  extends: []
+  name: MEDITECH API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -369,16 +371,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.7
-  delta: 13.1
+  composite: 50.9
+  delta: -2.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 30.3
-    developer_ergonomics: 78.3
+    contract_governance: 22.0
+    contract_quality: 28.6
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 66.7
+    governance: 22.0
     operational_transparency: 15.8
-  previous_composite: 40.6
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,15 +391,17 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:
 - kind: authentication

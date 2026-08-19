@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 54.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 4
@@ -771,7 +772,10 @@ rate_limits:
   name: Brevo Rate Limits
   slug: brevo-rate-limits
 rules:
-- name: Brevo API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Brevo API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -779,7 +783,9 @@ rules:
     info: 1
     warn: 6
   slug: brevo-asyncapi-spectral-rules
-- name: Brevo API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Brevo API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -794,31 +800,36 @@ scopes:
   summary_line: 37 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 80.2
-  delta: 43.0
+  composite: 87.6
+  delta: 7.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 79.5
-    developer_ergonomics: 91.3
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 45.5
+    contract_quality: 78.2
+    developer_ergonomics: 80.4
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 71.1
-  previous_composite: 37.2
+    governance: 45.5
+    operational_transparency: 92.1
+  previous_composite: 80.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 80.6
       derived: 0
       marker_coverage: 0.0
-      total: 23
+      total: 36
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:

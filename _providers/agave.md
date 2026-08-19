@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -658,7 +659,9 @@ rate_limits:
   name: Agave Rate Limits
   slug: agave-rate-limits
 rules:
-- name: Agave API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agave API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -666,7 +669,10 @@ rules:
     info: 1
     warn: 4
   slug: agave-jsonschema-spectral-rules
-- name: Agave API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Agave API Rules
   rule_count: 29
   severity_counts:
     error: 14
@@ -676,15 +682,17 @@ rules:
   slug: agave-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 34.1
+  delta: -5.3
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 31.0
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 29.3
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -693,9 +701,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication

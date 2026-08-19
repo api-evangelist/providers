@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -358,7 +359,10 @@ rate_limits:
   name: Revel Systems Rate Limits
   slug: revel-systems-rate-limits
 rules:
-- name: Revel Systems API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Revel Systems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,7 +370,9 @@ rules:
     info: 0
     warn: 5
   slug: revel-systems-asyncapi-spectral-rules
-- name: Revel Systems API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Revel Systems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -374,7 +380,10 @@ rules:
     info: 1
     warn: 4
   slug: revel-systems-jsonschema-spectral-rules
-- name: Revel Systems API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Revel Systems API Rules
   rule_count: 34
   severity_counts:
     error: 8
@@ -383,16 +392,18 @@ rules:
     warn: 18
   slug: revel-systems-rules
 score:
-  band: thin
-  composite: 29.6
-  delta: 0.0
+  band: emerging
+  composite: 22.2
+  delta: -7.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 41.5
-    developer_ergonomics: 10.9
+    contract_governance: 26.5
+    contract_quality: 39.2
+    developer_ergonomics: 0.0
     discoverability: 55.6
-    governance: 62.5
-    operational_transparency: 10.5
+    governance: 26.5
+    operational_transparency: 7.9
   previous_composite: 29.6
   provenance:
     agentic_access: derived
@@ -401,9 +412,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication

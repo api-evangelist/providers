@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -269,15 +270,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 48.9
+  delta: 0.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.3
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 48.4
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -295,9 +298,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/screenshots/coinlist-2026-08-17T123123.png
 security:
 - kind: authentication
   name: Coinlist Authentication

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -181,14 +183,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 34.2
+  delta: -0.7
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 65.0
-    developer_ergonomics: 19.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 30.3
+    contract_quality: 66.5
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 34.9
   provenance:
@@ -200,8 +204,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -351,16 +351,18 @@ rate_limits:
   name: Ondo Finance Rate Limits
   slug: ondo-finance-rate-limits
 score:
-  band: developing
-  composite: 51.7
-  delta: 0.0
+  band: strong
+  composite: 54.6
+  delta: 2.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 59.8
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 57.4
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -378,8 +380,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
 security:

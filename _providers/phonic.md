@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 54.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -231,15 +232,17 @@ rate_limits:
   slug: phonic-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 45.4
+  delta: -2.6
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 66.4
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -251,9 +254,10 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/screenshots/phonic-2026-08-17T081212.png
 security:
 - kind: authentication
   name: Phonic Authentication

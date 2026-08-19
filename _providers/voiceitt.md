@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Socket.IO WebSockets API for real-time speech recognition. After JWT login via the HTTP API, clients set recognition options (set_options), then send recognize_audio_samples for pre-segmented speech o
@@ -178,14 +179,16 @@ overview: 'Voiceitt publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 126
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 40.8
+  delta: -5.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 57.5
-    developer_ergonomics: 53.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 54.3
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 46.3
   provenance:
@@ -197,9 +200,10 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/screenshots/voiceitt-2026-08-17T082826.png
 security:
 - kind: authentication
   name: Voiceitt Authentication

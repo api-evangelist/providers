@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -2996,7 +2997,9 @@ rate_limits:
   name: Amazon Storage Gateway Rate Limits
   slug: amazon-storage-gateway-rate-limits
 rules:
-- name: Amazon Storage Gateway API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Storage Gateway API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3004,7 +3007,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-storage-gateway-jsonschema-spectral-rules
-- name: Amazon Storage Gateway API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Storage Gateway API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -3013,16 +3019,18 @@ rules:
     warn: 13
   slug: amazon-storage-gateway-spectral-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -6.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 68.7
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -3031,9 +3039,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 95
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:
 - kind: authentication

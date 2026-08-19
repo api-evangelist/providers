@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -236,15 +237,17 @@ overview: 'Adaptive ML publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 65
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 43.9
+  delta: -1.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 55.6
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 53.2
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -256,8 +259,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:

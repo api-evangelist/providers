@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
@@ -190,19 +191,21 @@ rate_limits:
   name: Medable Rate Limits
   slug: medable-rate-limits
 score:
-  band: thin
-  composite: 41.5
-  delta: 7.6
+  band: developing
+  composite: 45.3
+  delta: 3.8
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 68.4
-  previous_composite: 33.9
+    governance: 18.2
+    operational_transparency: 65.8
+  previous_composite: 41.5
   provenance:
-    conformance: derived
+    conformance: first-party
     mcp: derived
   regulatory:
     applies: true
@@ -210,9 +213,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/screenshots/medable-2026-08-07T172312.png
 security:
 - kind: authentication

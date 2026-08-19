@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -225,15 +226,17 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 94
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 38.6
+  delta: -2.3
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 49.1
-    developer_ergonomics: 58.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 47.0
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 40.9
   provenance:
     agentic_access: derived
@@ -245,8 +248,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 41.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
@@ -185,16 +186,18 @@ rate_limits:
   name: Dext Rate Limits
   slug: dext-rate-limits
 score:
-  band: developing
-  composite: 51.5
-  delta: 0.0
+  band: strong
+  composite: 56.3
+  delta: 4.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 61.2
-    developer_ergonomics: 47.3
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 51.5
   provenance:
     conformance: derived
@@ -211,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -312,7 +313,9 @@ rate_limits:
   name: University Of Washington Rate Limits
   slug: university-of-washington-rate-limits
 rules:
-- name: University of Washington API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Washington API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,7 +323,9 @@ rules:
     info: 2
     warn: 3
   slug: university-of-washington-jsonschema-spectral-rules
-- name: University of Washington API Rules
+- effective_rule_count: 6
+  extends: []
+  name: University of Washington API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -330,14 +335,16 @@ rules:
   slug: university-of-washington-rules
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 31.8
+  delta: -4.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 57.0
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 54.7
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 36.3
   provenance:
@@ -350,11 +357,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:

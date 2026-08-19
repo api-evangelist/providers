@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -522,7 +523,9 @@ rate_limits:
   name: Azure Logic Apps Rate Limits
   slug: azure-logic-apps-rate-limits
 rules:
-- name: Azure Logic Apps API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure Logic Apps API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -530,7 +533,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-logic-apps-jsonschema-spectral-rules
-- name: Azure Logic Apps API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Azure Logic Apps API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -545,14 +551,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 31.6
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 60.9
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 59.0
+    developer_ergonomics: 21.4
     discoverability: 53.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 37.0
   provenance:
@@ -562,9 +570,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/screenshots/azure-logic-apps-2026-06-20T172902.png
 security:
 - kind: authentication

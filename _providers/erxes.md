@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GraphQL Federation API powering the erxes XOS platform. An Apollo Router gateway federates one subgraph per plugin — core (contacts, companies, products, tags, documents, brands, organization structur
@@ -241,19 +242,31 @@ scopes:
   summary_line: 34 scopes · deviceCode
 score:
   band: strong
-  composite: 64.5
-  delta: 41.6
+  composite: 63.5
+  delta: -1.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 58.0
-    developer_ergonomics: 71.7
+    contract_governance: 4.5
+    contract_quality: 52.2
+    developer_ergonomics: 78.6
     discoverability: 83.3
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 22.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 64.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/screenshots/erxes-2026-06-20T180818.png
 security:
 - kind: authentication

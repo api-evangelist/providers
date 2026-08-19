@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Performs detailed multilingual sentiment analysis of texts from different sources, returning polarity, agreement, subjectivity, irony, and confidence scores at document, sentence, and segment levels.
@@ -138,19 +139,21 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 28.5
-  delta: 0.0
+  band: emerging
+  composite: 25.1
+  delta: -3.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 8.1
-    developer_ergonomics: 10.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 7.0
+    developer_ergonomics: 6.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 28.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 slug: meaningcloud
 tags:

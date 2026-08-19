@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -254,7 +255,7 @@ common:
   url: https://www.nutanix.dev/api_references/
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://www.nutanix.dev/code_samples/
 - group: operate
   title: ''
@@ -385,7 +386,7 @@ overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Nutanix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Nutanix''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, support, signup flow, and 18 more developer resources.'
+  Nutanix''s developer surface includes authentication, documentation, getting-started guide, code examples, changelog, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
@@ -396,7 +397,9 @@ rate_limits:
   name: Nutanix Rate Limits
   slug: nutanix-rate-limits
 rules:
-- name: Nutanix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nutanix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -405,17 +408,19 @@ rules:
     warn: 4
   slug: nutanix-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.0
-  delta: 1.8
+  band: developing
+  composite: 46.5
+  delta: -12.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 58.4
-    developer_ergonomics: 71.7
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 44.7
-  previous_composite: 57.2
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 59.4
+    developer_ergonomics: 59.5
+    discoverability: 64.8
+    governance: 9.8
+    operational_transparency: 42.1
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     contracts:
@@ -423,9 +428,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:
 - kind: authentication

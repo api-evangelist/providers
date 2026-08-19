@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -213,23 +214,25 @@ scopes:
   slug: medialab-ai-scopes
   summary_line: 4 scopes · authorizationCode/implicit
 score:
-  band: thin
-  composite: 40.2
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  delta: 0.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 64.7
+    contract_governance: 4.5
+    contract_quality: 1.4
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 71.1
+    governance: 4.5
+    operational_transparency: 68.4
   previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:

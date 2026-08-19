@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -207,7 +208,10 @@ rate_limits:
   name: At Protocol Rate Limits
   slug: at-protocol-rate-limits
 rules:
-- name: AT Protocol API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: AT Protocol API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -217,15 +221,17 @@ rules:
   slug: at-protocol-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 40.3
+  delta: -4.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 55.2
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 52.2
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 52.6
+    governance: 11.4
+    operational_transparency: 50.0
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -234,9 +240,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/screenshots/at-protocol-2026-08-17T122411.png
 security:
 - kind: authentication
   name: At Protocol Authentication

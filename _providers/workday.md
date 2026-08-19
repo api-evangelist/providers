@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -2549,7 +2549,9 @@ rate_limits:
   name: Workday Rate Limits
   slug: workday-rate-limits
 rules:
-- name: Workday API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Workday API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2557,7 +2559,10 @@ rules:
     info: 2
     warn: 4
   slug: workday-jsonschema-spectral-rules
-- name: Workday API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Workday API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -2571,16 +2576,18 @@ scopes:
   slug: workday-scopes
   summary_line: 29 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.0
+  band: strong
+  composite: 58.6
+  delta: -8.4
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 81.7
-    developer_ergonomics: 63.0
+    contract_governance: 41.7
+    contract_quality: 80.6
+    developer_ergonomics: 47.6
     discoverability: 77.8
-    governance: 80.2
-    operational_transparency: 42.1
+    governance: 41.7
+    operational_transparency: 39.5
   previous_composite: 67.0
   provenance:
     agentic_access: derived
@@ -2591,9 +2598,9 @@ score:
       marker_coverage: 0.0
       total: 46
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -312,7 +313,9 @@ rate_limits:
   name: Thoughtly Rate Limits
   slug: thoughtly-rate-limits
 rules:
-- name: Thoughtly API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Thoughtly API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,7 +323,10 @@ rules:
     info: 1
     warn: 4
   slug: thoughtly-jsonschema-spectral-rules
-- name: Thoughtly API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Thoughtly API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -330,14 +336,16 @@ rules:
   slug: thoughtly-rules
 score:
   band: strong
-  composite: 57.8
-  delta: 0.0
+  composite: 56.0
+  delta: -1.8
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 69.4
-    developer_ergonomics: 47.8
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 44.7
   previous_composite: 57.8
   provenance:
@@ -353,8 +361,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:

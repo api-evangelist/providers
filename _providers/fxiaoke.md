@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Fxiaoke Open API v2 exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services (approval workflows, directory/contact sync, business-data sync) a
@@ -182,21 +183,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.5
-  delta: 17.5
+  composite: 46.3
+  delta: 1.8
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 27.0
+  previous_composite: 44.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png
 security:
 - kind: authentication

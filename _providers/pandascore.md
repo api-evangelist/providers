@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,13 +203,15 @@ rate_limits:
   slug: pandascore-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 41.0
+  delta: -1.7
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 55.2
-    developer_ergonomics: 30.4
-    discoverability: 74.1
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 22.6
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 42.7
@@ -219,10 +222,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-06-20T191336.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-08-17T083019.png
 security:
 - kind: authentication
   name: Pandascore Authentication

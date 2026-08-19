@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 47.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -175,15 +176,17 @@ rate_limits:
   slug: n3rgy-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 52.0
+  delta: 5.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.9
-    developer_ergonomics: 32.6
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 62.9
+    developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -200,10 +203,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 60.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
 security:
 - kind: authentication

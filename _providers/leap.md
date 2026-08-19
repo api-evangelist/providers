@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: The create meters API from Leap — 4 operation(s) for create meters.
@@ -267,15 +268,17 @@ overview: 'Leap publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 120
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 47.3
+  delta: -3.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 72.5
-    developer_ergonomics: 62.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 71.1
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 50.3
   provenance:
     conformance: derived
@@ -292,8 +295,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:

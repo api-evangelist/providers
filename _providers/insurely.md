@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -150,15 +151,17 @@ overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 146
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 34.7
+  delta: -7.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 34.2
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 41.9
   provenance:
     conformance: first-party
@@ -169,9 +172,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:
 - kind: authentication

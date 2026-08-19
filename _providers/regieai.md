@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -151,21 +152,24 @@ rate_limits:
   slug: regieai-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 13.9
+  composite: 31.2
+  delta: -4.8
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 33.3
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 22.1
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 36.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Regieai Authentication

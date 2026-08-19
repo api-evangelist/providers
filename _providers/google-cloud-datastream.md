@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -185,7 +186,10 @@ rate_limits:
   name: Google Cloud Datastream Rate Limits
   slug: google-cloud-datastream-rate-limits
 rules:
-- name: Google Cloud Datastream API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Google Cloud Datastream API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -193,7 +197,9 @@ rules:
     info: 0
     warn: 6
   slug: google-cloud-datastream-asyncapi-spectral-rules
-- name: Google Cloud Datastream API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Cloud Datastream API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,15 +214,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 49.8
+  delta: -4.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 79.1
-    developer_ergonomics: 47.8
+    contract_governance: 11.4
+    contract_quality: 74.1
+    developer_ergonomics: 52.4
     discoverability: 64.8
-    governance: 41.7
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -225,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/screenshots/google-cloud-datastream-2026-06-20T182105.png
 security:

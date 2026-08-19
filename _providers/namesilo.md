@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The NameSilo Domain API allows developers to search, register, transfer, renew, and manage domains programmatically. All API calls use HTTPS GET requests and return XML or JSON. A sandbox environment '
@@ -103,19 +104,27 @@ rate_limits:
   slug: namesilo-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 15.6
+  delta: -6.7
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 22.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/namesilo/refs/heads/main/screenshots/namesilo-2026-08-07T184613.png
 security:
 - kind: domain-security

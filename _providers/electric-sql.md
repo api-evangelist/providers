@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -183,7 +184,9 @@ rate_limits:
   name: Electric Sql Rate Limits
   slug: electric-sql-rate-limits
 rules:
-- name: ElectricSQL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ElectricSQL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,15 +196,17 @@ rules:
   slug: electric-sql-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 42.1
+  delta: -6.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 54.5
-    developer_ergonomics: 15.2
+    contract_governance: 25.0
+    contract_quality: 51.0
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -210,9 +215,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/screenshots/electric-sql-2026-06-20T180546.png
 security:
 - kind: domain-security

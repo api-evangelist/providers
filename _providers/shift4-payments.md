@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -304,7 +305,10 @@ rate_limits:
   name: Shift4 Payments Rate Limits
   slug: shift4-payments-rate-limits
 rules:
-- name: Shift4 Payments API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Shift4 Payments API Rules
   rule_count: 15
   severity_counts:
     error: 3
@@ -312,7 +316,9 @@ rules:
     info: 0
     warn: 9
   slug: shift4-api-rules
-- name: Shift4 Payments API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shift4 Payments API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,16 +327,18 @@ rules:
     warn: 3
   slug: shift4-payments-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 44.9
+  delta: 3.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 64.9
-    developer_ergonomics: 39.1
+    contract_governance: 60.6
+    contract_quality: 64.1
+    developer_ergonomics: 42.9
     discoverability: 50.0
-    governance: 52.1
-    operational_transparency: 26.3
+    governance: 60.6
+    operational_transparency: 23.7
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -345,8 +353,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png
 security:

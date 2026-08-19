@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -292,29 +292,32 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 61.9
-  delta: 0.7
+  composite: 62.3
+  delta: 0.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 62.5
-    developer_ergonomics: 78.3
+    contract_governance: 16.7
+    contract_quality: 58.9
+    developer_ergonomics: 83.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 61.2
+    governance: 16.7
+    operational_transparency: 42.1
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 42.9
       total: 7
     mcp: derived
     skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:
 - kind: authentication
   name: Xiaoman Authentication

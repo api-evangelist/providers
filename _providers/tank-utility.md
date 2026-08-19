@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 45.2
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Exchange account credentials for a short-lived API token.
@@ -152,14 +153,16 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 71
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 37.5
+  delta: 1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 61.2
-    developer_ergonomics: 27.7
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 58.4
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 36.2
   provenance:
@@ -177,8 +180,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

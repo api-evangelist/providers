@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-08-17'
+  score: 58.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -612,16 +613,18 @@ scopes:
   slug: lean-technologies-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -3.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 71.5
-    developer_ergonomics: 77.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 68.7
+    developer_ergonomics: 62.5
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 57.2
   provenance:
     agentic_access: derived
@@ -638,9 +641,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 67.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

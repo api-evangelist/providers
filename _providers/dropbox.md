@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -1316,7 +1317,9 @@ rate_limits:
   name: Dropbox Rate Limits
   slug: dropbox-rate-limits
 rules:
-- name: Dropbox API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dropbox API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1325,15 +1328,17 @@ rules:
     warn: 4
   slug: dropbox-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.9
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -6.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 62.3
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 59.5
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 44.9
   provenance:
@@ -1343,9 +1348,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:
 - kind: authentication

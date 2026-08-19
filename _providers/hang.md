@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: The Activities API from Hang — 2 operation(s) for activities.
@@ -286,11 +287,13 @@ score:
   composite: 50.5
   delta: 0.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 53.6
-    developer_ergonomics: 49.5
+    contract_governance: 30.3
+    contract_quality: 50.2
+    developer_ergonomics: 48.2
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 34.2
   previous_composite: 50.5
   provenance:
@@ -302,8 +305,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:

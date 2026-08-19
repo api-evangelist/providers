@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -241,12 +242,14 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 38.1
+  delta: -1.1
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 50.7
-    developer_ergonomics: 21.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
@@ -258,8 +261,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
 security:

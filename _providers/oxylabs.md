@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -480,15 +480,17 @@ rate_limits:
   slug: oxylabs-rate-limits
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 54.4
+  delta: -3.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 56.7
-    developer_ergonomics: 80.4
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 0.0
+    contract_quality: 53.8
+    developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -497,8 +499,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
 security:

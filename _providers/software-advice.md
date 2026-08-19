@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Software Advice provides software review data, ratings, and recommendations through their platform. As a Gartner subsidiary, Software Advice aggregates user reviews and expert analysis across 300+ sof
@@ -150,7 +151,9 @@ rate_limits:
   name: Software Advice Rate Limits
   slug: software-advice-rate-limits
 rules:
-- name: Software Advice API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Software Advice API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -159,20 +162,22 @@ rules:
     warn: 3
   slug: software-advice-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.0
-  delta: 0.0
+  band: emerging
+  composite: 23.1
+  delta: -5.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 22.6
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 19.7
+    developer_ergonomics: 2.4
     discoverability: 63.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 29.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Software Advice Domain Security

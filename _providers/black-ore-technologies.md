@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,20 +113,22 @@ overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/)
 random_paper: 123
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 23.3
+  delta: -0.4
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 61.1
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 23.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/screenshots/black-ore-technologies-2026-07-25T203235.png
 security:

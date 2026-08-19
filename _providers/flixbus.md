@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 14.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The partner-facing Flix API, published through the Flix Developer Portal. Documentation covers API references, getting-started guides, changelogs and example Postman collections for Flix distribution '
@@ -121,15 +122,17 @@ overview: 'FlixBus publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 20
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 28.6
+  delta: -2.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 30.8
   provenance:
     conformance: first-party
@@ -139,8 +142,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/screenshots/flixbus-2026-08-07T165346.png
 security:

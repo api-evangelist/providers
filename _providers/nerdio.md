@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 37.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -194,15 +195,17 @@ overview: 'Nerdio publishes 1 API on the [APIs.io](https://apis.io/) network: Ma
 random_paper: 45
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 50.8
+  delta: -0.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 48.5
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 45.5
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -214,8 +217,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

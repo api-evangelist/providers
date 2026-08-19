@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 15.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
@@ -155,21 +156,23 @@ overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 49
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 31.6
+  delta: -0.1
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 31.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/screenshots/ethena-labs-2026-07-25T213648.png
 security:

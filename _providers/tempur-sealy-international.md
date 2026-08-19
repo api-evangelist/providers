@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -145,7 +146,9 @@ rate_limits:
   name: Tempur Sealy International Rate Limits
   slug: tempur-sealy-international-rate-limits
 rules:
-- name: Tempur Sealy International API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tempur Sealy International API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,19 +158,21 @@ rules:
   slug: tempur-sealy-international-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 18.4
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 2.4
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 24.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png
 security:
 - kind: domain-security

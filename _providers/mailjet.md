@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -183,15 +184,17 @@ rate_limits:
   slug: mailjet-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 39.3
+  delta: -3.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 59.0
-    developer_ergonomics: 26.1
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 10.5
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -200,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/screenshots/mailjet-2026-06-20T184859.png
 security:

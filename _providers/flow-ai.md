@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 9.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -158,19 +159,21 @@ score:
   composite: 32.2
   delta: 0.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 82.1
+    developer_ergonomics: 80.4
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 32.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/screenshots/flow-ai-2026-07-25T214827.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -396,7 +397,9 @@ rate_limits:
   name: Zenml Rate Limits
   slug: zenml-rate-limits
 rules:
-- name: ZenML API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ZenML API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -404,7 +407,10 @@ rules:
     info: 1
     warn: 4
   slug: zenml-jsonschema-spectral-rules
-- name: ZenML API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: ZenML API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -413,15 +419,17 @@ rules:
     warn: 3
   slug: zenml-rules
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: -7.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 63.7
-    developer_ergonomics: 67.4
+    contract_governance: 9.8
+    contract_quality: 59.8
+    developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 44.7
   previous_composite: 58.9
   provenance:
@@ -431,9 +439,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -337,7 +338,9 @@ rate_limits:
   name: Kion Rate Limits
   slug: kion-rate-limits
 rules:
-- name: Kion API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Kion API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -346,16 +349,24 @@ rules:
     warn: 4
   slug: kion-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -6.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 71.0
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 70.2
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -364,9 +375,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:
 - kind: authentication

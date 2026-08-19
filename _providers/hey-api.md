@@ -11,24 +11,26 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -245,15 +247,17 @@ rate_limits:
   slug: hey-api-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 46.0
+  delta: -1.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 52.9
-    developer_ergonomics: 71.2
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 16.7
+    contract_quality: 50.2
+    developer_ergonomics: 78.0
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -264,8 +268,8 @@ score:
       marker_coverage: 0.0
       total: 6
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:

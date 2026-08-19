@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -223,7 +224,9 @@ rate_limits:
   name: Erasmus University Rotterdam Rate Limits
   slug: erasmus-university-rotterdam-rate-limits
 rules:
-- name: Erasmus University Rotterdam API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Erasmus University Rotterdam API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,9 @@ rules:
     info: 1
     warn: 4
   slug: erasmus-university-rotterdam-jsonschema-spectral-rules
-- name: Erasmus University Rotterdam API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Erasmus University Rotterdam API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -246,14 +251,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.2
+  delta: -0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 69.4
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 68.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 43.1
   provenance:
@@ -263,8 +270,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 61.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png
 security:

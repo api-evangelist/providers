@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 24.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Anonymous JSON-RPC 2.0 / Model Context Protocol endpoint implementing the Universal Commerce Protocol shopping service (version 2026-04-08). A tools/list call returns 13 tools with JSON Schema input c
@@ -161,16 +162,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 26.9
+  composite: 24.1
+  delta: -2.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  previous_composite: 26.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Flying Embers Authentication

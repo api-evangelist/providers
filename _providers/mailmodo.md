@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 45.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -414,7 +414,9 @@ rate_limits:
   name: Mailmodo Rate Limits
   slug: mailmodo-rate-limits
 rules:
-- name: Mailmodo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mailmodo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -422,7 +424,10 @@ rules:
     info: 2
     warn: 3
   slug: mailmodo-jsonschema-spectral-rules
-- name: Mailmodo API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Mailmodo API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -432,26 +437,31 @@ rules:
   slug: mailmodo-rules
 score:
   band: exemplar
-  composite: 84.1
-  delta: 18.6
+  composite: 67.7
+  delta: -16.4
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 84.5
-    developer_ergonomics: 91.3
+    contract_governance: 41.7
+    contract_quality: 79.5
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 44.7
-  previous_composite: 65.5
+    governance: 41.7
+    operational_transparency: 26.3
+  previous_composite: 84.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:
 - kind: authentication

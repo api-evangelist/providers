@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,7 +255,9 @@ rate_limits:
   name: Rhel Rate Limits
   slug: rhel-rate-limits
 rules:
-- name: Red Hat Enterprise Linux API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Red Hat Enterprise Linux API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -262,7 +265,9 @@ rules:
     info: 2
     warn: 2
   slug: rhel-jsonschema-spectral-rules
-- name: Red Hat Enterprise Linux API Rules
+- effective_rule_count: 9
+  extends: []
+  name: Red Hat Enterprise Linux API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -277,14 +282,16 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 49.6
+  delta: 1.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 61.6
-    developer_ergonomics: 34.8
+    access_clarity: 78.6
+    commercial_clarity: 78.6
+    contract_governance: 25.0
+    contract_quality: 57.8
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 48.3
   provenance:
@@ -294,8 +301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/screenshots/rhel-2026-06-20T193105.png
 security:

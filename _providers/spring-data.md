@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,7 +196,9 @@ rate_limits:
   name: Spring Data Rate Limits
   slug: spring-data-rate-limits
 rules:
-- name: Spring Data API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Spring Data API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -203,7 +206,10 @@ rules:
     info: 2
     warn: 4
   slug: spring-data-jsonschema-spectral-rules
-- name: Spring Data API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Spring Data API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -213,15 +219,17 @@ rules:
   slug: spring-data-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 26.8
+  delta: -9.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 61.7
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 58.9
+    developer_ergonomics: 0.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -230,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:
 - kind: domain-security

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -348,7 +349,9 @@ rate_limits:
   name: Google Forms Rate Limits
   slug: google-forms-rate-limits
 rules:
-- name: Google Forms API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Forms API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,7 +359,10 @@ rules:
     info: 2
     warn: 3
   slug: google-forms-jsonschema-spectral-rules
-- name: Google Forms API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Google Forms API Rules
   rule_count: 32
   severity_counts:
     error: 15
@@ -371,15 +377,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 42.6
+  delta: -5.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 31.0
-    developer_ergonomics: 39.1
+    contract_governance: 41.7
+    contract_quality: 29.5
+    developer_ergonomics: 36.9
     discoverability: 100.0
-    governance: 80.2
-    operational_transparency: 44.7
+    governance: 41.7
+    operational_transparency: 42.1
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -390,9 +398,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication

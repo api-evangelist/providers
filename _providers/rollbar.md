@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -377,7 +378,10 @@ rate_limits:
   name: Rollbar Rate Limits
   slug: rollbar-rate-limits
 rules:
-- name: Rollbar API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Rollbar API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -385,7 +389,9 @@ rules:
     info: 0
     warn: 6
   slug: rollbar-asyncapi-spectral-rules
-- name: Rollbar API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Rollbar API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -393,7 +399,10 @@ rules:
     info: 1
     warn: 5
   slug: rollbar-jsonschema-spectral-rules
-- name: Rollbar API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Rollbar API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -403,14 +412,16 @@ rules:
   slug: rollbar-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 45.5
+  delta: -6.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 71.7
-    developer_ergonomics: 47.8
+    contract_governance: 11.4
+    contract_quality: 68.5
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 13.2
   previous_composite: 51.8
   provenance:
@@ -420,9 +431,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:
 - kind: authentication

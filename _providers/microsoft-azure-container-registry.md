@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -138,15 +139,17 @@ rate_limits:
   slug: microsoft-azure-container-registry-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 37.7
+  delta: -0.7
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 56.7
-    developer_ergonomics: 32.6
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 35.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -155,8 +158,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-registry/refs/heads/main/screenshots/microsoft-azure-container-registry-2026-06-20T185406.png
 security:

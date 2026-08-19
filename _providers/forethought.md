@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -288,7 +289,9 @@ rate_limits:
   name: Forethought Rate Limits
   slug: forethought-rate-limits
 rules:
-- name: Forethought API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Forethought API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -296,7 +299,10 @@ rules:
     info: 1
     warn: 4
   slug: forethought-jsonschema-spectral-rules
-- name: Forethought API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Forethought API Rules
   rule_count: 5
   severity_counts:
     error: 4
@@ -306,15 +312,17 @@ rules:
   slug: forethought-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 45.0
+  delta: -6.6
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 73.9
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -323,9 +331,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/screenshots/forethought-2026-06-20T181426.png
 security:
 - kind: authentication

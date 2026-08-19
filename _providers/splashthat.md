@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, unsubscribes, event approval workflows, team man
@@ -189,19 +189,24 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 52.9
-  delta: 14.9
+  composite: 48.3
+  delta: -4.6
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
+    contract_governance: 4.5
+    contract_quality: 60.6
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 23.7
-  previous_composite: 38.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 21.1
+  previous_composite: 52.9
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
 security:
 - kind: authentication

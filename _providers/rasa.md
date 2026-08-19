@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -201,15 +202,17 @@ overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 125
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 46.4
+  delta: 0.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 49.1
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 47.7
+    developer_ergonomics: 85.7
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -221,9 +224,10 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/screenshots/rasa-2026-08-17T081447.png
 security:
 - kind: authentication
   name: Rasa Authentication

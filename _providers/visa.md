@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 55.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -667,7 +668,9 @@ rate_limits:
   name: Visa Rate Limits
   slug: visa-rate-limits
 rules:
-- name: Visa API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Visa API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -675,7 +678,10 @@ rules:
     info: 2
     warn: 4
   slug: visa-jsonschema-spectral-rules
-- name: Visa API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Visa API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -685,15 +691,17 @@ rules:
   slug: visa-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 36.0
+  delta: -4.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 65.6
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 63.1
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -708,8 +716,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

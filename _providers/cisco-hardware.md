@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -102,6 +103,10 @@ collections:
   name: Cisco Catalyst Center (DNA Center) Intent API
   slug: open-cisco-hardware
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,7 +184,7 @@ jsonld:
   property_count: 0
   slug: cisco-hardware-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-19'
 name: Cisco Hardware
 nav: Providers
 network: true
@@ -189,7 +194,7 @@ overview: 'Cisco Hardware publishes 7 APIs on the [APIs.io](https://apis.io/) ne
   The Cisco Hardware catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cisco Hardware''s developer surface includes authentication, developer portal, documentation, sandbox, support, and 11 more developer resources.'
+  Cisco Hardware''s developer surface includes authentication, developer portal, documentation, sandbox, support, and 12 more developer resources.'
 plans:
 - name: Cisco Hardware Plans Pricing
   plan_count: 3
@@ -200,7 +205,11 @@ rate_limits:
   name: Cisco Hardware Rate Limits
   slug: cisco-hardware-rate-limits
 rules:
-- name: Cisco Hardware API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: Cisco Hardware API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -210,26 +219,28 @@ rules:
   slug: cisco-hardware-rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 32.6
+  delta: -9.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 57.9
-    developer_ergonomics: 39.1
+    contract_governance: 45.5
+    contract_quality: 17.8
+    developer_ergonomics: 39.3
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 45.5
+    operational_transparency: 7.9
   previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 7
+      marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/screenshots/cisco-hardware-2026-06-20T174357.png
 security:
 - kind: authentication

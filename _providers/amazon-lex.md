@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -241,7 +242,9 @@ rate_limits:
   name: Amazon Lex Rate Limits
   slug: amazon-lex-rate-limits
 rules:
-- name: Amazon Lex API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Amazon Lex API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -249,7 +252,10 @@ rules:
     info: 2
     warn: 2
   slug: amazon-lex-jsonschema-spectral-rules
-- name: Amazon Lex API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Lex API Rules
   rule_count: 24
   severity_counts:
     error: 9
@@ -258,15 +264,17 @@ rules:
     warn: 14
   slug: amazon-lex-spectral-rules
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  delta: -6.8
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 76.1
-    developer_ergonomics: 45.7
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 74.8
+    developer_ergonomics: 46.4
     discoverability: 44.4
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 34.2
   previous_composite: 58.5
   provenance:
@@ -276,9 +284,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/screenshots/amazon-lex-2026-06-20T171723.png
 security:
 - kind: authentication

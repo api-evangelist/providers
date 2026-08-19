@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Timely's REST API (version 1.1) at api.timelyapp.com, secured with OAuth 2.0, for programmatic access to accounts, projects, clients, users, events (time entries), labels and reports.
@@ -131,20 +132,22 @@ overview: 'Memory publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 69
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 32.8
+  delta: 1.5
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 31.3
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/screenshots/memory-2026-08-07T172504.png
 security:

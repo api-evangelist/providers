@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 45.4
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Financing configuration and limits
@@ -222,15 +223,17 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 5
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 53.1
+  delta: 2.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.6
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 65.2
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 50.3
   provenance:
     conformance: derived
@@ -247,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

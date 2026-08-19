@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1586,7 +1587,9 @@ rate_limits:
   name: Amazon Iam Access Analyzer Rate Limits
   slug: amazon-iam-access-analyzer-rate-limits
 rules:
-- name: Amazon IAM Access Analyzer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon IAM Access Analyzer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1594,7 +1597,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-iam-access-analyzer-jsonschema-spectral-rules
-- name: Amazon IAM Access Analyzer API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Amazon IAM Access Analyzer API Rules
   rule_count: 29
   severity_counts:
     error: 10
@@ -1604,15 +1610,17 @@ rules:
   slug: amazon-iam-access-analyzer-spectral-rules
 score:
   band: strong
-  composite: 57.1
-  delta: 0.0
+  composite: 55.0
+  delta: -2.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.5
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 67.2
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -1627,8 +1635,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

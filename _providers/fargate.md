@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -279,15 +280,17 @@ rate_limits:
   slug: fargate-rate-limits
 score:
   band: strong
-  composite: 56.0
-  delta: 0.0
+  composite: 56.4
+  delta: 0.4
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 62.7
-    developer_ergonomics: 69.6
+    contract_governance: 0.0
+    contract_quality: 60.6
+    developer_ergonomics: 76.2
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 55.3
+    operational_transparency: 52.6
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -296,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

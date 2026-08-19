@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
@@ -172,20 +173,26 @@ rate_limits:
   name: Storyclash Rate Limits
   slug: storyclash-rate-limits
 score:
-  band: developing
-  composite: 54.5
-  delta: 15.0
+  band: strong
+  composite: 54.3
+  delta: -0.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 51.6
-    developer_ergonomics: 41.3
+    contract_governance: 18.2
+    contract_quality: 46.5
+    developer_ergonomics: 45.2
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 60.5
-  previous_composite: 39.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 57.9
+  previous_composite: 54.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/screenshots/storyclash-2026-08-17T082126.png
 security:
 - kind: authentication
   name: Storyclash Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -427,14 +428,16 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 35.6
+  delta: -1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 46.2
-    developer_ergonomics: 23.4
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 46.9
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 36.9
   provenance:
@@ -453,8 +456,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/screenshots/opply-2026-08-07T190741.png
 security:

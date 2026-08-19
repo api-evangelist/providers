@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -222,15 +223,17 @@ overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
 random_paper: 98
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: developing
+  composite: 39.7
+  delta: 9.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 53.4
-    developer_ergonomics: 16.8
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 50.0
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 30.6
   provenance:
@@ -247,9 +250,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -262,15 +263,17 @@ rate_limits:
   slug: hiro-rate-limits
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 28.1
+  delta: -1.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.1
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 54.6
+    developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 29.1
   provenance:
     agentic_access: derived
@@ -279,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/screenshots/hiro-2026-06-20T182757.png
 security:

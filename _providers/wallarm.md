@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -237,7 +238,9 @@ rate_limits:
   name: Wallarm Rate Limits
   slug: wallarm-rate-limits
 rules:
-- name: Wallarm API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wallarm API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +248,10 @@ rules:
     info: 1
     warn: 4
   slug: wallarm-jsonschema-spectral-rules
-- name: Wallarm API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Wallarm API Rules
   rule_count: 12
   severity_counts:
     error: 5
@@ -255,14 +261,16 @@ rules:
   slug: wallarm-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 40.8
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 76.9
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 73.9
+    developer_ergonomics: 45.2
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 46.6
   provenance:
@@ -272,9 +280,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/screenshots/wallarm-2026-06-20T201213.png
 security:
 - kind: authentication

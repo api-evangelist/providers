@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Provides access to the organizations a John Deere Operations Center user belongs to. Organizations are the top-level container for users, fields, equipment, and partner relationships in Operations Cen
@@ -129,18 +130,20 @@ rate_limits:
   slug: deere-rate-limits
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 18.7
+  delta: 0.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deere/refs/heads/main/screenshots/deere-2026-06-20T175814.png
 security:

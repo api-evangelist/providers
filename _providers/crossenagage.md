@@ -10,10 +10,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Asynchronous customer profile API — create, update and delete single users, batch up to 1,000 users per call, look a user up by id or by email plus business unit, and poll a tracking id for terminal s
@@ -241,21 +241,30 @@ rate_limits:
   slug: crossenagage-rate-limits
 score:
   band: strong
-  composite: 58.5
-  delta: 29.9
+  composite: 56.4
+  delta: -2.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 59.8
-    developer_ergonomics: 78.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 59.6
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 39.5
-  previous_composite: 28.6
+    governance: 30.3
+    operational_transparency: 36.8
+  previous_composite: 58.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:
 - kind: authentication

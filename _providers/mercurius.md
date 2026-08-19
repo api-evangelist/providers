@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GraphQL adapter for Fastify enabling high-performance GraphQL servers and gateways with JIT compilation, query caching, subscriptions, and federation.
@@ -90,18 +91,26 @@ overview: 'Mercurius publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 97
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 19.6
+  delta: -0.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 42.0
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 37.8
+    developer_ergonomics: 9.5
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 20.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercurius/refs/heads/main/screenshots/mercurius-2026-06-20T185212.png
 security:

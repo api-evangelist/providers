@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Ingest feedback data into unitQ to centralize feedback from systems without a native integration. Publicly named on the unitQ integrations page; the API reference is in the login-gated help center (he
@@ -101,18 +102,20 @@ overview: 'unitQ publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 114
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 18.8
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 2.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 20.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

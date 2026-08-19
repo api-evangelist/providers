@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -147,7 +148,9 @@ rate_limits:
   name: Roper Technologies Rate Limits
   slug: roper-technologies-rate-limits
 rules:
-- name: Roper Technologies API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Roper Technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -157,14 +160,16 @@ rules:
   slug: roper-technologies-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 13.0
+  delta: -6.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 8.1
+    contract_governance: 25.0
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 19.6
   regulatory:
@@ -173,9 +178,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Roper Technologies Domain Security

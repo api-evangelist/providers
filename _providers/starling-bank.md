@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -213,15 +214,17 @@ overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 133
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 53.5
+  delta: 8.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 39.6
-    developer_ergonomics: 65.2
+    access_clarity: 78.6
+    commercial_clarity: 78.6
+    contract_governance: 30.3
+    contract_quality: 37.1
+    developer_ergonomics: 28.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 44.7
   provenance:
     conformance: first-party
@@ -235,10 +238,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 72.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/screenshots/starling-bank-2026-08-17T082108.png
 security:
 - kind: authentication
   name: Starling Bank Authentication

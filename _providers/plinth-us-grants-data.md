@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-17'
+  score: 47.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Plain-English questions answered with SQL the service writes itself.
@@ -183,7 +184,10 @@ rate_limits:
   name: Plinth Us Grants Data Rate Limits
   slug: plinth-us-grants-data-rate-limits
 rules:
-- name: Plinth US Grants Data API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Plinth US Grants Data API Rules
   rule_count: 10
   severity_counts:
     error: 9
@@ -197,23 +201,38 @@ scopes:
   slug: plinth-us-grants-data-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.3
+  band: exemplar
+  composite: 70.9
+  delta: 8.6
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 59.0
-    developer_ergonomics: 65.2
+    contract_governance: 90.9
+    contract_quality: 58.7
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 52.1
+    governance: 90.9
     operational_transparency: 10.5
+  previous_composite: 62.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/screenshots/plinth-us-grants-data-2026-08-17T081307.png
 security:
 - kind: authentication
   name: Plinth Us Grants Data Authentication

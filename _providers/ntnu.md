@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 7
@@ -382,7 +383,9 @@ rate_limits:
   name: Ntnu Rate Limits
   slug: ntnu-rate-limits
 rules:
-- name: Norwegian University of Science and Technology API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Norwegian University of Science and Technology API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -390,7 +393,9 @@ rules:
     info: 2
     warn: 3
   slug: ntnu-jsonschema-spectral-rules
-- name: Norwegian University of Science and Technology API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Norwegian University of Science and Technology API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -400,14 +405,16 @@ rules:
   slug: ntnu-rules
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 36.8
+  delta: -4.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 56.0
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 53.9
+    developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 40.8
   provenance:
@@ -420,11 +427,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 42.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:

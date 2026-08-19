@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Schema-driven GraphQL access to CMG's live and historical ECM dataset. Per CMG's published FAQ the feed lets teams "query specific fields across deals, participants, terms and activity through a singl
@@ -125,15 +126,17 @@ overview: 'Capital Markets Gateway publishes 3 APIs on the [APIs.io](https://api
 random_paper: 102
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 29.8
+  delta: -1.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 6.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 7.1
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 31.5
   provenance:
     conformance: first-party
@@ -143,8 +146,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 31.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

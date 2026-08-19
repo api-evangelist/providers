@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -438,7 +439,9 @@ rate_limits:
   name: Pandium Rate Limits
   slug: pandium-rate-limits
 rules:
-- name: Pandium API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pandium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -448,14 +451,16 @@ rules:
   slug: pandium-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 48.1
+  delta: -6.4
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 73.9
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 35.7
     discoverability: 63.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 39.5
   previous_composite: 54.5
   provenance:
@@ -465,9 +470,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:
 - kind: authentication

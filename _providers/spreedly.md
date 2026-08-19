@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 56.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -257,15 +258,17 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 127
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 60.8
+  delta: -0.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.2
-    developer_ergonomics: 79.9
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 64.1
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 48.7
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -277,10 +280,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png
 security:
 - kind: authentication
   name: Spreedly Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -281,15 +282,17 @@ rate_limits:
   slug: opusclip-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 56.0
+  delta: -3.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 58.1
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 55.8
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 81.6
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -301,8 +304,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/screenshots/opusclip-2026-08-07T190820.png
 security:

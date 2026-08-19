@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -240,7 +241,9 @@ rate_limits:
   name: Amazon Fsx Rate Limits
   slug: amazon-fsx-rate-limits
 rules:
-- name: Amazon FSx API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon FSx API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,7 +251,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-fsx-jsonschema-spectral-rules
-- name: Amazon FSx API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Amazon FSx API Rules
   rule_count: 28
   severity_counts:
     error: 7
@@ -258,15 +264,17 @@ rules:
   slug: amazon-fsx-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 48.6
+  delta: -6.0
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 65.7
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 61.5
+    developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -275,9 +283,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/screenshots/amazon-fsx-2026-06-20T171653.png
 security:
 - kind: domain-security

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -245,25 +245,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.2
-  delta: 33.6
+  composite: 72.9
+  delta: 3.7
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 64.5
-    developer_ergonomics: 60.9
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 35.6
+  previous_composite: 69.2
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:
 - kind: authentication

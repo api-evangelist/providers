@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -766,7 +766,9 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
   Amazon Application Discovery Service''s developer surface includes authentication and 9 more developer resources.'
 random_paper: 114
 rules:
-- name: Amazon Application Discovery Service API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Application Discovery Service API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -774,7 +776,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-application-discovery-service-jsonschema-spectral-rules
-- name: Amazon Application Discovery Service API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Amazon Application Discovery Service API Rules
   rule_count: 28
   severity_counts:
     error: 13
@@ -784,15 +789,23 @@ rules:
   slug: amazon-application-discovery-service-spectral-rules
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 21.5
+  delta: -5.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 32.1
-    developer_ergonomics: 13.0
+    contract_governance: 26.5
+    contract_quality: 30.6
+    developer_ergonomics: 11.9
     discoverability: 83.3
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 27.3
   provenance:
     agentic_access: derived
@@ -803,9 +816,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:
 - kind: authentication

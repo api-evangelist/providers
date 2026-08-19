@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The Auth API from CodeCombat — 1 operation(s) for auth.
@@ -183,16 +184,18 @@ overview: 'CodeCombat publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   CodeCombat''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
 random_paper: 147
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -7.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 55.2
-    developer_ergonomics: 56.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 52.8
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 43.6
   provenance:
     conformance: derived
@@ -203,9 +206,15 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:
 - kind: authentication

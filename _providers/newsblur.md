@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Login, logout and signup.
@@ -185,16 +186,18 @@ overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
 random_paper: 137
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: -1.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.7
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 52.1
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 41.3
   provenance:
     conformance: derived
@@ -205,8 +208,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
 security:

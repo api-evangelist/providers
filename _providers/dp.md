@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -245,15 +246,17 @@ overview: 'DP Technology (Bohrium) publishes 15 APIs on the [APIs.io](https://ap
 random_paper: 63
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 35.4
+  delta: -1.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 48.1
-    developer_ergonomics: 60.9
+    contract_governance: 16.7
+    contract_quality: 45.2
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -265,8 +268,8 @@ score:
       total: 15
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
 security:

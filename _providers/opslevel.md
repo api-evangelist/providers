@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,15 +181,17 @@ rate_limits:
   slug: opslevel-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 42.1
+  delta: -6.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.7
-    developer_ergonomics: 39.1
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
+    contract_quality: 61.5
+    developer_ergonomics: 22.6
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -198,9 +200,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/screenshots/opslevel-2026-06-20T191105.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -211,7 +212,10 @@ rate_limits:
   name: Cloudinary Rate Limits
   slug: cloudinary-rate-limits
 rules:
-- name: Cloudinary API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Cloudinary API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -219,7 +223,9 @@ rules:
     info: 0
     warn: 5
   slug: cloudinary-asyncapi-spectral-rules
-- name: Cloudinary API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cloudinary API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,14 +235,16 @@ rules:
   slug: cloudinary-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 47.2
+  delta: -4.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 69.8
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 66.3
+    developer_ergonomics: 31.0
     discoverability: 72.2
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 28.9
   previous_composite: 51.2
   provenance:
@@ -246,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/screenshots/cloudinary-2026-06-20T174606.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Programmatic access to LF Networking project resources, APIs, and open networking infrastructure tools.
@@ -87,12 +88,14 @@ rate_limits:
   slug: lf-networking-rate-limits
 score:
   band: minimal
-  composite: 11.5
-  delta: 0.0
+  composite: 9.1
+  delta: -2.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
@@ -103,8 +106,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-networking/refs/heads/main/screenshots/lf-networking-2026-06-20T184454.png
 security:

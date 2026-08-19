@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +146,10 @@ rate_limits:
   name: Data Analysis Tools Bureau Of Justice Statistics Rate Limits
   slug: data-analysis-tools-bureau-of-justice-statistics-rate-limits
 rules:
-- name: Bureau of Justice Statistics Data Analysis Tools API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Bureau of Justice Statistics Data Analysis Tools API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -153,7 +157,9 @@ rules:
     info: 0
     warn: 3
   slug: bjs-ncvs-api-rules
-- name: Bureau of Justice Statistics Data Analysis Tools API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Bureau of Justice Statistics Data Analysis Tools API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -163,14 +169,16 @@ rules:
   slug: data-analysis-tools-bureau-of-justice-statistics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 37.0
+  delta: 4.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 63.4
-    developer_ergonomics: 10.9
+    contract_governance: 60.6
+    contract_quality: 59.4
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 31.3
+    governance: 60.6
     operational_transparency: 7.9
   previous_composite: 32.6
   provenance:
@@ -186,8 +194,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/screenshots/data-analysis-tools-bureau-of-justice-statistics-2026-06-20T175505.png
 security:

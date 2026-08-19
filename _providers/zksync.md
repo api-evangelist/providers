@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -152,7 +153,10 @@ rate_limits:
   name: Zksync Rate Limits
   slug: zksync-rate-limits
 rules:
-- name: zkSync API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: zkSync API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -162,19 +166,21 @@ rules:
   slug: zksync-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 34.4
+  delta: -5.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 50.6
-    developer_ergonomics: 23.9
+    contract_governance: 13.6
+    contract_quality: 45.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 26.3
   previous_composite: 39.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:
 - kind: domain-security

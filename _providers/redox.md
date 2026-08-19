@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 39.6
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -366,27 +366,30 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.6
-  delta: 24.6
+  composite: 62.7
+  delta: 3.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 73.9
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 76.3
-  previous_composite: 35.0
+    governance: 18.2
+    operational_transparency: 73.7
+  previous_composite: 59.6
   provenance:
     conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/screenshots/redox-2026-06-20T192731.png
 security:
 - kind: authentication

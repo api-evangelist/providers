@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -452,7 +452,10 @@ rate_limits:
   name: Azure Devops Rate Limits
   slug: azure-devops-rate-limits
 rules:
-- name: Azure DevOps API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Azure DevOps API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -460,7 +463,9 @@ rules:
     info: 0
     warn: 5
   slug: azure-devops-asyncapi-spectral-rules
-- name: Azure DevOps API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure DevOps API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -468,7 +473,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-devops-jsonschema-spectral-rules
-- name: Azure DevOps API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Azure DevOps API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -483,15 +491,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 50.2
+  delta: -5.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 76.0
-    developer_ergonomics: 82.6
+    contract_governance: 26.5
+    contract_quality: 71.2
+    developer_ergonomics: 81.0
     discoverability: 64.8
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -500,9 +510,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:
 - kind: authentication

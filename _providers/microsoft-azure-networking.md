@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -399,7 +400,9 @@ rate_limits:
   name: Microsoft Azure Networking Rate Limits
   slug: microsoft-azure-networking-rate-limits
 rules:
-- name: Azure Networking API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure Networking API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -414,15 +417,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 46.1
+  delta: -7.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 59.3
-    developer_ergonomics: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 56.1
+    developer_ergonomics: 54.8
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -431,9 +436,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/screenshots/microsoft-azure-networking-2026-06-20T185429.png
 security:
 - kind: authentication

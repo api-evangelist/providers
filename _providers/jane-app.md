@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -222,16 +223,18 @@ scopes:
   slug: jane-app-scopes
   summary_line: 30 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 5.6
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 69.7
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 68.9
+    developer_ergonomics: 47.0
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -248,10 +251,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:
 - kind: authentication

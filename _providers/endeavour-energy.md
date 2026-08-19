@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -225,15 +226,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 53.7
+  delta: 3.4
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 56.7
-    developer_ergonomics: 62.5
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -246,8 +249,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

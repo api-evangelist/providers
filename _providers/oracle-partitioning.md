@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API endpoints for managing and monitoring Oracle Database partitioning operations.
@@ -113,19 +114,21 @@ rate_limits:
   slug: oracle-partitioning-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 26.6
+  delta: -6.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 32.3
-    developer_ergonomics: 26.1
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 16.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 18.4
   previous_composite: 33.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/screenshots/oracle-partitioning-2026-06-20T191138.png
 security:
 - kind: domain-security

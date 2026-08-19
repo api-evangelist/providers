@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -223,7 +224,9 @@ rate_limits:
   name: Td Ameritrade Holding Rate Limits
   slug: td-ameritrade-holding-rate-limits
 rules:
-- name: TD Ameritrade Holding API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TD Ameritrade Holding API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,10 @@ rules:
     info: 2
     warn: 3
   slug: td-ameritrade-holding-jsonschema-spectral-rules
-- name: TD Ameritrade Holding API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: TD Ameritrade Holding API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -245,15 +251,17 @@ scopes:
   slug: td-ameritrade-holding-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 36.8
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.2
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 63.4
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 42.7
   provenance:
@@ -269,9 +277,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:
 - kind: authentication

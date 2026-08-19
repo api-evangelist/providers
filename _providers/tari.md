@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
@@ -127,15 +128,17 @@ overview: 'Tari publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 134
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 24.8
+  delta: 5.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 45.7
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 19.4
   provenance:
     conformance: derived
@@ -146,9 +149,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: domain-security
   name: Tari Domain Security

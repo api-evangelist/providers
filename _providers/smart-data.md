@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -161,24 +162,26 @@ rate_limits:
   slug: smart-data-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 7.4
+  composite: 25.4
+  delta: 5.2
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.8
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-data/refs/heads/main/screenshots/smart-data-2026-06-20T194035.png
 security:

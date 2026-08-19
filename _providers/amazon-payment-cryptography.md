@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -1225,7 +1226,9 @@ rate_limits:
   name: Amazon Payment Cryptography Rate Limits
   slug: amazon-payment-cryptography-rate-limits
 rules:
-- name: Amazon Payment Cryptography API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Payment Cryptography API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1233,7 +1236,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-payment-cryptography-jsonschema-spectral-rules
-- name: Amazon Payment Cryptography API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Payment Cryptography API Rules
   rule_count: 25
   severity_counts:
     error: 10
@@ -1242,16 +1248,18 @@ rules:
     warn: 14
   slug: amazon-payment-cryptography-spectral-rules
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -3.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 71.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 69.5
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -1266,8 +1274,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/screenshots/amazon-payment-cryptography-2026-06-20T171758.png
 security:

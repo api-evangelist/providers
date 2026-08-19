@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 12.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Gausium Cloud platform. Authenticated with OAuth 2.0 bearer tokens (custom open-access grant), it exposes robot information, robot status, task reports, robot maps and subareas, robot
@@ -135,21 +136,23 @@ overview: 'Gaussian Robotics publishes 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 134
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 29.5
+  delta: -0.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 23.7
   previous_composite: 30.1
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/screenshots/gaussian-robotics-2026-07-25T215503.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Vymo's enterprise platform API, used by banks, insurers and asset managers to push leads into Vymo, sync users and hierarchies, read activity and engagement records, and connect Vymo to CRM and core s
@@ -120,26 +121,28 @@ rate_limits:
   name: Vymo Rate Limits
   slug: vymo-rate-limits
 score:
-  band: emerging
-  composite: 15.9
-  delta: 2.0
+  band: minimal
+  composite: 7.3
+  delta: -8.6
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 4.8
     discoverability: 87.0
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 13.9
+    operational_transparency: 2.6
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Vymo Domain Security

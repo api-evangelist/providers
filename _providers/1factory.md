@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -759,7 +760,9 @@ rate_limits:
   name: 1Factory Rate Limits
   slug: 1factory-rate-limits
 rules:
-- name: 1Factory API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 1Factory API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -767,7 +770,9 @@ rules:
     info: 1
     warn: 4
   slug: 1factory-jsonschema-spectral-rules
-- name: 1Factory API Rules
+- effective_rule_count: 32
+  extends: []
+  name: 1Factory API Rules
   rule_count: 32
   severity_counts:
     error: 13
@@ -776,15 +781,17 @@ rules:
     warn: 15
   slug: 1factory-spectral-rules
 score:
-  band: developing
-  composite: 46.7
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -7.6
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 74.6
-    developer_ergonomics: 23.9
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 71.7
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 18.4
   previous_composite: 46.7
   provenance:
@@ -794,9 +801,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
 security:
 - kind: authentication

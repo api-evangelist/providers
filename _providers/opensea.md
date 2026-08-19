@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -1147,7 +1148,9 @@ rate_limits:
   name: Opensea Rate Limits
   slug: opensea-rate-limits
 rules:
-- name: OpenSea API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OpenSea API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1157,14 +1160,16 @@ rules:
   slug: opensea-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 51.0
+  delta: -3.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 62.6
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 47.4
   previous_composite: 54.2
   provenance:
@@ -1180,8 +1185,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/screenshots/opensea-2026-06-20T191039.png
 security:

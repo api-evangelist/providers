@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -335,7 +336,10 @@ rate_limits:
   name: Clevertap Rate Limits
   slug: clevertap-rate-limits
 rules:
-- name: CleverTap API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: CleverTap API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -350,26 +354,31 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 69.2
-  delta: 23.7
+  composite: 68.6
+  delta: -0.6
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 68.7
-    developer_ergonomics: 78.3
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 75.8
+    contract_quality: 64.3
+    developer_ergonomics: 38.7
     discoverability: 92.6
-    governance: 41.7
-    operational_transparency: 52.6
-  previous_composite: 45.5
+    governance: 75.8
+    operational_transparency: 65.8
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:
 - kind: authentication

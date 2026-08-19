@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-08-17'
+  score: 13.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Moku Scripting API is a RESTful HTTP interface served by the Moku device itself. A client first POSTs an empty JSON object to moku/claim_ownership to mint a Moku-Client-Key, then POSTs JSON parame
@@ -83,7 +84,7 @@ common:
   url: https://github.com/liquidinstruments/moku-examples
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://github.com/liquidinstruments/moku-examples
 - group: commercial
   title: ''
@@ -172,7 +173,7 @@ network: true
 overview: 'Liquid Instruments publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Instrumentation, Hardware, and Oscilloscope.
 
 
-  Liquid Instruments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Liquid Instruments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, pricing, and 26 more developer resources.'
 random_paper: 133
 scopes:
 - name: Liquid Instruments Scopes
@@ -181,20 +182,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 34.1
+  delta: 1.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 65.2
+    contract_governance: 4.5
+    contract_quality: 1.4
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 32.7
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/screenshots/liquid-instruments-2026-08-07T171731.png
 security:

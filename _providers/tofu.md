@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 29.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Credit-metered company and people data enrichment. Two entities — company (keyed on domain or LinkedIn URL) and person (keyed on LinkedIn profile URL or business email) — with a structured filter gram
@@ -177,22 +178,26 @@ scopes:
   slug: tofu-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: thin
-  composite: 38.4
-  delta: 18.5
+  band: developing
+  composite: 39.6
+  delta: 1.2
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 47.6
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 19.9
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 38.4
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Tofu Authentication

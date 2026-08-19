@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Consumer-permissioned account and transaction aggregation across banks, credit unions, cards, loans and investment accounts, delivering account details, balances and categorized transactions.
@@ -187,15 +188,17 @@ overview: 'Finicity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 118
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 52.1
+  delta: 6.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 70.1
-    developer_ergonomics: 71.2
+    contract_governance: 16.7
+    contract_quality: 68.5
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 45.5
   provenance:
     conformance: derived
@@ -211,10 +214,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 41.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png
 security:
 - kind: authentication

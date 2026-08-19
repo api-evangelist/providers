@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.1
-  scored_at: '2026-08-17'
+  score: 16.2
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -178,20 +179,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 32.5
+  delta: -4.2
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 57.9
+    governance: 18.2
+    operational_transparency: 52.6
   previous_composite: 36.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
 security:

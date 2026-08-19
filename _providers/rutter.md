@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 36.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -233,7 +234,9 @@ rate_limits:
   name: Rutter Rate Limits
   slug: rutter-rate-limits
 rules:
-- name: Rutter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rutter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +244,10 @@ rules:
     info: 1
     warn: 4
   slug: rutter-jsonschema-spectral-rules
-- name: Rutter API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Rutter API Rules
   rule_count: 15
   severity_counts:
     error: 3
@@ -250,15 +256,17 @@ rules:
     warn: 10
   slug: rutter-spectral-rules
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -4.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 66.2
-    developer_ergonomics: 28.3
-    discoverability: 72.2
-    governance: 68.8
+    contract_governance: 25.0
+    contract_quality: 62.7
+    developer_ergonomics: 31.0
+    discoverability: 64.8
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 43.4
   provenance:
@@ -274,8 +282,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

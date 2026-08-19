@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -316,7 +317,9 @@ rate_limits:
   name: Se Ranking Rate Limits
   slug: se-ranking-rate-limits
 rules:
-- name: SE Ranking API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SE Ranking API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -330,27 +333,32 @@ scopes:
   slug: se-ranking-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 74.0
-  delta: 22.2
+  band: strong
+  composite: 62.7
+  delta: -11.3
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 64.9
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 60.8
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 79.2
-    operational_transparency: 68.4
-  previous_composite: 51.8
+    governance: 26.5
+    operational_transparency: 50.0
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:
 - kind: authentication

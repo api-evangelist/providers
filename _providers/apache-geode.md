@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -283,7 +284,9 @@ rate_limits:
   name: Apache Geode Rate Limits
   slug: apache-geode-rate-limits
 rules:
-- name: Apache Geode API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Geode API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,7 +294,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-geode-jsonschema-spectral-rules
-- name: Apache Geode API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Apache Geode API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -301,15 +307,17 @@ rules:
   slug: apache-geode-spectral-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 34.9
+  delta: -3.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.8
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 56.0
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 38.3
   provenance:
     agentic_access: derived
@@ -324,8 +332,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/screenshots/apache-geode-2026-06-20T172059.png
 security:

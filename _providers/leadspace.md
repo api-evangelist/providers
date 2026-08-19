@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -292,16 +293,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.1
-  delta: 10.0
+  composite: 67.5
+  delta: -2.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 71.3
-    developer_ergonomics: 56.0
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 68.8
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 84.2
-  previous_composite: 60.1
+    governance: 30.3
+    operational_transparency: 65.8
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,11 +313,11 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 36.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Popp recruitment conversation engine — conversations, campaigns, documents, analysis, scheduling/calendar, and workflow automation, authenticated with an x-api-key + x-organization-id
@@ -134,22 +135,24 @@ overview: 'Popp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 0
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 29.9
+  delta: -9.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 26.2
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 39.6
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Popp Authentication

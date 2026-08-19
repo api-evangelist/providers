@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -296,15 +297,17 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 37
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 48.1
+  delta: 2.0
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 51.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 61.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 46.1
   provenance:
     agentic_access: derived
@@ -322,8 +325,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

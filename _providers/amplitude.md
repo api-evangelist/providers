@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -1740,7 +1740,10 @@ rate_limits:
   name: Amplitude Rate Limits
   slug: amplitude-rate-limits
 rules:
-- name: Amplitude API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Amplitude API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1748,7 +1751,9 @@ rules:
     info: 0
     warn: 7
   slug: amplitude-asyncapi-spectral-rules
-- name: Amplitude API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amplitude API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1756,7 +1761,10 @@ rules:
     info: 2
     warn: 4
   slug: amplitude-jsonschema-spectral-rules
-- name: Amplitude API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Amplitude API Rules
   rule_count: 30
   severity_counts:
     error: 12
@@ -1766,15 +1774,17 @@ rules:
   slug: amplitude-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 57.3
+  delta: -3.6
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 78.2
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 79.6
+    developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 60.9
   provenance:
     agentic_access: derived
@@ -1783,8 +1793,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:

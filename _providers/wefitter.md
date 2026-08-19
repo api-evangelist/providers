@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -248,15 +249,17 @@ overview: 'WeFitter publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 129
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 50.7
+  delta: 5.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 60.4
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -274,9 +277,10 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/screenshots/wefitter-2026-08-17T082909.png
 security:
 - kind: authentication
   name: Wefitter Authentication

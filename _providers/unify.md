@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 64.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -326,29 +327,32 @@ scopes:
   summary_line: 14 scopes
 score:
   band: exemplar
-  composite: 67.4
-  delta: 13.0
+  composite: 67.5
+  delta: 0.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 62.7
-    developer_ergonomics: 73.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 62.6
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 60.5
-  previous_composite: 54.4
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/screenshots/unify-2026-08-17T080432.png
 security:
 - kind: authentication
   name: Unify Authentication

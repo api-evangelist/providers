@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -279,7 +280,9 @@ rate_limits:
   name: Jentic Rate Limits
   slug: jentic-rate-limits
 rules:
-- name: Jentic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Jentic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -287,7 +290,10 @@ rules:
     info: 1
     warn: 5
   slug: jentic-jsonschema-spectral-rules
-- name: Jentic API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Jentic API Rules
   rule_count: 14
   severity_counts:
     error: 9
@@ -296,15 +302,17 @@ rules:
     warn: 5
   slug: jentic-rules
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  delta: -5.5
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 76.9
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 72.7
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 23.7
   previous_composite: 57.3
   provenance:
@@ -314,9 +322,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/screenshots/jentic-2026-06-20T183721.png
 security:
 - kind: authentication

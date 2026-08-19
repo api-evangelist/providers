@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -424,12 +425,14 @@ scopes:
   summary_line: 33 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 37.5
+  delta: -1.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 60.4
-    developer_ergonomics: 21.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 61.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -441,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

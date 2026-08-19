@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'StormForge Optimize Live is a Kubernetes resource rightsizing product that uses machine learning to automatically generate CPU and memory recommendations for container workloads. An agent deployed to '
@@ -137,7 +138,9 @@ rate_limits:
   name: Stormforge Rate Limits
   slug: stormforge-rate-limits
 rules:
-- name: StormForge API Rules
+- effective_rule_count: 6
+  extends: []
+  name: StormForge API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -146,20 +149,22 @@ rules:
     warn: 4
   slug: stormforge-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.2
-  delta: 0.0
+  band: emerging
+  composite: 23.9
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 12.9
-    developer_ergonomics: 28.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 28.6
     discoverability: 66.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 32.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormforge/refs/heads/main/screenshots/stormforge-2026-06-20T194605.png
 security:
 - kind: domain-security

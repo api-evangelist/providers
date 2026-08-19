@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -231,7 +232,9 @@ rate_limits:
   name: Zoho People Rate Limits
   slug: zoho-people-rate-limits
 rules:
-- name: Zoho People API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zoho People API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,7 +242,10 @@ rules:
     info: 2
     warn: 3
   slug: zoho-people-jsonschema-spectral-rules
-- name: Zoho People API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Zoho People API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -254,15 +260,17 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 46.3
+  delta: -8.0
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 66.3
-    developer_ergonomics: 26.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 62.1
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 54.3
   provenance:
     agentic_access: derived
@@ -271,9 +279,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/screenshots/zoho-people-2026-06-20T201945.png
 security:
 - kind: authentication

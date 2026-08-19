@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Anthem Patient Access API provides members access to their personal health data via HL7 FHIR R4, as required by the CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Members can aut
@@ -123,12 +124,14 @@ rate_limits:
   slug: anthem-rate-limits
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 16.4
+  delta: -2.6
   facets:
-    commercial_clarity: 47.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -138,9 +141,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 12.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthem/refs/heads/main/screenshots/anthem-2026-06-20T172028.png
 security:

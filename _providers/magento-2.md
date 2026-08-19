@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,12 +149,14 @@ overview: 'Magento 2 (Adobe Commerce) publishes 6 APIs on the [APIs.io](https://
 random_paper: 97
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 28.6
+  delta: -1.0
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 51.5
-    developer_ergonomics: 19.6
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -165,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/screenshots/magento-2-2026-06-20T184840.png
 security:

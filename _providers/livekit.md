@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -140,7 +141,10 @@ rate_limits:
   name: Livekit Rate Limits
   slug: livekit-rate-limits
 rules:
-- name: LiveKit API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: LiveKit API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -150,19 +154,21 @@ rules:
   slug: livekit-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 32.9
+  delta: -7.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 54.3
-    developer_ergonomics: 19.6
+    contract_governance: 13.6
+    contract_quality: 48.9
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 39.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -213,7 +214,10 @@ overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 10 more developer resources.'
 random_paper: 3
 rules:
-- name: Gorgias API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Gorgias API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -228,15 +232,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 36.1
+  delta: -5.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 59.5
-    developer_ergonomics: 26.1
+    contract_governance: 11.4
+    contract_quality: 59.3
+    developer_ergonomics: 22.6
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -245,9 +251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:
 - kind: authentication

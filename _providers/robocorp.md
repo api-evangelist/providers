@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -275,7 +276,10 @@ rate_limits:
   name: Robocorp Rate Limits
   slug: robocorp-rate-limits
 rules:
-- name: Robocorp API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Robocorp API Rules
   rule_count: 13
   severity_counts:
     error: 2
@@ -283,7 +287,9 @@ rules:
     info: 4
     warn: 7
   slug: robocorp-control-room-rules
-- name: Robocorp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Robocorp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -293,15 +299,17 @@ rules:
   slug: robocorp-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 45.0
+  delta: -5.5
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 74.6
-    developer_ergonomics: 26.1
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 69.7
+    contract_quality: 70.1
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 69.7
+    operational_transparency: 28.9
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -310,9 +318,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/screenshots/robocorp-2026-06-20T193143.png
 security:
 - kind: authentication

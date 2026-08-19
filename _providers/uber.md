@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -519,7 +520,9 @@ rate_limits:
   name: Uber Rate Limits
   slug: uber-rate-limits
 rules:
-- name: Uber API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Uber API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -527,7 +530,10 @@ rules:
     info: 1
     warn: 4
   slug: uber-jsonschema-spectral-rules
-- name: Uber API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Uber API Rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -536,16 +542,18 @@ rules:
     warn: 9
   slug: uber-rules
 score:
-  band: strong
-  composite: 56.6
-  delta: 0.0
+  band: developing
+  composite: 48.7
+  delta: -7.9
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 77.4
-    developer_ergonomics: 52.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 74.9
+    developer_ergonomics: 57.1
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 56.6
   provenance:
     agentic_access: derived
@@ -554,9 +562,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:
 - kind: authentication

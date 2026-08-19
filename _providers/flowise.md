@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -298,7 +299,9 @@ rate_limits:
   name: Flowise Rate Limits
   slug: flowise-rate-limits
 rules:
-- name: Flowise API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Flowise API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,7 +309,10 @@ rules:
     info: 2
     warn: 3
   slug: flowise-jsonschema-spectral-rules
-- name: Flowise API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Flowise API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -316,14 +322,16 @@ rules:
   slug: flowise-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 47.5
+  delta: -7.5
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 65.2
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 65.0
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 55.0
   provenance:
@@ -333,9 +341,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/screenshots/flowise-2026-06-20T181334.png
 security:
 - kind: authentication

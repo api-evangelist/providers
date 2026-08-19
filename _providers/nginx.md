@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -941,7 +942,9 @@ rate_limits:
   name: Nginx Rate Limits
   slug: nginx-rate-limits
 rules:
-- name: NGINX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NGINX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -949,7 +952,10 @@ rules:
     info: 2
     warn: 3
   slug: nginx-jsonschema-spectral-rules
-- name: NGINX API Rules
+- effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: NGINX API Rules
   rule_count: 55
   severity_counts:
     error: 15
@@ -959,15 +965,17 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 30.7
+  delta: -6.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 19.1
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 17.9
+    developer_ergonomics: 42.9
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -976,9 +984,9 @@ score:
       derived: 28
       marker_coverage: 100.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

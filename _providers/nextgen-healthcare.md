@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -311,16 +312,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 67.1
-  delta: 19.3
+  composite: 76.1
+  delta: 9.0
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 64.8
-    developer_ergonomics: 69.0
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 30.3
+    contract_quality: 65.2
+    developer_ergonomics: 67.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 52.6
-  previous_composite: 47.8
+    governance: 30.3
+    operational_transparency: 50.0
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,9 +339,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 82.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:

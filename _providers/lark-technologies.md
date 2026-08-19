@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,14 +111,16 @@ overview: 'Lark is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 116
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 25.6
+  delta: 1.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 24.3
   provenance:
@@ -128,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lark-technologies/refs/heads/main/screenshots/lark-technologies-2026-08-07T171456.png
 security:

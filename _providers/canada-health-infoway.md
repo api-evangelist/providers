@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -179,15 +180,17 @@ overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
 random_paper: 148
 score:
-  band: thin
-  composite: 38.3
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  delta: 5.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 53.9
-    developer_ergonomics: 40.8
+    contract_governance: 30.3
+    contract_quality: 52.8
+    developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 38.3
   provenance:
@@ -205,10 +208,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:
 - kind: authentication

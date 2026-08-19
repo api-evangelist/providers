@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -1176,7 +1176,9 @@ rate_limits:
   name: Wikipedia Rate Limits
   slug: wikipedia-rate-limits
 rules:
-- name: Wikipedia / MediaWiki API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wikipedia / MediaWiki API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1184,7 +1186,10 @@ rules:
     info: 1
     warn: 4
   slug: wikipedia-jsonschema-spectral-rules
-- name: Wikipedia / MediaWiki API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Wikipedia / MediaWiki API Rules
   rule_count: 29
   severity_counts:
     error: 8
@@ -1194,15 +1199,17 @@ rules:
   slug: wikipedia-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 37.6
+  delta: -2.6
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 23.2
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 22.5
+    developer_ergonomics: 23.8
     discoverability: 87.0
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -1217,8 +1224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:

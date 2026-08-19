@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -212,7 +213,9 @@ rate_limits:
   name: Ticketmaster Rate Limits
   slug: ticketmaster-rate-limits
 rules:
-- name: Ticketmaster API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Ticketmaster API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -220,7 +223,10 @@ rules:
     info: 2
     warn: 4
   slug: ticketmaster-jsonschema-spectral-rules
-- name: Ticketmaster API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Ticketmaster API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -230,15 +236,17 @@ rules:
   slug: ticketmaster-rules
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 40.5
+  delta: -6.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.2
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 60.4
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -247,9 +255,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
 security:
 - kind: authentication

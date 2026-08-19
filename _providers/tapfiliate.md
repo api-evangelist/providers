@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -335,7 +336,9 @@ rate_limits:
   name: Tapfiliate Rate Limits
   slug: tapfiliate-rate-limits
 rules:
-- name: Tapfiliate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tapfiliate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -350,26 +353,31 @@ scopes:
   summary_line: 4 scopes
 score:
   band: exemplar
-  composite: 77.1
-  delta: 27.6
+  composite: 69.6
+  delta: -7.5
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 76.1
-    developer_ergonomics: 80.4
+    contract_governance: 41.7
+    contract_quality: 75.0
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 89.6
+    governance: 41.7
     operational_transparency: 39.5
-  previous_composite: 49.5
+  previous_composite: 77.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:
 - kind: authentication

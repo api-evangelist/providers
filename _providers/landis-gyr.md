@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -174,15 +175,17 @@ overview: 'Landis+Gyr is profiled on the [APIs.io](https://apis.io/) network. Ta
   Landis+Gyr''s developer surface includes signup flow, developer portal, documentation, training material, support, engineering blog, YouTube channel, and 27 more developer resources.'
 random_paper: 124
 score:
-  band: emerging
-  composite: 25.6
-  delta: 0.0
+  band: thin
+  composite: 27.2
+  delta: 1.6
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 25.6
   provenance:
@@ -193,8 +196,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/screenshots/landis-gyr-2026-08-07T171436.png
 security:

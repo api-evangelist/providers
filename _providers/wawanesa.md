@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Broker-facing commercial small business API announced by Wawanesa on 2022-03-30, built with HUB International and described by Wawanesa as "fully aligned with CSIO data standards". Per the company ann
@@ -140,14 +141,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 27.5
+  delta: -1.2
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 77.8
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 28.7
   provenance:
@@ -158,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

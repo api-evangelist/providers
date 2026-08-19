@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
@@ -171,18 +172,20 @@ rate_limits:
   slug: yum-brands-rate-limits
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 26.3
+  delta: -2.7
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 61.7
-    developer_ergonomics: 10.9
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 0.0
+    contract_quality: 55.6
+    developer_ergonomics: 10.7
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 29.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png
 security:

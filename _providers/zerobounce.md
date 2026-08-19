@@ -13,10 +13,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -265,27 +265,32 @@ rate_limits:
   slug: zerobounce-rate-limits
 score:
   band: exemplar
-  composite: 70.9
-  delta: 42.9
+  composite: 69.5
+  delta: -1.4
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 54.5
-    developer_ergonomics: 84.8
+    contract_governance: 30.3
+    contract_quality: 51.0
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 86.8
-  previous_composite: 28.0
+    governance: 30.3
+    operational_transparency: 84.2
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-06-20T201831.png
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-08-17T083321.png
 security:
 - kind: authentication
   name: Zerobounce Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 70.7
-  scored_at: '2026-08-17'
+  score: 69.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -470,15 +471,17 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 40
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 53.2
+  delta: 4.6
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 73.4
-    developer_ergonomics: 67.4
+    contract_governance: 16.7
+    contract_quality: 73.2
+    developer_ergonomics: 67.9
     discoverability: 74.1
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -495,10 +498,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png
 security:
 - kind: authentication
   name: Revolut Authentication

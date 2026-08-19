@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'A two-operation OpenAPI 3.0.3 document Fetch publishes in its public GitHub organization as the specification for its engineering take-home exercise: submit a receipt for processing and retrieve the p'
@@ -129,16 +130,18 @@ overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) netw
   Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
 random_paper: 135
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 27.5
+  delta: -0.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 44.0
-    developer_ergonomics: 6.5
+    contract_governance: 16.7
+    contract_quality: 41.3
+    developer_ergonomics: 7.1
     discoverability: 77.8
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 27.7
   provenance:
     conformance: derived
@@ -147,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:

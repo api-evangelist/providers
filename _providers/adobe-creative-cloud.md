@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -656,7 +657,10 @@ rate_limits:
   name: Adobe Creative Cloud Rate Limits
   slug: adobe-creative-cloud-rate-limits
 rules:
-- name: Adobe Creative Cloud API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Adobe Creative Cloud API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -664,7 +668,9 @@ rules:
     info: 0
     warn: 6
   slug: adobe-creative-cloud-asyncapi-spectral-rules
-- name: Adobe Creative Cloud API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Adobe Creative Cloud API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -672,7 +678,10 @@ rules:
     info: 2
     warn: 4
   slug: adobe-creative-cloud-jsonschema-spectral-rules
-- name: Adobe Creative Cloud API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Adobe Creative Cloud API Rules
   rule_count: 24
   severity_counts:
     error: 14
@@ -682,14 +691,16 @@ rules:
   slug: adobe-creative-cloud-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 50.8
+  delta: -3.9
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 79.4
-    developer_ergonomics: 39.1
+    contract_governance: 11.4
+    contract_quality: 75.3
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 39.5
   previous_composite: 54.7
   provenance:
@@ -699,8 +710,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:

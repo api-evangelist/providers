@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -2135,7 +2136,9 @@ rate_limits:
   name: Airbus Oneatlas Rate Limits
   slug: airbus-oneatlas-rate-limits
 rules:
-- name: Airbus OneAtlas API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Airbus OneAtlas API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2143,7 +2146,10 @@ rules:
     info: 2
     warn: 3
   slug: airbus-oneatlas-jsonschema-spectral-rules
-- name: Airbus OneAtlas API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Airbus OneAtlas API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -2151,7 +2157,9 @@ rules:
     info: 2
     warn: 6
   slug: airbus-oneatlas-spectral-rules
-- name: Airbus OneAtlas API Rules
+- effective_rule_count: 12
+  extends: []
+  name: Airbus OneAtlas API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -2160,15 +2168,17 @@ rules:
     warn: 8
   slug: oneatlas-spectral-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 62.3
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 59.5
+    developer_ergonomics: 33.3
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 44.7
   previous_composite: 43.9
   provenance:
@@ -2178,9 +2188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:
 - kind: authentication

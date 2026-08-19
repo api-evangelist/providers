@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API to manage integrations, providers, sessions, portals, skills, identities and MCP access programmatically. Bearer API-key auth, cursor pagination, date-based versioning; 466 '
@@ -179,23 +180,25 @@ rate_limits:
   slug: metorial-rate-limits
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 34.8
+  delta: -6.7
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 77.7
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 60.5
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 41.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/screenshots/metorial-2026-08-07T172725.png
 security:
 - kind: authentication

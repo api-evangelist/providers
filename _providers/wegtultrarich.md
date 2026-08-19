@@ -3,22 +3,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.5
-  scored_at: '2026-08-17'
+  score: 66.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -277,7 +278,10 @@ rate_limits:
   name: Wegtultrarich Rate Limits
   slug: wegtultrarich-rate-limits
 rules:
-- name: We > Ultrarich API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: We > Ultrarich API Rules
   rule_count: 9
   severity_counts:
     error: 7
@@ -287,25 +291,38 @@ rules:
   slug: wegtultrarich-spectral
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 61.6
+  delta: 2.1
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 65.9
     contract_quality: 55.2
-    developer_ergonomics: 69.6
+    developer_ergonomics: 61.3
     discoverability: 100.0
-    governance: 52.1
-    operational_transparency: 73.7
+    governance: 65.9
+    operational_transparency: 52.6
   previous_composite: 59.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 57.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/screenshots/wegtultrarich-2026-08-17T082904.png
 security:
 - kind: authentication
   name: Wegtultrarich Authentication

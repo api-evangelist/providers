@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -626,15 +627,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 47.1
+  delta: -5.7
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.3
-    developer_ergonomics: 84.8
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 58.2
+    developer_ergonomics: 61.9
     discoverability: 83.3
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -651,10 +654,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 61.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:
 - kind: authentication

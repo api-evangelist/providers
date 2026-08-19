@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 58.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -846,15 +847,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 62.4
+  delta: 0.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 60.8
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 62.7
+    developer_ergonomics: 85.7
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 60.5
   previous_composite: 61.9
   provenance:
     agentic_access: derived
@@ -866,9 +869,10 @@ score:
       total: 103
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/screenshots/tricentis-2026-08-17T082438.png
 security:
 - kind: authentication
   name: Tricentis Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -155,18 +156,20 @@ rate_limits:
   slug: shopee-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 15.9
+  delta: -4.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
-    discoverability: 81.5
+    developer_ergonomics: 0.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/screenshots/shopee-2026-06-20T193833.png
 security:

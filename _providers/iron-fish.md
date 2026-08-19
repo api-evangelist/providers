@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Hosted public REST API (the block-explorer and faucet backend) exposing blocks, transactions, and network data with a list/object JSON envelope and cursor-style pagination. No authentication required '
@@ -127,15 +128,17 @@ overview: 'Iron Fish publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 17
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 27.4
+  delta: -0.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 28.1
   regulatory:
     applies: true
@@ -143,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/screenshots/iron-fish-2026-07-25T222911.png
 security:

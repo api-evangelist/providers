@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -1145,7 +1146,9 @@ rate_limits:
   name: Sentinel Hub Rate Limits
   slug: sentinel-hub-rate-limits
 rules:
-- name: Sentinel Hub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sentinel Hub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1160,14 +1163,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 42.1
+  delta: -5.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.0
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 65.3
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 47.6
   provenance:
@@ -1177,9 +1182,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/screenshots/sentinel-hub-2026-06-20T193707.png
 security:
 - kind: authentication

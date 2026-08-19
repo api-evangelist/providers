@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -5359,7 +5360,9 @@ rate_limits:
   name: Aws S3 Rate Limits
   slug: aws-s3-rate-limits
 rules:
-- name: Amazon S3 API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon S3 API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -5367,7 +5370,10 @@ rules:
     info: 1
     warn: 4
   slug: aws-s3-jsonschema-spectral-rules
-- name: Amazon S3 API API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Amazon S3 API API Rules
   rule_count: 19
   severity_counts:
     error: 4
@@ -5377,15 +5383,17 @@ rules:
   slug: aws-s3-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 44.8
+  delta: -7.4
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 61.2
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 58.4
+    developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -5394,9 +5402,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:
 - kind: authentication

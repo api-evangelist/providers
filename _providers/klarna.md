@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 49.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -433,7 +434,10 @@ rate_limits:
   name: Klarna Rate Limits
   slug: klarna-rate-limits
 rules:
-- name: Klarna API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Klarna API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -441,7 +445,9 @@ rules:
     info: 0
     warn: 8
   slug: klarna-asyncapi-spectral-rules
-- name: Klarna API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Klarna API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -451,15 +457,17 @@ rules:
   slug: klarna-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 29.6
+  delta: -3.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.4
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 62.6
+    developer_ergonomics: 11.9
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -474,8 +482,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

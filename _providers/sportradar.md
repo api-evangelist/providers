@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -307,7 +308,9 @@ rate_limits:
   name: Sportradar Rate Limits
   slug: sportradar-rate-limits
 rules:
-- name: Sportradar API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Sportradar API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -315,7 +318,10 @@ rules:
     info: 1
     warn: 5
   slug: sportradar-jsonschema-spectral-rules
-- name: Sportradar API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Sportradar API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -325,15 +331,17 @@ rules:
   slug: sportradar-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 40.2
+  delta: -10.7
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 72.5
-    developer_ergonomics: 45.7
-    discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 26.3
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 25.0
+    contract_quality: 68.7
+    developer_ergonomics: 39.3
+    discoverability: 64.8
+    governance: 25.0
+    operational_transparency: 15.8
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -342,9 +350,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/screenshots/sportradar-2026-06-20T194345.png
 security:
 - kind: authentication

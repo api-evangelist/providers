@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -556,7 +557,10 @@ rate_limits:
   name: Livepeer Rate Limits
   slug: livepeer-rate-limits
 rules:
-- name: Livepeer API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Livepeer API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -564,7 +568,9 @@ rules:
     info: 2
     warn: 4
   slug: livepeer-ai-rules
-- name: Livepeer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Livepeer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -572,7 +578,10 @@ rules:
     info: 2
     warn: 3
   slug: livepeer-jsonschema-spectral-rules
-- name: Livepeer API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Livepeer API Rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -582,15 +591,17 @@ rules:
   slug: livepeer-studio-rules
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 55.0
+  delta: -4.9
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 62.2
-    developer_ergonomics: 43.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 69.7
+    contract_quality: 61.4
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 37.5
-    operational_transparency: 63.2
+    governance: 69.7
+    operational_transparency: 44.7
   previous_composite: 59.9
   provenance:
     agentic_access: derived
@@ -599,8 +610,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:

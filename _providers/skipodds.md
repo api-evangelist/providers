@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
@@ -175,25 +176,37 @@ rate_limits:
   slug: skipodds-rate-limits
 score:
   band: strong
-  composite: 57.2
-  delta: 0.0
+  composite: 58.2
+  delta: 1.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 61.9
-    developer_ergonomics: 60.9
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 57.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
 security:
 - kind: authentication
   name: Skipodds Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -224,7 +225,9 @@ rate_limits:
   name: Log10 Rate Limits
   slug: log10-rate-limits
 rules:
-- name: Log10 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Log10 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,14 +237,16 @@ rules:
   slug: log10-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 42.3
+  delta: -9.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 57.7
-    developer_ergonomics: 21.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 54.5
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 42.1
   previous_composite: 51.5
   provenance:
@@ -251,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png
 security:
 - kind: authentication

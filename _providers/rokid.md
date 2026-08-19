@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Rokid Glass3 / Sprite Enterprise cloud API. Device registration lookup and real-time telemetry, message push to glasses, paged AI agent chat logs, RTC remote-collaboration meeting history and part
@@ -164,24 +165,26 @@ overview: 'Rokid publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   Rokid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
 random_paper: 90
 score:
-  band: thin
-  composite: 36.9
-  delta: 0.0
+  band: developing
+  composite: 42.6
+  delta: 5.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 80.4
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Rokid Authentication

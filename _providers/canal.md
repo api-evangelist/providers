@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: The csv API from Canal — 3 operation(s) for csv.
@@ -269,15 +270,17 @@ overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 64
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 43.0
+  delta: -3.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 61.6
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 61.0
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 46.0
   provenance:
     conformance: derived
@@ -288,8 +291,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:

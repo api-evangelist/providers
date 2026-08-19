@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Kuaishou Open Platform (快手开放平台) exposes a JSON HTTP API for third-party applications, mini programs and merchant tools built on Kuaishou. Access is granted through a standard OAuth 2.0 authorizati
@@ -195,21 +196,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 29.2
+  delta: -5.6
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 80.4
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 34.8
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/screenshots/kuaishou-2026-07-25T224317.png
 security:
 - kind: authentication

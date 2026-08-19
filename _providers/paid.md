@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-17'
+  score: 46.3
+  scored_at: '2026-08-19'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -312,15 +313,17 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 116
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 52.7
+  delta: 1.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.6
-    developer_ergonomics: 82.6
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 65.6
+    developer_ergonomics: 81.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 50.8
   provenance:
     conformance: derived
@@ -337,8 +340,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:

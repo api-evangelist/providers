@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 7.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: A live, first-party Model Context Protocol server exposing a Beacons creator's own data to an agent. Discovered through the RFC 9728 Protected Resource Metadata document Beacons serves at https://beac
@@ -162,19 +163,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.5
-  delta: 17.5
+  composite: 32.0
+  delta: 0.5
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 14.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 31.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconsai/refs/heads/main/screenshots/beaconsai-2026-07-25T202526.png
 security:
 - kind: authentication

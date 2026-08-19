@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
@@ -227,28 +228,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.4
-  delta: 11.1
+  composite: 60.1
+  delta: -3.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 77.9
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 73.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
-  previous_composite: 52.3
+    governance: 16.7
+    operational_transparency: 21.1
+  previous_composite: 63.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png
 security:
 - kind: authentication
   name: Syft Data Authentication

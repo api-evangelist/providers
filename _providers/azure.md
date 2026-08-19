@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -248,7 +248,9 @@ rate_limits:
   name: Azure Rate Limits
   slug: azure-rate-limits
 rules:
-- name: Microsoft Azure API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Azure API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,7 +258,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-jsonschema-spectral-rules
-- name: Microsoft Azure API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Microsoft Azure API Rules
   rule_count: 21
   severity_counts:
     error: 5
@@ -270,16 +275,18 @@ scopes:
   slug: azure-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 45.8
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -6.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 22.0
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 20.6
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 45.8
   provenance:
     agentic_access: derived
@@ -288,9 +295,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:
 - kind: authentication

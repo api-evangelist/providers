@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -116,18 +117,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 14.4
-  delta: 4.7
+  composite: 15.7
+  delta: 1.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 9.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  previous_composite: 14.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperplane/refs/heads/main/screenshots/paperplane-2026-08-07T191353.png
 security:

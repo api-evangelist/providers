@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The HTTP API served by every DeSo node. It exposes transaction-construction endpoints (social, financial, NFT, DAO/token, associations, derived keys) and read/data endpoints (users, posts, profiles, N
@@ -127,21 +128,23 @@ overview: 'BitClout publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 125
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 22.7
+  delta: -3.0
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 63.0
+    developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 10.5
+    governance: 18.2
+    operational_transparency: 7.9
   previous_composite: 25.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitclout/refs/heads/main/screenshots/bitclout-2026-07-25T203135.png
 security:

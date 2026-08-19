@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 51.9
+  scored_at: '2026-08-19'
 api_count: 23
 apis:
 - description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
@@ -334,15 +335,17 @@ rate_limits:
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 51.8
+  delta: -2.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 53.2
-    developer_ergonomics: 62.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 51.2
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 39.5
   previous_composite: 54.0
   provenance:
     conformance: derived
@@ -353,9 +356,10 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png
 security:
 - kind: authentication
   name: Tabs Authentication

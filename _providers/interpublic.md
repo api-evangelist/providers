@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 37.8
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: WordPress core content API for the Interpublic Group corporate site - posts, pages, media, taxonomies, users, settings, blocks and templates. Read collections (posts, pages, media, categories, tags, s
@@ -157,7 +158,9 @@ rate_limits:
   name: Interpublic Rate Limits
   slug: interpublic-rate-limits
 rules:
-- name: Interpublic Group API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Interpublic Group API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -167,18 +170,28 @@ rules:
   slug: interpublic-rules
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 26.5
+  delta: -1.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 50.8
-    developer_ergonomics: 17.4
+    contract_governance: 16.7
+    contract_quality: 54.6
+    developer_ergonomics: 13.7
     discoverability: 81.5
-    governance: 31.3
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 28.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/screenshots/interpublic-2026-06-20T183507.png
 security:

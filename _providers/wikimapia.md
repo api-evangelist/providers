@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Wikimapia REST API provides access to crowdsourced geographic data including places, categories, streets, and languages. Supports place search by bounding box, coordinates, or full-text query; pla
@@ -103,18 +104,20 @@ rate_limits:
   slug: wikimapia-rate-limits
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 16.0
+  delta: -4.3
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimapia/refs/heads/main/screenshots/wikimapia-2026-06-20T201453.png
 security:

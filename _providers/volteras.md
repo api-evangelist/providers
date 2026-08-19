@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -309,16 +309,18 @@ scopes:
   slug: volteras-scopes
   summary_line: 12 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.8
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: 2.4
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 59.8
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -336,9 +338,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:
 - kind: authentication
   name: Volteras Authentication

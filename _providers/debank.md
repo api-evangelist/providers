@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -163,26 +164,39 @@ scopes:
   slug: debank-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  delta: -4.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 38.1
-    developer_ergonomics: 56.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 37.8
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 39.5
   previous_composite: 42.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/screenshots/debank-2026-08-17T080851.png
 security:
 - kind: authentication
   name: Debank Authentication

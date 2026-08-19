@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Hashnode Public API is a GraphQL API that queries publication data, manages posts and drafts, and creates content via mutations. All requests are POSTed to a single endpoint at https://gql-beta.ha
@@ -223,20 +224,26 @@ rate_limits:
   slug: hashnode-rate-limits
 score:
   band: strong
-  composite: 57.6
-  delta: 38.6
+  composite: 58.3
+  delta: 0.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 58.0
-    developer_ergonomics: 71.7
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 52.2
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 57.9
-  previous_composite: 19.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-06-20T182534.png
+    governance: 4.5
+    operational_transparency: 55.3
+  previous_composite: 57.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-08-17T083521.png
 security:
 - kind: authentication
   name: Hashnode Authentication

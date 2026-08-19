@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -519,7 +520,9 @@ rate_limits:
   name: Tomorrow Rate Limits
   slug: tomorrow-rate-limits
 rules:
-- name: Tomorrow.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tomorrow.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -527,7 +530,10 @@ rules:
     info: 2
     warn: 3
   slug: tomorrow-jsonschema-spectral-rules
-- name: Tomorrow.io API Rules
+- effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Tomorrow.io API Rules
   rule_count: 48
   severity_counts:
     error: 19
@@ -537,15 +543,17 @@ rules:
   slug: tomorrow-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 39.6
+  delta: -8.3
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 23.7
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 25.7
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -554,9 +562,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:
 - kind: authentication

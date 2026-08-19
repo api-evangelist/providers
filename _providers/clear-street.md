@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 61.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -348,16 +349,18 @@ scopes:
   slug: clear-street-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 63.9
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 2.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.8
-    developer_ergonomics: 87.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 68.6
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 63.9
   provenance:
     agentic_access: derived
@@ -375,8 +378,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:

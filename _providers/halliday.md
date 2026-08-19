@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 48.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -211,15 +212,17 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 95
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 54.2
+  delta: 1.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 74.6
-    developer_ergonomics: 73.9
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 30.3
+    contract_quality: 73.5
+    developer_ergonomics: 73.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -237,8 +240,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:

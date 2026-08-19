@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 39.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -160,15 +161,17 @@ scopes:
   slug: monument-bank-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 35.3
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: 4.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 53.0
-    developer_ergonomics: 17.4
+    contract_governance: 4.5
+    contract_quality: 51.2
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 35.3
   provenance:
@@ -184,9 +187,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 87.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:

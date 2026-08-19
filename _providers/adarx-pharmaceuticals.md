@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The STOP-HAE trial-site (clinic) registry.
@@ -231,14 +232,16 @@ overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.
 random_paper: 77
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 34.2
+  delta: 2.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 60.6
-    developer_ergonomics: 16.8
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 32.1
   provenance:
@@ -255,8 +258,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:

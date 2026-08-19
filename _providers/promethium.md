@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.1
-  scored_at: '2026-08-17'
+  score: 9.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for Promethium's agentic data platform — tenant-scoped OAuth2 authentication, datamap search and creation, bulk metadata import, audit logs, and federated SQL execution via the Trino Stream U
@@ -127,22 +128,24 @@ overview: 'Promethium publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 55
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 29.2
+  delta: 0.8
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 53.8
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 28.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

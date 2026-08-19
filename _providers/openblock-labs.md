@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The OB-1 coding-agent platform. The only publicly reachable API surface is the OAuth 2.0 / OpenID Connect authorization server; the platform data API and manual sit behind authenticated dashboard acce
@@ -124,21 +125,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 21.5
+  delta: -5.0
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 33.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 26.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openblock-labs/refs/heads/main/screenshots/openblock-labs-2026-08-07T190536.png
 security:
 - kind: authentication

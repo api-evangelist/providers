@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -356,7 +357,10 @@ rate_limits:
   name: Amazon Kinesis Rate Limits
   slug: amazon-kinesis-rate-limits
 rules:
-- name: Amazon Kinesis API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Amazon Kinesis API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -364,7 +368,9 @@ rules:
     info: 1
     warn: 8
   slug: amazon-kinesis-asyncapi-spectral-rules
-- name: Amazon Kinesis API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Kinesis API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -372,7 +378,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-kinesis-jsonschema-spectral-rules
-- name: Amazon Kinesis API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Kinesis API Rules
   rule_count: 24
   severity_counts:
     error: 9
@@ -382,15 +391,17 @@ rules:
   slug: amazon-kinesis-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 57.1
+  delta: -4.0
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 82.6
-    developer_ergonomics: 45.7
+    contract_governance: 28.8
+    contract_quality: 78.9
+    developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 28.8
+    operational_transparency: 26.3
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -399,8 +410,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/screenshots/amazon-kinesis-2026-06-20T171718.png
 security:

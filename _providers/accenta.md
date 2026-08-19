@@ -1,6 +1,132 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
-artifact_total: 0
+apis:
+- description: The HTTP API behind Accenta's effiPilot building-energy platform. It is an RPC-style JSON surface — requests take the form /api/method/<methodName> — served per customer tenant from the wildcard accen
+  name: effiPilot Platform API
+  slug: effipilot-platform-api
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.accenta.ai/
+- group: company
+  title: ''
+  type: WebsiteFrench
+  url: https://www.accenta.ai/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.accenta.ai/login/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.accenta.ai/en/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.accenta.ai/articles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.accenta.ai/feed/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.accenta.ai/en/press/
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://www.accenta.ai/en/projects/
+- group: company
+  title: ''
+  type: About
+  url: https://www.accenta.ai/en/about/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.accenta.ai/jobs/
+- group: commercial
+  title: ''
+  type: LegalNotice
+  url: https://www.accenta.ai/mentions-legales/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.accenta.ai/politique-de-confidentialite/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://storage.sbg.cloud.ovh.net/v1/AUTH_3d9cbc20c59c4c77a70475ce27cd4ecb/Images%20publiques%20effiPilot/Contrat_Licence_Utilisateur_Final_v200_20260602.pdf
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://storage.sbg.cloud.ovh.net/v1/AUTH_3d9cbc20c59c4c77a70475ce27cd4ecb/Images%20publiques%20effiPilot/RGPD_Collecte_et_utilisation_donnees_personnelles_v200_20260602.pdf
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/accenta-ai
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/accenta-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/accenta-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/accenta-error-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/accenta-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/accenta-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/accenta-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/accenta-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/accenta-rate-limits.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/accenta-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/accenta-llms.txt
 coverage:
   checked: '2026-08-17'
   detail: Accenta's effiPilot API reference is real and is Accenta's own — the login application at app.accenta.ai explicitly offers redirectTo=api%2Fdoc and search engines still index the page title "documentation API effiPilot 2.16.3" — but the /api/doc route is only served to an authenticated tenant session, so an anonymous GET returns {"message":"Route not found"} and no machine-readable contract of any kind (OpenAPI, GraphQL, MCP, AsyncAPI, agent card, or any /.well-known/ document) is reachable on www.accenta.ai, app.accenta.ai or demo.accenta.ai.
@@ -27,7 +153,50 @@ modified: '2026-08-17'
 name: Accenta
 nav: Providers
 network: true
+overview: 'Accenta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Energy, Buildings, and Smart Buildings.
+
+
+  Accenta''s developer surface includes support, engineering blog, authentication, and 22 more developer resources.'
+plans:
+- name: Accenta Plans Pricing
+  plan_count: 0
+  slug: accenta-plans-pricing
 random_paper: 123
+rate_limits:
+- limit_count: 0
+  name: Accenta Rate Limits
+  slug: accenta-rate-limits
+score:
+  band: emerging
+  composite: 23.8
+  facets:
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: authentication
+  name: Accenta Authentication
+  slug: accenta-authentication
+  summary_line: cookie-session · 1 scheme
+- kind: domain-security
+  name: Accenta Domain Security
+  slug: accenta-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: accenta
 tags:
 - Company
@@ -44,4 +213,5 @@ tags:
 - Real Estate
 - IoT
 - France
+website: https://www.accenta.ai/
 ---

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,7 +215,10 @@ rate_limits:
   name: United States Army Corps Of Engineers Rate Limits
   slug: united-states-army-corps-of-engineers-rate-limits
 rules:
-- name: United States Army Corps of Engineers API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: United States Army Corps of Engineers API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -222,7 +226,9 @@ rules:
     info: 1
     warn: 7
   slug: cwms-data-api-rules
-- name: United States Army Corps of Engineers API Rules
+- effective_rule_count: 5
+  extends: []
+  name: United States Army Corps of Engineers API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -232,14 +238,16 @@ rules:
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 38.7
+  delta: 3.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.6
-    developer_ergonomics: 10.9
+    contract_governance: 54.5
+    contract_quality: 64.0
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 47.9
+    governance: 54.5
     operational_transparency: 13.2
   previous_composite: 35.6
   provenance:
@@ -255,8 +263,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

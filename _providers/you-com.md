@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The You.com Search API returns real-time web search results tailored for AI agents and LLMs, with controls for freshness, category, and result shape.
@@ -120,19 +121,21 @@ rate_limits:
   slug: you-com-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 29.5
+  delta: -7.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 48.1
-    developer_ergonomics: 10.9
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   previous_composite: 37.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: You Com Domain Security

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -135,15 +136,17 @@ scopes:
   slug: bupa-australia-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 32.2
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -8.0
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 50.0
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 32.2
   provenance:
@@ -153,10 +156,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 51.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/screenshots/bupa-australia-2026-07-25T204113.png
 security:
 - kind: authentication

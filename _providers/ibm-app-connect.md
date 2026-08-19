@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The IBM App Connect API provides programmatic access to manage integration flows, connectors, accounts, and other integration platform resources.
@@ -93,7 +94,9 @@ rate_limits:
   name: Ibm App Connect Rate Limits
   slug: ibm-app-connect-rate-limits
 rules:
-- name: IBM App Connect API Rules
+- effective_rule_count: 0
+  extends: []
+  name: IBM App Connect API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -103,18 +106,20 @@ rules:
   slug: ibm-app-connect-rules
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 12.4
+  delta: -1.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 10.4
-    operational_transparency: 13.2
+    governance: 0.0
+    operational_transparency: 10.5
   previous_composite: 13.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/screenshots/ibm-app-connect-2026-06-20T183128.png
 security:

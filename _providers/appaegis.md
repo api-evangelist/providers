@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.8
-  scored_at: '2026-08-17'
+  score: 9.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST (v1 + v2) and GraphQL management API for the Mammoth Cyber (Appaegis) zero-trust access platform. Administers users, teams, access roles, policies, applications, networks, registered devices, blo
@@ -135,21 +136,23 @@ overview: 'Appaegis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 97
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.0
+  composite: 25.1
+  delta: 0.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 49.5
+    developer_ergonomics: 51.8
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 25.0
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/screenshots/appaegis-2026-07-25T200708.png
 security:

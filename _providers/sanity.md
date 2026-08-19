@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -412,7 +412,10 @@ rate_limits:
   name: Sanity Rate Limits
   slug: sanity-rate-limits
 rules:
-- name: Sanity API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Sanity API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -420,7 +423,9 @@ rules:
     info: 0
     warn: 5
   slug: sanity-asyncapi-spectral-rules
-- name: Sanity API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sanity API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -428,7 +433,9 @@ rules:
     info: 2
     warn: 3
   slug: sanity-jsonschema-spectral-rules
-- name: Sanity API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Sanity API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -437,16 +444,18 @@ rules:
     warn: 4
   slug: sanity-rules
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -5.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 83.4
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 78.8
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -455,9 +464,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:
 - kind: authentication

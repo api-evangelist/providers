@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -362,7 +363,9 @@ rate_limits:
   name: Microsoft Azure Health Data Services Rate Limits
   slug: microsoft-azure-health-data-services-rate-limits
 rules:
-- name: Microsoft Azure Health Data Services API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Azure Health Data Services API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -377,15 +380,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 56.0
-  delta: 0.0
+  composite: 55.8
+  delta: -0.2
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 49.2
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 47.6
+    developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 63.2
+    governance: 9.8
+    operational_transparency: 60.5
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -400,8 +405,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:

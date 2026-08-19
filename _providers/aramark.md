@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -324,7 +325,9 @@ rate_limits:
   name: Aramark Rate Limits
   slug: aramark-rate-limits
 rules:
-- name: Aramark API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Aramark API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -332,7 +335,10 @@ rules:
     info: 2
     warn: 3
   slug: aramark-jsonschema-spectral-rules
-- name: Aramark API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Aramark API Rules
   rule_count: 28
   severity_counts:
     error: 13
@@ -342,15 +348,17 @@ rules:
   slug: aramark-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 28.6
+  delta: -5.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 24.3
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 22.7
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -359,9 +367,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png
 security:
 - kind: authentication

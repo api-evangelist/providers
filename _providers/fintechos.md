@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,15 +79,23 @@ overview: 'FintechOS is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 69
 score:
   band: emerging
-  composite: 16.2
-  delta: 0.0
+  composite: 15.0
+  delta: -1.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 33.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 16.2
   regulatory:
     applies: true
@@ -94,8 +103,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintechos/refs/heads/main/screenshots/fintechos-2026-07-25T214549.png
 security:

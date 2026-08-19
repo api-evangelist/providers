@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 41
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
@@ -436,15 +436,17 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 23
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 52.1
+  delta: -3.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 75.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 52.5
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 55.4
   provenance:
     conformance: derived
@@ -455,9 +457,10 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/screenshots/uniform-2026-08-17T082601.png
 security:
 - kind: authentication
   name: Uniform Authentication

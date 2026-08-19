@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -310,15 +311,17 @@ rate_limits:
   slug: anamai-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 58.1
+  delta: -2.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.2
-    developer_ergonomics: 66.8
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 62.4
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 78.9
+    governance: 16.7
+    operational_transparency: 71.1
   previous_composite: 60.8
   provenance:
     agentic_access: derived
@@ -330,8 +333,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

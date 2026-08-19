@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -330,15 +331,17 @@ rate_limits:
   slug: openprovider-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 31.7
+  delta: -1.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 48.5
-    developer_ergonomics: 26.1
-    discoverability: 81.5
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 0.0
+    contract_quality: 51.0
+    developer_ergonomics: 28.6
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 33.0
   provenance:
     agentic_access: derived
@@ -347,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/screenshots/openprovider-2026-06-20T191025.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -201,15 +202,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 45.9
+  delta: 1.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 63.0
-    developer_ergonomics: 27.7
+    contract_governance: 18.2
+    contract_quality: 56.7
+    developer_ergonomics: 28.0
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 44.7
   provenance:
     conformance: first-party
@@ -220,10 +223,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 70.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/screenshots/totogi-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Totogi Authentication

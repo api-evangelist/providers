@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -211,7 +212,10 @@ rate_limits:
   name: Getstream Rate Limits
   slug: getstream-rate-limits
 rules:
-- name: Stream API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Stream API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -221,15 +225,17 @@ rules:
   slug: getstream-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 42.6
+  delta: -4.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 63.1
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 60.4
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -238,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:

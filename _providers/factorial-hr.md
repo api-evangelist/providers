@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -380,7 +381,9 @@ rate_limits:
   name: Factorial Rate Limits
   slug: factorial-rate-limits
 rules:
-- name: Factorial API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Factorial API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -388,7 +391,10 @@ rules:
     info: 1
     warn: 4
   slug: factorial-hr-jsonschema-spectral-rules
-- name: Factorial API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Factorial API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -402,16 +408,18 @@ scopes:
   slug: factorial-hr-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: developing
+  composite: 52.8
+  delta: -15.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.2
-    developer_ergonomics: 60.9
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 53.6
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 30.3
   previous_composite: 67.9
   provenance:
     agentic_access: derived
@@ -420,9 +428,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png
 security:
 - kind: authentication

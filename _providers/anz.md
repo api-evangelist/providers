@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -241,15 +242,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 46.9
+  delta: 3.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 52.2
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -266,9 +269,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 78.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

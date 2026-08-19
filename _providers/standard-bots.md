@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'On-robot REST API (served by the RO1 control box on /api/v1, Bearer-token auth) for controlling arm position and motion, the gripper/end-effector, cameras, routines, teleoperation, the recorder, I/O, '
@@ -151,22 +152,24 @@ overview: 'Standard Bots publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 142
 score:
   band: thin
-  composite: 28.2
-  delta: 0.0
+  composite: 31.1
+  delta: 2.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 58.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 44.6
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 28.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

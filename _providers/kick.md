@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Kick's programmatic surface — a hosted MCP server and CLI executing against the Kick REST API under the same auth, workspace, permission, and audit checks as the web app. No public OpenAPI is publishe
@@ -164,21 +165,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 34.4
+  delta: -1.2
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 31.6
   previous_composite: 35.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kick/refs/heads/main/screenshots/kick-2026-07-25T223718.png
 security:

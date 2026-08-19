@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -191,7 +192,9 @@ rate_limits:
   name: Spacex Api Rate Limits
   slug: spacex-api-rate-limits
 rules:
-- name: SpaceX API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SpaceX API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -199,7 +202,9 @@ rules:
     info: 1
     warn: 4
   slug: spacex-api-jsonschema-spectral-rules
-- name: SpaceX API API Rules
+- effective_rule_count: 8
+  extends: []
+  name: SpaceX API API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -209,14 +214,16 @@ rules:
   slug: spacex-api-rules
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 28.0
+  delta: -8.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.9
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 62.0
+    developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 36.6
   provenance:
@@ -226,9 +233,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/screenshots/spacex-api-2026-06-20T194252.png
 security:
 - kind: domain-security

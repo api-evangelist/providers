@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -196,15 +197,17 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 random_paper: 25
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 33.8
+  delta: 1.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 14.5
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 13.6
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 32.0
   provenance:
     conformance: derived
@@ -221,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:

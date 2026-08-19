@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for running automation jobs on the Automation Cloud. Clients create jobs against a service, supply initial and deferred inputs, poll job events, retrieve outputs, handle 3-D Secure challenges
@@ -138,22 +139,24 @@ overview: 'UBIO Automation Cloud publishes 2 APIs on the [APIs.io](https://apis.
 random_paper: 59
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 14.8
+  delta: -5.7
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 20.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Ubio Automation Cloud Authentication

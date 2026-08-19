@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +191,9 @@ rate_limits:
   name: Guardian Rate Limits
   slug: guardian-rate-limits
 rules:
-- name: The Guardian API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Guardian API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -200,14 +203,16 @@ rules:
   slug: guardian-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 40.3
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.9
-    developer_ergonomics: 26.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 61.4
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 48.6
   provenance:
@@ -217,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/screenshots/guardian-2026-06-20T182423.png
 security:
 - kind: authentication

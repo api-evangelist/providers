@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -111,6 +112,10 @@ collections:
   name: Cisco NX-API REST Authentication VLANs API
   slug: open-cisco-nexus-vlans-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: operate
   title: ''
   type: IssueTracker
@@ -567,7 +572,7 @@ jsonld:
   property_count: 0
   slug: cisco-nexus-nxapi-rest-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-19'
 name: Cisco Nexus Dashboard
 nav: Providers
 network: true
@@ -577,7 +582,7 @@ overview: 'Cisco Nexus Dashboard publishes 5 APIs on the [APIs.io](https://apis.
   The Cisco Nexus Dashboard catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Cisco Nexus Dashboard''s developer surface includes authentication, engineering blog, training material, sandbox, support, code examples, and 6 more developer resources.'
+  Cisco Nexus Dashboard''s developer surface includes authentication, engineering blog, training material, sandbox, support, code examples, and 7 more developer resources.'
 plans:
 - name: Cisco Nexus Plans Pricing
   plan_count: 1
@@ -588,7 +593,9 @@ rate_limits:
   name: Cisco Nexus Rate Limits
   slug: cisco-nexus-rate-limits
 rules:
-- name: Cisco Nexus Dashboard API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Cisco Nexus Dashboard API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -596,7 +603,10 @@ rules:
     info: 2
     warn: 4
   slug: cisco-nexus-jsonschema-spectral-rules
-- name: Cisco Nexus Dashboard API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Cisco Nexus Dashboard API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -605,27 +615,29 @@ rules:
     warn: 6
   slug: cisco-nexus-spectral-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: emerging
+  composite: 23.8
+  delta: -19.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 65.4
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 19.9
+    developer_ergonomics: 32.1
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/screenshots/cisco-nexus-2026-06-20T174359.png
 security:
 - kind: authentication

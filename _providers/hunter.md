@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -746,7 +747,9 @@ rate_limits:
   name: Hunter Rate Limits
   slug: hunter-rate-limits
 rules:
-- name: Hunter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Hunter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -754,7 +757,10 @@ rules:
     info: 2
     warn: 3
   slug: hunter-jsonschema-spectral-rules
-- name: Hunter API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Hunter API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -769,26 +775,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 75.1
-  delta: 16.7
+  composite: 72.2
+  delta: -2.9
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 78.9
-    developer_ergonomics: 67.4
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 55.3
+    contract_quality: 78.1
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 63.2
-  previous_composite: 58.4
+    governance: 55.3
+    operational_transparency: 68.4
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -528,7 +529,9 @@ rate_limits:
   name: Looker Rate Limits
   slug: looker-rate-limits
 rules:
-- name: Looker API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Looker API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -536,7 +539,10 @@ rules:
     info: 1
     warn: 4
   slug: looker-jsonschema-spectral-rules
-- name: Looker API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Looker API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -546,15 +552,17 @@ rules:
   slug: looker-spectral-rules
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 41.3
+  delta: -13.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 66.4
-    developer_ergonomics: 45.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 67.0
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 54.5
   provenance:
     agentic_access: derived
@@ -563,9 +571,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
 security:
 - kind: authentication

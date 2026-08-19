@@ -1,6 +1,84 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kotcha-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kotcha.com/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@kotcha.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kotcha.com/en/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kotcha.com/en/privacy-policy
+- group: company
+  title: ''
+  type: About
+  url: https://www.kotcha.com/en/our-story
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.kotcha.com/en/partnership
+- group: company
+  title: ''
+  type: Press
+  url: https://drive.google.com/drive/folders/1_Dc4bCirc8qc6YDSHdYUAtXXvk1evLI8
+- group: other
+  title: ''
+  type: Downloads
+  url: https://kotcha.go.link/1VEPz
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kotcha-running
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/kotcha.run/
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/people/Kotcha/61580625827349/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kotcha-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kotcha-plans-pricing.yml
 coverage:
   checked: '2026-08-17'
   detail: Kotcha is a consumer iOS/Android running-coach subscription from PACEUP SAS with no developer program at all — the marketing site has no /docs, /developers or /api route, api.kotcha.com and developer.kotcha.com are NXDOMAIN, and its Terms & Conditions section 6 explicitly prohibit "accessing services through unauthorized means or automated methods".
@@ -21,7 +99,40 @@ modified: '2026-08-17'
 name: Kotcha
 nav: Providers
 network: true
+overview: 'Kotcha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sporttech, Running, Fitness, and Health.
+
+
+  Kotcha''s developer surface includes support and 13 more developer resources.'
+plans:
+- name: Kotcha Plans Pricing
+  plan_count: 0
+  slug: kotcha-plans-pricing
 random_paper: 38
+score:
+  band: minimal
+  composite: 10.7
+  facets:
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: domain-security
+  name: Kotcha Domain Security
+  slug: kotcha-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: kotcha
 tags:
 - Company
@@ -34,4 +145,5 @@ tags:
 - Mobile Application
 - Wearables
 - Consumer
+website: https://www.kotcha.com/
 ---

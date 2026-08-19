@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 39.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
@@ -190,19 +190,24 @@ rate_limits:
   slug: chatsimple-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 29.9
+  composite: 54.8
+  delta: -3.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 34.2
-  previous_composite: 28.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 31.6
+  previous_composite: 58.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
 security:
 - kind: authentication

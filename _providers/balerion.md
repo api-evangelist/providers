@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,25 +84,27 @@ overview: Balerion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 99
 score:
   band: minimal
-  composite: 10.0
-  delta: 0.0
+  composite: 4.2
+  delta: -5.8
   facets:
-    commercial_clarity: 15.8
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/balerion/refs/heads/main/screenshots/balerion-2026-07-25T202302.png
 security:
 - kind: domain-security

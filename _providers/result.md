@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -188,25 +189,31 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.2
-  delta: 37.3
+  composite: 47.1
+  delta: 1.9
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 7.9
+  previous_composite: 45.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/screenshots/result-2026-08-17T081542.png
 security:
 - kind: authentication
   name: Result Authentication

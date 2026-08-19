@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-17'
+  score: 52.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -239,15 +240,17 @@ rate_limits:
   slug: korbit-rate-limits
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 41.5
+  delta: -6.6
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 72.3
-    developer_ergonomics: 77.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 68.3
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -265,9 +268,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:
 - kind: authentication

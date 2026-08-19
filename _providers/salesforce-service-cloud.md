@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -334,7 +335,10 @@ rate_limits:
   name: Salesforce Service Cloud Rate Limits
   slug: salesforce-service-cloud-rate-limits
 rules:
-- name: Salesforce Service Cloud API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Salesforce Service Cloud API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -342,7 +346,9 @@ rules:
     info: 0
     warn: 8
   slug: salesforce-service-cloud-asyncapi-spectral-rules
-- name: Salesforce Service Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salesforce Service Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -350,7 +356,9 @@ rules:
     info: 1
     warn: 4
   slug: salesforce-service-cloud-jsonschema-spectral-rules
-- name: Salesforce Service Cloud API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Salesforce Service Cloud API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -365,15 +373,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 47.7
+  delta: -6.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 47.8
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 26.5
+    contract_quality: 70.5
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 52.1
-    operational_transparency: 10.5
+    governance: 26.5
+    operational_transparency: 7.9
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -382,9 +392,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:
 - kind: authentication

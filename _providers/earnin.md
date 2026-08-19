@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,15 +95,17 @@ overview: 'Earnin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 41
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 13.0
+  delta: -5.4
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 5.3
   previous_composite: 18.4
   regulatory:
     applies: true
@@ -110,9 +113,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnin/refs/heads/main/screenshots/earnin-2026-07-25T212655.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -159,15 +160,17 @@ overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
   Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
 random_paper: 124
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 27.9
+  delta: -18.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.6
-    developer_ergonomics: 53.8
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 57.7
+    developer_ergonomics: 18.5
     discoverability: 70.4
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 45.9
   provenance:
@@ -184,10 +187,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:
 - kind: authentication

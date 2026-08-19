@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-08-17'
+  score: 63.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -229,15 +230,17 @@ overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 113
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 42.0
+  delta: -0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 59.6
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 60.2
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 42.9
   provenance:
     agentic_access: derived
@@ -249,9 +252,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 39.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:

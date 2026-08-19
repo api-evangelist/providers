@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -259,16 +259,18 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
 random_paper: 84
 score:
-  band: developing
-  composite: 54.0
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: 3.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 57.3
-    developer_ergonomics: 71.2
+    contract_governance: 30.3
+    contract_quality: 53.7
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -286,8 +288,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

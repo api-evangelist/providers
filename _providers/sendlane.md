@@ -11,25 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing contacts, lists, campaigns, automations, custom fields, sender profiles, tags, and custom integration events for e-commerce email and SMS marketing.
@@ -231,20 +231,31 @@ rate_limits:
   name: Sendlane Rate Limits
   slug: sendlane-rate-limits
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 42.5
+  band: strong
+  composite: 65.1
+  delta: -1.5
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 67.1
-    developer_ergonomics: 71.7
+    contract_governance: 16.7
+    contract_quality: 70.8
+    developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 65.8
-  previous_composite: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 63.2
+  previous_composite: 66.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:
 - kind: authentication

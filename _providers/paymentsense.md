@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -206,16 +207,18 @@ overview: 'Paymentsense publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
 random_paper: 116
 score:
-  band: developing
-  composite: 52.5
-  delta: 0.0
+  band: strong
+  composite: 59.6
+  delta: 7.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 60.0
-    developer_ergonomics: 62.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 61.8
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -232,10 +235,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:
 - kind: authentication

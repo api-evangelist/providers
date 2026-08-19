@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -211,7 +212,9 @@ rate_limits:
   name: Commusoft Rate Limits
   slug: commusoft-rate-limits
 rules:
-- name: Commusoft API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Commusoft API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -221,14 +224,16 @@ rules:
   slug: commusoft-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 40.7
+  delta: -6.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 65.3
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 64.9
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 47.1
   provenance:
@@ -238,9 +243,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
 security:
 - kind: authentication

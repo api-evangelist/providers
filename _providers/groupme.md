@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST + JSON API for GroupMe groups, memberships, messages, chats, likes, blocks, users, and bots, plus a Bayeux push service and bot webhook callbacks.
@@ -146,21 +147,23 @@ overview: 'GroupMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 22
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 34.7
+  delta: -3.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 47.8
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 38.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/screenshots/groupme-2026-07-25T220348.png
 security:

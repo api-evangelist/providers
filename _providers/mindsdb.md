@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 12.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: SQL-over-HTTP query engine plus RESTful resources for projects, databases, knowledge bases, tables, views, files, jobs, and AI agents. Self-hosted by default (http://127.0.0.1:47334); MindsDB Cloud is
@@ -147,22 +148,24 @@ overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 141
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 27.0
+  delta: -8.8
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 45.2
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 35.8
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindsdb/refs/heads/main/screenshots/mindsdb-2026-08-07T172935.png
 security:
 - kind: authentication

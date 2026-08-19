@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Apinity API enables organizations to manage their compliant API marketplace programmatically, including API registration, discovery, subscription management, and governance policy enforcement acro
@@ -106,7 +107,9 @@ rate_limits:
   name: Apinity Io Rate Limits
   slug: apinity-io-rate-limits
 rules:
-- name: Apinity.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apinity.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -116,19 +119,21 @@ rules:
   slug: apinity-io-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 17.5
+  delta: -6.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
+    contract_governance: 9.8
+    contract_quality: 19.7
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 24.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/screenshots/apinity-io-2026-06-20T172250.png
 security:
 - kind: domain-security

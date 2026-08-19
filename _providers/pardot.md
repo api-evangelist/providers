@@ -11,11 +11,10 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -252,27 +252,32 @@ scopes:
   slug: pardot-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 68.3
-  delta: 38.5
+  band: strong
+  composite: 56.6
+  delta: -11.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 52.2
-    developer_ergonomics: 84.8
+    contract_governance: 30.3
+    contract_quality: 15.7
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 29.8
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:
 - kind: authentication

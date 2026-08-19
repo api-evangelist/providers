@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -146,7 +147,9 @@ rate_limits:
   name: Risc V Rate Limits
   slug: risc-v-rate-limits
 rules:
-- name: RISC-V International API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RISC-V International API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -156,19 +159,21 @@ rules:
   slug: risc-v-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.1
-  delta: 0.0
+  composite: 21.7
+  delta: -5.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 27.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/screenshots/risc-v-2026-06-20T193125.png
 security:
 - kind: domain-security

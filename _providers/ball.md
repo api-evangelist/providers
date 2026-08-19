@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 12
 common:
@@ -111,7 +112,9 @@ press:
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
 random_paper: 113
 rules:
-- name: Ball Corporation API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Ball Corporation API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -120,19 +123,21 @@ rules:
     warn: 3
   slug: ball-spectral-rules
 score:
-  band: minimal
-  composite: 12.0
-  delta: 0.0
+  band: emerging
+  composite: 11.3
+  delta: -0.7
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 45.5
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
-    governance: 31.3
-    operational_transparency: 5.3
+    governance: 45.5
+    operational_transparency: 2.6
   previous_composite: 12.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ball/refs/heads/main/screenshots/ball-2026-06-20T172928.png
 security:

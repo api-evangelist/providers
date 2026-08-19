@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +81,9 @@ press:
   url: https://www.businesswire.com/news/home/20260421310205/en/Iron-Mountain-Named-2026-Google-Cloud-Partner-of-the-Year-Business-Applications-Media-Entertainment
 random_paper: 19
 rules:
-- name: Iron Mountain API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Iron Mountain API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -90,18 +93,20 @@ rules:
   slug: iron-mountain-rules
 score:
   band: minimal
-  composite: 7.1
-  delta: 0.0
+  composite: 5.5
+  delta: -1.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
-    governance: 10.4
+    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

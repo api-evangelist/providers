@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -348,7 +348,10 @@ rate_limits:
   name: Runway Rate Limits
   slug: runway-rate-limits
 rules:
-- name: Runway API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Runway API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -356,7 +359,9 @@ rules:
     info: 0
     warn: 8
   slug: runway-asyncapi-spectral-rules
-- name: Runway API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Runway API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -364,7 +369,10 @@ rules:
     info: 2
     warn: 4
   slug: runway-jsonschema-spectral-rules
-- name: Runway API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Runway API Rules
   rule_count: 17
   severity_counts:
     error: 5
@@ -374,15 +382,17 @@ rules:
   slug: runway-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 47.0
+  delta: -8.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.4
-    developer_ergonomics: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 26.5
+    contract_quality: 70.8
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 52.1
-    operational_transparency: 26.3
+    governance: 26.5
+    operational_transparency: 23.7
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -391,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:
 - kind: authentication

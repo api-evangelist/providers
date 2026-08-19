@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -243,7 +244,10 @@ rate_limits:
   name: Codeproject Rate Limits
   slug: codeproject-rate-limits
 rules:
-- name: CodeProject API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CodeProject API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -257,15 +261,17 @@ scopes:
   slug: codeproject-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: developing
+  composite: 44.4
+  delta: 3.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 51.4
-    developer_ergonomics: 32.6
+    contract_governance: 54.5
+    contract_quality: 48.8
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 27.1
+    governance: 54.5
     operational_transparency: 28.9
   previous_composite: 41.1
   provenance:
@@ -275,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:

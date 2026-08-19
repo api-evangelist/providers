@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -1122,7 +1123,9 @@ rate_limits:
   name: Bentley Systems Rate Limits
   slug: bentley-systems-rate-limits
 rules:
-- name: Bentley Systems API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bentley Systems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1130,7 +1133,10 @@ rules:
     info: 2
     warn: 3
   slug: bentley-systems-jsonschema-spectral-rules
-- name: Bentley Systems API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Bentley Systems API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -1144,16 +1150,18 @@ scopes:
   slug: bentley-systems-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 72.7
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: -8.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 60.5
-    developer_ergonomics: 78.3
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 9.8
+    contract_quality: 60.2
+    developer_ergonomics: 85.7
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 65.8
   previous_composite: 72.7
   provenance:
     agentic_access: derived
@@ -1162,9 +1170,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 86
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:
 - kind: authentication

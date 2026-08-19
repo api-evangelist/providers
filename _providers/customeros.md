@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 45.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -291,27 +291,32 @@ rate_limits:
   name: Customeros Rate Limits
   slug: customeros-rate-limits
 score:
-  band: strong
-  composite: 56.7
-  delta: 20.5
+  band: developing
+  composite: 50.2
+  delta: -6.5
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 55.1
-    developer_ergonomics: 47.8
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 16.7
+    contract_quality: 54.2
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 36.2
+    governance: 16.7
+    operational_transparency: 18.4
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png
 security:
 - kind: authentication

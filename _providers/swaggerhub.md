@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -265,7 +266,9 @@ rate_limits:
   name: Swaggerhub Rate Limits
   slug: swaggerhub-rate-limits
 rules:
-- name: SwaggerHub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SwaggerHub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,7 +276,10 @@ rules:
     info: 1
     warn: 4
   slug: swaggerhub-jsonschema-spectral-rules
-- name: SwaggerHub API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: SwaggerHub API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -282,16 +288,18 @@ rules:
     warn: 5
   slug: swaggerhub-rules
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: -9.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.2
-    developer_ergonomics: 56.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 61.3
+    developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -300,9 +308,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
 security:
 - kind: authentication

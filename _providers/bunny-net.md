@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -249,7 +250,10 @@ rate_limits:
   name: Bunny Net Rate Limits
   slug: bunny-net-rate-limits
 rules:
-- name: Bunny.net API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Bunny.net API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -259,14 +263,16 @@ rules:
   slug: bunny-net-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 41.2
+  delta: -1.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 65.7
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 65.2
+    developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 27.1
+    governance: 13.6
     operational_transparency: 26.3
   previous_composite: 42.6
   provenance:
@@ -276,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

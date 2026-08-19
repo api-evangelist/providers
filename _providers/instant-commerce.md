@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
@@ -204,21 +205,24 @@ rate_limits:
   slug: instant-commerce-rate-limits
 score:
   band: developing
-  composite: 45.7
-  delta: 16.6
+  composite: 45.9
+  delta: 0.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 29.1
+  previous_composite: 45.7
   provenance:
+    conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:
 - kind: authentication

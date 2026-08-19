@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -124,24 +125,28 @@ rate_limits:
   slug: invitae-rate-limits
 score:
   band: emerging
-  composite: 17.3
-  delta: 3.8
+  composite: 18.3
+  delta: 1.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 13.5
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 17.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 37.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invitae/refs/heads/main/screenshots/invitae-2026-07-25T222754.png
 security:

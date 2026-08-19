@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol (MCP) server that gives AI agents access to YouArt's catalog of 60+ image, video, audio, and TTS models plus its node-based workflow builder, asset library
@@ -103,20 +104,22 @@ overview: 'Youart publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 80
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 21.5
+  delta: -2.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 38.1
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 23.5
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

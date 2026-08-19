@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: The Accounts API from LISNR — 1 operation(s) for accounts.
@@ -208,15 +209,17 @@ overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 105
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 33.4
+  delta: -5.2
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 58.7
-    developer_ergonomics: 60.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 56.9
+    developer_ergonomics: 42.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 38.6
   provenance:
     conformance: derived
@@ -233,9 +236,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:
 - kind: authentication

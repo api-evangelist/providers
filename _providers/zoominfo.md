@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-17'
+  score: 58.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -3063,7 +3064,9 @@ rate_limits:
   name: Zoominfo Rate Limits
   slug: zoominfo-rate-limits
 rules:
-- name: ZoomInfo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ZoomInfo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3071,7 +3074,10 @@ rules:
     info: 2
     warn: 3
   slug: zoominfo-jsonschema-spectral-rules
-- name: ZoomInfo API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: ZoomInfo API Rules
   rule_count: 27
   severity_counts:
     error: 19
@@ -3086,26 +3092,31 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.8
-  delta: 23.0
+  composite: 80.9
+  delta: 0.1
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 83.9
-    developer_ergonomics: 84.8
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 41.7
+    contract_quality: 81.3
+    developer_ergonomics: 79.8
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 71.1
-  previous_composite: 57.8
+    governance: 41.7
+    operational_transparency: 92.1
+  previous_composite: 80.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png
 security:
 - kind: authentication

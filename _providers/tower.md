@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-17'
+  score: 55.0
+  scored_at: '2026-08-19'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -353,15 +354,17 @@ scopes:
   slug: tower-scopes
   summary_line: 53 scopes
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 56.3
+  delta: 0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 65.4
-    developer_ergonomics: 76.1
+    contract_governance: 16.7
+    contract_quality: 66.5
+    developer_ergonomics: 73.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 44.7
   previous_composite: 55.9
   provenance:
@@ -373,9 +376,10 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Tower Authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -184,14 +184,16 @@ overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 142
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.3
+  delta: -2.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.5
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 59.5
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 44.7
   provenance:
@@ -204,9 +206,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/screenshots/telemetron-ai-2026-08-17T082304.png
 security:
 - kind: authentication
   name: Telemetron Ai Authentication

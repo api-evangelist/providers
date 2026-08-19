@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 25.2
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -139,12 +140,14 @@ rate_limits:
   slug: 1inch-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 28.6
+  delta: -2.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 37.0
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 33.3
+    developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
@@ -155,8 +158,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/screenshots/1inch-2026-06-20T162457.png
 security:

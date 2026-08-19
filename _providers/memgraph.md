@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,15 +127,17 @@ rate_limits:
   slug: memgraph-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 32.9
+  delta: -0.9
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 50.0
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 46.9
+    developer_ergonomics: 11.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -143,8 +146,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/screenshots/memgraph-2026-06-20T185201.png
 security:

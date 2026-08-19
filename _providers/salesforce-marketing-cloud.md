@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 53.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -719,7 +720,9 @@ rate_limits:
   name: Salesforce Marketing Cloud Rate Limits
   slug: salesforce-marketing-cloud-rate-limits
 rules:
-- name: Salesforce Marketing Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salesforce Marketing Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -727,7 +730,10 @@ rules:
     info: 2
     warn: 3
   slug: salesforce-marketing-cloud-jsonschema-spectral-rules
-- name: Salesforce Marketing Cloud API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Salesforce Marketing Cloud API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -742,31 +748,36 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 77.5
-  delta: 23.8
+  composite: 84.2
+  delta: 6.7
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 74.0
-    developer_ergonomics: 78.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 40.2
+    contract_quality: 74.8
+    developer_ergonomics: 70.8
     discoverability: 100.0
-    governance: 79.2
-    operational_transparency: 71.1
-  previous_composite: 53.7
+    governance: 40.2
+    operational_transparency: 76.3
+  previous_composite: 77.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

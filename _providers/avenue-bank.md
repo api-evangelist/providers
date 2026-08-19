@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,15 +191,17 @@ scopes:
   slug: avenue-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 28.3
-  delta: 0.0
+  band: emerging
+  composite: 20.5
+  delta: -7.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 13.1
-    developer_ergonomics: 21.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 12.8
+    developer_ergonomics: 13.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 28.3
   provenance:
@@ -216,10 +219,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 60.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png
 security:
 - kind: authentication

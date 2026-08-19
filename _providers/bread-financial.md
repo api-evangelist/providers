@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
@@ -147,15 +148,17 @@ overview: 'Bread Financial publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 147
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 31.5
+  delta: -6.4
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 37.9
   provenance:
     conformance: first-party
@@ -165,10 +168,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 26.4
+  scored_at: '2026-08-19'
 api_count: 62
 apis:
 - description: The Action Catalog API from Instana — 5 operation(s) for action catalog.
@@ -462,13 +463,15 @@ rate_limits:
   name: Instana Rate Limits
   slug: instana-rate-limits
 score:
-  band: emerging
-  composite: 26.8
-  delta: 0.0
+  band: thin
+  composite: 27.3
+  delta: 0.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.9
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 60.9
+    developer_ergonomics: 14.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
@@ -479,8 +482,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 62
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/screenshots/instana-2026-06-20T183421.png
 security:

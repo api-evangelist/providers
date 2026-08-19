@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -278,7 +279,9 @@ rate_limits:
   name: Google Admob Rate Limits
   slug: google-admob-rate-limits
 rules:
-- name: Google AdMob API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google AdMob API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -292,27 +295,32 @@ scopes:
   slug: google-admob-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 27.3
+  band: strong
+  composite: 63.8
+  delta: -5.3
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 67.2
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 65.0
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 79.2
-    operational_transparency: 55.3
-  previous_composite: 41.8
+    governance: 26.5
+    operational_transparency: 76.3
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/screenshots/google-admob-2026-06-20T182006.png
 security:
 - kind: authentication

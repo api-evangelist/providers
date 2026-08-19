@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -708,7 +709,9 @@ rate_limits:
   name: Composio Rate Limits
   slug: composio-rate-limits
 rules:
-- name: Composio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Composio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -716,7 +719,10 @@ rules:
     info: 2
     warn: 3
   slug: composio-jsonschema-spectral-rules
-- name: Composio API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Composio API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -725,16 +731,18 @@ rules:
     warn: 5
   slug: composio-rules
 score:
-  band: exemplar
-  composite: 66.0
-  delta: 0.0
+  band: strong
+  composite: 54.9
+  delta: -11.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 64.0
-    developer_ergonomics: 73.9
+    contract_governance: 26.5
+    contract_quality: 61.4
+    developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 69.8
-    operational_transparency: 55.3
+    governance: 26.5
+    operational_transparency: 36.8
   previous_composite: 66.0
   provenance:
     agentic_access: derived
@@ -745,9 +753,9 @@ score:
       marker_coverage: 0.0
       total: 38
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:
 - kind: authentication

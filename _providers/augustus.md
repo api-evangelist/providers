@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -288,15 +289,17 @@ scopes:
   summary_line: 16 scopes
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 51.2
+  delta: 0.5
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.7
-    developer_ergonomics: 66.8
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 64.0
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 15.8
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -314,8 +317,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:

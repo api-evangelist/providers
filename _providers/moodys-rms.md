@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 1
@@ -182,16 +183,18 @@ overview: 'Moody''s RMS publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   Moody''s RMS''s developer surface includes changelog, getting-started guide, support, authentication, documentation, API reference, and 21 more developer resources.'
 random_paper: 7
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -5.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 49.6
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 49.3
+    developer_ergonomics: 41.1
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 14.5
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -209,9 +212,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/screenshots/moodys-rms-2026-08-07T184230.png
 security:
 - kind: authentication

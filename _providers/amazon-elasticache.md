@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -317,7 +318,9 @@ rate_limits:
   name: Amazon Elasticache Rate Limits
   slug: amazon-elasticache-rate-limits
 rules:
-- name: Amazon ElastiCache API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon ElastiCache API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -325,7 +328,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-elasticache-jsonschema-spectral-rules
-- name: Amazon ElastiCache API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon ElastiCache API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -335,15 +341,17 @@ rules:
   slug: amazon-elasticache-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 55.1
+  delta: -7.2
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 73.9
-    developer_ergonomics: 45.7
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 62.3
   provenance:
     agentic_access: derived
@@ -352,9 +360,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/screenshots/amazon-elasticache-2026-06-20T171652.png
 security:
 - kind: authentication

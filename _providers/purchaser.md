@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
@@ -138,22 +139,24 @@ overview: 'Purchaser publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 79
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 28.8
+  delta: -7.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 43.5
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 26.2
     discoverability: 59.3
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 35.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Purchaser Authentication

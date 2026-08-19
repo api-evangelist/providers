@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -158,15 +159,17 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 62
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 37.2
+  delta: -1.8
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 54.5
-    developer_ergonomics: 56.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 39.0
   provenance:
     conformance: derived
@@ -183,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

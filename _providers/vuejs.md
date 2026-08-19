@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -153,7 +154,9 @@ rate_limits:
   name: Vuejs Rate Limits
   slug: vuejs-rate-limits
 rules:
-- name: Vue.js API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vue.js API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -162,20 +165,22 @@ rules:
     warn: 3
   slug: vuejs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.9
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -6.0
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 6.5
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 4.8
     discoverability: 70.4
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 28.9
   previous_composite: 30.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/screenshots/vuejs-2026-06-20T201149.png
 slug: vuejs
 tags:

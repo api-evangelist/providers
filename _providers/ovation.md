@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -154,19 +155,23 @@ rate_limits:
   slug: ovation-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: 25.1
+  composite: 37.6
+  delta: -1.0
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 15.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 28.9
-  previous_composite: 13.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 26.3
+  previous_composite: 38.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovation/refs/heads/main/screenshots/ovation-2026-06-20T191237.png
 security:
 - kind: domain-security

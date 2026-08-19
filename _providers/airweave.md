@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 57.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -228,16 +229,18 @@ rate_limits:
   name: Airweave Rate Limits
   slug: airweave-rate-limits
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -2.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.2
-    developer_ergonomics: 75.5
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 65.7
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -249,8 +252,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/screenshots/airweave-2026-07-25T195446.png
 security:

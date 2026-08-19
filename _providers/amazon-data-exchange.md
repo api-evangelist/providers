@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -520,7 +521,9 @@ rate_limits:
   name: Amazon Data Exchange Rate Limits
   slug: amazon-data-exchange-rate-limits
 rules:
-- name: Amazon Data Exchange API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Data Exchange API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -528,7 +531,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-data-exchange-jsonschema-spectral-rules
-- name: Amazon Data Exchange API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Amazon Data Exchange API Rules
   rule_count: 36
   severity_counts:
     error: 13
@@ -537,16 +543,18 @@ rules:
     warn: 16
   slug: amazon-data-exchange-spectral-rules
 score:
-  band: strong
-  composite: 59.6
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -6.0
   facets:
-    commercial_clarity: 57.9
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
     contract_quality: 77.9
-    developer_ergonomics: 45.7
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -555,9 +563,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:
 - kind: authentication

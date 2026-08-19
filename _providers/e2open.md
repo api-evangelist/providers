@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,7 +180,9 @@ rate_limits:
   name: E2Open Rate Limits
   slug: e2open-rate-limits
 rules:
-- name: e2open API Rules
+- effective_rule_count: 6
+  extends: []
+  name: e2open API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -189,15 +192,17 @@ rules:
   slug: e2open-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 41.0
+  delta: -6.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 67.2
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 64.0
+    developer_ergonomics: 47.6
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -206,9 +211,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/screenshots/e2open-2026-06-20T180355.png
 security:
 - kind: authentication

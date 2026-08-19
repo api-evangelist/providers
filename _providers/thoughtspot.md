@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -715,15 +716,17 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 33
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 58.4
+  delta: -1.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 59.7
-    developer_ergonomics: 79.9
+    contract_governance: 30.3
+    contract_quality: 57.7
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -735,9 +738,10 @@ score:
       total: 57
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/screenshots/thoughtspot-2026-08-17T082344.png
 security:
 - kind: authentication
   name: Thoughtspot Authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -207,15 +208,17 @@ overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 random_paper: 79
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 40.1
+  delta: -3.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 66.0
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 64.0
+    developer_ergonomics: 38.7
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -233,9 +236,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/screenshots/qoala-2026-08-17T081418.png
 security:
 - kind: authentication
   name: Qoala Authentication

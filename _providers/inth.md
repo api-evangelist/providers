@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Consent API from Inth — 1 operation(s) for consent.
@@ -213,16 +214,18 @@ overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
 random_paper: 137
 score:
-  band: developing
-  composite: 53.3
-  delta: 0.0
+  band: strong
+  composite: 54.3
+  delta: 1.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 57.9
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 54.3
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 53.3
   provenance:
     conformance: first-party
@@ -233,8 +236,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

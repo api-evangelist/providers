@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
@@ -150,19 +151,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 50.4
+  delta: 0.9
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 32.3
-    developer_ergonomics: 47.8
+    contract_governance: 30.3
+    contract_quality: 35.2
+    developer_ergonomics: 42.9
     discoverability: 70.4
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 42.1
   previous_composite: 49.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:
 - kind: authentication
   name: Infer By Flow7 Authentication

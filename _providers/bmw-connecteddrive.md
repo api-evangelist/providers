@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,15 +201,17 @@ overview: 'BMW ConnectedDrive publishes 2 APIs on the [APIs.io](https://apis.io/
 random_paper: 68
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 31.7
+  delta: -2.2
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 55.2
-    developer_ergonomics: 30.4
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 53.8
+    developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 33.9
   provenance:
     agentic_access: derived
@@ -217,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/screenshots/bmw-connecteddrive-2026-06-20T173542.png
 security:

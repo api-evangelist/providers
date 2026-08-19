@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 26.3
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Real-time bidding API implementing OpenRTB 2.x and Native Ads 1.2 specifications for demand partners to participate in native, banner, and video ad auctions. Supports bid request and response objects,
@@ -210,20 +211,26 @@ scopes:
   slug: triplelift-scopes
   summary_line: 51 scopes
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 37.0
+  delta: -5.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 63.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 11.3
+    developer_ergonomics: 41.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 57.9
   previous_composite: 42.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triplelift/refs/heads/main/screenshots/triplelift-2026-06-20T195728.png
 security:
 - kind: authentication

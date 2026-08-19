@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 24.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
@@ -168,19 +169,25 @@ rate_limits:
   slug: icontact-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 35.8
+  composite: 48.0
+  delta: -2.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 49.4
-    developer_ergonomics: 54.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 44.4
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 14.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 50.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
 security:
 - kind: authentication

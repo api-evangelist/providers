@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 46.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -390,7 +391,9 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
   Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
 random_paper: 101
 rules:
-- name: Amadeus Media API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amadeus Media API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -398,7 +401,10 @@ rules:
     info: 2
     warn: 3
   slug: amadeus-media-jsonschema-spectral-rules
-- name: Amadeus Media API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: Amadeus Media API Rules
   rule_count: 38
   severity_counts:
     error: 17
@@ -407,16 +413,18 @@ rules:
     warn: 15
   slug: amadeus-media-spectral-rules
 score:
-  band: developing
-  composite: 49.0
-  delta: 0.0
+  band: thin
+  composite: 27.2
+  delta: -21.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 31.3
-    developer_ergonomics: 58.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 41.7
+    contract_quality: 29.9
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -427,9 +435,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:
 - kind: authentication

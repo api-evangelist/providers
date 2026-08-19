@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -226,7 +227,9 @@ rate_limits:
   name: Scotiabank Rate Limits
   slug: scotiabank-rate-limits
 rules:
-- name: Scotiabank API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scotiabank API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +237,10 @@ rules:
     info: 1
     warn: 4
   slug: scotiabank-jsonschema-spectral-rules
-- name: Scotiabank API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Scotiabank API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -249,15 +255,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 33.4
+  delta: -5.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 70.4
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 68.4
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -272,9 +280,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png
 security:
 - kind: authentication

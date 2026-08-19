@@ -10,26 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The Clip API from UserTesting — 1 operation(s) for clip.
@@ -253,16 +253,18 @@ scopes:
   slug: usertesting-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  delta: -5.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 62.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 43.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 57.2
   provenance:
     conformance: derived
@@ -273,9 +275,10 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/screenshots/usertesting-2026-08-17T082654.png
 security:
 - kind: authentication
   name: Usertesting Authentication

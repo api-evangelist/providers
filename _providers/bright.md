@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 10.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,12 +91,14 @@ overview: 'Bright is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 44
 score:
   band: minimal
-  composite: 10.9
-  delta: 0.0
+  composite: 7.9
+  delta: -3.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -108,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright/refs/heads/main/screenshots/bright-2026-07-25T203828.png
 security:

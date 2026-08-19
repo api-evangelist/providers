@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -140,19 +141,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 20.0
-  delta: 9.9
+  composite: 19.4
+  delta: -0.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 26.2
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 10.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 20.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Webloyalty Authentication

@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -263,7 +264,9 @@ rate_limits:
   name: Sas Rate Limits
   slug: sas-rate-limits
 rules:
-- name: SAS Institute API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SAS Institute API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -271,7 +274,10 @@ rules:
     info: 2
     warn: 3
   slug: sas-jsonschema-spectral-rules
-- name: SAS Institute API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: SAS Institute API Rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -286,15 +292,17 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 43.8
+  delta: -8.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 60.4
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 56.6
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -303,9 +311,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:
 - kind: authentication

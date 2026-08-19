@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 38.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -214,15 +214,17 @@ overview: 'Cariqa publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 29
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 48.0
+  delta: 4.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 58.2
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 59.5
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -239,9 +241,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 40.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/screenshots/cariqa-2026-07-25T204619.png
 security:

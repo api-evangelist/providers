@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Transport Canada's only first-party public REST API. Returns safety-related recall records for vehicles, tires and child restraints recorded by the Defect Investigations and Recalls Division. The serv
@@ -156,15 +157,17 @@ overview: 'Transport Canada publishes 3 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 11
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.0
+  composite: 22.2
+  delta: -0.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 22.4
   provenance:
     conformance: derived
@@ -174,8 +177,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

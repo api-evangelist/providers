@@ -12,25 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -292,26 +292,31 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.9
-  delta: 26.1
+  composite: 69.1
+  delta: 2.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 68.7
-    developer_ergonomics: 80.4
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 16.7
+    contract_quality: 69.9
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 40.8
+    governance: 16.7
+    operational_transparency: 84.2
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/screenshots/google-analytics-4-2026-06-20T182011.png
 security:
 - kind: authentication

@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -261,25 +262,27 @@ scopes:
   slug: happyrobot-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 58.2
-  delta: 0.0
+  band: developing
+  composite: 44.6
+  delta: -13.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.3
-    developer_ergonomics: 75.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 54.0
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 31.6
   previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:
 - kind: authentication

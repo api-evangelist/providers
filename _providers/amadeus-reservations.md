@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -2454,7 +2455,9 @@ overview: 'Amadeus Reservations publishes 1 API on the [APIs.io](https://apis.io
   Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
 random_paper: 12
 rules:
-- name: Amadeus Reservations API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amadeus Reservations API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2462,7 +2465,10 @@ rules:
     info: 2
     warn: 3
   slug: amadeus-reservations-jsonschema-spectral-rules
-- name: Amadeus Reservations API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Amadeus Reservations API Rules
   rule_count: 23
   severity_counts:
     error: 11
@@ -2471,16 +2477,18 @@ rules:
     warn: 10
   slug: amadeus-reservations-spectral-rules
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: thin
+  composite: 32.7
+  delta: -21.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 55.0
-    developer_ergonomics: 54.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 41.7
+    contract_quality: 53.6
+    developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -2491,9 +2499,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:
 - kind: domain-security

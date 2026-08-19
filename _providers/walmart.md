@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -328,7 +329,9 @@ rate_limits:
   name: Walmart Rate Limits
   slug: walmart-rate-limits
 rules:
-- name: Walmart API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Walmart API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -336,7 +339,10 @@ rules:
     info: 2
     warn: 3
   slug: walmart-jsonschema-spectral-rules
-- name: Walmart API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Walmart API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -345,16 +351,18 @@ rules:
     warn: 6
   slug: walmart-rules
 score:
-  band: developing
-  composite: 45.4
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -8.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 65.9
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 62.8
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -363,9 +371,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:
 - kind: authentication

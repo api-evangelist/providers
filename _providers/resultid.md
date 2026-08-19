@@ -9,26 +9,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-17'
+  score: 48.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,19 +167,31 @@ rate_limits:
   slug: resultid-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 27.4
+  composite: 32.8
+  delta: -4.3
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 44.0
-    developer_ergonomics: 52.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 43.4
+    developer_ergonomics: 42.3
     discoverability: 77.8
-    governance: 20.8
-    operational_transparency: 21.1
-  previous_composite: 9.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 18.4
+  previous_composite: 37.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Resultid Authentication

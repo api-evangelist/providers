@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -203,7 +204,9 @@ rate_limits:
   name: Redis Rate Limits
   slug: redis-rate-limits
 rules:
-- name: Redis API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Redis API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,19 +216,21 @@ rules:
   slug: redis-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 31.1
+  delta: -6.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 24.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 21.1
+    developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 37.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/screenshots/redis-2026-06-20T192736.png
 security:
 - kind: domain-security

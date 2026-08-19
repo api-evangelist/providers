@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -86,7 +87,9 @@ press:
   url: https://www.stocktitan.net/sec-filings/RRX/8-k-regal-rexnord-corp-reports-material-event-31cbc937a3d0.html
 random_paper: 25
 rules:
-- name: Rexnord API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rexnord API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -95,20 +98,22 @@ rules:
     warn: 3
   slug: rexnord-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: minimal
+  composite: 9.0
+  delta: -6.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
+    contract_governance: 9.8
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rexnord/refs/heads/main/screenshots/rexnord-2026-06-20T193129.png
 security:
 - kind: domain-security

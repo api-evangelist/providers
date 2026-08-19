@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,15 +106,17 @@ rate_limits:
   slug: minerstat-rate-limits
 score:
   band: thin
-  composite: 28.2
-  delta: 0.0
+  composite: 27.1
+  delta: -1.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 55.2
+    developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 28.2
   provenance:
     agentic_access: derived
@@ -122,8 +125,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/screenshots/minerstat-2026-06-20T185609.png
 security:

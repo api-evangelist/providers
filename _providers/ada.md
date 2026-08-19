@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-08-17'
+  score: 56.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -389,7 +390,9 @@ rate_limits:
   name: Ada Rate Limits
   slug: ada-rate-limits
 rules:
-- name: Ada API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Ada API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -404,26 +407,31 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 82.3
-  delta: 33.2
+  composite: 76.2
+  delta: -6.1
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 75.2
-    developer_ergonomics: 87.0
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 55.3
+    contract_quality: 74.7
+    developer_ergonomics: 85.7
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 63.2
-  previous_composite: 49.1
+    governance: 55.3
+    operational_transparency: 60.5
+  previous_composite: 82.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
 - kind: authentication

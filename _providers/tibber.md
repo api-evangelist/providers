@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -415,7 +416,9 @@ rate_limits:
   name: Tibber Rate Limits
   slug: tibber-rate-limits
 rules:
-- name: Tibber API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tibber API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -423,7 +426,10 @@ rules:
     info: 2
     warn: 3
   slug: tibber-jsonschema-spectral-rules
-- name: Tibber API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Tibber API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -438,15 +444,17 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.4
-  delta: 0.0
+  composite: 67.0
+  delta: -0.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 75.4
-    developer_ergonomics: 52.2
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 25.0
+    contract_quality: 70.6
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 57.9
+    governance: 25.0
+    operational_transparency: 55.3
   previous_composite: 67.4
   provenance:
     agentic_access: derived
@@ -461,8 +469,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:

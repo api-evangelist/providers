@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -183,15 +184,17 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 16 more developer resources.'
 random_paper: 69
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 30.1
+  delta: -14.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 65.1
-    developer_ergonomics: 45.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 64.8
+    developer_ergonomics: 13.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 44.8
   provenance:
@@ -204,9 +207,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:
 - kind: authentication

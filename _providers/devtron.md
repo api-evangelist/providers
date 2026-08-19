@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -327,15 +327,17 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 25
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 43.7
+  delta: -0.7
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 54.5
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 52.7
+    developer_ergonomics: 53.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -347,8 +349,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:

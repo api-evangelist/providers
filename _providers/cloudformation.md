@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -775,7 +776,9 @@ rate_limits:
   name: Cloudformation Rate Limits
   slug: cloudformation-rate-limits
 rules:
-- name: AWS CloudFormation API Rules
+- effective_rule_count: 6
+  extends: []
+  name: AWS CloudFormation API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -783,7 +786,10 @@ rules:
     info: 1
     warn: 5
   slug: cloudformation-jsonschema-spectral-rules
-- name: AWS CloudFormation API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: AWS CloudFormation API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -792,16 +798,18 @@ rules:
     warn: 9
   slug: cloudformation-spectral-rules
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: -6.8
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 69.4
-    developer_ergonomics: 82.6
+    contract_governance: 25.0
+    contract_quality: 65.8
+    developer_ergonomics: 81.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 66.8
   provenance:
     agentic_access: derived
@@ -810,9 +818,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
 - kind: authentication

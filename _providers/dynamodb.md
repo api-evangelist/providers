@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -857,7 +858,10 @@ rate_limits:
   name: Dynamodb Rate Limits
   slug: dynamodb-rate-limits
 rules:
-- name: Amazon DynamoDB API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Amazon DynamoDB API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -865,7 +869,9 @@ rules:
     info: 1
     warn: 6
   slug: dynamodb-asyncapi-spectral-rules
-- name: Amazon DynamoDB API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon DynamoDB API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -873,7 +879,10 @@ rules:
     info: 2
     warn: 4
   slug: dynamodb-jsonschema-spectral-rules
-- name: Amazon DynamoDB API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Amazon DynamoDB API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -883,14 +892,16 @@ rules:
   slug: dynamodb-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 43.0
+  delta: -3.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 77.1
-    developer_ergonomics: 17.4
+    contract_governance: 28.8
+    contract_quality: 74.1
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 7.9
   previous_composite: 46.9
   provenance:
@@ -900,8 +911,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/screenshots/dynamodb-2026-06-20T180405.png
 security:

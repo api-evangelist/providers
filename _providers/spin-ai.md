@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,7 +183,9 @@ rate_limits:
   name: Spin Ai Rate Limits
   slug: spin-ai-rate-limits
 rules:
-- name: Spin.AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spin.AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +193,10 @@ rules:
     info: 1
     warn: 4
   slug: spin-ai-jsonschema-spectral-rules
-- name: Spin.AI API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Spin.AI API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -200,14 +206,16 @@ rules:
   slug: spin-ai-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 44.3
+  delta: -5.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 68.7
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 42.9
     discoverability: 66.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 49.9
   provenance:
@@ -217,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/screenshots/spin-ai-2026-06-20T194315.png
 security:
 - kind: authentication

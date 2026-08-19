@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -246,7 +247,9 @@ rate_limits:
   name: Amazon Bedrock Rate Limits
   slug: amazon-bedrock-rate-limits
 rules:
-- name: Amazon Bedrock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Bedrock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,15 +259,17 @@ rules:
   slug: amazon-bedrock-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 56.8
+  delta: -5.9
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 69.3
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 67.0
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 62.7
   provenance:
     agentic_access: derived
@@ -273,9 +278,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/screenshots/amazon-bedrock-2026-06-20T171613.png
 security:
 - kind: domain-security

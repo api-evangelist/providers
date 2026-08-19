@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -211,11 +212,13 @@ rate_limits:
   slug: chief-financial-officers-council-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 22.4
+  delta: -1.9
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 50.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 46.9
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
@@ -233,9 +236,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 14.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/screenshots/chief-financial-officers-council-2026-07-25T205215.png
 security:

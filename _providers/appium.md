@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 34.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -334,7 +335,9 @@ rate_limits:
   name: Appium Rate Limits
   slug: appium-rate-limits
 rules:
-- name: Appium API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Appium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -342,7 +345,10 @@ rules:
     info: 2
     warn: 3
   slug: appium-jsonschema-spectral-rules
-- name: Appium API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Appium API Rules
   rule_count: 30
   severity_counts:
     error: 10
@@ -352,15 +358,17 @@ rules:
   slug: appium-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 32.6
+  delta: -6.8
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 28.2
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 26.5
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -369,9 +377,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:
 - kind: domain-security

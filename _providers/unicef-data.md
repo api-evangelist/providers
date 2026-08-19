@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -331,7 +332,9 @@ rate_limits:
   name: Unicef Data Rate Limits
   slug: unicef-data-rate-limits
 rules:
-- name: UNICEF Data API Rules
+- effective_rule_count: 6
+  extends: []
+  name: UNICEF Data API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -341,14 +344,16 @@ rules:
   slug: unicef-data-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 39.0
+  delta: -2.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 54.5
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 54.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 41.4
   provenance:
@@ -361,11 +366,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -209,7 +210,10 @@ rate_limits:
   name: Shipbob Rate Limits
   slug: shipbob-rate-limits
 rules:
-- name: ShipBob API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: ShipBob API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -218,16 +222,18 @@ rules:
     warn: 4
   slug: shipbob-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -4.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 70.3
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 68.8
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -236,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/screenshots/shipbob-2026-06-20T193812.png
 security:

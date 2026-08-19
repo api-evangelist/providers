@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for AI-agent identity and payments. Buyer agents create kya, pay, and kya-pay tokens; seller agents introspect and charge tokens and manage seller services; enterprises manage users. Authenti
@@ -163,15 +164,17 @@ overview: 'Skyfire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 20
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 27.2
+  delta: -6.5
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 80.4
+    developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 33.7
   provenance:
     conformance: first-party
@@ -183,9 +186,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Skyfire Authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Upload and manage application builds under test.
@@ -180,14 +180,16 @@ overview: 'SOFY publishes 2 APIs on the [APIs.io](https://apis.io/) network: App
 random_paper: 2
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 47.7
+  delta: -2.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 72.4
-    developer_ergonomics: 56.0
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 23.7
   previous_composite: 50.3
   provenance:
@@ -199,9 +201,10 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
 security:
 - kind: authentication
   name: Sofy Authentication

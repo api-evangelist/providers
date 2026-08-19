@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Balto's Call Data API gives customers programmatic access to their historical call records so they can transfer, analyse and activate that data in a CRM, data warehouse or any system that accepts API-
@@ -149,18 +150,22 @@ rate_limits:
   slug: balto-rate-limits
 score:
   band: emerging
-  composite: 25.7
-  delta: 3.1
+  composite: 24.9
+  delta: -0.8
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 22.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 25.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/screenshots/balto-2026-07-25T202318.png
 security:

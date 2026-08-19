@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -346,7 +347,9 @@ rate_limits:
   name: Tesla Energy Rate Limits
   slug: tesla-energy-rate-limits
 rules:
-- name: Tesla Energy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tesla Energy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -354,7 +357,10 @@ rules:
     info: 1
     warn: 4
   slug: tesla-energy-jsonschema-spectral-rules
-- name: Tesla Energy API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Tesla Energy API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -369,15 +375,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 62.6
+  delta: 0.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 78.4
-    developer_ergonomics: 52.2
+    contract_governance: 9.8
+    contract_quality: 73.4
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 62.4
   provenance:
     agentic_access: derived
@@ -392,9 +400,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/screenshots/tesla-energy-2026-08-17T125758.png
 security:
 - kind: authentication
   name: Tesla Energy Authentication

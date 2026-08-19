@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -265,7 +265,9 @@ rate_limits:
   name: Email Verifier Api Rate Limits
   slug: email-verifier-api-rate-limits
 rules:
-- name: Email Verifier API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Email Verifier API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,7 +275,10 @@ rules:
     info: 2
     warn: 3
   slug: email-verifier-api-jsonschema-spectral-rules
-- name: Email Verifier API API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Email Verifier API API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -282,27 +287,32 @@ rules:
     warn: 3
   slug: email-verifier-api-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 5.1
+  band: strong
+  composite: 57.6
+  delta: -8.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 73.9
-    developer_ergonomics: 50.0
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 26.5
+    contract_quality: 69.2
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 31.6
-  previous_composite: 61.4
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
 security:
 - kind: authentication

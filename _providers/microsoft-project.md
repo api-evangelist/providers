@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -405,7 +406,9 @@ rate_limits:
   name: Microsoft Project Rate Limits
   slug: microsoft-project-rate-limits
 rules:
-- name: Microsoft Project API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Project API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -413,7 +416,10 @@ rules:
     info: 1
     warn: 4
   slug: microsoft-project-jsonschema-spectral-rules
-- name: Microsoft Project API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Microsoft Project API Rules
   rule_count: 42
   severity_counts:
     error: 23
@@ -427,16 +433,18 @@ scopes:
   slug: microsoft-project-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -6.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 30.3
-    developer_ergonomics: 41.3
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 25.0
+    contract_quality: 28.8
+    developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -445,9 +453,9 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/screenshots/microsoft-project-2026-06-20T185526.png
 security:
 - kind: authentication

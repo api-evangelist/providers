@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 47.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 203
   human_in_the_loop: 2
@@ -394,30 +395,33 @@ scopes:
   slug: vendasta-scopes
   summary_line: 73 scopes
 score:
-  band: exemplar
-  composite: 70.4
-  delta: 21.0
+  band: strong
+  composite: 64.8
+  delta: -5.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 61.0
-    developer_ergonomics: 75.5
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 61.2
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 84.2
-  previous_composite: 49.4
+    governance: 30.3
+    operational_transparency: 81.6
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 96.6
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/screenshots/vendasta-2026-08-17T080435.png
 security:
 - kind: authentication
   name: Vendasta Authentication

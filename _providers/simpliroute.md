@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for delivery visits, route plans, route optimization, vehicles, drivers, clients, invoices and lifecycle webhooks. Token-header authenticated, JSON over HTTPS, versioned at /v1.
@@ -161,23 +162,25 @@ overview: 'Simpliroute publishes 1 API on the [APIs.io](https://apis.io/) networ
   Simpliroute''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 21
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: -2.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 13.2
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 41.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

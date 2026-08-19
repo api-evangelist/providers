@@ -5,21 +5,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-08-17'
+  score: 57.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -318,18 +319,21 @@ scopes:
   slug: chili-piper-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 6.3
+  band: strong
+  composite: 66.0
+  delta: -0.5
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 68.9
-    developer_ergonomics: 65.2
+    contract_governance: 16.7
+    contract_quality: 68.2
+    developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 60.2
+    governance: 16.7
+    operational_transparency: 52.6
+  previous_composite: 66.5
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -338,9 +342,10 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png
 security:
 - kind: authentication
   name: Chili Piper Authentication

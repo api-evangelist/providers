@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
@@ -181,21 +182,25 @@ rate_limits:
   slug: voyc-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: 6.2
+  composite: 43.7
+  delta: -1.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 37.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 40.5
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 39.5
-  previous_composite: 39.4
+    governance: 18.2
+    operational_transparency: 36.8
+  previous_composite: 45.6
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/screenshots/voyc-2026-08-17T082827.png
 security:
 - kind: authentication
   name: Voyc Authentication

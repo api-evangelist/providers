@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: true
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 4.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -142,21 +143,23 @@ overview: 'Baz Technologies is profiled on the [APIs.io](https://apis.io/) netwo
 random_paper: 7
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 32.1
+  delta: -1.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 52.4
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 28.9
   previous_composite: 33.2
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baz-technologies/refs/heads/main/screenshots/baz-technologies-2026-07-25T202451.png
 security:

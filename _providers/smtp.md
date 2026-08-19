@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: RFC 5321 is the IETF standard defining the Simple Mail Transfer Protocol. It specifies the client-server protocol used to transmit email across the internet, including the command set, response codes,
@@ -120,7 +121,9 @@ rate_limits:
   name: Smtp Rate Limits
   slug: smtp-rate-limits
 rules:
-- name: SMTP API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SMTP API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -130,19 +133,27 @@ rules:
   slug: smtp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 14.1
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 9.8
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp/refs/heads/main/screenshots/smtp-2026-06-20T194059.png
 security:
 - kind: domain-security

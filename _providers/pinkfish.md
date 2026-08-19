@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-17'
+  score: 55.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -175,16 +176,18 @@ overview: 'Pinkfish publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
 random_paper: 115
 score:
-  band: developing
-  composite: 46.4
-  delta: 0.0
+  band: thin
+  composite: 33.3
+  delta: -13.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 61.2
-    developer_ergonomics: 47.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -196,9 +199,10 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/screenshots/pinkfish-2026-08-17T081239.png
 security:
 - kind: authentication
   name: Pinkfish Authentication

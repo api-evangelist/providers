@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -376,7 +377,9 @@ rate_limits:
   name: Lever Co Rate Limits
   slug: lever-co-rate-limits
 rules:
-- name: Lever API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lever API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -390,15 +393,17 @@ scopes:
   slug: lever-co-scopes
   summary_line: 22 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -5.3
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 71.2
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 42.9
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 57.9
   previous_composite: 59.4
   provenance:
@@ -408,9 +413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:
 - kind: authentication

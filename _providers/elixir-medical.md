@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The WordPress core REST API (wp/v2 namespace) served by elixirmedical.com, the Elixir Medical corporate website. It exposes the site's pages, news posts, media library, categories, tags, comments, aut
@@ -124,26 +125,36 @@ rate_limits:
   name: Elixir Medical Rate Limits
   slug: elixir-medical-rate-limits
 score:
-  band: thin
-  composite: 33.5
-  delta: 0.0
+  band: emerging
+  composite: 24.4
+  delta: -9.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 59.0
-    developer_ergonomics: 23.9
+    contract_governance: 16.7
+    contract_quality: 18.2
+    developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 33.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Elixir Medical Authentication

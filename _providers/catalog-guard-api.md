@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
@@ -145,14 +146,16 @@ rate_limits:
   slug: catalog-guard-api-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 37.8
+  delta: 0.4
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 47.0
-    developer_ergonomics: 40.8
+    contract_governance: 16.7
+    contract_quality: 44.8
+    developer_ergonomics: 42.3
     discoverability: 70.4
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 21.1
   previous_composite: 37.4
   provenance:
@@ -164,8 +167,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

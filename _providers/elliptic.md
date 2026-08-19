@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -246,12 +247,14 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 39.8
+  delta: -3.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.7
-    developer_ergonomics: 41.3
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 61.0
+    developer_ergonomics: 34.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -268,9 +271,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/screenshots/elliptic-2026-06-20T180613.png
 security:

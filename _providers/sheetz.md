@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Sheetz Distribution Services EDI and API integration capabilities enable suppliers and trading partners to exchange electronic data interchange documents including purchase orders, invoices, advance s
@@ -138,15 +139,23 @@ rate_limits:
   slug: sheetz-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 19.3
+  delta: -1.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 2.2
-    discoverability: 66.7
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 2.4
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 20.4
   regulatory:
     applies: true
@@ -154,8 +163,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/screenshots/sheetz-2026-06-20T193759.png
 security:

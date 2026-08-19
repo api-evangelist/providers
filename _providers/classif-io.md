@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Fashion Style Classification API detects and categorizes clothing items from images, including shirts, pants, dresses, and accessories, and produces stylistic labels suitable for personal styling,
@@ -86,7 +87,10 @@ rate_limits:
   name: Classif Io Rate Limits
   slug: classif-io-rate-limits
 rules:
-- name: Classif.io API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Classif.io API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -96,18 +100,20 @@ rules:
   slug: classif-io-rules
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 19.4
+  delta: 1.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 8.7
+    contract_governance: 45.5
+    contract_quality: 11.3
+    developer_ergonomics: 4.8
     discoverability: 59.3
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 17.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 slug: classif-io
 tags:

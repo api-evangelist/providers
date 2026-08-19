@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -35,10 +36,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/alkemics-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/alkemics-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/alkemics-packages.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/alkemics-well-known.yml
+  type: LLMsTxt
+  url: llms/alkemics-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/alkemics
 - group: company
   title: ''
   type: Website
@@ -71,29 +84,31 @@ created: '2026-07-17'
 description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the FMCG/grocery supply chain. Backed by investors including Partech, Cathay Innovation, and Serena, Alkemics was acquired by Salsify (a US product experience management company) in October 2020. The product now lives on as "SupplierXM by Salsify"; alkemics.com and docs.alkemics.com redirect to Salsify, and the successor developer documentation is hosted at docs.supplierxm.salsify.com. This company profile is preserved in the API Evangelist network with an honest acquisition/successor record. No independent Alkemics-owned API surface remains.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alkemics.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-17'
 name: Alkemics
 nav: Providers
 network: true
 overview: 'Alkemics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Product Content, Product Information Management, and CPG.
 
 
-  Alkemics'' developer surface includes documentation and 4 more developer resources.'
+  Alkemics'' developer surface includes documentation and 7 more developer resources.'
 random_paper: 96
 score:
   band: minimal
-  composite: 6.7
-  delta: 0.0
+  composite: 8.3
+  delta: 1.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 50.0
+    developer_ergonomics: 9.5
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 6.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkemics/refs/heads/main/screenshots/alkemics-2026-07-25T195632.png
 security:

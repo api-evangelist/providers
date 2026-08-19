@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,15 +188,17 @@ scopes:
   slug: c-hoare-and-co-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 44.1
+  delta: 2.8
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 46.8
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 45.9
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 41.3
   provenance:
@@ -213,9 +216,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 67.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,7 +215,9 @@ rate_limits:
   name: Zdnet Rate Limits
   slug: zdnet-rate-limits
 rules:
-- name: ZDNet API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ZDNet API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,7 +225,9 @@ rules:
     info: 1
     warn: 4
   slug: zdnet-jsonschema-spectral-rules
-- name: ZDNet API Rules
+- effective_rule_count: 18
+  extends: []
+  name: ZDNet API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -232,15 +237,23 @@ rules:
   slug: zdnet-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 36.3
+  delta: -2.2
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 61.4
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 25.0
+    contract_quality: 57.6
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -249,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 36.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -255,16 +256,18 @@ overview: 'Yugabyte publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   Yugabyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 129
 score:
-  band: developing
-  composite: 54.9
-  delta: 0.0
+  band: strong
+  composite: 55.4
+  delta: 0.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 54.5
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -276,9 +279,10 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/screenshots/yugabyte-2026-08-17T083024.png
 security:
 - kind: authentication
   name: Yugabyte Authentication

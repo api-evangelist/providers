@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -240,7 +241,9 @@ rate_limits:
   name: Soda Co Rate Limits
   slug: soda-co-rate-limits
 rules:
-- name: Soda API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Soda API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -250,14 +253,16 @@ rules:
   slug: soda-co-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 48.2
+  delta: -5.4
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 65.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 65.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 53.6
   provenance:
@@ -267,9 +272,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -459,7 +460,9 @@ rate_limits:
   name: Tanium Rate Limits
   slug: tanium-rate-limits
 rules:
-- name: Tanium API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tanium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -467,7 +470,10 @@ rules:
     info: 2
     warn: 3
   slug: tanium-jsonschema-spectral-rules
-- name: Tanium API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Tanium API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -477,15 +483,17 @@ rules:
   slug: tanium-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 47.2
+  delta: -8.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 64.8
-    developer_ergonomics: 56.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 63.1
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -494,9 +502,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tanium/refs/heads/main/screenshots/tanium-2026-06-20T194916.png
 security:
 - kind: authentication

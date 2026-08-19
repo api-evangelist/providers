@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The current Opendatasoft Explore REST API v2.1 scoped to the SP Electricity North West open data domain. Read-only (GET only, JSON), 16 documented paths covering catalogue search over the 146 publishe
@@ -261,15 +262,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 63.8
+  delta: 6.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.7
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 73.2
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 84.2
   previous_composite: 57.5
   provenance:
     conformance: derived
@@ -281,9 +284,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/screenshots/electricity-north-west-2026-08-07T164817.png
 security:
 - kind: authentication

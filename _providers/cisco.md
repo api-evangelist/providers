@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 48.3
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -207,6 +208,118 @@ common:
   title: ''
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/cisco
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/acacia/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/agntcy/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/appdynamics/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/broadsoft/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-aci/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-catalyst-center/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-catalyst-sdwan/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-crosswork/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-hardware/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-ise/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-meraki/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-nexus/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-psirt/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-secure-client/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-secure-firewall/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-support-apis/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-umbrella/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-voice-portal/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-xdr/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/duo-security/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/epsagon/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/intersight/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/isovalent/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/kenna-security/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/splunk/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/thousandeyes/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/valtix/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/webex/
 created: '2024-01-01'
 description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 examples:
@@ -272,7 +385,7 @@ mcp_servers:
 - description: ''
   name: cisco-mcp.yml
   slug: cisco-mcpyml
-modified: '2026-07-31'
+modified: '2026-08-19'
 name: Cisco
 nav: Providers
 network: true
@@ -282,7 +395,7 @@ overview: 'Cisco publishes 8 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Cisco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 25 more developer resources.'
+  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 53 more developer resources.'
 plans:
 - name: Cisco Plans Pricing
   plan_count: 3
@@ -293,7 +406,9 @@ rate_limits:
   name: Cisco Rate Limits
   slug: cisco-rate-limits
 rules:
-- name: Cisco API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cisco API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -301,7 +416,10 @@ rules:
     info: 2
     warn: 3
   slug: cisco-jsonschema-spectral-rules
-- name: Cisco API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Cisco API Rules
   rule_count: 18
   severity_counts:
     error: 6
@@ -311,22 +429,24 @@ rules:
   slug: cisco-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 47.2
+  delta: -7.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 53.1
-    developer_ergonomics: 65.2
+    contract_governance: 26.5
+    contract_quality: 47.8
+    developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 69.8
-    operational_transparency: 26.3
+    governance: 26.5
+    operational_transparency: 23.7
   previous_composite: 54.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:
 - kind: authentication

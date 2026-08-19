@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -272,7 +272,9 @@ rate_limits:
   name: Spike Sh Rate Limits
   slug: spike-sh-rate-limits
 rules:
-- name: Spike.sh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spike.sh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,14 +284,16 @@ rules:
   slug: spike-sh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.3
+  delta: -8.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 69.4
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 65.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 50.6
   provenance:
@@ -299,9 +303,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/screenshots/spike-sh-2026-06-20T194313.png
 security:
 - kind: authentication

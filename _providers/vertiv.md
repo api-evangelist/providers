@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -241,7 +242,10 @@ rate_limits:
   name: Vertiv Rate Limits
   slug: vertiv-rate-limits
 rules:
-- name: Vertiv API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Vertiv API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -249,7 +253,9 @@ rules:
     info: 3
     warn: 6
   slug: vertiv-environet-rules
-- name: Vertiv API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vertiv API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,15 +264,17 @@ rules:
     warn: 3
   slug: vertiv-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.9
-  delta: 0.0
+  band: developing
+  composite: 40.0
+  delta: 3.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 71.4
-    developer_ergonomics: 26.1
+    contract_governance: 54.5
+    contract_quality: 66.9
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 47.9
+    governance: 54.5
     operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
@@ -282,8 +290,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 4
@@ -445,7 +446,9 @@ rate_limits:
   name: Al Farabi Kazakh National University Rate Limits
   slug: al-farabi-kazakh-national-university-rate-limits
 rules:
-- name: Al-Farabi Kazakh National University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Al-Farabi Kazakh National University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -453,7 +456,9 @@ rules:
     info: 1
     warn: 4
   slug: al-farabi-kazakh-national-university-jsonschema-spectral-rules
-- name: Al-Farabi Kazakh National University API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Al-Farabi Kazakh National University API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -463,14 +468,16 @@ rules:
   slug: al-farabi-kazakh-national-university-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 33.7
+  delta: -6.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 54.7
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 53.1
+    developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 40.0
   provenance:
@@ -480,9 +487,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:
 - kind: authentication

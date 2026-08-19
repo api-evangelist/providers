@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-17'
+  score: 58.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -944,7 +945,9 @@ rate_limits:
   name: Birdeye Rate Limits
   slug: birdeye-rate-limits
 rules:
-- name: Birdeye API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Birdeye API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -959,26 +962,31 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 81.5
-  delta: 31.4
+  composite: 73.3
+  delta: -8.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 77.3
-    developer_ergonomics: 67.4
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 40.2
+    contract_quality: 72.5
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 76.3
-  previous_composite: 50.1
+    governance: 40.2
+    operational_transparency: 73.7
+  previous_composite: 81.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:
 - kind: authentication

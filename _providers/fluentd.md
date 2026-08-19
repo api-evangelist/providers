@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 27.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,7 +186,10 @@ rate_limits:
   name: Fluentd Rate Limits
   slug: fluentd-rate-limits
 rules:
-- name: Fluentd API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Fluentd API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,7 +197,9 @@ rules:
     info: 0
     warn: 5
   slug: fluentd-asyncapi-spectral-rules
-- name: Fluentd API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Fluentd API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -203,15 +209,17 @@ rules:
   slug: fluentd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 35.1
+  delta: -6.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.4
-    developer_ergonomics: 26.1
-    discoverability: 53.7
-    governance: 52.1
-    operational_transparency: 39.5
+    contract_governance: 11.4
+    contract_quality: 61.7
+    developer_ergonomics: 28.6
+    discoverability: 46.3
+    governance: 11.4
+    operational_transparency: 36.8
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -220,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/screenshots/fluentd-2026-06-20T181334.png
 security:
 - kind: domain-security

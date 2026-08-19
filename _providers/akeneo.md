@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -217,15 +218,17 @@ scopes:
   summary_line: 36 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 31.7
+  delta: -1.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 52.2
-    developer_ergonomics: 30.4
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -234,8 +237,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeneo/refs/heads/main/screenshots/akeneo-2026-06-20T171448.png
 security:

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 47.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -1451,7 +1452,10 @@ rate_limits:
   name: Autodesk Rate Limits
   slug: autodesk-rate-limits
 rules:
-- name: Autodesk API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Autodesk API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -1459,7 +1463,9 @@ rules:
     info: 1
     warn: 4
   slug: autodesk-asyncapi-spectral-rules
-- name: Autodesk API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Autodesk API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1473,16 +1479,18 @@ scopes:
   slug: autodesk-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 68.0
-  delta: 0.0
+  band: strong
+  composite: 59.6
+  delta: -8.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 78.0
-    developer_ergonomics: 71.7
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 30.3
+    contract_quality: 75.3
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 59.4
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 68.0
   provenance:
     agentic_access: derived
@@ -1493,9 +1501,9 @@ score:
       marker_coverage: 0.0
       total: 48
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -216,7 +217,9 @@ rate_limits:
   name: Waste Management Rate Limits
   slug: waste-management-rate-limits
 rules:
-- name: Waste Management API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Waste Management API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,7 +227,10 @@ rules:
     info: 2
     warn: 3
   slug: waste-management-jsonschema-spectral-rules
-- name: Waste Management API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Waste Management API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -235,14 +241,16 @@ rules:
   slug: waste-management-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 34.6
+  delta: -5.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 70.9
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 67.0
+    developer_ergonomics: 21.4
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 40.5
   provenance:
@@ -252,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png
 security:
 - kind: authentication

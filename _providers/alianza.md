@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 39.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -536,16 +537,18 @@ overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network,
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 23 more developer resources.'
 random_paper: 140
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 35.4
+  delta: -7.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 53.5
-    developer_ergonomics: 62.5
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -562,10 +565,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 30.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:
 - kind: authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Push data directly into the Aisera platform from any external system that supports webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header plus an OAuth 2.0 password-grant
@@ -174,17 +175,19 @@ score:
   composite: 44.9
   delta: 0.0
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 51.6
-    developer_ergonomics: 47.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 52.4
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 57.9
   previous_composite: 44.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aisera/refs/heads/main/screenshots/aisera-2026-07-25T195449.png
 security:

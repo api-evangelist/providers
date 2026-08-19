@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 49.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -526,7 +527,10 @@ rate_limits:
   name: Beehiiv Rate Limits
   slug: beehiiv-rate-limits
 rules:
-- name: beehiiv API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: beehiiv API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -534,7 +538,9 @@ rules:
     info: 0
     warn: 6
   slug: beehiiv-asyncapi-spectral-rules
-- name: beehiiv API Rules
+- effective_rule_count: 5
+  extends: []
+  name: beehiiv API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -549,26 +555,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.7
-  delta: 20.9
+  composite: 73.5
+  delta: -0.2
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 76.4
-    developer_ergonomics: 78.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 41.7
+    contract_quality: 73.5
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 62.5
-    operational_transparency: 57.9
-  previous_composite: 52.8
+    governance: 41.7
+    operational_transparency: 55.3
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 96.2
       derived: 0
       marker_coverage: 0.0
-      total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 26
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:
 - kind: authentication

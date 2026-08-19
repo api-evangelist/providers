@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 880
   human_in_the_loop: 1
@@ -200,15 +201,17 @@ rate_limits:
   slug: netbox-rate-limits
 score:
   band: thin
-  composite: 28.8
-  delta: 0.0
+  composite: 29.5
+  delta: 0.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 47.0
-    developer_ergonomics: 23.9
+    contract_governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 28.8
   provenance:
     agentic_access: derived
@@ -217,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/screenshots/netbox-2026-08-07T184926.png
 security:

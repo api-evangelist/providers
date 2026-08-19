@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -288,7 +289,10 @@ rate_limits:
   name: Strapi Rate Limits
   slug: strapi-rate-limits
 rules:
-- name: Strapi API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Strapi API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -296,7 +300,9 @@ rules:
     info: 1
     warn: 3
   slug: strapi-asyncapi-spectral-rules
-- name: Strapi API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Strapi API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -304,7 +310,10 @@ rules:
     info: 2
     warn: 4
   slug: strapi-jsonschema-spectral-rules
-- name: Strapi API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Strapi API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -314,14 +323,16 @@ rules:
   slug: strapi-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 42.6
+  delta: -4.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 68.4
-    developer_ergonomics: 26.1
+    contract_governance: 13.6
+    contract_quality: 67.1
+    developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 34.2
   previous_composite: 46.6
   provenance:
@@ -331,8 +342,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png
 security:

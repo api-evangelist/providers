@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Tape D is NPM's private-company pricing and valuation dataset — real-time private market pricing integrating primary round data, secondary market transactions, mutual fund marks and 409A valuations ac
@@ -154,15 +155,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 32.9
+  delta: -1.0
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 37.0
+    developer_ergonomics: 40.5
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: venue_as_website
   previous_composite: 33.9
   provenance:
     conformance: first-party
@@ -172,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-private-market/refs/heads/main/screenshots/nasdaq-private-market-2026-08-07T184636.png
 security:

@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 57.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
@@ -213,27 +213,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.0
-  delta: 14.4
+  composite: 51.7
+  delta: -1.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 15.3
-    developer_ergonomics: 58.7
+    contract_governance: 30.3
+    contract_quality: 14.6
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 68.4
-  previous_composite: 38.6
+    governance: 30.3
+    operational_transparency: 65.8
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png
 security:
 - kind: authentication
   name: Searchapi Authentication

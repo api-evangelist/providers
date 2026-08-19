@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 43.7
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: Alert configuration and monitoring
@@ -276,14 +277,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 52.5
+  delta: -0.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 54.6
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 51.9
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 52.6
   provenance:
@@ -295,8 +298,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 56.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -217,15 +218,17 @@ overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 88
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 50.5
+  delta: -3.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 65.4
-    developer_ergonomics: 73.9
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 65.1
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -237,9 +240,10 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/screenshots/yutori-2026-08-17T083028.png
 security:
 - kind: authentication
   name: Yutori Authentication

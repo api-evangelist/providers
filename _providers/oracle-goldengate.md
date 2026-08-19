@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -4136,7 +4137,9 @@ rate_limits:
   name: Oracle Goldengate Rate Limits
   slug: oracle-goldengate-rate-limits
 rules:
-- name: Oracle GoldenGate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle GoldenGate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4144,7 +4147,10 @@ rules:
     info: 2
     warn: 3
   slug: oracle-goldengate-jsonschema-spectral-rules
-- name: Oracle GoldenGate API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Oracle GoldenGate API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -4153,16 +4159,18 @@ rules:
     warn: 7
   slug: oracle-goldengate-spectral-rules
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -7.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.1
-    developer_ergonomics: 50.0
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 67.9
+    developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -4171,9 +4179,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:
 - kind: authentication

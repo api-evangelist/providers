@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -250,14 +251,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 43.2
+  delta: 0.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 43.6
-    developer_ergonomics: 49.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 45.8
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 42.8
   provenance:
@@ -270,8 +273,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:

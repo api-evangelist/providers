@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 24.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
@@ -122,7 +123,7 @@ common:
   url: data-model/tzafon-data-model.yml
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://github.com/tzafon/lightcone/tree/main/examples
 - group: build
   title: ''
@@ -159,7 +160,7 @@ network: true
 overview: 'Tzafon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Use Agents, Browser Automation, and AI Agents.
 
 
-  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, pricing, and 20 more developer resources.'
+  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 20 more developer resources.'
 random_paper: 62
 rate_limits:
 - limit_count: 0
@@ -167,21 +168,23 @@ rate_limits:
   slug: tzafon-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 34.2
+  delta: -1.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 71.7
+    contract_governance: 18.2
+    contract_quality: 1.4
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

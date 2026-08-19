@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -218,15 +219,17 @@ rate_limits:
   slug: cofactr-rate-limits
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 48.6
+  delta: -2.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 71.6
-    developer_ergonomics: 66.8
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 69.2
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -238,8 +241,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:

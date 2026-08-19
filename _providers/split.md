@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -508,7 +509,9 @@ rate_limits:
   name: Split Rate Limits
   slug: split-rate-limits
 rules:
-- name: Split API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Split API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -516,7 +519,10 @@ rules:
     info: 2
     warn: 4
   slug: split-jsonschema-spectral-rules
-- name: Split API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Split API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -526,15 +532,17 @@ rules:
   slug: split-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 41.9
+  delta: -9.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.5
-    developer_ergonomics: 34.8
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 25.0
+    contract_quality: 64.6
+    developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -543,9 +551,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:
 - kind: authentication

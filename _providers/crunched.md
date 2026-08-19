@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,13 +86,15 @@ overview: 'Crunched is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Crunched''s developer surface includes documentation, support, and 8 more developer resources.'
 random_paper: 99
 score:
-  band: emerging
-  composite: 19.2
-  delta: 0.0
+  band: minimal
+  composite: 7.0
+  delta: -12.2
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 9.5
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -101,10 +104,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 7.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunched/refs/heads/main/screenshots/crunched-2026-07-25T210821.png
 security:
 - kind: domain-security

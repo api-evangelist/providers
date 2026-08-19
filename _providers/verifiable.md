@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -388,15 +388,17 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
 random_paper: 6
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 5.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 65.1
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 65.6
+    developer_ergonomics: 66.1
     discoverability: 63.0
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 57.9
   previous_composite: 51.1
   provenance:
@@ -415,9 +417,10 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:
 - kind: authentication
   name: Verifiable Authentication

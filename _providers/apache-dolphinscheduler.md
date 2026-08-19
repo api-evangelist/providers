@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -205,7 +206,9 @@ rate_limits:
   name: Apache Dolphinscheduler Rate Limits
   slug: apache-dolphinscheduler-rate-limits
 rules:
-- name: Apache DolphinScheduler API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache DolphinScheduler API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,20 +217,22 @@ rules:
     warn: 3
   slug: apache-dolphinscheduler-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  delta: -12.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 29.6
+    developer_ergonomics: 16.7
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/screenshots/apache-dolphinscheduler-2026-06-20T172053.png
 security:
 - kind: domain-security

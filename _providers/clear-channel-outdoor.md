@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'REST API for the CCO.IO Automated Direct platform at direct.cco.io. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, '
@@ -226,7 +227,10 @@ rate_limits:
   name: Clear Channel Outdoor Rate Limits
   slug: clear-channel-outdoor-rate-limits
 rules:
-- name: Clear Channel Outdoor API Rules
+- effective_rule_count: 7
+  extends:
+  - '@stoplight/spectral-rulesets/oas'
+  name: Clear Channel Outdoor API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -234,7 +238,9 @@ rules:
     info: 0
     warn: 2
   slug: clear-channel-outdoor-direct-rules
-- name: Clear Channel Outdoor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Clear Channel Outdoor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,15 +250,17 @@ rules:
   slug: clear-channel-outdoor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 40.8
+  delta: -2.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 74.2
-    developer_ergonomics: 17.4
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 45.5
+    contract_quality: 64.8
+    developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 31.3
-    operational_transparency: 26.3
+    governance: 45.5
+    operational_transparency: 23.7
   previous_composite: 43.6
   provenance:
     contracts:
@@ -260,8 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
 security:

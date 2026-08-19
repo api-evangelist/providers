@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,16 +232,18 @@ overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
   Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 112
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -3.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 59.5
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 56.4
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -252,9 +255,10 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/screenshots/unito-2026-08-17T082614.png
 security:
 - kind: authentication
   name: Unito Authentication

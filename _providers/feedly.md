@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-17'
+  score: 59.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API over api.feedly.com/v3 for the Feedly Threat Intelligence platform. Collect articles from AI Feeds, Folders and Boards by streamId; search and query the corpus with the Ask AI (RAG) endpoints
@@ -335,20 +336,32 @@ rate_limits:
   name: Feedly Rate Limits
   slug: feedly-rate-limits
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 0.0
+  band: strong
+  composite: 58.0
+  delta: -9.2
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 62.7
-    developer_ergonomics: 65.2
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 30.3
+    contract_quality: 62.2
+    developer_ergonomics: 51.2
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 84.2
+    governance: 30.3
+    operational_transparency: 47.4
   previous_composite: 67.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:
 - kind: authentication
   name: Feedly Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,6 +91,10 @@ collections:
   name: Cisco Webex Control Hub Admin API
   slug: open-cisco-control-hub
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/webex/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -119,7 +124,7 @@ jsonld:
   property_count: 7
   slug: cisco-control-hub-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-19'
 name: Cisco Control Hub
 nav: Providers
 network: true
@@ -129,7 +134,7 @@ overview: 'Cisco Control Hub publishes 7 APIs on the [APIs.io](https://apis.io/)
   The Cisco Control Hub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cisco Control Hub''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  Cisco Control Hub''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Cisco Control Hub Plans Pricing
   plan_count: 3
@@ -140,7 +145,10 @@ rate_limits:
   name: Cisco Control Hub Rate Limits
   slug: cisco-control-hub-rate-limits
 rules:
-- name: Cisco Control Hub API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Cisco Control Hub API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -149,27 +157,29 @@ rules:
     warn: 4
   slug: cisco-control-hub-rules
 score:
-  band: thin
-  composite: 32.2
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 13.0
+    contract_governance: 54.5
+    contract_quality: 19.9
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 27.1
+    governance: 54.5
     operational_transparency: 7.9
   previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 7
+      marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/screenshots/cisco-control-hub-2026-06-20T174357.png
 security:
 - kind: authentication

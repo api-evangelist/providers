@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Microsoft Power Automate is a cloud-based workflow automation platform that lets organizations build automated workflows, robotic process automation, business process flows, and AI-assisted automation
@@ -148,18 +149,20 @@ rate_limits:
   slug: power-automate-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 26.4
+  delta: -4.1
   facets:
-    commercial_clarity: 68.4
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 23.7
   previous_composite: 30.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-automate/refs/heads/main/screenshots/power-automate-2026-06-20T192028.png
 security:

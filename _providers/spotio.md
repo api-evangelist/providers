@@ -14,22 +14,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-17'
+  score: 51.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -460,18 +461,31 @@ rate_limits:
 score:
   band: strong
   composite: 62.1
-  delta: 45.0
+  delta: 0.0
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 59.6
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 62.6
+    developer_ergonomics: 66.1
     discoverability: 57.4
-    governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 17.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 30.3
+    operational_transparency: 42.1
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/screenshots/spotio-2026-08-17T082034.png
 security:
 - kind: authentication
   name: Spotio Authentication

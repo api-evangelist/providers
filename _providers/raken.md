@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Raken Public API 3.0 is a REST API protected by OAuth 2.0 that exposes the core entities of the Raken construction field-management platform: projects (and their child projects, notes, members, produc'
@@ -226,18 +227,20 @@ overview: 'Raken publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 82
 score:
   band: emerging
-  composite: 24.7
-  delta: 0.0
+  composite: 23.5
+  delta: -1.2
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 28.9
   previous_composite: 24.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raken/refs/heads/main/screenshots/raken-2026-06-20T192540.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 16.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
@@ -167,22 +168,24 @@ overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 45
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 32.0
+  delta: 0.1
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 31.6
+    governance: 4.5
+    operational_transparency: 28.9
   previous_composite: 31.9
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/screenshots/exedev-2026-07-25T213854.png
 security:

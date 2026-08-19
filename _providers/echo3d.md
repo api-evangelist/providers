@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -183,21 +184,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 43.7
+  delta: -2.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 13.2
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 46.1
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
 security:

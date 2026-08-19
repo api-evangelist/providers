@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -257,29 +258,31 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.2
-  delta: 14.3
+  composite: 63.2
+  delta: -1.0
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 72.4
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 49.9
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 3
+      marker_coverage: 100.0
+      total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:
 - kind: authentication

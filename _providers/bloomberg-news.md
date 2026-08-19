@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Provides access to real-time and historical market data including stocks, bonds, commodities, and currencies through the Bloomberg Terminal and enterprise data feeds.
@@ -157,7 +158,9 @@ rate_limits:
   name: Bloomberg News Rate Limits
   slug: bloomberg-news-rate-limits
 rules:
-- name: Bloomberg News API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Bloomberg News API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -167,15 +170,17 @@ rules:
   slug: bloomberg-news-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 26.7
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 23.9
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 34.5
   regulatory:
     applies: true
@@ -183,9 +188,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-news/refs/heads/main/screenshots/bloomberg-news-2026-06-20T173445.png
 security:
 - kind: domain-security

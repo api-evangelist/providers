@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -159,14 +160,16 @@ rate_limits:
   slug: maison-safqa-holdings-limited-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 37.2
+  delta: 0.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 56.7
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 44.6
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 21.1
   previous_composite: 36.6
   provenance:
@@ -179,8 +182,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

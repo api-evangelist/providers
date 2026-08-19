@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -482,7 +483,10 @@ rate_limits:
   name: Refinitiv Rate Limits
   slug: refinitiv-rate-limits
 rules:
-- name: Refinitiv API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Refinitiv API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -490,7 +494,9 @@ rules:
     info: 2
     warn: 5
   slug: refinitiv-asyncapi-spectral-rules
-- name: Refinitiv API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Refinitiv API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -498,7 +504,10 @@ rules:
     info: 2
     warn: 4
   slug: refinitiv-jsonschema-spectral-rules
-- name: Refinitiv API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Refinitiv API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -508,15 +517,17 @@ rules:
   slug: refinitiv-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 43.3
+  delta: -7.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 74.4
-    developer_ergonomics: 45.7
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 28.8
+    contract_quality: 73.1
+    developer_ergonomics: 47.6
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 28.8
+    operational_transparency: 7.9
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -525,9 +536,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png
 security:
 - kind: authentication

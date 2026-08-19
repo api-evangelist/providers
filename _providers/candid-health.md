@@ -15,22 +15,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -674,7 +675,9 @@ rate_limits:
   name: Candid Health Rate Limits
   slug: candid-health-rate-limits
 rules:
-- name: Candid Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Candid Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -684,32 +687,37 @@ rules:
   slug: candid-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 20.5
+  composite: 63.3
+  delta: -1.4
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 59.1
-    developer_ergonomics: 80.4
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 37.1
+    contract_quality: 60.5
+    developer_ergonomics: 73.2
     discoverability: 57.4
-    governance: 77.1
-    operational_transparency: 50.0
-  previous_composite: 44.2
+    governance: 37.1
+    operational_transparency: 47.4
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 48
+      total: 56
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 21.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 8
 common:
@@ -162,19 +163,30 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.1
-  delta: 13.9
+  composite: 19.2
+  delta: -0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 6.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 20.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/screenshots/cerenovus-2026-07-25T204948.png
 security:
 - kind: authentication

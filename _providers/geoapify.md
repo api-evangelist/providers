@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,16 +184,18 @@ rate_limits:
   name: Geoapify Rate Limits
   slug: geoapify-rate-limits
 score:
-  band: thin
-  composite: 35.2
-  delta: 0.0
+  band: emerging
+  composite: 25.6
+  delta: -9.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.0
-    developer_ergonomics: 19.6
-    discoverability: 63.0
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 2.4
+    discoverability: 55.6
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -201,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/screenshots/geoapify-2026-06-20T181748.png
 security:
 - kind: domain-security

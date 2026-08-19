@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -139,18 +140,22 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 18.7
-  delta: 0.0
+  composite: 18.4
+  delta: -0.3
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 18.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firefly/refs/heads/main/screenshots/firefly-2026-07-25T214553.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
@@ -234,15 +235,17 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 17
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 43.9
+  delta: -4.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 61.7
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 59.6
+    developer_ergonomics: 58.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 48.6
   provenance:
     conformance: derived
@@ -253,9 +256,10 @@ score:
       total: 11
     mcp: first-party
     skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/screenshots/tollbit-2026-08-17T082402.png
 security:
 - kind: authentication
   name: Tollbit Authentication

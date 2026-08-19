@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -202,15 +202,17 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 61
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 51.0
+  delta: 0.1
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 63.7
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 64.1
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 50.9
   provenance:
     conformance: derived
@@ -221,9 +223,10 @@ score:
       total: 5
     mcp: first-party
     skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/screenshots/testerarmy-2026-08-17T082329.png
 security:
 - kind: authentication
   name: Testerarmy Authentication

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Citigroup's group-level institutional API platform (Citi Developer Experience / CitiConnect, from Treasury and Trade Solutions) that Citi Canada's corporate and institutional clients integrate with fo
@@ -74,15 +75,17 @@ overview: 'Citibank Canada publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 141
 score:
   band: minimal
-  composite: 12.9
-  delta: 0.0
+  composite: 10.1
+  delta: -2.8
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 12.9
   regulatory:
     applies: true
@@ -90,8 +93,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/screenshots/citibank-canada-2026-07-25T205424.png
 security:

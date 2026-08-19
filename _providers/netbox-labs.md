@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-17'
+  score: 20.6
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
@@ -245,12 +246,14 @@ score:
   composite: 52.2
   delta: 0.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 47.0
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 49.2
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 52.2
   provenance:
     conformance: derived
@@ -261,8 +264,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png
 security:

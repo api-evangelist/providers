@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -157,15 +158,17 @@ overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 136
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 37.7
+  delta: 2.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 50.0
-    developer_ergonomics: 36.4
+    contract_governance: 12.1
+    contract_quality: 49.0
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 5.3
+    governance: 12.1
+    operational_transparency: 2.6
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -183,8 +186,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

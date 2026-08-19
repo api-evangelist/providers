@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Resurface captures complete API request and response data in real time, providing full-payload API call logging with no sampling. Security teams use it to detect threats, identify data leaks, and ensu
@@ -142,7 +143,9 @@ rate_limits:
   name: Resurface Rate Limits
   slug: resurface-rate-limits
 rules:
-- name: Resurface API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Resurface API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -151,20 +154,22 @@ rules:
     warn: 4
   slug: resurface-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.2
-  delta: 0.0
+  band: emerging
+  composite: 23.6
+  delta: -10.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 27.4
-    developer_ergonomics: 15.2
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 25.0
+    contract_quality: 23.9
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 34.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/screenshots/resurface-2026-06-20T193038.png
 security:
 - kind: domain-security

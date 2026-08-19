@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,7 +232,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: PancakeSwap API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PancakeSwap API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,15 +244,17 @@ rules:
   slug: pancakeswap-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 41.8
+  delta: -5.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.1
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 61.8
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -264,9 +269,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/screenshots/pancakeswap-2026-06-20T191335.png
 security:
 - kind: domain-security

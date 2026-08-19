@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -985,7 +986,9 @@ rate_limits:
   name: Sap Sales And Distribution Sd Rate Limits
   slug: sap-sales-and-distribution-sd-rate-limits
 rules:
-- name: SAP Sales and Distribution (SD) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SAP Sales and Distribution (SD) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -993,7 +996,10 @@ rules:
     info: 1
     warn: 4
   slug: sap-sales-and-distribution-sd-jsonschema-spectral-rules
-- name: SAP Sales and Distribution (SD) API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: SAP Sales and Distribution (SD) API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -1008,15 +1014,17 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 43.6
+  delta: -11.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.7
-    developer_ergonomics: 56.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 64.9
+    developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -1025,9 +1033,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:
 - kind: authentication

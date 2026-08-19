@@ -14,22 +14,23 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -420,7 +421,10 @@ rate_limits:
   name: Jefferson Health Rate Limits
   slug: jefferson-health-rate-limits
 rules:
-- name: Jefferson Health API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Jefferson Health API Rules
   rule_count: 4
   severity_counts:
     error: 3
@@ -428,7 +432,9 @@ rules:
     info: 0
     warn: 1
   slug: jefferson-health-jhp-provider-directory-fhir-rules
-- name: Jefferson Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Jefferson Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -436,7 +442,10 @@ rules:
     info: 2
     warn: 3
   slug: jefferson-health-jsonschema-spectral-rules
-- name: Jefferson Health API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Jefferson Health API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -450,32 +459,37 @@ scopes:
   slug: jefferson-health-scopes
   summary_line: 15 scopes · authorizationCode
 score:
-  band: strong
-  composite: 61.1
-  delta: 17.3
+  band: exemplar
+  composite: 72.2
+  delta: 11.1
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 63.5
-    developer_ergonomics: 58.7
+    contract_governance: 90.9
+    contract_quality: 59.9
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 52.1
-    operational_transparency: 5.3
-  previous_composite: 43.8
+    governance: 90.9
+    operational_transparency: 2.6
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 16
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png
 security:

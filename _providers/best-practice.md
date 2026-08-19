@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -196,15 +197,17 @@ overview: 'Best Practice Software publishes 3 APIs on the [APIs.io](https://apis
 random_paper: 126
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 53.7
+  delta: 5.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 71.9
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 69.5
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 31.6
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -221,10 +224,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:
 - kind: authentication

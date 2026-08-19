@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -357,7 +358,10 @@ overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://ap
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 30 more developer resources.'
 random_paper: 112
 rules:
-- name: Flowdock (Discontinued) API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Flowdock (Discontinued) API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -365,7 +369,9 @@ rules:
     info: 0
     warn: 4
   slug: flowdock-asyncapi-spectral-rules
-- name: Flowdock (Discontinued) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Flowdock (Discontinued) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -373,7 +379,10 @@ rules:
     info: 1
     warn: 4
   slug: flowdock-jsonschema-spectral-rules
-- name: Flowdock (Discontinued) API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Flowdock (Discontinued) API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -388,14 +397,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 35.4
+  delta: -4.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 67.4
-    developer_ergonomics: 45.7
+    contract_governance: 26.5
+    contract_quality: 63.7
+    developer_ergonomics: 44.0
     discoverability: 68.5
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 5.3
   previous_composite: 39.8
   provenance:
@@ -405,8 +416,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:

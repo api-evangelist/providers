@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: eHealth's partner-facing developer API for embedding health-insurance shopping, quoting, and enrollment. Access is gated behind the eHealth developer portal (registration/login required); no public Op
@@ -70,12 +71,14 @@ overview: 'eHealth publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 135
 score:
   band: minimal
-  composite: 11.6
-  delta: 0.0
+  composite: 6.9
+  delta: -4.7
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
@@ -86,8 +89,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

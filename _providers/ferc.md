@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 46.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -236,14 +237,16 @@ rate_limits:
   slug: ferc-rate-limits
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 51.5
+  delta: 7.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 33.9
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 32.4
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 47.4
   previous_composite: 43.7
   provenance:
@@ -261,10 +264,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 59.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png
 security:
 - kind: authentication

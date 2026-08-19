@@ -10,26 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,17 +217,19 @@ rate_limits:
   name: Golden Recursion Rate Limits
   slug: golden-recursion-rate-limits
 score:
-  band: strong
-  composite: 56.2
-  delta: 9.3
+  band: developing
+  composite: 41.5
+  delta: -14.7
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 58.2
-    developer_ergonomics: 60.3
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
-  previous_composite: 46.9
+    governance: 16.7
+    operational_transparency: 34.2
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,9 +240,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:
 - kind: authentication

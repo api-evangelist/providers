@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -378,7 +379,10 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   StatsD''s developer surface includes GitHub presence, changelog, and 49 more developer resources.'
 random_paper: 63
 rules:
-- name: StatsD API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: StatsD API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -386,7 +390,10 @@ rules:
     info: 2
     warn: 4
   slug: statsd-admin-interface-rules
-- name: StatsD API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: StatsD API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -394,7 +401,9 @@ rules:
     info: 0
     warn: 6
   slug: statsd-asyncapi-spectral-rules
-- name: StatsD API Rules
+- effective_rule_count: 5
+  extends: []
+  name: StatsD API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -404,15 +413,17 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 32.1
+  delta: -1.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 66.2
-    developer_ergonomics: 15.2
+    contract_governance: 54.5
+    contract_quality: 62.6
+    developer_ergonomics: 16.7
     discoverability: 59.3
-    governance: 47.9
-    operational_transparency: 21.1
+    governance: 54.5
+    operational_transparency: 5.3
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -421,8 +432,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

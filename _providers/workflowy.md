@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Create, read, update, move, complete, and delete outline nodes.
@@ -181,15 +181,17 @@ overview: 'Workflowy publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 118
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 47.6
+  delta: -0.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 61.9
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 48.1
   provenance:
     conformance: derived
@@ -200,9 +202,10 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/screenshots/workflowy-2026-08-17T083141.png
 security:
 - kind: authentication
   name: Workflowy Authentication

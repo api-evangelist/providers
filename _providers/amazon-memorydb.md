@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -365,7 +366,9 @@ rate_limits:
   name: Amazon Memorydb Rate Limits
   slug: amazon-memorydb-rate-limits
 rules:
-- name: Amazon MemoryDB API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon MemoryDB API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -373,7 +376,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-memorydb-jsonschema-spectral-rules
-- name: Amazon MemoryDB API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon MemoryDB API Rules
   rule_count: 26
   severity_counts:
     error: 9
@@ -383,15 +389,17 @@ rules:
   slug: amazon-memorydb-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 40.9
+  delta: -4.2
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 23.5
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 25.5
+    developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -400,8 +408,8 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/screenshots/amazon-memorydb-2026-06-20T171744.png
 security:

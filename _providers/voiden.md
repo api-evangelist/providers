@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Voiden is a desktop application (Electron/TypeScript) for API design, testing, and documentation using .void file format — plain Markdown with structured request blocks. Features reusable blocks with '
@@ -122,7 +123,9 @@ rate_limits:
   name: Voiden Rate Limits
   slug: voiden-rate-limits
 rules:
-- name: Voiden API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Voiden API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -132,19 +135,21 @@ rules:
   slug: voiden-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 19.3
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 19.7
+    developer_ergonomics: 2.4
     discoverability: 66.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 25.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png
 security:
 - kind: domain-security

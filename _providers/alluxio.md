@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: S3-compatible REST API exposed by every Alluxio worker (HTTP port 29998, HTTPS 29996) that lets applications built for Amazon S3 read and write cached data without code changes. Path-style requests on
@@ -122,19 +123,21 @@ overview: 'Alluxio publishes 1 API on the [APIs.io](https://apis.io/) network. T
   Alluxio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
 random_paper: 21
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 26.7
+  delta: 0.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 64.3
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 25.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alluxio/refs/heads/main/screenshots/alluxio-2026-07-25T195727.png
 security:

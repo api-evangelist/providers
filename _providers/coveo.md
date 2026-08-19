@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -1718,7 +1719,9 @@ rate_limits:
   name: Coveo Rate Limits
   slug: coveo-rate-limits
 rules:
-- name: Coveo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Coveo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1726,7 +1729,10 @@ rules:
     info: 2
     warn: 3
   slug: coveo-jsonschema-spectral-rules
-- name: Coveo API Rules
+- effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Coveo API Rules
   rule_count: 48
   severity_counts:
     error: 12
@@ -1741,14 +1747,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 45.8
+  delta: -8.5
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 70.4
-    developer_ergonomics: 58.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 68.9
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 54.3
   provenance:
@@ -1758,9 +1766,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 152
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:
 - kind: authentication

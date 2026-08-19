@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners programmatic access to detected threats, attack cases, abuse mailbox submissions, account t
@@ -155,18 +156,20 @@ rate_limits:
   slug: abnormal-security-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 23.4
+  delta: -1.7
   facets:
-    commercial_clarity: 57.9
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/screenshots/abnormal-security-2026-06-20T163301.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'Traffic Access Control defines the `TrafficTarget` resource, which associates a set of traffic rules with a service identity allocated to a group of pods. It is the authorization layer of SMI: which s'
@@ -202,7 +203,9 @@ overview: 'Service Mesh Interface (SMI) publishes 4 APIs on the [APIs.io](https:
   Service Mesh Interface (SMI)''s developer surface includes code examples and 26 more developer resources.'
 random_paper: 131
 rules:
-- name: Service Mesh Interface (SMI) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Service Mesh Interface (SMI) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,14 +215,16 @@ rules:
   slug: service-mesh-interface-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 16.7
+  delta: -6.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 29.0
-    developer_ergonomics: 6.5
+    contract_governance: 25.0
+    contract_quality: 26.8
+    developer_ergonomics: 7.1
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 22.9
   regulatory:
@@ -228,9 +233,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-mesh-interface/refs/heads/main/screenshots/service-mesh-interface-2026-06-20T193726.png
 security:
 - kind: domain-security

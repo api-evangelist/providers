@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 43.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,15 +207,17 @@ overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
 random_paper: 108
 score:
-  band: emerging
-  composite: 22.4
-  delta: 0.0
+  band: thin
+  composite: 26.9
+  delta: 4.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 15.1
-    developer_ergonomics: 21.2
+    contract_governance: 12.1
+    contract_quality: 14.7
+    developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 0.0
   previous_composite: 22.4
   provenance:
@@ -232,9 +235,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 57.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:

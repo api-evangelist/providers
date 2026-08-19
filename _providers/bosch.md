@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Bosch IoT Remote Manager enables management, updating, control, and servicing of IoT devices throughout their lifecycle. The service provides remote device administration, monitoring, and configuratio
@@ -125,19 +126,21 @@ overview: 'Bosch publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
   Bosch''s developer surface includes developer portal and 8 more developer resources.'
 random_paper: 80
 score:
-  band: minimal
-  composite: 12.1
-  delta: 0.0
+  band: emerging
+  composite: 11.5
+  delta: -0.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 12.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bosch/refs/heads/main/screenshots/bosch-2026-06-20T173611.png
 security:

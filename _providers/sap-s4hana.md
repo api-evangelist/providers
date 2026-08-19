@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -409,7 +410,9 @@ rate_limits:
   name: Sap S4Hana Rate Limits
   slug: sap-s4hana-rate-limits
 rules:
-- name: SAP S/4HANA API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP S/4HANA API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -417,7 +420,10 @@ rules:
     info: 1
     warn: 5
   slug: sap-s4hana-jsonschema-spectral-rules
-- name: SAP S/4HANA API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: SAP S/4HANA API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -431,16 +437,18 @@ scopes:
   slug: sap-s4hana-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 50.7
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -13.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 78.4
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 74.1
+    developer_ergonomics: 14.3
     discoverability: 48.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -449,9 +457,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png
 security:
 - kind: authentication

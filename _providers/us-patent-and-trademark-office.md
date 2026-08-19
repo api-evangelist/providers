@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -190,7 +191,9 @@ rate_limits:
   name: Us Patent And Trademark Office Rate Limits
   slug: us-patent-and-trademark-office-rate-limits
 rules:
-- name: US Patent and Trademark Office API Rules
+- effective_rule_count: 6
+  extends: []
+  name: US Patent and Trademark Office API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -198,7 +201,10 @@ rules:
     info: 2
     warn: 4
   slug: us-patent-and-trademark-office-jsonschema-spectral-rules
-- name: US Patent and Trademark Office API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: US Patent and Trademark Office API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -208,15 +214,17 @@ rules:
   slug: uspto-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 30.9
+  delta: -4.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.5
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 57.6
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -231,8 +239,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/screenshots/us-patent-and-trademark-office-2026-06-20T200649.png
 security:

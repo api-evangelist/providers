@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -321,7 +321,9 @@ rate_limits:
   name: Alpha Vantage Rate Limits
   slug: alpha-vantage-rate-limits
 rules:
-- name: Alpha Vantage API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Alpha Vantage API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -329,7 +331,10 @@ rules:
     info: 1
     warn: 3
   slug: alpha-vantage-jsonschema-spectral-rules
-- name: Alpha Vantage API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Alpha Vantage API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -344,15 +349,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 57.7
+  delta: -2.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 44.7
-    developer_ergonomics: 77.7
+    contract_governance: 41.7
+    contract_quality: 41.9
+    developer_ergonomics: 75.6
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 13.2
+    governance: 41.7
+    operational_transparency: 10.5
   previous_composite: 60.3
   provenance:
     agentic_access: derived
@@ -370,8 +377,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

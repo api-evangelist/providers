@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
@@ -405,16 +406,18 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.4
-  delta: 5.7
+  composite: 71.9
+  delta: 2.5
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 68.4
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 65.6
+    developer_ergonomics: 58.9
     discoverability: 57.4
-    governance: 11.5
-    operational_transparency: 86.8
-  previous_composite: 63.7
+    governance: 16.7
+    operational_transparency: 84.2
+  previous_composite: 69.4
   provenance:
     conformance: derived
     contracts:
@@ -422,7 +425,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -430,9 +433,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:
 - kind: authentication

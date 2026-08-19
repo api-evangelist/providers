@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 59.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: MonetizeNow's REST API for the full quote-to-cash lifecycle — accounts, contacts, addresses, bill groups, quotes, opportunities, contracts, subscriptions, invoices, payments, payment methods, credits,
@@ -229,19 +230,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.0
-  delta: 20.9
+  composite: 58.4
+  delta: 1.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.2
-    developer_ergonomics: 56.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 54.9
+    developer_ergonomics: 39.9
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 78.9
-  previous_composite: 36.1
+    governance: 30.3
+    operational_transparency: 75.0
+  previous_composite: 57.0
   provenance:
-    conformance: derived
-    mcp: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -249,9 +257,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:
 - kind: authentication

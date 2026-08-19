@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -185,15 +186,17 @@ overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 129
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 51.1
+  delta: -4.0
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 58.2
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 54.5
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -205,9 +208,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/screenshots/startree-2026-08-17T082113.png
 security:
 - kind: authentication
   name: Startree Authentication

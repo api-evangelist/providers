@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The AI API from Zocomputer — 3 operation(s) for ai.
@@ -68,15 +69,23 @@ overview: 'Zocomputer publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 69
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 18.4
+  delta: -0.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 56.7
+    contract_governance: 0.0
+    contract_quality: 54.2
     developer_ergonomics: 0.0
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 19.0
   provenance:
     contracts:
@@ -84,8 +93,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

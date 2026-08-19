@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 44.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -460,15 +461,17 @@ scopes:
   summary_line: 46 scopes
 score:
   band: exemplar
-  composite: 68.3
-  delta: 0.0
+  composite: 73.7
+  delta: 5.4
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 62.7
-    developer_ergonomics: 69.0
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 30.3
+    contract_quality: 59.6
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 94.7
+    governance: 30.3
+    operational_transparency: 92.1
   previous_composite: 68.3
   provenance:
     agentic_access: derived
@@ -485,10 +488,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 84.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:
 - kind: authentication

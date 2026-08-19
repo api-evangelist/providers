@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -237,7 +238,9 @@ rate_limits:
   name: Zylo Rate Limits
   slug: zylo-rate-limits
 rules:
-- name: Zylo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zylo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,14 +250,16 @@ rules:
   slug: zylo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 44.9
+  delta: -6.7
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 73.9
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 51.6
   provenance:
@@ -264,9 +269,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/screenshots/zylo-2026-06-20T202009.png
 security:
 - kind: authentication

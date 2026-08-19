@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -307,7 +308,9 @@ rate_limits:
   name: Us African Development Foundation Rate Limits
   slug: us-african-development-foundation-rate-limits
 rules:
-- name: US African Development Foundation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US African Development Foundation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -315,7 +318,10 @@ rules:
     info: 2
     warn: 3
   slug: us-african-development-foundation-jsonschema-spectral-rules
-- name: US African Development Foundation API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: US African Development Foundation API Rules
   rule_count: 31
   severity_counts:
     error: 7
@@ -324,16 +330,18 @@ rules:
     warn: 15
   slug: us-african-development-foundation-spectral-rules
 score:
-  band: thin
-  composite: 28.5
-  delta: 0.0
+  band: emerging
+  composite: 23.8
+  delta: -4.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 30.4
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 28.6
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 28.5
   provenance:
     agentic_access: derived
@@ -348,8 +356,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -150,12 +151,14 @@ overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 47
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 30.1
+  delta: -0.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 52.2
-    developer_ergonomics: 28.3
+    contract_governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -167,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/screenshots/aws-marketplace-2026-06-20T172754.png
 security:

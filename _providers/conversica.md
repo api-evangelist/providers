@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -220,17 +220,19 @@ rate_limits:
   name: Conversica Rate Limits
   slug: conversica-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: -0.4
+  band: developing
+  composite: 46.8
+  delta: 5.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 25.7
-    developer_ergonomics: 51.6
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 24.7
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 21.9
+    governance: 31.8
     operational_transparency: 26.3
-  previous_composite: 42.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,12 +246,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
 security:
 - kind: authentication

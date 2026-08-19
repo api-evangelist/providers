@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -485,7 +486,9 @@ rate_limits:
   name: Solo Io Rate Limits
   slug: solo-io-rate-limits
 rules:
-- name: Solo.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Solo.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -495,15 +498,17 @@ rules:
   slug: solo-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.7
-  delta: 0.0
+  composite: 68.2
+  delta: -5.5
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 69.5
-    developer_ergonomics: 80.4
+    contract_governance: 41.7
+    contract_quality: 68.8
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 80.2
-    operational_transparency: 55.3
+    governance: 41.7
+    operational_transparency: 52.6
   previous_composite: 73.7
   provenance:
     conformance: derived
@@ -514,9 +519,9 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication

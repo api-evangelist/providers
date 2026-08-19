@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 49.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -386,16 +387,18 @@ scopes:
   slug: gsma-scopes
   summary_line: 30 scopes
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 61.0
+  delta: 5.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.5
-    developer_ergonomics: 69.0
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 16.7
+    contract_quality: 63.3
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -412,10 +415,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 87.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png
 security:
 - kind: authentication

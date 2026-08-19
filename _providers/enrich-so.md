@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-17'
+  score: 60.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -298,26 +299,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.0
-  delta: 31.9
+  composite: 67.4
+  delta: -3.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 75.2
-    developer_ergonomics: 73.9
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 30.3
+    contract_quality: 72.2
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 39.1
+    governance: 30.3
+    operational_transparency: 73.7
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/screenshots/enrich-so-2026-07-25T213424.png
 security:
 - kind: authentication

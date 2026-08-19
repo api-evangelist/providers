@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Clearview AI facial recognition platform provides image-based identity matching backed by an indexed corpus of publicly available imagery. Access is restricted to vetted government, law enforcemen
@@ -115,7 +116,10 @@ overview: 'Clearview AI publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   Clearview AI''s developer surface includes product news, engineering blog, and 11 more developer resources.'
 random_paper: 17
 rules:
-- name: Clearview AI API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Clearview AI API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -125,18 +129,20 @@ rules:
   slug: clearview-ai-rules
 score:
   band: emerging
-  composite: 16.4
-  delta: 0.0
+  composite: 19.1
+  delta: 2.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 8.1
-    developer_ergonomics: 2.2
+    contract_governance: 45.5
+    contract_quality: 7.0
+    developer_ergonomics: 2.4
     discoverability: 72.2
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 0.0
   previous_composite: 16.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearview-ai/refs/heads/main/screenshots/clearview-ai-2026-06-20T174501.png
 security:

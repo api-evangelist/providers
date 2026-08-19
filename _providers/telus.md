@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The TELUS Insights Location API exposes de-identified, aggregated geo-intelligence derived from the TELUS mobile network across Canada. Consumers submit asynchronous count jobs — demographic, origin, '
@@ -184,16 +185,18 @@ scopes:
   slug: telus-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.5
-  delta: 0.0
+  band: strong
+  composite: 57.1
+  delta: 3.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 63.0
-    developer_ergonomics: 64.7
+    contract_governance: 4.5
+    contract_quality: 56.7
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 71.1
+    governance: 4.5
+    operational_transparency: 68.4
   previous_composite: 53.5
   provenance:
     conformance: derived
@@ -203,9 +206,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

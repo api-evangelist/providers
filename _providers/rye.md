@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -355,16 +356,18 @@ rate_limits:
   name: Rye Rate Limits
   slug: rye-rate-limits
 score:
-  band: strong
-  composite: 64.7
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 2.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.3
-    developer_ergonomics: 73.4
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 94.7
+    governance: 16.7
+    operational_transparency: 92.1
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -381,10 +384,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 60.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/screenshots/rye-2026-08-17T081702.png
 security:
 - kind: authentication
   name: Rye Authentication

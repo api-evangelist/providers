@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: TD Ameritrade API Rules
+- effective_rule_count: 6
+  extends: []
+  name: TD Ameritrade API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -238,16 +241,18 @@ rules:
     warn: 4
   slug: td-ameritrade-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -9.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 63.8
-    developer_ergonomics: 39.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 61.2
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 15.8
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -261,10 +266,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 41.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Td Ameritrade Authentication

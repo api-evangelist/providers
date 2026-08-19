@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 44.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -840,16 +840,18 @@ overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) netw
   Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 86
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: developing
+  composite: 40.4
+  delta: -1.1
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 60.2
-    developer_ergonomics: 34.2
+    contract_governance: 16.7
+    contract_quality: 59.5
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -861,8 +863,8 @@ score:
       total: 115
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:

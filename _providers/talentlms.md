@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -249,7 +250,9 @@ rate_limits:
   name: Talentlms Rate Limits
   slug: talentlms-rate-limits
 rules:
-- name: TalentLMS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TalentLMS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,14 +262,16 @@ rules:
   slug: talentlms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 46.9
+  delta: -6.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 54.7
-    developer_ergonomics: 39.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 52.0
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 53.3
   provenance:
@@ -276,9 +281,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/screenshots/talentlms-2026-06-20T194902.png
 security:
 - kind: authentication

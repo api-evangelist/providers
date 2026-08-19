@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -208,15 +209,17 @@ rate_limits:
   slug: lakera-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 42.4
+  delta: -4.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.7
-    developer_ergonomics: 39.1
-    discoverability: 72.2
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
+    contract_quality: 54.1
+    developer_ergonomics: 42.9
+    discoverability: 64.8
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 23.7
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -225,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/screenshots/lakera-2026-06-20T184245.png
 security:

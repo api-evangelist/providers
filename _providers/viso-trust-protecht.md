@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 33.1
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
@@ -223,14 +224,16 @@ overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis
 random_paper: 53
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 41.0
+  delta: -3.2
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 60.9
-    developer_ergonomics: 51.6
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 58.3
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 50.0
   previous_composite: 44.2
   provenance:
@@ -242,9 +245,10 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/screenshots/viso-trust-protecht-2026-08-17T082805.png
 security:
 - kind: authentication
   name: Viso Trust Protecht Authentication

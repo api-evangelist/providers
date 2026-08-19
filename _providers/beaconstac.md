@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 44.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -230,27 +230,31 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 59.9
-  delta: 13.7
+  composite: 59.8
+  delta: -0.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 63.7
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 76.3
-  previous_composite: 46.2
+    governance: 18.2
+    operational_transparency: 73.7
+  previous_composite: 59.9
   provenance:
     conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:
 - kind: authentication

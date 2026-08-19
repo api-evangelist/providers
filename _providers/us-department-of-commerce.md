@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,7 +143,10 @@ rate_limits:
   name: Us Department Of Commerce Rate Limits
   slug: us-department-of-commerce-rate-limits
 rules:
-- name: US Department of Commerce API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: US Department of Commerce API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -150,7 +154,9 @@ rules:
     info: 1
     warn: 7
   slug: commerce-gov-api-rules
-- name: US Department of Commerce API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Department of Commerce API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,15 +166,17 @@ rules:
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 28.7
+  delta: -1.6
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 61.9
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 54.5
+    contract_quality: 58.0
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 54.5
+    operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     agentic_access: derived
@@ -183,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:

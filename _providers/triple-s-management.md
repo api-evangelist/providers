@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -146,7 +147,9 @@ rate_limits:
   name: Triple S Management Rate Limits
   slug: triple-s-management-rate-limits
 rules:
-- name: Triple-S Management API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Triple-S Management API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -156,14 +159,16 @@ rules:
   slug: triple-s-management-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 15.3
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 25.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 21.6
   regulatory:
@@ -172,9 +177,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/screenshots/triple-s-management-2026-06-20T195730.png
 security:
 - kind: domain-security

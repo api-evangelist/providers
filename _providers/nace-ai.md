@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -155,14 +156,16 @@ rate_limits:
   slug: nace-ai-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 36.9
+  delta: -1.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 53.7
-    developer_ergonomics: 23.4
+    contract_governance: 16.7
+    contract_quality: 52.4
+    developer_ergonomics: 16.1
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 38.0
   provenance:
@@ -175,8 +178,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/screenshots/nace-ai-2026-08-07T184600.png
 security:

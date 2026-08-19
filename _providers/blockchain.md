@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -868,7 +869,10 @@ rate_limits:
   name: Blockchain Rate Limits
   slug: blockchain-rate-limits
 rules:
-- name: Blockchain.com API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Blockchain.com API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -876,7 +880,9 @@ rules:
     info: 1
     warn: 4
   slug: blockchain-asyncapi-spectral-rules
-- name: Blockchain.com API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Blockchain.com API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -884,7 +890,10 @@ rules:
     info: 2
     warn: 3
   slug: blockchain-jsonschema-spectral-rules
-- name: Blockchain.com API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Blockchain.com API Rules
   rule_count: 31
   severity_counts:
     error: 17
@@ -894,15 +903,17 @@ rules:
   slug: blockchain-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 35.9
+  delta: -3.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 29.3
-    developer_ergonomics: 10.9
+    contract_governance: 28.8
+    contract_quality: 27.9
+    developer_ergonomics: 11.9
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 28.8
+    operational_transparency: 34.2
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -917,8 +928,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain/refs/heads/main/screenshots/blockchain-2026-06-20T173356.png
 security:

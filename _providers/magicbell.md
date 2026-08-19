@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -370,7 +371,9 @@ rate_limits:
   name: Magicbell Rate Limits
   slug: magicbell-rate-limits
 rules:
-- name: MagicBell API Rules
+- effective_rule_count: 5
+  extends: []
+  name: MagicBell API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -380,15 +383,17 @@ rules:
   slug: magicbell-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 43.6
+  delta: -4.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 51.5
-    developer_ergonomics: 17.4
+    contract_governance: 25.0
+    contract_quality: 49.7
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -403,8 +408,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:

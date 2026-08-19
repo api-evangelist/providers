@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -690,7 +691,10 @@ rate_limits:
   name: Vapi Ai Rate Limits
   slug: vapi-ai-rate-limits
 rules:
-- name: Vapi API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Vapi API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -698,7 +702,9 @@ rules:
     info: 1
     warn: 3
   slug: vapi-ai-asyncapi-spectral-rules
-- name: Vapi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vapi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -706,7 +712,9 @@ rules:
     info: 2
     warn: 3
   slug: vapi-ai-jsonschema-spectral-rules
-- name: Vapi API Rules
+- effective_rule_count: 17
+  extends: []
+  name: Vapi API Rules
   rule_count: 17
   severity_counts:
     error: 11
@@ -716,14 +724,16 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 78.5
-  delta: 0.0
+  composite: 74.9
+  delta: -3.6
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 76.5
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 77.7
+    developer_ergonomics: 78.6
     discoverability: 77.8
-    governance: 59.4
+    governance: 30.3
     operational_transparency: 76.3
   previous_composite: 78.5
   provenance:
@@ -735,8 +745,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

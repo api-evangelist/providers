@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 45.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -317,17 +317,19 @@ scopes:
   slug: typeface-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.1
-  delta: 4.1
+  band: developing
+  composite: 53.3
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.0
-    developer_ergonomics: 69.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 61.3
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 56.0
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,9 +340,10 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/screenshots/typeface-2026-08-17T082511.png
 security:
 - kind: authentication
   name: Typeface Authentication

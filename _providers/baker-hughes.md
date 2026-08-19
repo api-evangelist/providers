@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -174,7 +175,9 @@ rate_limits:
   name: Baker Hughes Rate Limits
   slug: baker-hughes-rate-limits
 rules:
-- name: Baker Hughes API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Baker Hughes API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,7 +185,9 @@ rules:
     info: 2
     warn: 3
   slug: baker-hughes-jsonschema-spectral-rules
-- name: Baker Hughes API Rules
+- effective_rule_count: 15
+  extends: []
+  name: Baker Hughes API Rules
   rule_count: 15
   severity_counts:
     error: 3
@@ -191,26 +196,28 @@ rules:
     warn: 10
   slug: baker-hughes-spectral-rules
 score:
-  band: thin
-  composite: 28.2
-  delta: 0.0
+  band: emerging
+  composite: 21.0
+  delta: -7.2
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 12.9
-    developer_ergonomics: 15.2
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 16.7
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 28.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 25.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 20.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
 security:
 - kind: domain-security

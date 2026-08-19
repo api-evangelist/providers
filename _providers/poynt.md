@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -146,15 +147,17 @@ overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 123
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 37.8
+  delta: 2.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 35.5
   provenance:
     conformance: first-party
@@ -163,9 +166,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 39.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -569,7 +570,9 @@ rate_limits:
   name: Words Rate Limits
   slug: words-rate-limits
 rules:
-- name: Words API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Words API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -577,7 +580,10 @@ rules:
     info: 2
     warn: 3
   slug: words-jsonschema-spectral-rules
-- name: Words API API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Words API API Rules
   rule_count: 32
   severity_counts:
     error: 13
@@ -587,15 +593,17 @@ rules:
   slug: words-rules
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 40.3
+  delta: -5.6
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 30.9
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 29.2
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -604,9 +612,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/screenshots/words-2026-06-20T201547.png
 security:
 - kind: authentication

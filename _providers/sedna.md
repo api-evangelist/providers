@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -270,15 +270,17 @@ scopes:
   slug: sedna-scopes
   summary_line: 53 scopes · clientCredentials
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: -1.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 47.2
-    developer_ergonomics: 51.6
+    contract_governance: 30.3
+    contract_quality: 49.5
+    developer_ergonomics: 33.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 23.7
   previous_composite: 41.6
   provenance:
@@ -291,8 +293,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

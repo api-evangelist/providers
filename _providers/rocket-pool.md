@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -311,7 +312,9 @@ overview: 'Rocket Pool publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   Rocket Pool''s developer surface includes documentation, getting-started guide, and 30 more developer resources.'
 random_paper: 92
 rules:
-- name: Rocket Pool API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rocket Pool API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -319,7 +322,10 @@ rules:
     info: 2
     warn: 3
   slug: rocket-pool-jsonschema-spectral-rules
-- name: Rocket Pool API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Rocket Pool API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -328,16 +334,18 @@ rules:
     warn: 2
   slug: rocket-pool-smart-node-rules
 score:
-  band: thin
-  composite: 34.4
-  delta: 0.0
+  band: emerging
+  composite: 24.4
+  delta: -10.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 56.7
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 54.3
+    developer_ergonomics: 4.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 34.4
   provenance:
     agentic_access: derived
@@ -346,9 +354,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
 security:
 - kind: domain-security

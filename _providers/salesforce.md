@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 53.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -17970,7 +17971,10 @@ rate_limits:
   name: Salesforce Rate Limits
   slug: salesforce-rate-limits
 rules:
-- name: Salesforce API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Salesforce API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -17978,7 +17982,9 @@ rules:
     info: 1
     warn: 7
   slug: salesforce-asyncapi-spectral-rules
-- name: Salesforce API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salesforce API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -17986,7 +17992,10 @@ rules:
     info: 2
     warn: 3
   slug: salesforce-jsonschema-spectral-rules
-- name: Salesforce API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Salesforce API Rules
   rule_count: 28
   severity_counts:
     error: 19
@@ -18001,28 +18010,31 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.8
-  delta: 6.5
+  composite: 84.6
+  delta: 3.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 81.3
-    developer_ergonomics: 93.5
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 59.1
+    contract_quality: 80.0
+    developer_ergonomics: 87.5
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 63.2
-  previous_composite: 74.3
+    governance: 59.1
+    operational_transparency: 86.8
+  previous_composite: 80.8
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 256
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication

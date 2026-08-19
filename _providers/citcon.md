@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Citcon''s UPI is a REST/JSON payments API for accepting 100+ global payment methods. It uses Bearer access-token authentication and exposes charge, charge-confirm, capture, refund, cancel, transaction '
@@ -170,15 +171,17 @@ overview: 'Citcon publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 44
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 51.6
+  delta: 3.8
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 47.8
   provenance:
     conformance: first-party
@@ -189,9 +192,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/screenshots/citcon-2026-07-25T205439.png
 security:

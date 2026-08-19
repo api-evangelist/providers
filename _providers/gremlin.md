@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -466,7 +467,9 @@ rate_limits:
   name: Gremlin Rate Limits
   slug: gremlin-rate-limits
 rules:
-- name: Gremlin API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Gremlin API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -476,15 +479,17 @@ rules:
   slug: gremlin-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 46.4
+  delta: -1.7
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 59.2
-    developer_ergonomics: 45.7
+    contract_governance: 30.3
+    contract_quality: 59.1
+    developer_ergonomics: 33.3
     discoverability: 88.9
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -493,8 +498,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 55
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/screenshots/gremlin-2026-06-20T182400.png
 security:

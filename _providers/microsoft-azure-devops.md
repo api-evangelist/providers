@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -1010,7 +1010,10 @@ rate_limits:
   name: Microsoft Azure Devops Rate Limits
   slug: microsoft-azure-devops-rate-limits
 rules:
-- name: Azure DevOps API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Azure DevOps API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1018,7 +1021,9 @@ rules:
     info: 1
     warn: 5
   slug: microsoft-azure-devops-asyncapi-spectral-rules
-- name: Azure DevOps API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Azure DevOps API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1028,15 +1033,17 @@ rules:
   slug: microsoft-azure-devops-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 59.1
+  delta: -5.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 78.5
-    developer_ergonomics: 65.2
+    contract_governance: 13.6
+    contract_quality: 77.9
+    developer_ergonomics: 61.9
     discoverability: 66.7
-    governance: 47.9
-    operational_transparency: 55.3
+    governance: 13.6
+    operational_transparency: 52.6
   previous_composite: 64.4
   provenance:
     agentic_access: derived
@@ -1045,9 +1052,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:
 - kind: authentication

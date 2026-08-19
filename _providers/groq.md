@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -191,7 +192,10 @@ rate_limits:
   name: Groq Rate Limits
   slug: groq-rate-limits
 rules:
-- name: Groq API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Groq API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -201,15 +205,17 @@ rules:
   slug: groq-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 34.7
+  delta: -4.3
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 63.0
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 60.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -218,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/screenshots/groq-2026-06-20T182414.png
 security:

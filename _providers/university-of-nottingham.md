@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Publicly accessible OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for Repository@Nottingham, the university's institutional research repository powered by Worktribe. Su
@@ -118,18 +119,26 @@ rate_limits:
   slug: university-of-nottingham-rate-limits
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 18.8
+  delta: -1.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 12.9
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/screenshots/university-of-nottingham-2026-06-20T200211.png
 security:

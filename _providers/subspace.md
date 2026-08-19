@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -186,15 +187,17 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 37.2
+  delta: -1.2
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 52.2
-    developer_ergonomics: 45.1
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 53.8
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -206,8 +209,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

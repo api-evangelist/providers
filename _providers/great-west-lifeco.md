@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Listed in the public API catalog of the Empower developer portal, operated by Great-West Lifeco's U.S. retirement subsidiary Empower. Marked "production" and categorized "financial", it returns partic
@@ -166,14 +167,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 45.2
+  delta: 3.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 36.8
   previous_composite: 42.0
   provenance:
@@ -184,8 +187,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/screenshots/great-west-lifeco-2026-07-25T220257.png
 security:

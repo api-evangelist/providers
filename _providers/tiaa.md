@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Tiaa Rate Limits
   slug: tiaa-rate-limits
 rules:
-- name: TIAA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TIAA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -237,7 +240,10 @@ rules:
     info: 2
     warn: 3
   slug: tiaa-jsonschema-spectral-rules
-- name: TIAA API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: TIAA API Rules
   rule_count: 13
   severity_counts:
     error: 5
@@ -251,15 +257,17 @@ scopes:
   slug: tiaa-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -9.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 67.7
-    developer_ergonomics: 30.4
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 63.5
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 47.7
   provenance:
@@ -274,10 +282,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 57.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png
 security:
 - kind: authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 37
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
@@ -374,14 +375,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 45.9
+  delta: 3.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 42.2
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 43.3
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 42.1
   provenance:
@@ -398,9 +401,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:

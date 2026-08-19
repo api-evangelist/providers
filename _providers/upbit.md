@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -193,12 +194,14 @@ rate_limits:
   slug: upbit-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 42.0
+  delta: -9.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.6
-    developer_ergonomics: 50.0
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 60.5
+    developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
@@ -215,10 +218,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 61.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
 security:
 - kind: authentication

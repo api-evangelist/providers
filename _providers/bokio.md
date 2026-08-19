@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 45.4
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -346,15 +346,17 @@ scopes:
   summary_line: 24 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 55.0
+  delta: -3.0
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 63.5
-    developer_ergonomics: 66.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 60.6
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 32.9
   previous_composite: 58.0
   provenance:
     conformance: derived
@@ -370,9 +372,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

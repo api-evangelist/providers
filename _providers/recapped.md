@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -137,19 +138,23 @@ rate_limits:
   slug: recapped-rate-limits
 score:
   band: thin
-  composite: 28.8
-  delta: 9.7
+  composite: 26.6
+  delta: -2.2
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 19.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 28.8
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Recapped Domain Security

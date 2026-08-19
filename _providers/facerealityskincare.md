@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Shopify-hosted commerce surface for the Face Reality Skincare store. Exposes a hosted Storefront MCP server for catalog search, product lookup, and cart building, a UCP merchant profile for agent-driv
@@ -108,22 +109,24 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 18.7
-  delta: 0.0
+  composite: 17.8
+  delta: -0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.2
+    developer_ergonomics: 13.7
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 18.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/screenshots/facerealityskincare-2026-08-07T165212.png
 security:

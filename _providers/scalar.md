@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 3
@@ -350,7 +351,9 @@ rate_limits:
   name: Scalar Rate Limits
   slug: scalar-rate-limits
 rules:
-- name: Scalar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scalar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -358,7 +361,10 @@ rules:
     info: 2
     warn: 3
   slug: scalar-jsonschema-spectral-rules
-- name: Scalar API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Scalar API Rules
   rule_count: 16
   severity_counts:
     error: 4
@@ -368,14 +374,16 @@ rules:
   slug: scalar-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 39.5
+  delta: -5.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.2
-    developer_ergonomics: 26.1
-    discoverability: 72.2
-    governance: 68.8
+    contract_governance: 25.0
+    contract_quality: 54.7
+    developer_ergonomics: 28.6
+    discoverability: 64.8
+    governance: 25.0
     operational_transparency: 28.9
   previous_composite: 45.1
   provenance:
@@ -385,9 +393,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -318,7 +319,9 @@ plans:
   slug: nagios-plans-pricing
 random_paper: 45
 rules:
-- name: Nagios API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nagios API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -326,7 +329,10 @@ rules:
     info: 1
     warn: 4
   slug: nagios-jsonschema-spectral-rules
-- name: Nagios API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Nagios API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -334,7 +340,10 @@ rules:
     info: 0
     warn: 3
   slug: nagios-xi-rules
-- name: Nagios API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Nagios API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -344,15 +353,17 @@ rules:
   slug: ncpa-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 40.4
+  delta: -6.0
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 63.8
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 60.0
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -361,9 +372,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:
 - kind: authentication

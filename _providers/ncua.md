@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -158,7 +159,9 @@ rate_limits:
   name: Ncua Rate Limits
   slug: ncua-rate-limits
 rules:
-- name: National Credit Union Administration (NCUA) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: National Credit Union Administration (NCUA) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,14 +171,16 @@ rules:
   slug: ncua-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 32.6
+  delta: -5.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 61.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 37.8
   provenance:
@@ -191,9 +196,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -682,7 +683,9 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
   Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
 random_paper: 19
 rules:
-- name: Inductive Automation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Inductive Automation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -690,7 +693,9 @@ rules:
     info: 2
     warn: 3
   slug: inductive-automation-jsonschema-spectral-rules
-- name: Inductive Automation API Rules
+- effective_rule_count: 8
+  extends: []
+  name: Inductive Automation API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -699,16 +704,18 @@ rules:
     warn: 5
   slug: inductive-automation-rules
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 35.0
+  delta: -8.0
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 66.4
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 65.2
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -717,9 +724,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 87
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:
 - kind: authentication

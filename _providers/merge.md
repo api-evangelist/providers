@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -4412,7 +4412,9 @@ rate_limits:
   name: Merge Rate Limits
   slug: merge-rate-limits
 rules:
-- name: Merge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Merge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4420,7 +4422,10 @@ rules:
     info: 1
     warn: 4
   slug: merge-jsonschema-spectral-rules
-- name: Merge API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Merge API Rules
   rule_count: 41
   severity_counts:
     error: 15
@@ -4430,14 +4435,16 @@ rules:
   slug: merge-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 59.1
+  delta: -6.5
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 69.7
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 67.9
+    developer_ergonomics: 52.4
     discoverability: 77.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 55.3
   previous_composite: 65.6
   provenance:
@@ -4447,9 +4454,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 117
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:
 - kind: authentication

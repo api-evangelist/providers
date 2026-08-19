@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -426,7 +427,9 @@ rate_limits:
   name: Bettercloud Rate Limits
   slug: bettercloud-rate-limits
 rules:
-- name: BetterCloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BetterCloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -434,7 +437,10 @@ rules:
     info: 1
     warn: 4
   slug: bettercloud-jsonschema-spectral-rules
-- name: BetterCloud API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: BetterCloud API Rules
   rule_count: 34
   severity_counts:
     error: 13
@@ -444,15 +450,17 @@ rules:
   slug: bettercloud-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 30.6
+  delta: -8.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 23.5
-    developer_ergonomics: 41.3
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 25.0
+    contract_quality: 22.3
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -461,9 +469,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/screenshots/bettercloud-2026-06-20T173204.png
 security:
 - kind: authentication

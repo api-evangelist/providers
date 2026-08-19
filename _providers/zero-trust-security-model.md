@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The foundational specification of the Zero Trust security model. Defines the seven tenets, the PDP/PEP/PA logical components, and the deployment variants (enhanced identity governance, microsegmentati
@@ -198,7 +199,9 @@ rate_limits:
   name: Zero Trust Security Model Rate Limits
   slug: zero-trust-security-model-rate-limits
 rules:
-- name: Zero-Trust Security Model API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zero-Trust Security Model API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -207,15 +210,17 @@ rules:
     warn: 4
   slug: zero-trust-security-model-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.4
-  delta: 0.0
+  band: emerging
+  composite: 24.7
+  delta: -4.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 12.9
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 12.7
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 29.4
   regulatory:
@@ -224,8 +229,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/screenshots/zero-trust-security-model-2026-06-20T201831.png
 security:

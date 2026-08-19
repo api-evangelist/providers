@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 3
@@ -1110,7 +1111,9 @@ rate_limits:
   name: Amazon Device Farm Rate Limits
   slug: amazon-device-farm-rate-limits
 rules:
-- name: Amazon Device Farm API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Device Farm API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1118,7 +1121,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-device-farm-jsonschema-spectral-rules
-- name: Amazon Device Farm API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Amazon Device Farm API Rules
   rule_count: 27
   severity_counts:
     error: 12
@@ -1127,16 +1133,18 @@ rules:
     warn: 10
   slug: amazon-device-farm-spectral-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 50.8
+  delta: -6.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 50.0
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -1145,9 +1153,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 77
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/screenshots/amazon-device-farm-2026-06-20T171633.png
 security:
 - kind: authentication

@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-17'
+  score: 22.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -339,7 +340,9 @@ overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) net
   buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
 random_paper: 127
 rules:
-- name: buildpacks-io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: buildpacks-io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -347,7 +350,10 @@ rules:
     info: 2
     warn: 3
   slug: buildpacks-io-jsonschema-spectral-rules
-- name: buildpacks-io API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: buildpacks-io API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -357,14 +363,16 @@ rules:
   slug: buildpacks-io-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 39.9
+  delta: -5.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 71.6
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 54.8
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 45.1
   provenance:
@@ -374,9 +382,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:
 - kind: domain-security

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 45.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -205,15 +206,17 @@ overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 107
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 46.0
+  delta: 3.8
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 52.2
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 54.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 42.2
   provenance:
     agentic_access: derived
@@ -230,9 +233,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 36.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:

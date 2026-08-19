@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 43.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -279,15 +279,17 @@ overview: 'Tyro Payments publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 15
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 46.0
+  delta: -6.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 68.4
-    developer_ergonomics: 62.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 67.2
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -305,9 +307,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:
 - kind: authentication
   name: Tyro Authentication

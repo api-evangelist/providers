@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,7 +171,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Finlight API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Finlight API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,14 +183,16 @@ rules:
   slug: finlight-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 39.9
+  delta: -4.4
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 64.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 61.2
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 44.3
   provenance:
@@ -203,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

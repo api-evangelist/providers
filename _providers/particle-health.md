@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -479,7 +480,9 @@ rate_limits:
   name: Particle Health Rate Limits
   slug: particle-health-rate-limits
 rules:
-- name: Particle Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Particle Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -488,33 +491,38 @@ rules:
     warn: 4
   slug: particle-health-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 71.9
-  delta: 17.9
+  band: strong
+  composite: 64.9
+  delta: -7.0
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 69.8
-    developer_ergonomics: 73.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 37.1
+    contract_quality: 66.7
+    developer_ergonomics: 48.8
     discoverability: 75.9
-    governance: 77.1
-    operational_transparency: 94.7
-  previous_composite: 54.0
+    governance: 37.1
+    operational_transparency: 80.3
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 55.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:
 - kind: authentication

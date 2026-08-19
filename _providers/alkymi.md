@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
@@ -117,20 +118,22 @@ overview: 'Alkymi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 51
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 35.7
+  delta: -1.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 23.9
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 26.2
     discoverability: 59.3
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 37.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/screenshots/alkymi-2026-07-25T195636.png
 security:

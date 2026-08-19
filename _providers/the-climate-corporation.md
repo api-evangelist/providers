@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -204,15 +205,17 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 42.3
+  delta: 0.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 60.8
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 58.3
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 42.2
   provenance:
     agentic_access: derived
@@ -224,9 +227,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/screenshots/the-climate-corporation-2026-08-17T082334.png
 security:
 - kind: authentication
   name: The Climate Corporation Authentication

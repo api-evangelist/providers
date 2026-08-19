@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -427,15 +428,17 @@ overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 87
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 53.8
+  delta: -0.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 71.0
-    developer_ergonomics: 69.0
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 16.7
+    contract_quality: 66.7
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 15.8
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -452,10 +455,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 53.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/screenshots/connexpay-2026-08-17T080827.png
 security:
 - kind: authentication
   name: Connexpay Authentication

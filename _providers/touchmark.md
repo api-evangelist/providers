@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 19.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The pricing surface behind @touchmark/sdk - open a session per scope, emit events fire-and-forget with an idempotent event_id, and consume quality-adjusted valuations (absolute fair_price_usd per even
@@ -143,21 +144,23 @@ overview: 'Touchmark publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 80
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 20.4
+  delta: -1.1
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 47.6
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 21.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

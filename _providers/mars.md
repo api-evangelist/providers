@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Mars exposes a public Azure-API-Management developer portal at developer.mars.com that hosts APIs and API Products for partners, suppliers, and B2B integrations. The catalog itself sits behind a regis
@@ -123,18 +124,20 @@ rate_limits:
   slug: mars-rate-limits
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 14.9
+  delta: -1.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 2.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/screenshots/mars-2026-06-20T185004.png
 security:

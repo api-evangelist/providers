@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: Create, list, retrieve, and manage orders — the top-level payment object in the Pagar.me Core API v5. Each order can contain one or more charges paid via credit card, debit card, Pix, boleto, voucher,
@@ -256,16 +257,24 @@ overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network
   Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 20 more developer resources.'
 random_paper: 33
 score:
-  band: emerging
-  composite: 26.3
-  delta: 0.0
+  band: thin
+  composite: 27.0
+  delta: 0.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 81.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 26.3
   regulatory:
     applies: true
@@ -273,8 +282,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
 security:

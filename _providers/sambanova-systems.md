@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -263,15 +264,17 @@ rate_limits:
   slug: sambanova-systems-rate-limits
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 54.2
+  delta: -1.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 59.1
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 56.8
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -283,9 +286,10 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
 security:
 - kind: authentication
   name: Sambanova Systems Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 16.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Framework-agnostic HTTP API behind the AI Autocomplete SDKs. A single POST /api/suggest endpoint drives keystroke-by-keystroke guided autocomplete over a placeholder-based query model, with a POST /ap
@@ -139,22 +140,24 @@ overview: 'MagicX publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 37
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 32.8
+  delta: 0.1
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 32.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicx/refs/heads/main/screenshots/magicx-2026-07-25T225856.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -195,19 +196,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 40.1
+  delta: -5.2
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 28.6
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 45.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png
 security:
 - kind: authentication

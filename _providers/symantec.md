@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -224,7 +225,9 @@ rate_limits:
   name: Symantec Rate Limits
   slug: symantec-rate-limits
 rules:
-- name: Symantec API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Symantec API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -232,7 +235,10 @@ rules:
     info: 1
     warn: 4
   slug: symantec-jsonschema-spectral-rules
-- name: Symantec API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Symantec API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -242,14 +248,16 @@ rules:
   slug: symantec-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 41.9
+  delta: -8.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.3
-    developer_ergonomics: 32.6
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 61.2
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 50.0
   provenance:
@@ -259,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/screenshots/symantec-2026-06-20T194819.png
 security:
 - kind: authentication

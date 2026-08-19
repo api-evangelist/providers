@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Real-time, bidirectional stateless dictation over WebSocket, returning live transcripts and detected commands.
@@ -237,15 +238,23 @@ scopes:
   summary_line: 44 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.9
-  delta: 0.0
+  composite: 62.8
+  delta: 5.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 49.4
-    developer_ergonomics: 69.0
+    contract_governance: 18.2
+    contract_quality: 44.4
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 57.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 56.9
   provenance:
     conformance: first-party
@@ -257,9 +266,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png
 security:
 - kind: authentication

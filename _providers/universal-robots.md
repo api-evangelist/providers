@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Real-Time Data Exchange is Universal Robots' synchronous binary TCP protocol on port 30004 that lets external applications stream robot state at the controller's 500 Hz cycle (e-Series) or 125 Hz cycl
@@ -161,18 +162,20 @@ overview: 'Universal Robots publishes 7 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 56
 score:
   band: emerging
-  composite: 14.2
-  delta: 0.0
+  composite: 13.9
+  delta: -0.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 14.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universal-robots/refs/heads/main/screenshots/universal-robots-2026-06-20T200111.png
 security:

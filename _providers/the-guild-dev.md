@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -510,7 +511,9 @@ rate_limits:
   name: Schema Stitching Rate Limits
   slug: schema-stitching-rate-limits
 rules:
-- name: The Guild API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Guild API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -518,7 +521,9 @@ rules:
     info: 2
     warn: 3
   slug: graphql-hive-jsonschema-spectral-rules
-- name: The Guild API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Guild API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -526,7 +531,9 @@ rules:
     info: 2
     warn: 3
   slug: graphql-mesh-jsonschema-spectral-rules
-- name: The Guild API Rules
+- effective_rule_count: 6
+  extends: []
+  name: The Guild API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -535,20 +542,22 @@ rules:
     warn: 4
   slug: schema-stitching-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  delta: -8.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 69.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 63.3
+    developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 46.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/screenshots/schema-stitching-2026-06-20T193517.png
 security:
 - kind: domain-security

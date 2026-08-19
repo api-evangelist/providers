@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -258,7 +259,10 @@ rate_limits:
   name: Courier Rate Limits
   slug: courier-rate-limits
 rules:
-- name: Courier API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Courier API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -268,15 +272,17 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 32.9
+  delta: -2.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 69.6
-    developer_ergonomics: 13.0
+    contract_governance: 13.6
+    contract_quality: 70.2
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 10.5
+    governance: 13.6
+    operational_transparency: 7.9
   previous_composite: 35.7
   provenance:
     agentic_access: derived
@@ -291,8 +297,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

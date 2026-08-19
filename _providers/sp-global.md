@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 62.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -846,7 +847,10 @@ rate_limits:
   name: Sp Global Rate Limits
   slug: sp-global-rate-limits
 rules:
-- name: S&P Global API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: S&P Global API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -854,7 +858,9 @@ rules:
     info: 0
     warn: 6
   slug: sp-global-asyncapi-spectral-rules
-- name: S&P Global API Rules
+- effective_rule_count: 6
+  extends: []
+  name: S&P Global API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -862,7 +868,10 @@ rules:
     info: 1
     warn: 5
   slug: sp-global-jsonschema-spectral-rules
-- name: S&P Global API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: S&P Global API Rules
   rule_count: 12
   severity_counts:
     error: 5
@@ -876,15 +885,17 @@ scopes:
   slug: sp-global-scopes
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
-  band: exemplar
-  composite: 68.4
-  delta: 0.0
+  band: strong
+  composite: 64.2
+  delta: -4.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 71.7
-    developer_ergonomics: 69.6
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 56.8
+    contract_quality: 70.0
+    developer_ergonomics: 66.7
     discoverability: 83.3
-    governance: 72.9
+    governance: 56.8
     operational_transparency: 36.8
   previous_composite: 68.4
   provenance:
@@ -897,8 +908,8 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

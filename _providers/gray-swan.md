@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Activity API from Gray Swan — 1 operation(s) for activity.
@@ -190,15 +191,17 @@ rate_limits:
   slug: gray-swan-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 45.0
+  delta: -1.8
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
     contract_quality: 55.3
-    developer_ergonomics: 51.6
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 46.8
   provenance:
     conformance: derived
@@ -209,8 +212,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:

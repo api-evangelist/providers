@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.4
-  scored_at: '2026-08-17'
+  score: 28.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
@@ -186,23 +187,25 @@ rate_limits:
   name: Chronicle Rate Limits
   slug: chronicle-rate-limits
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 39.9
+  delta: -1.7
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
 security:

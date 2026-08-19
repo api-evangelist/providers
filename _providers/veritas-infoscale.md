@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -351,7 +352,9 @@ rate_limits:
   name: Veritas Infoscale Rate Limits
   slug: veritas-infoscale-rate-limits
 rules:
-- name: Veritas InfoScale API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Veritas InfoScale API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -359,7 +362,10 @@ rules:
     info: 2
     warn: 3
   slug: veritas-infoscale-jsonschema-spectral-rules
-- name: Veritas InfoScale API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Veritas InfoScale API Rules
   rule_count: 41
   severity_counts:
     error: 23
@@ -369,15 +375,17 @@ rules:
   slug: veritas-infoscale-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 40.1
+  delta: -5.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 29.7
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 27.9
+    developer_ergonomics: 53.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -386,9 +394,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:
 - kind: authentication

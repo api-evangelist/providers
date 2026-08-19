@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,7 +269,9 @@ rate_limits:
   name: Rijksmuseum Rate Limits
   slug: rijksmuseum-rate-limits
 rules:
-- name: Rijksmuseum API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Rijksmuseum API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -276,7 +279,10 @@ rules:
     info: 2
     warn: 4
   slug: rijksmuseum-jsonschema-spectral-rules
-- name: Rijksmuseum API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Rijksmuseum API Rules
   rule_count: 15
   severity_counts:
     error: 6
@@ -286,15 +292,17 @@ rules:
   slug: rijksmuseum-rules
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 36.5
+  delta: -4.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 31.2
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -309,8 +317,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/screenshots/rijksmuseum-2026-06-20T193120.png
 security:

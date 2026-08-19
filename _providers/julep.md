@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-17'
+  score: 18.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -211,15 +212,17 @@ overview: 'Julep publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 97
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 37.2
+  delta: 1.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 55.4
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -231,8 +234,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

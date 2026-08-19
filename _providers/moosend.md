@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Moosend REST API (v3) enables programmatic access to email marketing and automation capabilities including managing email lists, subscribers, campaigns, segments, and transactional emails. Authent
@@ -235,26 +235,37 @@ rate_limits:
   name: Moosend Rate Limits
   slug: moosend-rate-limits
 score:
-  band: strong
-  composite: 64.1
-  delta: 27.8
+  band: exemplar
+  composite: 67.2
+  delta: 3.1
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 62.7
-    developer_ergonomics: 63.0
+    contract_governance: 16.7
+    contract_quality: 62.2
+    developer_ergonomics: 50.6
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 36.3
+    governance: 16.7
+    operational_transparency: 60.5
+  previous_composite: 64.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 56.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:
 - kind: authentication

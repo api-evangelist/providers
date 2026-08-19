@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Public REST API for Helda, the open institutional repository of the University of Helsinki, powered by DSpace 7.6.2. Provides programmatic access to research publications, dissertations, theses, and o
@@ -117,11 +118,13 @@ rate_limits:
   slug: university-of-helsinki-rate-limits
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 19.1
+  delta: -1.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 12.9
+    contract_governance: 0.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
@@ -130,11 +133,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png
 security:

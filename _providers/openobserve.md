@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 7
@@ -317,12 +318,14 @@ rate_limits:
   slug: openobserve-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 32.6
+  delta: -0.3
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 56.0
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 23.8
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
@@ -334,8 +337,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/screenshots/openobserve-2026-06-20T191019.png
 security:

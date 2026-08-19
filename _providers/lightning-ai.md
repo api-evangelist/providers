@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Lightning AI control-plane API used by the lightning-sdk Python SDK, the @lightningai/sdk JavaScript SDK and the lightning CLI to programmatically manage platform resources: Studios, Jobs, Deploym'
@@ -186,22 +187,24 @@ rate_limits:
   name: Lightning Ai Rate Limits
   slug: lightning-ai-rate-limits
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 27.2
+  delta: -15.2
   facets:
-    commercial_clarity: 71.1
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
+    developer_ergonomics: 33.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 42.4
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-ai/refs/heads/main/screenshots/lightning-ai-2026-07-25T225123.png
 security:
 - kind: authentication

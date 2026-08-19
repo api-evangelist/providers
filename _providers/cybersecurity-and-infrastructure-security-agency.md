@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,7 +180,10 @@ rate_limits:
   name: Cybersecurity And Infrastructure Security Agency Rate Limits
   slug: cybersecurity-and-infrastructure-security-agency-rate-limits
 rules:
-- name: Cybersecurity and Infrastructure Security Agency API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cybersecurity and Infrastructure Security Agency API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -187,7 +191,9 @@ rules:
     info: 0
     warn: 3
   slug: cisa-kev-rules
-- name: Cybersecurity and Infrastructure Security Agency API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cybersecurity and Infrastructure Security Agency API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -197,15 +203,17 @@ rules:
   slug: cybersecurity-and-infrastructure-security-agency-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 38.7
+  delta: 4.4
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 63.4
-    developer_ergonomics: 2.2
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 60.6
+    contract_quality: 59.4
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 31.3
-    operational_transparency: 13.2
+    governance: 60.6
+    operational_transparency: 10.5
   previous_composite: 34.3
   provenance:
     agentic_access: derived
@@ -220,8 +228,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:

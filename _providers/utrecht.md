@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 4
@@ -275,7 +276,9 @@ rate_limits:
   name: Utrecht Rate Limits
   slug: utrecht-rate-limits
 rules:
-- name: Utrecht University API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Utrecht University API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -283,7 +286,9 @@ rules:
     info: 1
     warn: 3
   slug: utrecht-jsonschema-spectral-rules
-- name: Utrecht University API Rules
+- effective_rule_count: 8
+  extends: []
+  name: Utrecht University API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -293,14 +298,16 @@ rules:
   slug: utrecht-rules
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 37.4
+  delta: -4.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 64.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 41.8
   provenance:
@@ -310,8 +317,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 42.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png
 security:

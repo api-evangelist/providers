@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-17'
+  score: 53.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -208,15 +209,17 @@ overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 127
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 48.5
+  delta: -4.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 68.5
-    developer_ergonomics: 71.2
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 16.7
+    contract_quality: 65.9
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -228,9 +231,10 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/screenshots/sail-2026-08-17T081712.png
 security:
 - kind: authentication
   name: Sail Authentication

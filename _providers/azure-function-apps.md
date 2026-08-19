@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -327,7 +328,9 @@ rate_limits:
   name: Azure Function Apps Rate Limits
   slug: azure-function-apps-rate-limits
 rules:
-- name: Azure Function Apps API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure Function Apps API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -335,7 +338,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-function-apps-jsonschema-spectral-rules
-- name: Azure Function Apps API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Azure Function Apps API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -344,16 +350,18 @@ rules:
     warn: 9
   slug: azure-function-apps-spectral-rules
 score:
-  band: developing
-  composite: 47.4
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -8.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 59.0
-    developer_ergonomics: 28.3
-    discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 28.9
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -362,9 +370,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/screenshots/azure-function-apps-2026-06-20T172854.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -257,7 +258,9 @@ rate_limits:
   name: Bloom Credit Rate Limits
   slug: bloom-credit-rate-limits
 rules:
-- name: Bloom Credit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bloom Credit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -265,7 +268,10 @@ rules:
     info: 1
     warn: 4
   slug: bloom-credit-jsonschema-spectral-rules
-- name: Bloom Credit API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Bloom Credit API Rules
   rule_count: 37
   severity_counts:
     error: 11
@@ -275,15 +281,17 @@ rules:
   slug: bloom-credit-spectral-rules
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 33.1
+  delta: -7.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 28.4
-    developer_ergonomics: 43.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 26.9
+    developer_ergonomics: 47.6
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -292,9 +300,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/screenshots/bloom-credit-2026-06-20T173402.png
 security:
 - kind: authentication

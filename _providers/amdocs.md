@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -336,7 +337,10 @@ rate_limits:
   name: Amdocs Rate Limits
   slug: amdocs-rate-limits
 rules:
-- name: Amdocs API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Amdocs API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -344,7 +348,9 @@ rules:
     info: 0
     warn: 5
   slug: amdocs-asyncapi-spectral-rules
-- name: Amdocs API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amdocs API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -352,7 +358,10 @@ rules:
     info: 2
     warn: 3
   slug: amdocs-jsonschema-spectral-rules
-- name: Amdocs API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Amdocs API Rules
   rule_count: 27
   severity_counts:
     error: 12
@@ -367,15 +376,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 39.8
+  delta: -4.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 77.6
-    developer_ergonomics: 39.1
+    contract_governance: 11.4
+    contract_quality: 73.3
+    developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -390,8 +401,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 47.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/screenshots/amdocs-2026-06-20T171859.png
 security:

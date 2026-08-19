@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 32.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -152,15 +153,17 @@ overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open
   Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 17 more developer resources.'
 random_paper: 131
 score:
-  band: developing
-  composite: 51.5
-  delta: 0.0
+  band: strong
+  composite: 56.1
+  delta: 4.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 62.8
-    developer_ergonomics: 53.8
+    contract_governance: 30.3
+    contract_quality: 60.9
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 51.5
   provenance:
@@ -179,9 +182,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png
 security:
 - kind: authentication
   name: Weel Authentication

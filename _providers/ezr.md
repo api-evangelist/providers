@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The EZR 开放平台 integration surface — 236 documented interfaces across 11 business domains (base data, member master data, loyalty points, coupons, sales data, WeChat mall, external mall distribution, me
@@ -163,19 +164,25 @@ rate_limits:
   slug: ezr-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: 34.0
+  composite: 42.7
+  delta: -1.4
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 10.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 44.1
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png
 security:
 - kind: authentication

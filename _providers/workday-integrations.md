@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -302,7 +303,9 @@ rate_limits:
   name: Workday Integrations Rate Limits
   slug: workday-integrations-rate-limits
 rules:
-- name: Workday Integrations API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Workday Integrations API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -310,7 +313,10 @@ rules:
     info: 2
     warn: 4
   slug: workday-integrations-jsonschema-spectral-rules
-- name: Workday Integrations API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Workday Integrations API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -320,15 +326,17 @@ rules:
   slug: workday-integrations-rules
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 40.3
+  delta: -8.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 68.7
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 68.0
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 5.3
   previous_composite: 49.2
   provenance:
     agentic_access: derived
@@ -337,9 +345,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/screenshots/workday-integrations-2026-06-20T201603.png
 security:
 - kind: authentication

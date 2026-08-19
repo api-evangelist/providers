@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -172,7 +173,10 @@ rate_limits:
   name: Amazon Vpn Rate Limits
   slug: amazon-vpn-rate-limits
 rules:
-- name: Amazon VPN API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Amazon VPN API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -182,15 +186,17 @@ rules:
   slug: amazon-vpn-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 46.9
+  delta: -2.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.4
-    developer_ergonomics: 39.1
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 26.5
+    contract_quality: 62.2
+    developer_ergonomics: 42.9
     discoverability: 59.3
-    governance: 31.3
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -199,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:

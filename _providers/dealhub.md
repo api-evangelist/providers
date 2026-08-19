@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 61.3
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Retrieve quotes and quote documents from DealHub, list quotes for a CRM opportunity, create renewal opportunities and read DealRoom signer status. The read side of the CPQ platform used to feed BI sys
@@ -250,19 +251,31 @@ rate_limits:
   slug: dealhub-rate-limits
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 50.2
+  delta: -3.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.1
-    developer_ergonomics: 67.4
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 54.2
     discoverability: 72.2
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 18.4
   previous_composite: 54.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 90.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:
 - kind: authentication
   name: Dealhub Authentication

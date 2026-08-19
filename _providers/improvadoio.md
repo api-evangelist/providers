@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Programmatic access to Improvado's data extraction, transformation, and loading capabilities — data sources, connections, accounts, extraction templates, extracts, destinations, loads, data tables, re
@@ -174,21 +175,23 @@ overview: 'Improvado.io publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 1
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 50.1
+  delta: -3.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 50.0
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 53.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/screenshots/improvadoio-2026-07-25T222205.png
 security:

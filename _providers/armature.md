@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-17'
+  score: 23.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Armature''s programmable surface: an ingest API fed by the TypeScript/Python/Go MCP-analytics SDKs, and a read-only hosted MCP server (mcp.armature.tech) that serves reconstructed sessions, use-case cl'
@@ -134,23 +135,25 @@ overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. 
   Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 14 more developer resources.'
 random_paper: 120
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -2.9
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 28.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armature/refs/heads/main/screenshots/armature-2026-07-25T201219.png
 security:

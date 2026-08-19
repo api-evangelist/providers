@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 70.7
-  scored_at: '2026-08-17'
+  score: 60.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -1028,7 +1029,9 @@ rate_limits:
   name: Adobe Rate Limits
   slug: adobe-rate-limits
 rules:
-- name: Adobe API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Adobe API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1036,7 +1039,10 @@ rules:
     info: 2
     warn: 4
   slug: adobe-jsonschema-spectral-rules
-- name: Adobe API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Adobe API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -1046,26 +1052,31 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 82.4
-  delta: 20.6
+  composite: 80.5
+  delta: -1.9
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 89.0
-    developer_ergonomics: 91.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 55.3
+    contract_quality: 83.4
+    developer_ergonomics: 85.7
     discoverability: 66.7
-    governance: 89.6
+    governance: 55.3
     operational_transparency: 71.1
-  previous_composite: 61.8
+  previous_composite: 82.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 4.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,20 +131,22 @@ overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 47
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 27.7
+  delta: -2.3
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 63.0
+    developer_ergonomics: 59.5
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 30.0
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/screenshots/dlthub-2026-07-25T212147.png
 security:

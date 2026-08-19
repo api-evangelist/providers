@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -256,15 +257,17 @@ rate_limits:
   slug: fazz-rate-limits
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 58.6
+  delta: 2.4
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 62.7
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 62.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 56.2
   provenance:
     agentic_access: derived
@@ -282,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Platform-provided WooCommerce Store API on urbanremedy.com, discovered live at /wp-json/wc/store/v1. Public, unauthenticated read access to the product catalog (verified 200 with product JSON); cart a
@@ -91,18 +92,20 @@ overview: 'Urban Remedy publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 139
 score:
   band: emerging
-  composite: 17.9
-  delta: 0.0
+  composite: 18.2
+  delta: 0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

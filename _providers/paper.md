@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 0.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,21 +131,23 @@ overview: 'Paper is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 89
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 21.2
+  delta: -5.0
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 23.8
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 23.7
   previous_composite: 26.2
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/screenshots/paper-2026-08-07T191429.png
 security:
 - kind: domain-security

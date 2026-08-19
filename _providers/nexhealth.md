@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -508,15 +508,17 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 67
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 52.9
+  delta: -3.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.1
-    developer_ergonomics: 66.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 70.3
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 30.3
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -534,8 +536,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:

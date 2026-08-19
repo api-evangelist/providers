@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -127,20 +128,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 35.3
+  delta: -1.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 41.3
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 42.9
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 36.6
   provenance:
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png
 security:

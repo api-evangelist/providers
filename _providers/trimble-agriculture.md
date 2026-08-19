@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Trimble Agriculture Rate Limits
   slug: trimble-agriculture-rate-limits
 rules:
-- name: Trimble Agriculture API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trimble Agriculture API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +221,10 @@ rules:
     info: 2
     warn: 3
   slug: trimble-agriculture-jsonschema-spectral-rules
-- name: Trimble Agriculture API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Trimble Agriculture API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -227,16 +233,18 @@ rules:
     warn: 4
   slug: trimble-agriculture-rules
 score:
-  band: developing
-  composite: 44.9
-  delta: 0.0
+  band: thin
+  composite: 36.3
+  delta: -8.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 66.7
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 62.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/screenshots/trimble-agriculture-2026-06-20T195713.png
 security:
 - kind: authentication

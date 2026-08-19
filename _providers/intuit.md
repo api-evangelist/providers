@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -634,7 +634,10 @@ rate_limits:
   name: Intuit Rate Limits
   slug: intuit-rate-limits
 rules:
-- name: Intuit API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Intuit API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -642,7 +645,9 @@ rules:
     info: 1
     warn: 1
   slug: intuit-asyncapi-spectral-rules
-- name: Intuit API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Intuit API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -650,7 +655,10 @@ rules:
     info: 1
     warn: 5
   slug: intuit-jsonschema-spectral-rules
-- name: Intuit API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Intuit API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -665,14 +673,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 59.7
+  delta: 1.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 85.0
-    developer_ergonomics: 60.9
+    contract_governance: 13.6
+    contract_quality: 82.1
+    developer_ergonomics: 57.1
     discoverability: 55.6
-    governance: 27.1
+    governance: 13.6
     operational_transparency: 55.3
   previous_composite: 58.7
   provenance:
@@ -688,8 +698,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:

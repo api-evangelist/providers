@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 38.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -307,7 +308,10 @@ rate_limits:
   name: Braintree Rate Limits
   slug: braintree-rate-limits
 rules:
-- name: braintree API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: braintree API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -315,7 +319,9 @@ rules:
     info: 0
     warn: 5
   slug: braintree-asyncapi-spectral-rules
-- name: braintree API Rules
+- effective_rule_count: 6
+  extends: []
+  name: braintree API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -330,15 +336,17 @@ scopes:
   summary_line: 40 scopes
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 36.5
+  delta: -4.0
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 74.0
-    developer_ergonomics: 17.4
+    contract_governance: 11.4
+    contract_quality: 72.6
+    developer_ergonomics: 19.0
     discoverability: 50.0
-    governance: 41.7
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 40.5
   provenance:
     agentic_access: derived
@@ -347,8 +355,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:

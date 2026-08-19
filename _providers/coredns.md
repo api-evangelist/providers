@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +197,10 @@ rate_limits:
   name: Coredns Rate Limits
   slug: coredns-rate-limits
 rules:
-- name: CoreDNS API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: CoreDNS API Rules
   rule_count: 8
   severity_counts:
     error: 6
@@ -204,7 +208,9 @@ rules:
     info: 0
     warn: 2
   slug: coredns-health-rules
-- name: CoreDNS API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CoreDNS API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -212,7 +218,10 @@ rules:
     info: 1
     warn: 5
   slug: coredns-jsonschema-spectral-rules
-- name: CoreDNS API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: CoreDNS API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -222,15 +231,17 @@ rules:
   slug: coredns-metrics-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 37.4
+  delta: -0.4
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 55.2
-    developer_ergonomics: 26.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 60.6
+    contract_quality: 51.7
+    developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 31.3
-    operational_transparency: 39.5
+    governance: 60.6
+    operational_transparency: 36.8
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -239,8 +250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:

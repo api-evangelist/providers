@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 0
@@ -318,7 +319,10 @@ rate_limits:
   name: Moesif Rate Limits
   slug: moesif-rate-limits
 rules:
-- name: Moesif API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Moesif API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -332,16 +336,18 @@ scopes:
   slug: moesif-scopes
   summary_line: 71 scopes · password
 score:
-  band: thin
-  composite: 40.4
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: 1.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 48.8
-    developer_ergonomics: 43.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 45.5
+    contract_quality: 49.9
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 45.5
+    operational_transparency: 10.5
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -350,8 +356,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/screenshots/moesif-2026-06-20T185704.png
 security:

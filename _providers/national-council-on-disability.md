@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -248,7 +249,9 @@ rate_limits:
   name: National Council On Disability Rate Limits
   slug: national-council-on-disability-rate-limits
 rules:
-- name: National Council on Disability API Rules
+- effective_rule_count: 5
+  extends: []
+  name: National Council on Disability API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,14 +261,16 @@ rules:
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 17.5
+  delta: -8.1
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 8.1
-    developer_ergonomics: 10.9
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 8.5
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 25.6
   regulatory:
@@ -273,10 +278,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 22.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 16.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/screenshots/national-council-on-disability-2026-06-20T190008.png
 security:
 - kind: domain-security

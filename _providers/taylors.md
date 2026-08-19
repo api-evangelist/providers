@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +203,9 @@ rate_limits:
   name: Taylors Rate Limits
   slug: taylors-rate-limits
 rules:
-- name: Taylor's University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Taylor's University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,7 +213,9 @@ rules:
     info: 1
     warn: 4
   slug: taylors-jsonschema-spectral-rules
-- name: Taylor's University API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Taylor's University API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -224,15 +229,17 @@ scopes:
   slug: taylors-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -4.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 67.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 43.7
   provenance:
@@ -245,11 +252,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/screenshots/taylors-2026-06-20T194940.png
 security:

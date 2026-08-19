@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -148,15 +149,17 @@ rate_limits:
   slug: monta-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 34.3
+  delta: 0.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.8
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 55.1
+    developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -171,8 +174,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/screenshots/monta-2026-08-07T184221.png
 security:

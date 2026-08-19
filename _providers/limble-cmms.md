@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -451,7 +452,9 @@ overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) netw
   Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
 random_paper: 63
 rules:
-- name: Limble CMMS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Limble CMMS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,7 +462,9 @@ rules:
     info: 2
     warn: 3
   slug: limble-cmms-jsonschema-spectral-rules
-- name: Limble CMMS API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Limble CMMS API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -468,15 +473,17 @@ rules:
     warn: 4
   slug: limble-cmms-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -5.4
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 67.9
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 67.2
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 43.8
   provenance:
@@ -486,9 +493,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:
 - kind: authentication

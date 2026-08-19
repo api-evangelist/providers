@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 52.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -342,27 +343,32 @@ scopes:
   slug: apollo-io-scopes
   summary_line: 91 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 20.7
+  band: strong
+  composite: 64.7
+  delta: -1.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 74.6
-    developer_ergonomics: 80.4
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 16.7
+    contract_quality: 69.9
+    developer_ergonomics: 52.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 45.8
+    governance: 16.7
+    operational_transparency: 42.1
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 13
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png
 security:
 - kind: authentication

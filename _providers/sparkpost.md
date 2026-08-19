@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -267,7 +268,9 @@ rate_limits:
   name: Sparkpost Rate Limits
   slug: sparkpost-rate-limits
 rules:
-- name: SparkPost API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SparkPost API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -277,14 +280,16 @@ rules:
   slug: sparkpost-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 44.4
+  delta: -9.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.2
-    developer_ergonomics: 37.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 68.8
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 54.3
   provenance:
@@ -294,9 +299,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 42.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -146,14 +147,16 @@ overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 90
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 43.5
+  delta: 0.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 42.8
   provenance:
@@ -165,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 38.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -419,7 +420,10 @@ rate_limits:
   name: Backstage Rate Limits
   slug: backstage-rate-limits
 rules:
-- name: Backstage API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Backstage API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -427,7 +431,9 @@ rules:
     info: 1
     warn: 6
   slug: backstage-asyncapi-spectral-rules
-- name: Backstage API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Backstage API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -435,7 +441,10 @@ rules:
     info: 2
     warn: 4
   slug: backstage-jsonschema-spectral-rules
-- name: Backstage API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Backstage API Rules
   rule_count: 27
   severity_counts:
     error: 9
@@ -445,14 +454,16 @@ rules:
   slug: backstage-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 40.4
+  delta: -5.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 69.4
-    developer_ergonomics: 37.0
+    contract_governance: 28.8
+    contract_quality: 65.6
+    developer_ergonomics: 40.5
     discoverability: 55.6
-    governance: 68.8
+    governance: 28.8
     operational_transparency: 28.9
   previous_composite: 45.5
   provenance:
@@ -462,9 +473,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:
 - kind: authentication

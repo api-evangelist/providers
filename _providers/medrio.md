@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: List the studies available to your account and read their configuration - domains, enabled features, reason-for-data-change options, and the reference data a study is built from (sites, roles, groups,
@@ -118,12 +119,14 @@ rate_limits:
   slug: medrio-rate-limits
 score:
   band: emerging
-  composite: 27.5
-  delta: 0.0
+  composite: 26.0
+  delta: -1.5
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 32.3
-    developer_ergonomics: 15.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
@@ -134,8 +137,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medrio/refs/heads/main/screenshots/medrio-2026-08-07T172404.png
 security:

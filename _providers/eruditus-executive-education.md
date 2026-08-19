@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,15 +178,17 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 78
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 49.5
+  delta: 4.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 65.7
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 62.6
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -197,8 +200,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 57.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:

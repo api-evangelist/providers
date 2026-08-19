@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 api_count: 25
 apis:
 - description: The Analytics API from Arkham — 2 operation(s) for analytics.
@@ -327,14 +328,16 @@ rate_limits:
   slug: arkham-rate-limits
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 54.1
+  delta: 3.5
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 57.2
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 50.6
   provenance:
@@ -352,8 +355,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/screenshots/arkham-2026-07-25T201211.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -154,16 +155,18 @@ overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network
   CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
 random_paper: 35
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -7.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 62.7
-    developer_ergonomics: 40.8
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 32.7
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -175,9 +178,10 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/screenshots/cloudsight-2026-08-17T080822.png
 security:
 - kind: authentication
   name: Cloudsight Authentication

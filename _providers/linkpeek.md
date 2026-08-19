@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -186,15 +187,17 @@ rate_limits:
   slug: linkpeek-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 42.8
+  delta: -1.2
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 53.1
-    developer_ergonomics: 25.5
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 16.7
+    contract_quality: 50.2
+    developer_ergonomics: 25.6
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -212,9 +215,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linkpeek/refs/heads/main/screenshots/linkpeek-2026-08-17T081034.png
 security:
 - kind: authentication
   name: Linkpeek Authentication

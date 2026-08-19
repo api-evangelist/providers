@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -609,7 +610,9 @@ rate_limits:
   name: Amazon Route 53 Rate Limits
   slug: amazon-route-53-rate-limits
 rules:
-- name: Amazon Route 53 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Route 53 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -617,7 +620,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-route-53-jsonschema-spectral-rules
-- name: Amazon Route 53 API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon Route 53 API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -630,11 +636,13 @@ score:
   composite: 58.2
   delta: 0.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 70.9
-    developer_ergonomics: 39.1
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 42.9
     discoverability: 40.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 58.2
   provenance:
@@ -650,8 +658,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/screenshots/amazon-route-53-2026-06-20T171815.png
 security:

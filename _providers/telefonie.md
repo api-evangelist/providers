@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: Telefonie Rate Limits
   slug: telefonie-rate-limits
 rules:
-- name: Telefonie API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telefonie API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +238,10 @@ rules:
     info: 1
     warn: 4
   slug: telefonie-jsonschema-spectral-rules
-- name: Telefonie API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Telefonie API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -244,16 +250,18 @@ rules:
     warn: 4
   slug: telefonie-rules
 score:
-  band: developing
-  composite: 51.4
-  delta: 0.0
+  band: thin
+  composite: 36.0
+  delta: -15.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.4
-    developer_ergonomics: 34.8
+    access_clarity: 19.7
+    commercial_clarity: 19.7
+    contract_governance: 9.8
+    contract_quality: 65.7
+    developer_ergonomics: 25.0
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -267,10 +275,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 15.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:
 - kind: authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -665,7 +665,9 @@ overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) net
   Amazon Aurora''s developer surface includes authentication and 10 more developer resources.'
 random_paper: 0
 rules:
-- name: Amazon Aurora API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Aurora API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -673,7 +675,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-aurora-jsonschema-spectral-rules
-- name: Amazon Aurora API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Amazon Aurora API Rules
   rule_count: 20
   severity_counts:
     error: 9
@@ -683,15 +688,23 @@ rules:
   slug: amazon-aurora-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 31.7
+  delta: -7.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 73.9
-    developer_ergonomics: 19.6
+    contract_governance: 26.5
+    contract_quality: 71.3
+    developer_ergonomics: 11.9
     discoverability: 83.3
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -702,9 +715,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/screenshots/amazon-aurora-2026-07-25T195929.png
 security:
 - kind: authentication

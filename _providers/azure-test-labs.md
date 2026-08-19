@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -641,7 +642,9 @@ rate_limits:
   name: Azure Test Labs Rate Limits
   slug: azure-test-labs-rate-limits
 rules:
-- name: Azure DevTest Labs API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure DevTest Labs API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -649,7 +652,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-test-labs-jsonschema-spectral-rules
-- name: Azure DevTest Labs API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Azure DevTest Labs API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -664,14 +670,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 46.6
+  delta: -4.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 61.1
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 59.2
+    developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 23.7
   previous_composite: 51.4
   provenance:
@@ -681,8 +689,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

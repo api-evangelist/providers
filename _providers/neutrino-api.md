@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.3
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: APIs for processing, cleaning and validating data
@@ -272,16 +272,18 @@ overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
 random_paper: 51
 score:
-  band: developing
-  composite: 52.1
-  delta: 0.0
+  band: strong
+  composite: 57.4
+  delta: 5.3
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 63.8
-    developer_ergonomics: 49.5
+    contract_governance: 30.3
+    contract_quality: 61.2
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 52.1
   provenance:
     conformance: first-party
@@ -297,10 +299,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png
 security:
 - kind: authentication
   name: Neutrino Api Authentication

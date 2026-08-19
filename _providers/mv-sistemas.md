@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 44.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -364,15 +364,17 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 15 more developer resources.'
 random_paper: 102
 score:
-  band: thin
-  composite: 38.4
-  delta: 0.0
+  band: developing
+  composite: 43.0
+  delta: 4.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 64.8
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 62.0
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 38.4
   provenance:
@@ -390,9 +392,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 35.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

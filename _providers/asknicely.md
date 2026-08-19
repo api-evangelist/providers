@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -227,16 +228,18 @@ scopes:
   slug: asknicely-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 63.1
-  delta: 0.0
+  band: exemplar
+  composite: 68.5
+  delta: 5.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 73.0
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 69.7
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 81.6
   previous_composite: 63.1
   provenance:
     conformance: derived
@@ -253,9 +256,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:
 - kind: authentication

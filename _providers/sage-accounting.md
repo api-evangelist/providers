@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for Sage Business Cloud Accounting providing access to contacts, sales invoices, sales credit notes, purchase invoices, purchase credit notes, ledger accounts, journals, products, services, t
@@ -110,18 +111,20 @@ overview: 'Sage Accounting publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 38
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 26.9
+  delta: -4.2
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 48.1
-    developer_ergonomics: 23.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 26.2
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 10.5
   previous_composite: 31.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

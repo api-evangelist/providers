@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 api_count: 556
 apis:
 - description: The account API from Chaitin Tech — 22 operation(s) for account.
@@ -3484,15 +3485,17 @@ overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 140
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 35.5
+  delta: -0.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 39.3
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 37.1
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 36.3
   provenance:
     conformance: derived
@@ -3503,8 +3506,8 @@ score:
       total: 556
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

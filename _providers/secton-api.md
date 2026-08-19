@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 31.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Chat API from Secton API — 1 operation(s) for chat.
@@ -155,17 +156,32 @@ rate_limits:
   name: Secton Api Rate Limits
   slug: secton-api-rate-limits
 score:
-  band: developing
-  composite: 42.8
+  band: thin
+  composite: 38.6
+  delta: -4.2
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 44.8
-    developer_ergonomics: 47.8
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 45.5
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 39.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 16.7
+    operational_transparency: 21.1
+  previous_composite: 42.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/screenshots/secton-api-2026-08-17T081749.png
 security:
 - kind: authentication
   name: Secton Api Authentication

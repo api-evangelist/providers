@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -261,7 +262,9 @@ rate_limits:
   name: Swift Rate Limits
   slug: swift-rate-limits
 rules:
-- name: SWIFT API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SWIFT API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +272,10 @@ rules:
     info: 2
     warn: 3
   slug: swift-jsonschema-spectral-rules
-- name: SWIFT API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SWIFT API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -283,16 +289,18 @@ scopes:
   slug: swift-scopes
   summary_line: 2 scopes · password
 score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -11.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 64.9
-    developer_ergonomics: 41.3
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 27.4
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -306,10 +314,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/screenshots/swift-2026-06-20T194804.png
 security:
 - kind: authentication

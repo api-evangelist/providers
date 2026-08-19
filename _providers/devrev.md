@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 39.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The DevRev public REST API for managing works (issues/tickets), parts, accounts, articles, conversations, timeline entries, webhooks, and more. Resource-oriented URLs, JSON request/response bodies, PA
@@ -183,22 +183,24 @@ rate_limits:
   slug: devrev-rate-limits
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 43.9
+  delta: -9.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.6
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 65.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 53.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/screenshots/devrev-2026-07-25T211828.png
 security:
 - kind: authentication

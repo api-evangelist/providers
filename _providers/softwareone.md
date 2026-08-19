@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -168,7 +169,9 @@ rate_limits:
   name: Softwareone Rate Limits
   slug: softwareone-rate-limits
 rules:
-- name: SoftwareOne API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SoftwareOne API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -178,15 +181,17 @@ rules:
   slug: softwareone-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 31.4
+  delta: -6.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 37.5
   provenance:
     contracts:
@@ -194,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:
 - kind: domain-security

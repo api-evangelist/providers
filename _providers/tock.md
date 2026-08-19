@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'Reservation data model and delivery surface published at api.exploretock.com. Reservation records (bookings, ticketed experiences, takeout/delivery orders, parties, pricing, payments, refunds, notes, '
@@ -606,7 +607,9 @@ rate_limits:
   name: Tock Rate Limits
   slug: tock-rate-limits
 rules:
-- name: Tock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -615,20 +618,22 @@ rules:
     warn: 3
   slug: tock-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 35.1
+  delta: -7.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 46.3
-    developer_ergonomics: 26.1
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 45.5
+    developer_ergonomics: 26.2
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:
 - kind: authentication

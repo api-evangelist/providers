@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,7 +223,10 @@ rate_limits:
   name: 1Forge Rate Limits
   slug: 1forge-rate-limits
 rules:
-- name: 1Forge API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: 1Forge API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -230,7 +234,9 @@ rules:
     info: 0
     warn: 4
   slug: 1forge-asyncapi-spectral-rules
-- name: 1Forge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 1Forge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,7 +244,10 @@ rules:
     info: 1
     warn: 4
   slug: 1forge-jsonschema-spectral-rules
-- name: 1Forge API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: 1Forge API Rules
   rule_count: 33
   severity_counts:
     error: 11
@@ -247,16 +256,18 @@ rules:
     warn: 18
   slug: 1forge-rules
 score:
-  band: developing
-  composite: 44.7
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: -9.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 32.5
-    developer_ergonomics: 19.6
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 26.5
+    contract_quality: 30.7
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 52.1
-    operational_transparency: 26.3
+    governance: 26.5
+    operational_transparency: 23.7
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -270,10 +281,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/screenshots/1forge-2026-06-20T162445.png
 security:
 - kind: authentication

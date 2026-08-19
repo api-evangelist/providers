@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -308,14 +309,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 48.1
+  delta: -3.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 58.2
-    developer_ergonomics: 56.0
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 30.3
+    contract_quality: 56.0
+    developer_ergonomics: 53.0
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 47.4
   previous_composite: 52.0
   provenance:
@@ -333,9 +336,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:

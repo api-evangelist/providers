@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -425,7 +426,9 @@ rate_limits:
   name: Acceldata Rate Limits
   slug: acceldata-rate-limits
 rules:
-- name: Acceldata API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Acceldata API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -433,7 +436,10 @@ rules:
     info: 2
     warn: 3
   slug: acceldata-jsonschema-spectral-rules
-- name: Acceldata API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Acceldata API Rules
   rule_count: 32
   severity_counts:
     error: 11
@@ -442,16 +448,18 @@ rules:
     warn: 17
   slug: acceldata-spectral-rules
 score:
-  band: developing
-  composite: 45.7
-  delta: 0.0
+  band: thin
+  composite: 33.8
+  delta: -11.9
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 29.5
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 27.6
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -460,10 +468,10 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-06-20T163543.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-08-17T082111.png
 security:
 - kind: authentication
   name: Acceldata Authentication

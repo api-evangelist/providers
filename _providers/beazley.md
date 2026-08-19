@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -265,15 +265,17 @@ rate_limits:
   slug: beazley-rate-limits
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 52.3
+  delta: 0.8
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 48.1
-    developer_ergonomics: 49.5
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 16.7
+    contract_quality: 45.3
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -290,9 +292,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 39.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

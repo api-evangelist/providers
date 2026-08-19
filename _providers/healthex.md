@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -168,15 +169,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 38.5
+  delta: 2.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.8
+    developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 39.5
+    governance: 18.2
+    operational_transparency: 23.7
   previous_composite: 35.7
   provenance:
     conformance: first-party
@@ -187,9 +190,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 48.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 66.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/screenshots/healthex-2026-07-25T220838.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 6
@@ -1076,7 +1077,9 @@ rate_limits:
   name: Microsoft Azure Synapse Analytics Rate Limits
   slug: microsoft-azure-synapse-analytics-rate-limits
 rules:
-- name: Azure Synapse Analytics API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Azure Synapse Analytics API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1090,16 +1093,18 @@ scopes:
   slug: microsoft-azure-synapse-analytics-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 62.7
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -9.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 70.1
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 66.8
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 62.7
   provenance:
     agentic_access: derived
@@ -1108,9 +1113,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/screenshots/microsoft-azure-synapse-analytics-2026-06-20T185441.png
 security:
 - kind: authentication

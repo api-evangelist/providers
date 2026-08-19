@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,13 +82,15 @@ overview: 'Autonomous Cyber is profiled on the [APIs.io](https://apis.io/) netwo
   Autonomous Cyber''s developer surface includes signup flow, support, and 7 more developer resources.'
 random_paper: 53
 score:
-  band: emerging
-  composite: 15.3
-  delta: 0.0
+  band: minimal
+  composite: 7.8
+  delta: -7.5
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -97,10 +100,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 25.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomous-cyber/refs/heads/main/screenshots/autonomous-cyber-2026-07-25T201841.png
 security:
 - kind: domain-security

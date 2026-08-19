@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 42.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -603,7 +603,9 @@ rate_limits:
   name: Ibm Rate Limits
   slug: ibm-rate-limits
 rules:
-- name: IBM API Rules
+- effective_rule_count: 6
+  extends: []
+  name: IBM API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -617,16 +619,18 @@ scopes:
   slug: ibm-scopes
   summary_line: 7 scopes
 score:
-  band: exemplar
-  composite: 69.8
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: -6.0
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 73.9
-    developer_ergonomics: 69.6
+    contract_governance: 26.5
+    contract_quality: 74.4
+    developer_ergonomics: 66.7
     discoverability: 85.2
-    governance: 69.8
-    operational_transparency: 52.6
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 69.8
   provenance:
     agentic_access: derived
@@ -637,9 +641,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:
 - kind: authentication

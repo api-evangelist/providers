@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -281,15 +282,17 @@ rate_limits:
   slug: kaleyra-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 57.8
+  delta: -4.6
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 69.0
-    developer_ergonomics: 66.8
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 64.7
+    developer_ergonomics: 57.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 62.4
   provenance:
     agentic_access: derived
@@ -306,9 +309,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 38.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:

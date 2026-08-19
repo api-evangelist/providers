@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -253,7 +254,9 @@ rate_limits:
   name: At Bay Rate Limits
   slug: at-bay-rate-limits
 rules:
-- name: At-Bay API Rules
+- effective_rule_count: 5
+  extends: []
+  name: At-Bay API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +264,10 @@ rules:
     info: 1
     warn: 4
   slug: at-bay-jsonschema-spectral-rules
-- name: At-Bay API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: At-Bay API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -271,14 +277,16 @@ rules:
   slug: at-bay-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 43.0
+  delta: -5.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 72.8
-    developer_ergonomics: 34.8
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 25.0
+    contract_quality: 68.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 48.1
   provenance:
@@ -294,9 +302,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png
 security:
 - kind: authentication

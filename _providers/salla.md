@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -498,7 +499,9 @@ rate_limits:
   name: Salla Rate Limits
   slug: salla-rate-limits
 rules:
-- name: Salla API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salla API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -506,7 +509,10 @@ rules:
     info: 1
     warn: 4
   slug: salla-jsonschema-spectral-rules
-- name: Salla API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Salla API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -521,14 +527,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 72.5
+  delta: 2.1
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 68.4
-    developer_ergonomics: 78.3
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 85.7
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 70.4
   provenance:
@@ -544,8 +552,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:

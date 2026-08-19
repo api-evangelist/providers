@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -277,7 +278,9 @@ rate_limits:
   name: Car Api Rate Limits
   slug: car-api-rate-limits
 rules:
-- name: Car API (carapi.app) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Car API (carapi.app) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -287,15 +290,17 @@ rules:
   slug: car-api-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 41.3
+  delta: -3.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.5
-    developer_ergonomics: 19.6
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 60.6
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -310,8 +315,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:

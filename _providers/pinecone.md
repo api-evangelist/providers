@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -816,7 +817,9 @@ rate_limits:
   name: Pinecone Rate Limits
   slug: pinecone-rate-limits
 rules:
-- name: Pinecone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pinecone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -825,15 +828,17 @@ rules:
     warn: 4
   slug: pinecone-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.1
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  delta: -6.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 68.0
-    developer_ergonomics: 43.5
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 47.6
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 50.0
   previous_composite: 60.1
   provenance:
@@ -843,9 +848,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png
 security:
 - kind: authentication

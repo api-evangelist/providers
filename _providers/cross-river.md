@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -177,12 +178,14 @@ rate_limits:
   slug: cross-river-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 45.3
+  delta: 2.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 58.2
-    developer_ergonomics: 45.7
+    contract_governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 50.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
@@ -200,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png
 security:

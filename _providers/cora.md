@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Cora''s transactional banking API for Direct Integration: registered boleto and carnê (installment) issuance, Pix QR codes, account data, balance and statement queries, payment and transfer initiation '
@@ -145,16 +146,18 @@ overview: 'Cora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   Cora''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 15 more developer resources.'
 random_paper: 123
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -6.2
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 15.8
   previous_composite: 42.1
   provenance:
     conformance: first-party
@@ -163,10 +166,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 34.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/screenshots/cora-2026-07-25T210413.png
 security:
 - kind: authentication

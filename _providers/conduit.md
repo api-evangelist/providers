@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -523,16 +524,18 @@ rate_limits:
   name: Conduit Rate Limits
   slug: conduit-rate-limits
 score:
-  band: strong
-  composite: 58.6
-  delta: 0.0
+  band: developing
+  composite: 54.0
+  delta: -4.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 33.6
-    developer_ergonomics: 80.4
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 31.5
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 78.9
+    governance: 30.3
+    operational_transparency: 76.3
   previous_composite: 58.6
   provenance:
     agentic_access: derived
@@ -544,8 +547,8 @@ score:
       total: 52
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/screenshots/conduit-2026-07-25T210242.png
 security:

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,14 +128,16 @@ overview: 'CLARA Analytics is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 38
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 18.1
+  delta: 0.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 17.6
   provenance:
@@ -144,9 +147,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 36.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 47.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

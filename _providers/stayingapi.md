@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 56.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -257,16 +258,18 @@ scopes:
   slug: stayingapi-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 0.0
+  band: strong
+  composite: 66.0
+  delta: -0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 61.2
-    developer_ergonomics: 78.3
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 66.8
   provenance:
     agentic_access: derived
@@ -278,9 +281,10 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:
 - kind: authentication
   name: Stayingapi Authentication

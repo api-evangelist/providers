@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -220,14 +221,16 @@ overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 80
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 51.5
+  delta: 3.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 65.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 63.3
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 23.7
   previous_composite: 48.0
   provenance:
@@ -245,9 +248,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 40.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
 security:

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -196,14 +197,16 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 33
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.5
+  delta: -0.7
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 61.2
-    developer_ergonomics: 51.6
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 45.5
+    contract_quality: 57.3
+    developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 5.3
   previous_composite: 38.2
   provenance:
@@ -221,8 +224,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-17'
+  score: 16.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Moderne Platform GraphQL API for programmatically executing OpenRewrite recipes across organizations of repositories, polling recipe-run state, retrieving results and recipe data tables, and commi
@@ -159,22 +160,24 @@ overview: 'Moderne publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 1
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 34.7
+  delta: -2.6
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 80.4
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/screenshots/moderne-2026-08-07T184011.png
 security:

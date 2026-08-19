@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: flavored
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.9
-  scored_at: '2026-08-17'
+  score: 60.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -271,29 +272,32 @@ rate_limits:
   slug: permutive-rate-limits
 score:
   band: strong
-  composite: 59.3
-  delta: 11.8
+  composite: 59.2
+  delta: -0.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.8
-    developer_ergonomics: 69.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 69.6
+    developer_ergonomics: 66.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 47.5
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png
 security:
 - kind: authentication
   name: Permutive Authentication

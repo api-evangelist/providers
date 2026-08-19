@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -191,16 +192,24 @@ rate_limits:
   name: Stainless Rate Limits
   slug: stainless-rate-limits
 score:
-  band: thin
-  composite: 40.9
-  delta: 0.0
+  band: developing
+  composite: 40.5
+  delta: -0.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 58.2
-    developer_ergonomics: 30.4
+    contract_governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 40.9
   provenance:
     agentic_access: derived
@@ -209,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/screenshots/stainless-2026-06-20T194453.png
 security:

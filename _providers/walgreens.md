@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -215,7 +216,9 @@ rate_limits:
   name: Walgreens Rate Limits
   slug: walgreens-rate-limits
 rules:
-- name: Walgreens API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Walgreens API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,7 +226,10 @@ rules:
     info: 2
     warn: 3
   slug: walgreens-jsonschema-spectral-rules
-- name: Walgreens API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Walgreens API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -233,15 +239,17 @@ rules:
   slug: walgreens-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 41.2
+  delta: -2.3
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 75.8
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 72.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -256,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:

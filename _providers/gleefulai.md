@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: The Audit API from Gleeful AI — 3 operation(s) for audit.
@@ -217,24 +218,28 @@ rate_limits:
   slug: gleefulai-rate-limits
 score:
   band: emerging
-  composite: 27.5
-  delta: 1.5
+  composite: 24.2
+  delta: -3.3
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 47.5
-    developer_ergonomics: 19.6
+    access_clarity: 5.3
+    commercial_clarity: 5.3
+    contract_governance: 4.5
+    contract_quality: 44.5
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.0
+  previous_composite: 27.5
   provenance:
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:

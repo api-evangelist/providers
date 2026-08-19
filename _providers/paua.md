@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Partner and Paua Pro APIs providing fleet charging data (charging history, costs, energy consumption, timestamps, network data across drivers and vehicles) and chargepoint location data for route plan
@@ -118,15 +119,17 @@ overview: 'Paua publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 125
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 18.1
+  delta: -1.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 0.0
   previous_composite: 19.8
   regulatory:
     applies: true
@@ -134,8 +137,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paua/refs/heads/main/screenshots/paua-2026-08-07T191603.png
 security:

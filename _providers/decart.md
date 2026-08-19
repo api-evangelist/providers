@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.1
-  scored_at: '2026-08-17'
+  score: 49.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -249,15 +250,17 @@ rate_limits:
   slug: decart-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 57.3
+  delta: -0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 16.7
     contract_quality: 45.5
-    developer_ergonomics: 80.4
+    developer_ergonomics: 75.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -269,8 +272,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -363,7 +364,9 @@ rate_limits:
   name: Octopus Energy Rate Limits
   slug: octopus-energy-rate-limits
 rules:
-- name: Octopus Energy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Octopus Energy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -371,7 +374,10 @@ rules:
     info: 1
     warn: 4
   slug: octopus-energy-jsonschema-spectral-rules
-- name: Octopus Energy API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Octopus Energy API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -381,14 +387,16 @@ rules:
   slug: octopus-energy-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 52.7
+  delta: -1.9
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 69.1
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 66.3
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 63.2
   previous_composite: 54.6
   provenance:
@@ -404,8 +412,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
 security:

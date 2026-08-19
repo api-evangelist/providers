@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -182,15 +183,17 @@ rate_limits:
   slug: orange-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 32.4
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 58.2
-    developer_ergonomics: 32.6
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 35.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -204,10 +207,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 36.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 25.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/screenshots/orange-2026-06-20T191151.png
 security:
 - kind: authentication

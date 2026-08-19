@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Life insurance, annuities, and retirement products offered by Western & Southern Life Insurance Company. Customers can access account information, policy details, and manage their coverage through dig
@@ -121,7 +122,9 @@ rate_limits:
   name: Western And Southern Financial Rate Limits
   slug: western-and-southern-financial-rate-limits
 rules:
-- name: western-and-southern-financial API Rules
+- effective_rule_count: 5
+  extends: []
+  name: western-and-southern-financial API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -131,19 +134,25 @@ rules:
   slug: western-and-southern-financial-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 18.3
+  delta: -8.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/screenshots/western-and-southern-financial-2026-06-20T201402.png
 security:
 - kind: domain-security

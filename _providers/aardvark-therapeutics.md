@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,15 +94,17 @@ overview: 'Aardvark Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 random_paper: 100
 score:
   band: minimal
-  composite: 11.7
-  delta: 0.0
+  composite: 10.1
+  delta: -1.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 11.7
   regulatory:
     applies: true
@@ -109,8 +112,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aardvark-therapeutics/refs/heads/main/screenshots/aardvark-therapeutics-2026-08-07T160736.png
 security:

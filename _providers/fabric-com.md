@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -617,7 +618,9 @@ rate_limits:
   name: Fabric Com Rate Limits
   slug: fabric-com-rate-limits
 rules:
-- name: fabric API Rules
+- effective_rule_count: 5
+  extends: []
+  name: fabric API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -625,7 +628,9 @@ rules:
     info: 2
     warn: 3
   slug: fabric-com-jsonschema-spectral-rules
-- name: fabric API Rules
+- effective_rule_count: 0
+  extends: []
+  name: fabric API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -634,16 +639,18 @@ rules:
     warn: 0
   slug: fabric-com-rules
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: thin
+  composite: 37.2
+  delta: -7.2
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 68.4
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 66.7
+    developer_ergonomics: 26.2
     discoverability: 40.7
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 5.3
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -658,9 +665,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:
 - kind: authentication

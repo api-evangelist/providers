@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,12 +83,14 @@ overview: 'Asset Reality is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 10
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 16.9
+  delta: -0.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -98,8 +101,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asset-reality/refs/heads/main/screenshots/asset-reality-2026-07-25T201439.png
 security:

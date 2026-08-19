@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-17'
+  score: 27.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Workspaces API from Macroscope — 2 operation(s) for workspaces.
@@ -145,15 +146,17 @@ overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 25
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 32.9
+  delta: 0.4
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 24.6
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 23.1
+    developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 32.5
   provenance:
     conformance: derived
@@ -164,8 +167,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png
 security:

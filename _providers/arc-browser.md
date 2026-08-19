@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Desktop browser for macOS and Windows, organized around Spaces, Profiles, Tabs, Split View, and Themes. Built on Chromium.
@@ -114,15 +115,17 @@ score:
   composite: 18.0
   delta: 0.0
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-browser/refs/heads/main/screenshots/arc-browser-2026-06-20T172352.png
 security:

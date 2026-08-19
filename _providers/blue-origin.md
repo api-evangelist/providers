@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -144,22 +145,24 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 19.5
+  delta: -3.5
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.4
+    developer_ergonomics: 14.9
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

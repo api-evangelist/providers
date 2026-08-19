@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -295,14 +296,16 @@ overview: 'Quantum Art publishes 24 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 108
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 34.7
+  delta: 0.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 50.3
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 47.2
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 34.6
   provenance:
@@ -315,8 +318,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

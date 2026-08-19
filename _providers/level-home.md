@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Publicly reachable GraphQL endpoint served by the Craft CMS instance behind level.co. Introspection is enabled anonymously, but the published public schema scope is deliberately narrow — a `ping` quer
@@ -145,20 +146,22 @@ overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 112
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.5
+  delta: -0.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 43.2
-    developer_ergonomics: 15.2
+    contract_governance: 4.5
+    contract_quality: 38.9
+    developer_ergonomics: 16.7
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 31.4
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-home/refs/heads/main/screenshots/level-home-2026-08-07T171558.png
 security:

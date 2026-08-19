@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-17'
+  score: 62.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -281,17 +282,19 @@ scopes:
   slug: moloco-scopes
   summary_line: 2 scopes
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 2.1
+  band: strong
+  composite: 59.1
+  delta: -7.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.8
-    developer_ergonomics: 86.4
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 69.1
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 78.9
-  previous_composite: 64.4
+    governance: 16.7
+    operational_transparency: 72.4
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,9 +305,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:
 - kind: authentication

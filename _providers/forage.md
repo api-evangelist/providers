@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 44.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API to tokenize EBT cards, run PIN-secured balance inquiries, and create, capture, void, and refund EBT SNAP, EBT Cash, and HSA/FSA payments and orders for online and in-store checkout.
@@ -198,15 +199,17 @@ overview: 'Forage publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 32
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 50.3
+  delta: -3.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 53.6
   provenance:
     conformance: first-party
@@ -217,9 +220,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/screenshots/forage-2026-07-25T214925.png
 security:

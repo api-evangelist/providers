@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -314,7 +314,9 @@ rate_limits:
   name: Serper Rate Limits
   slug: serper-rate-limits
 rules:
-- name: Serper API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Serper API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -323,27 +325,32 @@ rules:
     warn: 3
   slug: serper-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 74.0
-  delta: 22.8
+  band: strong
+  composite: 60.9
+  delta: -13.1
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 71.7
-    developer_ergonomics: 73.9
+    contract_governance: 26.5
+    contract_quality: 58.8
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 79.2
-    operational_transparency: 52.6
-  previous_composite: 51.2
+    governance: 26.5
+    operational_transparency: 36.8
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      derived: 3
+      marker_coverage: 28.6
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
 security:
 - kind: authentication

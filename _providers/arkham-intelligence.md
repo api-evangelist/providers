@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -116,7 +117,10 @@ rate_limits:
   name: Arkham Intelligence Rate Limits
   slug: arkham-intelligence-rate-limits
 rules:
-- name: Arkham Intelligence API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Arkham Intelligence API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -126,14 +130,16 @@ rules:
   slug: arkham-intelligence-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 26.6
+  delta: -5.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 48.1
-    developer_ergonomics: 2.2
+    contract_governance: 13.6
+    contract_quality: 43.3
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 21.1
   previous_composite: 32.0
   regulatory:
@@ -142,9 +148,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/screenshots/arkham-intelligence-2026-06-20T172448.png
 security:
 - kind: domain-security

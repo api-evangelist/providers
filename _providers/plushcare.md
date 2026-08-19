@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,25 +128,29 @@ rate_limits:
   slug: plushcare-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 13.6
+  composite: 25.6
+  delta: 0.4
   facets:
-    commercial_clarity: 73.7
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 25.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Plushcare Domain Security

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -717,7 +717,9 @@ rate_limits:
   name: Ipinfo Rate Limits
   slug: ipinfo-rate-limits
 rules:
-- name: IPinfo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IPinfo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -725,7 +727,10 @@ rules:
     info: 1
     warn: 4
   slug: ipinfo-jsonschema-spectral-rules
-- name: IPinfo API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: IPinfo API Rules
   rule_count: 30
   severity_counts:
     error: 4
@@ -734,16 +739,18 @@ rules:
     warn: 24
   slug: ipinfo-spectral-rules
 score:
-  band: exemplar
-  composite: 68.7
-  delta: 0.0
+  band: strong
+  composite: 62.0
+  delta: -6.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 71.2
-    developer_ergonomics: 52.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 41.7
+    contract_quality: 69.3
+    developer_ergonomics: 47.6
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 68.4
+    governance: 41.7
+    operational_transparency: 42.1
   previous_composite: 68.7
   provenance:
     agentic_access: derived
@@ -759,10 +766,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 34.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:
 - kind: authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The OAuth 2.0 authorization server and OpenID Connect provider that fronts the Everlywell member account. It is not a documented developer product — Everly Health publishes no API reference for it — b
@@ -180,26 +181,29 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: thin
-  composite: 29.7
-  delta: 3.8
+  composite: 28.1
+  delta: -1.6
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 25.9
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 29.7
   provenance:
     conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/screenshots/everly-health-2026-08-07T165035.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -289,16 +290,18 @@ rate_limits:
   name: Autoderm Ai Dermatology Api Rate Limits
   slug: autoderm-ai-dermatology-api-rate-limits
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: exemplar
+  composite: 67.0
+  delta: 7.6
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 57.1
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 54.7
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 60.5
+    governance: 30.3
+    operational_transparency: 57.9
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -316,9 +319,10 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:
 - kind: authentication
   name: Autoderm Ai Dermatology Api Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom re
@@ -110,7 +111,9 @@ rate_limits:
   name: Mockapi Rate Limits
   slug: mockapi-rate-limits
 rules:
-- name: mockAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: mockAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -119,20 +122,22 @@ rules:
     warn: 3
   slug: mockapi-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.0
-  delta: 0.0
+  band: emerging
+  composite: 20.3
+  delta: -7.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 8.1
-    developer_ergonomics: 19.6
-    discoverability: 75.9
-    governance: 58.3
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 7.0
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 28.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/screenshots/mockapi-2026-06-20T185632.png
 security:
 - kind: domain-security

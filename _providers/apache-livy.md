@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -289,7 +290,9 @@ rate_limits:
   name: Apache Livy Rate Limits
   slug: apache-livy-rate-limits
 rules:
-- name: Apache Livy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Livy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -297,7 +300,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-livy-jsonschema-spectral-rules
-- name: Apache Livy API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Apache Livy API Rules
   rule_count: 18
   severity_counts:
     error: 9
@@ -306,16 +312,18 @@ rules:
     warn: 7
   slug: apache-livy-spectral-rules
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 36.4
+  delta: -5.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 58.2
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 55.9
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 42.2
   provenance:
     agentic_access: derived
@@ -324,9 +332,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/screenshots/apache-livy-2026-06-20T172116.png
 security:
 - kind: domain-security

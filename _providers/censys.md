@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -10759,7 +10760,9 @@ rate_limits:
   name: Censys Rate Limits
   slug: censys-rate-limits
 rules:
-- name: Censys API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Censys API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -10767,7 +10770,10 @@ rules:
     info: 1
     warn: 4
   slug: censys-jsonschema-spectral-rules
-- name: Censys API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Censys API Rules
   rule_count: 39
   severity_counts:
     error: 8
@@ -10777,15 +10783,17 @@ rules:
   slug: censys-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 60.1
+  delta: -5.1
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 70.7
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 70.1
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 65.2
   provenance:
     agentic_access: derived
@@ -10794,9 +10802,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:
 - kind: authentication

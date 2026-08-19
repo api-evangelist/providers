@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-17'
+  score: 58.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1169,7 +1170,9 @@ rate_limits:
   name: Convertkit Rate Limits
   slug: convertkit-rate-limits
 rules:
-- name: Kit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Kit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1184,32 +1187,37 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.6
-  delta: 31.0
+  composite: 85.4
+  delta: 2.8
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 68.4
-    developer_ergonomics: 73.9
+    contract_governance: 55.3
+    contract_quality: 66.6
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 94.7
-  previous_composite: 51.6
+    governance: 55.3
+    operational_transparency: 92.1
+  previous_composite: 82.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:
 - kind: authentication

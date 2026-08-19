@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -309,7 +310,9 @@ rate_limits:
   name: Sap Fieldglass Rate Limits
   slug: sap-fieldglass-rate-limits
 rules:
-- name: SAP Fieldglass API Rules
+- effective_rule_count: 4
+  extends: []
+  name: SAP Fieldglass API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -324,14 +327,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 40.5
+  delta: -10.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 54.2
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 53.6
+    developer_ergonomics: 4.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 50.7
   provenance:
@@ -341,9 +346,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
 security:
 - kind: authentication

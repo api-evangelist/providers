@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -200,7 +201,9 @@ rate_limits:
   name: Kubevirt Rate Limits
   slug: kubevirt-rate-limits
 rules:
-- name: KubeVirt API Rules
+- effective_rule_count: 6
+  extends: []
+  name: KubeVirt API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -210,15 +213,17 @@ rules:
   slug: kubevirt-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 34.3
+  delta: -7.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 63.7
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 60.5
+    developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -227,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/screenshots/kubevirt-2026-06-20T184209.png
 security:
 - kind: domain-security

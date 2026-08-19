@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 11.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -210,14 +211,16 @@ overview: 'APRA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 122
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 33.0
+  delta: 1.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 53.6
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 31.9
   provenance:
@@ -228,8 +231,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png
 security:

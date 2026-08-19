@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 26.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -298,7 +299,10 @@ overview: 'WeChat publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   WeChat''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, developer console, code examples, and 31 more developer resources.'
 random_paper: 40
 rules:
-- name: WeChat API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: WeChat API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -308,15 +312,23 @@ rules:
   slug: wechat-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 48.6
+  delta: 3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 64.3
-    developer_ergonomics: 67.4
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 13.6
+    contract_quality: 60.7
+    developer_ergonomics: 73.8
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -331,8 +343,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png
 security:

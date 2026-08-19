@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -238,7 +239,9 @@ rate_limits:
   name: Enable Banking Rate Limits
   slug: enable-banking-rate-limits
 rules:
-- name: Enable Banking API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Enable Banking API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -246,7 +249,10 @@ rules:
     info: 1
     warn: 4
   slug: enable-banking-jsonschema-spectral-rules
-- name: Enable Banking API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Enable Banking API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -256,15 +262,17 @@ rules:
   slug: enable-banking-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 46.2
+  delta: -9.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 73.1
-    developer_ergonomics: 58.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 70.6
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -279,9 +287,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
 security:
 - kind: authentication

@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 47.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Cubby Operator API is a JSON HTTP API — explicitly not RESTful — oriented around actions performed on system entities rather than transfer of state. Roughly 70 POST endpoints cover access codes, l
@@ -192,25 +193,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 44.1
+  delta: -2.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 46.5
+    developer_ergonomics: 45.2
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 46.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cubby/refs/heads/main/screenshots/cubby-2026-08-17T080842.png
 security:
 - kind: authentication
   name: Cubby Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -344,15 +345,17 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 21
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 52.0
+  delta: 3.0
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 57.8
-    developer_ergonomics: 71.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 30.3
+    contract_quality: 55.2
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -369,9 +372,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 53.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

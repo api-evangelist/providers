@@ -12,25 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -172,25 +172,37 @@ rate_limits:
   slug: fintary-rate-limits
 score:
   band: developing
-  composite: 42.8
-  delta: 30.7
+  composite: 41.2
+  delta: -1.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 48.8
-    developer_ergonomics: 47.8
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 50.7
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 15.8
-  previous_composite: 12.1
+    governance: 30.3
+    operational_transparency: 0.0
+  previous_composite: 42.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/screenshots/fintary-2026-07-25T214544.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -213,15 +214,17 @@ rate_limits:
   slug: arize-ai-rate-limits
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 43.4
+  delta: -2.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.7
-    developer_ergonomics: 26.1
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 0.0
+    contract_quality: 60.8
+    developer_ergonomics: 26.2
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 50.0
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -230,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/screenshots/arize-ai-2026-06-20T172430.png
 security:

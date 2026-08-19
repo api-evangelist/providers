@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -597,15 +597,17 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 18
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 52.0
+  delta: -1.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 71.4
-    developer_ergonomics: 62.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 16.7
+    contract_quality: 71.5
+    developer_ergonomics: 66.1
     discoverability: 63.0
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -617,9 +619,10 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png
 security:
 - kind: authentication
   name: Syntage Authentication

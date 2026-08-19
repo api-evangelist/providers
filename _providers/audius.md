@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -251,12 +252,14 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 28.6
+  delta: -1.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 58.1
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 59.1
+    developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
@@ -268,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/screenshots/audius-2026-06-20T172554.png
 security:

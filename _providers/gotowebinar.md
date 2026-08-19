@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -324,7 +325,10 @@ rate_limits:
   name: Gotowebinar Rate Limits
   slug: gotowebinar-rate-limits
 rules:
-- name: GoToWebinar API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: GoToWebinar API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -332,7 +336,9 @@ rules:
     info: 1
     warn: 4
   slug: gotowebinar-asyncapi-spectral-rules
-- name: GoToWebinar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GoToWebinar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -340,7 +346,10 @@ rules:
     info: 2
     warn: 3
   slug: gotowebinar-jsonschema-spectral-rules
-- name: GoToWebinar API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: GoToWebinar API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -354,15 +363,17 @@ scopes:
   slug: gotowebinar-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  delta: -5.3
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 68.7
-    developer_ergonomics: 43.5
+    contract_governance: 28.8
+    contract_quality: 67.8
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 31.6
   previous_composite: 57.0
   provenance:
@@ -372,9 +383,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:
 - kind: authentication

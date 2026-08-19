@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-17'
+  score: 19.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Insert, retrieve, tokenize/detokenize, query, and manage records and files in a Skyflow data privacy vault. Authenticated with a JWT bearer token or API key (RFC 6750). Base URLs are per-vault under t
@@ -182,15 +183,17 @@ overview: 'Skyflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 38
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 42.2
+  delta: -1.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 59.5
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 44.1
   provenance:
     conformance: first-party
@@ -201,9 +204,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/screenshots/skyflow-2026-08-17T081918.png
 security:
 - kind: authentication
   name: Skyflow Authentication

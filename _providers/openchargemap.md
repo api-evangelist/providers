@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -253,7 +254,9 @@ rate_limits:
   name: Openchargemap Rate Limits
   slug: openchargemap-rate-limits
 rules:
-- name: Open Charge Map API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Open Charge Map API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -262,15 +265,17 @@ rules:
     warn: 3
   slug: openchargemap-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -7.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 60.0
-    developer_ergonomics: 23.9
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 56.9
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 43.1
   provenance:
@@ -285,10 +290,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 21.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 16.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png
 security:
 - kind: authentication

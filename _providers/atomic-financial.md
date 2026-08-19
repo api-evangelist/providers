@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: 'Deposit (formerly Direct Deposit Switching) lets users redirect all or part of their paycheck to a new account. Atomic connects to thousands of payroll providers and employers, signs in on the user''s '
@@ -169,16 +170,18 @@ overview: 'Atomic publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
   Atomic''s developer surface includes documentation, API reference, developer portal, signup flow, YouTube channel, support, engineering blog, and 8 more developer resources.'
 random_paper: 125
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 23.8
+  delta: -5.0
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 43.2
-    developer_ergonomics: 47.8
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 28.8
   regulatory:
     applies: true
@@ -186,9 +189,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-financial/refs/heads/main/screenshots/atomic-financial-2026-06-20T172532.png
 security:
 - kind: domain-security

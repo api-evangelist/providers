@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.9
-  scored_at: '2026-08-17'
+  score: 65.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -893,7 +894,10 @@ rate_limits:
   name: Adobe Analytics Rate Limits
   slug: adobe-analytics-rate-limits
 rules:
-- name: Adobe Analytics API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Adobe Analytics API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -901,7 +905,9 @@ rules:
     info: 1
     warn: 3
   slug: adobe-analytics-asyncapi-spectral-rules
-- name: Adobe Analytics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adobe Analytics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -909,7 +915,9 @@ rules:
     info: 2
     warn: 3
   slug: adobe-analytics-jsonschema-spectral-rules
-- name: Adobe Analytics API Rules
+- effective_rule_count: 21
+  extends: []
+  name: Adobe Analytics API Rules
   rule_count: 21
   severity_counts:
     error: 19
@@ -924,16 +932,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 75.1
-  delta: 13.5
+  composite: 67.9
+  delta: -7.2
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 73.4
-    developer_ergonomics: 84.8
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 45.5
+    contract_quality: 73.1
+    developer_ergonomics: 70.2
     discoverability: 83.3
-    governance: 69.8
-    operational_transparency: 60.5
-  previous_composite: 61.6
+    governance: 45.5
+    operational_transparency: 57.9
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -943,9 +953,10 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication

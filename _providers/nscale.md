@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -151,7 +152,10 @@ rate_limits:
   name: Nscale Rate Limits
   slug: nscale-rate-limits
 rules:
-- name: Nscale API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Nscale API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -161,14 +165,16 @@ rules:
   slug: nscale-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 42.1
+  delta: -4.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 70.1
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 66.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 31.6
   previous_composite: 46.3
   provenance:
@@ -178,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/screenshots/nscale-2026-08-07T185704.png
 security:

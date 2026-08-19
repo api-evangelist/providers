@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: The Accounts API from Newcastle Permanent Building Society — 6 operation(s) for accounts.
@@ -257,15 +258,17 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.1
+  delta: -1.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 53.4
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 52.1
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 15.8
   previous_composite: 47.1
   provenance:
     conformance: derived
@@ -281,9 +284,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 77.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

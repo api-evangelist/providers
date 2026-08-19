@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 36.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -291,7 +292,9 @@ rate_limits:
   name: Apollo Config Rate Limits
   slug: apollo-config-rate-limits
 rules:
-- name: Apollo Config API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apollo Config API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -301,15 +304,17 @@ rules:
   slug: apollo-config-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 45.3
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 69.1
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 65.5
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -318,9 +323,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/screenshots/apollo-config-2026-06-20T172307.png
 security:
 - kind: authentication

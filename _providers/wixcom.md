@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The unified Wix REST API exposes every Wix business solution — Stores, Bookings, Events, CMS/Data, Contacts, Payments, Marketing, Restaurants, Media, Members, and more — as JSON-over-HTTPS endpoints o
@@ -219,15 +220,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 64.1
+  delta: 2.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 87.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 85.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 63.2
+    governance: 18.2
+    operational_transparency: 60.5
   previous_composite: 61.5
   provenance:
     conformance: first-party
@@ -239,9 +242,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wixcom/refs/heads/main/screenshots/wixcom-2026-08-17T082949.png
 security:
 - kind: authentication
   name: Wixcom Authentication

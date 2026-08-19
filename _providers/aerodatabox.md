@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -1188,7 +1189,9 @@ rate_limits:
   name: Aerodatabox Rate Limits
   slug: aerodatabox-rate-limits
 rules:
-- name: AeroDataBox API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AeroDataBox API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1196,7 +1199,10 @@ rules:
     info: 2
     warn: 3
   slug: aerodatabox-jsonschema-spectral-rules
-- name: AeroDataBox API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: AeroDataBox API Rules
   rule_count: 33
   severity_counts:
     error: 11
@@ -1206,14 +1212,16 @@ rules:
   slug: aerodatabox-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 40.0
+  delta: -5.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.2
-    developer_ergonomics: 17.4
+    contract_governance: 25.0
+    contract_quality: 64.8
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 45.6
   provenance:
@@ -1223,9 +1231,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/screenshots/aerodatabox-2026-06-20T165508.png
 security:
 - kind: domain-security

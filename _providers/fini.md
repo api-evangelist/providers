@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -221,14 +222,16 @@ overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 124
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 43.8
+  delta: -4.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 62.7
-    developer_ergonomics: 40.8
+    contract_governance: 30.3
+    contract_quality: 61.4
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 10.5
   previous_composite: 47.9
   provenance:
@@ -241,8 +244,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/screenshots/fini-2026-07-25T214529.png
 security:

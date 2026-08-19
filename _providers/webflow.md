@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -599,7 +600,10 @@ rate_limits:
   name: Webflow Rate Limits
   slug: webflow-rate-limits
 rules:
-- name: Webflow API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Webflow API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -607,7 +611,9 @@ rules:
     info: 1
     warn: 8
   slug: webflow-asyncapi-spectral-rules
-- name: Webflow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Webflow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -615,7 +621,9 @@ rules:
     info: 2
     warn: 3
   slug: webflow-jsonschema-spectral-rules
-- name: Webflow API Rules
+- effective_rule_count: 26
+  extends: []
+  name: Webflow API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -630,14 +638,16 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 60.3
+  delta: -5.2
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 77.7
-    developer_ergonomics: 71.7
+    contract_governance: 28.8
+    contract_quality: 73.3
+    developer_ergonomics: 69.0
     discoverability: 63.0
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 52.6
   previous_composite: 65.5
   provenance:
@@ -647,9 +657,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 56.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -264,15 +265,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 55.8
+  delta: -1.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 63.5
-    developer_ergonomics: 58.2
+    contract_governance: 30.3
+    contract_quality: 63.4
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 31.6
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -284,9 +287,10 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/screenshots/topograph-2026-08-17T082408.png
 security:
 - kind: authentication
   name: Topograph Authentication

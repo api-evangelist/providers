@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-17'
+  score: 65.5
+  scored_at: '2026-08-19'
 api_count: 102
 apis:
 - description: The activity API from OpenGov — 1 operation(s) for activity.
@@ -817,16 +818,18 @@ scopes:
   slug: opengov-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.0
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -11.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.4
-    developer_ergonomics: 62.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 16.7
+    contract_quality: 68.3
+    developer_ergonomics: 23.2
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 62.0
   provenance:
     conformance: derived
@@ -842,10 +845,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 85.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 77.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:
 - kind: authentication

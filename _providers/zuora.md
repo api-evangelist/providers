@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -604,15 +605,17 @@ rate_limits:
   slug: zuora-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 30.4
+  delta: -0.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 50.2
-    developer_ergonomics: 41.3
+    contract_governance: 0.0
+    contract_quality: 51.9
+    developer_ergonomics: 40.5
     discoverability: 48.1
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 30.5
   provenance:
     agentic_access: derived
@@ -627,8 +630,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

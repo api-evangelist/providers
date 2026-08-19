@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 api_count: 64
 apis:
 - description: The Carrier Mapped Field API from Noyo — 1 operation(s) for carrier mapped field.
@@ -539,15 +540,17 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 6
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 44.5
+  delta: 0.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 55.4
-    developer_ergonomics: 58.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 43.9
   provenance:
     conformance: derived
@@ -564,8 +567,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
 security:

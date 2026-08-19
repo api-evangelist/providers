@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-17'
+  score: 26.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: HTTP REST API to interact with a Secoda workspace — CRUD over catalog resources (databases, schemas, tables, columns, dashboards, charts, collections, documents, glossary/terms, tags, custom propertie
@@ -179,23 +180,25 @@ rate_limits:
   slug: secoda-rate-limits
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 36.6
+  delta: -5.2
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 71.1
+    governance: 4.5
+    operational_transparency: 55.3
   previous_composite: 41.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Secoda Authentication

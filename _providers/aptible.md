@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -521,15 +521,17 @@ overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 141
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 52.4
+  delta: -2.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.1
-    developer_ergonomics: 75.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 52.3
+    developer_ergonomics: 68.5
     discoverability: 63.0
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 54.5
   provenance:
     agentic_access: derived
@@ -541,8 +543,8 @@ score:
       total: 53
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

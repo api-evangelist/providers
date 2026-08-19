@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Shelf REST API enables developers to programmatically interact with the Shelf knowledge management platform. Access, search, create, and manage knowledge articles, gems (curated content), decision
@@ -150,7 +151,9 @@ rate_limits:
   name: Shelf Rate Limits
   slug: shelf-rate-limits
 rules:
-- name: Shelf.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shelf.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,19 +163,27 @@ rules:
   slug: shelf-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 20.4
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 21.4
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 26.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/shelf/refs/heads/main/screenshots/shelf-2026-06-20T193852.png
 security:
 - kind: domain-security

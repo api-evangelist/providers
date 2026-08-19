@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 50.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -857,7 +858,10 @@ rate_limits:
   name: Anthropic Rate Limits
   slug: anthropic-rate-limits
 rules:
-- name: Anthropic API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Anthropic API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -865,7 +869,9 @@ rules:
     info: 0
     warn: 5
   slug: anthropic-asyncapi-spectral-rules
-- name: Anthropic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Anthropic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -875,14 +881,16 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 69.1
-  delta: 0.0
+  composite: 66.5
+  delta: -2.6
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 81.2
-    developer_ergonomics: 80.4
+    contract_governance: 28.0
+    contract_quality: 78.5
+    developer_ergonomics: 85.7
     discoverability: 68.5
-    governance: 53.1
+    governance: 28.0
     operational_transparency: 44.7
   previous_composite: 69.1
   provenance:
@@ -894,8 +902,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

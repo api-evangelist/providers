@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-17'
+  score: 27.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -246,14 +247,16 @@ overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 66
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 21.8
+  delta: 1.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 14.4
-    developer_ergonomics: 14.7
+    contract_governance: 16.7
+    contract_quality: 17.0
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 20.3
   provenance:
@@ -265,8 +268,8 @@ score:
       marker_coverage: 100.0
       total: 12
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

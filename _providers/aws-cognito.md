@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -6110,7 +6111,9 @@ rate_limits:
   name: Aws Cognito Rate Limits
   slug: aws-cognito-rate-limits
 rules:
-- name: Amazon Cognito API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Cognito API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -6118,7 +6121,10 @@ rules:
     info: 1
     warn: 4
   slug: aws-cognito-jsonschema-spectral-rules
-- name: Amazon Cognito API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Amazon Cognito API Rules
   rule_count: 20
   severity_counts:
     error: 11
@@ -6127,16 +6133,18 @@ rules:
     warn: 9
   slug: aws-cognito-spectral-rules
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 52.3
+  delta: -5.3
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 72.4
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -6145,9 +6153,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 124
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:
 - kind: authentication

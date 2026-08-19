@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -483,7 +483,9 @@ rate_limits:
   name: Ribbon Health Rate Limits
   slug: ribbon-health-rate-limits
 rules:
-- name: Ribbon Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ribbon Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -493,32 +495,37 @@ rules:
   slug: ribbon-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 16.4
+  composite: 64.1
+  delta: -0.8
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 74.4
-    developer_ergonomics: 58.7
+    contract_governance: 41.7
+    contract_quality: 73.2
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 52.6
-  previous_composite: 48.5
+    governance: 41.7
+    operational_transparency: 50.0
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 10
+      marker_coverage: 9.1
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 41.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
 security:
 - kind: authentication

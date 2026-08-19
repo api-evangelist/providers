@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -180,7 +181,9 @@ rate_limits:
   name: Fumadocs Rate Limits
   slug: fumadocs-rate-limits
 rules:
-- name: Fumadocs API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Fumadocs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -190,14 +193,16 @@ rules:
   slug: fumadocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 28.1
+  delta: -5.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 60.4
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 11.9
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 33.8
   provenance:
@@ -207,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/screenshots/fumadocs-2026-06-20T181650.png
 security:
 - kind: domain-security

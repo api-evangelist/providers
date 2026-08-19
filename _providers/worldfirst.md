@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
@@ -143,14 +144,16 @@ overview: 'WorldFirst publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 61
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 41.5
+  delta: -1.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 42.5
   provenance:
@@ -161,9 +164,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/screenshots/worldfirst-2026-08-17T083002.png
 security:
 - kind: authentication
   name: Worldfirst Authentication

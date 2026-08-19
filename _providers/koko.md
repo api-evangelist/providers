@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 45.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -180,15 +181,17 @@ overview: 'Koko publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cou
 random_paper: 138
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 46.0
+  delta: 1.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 59.0
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 44.7
   provenance:
     conformance: derived
@@ -204,9 +207,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 37.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/screenshots/koko-2026-07-25T224124.png
 security:

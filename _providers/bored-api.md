@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +145,9 @@ rate_limits:
   name: Bored Api Rate Limits
   slug: bored-api-rate-limits
 rules:
-- name: Bored API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bored API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -153,15 +156,17 @@ rules:
     warn: 4
   slug: bored-api-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.6
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -6.6
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 64.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 45.6
   provenance:
@@ -171,9 +176,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/screenshots/bored-api-2026-06-20T173608.png
 security:
 - kind: domain-security

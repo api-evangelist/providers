@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -490,7 +491,10 @@ rate_limits:
   name: Deepgram Rate Limits
   slug: deepgram-rate-limits
 rules:
-- name: Deepgram API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Deepgram API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -498,7 +502,9 @@ rules:
     info: 0
     warn: 8
   slug: deepgram-asyncapi-spectral-rules
-- name: Deepgram API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Deepgram API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -506,7 +512,10 @@ rules:
     info: 1
     warn: 5
   slug: deepgram-jsonschema-spectral-rules
-- name: Deepgram API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Deepgram API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -514,7 +523,10 @@ rules:
     info: 0
     warn: 4
   slug: deepgram-management-api-rules
-- name: Deepgram API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Deepgram API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -522,7 +534,10 @@ rules:
     info: 0
     warn: 4
   slug: deepgram-speech-to-text-api-rules
-- name: Deepgram API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Deepgram API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -532,14 +547,16 @@ rules:
   slug: deepgram-text-to-speech-api-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 49.3
+  delta: -3.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 78.5
-    developer_ergonomics: 30.4
+    contract_governance: 26.5
+    contract_quality: 75.0
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 23.7
   previous_composite: 52.7
   provenance:
@@ -549,8 +566,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:

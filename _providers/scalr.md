@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -330,7 +331,9 @@ rate_limits:
   name: Scalr Rate Limits
   slug: scalr-rate-limits
 rules:
-- name: Scalr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scalr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -338,7 +341,9 @@ rules:
     info: 1
     warn: 4
   slug: scalr-jsonschema-spectral-rules
-- name: Scalr API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Scalr API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -348,15 +353,17 @@ rules:
   slug: scalr-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 28.0
+  delta: -5.0
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 43.3
-    developer_ergonomics: 17.4
+    contract_governance: 25.0
+    contract_quality: 46.2
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 33.0
   provenance:
     agentic_access: derived
@@ -371,9 +378,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/screenshots/scalr-2026-06-20T193608.png
 security:
 - kind: domain-security

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -393,7 +394,10 @@ rate_limits:
   name: Instabug Rate Limits
   slug: instabug-rate-limits
 rules:
-- name: Instabug (Luciq) API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Instabug (Luciq) API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -401,7 +405,9 @@ rules:
     info: 0
     warn: 5
   slug: instabug-asyncapi-spectral-rules
-- name: Instabug (Luciq) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Instabug (Luciq) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -409,7 +415,10 @@ rules:
     info: 1
     warn: 4
   slug: instabug-jsonschema-spectral-rules
-- name: Instabug (Luciq) API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Instabug (Luciq) API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -424,15 +433,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 50.4
+  delta: -5.0
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 67.3
-    developer_ergonomics: 34.8
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 26.5
+    contract_quality: 63.6
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 52.6
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 55.4
   provenance:
     agentic_access: derived
@@ -441,9 +452,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,12 +132,14 @@ overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 126
 score:
   band: minimal
-  composite: 5.9
-  delta: 0.0
+  composite: 3.9
+  delta: -2.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 5.3
@@ -147,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +165,9 @@ rate_limits:
   name: Cryptoquant Rate Limits
   slug: cryptoquant-rate-limits
 rules:
-- name: CryptoQuant API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CryptoQuant API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -172,7 +175,10 @@ rules:
     info: 1
     warn: 4
   slug: cryptoquant-jsonschema-spectral-rules
-- name: CryptoQuant API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: CryptoQuant API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -182,14 +188,16 @@ rules:
   slug: cryptoquant-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 34.6
+  delta: -7.0
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 65.1
-    developer_ergonomics: 19.6
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 61.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 41.6
   provenance:
@@ -205,9 +213,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/screenshots/cryptoquant-2026-06-20T175316.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -226,7 +227,9 @@ rate_limits:
   name: Qubrid Ai Rate Limits
   slug: qubrid-ai-rate-limits
 rules:
-- name: Qubrid AI API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Qubrid AI API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -235,16 +238,18 @@ rules:
     warn: 5
   slug: qubrid-ai-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.4
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  delta: -8.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 73.9
-    developer_ergonomics: 28.3
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 10.5
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 69.6
+    developer_ergonomics: 31.0
+    discoverability: 74.1
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -253,9 +258,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:
 - kind: authentication

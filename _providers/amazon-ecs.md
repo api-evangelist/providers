@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -751,7 +752,9 @@ rate_limits:
   name: Amazon Ecs Rate Limits
   slug: amazon-ecs-rate-limits
 rules:
-- name: Amazon ECS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon ECS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -759,7 +762,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-ecs-jsonschema-spectral-rules
-- name: Amazon ECS API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amazon ECS API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -768,16 +774,18 @@ rules:
     warn: 7
   slug: amazon-ecs-spectral-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  delta: -5.8
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 73.9
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 71.1
+    developer_ergonomics: 61.9
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 58.7
   provenance:
     agentic_access: derived
@@ -786,9 +794,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:
 - kind: authentication

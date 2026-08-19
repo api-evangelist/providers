@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -292,7 +293,9 @@ rate_limits:
   name: Tensorflow Rate Limits
   slug: tensorflow-rate-limits
 rules:
-- name: TensorFlow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TensorFlow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -300,7 +303,10 @@ rules:
     info: 1
     warn: 4
   slug: tensorflow-jsonschema-spectral-rules
-- name: TensorFlow API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: TensorFlow API Rules
   rule_count: 13
   severity_counts:
     error: 5
@@ -310,15 +316,17 @@ rules:
     false: 1
   slug: tensorflow-serving-rules
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -5.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 58.2
-    developer_ergonomics: 32.6
+    contract_governance: 41.7
+    contract_quality: 55.6
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 26.3
   previous_composite: 44.0
   provenance:
@@ -330,9 +338,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:
 - kind: authentication

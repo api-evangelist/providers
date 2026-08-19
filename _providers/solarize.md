@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Solarize meter-to-cash platform — customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks. JSON over HTTPS, JWT bearer auth, of
@@ -153,15 +154,17 @@ rate_limits:
   name: Solarize Rate Limits
   slug: solarize-rate-limits
 score:
-  band: thin
-  composite: 40.3
-  delta: 0.0
+  band: developing
+  composite: 41.6
+  delta: 1.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 52.6
   previous_composite: 40.3
   provenance:
@@ -173,8 +176,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

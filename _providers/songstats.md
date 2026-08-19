@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -170,7 +171,9 @@ rate_limits:
   name: Songstats Rate Limits
   slug: songstats-rate-limits
 rules:
-- name: Songstats API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Songstats API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -178,7 +181,10 @@ rules:
     info: 1
     warn: 4
   slug: songstats-jsonschema-spectral-rules
-- name: Songstats API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Songstats API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -188,14 +194,16 @@ rules:
   slug: songstats-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 39.9
+  delta: -6.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 73.3
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 68.7
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 46.3
   provenance:
@@ -205,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/screenshots/songstats-2026-06-20T194203.png
 security:
 - kind: authentication

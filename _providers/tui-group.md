@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -353,15 +354,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 52.9
+  delta: -0.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 53.0
-    developer_ergonomics: 64.7
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 51.8
+    developer_ergonomics: 68.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 60.5
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -373,9 +376,10 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:
 - kind: authentication
   name: Tui Group Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 53.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -313,15 +314,17 @@ rate_limits:
   slug: lifi-rate-limits
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 59.5
+  delta: 2.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 55.9
-    developer_ergonomics: 82.1
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 53.4
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 78.9
+    governance: 16.7
+    operational_transparency: 76.3
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -339,8 +342,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

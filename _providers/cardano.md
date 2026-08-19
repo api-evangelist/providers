@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -854,7 +855,9 @@ rate_limits:
   name: Cardano Rate Limits
   slug: cardano-rate-limits
 rules:
-- name: Cardano API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cardano API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -863,15 +866,17 @@ rules:
     warn: 4
   slug: cardano-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.6
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -6.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 66.2
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 63.0
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 45.6
   provenance:
@@ -881,9 +886,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/screenshots/cardano-2026-06-20T173952.png
 security:
 - kind: authentication

@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'The DPP Gateway Experience API is the core Deluxe Payments Platform contract: 37 operations across payments (sale, authorize, complete, cancel, search, batch), EMV card-present processing and device m'
@@ -221,26 +222,37 @@ rate_limits:
   name: Deluxe Rate Limits
   slug: deluxe-rate-limits
 score:
-  band: developing
-  composite: 47.8
-  delta: 37.9
+  band: thin
+  composite: 28.4
+  delta: -19.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 64.2
-    developer_ergonomics: 73.9
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 16.7
+    contract_quality: 22.5
+    developer_ergonomics: 33.9
     discoverability: 92.6
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 9.9
+  previous_composite: 47.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 75.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:
 - kind: authentication

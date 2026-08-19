@@ -4,22 +4,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 55.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The official ev.energy v2 REST API. 210 operations across 180 paths covering users, vehicles, EVSEs, charging sessions, schedules, tariffs, regions, solar, solar forecasts, home batteries, boundary me
@@ -146,25 +147,37 @@ scopes:
   summary_line: 35 scopes
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 51.3
+  delta: 4.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 63.4
-    developer_ergonomics: 56.5
+    contract_governance: 30.3
+    contract_quality: 65.7
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 46.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 56.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ev-energy/refs/heads/main/screenshots/ev-energy-2026-08-17T080920.png
 security:
 - kind: authentication
   name: Ev Energy Authentication

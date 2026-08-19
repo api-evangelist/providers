@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 211
   human_in_the_loop: 9
@@ -823,7 +824,9 @@ rate_limits:
   name: Alayacare Rate Limits
   slug: alayacare-rate-limits
 rules:
-- name: AlayaCare API Rules
+- effective_rule_count: 6
+  extends: []
+  name: AlayaCare API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -833,14 +836,16 @@ rules:
   slug: alayacare-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 41.1
+  delta: -1.8
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 63.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 42.9
   provenance:
@@ -856,8 +861,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png
 security:

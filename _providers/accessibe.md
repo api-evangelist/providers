@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-17'
+  score: 61.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -191,15 +192,17 @@ overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 36
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 46.7
+  delta: -7.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 54.5
-    developer_ergonomics: 69.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 53.1
+    developer_ergonomics: 49.4
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 15.8
   previous_composite: 53.7
   provenance:
     agentic_access: derived
@@ -211,9 +214,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:
 - kind: authentication

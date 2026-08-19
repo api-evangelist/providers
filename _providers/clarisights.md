@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -150,22 +151,25 @@ rate_limits:
   slug: clarisights-rate-limits
 score:
   band: emerging
-  composite: 27.6
-  delta: 8.9
+  composite: 25.7
+  delta: -1.9
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 47.6
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 15.8
-  previous_composite: 18.7
+    governance: 18.2
+    operational_transparency: 13.2
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarisights/refs/heads/main/screenshots/clarisights-2026-07-25T205504.png
 security:
 - kind: authentication

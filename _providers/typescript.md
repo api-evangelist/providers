@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.7
-  scored_at: '2026-08-17'
+  score: 7.3
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -163,7 +164,9 @@ rate_limits:
   name: Typescript Rate Limits
   slug: typescript-rate-limits
 rules:
-- name: TypeScript API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TypeScript API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -172,20 +175,22 @@ rules:
     warn: 3
   slug: typescript-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.7
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  delta: -6.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 25.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 32.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/screenshots/typescript-2026-06-20T195902.png
 security:
 - kind: domain-security

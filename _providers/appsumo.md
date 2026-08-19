@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,7 +206,9 @@ rate_limits:
   name: Appsumo Rate Limits
   slug: appsumo-rate-limits
 rules:
-- name: AppSumo API Rules
+- effective_rule_count: 4
+  extends: []
+  name: AppSumo API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -213,7 +216,10 @@ rules:
     info: 1
     warn: 3
   slug: appsumo-jsonschema-spectral-rules
-- name: AppSumo API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: AppSumo API Rules
   rule_count: 21
   severity_counts:
     error: 8
@@ -223,15 +229,17 @@ rules:
   slug: appsumo-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 46.5
+  delta: -6.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 74.1
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 69.5
+    developer_ergonomics: 45.2
     discoverability: 44.4
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -240,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/screenshots/appsumo-2026-06-20T172331.png
 security:
 - kind: authentication

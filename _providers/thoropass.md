@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 18.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: OAuth 2.0-secured Partner API for programmatic access to Thoropass audits, evidence requests, controls, monitoring alerts, devices, change requests, training records and vulnerability data, plus a hos
@@ -139,23 +140,25 @@ scopes:
   slug: thoropass-scopes
   summary_line: 24 scopes · authorizationCode
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: emerging
+  composite: 21.0
+  delta: -8.9
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 17.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Thoropass Authentication

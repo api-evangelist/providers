@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +178,9 @@ rate_limits:
   name: Wunderground Rate Limits
   slug: wunderground-rate-limits
 rules:
-- name: Weather Underground API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Weather Underground API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -187,14 +190,16 @@ rules:
   slug: wunderground-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 42.3
+  delta: -6.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 65.3
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 62.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 48.4
   provenance:
@@ -204,9 +209,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/screenshots/wunderground-2026-06-20T201644.png
 security:
 - kind: authentication

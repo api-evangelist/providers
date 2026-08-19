@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,13 +74,15 @@ overview: 'Nqoodlet is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Nqoodlet''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
 random_paper: 125
 score:
-  band: emerging
-  composite: 13.5
-  delta: 0.0
+  band: minimal
+  composite: 5.4
+  delta: -8.1
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -89,10 +92,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nqoodlet/refs/heads/main/screenshots/nqoodlet-2026-08-07T185656.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: The Authorization API from Prodsmart — 1 operation(s) for authorization.
@@ -226,15 +227,17 @@ overview: 'Prodsmart publishes 16 APIs on the [APIs.io](https://apis.io/) networ
   Prodsmart''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 11 more developer resources.'
 random_paper: 94
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: developing
+  composite: 39.7
+  delta: 0.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 60.4
-    developer_ergonomics: 52.2
+    contract_governance: 12.1
+    contract_quality: 60.1
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 31.6
   previous_composite: 38.8
   provenance:
@@ -244,8 +247,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

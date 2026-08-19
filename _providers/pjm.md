@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.2
-  scored_at: '2026-08-17'
+  score: 20.1
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -241,14 +242,16 @@ rate_limits:
   slug: pjm-rate-limits
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 51.6
+  delta: 5.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 9.7
-    developer_ergonomics: 66.8
+    contract_governance: 33.3
+    contract_quality: 9.9
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 22.9
+    governance: 33.3
     operational_transparency: 76.3
   previous_composite: 45.9
   provenance:
@@ -259,10 +262,11 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/screenshots/pjm-2026-08-17T081252.png
 security:
 - kind: authentication
   name: Pjm Authentication

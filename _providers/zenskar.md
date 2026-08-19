@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Zenskar's REST API for billing, contracts, usage metering, invoicing, payments, credit notes, and accounting/revenue recognition (166+ documented operations).
@@ -141,23 +142,26 @@ overview: 'Zenskar publishes 1 API on the [APIs.io](https://apis.io/) network. T
   Zenskar''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 13 more developer resources.'
 random_paper: 21
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: thin
+  composite: 35.0
+  delta: -8.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 33.3
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 43.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenskar/refs/heads/main/screenshots/zenskar-2026-08-17T083046.png
 security:
 - kind: authentication
   name: Zenskar Authentication

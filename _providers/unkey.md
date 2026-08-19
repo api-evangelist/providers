@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -758,7 +759,9 @@ rate_limits:
   name: Unkey Rate Limits
   slug: unkey-rate-limits
 rules:
-- name: Unkey API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unkey API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -766,7 +769,10 @@ rules:
     info: 2
     warn: 3
   slug: unkey-jsonschema-spectral-rules
-- name: Unkey API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Unkey API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -776,15 +782,17 @@ rules:
   slug: unkey-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 43.3
+  delta: -5.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 76.6
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 73.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -793,9 +801,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:
 - kind: authentication

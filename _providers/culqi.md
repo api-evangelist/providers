@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -358,16 +359,18 @@ rate_limits:
   name: Culqi Rate Limits
   slug: culqi-rate-limits
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 60.5
+  delta: -6.1
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 64.9
-    developer_ergonomics: 73.4
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 16.7
+    contract_quality: 66.1
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 66.6
   provenance:
     agentic_access: derived
@@ -384,10 +387,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:
 - kind: authentication

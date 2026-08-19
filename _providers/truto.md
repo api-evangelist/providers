@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -301,7 +302,9 @@ rate_limits:
   name: Truto Rate Limits
   slug: truto-rate-limits
 rules:
-- name: Truto API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Truto API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,7 +312,10 @@ rules:
     info: 2
     warn: 3
   slug: truto-jsonschema-spectral-rules
-- name: Truto API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Truto API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -319,14 +325,16 @@ rules:
   slug: truto-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 41.9
+  delta: -7.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 69.4
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 65.2
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 49.7
   provenance:
@@ -336,9 +344,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/screenshots/truto-2026-06-20T195809.png
 security:
 - kind: authentication

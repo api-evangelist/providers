@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Core API for AutoCAD automation, drawing manipulation, and entity management.
@@ -248,21 +249,23 @@ scopes:
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 42.3
+  delta: -2.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 0.0
-    developer_ergonomics: 67.4
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 1.4
+    developer_ergonomics: 59.5
     discoverability: 100.0
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 44.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/screenshots/autocad-2026-06-20T172619.png
 security:

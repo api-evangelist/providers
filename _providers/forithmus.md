@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -297,15 +298,17 @@ overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 99
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 28.5
+  delta: -5.2
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 47.5
-    developer_ergonomics: 56.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 48.2
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 33.7
   provenance:
     agentic_access: derived
@@ -323,9 +326,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:
 - kind: authentication

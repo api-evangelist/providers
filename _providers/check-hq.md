@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 4.1
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Check Payroll API is a comprehensive REST API for embedding end-to-end U.S. payroll inside another platform. It models companies, workplaces, employees, contractors, pay schedules, paydays, payrol
@@ -144,15 +145,17 @@ overview: 'Check publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 27
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 13.6
+  delta: -6.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 25.0
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 26.3
   previous_composite: 19.7
   regulatory:
     applies: true
@@ -160,9 +163,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/screenshots/check-hq-2026-06-20T174239.png
 security:
 - kind: domain-security

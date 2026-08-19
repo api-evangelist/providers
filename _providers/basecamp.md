@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -706,7 +707,10 @@ rate_limits:
   name: Basecamp Rate Limits
   slug: basecamp-rate-limits
 rules:
-- name: Basecamp API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Basecamp API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -714,7 +718,9 @@ rules:
     info: 0
     warn: 6
   slug: basecamp-asyncapi-spectral-rules
-- name: Basecamp API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Basecamp API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -722,7 +728,10 @@ rules:
     info: 1
     warn: 5
   slug: basecamp-jsonschema-spectral-rules
-- name: Basecamp API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Basecamp API Rules
   rule_count: 22
   severity_counts:
     error: 10
@@ -732,14 +741,16 @@ rules:
   slug: basecamp-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 45.1
+  delta: -3.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 26.5
     contract_quality: 78.3
-    developer_ergonomics: 21.7
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 5.3
   previous_composite: 48.3
   provenance:
@@ -749,8 +760,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/screenshots/basecamp-2026-06-20T173011.png
 security:

@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST Admin API (and GraphQL Admin API) for building apps, themes, and payment gateways on ShopBase — products, orders, transactions, fulfillments, customers, inventory, checkouts, shipping, price rule
@@ -215,27 +216,36 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: 11.4
+  composite: 64.4
+  delta: 3.0
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 50.0
-    developer_ergonomics: 71.7
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 30.3
+    contract_quality: 55.9
+    developer_ergonomics: 73.2
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 50.0
+    governance: 30.3
+    operational_transparency: 47.4
+  previous_composite: 61.4
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:
 - kind: authentication

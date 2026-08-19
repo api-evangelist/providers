@@ -5,7 +5,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -212,19 +213,32 @@ scopes:
   summary_line: 6 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 45.7
+  delta: -1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 56.7
-    developer_ergonomics: 65.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 60.6
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 47.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/screenshots/dust-identity-2026-08-17T080906.png
 security:
 - kind: authentication
   name: Dust Identity Authentication

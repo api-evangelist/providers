@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -122,20 +123,22 @@ overview: 'Rollstack is profiled on the [APIs.io](https://apis.io/) network. Tag
   Rollstack''s developer surface includes signup flow, documentation, pricing, engineering blog, support, changelog, authentication, and 12 more developer resources.'
 random_paper: 81
 score:
-  band: thin
-  composite: 29.6
-  delta: 0.0
+  band: emerging
+  composite: 23.1
+  delta: -6.5
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 23.8
     discoverability: 61.1
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 21.1
   previous_composite: 29.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Rollstack Authentication

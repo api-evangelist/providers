@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1018,7 +1019,9 @@ rate_limits:
   name: 7Digital Rate Limits
   slug: 7digital-rate-limits
 rules:
-- name: 7digital API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 7digital API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1026,7 +1029,10 @@ rules:
     info: 2
     warn: 3
   slug: 7digital-jsonschema-spectral-rules
-- name: 7digital API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: 7digital API Rules
   rule_count: 36
   severity_counts:
     error: 17
@@ -1035,16 +1041,18 @@ rules:
     warn: 15
   slug: 7digital-rules
 score:
-  band: developing
-  composite: 48.5
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -12.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 26.9
-    developer_ergonomics: 45.7
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 27.4
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -1053,9 +1061,9 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png
 security:
 - kind: authentication

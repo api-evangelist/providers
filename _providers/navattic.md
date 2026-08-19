@@ -10,26 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
-    mcp_server: false
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 67.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Na
@@ -256,19 +256,30 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.2
-  delta: 35.2
+  composite: 60.4
+  delta: 0.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 56.7
-    developer_ergonomics: 43.5
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 30.3
+    contract_quality: 56.6
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 55.3
-  previous_composite: 25.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 60.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:
 - kind: authentication

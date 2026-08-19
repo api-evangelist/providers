@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -197,15 +198,17 @@ rate_limits:
   slug: withpersona-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 36.8
+  delta: -0.8
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 54.4
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 51.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -214,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -311,7 +311,9 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
   Amazon Aurora DSQL''s developer surface includes authentication and 7 more developer resources.'
 random_paper: 34
 rules:
-- name: Amazon Aurora DSQL API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Amazon Aurora DSQL API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -319,7 +321,10 @@ rules:
     info: 1
     warn: 3
   slug: amazon-aurora-dsql-jsonschema-spectral-rules
-- name: Amazon Aurora DSQL API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Amazon Aurora DSQL API Rules
   rule_count: 17
   severity_counts:
     error: 6
@@ -329,15 +334,23 @@ rules:
   slug: amazon-aurora-dsql-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 32.0
+  delta: -6.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 73.9
-    developer_ergonomics: 19.6
+    contract_governance: 26.5
+    contract_quality: 74.8
+    developer_ergonomics: 11.9
     discoverability: 77.8
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -348,9 +361,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:
 - kind: authentication

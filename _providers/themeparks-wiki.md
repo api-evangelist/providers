@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -251,7 +252,9 @@ rate_limits:
   name: Themeparks Wiki Rate Limits
   slug: themeparks-wiki-rate-limits
 rules:
-- name: ThemeParks.wiki API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ThemeParks.wiki API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,7 +262,10 @@ rules:
     info: 2
     warn: 3
   slug: themeparks-wiki-jsonschema-spectral-rules
-- name: ThemeParks.wiki API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: ThemeParks.wiki API Rules
   rule_count: 27
   severity_counts:
     error: 8
@@ -268,16 +274,18 @@ rules:
     warn: 15
   slug: themeparks-wiki-spectral-rules
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 21.0
+  delta: -9.5
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 27.1
-    developer_ergonomics: 19.6
-    discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 13.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 25.6
+    developer_ergonomics: 21.4
+    discoverability: 59.3
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 30.5
   provenance:
     agentic_access: derived
@@ -286,9 +294,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/screenshots/themeparks-wiki-2026-06-20T195346.png
 security:
 - kind: domain-security

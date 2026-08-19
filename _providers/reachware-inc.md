@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Card save / tokenization flows
@@ -156,14 +157,16 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 113
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 42.6
+  delta: -3.4
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 61.2
-    developer_ergonomics: 60.3
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 30.3
+    contract_quality: 57.3
+    developer_ergonomics: 44.6
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 46.0
   provenance:
@@ -180,10 +183,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 53.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/screenshots/reachware-inc-2026-08-17T081449.png
 security:
 - kind: authentication
   name: Reachware Inc Authentication

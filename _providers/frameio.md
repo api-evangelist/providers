@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 68.2
-  scored_at: '2026-08-17'
+  score: 64.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -316,15 +317,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 54.5
+  delta: -3.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 70.1
-    developer_ergonomics: 75.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 30.3
+    contract_quality: 67.8
+    developer_ergonomics: 69.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -336,8 +339,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/screenshots/frameio-2026-07-25T215109.png
 security:

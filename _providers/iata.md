@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage claims, pet travel, and verifiable credential
@@ -72,7 +73,7 @@ common:
   url: https://www.iata.org/en/contact-us/
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://github.com/airtechzone
 - group: company
   title: ''
@@ -93,7 +94,7 @@ network: true
 overview: 'IATA publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Aviation, Cargo, and Standards.
 
 
-  IATA''s developer surface includes developer portal, support, engineering blog, and 6 more developer resources.'
+  IATA''s developer surface includes developer portal, support, code examples, engineering blog, and 5 more developer resources.'
 plans:
 - name: Iata Plans Pricing
   plan_count: 3
@@ -105,18 +106,20 @@ rate_limits:
   slug: iata-rate-limits
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 13.4
+  delta: -0.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 1.4
+    developer_ergonomics: 11.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 13.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/screenshots/iata-2026-06-20T183109.png
 security:

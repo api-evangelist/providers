@@ -12,10 +12,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -215,7 +216,10 @@ rate_limits:
   name: Handwrite Io Rate Limits
   slug: handwrite-io-rate-limits
 rules:
-- name: Handwrite IO API Rules
+- effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Handwrite IO API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -224,32 +228,37 @@ rules:
     warn: 0
   slug: handwrite-io-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: 15.0
+  band: strong
+  composite: 56.0
+  delta: 9.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.2
-    developer_ergonomics: 65.2
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 45.5
+    contract_quality: 57.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 31.3
-    operational_transparency: 10.5
-  previous_composite: 31.1
+    governance: 45.5
+    operational_transparency: 23.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/screenshots/handwrite-io-2026-06-20T182501.png
 security:

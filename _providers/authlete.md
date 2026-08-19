@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -329,15 +330,17 @@ overview: 'Authlete publishes 21 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 115
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 51.4
+  delta: -3.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 59.8
-    developer_ergonomics: 69.0
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 57.4
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -349,8 +352,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:

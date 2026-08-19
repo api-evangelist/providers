@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -201,7 +202,9 @@ rate_limits:
   name: Stanley Black And Decker Rate Limits
   slug: stanley-black-and-decker-rate-limits
 rules:
-- name: Stanley Black & Decker API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stanley Black & Decker API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,7 +212,10 @@ rules:
     info: 2
     warn: 3
   slug: stanley-black-and-decker-jsonschema-spectral-rules
-- name: Stanley Black & Decker API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Stanley Black & Decker API Rules
   rule_count: 20
   severity_counts:
     error: 7
@@ -219,14 +225,16 @@ rules:
   slug: stanley-black-and-decker-rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 35.3
+  delta: -6.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 68.7
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 64.8
+    developer_ergonomics: 23.8
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 41.7
   provenance:
@@ -236,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
 security:
 - kind: authentication

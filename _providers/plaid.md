@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -599,7 +600,10 @@ rate_limits:
   name: Plaid Rate Limits
   slug: plaid-rate-limits
 rules:
-- name: Plaid API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Plaid API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -607,7 +611,10 @@ rules:
     info: 0
     warn: 8
   slug: plaid-asyncapi-spectral-rules
-- name: Plaid API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Plaid API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -616,16 +623,18 @@ rules:
     warn: 7
   slug: plaid-spectral-rules
 score:
-  band: strong
-  composite: 64.1
-  delta: 0.0
+  band: exemplar
+  composite: 68.6
+  delta: 4.5
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 68.5
-    developer_ergonomics: 62.5
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 41.7
+    contract_quality: 65.8
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 62.5
-    operational_transparency: 60.5
+    governance: 41.7
+    operational_transparency: 57.9
   previous_composite: 64.1
   provenance:
     agentic_access: derived
@@ -642,9 +651,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 63.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

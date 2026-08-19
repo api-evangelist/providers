@@ -1,35 +1,42 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Sales-gated with self-service trial
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
-  trial: false
+  source:
+  - https://www.deepip.ai/trial
+  - https://www.deepip.ai/self-service-payment
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
-api_count: 0
-artifact_total: 2
+  score: 21.6
+  scored_at: '2026-08-19'
+api_count: 1
+apis:
+- description: 'A remote Model Context Protocol server operated by DeepIP at https://app.deepip.ai/mcp, letting an MCP-capable agent act inside a DeepIP tenant on behalf of a signed-in user. It is protected by OAuth '
+  name: DeepIP MCP Server
+  slug: deepip-mcp-server
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -39,14 +46,22 @@ common:
   title: ''
   type: Blog
   url: https://www.deepip.ai/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.deepip.ai/contact
 - group: auth
   title: ''
   type: TrustCenter
-  url: https://trust.deepip.ai/
+  url: security/deepip-trust-center.yml
 - group: auth
   title: ''
   type: Compliance
   url: https://trust.deepip.ai/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/deepip-conformance.yml
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -63,44 +78,115 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/deepip-ai
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.deepip.ai
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/deepip-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/deepip-mcp.yml
 - group: auth
   title: ''
-  type: DomainSecurity
-  url: security/deepip-domain-security.yml
+  type: Authentication
+  url: authentication/deepip-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/deepip-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/deepip-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/deepip-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/deepip-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/deepip-plans-pricing.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/deepip-app-robots.txt
 - group: agent
   title: ''
   type: WellKnown
   url: well-known/deepip-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/deepip-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/deepip-domain-security.yml
 created: '2026-07-17'
-description: DeepIP is an AI-powered patent intelligence platform that streamlines the full patent lifecycle for intellectual-property professionals, automating repetitive work while keeping a human in the loop. It supports invention capture, patentability assessment, patent drafting and drawings generation, AI review, prosecution support, freedom-to-operate (FTO) and invalidity searches, portfolio and landscape intelligence, and agentic prior-art search. DeepIP embeds directly into Microsoft Word, IP management systems, and the web browser, and works across chemistry, biology, software, mechanical, and electronic domains and multiple patent jurisdictions (USPTO, EPO, PCT, UKIPO, CNIPA, KIPO, and others). The company operates a zero-data-retention policy on U.S.-based Microsoft Azure and holds SOC 2 Type II, ISO 27001, ISO 42001, and GDPR compliance. DeepIP is backed by Balderton Capital.
+description: DeepIP is an AI-powered patent intelligence platform that streamlines the full patent lifecycle for intellectual-property professionals, automating repetitive work while keeping a human in the loop. It supports invention capture, patentability assessment, patent drafting and drawings generation, AI review, prosecution support, freedom-to-operate (FTO) and invalidity searches, portfolio and landscape intelligence, and agentic prior-art search. DeepIP embeds directly into Microsoft Word, IP management systems, and the web browser, and works across chemistry, biology, software, mechanical, and electronic domains and multiple patent jurisdictions (USPTO, EPO, PCT, UKIPO, CNIPA, KIPO, and others). The company operates a zero-data-retention policy on Microsoft Azure across separate EU and US stacks, and holds SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, and GDPR compliance. DeepIP runs a remote, OAuth-protected Model Context Protocol server at app.deepip.ai/mcp; its REST API reference
+  sits behind a ReadMe login. DeepIP is backed by Balderton Capital.
 image: https://cdn.prod.website-files.com/655793df06a490569c80c9da/656dfeb7474277cde1d95475_Webclip.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: deepip-mcp.yml
+  slug: deepip-mcpyml
+modified: '2026-08-17'
 name: DeepIP
 nav: Providers
 network: true
-overview: 'DeepIP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intellectual Property, Patents, Legal Tech, and Artificial Intelligence.
+overview: 'DeepIP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intellectual Property, Patents, Legal Tech, and Artificial Intelligence.
 
 
-  DeepIP''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
+  DeepIP''s developer surface includes engineering blog, support, signup flow, authentication, and 19 more developer resources.'
+plans:
+- name: Deepip Plans Pricing
+  plan_count: 0
+  slug: deepip-plans-pricing
 random_paper: 35
+rate_limits:
+- limit_count: 0
+  name: Deepip Rate Limits
+  slug: deepip-rate-limits
+scopes:
+- name: Deepip Scopes
+  scope_count: 14
+  slug: deepip-scopes
+  summary_line: 14 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 16.1
-  delta: 0.0
+  band: thin
+  composite: 27.1
+  delta: 11.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 19.0
+    discoverability: 87.0
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 16.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepip/refs/heads/main/screenshots/deepip-2026-07-25T211555.png
 security:
+- kind: authentication
+  name: Deepip Authentication
+  slug: deepip-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Deepip Domain Security
   slug: deepip-domain-security
@@ -108,7 +194,7 @@ security:
 - kind: trust-center
   name: Deepip Trust Center
   slug: deepip-trust-center
-  summary_line: SOC 2 Type II, ISO 27001, ISO 42001, GDPR
+  summary_line: SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, GDPR
 slug: deepip
 tags:
 - Company
@@ -120,5 +206,8 @@ tags:
 - IP Management
 - Document Automation
 - Security
+- MCP
+- Agents
+- Prior Art Search
 website: https://www.deepip.ai/
 ---

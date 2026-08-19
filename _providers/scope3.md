@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 70.1
-  scored_at: '2026-08-17'
+  score: 65.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -333,30 +334,33 @@ scopes:
   slug: scope3-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 14.8
+  band: strong
+  composite: 65.5
+  delta: -1.7
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 59.9
-    developer_ergonomics: 87.0
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 30.3
+    contract_quality: 64.2
+    developer_ergonomics: 70.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 68.4
-  previous_composite: 52.4
+    governance: 30.3
+    operational_transparency: 65.8
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
 security:
 - kind: authentication
   name: Scope3 Authentication

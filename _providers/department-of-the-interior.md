@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +207,9 @@ rate_limits:
   name: Department Of The Interior Rate Limits
   slug: department-of-the-interior-rate-limits
 rules:
-- name: Department of the Interior API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Department of the Interior API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,7 +217,9 @@ rules:
     info: 2
     warn: 3
   slug: department-of-the-interior-jsonschema-spectral-rules
-- name: Department of the Interior API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Department of the Interior API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -224,15 +229,17 @@ rules:
   slug: doi-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 33.4
+  delta: -4.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.2
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 31.0
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -247,8 +254,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:

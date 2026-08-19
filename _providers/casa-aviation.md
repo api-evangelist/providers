@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.0
-  scored_at: '2026-08-17'
+  score: 14.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Open, unauthenticated bulk data files covering every current Australian Airworthiness Directive (AD). combinedadweb.json lists all current ADs with aircraft and equipment references; adweb.csv lists a
@@ -189,15 +190,17 @@ overview: 'Civil Aviation Safety Authority (CASA) publishes 3 APIs on the [APIs.
 random_paper: 120
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 29.6
+  delta: -4.8
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 16.1
-    developer_ergonomics: 49.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 8.3
+    contract_quality: 15.5
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 5.7
-    operational_transparency: 26.3
+    governance: 8.3
+    operational_transparency: 21.1
   previous_composite: 34.4
   provenance:
     conformance: derived
@@ -208,9 +211,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 57.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/screenshots/casa-aviation-2026-08-07T163248.png
 security:

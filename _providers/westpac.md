@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: First-party Westpac payment API (beyond CDR). PayWay is Westpac's merchant payment platform; its public REST API v1 processes real-time credit-card and bank-account payments, refunds, pre-authorisatio
@@ -212,15 +213,17 @@ overview: 'Westpac Banking Corporation publishes 7 APIs on the [APIs.io](https:/
 random_paper: 14
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 50.1
+  delta: 5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 56.0
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 44.8
   provenance:
     conformance: derived
@@ -236,10 +239,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 64.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png
 security:
 - kind: authentication

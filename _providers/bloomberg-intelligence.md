@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -154,7 +155,9 @@ rate_limits:
   name: Bloomberg Intelligence Rate Limits
   slug: bloomberg-intelligence-rate-limits
 rules:
-- name: Bloomberg Intelligence API Rules
+- effective_rule_count: 17
+  extends: []
+  name: Bloomberg Intelligence API Rules
   rule_count: 17
   severity_counts:
     error: 14
@@ -163,16 +166,18 @@ rules:
     warn: 2
   slug: bloomberg-intelligence-spectral-rules
 score:
-  band: emerging
-  composite: 27.6
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 0.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 39.4
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 27.1
-    operational_transparency: 13.2
+    governance: 39.4
+    operational_transparency: 10.5
   previous_composite: 27.6
   regulatory:
     applies: true
@@ -180,8 +185,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/screenshots/bloomberg-intelligence-2026-06-20T173440.png
 security:

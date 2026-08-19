@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,20 +144,22 @@ overview: 'Diagrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 128
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 32.0
+  delta: -3.1
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 35.1
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/screenshots/diagrid-2026-07-25T211904.png
 security:

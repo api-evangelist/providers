@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
@@ -1550,7 +1551,9 @@ rate_limits:
   name: Tmdb Rate Limits
   slug: tmdb-rate-limits
 rules:
-- name: The Movie Database API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Movie Database API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1558,7 +1561,10 @@ rules:
     info: 1
     warn: 4
   slug: tmdb-jsonschema-spectral-rules
-- name: The Movie Database API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: The Movie Database API Rules
   rule_count: 42
   severity_counts:
     error: 16
@@ -1567,20 +1573,22 @@ rules:
     warn: 22
   slug: tmdb-rules
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  delta: -7.2
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 67.9
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 65.7
+    developer_ergonomics: 32.1
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 47.4
   previous_composite: 59.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/screenshots/tmdb-2026-06-20T195425.png
 security:
 - kind: domain-security

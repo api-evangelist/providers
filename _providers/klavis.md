@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -166,15 +167,17 @@ rate_limits:
   slug: klavis-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 40.8
+  delta: -4.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.7
-    developer_ergonomics: 21.7
-    discoverability: 74.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 23.8
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 39.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -183,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/screenshots/klavis-2026-06-20T184058.png
 security:

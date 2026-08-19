@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,15 +224,17 @@ rate_limits:
   slug: carsxe-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 42.3
+  delta: -1.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 56.7
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -240,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/screenshots/carsxe-2026-06-20T174021.png
 security:

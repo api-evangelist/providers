@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -188,7 +189,9 @@ rate_limits:
   name: Microsoft Bicep Rate Limits
   slug: microsoft-bicep-rate-limits
 rules:
-- name: Microsoft Bicep API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Bicep API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -203,15 +206,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 35.0
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 60.4
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 58.7
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 41.3
   provenance:
     agentic_access: derived
@@ -220,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:
 - kind: authentication

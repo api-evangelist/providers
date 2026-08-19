@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 23.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -279,7 +280,10 @@ rate_limits:
   name: Nuvei Rate Limits
   slug: nuvei-rate-limits
 rules:
-- name: Nuvei API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Nuvei API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -287,7 +291,9 @@ rules:
     info: 1
     warn: 5
   slug: nuvei-asyncapi-spectral-rules
-- name: Nuvei API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nuvei API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,7 +301,10 @@ rules:
     info: 2
     warn: 3
   slug: nuvei-jsonschema-spectral-rules
-- name: Nuvei API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Nuvei API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -305,14 +314,16 @@ rules:
   slug: nuvei-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 32.0
+  delta: -4.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 71.6
-    developer_ergonomics: 15.2
+    contract_governance: 13.6
+    contract_quality: 68.4
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 58.3
+    governance: 13.6
     operational_transparency: 0.0
   previous_composite: 36.7
   provenance:
@@ -328,8 +339,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

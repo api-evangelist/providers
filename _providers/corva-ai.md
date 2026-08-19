@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Corva Data API is a RESTful interface providing flexibility and extensibility into the Corva drilling and completions data platform. Use cases include UI visualizations, data entry, replication an
@@ -138,15 +139,17 @@ rate_limits:
   slug: corva-ai-rate-limits
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 18.7
+  delta: -1.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 32.3
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 19.8
   regulatory:
     applies: true
@@ -154,8 +157,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/screenshots/corva-ai-2026-06-20T175049.png
 security:

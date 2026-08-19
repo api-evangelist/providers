@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-08-17'
+  score: 54.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -587,7 +588,9 @@ rate_limits:
   name: Omnisend Rate Limits
   slug: omnisend-rate-limits
 rules:
-- name: Omnisend API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Omnisend API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -602,26 +605,31 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 82.9
-  delta: 13.6
+  composite: 70.3
+  delta: -12.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 74.4
-    developer_ergonomics: 78.3
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 40.2
+    contract_quality: 74.5
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 100.0
-  previous_composite: 69.3
+    governance: 40.2
+    operational_transparency: 97.4
+  previous_composite: 82.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 80.0
       derived: 0
-      marker_coverage: 0.0
-      total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      marker_coverage: 100.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:
 - kind: authentication

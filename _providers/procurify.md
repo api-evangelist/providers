@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -1278,7 +1279,9 @@ rate_limits:
   name: Procurify Rate Limits
   slug: procurify-rate-limits
 rules:
-- name: Procurify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Procurify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1293,14 +1296,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 44.7
+  delta: -5.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 60.4
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 59.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 49.8
   provenance:
@@ -1310,9 +1315,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/screenshots/procurify-2026-06-20T192129.png
 security:
 - kind: authentication

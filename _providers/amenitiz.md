@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,16 +110,18 @@ overview: 'Amenitiz is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Amenitiz''s developer surface includes documentation, pricing, engineering blog, support, signup flow, and 11 more developer resources.'
 random_paper: 120
 score:
-  band: emerging
-  composite: 27.1
-  delta: 0.0
+  band: thin
+  composite: 30.1
+  delta: 3.0
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 27.1
   provenance:
     conformance: first-party
@@ -127,9 +130,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amenitiz/refs/heads/main/screenshots/amenitiz-2026-07-25T200038.png
 security:

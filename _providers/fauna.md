@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -228,7 +229,10 @@ rate_limits:
   name: Fauna Rate Limits
   slug: fauna-rate-limits
 rules:
-- name: fauna API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: fauna API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -236,7 +240,9 @@ rules:
     info: 0
     warn: 7
   slug: fauna-asyncapi-spectral-rules
-- name: fauna API Rules
+- effective_rule_count: 6
+  extends: []
+  name: fauna API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -246,14 +252,16 @@ rules:
   slug: fauna-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 30.6
+  delta: -4.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 73.9
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 70.7
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 7.9
   previous_composite: 34.8
   provenance:
@@ -263,8 +271,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/screenshots/fauna-2026-06-20T181057.png
 security:

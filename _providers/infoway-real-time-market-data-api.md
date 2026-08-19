@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: derived
-    idempotency: false
-    mcp_server: false
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
@@ -192,12 +193,14 @@ score:
   composite: 47.5
   delta: 0.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 57.2
-    developer_ergonomics: 65.2
+    contract_governance: 16.7
+    contract_quality: 54.0
+    developer_ergonomics: 67.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 47.5
   provenance:
     conformance: derived
@@ -214,9 +217,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infoway-real-time-market-data-api/refs/heads/main/screenshots/infoway-real-time-market-data-api-2026-08-17T081000.png
 security:
 - kind: authentication
   name: Infoway Real Time Market Data Api Authentication

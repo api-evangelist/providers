@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -362,7 +363,9 @@ rate_limits:
   name: Wundergraph Rate Limits
   slug: wundergraph-rate-limits
 rules:
-- name: WunderGraph API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WunderGraph API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -372,14 +375,16 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 39.7
+  delta: -6.6
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 28.4
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 29.8
+    developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 46.3
   provenance:
@@ -390,9 +395,9 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication

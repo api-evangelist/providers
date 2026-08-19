@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Obtain and test API keys
@@ -168,12 +169,14 @@ score:
   composite: 34.3
   delta: 0.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 66.7
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 62.9
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 34.3
   provenance:
     conformance: derived
@@ -190,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

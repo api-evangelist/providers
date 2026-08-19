@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -130,15 +131,17 @@ rate_limits:
   slug: comulate-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 21.7
+  delta: -3.4
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 26.3
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 25.1
   provenance:
     conformance: first-party
@@ -148,8 +151,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/screenshots/comulate-2026-07-25T210210.png
 security:

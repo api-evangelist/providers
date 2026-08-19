@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -146,13 +147,15 @@ overview: 'LegalZoom is profiled on the [APIs.io](https://apis.io/) network. Tag
   LegalZoom''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
 random_paper: 76
 score:
-  band: emerging
-  composite: 16.5
-  delta: 0.0
+  band: minimal
+  composite: 9.2
+  delta: -7.3
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
@@ -162,10 +165,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 27.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 16.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/legalzoom/refs/heads/main/screenshots/legalzoom-2026-06-20T184405.png
 security:
 - kind: domain-security

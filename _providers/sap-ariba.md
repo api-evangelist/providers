@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 42.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -895,7 +896,9 @@ rate_limits:
   name: Sap Ariba Rate Limits
   slug: sap-ariba-rate-limits
 rules:
-- name: SAP Ariba API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP Ariba API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -903,7 +906,10 @@ rules:
     info: 2
     warn: 4
   slug: sap-ariba-jsonschema-spectral-rules
-- name: SAP Ariba API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: SAP Ariba API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -917,16 +923,18 @@ scopes:
   slug: sap-ariba-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  delta: -14.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 65.7
-    developer_ergonomics: 56.5
-    discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 36.8
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 26.2
+    discoverability: 66.7
+    governance: 9.8
+    operational_transparency: 28.9
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -935,9 +943,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png
 security:
 - kind: authentication

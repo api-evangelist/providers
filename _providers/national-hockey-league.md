@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 20.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,11 +131,13 @@ overview: National Hockey League publishes 7 APIs on the [APIs.io](https://apis.
 random_paper: 128
 score:
   band: emerging
-  composite: 19.3
-  delta: 0.0
+  composite: 18.5
+  delta: -0.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.3
+    contract_governance: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
@@ -147,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Public market-data API for GRVT — instruments, currencies, supported assets, margin rules, mini/full tickers, orderbook levels, trades, trade history, candlesticks, and funding rates. No authenticatio
@@ -158,15 +159,17 @@ overview: 'Blue Square Group Limited publishes 1 API on the [APIs.io](https://ap
 random_paper: 133
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 31.9
+  delta: -2.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 47.8
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 23.7
+    governance: 4.5
+    operational_transparency: 15.8
   previous_composite: 34.2
   provenance:
     conformance: derived
@@ -178,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
 security:

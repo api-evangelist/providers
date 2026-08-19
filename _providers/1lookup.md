@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -239,23 +240,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.4
-  delta: 15.3
+  composite: 61.2
+  delta: -1.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    contract_governance: 18.2
+    contract_quality: 46.5
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 47.1
+  previous_composite: 62.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
 security:
 - kind: authentication
   name: 1Lookup Authentication

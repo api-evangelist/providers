@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -341,7 +342,9 @@ rate_limits:
   name: Heroku Rate Limits
   slug: heroku-rate-limits
 rules:
-- name: Heroku API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Heroku API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -351,15 +354,17 @@ rules:
   slug: heroku-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 46.7
+  delta: -8.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.1
-    developer_ergonomics: 50.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -368,9 +373,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:
 - kind: authentication

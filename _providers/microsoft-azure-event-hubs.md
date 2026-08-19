@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -350,7 +351,10 @@ rate_limits:
   name: Microsoft Azure Event Hubs Rate Limits
   slug: microsoft-azure-event-hubs-rate-limits
 rules:
-- name: Azure Event Hubs API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Azure Event Hubs API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -358,7 +362,9 @@ rules:
     info: 1
     warn: 7
   slug: microsoft-azure-event-hubs-asyncapi-spectral-rules
-- name: Azure Event Hubs API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Azure Event Hubs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -373,15 +379,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 57.0
+  delta: -5.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 73.6
-    developer_ergonomics: 56.5
+    contract_governance: 13.6
+    contract_quality: 71.7
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 13.6
+    operational_transparency: 36.8
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -390,9 +398,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:
 - kind: authentication

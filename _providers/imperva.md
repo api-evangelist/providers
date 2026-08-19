@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 8
@@ -257,7 +258,9 @@ rate_limits:
   name: Imperva Rate Limits
   slug: imperva-rate-limits
 rules:
-- name: Imperva API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Imperva API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -267,15 +270,17 @@ rules:
   slug: imperva-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 42.9
+  delta: -8.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.3
-    developer_ergonomics: 21.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 58.9
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -284,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/screenshots/imperva-2026-06-20T183300.png
 security:
 - kind: authentication

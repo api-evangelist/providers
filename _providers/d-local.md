@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 36.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -657,7 +658,9 @@ rate_limits:
   name: D Local Rate Limits
   slug: d-local-rate-limits
 rules:
-- name: dLocal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: dLocal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -665,7 +668,10 @@ rules:
     info: 1
     warn: 4
   slug: d-local-jsonschema-spectral-rules
-- name: dLocal API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: dLocal API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -675,14 +681,16 @@ rules:
   slug: d-local-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 65.7
+  delta: -0.1
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 66.1
-    developer_ergonomics: 71.7
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 73.8
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 65.8
   provenance:
@@ -698,8 +706,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:

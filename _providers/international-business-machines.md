@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -304,7 +305,9 @@ rate_limits:
   name: International Business Machines Rate Limits
   slug: international-business-machines-rate-limits
 rules:
-- name: International Business Machines API Rules
+- effective_rule_count: 5
+  extends: []
+  name: International Business Machines API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -314,14 +317,16 @@ rules:
   slug: international-business-machines-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 32.5
+  delta: -6.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.3
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 60.3
+    developer_ergonomics: 38.1
     discoverability: 40.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 38.6
   provenance:
@@ -331,9 +336,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/screenshots/international-business-machines-2026-06-20T183455.png
 security:
 - kind: authentication

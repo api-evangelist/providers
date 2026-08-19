@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -456,7 +457,9 @@ rate_limits:
   name: Aws App Runner Rate Limits
   slug: aws-app-runner-rate-limits
 rules:
-- name: AWS App Runner API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AWS App Runner API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -464,7 +467,10 @@ rules:
     info: 1
     warn: 4
   slug: aws-app-runner-jsonschema-spectral-rules
-- name: AWS App Runner API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: AWS App Runner API Rules
   rule_count: 20
   severity_counts:
     error: 12
@@ -474,15 +480,17 @@ rules:
   slug: aws-app-runner-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 49.4
+  delta: -6.2
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 70.9
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 67.4
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -491,9 +499,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/screenshots/aws-app-runner-2026-06-20T172739.png
 security:
 - kind: authentication

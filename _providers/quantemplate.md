@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
@@ -177,15 +178,17 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 105
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 48.9
+  delta: 1.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.2
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 65.0
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 47.9
   provenance:
     conformance: derived
@@ -201,10 +204,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 45.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/screenshots/quantemplate-2026-08-17T081425.png
 security:
 - kind: authentication
   name: Quantemplate Authentication

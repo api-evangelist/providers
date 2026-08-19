@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -449,7 +450,9 @@ rate_limits:
   name: Bubble Rate Limits
   slug: bubble-rate-limits
 rules:
-- name: Bubble API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bubble API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -457,7 +460,10 @@ rules:
     info: 2
     warn: 3
   slug: bubble-jsonschema-spectral-rules
-- name: Bubble API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Bubble API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -466,16 +472,18 @@ rules:
     warn: 6
   slug: bubble-rules
 score:
-  band: exemplar
-  composite: 75.4
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: -12.5
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 72.9
-    developer_ergonomics: 56.5
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 25.0
+    contract_quality: 69.1
+    developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 78.9
+    governance: 25.0
+    operational_transparency: 76.3
   previous_composite: 75.4
   provenance:
     agentic_access: derived
@@ -484,9 +492,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:
 - kind: authentication

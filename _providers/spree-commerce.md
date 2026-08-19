@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 54.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -668,12 +669,14 @@ rate_limits:
   slug: spree-commerce-rate-limits
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 38.1
+  delta: -2.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 58.6
-    developer_ergonomics: 28.3
+    contract_governance: 0.0
+    contract_quality: 60.1
+    developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
@@ -685,8 +688,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:

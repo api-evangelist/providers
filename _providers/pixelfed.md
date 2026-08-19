@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -207,12 +208,14 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 34.6
+  delta: -2.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 61.5
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 60.7
+    developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
@@ -224,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/screenshots/pixelfed-2026-06-20T191736.png
 security:

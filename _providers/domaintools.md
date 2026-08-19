@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 51.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -252,15 +253,17 @@ overview: 'DomainTools publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 1
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 50.8
+  delta: -0.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.9
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 54.9
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -272,8 +275,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/screenshots/domaintools-2026-07-25T212242.png
 security:

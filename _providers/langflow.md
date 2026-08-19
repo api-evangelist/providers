@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -415,7 +416,9 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
   Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 43 more developer resources.'
 random_paper: 113
 rules:
-- name: Langflow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Langflow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -423,7 +426,10 @@ rules:
     info: 1
     warn: 4
   slug: langflow-jsonschema-spectral-rules
-- name: Langflow API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Langflow API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -438,14 +444,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 37.1
+  delta: -4.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 59.1
-    developer_ergonomics: 52.2
+    contract_governance: 9.8
+    contract_quality: 61.1
+    developer_ergonomics: 57.1
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 41.4
   provenance:
@@ -455,8 +463,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:

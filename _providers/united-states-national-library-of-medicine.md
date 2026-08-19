@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -192,7 +193,9 @@ rate_limits:
   name: United States National Library Of Medicine Rate Limits
   slug: united-states-national-library-of-medicine-rate-limits
 rules:
-- name: United States National Library of Medicine API Rules
+- effective_rule_count: 7
+  extends: []
+  name: United States National Library of Medicine API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -200,7 +203,9 @@ rules:
     info: 0
     warn: 4
   slug: ncbi-e-utilities-rules
-- name: United States National Library of Medicine API Rules
+- effective_rule_count: 5
+  extends: []
+  name: United States National Library of Medicine API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,14 +215,16 @@ rules:
   slug: united-states-national-library-of-medicine-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 34.4
+  delta: 2.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.9
-    developer_ergonomics: 19.6
+    contract_governance: 30.3
+    contract_quality: 58.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 31.7
   provenance:
@@ -233,8 +240,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png
 security:

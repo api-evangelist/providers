@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -1462,7 +1463,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Przelewy24 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Przelewy24 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1472,14 +1475,16 @@ rules:
   slug: przelewy24-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 44.3
+  delta: -2.8
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 62.1
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 59.8
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 47.1
   provenance:
@@ -1495,8 +1500,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:

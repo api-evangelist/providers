@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -297,15 +298,17 @@ rate_limits:
   slug: rocketlane-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 57.6
+  delta: -1.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.6
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 67.1
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 60.5
+    governance: 30.3
+    operational_transparency: 57.9
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -317,9 +320,10 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/screenshots/rocketlane-2026-08-17T081626.png
 security:
 - kind: authentication
   name: Rocketlane Authentication

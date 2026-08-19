@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -411,15 +412,17 @@ rate_limits:
   slug: front-rate-limits
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 40.0
+  delta: -4.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 55.4
-    developer_ergonomics: 32.6
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 0.0
+    contract_quality: 56.5
+    developer_ergonomics: 29.8
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 30.3
   previous_composite: 44.6
   provenance:
     agentic_access: derived
@@ -428,8 +431,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
 security:

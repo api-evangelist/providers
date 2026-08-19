@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 42.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, advanced account and person search, prospect disc
@@ -196,23 +196,30 @@ rate_limits:
   slug: madkudu-rate-limits
 score:
   band: strong
-  composite: 56.4
-  delta: 31.7
+  composite: 54.9
+  delta: -1.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 54.5
-    developer_ergonomics: 75.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 70.8
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 42.1
-  previous_composite: 24.7
+    governance: 16.7
+    operational_transparency: 39.5
+  previous_composite: 56.4
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:
 - kind: authentication

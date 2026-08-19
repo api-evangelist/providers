@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -175,20 +176,22 @@ overview: 'Beatport is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Beatport''s developer surface includes authentication, pricing, GitHub presence, YouTube channel, and 28 more developer resources.'
 random_paper: 120
 score:
-  band: emerging
-  composite: 15.9
-  delta: 0.0
+  band: minimal
+  composite: 10.0
+  delta: -5.9
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 15.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beatport/refs/heads/main/screenshots/beatport-2026-07-25T202559.png
 security:
 - kind: domain-security

@@ -14,22 +14,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 76.1
-  scored_at: '2026-08-17'
+  score: 59.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -471,7 +472,9 @@ rate_limits:
   name: Builtwith Rate Limits
   slug: builtwith-rate-limits
 rules:
-- name: BuiltWith API Rules
+- effective_rule_count: 6
+  extends: []
+  name: BuiltWith API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -485,27 +488,32 @@ scopes:
   slug: builtwith-scopes
   summary_line: 2 scopes
 score:
-  band: exemplar
-  composite: 72.6
-  delta: 23.7
+  band: strong
+  composite: 59.6
+  delta: -13.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 72.0
-    developer_ergonomics: 73.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 55.3
+    contract_quality: 69.2
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 31.6
-  previous_composite: 48.9
+    governance: 55.3
+    operational_transparency: 28.9
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:
 - kind: authentication

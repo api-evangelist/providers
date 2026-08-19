@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 25.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Dovetail Public API for building custom integrations against a Dovetail workspace: manage projects, folders, docs, insights, data (notes), highlights, tags, themes, channels, topics, contacts, users, '
@@ -163,21 +164,23 @@ rate_limits:
   slug: dovetail-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 30.5
+  delta: -6.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 38.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 37.1
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/screenshots/dovetail-2026-07-25T212327.png
 security:
 - kind: authentication

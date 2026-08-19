@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,15 +206,17 @@ overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 12
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 47.0
+  delta: -2.0
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 61.2
-    developer_ergonomics: 47.3
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 41.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -225,9 +228,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/screenshots/rows-2026-08-17T081656.png
 security:
 - kind: authentication
   name: Rows Authentication

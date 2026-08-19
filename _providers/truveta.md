@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,15 +121,17 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 24.3
+  delta: -2.2
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 22.6
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 26.5
   provenance:
     conformance: first-party
@@ -137,9 +140,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 53.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

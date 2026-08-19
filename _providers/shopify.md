@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1713,7 +1714,9 @@ rate_limits:
   name: Shopify Rate Limits
   slug: shopify-rate-limits
 rules:
-- name: Shopify API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Shopify API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1721,7 +1724,10 @@ rules:
     info: 1
     warn: 5
   slug: shopify-jsonschema-spectral-rules
-- name: Shopify API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Shopify API Rules
   rule_count: 13
   severity_counts:
     error: 4
@@ -1729,7 +1735,10 @@ rules:
     info: 4
     warn: 5
   slug: shopify-rules
-- name: Shopify API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Shopify API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -1739,14 +1748,16 @@ rules:
   slug: shopify-spectral-rules
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 57.7
+  delta: -1.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.3
-    developer_ergonomics: 71.7
-    discoverability: 48.1
-    governance: 58.3
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 78.6
+    discoverability: 40.7
+    governance: 9.8
     operational_transparency: 63.2
   previous_composite: 58.7
   provenance:
@@ -1762,8 +1773,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

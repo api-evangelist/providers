@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-17'
+  score: 32.0
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
@@ -497,7 +498,9 @@ rate_limits:
   name: Logz Io Rate Limits
   slug: logz-io-rate-limits
 rules:
-- name: Logz.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Logz.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -506,16 +509,24 @@ rules:
     warn: 3
   slug: logz-io-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 65.6
+  delta: -5.0
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 63.3
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 61.6
+    developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 68.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 70.6
   provenance:
     contracts:
@@ -523,9 +534,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png
 security:
 - kind: domain-security

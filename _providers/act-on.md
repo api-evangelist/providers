@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: OAuth 2.0 REST API for Act-On marketing automation — contacts and lists, segments, email messages and campaigns, media and creative assets, landing pages and forms, subscriptions, imports, custom even
@@ -217,23 +218,31 @@ scopes:
   slug: act-on-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.2
-  delta: 40.6
+  band: developing
+  composite: 53.2
+  delta: -7.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 60.8
-    developer_ergonomics: 67.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 65.0
+    developer_ergonomics: 55.4
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 19.6
+  previous_composite: 60.2
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:
 - kind: authentication

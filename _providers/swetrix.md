@@ -11,10 +11,10 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 45.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -460,7 +461,9 @@ rate_limits:
   name: Swetrix Rate Limits
   slug: swetrix-rate-limits
 rules:
-- name: Swetrix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Swetrix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -468,7 +471,10 @@ rules:
     info: 2
     warn: 3
   slug: swetrix-jsonschema-spectral-rules
-- name: Swetrix API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Swetrix API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -478,26 +484,31 @@ rules:
   slug: swetrix-rules
 score:
   band: exemplar
-  composite: 78.0
-  delta: 20.9
+  composite: 77.9
+  delta: -0.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 78.3
-    developer_ergonomics: 84.8
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 55.3
+    contract_quality: 75.9
+    developer_ergonomics: 87.5
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 68.4
-  previous_composite: 57.1
+    governance: 55.3
+    operational_transparency: 73.7
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:
 - kind: authentication

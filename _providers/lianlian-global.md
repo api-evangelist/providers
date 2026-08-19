@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 55.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -578,15 +579,17 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 47.9
+  delta: -4.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.5
-    developer_ergonomics: 80.4
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 59.8
+    developer_ergonomics: 85.7
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -603,9 +606,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 42.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:

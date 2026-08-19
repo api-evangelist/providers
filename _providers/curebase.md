@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,15 +95,17 @@ overview: 'Curebase is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Curebase''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
 random_paper: 97
 score:
-  band: emerging
-  composite: 18.9
-  delta: 0.0
+  band: minimal
+  composite: 9.7
+  delta: -9.2
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 18.9
   provenance:
@@ -112,10 +115,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 20.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/curebase/refs/heads/main/screenshots/curebase-2026-07-25T210932.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other base classes. The model system uses IModel<T>
@@ -141,18 +142,20 @@ rate_limits:
   slug: apache-wicket-rate-limits
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 23.3
+  delta: 0.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 22.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/screenshots/apache-wicket-2026-06-20T172157.png
 security:

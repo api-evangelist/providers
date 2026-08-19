@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Electronic trading API for executing trades across fixed income, derivatives, and ETF markets. Supports RFQ (Request for Quote), click-to-trade, and automated execution via AiEX (Automated Intelligent
@@ -170,7 +171,9 @@ rate_limits:
   name: Tradeweb Rate Limits
   slug: tradeweb-rate-limits
 rules:
-- name: Tradeweb API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tradeweb API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -178,7 +181,9 @@ rules:
     info: 2
     warn: 3
   slug: tradeweb-jsonschema-spectral-rules
-- name: Tradeweb API Rules
+- effective_rule_count: 17
+  extends: []
+  name: Tradeweb API Rules
   rule_count: 17
   severity_counts:
     error: 14
@@ -187,15 +192,17 @@ rules:
     warn: 2
   slug: tradeweb-spectral-rules
 score:
-  band: thin
-  composite: 33.5
-  delta: 0.0
+  band: emerging
+  composite: 20.2
+  delta: -13.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 23.9
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 33.5
   regulatory:
@@ -203,10 +210,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 28.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Tradeweb Domain Security

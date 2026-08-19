@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The PayPro Global API lets merchants manage subscriptions, payments, orders, customers, products, and webhooks for their Merchant of Record ecommerce flows.
@@ -103,12 +104,14 @@ rate_limits:
   slug: paypro-global-rate-limits
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 14.1
+  delta: -9.3
   facets:
-    commercial_clarity: 55.3
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 9.5
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
@@ -118,10 +121,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 29.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 17.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/screenshots/paypro-global-2026-06-20T191506.png
 security:
 - kind: domain-security

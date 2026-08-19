@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,7 +194,9 @@ rate_limits:
   name: R Rate Limits
   slug: r-rate-limits
 rules:
-- name: R API Rules
+- effective_rule_count: 5
+  extends: []
+  name: R API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,7 +204,10 @@ rules:
     info: 2
     warn: 3
   slug: r-jsonschema-spectral-rules
-- name: R API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: R API Rules
   rule_count: 13
   severity_counts:
     error: 2
@@ -211,14 +217,16 @@ rules:
   slug: r-spectral-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 28.0
+  delta: -9.6
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 61.2
-    developer_ergonomics: 15.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 57.3
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 37.6
   provenance:
@@ -228,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:
 - kind: domain-security

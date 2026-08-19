@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -4662,7 +4663,9 @@ rate_limits:
   name: Amazon Proton Rate Limits
   slug: amazon-proton-rate-limits
 rules:
-- name: Amazon Proton API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Proton API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4670,7 +4673,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-proton-jsonschema-spectral-rules
-- name: Amazon Proton API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Amazon Proton API Rules
   rule_count: 21
   severity_counts:
     error: 11
@@ -4679,16 +4685,18 @@ rules:
     warn: 9
   slug: amazon-proton-spectral-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -6.0
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 28.9
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 50.0
+    discoverability: 59.3
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -4697,9 +4705,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 84
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:
 - kind: authentication

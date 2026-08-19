@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.6
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -280,27 +281,32 @@ rate_limits:
   name: Mparticle Rate Limits
   slug: mparticle-rate-limits
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 30.1
+  band: strong
+  composite: 58.4
+  delta: -8.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 66.1
-    developer_ergonomics: 87.0
+    contract_governance: 30.3
+    contract_quality: 64.1
+    developer_ergonomics: 42.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 36.9
+    governance: 30.3
+    operational_transparency: 68.4
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/screenshots/mparticle-2026-06-20T185839.png
 security:
 - kind: authentication

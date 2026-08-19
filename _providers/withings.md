@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -290,7 +291,9 @@ rate_limits:
   name: Withings Rate Limits
   slug: withings-rate-limits
 rules:
-- name: Withings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Withings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -300,15 +303,17 @@ rules:
   slug: withings-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 39.6
+  delta: -6.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 67.5
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 63.9
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 28.9
   previous_composite: 45.8
   provenance:
     agentic_access: derived
@@ -323,9 +328,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:
 - kind: domain-security

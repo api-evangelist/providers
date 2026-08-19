@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -394,7 +395,9 @@ rate_limits:
   name: Aladdin Studio Rate Limits
   slug: aladdin-studio-rate-limits
 rules:
-- name: Aladdin Studio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Aladdin Studio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -402,7 +405,10 @@ rules:
     info: 2
     warn: 3
   slug: aladdin-studio-jsonschema-spectral-rules
-- name: Aladdin Studio API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Aladdin Studio API Rules
   rule_count: 40
   severity_counts:
     error: 16
@@ -417,14 +423,16 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 30.8
+  delta: -4.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 31.7
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 29.7
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 35.7
   provenance:
@@ -434,8 +442,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-17'
+  score: 21.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -133,14 +134,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 31.5
+  delta: 1.3
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 30.2
   provenance:
@@ -151,9 +154,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 62.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 79.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumbuca/refs/heads/main/screenshots/cumbuca-2026-07-25T210921.png
 security:

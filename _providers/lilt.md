@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 49.8
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -287,15 +288,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 62.4
+  delta: -0.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.4
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 64.9
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 62.8
   provenance:
     conformance: derived
@@ -306,8 +309,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

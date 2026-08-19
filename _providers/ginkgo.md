@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Async, job-polling REST API for running inference on public and Ginkgo-proprietary biological foundation models — protein/DNA masked language modeling and mean-embedding generation. Authenticated with
@@ -119,20 +120,22 @@ overview: 'Ginkgo Bioworks publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 43
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 19.2
+  delta: -2.6
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 21.8
   provenance:
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginkgo/refs/heads/main/screenshots/ginkgo-2026-07-25T215827.png
 security:

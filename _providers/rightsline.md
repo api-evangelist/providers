@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -262,7 +263,9 @@ rate_limits:
   name: Rightsline Rate Limits
   slug: rightsline-rate-limits
 rules:
-- name: Rightsline API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rightsline API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -270,7 +273,9 @@ rules:
     info: 2
     warn: 3
   slug: rightsline-jsonschema-spectral-rules
-- name: Rightsline API Rules
+- effective_rule_count: 11
+  extends: []
+  name: Rightsline API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -280,15 +285,17 @@ rules:
   slug: rightsline-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 43.8
+  delta: -7.0
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 64.6
-    developer_ergonomics: 45.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 64.2
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -297,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/screenshots/rightsline-2026-06-20T193119.png
 security:
 - kind: authentication

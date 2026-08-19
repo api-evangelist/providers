@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -491,7 +492,10 @@ rate_limits:
   name: Moov Rate Limits
   slug: moov-rate-limits
 rules:
-- name: Moov API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Moov API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -499,7 +503,9 @@ rules:
     info: 0
     warn: 5
   slug: moov-asyncapi-spectral-rules
-- name: Moov API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Moov API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -512,12 +518,14 @@ score:
   composite: 58.4
   delta: 0.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 87.3
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 11.4
+    contract_quality: 86.9
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 55.3
+    governance: 11.4
+    operational_transparency: 52.6
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -532,8 +540,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:

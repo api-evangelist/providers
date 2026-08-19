@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -273,7 +274,9 @@ rate_limits:
   name: Parasail Rate Limits
   slug: parasail-rate-limits
 rules:
-- name: Parasail API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Parasail API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -281,7 +284,10 @@ rules:
     info: 1
     warn: 4
   slug: parasail-ai-jsonschema-spectral-rules
-- name: Parasail API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Parasail API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -290,16 +296,18 @@ rules:
     warn: 2
   slug: parasail-rules
 score:
-  band: strong
-  composite: 59.0
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: -8.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 75.4
-    developer_ergonomics: 41.3
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 9.8
+    contract_quality: 73.1
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -308,9 +316,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png
 security:
 - kind: authentication

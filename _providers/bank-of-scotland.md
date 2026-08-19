@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: PUBLIC, unauthenticated OBIE Open Data reference API for Bank of Scotland, exposing ATM locations, branch details, personal and business current account products, unsecured SME loans, and commercial c
@@ -136,14 +137,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 34.5
+  delta: -1.8
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 53.0
-    developer_ergonomics: 36.4
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 51.2
+    developer_ergonomics: 39.9
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 36.3
   provenance:
@@ -160,9 +163,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 60.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

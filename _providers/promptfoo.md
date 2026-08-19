@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -222,18 +223,20 @@ rate_limits:
   slug: promptfoo-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 33.2
+  delta: -2.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 47.8
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
+    contract_quality: 1.4
+    developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 57.9
+    operational_transparency: 39.5
   previous_composite: 35.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/screenshots/promptfoo-2026-06-20T192156.png
 security:

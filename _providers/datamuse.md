@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -278,7 +279,9 @@ rate_limits:
   name: Datamuse Rate Limits
   slug: datamuse-rate-limits
 rules:
-- name: Datamuse API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Datamuse API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -286,7 +289,10 @@ rules:
     info: 2
     warn: 3
   slug: datamuse-jsonschema-spectral-rules
-- name: Datamuse API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Datamuse API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -296,14 +302,16 @@ rules:
   slug: datamuse-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 46.9
+  delta: -5.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 70.9
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 52.6
   provenance:
@@ -313,10 +321,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/screenshots/datamuse-2026-06-20T175644.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/screenshots/datamuse-2026-08-17T083151.png
 security:
 - kind: domain-security
   name: Datamuse Domain Security

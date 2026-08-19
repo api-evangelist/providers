@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-17'
+  score: 57.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -371,19 +372,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.2
-  delta: 14.6
+  composite: 69.1
+  delta: -3.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 68.9
-    developer_ergonomics: 79.9
+    contract_governance: 30.3
+    contract_quality: 66.7
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
-  previous_composite: 57.6
+    governance: 30.3
+    operational_transparency: 50.0
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -391,9 +394,9 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:
 - kind: authentication

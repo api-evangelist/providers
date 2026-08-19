@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -196,7 +197,10 @@ rate_limits:
   name: Cursor Rate Limits
   slug: cursor-rate-limits
 rules:
-- name: Cursor API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Cursor API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -204,7 +208,9 @@ rules:
     info: 0
     warn: 3
   slug: cursor-admin-api-rules
-- name: Cursor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cursor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,15 +220,17 @@ rules:
   slug: cursor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 35.2
+  delta: -1.6
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 62.7
-    developer_ergonomics: 21.7
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 45.5
+    contract_quality: 60.3
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 10.5
+    governance: 45.5
+    operational_transparency: 7.9
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -231,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
 security:

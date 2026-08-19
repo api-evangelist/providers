@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for the Acquire (formerly Tagove) customer support platform: conversations/cases, messages, notes, contacts, companies, phone, chatbots, cards, analytics, knowledge base, and account settings'
@@ -150,20 +151,22 @@ overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 50
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 37.8
+  delta: -3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 13.2
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 41.2
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

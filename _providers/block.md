@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 52.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -372,7 +373,9 @@ rate_limits:
   name: Block Rate Limits
   slug: block-rate-limits
 rules:
-- name: Block API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Block API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -380,7 +383,10 @@ rules:
     info: 1
     warn: 4
   slug: block-jsonschema-spectral-rules
-- name: Block API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Block API Rules
   rule_count: 34
   severity_counts:
     error: 11
@@ -395,15 +401,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 42.6
+  delta: -10.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 21.3
-    developer_ergonomics: 63.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 25.0
+    contract_quality: 20.0
+    developer_ergonomics: 59.5
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -417,10 +425,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:
 - kind: authentication

@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -1110,7 +1111,10 @@ rate_limits:
   name: Openai Rate Limits
   slug: openai-rate-limits
 rules:
-- name: OpenAI API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: OpenAI API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1118,7 +1122,9 @@ rules:
     info: 0
     warn: 8
   slug: openai-asyncapi-spectral-rules
-- name: OpenAI API Rules
+- effective_rule_count: 6
+  extends: []
+  name: OpenAI API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1126,7 +1132,10 @@ rules:
     info: 1
     warn: 5
   slug: openai-jsonschema-spectral-rules
-- name: OpenAI API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: OpenAI API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -1135,15 +1144,17 @@ rules:
     warn: 8
   slug: openai-spectral-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: -2.1
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 80.0
-    developer_ergonomics: 63.0
+    contract_governance: 26.5
+    contract_quality: 79.2
+    developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 63.2
   previous_composite: 66.5
   provenance:
@@ -1153,10 +1164,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-06-20T190903.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:
 - kind: authentication
   name: Openai Authentication

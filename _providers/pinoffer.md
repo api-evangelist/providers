@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
@@ -183,25 +184,30 @@ rate_limits:
   slug: pinoffer-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 51.8
+  delta: 0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 51.6
-    developer_ergonomics: 52.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 51.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/screenshots/pinoffer-2026-08-17T081239.png
 security:
 - kind: authentication
   name: Pinoffer Authentication

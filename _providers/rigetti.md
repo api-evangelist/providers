@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -424,7 +425,9 @@ rate_limits:
   name: Rigetti Rate Limits
   slug: rigetti-rate-limits
 rules:
-- name: Rigetti Computing API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rigetti Computing API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -433,16 +436,18 @@ rules:
     warn: 3
   slug: rigetti-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.9
-  delta: 0.0
+  band: strong
+  composite: 57.0
+  delta: -11.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 72.1
-    developer_ergonomics: 65.2
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 57.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 68.9
   provenance:
     agentic_access: derived
@@ -451,9 +456,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/screenshots/rigetti-2026-06-20T193115.png
 security:
 - kind: authentication

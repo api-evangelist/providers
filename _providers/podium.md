@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 51.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing customer communications including messaging, reviews, payments, webchat, contacts, automations, and webhooks for local businesses. Base URL is https://api.podium.com/v4/ and uses
@@ -262,25 +263,36 @@ scopes:
   summary_line: 25 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.4
-  delta: 36.1
+  composite: 57.5
+  delta: -5.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.2
-    developer_ergonomics: 76.1
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 65.2
+    developer_ergonomics: 43.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 65.8
-  previous_composite: 27.3
+    governance: 16.7
+    operational_transparency: 43.4
+  previous_composite: 63.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:
 - kind: authentication

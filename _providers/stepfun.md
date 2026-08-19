@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -199,22 +200,25 @@ rate_limits:
   slug: stepfun-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 48.2
+  delta: -1.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 49.4
-    developer_ergonomics: 65.2
+    contract_governance: 18.2
+    contract_quality: 44.4
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 49.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/screenshots/stepfun-2026-08-17T082149.png
 security:
 - kind: authentication
   name: Stepfun Authentication

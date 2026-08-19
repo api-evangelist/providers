@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,15 +132,17 @@ overview: 'OVO Energy is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 141
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 21.6
+  delta: -0.1
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 3.1
-    operational_transparency: 15.8
+    governance: 4.5
+    operational_transparency: 13.2
   previous_composite: 21.7
   provenance:
     conformance: derived
@@ -149,8 +152,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/screenshots/ovo-energy-2026-08-07T191145.png
 security:

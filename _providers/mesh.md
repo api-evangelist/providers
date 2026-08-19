@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: The Assets API from Mesh — 2 operation(s) for assets.
@@ -237,16 +237,18 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 23 more developer resources.'
 random_paper: 131
 score:
-  band: developing
-  composite: 54.7
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: 3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.7
-    developer_ergonomics: 64.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 64.6
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 54.7
   provenance:
     conformance: first-party
@@ -263,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/screenshots/mesh-2026-08-07T172618.png
 security:

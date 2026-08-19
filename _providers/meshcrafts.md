@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,15 +99,17 @@ overview: 'Meshcrafts is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 29
 score:
   band: emerging
-  composite: 17.9
-  delta: 0.0
+  composite: 11.3
+  delta: -6.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 0.0
   previous_composite: 17.9
   regulatory:
     applies: true
@@ -114,9 +117,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshcrafts/refs/heads/main/screenshots/meshcrafts-2026-08-07T172632.png
 security:
 - kind: domain-security

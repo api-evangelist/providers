@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -186,7 +187,9 @@ rate_limits:
   name: Strimzi Rate Limits
   slug: strimzi-rate-limits
 rules:
-- name: Strimzi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Strimzi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -194,7 +197,10 @@ rules:
     info: 2
     warn: 3
   slug: strimzi-jsonschema-spectral-rules
-- name: Strimzi API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Strimzi API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -204,14 +210,16 @@ rules:
   slug: strimzi-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 32.0
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 56.3
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 38.2
   provenance:
@@ -221,9 +229,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/screenshots/strimzi-2026-06-20T194621.png
 security:
 - kind: domain-security

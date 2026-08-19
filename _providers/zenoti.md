@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Zenoti beauty/wellness/fitness platform covering centers, appointments, guests, invoices and payments, memberships, packages, gift cards, classes, opportunities, employees, and webhoo
@@ -162,14 +163,16 @@ overview: 'Zenoti publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 69
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 41.8
+  delta: -2.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 41.7
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 34.2
   previous_composite: 44.0
   provenance:
@@ -181,9 +184,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/screenshots/zenoti-2026-08-17T083047.png
 security:
 - kind: authentication
   name: Zenoti Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 7
@@ -2146,7 +2147,9 @@ rate_limits:
   name: Amazon Neptune Rate Limits
   slug: amazon-neptune-rate-limits
 rules:
-- name: Amazon Neptune API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon Neptune API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2154,7 +2157,10 @@ rules:
     info: 2
     warn: 4
   slug: amazon-neptune-jsonschema-spectral-rules
-- name: Amazon Neptune API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Amazon Neptune API Rules
   rule_count: 32
   severity_counts:
     error: 11
@@ -2164,15 +2170,17 @@ rules:
   slug: amazon-neptune-spectral-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 59.4
+  delta: -5.4
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 72.1
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 68.4
+    developer_ergonomics: 69.0
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 64.8
   provenance:
     agentic_access: derived
@@ -2181,9 +2189,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png
 security:
 - kind: authentication

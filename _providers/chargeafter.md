@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 59.5
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
@@ -261,15 +262,17 @@ overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 105
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 45.8
+  delta: -4.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 68.0
-    developer_ergonomics: 75.5
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 65.5
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 38.2
   previous_composite: 50.1
   provenance:
     conformance: derived
@@ -286,9 +289,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/screenshots/chargeafter-2026-08-17T080818.png
 security:
 - kind: authentication
   name: Chargeafter Authentication

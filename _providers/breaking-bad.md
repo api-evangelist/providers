@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +164,9 @@ overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 random_paper: 132
 rules:
-- name: Breaking Bad API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Breaking Bad API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,7 +174,10 @@ rules:
     info: 1
     warn: 4
   slug: breaking-bad-jsonschema-spectral-rules
-- name: Breaking Bad API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Breaking Bad API Rules
   rule_count: 32
   severity_counts:
     error: 10
@@ -181,14 +187,16 @@ rules:
   slug: breaking-bad-rules
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 17.0
+  delta: -5.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 28.0
+    contract_governance: 25.0
+    contract_quality: 26.2
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 22.7
   provenance:
@@ -198,9 +206,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad
 tags:

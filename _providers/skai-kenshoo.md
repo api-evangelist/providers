@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Skai's REST API for programmatic access to advertising data and campaign management across search, social and retail-media publishers. Reporting is the primary surface — synchronous for small pulls, a
@@ -218,21 +218,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.3
-  delta: 0.0
+  composite: 55.2
+  delta: -1.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 30.0
-    developer_ergonomics: 67.4
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 34.2
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 56.3
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/screenshots/skai-kenshoo-2026-08-17T081910.png
 security:
 - kind: authentication
   name: Skai Kenshoo Authentication

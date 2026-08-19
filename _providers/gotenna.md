@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,15 +91,17 @@ overview: 'GoTenna is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 3
 score:
   band: emerging
-  composite: 15.2
-  delta: 0.0
+  composite: 14.9
+  delta: -0.3
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 15.2
   regulatory:
     applies: true
@@ -106,8 +109,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotenna/refs/heads/main/screenshots/gotenna-2026-08-07T165807.png
 security:

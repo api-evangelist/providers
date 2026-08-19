@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 44.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1.0, 71 operations across 47 paths) for automating accounting and reporting against Float. Read card transactions, account transactions, bills, bill attachments, payments, reimburs
@@ -188,22 +189,37 @@ rate_limits:
   slug: float-financial-rate-limits
 score:
   band: strong
-  composite: 59.9
+  composite: 61.4
+  delta: 1.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 60.4
-    developer_ergonomics: 58.7
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 62.2
+    developer_ergonomics: 45.8
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
+  previous_composite: 59.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:
 - kind: authentication
   name: Float Financial Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 54.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -236,16 +237,18 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
 random_paper: 133
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: developing
+  composite: 51.1
+  delta: -5.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 73.1
-    developer_ergonomics: 75.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 68.5
+    developer_ergonomics: 67.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 56.7
   provenance:
     agentic_access: derived
@@ -257,9 +260,10 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/screenshots/tinyfish-2026-08-17T082359.png
 security:
 - kind: authentication
   name: Tinyfish Authentication

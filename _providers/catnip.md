@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 22.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Bulk-create WhatsApp contacts inside a Chatfuel automation. POST a list of up to 1,000 E.164 phone numbers plus a contact_data.properties map of custom attributes applied to every contact in the reque
@@ -178,19 +179,24 @@ rate_limits:
   slug: catnip-rate-limits
 score:
   band: developing
-  composite: 44.5
-  delta: 17.4
+  composite: 41.8
+  delta: -2.7
   facets:
-    commercial_clarity: 73.7
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 57.1
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 27.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 44.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catnip/refs/heads/main/screenshots/catnip-2026-07-25T204810.png
 security:
 - kind: authentication

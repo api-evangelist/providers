@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -425,7 +426,10 @@ rate_limits:
   name: Inworld Ai Rate Limits
   slug: inworld-ai-rate-limits
 rules:
-- name: Inworld AI API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Inworld AI API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -433,7 +437,9 @@ rules:
     info: 1
     warn: 6
   slug: inworld-ai-asyncapi-spectral-rules
-- name: Inworld AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Inworld AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -441,7 +447,10 @@ rules:
     info: 2
     warn: 3
   slug: inworld-ai-jsonschema-spectral-rules
-- name: Inworld AI API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Inworld AI API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -451,14 +460,16 @@ rules:
   slug: inworld-ai-rules
 score:
   band: exemplar
-  composite: 70.0
-  delta: 0.0
+  composite: 66.6
+  delta: -3.4
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 77.3
-    developer_ergonomics: 69.6
+    contract_governance: 13.6
+    contract_quality: 74.9
+    developer_ergonomics: 76.2
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 78.9
   previous_composite: 70.0
   provenance:
@@ -468,8 +479,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:

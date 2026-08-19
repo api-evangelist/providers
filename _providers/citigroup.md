@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -213,7 +214,10 @@ rate_limits:
   name: Citigroup Rate Limits
   slug: citigroup-rate-limits
 rules:
-- name: Citigroup API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Citigroup API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -223,15 +227,17 @@ rules:
   slug: citigroup-rules
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 30.1
+  delta: -0.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 12.9
-    developer_ergonomics: 34.8
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 63.6
+    contract_quality: 11.3
+    developer_ergonomics: 33.3
     discoverability: 83.3
-    governance: 33.3
-    operational_transparency: 10.5
+    governance: 63.6
+    operational_transparency: 7.9
   previous_composite: 30.8
   provenance:
     conformance: first-party
@@ -240,9 +246,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 38.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png
 security:

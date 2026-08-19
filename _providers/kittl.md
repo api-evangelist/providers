@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Kittl SDK is the bridge between a sandboxed app and the Kittl editor host. It exposes async namespaces — kittl.design for design operations, kittl.state for editor and app state, kittl.upload for '
@@ -188,21 +189,23 @@ scopes:
   summary_line: 12 scopes
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 35.3
+  delta: -1.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 9.7
-    developer_ergonomics: 73.4
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 8.5
+    developer_ergonomics: 80.4
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 7.9
   previous_composite: 37.2
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kittl/refs/heads/main/screenshots/kittl-2026-07-25T223913.png
 security:

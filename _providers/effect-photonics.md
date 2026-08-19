@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
@@ -228,25 +229,36 @@ scopes:
   slug: effect-photonics-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 40.8
-  delta: 0.0
+  band: developing
+  composite: 39.9
+  delta: -0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 54.1
-    developer_ergonomics: 32.6
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 40.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

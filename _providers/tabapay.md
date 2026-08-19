@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
@@ -295,15 +296,17 @@ rate_limits:
   name: Tabapay Rate Limits
   slug: tabapay-rate-limits
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: strong
+  composite: 55.0
+  delta: 0.5
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 55.6
-    developer_ergonomics: 79.9
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 30.3
+    contract_quality: 53.9
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 52.6
   previous_composite: 54.5
   provenance:
@@ -320,10 +323,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 64.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/screenshots/tabapay-2026-08-17T082233.png
 security:
 - kind: authentication
   name: Tabapay Authentication

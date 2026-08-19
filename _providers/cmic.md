@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,7 +190,9 @@ rate_limits:
   name: Cmic Rate Limits
   slug: cmic-rate-limits
 rules:
-- name: CMiC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CMiC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -197,7 +200,10 @@ rules:
     info: 2
     warn: 3
   slug: cmic-jsonschema-spectral-rules
-- name: CMiC API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CMiC API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -212,14 +218,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 40.3
+  delta: -6.1
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 73.4
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 69.1
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 46.4
   provenance:
@@ -229,9 +237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:
 - kind: authentication

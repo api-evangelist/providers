@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,15 +100,17 @@ overview: 'Lenus eHealth is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 104
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 12.8
+  delta: -2.2
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 15.0
   regulatory:
     applies: true
@@ -115,8 +118,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lenus/refs/heads/main/screenshots/lenus-2026-07-25T224916.png
 security:

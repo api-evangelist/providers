@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -402,7 +403,9 @@ rate_limits:
   name: Advanced Micro Devices Rate Limits
   slug: advanced-micro-devices-rate-limits
 rules:
-- name: Advanced Micro Devices API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Advanced Micro Devices API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -410,7 +413,10 @@ rules:
     info: 2
     warn: 3
   slug: advanced-micro-devices-jsonschema-spectral-rules
-- name: Advanced Micro Devices API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Advanced Micro Devices API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -418,7 +424,9 @@ rules:
     info: 1
     warn: 8
   slug: advanced-micro-devices-spectral-rules
-- name: Advanced Micro Devices API Rules
+- effective_rule_count: 31
+  extends: []
+  name: Advanced Micro Devices API Rules
   rule_count: 31
   severity_counts:
     error: 16
@@ -428,15 +436,17 @@ rules:
   slug: amd-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 42.4
+  delta: -12.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 74.6
-    developer_ergonomics: 50.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 69.9
+    developer_ergonomics: 36.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -445,9 +455,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:
 - kind: authentication

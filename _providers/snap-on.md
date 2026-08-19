@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Snap-on Electronic Parts Catalog (EPC) provides dealer management system (DMS) integration for parts lookup, pricing, and ordering. The EPC integration supports file-writer, Launch EPC, and advanc
@@ -132,18 +133,20 @@ rate_limits:
   slug: snap-on-rate-limits
 score:
   band: emerging
-  composite: 16.7
-  delta: 0.0
+  composite: 16.3
+  delta: -0.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/screenshots/snap-on-2026-06-20T194109.png
 security:

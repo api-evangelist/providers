@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -215,7 +216,9 @@ rate_limits:
   name: Vehicle Databases Rate Limits
   slug: vehicle-databases-rate-limits
 rules:
-- name: Vehicle Databases API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vehicle Databases API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,7 +226,10 @@ rules:
     info: 2
     warn: 3
   slug: vehicle-databases-jsonschema-spectral-rules
-- name: Vehicle Databases API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Vehicle Databases API Rules
   rule_count: 27
   severity_counts:
     error: 10
@@ -233,14 +239,16 @@ rules:
   slug: vehicle-databases-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 28.0
+  delta: -5.1
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 23.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 22.4
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 33.1
   provenance:
@@ -250,9 +258,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/screenshots/vehicle-databases-2026-06-20T200859.png
 security:
 - kind: authentication

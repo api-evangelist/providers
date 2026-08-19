@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -181,15 +182,17 @@ overview: 'SnackMagic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 147
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 47.2
+  delta: -2.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.7
-    developer_ergonomics: 56.0
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 60.0
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -201,9 +204,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/screenshots/snackmagic-2026-08-17T081940.png
 security:
 - kind: authentication
   name: Snackmagic Authentication

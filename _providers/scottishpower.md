@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The live, anonymous REST API behind the SP Energy Networks Open Data Portal — ScottishPower's regulated distribution and transmission arm publishing its network data under Ofgem's Data Best Practice "
@@ -219,15 +220,17 @@ rate_limits:
   name: Scottishpower Rate Limits
   slug: scottishpower-rate-limits
 score:
-  band: thin
-  composite: 39.1
-  delta: 0.0
+  band: developing
+  composite: 44.7
+  delta: 5.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 15.1
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 14.7
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 55.3
   previous_composite: 39.1
   provenance:
@@ -244,10 +247,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 52.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Scottishpower Authentication

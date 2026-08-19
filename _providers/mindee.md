@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -431,7 +431,9 @@ rate_limits:
   name: Mindee Rate Limits
   slug: mindee-rate-limits
 rules:
-- name: Mindee API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mindee API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -439,7 +441,10 @@ rules:
     info: 1
     warn: 4
   slug: mindee-jsonschema-spectral-rules
-- name: Mindee API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Mindee API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -449,14 +454,16 @@ rules:
   slug: mindee-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 57.7
+  delta: -4.8
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 76.6
-    developer_ergonomics: 60.9
+    contract_governance: 25.0
+    contract_quality: 73.9
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 28.9
   previous_composite: 62.5
   provenance:
@@ -466,8 +473,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
 security:

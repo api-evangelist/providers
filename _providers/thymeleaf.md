@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The core Thymeleaf template engine library providing HTML, XML, TEXT, JavaScript, and CSS template mode processing. Includes the Standard Dialect with th:text, th:each, th:if, th:unless, th:switch, th
@@ -128,7 +129,9 @@ rate_limits:
   name: Thymeleaf Rate Limits
   slug: thymeleaf-rate-limits
 rules:
-- name: Thymeleaf API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Thymeleaf API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -138,19 +141,21 @@ rules:
   slug: thymeleaf-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.5
-  delta: 0.0
+  composite: 18.0
+  delta: -6.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 24.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/screenshots/thymeleaf-2026-06-20T195323.png
 security:
 - kind: domain-security

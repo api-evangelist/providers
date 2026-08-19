@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -205,7 +206,9 @@ rate_limits:
   name: Spring Security Rate Limits
   slug: spring-security-rate-limits
 rules:
-- name: Spring Security API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spring Security API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,7 +216,10 @@ rules:
     info: 1
     warn: 4
   slug: spring-security-jsonschema-spectral-rules
-- name: Spring Security API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Spring Security API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -223,14 +229,16 @@ rules:
   slug: spring-security-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 30.2
+  delta: -7.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 58.0
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 54.4
+    developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 37.6
   provenance:
@@ -240,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
 security:
 - kind: authentication

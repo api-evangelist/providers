@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Control plane (api.tabtabtab.ai) plus per-environment agent/webhook surface (<env>.tabtabtab.app). Driven via the tabtabtab CLI and inbound webhooks; no public OpenAPI is published.
@@ -141,22 +142,25 @@ overview: 'TabTabTab publishes 1 API on the [APIs.io](https://apis.io/) network.
   TabTabTab''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 14 more developer resources.'
 random_paper: 39
 score:
-  band: developing
-  composite: 45.8
-  delta: 0.0
+  band: thin
+  composite: 31.0
+  delta: -14.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 40.5
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 10.5
   previous_composite: 45.8
   provenance:
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/tabtabtab/refs/heads/main/screenshots/tabtabtab-2026-08-17T082241.png
 security:
 - kind: authentication
   name: Tabtabtab Authentication

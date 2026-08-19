@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,26 +94,28 @@ overview: 'Eye Security is profiled on the [APIs.io](https://apis.io/) network. 
   Eye Security''s developer surface includes developer portal, pricing, engineering blog, support, and 8 more developer resources.'
 random_paper: 64
 score:
-  band: emerging
-  composite: 17.4
-  delta: 0.0
+  band: minimal
+  composite: 5.6
+  delta: -11.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 0.0
   previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 24.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 18.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/screenshots/eye-security-2026-07-25T214209.png
 security:
 - kind: domain-security

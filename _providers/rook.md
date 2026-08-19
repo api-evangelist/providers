@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,7 +246,9 @@ rate_limits:
   name: Rook Rate Limits
   slug: rook-rate-limits
 rules:
-- name: Rook API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Rook API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -253,7 +256,10 @@ rules:
     info: 2
     warn: 4
   slug: rook-jsonschema-spectral-rules
-- name: Rook API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Rook API Rules
   rule_count: 17
   severity_counts:
     error: 2
@@ -262,16 +268,18 @@ rules:
     warn: 13
   slug: rook-spectral-rules
 score:
-  band: developing
-  composite: 46.4
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -8.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 67.2
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -280,9 +288,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png
 security:
 - kind: authentication

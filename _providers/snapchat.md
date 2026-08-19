@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -440,7 +440,9 @@ rate_limits:
   name: Snapchat Rate Limits
   slug: snapchat-rate-limits
 rules:
-- name: Snapchat API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Snapchat API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -448,7 +450,10 @@ rules:
     info: 1
     warn: 5
   slug: snapchat-jsonschema-spectral-rules
-- name: Snapchat API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Snapchat API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -462,27 +467,32 @@ scopes:
   slug: snapchat-scopes
   summary_line: 7 scopes · authorizationCode/implicit
 score:
-  band: exemplar
-  composite: 69.9
-  delta: 17.7
+  band: strong
+  composite: 65.5
+  delta: -4.4
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 72.3
-    developer_ergonomics: 80.4
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 40.2
+    contract_quality: 68.4
+    developer_ergonomics: 73.2
     discoverability: 72.2
-    governance: 79.2
-    operational_transparency: 44.7
-  previous_composite: 52.2
+    governance: 40.2
+    operational_transparency: 57.9
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:
 - kind: authentication

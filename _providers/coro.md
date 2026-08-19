@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -158,21 +159,23 @@ overview: 'Coro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 137
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 44.7
+  delta: -4.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 23.7
   previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/screenshots/coro-2026-07-25T210437.png
 security:

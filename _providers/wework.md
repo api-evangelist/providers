@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The WeWork Partner API exposes the company''s global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and '
@@ -137,18 +138,20 @@ overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 75
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 20.7
+  delta: -4.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 34.5
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 25.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/screenshots/wework-2026-06-20T201418.png
 security:

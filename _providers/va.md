@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -282,12 +283,14 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 41.5
+  delta: -0.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 63.7
-    developer_ergonomics: 21.7
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 61.0
+    developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
@@ -305,8 +308,8 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png
 security:

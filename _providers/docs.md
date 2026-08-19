@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: OpenAI-compatible model-inference API over Infini-AI's catalog of open- and closed-source models. Bearer (API Key) authentication; chat/completions, models, embeddings and image/video generation endpo
@@ -107,21 +108,23 @@ overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://api
 random_paper: 127
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 12.4
+  delta: -9.4
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 21.4
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 21.8
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docs/refs/heads/main/screenshots/docs-2026-07-25T212217.png
 security:
 - kind: authentication

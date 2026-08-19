@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-17'
+  score: 31.0
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -241,14 +242,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 44.6
+  delta: 0.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 32.3
-    developer_ergonomics: 60.3
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 28.2
+    developer_ergonomics: 63.7
     discoverability: 72.2
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 44.3
   provenance:
@@ -261,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -139,19 +140,21 @@ rate_limits:
   slug: remarkable-ai-rate-limits
 score:
   band: emerging
-  composite: 26.8
-  delta: 20.0
+  composite: 25.6
+  delta: -1.2
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 6.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 26.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Remarkable Ai Domain Security

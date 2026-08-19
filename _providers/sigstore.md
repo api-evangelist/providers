@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -187,7 +188,9 @@ rate_limits:
   name: Sigstore Rate Limits
   slug: sigstore-rate-limits
 rules:
-- name: Sigstore API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sigstore API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -195,7 +198,10 @@ rules:
     info: 2
     warn: 3
   slug: sigstore-jsonschema-spectral-rules
-- name: Sigstore API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Sigstore API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -205,15 +211,17 @@ rules:
   slug: sigstore-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 32.6
+  delta: -6.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 53.7
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 51.2
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -222,9 +230,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/screenshots/sigstore-2026-06-20T193917.png
 security:
 - kind: domain-security

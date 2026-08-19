@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'Open-source REST API surface across the Open edX platform: Enrollment API, Courses API, User API, Catalog API, Discussion API, Grades API, LTI APIs, Enterprise API. Implementations expose endpoints un'
@@ -95,18 +96,26 @@ rate_limits:
   slug: edx-rate-limits
 score:
   band: emerging
-  composite: 19.1
-  delta: 0.0
+  composite: 15.6
+  delta: -3.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 43.2
+    contract_governance: 0.0
+    contract_quality: 38.9
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edx/refs/heads/main/screenshots/edx-2026-06-20T180510.png
 security:

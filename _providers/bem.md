@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -324,15 +325,17 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 10
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 55.6
+  delta: -2.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.6
-    developer_ergonomics: 71.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 64.8
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -344,8 +347,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:

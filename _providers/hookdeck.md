@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -544,7 +545,9 @@ rate_limits:
   name: Hookdeck Rate Limits
   slug: hookdeck-rate-limits
 rules:
-- name: Hookdeck API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Hookdeck API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -553,16 +556,18 @@ rules:
     warn: 5
   slug: hookdeck-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: -11.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 75.7
-    developer_ergonomics: 76.1
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 76.4
+    developer_ergonomics: 83.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 67.8
   provenance:
     agentic_access: derived
@@ -571,9 +576,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:
 - kind: authentication

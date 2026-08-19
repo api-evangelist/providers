@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 31.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Partner-facing REST API (v1) for OwnLocal's automated print-to-digital advertising platform. Publishers and their systems create and list ads, upload the source print-ad PDF for conversion, create and
@@ -158,18 +159,29 @@ rate_limits:
   slug: ownlocal-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 29.9
+  delta: -0.5
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 32.3
-    developer_ergonomics: 37.0
+    contract_governance: 16.7
+    contract_quality: 35.2
+    developer_ergonomics: 35.1
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 30.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:

@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 38.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,33 +218,39 @@ scopes:
   slug: tebra-scopes
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 54.0
-  delta: 16.6
+  band: strong
+  composite: 63.3
+  delta: 9.3
   facets:
+    access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_quality: 61.2
-    developer_ergonomics: 26.1
+    contract_governance: 12.1
+    contract_quality: 57.3
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 47.4
-  previous_composite: 37.4
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 86.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:
 - kind: authentication
   name: Tebra Authentication

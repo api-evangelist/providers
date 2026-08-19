@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.9
-  scored_at: '2026-08-17'
+  score: 14.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -153,7 +154,9 @@ rate_limits:
   name: Usaa Rate Limits
   slug: usaa-rate-limits
 rules:
-- name: USAA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: USAA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,15 +166,17 @@ rules:
   slug: usaa-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.1
-  delta: 0.0
+  composite: 19.0
+  delta: -8.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 12.9
-    developer_ergonomics: 19.6
+    contract_governance: 28.0
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 57.4
-    governance: 70.8
-    operational_transparency: 21.1
+    governance: 28.0
+    operational_transparency: 18.4
   previous_composite: 27.1
   provenance:
     conformance: first-party
@@ -181,9 +186,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:
 - kind: authentication

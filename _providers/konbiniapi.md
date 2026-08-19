@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -563,7 +564,9 @@ rate_limits:
   name: Konbiniapi Rate Limits
   slug: konbiniapi-rate-limits
 rules:
-- name: KonbiniAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: KonbiniAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -571,7 +574,10 @@ rules:
     info: 2
     warn: 3
   slug: konbiniapi-jsonschema-spectral-rules
-- name: KonbiniAPI API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: KonbiniAPI API Rules
   rule_count: 10
   severity_counts:
     error: 7
@@ -586,32 +592,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.8
-  delta: 15.7
+  composite: 73.7
+  delta: 0.9
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 73.9
-    developer_ergonomics: 69.6
+    contract_governance: 41.7
+    contract_quality: 74.1
+    developer_ergonomics: 66.7
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 31.6
-  previous_composite: 57.1
+    governance: 41.7
+    operational_transparency: 28.9
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 5
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:
 - kind: authentication

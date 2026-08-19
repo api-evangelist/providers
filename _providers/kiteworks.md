@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -470,15 +471,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 59.4
+  delta: 1.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 55.8
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 59.2
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 60.5
+    governance: 30.3
+    operational_transparency: 57.9
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -490,8 +493,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

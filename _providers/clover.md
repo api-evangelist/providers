@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -345,7 +346,9 @@ rate_limits:
   name: Clover Rate Limits
   slug: clover-rate-limits
 rules:
-- name: Clover API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Clover API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -353,7 +356,10 @@ rules:
     info: 2
     warn: 3
   slug: clover-jsonschema-spectral-rules
-- name: Clover API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Clover API Rules
   rule_count: 36
   severity_counts:
     error: 10
@@ -367,16 +373,18 @@ scopes:
   slug: clover-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: thin
+  composite: 36.4
+  delta: -11.1
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 23.9
-    developer_ergonomics: 50.0
-    discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 44.7
+    contract_governance: 25.0
+    contract_quality: 22.4
+    developer_ergonomics: 33.3
+    discoverability: 64.8
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -391,9 +399,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:
 - kind: authentication

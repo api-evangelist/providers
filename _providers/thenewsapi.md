@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 49.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +139,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: TheNewsAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TheNewsAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -148,14 +151,16 @@ rules:
   slug: thenewsapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 35.1
+  delta: -6.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 60.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 11.9
     discoverability: 70.4
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 41.3
   provenance:
@@ -165,9 +170,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/screenshots/thenewsapi-2026-06-20T195250.png
 security:
 - kind: authentication

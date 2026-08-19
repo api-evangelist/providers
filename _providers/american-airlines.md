@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: American Airlines Rate Limits
   slug: american-airlines-rate-limits
 rules:
-- name: American Airlines API Rules
+- effective_rule_count: 5
+  extends: []
+  name: American Airlines API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +238,10 @@ rules:
     info: 2
     warn: 3
   slug: american-airlines-jsonschema-spectral-rules
-- name: American Airlines API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: American Airlines API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -245,15 +251,17 @@ rules:
   slug: american-airlines-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 29.1
+  delta: -7.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 61.1
+    developer_ergonomics: 10.7
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -262,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: American Airlines Domain Security

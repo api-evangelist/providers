@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -250,7 +251,9 @@ rate_limits:
   name: Sap Api Management Rate Limits
   slug: sap-api-management-rate-limits
 rules:
-- name: SAP API Management API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SAP API Management API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,7 +261,9 @@ rules:
     info: 2
     warn: 3
   slug: sap-api-management-jsonschema-spectral-rules
-- name: SAP API Management API Rules
+- effective_rule_count: 7
+  extends: []
+  name: SAP API Management API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -272,16 +277,18 @@ scopes:
   slug: sap-api-management-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -12.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 67.9
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 63.6
+    developer_ergonomics: 19.0
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -290,9 +297,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:
 - kind: authentication

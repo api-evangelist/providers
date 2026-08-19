@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -181,15 +182,17 @@ overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network
   Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 56
 score:
-  band: thin
-  composite: 40.8
-  delta: 0.0
+  band: developing
+  composite: 39.9
+  delta: -0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 58.1
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 54.9
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 40.8
   provenance:
@@ -202,8 +205,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/screenshots/crescendo-2026-07-25T210727.png
 security:

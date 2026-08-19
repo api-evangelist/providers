@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,15 +186,17 @@ scopes:
   slug: co-operative-bank-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 48.0
+  delta: 6.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 39.6
-    developer_ergonomics: 50.0
+    contract_governance: 30.3
+    contract_quality: 37.1
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 26.3
   previous_composite: 41.3
   provenance:
@@ -209,10 +212,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 55.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 83.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:
 - kind: authentication

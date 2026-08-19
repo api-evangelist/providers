@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 49.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -753,7 +754,10 @@ rate_limits:
   name: Aws Lambda Rate Limits
   slug: aws-lambda-rate-limits
 rules:
-- name: AWS Lambda API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: AWS Lambda API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -761,7 +765,9 @@ rules:
     info: 1
     warn: 5
   slug: aws-lambda-asyncapi-spectral-rules
-- name: AWS Lambda API Rules
+- effective_rule_count: 6
+  extends: []
+  name: AWS Lambda API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -769,7 +775,10 @@ rules:
     info: 1
     warn: 5
   slug: aws-lambda-jsonschema-spectral-rules
-- name: AWS Lambda API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: AWS Lambda API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -778,15 +787,17 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -4.2
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 82.8
-    developer_ergonomics: 32.6
+    contract_governance: 45.5
+    contract_quality: 82.7
+    developer_ergonomics: 26.2
     discoverability: 83.3
-    governance: 69.8
+    governance: 45.5
     operational_transparency: 23.7
   previous_composite: 57.5
   provenance:
@@ -798,8 +809,12 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

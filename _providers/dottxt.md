@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -167,15 +168,17 @@ overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 83
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 30.1
+  delta: -2.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 15.7
-    developer_ergonomics: 58.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 14.9
+    developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 32.1
   provenance:
     agentic_access: derived
@@ -187,8 +190,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/screenshots/dottxt-2026-07-25T212322.png
 security:

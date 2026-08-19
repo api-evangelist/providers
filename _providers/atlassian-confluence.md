@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -233,15 +234,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 47.4
+  delta: -0.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 49.1
-    developer_ergonomics: 43.5
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 0.0
+    contract_quality: 49.5
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -250,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/screenshots/atlassian-confluence-2026-06-20T172532.png
 security:

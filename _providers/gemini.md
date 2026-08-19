@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -264,12 +265,14 @@ rate_limits:
   slug: gemini-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 45.7
+  delta: 0.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 58.8
-    developer_ergonomics: 47.8
+    contract_governance: 0.0
+    contract_quality: 56.3
+    developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
@@ -281,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/screenshots/gemini-2026-06-20T181714.png
 security:

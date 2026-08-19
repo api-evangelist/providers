@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -2535,7 +2536,9 @@ rate_limits:
   name: Tyk Rate Limits
   slug: tyk-rate-limits
 rules:
-- name: Tyk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tyk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2543,7 +2546,10 @@ rules:
     info: 1
     warn: 4
   slug: tyk-jsonschema-spectral-rules
-- name: Tyk API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Tyk API Rules
   rule_count: 16
   severity_counts:
     error: 7
@@ -2553,15 +2559,17 @@ rules:
   slug: tyk-spectral-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 57.6
+  delta: -8.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 62.5
-    developer_ergonomics: 71.7
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 63.0
+    developer_ergonomics: 69.0
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 65.8
   provenance:
     agentic_access: derived
@@ -2570,9 +2578,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:
 - kind: authentication

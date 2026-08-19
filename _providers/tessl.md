@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-17'
+  score: 15.2
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -151,21 +152,23 @@ overview: 'Tessl is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 108
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 30.6
+  delta: -2.4
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 57.1
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 39.5
   previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

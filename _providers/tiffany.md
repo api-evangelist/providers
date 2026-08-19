@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing, customization, and purchase of jewelry, watches, accessories, and home items. The platform supports pro
@@ -148,7 +149,9 @@ rate_limits:
   name: Tiffany Rate Limits
   slug: tiffany-rate-limits
 rules:
-- name: Tiffany & Co. API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Tiffany & Co. API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -158,19 +161,21 @@ rules:
   slug: tiffany-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.7
-  delta: 0.0
+  composite: 20.3
+  delta: -6.4
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 17.7
+    contract_governance: 9.8
+    contract_quality: 15.5
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 26.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiffany/refs/heads/main/screenshots/tiffany-2026-06-20T195341.png
 security:
 - kind: domain-security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -226,15 +227,17 @@ overview: 'Volt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Acc
 random_paper: 118
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 42.2
+  delta: -10.0
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 50.7
-    developer_ergonomics: 66.8
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 16.7
+    contract_quality: 48.6
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 39.5
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -251,10 +254,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 29.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
 security:
 - kind: authentication
   name: Volt Io Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 35.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -378,7 +379,9 @@ rate_limits:
   name: Reducto Rate Limits
   slug: reducto-rate-limits
 rules:
-- name: Reducto API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Reducto API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -387,16 +390,18 @@ rules:
     warn: 4
   slug: reducto-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: -8.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 72.2
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 69.1
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 65.8
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -405,9 +410,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:
 - kind: authentication

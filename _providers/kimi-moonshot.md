@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -178,7 +179,10 @@ rate_limits:
   name: Kimi Moonshot Rate Limits
   slug: kimi-moonshot-rate-limits
 rules:
-- name: Kimi (Moonshot AI) API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Kimi (Moonshot AI) API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -187,15 +191,17 @@ rules:
     warn: 7
   slug: kimi-moonshot-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -4.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.2
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 62.7
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 42.5
   provenance:
@@ -205,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:

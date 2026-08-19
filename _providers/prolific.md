@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -299,15 +300,17 @@ overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 111
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 49.7
+  delta: -4.7
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
     contract_quality: 66.0
-    developer_ergonomics: 82.1
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 54.4
   provenance:
     conformance: derived
@@ -318,9 +321,10 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:
 - kind: authentication
   name: Prolific Authentication

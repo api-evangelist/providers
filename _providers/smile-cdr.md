@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The core FHIR REST API exposed by every Smile CDR FHIR Endpoint module. Supports the full FHIR REST interaction set (read, vread, update, patch, delete, history, search, transaction, batch, conditiona
@@ -221,12 +222,14 @@ overview: 'Smile Digital Health publishes 11 APIs on the [APIs.io](https://apis.
 random_paper: 2
 score:
   band: emerging
-  composite: 16.9
-  delta: 0.0
+  composite: 11.5
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
@@ -236,10 +239,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 12.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smile-cdr/refs/heads/main/screenshots/smile-cdr-2026-06-20T194049.png
 security:
 - kind: domain-security

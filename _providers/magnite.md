@@ -12,11 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 1
@@ -323,20 +323,32 @@ rate_limits:
   name: Magnite Rate Limits
   slug: magnite-rate-limits
 score:
-  band: developing
-  composite: 53.5
-  delta: 34.0
+  band: strong
+  composite: 54.6
+  delta: 1.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 49.4
-    developer_ergonomics: 65.2
+    contract_governance: 16.7
+    contract_quality: 56.4
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 19.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 34.2
+  previous_composite: 53.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/screenshots/magnite-2026-07-25T225900.png
 security:
 - kind: authentication

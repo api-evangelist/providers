@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -211,7 +212,10 @@ rate_limits:
   name: Martian Ai Rate Limits
   slug: martian-ai-rate-limits
 rules:
-- name: Martian API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Martian API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -221,15 +225,17 @@ rules:
   slug: martian-ai-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 59.2
-  delta: 0.0
+  composite: 55.9
+  delta: -3.3
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 70.1
-    developer_ergonomics: 60.9
+    contract_governance: 29.5
+    contract_quality: 65.7
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 33.3
-    operational_transparency: 52.6
+    governance: 29.5
+    operational_transparency: 34.2
   previous_composite: 59.2
   provenance:
     agentic_access: derived
@@ -240,8 +246,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
 security:

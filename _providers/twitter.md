@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -737,7 +738,9 @@ rate_limits:
   name: Twitter Rate Limits
   slug: twitter-rate-limits
 rules:
-- name: X (Twitter) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: X (Twitter) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -745,7 +748,10 @@ rules:
     info: 1
     warn: 4
   slug: twitter-jsonschema-spectral-rules
-- name: X (Twitter) API Rules
+- effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: X (Twitter) API Rules
   rule_count: 54
   severity_counts:
     error: 17
@@ -760,15 +766,17 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 54.3
+  delta: -6.5
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 67.3
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 67.0
+    developer_ergonomics: 59.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 60.8
   provenance:
     agentic_access: derived
@@ -777,10 +785,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-06-20T195857.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-08-17T130216.png
 security:
 - kind: authentication
   name: Twitter Authentication

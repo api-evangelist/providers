@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -182,16 +183,18 @@ overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ac
   Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 107
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -4.0
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 35.1
-    developer_ergonomics: 73.9
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 32.9
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -203,9 +206,10 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/screenshots/rivet-2026-08-17T081626.png
 security:
 - kind: authentication
   name: Rivet Authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The LAPIS specification defines a token-minimal, LLM-native format for describing HTTP APIs. A LAPIS document is organized into up to seven indentation-based sections - [meta], [types], [ops], [webhoo
@@ -215,7 +216,9 @@ overview: 'LAPIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   LAPIS''s developer surface includes developer portal, documentation, getting-started guide, changelog, CLI, sandbox, code examples, and 20 more developer resources.'
 random_paper: 90
 rules:
-- name: LAPIS API Rules
+- effective_rule_count: 6
+  extends: []
+  name: LAPIS API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -225,18 +228,20 @@ rules:
   slug: lapis-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 30.7
+  delta: -4.6
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 17.7
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 16.9
+    developer_ergonomics: 52.4
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 35.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/screenshots/lapis-2026-06-20T184316.png
 slug: lapis

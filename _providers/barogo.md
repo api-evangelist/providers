@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -222,15 +223,17 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 38
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 42.2
+  delta: -9.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 74.0
-    developer_ergonomics: 69.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 69.3
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -242,9 +245,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png
 security:
 - kind: authentication

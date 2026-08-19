@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for accepting card payments (NON-3DS and 3D Secure), hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions, marketplace submerchant payments and payouts, card storage/toke
@@ -190,15 +191,17 @@ rate_limits:
   slug: iyzico-rate-limits
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 51.2
+  delta: 2.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 70.2
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 68.4
+    governance: 4.5
+    operational_transparency: 65.8
   previous_composite: 49.2
   provenance:
     conformance: derived
@@ -208,9 +211,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/screenshots/iyzico-2026-07-25T223026.png
 security:

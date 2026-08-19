@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,13 +74,15 @@ overview: 'Alogent is profiled on the [APIs.io](https://apis.io/) network. Tagge
   Alogent''s developer surface includes support, engineering blog, and 5 more developer resources.'
 random_paper: 1
 score:
-  band: emerging
-  composite: 13.9
-  delta: 0.0
+  band: minimal
+  composite: 8.6
+  delta: -5.3
   facets:
-    commercial_clarity: 28.9
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -89,10 +92,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 17.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alogent/refs/heads/main/screenshots/alogent-2026-07-25T195744.png
 security:
 - kind: domain-security

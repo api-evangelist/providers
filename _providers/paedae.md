@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Applications API from Paedae — 5 operation(s) for applications.
@@ -206,28 +207,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
-  delta: 9.1
+  composite: 46.0
+  delta: 0.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.6
-    developer_ergonomics: 40.8
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 63.1
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
-  previous_composite: 36.1
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 45.2
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Cradle Platform API is an enterprise REST API for programmatic access to Cradle's AI-driven protein engineering platform. It is organized under per-workspace v2 endpoints and exposes resource grou
@@ -131,15 +132,17 @@ overview: 'Cradle publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 84
 score:
   band: minimal
-  composite: 12.8
-  delta: 0.0
+  composite: 8.8
+  delta: -4.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 13.2
   previous_composite: 12.8
   regulatory:
     applies: true
@@ -147,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradle-bio/refs/heads/main/screenshots/cradle-bio-2026-06-20T175201.png
 security:

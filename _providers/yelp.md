@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -425,7 +426,9 @@ rate_limits:
   name: Yelp Rate Limits
   slug: yelp-rate-limits
 rules:
-- name: Yelp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Yelp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -433,7 +436,10 @@ rules:
     info: 1
     warn: 4
   slug: yelp-jsonschema-spectral-rules
-- name: Yelp API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Yelp API Rules
   rule_count: 39
   severity_counts:
     error: 6
@@ -443,15 +449,17 @@ rules:
   slug: yelp-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 54.6
+  delta: -11.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 83.7
-    developer_ergonomics: 73.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 79.4
+    developer_ergonomics: 66.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 65.9
   provenance:
     agentic_access: derived
@@ -460,9 +468,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:
 - kind: authentication

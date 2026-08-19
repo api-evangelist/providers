@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -335,7 +336,9 @@ rate_limits:
   name: Traefik Rate Limits
   slug: traefik-rate-limits
 rules:
-- name: Traefik Labs API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Traefik Labs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -343,7 +346,9 @@ rules:
     info: 2
     warn: 4
   slug: traefik-jsonschema-spectral-rules
-- name: Traefik Labs API Rules
+- effective_rule_count: 16
+  extends: []
+  name: Traefik Labs API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -353,15 +358,17 @@ rules:
   slug: traefik-proxy-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 40.6
+  delta: -5.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 54.7
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 51.6
+    developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -370,9 +377,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:
 - kind: domain-security

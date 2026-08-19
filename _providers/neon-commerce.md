@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 47.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -284,15 +285,17 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
   Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 random_paper: 128
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: strong
+  composite: 55.8
+  delta: 4.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 68.1
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 64.5
+    developer_ergonomics: 64.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 36.8
   previous_composite: 51.8
   provenance:
@@ -310,11 +313,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-07T185041.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-17T082605.png
 security:
 - kind: authentication
   name: Neon Commerce Authentication

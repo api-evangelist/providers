@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: RocksDB C++ library API providing key-value storage operations including Get, Put, Delete, Merge, iterators, snapshots, column families, transactions, compaction, and backup. The primary interface for
@@ -143,7 +144,9 @@ rate_limits:
   name: Rocksdb Rate Limits
   slug: rocksdb-rate-limits
 rules:
-- name: RocksDB API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RocksDB API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -152,20 +155,28 @@ rules:
     warn: 4
   slug: rocksdb-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.1
-  delta: 0.0
+  band: emerging
+  composite: 23.0
+  delta: -5.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 16.9
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 28.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocksdb/refs/heads/main/screenshots/rocksdb-2026-06-20T193155.png
 security:
 - kind: domain-security

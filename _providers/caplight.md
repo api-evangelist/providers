@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 59.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,15 +268,23 @@ overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 99
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 44.1
+  delta: -2.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 57.9
-    developer_ergonomics: 64.7
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: venue_as_website
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -294,9 +302,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png
 security:
 - kind: authentication
   name: Caplight Authentication

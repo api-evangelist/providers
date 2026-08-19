@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -503,7 +504,9 @@ rate_limits:
   name: Amazon Sagemaker Rate Limits
   slug: amazon-sagemaker-rate-limits
 rules:
-- name: Amazon SageMaker API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon SageMaker API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -511,7 +514,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-sagemaker-jsonschema-spectral-rules
-- name: Amazon SageMaker API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon SageMaker API Rules
   rule_count: 26
   severity_counts:
     error: 10
@@ -520,16 +526,18 @@ rules:
     warn: 14
   slug: amazon-sagemaker-spectral-rules
 score:
-  band: exemplar
-  composite: 69.8
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: -5.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 73.9
-    developer_ergonomics: 65.2
+    contract_governance: 25.0
+    contract_quality: 69.8
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 69.8
   provenance:
     agentic_access: derived
@@ -538,9 +546,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:
 - kind: domain-security

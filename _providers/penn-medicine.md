@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,7 +260,10 @@ rate_limits:
   name: Penn Medicine Rate Limits
   slug: penn-medicine-rate-limits
 rules:
-- name: Penn Medicine API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Penn Medicine API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -267,7 +271,9 @@ rules:
     info: 0
     warn: 2
   slug: penn-medicine-fhir-rules
-- name: Penn Medicine API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Penn Medicine API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,15 +288,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 50.5
+  delta: -2.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 70.9
-    developer_ergonomics: 26.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 60.6
+    contract_quality: 66.4
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 31.3
-    operational_transparency: 36.8
+    governance: 60.6
+    operational_transparency: 34.2
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -304,9 +312,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 42.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:

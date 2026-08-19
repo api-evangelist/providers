@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Virsec Security Platform Centralized Management Server (CMS) exposes a RESTful API for procuring information from CMS. From VSP 3.0.0 and above, the available APIs are listed by category in the CM
@@ -123,20 +124,22 @@ overview: 'Virsec publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 56
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 33.4
+  delta: -3.3
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 51.6
-    developer_ergonomics: 47.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 23.7
   previous_composite: 36.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

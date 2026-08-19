@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -125,15 +126,17 @@ overview: 'F5 Distributed Cloud Services publishes 2 APIs on the [APIs.io](https
 random_paper: 49
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 31.0
+  delta: -3.7
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 55.2
-    developer_ergonomics: 32.6
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 20.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -142,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

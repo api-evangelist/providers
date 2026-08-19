@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,12 +196,14 @@ overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 23
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.9
+  delta: -0.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 57.6
-    developer_ergonomics: 47.8
+    contract_governance: 0.0
+    contract_quality: 53.9
+    developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -212,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/screenshots/fluidstack-2026-06-20T181337.png
 security:

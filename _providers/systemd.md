@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 19.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -473,7 +474,9 @@ overview: 'systemd publishes 25 APIs on the [APIs.io](https://apis.io/) network,
   systemd''s developer surface includes documentation, release notes, changelog, tooling, and 35 more developer resources.'
 random_paper: 32
 rules:
-- name: systemd API Rules
+- effective_rule_count: 5
+  extends: []
+  name: systemd API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -481,7 +484,10 @@ rules:
     info: 2
     warn: 3
   slug: systemd-jsonschema-spectral-rules
-- name: systemd API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: systemd API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -491,15 +497,17 @@ rules:
   slug: systemd-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 29.1
+  delta: -7.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 50.3
+    developer_ergonomics: 21.4
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -508,9 +516,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:
 - kind: domain-security

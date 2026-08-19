@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,7 +195,9 @@ rate_limits:
   name: Yr No Rate Limits
   slug: yr-no-rate-limits
 rules:
-- name: Yr API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Yr API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -204,14 +207,16 @@ rules:
   slug: yr-no-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 43.3
+  delta: -2.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 63.6
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 60.3
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 45.9
   provenance:
@@ -227,8 +232,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png
 security:

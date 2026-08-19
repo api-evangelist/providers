@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -178,18 +179,22 @@ rate_limits:
   slug: sharethrough-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 31.3
+  delta: 0.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 17.7
-    developer_ergonomics: 26.1
+    contract_governance: 18.2
+    contract_quality: 15.5
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 31.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
 security:

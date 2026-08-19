@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,15 +168,17 @@ rate_limits:
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 38.2
+  delta: 2.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 50.7
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 47.6
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -193,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

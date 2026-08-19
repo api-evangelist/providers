@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -340,7 +341,9 @@ rate_limits:
   name: Tiktok For Developers Rate Limits
   slug: tiktok-for-developers-rate-limits
 rules:
-- name: TikTok for Developers API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TikTok for Developers API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -348,7 +351,10 @@ rules:
     info: 1
     warn: 4
   slug: tiktok-for-developers-jsonschema-spectral-rules
-- name: TikTok for Developers API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: TikTok for Developers API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -357,16 +363,18 @@ rules:
     warn: 5
   slug: tiktok-for-developers-rules
 score:
-  band: strong
-  composite: 61.4
-  delta: 0.0
+  band: developing
+  composite: 48.7
+  delta: -12.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.5
-    developer_ergonomics: 65.2
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 69.4
+    developer_ergonomics: 69.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -375,9 +383,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:
 - kind: authentication

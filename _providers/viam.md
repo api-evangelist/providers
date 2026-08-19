@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -828,7 +829,9 @@ rate_limits:
   name: Viam Rate Limits
   slug: viam-rate-limits
 rules:
-- name: Viam API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Viam API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -836,7 +839,10 @@ rules:
     info: 1
     warn: 4
   slug: viam-jsonschema-spectral-rules
-- name: Viam API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Viam API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -845,15 +851,17 @@ rules:
     warn: 3
   slug: viam-rules
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 61.0
+  delta: -5.6
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 73.1
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 66.7
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 66.6
   provenance:
@@ -863,9 +871,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:
 - kind: authentication

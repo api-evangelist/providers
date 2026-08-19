@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 46.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: RESTful API covering the full Leadpages platform across eight documented endpoint categories — Pages, Sites, Assets, Blogs, Analytics, Forms, Domains and Brand Kits — with JSON responses and bearer-to
@@ -187,20 +188,26 @@ scopes:
   slug: leadpages-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 54.2
+  delta: -2.0
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 21.1
   previous_composite: 56.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png
 security:
 - kind: authentication
   name: Leadpages Authentication

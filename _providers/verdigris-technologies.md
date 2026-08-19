@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Endpoints that return control data from building management systems (BMS)
@@ -217,15 +218,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 43.9
+  delta: -3.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.7
-    developer_ergonomics: 56.0
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 16.7
+    contract_quality: 58.0
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 47.3
   provenance:
     conformance: derived
@@ -241,10 +244,11 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 58.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:
 - kind: authentication
   name: Verdigris Technologies Authentication

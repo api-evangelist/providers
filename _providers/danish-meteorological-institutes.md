@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +162,9 @@ rate_limits:
   name: Danish Meteorological Institutes Rate Limits
   slug: danish-meteorological-institutes-rate-limits
 rules:
-- name: Danish Meteorological Institutes API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Danish Meteorological Institutes API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -169,7 +172,10 @@ rules:
     info: 2
     warn: 3
   slug: danish-meteorological-institutes-jsonschema-spectral-rules
-- name: Danish Meteorological Institutes API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Danish Meteorological Institutes API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -179,15 +185,17 @@ rules:
   slug: dmi-open-data-api-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 34.1
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 68.7
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -202,9 +210,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/screenshots/danish-meteorological-institutes-2026-06-20T175450.png
 security:
 - kind: authentication

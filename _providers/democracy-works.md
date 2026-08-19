@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
@@ -136,7 +137,10 @@ rate_limits:
   name: Democracy Works Rate Limits
   slug: democracy-works-rate-limits
 rules:
-- name: Democracy Works API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Democracy Works API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -144,7 +148,9 @@ rules:
     info: 0
     warn: 5
   slug: democracy-works-elections-api-rules
-- name: Democracy Works API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Democracy Works API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -154,14 +160,16 @@ rules:
   slug: democracy-works-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 37.7
+  delta: 2.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 71.4
-    developer_ergonomics: 6.5
+    contract_governance: 60.6
+    contract_quality: 67.6
+    developer_ergonomics: 7.1
     discoverability: 74.1
-    governance: 52.1
+    governance: 60.6
     operational_transparency: 13.2
   previous_composite: 35.1
   provenance:
@@ -176,8 +184,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 73.0
-  scored_at: '2026-08-17'
+  score: 68.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -148,7 +149,7 @@ arazzos:
 - description: Create a stream, attach a poller sink, publish events, and poll the sink for them.
   name: Svix Create Stream with Poller Sink and Send Events
   slug: svix-stream-sink-and-poll-events-workflow
-artifact_total: 89
+artifact_total: 91
 asyncapis:
 - description: ''
   name: Svix Operational Webhooks
@@ -664,7 +665,9 @@ rate_limits:
   name: Svix Rate Limits
   slug: svix-rate-limits
 rules:
-- name: Svix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Svix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -672,7 +675,10 @@ rules:
     info: 2
     warn: 3
   slug: svix-jsonschema-spectral-rules
-- name: Svix API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Svix API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -682,32 +688,37 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 84.1
-  delta: 8.4
+  composite: 79.3
+  delta: -4.8
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 74.5
-    developer_ergonomics: 100.0
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 55.3
+    contract_quality: 75.3
+    developer_ergonomics: 83.3
     discoverability: 83.3
-    governance: 89.6
-    operational_transparency: 86.8
-  previous_composite: 75.7
+    governance: 55.3
+    operational_transparency: 84.2
+  previous_composite: 84.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 20
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
 - kind: authentication
@@ -726,6 +737,12 @@ security:
   name: Svix Trust Center
   slug: svix-trust-center
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: receiving-webhooks
+  slug: receiving-webhooks
+- name: svix-sending-webhooks
+  slug: svix-sending-webhooks
 slug: svix
 tags:
 - Webhooks

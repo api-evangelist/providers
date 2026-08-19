@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
@@ -125,12 +126,14 @@ rate_limits:
   slug: axxess-rate-limits
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 19.8
+  delta: 0.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -141,8 +144,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/screenshots/axxess-2026-06-20T172828.png
 security:

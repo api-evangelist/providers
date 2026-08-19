@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 13.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Official hosted (remote) Model Context Protocol server for Macro. Connects AI clients over OAuth to search, read and act across a Macro workspace — email, messages, tasks, docs, threads, entities and '
@@ -131,22 +132,24 @@ overview: 'Macro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 83
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 28.7
+  delta: -0.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 60.3
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 29.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macro/refs/heads/main/screenshots/macro-2026-07-25T225820.png
 security:

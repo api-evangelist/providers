@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 48.4
+  scored_at: '2026-08-19'
 api_count: 24
 apis:
 - description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
@@ -355,16 +356,18 @@ scopes:
   slug: etsi-scopes
   summary_line: 13 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: strong
+  composite: 59.5
+  delta: 4.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 53.6
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 51.3
+    developer_ergonomics: 73.2
     discoverability: 77.8
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 54.6
   provenance:
     conformance: derived
@@ -380,9 +383,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 81.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png
 security:

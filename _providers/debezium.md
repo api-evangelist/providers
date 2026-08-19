@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -163,7 +164,9 @@ rate_limits:
   name: Debezium Rate Limits
   slug: debezium-rate-limits
 rules:
-- name: Debezium API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Debezium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,7 +174,10 @@ rules:
     info: 1
     warn: 4
   slug: debezium-jsonschema-spectral-rules
-- name: Debezium API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Debezium API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -181,14 +187,16 @@ rules:
   slug: debezium-kafka-connect-api-rules
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 31.8
+  delta: -6.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 52.2
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 49.0
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 37.9
   provenance:
@@ -198,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:
 - kind: domain-security

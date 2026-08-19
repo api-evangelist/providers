@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GraphQL API exposing occupancy and space-utilization insights across sites, buildings, floors, zones, and groups. Available to customers with an active contract; authenticated with OAuth 2.0 client cr
@@ -155,21 +156,23 @@ overview: 'InnerSpace publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 33.1
+  delta: 1.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/screenshots/innerspace-2026-07-25T222456.png
 security:

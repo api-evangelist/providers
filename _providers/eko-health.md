@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: A live, anonymously reachable Model Context Protocol server published on Eko Health's own www.ekohealth.com host, implementing the Shopify storefront / Universal Commerce Protocol (UCP) shopping servi
@@ -157,16 +158,18 @@ scopes:
   slug: eko-health-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: developing
+  composite: 42.8
+  delta: 1.7
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 27.7
+    developer_ergonomics: 20.8
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 41.1
   provenance:
     conformance: first-party
@@ -178,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/screenshots/eko-health-2026-08-07T164805.png
 security:

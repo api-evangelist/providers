@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -211,7 +212,9 @@ rate_limits:
   name: Easyship Rate Limits
   slug: easyship-rate-limits
 rules:
-- name: Easyship API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Easyship API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,7 +222,10 @@ rules:
     info: 1
     warn: 4
   slug: easyship-jsonschema-spectral-rules
-- name: Easyship API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Easyship API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -229,15 +235,17 @@ rules:
   slug: easyship-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 40.0
+  delta: -10.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 74.5
-    developer_ergonomics: 26.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 71.7
+    developer_ergonomics: 17.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -246,9 +254,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/screenshots/easyship-2026-06-20T180405.png
 security:
 - kind: authentication

@@ -11,25 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 37.3
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
@@ -226,19 +226,30 @@ rate_limits:
   slug: later-rate-limits
 score:
   band: developing
-  composite: 48.5
-  delta: 25.1
+  composite: 45.9
+  delta: -2.6
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
+    contract_governance: 16.7
     contract_quality: 45.5
-    developer_ergonomics: 47.8
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 23.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 48.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png
 security:
 - kind: authentication

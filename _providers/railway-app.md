@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -153,7 +154,10 @@ rate_limits:
   name: Railway App Rate Limits
   slug: railway-app-rate-limits
 rules:
-- name: Railway API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Railway API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -162,20 +166,23 @@ rules:
     warn: 6
   slug: railway-app-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -5.0
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 59.0
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 54.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 43.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/screenshots/railway-app-2026-08-17T081443.png
 security:
 - kind: domain-security
   name: Railway App Domain Security

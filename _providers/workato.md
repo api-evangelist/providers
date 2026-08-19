@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -1019,7 +1020,10 @@ rate_limits:
   name: Workato Rate Limits
   slug: workato-rate-limits
 rules:
-- name: Workato API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Workato API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1027,7 +1031,9 @@ rules:
     info: 0
     warn: 8
   slug: workato-asyncapi-spectral-rules
-- name: Workato API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Workato API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1035,7 +1041,10 @@ rules:
     info: 1
     warn: 5
   slug: workato-jsonschema-spectral-rules
-- name: Workato API Rules
+- effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: Workato API Rules
   rule_count: 43
   severity_counts:
     error: 12
@@ -1045,14 +1054,16 @@ rules:
   slug: workato-spectral-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 61.6
+  delta: -2.4
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 87.3
-    developer_ergonomics: 45.7
+    contract_governance: 26.5
+    contract_quality: 86.6
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 55.3
   previous_composite: 64.0
   provenance:
@@ -1062,8 +1073,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:

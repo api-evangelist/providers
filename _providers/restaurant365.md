@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -268,7 +269,9 @@ rate_limits:
   name: Restaurant365 Rate Limits
   slug: restaurant365-rate-limits
 rules:
-- name: Restaurant365 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Restaurant365 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -276,7 +279,9 @@ rules:
     info: 2
     warn: 3
   slug: restaurant365-jsonschema-spectral-rules
-- name: Restaurant365 API Rules
+- effective_rule_count: 25
+  extends: []
+  name: Restaurant365 API Rules
   rule_count: 25
   severity_counts:
     error: 6
@@ -286,15 +291,17 @@ rules:
   slug: restaurant365-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 49.0
+  delta: -5.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 76.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 74.4
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -303,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
 security:
 - kind: authentication

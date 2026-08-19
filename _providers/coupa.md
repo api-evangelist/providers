@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -386,7 +387,10 @@ rate_limits:
   name: Coupa Rate Limits
   slug: coupa-rate-limits
 rules:
-- name: Coupa API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Coupa API Rules
   rule_count: 13
   severity_counts:
     error: 6
@@ -394,7 +398,9 @@ rules:
     info: 1
     warn: 6
   slug: coupa-core-api-rules
-- name: Coupa API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Coupa API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -409,15 +415,17 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 49.6
+  delta: -0.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 76.5
-    developer_ergonomics: 37.0
+    contract_governance: 54.5
+    contract_quality: 75.9
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 27.1
-    operational_transparency: 42.1
+    governance: 54.5
+    operational_transparency: 23.7
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -426,8 +434,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/screenshots/coupa-2026-06-20T175107.png
 security:

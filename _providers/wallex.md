@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: JSON REST API for authentication, users/KYC, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, and webhook notifica
@@ -142,14 +143,16 @@ rate_limits:
   slug: wallex-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 28.5
+  delta: -7.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 60.3
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 25.6
     discoverability: 87.0
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 28.9
   previous_composite: 36.1
   provenance:
@@ -162,9 +165,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Wallex Authentication

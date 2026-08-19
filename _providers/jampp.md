@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-17'
+  score: 19.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'GraphQL reporting API for Jampp advertisers. The pivot query returns funnel metrics — impressions, clicks, spend, installs, events, CPC/CPM/CTR/CPI/CPA/ROAS — grouped by any combination of documented '
@@ -166,18 +167,24 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 33.8
+  delta: -0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 22.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 22.9
-    operational_transparency: 21.1
+    governance: 22.0
+    operational_transparency: 18.4
   previous_composite: 34.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

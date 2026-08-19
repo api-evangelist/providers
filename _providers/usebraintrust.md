@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-17'
+  score: 19.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Public Braintrust network statistics.
@@ -141,14 +142,16 @@ overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://
 random_paper: 94
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 31.1
+  delta: -0.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 13.6
-    developer_ergonomics: 19.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 13.3
+    developer_ergonomics: 18.5
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 15.8
   previous_composite: 31.4
   provenance:
@@ -160,8 +163,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

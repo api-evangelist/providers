@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -357,7 +358,9 @@ rate_limits:
   name: Arlula Rate Limits
   slug: arlula-rate-limits
 rules:
-- name: Arlula API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Arlula API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -365,7 +368,10 @@ rules:
     info: 2
     warn: 3
   slug: arlula-jsonschema-spectral-rules
-- name: Arlula API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: Arlula API Rules
   rule_count: 38
   severity_counts:
     error: 14
@@ -375,15 +381,17 @@ rules:
   slug: arlula-spectral-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 32.5
+  delta: -5.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 31.7
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 30.1
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -392,9 +400,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/screenshots/arlula-2026-06-20T172434.png
 security:
 - kind: authentication

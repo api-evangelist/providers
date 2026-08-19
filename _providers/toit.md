@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -134,23 +135,25 @@ overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged a
   Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
 random_paper: 1
 score:
-  band: emerging
-  composite: 25.3
-  delta: 0.0
+  band: thin
+  composite: 32.8
+  delta: 7.5
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 0.0
-    developer_ergonomics: 60.9
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 64.3
     discoverability: 57.4
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 25.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Toit Authentication

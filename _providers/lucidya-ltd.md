@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Monitor and retrieve data across social platforms (X, Instagram, Intercom, and more); apply filters, configure alerts, and track API usage.
@@ -251,21 +251,30 @@ rate_limits:
   slug: lucidya-ltd-rate-limits
 score:
   band: exemplar
-  composite: 72.0
-  delta: 19.7
+  composite: 69.9
+  delta: -2.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.4
-    developer_ergonomics: 73.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 67.5
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 86.8
-  previous_composite: 52.3
+    governance: 30.3
+    operational_transparency: 84.2
+  previous_composite: 72.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:
 - kind: authentication

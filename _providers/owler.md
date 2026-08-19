@@ -9,26 +9,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 29.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,19 +175,31 @@ rate_limits:
   slug: owler-rate-limits
 score:
   band: developing
-  composite: 44.6
-  delta: 29.4
+  composite: 40.1
+  delta: -4.5
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 57.5
-    developer_ergonomics: 45.7
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 16.7
+    contract_quality: 59.4
+    developer_ergonomics: 35.1
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 44.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
 security:
 - kind: authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -396,7 +397,9 @@ rate_limits:
   name: Dot Rate Limits
   slug: dot-rate-limits
 rules:
-- name: US Department of Transportation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Department of Transportation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -406,14 +409,16 @@ rules:
   slug: dot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 33.0
+  delta: -3.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 38.8
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 38.5
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 36.1
   provenance:
@@ -429,8 +434,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot/refs/heads/main/screenshots/dot-2026-06-20T180157.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -332,7 +333,9 @@ rate_limits:
   name: Watttime Rate Limits
   slug: watttime-rate-limits
 rules:
-- name: WattTime API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WattTime API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -340,7 +343,10 @@ rules:
     info: 1
     warn: 4
   slug: watttime-jsonschema-spectral-rules
-- name: WattTime API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: WattTime API Rules
   rule_count: 39
   severity_counts:
     error: 13
@@ -350,15 +356,17 @@ rules:
   slug: watttime-spectral-rules
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 34.8
+  delta: -2.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 32.1
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 30.2
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -373,8 +381,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
 security:

@@ -1,10 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for the Bonjoro personal-video platform. Create and assign greets (video tasks) for one or many recipients, manage recipient profiles and campaigns/workspaces, upload recordings to presigned '
@@ -160,16 +160,28 @@ score:
   composite: 50.5
   delta: 0.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 54.5
-    developer_ergonomics: 39.1
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 28.9
   previous_composite: 50.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
 security:
 - kind: authentication
   name: Bonjoro Authentication

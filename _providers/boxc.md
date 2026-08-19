@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 50.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -323,16 +324,18 @@ scopes:
   slug: boxc-scopes
   summary_line: 19 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 34.6
+  delta: -9.6
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 61.8
-    developer_ergonomics: 60.3
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 63.5
+    developer_ergonomics: 25.6
     discoverability: 68.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -344,9 +347,9 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:
 - kind: authentication

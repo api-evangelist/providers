@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -279,27 +280,32 @@ rate_limits:
   name: Cj Affiliate Rate Limits
   slug: cj-affiliate-rate-limits
 score:
-  band: strong
-  composite: 61.5
-  delta: 24.5
+  band: developing
+  composite: 50.2
+  delta: -11.3
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 73.3
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 69.6
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 37.0
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png
 security:
 - kind: authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -821,15 +822,17 @@ overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 60
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 45.5
+  delta: -0.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 50.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 49.4
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -841,8 +844,8 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

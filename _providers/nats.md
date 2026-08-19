@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 27.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -258,7 +259,10 @@ rate_limits:
   name: Nats Rate Limits
   slug: nats-rate-limits
 rules:
-- name: NATS API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: NATS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -266,7 +270,9 @@ rules:
     info: 0
     warn: 5
   slug: nats-asyncapi-spectral-rules
-- name: NATS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NATS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -276,15 +282,23 @@ rules:
   slug: nats-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 41.3
+  delta: -4.3
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 61.1
-    developer_ergonomics: 39.1
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 11.4
+    contract_quality: 58.5
+    developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -293,8 +307,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -351,7 +352,10 @@ rate_limits:
   name: Sitecore Rate Limits
   slug: sitecore-rate-limits
 rules:
-- name: sitecore API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: sitecore API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -359,7 +363,9 @@ rules:
     info: 0
     warn: 7
   slug: sitecore-asyncapi-spectral-rules
-- name: sitecore API Rules
+- effective_rule_count: 6
+  extends: []
+  name: sitecore API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -367,7 +373,10 @@ rules:
     info: 2
     warn: 4
   slug: sitecore-jsonschema-spectral-rules
-- name: sitecore API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: sitecore API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -377,15 +386,17 @@ rules:
   slug: sitecore-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 34.7
+  delta: -3.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 79.6
-    developer_ergonomics: 10.9
+    contract_governance: 26.5
+    contract_quality: 78.0
+    developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 10.5
+    governance: 26.5
+    operational_transparency: 7.9
   previous_composite: 38.3
   provenance:
     agentic_access: derived
@@ -394,8 +405,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -218,15 +219,17 @@ rate_limits:
   slug: hotmart-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.4
+  delta: -0.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 62.5
+    contract_governance: 4.5
+    contract_quality: 46.5
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 76.3
+    governance: 4.5
+    operational_transparency: 57.9
   previous_composite: 52.1
   provenance:
     conformance: derived
@@ -238,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:

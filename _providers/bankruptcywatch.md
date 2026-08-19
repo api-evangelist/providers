@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -287,7 +288,9 @@ rate_limits:
   name: Bankruptcywatch Rate Limits
   slug: bankruptcywatch-rate-limits
 rules:
-- name: BankruptcyWatch API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BankruptcyWatch API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,7 +298,10 @@ rules:
     info: 2
     warn: 3
   slug: bankruptcywatch-jsonschema-spectral-rules
-- name: BankruptcyWatch API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: BankruptcyWatch API Rules
   rule_count: 23
   severity_counts:
     error: 9
@@ -304,16 +310,18 @@ rules:
     warn: 13
   slug: bankruptcywatch-spectral-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -8.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 67.2
-    developer_ergonomics: 21.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 63.5
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -322,9 +330,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/screenshots/bankruptcywatch-2026-06-20T172956.png
 security:
 - kind: authentication

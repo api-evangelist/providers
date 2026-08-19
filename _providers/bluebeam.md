@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -184,7 +185,9 @@ rate_limits:
   name: Bluebeam Rate Limits
   slug: bluebeam-rate-limits
 rules:
-- name: bluebeam API Rules
+- effective_rule_count: 5
+  extends: []
+  name: bluebeam API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,16 +201,18 @@ scopes:
   slug: bluebeam-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.7
-  delta: 0.0
+  band: thin
+  composite: 36.6
+  delta: -8.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 60.7
+    developer_ergonomics: 40.5
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -216,9 +221,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/screenshots/bluebeam-2026-06-20T173533.png
 security:
 - kind: authentication

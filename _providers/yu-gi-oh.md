@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -304,7 +305,9 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
 random_paper: 6
 rules:
-- name: YGOPRODeck API Rules
+- effective_rule_count: 5
+  extends: []
+  name: YGOPRODeck API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -312,7 +315,10 @@ rules:
     info: 1
     warn: 4
   slug: yu-gi-oh-jsonschema-spectral-rules
-- name: YGOPRODeck API Rules
+- effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: YGOPRODeck API Rules
   rule_count: 43
   severity_counts:
     error: 20
@@ -322,14 +328,16 @@ rules:
   slug: yu-gi-oh-rules
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 20.3
+  delta: -4.8
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 22.5
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 21.2
+    developer_ergonomics: 9.5
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 25.1
   provenance:
@@ -345,8 +353,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:

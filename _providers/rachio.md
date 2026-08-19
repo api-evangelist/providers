@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for Rachio smart irrigation controllers, Smart Hose Timers and lighting controllers: read people, devices and zones; start/stop watering; manage schedules and rain delays; subscribe to webhoo'
@@ -158,23 +159,26 @@ rate_limits:
   slug: rachio-rate-limits
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 41.3
+  delta: -0.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 51.6
-    developer_ergonomics: 56.0
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 28.9
   previous_composite: 42.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/screenshots/rachio-2026-08-17T081438.png
 security:
 - kind: authentication
   name: Rachio Authentication

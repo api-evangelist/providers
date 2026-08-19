@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -197,15 +198,17 @@ scopes:
   slug: defence-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 39.2
-  delta: 0.0
+  band: developing
+  composite: 42.3
+  delta: 3.1
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 52.2
-    developer_ergonomics: 40.8
+    contract_governance: 30.3
+    contract_quality: 51.0
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 39.2
   provenance:
@@ -223,9 +226,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png
 security:

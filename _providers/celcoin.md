@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -229,14 +230,16 @@ rate_limits:
   slug: celcoin-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 37.3
+  delta: 0.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 48.1
-    developer_ergonomics: 28.3
+    contract_governance: 15.2
+    contract_quality: 48.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 10.4
+    governance: 15.2
     operational_transparency: 21.1
   previous_composite: 36.4
   provenance:
@@ -252,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:

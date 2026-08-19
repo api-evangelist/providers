@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. Typical FHIR resources exposed include ServiceRequest, Diagn
@@ -110,16 +111,24 @@ rate_limits:
   name: Laboratory Corp Of America Rate Limits
   slug: laboratory-corp-of-america-rate-limits
 score:
-  band: minimal
-  composite: 12.3
-  delta: 0.0
+  band: emerging
+  composite: 11.4
+  delta: -0.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 4.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 12.3
   regulatory:
     applies: true
@@ -127,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laboratory-corp-of-america/refs/heads/main/screenshots/laboratory-corp-of-america-2026-06-20T184240.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -381,7 +382,9 @@ rate_limits:
   name: Mixedbread Ai Rate Limits
   slug: mixedbread-ai-rate-limits
 rules:
-- name: Mixedbread API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Mixedbread API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -389,7 +392,10 @@ rules:
     info: 1
     warn: 5
   slug: mixedbread-ai-jsonschema-spectral-rules
-- name: Mixedbread API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Mixedbread API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -399,14 +405,16 @@ rules:
   slug: mixedbread-ai-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 55.6
+  delta: -4.7
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
+    contract_governance: 9.8
     contract_quality: 67.2
-    developer_ergonomics: 60.9
+    developer_ergonomics: 66.7
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 60.3
   provenance:
@@ -416,9 +424,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/screenshots/mixedbread-ai-2026-08-17T124213.png
 security:
 - kind: authentication
   name: Mixedbread Ai Authentication

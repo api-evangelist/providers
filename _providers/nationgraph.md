@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -516,25 +518,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
-  delta: 2.6
+  composite: 46.7
+  delta: 2.9
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 50.9
-    developer_ergonomics: 29.9
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 49.8
+    developer_ergonomics: 30.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 5.3
-  previous_composite: 41.2
+    governance: 30.3
+    operational_transparency: 2.6
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 56
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -542,8 +546,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:

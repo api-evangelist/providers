@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +145,9 @@ rate_limits:
   name: Helidon Rate Limits
   slug: helidon-rate-limits
 rules:
-- name: Helidon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Helidon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -153,16 +156,18 @@ rules:
     warn: 3
   slug: helidon-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.4
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -11.5
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 51.5
-    developer_ergonomics: 30.4
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 48.3
+    developer_ergonomics: 23.8
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -171,9 +176,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/screenshots/helidon-2026-06-20T182619.png
 security:
 - kind: domain-security

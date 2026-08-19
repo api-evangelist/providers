@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -232,7 +233,10 @@ rate_limits:
   name: Rithum Rate Limits
   slug: rithum-rate-limits
 rules:
-- name: Rithum API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Rithum API Rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -240,7 +244,9 @@ rules:
     info: 2
     warn: 7
   slug: dsco-platform-rules
-- name: Rithum API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rithum API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -250,15 +256,17 @@ rules:
   slug: rithum-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 48.1
+  delta: -2.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 74.3
-    developer_ergonomics: 30.4
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 69.7
+    contract_quality: 70.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 69.7
+    operational_transparency: 21.1
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -267,8 +275,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/screenshots/rithum-2026-06-20T193131.png
 security:

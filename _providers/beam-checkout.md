@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
@@ -177,16 +178,18 @@ overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) netw
   Beam Checkout''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 21 more developer resources.'
 random_paper: 112
 score:
-  band: developing
-  composite: 50.6
-  delta: 0.0
+  band: strong
+  composite: 54.5
+  delta: 3.9
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 66.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 31.6
   previous_composite: 50.6
   provenance:
     conformance: first-party
@@ -196,9 +199,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/screenshots/beam-checkout-2026-07-25T202537.png
 security:

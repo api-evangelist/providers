@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,24 +99,26 @@ overview: 'OXIO is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 0
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 15.8
+  delta: -4.4
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 19.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxio/refs/heads/main/screenshots/oxio-2026-08-07T191209.png
 security:

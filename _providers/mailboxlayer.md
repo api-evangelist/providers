@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,12 +38,15 @@ agentic_access:
   operation_count: 1
   slug: mailboxlayer-agentic-access
   summary_line: 1 operation
-api_count: 1
+api_count: 2
 apis:
 - description: Email address validation and verification operations.
   name: mailboxlayer Verification API
   slug: mailboxlayer-verification-api
-artifact_total: 52
+- description: 'REST/JSON API for real-time email validation: syntax check, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free detection, and quality score. Available via legacy api'
+  name: Mailboxlayer Email Validation API
+  slug: mailboxlayer-email-validation-api
+artifact_total: 53
 collections:
 - collection_type: postman
   name: mailboxlayer Verification API
@@ -231,7 +234,7 @@ common:
   type: FinOps
   url: finops/mailboxlayer-finops.yml
 created: '2026-05-28'
-description: mailboxlayer is an apilayer-owned REST JSON API for email address verification. It performs syntax and typo checks, MX-record lookup, real-time SMTP verification, catch-all detection, role-address detection, free and disposable provider detection, and returns a numeric deliverability quality score. Useful for signup-form validation, list hygiene, lead enrichment, and fraud prevention.
+description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
 examples:
 - key_count: 2
   name: Mailboxlayer Check Disposable Example
@@ -312,16 +315,16 @@ jsonld:
   slug: mailboxlayer-context
 layout: provider
 modified: '2026-08-14'
-name: mailboxlayer
+name: Mailboxlayer
 nav: Providers
 network: true
-overview: 'mailboxlayer publishes 1 API on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
+overview: 'Mailboxlayer publishes 1 API on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
 
 
-  The mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, documentation, and 36 more developer resources.'
+  Mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, documentation, and 36 more developer resources.'
 plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
@@ -332,7 +335,9 @@ rate_limits:
   name: Mailboxlayer Rate Limits
   slug: mailboxlayer-rate-limits
 rules:
-- name: mailboxlayer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mailboxlayer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -340,7 +345,10 @@ rules:
     info: 1
     warn: 4
   slug: mailboxlayer-jsonschema-spectral-rules
-- name: mailboxlayer API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Mailboxlayer API Rules
   rule_count: 11
   severity_counts:
     error: 6
@@ -350,27 +358,32 @@ rules:
   slug: mailboxlayer-rules
 score:
   band: exemplar
-  composite: 79.9
-  delta: 17.6
+  composite: 74.5
+  delta: -5.4
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 76.1
-    developer_ergonomics: 84.8
+    contract_governance: 55.3
+    contract_quality: 71.3
+    developer_ergonomics: 86.3
     discoverability: 94.4
-    governance: 89.6
-    operational_transparency: 52.6
-  previous_composite: 62.3
+    governance: 55.3
+    operational_transparency: 50.0
+  previous_composite: 79.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-06-20T184850.png
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-08-17T124041.png
 security:
 - kind: authentication
   name: Mailboxlayer Authentication
@@ -405,6 +418,12 @@ tags:
 - Quality Score
 - apilayer
 - Public APIs
+- Data Quality
+- Anti-Fraud
+- Deliverability
+- Communications
+- Developer Tools
+- Security
 use_cases:
 - description: Catch typos and disposable addresses at signup before they hit your user database.
   name: Signup Form Validation

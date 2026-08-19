@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
@@ -251,19 +252,21 @@ rate_limits:
   name: Youscan Rate Limits
   slug: youscan-rate-limits
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 14.7
+  band: strong
+  composite: 61.4
+  delta: -4.7
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 72.2
-    developer_ergonomics: 56.0
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 30.3
+    contract_quality: 68.9
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
-  previous_composite: 51.4
+    governance: 30.3
+    operational_transparency: 73.7
+  previous_composite: 66.1
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -271,9 +274,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/screenshots/youscan-2026-08-17T080440.png
 security:
 - kind: authentication
   name: Youscan Authentication

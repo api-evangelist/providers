@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -291,7 +292,9 @@ rate_limits:
   name: Ubc Rate Limits
   slug: ubc-rate-limits
 rules:
-- name: University of British Columbia API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of British Columbia API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,7 +302,10 @@ rules:
     info: 2
     warn: 3
   slug: ubc-jsonschema-spectral-rules
-- name: University of British Columbia API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: University of British Columbia API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -309,14 +315,16 @@ rules:
   slug: ubc-rules
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 30.0
+  delta: -6.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 50.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 48.3
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 36.5
   provenance:
@@ -329,12 +337,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:
 - kind: domain-security

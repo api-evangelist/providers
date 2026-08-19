@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -1135,7 +1136,9 @@ rate_limits:
   name: Rarible Rate Limits
   slug: rarible-rate-limits
 rules:
-- name: Rarible API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rarible API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1145,15 +1148,17 @@ rules:
   slug: rarible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 47.3
+  delta: -5.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 64.9
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 39.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 31.6
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -1168,9 +1173,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:
 - kind: authentication

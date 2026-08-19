@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 41.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -273,15 +273,17 @@ overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 23
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 48.9
+  delta: -1.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 48.7
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 46.6
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -293,8 +295,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:

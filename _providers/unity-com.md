@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: Player Authentication for Unity Gaming Services. Anonymous, social (Apple/Google/Facebook/Steam/Oculus/PlayStation/Xbox/Nintendo), username/password, and custom-ID sign-in flows that mint Unity player
@@ -330,18 +331,20 @@ rate_limits:
   slug: unity-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 43.9
+  delta: 0.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 17.7
-    developer_ergonomics: 45.7
+    contract_governance: 0.0
+    contract_quality: 16.9
+    developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity-com/refs/heads/main/screenshots/unity-com-2026-06-20T200110.png
 security:

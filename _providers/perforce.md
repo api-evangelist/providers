@@ -12,25 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 42.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -395,7 +395,9 @@ rate_limits:
   name: Perforce Rate Limits
   slug: perforce-rate-limits
 rules:
-- name: Perforce API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Perforce API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -403,7 +405,10 @@ rules:
     info: 2
     warn: 4
   slug: perforce-jsonschema-spectral-rules
-- name: Perforce API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Perforce API Rules
   rule_count: 14
   severity_counts:
     error: 7
@@ -413,15 +418,17 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 45.6
+  delta: -7.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 69.7
-    developer_ergonomics: 58.7
+    contract_governance: 9.8
+    contract_quality: 67.0
+    developer_ergonomics: 54.8
     discoverability: 63.0
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -430,9 +437,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:
 - kind: authentication

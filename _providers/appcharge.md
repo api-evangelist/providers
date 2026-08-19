@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 60.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -389,15 +390,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 65.6
+  delta: 0.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.6
-    developer_ergonomics: 73.9
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 66.3
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 84.2
+    governance: 30.3
+    operational_transparency: 65.8
   previous_composite: 65.1
   provenance:
     agentic_access: derived
@@ -415,8 +418,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:

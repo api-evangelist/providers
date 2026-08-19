@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +161,10 @@ rate_limits:
   name: Linear Rate Limits
   slug: linear-rate-limits
 rules:
-- name: linear API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: linear API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -168,7 +172,9 @@ rules:
     info: 0
     warn: 4
   slug: linear-asyncapi-spectral-rules
-- name: linear API Rules
+- effective_rule_count: 6
+  extends: []
+  name: linear API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -183,14 +189,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 35.8
+  delta: -3.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 81.0
-    developer_ergonomics: 13.0
-    discoverability: 59.3
-    governance: 41.7
+    contract_governance: 11.4
+    contract_quality: 76.5
+    developer_ergonomics: 14.3
+    discoverability: 66.7
+    governance: 11.4
     operational_transparency: 7.9
   previous_composite: 39.6
   provenance:
@@ -200,8 +208,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png
 security:

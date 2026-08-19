@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +152,9 @@ rate_limits:
   name: Valueray Rate Limits
   slug: valueray-rate-limits
 rules:
-- name: ValueRay API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ValueRay API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -159,7 +162,10 @@ rules:
     info: 2
     warn: 3
   slug: valueray-jsonschema-spectral-rules
-- name: ValueRay API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: ValueRay API Rules
   rule_count: 8
   severity_counts:
     error: 6
@@ -169,14 +175,16 @@ rules:
   slug: valueray-rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 37.2
+  delta: -4.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 64.9
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 9.5
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 41.7
   provenance:
@@ -192,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/screenshots/valueray-2026-06-20T200802.png
 security:

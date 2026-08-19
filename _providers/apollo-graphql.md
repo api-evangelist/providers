@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -326,7 +327,9 @@ rate_limits:
   name: Apollo Graphql Rate Limits
   slug: apollo-graphql-rate-limits
 rules:
-- name: Apollo GraphQL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apollo GraphQL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -335,22 +338,30 @@ rules:
     warn: 4
   slug: apollo-federation-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -8.5
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 60.5
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 54.4
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 55.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 58.5
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
 security:
 - kind: domain-security

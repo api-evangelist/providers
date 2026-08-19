@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -230,7 +230,9 @@ rate_limits:
   name: Truelayer Rate Limits
   slug: truelayer-rate-limits
 rules:
-- name: TrueLayer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TrueLayer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,7 +240,10 @@ rules:
     info: 1
     warn: 4
   slug: truelayer-jsonschema-spectral-rules
-- name: TrueLayer API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: TrueLayer API Rules
   rule_count: 11
   severity_counts:
     error: 6
@@ -248,15 +253,17 @@ rules:
   slug: truelayer-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 43.6
+  delta: -7.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 72.5
-    developer_ergonomics: 54.3
+    contract_governance: 9.8
+    contract_quality: 68.5
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -271,9 +278,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:
 - kind: authentication

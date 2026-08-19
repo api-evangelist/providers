@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 52.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -11231,7 +11232,9 @@ rate_limits:
   name: Atlassian Rate Limits
   slug: atlassian-rate-limits
 rules:
-- name: Atlassian API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Atlassian API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -11239,7 +11242,10 @@ rules:
     info: 2
     warn: 3
   slug: atlassian-jsonschema-spectral-rules
-- name: Atlassian API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Atlassian API Rules
   rule_count: 16
   severity_counts:
     error: 7
@@ -11254,15 +11260,17 @@ scopes:
   summary_line: 288 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 54.8
+  delta: -7.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 79.1
-    developer_ergonomics: 63.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 78.9
+    developer_ergonomics: 57.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 62.7
   provenance:
     agentic_access: derived
@@ -11271,9 +11279,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 320
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:
 - kind: authentication

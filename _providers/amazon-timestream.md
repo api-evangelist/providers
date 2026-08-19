@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Amazon Timestream Rate Limits
   slug: amazon-timestream-rate-limits
 rules:
-- name: Amazon Timestream API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Amazon Timestream API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -218,7 +221,10 @@ rules:
     info: 1
     warn: 3
   slug: amazon-timestream-jsonschema-spectral-rules
-- name: Amazon Timestream API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Amazon Timestream API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -228,15 +234,17 @@ rules:
   slug: amazon-timestream-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 44.3
+  delta: -7.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 56.7
-    developer_ergonomics: 32.6
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 53.1
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/screenshots/amazon-timestream-2026-06-20T171834.png
 security:
 - kind: domain-security

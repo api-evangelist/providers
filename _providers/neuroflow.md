@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The REST API behind the NeuroFlow Live web and mobile applications, served same-origin from https://neuroflowlive.com/api/ (server: gunicorn, versioned /api/v2/ routes). A Swagger document is publishe'
@@ -101,14 +102,16 @@ overview: 'NeuroFlow publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 99
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 17.0
+  delta: -5.2
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 4.8
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 22.2
   provenance:
@@ -118,10 +121,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 27.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuroflow/refs/heads/main/screenshots/neuroflow-2026-08-07T185022.png
 security:
 - kind: domain-security

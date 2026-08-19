@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -378,16 +378,18 @@ scopes:
   slug: ordnance-survey-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: -2.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 48.9
-    developer_ergonomics: 73.4
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 30.3
+    contract_quality: 47.1
+    developer_ergonomics: 68.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 86.8
+    governance: 30.3
+    operational_transparency: 68.4
   previous_composite: 66.8
   provenance:
     agentic_access: derived
@@ -404,9 +406,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 75.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 42.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -314,15 +314,17 @@ overview: 'SandboxAQ publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 67
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.6
+  delta: -1.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 64.3
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 61.3
+    developer_ergonomics: 73.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -334,9 +336,10 @@ score:
       total: 19
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/screenshots/sandboxaq-2026-08-17T081721.png
 security:
 - kind: authentication
   name: Sandboxaq Authentication

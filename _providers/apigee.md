@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -1121,7 +1122,9 @@ rate_limits:
   name: Apigee Rate Limits
   slug: apigee-rate-limits
 rules:
-- name: Apigee API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Apigee API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -1129,7 +1132,10 @@ rules:
     info: 2
     warn: 5
   slug: apigee-jsonschema-spectral-rules
-- name: Apigee API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Apigee API Rules
   rule_count: 23
   severity_counts:
     error: 5
@@ -1143,16 +1149,18 @@ scopes:
   slug: apigee-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: strong
+  composite: 59.5
+  delta: -8.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 76.4
-    developer_ergonomics: 63.0
-    discoverability: 83.3
-    governance: 58.3
-    operational_transparency: 55.3
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 9.8
+    contract_quality: 76.2
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    governance: 9.8
+    operational_transparency: 52.6
   previous_composite: 67.9
   provenance:
     agentic_access: derived
@@ -1161,9 +1169,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png
 security:
 - kind: authentication

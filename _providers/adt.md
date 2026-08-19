@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -453,7 +454,9 @@ rate_limits:
   name: Adt Rate Limits
   slug: adt-rate-limits
 rules:
-- name: ADT API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ADT API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -461,7 +464,10 @@ rules:
     info: 2
     warn: 3
   slug: adt-jsonschema-spectral-rules
-- name: ADT API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: ADT API Rules
   rule_count: 37
   severity_counts:
     error: 16
@@ -476,14 +482,16 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 29.8
+  delta: -7.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 28.2
-    developer_ergonomics: 26.1
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 26.5
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 36.8
   provenance:
@@ -493,9 +501,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:
 - kind: authentication

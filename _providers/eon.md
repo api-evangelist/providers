@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 45.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -258,15 +258,17 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 24
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 48.0
+  delta: -1.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.9
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 57.5
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -278,10 +280,10 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-07-25T213500.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-08-17T123419.png
 security:
 - kind: authentication
   name: Eon Authentication

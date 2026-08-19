@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The private back-end API for CTM Portal, CTM's single sign-on customer portal. It is not documented, not announced and not offered to third parties — it was identified from the portal's own client boo
@@ -234,20 +235,22 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode/implicit
 score:
   band: emerging
-  composite: 24.7
-  delta: 0.0
+  composite: 24.6
+  delta: -0.1
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 33.3
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 24.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corporate-travel-management/refs/heads/main/screenshots/corporate-travel-management-2026-08-07T163917.png
 security:

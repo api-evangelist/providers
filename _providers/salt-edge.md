@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -189,15 +190,17 @@ rate_limits:
   slug: salt-edge-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 29.3
+  delta: -2.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 55.7
-    developer_ergonomics: 30.4
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 52.2
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 31.5
   provenance:
     agentic_access: derived
@@ -212,8 +215,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/screenshots/salt-edge-2026-06-20T193356.png
 security:

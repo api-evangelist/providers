@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -142,20 +143,22 @@ overview: 'UXPin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 117
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 34.2
+  delta: 1.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 33.1
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

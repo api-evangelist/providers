@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -147,7 +148,9 @@ rate_limits:
   name: Ironclad Clickwrap Rate Limits
   slug: ironclad-clickwrap-rate-limits
 rules:
-- name: Ironclad Clickwrap API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Ironclad Clickwrap API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -157,15 +160,17 @@ rules:
   slug: ironclad-clickwrap-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 30.2
+  delta: -2.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 53.7
-    developer_ergonomics: 23.9
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 21.4
     discoverability: 72.2
-    governance: 10.4
-    operational_transparency: 13.2
+    governance: 0.0
+    operational_transparency: 10.5
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -174,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/screenshots/ironclad-clickwrap-2026-06-20T183613.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
@@ -134,23 +135,25 @@ overview: 'System Initiative publishes 1 API on the [APIs.io](https://apis.io/) 
   System Initiative''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 14 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 31.3
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -7.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 32.3
-    developer_ergonomics: 64.7
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 41.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 10.5
   previous_composite: 31.3
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: System Initiative Authentication

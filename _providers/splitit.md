@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -246,7 +247,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Splitit API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Splitit API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -256,14 +259,16 @@ rules:
   slug: splitit-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 57.9
+  delta: -0.9
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 70.3
-    developer_ergonomics: 58.7
+    contract_governance: 9.8
+    contract_quality: 67.4
+    developer_ergonomics: 64.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 39.5
   previous_composite: 58.8
   provenance:
@@ -279,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png
 security:

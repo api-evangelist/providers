@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -226,7 +226,9 @@ rate_limits:
   name: Unstructured Rate Limits
   slug: unstructured-rate-limits
 rules:
-- name: Unstructured API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Unstructured API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -236,15 +238,17 @@ rules:
   slug: unstructured-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 46.1
+  delta: -8.5
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 63.4
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -253,9 +257,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:
 - kind: authentication

@@ -10,10 +10,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -245,19 +245,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 65.2
-  delta: 39.9
+  composite: 58.1
+  delta: -7.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 48.1
-    developer_ergonomics: 73.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 43.3
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 71.1
-  previous_composite: 25.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 68.4
+  previous_composite: 65.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/screenshots/adroll-2026-06-20T165128.png
 security:
 - kind: authentication

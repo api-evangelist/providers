@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Process cashless payments through various methods, including debit/credit cards, digital wallets, and NFC.
@@ -80,15 +81,23 @@ rate_limits:
   slug: seed-platform-rate-limits
 score:
   band: minimal
-  composite: 9.4
-  delta: 0.0
+  composite: 5.6
+  delta: -3.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 9.4
   regulatory:
     applies: true
@@ -96,8 +105,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seed-platform/refs/heads/main/screenshots/seed-platform-2026-06-20T193637.png
 security:

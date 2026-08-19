@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +92,9 @@ rate_limits:
   name: Horoscope Api Rate Limits
   slug: horoscope-api-rate-limits
 rules:
-- name: Horoscope API API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Horoscope API API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -101,14 +104,16 @@ rules:
   slug: horoscope-api-rules
 score:
   band: emerging
-  composite: 25.4
-  delta: 0.0
+  composite: 20.1
+  delta: -5.3
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 56.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 52.4
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 10.4
+    governance: 0.0
     operational_transparency: 7.9
   previous_composite: 25.4
   provenance:
@@ -118,9 +123,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/screenshots/horoscope-api-2026-06-20T182833.png
 security:
 - kind: domain-security

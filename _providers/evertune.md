@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -151,20 +152,24 @@ scopes:
   slug: evertune-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/implicit
 score:
-  band: emerging
-  composite: 26.3
-  delta: 8.6
+  band: thin
+  composite: 27.1
+  delta: 0.8
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 17.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 26.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evertune/refs/heads/main/screenshots/evertune-2026-07-25T213740.png
 security:
 - kind: authentication

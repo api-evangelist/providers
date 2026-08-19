@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 36.9
+  scored_at: '2026-08-19'
 api_count: 45
 apis:
 - description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
@@ -446,15 +447,17 @@ overview: 'SpecterOps publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 53
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 52.7
+  delta: 1.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 57.4
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 58.1
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 51.5
   provenance:
     conformance: derived
@@ -465,9 +468,10 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
 security:
 - kind: authentication
   name: Specterops Authentication

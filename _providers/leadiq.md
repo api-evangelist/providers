@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 50.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -305,26 +306,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 61.3
-  delta: 24.2
+  composite: 58.2
+  delta: -3.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 61.4
-    developer_ergonomics: 67.4
+    contract_governance: 16.7
+    contract_quality: 59.0
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 42.1
-  previous_composite: 37.1
+    governance: 16.7
+    operational_transparency: 39.5
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: PennyLane is the cross-platform Python framework for quantum computing, quantum machine learning, and quantum chemistry maintained by Xanadu. It provides automatic differentiation of hybrid quantum-cl
@@ -200,7 +201,9 @@ overview: 'Xanadu publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
   Xanadu''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, training material, code examples, release notes, and 12 more developer resources.'
 random_paper: 45
 rules:
-- name: Xanadu API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Xanadu API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,19 +213,27 @@ rules:
   slug: xanadu-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.4
-  delta: 0.0
+  composite: 19.9
+  delta: -5.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 23.9
+    contract_governance: 9.8
+    contract_quality: 16.9
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 25.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/xanadu/refs/heads/main/screenshots/xanadu-2026-06-20T201650.png
 security:
 - kind: domain-security

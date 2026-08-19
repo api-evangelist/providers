@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,7 +197,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Transpose API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Transpose API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,14 +209,16 @@ rules:
   slug: transpose-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 44.5
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.9
-    developer_ergonomics: 41.3
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 64.7
+    developer_ergonomics: 44.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 51.6
   provenance:
@@ -223,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/screenshots/transpose-2026-06-20T195630.png
 security:
 - kind: authentication

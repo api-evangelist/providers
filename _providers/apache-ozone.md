@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -198,7 +199,9 @@ rate_limits:
   name: Apache Ozone Rate Limits
   slug: apache-ozone-rate-limits
 rules:
-- name: Apache Ozone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Ozone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +209,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-ozone-jsonschema-spectral-rules
-- name: Apache Ozone API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Apache Ozone API Rules
   rule_count: 13
   severity_counts:
     error: 4
@@ -216,15 +222,17 @@ rules:
   slug: apache-ozone-spectral-rules
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 20.8
+  delta: -5.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 20.9
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 19.8
+    developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 26.5
   provenance:
     agentic_access: derived
@@ -233,9 +241,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png
 security:
 - kind: domain-security

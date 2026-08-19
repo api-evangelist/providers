@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'The SCORM 1.2 Run-Time Environment defines communication between e-learning content and an LMS via a JavaScript API. The API Adapter is an ECMAScript object named "API" accessible through the DOM. It '
@@ -96,7 +97,9 @@ rate_limits:
   name: Scorm Rate Limits
   slug: scorm-rate-limits
 rules:
-- name: SCORM API Rules
+- effective_rule_count: 4
+  extends: []
+  name: SCORM API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -106,19 +109,27 @@ rules:
   slug: scorm-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 16.2
+  delta: -7.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 19.7
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scorm/refs/heads/main/screenshots/scorm-2026-06-20T193543.png
 security:
 - kind: domain-security

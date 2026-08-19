@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -205,15 +205,17 @@ overview: 'Hibachi publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 116
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 53.3
+  delta: 2.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 73.7
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 71.2
+    developer_ergonomics: 67.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -231,8 +233,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:

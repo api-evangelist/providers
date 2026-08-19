@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -284,7 +285,9 @@ rate_limits:
   name: Tecnologico De Monterrey Rate Limits
   slug: tecnologico-de-monterrey-rate-limits
 rules:
-- name: Tecnológico de Monterrey API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tecnológico de Monterrey API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -292,7 +295,10 @@ rules:
     info: 2
     warn: 3
   slug: tecnologico-de-monterrey-jsonschema-spectral-rules
-- name: Tecnológico de Monterrey API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Tecnológico de Monterrey API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -302,14 +308,16 @@ rules:
   slug: tecnologico-de-monterrey-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 28.1
+  delta: -5.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 47.2
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 45.5
+    developer_ergonomics: 4.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 33.8
   provenance:
@@ -322,12 +330,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
 security:
 - kind: domain-security

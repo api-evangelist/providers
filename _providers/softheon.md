@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,12 +83,14 @@ overview: 'Softheon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 125
 score:
   band: emerging
-  composite: 17.0
-  delta: 0.0
+  composite: 15.6
+  delta: -1.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 16.7
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -98,8 +101,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -260,15 +260,17 @@ rate_limits:
   name: Shipfinder Ais Data Api Rate Limits
   slug: shipfinder-ais-data-api-rate-limits
 score:
-  band: developing
-  composite: 55.6
-  delta: 0.0
+  band: strong
+  composite: 54.3
+  delta: -1.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 66.0
-    developer_ergonomics: 60.3
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 31.8
+    contract_quality: 61.8
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 21.9
+    governance: 31.8
     operational_transparency: 7.9
   previous_composite: 55.6
   provenance:
@@ -281,9 +283,10 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png
 security:
 - kind: authentication
   name: Shipfinder Ais Data Api Authentication

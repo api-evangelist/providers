@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1188,7 +1189,9 @@ rate_limits:
   name: Amazon Rekognition Rate Limits
   slug: amazon-rekognition-rate-limits
 rules:
-- name: Amazon Rekognition API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Rekognition API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1196,7 +1199,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-rekognition-jsonschema-spectral-rules
-- name: Amazon Rekognition API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Amazon Rekognition API Rules
   rule_count: 23
   severity_counts:
     error: 8
@@ -1206,15 +1212,17 @@ rules:
   slug: amazon-rekognition-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 55.3
+  delta: -6.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 33.7
-    developer_ergonomics: 60.9
+    contract_governance: 41.7
+    contract_quality: 32.3
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 55.3
+    governance: 41.7
+    operational_transparency: 52.6
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -1225,9 +1233,9 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:
 - kind: authentication

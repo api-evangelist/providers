@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,7 +180,9 @@ rate_limits:
   name: Worldbank Rate Limits
   slug: worldbank-rate-limits
 rules:
-- name: World Bank API Rules
+- effective_rule_count: 5
+  extends: []
+  name: World Bank API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,14 +192,16 @@ rules:
   slug: worldbank-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 32.8
+  delta: -4.6
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 61.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 57.7
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 37.4
   provenance:
@@ -209,11 +214,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

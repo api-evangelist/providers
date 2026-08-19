@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -195,16 +196,18 @@ rate_limits:
   name: Persona Rate Limits
   slug: persona-rate-limits
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -7.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 55.4
-    developer_ergonomics: 34.8
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 0.0
+    contract_quality: 51.9
+    developer_ergonomics: 21.4
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 10.5
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -213,9 +216,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:
 - kind: authentication

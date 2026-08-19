@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -417,15 +418,17 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 137
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 58.8
+  delta: 0.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.3
-    developer_ergonomics: 82.1
+    contract_governance: 16.7
+    contract_quality: 67.0
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 58.2
   provenance:
     conformance: derived
@@ -436,8 +439,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:

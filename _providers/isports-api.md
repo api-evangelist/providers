@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-17'
+  score: 33.4
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -590,15 +591,17 @@ rate_limits:
   slug: isports-api-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 45.8
+  delta: 0.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 14.4
-    developer_ergonomics: 71.2
+    contract_governance: 16.7
+    contract_quality: 13.5
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 45.4
   provenance:
     conformance: derived
@@ -608,9 +611,10 @@ score:
       marker_coverage: 100.0
       total: 15
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:
 - kind: authentication
   name: Isports Api Authentication

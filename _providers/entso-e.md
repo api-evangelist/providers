@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -169,16 +170,18 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 40.1
-  delta: 0.0
+  band: developing
+  composite: 41.5
+  delta: 1.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 60.4
-    developer_ergonomics: 30.4
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 56.6
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -192,9 +195,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 21.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 18.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/screenshots/entso-e-2026-07-25T213441.png
 security:

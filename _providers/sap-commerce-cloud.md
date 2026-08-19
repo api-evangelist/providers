@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -633,7 +634,9 @@ rate_limits:
   name: Sap Commerce Cloud Rate Limits
   slug: sap-commerce-cloud-rate-limits
 rules:
-- name: SAP Commerce Cloud API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP Commerce Cloud API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -641,7 +644,10 @@ rules:
     info: 2
     warn: 4
   slug: sap-commerce-cloud-jsonschema-spectral-rules
-- name: SAP Commerce Cloud API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: SAP Commerce Cloud API Rules
   rule_count: 10
   severity_counts:
     error: 0
@@ -656,15 +662,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 40.5
+  delta: -9.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 67.7
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 68.7
+    developer_ergonomics: 14.3
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -673,9 +681,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:
 - kind: authentication

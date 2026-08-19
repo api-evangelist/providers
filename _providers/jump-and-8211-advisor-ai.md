@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,18 +92,20 @@ overview: 'Jump &#8211; Advisor AI is profiled on the [APIs.io](https://apis.io/
 random_paper: 11
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 17.6
+  delta: 0.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jump-and-8211-advisor-ai/refs/heads/main/screenshots/jump-and-8211-advisor-ai-2026-07-25T223316.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -310,7 +311,9 @@ rate_limits:
   name: Yext Rate Limits
   slug: yext-rate-limits
 rules:
-- name: Yext API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Yext API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,14 +323,16 @@ rules:
   slug: yext-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 41.0
+  delta: -8.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 59.7
-    developer_ergonomics: 21.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 57.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 49.1
   provenance:
@@ -337,9 +342,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png
 security:
 - kind: authentication

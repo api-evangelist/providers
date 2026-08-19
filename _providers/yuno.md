@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Core Yuno Payments API — customers, checkout sessions, payments, refunds, captures, subscriptions, payouts, disputes, reports, banking connectivity and PCI Proxy. Header API-key auth with X-Idempotenc
@@ -209,16 +210,18 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 54.7
-  delta: 0.0
+  band: strong
+  composite: 55.4
+  delta: 0.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 71.2
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 45.1
+    developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 54.7
   provenance:
     conformance: first-party
@@ -229,10 +232,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/screenshots/yuno-2026-08-17T083027.png
 security:
 - kind: authentication
   name: Yuno Authentication

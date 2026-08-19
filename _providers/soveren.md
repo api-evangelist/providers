@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 42.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,14 +210,16 @@ overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 25
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 42.4
+  delta: -2.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 64.9
-    developer_ergonomics: 56.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 44.8
   provenance:
@@ -229,9 +232,10 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/screenshots/soveren-2026-08-17T082012.png
 security:
 - kind: authentication
   name: Soveren Authentication

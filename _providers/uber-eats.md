@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -352,7 +353,9 @@ rate_limits:
   name: Uber Eats Rate Limits
   slug: uber-eats-rate-limits
 rules:
-- name: Uber Eats API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Uber Eats API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -360,7 +363,9 @@ rules:
     info: 1
     warn: 4
   slug: uber-eats-jsonschema-spectral-rules
-- name: Uber Eats API Rules
+- effective_rule_count: 27
+  extends: []
+  name: Uber Eats API Rules
   rule_count: 27
   severity_counts:
     error: 7
@@ -375,15 +380,17 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 49.6
+  delta: -5.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 69.9
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 67.9
+    developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 34.2
+    governance: 25.0
+    operational_transparency: 31.6
   previous_composite: 55.0
   provenance:
     agentic_access: derived
@@ -392,9 +399,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:
 - kind: authentication

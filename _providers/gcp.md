@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -178,15 +179,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 36.4
+  delta: -1.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 55.2
-    developer_ergonomics: 41.3
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 41.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -195,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/screenshots/gcp-2026-06-20T181700.png
 security:

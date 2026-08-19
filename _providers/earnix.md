@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,12 +75,14 @@ overview: 'Earnix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 51
 score:
   band: emerging
-  composite: 13.2
-  delta: 0.0
+  composite: 11.0
+  delta: -2.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -90,8 +93,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnix/refs/heads/main/screenshots/earnix-2026-07-25T212659.png
 security:

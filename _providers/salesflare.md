@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -352,7 +352,9 @@ rate_limits:
   name: Salesflare Rate Limits
   slug: salesflare-rate-limits
 rules:
-- name: Salesflare API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Salesflare API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -366,27 +368,32 @@ scopes:
   slug: salesflare-scopes
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 20.7
+  band: strong
+  composite: 58.6
+  delta: -8.2
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 56.0
-    developer_ergonomics: 58.7
+    contract_governance: 26.5
+    contract_quality: 55.9
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 42.1
-  previous_composite: 46.1
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:
 - kind: authentication

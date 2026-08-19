@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -202,7 +203,10 @@ rate_limits:
   name: Rockwell Factorytalk Rate Limits
   slug: rockwell-factorytalk-rate-limits
 rules:
-- name: rockwell-factorytalk API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: rockwell-factorytalk API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -210,7 +214,9 @@ rules:
     info: 1
     warn: 5
   slug: rockwell-factorytalk-asyncapi-spectral-rules
-- name: rockwell-factorytalk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: rockwell-factorytalk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +224,10 @@ rules:
     info: 2
     warn: 3
   slug: rockwell-factorytalk-jsonschema-spectral-rules
-- name: rockwell-factorytalk API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: rockwell-factorytalk API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -233,15 +242,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 40.3
+  delta: -3.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 70.6
-    developer_ergonomics: 34.8
+    contract_governance: 28.8
+    contract_quality: 66.7
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -250,8 +267,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -274,7 +274,9 @@ rate_limits:
   name: Apify Rate Limits
   slug: apify-rate-limits
 rules:
-- name: Apify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,7 +284,10 @@ rules:
     info: 2
     warn: 3
   slug: apify-jsonschema-spectral-rules
-- name: Apify API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Apify API Rules
   rule_count: 20
   severity_counts:
     error: 4
@@ -291,16 +296,18 @@ rules:
     warn: 14
   slug: apify-spectral-rules
 score:
-  band: developing
-  composite: 44.7
-  delta: 0.0
+  band: thin
+  composite: 36.1
+  delta: -8.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 29.5
-    developer_ergonomics: 63.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 27.7
+    developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -309,9 +316,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png
 security:
 - kind: authentication

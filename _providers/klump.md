@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Klump REST API lets a merchant verify transactions, sync commerce product catalogs, create Klump Access hosted payment pages, and resend webhooks. A single base URL serves both sandbox and product
@@ -179,15 +180,17 @@ overview: 'Klump publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 106
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 51.2
+  delta: 3.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 47.6
   provenance:
     conformance: first-party
@@ -197,9 +200,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/screenshots/klump-2026-07-25T223950.png
 security:

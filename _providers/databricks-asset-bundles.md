@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -258,7 +259,9 @@ rate_limits:
   name: Databricks Asset Bundles Rate Limits
   slug: databricks-asset-bundles-rate-limits
 rules:
-- name: Databricks Asset Bundles API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Databricks Asset Bundles API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -266,7 +269,10 @@ rules:
     info: 1
     warn: 4
   slug: databricks-asset-bundles-jsonschema-spectral-rules
-- name: Databricks Asset Bundles API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Databricks Asset Bundles API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -276,19 +282,21 @@ rules:
   slug: databricks-asset-bundles-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 43.5
+  delta: -6.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 17.7
-    developer_ergonomics: 52.2
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/screenshots/databricks-asset-bundles-2026-06-20T175631.png
 security:
 - kind: domain-security

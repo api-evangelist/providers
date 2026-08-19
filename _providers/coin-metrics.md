@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -315,15 +316,17 @@ rate_limits:
   slug: coin-metrics-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 47.4
+  delta: -6.1
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 67.7
-    developer_ergonomics: 69.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 65.6
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -340,10 +343,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 28.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:
 - kind: authentication

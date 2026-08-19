@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Obtain and configure machine data from the DataPlatform, Proemion's API-first telematics cloud. Secured with OAuth2 client credentials (OpenID Connect / Keycloak).
@@ -166,21 +167,23 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 36.6
+  delta: 5.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 0.0
-    developer_ergonomics: 54.3
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 59.5
     discoverability: 83.3
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 31.1
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Proemion Authentication

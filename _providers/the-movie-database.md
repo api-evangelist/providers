@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -274,7 +275,9 @@ rate_limits:
   name: The Movie Database Rate Limits
   slug: the-movie-database-rate-limits
 rules:
-- name: The Movie Database API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Movie Database API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,7 +285,10 @@ rules:
     info: 1
     warn: 4
   slug: the-movie-database-jsonschema-spectral-rules
-- name: The Movie Database API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: The Movie Database API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -291,15 +297,17 @@ rules:
     warn: 7
   slug: the-movie-database-rules
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 32.2
+  delta: -10.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.2
-    developer_ergonomics: 23.9
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 10.7
     discoverability: 63.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 43.1
   provenance:
@@ -309,9 +317,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-movie-database/refs/heads/main/screenshots/the-movie-database-2026-06-20T195224.png
 security:
 - kind: authentication

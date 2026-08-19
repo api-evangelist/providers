@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -522,7 +523,9 @@ rate_limits:
   name: Bentoml Rate Limits
   slug: bentoml-rate-limits
 rules:
-- name: BentoML API Rules
+- effective_rule_count: 6
+  extends: []
+  name: BentoML API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -532,15 +535,17 @@ rules:
   slug: bentoml-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 43.8
+  delta: -5.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 50.7
-    developer_ergonomics: 28.3
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 25.0
+    contract_quality: 52.9
+    developer_ergonomics: 31.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -549,9 +554,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:
 - kind: authentication

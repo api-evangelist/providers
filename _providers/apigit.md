@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,7 +183,9 @@ rate_limits:
   name: Apigit Rate Limits
   slug: apigit-rate-limits
 rules:
-- name: APIGit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APIGit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +193,10 @@ rules:
     info: 2
     warn: 3
   slug: apigit-jsonschema-spectral-rules
-- name: APIGit API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: APIGit API Rules
   rule_count: 15
   severity_counts:
     error: 4
@@ -200,14 +206,16 @@ rules:
   slug: apigit-spectral-rules
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 26.7
+  delta: -5.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 27.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 25.5
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 32.5
   provenance:
@@ -217,9 +225,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/screenshots/apigit-2026-06-20T172238.png
 security:
 - kind: authentication

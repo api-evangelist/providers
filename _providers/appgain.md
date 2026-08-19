@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
@@ -211,25 +212,31 @@ rate_limits:
   slug: appgain-rate-limits
 score:
   band: developing
-  composite: 49.0
-  delta: 18.4
+  composite: 40.2
+  delta: -8.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 76.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 75.6
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 28.9
-  previous_composite: 30.6
+    governance: 4.5
+    operational_transparency: 26.3
+  previous_composite: 49.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 33.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
 security:
 - kind: authentication

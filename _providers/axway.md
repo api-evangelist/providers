@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -2800,7 +2801,9 @@ rate_limits:
   name: Axway Rate Limits
   slug: axway-rate-limits
 rules:
-- name: Axway API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Axway API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2808,7 +2811,10 @@ rules:
     info: 2
     warn: 3
   slug: axway-jsonschema-spectral-rules
-- name: Axway API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Axway API Rules
   rule_count: 40
   severity_counts:
     error: 13
@@ -2822,16 +2828,18 @@ scopes:
   slug: axway-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.1
-  delta: 0.0
+  band: developing
+  composite: 49.3
+  delta: -10.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 67.8
-    developer_ergonomics: 63.0
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 66.7
     discoverability: 63.0
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 60.1
   provenance:
     agentic_access: derived
@@ -2840,9 +2848,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:
 - kind: authentication

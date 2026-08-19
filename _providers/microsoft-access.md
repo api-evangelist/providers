@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -162,7 +163,9 @@ rate_limits:
   name: Microsoft Access Rate Limits
   slug: microsoft-access-rate-limits
 rules:
-- name: Microsoft Access API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Access API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -172,19 +175,21 @@ rules:
   slug: microsoft-access-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 32.0
+  delta: -8.0
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 40.3
-    developer_ergonomics: 23.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 35.2
+    developer_ergonomics: 26.2
     discoverability: 53.7
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 40.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/screenshots/microsoft-access-2026-06-20T185353.png
 security:
 - kind: domain-security

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -251,15 +252,17 @@ overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 105
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 50.1
+  delta: -1.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 64.2
-    developer_ergonomics: 53.8
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 30.3
+    contract_quality: 60.2
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -271,8 +274,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/screenshots/opkey-2026-08-07T190728.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-17'
+  score: 31.0
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
@@ -198,14 +199,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 37.2
+  delta: -0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 57.6
-    developer_ergonomics: 25.5
+    contract_governance: 12.1
+    contract_quality: 54.0
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 0.0
   previous_composite: 37.6
   provenance:
@@ -216,8 +219,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

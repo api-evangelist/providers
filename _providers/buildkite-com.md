@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 44.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -570,7 +571,9 @@ rate_limits:
   name: Buildkite Com Rate Limits
   slug: buildkite-com-rate-limits
 rules:
-- name: Buildkite API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Buildkite API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -578,7 +581,10 @@ rules:
     info: 1
     warn: 4
   slug: buildkite-com-jsonschema-spectral-rules
-- name: Buildkite API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Buildkite API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -593,14 +599,16 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 72.7
-  delta: 0.0
+  composite: 66.5
+  delta: -6.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.6
-    developer_ergonomics: 71.7
+    contract_governance: 41.7
+    contract_quality: 63.4
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 47.4
   previous_composite: 72.7
   provenance:
@@ -612,9 +620,9 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:
 - kind: authentication

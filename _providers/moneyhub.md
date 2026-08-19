@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 34.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -227,15 +228,17 @@ scopes:
   summary_line: 108 scopes
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 61.9
+  delta: 4.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    contract_governance: 30.3
+    contract_quality: 52.1
+    developer_ergonomics: 60.7
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 48.7
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -246,9 +249,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 84.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

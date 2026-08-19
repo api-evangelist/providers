@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: The answers API from Evrim — 2 operation(s) for answers.
@@ -260,24 +261,26 @@ rate_limits:
   slug: evrim-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 2.3
+  composite: 32.9
+  delta: 1.3
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 41.0
-    developer_ergonomics: 32.1
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 30.3
+    contract_quality: 43.2
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
-  previous_composite: 29.3
+    governance: 30.3
+    operational_transparency: 18.4
+  previous_composite: 31.6
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 18
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -285,8 +288,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/screenshots/evrim-2026-07-25T213819.png
 security:

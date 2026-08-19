@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,15 +174,17 @@ overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 92
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 38.1
+  delta: 2.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 38.6
-    developer_ergonomics: 23.4
+    contract_governance: 30.3
+    contract_quality: 40.3
+    developer_ergonomics: 23.2
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -198,9 +201,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 58.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

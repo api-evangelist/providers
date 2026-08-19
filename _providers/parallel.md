@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-17'
+  score: 57.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -315,16 +316,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.9
-  delta: 6.5
+  composite: 69.4
+  delta: -4.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 70.4
-    developer_ergonomics: 86.4
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 30.3
+    contract_quality: 68.0
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 84.2
-  previous_composite: 67.4
+    governance: 30.3
+    operational_transparency: 81.6
+  previous_composite: 73.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -332,13 +335,13 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 8
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-07T191420.png
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-17T124455.png
 security:
 - kind: authentication
   name: Parallel Authentication

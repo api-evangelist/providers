@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -129,7 +130,9 @@ rate_limits:
   name: Flask Rate Limits
   slug: flask-rate-limits
 rules:
-- name: Flask API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Flask API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -139,19 +142,21 @@ rules:
   slug: flask-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 20.6
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 8.5
+    developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/screenshots/flask-2026-06-20T181302.png
 security:
 - kind: domain-security

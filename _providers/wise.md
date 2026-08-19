@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 56.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -437,7 +438,10 @@ rate_limits:
   name: Wise Rate Limits
   slug: wise-rate-limits
 rules:
-- name: Wise API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Wise API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -447,15 +451,17 @@ rules:
   slug: wise-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 36.3
+  delta: -4.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 72.1
-    developer_ergonomics: 26.1
+    contract_governance: 11.4
+    contract_quality: 68.2
+    developer_ergonomics: 21.4
     discoverability: 57.4
-    governance: 41.7
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 40.5
   provenance:
     agentic_access: derived
@@ -470,8 +476,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

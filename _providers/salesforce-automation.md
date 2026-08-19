@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -860,7 +861,9 @@ rate_limits:
   name: Salesforce Automation Rate Limits
   slug: salesforce-automation-rate-limits
 rules:
-- name: Salesforce Automation API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Salesforce Automation API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -868,7 +871,10 @@ rules:
     info: 2
     warn: 4
   slug: salesforce-automation-jsonschema-spectral-rules
-- name: Salesforce Automation API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Salesforce Automation API Rules
   rule_count: 42
   severity_counts:
     error: 18
@@ -882,16 +888,18 @@ scopes:
   slug: salesforce-automation-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -6.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 70.3
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 70.4
+    developer_ergonomics: 50.0
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.0
   provenance:
     agentic_access: derived
@@ -900,9 +908,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:
 - kind: authentication

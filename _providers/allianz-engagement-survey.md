@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -314,7 +315,9 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
   Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
 random_paper: 41
 rules:
-- name: Allianz Engagement Survey API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Allianz Engagement Survey API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -322,7 +325,10 @@ rules:
     info: 1
     warn: 4
   slug: allianz-engagement-survey-jsonschema-spectral-rules
-- name: Allianz Engagement Survey API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Allianz Engagement Survey API Rules
   rule_count: 32
   severity_counts:
     error: 15
@@ -337,14 +343,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 27.1
+  delta: -5.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 28.7
-    developer_ergonomics: 15.2
+    contract_governance: 41.7
+    contract_quality: 27.0
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 5.3
   previous_composite: 32.1
   provenance:
@@ -362,9 +370,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:
 - kind: authentication

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 54.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -442,32 +443,37 @@ rate_limits:
   name: Buttondown Rate Limits
   slug: buttondown-rate-limits
 score:
-  band: strong
-  composite: 60.3
-  delta: 25.5
+  band: exemplar
+  composite: 71.3
+  delta: 11.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.2
-    developer_ergonomics: 71.7
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 16.7
+    contract_quality: 70.4
+    developer_ergonomics: 73.2
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 34.8
+    governance: 16.7
+    operational_transparency: 92.1
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 29
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:

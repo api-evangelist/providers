@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-17'
+  score: 29.8
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
@@ -215,15 +216,17 @@ overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://api
 random_paper: 71
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 22.9
+  delta: 0.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 15.1
-    developer_ergonomics: 12.5
+    contract_governance: 16.7
+    contract_quality: 14.2
+    developer_ergonomics: 13.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 22.3
   provenance:
     conformance: derived
@@ -239,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

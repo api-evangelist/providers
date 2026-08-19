@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 45.5
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -315,16 +315,18 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 random_paper: 96
 score:
-  band: strong
-  composite: 61.6
-  delta: 0.0
+  band: exemplar
+  composite: 67.1
+  delta: 5.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 71.7
-    developer_ergonomics: 75.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 71.8
+    developer_ergonomics: 80.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 61.6
   provenance:
     conformance: first-party
@@ -340,10 +342,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:
 - kind: authentication

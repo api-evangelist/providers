@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Anthropic-compatible messages endpoint.
@@ -184,15 +185,17 @@ overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 32
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 29.6
+  delta: -2.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 12.6
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 12.2
+    developer_ergonomics: 63.7
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 31.8
   provenance:
     conformance: derived
@@ -203,8 +206,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:

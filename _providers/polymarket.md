@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,7 +179,10 @@ rate_limits:
   name: Polymarket Rate Limits
   slug: polymarket-rate-limits
 rules:
-- name: Polymarket API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Polymarket API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -188,14 +192,16 @@ rules:
   slug: polymarket-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 38.6
+  delta: -2.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 65.2
-    developer_ergonomics: 23.9
+    contract_governance: 11.4
+    contract_quality: 61.6
+    developer_ergonomics: 26.2
     discoverability: 81.5
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 41.4
   provenance:
@@ -211,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

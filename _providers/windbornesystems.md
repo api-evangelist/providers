@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 10.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API serving balloon observations, soundings, WeatherMesh point and gridded forecasts, constellation/flight metadata, tropical cyclones, and population-weighted degree-day insights. Bearer API-key
@@ -95,21 +96,23 @@ overview: 'WindBorne Systems publishes 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 121
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 16.8
+  delta: -1.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 18.3
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

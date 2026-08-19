@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -225,7 +225,9 @@ rate_limits:
   name: Signnow Rate Limits
   slug: signnow-rate-limits
 rules:
-- name: SignNow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SignNow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,7 +235,10 @@ rules:
     info: 1
     warn: 4
   slug: signnow-jsonschema-spectral-rules
-- name: SignNow API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: SignNow API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -243,15 +248,17 @@ rules:
   slug: signnow-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 42.8
+  delta: -10.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.9
-    developer_ergonomics: 43.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 9.8
+    contract_quality: 61.7
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 53.3
   provenance:
     agentic_access: derived
@@ -260,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/screenshots/signnow-2026-06-20T193914.png
 security:
 - kind: authentication

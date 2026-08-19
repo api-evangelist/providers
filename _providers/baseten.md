@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -285,7 +286,9 @@ rate_limits:
   name: Baseten Rate Limits
   slug: baseten-rate-limits
 rules:
-- name: Baseten API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Baseten API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -294,16 +297,18 @@ rules:
     warn: 4
   slug: baseten-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -6.2
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 59.7
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -312,9 +317,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/screenshots/baseten-2026-06-20T173126.png
 security:
 - kind: authentication

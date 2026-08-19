@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -537,7 +538,9 @@ rate_limits:
   name: Nanonets Rate Limits
   slug: nanonets-rate-limits
 rules:
-- name: Nanonets API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nanonets API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -545,7 +548,10 @@ rules:
     info: 1
     warn: 4
   slug: nanonets-jsonschema-spectral-rules
-- name: Nanonets API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Nanonets API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -555,14 +561,16 @@ rules:
   slug: nanonets-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 59.6
+  delta: -5.8
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 68.8
-    developer_ergonomics: 67.4
+    contract_governance: 25.0
+    contract_quality: 65.2
+    developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 44.7
   previous_composite: 65.4
   provenance:
@@ -572,9 +580,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
 security:
 - kind: authentication

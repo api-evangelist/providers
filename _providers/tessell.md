@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 api_count: 82
 apis:
 - description: The activity-center API from Tessell — 2 operation(s) for activity-center.
@@ -695,15 +696,17 @@ overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 19
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 41.4
+  delta: -3.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 54.8
-    developer_ergonomics: 62.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 58.3
+    developer_ergonomics: 51.8
     discoverability: 57.4
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 45.0
   provenance:
     conformance: derived
@@ -714,9 +717,10 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:
 - kind: authentication
   name: Tessell Authentication

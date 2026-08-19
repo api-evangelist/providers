@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -204,14 +205,16 @@ overview: 'Fave publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pay
 random_paper: 120
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 44.5
+  delta: 0.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 69.4
-    developer_ergonomics: 51.6
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 66.1
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 43.7
   provenance:
@@ -230,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png
 security:

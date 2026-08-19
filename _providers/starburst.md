@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Public REST API for Starburst Galaxy, secured with the OAuth2 client-credentials flow. Manages clusters, catalogs, users, roles, privileges, access-control policies, tags, row filters, column masks, d
@@ -155,21 +156,23 @@ overview: 'Starburst publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 108
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 36.0
+  delta: 0.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 36.8
+    governance: 4.5
+    operational_transparency: 34.2
   previous_composite: 35.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

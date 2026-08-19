@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,7 +260,9 @@ rate_limits:
   name: Akri Rate Limits
   slug: akri-rate-limits
 rules:
-- name: Akri API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Akri API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -267,7 +270,10 @@ rules:
     info: 2
     warn: 3
   slug: akri-jsonschema-spectral-rules
-- name: Akri API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Akri API Rules
   rule_count: 27
   severity_counts:
     error: 12
@@ -277,14 +283,16 @@ rules:
   slug: akri-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 27.1
+  delta: -8.4
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 28.2
-    developer_ergonomics: 26.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 26.4
+    developer_ergonomics: 28.6
     discoverability: 66.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 39.5
   previous_composite: 35.5
   provenance:
@@ -294,9 +302,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/screenshots/akri-2026-06-20T171456.png
 security:
 - kind: domain-security

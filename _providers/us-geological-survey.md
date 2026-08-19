@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +178,9 @@ rate_limits:
   name: Us Geological Survey Rate Limits
   slug: us-geological-survey-rate-limits
 rules:
-- name: US Geological Survey API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Geological Survey API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,7 +188,10 @@ rules:
     info: 1
     warn: 4
   slug: us-geological-survey-jsonschema-spectral-rules
-- name: US Geological Survey API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: US Geological Survey API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -195,15 +201,17 @@ rules:
   slug: usgs-earthquake-api-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 27.0
+  delta: -7.5
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 61.6
-    developer_ergonomics: 10.9
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 57.7
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -218,9 +226,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:
 - kind: authentication

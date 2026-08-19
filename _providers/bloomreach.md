@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 55.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -442,7 +443,9 @@ rate_limits:
   name: Bloomreach Rate Limits
   slug: bloomreach-rate-limits
 rules:
-- name: Bloomreach API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bloomreach API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -457,27 +460,32 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 87.4
-  delta: 35.7
+  composite: 74.2
+  delta: -13.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 81.6
-    developer_ergonomics: 84.8
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 55.3
+    contract_quality: 76.9
+    developer_ergonomics: 58.3
     discoverability: 87.0
-    governance: 89.6
+    governance: 55.3
     operational_transparency: 81.6
-  previous_composite: 51.7
+  previous_composite: 87.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png
 security:
 - kind: authentication
   name: Bloomreach Authentication

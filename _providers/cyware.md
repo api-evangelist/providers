@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 api_count: 35
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -396,16 +398,18 @@ rate_limits:
   name: Cyware Rate Limits
   slug: cyware-rate-limits
 score:
-  band: developing
-  composite: 55.8
-  delta: 0.0
+  band: strong
+  composite: 57.0
+  delta: 1.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.5
-    developer_ergonomics: 60.3
+    contract_governance: 30.3
+    contract_quality: 62.8
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
   previous_composite: 55.8
   provenance:
     conformance: first-party
@@ -416,8 +420,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:

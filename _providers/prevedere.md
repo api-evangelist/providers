@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: The Alert API from Prevedere — 1 operation(s) for alert.
@@ -246,15 +247,17 @@ overview: 'Prevedere publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 68
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 33.5
+  delta: -1.6
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 41.5
-    developer_ergonomics: 34.2
+    contract_governance: 16.7
+    contract_quality: 39.9
+    developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 0.0
   previous_composite: 35.1
   provenance:
     conformance: derived
@@ -265,8 +268,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

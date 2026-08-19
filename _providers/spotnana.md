@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 51.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 2
@@ -385,15 +386,17 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 123
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 44.2
+  delta: -2.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 68.4
-    developer_ergonomics: 62.5
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 66.5
+    developer_ergonomics: 58.9
     discoverability: 68.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 46.7
   provenance:
     agentic_access: derived
@@ -410,10 +413,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/screenshots/spotnana-2026-08-17T082033.png
 security:
 - kind: authentication
   name: Spotnana Authentication

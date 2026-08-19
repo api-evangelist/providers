@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The ablefy API lets sellers automate access to their store data (orders, products, payments, and customers) using seller-generated access tokens, complemented by webhooks for event notifications. The '
@@ -86,26 +87,28 @@ overview: 'ablefy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   ablefy''s developer surface includes pricing, engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 31
 score:
-  band: emerging
-  composite: 15.7
-  delta: 0.0
+  band: minimal
+  composite: 8.6
+  delta: -7.1
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ablefy/refs/heads/main/screenshots/ablefy-2026-07-25T181353.png
 security:
 - kind: authentication

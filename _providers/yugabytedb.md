@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 55.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -1185,7 +1186,9 @@ rate_limits:
   name: Yugabytedb Rate Limits
   slug: yugabytedb-rate-limits
 rules:
-- name: YugabyteDB API Rules
+- effective_rule_count: 6
+  extends: []
+  name: YugabyteDB API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1193,7 +1196,10 @@ rules:
     info: 1
     warn: 5
   slug: yugabytedb-jsonschema-spectral-rules
-- name: YugabyteDB API Rules
+- effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: YugabyteDB API Rules
   rule_count: 73
   severity_counts:
     error: 17
@@ -1202,15 +1208,17 @@ rules:
     warn: 35
   slug: yugabytedb-spectral-rules
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -9.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 21.8
-    developer_ergonomics: 91.3
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 9.8
+    contract_quality: 22.3
+    developer_ergonomics: 83.3
     discoverability: 75.9
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 44.7
   previous_composite: 59.4
   provenance:
@@ -1220,9 +1228,9 @@ score:
       derived: 73
       marker_coverage: 100.0
       total: 73
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

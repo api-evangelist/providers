@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -621,7 +622,9 @@ rate_limits:
   name: Barndoor Rate Limits
   slug: barndoor-rate-limits
 rules:
-- name: Barndoor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Barndoor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -629,7 +632,10 @@ rules:
     info: 1
     warn: 4
   slug: barndoor-jsonschema-spectral-rules
-- name: Barndoor API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Barndoor API Rules
   rule_count: 21
   severity_counts:
     error: 10
@@ -639,14 +645,16 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 64.7
+  delta: 1.5
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 67.8
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 67.2
+    developer_ergonomics: 52.4
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 63.2
   previous_composite: 63.2
   provenance:
@@ -662,10 +670,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-06-20T173002.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-08-17T083336.png
 security:
 - kind: authentication
   name: Barndoor Authentication

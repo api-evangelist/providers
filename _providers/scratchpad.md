@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
@@ -178,19 +179,24 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.9
-  delta: 18.7
+  composite: 35.2
+  delta: -2.7
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 19.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 37.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Scratchpad Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -139,7 +140,9 @@ rate_limits:
   name: Vishay Intertechnology Rate Limits
   slug: vishay-intertechnology-rate-limits
 rules:
-- name: Vishay Intertechnology API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vishay Intertechnology API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -149,14 +152,16 @@ rules:
   slug: vishay-intertechnology-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.0
+  composite: 17.7
+  delta: -4.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 22.4
   regulatory:
@@ -165,8 +170,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png
 security:

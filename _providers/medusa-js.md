@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -273,16 +274,18 @@ rate_limits:
   name: Medusa Js Rate Limits
   slug: medusa-js-rate-limits
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  delta: -0.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 48.5
-    developer_ergonomics: 32.6
+    contract_governance: 0.0
+    contract_quality: 45.5
+    developer_ergonomics: 35.7
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 50.0
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -291,8 +294,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

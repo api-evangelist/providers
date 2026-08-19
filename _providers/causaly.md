@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Computational access to Causaly's biomedical knowledge graph — 500 million relationships across biomedical concepts (targets, diseases, biomarkers, organ systems) with directional cause-and-effect rel
@@ -102,12 +103,14 @@ score:
   composite: 21.1
   delta: 0.0
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 21.1
   regulatory:
     applies: true
@@ -115,8 +118,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/screenshots/causaly-2026-07-25T204815.png
 security:

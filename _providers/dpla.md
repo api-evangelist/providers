@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,15 +172,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 37.7
+  delta: 1.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.8
-    developer_ergonomics: 30.4
+    contract_governance: 0.0
+    contract_quality: 64.2
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 35.9
   provenance:
     agentic_access: derived
@@ -194,8 +197,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

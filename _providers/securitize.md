@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -218,15 +219,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 45.4
+  delta: 0.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 50.1
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -244,9 +247,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
 security:
 - kind: authentication
   name: Securitize Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -236,7 +237,10 @@ rate_limits:
   name: Deepl Rate Limits
   slug: deepl-rate-limits
 rules:
-- name: DeepL API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: DeepL API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -244,7 +248,9 @@ rules:
     info: 0
     warn: 4
   slug: deepl-asyncapi-spectral-rules
-- name: DeepL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DeepL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +258,10 @@ rules:
     info: 1
     warn: 4
   slug: deepl-jsonschema-spectral-rules
-- name: DeepL API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: DeepL API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -262,14 +271,16 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 50.1
+  delta: -3.5
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 75.4
-    developer_ergonomics: 41.3
+    contract_governance: 26.5
+    contract_quality: 70.6
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 7.9
   previous_composite: 53.6
   provenance:
@@ -279,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:

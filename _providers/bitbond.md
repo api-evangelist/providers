@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Public investor REST API for the Bitbond Offering Manager securities-issuance platform. Covers offerings lookup, orders, checkout/payments, KYC, investor profiles, and GDPR data export/erase. Protecte
@@ -182,15 +182,17 @@ overview: 'Bitbond publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 142
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 45.3
+  delta: -1.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 75.5
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 28.9
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 47.2
   provenance:
     conformance: derived
@@ -202,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbond/refs/heads/main/screenshots/bitbond-2026-07-25T203131.png
 security:

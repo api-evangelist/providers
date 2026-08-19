@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -313,7 +314,9 @@ rate_limits:
   name: Absentify Rate Limits
   slug: absentify-rate-limits
 rules:
-- name: Absentify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Absentify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,7 +324,10 @@ rules:
     info: 2
     warn: 3
   slug: absentify-jsonschema-spectral-rules
-- name: Absentify API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Absentify API Rules
   rule_count: 28
   severity_counts:
     error: 5
@@ -330,16 +336,18 @@ rules:
     warn: 19
   slug: absentify-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: -6.5
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 78.4
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 79.0
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 34.2
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -348,9 +356,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/screenshots/absentify-2026-06-20T163354.png
 security:
 - kind: authentication

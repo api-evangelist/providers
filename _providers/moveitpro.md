@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Client (customer) records. Modeled from the documented MoveitPro Zapier integration, which exposes a "New Client" trigger and a "Create Client" action with name, contact, referral source, and branch a
@@ -84,18 +85,20 @@ overview: 'MoveitPro publishes 4 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 103
 score:
   band: minimal
-  composite: 8.7
-  delta: 0.0
+  composite: 7.0
+  delta: -1.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 2.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveitpro/refs/heads/main/screenshots/moveitpro-2026-08-07T184350.png
 security:

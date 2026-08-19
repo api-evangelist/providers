@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 55.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -240,15 +241,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 64.3
+  delta: -0.7
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 69.1
-    developer_ergonomics: 67.4
+    contract_governance: 30.3
+    contract_quality: 65.6
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 65.0
   provenance:
     agentic_access: derived
@@ -260,9 +263,10 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/screenshots/zillapi-2026-08-17T083106.png
 security:
 - kind: authentication
   name: Zillapi Authentication

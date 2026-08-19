@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -327,7 +328,9 @@ rate_limits:
   name: Smtp2Go Rate Limits
   slug: smtp2go-rate-limits
 rules:
-- name: SMTP2GO API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SMTP2GO API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,32 +340,37 @@ rules:
   slug: smtp2go-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: 26.4
+  composite: 74.1
+  delta: -1.5
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 78.0
-    developer_ergonomics: 80.4
+    contract_governance: 40.2
+    contract_quality: 73.5
+    developer_ergonomics: 63.1
     discoverability: 81.5
-    governance: 79.2
+    governance: 40.2
     operational_transparency: 76.3
-  previous_composite: 49.2
+  previous_composite: 75.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:
 - kind: authentication

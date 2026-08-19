@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -303,7 +304,9 @@ rate_limits:
   name: Incident Io Rate Limits
   slug: incident-io-rate-limits
 rules:
-- name: Incident.io API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Incident.io API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -313,15 +316,17 @@ rules:
   slug: incident-io-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 30.0
+  delta: -7.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 58.0
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 57.8
+    developer_ergonomics: 14.3
     discoverability: 53.7
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 37.7
   provenance:
     agentic_access: derived
@@ -330,9 +335,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/screenshots/incident-io-2026-06-20T183308.png
 security:
 - kind: authentication

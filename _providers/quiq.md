@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.1
-  scored_at: '2026-08-17'
+  score: 7.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -130,20 +131,22 @@ overview: 'Quiq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 1
 score:
   band: thin
-  composite: 28.9
-  delta: 0.0
+  composite: 29.7
+  delta: 0.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 28.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

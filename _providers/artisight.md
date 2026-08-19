@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-17'
+  score: 22.2
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The public WordPress REST API served from artisight.com. It is the marketing/content API for the corporate website — posts, pages, media, taxonomies, case studies and the site route index — not a clin
@@ -144,16 +145,18 @@ scopes:
   slug: artisight-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 26.2
-  delta: 0.0
+  band: thin
+  composite: 26.6
+  delta: 0.4
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 26.2
   provenance:
     conformance: first-party
@@ -163,9 +166,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 53.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 61.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artisight/refs/heads/main/screenshots/artisight-2026-08-07T161741.png
 security:

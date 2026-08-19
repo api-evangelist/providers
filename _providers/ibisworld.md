@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -151,7 +152,9 @@ rate_limits:
   name: Ibisworld Rate Limits
   slug: ibisworld-rate-limits
 rules:
-- name: IBISWorld API Rules
+- effective_rule_count: 0
+  extends: []
+  name: IBISWorld API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -166,14 +169,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 30.5
+  delta: -3.8
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 58.4
-    developer_ergonomics: 28.3
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 54.7
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 10.4
+    governance: 0.0
     operational_transparency: 7.9
   previous_composite: 34.3
   provenance:
@@ -183,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

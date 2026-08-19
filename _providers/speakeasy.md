@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -608,7 +609,9 @@ rate_limits:
   name: Speakeasy Rate Limits
   slug: speakeasy-rate-limits
 rules:
-- name: Speakeasy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Speakeasy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -616,7 +619,10 @@ rules:
     info: 1
     warn: 4
   slug: speakeasy-jsonschema-spectral-rules
-- name: Speakeasy API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Speakeasy API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -625,15 +631,17 @@ rules:
     warn: 5
   slug: speakeasy-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -5.1
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 59.3
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 55.3
   previous_composite: 56.0
   provenance:
@@ -643,9 +651,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/screenshots/speakeasy-2026-08-17T125418.png
 security:
 - kind: authentication
   name: Speakeasy Authentication

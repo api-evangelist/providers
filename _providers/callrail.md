@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -253,27 +254,32 @@ rate_limits:
   name: Callrail Rate Limits
   slug: callrail-rate-limits
 score:
-  band: exemplar
-  composite: 71.7
-  delta: 37.8
+  band: strong
+  composite: 58.7
+  delta: -13.0
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.2
-    developer_ergonomics: 67.4
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 62.9
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 86.8
-  previous_composite: 33.9
+    governance: 30.3
+    operational_transparency: 73.7
+  previous_composite: 71.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/screenshots/callrail-2026-06-20T173850.png
 security:
 - kind: authentication

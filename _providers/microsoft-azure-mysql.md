@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -200,15 +201,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 49.3
+  delta: -1.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 53.7
-    developer_ergonomics: 52.2
-    discoverability: 88.9
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 54.8
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -217,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/screenshots/microsoft-azure-mysql-2026-06-20T185425.png
 security:

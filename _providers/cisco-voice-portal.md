@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -271,6 +272,10 @@ collections:
   name: Cisco Voice Portal VXML Services API
   slug: open-cisco-voice-portal-vxml-services
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -908,7 +913,7 @@ jsonld:
   property_count: 0
   slug: cisco-voice-portal-vxml-services-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-19'
 name: Cisco Voice Portal
 nav: Providers
 network: true
@@ -918,7 +923,7 @@ overview: 'Cisco Voice Portal publishes 24 APIs on the [APIs.io](https://apis.io
   The Cisco Voice Portal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 14 more developer resources.'
+  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 15 more developer resources.'
 plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
@@ -929,7 +934,10 @@ rate_limits:
   name: Cisco Voice Portal Rate Limits
   slug: cisco-voice-portal-rate-limits
 rules:
-- name: Cisco Voice Portal API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Cisco Voice Portal API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -937,7 +945,9 @@ rules:
     info: 1
     warn: 5
   slug: cisco-voice-portal-asyncapi-spectral-rules
-- name: Cisco Voice Portal API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Cisco Voice Portal API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -945,7 +955,10 @@ rules:
     info: 2
     warn: 4
   slug: cisco-voice-portal-jsonschema-spectral-rules
-- name: Cisco Voice Portal API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Cisco Voice Portal API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -954,27 +967,29 @@ rules:
     warn: 7
   slug: cisco-voice-portal-spectral-rules
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: thin
+  composite: 32.4
+  delta: -23.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 68.0
-    developer_ergonomics: 50.0
+    contract_governance: 13.6
+    contract_quality: 30.5
+    developer_ergonomics: 16.7
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 13.6
+    operational_transparency: 23.7
   previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 23
+      marker_coverage: 100.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication

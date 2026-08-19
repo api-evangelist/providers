@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.1
-  scored_at: '2026-08-17'
+  score: 59.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -302,27 +303,32 @@ scopes:
   slug: hightouch-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.6
-  delta: 25.4
+  band: exemplar
+  composite: 69.9
+  delta: 4.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 75.1
-    developer_ergonomics: 82.6
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 30.3
+    contract_quality: 72.8
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 34.2
-  previous_composite: 40.2
+    governance: 30.3
+    operational_transparency: 47.4
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png
 security:
 - kind: authentication

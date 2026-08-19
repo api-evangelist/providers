@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -346,7 +347,9 @@ rate_limits:
   name: Bridge Mls Rate Limits
   slug: bridge-mls-rate-limits
 rules:
-- name: Bridge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bridge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,14 +359,16 @@ rules:
   slug: bridge-mls-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 58.8
+  delta: -2.8
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 68.7
-    developer_ergonomics: 54.3
+    contract_governance: 9.8
+    contract_quality: 67.2
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 47.4
   previous_composite: 61.6
   provenance:
@@ -379,8 +384,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

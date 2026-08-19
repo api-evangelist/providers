@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -388,7 +389,10 @@ rate_limits:
   name: Vercel Rate Limits
   slug: vercel-rate-limits
 rules:
-- name: Vercel API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Vercel API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -396,7 +400,9 @@ rules:
     info: 1
     warn: 5
   slug: vercel-asyncapi-spectral-rules
-- name: Vercel API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vercel API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -404,7 +410,10 @@ rules:
     info: 1
     warn: 4
   slug: vercel-jsonschema-spectral-rules
-- name: Vercel API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Vercel API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -414,15 +423,17 @@ rules:
   slug: vercel-rules
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 56.3
+  delta: -6.1
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 73.9
-    developer_ergonomics: 58.7
+    contract_governance: 13.6
+    contract_quality: 70.7
+    developer_ergonomics: 54.8
     discoverability: 55.6
-    governance: 47.9
-    operational_transparency: 55.3
+    governance: 13.6
+    operational_transparency: 52.6
   previous_composite: 62.4
   provenance:
     agentic_access: derived
@@ -431,9 +442,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:
 - kind: authentication

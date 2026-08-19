@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -253,15 +254,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 34.9
+  delta: -2.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 45.6
-    developer_ergonomics: 26.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
+    contract_quality: 47.0
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -270,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Fleetmatics Reveal API - delivered through the Fleetmatics Integration Manager (FIM) / Reveal Integration Services - exposes REST endpoints for vehicles, drivers, real-time and historical GPS posi
@@ -79,18 +80,26 @@ overview: 'Fleetmatics publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 126
 score:
   band: emerging
-  composite: 13.3
-  delta: 0.0
+  composite: 13.8
+  delta: 0.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 31.0
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 13.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetmatics/refs/heads/main/screenshots/fleetmatics-2026-07-25T214737.png
 security:

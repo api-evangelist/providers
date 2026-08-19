@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 41.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Query and retrieve off-chain VASP due-diligence entities.
@@ -166,15 +167,17 @@ overview: 'Merkle Science publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 74
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 43.4
+  delta: -5.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.7
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 48.6
   provenance:
     conformance: derived
@@ -185,9 +188,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/screenshots/merkle-science-2026-08-07T172608.png
 security:
 - kind: authentication

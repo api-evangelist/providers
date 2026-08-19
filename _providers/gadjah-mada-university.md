@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for "repository civitas UGM", the institutional repository running on EPrints 3. Returns Dublin Core metadata for scholarly works. Verified live via an Identif
@@ -114,11 +115,13 @@ rate_limits:
   slug: gadjah-mada-university-rate-limits
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 17.8
+  delta: -1.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 12.9
+    contract_governance: 0.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
@@ -127,11 +130,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/screenshots/gadjah-mada-university-2026-06-20T181636.png
 security:

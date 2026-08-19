@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -260,7 +261,9 @@ rate_limits:
   name: D Id Rate Limits
   slug: d-id-rate-limits
 rules:
-- name: D-ID API Rules
+- effective_rule_count: 5
+  extends: []
+  name: D-ID API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,16 +272,18 @@ rules:
     warn: 4
   slug: d-id-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  delta: -5.8
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 75.4
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 75.1
+    developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -287,9 +292,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:
 - kind: authentication

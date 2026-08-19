@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,7 +182,9 @@ rate_limits:
   name: Vistra Rate Limits
   slug: vistra-rate-limits
 rules:
-- name: Vistra API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vistra API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,7 +192,10 @@ rules:
     info: 2
     warn: 3
   slug: vistra-jsonschema-spectral-rules
-- name: Vistra API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Vistra API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -198,15 +204,17 @@ rules:
     warn: 7
   slug: vistra-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: -9.6
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 68.7
-    developer_ergonomics: 26.1
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 25.0
+    contract_quality: 65.4
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 44.5
   provenance:
@@ -216,9 +224,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png
 security:
 - kind: authentication

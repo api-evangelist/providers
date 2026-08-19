@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: DS Core is the open cloud platform from Dentsply Sirona that connects dental practices, laboratories, and DSOs through a single web-based experience. The DS Core API enables Practice Management System
@@ -163,18 +164,20 @@ rate_limits:
   slug: dentsply-sirona-rate-limits
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 13.8
+  delta: -3.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 8.1
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 15.2
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 10.4
+    governance: 15.2
     operational_transparency: 5.3
   previous_composite: 17.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/screenshots/dentsply-sirona-2026-06-20T175914.png
 security:

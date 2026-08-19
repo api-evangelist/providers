@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -180,16 +181,18 @@ scopes:
   slug: tsb-bank-scopes
   summary_line: 9 scopes · implicit
 score:
-  band: thin
-  composite: 39.5
-  delta: 0.0
+  band: developing
+  composite: 44.6
+  delta: 5.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 44.6
-    developer_ergonomics: 36.4
+    contract_governance: 30.3
+    contract_quality: 42.8
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 10.5
+    governance: 30.3
+    operational_transparency: 5.3
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -206,10 +209,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 88.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Tsb Bank Authentication

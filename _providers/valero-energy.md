@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Valero Energy Corporation SEC filings and financial data available through the SEC EDGAR system. Includes 10-K, 10-Q, earnings releases, and other regulatory filings. Accessible via the SEC EDGAR API '
@@ -130,7 +131,9 @@ rate_limits:
   name: Valero Energy Rate Limits
   slug: valero-energy-rate-limits
 rules:
-- name: Valero Energy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Valero Energy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -140,14 +143,16 @@ rules:
   slug: valero-energy-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 13.3
+  delta: -8.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 8.1
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 21.4
   regulatory:
@@ -155,10 +160,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 14.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/screenshots/valero-energy-2026-06-20T200749.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -231,14 +232,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 41.3
+  delta: -1.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 59.8
-    developer_ergonomics: 42.9
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 43.1
   provenance:
@@ -251,9 +254,10 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/screenshots/canoe-intelligence-2026-08-17T080804.png
 security:
 - kind: authentication
   name: Canoe Intelligence Authentication

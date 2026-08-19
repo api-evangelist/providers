@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -521,7 +522,9 @@ rate_limits:
   name: Activepieces Rate Limits
   slug: activepieces-rate-limits
 rules:
-- name: Activepieces API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Activepieces API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -529,7 +532,10 @@ rules:
     info: 2
     warn: 3
   slug: activepieces-jsonschema-spectral-rules
-- name: Activepieces API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Activepieces API Rules
   rule_count: 31
   severity_counts:
     error: 10
@@ -538,16 +544,18 @@ rules:
     warn: 16
   slug: activepieces-spectral-rules
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  delta: -6.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 30.8
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 32.3
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -556,9 +564,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:
 - kind: authentication

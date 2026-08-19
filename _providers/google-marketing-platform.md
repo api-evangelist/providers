@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -342,7 +343,9 @@ rate_limits:
   name: Google Marketing Platform Rate Limits
   slug: google-marketing-platform-rate-limits
 rules:
-- name: Google Marketing Platform Admin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Marketing Platform Admin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -350,7 +353,10 @@ rules:
     info: 2
     warn: 3
   slug: google-marketing-platform-jsonschema-spectral-rules
-- name: Google Marketing Platform Admin API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Google Marketing Platform Admin API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -364,27 +370,32 @@ scopes:
   slug: google-marketing-platform-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 12.7
+  band: strong
+  composite: 61.7
+  delta: -6.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 71.9
-    developer_ergonomics: 69.6
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 26.5
+    contract_quality: 69.8
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 79.2
-    operational_transparency: 55.3
-  previous_composite: 55.1
+    governance: 26.5
+    operational_transparency: 76.3
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:
 - kind: authentication

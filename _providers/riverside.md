@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -202,7 +203,10 @@ rate_limits:
   name: Riverside Rate Limits
   slug: riverside-rate-limits
 rules:
-- name: Riverside API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Riverside API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -210,7 +214,9 @@ rules:
     info: 4
     warn: 4
   slug: riverside-business-rules
-- name: Riverside API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Riverside API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,15 +226,17 @@ rules:
   slug: riverside-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 50.1
+  delta: -0.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 71.6
-    developer_ergonomics: 30.4
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 69.7
+    contract_quality: 67.7
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 37.5
-    operational_transparency: 13.2
+    governance: 69.7
+    operational_transparency: 10.5
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -237,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/screenshots/riverside-2026-06-20T193133.png
 security:

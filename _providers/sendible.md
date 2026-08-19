@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
@@ -143,19 +144,23 @@ rate_limits:
   slug: sendible-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 10.1
+  composite: 31.4
+  delta: -2.5
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 33.9
+  provenance:
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendible/refs/heads/main/screenshots/sendible-2026-06-20T193657.png
 security:
 - kind: authentication

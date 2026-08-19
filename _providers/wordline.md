@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 429
   human_in_the_loop: 29
@@ -603,15 +604,17 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 34.0
+  delta: -7.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 53.4
-    developer_ergonomics: 26.1
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 0.0
+    contract_quality: 51.8
+    developer_ergonomics: 26.2
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 41.1
   provenance:
     agentic_access: derived
@@ -625,10 +628,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 53.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Wordline Authentication

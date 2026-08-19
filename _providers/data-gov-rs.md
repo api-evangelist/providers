@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: uData REST API for data.gov.rs, a consistent JSON-over-HTTP interface over a catalog of roughly 3,452 datasets. Standard endpoints under /api/1/ include /datasets/ (search and listing), /organizations
@@ -69,12 +70,14 @@ overview: 'data.gov.rs publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 18
 score:
   band: minimal
-  composite: 9.0
-  delta: 0.0
+  composite: 5.3
+  delta: -3.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
@@ -85,8 +88,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-rs/refs/heads/main/screenshots/data-gov-rs-2026-07-25T211244.png
 security:

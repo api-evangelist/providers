@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -603,15 +604,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 47.9
+  delta: -3.0
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 64.9
-    developer_ergonomics: 51.6
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 66.1
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -623,8 +626,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/screenshots/armor-2026-08-07T161726.png
 security:

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 43.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -351,16 +351,18 @@ rate_limits:
   slug: coactive-rate-limits
 score:
   band: developing
-  composite: 54.2
-  delta: 0.9
+  composite: 39.7
+  delta: -14.5
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
     contract_quality: 56.7
-    developer_ergonomics: 73.4
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 53.3
+    governance: 16.7
+    operational_transparency: 18.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,9 +373,9 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:
 - kind: authentication

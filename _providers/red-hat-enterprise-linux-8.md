@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +240,9 @@ rate_limits:
   name: Red Hat Enterprise Linux 8 Rate Limits
   slug: red-hat-enterprise-linux-8-rate-limits
 rules:
-- name: Red Hat Enterprise Linux 8 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Red Hat Enterprise Linux 8 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +250,10 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-enterprise-linux-8-jsonschema-spectral-rules
-- name: Red Hat Enterprise Linux 8 API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Red Hat Enterprise Linux 8 API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -257,15 +263,17 @@ rules:
   slug: red-hat-enterprise-linux-8-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 49.7
+  delta: -1.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 63.4
-    developer_ergonomics: 32.6
+    access_clarity: 78.6
+    commercial_clarity: 78.6
+    contract_governance: 25.0
+    contract_quality: 59.4
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -274,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -229,16 +230,18 @@ overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
 random_paper: 140
 score:
-  band: developing
-  composite: 48.4
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -10.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 59.7
-    developer_ergonomics: 64.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -255,10 +258,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 35.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:
 - kind: authentication

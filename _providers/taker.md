@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Delivery-integration API connecting restaurants (Taker GO merchants) and delivery service providers (DSPs). Supports order creation, retrieval, cancellation, DSP re-routing, and asynchronous order-sta
@@ -138,20 +139,22 @@ overview: 'Taker publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 88
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 34.6
+  delta: -1.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 35.7
   provenance:
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

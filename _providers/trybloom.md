@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -228,16 +229,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: strong
-  composite: 56.6
-  delta: 2.7
+  composite: 56.1
+  delta: -0.5
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 59.7
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 52.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 42.1
-  previous_composite: 53.9
+    governance: 16.7
+    operational_transparency: 39.5
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,10 +250,11 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/screenshots/trybloom-2026-08-17T082456.png
 security:
 - kind: authentication
   name: Trybloom Authentication

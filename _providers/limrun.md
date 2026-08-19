@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -243,15 +244,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 40.1
+  delta: -6.4
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 40.2
-    developer_ergonomics: 84.8
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 39.5
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -263,9 +266,9 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:
 - kind: authentication

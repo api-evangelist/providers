@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -668,7 +669,9 @@ rate_limits:
   name: Temenos Transact Rate Limits
   slug: temenos-transact-rate-limits
 rules:
-- name: Temenos Transact API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Temenos Transact API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -676,7 +679,10 @@ rules:
     info: 2
     warn: 4
   slug: temenos-transact-jsonschema-spectral-rules
-- name: Temenos Transact API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Temenos Transact API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -686,15 +692,17 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.4
+  delta: -8.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 75.4
-    developer_ergonomics: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 9.8
+    contract_quality: 72.7
+    developer_ergonomics: 40.5
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -708,10 +716,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:
 - kind: authentication

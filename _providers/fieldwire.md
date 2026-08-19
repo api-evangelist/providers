@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -509,7 +510,10 @@ rate_limits:
   name: Fieldwire Rate Limits
   slug: fieldwire-rate-limits
 rules:
-- name: Fieldwire API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Fieldwire API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -517,7 +521,9 @@ rules:
     info: 1
     warn: 5
   slug: fieldwire-asyncapi-spectral-rules
-- name: Fieldwire API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fieldwire API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -525,7 +531,10 @@ rules:
     info: 1
     warn: 4
   slug: fieldwire-jsonschema-spectral-rules
-- name: Fieldwire API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Fieldwire API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -535,14 +544,16 @@ rules:
   slug: fieldwire-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 58.6
+  delta: -5.2
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 76.5
-    developer_ergonomics: 54.3
-    discoverability: 50.0
-    governance: 47.9
+    contract_governance: 13.6
+    contract_quality: 71.7
+    developer_ergonomics: 59.5
+    discoverability: 40.7
+    governance: 13.6
     operational_transparency: 68.4
   previous_composite: 63.8
   provenance:
@@ -552,9 +563,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -339,7 +340,9 @@ rate_limits:
   name: Verisk Rate Limits
   slug: verisk-rate-limits
 rules:
-- name: Verisk API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Verisk API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -347,7 +350,10 @@ rules:
     info: 2
     warn: 4
   slug: verisk-jsonschema-spectral-rules
-- name: Verisk API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Verisk API Rules
   rule_count: 40
   severity_counts:
     error: 18
@@ -357,15 +363,17 @@ rules:
   slug: verisk-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 42.7
+  delta: -7.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 79.1
-    developer_ergonomics: 50.0
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 75.2
+    developer_ergonomics: 54.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -379,11 +387,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png
+    score: 25.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png
 security:
 - kind: authentication
   name: Verisk Authentication

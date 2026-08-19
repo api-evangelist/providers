@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -143,15 +144,17 @@ rate_limits:
   slug: associated-press-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 32.5
+  delta: -0.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.8
-    developer_ergonomics: 28.3
+    contract_governance: 0.0
+    contract_quality: 57.4
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -160,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/screenshots/associated-press-2026-06-20T172505.png
 security:

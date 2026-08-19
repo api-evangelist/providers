@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -172,7 +173,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Bithumb API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bithumb API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -181,16 +184,18 @@ rules:
     warn: 3
   slug: bithumb-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 34.6
+  delta: -9.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 56.1
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 53.0
+    developer_ergonomics: 20.2
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 28.9
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -205,9 +210,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:
 - kind: authentication

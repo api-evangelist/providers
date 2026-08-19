@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -544,15 +545,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 45.1
+  delta: -5.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 60.0
-    developer_ergonomics: 64.7
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 59.5
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -564,10 +567,10 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-07-25T215359.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-08-17T123543.png
 security:
 - kind: authentication
   name: Galileo Technologies Authentication

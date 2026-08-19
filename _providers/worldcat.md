@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -269,7 +270,9 @@ rate_limits:
   name: Worldcat Rate Limits
   slug: worldcat-rate-limits
 rules:
-- name: WorldCat API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WorldCat API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,14 +287,16 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 44.6
+  delta: -7.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.8
-    developer_ergonomics: 21.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 65.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 52.0
   provenance:
@@ -301,9 +306,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png
 security:
 - kind: authentication

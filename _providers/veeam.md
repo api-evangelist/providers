@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 13
@@ -474,7 +475,9 @@ rate_limits:
   name: Veeam Rate Limits
   slug: veeam-rate-limits
 rules:
-- name: Veeam API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Veeam API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -483,15 +486,17 @@ rules:
     warn: 3
   slug: veeam-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.6
-  delta: 0.0
+  band: thin
+  composite: 37.1
+  delta: -7.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 56.0
-    developer_ergonomics: 21.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 56.2
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 44.6
   provenance:
@@ -501,9 +506,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/screenshots/veeam-2026-06-20T200904.png
 security:
 - kind: authentication

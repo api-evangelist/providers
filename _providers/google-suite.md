@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -144,15 +145,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 33.2
+  delta: -2.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 52.5
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 14.3
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 35.4
   provenance:
     agentic_access: derived
@@ -161,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suite/refs/heads/main/screenshots/google-suite-2026-06-20T182235.png
 security:

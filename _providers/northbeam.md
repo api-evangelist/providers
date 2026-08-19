@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 45.8
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: REST API for submitting order and purchase data to Northbeam as the revenue ground truth for multi-touch attribution and media mix modeling. Writes are natural-key upserts on a caller-supplied order_i
@@ -239,20 +240,31 @@ rate_limits:
   name: Northbeam Rate Limits
   slug: northbeam-rate-limits
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 29.8
+  band: strong
+  composite: 65.3
+  delta: -1.7
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 57.5
-    developer_ergonomics: 73.9
+    contract_governance: 45.5
+    contract_quality: 58.7
+    developer_ergonomics: 55.4
     discoverability: 92.6
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 37.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 67.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-17'
+  score: 54.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -340,15 +341,17 @@ scopes:
   summary_line: 34 scopes
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 45.8
+  delta: -8.6
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 67.2
-    developer_ergonomics: 75.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 63.5
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 56.6
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -360,9 +363,10 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/screenshots/socket-2026-08-17T081947.png
 security:
 - kind: authentication
   name: Socket Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -261,16 +262,18 @@ rate_limits:
   name: Paga Rate Limits
   slug: paga-rate-limits
 score:
-  band: developing
-  composite: 55.5
-  delta: 0.0
+  band: strong
+  composite: 58.0
+  delta: 2.5
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 64.2
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 60.2
+    developer_ergonomics: 55.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 55.5
   provenance:
     agentic_access: derived
@@ -287,9 +290,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

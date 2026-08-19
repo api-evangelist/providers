@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 34.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -535,14 +536,16 @@ overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 42
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 32.1
+  delta: -6.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 48.5
-    developer_ergonomics: 47.3
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 45.7
+    developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 39.0
   provenance:
@@ -555,9 +558,9 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Picker Authentication

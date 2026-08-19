@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -896,7 +896,9 @@ rate_limits:
   name: Vantage Rate Limits
   slug: vantage-rate-limits
 rules:
-- name: Vantage API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vantage API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -904,7 +906,10 @@ rules:
     info: 1
     warn: 4
   slug: vantage-jsonschema-spectral-rules
-- name: Vantage API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Vantage API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -913,15 +918,17 @@ rules:
     warn: 9
   slug: vantage-spectral-rules
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  delta: -8.0
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 78.7
-    developer_ergonomics: 76.1
+    contract_governance: 25.0
+    contract_quality: 77.3
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 28.9
   previous_composite: 59.8
   provenance:
@@ -931,9 +938,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:
 - kind: authentication

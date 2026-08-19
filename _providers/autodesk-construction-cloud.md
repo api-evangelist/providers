@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -332,7 +333,10 @@ rate_limits:
   name: Autodesk Construction Cloud Rate Limits
   slug: autodesk-construction-cloud-rate-limits
 rules:
-- name: Autodesk Construction Cloud API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Autodesk Construction Cloud API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -340,7 +344,9 @@ rules:
     info: 0
     warn: 6
   slug: autodesk-construction-cloud-asyncapi-spectral-rules
-- name: Autodesk Construction Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Autodesk Construction Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -355,15 +361,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 50.5
+  delta: -4.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 80.8
-    developer_ergonomics: 47.8
+    contract_governance: 11.4
+    contract_quality: 77.4
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 44.7
+    governance: 11.4
+    operational_transparency: 42.1
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -372,8 +380,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -145,7 +146,9 @@ rate_limits:
   name: Gitlab Container Registry Rate Limits
   slug: gitlab-container-registry-rate-limits
 rules:
-- name: GitLab Container Registry API Rules
+- effective_rule_count: 0
+  extends: []
+  name: GitLab Container Registry API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -160,15 +163,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 35.7
+  delta: -1.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 53.7
-    developer_ergonomics: 28.3
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 31.0
     discoverability: 66.7
-    governance: 10.4
-    operational_transparency: 28.9
+    governance: 0.0
+    operational_transparency: 26.3
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -177,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/screenshots/gitlab-container-registry-2026-06-20T181850.png
 security:

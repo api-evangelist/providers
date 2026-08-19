@@ -15,22 +15,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.1
-  scored_at: '2026-08-17'
+  score: 55.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -250,27 +251,33 @@ rate_limits:
   name: Refuel Ai Rate Limits
   slug: refuel-ai-rate-limits
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 27.6
+  band: strong
+  composite: 65.1
+  delta: -2.2
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 71.6
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 68.2
+    developer_ergonomics: 69.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 39.7
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/screenshots/refuel-ai-2026-08-17T080415.png
 security:
 - kind: authentication
   name: Refuel Ai Authentication

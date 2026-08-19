@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -332,7 +333,9 @@ rate_limits:
   name: Amazon Security Lake Rate Limits
   slug: amazon-security-lake-rate-limits
 rules:
-- name: Amazon Security Lake API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Security Lake API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -340,7 +343,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-security-lake-jsonschema-spectral-rules
-- name: Amazon Security Lake API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Amazon Security Lake API Rules
   rule_count: 27
   severity_counts:
     error: 8
@@ -350,15 +356,17 @@ rules:
   slug: amazon-security-lake-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 50.5
+  delta: -3.9
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 29.2
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 31.1
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -367,8 +375,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/screenshots/amazon-security-lake-2026-06-20T171817.png
 security:

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,16 +202,18 @@ scopes:
   slug: bitfinder-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.1
-  delta: 0.0
+  band: developing
+  composite: 42.5
+  delta: 3.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 14.9
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 14.0
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 39.5
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -228,8 +231,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:

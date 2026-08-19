@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -226,7 +227,9 @@ rate_limits:
   name: Theneo Rate Limits
   slug: theneo-rate-limits
 rules:
-- name: Theneo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Theneo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +237,9 @@ rules:
     info: 2
     warn: 3
   slug: theneo-jsonschema-spectral-rules
-- name: Theneo API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Theneo API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -244,14 +249,16 @@ rules:
   slug: theneo-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 45.7
+  delta: -6.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 73.9
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 69.7
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 52.0
   provenance:
@@ -261,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:
 - kind: authentication

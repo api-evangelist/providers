@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
@@ -236,22 +237,24 @@ rate_limits:
   slug: kudobuzz-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 36.2
+  delta: 0.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 23.7
+    governance: 4.5
+    operational_transparency: 21.1
   previous_composite: 35.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
 security:

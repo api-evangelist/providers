@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -320,7 +321,9 @@ rate_limits:
   name: Alliance Data Systems Rate Limits
   slug: alliance-data-systems-rate-limits
 rules:
-- name: Alliance Data Systems (Bread Financial Holdings) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Alliance Data Systems (Bread Financial Holdings) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,7 +331,10 @@ rules:
     info: 2
     warn: 3
   slug: alliance-data-systems-jsonschema-spectral-rules
-- name: Alliance Data Systems (Bread Financial Holdings) API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Alliance Data Systems (Bread Financial Holdings) API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -336,7 +342,10 @@ rules:
     info: 0
     warn: 2
   slug: bread-classic-merchant-rules
-- name: Alliance Data Systems (Bread Financial Holdings) API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Alliance Data Systems (Bread Financial Holdings) API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -351,15 +360,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 44.3
+  delta: -5.3
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 69.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 65.7
+    developer_ergonomics: 13.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -374,9 +385,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:
 - kind: authentication

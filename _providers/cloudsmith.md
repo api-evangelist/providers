@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -270,7 +271,10 @@ rate_limits:
   name: Cloudsmith Rate Limits
   slug: cloudsmith-rate-limits
 rules:
-- name: Cloudsmith API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Cloudsmith API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -280,14 +284,16 @@ rules:
   slug: cloudsmith-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 46.1
+  delta: -0.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.3
-    developer_ergonomics: 37.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 54.5
+    contract_quality: 56.6
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 27.1
+    governance: 54.5
     operational_transparency: 42.1
   previous_composite: 46.3
   provenance:
@@ -297,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/screenshots/cloudsmith-2026-06-20T174624.png
 security:

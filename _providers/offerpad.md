@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -242,15 +243,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 45.4
+  delta: 1.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 58.2
-    developer_ergonomics: 29.9
+    contract_governance: 30.3
+    contract_quality: 58.1
+    developer_ergonomics: 30.4
     discoverability: 87.0
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -268,10 +277,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-07T190021.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png
 security:
 - kind: authentication
   name: Offerpad Authentication

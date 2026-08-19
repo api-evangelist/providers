@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -328,19 +329,24 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 31.6
-  delta: 19.5
+  composite: 35.9
+  delta: 4.3
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 73.9
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 69.0
     discoverability: 83.3
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 12.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 31.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
 security:
 - kind: authentication

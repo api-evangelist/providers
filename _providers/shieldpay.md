@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -171,15 +172,17 @@ overview: 'Shieldpay publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 69
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 50.7
+  delta: 2.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 39.5
+    governance: 18.2
+    operational_transparency: 36.8
   previous_composite: 48.4
   provenance:
     conformance: first-party
@@ -188,10 +191,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 53.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/screenshots/shieldpay-2026-08-17T081831.png
 security:
 - kind: authentication
   name: Shieldpay Authentication

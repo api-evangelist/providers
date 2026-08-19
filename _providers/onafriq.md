@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Asynchronous payouts designed for Money Transfer Organizations (MTOs) and disbursement partners. Partners create payments to mobile money wallets, cash pickup points, and bank accounts; results are de
@@ -166,16 +167,18 @@ overview: 'Onafriq publishes 9 APIs on the [APIs.io](https://apis.io/) network. 
   Onafriq''s developer surface includes developer portal, documentation, engineering blog, and 20 more developer resources.'
 random_paper: 7
 score:
-  band: emerging
-  composite: 13.3
-  delta: 0.0
+  band: minimal
+  composite: 10.4
+  delta: -2.9
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 13.3
   regulatory:
     applies: true
@@ -183,8 +186,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/screenshots/onafriq-2026-06-20T190708.png
 security:

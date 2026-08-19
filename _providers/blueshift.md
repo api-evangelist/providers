@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Blueshift REST API: 81 operations across 21 resource groups covering customer profiles and privacy operations (create/update, bulk, merge, forget/unforget, delete), event ingestion (single, bulk, '
@@ -180,25 +181,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 65.1
+  delta: 3.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 66.4
-    developer_ergonomics: 52.2
+    contract_governance: 12.1
+    contract_quality: 65.7
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 68.4
+    governance: 12.1
+    operational_transparency: 65.8
   previous_composite: 62.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
 security:
 - kind: authentication
   name: Blueshift Authentication

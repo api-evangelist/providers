@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -1284,7 +1285,10 @@ rate_limits:
   name: Etsy Rate Limits
   slug: etsy-rate-limits
 rules:
-- name: Etsy API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Etsy API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1292,7 +1296,9 @@ rules:
     info: 0
     warn: 6
   slug: etsy-asyncapi-spectral-rules
-- name: Etsy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Etsy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1300,7 +1306,10 @@ rules:
     info: 1
     warn: 4
   slug: etsy-jsonschema-spectral-rules
-- name: Etsy API Rules
+- effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Etsy API Rules
   rule_count: 54
   severity_counts:
     error: 17
@@ -1315,15 +1324,17 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 64.3
+  delta: -0.7
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 79.1
-    developer_ergonomics: 43.5
+    contract_governance: 26.5
+    contract_quality: 75.4
+    developer_ergonomics: 47.6
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 78.9
+    governance: 26.5
+    operational_transparency: 60.5
   previous_composite: 65.0
   provenance:
     agentic_access: derived
@@ -1338,8 +1349,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:

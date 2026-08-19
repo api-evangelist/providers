@@ -14,22 +14,23 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The FastAPI backend behind the Pomo application, published as an OpenAPI 3.1.0 contract at https://api.usepomo.ai/openapi.json with interactive Swagger UI and ReDoc renderings. 924 paths / 994 operati
@@ -128,19 +129,31 @@ rate_limits:
   slug: pomo-rate-limits
 score:
   band: developing
-  composite: 44.3
-  delta: 28.3
+  composite: 41.4
+  delta: -2.9
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 54.5
-    developer_ergonomics: 13.0
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 16.7
+    contract_quality: 53.5
+    developer_ergonomics: 8.9
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 16.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 44.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/screenshots/pomo-2026-08-17T081321.png
 security:
 - kind: authentication
   name: Pomo Authentication

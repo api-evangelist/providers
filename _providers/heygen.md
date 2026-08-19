@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -210,12 +211,14 @@ rate_limits:
   slug: heygen-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 43.2
+  delta: -2.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 60.7
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 56.9
+    developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
@@ -227,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/screenshots/heygen-2026-06-20T182718.png
 security:

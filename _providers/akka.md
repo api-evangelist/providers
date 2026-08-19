@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -195,7 +196,9 @@ rate_limits:
   name: Akka Rate Limits
   slug: akka-rate-limits
 rules:
-- name: Akka API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Akka API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -203,7 +206,10 @@ rules:
     info: 2
     warn: 3
   slug: akka-jsonschema-spectral-rules
-- name: Akka API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Akka API Rules
   rule_count: 16
   severity_counts:
     error: 7
@@ -213,15 +219,17 @@ rules:
   slug: akka-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 35.5
+  delta: -6.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 52.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 49.4
+    developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -230,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/screenshots/akka-2026-06-20T171452.png
 security:
 - kind: domain-security

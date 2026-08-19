@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
@@ -126,7 +127,10 @@ rate_limits:
   name: Civil Infrastructure Platform Rate Limits
   slug: civil-infrastructure-platform-rate-limits
 rules:
-- name: Civil Infrastructure Platform API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Civil Infrastructure Platform API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -136,18 +140,20 @@ rules:
   slug: civil-infrastructure-platform-rules
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 20.1
+  delta: 2.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 2.2
+    contract_governance: 45.5
+    contract_quality: 11.3
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 13.2
   previous_composite: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Single REST surface for publish, subscribe (long-poll), presence, history, signal, and App Context. Pub/Sub key authentication. SDKs available for 50+ languages and platforms.
@@ -120,7 +121,10 @@ rate_limits:
   name: Pubnub Rate Limits
   slug: pubnub-rate-limits
 rules:
-- name: PubNub API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: PubNub API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -130,18 +134,20 @@ rules:
   slug: pubnub-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 34.6
+  delta: -4.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 50.6
-    developer_ergonomics: 26.1
+    contract_governance: 13.6
+    contract_quality: 45.6
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 28.9
   previous_composite: 39.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/screenshots/pubnub-2026-06-20T192250.png
 security:

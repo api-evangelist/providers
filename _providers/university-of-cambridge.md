@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,7 +195,9 @@ rate_limits:
   name: University Of Cambridge Rate Limits
   slug: university-of-cambridge-rate-limits
 rules:
-- name: University of Cambridge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Cambridge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -202,7 +205,10 @@ rules:
     info: 2
     warn: 3
   slug: university-of-cambridge-jsonschema-spectral-rules
-- name: University of Cambridge API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: University of Cambridge API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -211,15 +217,17 @@ rules:
     warn: 3
   slug: university-of-cambridge-rules
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -5.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 65.7
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 63.1
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 42.8
   provenance:
@@ -229,9 +237,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -228,7 +229,10 @@ rate_limits:
   name: Uniblock Rate Limits
   slug: uniblock-rate-limits
 rules:
-- name: Uniblock API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Uniblock API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -236,7 +240,9 @@ rules:
     info: 0
     warn: 8
   slug: uniblock-asyncapi-spectral-rules
-- name: Uniblock API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Uniblock API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -244,7 +250,10 @@ rules:
     info: 2
     warn: 4
   slug: uniblock-jsonschema-spectral-rules
-- name: Uniblock API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Uniblock API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -253,15 +262,17 @@ rules:
     warn: 4
   slug: uniblock-rules
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -9.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 75.8
-    developer_ergonomics: 41.3
-    discoverability: 72.2
-    governance: 52.1
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 26.5
+    contract_quality: 72.2
+    developer_ergonomics: 23.8
+    discoverability: 64.8
+    governance: 26.5
     operational_transparency: 7.9
   previous_composite: 47.5
   provenance:
@@ -271,9 +282,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
 security:
 - kind: authentication

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -557,7 +558,9 @@ rate_limits:
   name: Apis Io Rate Limits
   slug: apis-io-rate-limits
 rules:
-- name: APIs.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APIs.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -565,7 +568,10 @@ rules:
     info: 2
     warn: 3
   slug: apis-io-jsonschema-spectral-rules
-- name: APIs.io API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: APIs.io API Rules
   rule_count: 42
   severity_counts:
     error: 13
@@ -574,16 +580,18 @@ rules:
     warn: 23
   slug: apis-io-spectral-rules
 score:
-  band: exemplar
-  composite: 71.1
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: -7.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 76.1
-    developer_ergonomics: 78.3
+    contract_governance: 41.7
+    contract_quality: 73.0
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 80.2
-    operational_transparency: 50.0
+    governance: 41.7
+    operational_transparency: 47.4
   previous_composite: 71.1
   provenance:
     agentic_access: derived
@@ -592,12 +600,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:
 - kind: authentication

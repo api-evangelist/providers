@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -189,14 +190,16 @@ rate_limits:
   slug: interos-rate-limits
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 42.4
+  delta: -0.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 57.6
-    developer_ergonomics: 38.6
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 36.8
   previous_composite: 43.3
   provenance:
@@ -209,8 +212,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.9
-  scored_at: '2026-08-17'
+  score: 28.8
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Queue-backed batch inference and worker coordination.
@@ -180,15 +181,17 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 59
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 47.3
+  delta: 0.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 51.6
-    developer_ergonomics: 51.6
+    contract_governance: 30.3
+    contract_quality: 49.7
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 46.4
   provenance:
     conformance: first-party
@@ -199,9 +202,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/screenshots/tensorwave-2026-08-17T082314.png
 security:
 - kind: authentication
   name: Tensorwave Authentication

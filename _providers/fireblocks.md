@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -752,7 +753,9 @@ rate_limits:
   name: Fireblocks Rate Limits
   slug: fireblocks-rate-limits
 rules:
-- name: fireblocks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: fireblocks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -761,15 +764,17 @@ rules:
     warn: 3
   slug: fireblocks-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.8
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: -4.8
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 67.8
-    developer_ergonomics: 67.4
+    contract_governance: 9.8
+    contract_quality: 66.7
+    developer_ergonomics: 73.8
     discoverability: 66.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 68.4
   previous_composite: 68.8
   provenance:
@@ -779,8 +784,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

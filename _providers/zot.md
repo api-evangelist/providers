@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -127,15 +128,23 @@ rate_limits:
   slug: zot-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 22.9
+  delta: -0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 40.7
+    contract_governance: 0.0
+    contract_quality: 38.4
     developer_ergonomics: 0.0
     discoverability: 44.4
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 23.8
   provenance:
     agentic_access: derived
@@ -144,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/screenshots/zot-2026-06-20T201959.png
 slug: zot

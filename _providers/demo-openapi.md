@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 24.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Index of HTTP application programming interfaces.
@@ -112,7 +113,10 @@ rate_limits:
   name: Demo Openapi Rate Limits
   slug: demo-openapi-rate-limits
 rules:
-- name: Manage OpenAPI via GitHub Demo API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Manage OpenAPI via GitHub Demo API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -122,14 +126,16 @@ rules:
   slug: apis-io-search-api-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 34.6
+  delta: 0.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.2
+    contract_governance: 60.6
+    contract_quality: 65.0
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 52.1
+    governance: 60.6
     operational_transparency: 7.9
   previous_composite: 34.1
   provenance:
@@ -138,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/screenshots/demo-openapi-2026-06-20T175908.png
 security:

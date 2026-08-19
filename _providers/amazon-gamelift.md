@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -4830,7 +4831,9 @@ rate_limits:
   name: Amazon Gamelift Rate Limits
   slug: amazon-gamelift-rate-limits
 rules:
-- name: Amazon GameLift API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon GameLift API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4838,7 +4841,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-gamelift-jsonschema-spectral-rules
-- name: Amazon GameLift API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Amazon GameLift API Rules
   rule_count: 21
   severity_counts:
     error: 7
@@ -4847,16 +4853,18 @@ rules:
     warn: 11
   slug: amazon-gamelift-spectral-rules
 score:
-  band: strong
-  composite: 58.4
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -5.1
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 58.7
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 64.3
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -4865,9 +4873,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 104
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png
 security:
 - kind: authentication

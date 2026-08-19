@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
@@ -97,7 +98,9 @@ rate_limits:
   name: Github Cli Rate Limits
   slug: github-cli-rate-limits
 rules:
-- name: GitHub CLI API Rules
+- effective_rule_count: 0
+  extends: []
+  name: GitHub CLI API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -107,18 +110,20 @@ rules:
   slug: github-cli-rules
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 13.9
+  delta: -1.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 40.7
-    governance: 10.4
-    operational_transparency: 39.5
+    governance: 0.0
+    operational_transparency: 36.8
   previous_composite: 15.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/screenshots/github-cli-2026-06-20T181836.png
 slug: github-cli

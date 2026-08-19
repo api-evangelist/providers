@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -346,7 +347,9 @@ rate_limits:
   name: Uwa Rate Limits
   slug: uwa-rate-limits
 rules:
-- name: University of Western Australia API Rules
+- effective_rule_count: 6
+  extends: []
+  name: University of Western Australia API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -354,7 +357,10 @@ rules:
     info: 2
     warn: 4
   slug: uwa-jsonschema-spectral-rules
-- name: University of Western Australia API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: University of Western Australia API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -363,15 +369,17 @@ rules:
     warn: 3
   slug: uwa-rules
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 62.3
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 60.4
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 43.1
   provenance:
@@ -381,9 +389,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:
 - kind: authentication

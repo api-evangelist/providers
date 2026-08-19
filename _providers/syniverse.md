@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -266,15 +267,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 53.4
+  delta: 2.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 59.2
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 56.4
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -291,10 +294,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 66.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/screenshots/syniverse-2026-08-17T082233.png
 security:
 - kind: authentication
   name: Syniverse Authentication

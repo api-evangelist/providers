@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,15 +179,17 @@ overview: 'DeSci Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 89
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 48.9
+  delta: 2.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 50.6
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 48.1
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -198,8 +201,14 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/screenshots/desci-labs-2026-07-25T211750.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-17'
+  score: 19.4
+  scored_at: '2026-08-19'
 api_count: 37
 apis:
 - description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
@@ -358,15 +359,17 @@ overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 29
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 33.6
+  delta: 0.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 50.8
-    developer_ergonomics: 10.3
+    contract_governance: 16.7
+    contract_quality: 51.9
+    developer_ergonomics: 8.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 33.4
   provenance:
     conformance: derived
@@ -377,8 +380,8 @@ score:
       total: 37
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
 security:

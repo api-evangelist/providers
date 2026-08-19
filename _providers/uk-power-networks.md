@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -279,15 +280,17 @@ rate_limits:
   slug: uk-power-networks-rate-limits
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 63.9
+  delta: 7.7
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 56.7
-    developer_ergonomics: 73.4
+    contract_governance: 45.5
+    contract_quality: 55.2
+    developer_ergonomics: 78.0
     discoverability: 87.0
-    governance: 31.3
-    operational_transparency: 60.5
+    governance: 45.5
+    operational_transparency: 57.9
   previous_composite: 56.2
   provenance:
     agentic_access: derived
@@ -300,9 +303,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
 security:
 - kind: authentication
   name: Uk Power Networks Authentication

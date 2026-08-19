@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,15 +115,17 @@ overview: 'Benepass is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 104
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 18.8
+  delta: -3.9
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 22.7
   regulatory:
     applies: true
@@ -130,8 +133,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benepass/refs/heads/main/screenshots/benepass-2026-07-25T202727.png
 security:

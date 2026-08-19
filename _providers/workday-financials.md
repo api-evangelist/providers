@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -559,7 +560,9 @@ rate_limits:
   name: Workday Financials Rate Limits
   slug: workday-financials-rate-limits
 rules:
-- name: Workday Financials API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Workday Financials API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -567,7 +570,10 @@ rules:
     info: 2
     warn: 4
   slug: workday-financials-jsonschema-spectral-rules
-- name: Workday Financials API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Workday Financials API Rules
   rule_count: 12
   severity_counts:
     error: 5
@@ -576,16 +582,18 @@ rules:
     warn: 6
   slug: workday-financials-rules
 score:
-  band: developing
-  composite: 47.4
-  delta: 0.0
+  band: thin
+  composite: 34.3
+  delta: -13.1
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 68.7
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 64.8
+    developer_ergonomics: 2.4
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 5.3
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -594,9 +602,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-financials/refs/heads/main/screenshots/workday-financials-2026-06-20T201558.png
 security:
 - kind: authentication

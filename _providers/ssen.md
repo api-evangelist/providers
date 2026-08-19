@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,15 +211,17 @@ rate_limits:
   slug: ssen-rate-limits
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 49.7
+  delta: 4.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.7
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -232,9 +234,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/screenshots/ssen-2026-08-17T082055.png
 security:
 - kind: authentication
   name: Ssen Authentication

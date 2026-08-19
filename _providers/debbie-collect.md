@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -200,7 +201,9 @@ rate_limits:
   name: Debbie Collect Rate Limits
   slug: debbie-collect-rate-limits
 rules:
-- name: Debbie Collect API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Debbie Collect API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +211,10 @@ rules:
     info: 1
     warn: 4
   slug: debbie-collect-jsonschema-spectral-rules
-- name: Debbie Collect API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Debbie Collect API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -218,14 +224,16 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 37.6
+  delta: -4.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 70.9
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 23.7
   previous_composite: 41.7
   provenance:
@@ -241,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:

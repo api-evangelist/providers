@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 22.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -571,7 +572,9 @@ rate_limits:
   name: Gmx Rate Limits
   slug: gmx-rate-limits
 rules:
-- name: GMX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GMX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -581,14 +584,16 @@ rules:
   slug: gmx-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 35.4
+  delta: -5.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 49.7
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 47.6
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 40.4
   provenance:
@@ -604,9 +609,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:
 - kind: domain-security

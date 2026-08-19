@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -220,15 +221,17 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 random_paper: 57
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 60.4
+  delta: 2.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.5
-    developer_ergonomics: 69.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 65.1
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -246,8 +249,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:

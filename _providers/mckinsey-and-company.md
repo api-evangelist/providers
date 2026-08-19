@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 21
 common:
@@ -246,18 +247,20 @@ rate_limits:
   slug: mckinsey-and-company-rate-limits
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 26.7
+  delta: -2.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 12.9
-    developer_ergonomics: 2.2
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 29.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

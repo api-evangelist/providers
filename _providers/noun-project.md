@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -327,7 +328,9 @@ rate_limits:
   name: Noun Project Rate Limits
   slug: noun-project-rate-limits
 rules:
-- name: Noun Project API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Noun Project API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -335,7 +338,10 @@ rules:
     info: 1
     warn: 4
   slug: noun-project-jsonschema-spectral-rules
-- name: Noun Project API Rules
+- effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Noun Project API Rules
   rule_count: 49
   severity_counts:
     error: 18
@@ -344,16 +350,18 @@ rules:
     warn: 24
   slug: noun-project-rules
 score:
-  band: developing
-  composite: 45.4
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -9.8
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 23.9
-    developer_ergonomics: 17.4
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 22.7
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -362,9 +370,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/screenshots/noun-project-2026-06-20T190429.png
 security:
 - kind: authentication

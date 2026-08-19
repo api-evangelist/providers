@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 54.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 941
   human_in_the_loop: 3
@@ -331,7 +332,9 @@ rate_limits:
   name: Lytics Rate Limits
   slug: lytics-rate-limits
 rules:
-- name: Lytics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lytics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -341,26 +344,26 @@ rules:
   slug: lytics-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 79.2
-  delta: 27.9
+  composite: 66.5
+  delta: -12.7
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 75.0
-    developer_ergonomics: 76.1
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 41.7
+    contract_quality: 69.3
+    developer_ergonomics: 65.5
     discoverability: 87.0
-    governance: 89.6
-    operational_transparency: 44.7
-  previous_composite: 51.3
+    governance: 41.7
+    operational_transparency: 34.2
+  previous_composite: 79.2
   provenance:
     agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/screenshots/lytics-2026-06-20T184816.png
 security:
 - kind: authentication

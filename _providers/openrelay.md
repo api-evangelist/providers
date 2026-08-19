@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -297,16 +298,18 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
 random_paper: 81
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: -5.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.6
-    developer_ergonomics: 69.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 60.2
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 56.7
   provenance:
     conformance: derived
@@ -317,9 +320,9 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:
 - kind: authentication

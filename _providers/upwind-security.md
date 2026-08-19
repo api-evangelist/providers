@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 53.4
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -257,15 +258,17 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 48.1
+  delta: -7.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.7
-    developer_ergonomics: 60.9
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 61.4
+    developer_ergonomics: 28.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 55.7
   provenance:
     conformance: first-party
@@ -276,9 +279,10 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/upwind-security/refs/heads/main/screenshots/upwind-security-2026-08-17T082645.png
 security:
 - kind: authentication
   name: Upwind Security Authentication

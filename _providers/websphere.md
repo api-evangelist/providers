@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -1670,7 +1671,9 @@ rate_limits:
   name: Websphere Rate Limits
   slug: websphere-rate-limits
 rules:
-- name: IBM WebSphere API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IBM WebSphere API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1678,7 +1681,10 @@ rules:
     info: 2
     warn: 3
   slug: websphere-jsonschema-spectral-rules
-- name: IBM WebSphere API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: IBM WebSphere API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -1687,16 +1693,18 @@ rules:
     warn: 8
   slug: websphere-spectral-rules
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 54.2
+  delta: -5.6
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 72.8
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 70.1
+    developer_ergonomics: 69.0
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -1705,9 +1713,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:
 - kind: authentication

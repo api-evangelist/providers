@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 14.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Lingco Classroom is registered in an LMS as an IMS/1EdTech LTI 1.3 tool. The platform performs an OIDC third-party-initiated login against Lingco's initiation endpoint, launches into the target link U
@@ -118,21 +119,29 @@ overview: 'Lingco Language Labs publishes 1 API on the [APIs.io](https://apis.io
   Lingco Language Labs'' developer surface includes documentation, support, authentication, and 14 more developer resources.'
 random_paper: 43
 score:
-  band: emerging
-  composite: 24.6
-  delta: 0.0
+  band: thin
+  composite: 28.0
+  delta: 3.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 35.7
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 24.6
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingco-language-labs/refs/heads/main/screenshots/lingco-language-labs-2026-07-25T225237.png
 security:

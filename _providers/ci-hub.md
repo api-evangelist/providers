@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 33.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The HTTP API a partner platform calls to embed CI HUB's DAM connectivity in its own product. A partner backend signs an RS256 JWT and exchanges it at POST /auth/exchangeToken for a CI HUB access token
@@ -165,19 +166,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.9
-  delta: 0.0
+  composite: 58.3
+  delta: 1.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 57.3
-    developer_ergonomics: 60.9
+    contract_governance: 30.3
+    contract_quality: 59.3
+    developer_ergonomics: 61.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 26.3
+    governance: 30.3
+    operational_transparency: 23.7
   previous_composite: 56.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png
 security:
 - kind: authentication
   name: Ci Hub Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -267,7 +268,9 @@ rate_limits:
   name: Samsung Rate Limits
   slug: samsung-rate-limits
 rules:
-- name: Samsung API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Samsung API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +278,10 @@ rules:
     info: 2
     warn: 3
   slug: samsung-jsonschema-spectral-rules
-- name: Samsung API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Samsung API Rules
   rule_count: 13
   severity_counts:
     error: 3
@@ -285,15 +291,17 @@ rules:
   slug: samsung-rules
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 35.5
+  delta: -5.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
+    contract_governance: 25.0
     contract_quality: 67.5
-    developer_ergonomics: 21.7
+    developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -302,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:
 - kind: authentication

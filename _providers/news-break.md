@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -182,14 +183,16 @@ rate_limits:
   slug: news-break-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 50.5
+  delta: 0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.1
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 60.1
+    developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 47.4
   previous_composite: 49.6
   provenance:
@@ -202,8 +205,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

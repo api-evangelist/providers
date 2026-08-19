@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 49.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -503,7 +504,10 @@ rate_limits:
   name: Fal Ai Rate Limits
   slug: fal-ai-rate-limits
 rules:
-- name: fal API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: fal API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -511,7 +515,9 @@ rules:
     info: 0
     warn: 7
   slug: fal-ai-asyncapi-spectral-rules
-- name: fal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: fal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -519,7 +525,10 @@ rules:
     info: 1
     warn: 4
   slug: fal-ai-jsonschema-spectral-rules
-- name: fal API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: fal API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -529,15 +538,17 @@ rules:
   slug: fal-ai-rules
 score:
   band: exemplar
-  composite: 76.0
-  delta: 0.0
+  composite: 69.3
+  delta: -6.7
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 80.7
-    developer_ergonomics: 80.4
+    contract_governance: 28.0
+    contract_quality: 77.0
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 53.1
-    operational_transparency: 68.4
+    governance: 28.0
+    operational_transparency: 50.0
   previous_composite: 76.0
   provenance:
     agentic_access: derived
@@ -548,9 +559,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -479,7 +480,10 @@ rate_limits:
   name: Pandadoc Rate Limits
   slug: pandadoc-rate-limits
 rules:
-- name: PandaDoc API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: PandaDoc API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -487,7 +491,9 @@ rules:
     info: 0
     warn: 7
   slug: pandadoc-asyncapi-spectral-rules
-- name: PandaDoc API Rules
+- effective_rule_count: 6
+  extends: []
+  name: PandaDoc API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -502,15 +508,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 45.4
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 80.4
-    developer_ergonomics: 39.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 11.4
+    contract_quality: 79.6
+    developer_ergonomics: 41.7
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -519,9 +527,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/screenshots/pandadoc-2026-06-20T191334.png
 security:
 - kind: authentication

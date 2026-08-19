@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 24.8
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Raw punch records across a date range
@@ -109,14 +110,16 @@ overview: 'Workwell Technologies publishes 3 APIs on the [APIs.io](https://apis.
 random_paper: 130
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 31.7
+  delta: -4.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 64.2
-    developer_ergonomics: 23.9
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 12.1
+    contract_quality: 61.5
+    developer_ergonomics: 21.4
     discoverability: 92.6
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 0.0
   previous_composite: 35.8
   provenance:
@@ -126,8 +129,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 slug: workwell-technologies
 tags:

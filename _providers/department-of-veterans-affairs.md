@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -315,7 +316,9 @@ rate_limits:
   name: Department Of Veterans Affairs Rate Limits
   slug: department-of-veterans-affairs-rate-limits
 rules:
-- name: Department of Veterans Affairs (VA) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Department of Veterans Affairs (VA) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -323,7 +326,9 @@ rules:
     info: 2
     warn: 3
   slug: department-of-veterans-affairs-jsonschema-spectral-rules
-- name: Department of Veterans Affairs (VA) API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Department of Veterans Affairs (VA) API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -338,15 +343,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 36.0
+  delta: -5.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 66.9
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 28.6
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -361,9 +368,9 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png
 security:
 - kind: authentication

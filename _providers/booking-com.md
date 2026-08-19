@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 41.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -302,7 +303,9 @@ rate_limits:
   name: Booking Com Rate Limits
   slug: booking-com-rate-limits
 rules:
-- name: booking-com API Rules
+- effective_rule_count: 6
+  extends: []
+  name: booking-com API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -312,15 +315,17 @@ rules:
   slug: booking-com-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 30.7
+  delta: -6.8
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 72.5
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 14.3
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -329,9 +334,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:
 - kind: authentication

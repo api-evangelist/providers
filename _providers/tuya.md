@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -234,7 +235,9 @@ rate_limits:
   name: Tuya Rate Limits
   slug: tuya-rate-limits
 rules:
-- name: Tuya API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tuya API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,7 +245,10 @@ rules:
     info: 1
     warn: 4
   slug: tuya-jsonschema-spectral-rules
-- name: Tuya API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Tuya API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -251,16 +257,18 @@ rules:
     warn: 7
   slug: tuya-rules
 score:
-  band: developing
-  composite: 52.6
-  delta: 0.0
+  band: thin
+  composite: 36.5
+  delta: -16.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 66.4
-    developer_ergonomics: 54.3
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 62.7
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 52.6
   provenance:
     agentic_access: derived
@@ -269,9 +277,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/screenshots/tuya-2026-06-20T195841.png
 security:
 - kind: authentication

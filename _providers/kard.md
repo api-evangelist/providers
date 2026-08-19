@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -311,16 +312,18 @@ scopes:
   slug: kard-scopes
   summary_line: 13 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.6
-  delta: 0.0
+  band: strong
+  composite: 55.8
+  delta: 2.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 66.4
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 64.1
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -338,8 +341,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

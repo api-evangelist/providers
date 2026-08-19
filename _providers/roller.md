@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -176,16 +177,18 @@ rate_limits:
   name: Roller Rate Limits
   slug: roller-rate-limits
 score:
-  band: developing
-  composite: 52.9
-  delta: 0.0
+  band: strong
+  composite: 55.4
+  delta: 2.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 65.8
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 52.9
   provenance:
     conformance: first-party
@@ -194,10 +197,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/screenshots/roller-2026-08-17T081633.png
 security:
 - kind: authentication
   name: Roller Authentication

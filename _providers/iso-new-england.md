@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -293,16 +294,18 @@ overview: 'ISO New England publishes 1 API on the [APIs.io](https://apis.io/) ne
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 36 more developer resources.'
 random_paper: 139
 score:
-  band: developing
-  composite: 48.6
-  delta: 0.0
+  band: strong
+  composite: 55.9
+  delta: 7.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 67.2
-    developer_ergonomics: 56.0
+    contract_governance: 31.8
+    contract_quality: 65.7
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 21.9
-    operational_transparency: 26.3
+    governance: 31.8
+    operational_transparency: 23.7
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -319,10 +322,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 51.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png
 security:
 - kind: authentication

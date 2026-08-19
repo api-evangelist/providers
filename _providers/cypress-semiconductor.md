@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -211,7 +212,9 @@ rate_limits:
   name: Cypress Semiconductor Rate Limits
   slug: cypress-semiconductor-rate-limits
 rules:
-- name: Cypress Semiconductor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cypress Semiconductor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,7 +222,10 @@ rules:
     info: 2
     warn: 3
   slug: cypress-semiconductor-jsonschema-spectral-rules
-- name: Cypress Semiconductor API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Cypress Semiconductor API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -229,19 +235,21 @@ rules:
   slug: cypress-semiconductor-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 27.9
+  delta: -9.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 17.7
-    developer_ergonomics: 23.9
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 37.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
 security:
 - kind: domain-security

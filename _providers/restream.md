@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -231,7 +232,9 @@ rate_limits:
   name: Restream Rate Limits
   slug: restream-rate-limits
 rules:
-- name: Restream API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Restream API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,7 +242,10 @@ rules:
     info: 2
     warn: 3
   slug: restream-jsonschema-spectral-rules
-- name: Restream API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Restream API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -253,16 +259,18 @@ scopes:
   slug: restream-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.4
-  delta: 0.0
+  band: thin
+  composite: 36.3
+  delta: -14.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.1
-    developer_ergonomics: 26.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 62.4
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -271,9 +279,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png
 security:
 - kind: authentication

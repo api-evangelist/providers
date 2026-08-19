@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 31.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -162,7 +163,10 @@ overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   Mattermost''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
 random_paper: 61
 rules:
-- name: Mattermost API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Mattermost API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -172,15 +176,17 @@ rules:
   slug: mattermost-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 36.5
+  delta: -5.1
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 57.6
-    developer_ergonomics: 39.1
+    contract_governance: 11.4
+    contract_quality: 57.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 5.3
+    governance: 11.4
+    operational_transparency: 2.6
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -189,9 +195,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/screenshots/mattermost-2026-06-20T185042.png
 security:
 - kind: authentication

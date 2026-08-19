@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing Skytap environments (configurations), VMs, networks, templates, users, projects, assets and webhooks. v2 adds filtering, sorting and pagination; v1 remains for operations not yet
@@ -157,16 +158,18 @@ overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   Skytap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
 random_paper: 72
 score:
-  band: thin
-  composite: 40.3
-  delta: 0.0
+  band: developing
+  composite: 40.0
+  delta: -0.3
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 40.3
   provenance:
     conformance: first-party
@@ -176,9 +179,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 29.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 23.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

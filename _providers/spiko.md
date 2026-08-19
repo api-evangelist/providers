@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -376,16 +377,18 @@ scopes:
   slug: spiko-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: strong
+  composite: 58.0
+  delta: 2.9
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 65.3
-    developer_ergonomics: 62.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 63.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -403,9 +406,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/screenshots/spiko-2026-08-17T082026.png
 security:
 - kind: authentication
   name: Spiko Authentication

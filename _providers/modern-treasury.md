@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -880,7 +881,9 @@ rate_limits:
   name: Modern Treasury Rate Limits
   slug: modern-treasury-rate-limits
 rules:
-- name: Modern Treasury API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Modern Treasury API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -890,15 +893,17 @@ rules:
   slug: modern-treasury-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 42.0
+  delta: -6.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 56.8
-    developer_ergonomics: 21.7
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 36.8
+    contract_governance: 9.8
+    contract_quality: 57.8
+    developer_ergonomics: 17.9
+    discoverability: 64.8
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -913,9 +918,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:
 - kind: authentication

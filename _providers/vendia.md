@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Every Vendia project (Uni) is provisioned with an auto-generated GraphQL API derived from its JSON Schema data model — get_X / list_XItems / list_XVersions queries and add_X / create_X / put_X / updat
@@ -220,23 +221,26 @@ scopes:
   slug: vendia-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.0
+  band: strong
+  composite: 64.3
+  delta: -3.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 80.4
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 78.6
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 86.8
+    governance: 18.2
+    operational_transparency: 84.2
   previous_composite: 67.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/screenshots/vendia-2026-08-17T080436.png
 security:
 - kind: authentication
   name: Vendia Authentication

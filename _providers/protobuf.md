@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Protocol Buffers (protobuf) is Google''s language-neutral, platform-neutral extensible mechanism for serializing structured data, providing a code generation engine that produces efficient data access '
@@ -82,19 +83,21 @@ rate_limits:
   name: Protobuf Rate Limits
   slug: protobuf-rate-limits
 score:
-  band: minimal
-  composite: 12.1
-  delta: 0.0
+  band: emerging
+  composite: 11.9
+  delta: -0.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 12.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protobuf/refs/heads/main/screenshots/protobuf-2026-06-20T192219.png
 security:

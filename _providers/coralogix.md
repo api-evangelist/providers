@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
@@ -93,7 +94,10 @@ rate_limits:
   name: Coralogix Rate Limits
   slug: coralogix-rate-limits
 rules:
-- name: Coralogix API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Coralogix API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -102,20 +106,22 @@ rules:
     warn: 6
   slug: coralogix-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 30.0
-  delta: 0.0
+  band: emerging
+  composite: 23.7
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 50.6
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 45.6
+    developer_ergonomics: 11.9
     discoverability: 40.7
-    governance: 52.1
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
   previous_composite: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/screenshots/coralogix-2026-06-20T175022.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 74.1
-  scored_at: '2026-08-17'
+  score: 70.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -266,28 +267,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 45.3
+  delta: -3.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 57.1
-    developer_ergonomics: 58.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 30.3
+    contract_quality: 57.7
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 48.4
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
 security:

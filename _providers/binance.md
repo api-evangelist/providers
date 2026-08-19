@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-17'
+  score: 46.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -472,7 +473,10 @@ rate_limits:
   name: Binance Rate Limits
   slug: binance-rate-limits
 rules:
-- name: Binance API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Binance API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -480,7 +484,9 @@ rules:
     info: 1
     warn: 4
   slug: binance-asyncapi-spectral-rules
-- name: Binance API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Binance API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -488,7 +494,10 @@ rules:
     info: 2
     warn: 3
   slug: binance-jsonschema-spectral-rules
-- name: Binance API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Binance API Rules
   rule_count: 30
   severity_counts:
     error: 8
@@ -498,15 +507,17 @@ rules:
   slug: binance-spectral-rules
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 41.8
+  delta: -2.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 70.6
-    developer_ergonomics: 45.7
+    contract_governance: 28.8
+    contract_quality: 67.3
+    developer_ergonomics: 50.0
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 28.8
+    operational_transparency: 10.5
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -521,8 +532,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

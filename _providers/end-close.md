@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 46.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -222,14 +223,16 @@ overview: 'End Close publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 145
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 37.3
+  delta: 0.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 63.6
-    developer_ergonomics: 21.7
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 16.7
+    contract_quality: 63.2
+    developer_ergonomics: 21.4
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 18.4
   previous_composite: 37.2
   provenance:
@@ -247,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: 'The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S. cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal training (EFTI-certified), '
@@ -123,10 +124,12 @@ overview: 'Equinox Holdings publishes 8 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 39
 score:
   band: minimal
-  composite: 12.5
-  delta: 0.0
+  composite: 8.6
+  delta: -3.9
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 74.1
@@ -138,9 +141,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 12.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinox-holdings/refs/heads/main/screenshots/equinox-holdings-2026-06-20T180804.png
 security:

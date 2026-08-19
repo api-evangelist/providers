@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -327,12 +328,14 @@ rate_limits:
   slug: portainer-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 31.4
+  delta: -1.3
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 51.7
-    developer_ergonomics: 32.6
+    developer_ergonomics: 26.2
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 13.2
@@ -344,8 +347,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:

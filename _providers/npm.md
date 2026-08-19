@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -302,7 +303,10 @@ rate_limits:
   name: Npm Rate Limits
   slug: npm-rate-limits
 rules:
-- name: npm API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: npm API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -310,7 +314,9 @@ rules:
     info: 1
     warn: 4
   slug: npm-asyncapi-spectral-rules
-- name: npm API Rules
+- effective_rule_count: 6
+  extends: []
+  name: npm API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -320,14 +326,16 @@ rules:
   slug: npm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 51.3
+  delta: -3.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 79.1
-    developer_ergonomics: 39.1
+    contract_governance: 13.6
+    contract_quality: 77.9
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 39.5
   previous_composite: 55.0
   provenance:
@@ -337,8 +345,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
 security:

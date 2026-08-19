@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: The OpenAPI Specification (formerly Swagger) is the dominant industry standard for describing HTTP-based RESTful APIs. OAS describes endpoints, operations, parameters, request/response schemas, authen
@@ -236,7 +237,9 @@ overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io
   The API Specifications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 random_paper: 2
 rules:
-- name: API Specifications API Rules
+- effective_rule_count: 5
+  extends: []
+  name: API Specifications API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -246,19 +249,21 @@ rules:
   slug: specifications-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 15.7
+  delta: -6.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_governance: 25.0
+    contract_quality: 19.7
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 22.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/screenshots/specifications-2026-06-20T194256.png
 security:
 - kind: domain-security

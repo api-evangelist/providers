@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,7 +161,9 @@ rate_limits:
   name: Imperial College London Rate Limits
   slug: imperial-college-london-rate-limits
 rules:
-- name: Imperial College London API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Imperial College London API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,7 +171,9 @@ rules:
     info: 2
     warn: 3
   slug: imperial-college-london-jsonschema-spectral-rules
-- name: Imperial College London API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Imperial College London API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -178,14 +183,16 @@ rules:
   slug: imperial-college-london-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 29.8
+  delta: -7.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.5
+    contract_governance: 9.8
+    contract_quality: 56.2
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 37.3
   provenance:
@@ -195,9 +202,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/screenshots/imperial-college-london-2026-06-20T183255.png
 security:
 - kind: domain-security

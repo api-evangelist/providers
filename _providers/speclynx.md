@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -150,7 +151,9 @@ rate_limits:
   name: Speclynx Rate Limits
   slug: speclynx-rate-limits
 rules:
-- name: SpecLynx API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SpecLynx API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,19 +163,27 @@ rules:
   slug: speclynx-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 18.4
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 24.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/speclynx/refs/heads/main/screenshots/speclynx-2026-06-20T194256.png
 security:
 - kind: domain-security

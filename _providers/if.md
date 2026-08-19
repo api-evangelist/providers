@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Single REST API for the Integrated Finance platform — clients, users, real / virtual / shared-pool accounts, bank transfers, currency exchanges, card issuing and processing, beneficiary verification, '
@@ -171,15 +172,17 @@ scopes:
   summary_line: 11 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 51.1
+  delta: 1.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 51.2
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 50.1
   provenance:
     conformance: first-party
@@ -189,9 +192,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 75.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
 security:

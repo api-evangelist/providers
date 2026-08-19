@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -199,7 +200,9 @@ rate_limits:
   name: Sitefinity Cms Rate Limits
   slug: sitefinity-cms-rate-limits
 rules:
-- name: Sitefinity CMS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sitefinity CMS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -207,7 +210,10 @@ rules:
     info: 2
     warn: 3
   slug: sitefinity-cms-jsonschema-spectral-rules
-- name: Sitefinity CMS API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Sitefinity CMS API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -216,16 +222,18 @@ rules:
     warn: 4
   slug: sitefinity-cms-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -5.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 68.7
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -234,9 +242,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/screenshots/sitefinity-cms-2026-06-20T194001.png
 security:
 - kind: authentication

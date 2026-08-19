@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +172,9 @@ rate_limits:
   name: Containerd Rate Limits
   slug: containerd-rate-limits
 rules:
-- name: Containerd API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Containerd API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -179,7 +182,10 @@ rules:
     info: 2
     warn: 4
   slug: containerd-jsonschema-spectral-rules
-- name: Containerd API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Containerd API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -189,15 +195,17 @@ rules:
   slug: containerd-rules
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 30.9
+  delta: -9.8
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 64.9
-    developer_ergonomics: 23.9
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 23.8
     discoverability: 63.0
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -206,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/screenshots/containerd-2026-06-20T174921.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +195,10 @@ rate_limits:
   name: Tomcat Rate Limits
   slug: tomcat-rate-limits
 rules:
-- name: Apache Tomcat API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Apache Tomcat API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -204,14 +208,16 @@ rules:
   slug: tomcat-rules
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 39.0
+  delta: 2.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 60.2
-    developer_ergonomics: 19.6
+    contract_governance: 54.5
+    contract_quality: 56.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 27.1
+    governance: 54.5
     operational_transparency: 34.2
   previous_composite: 36.3
   provenance:
@@ -221,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/screenshots/tomcat-2026-06-20T195439.png
 security:

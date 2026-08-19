@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 31.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -208,16 +209,18 @@ overview: 'Signadot publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 112
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: strong
+  composite: 55.0
+  delta: -0.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 56.0
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 54.5
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -229,9 +232,10 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/screenshots/signadot-2026-08-17T081851.png
 security:
 - kind: authentication
   name: Signadot Authentication

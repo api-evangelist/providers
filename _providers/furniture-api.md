@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -92,12 +93,14 @@ rate_limits:
   slug: furniture-api-rate-limits
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 24.2
+  delta: -1.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 56.0
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 4.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
@@ -109,8 +112,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/screenshots/furniture-api-2026-06-20T181622.png
 slug: furniture-api

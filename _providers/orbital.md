@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -175,7 +176,9 @@ rate_limits:
   name: Orbital Rate Limits
   slug: orbital-rate-limits
 rules:
-- name: Orbital API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Orbital API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,14 +188,16 @@ rules:
   slug: orbital-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 34.3
+  delta: -5.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 64.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 11.9
     discoverability: 63.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 40.0
   provenance:
@@ -202,9 +207,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/screenshots/orbital-2026-06-20T191159.png
 security:
 - kind: domain-security

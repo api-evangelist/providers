@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -144,7 +145,9 @@ rate_limits:
   name: La Trobe University Rate Limits
   slug: la-trobe-university-rate-limits
 rules:
-- name: La Trobe University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: La Trobe University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -152,7 +155,9 @@ rules:
     info: 1
     warn: 4
   slug: la-trobe-university-jsonschema-spectral-rules
-- name: La Trobe University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: La Trobe University API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -162,14 +167,16 @@ rules:
   slug: la-trobe-university-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 31.7
+  delta: -4.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 68.7
+    contract_governance: 9.8
+    contract_quality: 66.4
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 36.4
   provenance:
@@ -182,11 +189,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:

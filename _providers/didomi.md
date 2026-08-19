@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -733,7 +733,9 @@ rate_limits:
   name: Didomi Rate Limits
   slug: didomi-rate-limits
 rules:
-- name: Didomi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Didomi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -741,7 +743,10 @@ rules:
     info: 1
     warn: 4
   slug: didomi-jsonschema-spectral-rules
-- name: Didomi API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Didomi API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -751,26 +756,31 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 85.4
-  delta: 16.8
+  composite: 78.2
+  delta: -7.2
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 77.2
-    developer_ergonomics: 93.5
+    contract_governance: 55.3
+    contract_quality: 76.6
+    developer_ergonomics: 80.4
     discoverability: 57.4
-    governance: 89.6
-    operational_transparency: 84.2
-  previous_composite: 68.6
+    governance: 55.3
+    operational_transparency: 81.6
+  previous_composite: 85.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:
 - kind: authentication

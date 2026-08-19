@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,7 +201,9 @@ rate_limits:
   name: Dartmouth Rate Limits
   slug: dartmouth-rate-limits
 rules:
-- name: Dartmouth College API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dartmouth College API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +211,9 @@ rules:
     info: 2
     warn: 3
   slug: dartmouth-jsonschema-spectral-rules
-- name: Dartmouth College API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Dartmouth College API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -218,14 +223,16 @@ rules:
   slug: dartmouth-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 35.4
+  delta: -4.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 56.1
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 52.8
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 39.6
   provenance:
@@ -238,11 +245,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png
 security:

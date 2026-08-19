@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -404,7 +405,10 @@ rate_limits:
   name: Ramp Rate Limits
   slug: ramp-rate-limits
 rules:
-- name: Ramp API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Ramp API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -412,7 +416,9 @@ rules:
     info: 0
     warn: 4
   slug: ramp-asyncapi-spectral-rules
-- name: Ramp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ramp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -420,7 +426,10 @@ rules:
     info: 1
     warn: 4
   slug: ramp-jsonschema-spectral-rules
-- name: Ramp API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Ramp API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -434,16 +443,18 @@ scopes:
   slug: ramp-scopes
   summary_line: 12 scopes · clientCredentials
 score:
-  band: strong
-  composite: 61.1
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -7.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 78.1
-    developer_ergonomics: 39.1
+    contract_governance: 26.5
+    contract_quality: 73.8
+    developer_ergonomics: 7.1
     discoverability: 81.5
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 18.4
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -458,9 +469,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:
 - kind: authentication

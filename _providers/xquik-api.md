@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 95.9
-  scored_at: '2026-08-17'
+  score: 84.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -377,7 +378,9 @@ rate_limits:
   name: Xquik Rate Limits
   slug: xquik-rate-limits
 rules:
-- name: Xquik API Rules
+- effective_rule_count: 20
+  extends: []
+  name: Xquik API Rules
   rule_count: 20
   severity_counts:
     error: 15
@@ -392,29 +395,32 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 89.7
-  delta: 0.0
+  composite: 92.8
+  delta: 3.1
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 82.1
+    contract_governance: 100.0
+    contract_quality: 80.9
     developer_ergonomics: 100.0
     discoverability: 100.0
-    governance: 68.8
-    operational_transparency: 84.2
+    governance: 100.0
+    operational_transparency: 81.6
   previous_composite: 89.7
   provenance:
     agentic_access: unknown
-    conformance: unknown
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
       total: 1
     mcp: first-party
-    skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:
 - kind: authentication
   name: Xquik Api Authentication

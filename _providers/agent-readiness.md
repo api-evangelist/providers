@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: An open JSON-RPC protocol that lets AI agents talk to tools, resources, and prompts through a uniform server surface. MCP is the most direct expression of "an API designed for an agent" — every API su
@@ -194,7 +195,9 @@ overview: 'Agent Readiness publishes 3 APIs on the [APIs.io](https://apis.io/) n
   Agent Readiness'' developer surface includes documentation and 9 more developer resources.'
 random_paper: 40
 rules:
-- name: Agent Readiness API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agent Readiness API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -203,20 +206,22 @@ rules:
     warn: 3
   slug: agent-readiness-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.0
-  delta: 0.0
+  band: emerging
+  composite: 25.7
+  delta: -7.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 59.7
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 52.1
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 33.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-readiness/refs/heads/main/screenshots/agent-readiness-2026-06-20T165921.png
 security:
 - kind: domain-security

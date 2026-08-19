@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -425,7 +426,9 @@ rate_limits:
   name: Advance Auto Parts Rate Limits
   slug: advance-auto-parts-rate-limits
 rules:
-- name: Advance Auto Parts API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Advance Auto Parts API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -433,7 +436,10 @@ rules:
     info: 2
     warn: 3
   slug: advance-auto-parts-jsonschema-spectral-rules
-- name: Advance Auto Parts API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: Advance Auto Parts API Rules
   rule_count: 38
   severity_counts:
     error: 16
@@ -447,16 +453,18 @@ scopes:
   slug: advance-auto-parts-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 49.1
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -10.8
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 74.6
-    developer_ergonomics: 26.1
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 9.8
+    contract_quality: 70.5
+    developer_ergonomics: 25.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -465,9 +473,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:
 - kind: authentication

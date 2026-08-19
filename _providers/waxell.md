@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -331,7 +332,9 @@ rate_limits:
   name: Waxell Rate Limits
   slug: waxell-rate-limits
 rules:
-- name: Waxell API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Waxell API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -339,7 +342,10 @@ rules:
     info: 1
     warn: 4
   slug: waxell-jsonschema-spectral-rules
-- name: Waxell API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Waxell API Rules
   rule_count: 14
   severity_counts:
     error: 5
@@ -349,14 +355,16 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 60.0
+  delta: -1.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 73.4
-    developer_ergonomics: 50.0
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 25.0
+    contract_quality: 69.5
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 57.9
   previous_composite: 61.1
   provenance:
@@ -372,8 +380,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:

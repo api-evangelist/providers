@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -432,7 +433,9 @@ rate_limits:
   name: Adobe Illustrator Rate Limits
   slug: adobe-illustrator-rate-limits
 rules:
-- name: Adobe Illustrator API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adobe Illustrator API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -440,7 +443,10 @@ rules:
     info: 2
     warn: 3
   slug: adobe-illustrator-jsonschema-spectral-rules
-- name: Adobe Illustrator API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Adobe Illustrator API Rules
   rule_count: 20
   severity_counts:
     error: 14
@@ -450,14 +456,16 @@ rules:
   slug: adobe-illustrator-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 46.2
+  delta: -6.2
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 59.9
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 56.4
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 55.3
   previous_composite: 52.4
   provenance:
@@ -467,9 +475,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
 security:
 - kind: domain-security

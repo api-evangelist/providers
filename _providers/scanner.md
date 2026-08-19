@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -227,14 +227,16 @@ overview: 'Scanner publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 1
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 41.7
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 24.7
-    developer_ergonomics: 64.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 26.8
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 23.7
   previous_composite: 44.9
   provenance:
@@ -247,9 +249,10 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/screenshots/scanner-2026-08-17T081732.png
 security:
 - kind: authentication
   name: Scanner Authentication

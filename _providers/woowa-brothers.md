@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,20 +87,22 @@ overview: 'Woowa Brothers is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 134
 score:
   band: minimal
-  composite: 11.1
-  delta: 0.0
+  composite: 9.9
+  delta: -1.2
   facets:
-    commercial_clarity: 7.9
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 11.1
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

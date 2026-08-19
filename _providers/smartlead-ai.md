@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 50.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -289,27 +290,32 @@ rate_limits:
   name: Smartlead Ai Rate Limits
   slug: smartlead-ai-rate-limits
 score:
-  band: exemplar
-  composite: 68.0
-  delta: 20.1
+  band: strong
+  composite: 64.0
+  delta: -4.0
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 70.5
-    developer_ergonomics: 73.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 16.7
+    contract_quality: 68.1
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 50.0
-  previous_composite: 47.9
+    governance: 16.7
+    operational_transparency: 42.1
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/screenshots/smartlead-ai-2026-06-20T194043.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -194,15 +195,17 @@ rate_limits:
   slug: nylas-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 35.7
+  delta: -2.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.9
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 48.6
+    developer_ergonomics: 23.8
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 13.2
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -211,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:

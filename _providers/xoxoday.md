@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -203,12 +204,14 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 38.3
+  delta: -1.9
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 68.2
-    developer_ergonomics: 21.7
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 65.4
+    developer_ergonomics: 17.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -226,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/screenshots/xoxoday-2026-06-20T201711.png
 security:

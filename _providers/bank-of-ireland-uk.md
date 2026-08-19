@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -194,14 +195,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 45.7
+  delta: 2.5
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 53.0
-    developer_ergonomics: 47.3
+    contract_governance: 30.3
+    contract_quality: 51.2
+    developer_ergonomics: 28.0
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 23.7
   previous_composite: 43.2
   provenance:
@@ -219,9 +222,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 82.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

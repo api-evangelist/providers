@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 47.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST API over Daloopa''s fundamental dataset — company discovery, fundamental series and values, calendar/fiscal period handling, taxonomy metrics and industry templates, SEC document lookup, document '
@@ -177,25 +179,37 @@ rate_limits:
   slug: daloopa-rate-limits
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 46.9
+  delta: -3.5
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 63.8
-    developer_ergonomics: 47.8
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 34.5
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 50.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
 security:
 - kind: authentication
   name: Daloopa Authentication

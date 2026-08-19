@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -257,7 +258,9 @@ rate_limits:
   name: Affinity Rate Limits
   slug: affinity-rate-limits
 rules:
-- name: Affinity API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Affinity API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -267,14 +270,16 @@ rules:
   slug: affinity-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 50.1
+  delta: -5.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 68.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 65.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 55.4
   provenance:
@@ -284,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/screenshots/affinity-2026-06-20T165626.png
 security:
 - kind: authentication

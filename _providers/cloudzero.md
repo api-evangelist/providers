@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -262,7 +263,9 @@ rate_limits:
   name: Cloudzero Rate Limits
   slug: cloudzero-rate-limits
 rules:
-- name: CloudZero API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CloudZero API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -270,7 +273,10 @@ rules:
     info: 1
     warn: 4
   slug: cloudzero-jsonschema-spectral-rules
-- name: CloudZero API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: CloudZero API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -280,15 +286,17 @@ rules:
   slug: cloudzero-rules
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 44.5
+  delta: -10.6
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 76.1
-    developer_ergonomics: 34.8
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 9.8
+    contract_quality: 74.8
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -297,9 +305,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/screenshots/cloudzero-2026-06-20T174620.png
 security:
 - kind: authentication

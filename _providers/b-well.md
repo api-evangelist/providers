@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -274,16 +275,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.9
-  delta: 3.6
+  composite: 58.4
+  delta: -3.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.1
-    developer_ergonomics: 75.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 59.1
+    developer_ergonomics: 48.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 55.3
-  previous_composite: 58.3
+    governance: 30.3
+    operational_transparency: 31.6
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -300,8 +303,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:

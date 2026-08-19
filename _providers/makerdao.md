@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,20 +114,22 @@ overview: 'MakerDAO is profiled on the [APIs.io](https://apis.io/) network. Tagg
   MakerDAO''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 12 more developer resources.'
 random_paper: 91
 score:
-  band: emerging
-  composite: 18.4
-  delta: 0.0
+  band: minimal
+  composite: 10.9
+  delta: -7.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 19.0
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 10.5
   previous_composite: 18.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerdao/refs/heads/main/screenshots/makerdao-2026-07-25T225943.png
 security:
 - kind: domain-security

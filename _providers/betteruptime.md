@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -205,7 +206,9 @@ rate_limits:
   name: Betteruptime Rate Limits
   slug: betteruptime-rate-limits
 rules:
-- name: Better Uptime API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Better Uptime API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,15 +218,17 @@ rules:
   slug: betteruptime-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 46.6
+  delta: -6.9
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 65.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -232,9 +237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/screenshots/betteruptime-2026-06-20T173208.png
 security:
 - kind: authentication

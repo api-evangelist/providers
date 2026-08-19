@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -199,7 +200,9 @@ rate_limits:
   name: June Rate Limits
   slug: june-rate-limits
 rules:
-- name: June API Rules
+- effective_rule_count: 5
+  extends: []
+  name: June API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,15 +212,17 @@ rules:
   slug: june-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 46.3
+  delta: -6.9
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 72.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -226,9 +231,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/screenshots/june-2026-06-20T183828.png
 security:
 - kind: authentication

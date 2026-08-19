@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-17'
+  score: 26.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The only live, anonymously callable machine-readable surface in FLO's estate. FLO's hardware and accessories store runs on Shopify, and that platform serves a Model Context Protocol server at https://
@@ -182,14 +183,16 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 29.7
+  delta: -3.2
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 36.4
+    developer_ergonomics: 30.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 32.9
   provenance:
@@ -201,9 +204,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 63.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 56.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/screenshots/flo-ev-2026-08-07T165350.png
 security:

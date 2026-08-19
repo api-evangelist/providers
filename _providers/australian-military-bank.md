@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -191,14 +192,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 37.1
+  delta: 3.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 13.1
-    developer_ergonomics: 34.2
+    contract_governance: 30.3
+    contract_quality: 12.8
+    developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 18.4
   previous_composite: 33.5
   provenance:
@@ -215,9 +218,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 77.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:

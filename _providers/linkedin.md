@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -3062,7 +3063,9 @@ rate_limits:
   name: Linkedin Rate Limits
   slug: linkedin-rate-limits
 rules:
-- name: LinkedIn API Rules
+- effective_rule_count: 5
+  extends: []
+  name: LinkedIn API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3070,7 +3073,10 @@ rules:
     info: 2
     warn: 3
   slug: linkedin-jsonschema-spectral-rules
-- name: LinkedIn API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: LinkedIn API Rules
   rule_count: 28
   severity_counts:
     error: 15
@@ -3085,28 +3091,31 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 79.0
-  delta: 14.7
+  composite: 75.3
+  delta: -3.7
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 83.3
-    developer_ergonomics: 87.0
+    contract_governance: 55.3
+    contract_quality: 80.2
+    developer_ergonomics: 87.5
     discoverability: 87.0
-    governance: 80.2
+    governance: 55.3
     operational_transparency: 71.1
-  previous_composite: 64.3
+  previous_composite: 79.0
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 64
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:
 - kind: authentication

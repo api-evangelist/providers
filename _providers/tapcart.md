@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -238,15 +238,17 @@ overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 6
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 55.1
+  delta: -3.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 63.3
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 59.3
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 59.0
   provenance:
     conformance: derived
@@ -257,9 +259,10 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/screenshots/tapcart-2026-08-17T082251.png
 security:
 - kind: authentication
   name: Tapcart Authentication

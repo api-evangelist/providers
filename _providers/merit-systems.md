@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -220,15 +220,17 @@ overview: 'Merit Systems publishes 6 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 41
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 53.7
+  delta: 2.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 57.1
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 53.5
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -246,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/screenshots/merit-systems-2026-08-07T172603.png
 security:

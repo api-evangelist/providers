@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -181,15 +182,17 @@ scopes:
   summary_line: 63 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 54.0
+  delta: 2.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 52.6
+    governance: 4.5
+    operational_transparency: 50.0
   previous_composite: 52.0
   provenance:
     conformance: derived
@@ -199,9 +202,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/screenshots/shopline-2026-08-17T081839.png
 security:
 - kind: authentication
   name: Shopline Authentication

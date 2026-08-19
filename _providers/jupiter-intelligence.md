@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Enterprise API for Jupiter's ClimateScore Global platform, delivering physical and extreme-weather climate risk metrics across perils, scenarios, and time horizons. Access is gated behind a commercial
@@ -86,18 +87,20 @@ overview: 'Jupiter Intelligence publishes 1 API on the [APIs.io](https://apis.io
 random_paper: 146
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 18.3
+  delta: 0.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-intelligence/refs/heads/main/screenshots/jupiter-intelligence-2026-07-25T223332.png
 security:

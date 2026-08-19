@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 30.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -231,15 +232,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 40.3
+  delta: -3.0
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 55.2
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 52.8
+    developer_ergonomics: 9.5
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -248,8 +251,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-07-25T201641.png
 security:

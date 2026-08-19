@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 api_count: 42
 apis:
 - description: Agent configuration management
@@ -400,15 +401,17 @@ overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 89
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 49.3
+  delta: -3.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 53.2
-    developer_ergonomics: 64.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 52.0
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 52.7
   provenance:
     conformance: derived
@@ -419,8 +422,8 @@ score:
       total: 42
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:

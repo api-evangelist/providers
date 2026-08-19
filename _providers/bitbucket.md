@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -445,7 +446,10 @@ rate_limits:
   name: Bitbucket Rate Limits
   slug: bitbucket-rate-limits
 rules:
-- name: Bitbucket API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Bitbucket API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -453,7 +457,9 @@ rules:
     info: 0
     warn: 6
   slug: bitbucket-asyncapi-spectral-rules
-- name: Bitbucket API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bitbucket API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -461,7 +467,10 @@ rules:
     info: 1
     warn: 4
   slug: bitbucket-jsonschema-spectral-rules
-- name: Bitbucket API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Bitbucket API Rules
   rule_count: 22
   severity_counts:
     error: 8
@@ -476,15 +485,17 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 50.4
+  delta: -3.8
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 78.6
-    developer_ergonomics: 30.4
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 26.5
+    contract_quality: 78.9
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -493,8 +504,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:

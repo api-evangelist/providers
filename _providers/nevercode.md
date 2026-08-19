@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -258,15 +259,17 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 61
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 49.9
+  delta: -2.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 57.4
-    developer_ergonomics: 62.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 55.7
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -278,8 +281,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/screenshots/nevercode-2026-08-07T185044.png
 security:

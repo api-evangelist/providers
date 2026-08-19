@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 42.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -261,7 +262,9 @@ rate_limits:
   name: Google Drive Rate Limits
   slug: google-drive-rate-limits
 rules:
-- name: Google Drive API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Drive API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +272,10 @@ rules:
     info: 2
     warn: 3
   slug: google-drive-jsonschema-spectral-rules
-- name: Google Drive API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Google Drive API Rules
   rule_count: 18
   severity_counts:
     error: 11
@@ -284,15 +290,17 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 42.4
+  delta: -8.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 64.9
-    developer_ergonomics: 39.1
+    contract_governance: 26.5
+    contract_quality: 64.3
+    developer_ergonomics: 33.3
     discoverability: 87.0
-    governance: 69.8
-    operational_transparency: 42.1
+    governance: 26.5
+    operational_transparency: 23.7
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -303,10 +311,10 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:
 - kind: authentication
   name: Google Drive Authentication

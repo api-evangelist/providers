@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 64.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -291,15 +292,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 55.4
+  delta: -3.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.9
-    developer_ergonomics: 78.3
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 59.7
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -311,9 +314,10 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/screenshots/bria-2026-08-17T080703.png
 security:
 - kind: authentication
   name: Bria Authentication

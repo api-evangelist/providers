@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -122,16 +123,18 @@ overview: 'OPNsense publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   OPNsense''s developer surface includes authentication, documentation, and 8 more developer resources.'
 random_paper: 130
 score:
-  band: emerging
-  composite: 27.6
-  delta: 0.0
+  band: thin
+  composite: 26.8
+  delta: -0.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 59.0
-    developer_ergonomics: 23.9
+    contract_governance: 0.0
+    contract_quality: 55.2
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 27.6
   provenance:
     agentic_access: derived
@@ -140,8 +143,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/screenshots/opnsense-2026-06-20T191103.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -146,16 +147,24 @@ overview: 'Valon is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   Valon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 17 more developer resources.'
 random_paper: 97
 score:
-  band: thin
-  composite: 34.1
-  delta: 0.0
+  band: developing
+  composite: 42.1
+  delta: 8.0
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 73.9
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 71.4
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 34.1
   provenance:
     conformance: first-party
@@ -166,9 +175,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Valon Authentication

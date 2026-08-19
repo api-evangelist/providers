@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 35.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -248,15 +249,17 @@ rate_limits:
   name: Flipturn Rate Limits
   slug: flipturn-rate-limits
 score:
-  band: developing
-  composite: 50.5
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: 6.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.7
-    developer_ergonomics: 56.0
+    contract_governance: 30.3
+    contract_quality: 60.0
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 36.8
   previous_composite: 50.5
   provenance:
@@ -275,9 +278,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:
 - kind: authentication

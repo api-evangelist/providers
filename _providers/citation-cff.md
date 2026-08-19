@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -141,7 +142,9 @@ rate_limits:
   name: Citation Cff Rate Limits
   slug: citation-cff-rate-limits
 rules:
-- name: Citation File Format API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Citation File Format API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -149,7 +152,9 @@ rules:
     info: 2
     warn: 3
   slug: citation-cff-jsonschema-spectral-rules
-- name: Citation File Format API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Citation File Format API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -159,19 +164,27 @@ rules:
   slug: citation-cff-rules
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 19.7
+  delta: -7.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 29.0
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 25.4
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 27.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/screenshots/citation-cff-2026-06-20T174407.png
 security:
 - kind: domain-security

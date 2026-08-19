@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -651,7 +652,9 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
 random_paper: 62
 rules:
-- name: Wiktionary API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Wiktionary API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -659,7 +662,10 @@ rules:
     info: 1
     warn: 5
   slug: wiktionary-jsonschema-spectral-rules
-- name: Wiktionary API Rules
+- effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Wiktionary API Rules
   rule_count: 47
   severity_counts:
     error: 14
@@ -674,15 +680,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 47.2
+  delta: -5.1
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 30.9
-    developer_ergonomics: 67.4
+    contract_governance: 25.0
+    contract_quality: 29.1
+    developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -697,9 +705,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -385,7 +386,9 @@ rate_limits:
   name: Microsoft Edge Rate Limits
   slug: microsoft-edge-rate-limits
 rules:
-- name: Microsoft Edge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Edge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -393,7 +396,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-edge-jsonschema-spectral-rules
-- name: Microsoft Edge API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Microsoft Edge API Rules
   rule_count: 32
   severity_counts:
     error: 15
@@ -403,15 +409,17 @@ rules:
   slug: microsoft-edge-spectral-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 39.6
+  delta: -8.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 29.1
-    developer_ergonomics: 45.7
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 27.3
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -420,9 +428,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:
 - kind: authentication

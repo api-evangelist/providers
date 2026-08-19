@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 49.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -549,7 +550,9 @@ rate_limits:
   name: Sumup Rate Limits
   slug: sumup-rate-limits
 rules:
-- name: SumUp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SumUp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -564,14 +567,16 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 48.2
+  delta: -2.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 61.0
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 62.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 57.9
   previous_composite: 50.4
   provenance:
@@ -587,8 +592,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:

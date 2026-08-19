@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 41.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,15 +185,17 @@ rate_limits:
   name: Food Info Rate Limits
   slug: food-info-rate-limits
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: developing
+  composite: 41.5
+  delta: 3.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 56.7
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 37.5
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 38.0
   provenance:
@@ -211,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

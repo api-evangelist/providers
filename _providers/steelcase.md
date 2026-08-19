@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 22.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -204,7 +205,9 @@ rate_limits:
   name: Steelcase Rate Limits
   slug: steelcase-rate-limits
 rules:
-- name: Steelcase API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Steelcase API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,7 +215,10 @@ rules:
     info: 1
     warn: 4
   slug: steelcase-jsonschema-spectral-rules
-- name: Steelcase API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Steelcase API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -222,14 +228,16 @@ rules:
   slug: steelcase-rules
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 28.8
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.7
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 55.0
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 35.0
   provenance:
@@ -239,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Steelcase Domain Security

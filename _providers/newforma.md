@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -192,16 +193,18 @@ scopes:
   slug: newforma-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: -2.4
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 47.8
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 49.7
+    developer_ergonomics: 48.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -213,8 +216,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

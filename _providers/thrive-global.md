@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
@@ -209,15 +210,17 @@ overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 136
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 44.5
+  delta: -4.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.9
-    developer_ergonomics: 69.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 59.3
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 49.4
   provenance:
     conformance: derived
@@ -234,9 +237,10 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/screenshots/thrive-global-2026-08-17T082348.png
 security:
 - kind: authentication
   name: Thrive Global Authentication

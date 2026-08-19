@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -360,15 +361,17 @@ scopes:
   summary_line: 21 scopes · implicit
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 50.0
+  delta: -0.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.8
-    developer_ergonomics: 56.0
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 16.7
+    contract_quality: 63.2
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -380,9 +383,10 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/screenshots/synack-2026-08-17T082224.png
 security:
 - kind: authentication
   name: Synack Authentication

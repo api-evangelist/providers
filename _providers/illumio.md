@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Illumio Policy Compute Engine (PCE) REST API for managing Zero Trust Segmentation — workloads, labels, label groups, security policy, rulesets, IP lists, services, virtual services, enforcement bo
@@ -143,21 +144,23 @@ overview: 'Illumio publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 18
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 28.6
+  delta: -5.9
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 34.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/illumio/refs/heads/main/screenshots/illumio-2026-07-25T222113.png
 security:
 - kind: authentication

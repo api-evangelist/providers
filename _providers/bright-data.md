@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -497,7 +498,9 @@ rate_limits:
   name: Bright Data Rate Limits
   slug: bright-data-rate-limits
 rules:
-- name: Bright Data API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bright Data API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -505,7 +508,10 @@ rules:
     info: 1
     warn: 4
   slug: bright-data-jsonschema-spectral-rules
-- name: Bright Data API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Bright Data API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -514,16 +520,18 @@ rules:
     warn: 5
   slug: bright-data-rules
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -16.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 68.7
-    developer_ergonomics: 65.2
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 65.7
+    developer_ergonomics: 59.5
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 69.1
   provenance:
     agentic_access: derived
@@ -532,9 +540,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:
 - kind: authentication

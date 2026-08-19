@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Valence Security REST API enables integration with the Valence platform for ingesting security data from custom sources, exporting alerts and audit logs, and configuring security monitoring via th
@@ -133,7 +134,9 @@ rate_limits:
   name: Valence Security Rate Limits
   slug: valence-security-rate-limits
 rules:
-- name: Valence Security API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Valence Security API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -143,19 +146,21 @@ rules:
   slug: valence-security-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 20.2
+  delta: -5.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 26.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/valence-security/refs/heads/main/screenshots/valence-security-2026-06-20T200753.png
 security:
 - kind: domain-security

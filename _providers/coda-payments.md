@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Initiate a payment request, redirect the shopper to Coda's hosted payment page, receive the transaction completion notification, and check transaction status. Available as v1.0 (API key per title/coun
@@ -192,16 +193,18 @@ overview: 'Coda Payments publishes 4 APIs on the [APIs.io](https://apis.io/) net
   Coda Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
 random_paper: 141
 score:
-  band: developing
-  composite: 53.3
-  delta: 0.0
+  band: strong
+  composite: 57.7
+  delta: 4.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 52.6
   previous_composite: 53.3
   provenance:
     conformance: first-party
@@ -210,9 +213,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/screenshots/coda-payments-2026-08-07T163530.png
 security:

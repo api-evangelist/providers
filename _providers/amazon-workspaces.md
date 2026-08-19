@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -3219,7 +3220,9 @@ rate_limits:
   name: Amazon Workspaces Rate Limits
   slug: amazon-workspaces-rate-limits
 rules:
-- name: Amazon WorkSpaces API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon WorkSpaces API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3227,7 +3230,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-workspaces-jsonschema-spectral-rules
-- name: Amazon WorkSpaces API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Amazon WorkSpaces API Rules
   rule_count: 21
   severity_counts:
     error: 8
@@ -3236,16 +3242,18 @@ rules:
     warn: 11
   slug: amazon-workspaces-spectral-rules
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 49.0
+  delta: -8.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.7
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 71.2
+    developer_ergonomics: 42.9
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -3254,9 +3262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 65
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:
 - kind: authentication

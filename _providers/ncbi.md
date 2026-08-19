@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -274,7 +275,9 @@ rate_limits:
   name: Pubchem Pug Rest
   slug: pubchem-pug-rest
 rules:
-- name: National Center for Biotechnology Information (NCBI) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: National Center for Biotechnology Information (NCBI) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,14 +287,16 @@ rules:
   slug: ncbi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 39.0
+  delta: -2.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 61.6
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 59.5
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 41.1
   provenance:
@@ -307,8 +312,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/screenshots/ncbi-2026-06-20T190109.png
 security:

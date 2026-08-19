@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-17'
+  score: 59.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -535,31 +536,36 @@ scopes:
   summary_line: 1 scope · implicit/authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 67.3
-  delta: 32.6
+  composite: 73.5
+  delta: 6.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.1
-    developer_ergonomics: 69.6
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 16.7
+    contract_quality: 68.1
+    developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 60.5
-  previous_composite: 34.7
+    governance: 16.7
+    operational_transparency: 57.9
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 49
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 72.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png
 security:

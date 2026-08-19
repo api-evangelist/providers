@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -186,15 +187,17 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 42
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 48.9
+  delta: -0.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 49.7
   provenance:
     conformance: derived
@@ -210,9 +213,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 53.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

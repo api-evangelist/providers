@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 50.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -235,28 +236,30 @@ rate_limits:
   slug: hilos-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: 0.2
+  composite: 47.3
+  delta: 3.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 66.0
-    developer_ergonomics: 56.0
+    contract_governance: 30.3
+    contract_quality: 67.5
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 43.9
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/screenshots/hilos-2026-07-25T221229.png
 security:

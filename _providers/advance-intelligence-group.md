@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Obtain an access token for calling the Open API.
@@ -167,15 +168,17 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 103
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.2
-    developer_ergonomics: 51.6
+    contract_governance: 30.3
+    contract_quality: 55.1
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 41.3
   provenance:
@@ -187,8 +190,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

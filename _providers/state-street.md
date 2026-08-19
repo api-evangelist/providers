@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -323,7 +324,9 @@ rate_limits:
   name: State Street Rate Limits
   slug: state-street-rate-limits
 rules:
-- name: State Street API Rules
+- effective_rule_count: 5
+  extends: []
+  name: State Street API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -331,7 +334,10 @@ rules:
     info: 2
     warn: 3
   slug: state-street-jsonschema-spectral-rules
-- name: State Street API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: State Street API Rules
   rule_count: 16
   severity_counts:
     error: 10
@@ -345,16 +351,18 @@ scopes:
   slug: state-street-scopes
   summary_line: 8 scopes · clientCredentials
 score:
-  band: developing
-  composite: 48.9
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -10.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -363,9 +371,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png
 security:
 - kind: authentication

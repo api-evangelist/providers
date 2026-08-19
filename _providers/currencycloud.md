@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-17'
+  score: 51.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -461,15 +462,17 @@ rate_limits:
   slug: currencycloud-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 62.2
+  delta: 4.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.6
-    developer_ergonomics: 71.2
+    contract_governance: 16.7
+    contract_quality: 61.1
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 81.6
   previous_composite: 57.4
   provenance:
     agentic_access: derived
@@ -487,8 +490,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

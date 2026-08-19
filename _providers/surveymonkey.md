@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,7 +154,10 @@ rate_limits:
   name: Surveymonkey Rate Limits
   slug: surveymonkey-rate-limits
 rules:
-- name: SurveyMonkey API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: SurveyMonkey API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -168,14 +172,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 32.4
+  delta: -4.4
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 64.2
-    developer_ergonomics: 13.0
+    contract_governance: 11.4
+    contract_quality: 60.1
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 7.9
   previous_composite: 36.8
   provenance:
@@ -185,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/screenshots/surveymonkey-2026-06-20T194739.png
 security:

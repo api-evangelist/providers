@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Gin is a high-performance HTTP web framework for Go that provides a fast and productive way to build microservices and APIs.
@@ -78,7 +79,9 @@ rate_limits:
   name: Gin Rate Limits
   slug: gin-rate-limits
 rules:
-- name: Gin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Gin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -88,19 +91,21 @@ rules:
   slug: gin-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 11.9
+  delta: -6.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
+    contract_governance: 9.8
+    contract_quality: 8.5
     developer_ergonomics: 0.0
     discoverability: 40.7
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 18.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gin/refs/heads/main/screenshots/gin-2026-06-20T181824.png
 security:
 - kind: domain-security

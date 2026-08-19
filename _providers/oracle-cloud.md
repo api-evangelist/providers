@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -1758,7 +1759,9 @@ rate_limits:
   name: Oracle Cloud Rate Limits
   slug: oracle-cloud-rate-limits
 rules:
-- name: Oracle Cloud Infrastructure API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle Cloud Infrastructure API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1766,7 +1769,10 @@ rules:
     info: 2
     warn: 3
   slug: oracle-cloud-jsonschema-spectral-rules
-- name: Oracle Cloud Infrastructure API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Oracle Cloud Infrastructure API Rules
   rule_count: 31
   severity_counts:
     error: 14
@@ -1776,15 +1782,17 @@ rules:
   slug: oracle-cloud-spectral-rules
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 51.1
+  delta: -4.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 31.1
-    developer_ergonomics: 78.3
+    contract_governance: 25.0
+    contract_quality: 32.7
+    developer_ergonomics: 82.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 55.5
   provenance:
     agentic_access: derived
@@ -1793,8 +1801,8 @@ score:
       derived: 25
       marker_coverage: 100.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:

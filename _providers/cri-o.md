@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -176,7 +177,10 @@ rate_limits:
   name: Cri O Rate Limits
   slug: cri-o-rate-limits
 rules:
-- name: CRI-O API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: CRI-O API Rules
   rule_count: 7
   severity_counts:
     error: 6
@@ -184,7 +188,10 @@ rules:
     info: 0
     warn: 1
   slug: cri-o-metrics-rules
-- name: CRI-O API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: CRI-O API Rules
   rule_count: 6
   severity_counts:
     error: 5
@@ -194,15 +201,17 @@ rules:
   slug: cri-o-status-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 36.4
+  delta: 1.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 50.3
-    developer_ergonomics: 26.1
+    contract_governance: 45.5
+    contract_quality: 47.1
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 45.5
+    operational_transparency: 36.8
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -211,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png
 security:

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 69.8
-  scored_at: '2026-08-17'
+  score: 54.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -309,7 +310,9 @@ rate_limits:
   name: Stannp Rate Limits
   slug: stannp-rate-limits
 rules:
-- name: Stannp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stannp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -319,32 +322,37 @@ rules:
   slug: stannp-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 79.9
-  delta: 26.0
+  composite: 80.2
+  delta: 0.3
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 84.3
-    developer_ergonomics: 80.4
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 40.2
+    contract_quality: 79.0
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 71.1
-  previous_composite: 53.9
+    governance: 40.2
+    operational_transparency: 68.4
+  previous_composite: 79.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 56.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
 security:
 - kind: authentication

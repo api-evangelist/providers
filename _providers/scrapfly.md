@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,7 +152,9 @@ rate_limits:
   name: Scrapfly Rate Limits
   slug: scrapfly-rate-limits
 rules:
-- name: Scrapfly API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Scrapfly API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -159,7 +162,10 @@ rules:
     info: 1
     warn: 3
   slug: scrapfly-jsonschema-spectral-rules
-- name: Scrapfly API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Scrapfly API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -169,14 +175,16 @@ rules:
   slug: scrapfly-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 33.3
+  delta: -6.6
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 69.4
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 65.0
+    developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 39.9
   provenance:
@@ -186,9 +194,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png
 security:
 - kind: authentication

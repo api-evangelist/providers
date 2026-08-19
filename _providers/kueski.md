@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The HTTP API behind the Kueski Pay merchant widgets. The widgets.js library authenticates with the merchant public key as an HTTP bearer token and reads merchant configuration and installment-messagin
@@ -147,12 +148,14 @@ score:
   composite: 31.4
   delta: 0.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 36.8
+    governance: 4.5
+    operational_transparency: 34.2
   previous_composite: 31.4
   provenance:
     conformance: derived
@@ -162,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kueski/refs/heads/main/screenshots/kueski-2026-08-07T171345.png
 security:

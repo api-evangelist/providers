@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -389,7 +390,9 @@ rate_limits:
   name: Recraft Ai Rate Limits
   slug: recraft-ai-rate-limits
 rules:
-- name: Recraft API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Recraft API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -398,15 +401,17 @@ rules:
     warn: 4
   slug: recraft-ai-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.7
-  delta: 0.0
+  band: strong
+  composite: 61.2
+  delta: -5.5
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 71.6
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 67.7
+    developer_ergonomics: 69.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 66.7
   provenance:
@@ -416,9 +421,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/screenshots/recraft-ai-2026-06-20T192704.png
 security:
 - kind: authentication

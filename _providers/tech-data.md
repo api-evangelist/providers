@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -229,7 +230,10 @@ rate_limits:
   name: Tech Data Rate Limits
   slug: tech-data-rate-limits
 rules:
-- name: Tech Data API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Tech Data API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -237,7 +241,9 @@ rules:
     info: 0
     warn: 7
   slug: streamone-ion-rules
-- name: Tech Data API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tech Data API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,14 +253,16 @@ rules:
   slug: tech-data-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 39.9
+  delta: -2.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 73.1
-    developer_ergonomics: 10.9
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 60.6
+    contract_quality: 69.4
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 31.3
+    governance: 60.6
     operational_transparency: 7.9
   previous_composite: 42.6
   provenance:
@@ -264,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:

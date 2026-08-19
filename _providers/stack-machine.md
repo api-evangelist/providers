@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 32.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
@@ -163,23 +164,26 @@ overview: 'Stack Machine publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 112
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 40.2
+  delta: -4.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 48.1
-    developer_ergonomics: 66.8
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 43.3
+    developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 45.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stack-machine/refs/heads/main/screenshots/stack-machine-2026-08-17T082055.png
 security:
 - kind: authentication
   name: Stack Machine Authentication

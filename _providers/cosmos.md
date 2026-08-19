@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -397,7 +398,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Cosmos API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cosmos API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -406,16 +409,18 @@ rules:
     warn: 3
   slug: cosmos-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 36.0
+  delta: -6.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 46.3
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 44.4
+    developer_ergonomics: 15.5
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 31.6
+    governance: 9.8
+    operational_transparency: 28.9
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -424,9 +429,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/screenshots/cosmos-2026-06-20T175049.png
 security:
 - kind: domain-security

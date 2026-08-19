@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -260,19 +261,21 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.4
-  delta: 15.8
+  composite: 71.2
+  delta: 0.8
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.2
-    developer_ergonomics: 87.0
+    contract_governance: 30.3
+    contract_quality: 63.5
+    developer_ergonomics: 85.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 54.6
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -280,9 +283,9 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/screenshots/cogny-2026-07-25T210014.png
 security:
 - kind: authentication

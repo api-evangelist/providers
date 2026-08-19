@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -525,7 +526,9 @@ rate_limits:
   name: Paperspace Rate Limits
   slug: paperspace-rate-limits
 rules:
-- name: Paperspace API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Paperspace API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -533,7 +536,10 @@ rules:
     info: 2
     warn: 3
   slug: paperspace-jsonschema-spectral-rules
-- name: Paperspace API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Paperspace API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -543,15 +549,17 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 58.6
+  delta: -5.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 65.7
-    developer_ergonomics: 67.4
+    contract_governance: 25.0
+    contract_quality: 65.9
+    developer_ergonomics: 66.7
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 64.3
   provenance:
     agentic_access: derived
@@ -560,9 +568,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:
 - kind: authentication

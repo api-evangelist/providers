@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -308,7 +309,9 @@ rate_limits:
   name: Edamam Recipes Rate Limits
   slug: edamam-recipes-rate-limits
 rules:
-- name: Edamam API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Edamam API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -316,7 +319,10 @@ rules:
     info: 2
     warn: 4
   slug: edamam-recipes-jsonschema-spectral-rules
-- name: Edamam API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Edamam API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -325,16 +331,18 @@ rules:
     warn: 6
   slug: edamam-recipes-rules
 score:
-  band: developing
-  composite: 48.3
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: -12.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 65.0
-    developer_ergonomics: 32.6
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 25.0
+    contract_quality: 62.5
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -343,9 +351,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:
 - kind: authentication

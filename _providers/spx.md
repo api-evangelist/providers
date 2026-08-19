@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 25.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -174,7 +175,9 @@ rate_limits:
   name: Spx Rate Limits
   slug: spx-rate-limits
 rules:
-- name: SPX Graphics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SPX Graphics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,7 +185,10 @@ rules:
     info: 1
     warn: 4
   slug: spx-jsonschema-spectral-rules
-- name: SPX Graphics API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SPX Graphics API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -192,14 +198,16 @@ rules:
   slug: spx-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 28.1
+  delta: -6.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 55.9
+    developer_ergonomics: 11.9
     discoverability: 57.4
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 34.7
   provenance:
@@ -209,9 +217,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/screenshots/spx-2026-06-20T194423.png
 security:
 - kind: domain-security

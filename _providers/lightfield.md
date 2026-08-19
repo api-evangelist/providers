@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-08-17'
+  score: 64.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -373,16 +374,18 @@ scopes:
   summary_line: 26 scopes
 score:
   band: exemplar
-  composite: 72.6
-  delta: 10.4
+  composite: 72.1
+  delta: -0.5
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 65.3
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 63.3
+    developer_ergonomics: 78.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 86.8
-  previous_composite: 62.2
+    governance: 16.7
+    operational_transparency: 84.2
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -393,9 +396,9 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 25.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -10947,7 +10948,10 @@ rate_limits:
   name: Amazon Web Services Rate Limits
   slug: amazon-web-services-rate-limits
 rules:
-- name: Amazon Web Services API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Amazon Web Services API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -10957,15 +10961,23 @@ rules:
   slug: amazon-web-services-spectral-rules
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 16.9
+  delta: -1.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 30.6
-    developer_ergonomics: 2.2
+    contract_governance: 11.4
+    contract_quality: 28.7
+    developer_ergonomics: 2.4
     discoverability: 40.7
-    governance: 20.8
+    governance: 11.4
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 18.5
   provenance:
     agentic_access: derived
@@ -10974,8 +10986,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1804
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/screenshots/amazon-web-services-2026-06-20T171845.png
 slug: amazon-web-services

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -150,15 +151,17 @@ overview: 'PingOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 7
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 34.1
+  delta: 0.3
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 53.1
-    developer_ergonomics: 30.4
+    contract_governance: 0.0
+    contract_quality: 53.3
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -167,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/screenshots/pingone-2026-06-20T191715.png
 security:

@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -251,7 +252,10 @@ rate_limits:
   name: Api Evangelist Rate Limits
   slug: api-evangelist-rate-limits
 rules:
-- name: API Evangelist API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: API Evangelist API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -261,15 +265,17 @@ rules:
   slug: api-evangelist-spectral-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 60.5
+  delta: -3.6
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 58.0
-    developer_ergonomics: 62.5
+    contract_governance: 56.8
+    contract_quality: 55.4
+    developer_ergonomics: 58.9
     discoverability: 83.3
-    governance: 72.9
-    operational_transparency: 36.8
+    governance: 56.8
+    operational_transparency: 34.2
   previous_composite: 64.1
   provenance:
     agentic_access: derived
@@ -281,9 +287,10 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/screenshots/api-evangelist-2026-08-17T080558.png
 security:
 - kind: authentication
   name: Api Evangelist Authentication

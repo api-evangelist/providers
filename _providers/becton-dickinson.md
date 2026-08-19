@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -126,26 +127,28 @@ rate_limits:
   name: Becton Dickinson Rate Limits
   slug: becton-dickinson-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: minimal
+  composite: 7.6
+  delta: -7.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 5.3
   previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 7.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/screenshots/becton-dickinson-2026-06-20T173125.png
 security:
 - kind: domain-security

@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -524,15 +525,17 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 59.9
+  delta: -1.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 67.5
-    developer_ergonomics: 71.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 63.8
+    developer_ergonomics: 53.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -550,8 +553,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:

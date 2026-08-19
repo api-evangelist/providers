@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -594,7 +595,9 @@ overview: 'Amadeus Traveler Media publishes 5 APIs on the [APIs.io](https://apis
   Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
 random_paper: 121
 rules:
-- name: Amadeus Traveler Media API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amadeus Traveler Media API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -602,7 +605,10 @@ rules:
     info: 2
     warn: 3
   slug: amadeus-traveler-media-jsonschema-spectral-rules
-- name: Amadeus Traveler Media API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Amadeus Traveler Media API Rules
   rule_count: 20
   severity_counts:
     error: 9
@@ -611,16 +617,18 @@ rules:
     warn: 8
   slug: amadeus-traveler-media-spectral-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: thin
+  composite: 33.9
+  delta: -22.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 57.9
-    developer_ergonomics: 54.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 41.7
+    contract_quality: 56.4
+    developer_ergonomics: 26.2
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -631,9 +639,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:
 - kind: domain-security

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 13
 common:
@@ -129,12 +130,14 @@ overview: 'Rocket Lab is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 102
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.0
+  composite: 13.6
+  delta: -4.4
   facets:
-    commercial_clarity: 28.9
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -144,9 +147,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 38.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/screenshots/rocket-lab-2026-06-20T193150.png
 security:

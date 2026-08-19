@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the ReviewTrackers online reputation management platform. Provides access to review data from 100+ review sites, enables automated review responses, supports review solicitation campaigns
@@ -191,19 +192,24 @@ rate_limits:
   slug: reviewtrackers-rate-limits
 score:
   band: strong
-  composite: 61.6
-  delta: 33.9
+  composite: 58.3
+  delta: -3.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 64.5
-    developer_ergonomics: 34.8
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 33.3
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 76.3
-  previous_composite: 27.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 73.7
+  previous_composite: 61.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/screenshots/reviewtrackers-2026-06-20T193050.png
 security:
 - kind: authentication

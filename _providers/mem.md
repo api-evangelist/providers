@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 59.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -230,15 +231,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 43.6
+  delta: -10.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 49.7
-    developer_ergonomics: 62.5
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 16.7
+    contract_quality: 49.9
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 54.3
   provenance:
     agentic_access: derived
@@ -250,9 +253,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:
 - kind: authentication

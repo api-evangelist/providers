@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -217,20 +218,25 @@ scopes:
   slug: highspot-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 42.9
-  delta: 11.6
+  band: thin
+  composite: 38.8
+  delta: -4.1
   facets:
-    commercial_clarity: 100.0
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 52.6
-  previous_composite: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 50.0
+  previous_composite: 42.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/screenshots/highspot-2026-06-20T182731.png
 security:
 - kind: authentication

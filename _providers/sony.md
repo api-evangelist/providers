@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: NNabla is Sony's open-source deep-learning framework with Python and C++ bindings, dynamic and static computation graphs, GPU/CUDA acceleration, and a model format for training and inference. Distribu
@@ -122,7 +123,9 @@ overview: 'Sony publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Sony catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 random_paper: 10
 rules:
-- name: Sony API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sony API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -130,7 +133,10 @@ rules:
     info: 1
     warn: 4
   slug: sony-jsonschema-spectral-rules
-- name: Sony API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Sony API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -140,19 +146,21 @@ rules:
   slug: sony-spectral-rules
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 15.1
+  delta: -6.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_governance: 25.0
+    contract_quality: 19.7
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sony/refs/heads/main/screenshots/sony-2026-06-20T194211.png
 security:
 - kind: domain-security

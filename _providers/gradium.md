@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The metering API from Gradium — 1 operation(s) for metering.
@@ -243,15 +244,17 @@ overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 0
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 51.2
+  delta: -4.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 58.1
-    developer_ergonomics: 75.5
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 58.6
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 55.5
   provenance:
     conformance: derived
@@ -262,8 +265,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/screenshots/gradium-2026-07-25T220210.png
 security:

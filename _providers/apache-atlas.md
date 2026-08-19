@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -335,7 +336,9 @@ rate_limits:
   name: Apache Atlas Rate Limits
   slug: apache-atlas-rate-limits
 rules:
-- name: Apache Atlas API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Atlas API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -343,7 +346,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-atlas-jsonschema-spectral-rules
-- name: Apache Atlas API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Apache Atlas API Rules
   rule_count: 20
   severity_counts:
     error: 7
@@ -353,15 +359,17 @@ rules:
   slug: apache-atlas-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 28.7
+  delta: -8.6
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 22.8
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 21.4
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -370,9 +378,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png
 security:
 - kind: authentication

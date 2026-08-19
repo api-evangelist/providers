@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Solventum's Health Information Systems (formerly 3M HIS) provides APIs for clinical documentation, coding and grouping, computer-assisted coding (CAC), revenue cycle management, and healthcare analyti
@@ -153,7 +154,9 @@ rate_limits:
   name: Solventum Rate Limits
   slug: solventum-rate-limits
 rules:
-- name: Solventum API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Solventum API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,14 +166,16 @@ rules:
   slug: solventum-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 12.3
+  delta: -13.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 8.1
-    developer_ergonomics: 15.2
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 7.0
+    developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 26.0
   regulatory:
@@ -178,10 +183,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 13.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solventum/refs/heads/main/screenshots/solventum-2026-06-20T194155.png
 security:
 - kind: domain-security

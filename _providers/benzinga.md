@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 api_count: 44
 apis:
 - description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
@@ -469,16 +470,18 @@ overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network
   Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 26 more developer resources.'
 random_paper: 101
 score:
-  band: developing
-  composite: 52.4
-  delta: 0.0
+  band: strong
+  composite: 55.2
+  delta: 2.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.8
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 60.6
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 52.4
   provenance:
     conformance: derived
@@ -495,8 +498,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

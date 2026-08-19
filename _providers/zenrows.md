@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,7 +224,9 @@ rate_limits:
   name: Zenrows Rate Limits
   slug: zenrows-rate-limits
 rules:
-- name: ZenRows API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ZenRows API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,10 @@ rules:
     info: 1
     warn: 4
   slug: zenrows-jsonschema-spectral-rules
-- name: ZenRows API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: ZenRows API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -240,15 +246,17 @@ rules:
     warn: 3
   slug: zenrows-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 50.3
+  delta: -7.2
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 69.4
-    developer_ergonomics: 26.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 57.5
   provenance:
@@ -258,9 +266,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png
 security:
 - kind: authentication

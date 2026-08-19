@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.9
-  scored_at: '2026-08-17'
+  score: 53.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -642,7 +643,9 @@ rate_limits:
   name: Sendcloud Rate Limits
   slug: sendcloud-rate-limits
 rules:
-- name: Sendcloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sendcloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -650,7 +653,10 @@ rules:
     info: 1
     warn: 4
   slug: sendcloud-jsonschema-spectral-rules
-- name: Sendcloud API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Sendcloud API Rules
   rule_count: 15
   severity_counts:
     error: 3
@@ -665,15 +671,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 65.8
+  delta: 0.7
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 80.6
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 78.3
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 65.1
   provenance:
     agentic_access: derived
@@ -688,8 +696,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:

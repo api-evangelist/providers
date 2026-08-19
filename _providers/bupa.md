@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Bupa Australia API estate, published through an Azure API Management managed developer portal at portal.api.bupa.com.au and served from the api.bupa.com.au gateway host. The portal is publicly rea
@@ -129,15 +130,17 @@ overview: 'Bupa publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 126
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 32.9
+  delta: -1.0
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 33.9
   provenance:
     conformance: first-party
@@ -146,9 +149,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 47.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 40.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/screenshots/bupa-2026-07-25T204111.png
 security:

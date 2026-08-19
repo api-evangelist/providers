@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -500,7 +501,9 @@ rate_limits:
   name: Apache Openmeetings Rate Limits
   slug: apache-openmeetings-rate-limits
 rules:
-- name: Apache OpenMeetings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache OpenMeetings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -508,7 +511,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-openmeetings-jsonschema-spectral-rules
-- name: Apache OpenMeetings API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Apache OpenMeetings API Rules
   rule_count: 17
   severity_counts:
     error: 4
@@ -518,15 +524,17 @@ rules:
   slug: apache-openmeetings-spectral-rules
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 32.0
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 57.4
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 54.8
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 37.9
   provenance:
     agentic_access: derived
@@ -535,9 +543,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/screenshots/apache-openmeetings-2026-06-20T172128.png
 security:
 - kind: domain-security

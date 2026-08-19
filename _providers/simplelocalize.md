@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -247,7 +248,9 @@ rate_limits:
   name: Simplelocalize Rate Limits
   slug: simplelocalize-rate-limits
 rules:
-- name: SimpleLocalize API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SimpleLocalize API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,7 +258,9 @@ rules:
     info: 2
     warn: 3
   slug: simplelocalize-jsonschema-spectral-rules
-- name: SimpleLocalize API Rules
+- effective_rule_count: 8
+  extends: []
+  name: SimpleLocalize API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -265,14 +270,16 @@ rules:
   slug: simplelocalize-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 42.5
+  delta: -7.2
   facets:
-    commercial_clarity: 47.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 9.8
     contract_quality: 68.7
-    developer_ergonomics: 39.1
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 49.7
   provenance:
@@ -282,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/screenshots/simplelocalize-2026-06-20T193932.png
 security:
 - kind: authentication

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -610,7 +611,9 @@ rate_limits:
   name: Assembled Rate Limits
   slug: assembled-rate-limits
 rules:
-- name: Assembled API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Assembled API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -618,7 +621,10 @@ rules:
     info: 1
     warn: 4
   slug: assembled-jsonschema-spectral-rules
-- name: Assembled API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Assembled API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -627,16 +633,18 @@ rules:
     warn: 4
   slug: assembled-rules
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.0
+  band: strong
+  composite: 55.6
+  delta: -12.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 65.9
-    developer_ergonomics: 56.5
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 63.6
+    developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 67.8
   provenance:
     agentic_access: derived
@@ -645,9 +653,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:
 - kind: authentication

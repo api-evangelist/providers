@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Create, read, update, and delete company records.
@@ -239,15 +240,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.7
+  delta: -1.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 63.8
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 0.0
   previous_composite: 46.6
   provenance:
     conformance: derived
@@ -258,8 +261,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:

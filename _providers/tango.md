@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -334,7 +335,9 @@ rate_limits:
   name: Tango Rate Limits
   slug: tango-rate-limits
 rules:
-- name: Tango API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tango API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -342,7 +345,10 @@ rules:
     info: 2
     warn: 3
   slug: tango-jsonschema-spectral-rules
-- name: Tango API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Tango API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -352,15 +358,17 @@ rules:
   slug: tango-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 43.4
+  delta: -8.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.0
-    developer_ergonomics: 43.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 64.4
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 23.7
+    governance: 25.0
+    operational_transparency: 15.8
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -375,9 +383,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/screenshots/tango-2026-06-20T194913.png
 security:
 - kind: authentication

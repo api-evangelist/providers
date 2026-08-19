@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -101,7 +102,9 @@ press:
   url: https://www.rpclegal.com/press-and-media/rpc-launches-porter
 random_paper: 27
 rules:
-- name: RPC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RPC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -110,15 +113,17 @@ rules:
     warn: 3
   slug: rpc-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 18.1
-  delta: 0.0
+  band: minimal
+  composite: 10.6
+  delta: -7.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 18.1
   regulatory:
@@ -127,9 +132,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rpc/refs/heads/main/screenshots/rpc-2026-06-20T193232.png
 security:
 - kind: domain-security

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
@@ -150,19 +151,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 45.7
+  delta: -0.5
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 26.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 28.6
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 46.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/screenshots/easywebinar-2026-08-17T080912.png
 security:
 - kind: authentication
   name: Easywebinar Authentication

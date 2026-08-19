@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Sastrify platform provides SaaS management capabilities including software discovery, license optimization, vendor negotiations, and benchmark insights. It offers native integrations with accounti
@@ -146,7 +147,9 @@ rate_limits:
   name: Sastrify Rate Limits
   slug: sastrify-rate-limits
 rules:
-- name: Sastrify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sastrify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,20 +158,22 @@ rules:
     warn: 3
   slug: sastrify-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.4
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -7.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 17.7
-    developer_ergonomics: 17.4
-    discoverability: 66.7
-    governance: 68.8
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 19.0
+    discoverability: 59.3
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 32.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/screenshots/sastrify-2026-06-20T193441.png
 security:
 - kind: domain-security

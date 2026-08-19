@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -207,19 +208,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.4
-  delta: 16.5
+  composite: 36.1
+  delta: -0.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 19.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 36.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense-insights/refs/heads/main/screenshots/6sense-insights-2026-07-25T181227.png
 security:
 - kind: authentication

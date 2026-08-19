@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Provides access to personal and small business account data including account balances, account details, and account lists for authenticated customers. Supports open banking use cases for fintech appl
@@ -168,7 +169,9 @@ rate_limits:
   name: Bbandt Corp Rate Limits
   slug: bbandt-corp-rate-limits
 rules:
-- name: BB&T Corp (Truist) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BB&T Corp (Truist) API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -178,14 +181,16 @@ rules:
   slug: bbandt-spectral-rules
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 21.8
+  delta: -5.5
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 12.9
-    developer_ergonomics: 30.4
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 54.5
+    contract_quality: 11.3
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 37.5
+    governance: 54.5
     operational_transparency: 5.3
   previous_composite: 27.3
   regulatory:
@@ -193,10 +198,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 19.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png
 security:
 - kind: domain-security

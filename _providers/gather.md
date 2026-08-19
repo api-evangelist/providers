@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Manage the email guestlist (members/guests) of a space
@@ -186,15 +187,17 @@ overview: 'Gather publishes 3 APIs on the [APIs.io](https://apis.io/) network: G
 random_paper: 39
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 29.0
+  delta: -8.2
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 15.3
-    developer_ergonomics: 62.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 12.1
+    contract_quality: 14.3
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 8.3
-    operational_transparency: 21.1
+    governance: 12.1
+    operational_transparency: 18.4
   previous_composite: 37.2
   provenance:
     conformance: derived
@@ -205,9 +208,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/screenshots/gather-2026-07-25T215458.png
 security:
 - kind: authentication

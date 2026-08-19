@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -166,16 +167,18 @@ rate_limits:
   name: Predicthq Rate Limits
   slug: predicthq-rate-limits
 score:
-  band: developing
-  composite: 45.6
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -7.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.7
-    developer_ergonomics: 34.8
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 36.9
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 23.7
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -184,9 +187,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/screenshots/predicthq-2026-06-20T192049.png
 security:
 - kind: authentication

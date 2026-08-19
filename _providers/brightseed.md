@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -225,15 +226,17 @@ overview: 'Brightseed publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 14
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 34.1
+  delta: 2.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 57.4
-    developer_ergonomics: 16.8
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 32.0
   provenance:
     agentic_access: derived
@@ -251,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:

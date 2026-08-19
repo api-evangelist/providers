@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,21 +131,23 @@ overview: 'Snapser is profiled on the [APIs.io](https://apis.io/) network. Tagge
   Snapser''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
 random_paper: 19
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 27.0
+  delta: 1.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 50.0
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 25.9
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

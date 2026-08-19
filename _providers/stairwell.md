@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for the Stairwell threat-intelligence platform: manage assets and forwarders, query object metadata/detonation/sightings/variants, manage and scan YARA rules, upload and correlate threat repo'
@@ -154,24 +154,27 @@ overview: 'Stairwell publishes 1 API on the [APIs.io](https://apis.io/) network.
   Stairwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 17 more developer resources.'
 random_paper: 89
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: -7.3
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 62.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 42.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/screenshots/stairwell-2026-08-17T082059.png
 security:
 - kind: authentication
   name: Stairwell Authentication

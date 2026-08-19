@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Pre-built hosted checkout solution for one-time and recurring online payments. Merchants redirect customers to BillDesk-hosted pages, minimizing PCI DSS scope.
@@ -117,12 +118,14 @@ rate_limits:
   slug: billdesk-rate-limits
 score:
   band: emerging
-  composite: 22.1
-  delta: 0.0
+  composite: 20.1
+  delta: -2.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 7.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
@@ -133,8 +136,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/screenshots/billdesk-2026-06-20T173307.png
 security:

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -185,7 +185,9 @@ rate_limits:
   name: Ludo Ai Rate Limits
   slug: ludo-ai-rate-limits
 rules:
-- name: Ludo.ai API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Ludo.ai API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -194,16 +196,18 @@ rules:
     warn: 5
   slug: ludo-ai-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.4
-  delta: 0.0
+  band: thin
+  composite: 36.1
+  delta: -9.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 66.4
-    developer_ergonomics: 39.1
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 63.6
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -212,9 +216,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
 security:
 - kind: authentication

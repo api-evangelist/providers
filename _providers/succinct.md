@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 23.9
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -142,22 +143,24 @@ overview: 'Succinct is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Succinct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, CLI, and 17 more developer resources.'
 random_paper: 115
 score:
-  band: emerging
-  composite: 26.2
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: 8.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 60.9
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 66.7
     discoverability: 57.4
-    governance: 3.1
-    operational_transparency: 44.7
+    governance: 4.5
+    operational_transparency: 42.1
   previous_composite: 26.2
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Succinct Authentication

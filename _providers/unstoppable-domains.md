@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 49.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -343,12 +344,14 @@ rate_limits:
   slug: unstoppable-domains-rate-limits
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 39.9
+  delta: -3.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.7
-    developer_ergonomics: 34.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 62.3
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
@@ -360,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/screenshots/unstoppable-domains-2026-06-20T200411.png
 security:

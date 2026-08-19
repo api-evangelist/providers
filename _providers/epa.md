@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -7006,7 +7007,9 @@ rate_limits:
   name: Epa Rate Limits
   slug: epa-rate-limits
 rules:
-- name: EPA — U.S. Environmental Protection Agency API Rules
+- effective_rule_count: 5
+  extends: []
+  name: EPA — U.S. Environmental Protection Agency API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -7014,7 +7017,10 @@ rules:
     info: 2
     warn: 3
   slug: epa-jsonschema-spectral-rules
-- name: EPA — U.S. Environmental Protection Agency API Rules
+- effective_rule_count: 30
+  extends:
+  - '@stoplight/spectral-rulesets/dist/oas'
+  name: EPA — U.S. Environmental Protection Agency API Rules
   rule_count: 30
   severity_counts:
     error: 10
@@ -7024,15 +7030,17 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 57.1
+  delta: -0.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 72.4
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 71.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -7047,8 +7055,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

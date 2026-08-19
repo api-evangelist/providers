@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -304,7 +305,9 @@ rate_limits:
   name: Ballerina Rate Limits
   slug: ballerina-rate-limits
 rules:
-- name: Ballerina API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ballerina API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -312,7 +315,10 @@ rules:
     info: 2
     warn: 3
   slug: ballerina-jsonschema-spectral-rules
-- name: Ballerina API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Ballerina API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -322,15 +328,23 @@ rules:
   slug: ballerina-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 37.8
+  delta: -2.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 65.7
-    developer_ergonomics: 2.2
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 25.0
+    contract_quality: 62.2
+    developer_ergonomics: 2.4
     discoverability: 46.3
-    governance: 68.8
-    operational_transparency: 23.7
+    governance: 25.0
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -339,8 +353,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/screenshots/ballerina-2026-06-20T172929.png
 security:

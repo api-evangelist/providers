@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'Rockerbox''s server-side integration. A documented HTTP POST endpoint that accepts one conversion or marketing event per request as JSON, authenticated by a Rockerbox Advertiser ID passed in the query '
@@ -228,19 +229,25 @@ rate_limits:
   slug: rockerbox-rate-limits
 score:
   band: strong
-  composite: 58.9
-  delta: 30.0
+  composite: 55.2
+  delta: -3.7
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 64.5
-    developer_ergonomics: 67.4
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 28.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 58.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/screenshots/rockerbox-2026-06-20T193150.png
 security:
 - kind: authentication

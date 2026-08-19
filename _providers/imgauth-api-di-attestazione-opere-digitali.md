@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -203,20 +205,32 @@ rate_limits:
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
 score:
-  band: strong
-  composite: 65.7
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 1.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 52.0
-    developer_ergonomics: 69.6
+    contract_governance: 30.3
+    contract_quality: 52.2
+    developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 78.9
+    governance: 30.3
+    operational_transparency: 76.3
   previous_composite: 65.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
 - kind: authentication
   name: Imgauth Api Di Attestazione Opere Digitali Authentication

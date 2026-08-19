@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -329,7 +330,9 @@ rate_limits:
   name: Meredith Rate Limits
   slug: meredith-rate-limits
 rules:
-- name: Dotdash Meredith / People Inc API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dotdash Meredith / People Inc API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,7 +340,10 @@ rules:
     info: 2
     warn: 3
   slug: meredith-jsonschema-spectral-rules
-- name: Dotdash Meredith / People Inc API Rules
+- effective_rule_count: 43
+  extends:
+  - spectral:oas
+  name: Dotdash Meredith / People Inc API Rules
   rule_count: 2
   severity_counts:
     error: 2
@@ -347,25 +353,31 @@ rules:
   slug: people-inc-rss-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 45.2
+  delta: -2.1
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 22.6
-    developer_ergonomics: 15.2
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 43.2
+    contract_quality: 19.7
+    developer_ergonomics: 16.7
     discoverability: 92.6
-    governance: 81.3
-    operational_transparency: 31.6
+    governance: 43.2
+    operational_transparency: 28.9
   previous_composite: 47.3
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 52.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/screenshots/meredith-2026-08-17T124148.png
 security:
 - kind: domain-security
   name: Meredith Domain Security

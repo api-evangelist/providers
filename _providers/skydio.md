@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -173,15 +174,17 @@ rate_limits:
   slug: skydio-rate-limits
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 41.5
+  delta: -3.4
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 59.7
-    developer_ergonomics: 41.3
-    discoverability: 64.8
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 36.9
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -190,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/screenshots/skydio-2026-06-20T194013.png
 security:

@@ -10,26 +10,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -304,24 +304,36 @@ rate_limits:
   slug: energyx-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 31.0
+  delta: 0.5
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 56.7
-    developer_ergonomics: 19.6
+    contract_governance: 16.7
+    contract_quality: 56.9
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 30.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

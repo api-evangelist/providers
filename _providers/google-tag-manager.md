@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -822,7 +822,9 @@ rate_limits:
   name: Google Tag Manager Rate Limits
   slug: google-tag-manager-rate-limits
 rules:
-- name: Google Tag Manager API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Tag Manager API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -830,7 +832,10 @@ rules:
     info: 2
     warn: 4
   slug: google-tag-manager-jsonschema-spectral-rules
-- name: Google Tag Manager API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Google Tag Manager API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -845,28 +850,31 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.0
-  delta: 9.2
+  composite: 67.9
+  delta: -4.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 73.9
-    developer_ergonomics: 78.3
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 40.2
+    contract_quality: 70.5
+    developer_ergonomics: 73.2
     discoverability: 100.0
-    governance: 69.8
-    operational_transparency: 36.8
-  previous_composite: 62.8
+    governance: 40.2
+    operational_transparency: 34.2
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:
 - kind: authentication

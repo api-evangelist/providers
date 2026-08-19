@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -193,7 +194,10 @@ overview: 'Cloud Foundry publishes 8 APIs on the [APIs.io](https://apis.io/) net
   Cloud Foundry''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
 random_paper: 14
 rules:
-- name: Cloud Foundry API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Cloud Foundry API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -203,14 +207,16 @@ rules:
   slug: cloud-foundry-rules
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 32.9
+  delta: 1.2
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 54.5
     contract_quality: 55.8
-    developer_ergonomics: 26.1
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 27.1
+    governance: 54.5
     operational_transparency: 5.3
   previous_composite: 31.7
   provenance:
@@ -220,8 +226,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/screenshots/cloud-foundry-2026-06-20T174548.png
 security:

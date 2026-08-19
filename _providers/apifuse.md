@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -230,7 +231,9 @@ rate_limits:
   name: Apifuse Rate Limits
   slug: apifuse-rate-limits
 rules:
-- name: Apifuse API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apifuse API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,7 +241,10 @@ rules:
     info: 2
     warn: 3
   slug: apifuse-jsonschema-spectral-rules
-- name: Apifuse API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Apifuse API Rules
   rule_count: 19
   severity_counts:
     error: 4
@@ -248,15 +254,17 @@ rules:
   slug: apifuse-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 29.2
+  delta: -9.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 29.5
-    developer_ergonomics: 37.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 27.6
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -265,9 +273,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/screenshots/apifuse-2026-06-20T172232.png
 security:
 - kind: authentication

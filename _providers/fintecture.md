@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -529,7 +530,9 @@ rate_limits:
   name: Fintecture Rate Limits
   slug: fintecture-rate-limits
 rules:
-- name: Fintecture API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fintecture API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -537,7 +540,10 @@ rules:
     info: 1
     warn: 4
   slug: fintecture-jsonschema-spectral-rules
-- name: Fintecture API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Fintecture API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -546,16 +552,18 @@ rules:
     warn: 4
   slug: fintecture-rules
 score:
-  band: strong
-  composite: 64.4
-  delta: 0.0
+  band: developing
+  composite: 54.2
+  delta: -10.2
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 68.9
-    developer_ergonomics: 71.7
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 9.8
+    contract_quality: 67.9
+    developer_ergonomics: 58.3
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 64.4
   provenance:
     agentic_access: derived
@@ -569,10 +577,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png
 security:
 - kind: authentication

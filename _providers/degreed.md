@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Degreed REST API provides HTTP-based access to manage learning data within the Degreed platform. It covers user management, learning content (articles, books, courses, videos, podcasts, events), p
@@ -88,18 +89,20 @@ rate_limits:
   slug: degreed-rate-limits
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 20.8
+  delta: -0.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 8.1
+    contract_governance: 0.0
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/degreed/refs/heads/main/screenshots/degreed-2026-06-20T175855.png
 security:

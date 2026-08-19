@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.0
-  scored_at: '2026-08-17'
+  score: 7.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -153,7 +154,9 @@ rate_limits:
   name: Dbos Rate Limits
   slug: dbos-rate-limits
 rules:
-- name: DBOS API Rules
+- effective_rule_count: 4
+  extends: []
+  name: DBOS API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -161,7 +164,10 @@ rules:
     info: 1
     warn: 3
   slug: dbos-jsonschema-spectral-rules
-- name: DBOS API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: DBOS API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -170,20 +176,22 @@ rules:
     warn: 3
   slug: dbos-rules
 score:
-  band: thin
-  composite: 34.4
-  delta: 0.0
+  band: emerging
+  composite: 25.6
+  delta: -8.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 17.7
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 16.7
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/screenshots/dbos-2026-06-20T175736.png
 security:
 - kind: domain-security

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1280,7 +1281,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: eToro API Rules
+- effective_rule_count: 5
+  extends: []
+  name: eToro API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1290,15 +1293,23 @@ rules:
   slug: etoro-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 33.7
+  delta: -5.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 47.8
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 47.6
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 39.3
   provenance:
     agentic_access: derived
@@ -1313,9 +1324,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:
 - kind: domain-security

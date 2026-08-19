@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 21
 common:
@@ -100,26 +101,28 @@ overview: 'Beazer Homes USA is profiled on the [APIs.io](https://apis.io/) netwo
   Beazer Homes USA''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
 random_paper: 102
 score:
-  band: emerging
-  composite: 13.7
-  delta: 0.0
+  band: minimal
+  composite: 6.5
+  delta: -7.2
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 10.7
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 8.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazer-homes-usa/refs/heads/main/screenshots/beazer-homes-usa-2026-06-20T173114.png
 security:
 - kind: domain-security

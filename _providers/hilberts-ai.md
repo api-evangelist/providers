@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The backend API of the Hilbert growth-infrastructure application. Its OpenAPI 3.0.0 document is published unauthenticated through a Swagger UI at https://app-api.hilberts.ai/api-docs. The document dec
@@ -109,18 +110,27 @@ scopes:
 score:
   band: thin
   composite: 30.6
-  delta: 17.2
+  delta: 0.0
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 31.3
-    developer_ergonomics: 2.2
+    contract_governance: 16.7
+    contract_quality: 32.9
+    developer_ergonomics: 2.4
     discoverability: 87.0
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 13.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 30.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/screenshots/hilberts-ai-2026-07-25T221242.png
 security:
 - kind: authentication

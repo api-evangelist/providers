@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Server-side Enterprise REST API for managing reviews (list/get/update/reply), review groups, customers and profiles, loyalty (rules, transactions, VIP tiers, coupons), survey and quiz responses, trans
@@ -176,24 +177,26 @@ overview: 'Okendo publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   Okendo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 random_paper: 44
 score:
-  band: developing
-  composite: 47.3
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  delta: -9.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 51.6
-    developer_ergonomics: 62.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 34.2
   previous_composite: 47.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/screenshots/okendo-2026-08-07T190049.png
 security:
 - kind: authentication

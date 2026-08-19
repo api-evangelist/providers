@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: 'Epic Account Services (EAS) provides authentication and identity for players using Epic Games accounts. Supports OAuth 2.0 authorization code, device, and exchange code flows, account info retrieval, '
@@ -142,18 +143,20 @@ rate_limits:
   slug: epic-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 23.6
+  delta: -1.6
   facets:
-    commercial_clarity: 36.8
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 25.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/screenshots/epic-2026-06-20T180752.png
 security:

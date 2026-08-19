@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -224,15 +225,17 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 54
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 40.3
+  delta: -5.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 61.1
-    developer_ergonomics: 34.2
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 59.4
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -244,9 +247,10 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
 security:
 - kind: authentication
   name: Rentle Authentication

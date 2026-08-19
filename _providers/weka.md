@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -437,15 +438,17 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 126
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 50.0
+  delta: 0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.2
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 54.4
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -457,9 +460,10 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/screenshots/weka-2026-08-17T082907.png
 security:
 - kind: authentication
   name: Weka Authentication

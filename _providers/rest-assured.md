@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -120,7 +121,9 @@ rate_limits:
   name: Rest Assured Rate Limits
   slug: rest-assured-rate-limits
 rules:
-- name: REST Assured API Rules
+- effective_rule_count: 5
+  extends: []
+  name: REST Assured API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -129,20 +132,22 @@ rules:
     warn: 3
   slug: rest-assured-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: emerging
+  composite: 23.7
+  delta: -6.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 30.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/screenshots/rest-assured-2026-06-20T192958.png
 security:
 - kind: domain-security

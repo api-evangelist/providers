@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 49.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -529,15 +530,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 57.5
+  delta: 1.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 55.7
-    developer_ergonomics: 77.7
+    contract_governance: 16.7
+    contract_quality: 57.2
+    developer_ergonomics: 82.7
     discoverability: 57.4
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 68.4
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -549,9 +552,10 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/visier/refs/heads/main/screenshots/visier-2026-08-17T082801.png
 security:
 - kind: authentication
   name: Visier Authentication

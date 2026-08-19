@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -318,7 +319,9 @@ rate_limits:
   name: Envoy Proxy Rate Limits
   slug: envoy-proxy-rate-limits
 rules:
-- name: Envoy Proxy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Envoy Proxy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,14 +331,16 @@ rules:
   slug: envoy-proxy-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 34.1
+  delta: -6.0
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 54.5
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 51.0
+    developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 40.1
   provenance:
@@ -345,9 +350,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/screenshots/envoy-proxy-2026-06-20T180741.png
 security:
 - kind: domain-security

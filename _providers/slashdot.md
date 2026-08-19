@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,7 +208,10 @@ rate_limits:
   name: Slashdot Rate Limits
   slug: slashdot-rate-limits
 rules:
-- name: Slashdot API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Slashdot API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -217,14 +221,16 @@ rules:
   slug: slashdot-rules
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 28.3
+  delta: -5.1
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 58.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 60.6
+    contract_quality: 54.8
     developer_ergonomics: 0.0
     discoverability: 63.0
-    governance: 52.1
+    governance: 60.6
     operational_transparency: 7.9
   previous_composite: 33.4
   provenance:
@@ -234,9 +240,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/screenshots/slashdot-2026-06-20T194022.png
 security:
 - kind: domain-security

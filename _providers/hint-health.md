@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 57.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1538,7 +1539,9 @@ rate_limits:
   name: Hint Health Rate Limits
   slug: hint-health-rate-limits
 rules:
-- name: Hint Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Hint Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1548,32 +1551,37 @@ rules:
   slug: hint-health-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.8
-  delta: 27.3
+  composite: 73.5
+  delta: 0.7
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 75.2
-    developer_ergonomics: 80.4
+    contract_governance: 40.2
+    contract_quality: 74.8
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 79.2
-    operational_transparency: 50.0
-  previous_composite: 45.5
+    governance: 40.2
+    operational_transparency: 47.4
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 49
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -292,7 +293,10 @@ rate_limits:
   name: Red5 Rate Limits
   slug: red5-rate-limits
 rules:
-- name: Red5 API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Red5 API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -300,7 +304,9 @@ rules:
     info: 1
     warn: 6
   slug: red5-asyncapi-spectral-rules
-- name: Red5 API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Red5 API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -308,7 +314,10 @@ rules:
     info: 2
     warn: 4
   slug: red5-jsonschema-spectral-rules
-- name: Red5 API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Red5 API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -318,15 +327,17 @@ rules:
   slug: red5-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 37.4
+  delta: -4.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 65.4
-    developer_ergonomics: 28.3
+    contract_governance: 28.8
+    contract_quality: 61.9
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 28.8
+    operational_transparency: 7.9
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -335,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

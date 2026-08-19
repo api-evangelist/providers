@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: RESTful API providing 140+ endpoints for payment processing, customer management, invoicing, subscriptions, marketplace split payments, Pix, boleto bancário, credit card tokenization, webhooks, and fi
@@ -111,12 +112,14 @@ rate_limits:
   slug: iugu-rate-limits
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 28.3
+  delta: -0.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 32.3
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
@@ -127,8 +130,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/screenshots/iugu-2026-06-20T183637.png
 security:

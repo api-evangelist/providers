@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -411,29 +412,32 @@ rate_limits:
   slug: structify-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 7.2
+  composite: 63.0
+  delta: 2.0
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 56.2
-    developer_ergonomics: 62.5
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 30.3
+    contract_quality: 54.9
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 65.8
-  previous_composite: 53.8
+    governance: 30.3
+    operational_transparency: 63.2
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 32
-    mcp: derived
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:
 - kind: authentication
   name: Structify Authentication

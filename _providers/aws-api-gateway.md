@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -920,7 +921,10 @@ rate_limits:
   name: Aws Api Gateway Rate Limits
   slug: aws-api-gateway-rate-limits
 rules:
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Amazon API Gateway API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -928,7 +932,9 @@ rules:
     info: 1
     warn: 5
   slug: aws-api-gateway-asyncapi-spectral-rules
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon API Gateway API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -936,7 +942,10 @@ rules:
     info: 2
     warn: 3
   slug: aws-api-gateway-jsonschema-spectral-rules
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Amazon API Gateway API Rules
   rule_count: 40
   severity_counts:
     error: 17
@@ -945,16 +954,18 @@ rules:
     warn: 21
   slug: aws-api-gateway-spectral-rules
 score:
-  band: exemplar
-  composite: 70.4
-  delta: 0.0
+  band: strong
+  composite: 66.3
+  delta: -4.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 79.7
-    developer_ergonomics: 67.4
+    contract_governance: 28.8
+    contract_quality: 75.4
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 28.8
+    operational_transparency: 52.6
   previous_composite: 70.4
   provenance:
     agentic_access: derived
@@ -963,8 +974,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Productplan Rate Limits
   slug: productplan-rate-limits
 rules:
-- name: ProductPlan API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ProductPlan API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,14 +242,16 @@ rules:
   slug: productplan-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 40.9
+  delta: -6.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 64.6
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 65.3
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 47.1
   provenance:
@@ -256,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/screenshots/productplan-2026-06-20T192137.png
 security:
 - kind: authentication

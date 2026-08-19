@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-17'
+  score: 16.3
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -185,23 +186,26 @@ overview: 'Topk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 148
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 40.6
+  delta: -1.6
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.2
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 42.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/screenshots/topk-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Topk Authentication

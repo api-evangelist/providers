@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Authenticated Apollo GraphQL API backing the Viso Now agentic computer vision app. Anonymous access is denied (HTTP 403); sign-in is via Google Identity Services with a session credential. GraphQL int
@@ -107,21 +108,23 @@ overview: 'VISO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 2
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 15.3
+  delta: -11.6
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 11.9
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 26.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Viso Authentication

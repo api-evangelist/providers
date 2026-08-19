@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -906,7 +906,9 @@ rate_limits:
   name: Sentry System Rate Limits
   slug: sentry-system-rate-limits
 rules:
-- name: Sentry API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sentry API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -920,16 +922,18 @@ scopes:
   slug: sentry-system-scopes
   summary_line: 26 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.7
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: -9.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 76.1
-    developer_ergonomics: 71.7
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 26.5
+    contract_quality: 71.3
+    developer_ergonomics: 66.7
     discoverability: 74.1
-    governance: 69.8
-    operational_transparency: 52.6
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 69.7
   provenance:
     agentic_access: derived
@@ -940,9 +944,9 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:
 - kind: authentication

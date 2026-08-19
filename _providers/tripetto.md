@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -222,7 +223,9 @@ rate_limits:
   name: Tripetto Rate Limits
   slug: tripetto-rate-limits
 rules:
-- name: Tripetto API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Tripetto API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -230,7 +233,10 @@ rules:
     info: 2
     warn: 4
   slug: tripetto-jsonschema-spectral-rules
-- name: Tripetto API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Tripetto API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -240,15 +246,17 @@ rules:
   slug: tripetto-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 42.3
+  delta: -7.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 73.6
-    developer_ergonomics: 30.4
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 25.0
+    contract_quality: 73.2
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -257,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/screenshots/tripetto-2026-06-20T195723.png
 security:
 - kind: authentication

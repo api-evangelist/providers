@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-17'
+  score: 28.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Real-time global AIS vessel-tracking stream delivered over a single WebSocket at "wss://stream.aisstream.io/v0/stream". The client connects, sends a JSON subscription message (APIKey plus BoundingBoxe
@@ -106,7 +107,10 @@ rate_limits:
   name: Aisstream Rate Limits
   slug: aisstream-rate-limits
 rules:
-- name: AISStream API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: AISStream API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -116,19 +120,21 @@ rules:
   slug: aisstream-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 34.9
+  delta: -5.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 54.3
-    developer_ergonomics: 19.6
+    contract_governance: 11.4
+    contract_quality: 48.9
+    developer_ergonomics: 21.4
     discoverability: 68.5
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 39.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aisstream/refs/heads/main/screenshots/aisstream-2026-07-25T195450.png
 security:
 - kind: authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -256,15 +257,17 @@ overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 21
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 53.1
+  delta: 2.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.9
-    developer_ergonomics: 77.7
+    contract_governance: 16.7
+    contract_quality: 52.4
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -281,9 +284,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 52.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

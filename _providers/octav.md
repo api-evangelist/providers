@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -267,16 +267,18 @@ overview: 'Octav publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   Octav''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
 random_paper: 94
 score:
-  band: developing
-  composite: 52.7
-  delta: 0.0
+  band: strong
+  composite: 55.2
+  delta: 2.5
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 61.9
-    developer_ergonomics: 71.7
+    contract_governance: 30.3
+    contract_quality: 58.2
+    developer_ergonomics: 69.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -294,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-08-17'
+  score: 56.7
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The complete OneSignal REST API as OneSignal publishes it — OpenAPI 3.1.0, info.version 11.6, 39 paths and 59 operations covering messaging, users, subscriptions, segments, templates, custom events, i
@@ -297,30 +298,35 @@ rate_limits:
   slug: onesignal-rate-limits
 score:
   band: exemplar
-  composite: 67.1
-  delta: 40.8
+  composite: 77.7
+  delta: 10.6
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 76.3
-    developer_ergonomics: 84.8
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 16.7
+    contract_quality: 76.5
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 26.3
+    governance: 16.7
+    operational_transparency: 84.2
+  previous_composite: 67.1
   provenance:
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

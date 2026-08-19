@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -220,14 +221,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 43.8
+  delta: -2.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 48.1
-    developer_ergonomics: 53.8
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 43.3
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 39.5
   previous_composite: 46.5
   provenance:
@@ -235,8 +238,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/screenshots/coldsnap-2026-08-07T163559.png
 security:

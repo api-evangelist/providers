@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -282,7 +283,10 @@ rate_limits:
   name: Cartesia Ai Rate Limits
   slug: cartesia-ai-rate-limits
 rules:
-- name: Cartesia API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Cartesia API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -292,15 +296,17 @@ rules:
   slug: cartesia-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 45.2
+  delta: -7.9
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 65.1
-    developer_ergonomics: 26.1
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 11.4
+    contract_quality: 64.2
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -309,9 +315,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:
 - kind: authentication

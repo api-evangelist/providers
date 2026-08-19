@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 47.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1351,7 +1352,10 @@ rate_limits:
   name: Servicenow Rate Limits
   slug: servicenow-rate-limits
 rules:
-- name: ServiceNow API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: ServiceNow API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1359,7 +1363,9 @@ rules:
     info: 0
     warn: 8
   slug: servicenow-asyncapi-spectral-rules
-- name: ServiceNow API Rules
+- effective_rule_count: 6
+  extends: []
+  name: ServiceNow API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1367,7 +1373,10 @@ rules:
     info: 1
     warn: 5
   slug: servicenow-jsonschema-spectral-rules
-- name: ServiceNow API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: ServiceNow API Rules
   rule_count: 27
   severity_counts:
     error: 19
@@ -1382,14 +1391,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.5
-  delta: 0.0
+  composite: 66.9
+  delta: -3.6
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 77.1
-    developer_ergonomics: 91.3
+    contract_governance: 43.2
+    contract_quality: 73.1
+    developer_ergonomics: 90.5
     discoverability: 66.7
-    governance: 63.5
+    governance: 43.2
     operational_transparency: 42.1
   previous_composite: 70.5
   provenance:
@@ -1401,8 +1412,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

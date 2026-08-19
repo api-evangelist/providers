@@ -16,21 +16,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -241,23 +242,32 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 59.0
-  delta: 21.5
+  composite: 57.8
+  delta: -1.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 50.0
-    developer_ergonomics: 62.5
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 30.3
+    contract_quality: 50.9
+    developer_ergonomics: 58.9
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 37.5
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 59.0
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/screenshots/poggio-labs-2026-08-17T081318.png
 security:
 - kind: authentication
   name: Poggio Labs Authentication

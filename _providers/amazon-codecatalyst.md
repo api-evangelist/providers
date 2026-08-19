@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 49.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -1537,7 +1538,9 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
   Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
 random_paper: 34
 rules:
-- name: Amazon CodeCatalyst API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CodeCatalyst API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1545,7 +1548,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-codecatalyst-jsonschema-spectral-rules
-- name: Amazon CodeCatalyst API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Amazon CodeCatalyst API Rules
   rule_count: 21
   severity_counts:
     error: 8
@@ -1554,16 +1560,18 @@ rules:
     warn: 11
   slug: amazon-codecatalyst-spectral-rules
 score:
-  band: strong
-  composite: 61.1
-  delta: 0.0
+  band: developing
+  composite: 50.8
+  delta: -10.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 72.4
-    developer_ergonomics: 54.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 41.7
+    contract_quality: 73.4
+    developer_ergonomics: 50.0
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -1574,9 +1582,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:
 - kind: authentication

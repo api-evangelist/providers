@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 37.8
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Operations on accounts
@@ -220,15 +221,17 @@ rate_limits:
   slug: datto-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 46.2
+  delta: -1.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 47.4
-    developer_ergonomics: 51.6
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 45.9
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 48.0
   provenance:
     conformance: derived
@@ -239,8 +242,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

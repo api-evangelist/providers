@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -268,15 +269,17 @@ scopes:
   slug: the-mobile-first-company-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 55.8
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: 2.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 72.7
-    developer_ergonomics: 62.5
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 30.3
+    contract_quality: 71.4
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 39.5
   previous_composite: 55.8
   provenance:
@@ -294,9 +297,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
 security:
 - kind: authentication
   name: The Mobile First Company Authentication

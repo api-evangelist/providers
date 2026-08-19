@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -165,15 +166,17 @@ rate_limits:
   slug: elastic-stack-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 34.3
+  delta: -2.9
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 48.4
-    developer_ergonomics: 15.2
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 45.7
+    developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 37.2
   provenance:
     agentic_access: derived
@@ -182,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/screenshots/elastic-stack-2026-06-20T180536.png
 security:

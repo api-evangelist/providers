@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -234,15 +234,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 50.9
+  delta: 2.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 48.5
-    developer_ergonomics: 60.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 47.2
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -255,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

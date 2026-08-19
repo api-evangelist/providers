@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -476,7 +477,9 @@ rate_limits:
   name: Wrike Rate Limits
   slug: wrike-rate-limits
 rules:
-- name: Wrike API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wrike API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -490,16 +493,18 @@ scopes:
   slug: wrike-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 45.1
+  delta: -12.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 66.0
-    developer_ergonomics: 39.1
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 9.8
+    contract_quality: 65.9
+    developer_ergonomics: 22.6
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 31.6
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -508,9 +513,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:
 - kind: authentication

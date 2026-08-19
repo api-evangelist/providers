@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -156,7 +157,9 @@ rate_limits:
   name: Tiaa Cref Rate Limits
   slug: tiaa-cref-rate-limits
 rules:
-- name: TIAA-CREF API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TIAA-CREF API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -166,25 +169,27 @@ rules:
   slug: tiaa-cref-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 16.9
+  delta: -6.9
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 17.7
+    access_clarity: 19.7
+    commercial_clarity: 19.7
+    contract_governance: 25.0
+    contract_quality: 15.5
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 23.8
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/screenshots/tiaa-cref-2026-06-20T195327.png
 security:
 - kind: domain-security

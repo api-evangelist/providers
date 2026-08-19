@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -564,7 +565,9 @@ rate_limits:
   name: Microsoft Endpoint Configuration Management Rate Limits
   slug: microsoft-endpoint-configuration-management-rate-limits
 rules:
-- name: Microsoft Endpoint Configuration Management API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Endpoint Configuration Management API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -578,16 +581,18 @@ scopes:
   slug: microsoft-endpoint-configuration-management-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.0
-  delta: 0.0
+  band: developing
+  composite: 54.0
+  delta: -5.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 64.5
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 66.7
+    developer_ergonomics: 59.5
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -596,9 +601,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/screenshots/microsoft-endpoint-configuration-management-2026-06-20T185457.png
 security:
 - kind: authentication

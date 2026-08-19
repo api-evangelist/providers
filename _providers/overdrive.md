@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 11.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Discovery APIs to search and find information about titles in a library's OverDrive collection — Library Account, Search, Metadata, and Library Availability.
@@ -136,22 +137,30 @@ overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network
   OverDrive''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
 random_paper: 88
 score:
-  band: emerging
-  composite: 26.1
-  delta: 0.0
+  band: thin
+  composite: 28.4
+  delta: 2.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 54.8
     discoverability: 92.6
-    governance: 3.1
-    operational_transparency: 26.3
+    governance: 4.5
+    operational_transparency: 21.1
   previous_composite: 26.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 42.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/screenshots/overdrive-2026-08-07T191124.png
 security:

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 41.0
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: List and inspect team agent connections (third-party REST API bindings).
@@ -249,15 +249,17 @@ overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 64
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.3
+  delta: -0.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 49.6
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 50.2
   provenance:
     conformance: derived
@@ -268,9 +270,10 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png
 security:
 - kind: authentication
   name: Quadratic Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -483,7 +484,9 @@ rate_limits:
   name: 1Nce Rate Limits
   slug: 1nce-rate-limits
 rules:
-- name: 1NCE API Rules
+- effective_rule_count: 6
+  extends: []
+  name: 1NCE API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -492,15 +495,17 @@ rules:
     warn: 5
   slug: 1nce-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: developing
+  composite: 53.5
+  delta: -3.2
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 73.8
-    developer_ergonomics: 58.7
+    contract_governance: 9.8
+    contract_quality: 71.4
+    developer_ergonomics: 52.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 56.7
   provenance:
@@ -516,8 +521,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

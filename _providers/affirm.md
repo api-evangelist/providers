@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 38.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -477,7 +478,10 @@ rate_limits:
   name: Affirm Rate Limits
   slug: affirm-rate-limits
 rules:
-- name: Affirm API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Affirm API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -485,7 +489,9 @@ rules:
     info: 0
     warn: 7
   slug: affirm-asyncapi-spectral-rules
-- name: Affirm API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Affirm API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -493,7 +499,10 @@ rules:
     info: 1
     warn: 5
   slug: affirm-jsonschema-spectral-rules
-- name: Affirm API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Affirm API Rules
   rule_count: 42
   severity_counts:
     error: 16
@@ -502,16 +511,18 @@ rules:
     warn: 24
   slug: affirm-spectral-rules
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -5.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 85.0
-    developer_ergonomics: 19.6
-    discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 26.3
+    contract_governance: 11.4
+    contract_quality: 80.7
+    developer_ergonomics: 21.4
+    discoverability: 64.8
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -526,9 +537,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png
 security:
 - kind: authentication

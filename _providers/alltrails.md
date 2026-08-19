@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 4.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -59,20 +60,22 @@ overview: AllTrails is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 74
 score:
   band: minimal
-  composite: 6.7
-  delta: 0.0
+  composite: 5.0
+  delta: -1.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.7
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alltrails/refs/heads/main/screenshots/alltrails-2026-07-25T195723.png
 security:

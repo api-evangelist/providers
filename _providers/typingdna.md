@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 37.8
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Advanced routes for customisation
@@ -222,16 +223,18 @@ scopes:
   slug: typingdna-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken/deviceCode/jwtBearer
 score:
-  band: developing
-  composite: 55.5
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 1.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.7
-    developer_ergonomics: 73.4
+    contract_governance: 30.3
+    contract_quality: 55.2
+    developer_ergonomics: 78.0
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 55.5
   provenance:
     conformance: first-party
@@ -242,9 +245,10 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/screenshots/typingdna-2026-08-17T082510.png
 security:
 - kind: authentication
   name: Typingdna Authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +171,9 @@ rate_limits:
   name: Bandsintown Rate Limits
   slug: bandsintown-rate-limits
 rules:
-- name: Bandsintown API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bandsintown API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,15 +183,17 @@ rules:
   slug: bandsintown-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 42.7
+  delta: -7.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 59.0
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 55.2
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -197,9 +202,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png
 security:
 - kind: domain-security

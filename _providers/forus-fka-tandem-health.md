@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,15 +74,17 @@ overview: 'Forus (fka Tandem Health) is profiled on the [APIs.io](https://apis.i
   Forus (fka Tandem Health)''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 28
 score:
-  band: minimal
-  composite: 12.7
-  delta: 0.0
+  band: emerging
+  composite: 12.4
+  delta: -0.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 12.7
   provenance:
@@ -92,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forus-fka-tandem-health/refs/heads/main/screenshots/forus-fka-tandem-health-2026-07-25T215030.png
 security:

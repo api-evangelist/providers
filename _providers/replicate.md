@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -416,7 +416,10 @@ rate_limits:
   name: Replicate Rate Limits
   slug: replicate-rate-limits
 rules:
-- name: Replicate API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Replicate API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -424,7 +427,9 @@ rules:
     info: 0
     warn: 6
   slug: replicate-asyncapi-spectral-rules
-- name: Replicate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Replicate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -432,7 +437,10 @@ rules:
     info: 1
     warn: 4
   slug: replicate-jsonschema-spectral-rules
-- name: Replicate API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Replicate API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -442,15 +450,17 @@ rules:
   slug: replicate-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 54.4
+  delta: -7.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 74.7
-    developer_ergonomics: 63.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 11.4
+    contract_quality: 73.6
+    developer_ergonomics: 56.0
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 44.7
+    governance: 11.4
+    operational_transparency: 42.1
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -459,9 +469,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:
 - kind: authentication

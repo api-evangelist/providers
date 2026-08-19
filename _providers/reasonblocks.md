@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -205,15 +206,17 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 94
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 37.2
+  delta: 0.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 50.2
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 49.9
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 36.3
   provenance:
     agentic_access: derived
@@ -225,8 +228,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 10
 common:
@@ -127,20 +128,22 @@ overview: 'Magnific is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Magnific''s developer surface includes signup flow, pricing, support, engineering blog, and 14 more developer resources.'
 random_paper: 34
 score:
-  band: emerging
-  composite: 15.9
-  delta: 0.0
+  band: minimal
+  composite: 9.2
+  delta: -6.7
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 15.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png
 security:
 - kind: domain-security

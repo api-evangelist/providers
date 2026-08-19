@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -107,12 +108,14 @@ overview: 'Intellectible publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 35
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 20.9
+  delta: -0.7
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 59.5
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
@@ -125,8 +128,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intellectible/refs/heads/main/screenshots/intellectible-2026-07-25T222643.png
 security:

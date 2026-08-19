@@ -1,6 +1,76 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bitstack-app.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bitstack-app.com/en/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bitstack-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bitstack-app.com/en/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bitstack-app.com/en/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.bitstack-app.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bitstack-app.com/en/news
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bitstackapp
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.bitstack-app.com/en/regulatory-documents-hub
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bitstack-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bitstack-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bitstack-llms.txt
 coverage:
   checked: '2026-08-17'
   detail: Bitstack ships only a consumer iOS/Android Bitcoin savings app; api.bitstack-app.com resolves but answers a bare empty-bodied 404 on every path including its own root, and none of the 1,687 URLs in the published sitemap is a developer, docs, or API page.
@@ -26,7 +96,46 @@ modified: '2026-08-17'
 name: Bitstack
 nav: Providers
 network: true
+overview: 'Bitstack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Bitcoin, Cryptocurrency, and Fintech.
+
+
+  Bitstack''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
+plans:
+- name: Bitstack Plans Pricing
+  plan_count: 7
+  slug: bitstack-plans-pricing
 random_paper: 108
+rate_limits:
+- limit_count: 0
+  name: Bitstack Rate Limits
+  slug: bitstack-rate-limits
+score:
+  band: emerging
+  composite: 24.7
+  facets:
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 57.4
+    governance: 18.2
+    operational_transparency: 2.6
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 37.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: domain-security
+  name: Bitstack Domain Security
+  slug: bitstack-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bitstack
 tags:
 - Company
@@ -41,4 +150,5 @@ tags:
 - France
 - Europe
 - Regulated
+website: https://www.bitstack-app.com/
 ---

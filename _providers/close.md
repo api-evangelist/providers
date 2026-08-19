@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -679,31 +679,36 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.9
-  delta: 25.1
+  composite: 79.5
+  delta: 11.6
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 63.0
-    developer_ergonomics: 73.9
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 30.3
+    contract_quality: 64.0
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 42.8
+    governance: 30.3
+    operational_transparency: 97.4
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 62
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:

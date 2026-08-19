@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 41.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -160,14 +160,16 @@ overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 29
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 48.9
+  delta: 4.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 68.7
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 64.3
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 44.6
   provenance:
@@ -186,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:

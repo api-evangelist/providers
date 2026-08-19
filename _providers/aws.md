@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 31.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Scalable virtual servers in the cloud.
@@ -189,18 +190,20 @@ rate_limits:
   slug: aws-rate-limits
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 41.1
+  delta: -2.2
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 32.3
-    developer_ergonomics: 56.5
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 52.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 39.5
   previous_composite: 43.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/screenshots/aws-2026-06-20T172738.png
 security:

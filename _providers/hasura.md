@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -405,7 +406,10 @@ rate_limits:
   name: Hasura Rate Limits
   slug: hasura-rate-limits
 rules:
-- name: Hasura API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Hasura API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -415,15 +419,23 @@ rules:
   slug: hasura-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 54.3
+  delta: -5.3
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 63.1
-    developer_ergonomics: 63.0
+    contract_governance: 11.4
+    contract_quality: 59.1
+    developer_ergonomics: 59.5
     discoverability: 53.7
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 55.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -432,9 +444,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:
 - kind: authentication

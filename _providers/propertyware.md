@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -959,7 +960,9 @@ rate_limits:
   name: Propertyware Rate Limits
   slug: propertyware-rate-limits
 rules:
-- name: Propertyware API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Propertyware API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -969,14 +972,16 @@ rules:
   slug: propertyware-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 40.4
+  delta: -6.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 63.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 63.7
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 46.6
   provenance:
@@ -986,9 +991,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/screenshots/propertyware-2026-06-20T192210.png
 security:
 - kind: authentication

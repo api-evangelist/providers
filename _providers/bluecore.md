@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -298,24 +299,26 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 57.6
-  delta: 3.1
+  composite: 55.3
+  delta: -2.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 67.1
-    developer_ergonomics: 56.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 64.3
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
-  previous_composite: 54.5
+    governance: 16.7
+    operational_transparency: 28.9
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 14.3
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -324,8 +327,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

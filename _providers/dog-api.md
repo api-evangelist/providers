@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,7 +236,9 @@ rate_limits:
   name: Dog Api Rate Limits
   slug: dog-api-rate-limits
 rules:
-- name: Dog API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dog API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -243,7 +246,10 @@ rules:
     info: 2
     warn: 3
   slug: dog-api-jsonschema-spectral-rules
-- name: Dog API API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Dog API API Rules
   rule_count: 34
   severity_counts:
     error: 14
@@ -253,14 +259,16 @@ rules:
   slug: dog-api-rules
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 20.1
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 25.1
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 23.5
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 25.5
   provenance:
@@ -276,9 +284,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/screenshots/dog-api-2026-06-20T180122.png
 security:
 - kind: domain-security

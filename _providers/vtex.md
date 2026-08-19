@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 386
   human_in_the_loop: 22
@@ -4366,7 +4367,9 @@ rate_limits:
   name: Vtex Rate Limits
   slug: vtex-rate-limits
 rules:
-- name: VTEX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: VTEX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4374,7 +4377,10 @@ rules:
     info: 2
     warn: 3
   slug: vtex-jsonschema-spectral-rules
-- name: VTEX API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: VTEX API Rules
   rule_count: 10
   severity_counts:
     error: 0
@@ -4384,14 +4390,16 @@ rules:
   slug: vtex-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 40.4
+  delta: -3.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 59.0
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 57.9
+    developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 44.7
   previous_composite: 43.5
   provenance:
@@ -4407,8 +4415,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png
 security:

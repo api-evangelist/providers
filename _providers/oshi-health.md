@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,13 +70,15 @@ overview: 'Oshi Health is profiled on the [APIs.io](https://apis.io/) network. T
   Oshi Health''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
 random_paper: 67
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 11.6
+  delta: -1.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -86,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oshi-health/refs/heads/main/screenshots/oshi-health-2026-08-07T191005.png
 security:

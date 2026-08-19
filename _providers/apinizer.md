@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,7 +202,9 @@ rate_limits:
   name: Apinizer Rate Limits
   slug: apinizer-rate-limits
 rules:
-- name: Apinizer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apinizer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,16 +213,18 @@ rules:
     warn: 3
   slug: apinizer-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.0
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: -8.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 74.6
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 69.9
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 58.0
   provenance:
     agentic_access: derived
@@ -228,9 +233,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/screenshots/apinizer-2026-06-20T172251.png
 security:
 - kind: authentication

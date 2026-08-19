@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 31.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -158,21 +159,31 @@ rate_limits:
   name: Usadata Inc Rate Limits
   slug: usadata-inc-rate-limits
 score:
-  band: emerging
-  composite: 25.8
-  delta: 8.4
+  band: thin
+  composite: 31.4
+  delta: 5.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 45.7
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 35.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 17.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 25.8
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -184,7 +185,9 @@ rate_limits:
   name: Soax Rate Limits
   slug: soax-rate-limits
 rules:
-- name: SOAX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SOAX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +195,10 @@ rules:
     info: 1
     warn: 4
   slug: soax-jsonschema-spectral-rules
-- name: SOAX API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: SOAX API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -202,14 +208,16 @@ rules:
   slug: soax-rules
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 42.8
+  delta: -5.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 72.4
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 68.3
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 48.6
   provenance:
@@ -219,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/screenshots/soax-2026-06-20T194119.png
 security:
 - kind: authentication

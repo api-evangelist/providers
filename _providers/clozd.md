@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.7
-  scored_at: '2026-08-17'
+  score: 60.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -266,15 +267,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 50.3
+  delta: -0.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.2
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 61.3
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -286,8 +289,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:

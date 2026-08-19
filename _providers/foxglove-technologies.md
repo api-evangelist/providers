@@ -1,25 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 43.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -371,16 +371,32 @@ rate_limits:
   slug: foxglove-technologies-rate-limits
 score:
   band: strong
-  composite: 63.3
+  composite: 57.8
+  delta: -5.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 50.7
-    developer_ergonomics: 76.1
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 44.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 16.7
+    operational_transparency: 26.3
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/screenshots/foxglove-technologies-2026-08-17T080933.png
 security:
 - kind: authentication
   name: Foxglove Technologies Authentication

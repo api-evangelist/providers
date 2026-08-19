@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -383,7 +384,9 @@ rate_limits:
   name: Tago Io Rate Limits
   slug: tago-io-rate-limits
 rules:
-- name: TagoIO API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TagoIO API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -392,16 +395,18 @@ rules:
     warn: 4
   slug: tago-io-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.5
-  delta: 0.0
+  band: developing
+  composite: 52.8
+  delta: -8.7
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 75.5
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 77.0
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -410,9 +415,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
 security:
 - kind: authentication

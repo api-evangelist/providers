@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -133,15 +134,17 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 29.6
+  delta: -2.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 52.3
-    developer_ergonomics: 32.6
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -150,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/screenshots/adobe-sign-2026-06-20T165020.png
 security:

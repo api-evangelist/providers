@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 32.3
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -173,15 +174,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 34.3
+  delta: 0.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 40.0
-    developer_ergonomics: 60.3
+    contract_governance: 18.2
+    contract_quality: 36.0
+    developer_ergonomics: 47.0
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 34.2
   provenance:
     conformance: first-party
@@ -192,9 +195,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 60.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

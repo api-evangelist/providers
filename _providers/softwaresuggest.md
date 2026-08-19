@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -146,7 +147,9 @@ rate_limits:
   name: Softwaresuggest Rate Limits
   slug: softwaresuggest-rate-limits
 rules:
-- name: SoftwareSuggest API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SoftwareSuggest API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,20 +158,22 @@ rules:
     warn: 3
   slug: softwaresuggest-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -5.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 29.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Softwaresuggest Domain Security

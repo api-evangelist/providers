@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -169,7 +170,10 @@ rate_limits:
   name: Pusher Rate Limits
   slug: pusher-rate-limits
 rules:
-- name: Pusher API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Pusher API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -179,14 +183,16 @@ rules:
   slug: pusher-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 41.9
+  delta: -3.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 66.9
-    developer_ergonomics: 30.4
+    contract_governance: 11.4
+    contract_quality: 63.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 28.9
   previous_composite: 45.8
   provenance:
@@ -196,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/screenshots/pusher-2026-06-20T192318.png
 security:

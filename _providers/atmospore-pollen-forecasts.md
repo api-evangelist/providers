@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 55.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,16 +241,18 @@ rate_limits:
   name: Atmospore Pollen Forecasts Rate Limits
   slug: atmospore-pollen-forecasts-rate-limits
 score:
-  band: developing
-  composite: 53.5
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 5.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 61.2
-    developer_ergonomics: 62.5
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -267,10 +269,11 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/screenshots/atmospore-pollen-forecasts-2026-08-17T080606.png
 security:
 - kind: authentication
   name: Atmospore Pollen Forecasts Authentication

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 55.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -2777,7 +2778,9 @@ rate_limits:
   name: Oracle Rate Limits
   slug: oracle-rate-limits
 rules:
-- name: Oracle API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Oracle API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2785,7 +2788,10 @@ rules:
     info: 2
     warn: 4
   slug: oracle-jsonschema-spectral-rules
-- name: Oracle API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Oracle API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -2794,16 +2800,18 @@ rules:
     warn: 11
   slug: oracle-spectral-rules
 score:
-  band: strong
-  composite: 61.4
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -7.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 54.4
-    developer_ergonomics: 84.8
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 25.0
+    contract_quality: 58.5
+    developer_ergonomics: 76.2
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -2812,9 +2820,9 @@ score:
       derived: 0
       marker_coverage: 95.0
       total: 322
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:
 - kind: authentication

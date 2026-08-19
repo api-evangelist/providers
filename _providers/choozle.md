@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -27,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -235,7 +235,9 @@ rate_limits:
   name: Choozle Rate Limits
   slug: choozle-rate-limits
 rules:
-- name: Choozle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Choozle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,27 +246,32 @@ rules:
     warn: 4
   slug: choozle-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.6
-  delta: 26.2
+  band: developing
+  composite: 47.4
+  delta: -15.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 68.7
-    developer_ergonomics: 50.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 55.3
+    contract_quality: 65.0
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 5.3
-  previous_composite: 36.4
+    governance: 55.3
+    operational_transparency: 2.6
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -353,7 +354,9 @@ rate_limits:
   name: Vectara Rate Limits
   slug: vectara-rate-limits
 rules:
-- name: Vectara API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vectara API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -361,7 +364,10 @@ rules:
     info: 1
     warn: 4
   slug: vectara-jsonschema-spectral-rules
-- name: Vectara API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Vectara API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -376,14 +382,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 55.5
+  delta: -7.8
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 66.1
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 66.0
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 57.9
   previous_composite: 63.3
   provenance:
@@ -393,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -428,7 +429,9 @@ rate_limits:
   name: Uniswap Rate Limits
   slug: uniswap-rate-limits
 rules:
-- name: Uniswap API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Uniswap API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -436,7 +439,10 @@ rules:
     info: 2
     warn: 3
   slug: uniswap-jsonschema-spectral-rules
-- name: Uniswap API Rules
+- effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: Uniswap API Rules
   rule_count: 43
   severity_counts:
     error: 14
@@ -446,14 +452,16 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 47.3
+  delta: -2.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 72.8
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 70.3
+    developer_ergonomics: 59.5
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 49.7
   provenance:
@@ -469,8 +477,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:

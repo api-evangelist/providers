@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 16.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: API provides spot, margin and futures trading operations
@@ -65,7 +66,10 @@ overview: 'Gateio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Gateio catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
 random_paper: 37
 rules:
-- name: Gateio API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Gateio API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -75,19 +79,21 @@ rules:
   slug: gateio-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 18.4
+  delta: -5.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
+    contract_governance: 11.4
+    contract_quality: 45.1
     developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 0.0
   previous_composite: 23.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateio/refs/heads/main/screenshots/gateio-2026-06-20T181701.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -854,7 +855,9 @@ rate_limits:
   name: Soracom Rate Limits
   slug: soracom-rate-limits
 rules:
-- name: Soracom API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Soracom API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -862,7 +865,10 @@ rules:
     info: 2
     warn: 3
   slug: soracom-jsonschema-spectral-rules
-- name: Soracom API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Soracom API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -872,15 +878,17 @@ rules:
   slug: soracom-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 55.1
+  delta: -8.2
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 69.1
-    developer_ergonomics: 71.7
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 67.0
+    developer_ergonomics: 78.6
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -894,10 +902,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 23.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:
 - kind: authentication

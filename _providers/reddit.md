@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -337,7 +338,9 @@ rate_limits:
   name: Reddit Rate Limits
   slug: reddit-rate-limits
 rules:
-- name: Reddit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Reddit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -345,7 +348,10 @@ rules:
     info: 1
     warn: 4
   slug: reddit-jsonschema-spectral-rules
-- name: Reddit API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Reddit API Rules
   rule_count: 12
   severity_counts:
     error: 3
@@ -360,15 +366,17 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 44.2
+  delta: -7.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 66.5
-    developer_ergonomics: 34.8
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 62.8
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -377,9 +385,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/screenshots/reddit-2026-08-17T081506.png
 security:
 - kind: authentication
   name: Reddit Authentication

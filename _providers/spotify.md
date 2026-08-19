@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -320,7 +321,9 @@ rate_limits:
   name: Spotify Rate Limits
   slug: spotify-rate-limits
 rules:
-- name: Spotify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spotify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,7 +331,10 @@ rules:
     info: 1
     warn: 4
   slug: spotify-jsonschema-spectral-rules
-- name: Spotify API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Spotify API Rules
   rule_count: 14
   severity_counts:
     error: 7
@@ -343,15 +349,17 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 46.7
+  delta: -6.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 78.3
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 75.6
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -360,9 +368,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png
 security:
 - kind: authentication

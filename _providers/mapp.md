@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 61.8
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'The Mapp Engage REST API (REST 2.0, incremental version v19) exchanges data between external systems and Mapp Engage: create and update contacts, manage group memberships and attributes, send single, '
@@ -248,25 +249,37 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 69.0
-  delta: 0.0
+  composite: 75.1
+  delta: 6.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 60.9
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 59.9
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 65.8
+    governance: 30.3
+    operational_transparency: 63.2
   previous_composite: 69.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 72.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png
 security:
 - kind: authentication
   name: Mapp Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 27
 apis:
 - description: The Company API from QGenda — 1 operation(s) for company.
@@ -330,15 +331,17 @@ overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 28
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 53.9
+  delta: 5.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.7
-    developer_ergonomics: 49.5
+    contract_governance: 30.3
+    contract_quality: 62.2
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 48.1
   provenance:
     conformance: unknown
@@ -355,9 +358,10 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/qgenda/refs/heads/main/screenshots/qgenda-2026-08-17T081419.png
 security:
 - kind: authentication
   name: Qgenda Authentication

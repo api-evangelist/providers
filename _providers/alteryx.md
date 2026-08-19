@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -563,7 +564,9 @@ rate_limits:
   name: Alteryx Rate Limits
   slug: alteryx-rate-limits
 rules:
-- name: Alteryx API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Alteryx API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -571,7 +574,10 @@ rules:
     info: 2
     warn: 4
   slug: alteryx-jsonschema-spectral-rules
-- name: Alteryx API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Alteryx API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -586,15 +592,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 43.8
+  delta: -8.5
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 59.0
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 59.8
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 15.8
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -603,9 +611,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:
 - kind: authentication

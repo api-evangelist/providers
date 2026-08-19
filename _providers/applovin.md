@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -462,7 +463,9 @@ rate_limits:
   name: Applovin Rate Limits
   slug: applovin-rate-limits
 rules:
-- name: AppLovin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AppLovin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -470,7 +473,10 @@ rules:
     info: 1
     warn: 4
   slug: applovin-jsonschema-spectral-rules
-- name: AppLovin API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: AppLovin API Rules
   rule_count: 28
   severity_counts:
     error: 11
@@ -479,27 +485,32 @@ rules:
     warn: 15
   slug: applovin-rules
 score:
-  band: strong
-  composite: 61.8
-  delta: 16.5
+  band: thin
+  composite: 37.2
+  delta: -24.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 32.5
-    developer_ergonomics: 93.5
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 41.7
+    contract_quality: 30.7
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 50.0
-  previous_composite: 45.3
+    governance: 41.7
+    operational_transparency: 47.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:
 - kind: authentication

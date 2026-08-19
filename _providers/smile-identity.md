@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -267,15 +267,17 @@ overview: 'Smile Identity publishes 12 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 116
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 46.9
+  delta: -7.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 70.1
-    developer_ergonomics: 69.0
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 65.9
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -287,9 +289,10 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/screenshots/smile-identity-2026-08-17T081942.png
 security:
 - kind: authentication
   name: Smile Identity Authentication

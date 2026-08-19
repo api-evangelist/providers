@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -846,7 +846,9 @@ rate_limits:
   name: Ispring Rate Limits
   slug: ispring-rate-limits
 rules:
-- name: iSpring Learn API Rules
+- effective_rule_count: 5
+  extends: []
+  name: iSpring Learn API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -856,14 +858,16 @@ rules:
   slug: ispring-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 52.0
+  delta: -3.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 53.9
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 52.7
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 55.3
   previous_composite: 55.9
   provenance:
@@ -873,8 +877,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 37.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:

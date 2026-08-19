@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -283,16 +283,18 @@ scopes:
   slug: starlink-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 46.7
+  delta: -11.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 56.8
-    developer_ergonomics: 62.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 56.3
+    developer_ergonomics: 47.0
     discoverability: 83.3
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 59.2
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -309,10 +311,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 63.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png
 security:
 - kind: authentication
   name: Starlink Authentication

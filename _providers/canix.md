@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -340,14 +340,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 45.0
+  delta: -0.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 62.0
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 61.7
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 45.4
   provenance:
@@ -360,9 +362,10 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
 security:
 - kind: authentication
   name: Canix Authentication

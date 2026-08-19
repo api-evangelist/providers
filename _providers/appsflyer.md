@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: 'Report-pull endpoints that export AppsFlyer attribution and analytics data as CSV/JSON: raw-data installs, in-app events, re-engagements, retargeting, uninstalls, ad-revenue and protect360 reports (V1'
@@ -373,16 +374,18 @@ rate_limits:
   slug: appsflyer-rate-limits
 score:
   band: exemplar
-  composite: 71.0
-  delta: 10.4
+  composite: 67.3
+  delta: -3.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.8
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 65.1
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
-  previous_composite: 60.6
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 71.0
   provenance:
     conformance: derived
     contracts:
@@ -392,9 +395,9 @@ score:
       total: 39
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:
 - kind: authentication

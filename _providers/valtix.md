@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -36,6 +37,10 @@ asyncapis:
   name: Valtix Alerts Webhooks
   slug: valtix-alerts-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -92,7 +97,7 @@ created: '2026-07-17'
 description: Valtix is a multicloud network security platform delivering agentless, cloud-native firewalling — ingress WAF/IDS/IPS, egress TLS decryption and exfiltration prevention, and east-west inspection — across AWS, Azure, GCP, and OCI, driven by continuous cloud asset discovery and tag-based dynamic policy. Founded in 2018 and acquired by Cisco in 2023, the product is sold today as Cisco Multicloud Defense; the Valtix documentation site and the verified Terraform provider (valtix-security/valtix) remain live and actively maintained under the Valtix name, while the standalone website and commercial pages redirect to Cisco.
 image: https://avatars.githubusercontent.com/valtix-security
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-19'
 name: Valtix
 nav: Providers
 network: true
@@ -102,22 +107,30 @@ overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged
   The Valtix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Valtix''s developer surface includes documentation, getting-started guide, support, changelog, authentication, and 8 more developer resources.'
+  Valtix''s developer surface includes documentation, getting-started guide, support, changelog, authentication, and 9 more developer resources.'
 random_paper: 68
 score:
   band: thin
-  composite: 29.4
-  delta: 0.0
+  composite: 28.4
+  delta: -1.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 34.8
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 38.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 29.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

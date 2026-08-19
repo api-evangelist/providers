@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 14.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,19 +121,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 14.4
-  delta: 5.5
+  composite: 15.4
+  delta: 1.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 8.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 14.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atolls/refs/heads/main/screenshots/atolls-2026-07-25T201556.png
 security:
 - kind: authentication

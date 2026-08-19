@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -135,21 +136,23 @@ overview: 'Duplo Cloud is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 85
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 33.2
+  delta: -0.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 64.3
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 33.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duplo-cloud/refs/heads/main/screenshots/duplo-cloud-2026-07-25T212513.png
 security:

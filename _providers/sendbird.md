@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -401,7 +402,9 @@ rate_limits:
   name: Sendbird Rate Limits
   slug: sendbird-rate-limits
 rules:
-- name: Sendbird API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sendbird API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -409,7 +412,10 @@ rules:
     info: 1
     warn: 4
   slug: sendbird-jsonschema-spectral-rules
-- name: Sendbird API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Sendbird API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -418,16 +424,18 @@ rules:
     warn: 6
   slug: sendbird-rules
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: developing
+  composite: 48.0
+  delta: -12.6
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 74.5
-    developer_ergonomics: 32.6
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 41.7
+    contract_quality: 73.5
+    developer_ergonomics: 21.4
     discoverability: 79.6
-    governance: 80.2
-    operational_transparency: 52.6
+    governance: 41.7
+    operational_transparency: 26.3
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -438,9 +446,13 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:
 - kind: authentication

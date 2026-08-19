@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,18 +79,26 @@ overview: 'Pensive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 17
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 14.0
+  delta: -1.4
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 35.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pensive/refs/heads/main/screenshots/pensive-2026-08-07T191819.png
 security:

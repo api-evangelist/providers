@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,7 +229,9 @@ rate_limits:
   name: Checkiday Rate Limits
   slug: checkiday-rate-limits
 rules:
-- name: Checkiday - National Holiday and Event API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Checkiday - National Holiday and Event API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,7 +239,10 @@ rules:
     info: 2
     warn: 3
   slug: checkiday-national-holiday-api-jsonschema-spectral-rules
-- name: Checkiday - National Holiday and Event API API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Checkiday - National Holiday and Event API API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -245,16 +251,18 @@ rules:
     warn: 2
   slug: checkiday-rules
 score:
-  band: strong
-  composite: 65.0
-  delta: 0.0
+  band: developing
+  composite: 51.1
+  delta: -13.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 74.6
-    developer_ergonomics: 30.4
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 72.0
+    developer_ergonomics: 27.4
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 57.9
   previous_composite: 65.0
   provenance:
     agentic_access: derived
@@ -263,9 +271,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:
 - kind: authentication

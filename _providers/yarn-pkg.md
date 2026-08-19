@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -254,7 +255,9 @@ overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
   Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 32 more developer resources.'
 random_paper: 64
 rules:
-- name: Yarn API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Yarn API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -263,20 +266,28 @@ rules:
     warn: 3
   slug: yarn-pkg-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.9
-  delta: 0.0
+  band: emerging
+  composite: 25.0
+  delta: -5.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 27.4
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 23.9
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 30.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn-pkg/refs/heads/main/screenshots/yarn-pkg-2026-06-20T201737.png
 security:
 - kind: domain-security

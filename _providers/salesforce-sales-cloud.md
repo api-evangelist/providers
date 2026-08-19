@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -899,7 +900,9 @@ rate_limits:
   name: Salesforce Sales Cloud Rate Limits
   slug: salesforce-sales-cloud-rate-limits
 rules:
-- name: Salesforce Sales Cloud API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Salesforce Sales Cloud API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -907,7 +910,9 @@ rules:
     info: 1
     warn: 3
   slug: salesforce-sales-cloud-jsonschema-spectral-rules
-- name: Salesforce Sales Cloud API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Salesforce Sales Cloud API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -921,16 +926,18 @@ scopes:
   slug: salesforce-sales-cloud-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 59.7
-  delta: 0.0
+  band: developing
+  composite: 51.6
+  delta: -8.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.8
-    developer_ergonomics: 63.0
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 67.4
+    developer_ergonomics: 69.0
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 59.7
   provenance:
     agentic_access: derived
@@ -939,9 +946,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:
 - kind: authentication

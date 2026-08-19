@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-17'
+  score: 12.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -132,15 +133,17 @@ scopes:
   slug: cardless-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials/refreshToken
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: emerging
+  composite: 23.2
+  delta: -5.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 29.1
   provenance:
@@ -152,9 +155,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/screenshots/cardless-2026-08-07T162953.png
 security:
 - kind: authentication

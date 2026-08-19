@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -225,15 +226,17 @@ rate_limits:
   slug: spreadshirt-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 45.6
+  delta: -2.6
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 68.2
-    developer_ergonomics: 60.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 64.5
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 48.2
   provenance:
     conformance: derived
@@ -244,9 +247,10 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spreadshirt/refs/heads/main/screenshots/spreadshirt-2026-08-17T082038.png
 security:
 - kind: authentication
   name: Spreadshirt Authentication

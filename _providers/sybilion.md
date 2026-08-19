@@ -14,22 +14,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 73.9
-  scored_at: '2026-08-17'
+  score: 60.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,19 +215,32 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 47.3
+  delta: -7.2
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 50.7
-    developer_ergonomics: 73.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 16.7
+    contract_quality: 49.6
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
 security:
 - kind: authentication
   name: Sybilion Authentication

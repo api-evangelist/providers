@@ -3,22 +3,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-17'
+  score: 49.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
@@ -173,16 +174,31 @@ rate_limits:
   slug: uchecker-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 48.4
+  delta: -4.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 61.5
-    developer_ergonomics: 54.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 16.7
+    contract_quality: 62.6
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 7.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  previous_composite: 53.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/screenshots/uchecker-2026-08-17T082530.png
 security:
 - kind: authentication
   name: Uchecker Authentication

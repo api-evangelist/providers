@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Zillow Web Services were the legacy public XML-based APIs from Zillow including GetSearchResults, GetZestimate, GetDeepSearchResults, GetUpdatedPropertyDetails, GetComps, GetRegionChildren, and the Ne
@@ -159,12 +160,14 @@ rate_limits:
   slug: zillow-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 35.4
+  delta: -2.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 48.1
-    developer_ergonomics: 23.9
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 16.7
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
@@ -175,8 +178,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/screenshots/zillow-2026-06-20T201903.png
 security:

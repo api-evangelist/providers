@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, a
@@ -161,7 +162,9 @@ rate_limits:
   name: Bbva Rate Limits
   slug: bbva-rate-limits
 rules:
-- name: BBVA API Rules
+- effective_rule_count: 6
+  extends: []
+  name: BBVA API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -171,24 +174,26 @@ rules:
   slug: bbva-spectral-rules
 score:
   band: thin
-  composite: 29.7
-  delta: 0.0
+  composite: 28.8
+  delta: -0.9
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 37.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 54.5
+    contract_quality: 11.3
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 37.5
-    operational_transparency: 13.2
+    governance: 54.5
+    operational_transparency: 10.5
   previous_composite: 29.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 19.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png
 security:

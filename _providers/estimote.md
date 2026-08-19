@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for managing Estimote devices (beacons): list and configure devices, associate cloud Attachments (custom key/value data) with a device, and read events reported by LTE beacons. Authenticated '
@@ -165,23 +166,25 @@ overview: 'Estimote publishes 1 API on the [APIs.io](https://apis.io/) network. 
   Estimote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 19 more developer resources.'
 random_paper: 129
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -7.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 13.2
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 43.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/estimote/refs/heads/main/screenshots/estimote-2026-07-25T213641.png
 security:
 - kind: authentication

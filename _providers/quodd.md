@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -207,14 +208,16 @@ rate_limits:
   slug: quodd-rate-limits
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 48.5
+  delta: 1.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 59.0
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 46.9
   provenance:
@@ -233,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png
 security:

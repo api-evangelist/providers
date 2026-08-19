@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -381,7 +382,9 @@ rate_limits:
   name: Magic Eden Rate Limits
   slug: magic-eden-rate-limits
 rules:
-- name: Magic Eden API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Magic Eden API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -391,15 +394,17 @@ rules:
   slug: magic-eden-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 45.8
+  delta: -9.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 56.1
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 54.1
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -408,9 +413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
 security:
 - kind: authentication

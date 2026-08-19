@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +149,9 @@ rate_limits:
   name: Nasa Apod Rate Limits
   slug: nasa-apod-rate-limits
 rules:
-- name: NASA APOD API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NASA APOD API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -158,15 +161,17 @@ rules:
   slug: nasa-apod-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 45.1
+  delta: -3.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 63.6
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 44.7
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -178,11 +183,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/screenshots/nasa-apod-2026-06-20T185946.png
 security:

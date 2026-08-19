@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 53.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -439,29 +440,32 @@ rate_limits:
   slug: sumble-rate-limits
 score:
   band: strong
-  composite: 62.5
-  delta: 12.9
+  composite: 57.3
+  delta: -5.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 61.9
-    developer_ergonomics: 62.5
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 30.3
+    contract_quality: 60.1
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 42.1
-  previous_composite: 49.6
+    governance: 30.3
+    operational_transparency: 23.7
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/screenshots/sumble-2026-08-17T082151.png
 security:
 - kind: authentication
   name: Sumble Authentication

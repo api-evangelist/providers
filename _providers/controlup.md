@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 api_count: 61
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -634,15 +635,17 @@ rate_limits:
   slug: controlup-rate-limits
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 62.3
+  delta: -3.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 72.5
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 72.2
+    developer_ergonomics: 58.9
     discoverability: 57.4
-    governance: 11.5
-    operational_transparency: 100.0
+    governance: 16.7
+    operational_transparency: 97.4
   previous_composite: 65.4
   provenance:
     conformance: derived
@@ -653,8 +656,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:

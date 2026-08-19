@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -477,7 +478,9 @@ rate_limits:
   name: Modal Rate Limits
   slug: modal-rate-limits
 rules:
-- name: Modal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Modal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -485,7 +488,10 @@ rules:
     info: 1
     warn: 4
   slug: modal-com-jsonschema-spectral-rules
-- name: Modal API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Modal API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -494,15 +500,17 @@ rules:
     warn: 3
   slug: modal-rules
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: -5.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 63.3
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 60.0
+    developer_ergonomics: 57.1
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 66.8
   provenance:
@@ -512,9 +520,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:
 - kind: authentication

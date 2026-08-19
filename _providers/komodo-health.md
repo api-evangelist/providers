@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-17'
+  score: 20.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Marmot Development Kit is Komodo Health's developer surface — a Python SDK and `komodo` CLI published to PyPI that handle OAuth 2.0 authentication, account selection, service-principal credentials
@@ -196,17 +197,19 @@ scopes:
   slug: komodo-health-scopes
   summary_line: 14 scopes · deviceCode/clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 41.9
-  delta: 3.1
+  band: developing
+  composite: 39.8
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 75.5
+    developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 38.8
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 41.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -216,9 +219,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 52.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/screenshots/komodo-health-2026-07-25T224138.png
 security:

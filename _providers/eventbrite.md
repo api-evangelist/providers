@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,12 +200,14 @@ overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 37
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 33.6
+  delta: -3.7
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 55.8
-    developer_ergonomics: 34.8
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 0.0
+    contract_quality: 52.3
+    developer_ergonomics: 27.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 15.8
@@ -216,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:

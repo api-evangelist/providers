@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -162,7 +163,10 @@ rate_limits:
   name: Circle Community Rate Limits
   slug: circle-community-rate-limits
 rules:
-- name: Circle API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Circle API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -172,14 +176,16 @@ rules:
   slug: circle-community-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 40.2
+  delta: -3.3
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 60.7
-    developer_ergonomics: 19.6
+    contract_governance: 11.4
+    contract_quality: 60.4
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 31.6
   previous_composite: 43.5
   provenance:
@@ -189,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

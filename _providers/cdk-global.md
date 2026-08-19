@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -460,7 +461,10 @@ rate_limits:
   name: Cdk Global Rate Limits
   slug: cdk-global-rate-limits
 rules:
-- name: CDK Global API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: CDK Global API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -468,7 +472,9 @@ rules:
     info: 0
     warn: 3
   slug: cdk-global-asyncapi-spectral-rules
-- name: CDK Global API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CDK Global API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -476,7 +482,10 @@ rules:
     info: 2
     warn: 3
   slug: cdk-global-jsonschema-spectral-rules
-- name: CDK Global API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: CDK Global API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -490,16 +499,18 @@ scopes:
   slug: cdk-global-scopes
   summary_line: 3 scopes · implicit
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 50.6
+  delta: -9.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 69.6
-    developer_ergonomics: 67.4
+    contract_governance: 26.5
+    contract_quality: 69.5
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 62.5
-    operational_transparency: 36.8
+    governance: 26.5
+    operational_transparency: 34.2
   previous_composite: 60.2
   provenance:
     agentic_access: derived
@@ -508,9 +519,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/screenshots/cdk-global-2026-06-20T174106.png
 security:
 - kind: authentication

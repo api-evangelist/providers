@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 36.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for security ratings, portfolios, scorecards, factor and issue data, historical scores, industry benchmarks, reporting, and webhook Rules.
@@ -174,21 +175,24 @@ overview: 'SecurityScorecard publishes 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 95
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 44.4
+  delta: -6.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.6
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 47.6
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 30.3
   previous_composite: 51.3
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/screenshots/security-scorecard-2026-08-17T081750.png
 security:
 - kind: authentication
   name: Security Scorecard Authentication

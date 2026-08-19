@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 41.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -456,7 +456,9 @@ rate_limits:
   name: Dtn Rate Limits
   slug: dtn-rate-limits
 rules:
-- name: DTN API Rules
+- effective_rule_count: 6
+  extends: []
+  name: DTN API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -470,15 +472,17 @@ scopes:
   slug: dtn-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 55.8
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 1.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 65.9
-    developer_ergonomics: 66.8
-    discoverability: 57.4
-    governance: 69.8
+    contract_governance: 26.5
+    contract_quality: 63.0
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    governance: 26.5
     operational_transparency: 36.8
   previous_composite: 55.8
   provenance:
@@ -497,8 +501,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

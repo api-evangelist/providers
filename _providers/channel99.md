@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-17'
+  score: 47.9
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Channel99's Bulk Data Transfer REST API. Seventeen operations giving programmatic access to the account-resolved marketing facts behind the platform - website visits, pageviews, ad impressions and buy
@@ -198,18 +199,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 46.1
+  delta: -4.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 53.0
-    developer_ergonomics: 58.7
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 51.7
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 63.2
   previous_composite: 50.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png
 security:

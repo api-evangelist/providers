@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Server-side conversion event ingestion. Accepts batches of up to 100 events over HTTPS with Bearer authentication, so conversions that happen off-site (CRM milestones such as ClosedWon, BecameSQL or R
@@ -173,20 +174,31 @@ rate_limits:
   name: Knotch Rate Limits
   slug: knotch-rate-limits
 score:
-  band: thin
-  composite: 41.3
-  delta: 33.5
+  band: developing
+  composite: 41.6
+  delta: 0.3
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 48.5
-    developer_ergonomics: 63.0
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 7.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 41.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/screenshots/knotch-2026-07-25T224004.png
 security:
 - kind: authentication

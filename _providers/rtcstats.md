@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -200,15 +201,17 @@ rate_limits:
   slug: rtcstats-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 58.8
+  delta: -0.7
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 58.5
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -220,9 +223,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/screenshots/rtcstats-2026-08-17T081649.png
 security:
 - kind: authentication
   name: Rtcstats Authentication

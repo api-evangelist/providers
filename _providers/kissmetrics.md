@@ -16,21 +16,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -228,20 +229,32 @@ rate_limits:
   name: Kissmetrics Rate Limits
   slug: kissmetrics-rate-limits
 score:
-  band: strong
-  composite: 59.0
-  delta: 45.0
+  band: developing
+  composite: 54.0
+  delta: -5.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 59.0
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 53.6
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 31.6
-  previous_composite: 14.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 28.9
+  previous_composite: 59.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:
 - kind: authentication

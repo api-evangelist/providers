@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-17'
+  score: 53.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -250,15 +251,17 @@ overview: 'BCB Group publishes 8 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 48.2
+  delta: -3.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 65.4
-    developer_ergonomics: 62.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 16.7
+    contract_quality: 62.1
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 34.2
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -276,8 +279,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/screenshots/bcb-group-2026-07-25T202502.png
 security:

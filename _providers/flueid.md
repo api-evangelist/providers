@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -140,22 +141,37 @@ rate_limits:
   slug: flueid-rate-limits
 score:
   band: thin
-  composite: 37.8
+  composite: 30.4
+  delta: -7.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 38.8
-    developer_ergonomics: 39.1
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 30.3
+    contract_quality: 38.5
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 15.8
+  previous_composite: 37.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 39.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 25.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Flueid Authentication

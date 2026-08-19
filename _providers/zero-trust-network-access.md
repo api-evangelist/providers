@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
@@ -255,7 +256,9 @@ rate_limits:
   name: Zero Trust Network Access Rate Limits
   slug: zero-trust-network-access-rate-limits
 rules:
-- name: Zero Trust Network Access API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zero Trust Network Access API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -265,15 +268,17 @@ rules:
   slug: zero-trust-network-access-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 32.8
+  delta: -6.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 61.2
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 39.5
   provenance:
     contracts:
@@ -281,9 +286,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/screenshots/zero-trust-network-access-2026-06-20T201911.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -251,7 +252,9 @@ rate_limits:
   name: Suger Rate Limits
   slug: suger-rate-limits
 rules:
-- name: Suger API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Suger API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,7 +262,10 @@ rules:
     info: 2
     warn: 3
   slug: suger-jsonschema-spectral-rules
-- name: Suger API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Suger API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -269,14 +275,16 @@ rules:
   slug: suger-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 41.2
+  delta: -7.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 67.2
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 64.8
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 49.1
   provenance:
@@ -286,9 +294,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/screenshots/suger-2026-06-20T194638.png
 security:
 - kind: authentication

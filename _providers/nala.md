@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -237,15 +238,17 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 50.4
+  delta: -1.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.0
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 60.3
+    developer_ergonomics: 57.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -263,8 +266,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/screenshots/nala-2026-08-07T184612.png
 security:

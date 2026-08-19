@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
@@ -39,7 +40,7 @@ apis:
 - description: 'CharacterQuilt''s hosted Model Context Protocol server, the agent-facing surface of its marketing agent runtime. Live and OAuth-protected at https://mcp.characterquilt.com/api/mcp: an anonymous request'
   name: CharacterQuilt MCP Server
   slug: characterquilt-mcp-server
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -179,26 +180,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.9
-  delta: 12.9
+  composite: 46.8
+  delta: -0.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 56.0
-    developer_ergonomics: 26.1
+    contract_governance: 30.3
+    contract_quality: 52.4
+    developer_ergonomics: 26.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 34.0
+    governance: 30.3
+    operational_transparency: 2.6
+  previous_composite: 46.9
   provenance:
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-    mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:
 - kind: authentication
@@ -209,6 +214,10 @@ security:
   name: Characterquilt Domain Security
   slug: characterquilt-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: running-dinner-campaigns
+  slug: running-dinner-campaigns
 slug: characterquilt
 tags:
 - Company

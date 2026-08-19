@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -169,12 +170,14 @@ rate_limits:
   slug: extend-ai-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 38.3
+  delta: -0.1
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 53.9
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 51.9
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
@@ -186,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/screenshots/extend-ai-2026-06-20T180945.png
 security:

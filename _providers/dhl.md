@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 38.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,12 +269,14 @@ rate_limits:
   slug: dhl-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 29.8
+  delta: -0.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.2
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 54.9
+    developer_ergonomics: 21.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
@@ -285,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png
 security:

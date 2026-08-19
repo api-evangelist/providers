@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 46.1
+  scored_at: '2026-08-19'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -353,14 +354,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 49.7
+  delta: -2.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 71.7
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 73.3
+    developer_ergonomics: 50.6
     discoverability: 57.4
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 47.4
   previous_composite: 52.4
   provenance:
@@ -372,9 +375,10 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:
 - kind: authentication
   name: Tackleio Authentication

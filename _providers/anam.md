@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -257,15 +258,17 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 115
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 55.8
+  delta: -1.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 60.1
-    developer_ergonomics: 62.5
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 30.3
+    contract_quality: 59.8
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -277,8 +280,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

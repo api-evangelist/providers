@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -241,7 +242,9 @@ rate_limits:
   name: Unify Ai Rate Limits
   slug: unify-ai-rate-limits
 rules:
-- name: Unify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -250,15 +253,17 @@ rules:
     warn: 4
   slug: unify-ai-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.0
-  delta: 0.0
+  band: developing
+  composite: 52.5
+  delta: -5.5
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 74.6
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 72.0
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 58.0
   provenance:
@@ -268,9 +273,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:
 - kind: authentication

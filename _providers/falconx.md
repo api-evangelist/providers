@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'FalconX REST trading API for institutional digital-asset execution: price quotes, order placement and execution, trade history, balances, transfers, and trade limits, across OTC, execution-management '
@@ -119,14 +120,16 @@ overview: 'FalconX publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 2
 score:
   band: thin
-  composite: 29.7
-  delta: 0.0
+  composite: 30.0
+  delta: 0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 29.7
   provenance:
@@ -137,8 +140,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falconx/refs/heads/main/screenshots/falconx-2026-07-25T214203.png
 security:

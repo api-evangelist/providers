@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 57.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -298,16 +298,18 @@ scopes:
   slug: telia-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 56.4
+  delta: 3.4
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 67.2
-    developer_ergonomics: 75.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 65.0
+    developer_ergonomics: 67.3
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -324,10 +326,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 81.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png
 security:
 - kind: authentication
   name: Telia Authentication

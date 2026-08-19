@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -131,21 +132,23 @@ overview: 'Cinchy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 42
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 20.7
+  delta: -2.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 31.0
     discoverability: 57.4
-    governance: 3.1
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 22.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cinchy/refs/heads/main/screenshots/cinchy-2026-07-25T205348.png
 security:

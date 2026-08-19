@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -663,7 +664,9 @@ rate_limits:
   name: Microsoft Entra Rate Limits
   slug: microsoft-entra-rate-limits
 rules:
-- name: Microsoft Entra API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Entra API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -671,7 +674,10 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-entra-jsonschema-spectral-rules
-- name: Microsoft Entra API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Microsoft Entra API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -686,15 +692,17 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 50.7
+  delta: -4.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 66.4
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 70.6
+    developer_ergonomics: 52.4
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -703,8 +711,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/screenshots/microsoft-entra-2026-06-20T185457.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -388,7 +390,9 @@ rate_limits:
   name: Token Io Rate Limits
   slug: token-io-rate-limits
 rules:
-- name: token-io API Rules
+- effective_rule_count: 6
+  extends: []
+  name: token-io API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -397,15 +401,17 @@ rules:
     warn: 4
   slug: token-io-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 52.4
+  delta: -5.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.0
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 68.5
+    developer_ergonomics: 69.0
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 57.7
   provenance:
@@ -415,9 +421,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:
 - kind: authentication

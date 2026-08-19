@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -250,7 +251,10 @@ rate_limits:
   name: Apache Pulsar Rate Limits
   slug: apache-pulsar-rate-limits
 rules:
-- name: Apache Pulsar API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Apache Pulsar API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -258,7 +262,9 @@ rules:
     info: 0
     warn: 3
   slug: apache-pulsar-asyncapi-spectral-rules
-- name: Apache Pulsar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Pulsar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -266,7 +272,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-pulsar-jsonschema-spectral-rules
-- name: Apache Pulsar API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Apache Pulsar API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -276,15 +285,17 @@ rules:
   slug: apache-pulsar-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 31.5
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 63.4
-    developer_ergonomics: 10.9
+    contract_governance: 26.5
+    contract_quality: 59.9
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 62.5
-    operational_transparency: 13.2
+    governance: 26.5
+    operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -293,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
 security:
 - kind: domain-security

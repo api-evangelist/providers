@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -344,7 +344,10 @@ rate_limits:
   name: Bump Sh Rate Limits
   slug: bump-sh-rate-limits
 rules:
-- name: Bump.sh API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Bump.sh API Rules
   rule_count: 12
   severity_counts:
     error: 1
@@ -352,7 +355,9 @@ rules:
     info: 4
     warn: 7
   slug: bump-sh-api-rules
-- name: Bump.sh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bump.sh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -362,15 +367,17 @@ rules:
   slug: bump-sh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 47.7
+  delta: -3.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.0
-    developer_ergonomics: 32.6
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 54.5
+    contract_quality: 63.5
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 47.9
-    operational_transparency: 44.7
+    governance: 54.5
+    operational_transparency: 26.3
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -379,8 +386,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:

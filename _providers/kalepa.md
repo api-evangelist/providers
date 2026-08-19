@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -123,15 +124,17 @@ overview: 'Kalepa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 26
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 18.3
+  delta: -3.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 21.3
   provenance:
     conformance: first-party
@@ -141,8 +144,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalepa/refs/heads/main/screenshots/kalepa-2026-07-25T223430.png
 security:

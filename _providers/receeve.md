@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -242,14 +243,16 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 139
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 35.3
+  delta: -3.7
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 65.8
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 39.0
   provenance:
@@ -268,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

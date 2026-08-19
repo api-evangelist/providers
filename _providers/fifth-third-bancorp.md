@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -264,15 +265,17 @@ press:
 random_paper: 111
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 42.9
+  delta: -4.6
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.1
-    developer_ergonomics: 71.7
+    access_clarity: 5.3
+    commercial_clarity: 5.3
+    contract_governance: 16.7
+    contract_quality: 59.8
+    developer_ergonomics: 58.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -284,9 +287,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 29.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

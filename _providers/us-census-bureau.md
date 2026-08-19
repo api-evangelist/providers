@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -378,7 +379,10 @@ rate_limits:
   name: Us Census Bureau Rate Limits
   slug: us-census-bureau-rate-limits
 rules:
-- name: US Census Bureau API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: US Census Bureau API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -386,7 +390,9 @@ rules:
     info: 0
     warn: 4
   slug: census-data-api-rules
-- name: US Census Bureau API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Census Bureau API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -396,15 +402,17 @@ rules:
   slug: us-census-bureau-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 53.2
+  delta: 6.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.4
-    developer_ergonomics: 41.3
+    contract_governance: 45.5
+    contract_quality: 62.2
+    developer_ergonomics: 45.2
     discoverability: 61.1
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 45.5
+    operational_transparency: 50.0
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -419,9 +427,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:
 - kind: authentication

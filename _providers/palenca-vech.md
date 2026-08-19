@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 api_count: 45
 apis:
 - description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
@@ -465,15 +466,17 @@ rate_limits:
   slug: palenca-vech-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 48.5
+  delta: -5.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.1
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 51.3
+    developer_ergonomics: 50.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 39.5
   previous_composite: 53.6
   provenance:
     conformance: first-party
@@ -484,9 +487,9 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:
 - kind: authentication

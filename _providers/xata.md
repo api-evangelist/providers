@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -273,7 +274,9 @@ rate_limits:
   name: Xata Rate Limits
   slug: xata-rate-limits
 rules:
-- name: Xata API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Xata API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -288,15 +291,17 @@ scopes:
   summary_line: 15 scopes · implicit
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 46.3
+  delta: -5.9
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 60.3
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 59.4
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -305,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/screenshots/xata-2026-06-20T201708.png
 security:
 - kind: authentication

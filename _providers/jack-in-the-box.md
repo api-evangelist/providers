@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,19 +126,21 @@ overview: 'Jack in the Box is profiled on the [APIs.io](https://apis.io/) networ
   Jack in the Box''s developer surface includes YouTube channel, code examples, and 15 more developer resources.'
 random_paper: 68
 score:
-  band: minimal
+  band: emerging
   composite: 11.4
   delta: 0.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
+    contract_governance: 15.2
+    contract_quality: 16.9
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 10.4
-    operational_transparency: 5.3
+    governance: 15.2
+    operational_transparency: 2.6
   previous_composite: 11.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-in-the-box/refs/heads/main/screenshots/jack-in-the-box-2026-06-20T183649.png
 security:

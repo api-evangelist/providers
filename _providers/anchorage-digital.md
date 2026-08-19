@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 47.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -322,15 +323,17 @@ rate_limits:
   slug: anchorage-digital-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 42.1
+  delta: -8.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 70.6
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 68.2
+    developer_ergonomics: 16.1
     discoverability: 68.5
-    governance: 11.5
-    operational_transparency: 68.4
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -348,9 +351,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png
 security:
 - kind: authentication

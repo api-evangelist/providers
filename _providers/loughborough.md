@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -216,7 +217,9 @@ rate_limits:
   name: Loughborough Rate Limits
   slug: loughborough-rate-limits
 rules:
-- name: Loughborough University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Loughborough University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,7 +227,10 @@ rules:
     info: 1
     warn: 4
   slug: loughborough-jsonschema-spectral-rules
-- name: Loughborough University API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Loughborough University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,14 +245,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.1
+  delta: -2.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 73.9
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 72.3
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 44.7
   provenance:
@@ -256,8 +264,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:

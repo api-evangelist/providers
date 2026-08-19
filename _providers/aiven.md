@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -405,7 +406,9 @@ rate_limits:
   name: Aiven Rate Limits
   slug: aiven-rate-limits
 rules:
-- name: Aiven API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Aiven API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -420,14 +423,16 @@ scopes:
   summary_line: 34 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 45.0
+  delta: -6.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 70.7
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 70.6
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 51.6
   provenance:
@@ -437,9 +442,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -227,12 +228,14 @@ overview: 'Pie Insurance publishes 7 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 139
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 28.7
+  delta: -3.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 48.3
-    developer_ergonomics: 30.4
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
+    contract_quality: 46.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -249,9 +252,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 30.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 24.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,14 +119,16 @@ overview: 'Closinglock is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 133
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 12.4
+  delta: -8.8
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 21.2
   provenance:
@@ -135,10 +138,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 25.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Closinglock Domain Security

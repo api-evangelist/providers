@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 36.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -330,7 +331,9 @@ rate_limits:
   name: Yardi Rate Limits
   slug: yardi-rate-limits
 rules:
-- name: Yardi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Yardi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -338,7 +341,9 @@ rules:
     info: 2
     warn: 3
   slug: yardi-jsonschema-spectral-rules
-- name: Yardi API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Yardi API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -347,16 +352,18 @@ rules:
     warn: 8
   slug: yardi-rules
 score:
-  band: developing
-  composite: 44.1
-  delta: 0.0
+  band: thin
+  composite: 35.4
+  delta: -8.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 28.8
-    developer_ergonomics: 50.0
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 9.8
+    contract_quality: 27.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -365,9 +372,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -701,7 +702,10 @@ rate_limits:
   name: Cockroachdb Rate Limits
   slug: cockroachdb-rate-limits
 rules:
-- name: CockroachDB API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: CockroachDB API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -709,7 +713,9 @@ rules:
     info: 0
     warn: 6
   slug: cockroachdb-asyncapi-spectral-rules
-- name: CockroachDB API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CockroachDB API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -717,7 +723,10 @@ rules:
     info: 1
     warn: 5
   slug: cockroachdb-jsonschema-spectral-rules
-- name: CockroachDB API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: CockroachDB API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -727,14 +736,16 @@ rules:
   slug: cockroachdb-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 44.4
+  delta: -5.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 77.4
-    developer_ergonomics: 32.6
+    contract_governance: 11.4
+    contract_quality: 77.1
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 28.9
   previous_composite: 50.1
   provenance:
@@ -744,9 +755,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:
 - kind: authentication

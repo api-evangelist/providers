@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Hosted payment session API for accepting one-off payments from Wave wallet users. Create a checkout session, redirect the customer to the returned wave_launch_url, then receive a checkout.session.comp
@@ -175,12 +176,14 @@ overview: 'Wave Mobile Money publishes 5 APIs on the [APIs.io](https://apis.io/)
 random_paper: 70
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 23.9
+  delta: -0.9
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
@@ -191,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wave-mobile-money/refs/heads/main/screenshots/wave-mobile-money-2026-06-20T201254.png
 security:

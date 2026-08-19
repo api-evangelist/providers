@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 355
   human_in_the_loop: 3
@@ -239,7 +240,9 @@ rate_limits:
   name: Tegna Rate Limits
   slug: tegna-rate-limits
 rules:
-- name: TEGNA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TEGNA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +250,10 @@ rules:
     info: 2
     warn: 3
   slug: tegna-jsonschema-spectral-rules
-- name: TEGNA API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: TEGNA API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -256,27 +262,32 @@ rules:
     warn: 6
   slug: tegna-rules
 score:
-  band: developing
-  composite: 47.9
-  delta: 8.3
+  band: thin
+  composite: 32.7
+  delta: -15.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 59.7
-    developer_ergonomics: 32.6
+    contract_governance: 41.7
+    contract_quality: 15.6
+    developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 5.3
-  previous_composite: 39.6
+    governance: 41.7
+    operational_transparency: 21.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png
 security:
 - kind: authentication

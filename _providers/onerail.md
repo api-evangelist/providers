@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 58.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -642,14 +643,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 49.3
+  delta: -0.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 54.1
-    developer_ergonomics: 60.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 51.8
+    developer_ergonomics: 61.3
     discoverability: 87.0
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 23.7
   previous_composite: 49.9
   provenance:
@@ -662,8 +665,8 @@ score:
       total: 76
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:

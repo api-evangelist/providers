@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 54.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -383,15 +384,17 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.2
+  delta: -0.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 49.4
-    developer_ergonomics: 47.8
+    contract_governance: 16.7
+    contract_quality: 50.6
+    developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -402,8 +405,8 @@ score:
       marker_coverage: 0.0
       total: 23
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

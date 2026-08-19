@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -317,7 +318,9 @@ rate_limits:
   name: Convai Rate Limits
   slug: convai-rate-limits
 rules:
-- name: Convai API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Convai API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -327,14 +330,16 @@ rules:
   slug: convai-com-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 54.8
+  delta: -5.7
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 66.9
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 62.7
+    developer_ergonomics: 66.7
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 60.5
   provenance:
@@ -344,9 +349,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/screenshots/convai-com-2026-06-20T174957.png
 security:
 - kind: authentication

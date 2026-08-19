@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -190,12 +191,14 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 44.9
+  delta: -5.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 62.1
-    developer_ergonomics: 56.5
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 0.0
+    contract_quality: 58.2
+    developer_ergonomics: 42.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -212,10 +215,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 34.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/screenshots/coingate-2026-06-20T174732.png
 security:
 - kind: authentication

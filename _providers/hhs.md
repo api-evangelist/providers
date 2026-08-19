@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-17'
+  score: 28.2
+  scored_at: '2026-08-19'
 api_count: 21
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -205,7 +206,9 @@ rate_limits:
   name: Simpler Grants
   slug: simpler-grants
 rules:
-- name: HHS (US Department of Health and Human Services) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: HHS (US Department of Health and Human Services) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,14 +218,16 @@ rules:
   slug: hhs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 38.1
+  delta: -2.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 59.9
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 57.7
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 40.5
   provenance:
@@ -237,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:

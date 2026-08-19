@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -203,15 +204,17 @@ overview: 'Embroker is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 110
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 18.6
+  delta: -4.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 48.1
-    developer_ergonomics: 2.2
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 5.3
   previous_composite: 22.9
   regulatory:
     applies: true
@@ -219,8 +222,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embroker/refs/heads/main/screenshots/embroker-2026-06-20T180627.png
 security:

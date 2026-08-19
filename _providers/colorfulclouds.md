@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -586,7 +587,9 @@ rate_limits:
   name: Colorfulclouds Rate Limits
   slug: colorfulclouds-rate-limits
 rules:
-- name: ColorfulClouds API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ColorfulClouds API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -594,7 +597,9 @@ rules:
     info: 1
     warn: 4
   slug: colorfulclouds-jsonschema-spectral-rules
-- name: ColorfulClouds API Rules
+- effective_rule_count: 39
+  extends: []
+  name: ColorfulClouds API Rules
   rule_count: 39
   severity_counts:
     error: 12
@@ -604,15 +609,17 @@ rules:
   slug: colorfulclouds-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 33.3
+  delta: -7.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 22.9
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 21.9
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 40.5
   provenance:
     agentic_access: derived
@@ -621,9 +628,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:
 - kind: authentication

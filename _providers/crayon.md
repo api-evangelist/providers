@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol server exposing a customer''s curated Crayon competitive intelligence — battlecards, win/loss stories, competitor profiles, objection handling and customer proof points — '
@@ -153,25 +154,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 24.6
-  delta: -4.9
+  composite: 20.5
+  delta: -4.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 8.1
-    developer_ergonomics: 21.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
     discoverability: 77.8
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 24.6
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/screenshots/crayon-2026-06-20T175221.png
 security:

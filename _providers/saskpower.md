@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-08-17'
+  score: 13.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The undocumented JSON endpoint behind SaskPower's public "Where Your Power Comes From" page. A single anonymous GET — no key, no signup, no referer check — returns the province's current supply pictur
@@ -176,14 +177,16 @@ overview: 'SaskPower publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 97
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 19.8
+  delta: -6.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 9.7
-    developer_ergonomics: 26.1
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 9.9
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 26.4
   provenance:
@@ -193,10 +196,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 23.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Saskpower Authentication

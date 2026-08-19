@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 253
   human_in_the_loop: 0
@@ -461,12 +462,14 @@ rate_limits:
   slug: subscan
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 34.1
+  delta: -5.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 52.8
-    developer_ergonomics: 2.2
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 50.2
+    developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
@@ -478,9 +481,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png
 security:
 - kind: domain-security

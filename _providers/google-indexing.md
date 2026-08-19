@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -256,7 +257,9 @@ rate_limits:
   name: Google Indexing Rate Limits
   slug: google-indexing-rate-limits
 rules:
-- name: Google Indexing API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Google Indexing API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -264,7 +267,10 @@ rules:
     info: 1
     warn: 3
   slug: google-indexing-jsonschema-spectral-rules
-- name: Google Indexing API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Google Indexing API Rules
   rule_count: 16
   severity_counts:
     error: 11
@@ -278,27 +284,32 @@ scopes:
   slug: google-indexing-scopes
   summary_line: 1 scope · jwt-bearer/authorizationCode
 score:
-  band: exemplar
-  composite: 69.4
-  delta: 17.3
+  band: strong
+  composite: 65.9
+  delta: -3.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.1
-    developer_ergonomics: 76.1
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 26.5
+    contract_quality: 68.5
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 79.2
-    operational_transparency: 55.3
-  previous_composite: 52.1
+    governance: 26.5
+    operational_transparency: 76.3
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png
 security:
 - kind: authentication

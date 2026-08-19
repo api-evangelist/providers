@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -270,7 +271,9 @@ rate_limits:
   name: Itron Rate Limits
   slug: itron-rate-limits
 rules:
-- name: Itron API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Itron API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +281,10 @@ rules:
     info: 2
     warn: 3
   slug: itron-jsonschema-spectral-rules
-- name: Itron API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Itron API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -288,15 +294,17 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 50.4
+  delta: -0.6
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 67.2
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -311,8 +319,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:

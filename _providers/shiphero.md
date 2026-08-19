@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: ShipHero's primary public API built on GraphQL, providing programmatic access to warehouse management data and operations including inventory, orders, shipments, purchase orders, returns, wholesale or
@@ -126,19 +127,21 @@ rate_limits:
   name: Shiphero Rate Limits
   slug: shiphero-rate-limits
 score:
-  band: thin
-  composite: 41.7
-  delta: 0.0
+  band: developing
+  composite: 40.4
+  delta: -1.3
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 56.8
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 51.1
+    developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 50.0
   previous_composite: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shiphero/refs/heads/main/screenshots/shiphero-2026-06-20T193816.png
 security:

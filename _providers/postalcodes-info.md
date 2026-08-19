@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,7 +208,9 @@ rate_limits:
   name: Postalcodes Info Rate Limits
   slug: postalcodes-info-rate-limits
 rules:
-- name: PostalCodes.info API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PostalCodes.info API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,7 +218,10 @@ rules:
     info: 1
     warn: 4
   slug: postalcodes-info-jsonschema-spectral-rules
-- name: PostalCodes.info API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: PostalCodes.info API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -224,15 +230,17 @@ rules:
     warn: 6
   slug: postalcodes-info-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -3.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.9
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 63.6
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 42.5
   provenance:
@@ -248,8 +256,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/screenshots/postalcodes-info-2026-06-20T191947.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 api_count: 55
 apis:
 - description: Activity Log
@@ -482,15 +483,17 @@ overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 99
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 48.4
+  delta: 4.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 52.0
-    developer_ergonomics: 47.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 53.9
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 44.2
   provenance:
     conformance: first-party
@@ -507,9 +510,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/screenshots/validere-2026-08-17T082707.png
 security:
 - kind: authentication
   name: Validere Authentication

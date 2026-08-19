@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -185,12 +186,14 @@ overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 130
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 31.7
+  delta: -1.5
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 55.2
-    developer_ergonomics: 32.6
+    developer_ergonomics: 25.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
@@ -202,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/screenshots/hive-2026-06-20T182800.png
 security:

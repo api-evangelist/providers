@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
@@ -159,23 +160,25 @@ rate_limits:
   name: Contently Rate Limits
   slug: contently-rate-limits
 score:
-  band: thin
-  composite: 41.6
-  delta: -8.5
+  band: developing
+  composite: 39.6
+  delta: -2.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 32.6
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 23.7
-  previous_composite: 50.1
+    governance: 18.2
+    operational_transparency: 21.1
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: falling
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
 security:
 - kind: authentication

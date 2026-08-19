@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 14.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Avamar REST API provides a framework to develop applications and tools that interact with a stand-alone Avamar server. It exposes backup, restore, client, domain, dataset, retention, policy, plugi
@@ -155,22 +156,24 @@ scopes:
   slug: avamar-scopes
   summary_line: 5 scopes · password/authorizationCode/clientCredentials/implicit
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: emerging
+  composite: 24.5
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 40.5
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 39.5
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 29.8
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/screenshots/avamar-2026-07-25T201915.png
 security:
 - kind: authentication

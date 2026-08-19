@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as code (Jobs-as-Code), including deploy, run, provision, and config servic
@@ -110,18 +111,20 @@ overview: 'BMC Software publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 34
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 25.7
+  delta: 0.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 52.4
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 25.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/screenshots/bmc-software-2026-07-25T203516.png
 security:

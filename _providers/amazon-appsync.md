@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -856,7 +856,9 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
 random_paper: 116
 rules:
-- name: Amazon AppSync API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon AppSync API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -864,7 +866,10 @@ rules:
     info: 2
     warn: 4
   slug: amazon-appsync-jsonschema-spectral-rules
-- name: Amazon AppSync API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Amazon AppSync API Rules
   rule_count: 28
   severity_counts:
     error: 13
@@ -874,15 +879,23 @@ rules:
   slug: amazon-appsync-spectral-rules
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 32.1
+  delta: -6.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 76.1
-    developer_ergonomics: 19.6
+    contract_governance: 26.5
+    contract_quality: 76.7
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -893,9 +906,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:
 - kind: authentication

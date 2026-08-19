@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -219,15 +220,17 @@ overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 42
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 49.2
+  delta: -0.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 57.5
-    developer_ergonomics: 56.0
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 55.9
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -239,9 +242,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/screenshots/workist-2026-08-17T082941.png
 security:
 - kind: authentication
   name: Workist Authentication

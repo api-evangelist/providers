@@ -1,6 +1,92 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/acheel-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/acheel-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acheel-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acheel-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acheel-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/acheel-components.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.acheel.com/
+- group: company
+  title: ''
+  type: About
+  url: https://v2.acheel.com/about-us
+- group: operate
+  title: ''
+  type: Support
+  url: https://faq.acheel.com/fr
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://faq.acheel.com/fr
+- group: start
+  title: ''
+  type: Login
+  url: https://v2.acheel.com/customer-areas
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.charlee.fr/
+- group: company
+  title: ''
+  type: Careers
+  url: https://v2.acheel.com/join-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://v2.acheel.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://v2.acheel.com/privacy
+- group: commercial
+  title: ''
+  type: Legal
+  url: https://v2.acheel.com/legal-notice
 coverage:
   checked: '2026-08-17'
   detail: Acheel's own partner FAQ answered "Avez-vous des APIs ?" with "nous mettons à votre disposition nos APIs", but that partner site (partners.acheel.com) now 301s to the Charlee broker marketing brand and the only route to the API is the broker partnership form at charlee.fr/registration — no reference, no base URL and no spec was ever published, and the broker console back.charlee.fr is a noindex login.
@@ -26,7 +112,46 @@ modified: '2026-08-17'
 name: Acheel
 nav: Providers
 network: true
+overview: 'Acheel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, Insurance, Insurtech, and Digital Insurance.
+
+
+  Acheel''s developer surface includes support, FAQ, legal docs, and 13 more developer resources.'
+plans:
+- name: Acheel Plans Pricing
+  plan_count: 0
+  slug: acheel-plans-pricing
 random_paper: 14
+rate_limits:
+- limit_count: 0
+  name: Acheel Rate Limits
+  slug: acheel-rate-limits
+score:
+  band: emerging
+  composite: 15.8
+  facets:
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 28.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: domain-security
+  name: Acheel Domain Security
+  slug: acheel-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: acheel
 tags:
 - Company
@@ -42,4 +167,5 @@ tags:
 - B2B2C
 - Embedded Insurance
 - France
+website: https://www.acheel.com/
 ---

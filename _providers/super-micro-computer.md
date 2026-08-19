@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -208,7 +209,9 @@ rate_limits:
   name: Super Micro Computer Rate Limits
   slug: super-micro-computer-rate-limits
 rules:
-- name: Super Micro Computer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Super Micro Computer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -216,7 +219,9 @@ rules:
     info: 1
     warn: 4
   slug: super-micro-computer-jsonschema-spectral-rules
-- name: Super Micro Computer API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Super Micro Computer API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -225,16 +230,18 @@ rules:
     warn: 6
   slug: supermicro-redfish-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 32.9
+  delta: -12.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 67.2
-    developer_ergonomics: 34.8
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 69.6
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -243,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:
 - kind: authentication

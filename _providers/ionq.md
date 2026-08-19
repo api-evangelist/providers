@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -456,7 +457,9 @@ rate_limits:
   name: Ionq Rate Limits
   slug: ionq-rate-limits
 rules:
-- name: IonQ API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IonQ API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -464,7 +467,10 @@ rules:
     info: 1
     warn: 4
   slug: ionq-jsonschema-spectral-rules
-- name: IonQ API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: IonQ API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -474,14 +480,16 @@ rules:
   slug: ionq-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 58.7
+  delta: -5.3
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 68.3
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 65.2
+    developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 64.0
   provenance:
@@ -491,9 +499,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/screenshots/ionq-2026-06-20T183533.png
 security:
 - kind: authentication

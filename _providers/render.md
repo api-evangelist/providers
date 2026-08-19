@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -930,7 +931,10 @@ rate_limits:
   name: Render Rate Limits
   slug: render-rate-limits
 rules:
-- name: Render API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Render API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -938,7 +942,9 @@ rules:
     info: 0
     warn: 6
   slug: render-asyncapi-spectral-rules
-- name: Render API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Render API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -946,7 +952,10 @@ rules:
     info: 2
     warn: 3
   slug: render-jsonschema-spectral-rules
-- name: Render API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Render API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -956,14 +965,16 @@ rules:
   slug: render-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 48.1
+  delta: -4.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 80.5
-    developer_ergonomics: 47.8
+    contract_governance: 11.4
+    contract_quality: 79.9
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 28.9
   previous_composite: 52.9
   provenance:
@@ -973,10 +984,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-06-20T192846.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-08-17T083315.png
 security:
 - kind: authentication
   name: Render Authentication

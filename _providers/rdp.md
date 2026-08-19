@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -115,7 +116,9 @@ overview: 'RDP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
   RDP''s developer surface includes code examples, documentation, and 9 more developer resources.'
 random_paper: 28
 rules:
-- name: RDP API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RDP API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -125,19 +128,27 @@ rules:
   slug: rdp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 14.1
+  delta: -5.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 16.9
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 19.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rdp/refs/heads/main/screenshots/rdp-2026-06-20T192627.png
 slug: rdp
 tags:

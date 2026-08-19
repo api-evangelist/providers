@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -216,7 +217,10 @@ rate_limits:
   name: Ibm Mq Rate Limits
   slug: ibm-mq-rate-limits
 rules:
-- name: IBM MQ API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: IBM MQ API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -224,7 +228,9 @@ rules:
     info: 0
     warn: 6
   slug: ibm-mq-asyncapi-spectral-rules
-- name: IBM MQ API Rules
+- effective_rule_count: 6
+  extends: []
+  name: IBM MQ API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -232,7 +238,9 @@ rules:
     info: 2
     warn: 4
   slug: ibm-mq-jsonschema-spectral-rules
-- name: IBM MQ API Rules
+- effective_rule_count: 0
+  extends: []
+  name: IBM MQ API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -241,16 +249,18 @@ rules:
     warn: 0
   slug: ibm-mq-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -5.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 72.5
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 68.5
+    developer_ergonomics: 31.0
     discoverability: 63.0
-    governance: 52.1
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -259,9 +269,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,7 +208,9 @@ rate_limits:
   name: University Of Cape Town Rate Limits
   slug: university-of-cape-town-rate-limits
 rules:
-- name: University of Cape Town API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Cape Town API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,7 +218,9 @@ rules:
     info: 1
     warn: 4
   slug: university-of-cape-town-jsonschema-spectral-rules
-- name: University of Cape Town API Rules
+- effective_rule_count: 8
+  extends: []
+  name: University of Cape Town API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -225,14 +230,16 @@ rules:
   slug: university-of-cape-town-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 30.7
+  delta: -5.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 59.0
+    contract_governance: 9.8
+    contract_quality: 55.8
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 35.7
   provenance:
@@ -245,12 +252,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/screenshots/university-of-cape-town-2026-06-20T200148.png
 security:
 - kind: domain-security

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -288,15 +289,23 @@ overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 60
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 33.4
+  delta: 1.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 63.0
+    contract_governance: 0.0
+    contract_quality: 1.4
+    developer_ergonomics: 69.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 31.7
   regulatory:
     applies: true
@@ -304,8 +313,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:

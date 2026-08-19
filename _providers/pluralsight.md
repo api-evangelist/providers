@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -886,7 +887,9 @@ rate_limits:
   name: Pluralsight Rate Limits
   slug: pluralsight-rate-limits
 rules:
-- name: Pluralsight API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pluralsight API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -894,7 +897,10 @@ rules:
     info: 1
     warn: 4
   slug: pluralsight-jsonschema-spectral-rules
-- name: Pluralsight API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Pluralsight API Rules
   rule_count: 25
   severity_counts:
     error: 14
@@ -904,15 +910,17 @@ rules:
   slug: pluralsight-spectral-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 47.8
+  delta: -6.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.5
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 63.3
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -921,9 +929,16 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/screenshots/pluralsight-2026-08-17T124736.png
 security:
 - kind: authentication
   name: Pluralsight Authentication

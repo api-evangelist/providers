@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -238,14 +239,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/onBehalfOf/clientCredentials
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 51.4
+  delta: 5.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 49.5
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 52.0
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 5.3
   previous_composite: 45.9
   provenance:
@@ -263,10 +266,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 71.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/screenshots/ppl-london-market-2026-08-17T081327.png
 security:
 - kind: authentication
   name: Ppl London Market Authentication

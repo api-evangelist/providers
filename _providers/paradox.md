@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -350,7 +351,9 @@ rate_limits:
   name: Paradox Rate Limits
   slug: paradox-rate-limits
 rules:
-- name: Paradox API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Paradox API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -365,15 +368,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 48.7
+  delta: -6.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 67.9
-    developer_ergonomics: 34.8
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 66.9
+    developer_ergonomics: 27.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -388,9 +393,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:
 - kind: authentication

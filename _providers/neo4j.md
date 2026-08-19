@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -249,7 +250,9 @@ rate_limits:
   name: Neo4J Rate Limits
   slug: neo4j-rate-limits
 rules:
-- name: Neo4j API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Neo4j API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -259,15 +262,17 @@ rules:
   slug: neo4j-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 46.6
+  delta: -6.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.0
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 66.2
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -276,9 +281,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/screenshots/neo4j-2026-08-17T124223.png
 security:
 - kind: authentication
   name: Neo4J Authentication

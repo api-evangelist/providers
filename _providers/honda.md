@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Honda's customer satisfaction API includes roadside assistance, maintenance programs, and vehicle-service contracts for customers and dealers.
@@ -83,18 +84,20 @@ rate_limits:
   slug: honda-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 19.9
+  delta: -1.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 43.2
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 4.8
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 21.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/screenshots/honda-2026-06-20T182819.png
 security:

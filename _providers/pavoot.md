@@ -9,10 +9,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The authenticated backend for the Pavoot AI event platform. A FastAPI service publishing a complete OpenAPI 3.1.0 document at https://api.pavoot.com/openapi.json covering 248 operations and 56 request
@@ -100,19 +101,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.6
-  delta: 22.9
+  composite: 28.8
+  delta: -2.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 45.5
-    developer_ergonomics: 10.9
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 45.0
+    developer_ergonomics: 6.5
     discoverability: 87.0
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 8.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 31.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/screenshots/pavoot-2026-08-07T191608.png
 security:
 - kind: authentication

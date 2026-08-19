@@ -3,22 +3,23 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The anonymously readable WordPress REST content API behind www.flaretx.com — the 42-item corporate news archive, 14 corporate pages, a 419-item media library, the category taxonomy, cross-content sear
@@ -146,24 +147,34 @@ rate_limits:
   slug: flare-therapeutics-rate-limits
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 31.7
+  delta: 0.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 49.3
-    developer_ergonomics: 17.4
+    contract_governance: 16.7
+    contract_quality: 51.7
+    developer_ergonomics: 13.7
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 30.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

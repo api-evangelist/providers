@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -476,7 +477,9 @@ rate_limits:
   name: Vault Rate Limits
   slug: vault-rate-limits
 rules:
-- name: HashiCorp Vault API Rules
+- effective_rule_count: 5
+  extends: []
+  name: HashiCorp Vault API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -484,7 +487,10 @@ rules:
     info: 1
     warn: 4
   slug: vault-jsonschema-spectral-rules
-- name: HashiCorp Vault API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: HashiCorp Vault API Rules
   rule_count: 33
   severity_counts:
     error: 11
@@ -494,15 +500,17 @@ rules:
   slug: vault-spectral-rules
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 30.9
+  delta: -8.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 30.7
-    developer_ergonomics: 30.4
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 28.9
+    developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 39.3
   provenance:
     agentic_access: derived
@@ -511,9 +519,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:
 - kind: authentication

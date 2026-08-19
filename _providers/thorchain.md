@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -558,15 +558,17 @@ overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 66
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 36.2
+  delta: -4.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 45.2
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 42.8
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -584,8 +586,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

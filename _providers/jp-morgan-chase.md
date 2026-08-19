@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 api_count: 26
 apis:
 - description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
@@ -370,15 +371,17 @@ rate_limits:
   slug: jp-morgan-chase-rate-limits
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 49.0
+  delta: 0.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 69.8
-    developer_ergonomics: 54.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 68.0
+    developer_ergonomics: 59.5
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 48.5
   provenance:
     contracts:
@@ -391,9 +394,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 30.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 25.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

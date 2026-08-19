@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 46.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -339,16 +340,18 @@ scopes:
   slug: shoplazza-scopes
   summary_line: 29 scopes
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 2.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 66.1
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 65.5
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 68.4
+    governance: 16.7
+    operational_transparency: 65.8
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -366,9 +369,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
 security:
 - kind: authentication
   name: Shoplazza Authentication

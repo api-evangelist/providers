@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -166,7 +167,9 @@ rate_limits:
   name: Warner Bros Discovery Rate Limits
   slug: warner-bros-discovery-rate-limits
 rules:
-- name: Warner Bros. Discovery API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Warner Bros. Discovery API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -174,7 +177,10 @@ rules:
     info: 2
     warn: 3
   slug: warner-bros-discovery-jsonschema-spectral-rules
-- name: Warner Bros. Discovery API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Warner Bros. Discovery API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -188,15 +194,17 @@ scopes:
   slug: warner-bros-discovery-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 34.3
+  delta: -8.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 73.9
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 69.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 42.5
   provenance:
@@ -206,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png
 security:
 - kind: authentication

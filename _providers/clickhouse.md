@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -221,7 +222,10 @@ rate_limits:
   name: Clickhouse Rate Limits
   slug: clickhouse-rate-limits
 rules:
-- name: ClickHouse API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: ClickHouse API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -229,7 +233,10 @@ rules:
     info: 0
     warn: 3
   slug: clickhouse-asyncapi-spectral-rules
-- name: ClickHouse API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: ClickHouse API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -239,14 +246,16 @@ rules:
   slug: clickhouse-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 41.4
+  delta: -9.5
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 60.4
-    developer_ergonomics: 41.3
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 11.4
+    contract_quality: 56.6
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 28.9
   previous_composite: 50.9
   provenance:
@@ -256,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/screenshots/clickhouse-2026-06-20T174515.png
 security:
 - kind: authentication

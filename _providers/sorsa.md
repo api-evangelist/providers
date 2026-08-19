@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -395,7 +396,9 @@ rate_limits:
   name: Sorsa Rate Limits
   slug: sorsa-rate-limits
 rules:
-- name: Sorsa API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sorsa API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -403,7 +406,10 @@ rules:
     info: 1
     warn: 4
   slug: sorsa-jsonschema-spectral-rules
-- name: Sorsa API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Sorsa API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -412,15 +418,17 @@ rules:
     warn: 2
   slug: sorsa-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -5.1
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 73.9
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 71.3
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 15.8
   previous_composite: 57.7
   provenance:
@@ -430,9 +438,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/screenshots/sorsa-2026-06-20T194217.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: API for publishing streams of records to Kafka topics.
@@ -121,7 +122,10 @@ rate_limits:
   name: Kafka Rate Limits
   slug: kafka-rate-limits
 rules:
-- name: Apache Kafka API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Apache Kafka API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -131,19 +135,21 @@ rules:
   slug: kafka-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 30.1
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 54.3
-    developer_ergonomics: 26.1
+    contract_governance: 13.6
+    contract_quality: 48.9
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 35.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka/refs/heads/main/screenshots/kafka-2026-06-20T183849.png
 security:
 - kind: domain-security

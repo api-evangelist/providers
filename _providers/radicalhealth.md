@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,12 +108,14 @@ overview: 'Radical Health is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 9
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 14.6
+  delta: -6.8
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
@@ -122,10 +125,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 21.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Radicalhealth Domain Security

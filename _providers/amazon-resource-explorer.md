@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -359,7 +360,9 @@ rate_limits:
   name: Amazon Resource Explorer Rate Limits
   slug: amazon-resource-explorer-rate-limits
 rules:
-- name: Amazon Resource Explorer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Resource Explorer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -367,7 +370,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-resource-explorer-jsonschema-spectral-rules
-- name: Amazon Resource Explorer API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Resource Explorer API Rules
   rule_count: 25
   severity_counts:
     error: 8
@@ -377,15 +383,17 @@ rules:
   slug: amazon-resource-explorer-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 45.9
+  delta: -7.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 61.9
-    developer_ergonomics: 39.1
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 58.7
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -394,9 +402,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:
 - kind: authentication

@@ -13,10 +13,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: JSON REST API for backlink/referring-domain lookups with authority scoring, indexed Common Crawl release listing, async competitor gap analysis, and cross-release change comparison. Six operations und
@@ -189,19 +189,30 @@ rate_limits:
   slug: crawlgraph-rate-limits
 score:
   band: strong
-  composite: 57.2
-  delta: 50.9
+  composite: 55.7
+  delta: -1.5
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 59.0
-    developer_ergonomics: 63.0
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 30.3
+    contract_quality: 60.8
+    developer_ergonomics: 54.2
     discoverability: 87.0
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 6.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 57.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 security:
 - kind: authentication

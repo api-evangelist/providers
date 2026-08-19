@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Read-only REST API to query platform data, vaults, accounts, and transactions (current and historical) for building UIs, reporting, and reconciliation with middle/back-office systems. Full endpoint an
@@ -122,20 +123,22 @@ overview: 'Opentrade publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 68
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 26.0
+  delta: -0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 26.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrade/refs/heads/main/screenshots/opentrade-2026-08-07T190653.png
 security:

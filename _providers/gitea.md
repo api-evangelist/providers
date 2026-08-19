@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -755,7 +755,9 @@ rate_limits:
   name: Gitea Rate Limits
   slug: gitea-rate-limits
 rules:
-- name: Gitea API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Gitea API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -763,7 +765,10 @@ rules:
     info: 1
     warn: 5
   slug: gitea-jsonschema-spectral-rules
-- name: Gitea API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Gitea API Rules
   rule_count: 16
   severity_counts:
     error: 4
@@ -777,16 +782,18 @@ scopes:
   slug: gitea-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 74.5
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: -10.1
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 57.9
-    developer_ergonomics: 67.4
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 41.7
+    contract_quality: 62.0
+    developer_ergonomics: 64.3
     discoverability: 66.7
-    governance: 80.2
-    operational_transparency: 78.9
+    governance: 41.7
+    operational_transparency: 65.8
   previous_composite: 74.5
   provenance:
     agentic_access: derived
@@ -797,9 +804,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:
 - kind: authentication

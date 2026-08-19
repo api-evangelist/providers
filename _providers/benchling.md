@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -3237,7 +3238,9 @@ rate_limits:
   name: Benchling Rate Limits
   slug: benchling-rate-limits
 rules:
-- name: Benchling API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Benchling API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3252,32 +3255,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 75.6
-  delta: 27.3
+  composite: 70.1
+  delta: -5.5
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 63.0
-    developer_ergonomics: 73.9
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 40.2
+    contract_quality: 61.3
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 79.2
-    operational_transparency: 84.2
-  previous_composite: 48.3
+    governance: 40.2
+    operational_transparency: 69.7
+  previous_composite: 75.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 57
+      total: 58
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:
 - kind: authentication

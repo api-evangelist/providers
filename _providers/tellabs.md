@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,15 +59,23 @@ overview: 'Tellabs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 147
 score:
   band: minimal
-  composite: 6.5
-  delta: 0.0
+  composite: 3.4
+  delta: -3.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 14.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: never_enriched
   previous_composite: 6.5
   regulatory:
     applies: true
@@ -74,8 +83,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 slug: tellabs
 tags:

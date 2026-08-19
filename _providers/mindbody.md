@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -3487,7 +3488,9 @@ rate_limits:
   name: Mindbody Rate Limits
   slug: mindbody-rate-limits
 rules:
-- name: Mindbody API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mindbody API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3495,7 +3498,10 @@ rules:
     info: 1
     warn: 4
   slug: mindbody-jsonschema-spectral-rules
-- name: Mindbody API Rules
+- effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Mindbody API Rules
   rule_count: 53
   severity_counts:
     error: 16
@@ -3509,16 +3515,18 @@ scopes:
   slug: mindbody-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: -5.3
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 73.2
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 70.7
+    developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 65.8
   previous_composite: 66.1
   provenance:
     agentic_access: derived
@@ -3527,9 +3535,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:
 - kind: authentication

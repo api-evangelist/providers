@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -212,7 +213,9 @@ rate_limits:
   name: Google Firebase Rate Limits
   slug: google-firebase-rate-limits
 rules:
-- name: Google Firebase API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Firebase API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -220,7 +223,10 @@ rules:
     info: 1
     warn: 5
   slug: google-firebase-jsonschema-spectral-rules
-- name: Google Firebase API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Google Firebase API Rules
   rule_count: 19
   severity_counts:
     error: 11
@@ -235,15 +241,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 44.3
+  delta: -6.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 73.9
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -252,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/screenshots/google-firebase-2026-06-20T182200.png
 security:
 - kind: authentication

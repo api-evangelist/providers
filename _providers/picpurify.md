@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,12 +112,14 @@ rate_limits:
   slug: picpurify-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 27.8
+  delta: -2.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 50.0
-    developer_ergonomics: 15.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 46.9
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
@@ -128,8 +131,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/screenshots/picpurify-2026-06-20T191702.png
 security:

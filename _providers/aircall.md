@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -201,7 +202,10 @@ rate_limits:
   name: Aircall Rate Limits
   slug: aircall-rate-limits
 rules:
-- name: Aircall API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Aircall API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -216,15 +220,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 32.1
+  delta: -3.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 64.2
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 63.6
+    developer_ergonomics: 11.9
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -233,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/screenshots/aircall-2026-06-20T171433.png
 security:

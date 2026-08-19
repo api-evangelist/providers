@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -190,26 +191,31 @@ rate_limits:
   name: Surescripts Rate Limits
   slug: surescripts-rate-limits
 score:
-  band: thin
-  composite: 36.8
-  delta: 28.7
+  band: developing
+  composite: 41.1
+  delta: 4.3
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 8.1
+  previous_composite: 36.8
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 45.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Surescripts Authentication

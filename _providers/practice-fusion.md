@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -233,28 +234,32 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.0
-  delta: 12.4
+  composite: 61.8
+  delta: 2.8
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 40.0
-    developer_ergonomics: 60.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 36.0
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 47.4
-  previous_composite: 46.6
+    governance: 18.2
+    operational_transparency: 44.7
+  previous_composite: 59.0
   provenance:
     conformance: first-party
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
 security:
 - kind: authentication
   name: Practice Fusion Authentication

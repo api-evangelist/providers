@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -151,16 +152,18 @@ scopes:
   slug: microsoft-azure-postgresql-scopes
   summary_line: 1 scope · implicit
 score:
-  band: thin
-  composite: 41.4
-  delta: 0.0
+  band: developing
+  composite: 40.0
+  delta: -1.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 53.7
-    developer_ergonomics: 32.6
-    discoverability: 75.9
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 35.7
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -169,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/screenshots/microsoft-azure-postgresql-2026-06-20T185432.png
 security:

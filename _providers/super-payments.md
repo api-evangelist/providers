@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -288,15 +289,17 @@ rate_limits:
   slug: super-payments-rate-limits
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 60.9
+  delta: 2.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 72.8
-    developer_ergonomics: 73.4
+    contract_governance: 30.3
+    contract_quality: 71.3
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 73.7
+    governance: 30.3
+    operational_transparency: 59.2
   previous_composite: 58.6
   provenance:
     conformance: first-party
@@ -312,10 +315,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/screenshots/super-payments-2026-08-17T082158.png
 security:
 - kind: authentication
   name: Super Payments Authentication

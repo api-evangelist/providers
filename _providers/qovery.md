@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 23
@@ -735,16 +736,18 @@ rate_limits:
   name: Qovery Rate Limits
   slug: qovery-rate-limits
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 36.4
+  delta: -8.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 58.8
-    developer_ergonomics: 63.0
+    contract_governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 40.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 10.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -753,9 +756,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 94
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/screenshots/qovery-2026-06-20T192353.png
 security:
 - kind: authentication

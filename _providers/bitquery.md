@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -132,7 +133,10 @@ rate_limits:
   name: Bitquery Rate Limits
   slug: bitquery-rate-limits
 rules:
-- name: Bitquery API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Bitquery API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -142,18 +146,20 @@ rules:
   slug: bitquery-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 32.6
+  delta: -4.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 54.3
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 48.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 37.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
 security:

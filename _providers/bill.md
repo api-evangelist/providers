@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -204,7 +205,10 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 12 more developer resources.'
 random_paper: 121
 rules:
-- name: BILL API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: BILL API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -214,15 +218,17 @@ rules:
   slug: bill-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 42.1
+  delta: -7.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 62.1
-    developer_ergonomics: 58.7
+    contract_governance: 13.6
+    contract_quality: 58.6
+    developer_ergonomics: 41.7
     discoverability: 72.2
-    governance: 47.9
-    operational_transparency: 23.7
+    governance: 13.6
+    operational_transparency: 11.8
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -237,9 +243,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:
 - kind: authentication

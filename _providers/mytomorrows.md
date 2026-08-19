@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-17'
+  score: 25.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -174,15 +175,17 @@ overview: 'myTomorrows publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 58
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 36.8
+  delta: 2.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 44.8
-    developer_ergonomics: 21.2
+    contract_governance: 16.7
+    contract_quality: 42.0
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 34.8
   provenance:
     agentic_access: derived
@@ -200,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:

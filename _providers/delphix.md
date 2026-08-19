@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -560,15 +560,17 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 5
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 48.2
+  delta: -3.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 47.2
-    developer_ergonomics: 75.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 47.6
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -580,8 +582,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

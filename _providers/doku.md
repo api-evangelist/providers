@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -289,15 +290,17 @@ rate_limits:
   slug: doku-rate-limits
 score:
   band: exemplar
-  composite: 68.4
-  delta: 0.0
+  composite: 71.3
+  delta: 2.9
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 65.2
-    developer_ergonomics: 73.4
+    contract_governance: 30.3
+    contract_quality: 61.1
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 68.4
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 68.4
   provenance:
     agentic_access: derived
@@ -315,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

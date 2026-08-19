@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 10.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,13 +82,15 @@ overview: 'Bayapay Sdn Bhd is profiled on the [APIs.io](https://apis.io/) networ
   Bayapay Sdn Bhd''s developer surface includes support and 7 more developer resources.'
 random_paper: 119
 score:
-  band: emerging
-  composite: 14.0
-  delta: 0.0
+  band: minimal
+  composite: 9.3
+  delta: -4.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -100,8 +103,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayapay-sdn-bhd/refs/heads/main/screenshots/bayapay-sdn-bhd-2026-07-25T202442.png
 security:

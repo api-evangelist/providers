@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-17'
+  score: 68.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -313,7 +313,9 @@ rate_limits:
   name: Debounce Rate Limits
   slug: debounce-rate-limits
 rules:
-- name: DeBounce API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DeBounce API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,26 +330,31 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 80.5
-  delta: 24.1
+  composite: 72.3
+  delta: -8.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 72.5
-    developer_ergonomics: 71.7
+    contract_governance: 55.3
+    contract_quality: 68.0
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 73.7
-  previous_composite: 56.4
+    governance: 55.3
+    operational_transparency: 55.3
+  previous_composite: 80.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      marker_coverage: 100.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:
 - kind: authentication

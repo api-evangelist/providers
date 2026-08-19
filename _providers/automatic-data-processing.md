@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The ADP Payroll API provides programmatic access to payroll processing capabilities including earnings, deductions, pay statements, and payroll runs for employees across ADP Workforce Now and ADP Vant
@@ -167,20 +168,22 @@ rate_limits:
   name: Automatic Data Processing Rate Limits
   slug: automatic-data-processing-rate-limits
 score:
-  band: thin
-  composite: 34.0
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  delta: -8.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 43.2
-    developer_ergonomics: 45.7
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 34.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatic-data-processing/refs/heads/main/screenshots/automatic-data-processing-2026-06-20T172654.png
 security:
 - kind: domain-security

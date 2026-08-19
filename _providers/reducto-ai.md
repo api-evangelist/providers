@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -487,7 +488,9 @@ rate_limits:
   name: Reducto Rate Limits
   slug: reducto-rate-limits
 rules:
-- name: reducto-ai API Rules
+- effective_rule_count: 6
+  extends: []
+  name: reducto-ai API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -496,15 +499,17 @@ rules:
     warn: 5
   slug: reducto-ai-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: -5.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 71.3
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 69.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 63.2
   previous_composite: 69.1
   provenance:
@@ -514,9 +519,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:
 - kind: authentication

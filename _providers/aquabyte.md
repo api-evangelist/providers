@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,15 +156,17 @@ rate_limits:
   slug: aquabyte-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 39.2
+  delta: -0.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 50.6
-    developer_ergonomics: 32.1
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 49.3
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 40.0
   provenance:
     agentic_access: derived
@@ -174,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 7
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:

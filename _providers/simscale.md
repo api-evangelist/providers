@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -194,7 +195,9 @@ rate_limits:
   name: Simscale Rate Limits
   slug: simscale-rate-limits
 rules:
-- name: SimScale API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SimScale API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -202,7 +205,10 @@ rules:
     info: 2
     warn: 3
   slug: simscale-jsonschema-spectral-rules
-- name: SimScale API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: SimScale API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -211,16 +217,18 @@ rules:
     warn: 6
   slug: simscale-rules
 score:
-  band: developing
-  composite: 47.9
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -9.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.0
-    developer_ergonomics: 30.4
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 64.4
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -229,9 +237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/screenshots/simscale-2026-06-20T193939.png
 security:
 - kind: authentication

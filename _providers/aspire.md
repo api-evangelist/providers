@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 24.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
@@ -131,14 +132,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 40.8
+  delta: -2.9
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 47.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 43.7
   provenance:
@@ -150,8 +153,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/screenshots/aspire-2026-07-25T201432.png
 security:

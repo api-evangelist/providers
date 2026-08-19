@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1024,7 +1025,9 @@ rate_limits:
   name: Amazon Migration Hub Rate Limits
   slug: amazon-migration-hub-rate-limits
 rules:
-- name: Amazon Migration Hub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Migration Hub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1032,7 +1035,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-migration-hub-jsonschema-spectral-rules
-- name: Amazon Migration Hub API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Migration Hub API Rules
   rule_count: 25
   severity_counts:
     error: 9
@@ -1041,16 +1047,18 @@ rules:
     warn: 12
   slug: amazon-migration-hub-spectral-rules
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 48.6
+  delta: -8.7
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.3
   provenance:
     agentic_access: derived
@@ -1059,9 +1067,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/screenshots/amazon-migration-hub-2026-06-20T171744.png
 security:
 - kind: authentication

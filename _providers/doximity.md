@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -212,16 +213,18 @@ scopes:
   slug: doximity-scopes
   summary_line: 21 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.1
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 6.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 51.5
-    developer_ergonomics: 53.8
+    contract_governance: 30.3
+    contract_quality: 48.3
+    developer_ergonomics: 56.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -238,10 +241,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 72.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:
 - kind: authentication

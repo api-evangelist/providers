@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,15 +260,17 @@ overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) net
   Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
 random_paper: 21
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: developing
+  composite: 39.4
+  delta: 6.8
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.0
-    developer_ergonomics: 19.0
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 56.4
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 32.6
   provenance:
@@ -280,9 +283,9 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:
 - kind: authentication

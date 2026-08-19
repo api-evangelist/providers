@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -285,7 +286,9 @@ rate_limits:
   name: Chalmers University Of Technology Rate Limits
   slug: chalmers-university-of-technology-rate-limits
 rules:
-- name: Chalmers University of Technology API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Chalmers University of Technology API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -293,7 +296,10 @@ rules:
     info: 1
     warn: 5
   slug: chalmers-university-of-technology-jsonschema-spectral-rules
-- name: Chalmers University of Technology API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Chalmers University of Technology API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -303,14 +309,16 @@ rules:
   slug: chalmers-university-of-technology-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 36.1
+  delta: -3.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 63.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 63.8
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 39.6
   provenance:
@@ -323,11 +331,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
 security:

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 47.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -293,7 +294,9 @@ rate_limits:
   name: Veryfi Rate Limits
   slug: veryfi-rate-limits
 rules:
-- name: Veryfi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Veryfi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -301,7 +304,10 @@ rules:
     info: 1
     warn: 4
   slug: veryfi-jsonschema-spectral-rules
-- name: Veryfi API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Veryfi API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -310,15 +316,17 @@ rules:
     warn: 7
   slug: veryfi-ocr-rules
 score:
-  band: strong
-  composite: 56.3
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  delta: -8.8
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 71.3
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 68.3
+    developer_ergonomics: 45.2
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 56.3
   provenance:
@@ -328,9 +336,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:
 - kind: authentication

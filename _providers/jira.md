@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 56.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -835,7 +836,10 @@ rate_limits:
   name: Jira Rate Limits
   slug: jira-rate-limits
 rules:
-- name: Jira API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Jira API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -843,7 +847,9 @@ rules:
     info: 1
     warn: 4
   slug: jira-asyncapi-spectral-rules
-- name: Jira API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Jira API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -851,7 +857,10 @@ rules:
     info: 2
     warn: 4
   slug: jira-jsonschema-spectral-rules
-- name: Jira API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Jira API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -866,14 +875,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 59.1
+  delta: -5.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 80.6
-    developer_ergonomics: 63.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 80.3
+    developer_ergonomics: 59.5
     discoverability: 90.7
-    governance: 59.4
+    governance: 30.3
     operational_transparency: 50.0
   previous_composite: 64.4
   provenance:
@@ -885,9 +896,9 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:
 - kind: authentication

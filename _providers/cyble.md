@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: flavored
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for ODIN, Cyble's internet-scanning search engine. Twenty-seven operations across five datasets — Hosts (IPv4 scan results, services, ASN/geo enrichment, CVEs and exploits), Exposed Buckets (
@@ -201,19 +202,31 @@ rate_limits:
   slug: cyble-rate-limits
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 45.4
+  delta: -10.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.5
-    developer_ergonomics: 76.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 16.7
+    contract_quality: 53.8
+    developer_ergonomics: 68.5
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 55.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/screenshots/cyble-2026-08-17T080843.png
 security:
 - kind: authentication
   name: Cyble Authentication

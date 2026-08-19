@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 16.7
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 12
 asyncapis:
@@ -133,7 +134,10 @@ overview: 'WebSockets is profiled on the [APIs.io](https://apis.io/) network. Ta
   The WebSockets catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.'
 random_paper: 39
 rules:
-- name: WebSockets API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: WebSockets API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -141,7 +145,9 @@ rules:
     info: 0
     warn: 4
   slug: websockets-asyncapi-spectral-rules
-- name: WebSockets API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WebSockets API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -150,20 +156,28 @@ rules:
     warn: 3
   slug: websockets-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.3
-  delta: 0.0
+  band: emerging
+  composite: 22.6
+  delta: -6.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 64.5
+    contract_governance: 26.5
+    contract_quality: 56.3
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 62.5
-    operational_transparency: 5.3
+    governance: 26.5
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 29.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/websockets/refs/heads/main/screenshots/websockets-2026-06-20T201337.png
 slug: websockets
 tags:

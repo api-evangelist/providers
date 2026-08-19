@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -157,16 +158,18 @@ overview: 'Codafication publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Codafication''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
 random_paper: 60
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 38.9
+  delta: -3.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 69.0
     discoverability: 77.8
-    governance: 12.5
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 42.8
   provenance:
     conformance: first-party
@@ -175,9 +178,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 33.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:

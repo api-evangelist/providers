@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -214,13 +215,15 @@ rate_limits:
   slug: soundstripe-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 39.2
+  delta: -2.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 57.8
-    developer_ergonomics: 21.7
-    discoverability: 74.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 0.0
+    contract_quality: 57.6
+    developer_ergonomics: 13.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 41.6
@@ -231,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png
 security:

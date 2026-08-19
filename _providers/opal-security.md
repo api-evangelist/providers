@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -311,16 +312,18 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
   Opal Security''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
 random_paper: 20
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -8.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.3
-    developer_ergonomics: 76.1
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 16.7
+    contract_quality: 67.9
+    developer_ergonomics: 73.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 59.8
   provenance:
     conformance: derived
@@ -331,9 +334,9 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:
 - kind: authentication

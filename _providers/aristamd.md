@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -224,16 +225,18 @@ overview: 'AristaMD publishes 12 APIs on the [APIs.io](https://apis.io/) network
   AristaMD''s developer surface includes signup flow, support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 108
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: developing
+  composite: 40.6
+  delta: 2.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 43.5
-    developer_ergonomics: 21.2
+    contract_governance: 16.7
+    contract_quality: 42.6
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 13.2
   previous_composite: 37.9
   provenance:
     agentic_access: derived
@@ -251,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -534,7 +535,9 @@ rate_limits:
   name: Tink Com Rate Limits
   slug: tink-com-rate-limits
 rules:
-- name: Tink API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Tink API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -542,7 +545,10 @@ rules:
     info: 2
     warn: 4
   slug: tink-com-jsonschema-spectral-rules
-- name: Tink API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Tink API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -551,15 +557,17 @@ rules:
     warn: 3
   slug: tink-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 0.0
+  band: strong
+  composite: 66.0
+  delta: -0.5
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 73.7
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 72.5
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 78.9
   previous_composite: 66.5
   provenance:
@@ -575,8 +583,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:

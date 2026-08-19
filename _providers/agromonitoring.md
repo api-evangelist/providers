@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -320,7 +321,9 @@ rate_limits:
   name: Agromonitoring Rate Limits
   slug: agromonitoring-rate-limits
 rules:
-- name: Agromonitoring API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agromonitoring API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,7 +331,10 @@ rules:
     info: 1
     warn: 4
   slug: agromonitoring-jsonschema-spectral-rules
-- name: Agromonitoring API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Agromonitoring API Rules
   rule_count: 27
   severity_counts:
     error: 11
@@ -338,14 +344,16 @@ rules:
   slug: agromonitoring-spectral-rules
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 31.8
+  delta: -9.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 28.9
-    developer_ergonomics: 43.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 27.1
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 41.2
   provenance:
@@ -355,9 +363,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
 security:
 - kind: authentication

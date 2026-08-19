@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
@@ -149,16 +150,18 @@ overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   OpenLattice''s developer surface includes authentication and 12 more developer resources.'
 random_paper: 133
 score:
-  band: emerging
-  composite: 25.6
-  delta: 0.0
+  band: thin
+  composite: 26.3
+  delta: 0.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 48.5
-    developer_ergonomics: 21.2
+    contract_governance: 12.1
+    contract_quality: 48.6
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 8.3
-    operational_transparency: 5.3
+    governance: 12.1
+    operational_transparency: 2.6
   previous_composite: 25.6
   provenance:
     contracts:
@@ -174,8 +177,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/screenshots/openlattice-2026-08-07T190610.png
 security:

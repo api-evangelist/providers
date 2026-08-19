@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The core Sailthru HTTPS API. All requests are GET, POST or DELETE calls to https://api.sailthru.com/<endpointName>, authenticated with api_key, an MD5 sig over the sorted parameter values, and a forma
@@ -183,26 +184,31 @@ rate_limits:
   name: Sailthru Rate Limits
   slug: sailthru-rate-limits
 score:
-  band: developing
-  composite: 53.6
-  delta: 0.0
+  band: strong
+  composite: 55.8
+  delta: 2.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 71.1
+    governance: 4.5
+    operational_transparency: 68.4
   previous_composite: 53.6
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/screenshots/sailthru-2026-08-17T081714.png
 security:
 - kind: authentication
   name: Sailthru Authentication

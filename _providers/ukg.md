@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -502,7 +503,9 @@ rate_limits:
   name: Ukg Rate Limits
   slug: ukg-rate-limits
 rules:
-- name: UKG API Rules
+- effective_rule_count: 5
+  extends: []
+  name: UKG API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -510,7 +513,10 @@ rules:
     info: 2
     warn: 3
   slug: ukg-jsonschema-spectral-rules
-- name: UKG API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: UKG API Rules
   rule_count: 34
   severity_counts:
     error: 14
@@ -519,16 +525,18 @@ rules:
     warn: 15
   slug: ukg-spectral-rules
 score:
-  band: developing
-  composite: 46.0
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: -14.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 31.7
-    developer_ergonomics: 50.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 29.8
+    developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -537,9 +545,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:
 - kind: authentication

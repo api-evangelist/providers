@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -341,7 +342,10 @@ rate_limits:
   name: Fiserv Rate Limits
   slug: fiserv-rate-limits
 rules:
-- name: Fiserv API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Fiserv API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -349,7 +353,9 @@ rules:
     info: 1
     warn: 7
   slug: fiserv-asyncapi-spectral-rules
-- name: Fiserv API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Fiserv API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -358,16 +364,18 @@ rules:
     warn: 4
   slug: fiserv-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -4.9
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 73.7
-    developer_ergonomics: 23.9
+    contract_governance: 13.6
+    contract_quality: 70.4
+    developer_ergonomics: 14.3
     discoverability: 63.0
-    governance: 47.9
-    operational_transparency: 10.5
+    governance: 13.6
+    operational_transparency: 7.9
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -382,10 +390,10 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-08-17T083418.png
 security:
 - kind: authentication
   name: Fiserv Authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,15 +190,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 45.2
+  delta: 2.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 39.6
-    developer_ergonomics: 45.1
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 30.3
+    contract_quality: 37.1
+    developer_ergonomics: 20.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 30.3
+    operational_transparency: 0.0
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -214,9 +217,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 81.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

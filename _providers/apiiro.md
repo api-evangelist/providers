@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,19 +131,21 @@ overview: 'Apiiro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 48
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 15.4
+  delta: -9.7
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 28.9
   previous_composite: 25.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiiro/refs/heads/main/screenshots/apiiro-2026-07-25T200624.png
 security:
 - kind: domain-security

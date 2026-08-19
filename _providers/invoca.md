@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Invoca's date-versioned REST developer platform covering call transactions, signal reporting, call ingestion, RingPool trackable-number allocation, network integration, and pre-call (PreSense) insight
@@ -199,22 +200,25 @@ rate_limits:
   slug: invoca-rate-limits
 score:
   band: developing
-  composite: 54.8
-  delta: 20.1
+  composite: 51.1
+  delta: -3.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 32.3
-    developer_ergonomics: 67.4
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 16.7
+    contract_quality: 28.2
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 34.7
+    governance: 16.7
+    operational_transparency: 42.1
+  previous_composite: 54.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:
 - kind: authentication

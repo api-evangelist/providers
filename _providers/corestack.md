@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API covering the whole CoreStack governance surface — authorization, identity and RBAC, guardrail policies, account governance, operations and automation, security, cost and budgets, access, reso
@@ -216,25 +217,32 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 57.8
+  delta: -4.1
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    contract_governance: 16.7
+    contract_quality: 45.1
+    developer_ergonomics: 39.9
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 61.9
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:
 - kind: authentication
   name: Corestack Authentication

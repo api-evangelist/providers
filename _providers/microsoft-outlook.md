@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 53.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -511,7 +512,10 @@ rate_limits:
   name: Microsoft Outlook Rate Limits
   slug: microsoft-outlook-rate-limits
 rules:
-- name: Microsoft Outlook API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Microsoft Outlook API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -519,7 +523,9 @@ rules:
     info: 1
     warn: 7
   slug: microsoft-outlook-asyncapi-spectral-rules
-- name: Microsoft Outlook API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Outlook API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -527,7 +533,10 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-outlook-jsonschema-spectral-rules
-- name: Microsoft Outlook API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Microsoft Outlook API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -542,15 +551,17 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.7
-  delta: 0.0
+  composite: 67.0
+  delta: -5.7
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 84.7
-    developer_ergonomics: 84.8
+    contract_governance: 30.3
+    contract_quality: 87.0
+    developer_ergonomics: 83.3
     discoverability: 100.0
-    governance: 59.4
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 72.7
   provenance:
     agentic_access: derived
@@ -561,9 +572,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:
 - kind: authentication

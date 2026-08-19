@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The versioned REST API behind FastShip, Cloud Commerce''s cross-border e-commerce logistics platform. Discovered live at openapi.fastship.co: GET /api/v2 returns "Welcome to API Version 2.0" and POST /'
@@ -142,19 +143,24 @@ rate_limits:
   slug: cloud-commerce-rate-limits
 score:
   band: emerging
-  composite: 22.0
-  delta: 17.0
+  composite: 20.8
+  delta: -1.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 5.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 21.1
+  previous_composite: 22.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/screenshots/cloud-commerce-2026-07-25T205652.png
 security:
 - kind: authentication

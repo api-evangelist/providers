@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -246,7 +247,10 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 25 more developer resources.'
 random_paper: 46
 rules:
-- name: MyCase API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: MyCase API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -256,15 +260,17 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 43.0
+  delta: -3.2
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 66.7
-    developer_ergonomics: 41.3
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 45.5
+    contract_quality: 63.0
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 41.7
-    operational_transparency: 15.8
+    governance: 45.5
+    operational_transparency: 5.3
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -278,11 +284,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-06-20T185916.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-08-17T083502.png
 security:
 - kind: authentication
   name: Mycase Authentication

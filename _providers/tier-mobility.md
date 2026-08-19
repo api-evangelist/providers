@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -212,7 +213,9 @@ rate_limits:
   name: Tier Mobility Rate Limits
   slug: tier-mobility-rate-limits
 rules:
-- name: TIER API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TIER API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,7 +223,10 @@ rules:
     info: 1
     warn: 4
   slug: tier-mobility-jsonschema-spectral-rules
-- name: TIER API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: TIER API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -230,14 +236,16 @@ rules:
   slug: tier-mobility-rules
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 35.7
+  delta: -4.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 66.4
-    developer_ergonomics: 6.5
+    contract_governance: 9.8
+    contract_quality: 62.2
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 40.4
   provenance:
@@ -253,8 +261,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

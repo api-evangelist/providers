@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -445,7 +446,9 @@ rate_limits:
   name: Bamboo Rate Limits
   slug: bamboo-rate-limits
 rules:
-- name: Bamboo Invest API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bamboo Invest API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -455,15 +458,17 @@ rules:
   slug: bamboo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 31.5
+  delta: -7.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 54.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 51.9
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 13.2
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -478,9 +483,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:
 - kind: domain-security

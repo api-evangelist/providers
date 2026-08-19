@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -172,7 +173,9 @@ rate_limits:
   name: Grpc Rate Limits
   slug: grpc-rate-limits
 rules:
-- name: gRPC API Rules
+- effective_rule_count: 6
+  extends: []
+  name: gRPC API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -181,16 +184,18 @@ rules:
     warn: 5
   slug: grpc-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -6.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.3
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 61.3
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 44.4
   provenance:
     contracts:
@@ -198,9 +203,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security

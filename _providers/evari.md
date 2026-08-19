@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -201,15 +202,17 @@ plans:
 random_paper: 88
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 51.1
+  delta: 1.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 39.6
-    developer_ergonomics: 40.8
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 30.3
+    contract_quality: 39.2
+    developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -227,8 +230,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:

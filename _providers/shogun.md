@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'GraphQL API behind the Shogun Frontend headless commerce product, used to query storefront content, pages, and integration data. Note: Shogun has announced the retirement of the Shogun Frontend produc'
@@ -114,19 +115,21 @@ overview: 'Shogun publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 64
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 20.4
+  delta: -5.2
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 19.0
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 25.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Shogun Domain Security

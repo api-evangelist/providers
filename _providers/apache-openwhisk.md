@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -344,7 +345,9 @@ rate_limits:
   name: Apache Openwhisk Rate Limits
   slug: apache-openwhisk-rate-limits
 rules:
-- name: Apache OpenWhisk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache OpenWhisk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -352,7 +355,10 @@ rules:
     info: 1
     warn: 4
   slug: apache-openwhisk-jsonschema-spectral-rules
-- name: Apache OpenWhisk API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Apache OpenWhisk API Rules
   rule_count: 17
   severity_counts:
     error: 5
@@ -361,16 +367,18 @@ rules:
     warn: 8
   slug: apache-openwhisk-spectral-rules
 score:
-  band: thin
-  composite: 29.0
-  delta: 0.0
+  band: emerging
+  composite: 23.5
+  delta: -5.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.0
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 20.7
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 29.0
   provenance:
     agentic_access: derived
@@ -379,9 +387,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
 - kind: authentication

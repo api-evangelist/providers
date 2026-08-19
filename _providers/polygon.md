@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: derived
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -559,7 +560,10 @@ rate_limits:
   name: Polygon Rate Limits
   slug: polygon-rate-limits
 rules:
-- name: Polygon API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Polygon API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -567,7 +571,9 @@ rules:
     info: 0
     warn: 4
   slug: polygon-asyncapi-spectral-rules
-- name: Polygon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Polygon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -575,7 +581,10 @@ rules:
     info: 1
     warn: 4
   slug: polygon-jsonschema-spectral-rules
-- name: Polygon API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Polygon API Rules
   rule_count: 21
   severity_counts:
     error: 4
@@ -590,15 +599,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 76.4
-  delta: 0.0
+  composite: 71.6
+  delta: -4.8
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 75.0
-    developer_ergonomics: 82.1
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 43.2
+    contract_quality: 71.5
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 63.5
-    operational_transparency: 68.4
+    governance: 43.2
+    operational_transparency: 57.9
   previous_composite: 76.4
   provenance:
     agentic_access: derived
@@ -616,8 +627,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

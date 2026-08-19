@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 39.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -154,15 +155,17 @@ scopes:
   slug: zubale-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 27.3
-  delta: 0.0
+  band: thin
+  composite: 26.6
+  delta: -0.7
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 65.3
-    developer_ergonomics: 13.0
+    contract_governance: 16.7
+    contract_quality: 61.2
+    developer_ergonomics: 11.9
     discoverability: 53.7
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 27.3
   provenance:
@@ -174,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

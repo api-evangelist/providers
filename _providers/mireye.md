@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 47.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -284,15 +285,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 46.3
+  delta: -3.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 43.1
-    developer_ergonomics: 73.9
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 16.7
+    contract_quality: 40.5
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -309,9 +312,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 57.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -921,7 +922,9 @@ rate_limits:
   name: Amazon Healthlake Rate Limits
   slug: amazon-healthlake-rate-limits
 rules:
-- name: Amazon HealthLake API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon HealthLake API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -929,7 +932,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-healthlake-jsonschema-spectral-rules
-- name: Amazon HealthLake API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Amazon HealthLake API Rules
   rule_count: 14
   severity_counts:
     error: 3
@@ -939,15 +945,17 @@ rules:
   slug: amazon-healthlake-spectral-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 59.0
+  delta: 0.7
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 71.6
-    developer_ergonomics: 58.7
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 58.3
   provenance:
     agentic_access: derived
@@ -962,8 +970,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/screenshots/amazon-healthlake-2026-07-25T200010.png
 security:

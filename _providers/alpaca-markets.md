@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -209,7 +210,10 @@ rate_limits:
   name: Alpaca Markets Rate Limits
   slug: alpaca-markets-rate-limits
 rules:
-- name: Alpaca API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Alpaca API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -219,15 +223,17 @@ rules:
   slug: alpaca-markets-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 33.9
+  delta: -5.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 63.7
-    developer_ergonomics: 10.9
+    contract_governance: 13.6
+    contract_quality: 63.3
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -242,9 +248,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/screenshots/alpaca-markets-2026-07-25T195746.png
 slug: alpaca-markets
 tags:

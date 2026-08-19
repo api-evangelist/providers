@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -164,6 +165,10 @@ common:
   title: ''
   type: Blog
   url: https://www.rmit.edu.au/news/all-news
+coverage:
+  detail: 1 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
+  reason: no_published_contract
+  state: none
 created: '2026-06-03'
 description: 'RMIT University is a public research university in Melbourne, Australia, specializing in technology, design and enterprise, and ranked #123 in the QS World University Rankings 2025. RMIT does not operate a centralized, publicly documented developer portal. Its most accessible programmatic surface is its research output: the RMIT Research Repository runs on Clarivate''s Esploro platform, and RMIT''s research data is published via a Figshare-hosted repository whose records are exposed through the public Figshare REST API (api.figshare.com) and syndicated to Research Data Australia. Student-facing systems such as timetables, the curriculum catalogue, and identity/SSO sit behind authentication and are not offered as public APIs.'
 examples:
@@ -219,7 +224,9 @@ rate_limits:
   name: Rmit Rate Limits
   slug: rmit-rate-limits
 rules:
-- name: RMIT University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RMIT University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,7 +234,9 @@ rules:
     info: 2
     warn: 3
   slug: rmit-jsonschema-spectral-rules
-- name: RMIT University API Rules
+- effective_rule_count: 6
+  extends: []
+  name: RMIT University API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -242,14 +251,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 43.0
+  delta: -0.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 74.6
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 73.0
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 43.9
   provenance:
@@ -259,8 +270,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 61.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png
 security:

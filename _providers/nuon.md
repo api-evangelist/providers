@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 37.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -325,16 +326,18 @@ overview: 'Nuon publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
   Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 30 more developer resources.'
 random_paper: 1
 score:
-  band: strong
-  composite: 58.0
-  delta: 0.0
+  band: developing
+  composite: 54.2
+  delta: -3.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.9
-    developer_ergonomics: 69.0
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 66.0
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 58.0
   provenance:
     agentic_access: derived
@@ -346,8 +349,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/screenshots/nuon-2026-08-07T185744.png
 security:

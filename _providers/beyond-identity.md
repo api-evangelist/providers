@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -321,7 +321,9 @@ rate_limits:
   name: Beyond Identity Rate Limits
   slug: beyond-identity-rate-limits
 rules:
-- name: Beyond Identity API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Beyond Identity API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -331,15 +333,17 @@ rules:
   slug: beyond-identity-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 56.8
+  delta: -5.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 79.4
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 78.4
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 65.8
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -348,9 +352,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/screenshots/beyond-identity-2026-06-20T173212.png
 security:
 - kind: authentication

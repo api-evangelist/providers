@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -311,7 +312,9 @@ rate_limits:
   name: Google Apps Script Rate Limits
   slug: google-apps-script-rate-limits
 rules:
-- name: Google Apps Script API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Apps Script API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -319,7 +322,10 @@ rules:
     info: 2
     warn: 4
   slug: google-apps-script-jsonschema-spectral-rules
-- name: Google Apps Script API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Google Apps Script API Rules
   rule_count: 14
   severity_counts:
     error: 8
@@ -328,16 +334,18 @@ rules:
     warn: 5
   slug: google-apps-script-spectral-rules
 score:
-  band: developing
-  composite: 45.6
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -6.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 65.7
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 62.1
+    developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -346,9 +354,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:
 - kind: domain-security

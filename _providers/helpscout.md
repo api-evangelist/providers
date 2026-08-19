@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -325,7 +326,10 @@ rate_limits:
   name: Helpscout Rate Limits
   slug: helpscout-rate-limits
 rules:
-- name: Help Scout API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Help Scout API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -340,15 +344,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 48.7
+  delta: -5.7
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 66.0
-    developer_ergonomics: 37.0
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 13.6
+    contract_quality: 65.4
+    developer_ergonomics: 38.1
     discoverability: 63.0
-    governance: 47.9
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -357,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -1147,7 +1148,9 @@ rate_limits:
   name: Microsoft Purview Rate Limits
   slug: microsoft-purview-rate-limits
 rules:
-- name: Microsoft Purview API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Purview API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1162,15 +1165,17 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 57.6
+  delta: -7.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.7
-    developer_ergonomics: 78.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 26.5
+    contract_quality: 71.2
+    developer_ergonomics: 76.2
     discoverability: 85.2
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 42.1
   previous_composite: 65.5
   provenance:
     agentic_access: derived
@@ -1181,10 +1186,10 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-06-20T185528.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-08-17T124207.png
 security:
 - kind: authentication
   name: Microsoft Purview Authentication

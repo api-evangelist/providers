@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -225,15 +226,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 39.5
+  delta: -4.9
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 57.5
-    developer_ergonomics: 58.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 56.6
+    developer_ergonomics: 52.4
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 34.2
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -242,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/screenshots/power-apps-2026-06-20T192021.png
 security:

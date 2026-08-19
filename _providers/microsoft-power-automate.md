@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 40.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -410,7 +411,9 @@ rate_limits:
   name: Microsoft Power Automate Rate Limits
   slug: microsoft-power-automate-rate-limits
 rules:
-- name: Microsoft Power Automate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Power Automate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -418,7 +421,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-power-automate-jsonschema-spectral-rules
-- name: Microsoft Power Automate API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Microsoft Power Automate API Rules
   rule_count: 28
   severity_counts:
     error: 15
@@ -433,15 +439,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 49.9
+  delta: -4.5
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 31.0
-    developer_ergonomics: 39.1
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 41.7
+    contract_quality: 29.3
+    developer_ergonomics: 33.3
     discoverability: 100.0
-    governance: 80.2
-    operational_transparency: 39.5
+    governance: 41.7
+    operational_transparency: 31.6
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -458,10 +466,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 71.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-08-17T083607.png
 security:
 - kind: authentication
   name: Microsoft Power Automate Authentication

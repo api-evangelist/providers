@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -295,14 +296,16 @@ overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 60
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 38.7
+  delta: 0.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 49.5
-    developer_ergonomics: 51.6
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 48.5
+    developer_ergonomics: 54.2
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 38.3
   provenance:
@@ -316,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

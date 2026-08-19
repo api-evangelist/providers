@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -622,15 +623,17 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 59.6
+  delta: 3.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 70.3
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 69.9
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -648,8 +651,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:

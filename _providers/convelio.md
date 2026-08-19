@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 32.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -176,15 +177,17 @@ overview: 'Convelio publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 118
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 51.6
+  delta: 3.2
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 72.4
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 72.6
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -202,9 +205,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/screenshots/convelio-2026-08-17T080832.png
 security:
 - kind: authentication
   name: Convelio Authentication

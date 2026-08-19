@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -143,7 +144,10 @@ rate_limits:
   name: Beam Cloud Rate Limits
   slug: beam-cloud-rate-limits
 rules:
-- name: Beam API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Beam API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -153,15 +157,17 @@ rules:
   slug: beam-cloud-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.5
+  delta: -2.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 71.0
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 66.5
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -170,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/screenshots/beam-cloud-2026-06-20T173120.png
 security:

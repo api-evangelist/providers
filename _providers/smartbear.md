@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -232,7 +233,9 @@ rate_limits:
   name: Smartbear Rate Limits
   slug: smartbear-rate-limits
 rules:
-- name: SmartBear API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SmartBear API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -240,7 +243,10 @@ rules:
     info: 2
     warn: 3
   slug: smartbear-jsonschema-spectral-rules
-- name: SmartBear API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SmartBear API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -249,16 +255,18 @@ rules:
     warn: 5
   slug: smartbear-rules
 score:
-  band: developing
-  composite: 47.3
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -8.2
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 64.8
-    developer_ergonomics: 43.5
+    contract_governance: 25.0
+    contract_quality: 60.7
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -267,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.4
-  scored_at: '2026-08-17'
+  score: 5.1
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,14 +119,16 @@ overview: 'Venmo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 102
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 31.1
+  delta: 0.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 30.5
   provenance:
@@ -136,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

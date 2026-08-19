@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -194,7 +195,9 @@ rate_limits:
   name: Beamable Rate Limits
   slug: beamable-rate-limits
 rules:
-- name: Beamable API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Beamable API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -204,14 +207,16 @@ rules:
   slug: beamable-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 45.8
+  delta: -6.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 60.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 59.1
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 51.9
   provenance:
@@ -221,9 +226,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/screenshots/beamable-2026-06-20T173103.png
 security:
 - kind: authentication

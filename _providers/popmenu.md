@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -197,19 +198,24 @@ rate_limits:
   slug: popmenu-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: 20.5
+  composite: 27.7
+  delta: -2.5
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 42.1
-  previous_composite: 9.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 39.5
+  previous_composite: 30.2
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/screenshots/popmenu-2026-06-20T191922.png
 security:
 - kind: authentication

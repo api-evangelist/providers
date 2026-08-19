@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -213,7 +214,9 @@ rate_limits:
   name: Synapse Rate Limits
   slug: synapse-rate-limits
 rules:
-- name: Synapse API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Synapse API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -221,7 +224,10 @@ rules:
     info: 1
     warn: 4
   slug: synapse-jsonschema-spectral-rules
-- name: Synapse API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Synapse API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -230,15 +236,17 @@ rules:
     warn: 4
   slug: synapse-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 37.1
+  delta: -6.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 63.4
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 60.0
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 43.2
   provenance:
@@ -248,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/screenshots/synapse-2026-06-20T194821.png
 security:
 - kind: authentication

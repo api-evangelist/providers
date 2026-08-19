@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -385,7 +386,9 @@ rate_limits:
   name: Alloy Rate Limits
   slug: alloy-rate-limits
 rules:
-- name: Alloy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Alloy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -400,15 +403,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 55.0
+  delta: -3.9
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 61.9
-    developer_ergonomics: 52.2
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 31.6
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 57.1
+    discoverability: 74.1
+    governance: 9.8
+    operational_transparency: 28.9
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -423,8 +428,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/screenshots/alloy-com-2026-06-20T171540.png
 security:

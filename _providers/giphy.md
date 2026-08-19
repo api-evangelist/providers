@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -415,7 +416,9 @@ rate_limits:
   name: Giphy Rate Limits
   slug: giphy-rate-limits
 rules:
-- name: Giphy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Giphy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -423,7 +426,10 @@ rules:
     info: 1
     warn: 4
   slug: giphy-jsonschema-spectral-rules
-- name: Giphy API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Giphy API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -432,16 +438,18 @@ rules:
     warn: 3
   slug: giphy-rules
 score:
-  band: strong
-  composite: 60.4
-  delta: 0.0
+  band: developing
+  composite: 51.4
+  delta: -9.0
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 73.7
-    developer_ergonomics: 45.7
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 25.0
+    contract_quality: 70.4
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 60.4
   provenance:
     agentic_access: derived
@@ -450,9 +458,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:
 - kind: authentication

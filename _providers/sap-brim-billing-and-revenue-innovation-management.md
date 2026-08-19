@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -497,7 +498,9 @@ rate_limits:
   name: Sap Brim Billing And Revenue Innovation Management Rate Limits
   slug: sap-brim-billing-and-revenue-innovation-management-rate-limits
 rules:
-- name: SAP BRIM (Billing and Revenue Innovation Management) API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP BRIM (Billing and Revenue Innovation Management) API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -505,7 +508,10 @@ rules:
     info: 3
     warn: 3
   slug: sap-brim-billing-and-revenue-innovation-management-jsonschema-spectral-rules
-- name: SAP BRIM (Billing and Revenue Innovation Management) API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: SAP BRIM (Billing and Revenue Innovation Management) API Rules
   rule_count: 10
   severity_counts:
     error: 0
@@ -519,16 +525,18 @@ scopes:
   slug: sap-brim-billing-and-revenue-innovation-management-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -8.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 71.6
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 71.4
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -537,9 +545,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/screenshots/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:
 - kind: authentication

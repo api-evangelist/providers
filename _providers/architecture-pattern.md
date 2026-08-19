@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,7 +201,9 @@ rate_limits:
   name: Architecture Pattern Rate Limits
   slug: architecture-pattern-rate-limits
 rules:
-- name: Architecture Pattern API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Architecture Pattern API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +211,10 @@ rules:
     info: 2
     warn: 3
   slug: architecture-pattern-jsonschema-spectral-rules
-- name: Architecture Pattern API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Architecture Pattern API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -218,15 +224,17 @@ rules:
   slug: architecture-pattern-spectral-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 28.9
+  delta: -9.4
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 19.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 55.2
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 38.3
   provenance:
     agentic_access: derived
@@ -235,9 +243,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/screenshots/architecture-pattern-2026-06-20T172407.png
 security:
 - kind: domain-security

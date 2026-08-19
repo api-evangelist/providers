@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -1448,7 +1449,9 @@ rate_limits:
   name: Envestnet Rate Limits
   slug: envestnet-rate-limits
 rules:
-- name: Envestnet API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Envestnet API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1458,15 +1461,17 @@ rules:
   slug: envestnet-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 31.6
+  delta: -4.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 52.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 53.8
+    developer_ergonomics: 11.9
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -1481,8 +1486,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:

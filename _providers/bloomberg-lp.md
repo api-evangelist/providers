@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -302,7 +303,9 @@ rate_limits:
   name: Bloomberg Lp Rate Limits
   slug: bloomberg-lp-rate-limits
 rules:
-- name: Bloomberg L.P. API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bloomberg L.P. API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -310,7 +313,10 @@ rules:
     info: 2
     warn: 3
   slug: bloomberg-lp-jsonschema-spectral-rules
-- name: Bloomberg L.P. API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Bloomberg L.P. API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -320,15 +326,17 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.5
+  delta: -3.2
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 72.4
-    developer_ergonomics: 39.1
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -343,8 +351,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

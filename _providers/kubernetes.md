@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -466,7 +467,10 @@ rate_limits:
   name: Kubernetes Rate Limits
   slug: kubernetes-rate-limits
 rules:
-- name: Kubernetes API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Kubernetes API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -474,7 +478,9 @@ rules:
     info: 0
     warn: 4
   slug: kubernetes-asyncapi-spectral-rules
-- name: Kubernetes API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Kubernetes API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -484,14 +490,16 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 56.0
+  delta: -2.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 82.1
-    developer_ergonomics: 56.5
+    contract_governance: 28.0
+    contract_quality: 82.5
+    developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 53.1
+    governance: 28.0
     operational_transparency: 47.4
   previous_composite: 58.3
   provenance:
@@ -503,8 +511,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

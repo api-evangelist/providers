@@ -1,15 +1,273 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-08-19'
 api_count: 3
-artifact_total: 0
+apis:
+- description: REST/JSON banking API for Memo Bank business customers, authenticated with RS256-signed JWT request tokens. Covers accounts and balances, transactions with typed transaction sources, virtual and stand
+  name: Memo Bank Premium Bank API
+  slug: memo-bank-premium-bank-api
+- description: OAuth 2.0 authorization layer that lets third-party developers build Memo Bank Marketplace integrations and call the Premium Bank API on behalf of consenting customers. Documents the authorization flo
+  name: Memo Bank Marketplace API
+  slug: memo-bank-marketplace-api
+- description: Berlin Group NextGenPSD2 XS2A implementation (Implementation Guidelines 1.3.11) exposing Account Information Service and Payment Initiation Service endpoints to licensed third-party payment service pr
+  name: Memo Bank NextGenPSD2 API
+  slug: memo-bank-nextgenpsd2-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Memo Bank Webhooks
+  slug: memo-bank-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/memo-bank-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://memo.bank/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.api.memo.bank/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.api.memo.bank/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.api.memo.bank/version-2/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.api.memo.bank/topic/topic-getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://aide.memo.bank/
+- group: company
+  title: ''
+  type: Blog
+  url: https://memo.bank/en/magazine/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/memobank
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://memo.bank/en/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://memo.bank/en/sign-up/
+- group: start
+  title: ''
+  type: Login
+  url: https://client.memo.bank/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://memo.bank/en/agreement/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://memo.bank/en/personal-data/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://memo.bank/en/about/security-operations/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.memo.bank/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.api.memo.bank/changes
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/memo-bank-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/memo-bank-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/memo-bank-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/memo-bank-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/memo-bank-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/memo-bank-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/memo-bank-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/memo-bank-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/memo-bank-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/memo-bank-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.api.memo.bank/topic/topic-versioning-and-backwards-compatibility
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/memo-bank-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/memo-bank-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/memo-bank-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/memo-bank-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/memo-bank-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/memo-bank-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/memo-bank-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/memo-bank-changelog.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/memo-bank-decline-codes.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/memo-bank-vulnerability-disclosure.yml
 created: '2026-08-17'
 description: Memo Bank is an independent French commercial bank, accredited as a credit institution by the European Central Bank and supervised by the ACPR, that serves small and mid-sized companies with current accounts, loans, savings and an API-first payments platform. Its Premium Bank API is a REST/JSON contract authenticated with RS256-signed JWT/JWS request tokens, covering accounts, transactions, bi-directional virtual IBANs, SEPA credit transfers, SEPA Direct Debit collections and mandate signature requests, SWIFT/RTGS wire transfers, bulk payment batches, attachments and account assessments, with 34 webhook event types for asynchronous reconciliation. A Marketplace API adds an OAuth 2.0 layer so third-party developers can act on customer resources, a NextGenPSD2 API implements the Berlin Group AIS/PIS interface for licensed third-party providers, and a hosted MCP server exposes read-only banking data plus attachment upload to AI assistants.
 image: https://media.memo.bank/home_hero_602cdab270/home_hero_602cdab270.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: memo-bank-mcp.yml
+  slug: memo-bank-mcpyml
 modified: '2026-08-17'
 name: Memo Bank
 nav: Providers
 network: true
+overview: 'Memo Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Premium Bank API, Marketplace API, and NextGenPSD2 API. Tagged areas include Company, Fintech Insurtech, banking, business-banking, and payments.
+
+
+  The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Memo Bank''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+plans:
+- name: Memo Bank Plans Pricing
+  plan_count: 2
+  slug: memo-bank-plans-pricing
 random_paper: 142
+rate_limits:
+- limit_count: 0
+  name: Memo Bank Rate Limits
+  slug: memo-bank-rate-limits
+scopes:
+- name: Memo Bank Scopes
+  scope_count: 2
+  slug: memo-bank-scopes
+  summary_line: 2 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.4
+  facets:
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 30.3
+    contract_quality: 59.3
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    governance: 30.3
+    operational_transparency: 34.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 87.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: authentication
+  name: Memo Bank Authentication
+  slug: memo-bank-authentication
+  summary_line: http/oauth2/mutualTLS · 4 schemes
+- kind: domain-security
+  name: Memo Bank Domain Security
+  slug: memo-bank-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Memo Bank Vulnerability Disclosure
+  slug: memo-bank-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: memo-bank
 tags:
 - Company
@@ -27,4 +285,5 @@ tags:
 - webhooks
 - mcp
 - france
+website: https://memo.bank/
 ---

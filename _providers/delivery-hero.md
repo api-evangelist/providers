@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 35.6
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
@@ -202,15 +203,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 32.8
+  delta: -5.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 59.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 38.7
   provenance:
     conformance: derived
@@ -221,9 +224,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:
 - kind: authentication

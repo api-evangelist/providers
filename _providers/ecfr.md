@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-17'
+  score: 26.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Ecfr Rate Limits
   slug: ecfr-rate-limits
 rules:
-- name: eCFR API Rules
+- effective_rule_count: 5
+  extends: []
+  name: eCFR API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,14 +242,16 @@ rules:
   slug: ecfr-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 31.2
+  delta: -7.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 46.3
-    developer_ergonomics: 10.9
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 44.1
+    developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 38.6
   provenance:
@@ -262,9 +267,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/screenshots/ecfr-2026-07-25T212731.png
 security:
 - kind: domain-security

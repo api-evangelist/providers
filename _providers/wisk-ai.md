@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,7 +197,9 @@ rate_limits:
   name: Wisk Ai Rate Limits
   slug: wisk-ai-rate-limits
 rules:
-- name: WISK API Rules
+- effective_rule_count: 4
+  extends: []
+  name: WISK API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -204,7 +207,10 @@ rules:
     info: 1
     warn: 3
   slug: wisk-ai-jsonschema-spectral-rules
-- name: WISK API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: WISK API Rules
   rule_count: 29
   severity_counts:
     error: 7
@@ -214,14 +220,16 @@ rules:
   slug: wisk-ai-spectral-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 32.0
+  delta: -6.3
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 11.8
-    developer_ergonomics: 26.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 11.0
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 38.3
   provenance:
@@ -231,9 +239,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
 security:
 - kind: authentication

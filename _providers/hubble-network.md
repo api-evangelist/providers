@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 47.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -327,15 +328,17 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 71.6
-  delta: 0.0
+  composite: 71.3
+  delta: -0.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 75.2
-    developer_ergonomics: 78.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 16.7
+    contract_quality: 72.4
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 94.7
+    governance: 16.7
+    operational_transparency: 92.1
   previous_composite: 71.6
   provenance:
     agentic_access: derived
@@ -347,10 +350,10 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-07T170350.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-17T075400.png
 security:
 - kind: authentication
   name: Hubble Network Authentication

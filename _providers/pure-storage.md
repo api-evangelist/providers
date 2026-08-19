@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -1322,7 +1323,9 @@ rate_limits:
   name: Pure Storage Rate Limits
   slug: pure-storage-rate-limits
 rules:
-- name: Pure Storage API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pure Storage API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1330,7 +1333,10 @@ rules:
     info: 1
     warn: 4
   slug: pure-storage-jsonschema-spectral-rules
-- name: Pure Storage API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Pure Storage API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -1340,15 +1346,17 @@ rules:
   slug: pure-storage-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 44.0
+  delta: -4.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 59.1
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 60.9
+    developer_ergonomics: 59.5
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -1357,8 +1365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 129
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:

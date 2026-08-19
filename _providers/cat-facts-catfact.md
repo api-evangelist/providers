@@ -9,25 +9,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -184,7 +185,9 @@ overview: 'Cat Facts (catfact.ninja) publishes 2 APIs on the [APIs.io](https://a
   Cat Facts (catfact.ninja)''s developer surface includes authentication, tooling, and 12 more developer resources.'
 random_paper: 18
 rules:
-- name: Cat Facts (catfact.ninja) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cat Facts (catfact.ninja) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +195,10 @@ rules:
     info: 1
     warn: 4
   slug: cat-facts-catfact-jsonschema-spectral-rules
-- name: Cat Facts (catfact.ninja) API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Cat Facts (catfact.ninja) API Rules
   rule_count: 37
   severity_counts:
     error: 8
@@ -202,14 +208,16 @@ rules:
   slug: cat-facts-catfact-rules
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 18.3
+  delta: -5.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 22.6
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 21.2
+    developer_ergonomics: 11.9
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 23.7
   provenance:
@@ -219,9 +227,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
 security:
 - kind: domain-security

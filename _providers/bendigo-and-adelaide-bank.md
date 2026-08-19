@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
@@ -285,15 +285,17 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 41.2
+  delta: -3.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.0
-    developer_ergonomics: 38.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 57.9
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 30.3
+    operational_transparency: 21.1
   previous_composite: 44.6
   provenance:
     conformance: first-party
@@ -309,9 +311,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 58.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

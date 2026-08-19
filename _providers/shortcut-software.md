@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -452,16 +453,18 @@ scopes:
   slug: shortcut-software-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 0.0
+  band: strong
+  composite: 60.5
+  delta: -5.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.4
-    developer_ergonomics: 73.4
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 66.9
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 84.2
+    governance: 30.3
+    operational_transparency: 81.6
   previous_composite: 66.1
   provenance:
     agentic_access: derived
@@ -473,9 +476,10 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/screenshots/shortcut-software-2026-08-17T080443.png
 security:
 - kind: authentication
   name: Shortcut Software Authentication

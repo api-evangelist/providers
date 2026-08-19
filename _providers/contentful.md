@@ -19,18 +19,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: true
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 50.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,12 +215,14 @@ rate_limits:
   slug: contentful-rate-limits
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 43.4
+  delta: -2.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 59.8
-    developer_ergonomics: 50.0
+    contract_governance: 0.0
+    contract_quality: 56.5
+    developer_ergonomics: 40.5
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 47.4
@@ -231,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/screenshots/contentful-2026-06-20T174923.png
 security:

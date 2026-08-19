@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -334,7 +334,9 @@ rate_limits:
   name: Apidog Rate Limits
   slug: apidog-rate-limits
 rules:
-- name: Apidog API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apidog API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -342,7 +344,10 @@ rules:
     info: 2
     warn: 3
   slug: apidog-jsonschema-spectral-rules
-- name: Apidog API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Apidog API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -351,15 +356,17 @@ rules:
     warn: 12
   slug: apidog-rules
 score:
-  band: strong
-  composite: 63.2
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: -11.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 76.9
-    developer_ergonomics: 63.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 74.1
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 60.5
   previous_composite: 63.2
   provenance:
@@ -369,9 +376,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:
 - kind: authentication

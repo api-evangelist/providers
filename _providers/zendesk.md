@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 48.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1499,7 +1500,10 @@ rate_limits:
   name: Zendesk Rate Limits
   slug: zendesk-rate-limits
 rules:
-- name: Zendesk API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Zendesk API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1507,7 +1511,9 @@ rules:
     info: 0
     warn: 7
   slug: zendesk-asyncapi-spectral-rules
-- name: Zendesk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zendesk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1515,7 +1521,10 @@ rules:
     info: 1
     warn: 4
   slug: zendesk-jsonschema-spectral-rules
-- name: Zendesk API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Zendesk API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -1530,14 +1539,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 57.0
+  delta: -2.4
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 58.6
-    developer_ergonomics: 58.7
+    contract_governance: 28.0
+    contract_quality: 58.7
+    developer_ergonomics: 61.9
     discoverability: 57.4
-    governance: 53.1
+    governance: 28.0
     operational_transparency: 55.3
   previous_composite: 59.4
   provenance:
@@ -1549,8 +1560,8 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

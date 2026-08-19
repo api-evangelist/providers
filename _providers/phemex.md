@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: Transfer
   slug: transfer
 rules:
-- name: Phemex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Phemex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,16 +239,18 @@ rules:
     warn: 3
   slug: phemex-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -4.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 61.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 59.5
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 15.8
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -260,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

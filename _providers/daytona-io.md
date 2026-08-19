@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -664,7 +665,9 @@ rate_limits:
   name: Daytona Io Rate Limits
   slug: daytona-io-rate-limits
 rules:
-- name: Daytona API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Daytona API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -672,7 +675,10 @@ rules:
     info: 2
     warn: 3
   slug: daytona-io-jsonschema-spectral-rules
-- name: Daytona API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Daytona API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -681,15 +687,17 @@ rules:
     warn: 4
   slug: daytona-rules
 score:
-  band: exemplar
-  composite: 69.6
-  delta: 0.0
+  band: strong
+  composite: 65.2
+  delta: -4.4
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 68.5
-    developer_ergonomics: 84.8
+    contract_governance: 25.0
+    contract_quality: 65.2
+    developer_ergonomics: 92.9
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 69.6
   provenance:
@@ -699,8 +707,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

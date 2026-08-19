@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -38,7 +39,7 @@ agentic_access:
   operation_count: 1931
   slug: webex-agentic-access
   summary_line: 1931 operations · 989 acting · 84 human-in-the-loop
-api_count: 178
+api_count: 193
 apis:
 - description: The Address Book API from Webex — 11 operation(s) for address book.
   name: Webex Address Book API
@@ -574,7 +575,52 @@ apis:
 - description: The xAPI API from Webex — 3 operation(s) for xapi.
   name: Webex xAPI API
   slug: webex-xapi-api
-artifact_total: 4625
+- description: The Activities API from Webex — 3 operation(s) for activities.
+  name: Webex Activities API
+  slug: webex-activities-api
+- description: <!-- feature-toggle-name:calling-air-transcript-api-CALL-205781 --> APIs for retrieving AI Receptionist sessions and conversational transcripts. Restricted to organization Full Administrators (CI role
+  name: Webex AI Receptionist API
+  slug: webex-ai-receptionist-api
+- description: APIs for managing AI Receptionists in Webex Calling.
+  name: Webex AI Receptionist for Webex Calling API
+  slug: webex-ai-receptionist-for-webex-calling-api
+- description: The Call Settings Configurable Storage Region API from Webex — 3 operation(s) for call settings configurable storage region.
+  name: Webex Call Settings Configurable Storage Region API
+  slug: webex-call-settings-configurable-storage-region-api
+- description: Operations for retrieving campaigns associated with a campaign group
+  name: Webex Campaign Group API
+  slug: webex-campaign-group-api
+- description: 'The Features: Hot Desking Members API from Webex — 2 operation(s) for features: hot desking members.'
+  name: 'Webex Features: Hot Desking Members API'
+  slug: webex-features-hot-desking-members-api
+- description: The Flows API from Webex — 11 operation(s) for flows.
+  name: Webex Flows API
+  slug: webex-flows-api
+- description: The Functions API from Webex — 7 operation(s) for functions.
+  name: Webex Functions API
+  slug: webex-functions-api
+- description: The Hybrid Data Security API from Webex — 11 operation(s) for hybrid data security.
+  name: Webex Hybrid Data Security API
+  slug: webex-hybrid-data-security-api
+- description: The Legacy Flows API from Webex — 2 operation(s) for legacy flows.
+  name: Webex Legacy Flows API
+  slug: webex-legacy-flows-api
+- description: The Person Call Settings API from Webex — 1 operation(s) for person call settings.
+  name: Webex Person Call Settings API
+  slug: webex-person-call-settings-api
+- description: The Templates API from Webex — 2 operation(s) for templates.
+  name: Webex Templates API
+  slug: webex-templates-api
+- description: The User Call Settings (3/3) API from Webex — 8 operation(s) for user call settings (3/3).
+  name: Webex User Call Settings (3/3) API
+  slug: webex-user-call-settings-3-3-api
+- description: The User Call Settings API from Webex — 2 operation(s) for user call settings.
+  name: Webex User Call Settings API
+  slug: webex-user-call-settings-api
+- description: The Workspace Call Settings API from Webex — 3 operation(s) for workspace call settings.
+  name: Webex Workspace Call Settings API
+  slug: webex-workspace-call-settings-api
+artifact_total: 4640
 asyncapis:
 - description: ''
   name: Review
@@ -1679,6 +1725,10 @@ collections:
   name: Webex Admin Address Book xAPI API
   slug: open-webex-xapi-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1787,6 +1837,26 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/webex-device-context.jsonld
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-collaboration-hybrid-solutions/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-control-hub/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-directory-connector/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-expressway/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cisco-webex-meetings/
 created: '2025-02-06'
 description: Cisco Webex is a comprehensive collaboration platform offering APIs for messaging, meetings, calling, devices, and contact center workflows. The Webex Developer Platform enables developers to build integrations, bots, embedded apps, and automations using REST APIs, SDKs, and webhooks. Webex supports OAuth 2.0 authentication and provides separate API surfaces for messaging, video conferencing, cloud calling, admin management, and more.
 examples:
@@ -13979,17 +14049,17 @@ jsonld:
   property_count: 9
   slug: webex-wholesale-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-19'
 name: Webex
 nav: Providers
 network: true
-overview: 'Webex publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 175 more. Tagged areas include Calling, Collaboration, Communication, Enterprise, and Messaging.
+overview: 'Webex publishes 193 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 190 more. Tagged areas include Calling, Collaboration, Communication, Enterprise, and Messaging.
 
 
   The Webex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 22 more developer resources.'
+  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Webex Plans Pricing
   plan_count: 3
@@ -14000,7 +14070,9 @@ rate_limits:
   name: Webex Rate Limits
   slug: webex-rate-limits
 rules:
-- name: Webex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Webex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -14008,7 +14080,10 @@ rules:
     info: 2
     warn: 3
   slug: webex-jsonschema-spectral-rules
-- name: Webex API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Webex API Rules
   rule_count: 40
   severity_counts:
     error: 9
@@ -14023,14 +14098,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 48.2
+  delta: -3.4
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 64.9
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 68.2
+    developer_ergonomics: 61.9
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 51.6
   provenance:
@@ -14038,10 +14115,10 @@ score:
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
-      total: 178
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+      marker_coverage: 100.0
+      total: 193
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:

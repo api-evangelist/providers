@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,15 +229,17 @@ overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   Abcuro''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 21 more developer resources.'
 random_paper: 40
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 27.4
+  delta: 1.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 15.7
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 14.7
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 25.9
   provenance:
@@ -255,8 +258,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -742,7 +743,9 @@ rate_limits:
   name: Microsoft Azure Functions Rate Limits
   slug: microsoft-azure-functions-rate-limits
 rules:
-- name: Microsoft Azure Functions API Rules
+- effective_rule_count: 19
+  extends: []
+  name: Microsoft Azure Functions API Rules
   rule_count: 19
   severity_counts:
     error: 14
@@ -750,7 +753,9 @@ rules:
     info: 3
     warn: 2
   slug: azure-functions-spectral-rules
-- name: Microsoft Azure Functions API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Azure Functions API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -758,7 +763,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-azure-functions-jsonschema-spectral-rules
-- name: Microsoft Azure Functions API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Microsoft Azure Functions API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -773,15 +781,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 58.1
+  delta: 0.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 57.0
-    developer_ergonomics: 80.4
+    contract_governance: 39.4
+    contract_quality: 55.5
+    developer_ergonomics: 78.6
     discoverability: 74.1
-    governance: 27.1
-    operational_transparency: 55.3
+    governance: 39.4
+    operational_transparency: 52.6
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -790,8 +800,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/screenshots/microsoft-azure-functions-2026-06-20T185418.png
 security:

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -874,7 +875,10 @@ rate_limits:
   name: Windmill Rate Limits
   slug: windmill-rate-limits
 rules:
-- name: Windmill API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Windmill API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -882,7 +886,9 @@ rules:
     info: 1
     warn: 5
   slug: windmill-api-rules
-- name: Windmill API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Windmill API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -892,15 +898,17 @@ rules:
   slug: windmill-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 52.8
+  delta: -2.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 55.5
-    developer_ergonomics: 50.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 54.5
+    contract_quality: 52.9
+    developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 37.5
-    operational_transparency: 50.0
+    governance: 54.5
+    operational_transparency: 34.2
   previous_composite: 55.4
   provenance:
     agentic_access: derived
@@ -909,8 +917,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:

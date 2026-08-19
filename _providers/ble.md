@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Bluetooth Core Specification defines the complete Bluetooth wireless communication protocol stack including BLE (LE) and Classic Bluetooth. The current stable version is Bluetooth 6.0. The specifi
@@ -167,7 +168,9 @@ rate_limits:
   name: Ble Rate Limits
   slug: ble-rate-limits
 rules:
-- name: BLE API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BLE API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -175,7 +178,9 @@ rules:
     info: 2
     warn: 3
   slug: ble-jsonschema-spectral-rules
-- name: BLE API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BLE API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -184,20 +189,22 @@ rules:
     warn: 5
   slug: ble-spectral-rules
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: emerging
+  composite: 24.3
+  delta: -5.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 29.0
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 30.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ble/refs/heads/main/screenshots/ble-2026-06-20T173347.png
 security:
 - kind: domain-security

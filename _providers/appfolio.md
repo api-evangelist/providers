@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -155,18 +156,26 @@ overview: 'AppFolio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 113
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 17.4
+  delta: -4.2
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 43.2
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfolio/refs/heads/main/screenshots/appfolio-2026-06-20T172316.png
 security:

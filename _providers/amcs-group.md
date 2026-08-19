@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -1712,16 +1713,18 @@ overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) netw
   AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
 random_paper: 128
 score:
-  band: thin
-  composite: 39.5
-  delta: 0.0
+  band: developing
+  composite: 41.9
+  delta: 2.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 40.9
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 41.7
+    developer_ergonomics: 78.0
     discoverability: 63.0
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -1739,8 +1742,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:

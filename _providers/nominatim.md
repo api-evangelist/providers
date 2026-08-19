@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -314,7 +315,9 @@ rate_limits:
   name: Nominatim Rate Limits
   slug: nominatim-rate-limits
 rules:
-- name: Nominatim API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nominatim API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -322,7 +325,10 @@ rules:
     info: 1
     warn: 4
   slug: nominatim-jsonschema-spectral-rules
-- name: Nominatim API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Nominatim API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -332,15 +338,17 @@ rules:
   slug: nominatim-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 39.7
+  delta: -6.5
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 68.6
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 64.2
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 31.6
+    governance: 25.0
+    operational_transparency: 28.9
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -349,9 +357,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:
 - kind: domain-security

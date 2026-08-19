@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -263,7 +264,9 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
   Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
 random_paper: 89
 rules:
-- name: Amazon Certificate Manager API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Certificate Manager API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -271,7 +274,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-certificate-manager-jsonschema-spectral-rules
-- name: Amazon Certificate Manager API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Amazon Certificate Manager API Rules
   rule_count: 32
   severity_counts:
     error: 15
@@ -280,16 +286,18 @@ rules:
     warn: 13
   slug: amazon-certificate-manager-spectral-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: developing
+  composite: 51.4
+  delta: -5.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.6
-    developer_ergonomics: 32.6
+    contract_governance: 41.7
+    contract_quality: 69.2
+    developer_ergonomics: 33.3
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 31.6
+    governance: 41.7
+    operational_transparency: 28.9
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -300,9 +308,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/screenshots/amazon-certificate-manager-2026-07-25T195941.png
 security:
 - kind: domain-security

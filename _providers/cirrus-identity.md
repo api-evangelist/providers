@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,15 +186,17 @@ overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 93
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 51.4
+  delta: 6.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 59.0
-    developer_ergonomics: 45.1
+    contract_governance: 20.5
+    contract_quality: 57.3
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 14.1
-    operational_transparency: 15.8
+    governance: 20.5
+    operational_transparency: 13.2
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -205,9 +208,15 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/screenshots/cirrus-identity-2026-07-25T205419.png
 security:
 - kind: authentication

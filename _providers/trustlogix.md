@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 13.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the TrustLogix platform — manage data source accounts, data access policies (create / impact-preview / review / publish), data-source tags and associations, monitoring policies (v1 and v2
@@ -147,22 +148,24 @@ overview: 'Trustlogix publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 82
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 33.8
+  delta: -0.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 53.8
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 34.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

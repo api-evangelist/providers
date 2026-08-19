@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -217,7 +218,9 @@ overview: 'Realtime publishes 26 APIs on the [APIs.io](https://apis.io/) network
   Realtime''s developer surface includes developer portal, GitHub presence, code examples, and 7 more developer resources.'
 random_paper: 106
 rules:
-- name: Realtime API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Realtime API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,19 +230,21 @@ rules:
   slug: realtime-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 15.9
+  delta: -5.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 16.9
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 21.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime/refs/heads/main/screenshots/realtime-2026-06-20T192649.png
 security:
 - kind: domain-security

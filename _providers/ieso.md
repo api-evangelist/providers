@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -218,14 +219,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/password/deviceCode/refreshToken
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 51.8
+  delta: 2.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 58.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 58.9
     discoverability: 83.3
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 47.4
   previous_composite: 49.0
   provenance:
@@ -238,8 +241,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/screenshots/ieso-2026-08-07T170612.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Thailand site (Wix Site MCP). Advertised in the site llms.txt; an unauthenticated tools/list returns nine tools covering busin
@@ -132,15 +133,17 @@ overview: 'Doctor Anywhere publishes 3 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 73
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 24.0
+  delta: -0.8
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 27.7
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 24.8
   provenance:
     conformance: derived
@@ -152,8 +155,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/screenshots/doctor-anywhere-2026-08-07T164459.png
 security:

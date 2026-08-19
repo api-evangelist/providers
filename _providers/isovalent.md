@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -101,6 +102,10 @@ collections:
   name: Cilium bgp service API
   slug: open-isovalent-service-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -254,40 +259,42 @@ mcp_servers:
 - description: ''
   name: isovalent-mcp.yml
   slug: isovalent-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-19'
 name: Isovalent
 nav: Providers
 network: true
 overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network, including bgp API, connectivity API, daemon API, and 6 more. Tagged areas include Company, Networking, Kubernetes, eBPF, and Security.
 
 
-  Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 29 more developer resources.'
+  Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 30 more developer resources.'
 random_paper: 87
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -10.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 37.5
-    developer_ergonomics: 75.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 9.2
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 9
+      marker_coverage: 100.0
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
 security:
 - kind: authentication

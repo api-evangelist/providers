@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 70.0
-  scored_at: '2026-08-17'
+  score: 71.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -303,34 +304,36 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.1
-  delta: 19.3
+  composite: 73.4
+  delta: 5.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 68.7
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 65.0
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 65.8
-  previous_composite: 48.8
+    governance: 30.3
+    operational_transparency: 47.4
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-    skills: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

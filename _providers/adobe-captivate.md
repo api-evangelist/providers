@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -873,7 +874,10 @@ rate_limits:
   name: Adobe Captivate Rate Limits
   slug: adobe-captivate-rate-limits
 rules:
-- name: Adobe Captivate API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Adobe Captivate API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -881,7 +885,9 @@ rules:
     info: 1
     warn: 7
   slug: adobe-captivate-asyncapi-spectral-rules
-- name: Adobe Captivate API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Adobe Captivate API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -889,7 +895,9 @@ rules:
     info: 2
     warn: 4
   slug: adobe-captivate-jsonschema-spectral-rules
-- name: Adobe Captivate API Rules
+- effective_rule_count: 34
+  extends: []
+  name: Adobe Captivate API Rules
   rule_count: 34
   severity_counts:
     error: 16
@@ -904,15 +912,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 55.4
+  delta: -5.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 86.9
-    developer_ergonomics: 56.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 83.5
+    developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 28.8
+    operational_transparency: 7.9
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -921,9 +931,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 75.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
 security:
 - kind: authentication

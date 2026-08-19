@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Digital intake, consent, and clinical questionnaire capture - logic-driven interviews customized per patient and delivered as mobile intake in 20+ languages. Completed intake, consent, and patient-rep
@@ -91,12 +92,14 @@ overview: 'Phreesia publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 104
 score:
   band: minimal
-  composite: 10.4
-  delta: 0.0
+  composite: 9.2
+  delta: -1.2
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
@@ -107,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

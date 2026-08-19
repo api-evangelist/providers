@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -1976,7 +1977,9 @@ rate_limits:
   name: Ebay Rate Limits
   slug: ebay-rate-limits
 rules:
-- name: eBay API Rules
+- effective_rule_count: 5
+  extends: []
+  name: eBay API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1990,16 +1993,18 @@ scopes:
   slug: ebay-scopes
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 56.4
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -2008,9 +2013,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 71
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:
 - kind: authentication

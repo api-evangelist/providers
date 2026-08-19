@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -228,7 +229,10 @@ rate_limits:
   name: Wasmcloud Rate Limits
   slug: wasmcloud-rate-limits
 rules:
-- name: wasmCloud API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: wasmCloud API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -236,7 +240,9 @@ rules:
     info: 0
     warn: 7
   slug: wasmcloud-asyncapi-spectral-rules
-- name: wasmCloud API Rules
+- effective_rule_count: 6
+  extends: []
+  name: wasmCloud API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -246,19 +252,21 @@ rules:
   slug: wasmcloud-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 40.6
+  delta: -6.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 78.4
-    developer_ergonomics: 26.1
+    contract_governance: 26.5
+    contract_quality: 70.6
+    developer_ergonomics: 26.2
     discoverability: 79.6
-    governance: 62.5
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 47.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:
 - kind: domain-security

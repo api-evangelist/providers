@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 38.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -341,13 +342,15 @@ rate_limits:
   name: Pulumi Rate Limits
   slug: pulumi-rate-limits
 score:
-  band: thin
-  composite: 39.5
-  delta: 0.0
+  band: developing
+  composite: 41.6
+  delta: 2.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 46.3
-    developer_ergonomics: 28.3
+    contract_governance: 0.0
+    contract_quality: 44.9
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
@@ -365,8 +368,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:

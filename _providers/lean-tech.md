@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -410,7 +411,9 @@ rate_limits:
   name: Lean Tech Rate Limits
   slug: lean-tech-rate-limits
 rules:
-- name: Lean Technologies API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lean Technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -418,7 +421,10 @@ rules:
     info: 1
     warn: 4
   slug: lean-tech-jsonschema-spectral-rules
-- name: Lean Technologies API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Lean Technologies API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -428,14 +434,16 @@ rules:
   slug: lean-tech-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 52.1
+  delta: -2.1
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 62.1
-    developer_ergonomics: 60.9
+    contract_governance: 25.0
+    contract_quality: 58.2
+    developer_ergonomics: 61.9
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 47.4
   previous_composite: 54.2
   provenance:
@@ -451,8 +459,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:

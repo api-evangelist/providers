@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-17'
+  score: 49.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -299,26 +299,32 @@ rate_limits:
   slug: worldnewsapi-rate-limits
 score:
   band: exemplar
-  composite: 69.8
-  delta: 31.0
+  composite: 66.6
+  delta: -3.2
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 59.0
-    developer_ergonomics: 82.6
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 75.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 38.8
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/screenshots/worldnewsapi-2026-08-17T080439.png
 security:
 - kind: authentication
   name: Worldnewsapi Authentication

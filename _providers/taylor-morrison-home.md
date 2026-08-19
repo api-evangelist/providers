@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,7 +208,9 @@ rate_limits:
   name: Taylor Morrison Home Rate Limits
   slug: taylor-morrison-home-rate-limits
 rules:
-- name: taylor-morrison-home API Rules
+- effective_rule_count: 5
+  extends: []
+  name: taylor-morrison-home API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,7 +218,10 @@ rules:
     info: 1
     warn: 4
   slug: taylor-morrison-home-jsonschema-spectral-rules
-- name: taylor-morrison-home API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: taylor-morrison-home API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -223,7 +229,9 @@ rules:
     info: 0
     warn: 9
   slug: taylor-morrison-home-spectral-rules
-- name: taylor-morrison-home API Rules
+- effective_rule_count: 8
+  extends: []
+  name: taylor-morrison-home API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -233,14 +241,16 @@ rules:
   slug: taylor-morrison-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 31.7
+  delta: -6.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 68.7
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 37.8
   provenance:
@@ -250,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:
 - kind: authentication

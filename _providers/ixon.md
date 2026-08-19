@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 16
@@ -2281,15 +2282,17 @@ rate_limits:
   slug: ixon-rate-limits
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 32.7
+  delta: 0.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 46.7
-    developer_ergonomics: 34.8
+    contract_governance: 0.0
+    contract_quality: 49.1
+    developer_ergonomics: 38.1
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 31.8
   provenance:
     agentic_access: derived
@@ -2298,8 +2301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 359
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/screenshots/ixon-2026-06-20T183642.png
 security:

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 41.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -340,15 +341,17 @@ scopes:
   summary_line: 51 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 33.7
+  delta: -0.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 59.1
-    developer_ergonomics: 30.4
+    contract_governance: 0.0
+    contract_quality: 55.4
+    developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 34.4
   provenance:
     agentic_access: derived
@@ -357,8 +360,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:

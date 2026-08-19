@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -566,7 +566,9 @@ rate_limits:
   name: Qlik Sense Enterprise Rate Limits
   slug: qlik-sense-enterprise-rate-limits
 rules:
-- name: Qlik Sense Enterprise API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Qlik Sense Enterprise API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -575,16 +577,18 @@ rules:
     warn: 4
   slug: qlik-sense-enterprise-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.8
-  delta: 0.0
+  band: thin
+  composite: 37.1
+  delta: -12.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 64.8
-    developer_ergonomics: 43.5
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 9.8
+    contract_quality: 64.9
+    developer_ergonomics: 38.1
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -593,9 +597,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/screenshots/qlik-sense-enterprise-2026-06-20T192341.png
 security:
 - kind: authentication

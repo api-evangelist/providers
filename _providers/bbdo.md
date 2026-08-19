@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: bbdo.com runs on WordPress (WP Engine, fronted by Cloudflare) and leaves the WordPress REST API open for anonymous reads. The route discovery document at https://bbdo.com/wp-json/ enumerates 10 namesp
@@ -260,18 +261,22 @@ rate_limits:
   slug: bbdo-rate-limits
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 14.6
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 9.7
-    developer_ergonomics: 10.9
+    contract_governance: 18.2
+    contract_quality: 8.5
+    developer_ergonomics: 11.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 14.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbdo/refs/heads/main/screenshots/bbdo-2026-06-20T173054.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -124,7 +125,9 @@ rate_limits:
   name: Google Fitness Rate Limits
   slug: google-fitness-rate-limits
 rules:
-- name: Google Fit REST API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Fit REST API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -132,7 +135,10 @@ rules:
     info: 2
     warn: 3
   slug: google-fitness-jsonschema-spectral-rules
-- name: Google Fit REST API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Google Fit REST API Rules
   rule_count: 19
   severity_counts:
     error: 11
@@ -147,15 +153,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 40.7
+  delta: -2.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 70.1
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -170,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/screenshots/google-fitness-2026-06-20T182201.png
 security:

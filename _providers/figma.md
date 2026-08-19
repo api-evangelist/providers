@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1991,7 +1992,10 @@ rate_limits:
   name: Figma Rate Limits
   slug: figma-rate-limits
 rules:
-- name: Figma API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Figma API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1999,7 +2003,9 @@ rules:
     info: 0
     warn: 6
   slug: figma-asyncapi-spectral-rules
-- name: Figma API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Figma API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2007,7 +2013,10 @@ rules:
     info: 2
     warn: 4
   slug: figma-jsonschema-spectral-rules
-- name: Figma API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Figma API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -2021,16 +2030,18 @@ scopes:
   slug: figma-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.6
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: -5.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 82.9
-    developer_ergonomics: 63.0
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 43.2
+    contract_quality: 79.9
+    developer_ergonomics: 59.5
     discoverability: 77.8
-    governance: 63.5
-    operational_transparency: 55.3
+    governance: 43.2
+    operational_transparency: 52.6
   previous_composite: 69.6
   provenance:
     agentic_access: derived
@@ -2041,9 +2052,9 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:
 - kind: authentication

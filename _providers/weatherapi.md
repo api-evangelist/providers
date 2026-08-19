@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -589,7 +590,9 @@ rate_limits:
   name: Weatherapi Rate Limits
   slug: weatherapi-rate-limits
 rules:
-- name: WeatherAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WeatherAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -597,7 +600,10 @@ rules:
     info: 1
     warn: 4
   slug: weatherapi-jsonschema-spectral-rules
-- name: WeatherAPI API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: WeatherAPI API Rules
   rule_count: 37
   severity_counts:
     error: 11
@@ -606,16 +612,18 @@ rules:
     warn: 21
   slug: weatherapi-rules
 score:
-  band: strong
-  composite: 64.2
-  delta: 0.0
+  band: developing
+  composite: 46.6
+  delta: -17.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 71.6
-    developer_ergonomics: 41.3
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 68.6
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 64.2
   provenance:
     agentic_access: derived
@@ -624,9 +632,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:
 - kind: authentication

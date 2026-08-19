@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The API Keys API from Qomplement — 2 operation(s) for api keys.
@@ -225,15 +226,17 @@ rate_limits:
   slug: qomplement-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 47.6
+  delta: 0.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.0
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 53.0
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 34.2
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 47.3
   provenance:
     conformance: derived
@@ -244,9 +247,10 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/screenshots/qomplement-2026-08-17T081421.png
 security:
 - kind: authentication
   name: Qomplement Authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -282,7 +283,9 @@ rate_limits:
   name: 42Crunch Rate Limits
   slug: 42crunch-rate-limits
 rules:
-- name: 42Crunch API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 42Crunch API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -290,7 +293,10 @@ rules:
     info: 2
     warn: 3
   slug: 42crunch-jsonschema-spectral-rules
-- name: 42Crunch API Rules
+- effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: 42Crunch API Rules
   rule_count: 47
   severity_counts:
     error: 12
@@ -300,15 +306,17 @@ rules:
   slug: 42crunch-spectral-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 27.1
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 26.7
-    developer_ergonomics: 15.2
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 25.0
+    contract_quality: 25.2
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 34.1
   provenance:
     agentic_access: derived
@@ -317,9 +325,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/screenshots/42crunch-2026-06-20T162707.png
 security:
 - kind: domain-security

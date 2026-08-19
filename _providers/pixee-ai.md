@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -185,15 +186,17 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 41
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 50.1
+  delta: -2.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.2
-    developer_ergonomics: 58.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 62.9
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 52.9
   provenance:
     conformance: derived
@@ -204,9 +207,10 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:
 - kind: authentication
   name: Pixee Ai Authentication

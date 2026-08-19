@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -790,7 +791,9 @@ rate_limits:
   name: Tidal Rate Limits
   slug: tidal-rate-limits
 rules:
-- name: TIDAL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TIDAL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -798,7 +801,10 @@ rules:
     info: 2
     warn: 3
   slug: tidal-jsonschema-spectral-rules
-- name: TIDAL API Rules
+- effective_rule_count: 8
+  extends:
+  - '@stoplight/spectral:oas'
+  name: TIDAL API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -812,16 +818,18 @@ scopes:
   slug: tidal-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 64.6
-  delta: 0.0
+  band: developing
+  composite: 54.2
+  delta: -10.4
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 68.4
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 69.5
+    developer_ergonomics: 47.6
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 64.6
   provenance:
     agentic_access: derived
@@ -830,9 +838,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 65
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:
 - kind: authentication

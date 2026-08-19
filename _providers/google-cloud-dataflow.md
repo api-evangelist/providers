@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -326,7 +327,9 @@ rate_limits:
   name: Google Cloud Dataflow Rate Limits
   slug: google-cloud-dataflow-rate-limits
 rules:
-- name: Google Cloud Dataflow API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Cloud Dataflow API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -341,15 +344,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 54.4
+  delta: -8.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 73.9
-    developer_ergonomics: 50.0
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 71.1
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 52.6
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -358,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/screenshots/google-cloud-dataflow-2026-06-20T182106.png
 security:
 - kind: authentication

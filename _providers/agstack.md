@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -873,7 +874,9 @@ rate_limits:
   name: Agstack Rate Limits
   slug: agstack-rate-limits
 rules:
-- name: AgStack Foundation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AgStack Foundation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -881,7 +884,10 @@ rules:
     info: 2
     warn: 3
   slug: agstack-jsonschema-spectral-rules
-- name: AgStack Foundation API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: AgStack Foundation API Rules
   rule_count: 25
   severity_counts:
     error: 7
@@ -890,15 +896,17 @@ rules:
     warn: 17
   slug: agstack-spectral-rules
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -4.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 69.8
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 69.5
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 42.6
   provenance:
@@ -908,8 +916,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:

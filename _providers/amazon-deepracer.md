@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -296,7 +297,9 @@ rate_limits:
   name: Amazon Deepracer Rate Limits
   slug: amazon-deepracer-rate-limits
 rules:
-- name: Amazon DeepRacer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon DeepRacer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,7 +307,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-deepracer-jsonschema-spectral-rules
-- name: Amazon DeepRacer API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon DeepRacer API Rules
   rule_count: 26
   severity_counts:
     error: 13
@@ -314,15 +320,17 @@ rules:
   slug: amazon-deepracer-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 46.5
+  delta: -9.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 71.6
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 68.2
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -331,9 +339,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/screenshots/amazon-deepracer-2026-06-20T171619.png
 security:
 - kind: authentication

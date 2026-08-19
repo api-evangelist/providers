@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: REST API for Lightspeed Retail X-Series point-of-sale system enabling integrations for sales operations, product management, inventory updates, loyalty handling, and webhooks for retail merchants.
@@ -123,12 +124,14 @@ rate_limits:
   slug: lightspeed-rate-limits
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 22.5
+  delta: -1.7
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 43.2
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -139,8 +142,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:

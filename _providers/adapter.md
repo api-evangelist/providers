@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -309,14 +309,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 37.0
+  delta: -0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 55.0
-    developer_ergonomics: 27.7
+    contract_governance: 30.3
+    contract_quality: 52.6
+    developer_ergonomics: 20.8
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 37.9
   provenance:
@@ -329,8 +331,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:

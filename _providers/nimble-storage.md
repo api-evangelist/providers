@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API served on each Nimble Storage array (NimbleOS 5.x) for managing arrays, pools, volumes, snapshots, volume/snapshot collections, protection templates, initiator groups, access control records,
@@ -119,21 +120,23 @@ overview: 'Nimble Storage publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 92
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 18.0
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 17.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble-storage/refs/heads/main/screenshots/nimble-storage-2026-08-07T185308.png
 security:

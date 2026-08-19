@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Notams API from Skymerse — 9 operation(s) for notams.
@@ -186,15 +187,17 @@ rate_limits:
   slug: skymerse-rate-limits
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 51.0
+  delta: -0.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.7
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 51.6
   provenance:
     conformance: derived
@@ -205,9 +208,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/screenshots/skymerse-2026-08-17T081918.png
 security:
 - kind: authentication
   name: Skymerse Authentication

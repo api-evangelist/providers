@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Credit balance, usage, and transaction history.
@@ -251,16 +251,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
-  delta: 8.5
+  composite: 51.0
+  delta: 0.1
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 14.6
-    developer_ergonomics: 82.6
+    contract_governance: 16.7
+    contract_quality: 13.6
+    developer_ergonomics: 81.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 42.4
+    governance: 16.7
+    operational_transparency: 13.2
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -276,9 +278,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication

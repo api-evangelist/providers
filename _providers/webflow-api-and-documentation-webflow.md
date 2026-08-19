@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 45.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -791,7 +792,9 @@ rate_limits:
   name: Webflow Api And Documentation Webflow Rate Limits
   slug: webflow-api-and-documentation-webflow-rate-limits
 rules:
-- name: Webflow API and Documentation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Webflow API and Documentation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -799,7 +802,10 @@ rules:
     info: 2
     warn: 3
   slug: webflow-api-and-documentation-webflow-jsonschema-spectral-rules
-- name: Webflow API and Documentation API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Webflow API and Documentation API Rules
   rule_count: 12
   severity_counts:
     error: 1
@@ -807,7 +813,9 @@ rules:
     info: 1
     warn: 10
   slug: webflow-api-and-documentation-webflow-spectral-rules
-- name: Webflow API and Documentation API Rules
+- effective_rule_count: 26
+  extends: []
+  name: Webflow API and Documentation API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -821,15 +829,17 @@ scopes:
   slug: webflow-api-and-documentation-webflow-scopes
   summary_line: 29 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.2
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -5.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 76.0
-    developer_ergonomics: 47.8
+    contract_governance: 25.0
+    contract_quality: 71.2
+    developer_ergonomics: 52.4
     discoverability: 66.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 44.7
   previous_composite: 58.2
   provenance:
@@ -839,9 +849,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:
 - kind: authentication

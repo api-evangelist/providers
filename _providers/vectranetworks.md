@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: Dedicated endpoint to Accounts.
@@ -266,16 +267,18 @@ scopes:
   slug: vectranetworks-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 40.2
+  delta: -1.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 48.4
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 49.2
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 41.6
   provenance:
     conformance: derived
@@ -286,8 +289,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

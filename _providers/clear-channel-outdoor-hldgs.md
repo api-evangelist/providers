@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the CCO.IO Automated Direct platform. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, customers, accoun
@@ -188,7 +189,10 @@ rate_limits:
   name: Clear Channel Outdoor Hldgs Rate Limits
   slug: clear-channel-outdoor-hldgs-rate-limits
 rules:
-- name: Clear Channel Outdoor Holdings API Rules
+- effective_rule_count: 7
+  extends:
+  - '@stoplight/spectral-rulesets/oas'
+  name: Clear Channel Outdoor Holdings API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -196,7 +200,9 @@ rules:
     info: 0
     warn: 2
   slug: clear-channel-outdoor-direct-rules
-- name: Clear Channel Outdoor Holdings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Clear Channel Outdoor Holdings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,14 +212,16 @@ rules:
   slug: clear-channel-outdoor-hldgs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 37.4
+  delta: 0.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.1
-    developer_ergonomics: 17.4
+    contract_governance: 45.5
+    contract_quality: 50.7
+    developer_ergonomics: 19.0
     discoverability: 63.0
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 26.3
   previous_composite: 37.3
   provenance:
@@ -222,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor-hldgs/refs/heads/main/screenshots/clear-channel-outdoor-hldgs-2026-06-20T174457.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -154,7 +155,9 @@ rate_limits:
   name: Grapes Finance Rate Limits
   slug: grapes-finance-rate-limits
 rules:
-- name: Grapes Finance API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Grapes Finance API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -164,14 +167,16 @@ rules:
   slug: grapes-finance-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 30.0
+  delta: -5.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 55.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 35.7
   provenance:
@@ -187,9 +192,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/screenshots/grapes-finance-2026-06-20T182322.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -730,7 +731,10 @@ rate_limits:
   name: Elastic Io Rate Limits
   slug: elastic-io-rate-limits
 rules:
-- name: Elastic.io API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Elastic.io API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -738,7 +742,9 @@ rules:
     info: 1
     warn: 5
   slug: elastic-io-asyncapi-spectral-rules
-- name: Elastic.io API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Elastic.io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -748,15 +754,17 @@ rules:
   slug: elastic-io-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 47.6
+  delta: -4.8
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 82.8
-    developer_ergonomics: 47.8
+    contract_governance: 13.6
+    contract_quality: 82.5
+    developer_ergonomics: 52.4
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -765,8 +773,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/screenshots/elastic-io-2026-06-20T180540.png
 security:

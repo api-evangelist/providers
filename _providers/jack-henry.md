@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -481,7 +482,10 @@ rate_limits:
   name: Jack Henry Rate Limits
   slug: jack-henry-rate-limits
 rules:
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Jack Henry & Associates API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -489,7 +493,10 @@ rules:
     info: 0
     warn: 2
   slug: banno-admin-api-rules
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Jack Henry & Associates API Rules
   rule_count: 5
   severity_counts:
     error: 4
@@ -497,7 +504,10 @@ rules:
     info: 0
     warn: 1
   slug: banno-consumer-api-rules
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Jack Henry & Associates API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -505,7 +515,9 @@ rules:
     info: 0
     warn: 4
   slug: jack-henry-asyncapi-spectral-rules
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Jack Henry & Associates API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -513,7 +525,10 @@ rules:
     info: 2
     warn: 3
   slug: jack-henry-jsonschema-spectral-rules
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Jack Henry & Associates API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -521,7 +536,10 @@ rules:
     info: 0
     warn: 3
   slug: jack-henry-payments-rules
-- name: Jack Henry & Associates API Rules
+- effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Jack Henry & Associates API Rules
   rule_count: 3
   severity_counts:
     error: 2
@@ -530,15 +548,17 @@ rules:
     warn: 1
   slug: jxchange-rest-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 39.7
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.3
-    developer_ergonomics: 34.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 45.5
+    contract_quality: 62.7
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 5.3
   previous_composite: 41.8
   provenance:
@@ -553,9 +573,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 21.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:

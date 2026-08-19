@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -559,7 +560,9 @@ rate_limits:
   name: Amazon Shield Rate Limits
   slug: amazon-shield-rate-limits
 rules:
-- name: Amazon Shield API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Shield API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -567,7 +570,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-shield-jsonschema-spectral-rules
-- name: Amazon Shield API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Shield API Rules
   rule_count: 24
   severity_counts:
     error: 8
@@ -577,15 +583,17 @@ rules:
   slug: amazon-shield-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 47.4
+  delta: -7.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 67.9
-    developer_ergonomics: 37.0
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 64.6
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -594,9 +602,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/screenshots/amazon-shield-2026-06-20T171822.png
 security:
 - kind: authentication

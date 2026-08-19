@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,14 +83,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 20.3
+  delta: -1.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 50.1
-    developer_ergonomics: 15.2
+    contract_governance: 30.3
+    contract_quality: 47.0
+    developer_ergonomics: 7.1
     discoverability: 35.2
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 21.6
   provenance:
@@ -102,8 +105,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
 security:

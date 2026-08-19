@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
@@ -245,15 +245,17 @@ rate_limits:
   slug: solidus-labs-rate-limits
 score:
   band: exemplar
-  composite: 68.4
-  delta: 0.0
+  composite: 68.3
+  delta: -0.1
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 71.9
-    developer_ergonomics: 73.9
+    contract_governance: 45.5
+    contract_quality: 67.3
+    developer_ergonomics: 72.6
     discoverability: 92.6
-    governance: 31.3
-    operational_transparency: 60.5
+    governance: 45.5
+    operational_transparency: 57.9
   previous_composite: 68.4
   provenance:
     conformance: first-party
@@ -264,9 +266,10 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:
 - kind: authentication
   name: Solidus Labs Authentication

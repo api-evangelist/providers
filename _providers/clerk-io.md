@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The Clerk.io API provides REST endpoints for managing products, categories, orders, customers, recommendations, and search. The API uses a dual-key authentication model: a public key identifies the st'
@@ -248,7 +248,10 @@ rate_limits:
   name: Clerk Io Rate Limits
   slug: clerk-io-rate-limits
 rules:
-- name: Clerk.io API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Clerk.io API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -258,25 +261,30 @@ rules:
   slug: clerk-io-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 22.8
+  composite: 60.3
+  delta: -0.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 62.7
-    developer_ergonomics: 73.9
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 62.1
+    contract_quality: 62.2
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 41.7
-    operational_transparency: 21.1
-  previous_composite: 38.3
+    governance: 62.1
+    operational_transparency: 2.6
+  previous_composite: 61.1
   provenance:
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -285,7 +286,9 @@ rate_limits:
   name: Justworks Rate Limits
   slug: justworks-rate-limits
 rules:
-- name: Justworks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Justworks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,16 +302,18 @@ scopes:
   slug: justworks-scopes
   summary_line: 15 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -3.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 71.2
-    developer_ergonomics: 45.7
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 66.9
+    developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 57.3
   provenance:
     agentic_access: derived
@@ -322,9 +327,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 68.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 64.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/screenshots/justworks-2026-06-20T183846.png
 security:

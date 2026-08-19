@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -92,7 +93,9 @@ overview: 'MkDocs is profiled on the [APIs.io](https://apis.io/) network. Tagged
   MkDocs'' developer surface includes documentation, getting-started guide, GitHub presence, and 5 more developer resources.'
 random_paper: 45
 rules:
-- name: MkDocs API Rules
+- effective_rule_count: 6
+  extends: []
+  name: MkDocs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -102,19 +105,21 @@ rules:
   slug: mkdocs-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 12.9
+  delta: -5.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 8.1
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 7.0
+    developer_ergonomics: 21.4
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 18.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mkdocs/refs/heads/main/screenshots/mkdocs-2026-06-20T185621.png
 security:
 - kind: domain-security

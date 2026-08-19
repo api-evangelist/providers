@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -2650,7 +2651,9 @@ rate_limits:
   name: Amazon Well Architected Tool Rate Limits
   slug: amazon-well-architected-tool-rate-limits
 rules:
-- name: Amazon Well-Architected Tool API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Well-Architected Tool API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2658,7 +2661,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-well-architected-tool-jsonschema-spectral-rules
-- name: Amazon Well-Architected Tool API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Amazon Well-Architected Tool API Rules
   rule_count: 29
   severity_counts:
     error: 9
@@ -2667,16 +2673,18 @@ rules:
     warn: 15
   slug: amazon-well-architected-tool-spectral-rules
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -6.8
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 73.9
-    developer_ergonomics: 43.5
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 71.4
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -2685,9 +2693,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:
 - kind: authentication

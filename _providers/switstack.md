@@ -1,16 +1,265 @@
 ---
-api_count: 0
-artifact_total: 0
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-08-19'
+agentic_access:
+- acting_count: 89
+  human_in_the_loop: 2
+  name: Switstack Agentic Access
+  operation_count: 128
+  slug: switstack-agentic-access
+  summary_line: 128 operations · 89 acting · 2 human-in-the-loop
+api_count: 2
+apis:
+- description: 'REST API for the Switcloud platform, organized in three surfaces: switcloud-bom (estate — merchants, stores and points of interaction), switcloud-config (EMV L2 configuration — BINs, BIN lists/configs'
+  name: Switcloud API
+  slug: switcloud-api
+- description: REST API for the Swittest managed EMV test-automation service. Exposes test-suite and test discovery, test execution (including a streaming run channel and ad-hoc custom tests), configuration-file bro
+  name: Swittest API
+  slug: swittest-api
+arazzos:
+- description: Authenticate, build the Merchant -> Store -> POI estate, assemble a minimum EMV configuration, and bundle it into the POIConfig a terminal fetches at runtime. This is steps 1 and 2 of the Switcloud ge
+  name: Onboard a Switcloud terminal
+  slug: switstack-onboard-a-terminal
+- description: Authenticate, discover a suite, inspect a test and its scope, validate a custom suite, then run a selection and consume the Server-Sent Events stream. Every operationId is verified verbatim against op
+  name: Verify and run a Swittest EMV test suite
+  slug: switstack-run-a-test-suite
+- description: 'The backend half of a Switcloud card-present transaction: authenticate as a basic/machine user, create a Payment against a POI and POIConfig, wait for the on-device leg, then read the completed transa'
+  name: Take a Switcloud payment and reconcile it
+  slug: switstack-take-a-payment
+artifact_total: 11
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/switstack-agentic-access.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/switstack-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.switstack.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.switstack.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.switstack.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.switstack.io/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.switstack.io/switcloud/getting_started/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.switstack.io/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.switstack.io/blog/rss.xml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/switstack
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/switstack/switstack-issues
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.switstack.io/get-started
+- group: commercial
+  title: ''
+  type: License
+  url: https://docs.switstack.io/moka/license/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/switstack-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/switstack-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/switstack-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/switstack-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/switstack-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/switstack-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/switstack-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/switstack-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/switstack-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/switstack-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/switstack-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/switstack-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/switstack-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/switstack-domain-security.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/switstack-code-samples.yml
+- group: build
+  title: ''
+  type: Examples
+  url: https://docs.switstack.io/switcloud/examples/
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/switstack-onboard-a-terminal.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/switstack-take-a-payment.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/switstack-run-a-test-suite.yml
 created: '2026-08-17'
-description: 'Switstack is a company surfaced as a portfolio company of serena and added to the API Evangelist network as a stub for enrichment. Sector: fintech-insurtech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Switstack is a payment infrastructure company building software-defined EMV acceptance for physical retail. It ships three products: switstack moka, a source-available EMV Level 2 kernel stack with brand Letters of Compliance; Switcloud, a hosted "universal compliance infrastructure" that abstracts EMV L2 execution and centralizes estate (organization/merchant/store/POI) and EMV configuration (CAPK, BIN, CRL, kernel parameter) management behind a REST API; and Swittest, a managed EMV functional test-automation service for labs and developers certifying card-present applications. The platform is terminal-agnostic and L2-stack agnostic — one L3 application runs across Android COTS tap-to-pay devices and PCI-PTS terminals via a GLA adapter layer — and Switstack supplies pre-certified PCI MPoC software and service components to shrink certification scope.'
+image: https://cdn.prod.website-files.com/677bdd3fa1a7f9a1d8e76d2e/67879a394c57fb7c99783259_switstack_meta.png
 layout: provider
 modified: '2026-08-17'
 name: Switstack
 nav: Providers
 network: true
+overview: 'Switstack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Switcloud API and Swittest API. Tagged areas include Company, Fintech Insurtech, payments, emv, and emv-level-2.
+
+
+  Switstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
+plans:
+- name: Switstack Plans Pricing
+  plan_count: 0
+  slug: switstack-plans-pricing
 random_paper: 95
+rate_limits:
+- limit_count: 0
+  name: Switstack Rate Limits
+  slug: switstack-rate-limits
+scopes:
+- name: Switstack Scopes
+  scope_count: 0
+  slug: switstack-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 42.5
+  facets:
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 30.3
+    contract_quality: 46.9
+    developer_ergonomics: 80.4
+    discoverability: 66.7
+    governance: 30.3
+    operational_transparency: 2.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+security:
+- kind: authentication
+  name: Switstack Authentication
+  slug: switstack-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Switstack Domain Security
+  slug: switstack-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: switstack
 tags:
 - Company
 - Fintech Insurtech
+- payments
+- emv
+- emv-level-2
+- card-present
+- point-of-sale
+- softpos
+- tap-to-pay
+- payment-terminals
+- in-store-payments
+- pci-mpoc
+- certification-testing
+- retail-payments
+- estate-management
+website: https://www.switstack.io/
 ---

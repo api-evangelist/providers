@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -468,7 +469,9 @@ rate_limits:
   name: Red Hat 3Scale Rate Limits
   slug: red-hat-3scale-rate-limits
 rules:
-- name: Red Hat 3scale API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Red Hat 3scale API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -476,7 +479,10 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-3scale-jsonschema-spectral-rules
-- name: Red Hat 3scale API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Red Hat 3scale API Rules
   rule_count: 12
   severity_counts:
     error: 3
@@ -485,16 +491,18 @@ rules:
     warn: 7
   slug: red-hat-3scale-rules
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -7.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 65.3
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 57.3
   provenance:
     agentic_access: derived
@@ -503,9 +511,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:
 - kind: authentication

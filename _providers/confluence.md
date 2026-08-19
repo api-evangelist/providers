@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 52.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -1121,7 +1122,10 @@ rate_limits:
   name: Confluence Rate Limits
   slug: confluence-rate-limits
 rules:
-- name: Confluence API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Confluence API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -1129,7 +1133,9 @@ rules:
     info: 1
     warn: 8
   slug: confluence-asyncapi-spectral-rules
-- name: Confluence API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Confluence API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1137,7 +1143,10 @@ rules:
     info: 2
     warn: 4
   slug: confluence-jsonschema-spectral-rules
-- name: Confluence API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Confluence API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -1151,16 +1160,18 @@ scopes:
   slug: confluence-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 71.7
-  delta: 0.0
+  band: strong
+  composite: 65.4
+  delta: -6.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 78.1
-    developer_ergonomics: 87.0
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 30.3
+    contract_quality: 78.4
+    developer_ergonomics: 85.7
     discoverability: 85.2
-    governance: 59.4
-    operational_transparency: 42.1
+    governance: 30.3
+    operational_transparency: 39.5
   previous_composite: 71.7
   provenance:
     agentic_access: derived
@@ -1171,9 +1182,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:
 - kind: authentication

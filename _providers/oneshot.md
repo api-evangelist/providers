@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -149,19 +150,23 @@ rate_limits:
   slug: oneshot-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 12.8
+  composite: 28.0
+  delta: -3.1
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.7
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 31.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneshot/refs/heads/main/screenshots/oneshot-2026-08-07T190434.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 41.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -309,15 +310,17 @@ overview: 'Defacto publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 130
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 51.3
+  delta: -1.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.4
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 63.6
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -335,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png
 security:

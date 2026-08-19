@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -326,7 +327,9 @@ rate_limits:
   name: Basiq Rate Limits
   slug: basiq-rate-limits
 rules:
-- name: Basiq API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Basiq API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -334,7 +337,10 @@ rules:
     info: 2
     warn: 3
   slug: basiq-jsonschema-spectral-rules
-- name: Basiq API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Basiq API Rules
   rule_count: 22
   severity_counts:
     error: 6
@@ -343,15 +349,17 @@ rules:
     warn: 15
   slug: basiq-spectral-rules
 score:
-  band: developing
-  composite: 44.3
-  delta: 0.0
+  band: thin
+  composite: 33.9
+  delta: -10.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 69.4
-    developer_ergonomics: 21.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 44.3
   provenance:
@@ -366,10 +374,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 21.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png
 security:
 - kind: authentication

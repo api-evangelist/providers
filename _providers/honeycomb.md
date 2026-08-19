@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -449,7 +450,10 @@ rate_limits:
   name: Honeycomb Rate Limits
   slug: honeycomb-rate-limits
 rules:
-- name: honeycomb API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: honeycomb API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -457,7 +461,9 @@ rules:
     info: 1
     warn: 5
   slug: honeycomb-asyncapi-spectral-rules
-- name: honeycomb API Rules
+- effective_rule_count: 6
+  extends: []
+  name: honeycomb API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -467,15 +473,17 @@ rules:
   slug: honeycomb-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 35.4
+  delta: -5.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 77.6
-    developer_ergonomics: 13.0
+    contract_governance: 13.6
+    contract_quality: 76.3
+    developer_ergonomics: 14.3
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -484,9 +492,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/screenshots/honeycomb-2026-06-20T182822.png
 security:
 - kind: authentication

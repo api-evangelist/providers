@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -313,7 +313,9 @@ rate_limits:
   name: Adapt Io Rate Limits
   slug: adapt-io-rate-limits
 rules:
-- name: Adapt API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adapt API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -322,27 +324,32 @@ rules:
     warn: 3
   slug: adapt-io-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 69.7
-  delta: 8.5
+  band: strong
+  composite: 60.8
+  delta: -8.9
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 72.4
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 68.4
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 21.1
-  previous_composite: 61.2
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:
 - kind: authentication

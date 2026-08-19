@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -301,7 +302,9 @@ rate_limits:
   name: Turbonomic Rate Limits
   slug: turbonomic-rate-limits
 rules:
-- name: IBM Turbonomic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IBM Turbonomic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,7 +312,10 @@ rules:
     info: 2
     warn: 3
   slug: turbonomic-jsonschema-spectral-rules
-- name: IBM Turbonomic API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: IBM Turbonomic API Rules
   rule_count: 12
   severity_counts:
     error: 2
@@ -319,15 +325,17 @@ rules:
   slug: turbonomic-rest-api-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 46.1
+  delta: -4.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 60.3
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 60.2
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -336,8 +344,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/screenshots/turbonomic-2026-06-20T195852.png
 security:

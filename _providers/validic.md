@@ -27,11 +27,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -262,33 +263,39 @@ rate_limits:
   name: Validic Rate Limits
   slug: validic-rate-limits
 score:
-  band: strong
-  composite: 63.1
-  delta: 25.5
+  band: exemplar
+  composite: 71.3
+  delta: 8.2
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 66.9
-    developer_ergonomics: 71.7
+    contract_governance: 12.1
+    contract_quality: 66.2
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 8.3
-    operational_transparency: 76.3
-  previous_composite: 37.6
+    governance: 12.1
+    operational_transparency: 73.7
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 53.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/screenshots/validic-2026-08-17T082707.png
 security:
 - kind: authentication
   name: Validic Authentication

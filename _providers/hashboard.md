@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -138,22 +139,24 @@ overview: 'Hashboard is profiled on the [APIs.io](https://apis.io/) network. Tag
   Hashboard''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, engineering blog, and 16 more developer resources.'
 random_paper: 46
 score:
-  band: thin
-  composite: 35.6
-  delta: 0.0
+  band: emerging
+  composite: 20.1
+  delta: -15.5
   facets:
-    commercial_clarity: 52.6
+    access_clarity: 3.9
+    commercial_clarity: 3.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 50.0
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 35.6
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashboard/refs/heads/main/screenshots/hashboard-2026-07-25T220743.png
 security:
 - kind: authentication

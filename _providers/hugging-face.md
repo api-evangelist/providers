@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -1584,7 +1585,9 @@ rate_limits:
   name: Hugging Face Rate Limits
   slug: hugging-face-rate-limits
 rules:
-- name: Hugging Face API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Hugging Face API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1592,7 +1595,10 @@ rules:
     info: 1
     warn: 4
   slug: hugging-face-jsonschema-spectral-rules
-- name: Hugging Face API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Hugging Face API Rules
   rule_count: 16
   severity_counts:
     error: 7
@@ -1601,16 +1607,18 @@ rules:
     warn: 9
   slug: hugging-face-spectral-rules
 score:
-  band: strong
-  composite: 64.9
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  delta: -11.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 74.0
-    developer_ergonomics: 71.7
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 64.9
   provenance:
     agentic_access: derived
@@ -1619,9 +1627,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:
 - kind: authentication

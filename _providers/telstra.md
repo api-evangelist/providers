@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -299,7 +300,9 @@ rate_limits:
   name: Telstra Rate Limits
   slug: telstra-rate-limits
 rules:
-- name: Telstra API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telstra API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,7 +310,10 @@ rules:
     info: 2
     warn: 3
   slug: telstra-jsonschema-spectral-rules
-- name: Telstra API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Telstra API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -322,15 +328,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 56.2
+  delta: -7.2
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 73.4
-    developer_ergonomics: 54.3
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 69.5
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 63.4
   provenance:
     agentic_access: derived
@@ -344,10 +352,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 52.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:
 - kind: authentication

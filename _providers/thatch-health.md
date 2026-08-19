@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -217,16 +218,18 @@ overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) net
   Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 119
 score:
-  band: developing
-  composite: 49.8
-  delta: 0.0
+  band: strong
+  composite: 55.2
+  delta: 5.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.1
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 53.7
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 49.8
   provenance:
     conformance: derived
@@ -243,9 +246,10 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
 security:
 - kind: authentication
   name: Thatch Health Authentication

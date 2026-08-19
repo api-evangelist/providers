@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -351,7 +352,9 @@ rate_limits:
   name: Glitchtip Rate Limits
   slug: glitchtip-rate-limits
 rules:
-- name: GlitchTip API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GlitchTip API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -361,14 +364,16 @@ rules:
   slug: glitchtip-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 44.7
+  delta: -7.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 60.1
-    developer_ergonomics: 26.1
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 58.9
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 52.1
   provenance:
@@ -378,9 +383,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/screenshots/glitchtip-2026-06-20T181917.png
 security:
 - kind: authentication

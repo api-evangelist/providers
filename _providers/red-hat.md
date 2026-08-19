@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 52.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1325,7 +1326,10 @@ rate_limits:
   name: Red Hat Rate Limits
   slug: red-hat-rate-limits
 rules:
-- name: Red Hat API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Red Hat API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1333,7 +1337,9 @@ rules:
     info: 0
     warn: 8
   slug: red-hat-asyncapi-spectral-rules
-- name: Red Hat API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Red Hat API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1341,7 +1347,10 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-jsonschema-spectral-rules
-- name: Red Hat API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Red Hat API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -1350,16 +1359,18 @@ rules:
     warn: 8
   slug: red-hat-spectral-rules
 score:
-  band: exemplar
-  composite: 69.3
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: -10.0
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 74.8
-    developer_ergonomics: 91.3
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 28.0
+    contract_quality: 73.8
+    developer_ergonomics: 76.2
     discoverability: 59.3
-    governance: 53.1
-    operational_transparency: 52.6
+    governance: 28.0
+    operational_transparency: 34.2
   previous_composite: 69.3
   provenance:
     agentic_access: derived
@@ -1370,9 +1381,9 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:
 - kind: authentication

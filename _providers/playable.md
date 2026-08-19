@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 49.8
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Public REST API for the Playable gamification platform. Covers campaign types, campaign lifecycle (list, view, update, copy, delete, activate, pause, resume, clear cache), campaign sections and regist
@@ -226,20 +227,32 @@ scopes:
   slug: playable-scopes
   summary_line: 37 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.5
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  delta: -2.9
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 61.6
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 44.7
   previous_composite: 67.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:
 - kind: authentication
   name: Playable Authentication

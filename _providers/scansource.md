@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -216,7 +217,9 @@ rate_limits:
   name: Scansource Rate Limits
   slug: scansource-rate-limits
 rules:
-- name: ScanSource API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ScanSource API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,7 +227,9 @@ rules:
     info: 2
     warn: 3
   slug: scansource-jsonschema-spectral-rules
-- name: ScanSource API Rules
+- effective_rule_count: 10
+  extends: []
+  name: ScanSource API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -234,14 +239,16 @@ rules:
   slug: scansource-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 40.4
+  delta: -5.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 76.9
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 72.3
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 46.0
   provenance:
@@ -251,9 +258,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:
 - kind: authentication

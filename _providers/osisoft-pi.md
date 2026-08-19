@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -218,7 +219,9 @@ rate_limits:
   name: Osisoft Pi Rate Limits
   slug: osisoft-pi-rate-limits
 rules:
-- name: osisoft-pi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: osisoft-pi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,15 +230,17 @@ rules:
     warn: 4
   slug: osisoft-pi-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  delta: -5.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 63.1
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 59.1
+    developer_ergonomics: 54.8
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 43.9
   provenance:
@@ -245,9 +250,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:
 - kind: authentication

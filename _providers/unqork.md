@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -195,16 +196,18 @@ scopes:
   slug: unqork-scopes
   summary_line: 1 scope · clientCredentials/password
 score:
-  band: strong
-  composite: 59.3
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -5.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 54.5
-    developer_ergonomics: 51.6
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 30.3
+    contract_quality: 56.7
+    developer_ergonomics: 51.8
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 30.3
+    operational_transparency: 63.2
   previous_composite: 59.3
   provenance:
     agentic_access: derived
@@ -221,10 +224,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 71.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 59.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/screenshots/unqork-2026-08-17T082627.png
 security:
 - kind: authentication
   name: Unqork Authentication

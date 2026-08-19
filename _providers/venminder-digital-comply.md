@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -266,15 +267,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 46.4
+  delta: -0.2
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 46.6
-    developer_ergonomics: 60.3
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 45.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 46.6
   provenance:
     conformance: first-party
@@ -285,9 +288,10 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/screenshots/venminder-digital-comply-2026-08-17T082723.png
 security:
 - kind: authentication
   name: Venminder Digital Comply Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: BANCOMAT Pay is a mobile payment service enabling Italian consumers to make e-commerce purchases and P2P transfers through a smartphone app linked to their bank account by phone number and IBAN. Merch
@@ -123,7 +124,9 @@ rate_limits:
   name: Bancomat Rate Limits
   slug: bancomat-rate-limits
 rules:
-- name: Bancomat API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Bancomat API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -133,14 +136,16 @@ rules:
   slug: bancomat-spectral-rules
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 16.1
+  delta: -1.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 45.5
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 17.1
   regulatory:
@@ -149,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png
 security:

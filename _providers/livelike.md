@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for managing LiveLike applications, user profiles, programs, interactive widgets (polls, quizzes, predictions, alerts), chat rooms, gamification, and rewards. OAuth 2.0 Bearer authentication;
@@ -166,23 +166,25 @@ overview: 'LiveLike publishes 1 API on the [APIs.io](https://apis.io/) network. 
   LiveLike''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 19 more developer resources.'
 random_paper: 108
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 36.1
+  delta: -9.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 41.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 18.4
   previous_composite: 45.9
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/screenshots/livelike-2026-07-25T225358.png
 security:
 - kind: authentication

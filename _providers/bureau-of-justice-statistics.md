@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,12 +131,14 @@ rate_limits:
   slug: bureau-of-justice-statistics-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 17.9
+  delta: -6.4
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 47.0
-    developer_ergonomics: 8.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 44.1
+    developer_ergonomics: 9.5
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
@@ -152,10 +155,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/screenshots/bureau-of-justice-statistics-2026-06-20T173810.png
 security:
 - kind: domain-security

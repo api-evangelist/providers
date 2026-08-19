@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 53.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -761,7 +762,9 @@ rate_limits:
   name: Github Actions Rate Limits
   slug: github-actions-rate-limits
 rules:
-- name: GitHub Actions API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GitHub Actions API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -769,7 +772,10 @@ rules:
     info: 1
     warn: 4
   slug: github-actions-jsonschema-spectral-rules
-- name: GitHub Actions API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: GitHub Actions API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -783,16 +789,18 @@ scopes:
   slug: github-actions-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 70.8
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: -8.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 72.4
-    developer_ergonomics: 80.4
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 26.5
+    contract_quality: 68.5
+    developer_ergonomics: 76.2
     discoverability: 74.1
-    governance: 69.8
-    operational_transparency: 55.3
+    governance: 26.5
+    operational_transparency: 52.6
   previous_composite: 70.8
   provenance:
     agentic_access: derived
@@ -803,9 +811,13 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
 security:
 - kind: authentication

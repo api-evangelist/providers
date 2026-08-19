@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
@@ -138,15 +139,17 @@ overview: 'Qover publishes 1 API on the [APIs.io](https://apis.io/) network: Emb
 random_paper: 110
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 48.3
+  delta: 1.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 61.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 47.2
   provenance:
     conformance: first-party
@@ -158,9 +161,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/screenshots/qover-2026-08-17T081419.png
 security:
 - kind: authentication
   name: Qover Authentication

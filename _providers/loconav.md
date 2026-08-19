@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
@@ -234,15 +235,17 @@ rate_limits:
   slug: loconav-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 51.3
+  delta: 1.0
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 67.4
-    developer_ergonomics: 49.5
+    contract_governance: 30.3
+    contract_quality: 66.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 34.2
+    governance: 30.3
+    operational_transparency: 31.6
   previous_composite: 50.3
   provenance:
     conformance: first-party
@@ -253,8 +256,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

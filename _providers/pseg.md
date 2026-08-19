@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,26 +106,28 @@ overview: 'PSEG is profiled on the [APIs.io](https://apis.io/) network. Tagged a
   PSEG''s developer surface includes engineering blog, support, documentation, and 14 more developer resources.'
 random_paper: 133
 score:
-  band: emerging
-  composite: 17.6
-  delta: 0.0
+  band: minimal
+  composite: 6.8
+  delta: -10.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 17.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 18.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 8.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Pseg Domain Security

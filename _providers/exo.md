@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -133,15 +134,17 @@ plans:
 random_paper: 34
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 38.3
+  delta: 2.2
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 37.0
+    developer_ergonomics: 40.5
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 36.1
   provenance:
     conformance: first-party
@@ -151,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exo/refs/heads/main/screenshots/exo-2026-08-07T165307.png
 security:

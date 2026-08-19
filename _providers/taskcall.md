@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -121,15 +122,17 @@ overview: 'TaskCall publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 102
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 29.7
+  delta: -3.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 57.5
-    developer_ergonomics: 19.6
-    discoverability: 81.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 53.8
+    developer_ergonomics: 21.4
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -138,8 +141,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/screenshots/taskcall-2026-06-20T194924.png
 security:

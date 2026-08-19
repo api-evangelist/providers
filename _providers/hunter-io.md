@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -459,7 +460,9 @@ rate_limits:
   name: Hunter Io Rate Limits
   slug: hunter-io-rate-limits
 rules:
-- name: Hunter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Hunter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -467,7 +470,10 @@ rules:
     info: 1
     warn: 4
   slug: hunter-io-jsonschema-spectral-rules
-- name: Hunter API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Hunter API Rules
   rule_count: 10
   severity_counts:
     error: 5
@@ -476,16 +482,18 @@ rules:
     warn: 4
   slug: hunter-io-rules
 score:
-  band: exemplar
-  composite: 67.7
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: -10.9
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 72.2
-    developer_ergonomics: 56.5
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 71.5
+    developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 67.7
   provenance:
     agentic_access: derived
@@ -494,9 +502,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/screenshots/hunter-io-2026-06-20T182944.png
 security:
 - kind: authentication

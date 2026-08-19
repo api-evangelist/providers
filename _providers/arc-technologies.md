@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Arc provides a unified financial operating platform for technology companies, combining cash management, treasury, debt capital, and AI-powered financial services. The platform is primarily accessed t
@@ -83,12 +84,14 @@ rate_limits:
   slug: arc-technologies-rate-limits
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 16.1
+  delta: -1.7
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
@@ -99,8 +102,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/screenshots/arc-technologies-2026-06-20T172353.png
 security:

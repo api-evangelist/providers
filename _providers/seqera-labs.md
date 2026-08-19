@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -355,16 +356,18 @@ overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) netw
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 random_paper: 61
 score:
-  band: developing
-  composite: 52.5
-  delta: 0.0
+  band: strong
+  composite: 56.9
+  delta: 4.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 51.3
-    developer_ergonomics: 69.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 53.5
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 52.6
   previous_composite: 52.5
   provenance:
     conformance: derived
@@ -381,9 +384,10 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:
 - kind: authentication
   name: Seqera Labs Authentication

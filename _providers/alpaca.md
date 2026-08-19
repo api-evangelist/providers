@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -468,7 +469,10 @@ rate_limits:
   name: Alpaca Rate Limits
   slug: alpaca-rate-limits
 rules:
-- name: Alpaca API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Alpaca API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -482,15 +486,17 @@ scopes:
   slug: alpaca-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 77.9
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: -14.7
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 68.6
-    developer_ergonomics: 91.3
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 43.9
+    contract_quality: 68.8
+    developer_ergonomics: 53.6
     discoverability: 92.6
-    governance: 68.8
+    governance: 43.9
     operational_transparency: 63.2
   previous_composite: 77.9
   provenance:
@@ -508,10 +514,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 86.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 73.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:
 - kind: authentication

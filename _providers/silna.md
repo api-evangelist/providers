@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 api_count: 42
 apis:
 - description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
@@ -435,16 +436,18 @@ rate_limits:
   name: Silna Rate Limits
   slug: silna-rate-limits
 score:
-  band: developing
-  composite: 50.1
-  delta: 0.0
+  band: strong
+  composite: 56.1
+  delta: 6.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 53.6
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 54.8
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 39.5
   previous_composite: 50.1
   provenance:
     conformance: derived
@@ -460,10 +463,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 53.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/screenshots/silna-2026-08-17T081856.png
 security:
 - kind: authentication
   name: Silna Authentication

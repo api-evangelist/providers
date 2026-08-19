@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 13.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Lafz direct-to-consumer storefront on Shopify, with an agent-commerce surface over the Universal Commerce Protocol (UCP) MCP server plus read-only product/collection JSON endpoints and Shopify cus
@@ -111,22 +112,24 @@ overview: 'The Lafz publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 50
 score:
   band: emerging
-  composite: 16.7
-  delta: 0.0
+  composite: 16.0
+  delta: -0.7
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 27.7
+    developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 16.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

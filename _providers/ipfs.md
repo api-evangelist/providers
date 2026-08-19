@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -386,7 +387,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: IPFS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IPFS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -396,14 +399,16 @@ rules:
   slug: ipfs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 31.7
+  delta: -6.3
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 48.0
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 45.1
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 38.0
   provenance:
@@ -413,9 +418,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/screenshots/ipfs-2026-06-20T183549.png
 security:
 - kind: authentication

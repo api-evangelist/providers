@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +166,10 @@ rate_limits:
   name: Commodity Futures Trading Commission Rate Limits
   slug: commodity-futures-trading-commission-rate-limits
 rules:
-- name: Commodity Futures Trading Commission API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Commodity Futures Trading Commission API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -173,7 +177,9 @@ rules:
     info: 0
     warn: 2
   slug: cftc-cot-rules
-- name: Commodity Futures Trading Commission API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Commodity Futures Trading Commission API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -183,14 +189,16 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 33.2
+  delta: -1.4
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 61.2
-    developer_ergonomics: 15.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 60.6
+    contract_quality: 57.3
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 31.3
+    governance: 60.6
     operational_transparency: 7.9
   previous_composite: 34.6
   provenance:
@@ -205,9 +213,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

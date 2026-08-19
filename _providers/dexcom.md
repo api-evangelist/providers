@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -460,7 +461,9 @@ rate_limits:
   name: Dexcom Rate Limits
   slug: dexcom-rate-limits
 rules:
-- name: Dexcom API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Dexcom API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -468,7 +471,9 @@ rules:
     info: 2
     warn: 4
   slug: dexcom-jsonschema-spectral-rules
-- name: Dexcom API Rules
+- effective_rule_count: 37
+  extends: []
+  name: Dexcom API Rules
   rule_count: 37
   severity_counts:
     error: 14
@@ -483,15 +488,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 39.6
+  delta: -8.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 30.8
-    developer_ergonomics: 54.3
-    discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 26.3
+    contract_governance: 25.0
+    contract_quality: 29.2
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -506,9 +513,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png
 security:
 - kind: authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -337,14 +337,16 @@ overview: 'Qargo publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 91
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 47.5
+  delta: -1.5
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 60.6
-    developer_ergonomics: 66.8
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 59.9
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 49.0
   provenance:
@@ -357,9 +359,10 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/screenshots/qargo-2026-08-17T081412.png
 security:
 - kind: authentication
   name: Qargo Authentication

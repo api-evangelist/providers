@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 41.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -349,7 +349,10 @@ rate_limits:
   name: Convex Rate Limits
   slug: convex-rate-limits
 rules:
-- name: Convex API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Convex API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -357,7 +360,10 @@ rules:
     info: 1
     warn: 3
   slug: convex-asyncapi-spectral-rules
-- name: Convex API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Convex API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -365,7 +371,10 @@ rules:
     info: 0
     warn: 2
   slug: convex-deployment-platform-api-rules
-- name: Convex API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Convex API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -373,7 +382,9 @@ rules:
     info: 0
     warn: 3
   slug: convex-http-api-rules
-- name: Convex API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Convex API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -381,7 +392,10 @@ rules:
     info: 2
     warn: 4
   slug: convex-jsonschema-spectral-rules
-- name: Convex API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Convex API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -390,15 +404,17 @@ rules:
     warn: 3
   slug: convex-management-api-rules
 score:
-  band: strong
-  composite: 56.8
-  delta: 0.0
+  band: developing
+  composite: 46.6
+  delta: -10.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.9
-    developer_ergonomics: 47.8
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 69.8
+    developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 68.8
+    governance: 28.8
     operational_transparency: 13.2
   previous_composite: 56.8
   provenance:
@@ -408,9 +424,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:
 - kind: authentication

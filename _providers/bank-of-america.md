@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -352,7 +353,9 @@ rate_limits:
   name: Bank Of America Rate Limits
   slug: bank-of-america-rate-limits
 rules:
-- name: Bank of America API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bank of America API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -360,7 +363,10 @@ rules:
     info: 2
     warn: 3
   slug: bank-of-america-jsonschema-spectral-rules
-- name: Bank of America API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Bank of America API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -375,15 +381,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 43.0
+  delta: -8.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 71.9
-    developer_ergonomics: 26.1
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 68.2
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -397,10 +405,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 58.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 53.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:
 - kind: authentication

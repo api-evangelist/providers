@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,14 +192,16 @@ overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 64
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 46.6
+  delta: -1.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 59.5
-    developer_ergonomics: 62.5
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 55.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 48.3
   provenance:
@@ -217,9 +220,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/screenshots/shoppable-2026-08-17T081841.png
 security:
 - kind: authentication
   name: Shoppable Authentication

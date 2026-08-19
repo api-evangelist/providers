@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 7.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -166,7 +167,9 @@ rate_limits:
   name: Screaming Frog Rate Limits
   slug: screaming-frog-rate-limits
 rules:
-- name: Screaming Frog API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Screaming Frog API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,19 +179,24 @@ rules:
   slug: screaming-frog-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 9.3
+  composite: 32.1
+  delta: -3.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 22.6
-    developer_ergonomics: 6.5
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 9.8
+    contract_quality: 19.7
+    developer_ergonomics: 7.1
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 26.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 9.8
+    operational_transparency: 18.4
+  previous_composite: 35.5
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -276,16 +276,18 @@ rate_limits:
   name: Telr Rate Limits
   slug: telr-rate-limits
 score:
-  band: strong
-  composite: 65.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.1
+  delta: 4.9
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 67.9
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 63.6
+    developer_ergonomics: 60.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 65.2
   provenance:
     agentic_access: derived
@@ -302,10 +304,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/screenshots/telr-2026-08-17T082306.png
 security:
 - kind: authentication
   name: Telr Authentication

@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 60.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Scores API from WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) — 2 operation(s) for scores.
@@ -186,15 +187,17 @@ rate_limits:
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 44.0
+  delta: -1.4
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 55.7
-    developer_ergonomics: 54.3
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 45.4
   provenance:
     conformance: derived
@@ -205,9 +208,10 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/screenshots/wealthville-defi-liquidity-pool-scores-api-solana-evm-2026-08-17T082848.png
 security:
 - kind: authentication
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Authentication

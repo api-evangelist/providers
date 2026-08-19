@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -297,15 +298,17 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 144
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 41.2
+  delta: -10.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 58.2
-    developer_ergonomics: 69.0
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 56.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -317,9 +320,9 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:
 - kind: authentication

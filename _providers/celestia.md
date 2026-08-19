@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -314,7 +315,9 @@ overview: 'celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network
   celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
 random_paper: 97
 rules:
-- name: celestia API Rules
+- effective_rule_count: 5
+  extends: []
+  name: celestia API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -322,7 +325,10 @@ rules:
     info: 1
     warn: 4
   slug: celestia-jsonschema-spectral-rules
-- name: celestia API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: celestia API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -332,15 +338,23 @@ rules:
   slug: celestia-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 36.0
+  delta: -5.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 64.8
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 66.7
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -349,9 +363,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/screenshots/celestia-2026-06-20T174212.png
 security:
 - kind: authentication

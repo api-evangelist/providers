@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 52.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -583,15 +584,17 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 142
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 53.6
+  delta: 2.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 56.2
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 54.8
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -609,9 +612,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/screenshots/solvimon-2026-08-17T082000.png
 security:
 - kind: authentication
   name: Solvimon Authentication

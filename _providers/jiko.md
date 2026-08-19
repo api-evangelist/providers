@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -193,15 +194,17 @@ scopes:
   slug: jiko-scopes
   summary_line: 25 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 54.2
-  delta: 0.0
+  band: strong
+  composite: 57.1
+  delta: 2.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 62.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 55.3
   previous_composite: 54.2
   provenance:
@@ -214,10 +217,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png
 security:
 - kind: authentication
   name: Jiko Authentication

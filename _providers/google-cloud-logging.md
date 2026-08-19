@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -238,15 +239,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 46.5
+  delta: -4.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 52.4
-    developer_ergonomics: 58.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 49.1
+    developer_ergonomics: 57.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 55.3
+    operational_transparency: 52.6
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -255,10 +258,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-06-20T182118.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-08-17T083131.png
 security:
 - kind: authentication
   name: Google Cloud Logging Authentication

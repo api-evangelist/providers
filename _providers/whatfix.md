@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -191,7 +192,9 @@ rate_limits:
   name: Whatfix Rate Limits
   slug: whatfix-rate-limits
 rules:
-- name: Whatfix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Whatfix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -199,7 +202,10 @@ rules:
     info: 2
     warn: 3
   slug: whatfix-jsonschema-spectral-rules
-- name: Whatfix API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Whatfix API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -209,15 +215,17 @@ rules:
   slug: whatfix-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 33.0
+  delta: -7.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 66.0
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 62.2
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 40.6
   provenance:
     agentic_access: derived
@@ -226,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/screenshots/whatfix-2026-06-20T201422.png
 security:
 - kind: authentication

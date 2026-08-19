@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -147,22 +148,24 @@ rate_limits:
   name: Motiva Rate Limits
   slug: motiva-rate-limits
 score:
-  band: thin
-  composite: 30.6
-  delta: 5.4
+  band: emerging
+  composite: 23.8
+  delta: -6.8
   facets:
-    commercial_clarity: 81.6
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 26.2
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 25.2
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 30.6
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/motiva/refs/heads/main/screenshots/motiva-2026-08-07T184328.png
 security:
 - kind: domain-security

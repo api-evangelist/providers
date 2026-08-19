@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Public REST API for the Elemental Machines LabOps platform. Read machines (sensor-connected assets), their time-series samples and computed sample statistics, aggregated/hourly/status utilization roll
@@ -169,25 +170,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 52.2
+  delta: 5.6
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 46.3
-    developer_ergonomics: 47.8
+    contract_governance: 30.3
+    contract_quality: 46.9
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 46.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 65.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:
 - kind: authentication
   name: Elemental Machines Authentication

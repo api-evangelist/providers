@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 api_count: 24
 apis:
 - description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
@@ -446,30 +447,35 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.3
-  delta: 37.1
+  composite: 81.6
+  delta: 11.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 71.2
-    developer_ergonomics: 78.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 16.7
+    contract_quality: 70.0
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 33.2
+    governance: 16.7
+    operational_transparency: 92.1
+  previous_composite: 70.3
   provenance:
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 24
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 80.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:

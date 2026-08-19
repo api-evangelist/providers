@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -165,16 +166,18 @@ scopes:
   slug: ford-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 30.7
-  delta: 0.0
+  band: emerging
+  composite: 25.7
+  delta: -5.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 55.6
-    developer_ergonomics: 19.6
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 21.4
     discoverability: 46.3
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 30.7
   provenance:
     agentic_access: derived
@@ -183,9 +186,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png
 security:
 - kind: authentication

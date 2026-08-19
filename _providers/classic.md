@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 43.8
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Affiliate API from Classic — 5 operation(s) for affiliate.
@@ -182,16 +182,18 @@ overview: 'Classic publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   Classic''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
 random_paper: 142
 score:
-  band: thin
-  composite: 38.3
-  delta: 0.0
+  band: developing
+  composite: 39.3
+  delta: 1.0
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 53.7
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 51.2
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 38.3
   provenance:
     conformance: derived
@@ -208,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/screenshots/classic-2026-07-25T205521.png
 security:

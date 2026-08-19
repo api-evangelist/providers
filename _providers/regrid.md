@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -208,7 +209,9 @@ rate_limits:
   name: Regrid Rate Limits
   slug: regrid-rate-limits
 rules:
-- name: Regrid API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Regrid API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,14 +221,16 @@ rules:
   slug: regrid-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 45.7
+  delta: -6.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 61.5
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 47.4
   previous_composite: 52.4
   provenance:
@@ -235,9 +240,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
 security:
 - kind: authentication

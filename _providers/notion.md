@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -680,7 +681,10 @@ rate_limits:
   name: Notion Rate Limits
   slug: notion-rate-limits
 rules:
-- name: Notion API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Notion API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -688,7 +692,9 @@ rules:
     info: 0
     warn: 5
   slug: notion-asyncapi-spectral-rules
-- name: Notion API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Notion API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -698,14 +704,16 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.6
-  delta: 0.0
+  composite: 66.5
+  delta: -4.1
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 84.3
-    developer_ergonomics: 80.4
+    contract_governance: 28.0
+    contract_quality: 81.5
+    developer_ergonomics: 78.6
     discoverability: 77.8
-    governance: 53.1
+    governance: 28.0
     operational_transparency: 63.2
   previous_composite: 70.6
   provenance:
@@ -717,8 +725,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,12 +79,14 @@ overview: 'Lunabill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 106
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.0
+  composite: 13.6
+  delta: -1.5
   facets:
-    commercial_clarity: 36.8
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -94,8 +97,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunabill/refs/heads/main/screenshots/lunabill-2026-07-25T225723.png
 security:

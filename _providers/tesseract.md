@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 32.3
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The clients API from Tesseract — 3 operation(s) for clients.
@@ -190,14 +191,16 @@ overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 80
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 44.8
+  delta: 0.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 39.6
-    developer_ergonomics: 62.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 38.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 44.6
   provenance:
@@ -209,9 +212,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/screenshots/tesseract-2026-08-17T082323.png
 security:
 - kind: authentication
   name: Tesseract Authentication

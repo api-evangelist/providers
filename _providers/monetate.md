@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: RESTful entry point to the Monetate decision engine. A client POSTs a batch of context events, page events and record events for a session and receives back the actions (experiences) the engine decide
@@ -213,19 +215,31 @@ rate_limits:
   slug: monetate-rate-limits
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 53.0
+  delta: -0.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 52.0
-    developer_ergonomics: 65.2
+    contract_governance: 16.7
+    contract_quality: 54.3
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 53.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/screenshots/monetate-2026-08-17T081059.png
 security:
 - kind: authentication
   name: Monetate Authentication

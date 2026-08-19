@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -297,7 +298,9 @@ rate_limits:
   name: Amtrust Financial Services Rate Limits
   slug: amtrust-financial-services-rate-limits
 rules:
-- name: AmTrust Financial Services API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AmTrust Financial Services API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -305,7 +308,10 @@ rules:
     info: 1
     warn: 4
   slug: amtrust-financial-services-jsonschema-spectral-rules
-- name: AmTrust Financial Services API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: AmTrust Financial Services API Rules
   rule_count: 17
   severity_counts:
     error: 7
@@ -314,16 +320,18 @@ rules:
     warn: 10
   slug: amtrust-financial-services-spectral-rules
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 32.1
+  delta: -10.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 24.3
-    developer_ergonomics: 39.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 23.0
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -337,10 +345,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 47.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 34.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:
 - kind: authentication

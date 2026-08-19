@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 51.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -268,15 +269,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 55.7
+  delta: -6.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 69.6
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 65.2
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 62.0
   provenance:
     agentic_access: derived
@@ -288,9 +291,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/screenshots/usersnap-2026-08-17T082655.png
 security:
 - kind: authentication
   name: Usersnap Authentication

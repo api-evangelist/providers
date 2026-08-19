@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -249,7 +250,9 @@ rate_limits:
   name: Tripadvisor Rate Limits
   slug: tripadvisor-rate-limits
 rules:
-- name: Tripadvisor API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Tripadvisor API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -257,7 +260,10 @@ rules:
     info: 1
     warn: 5
   slug: tripadvisor-jsonschema-spectral-rules
-- name: Tripadvisor API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Tripadvisor API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -267,15 +273,17 @@ rules:
   slug: tripadvisor-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 42.7
+  delta: -5.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 67.5
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 64.8
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -284,9 +292,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/screenshots/tripadvisor-2026-06-20T195729.png
 security:
 - kind: authentication

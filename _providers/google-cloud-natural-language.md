@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -190,7 +191,9 @@ rate_limits:
   name: Google Cloud Natural Language Rate Limits
   slug: google-cloud-natural-language-rate-limits
 rules:
-- name: Google Cloud Natural Language API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google Cloud Natural Language API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -200,15 +203,17 @@ rules:
   slug: google-cloud-natural-language-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 45.0
+  delta: -8.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 64.9
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 61.7
+    developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -217,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/screenshots/google-cloud-natural-language-2026-06-20T182126.png
 security:
 - kind: domain-security

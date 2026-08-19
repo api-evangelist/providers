@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -201,7 +202,9 @@ rate_limits:
   name: Replit Rate Limits
   slug: replit-rate-limits
 rules:
-- name: Replit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Replit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,7 +212,10 @@ rules:
     info: 2
     warn: 3
   slug: replit-jsonschema-spectral-rules
-- name: Replit API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Replit API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -218,16 +224,18 @@ rules:
     warn: 5
   slug: replit-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 50.6
+  delta: -6.9
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 68.7
-    developer_ergonomics: 43.5
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 47.6
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -236,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/screenshots/replit-2026-06-20T192905.png
 security:
 - kind: authentication

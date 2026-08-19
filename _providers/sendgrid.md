@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 54.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -1039,7 +1040,10 @@ rate_limits:
   name: Sendgrid Rate Limits
   slug: sendgrid-rate-limits
 rules:
-- name: SendGrid API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: SendGrid API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1047,7 +1051,10 @@ rules:
     info: 0
     warn: 6
   slug: sendgrid-asyncapi-spectral-rules
-- name: SendGrid API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: SendGrid API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -1062,28 +1069,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.2
-  delta: 5.7
+  composite: 77.4
+  delta: 4.2
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 73.6
-    developer_ergonomics: 87.0
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 41.7
+    contract_quality: 73.5
+    developer_ergonomics: 92.9
     discoverability: 75.9
-    governance: 53.1
-    operational_transparency: 63.2
-  previous_composite: 67.5
+    governance: 41.7
+    operational_transparency: 60.5
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 63
-    mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:
 - kind: authentication

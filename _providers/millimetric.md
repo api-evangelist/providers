@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-08-17'
+  score: 60.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -236,16 +237,18 @@ rate_limits:
   slug: millimetric-rate-limits
 score:
   band: strong
-  composite: 58.8
-  delta: -2.0
+  composite: 57.8
+  delta: -1.0
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 65.3
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 61.2
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 60.8
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +259,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -185,7 +186,9 @@ rate_limits:
   name: Svn Rate Limits
   slug: svn-rate-limits
 rules:
-- name: Subversion API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Subversion API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,7 +196,10 @@ rules:
     info: 2
     warn: 3
   slug: svn-jsonschema-spectral-rules
-- name: Subversion API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Subversion API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -203,14 +209,16 @@ rules:
   slug: svn-rules
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 34.2
+  delta: -6.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 41.0
   provenance:
@@ -220,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png
 security:
 - kind: authentication

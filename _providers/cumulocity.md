@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -825,7 +826,10 @@ rate_limits:
   name: Cumulocity Rate Limits
   slug: cumulocity-rate-limits
 rules:
-- name: Cumulocity API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Cumulocity API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -833,7 +837,9 @@ rules:
     info: 0
     warn: 6
   slug: cumulocity-asyncapi-spectral-rules
-- name: Cumulocity API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cumulocity API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -841,7 +847,10 @@ rules:
     info: 2
     warn: 3
   slug: cumulocity-jsonschema-spectral-rules
-- name: Cumulocity API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Cumulocity API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -850,15 +859,17 @@ rules:
     warn: 4
   slug: cumulocity-rules
 score:
-  band: exemplar
-  composite: 68.7
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: -6.0
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 74.1
-    developer_ergonomics: 71.7
+    contract_governance: 11.4
+    contract_quality: 73.8
+    developer_ergonomics: 66.7
     discoverability: 50.0
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 47.4
   previous_composite: 68.7
   provenance:
@@ -868,9 +879,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:
 - kind: authentication

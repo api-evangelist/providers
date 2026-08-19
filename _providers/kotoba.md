@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,15 +223,17 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
 random_paper: 44
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 46.8
+  delta: -0.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.0
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -243,8 +245,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:

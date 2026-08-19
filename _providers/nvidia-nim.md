@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -537,7 +538,9 @@ rate_limits:
   name: Nvidia Nim Rate Limits
   slug: nvidia-nim-rate-limits
 rules:
-- name: NVIDIA NIM API Rules
+- effective_rule_count: 6
+  extends: []
+  name: NVIDIA NIM API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -547,15 +550,17 @@ rules:
   slug: nvidia-nim-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 78.7
-  delta: 0.0
+  composite: 71.0
+  delta: -7.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 73.4
-    developer_ergonomics: 87.0
+    contract_governance: 26.5
+    contract_quality: 69.2
+    developer_ergonomics: 86.9
     discoverability: 72.2
-    governance: 69.8
-    operational_transparency: 68.4
+    governance: 26.5
+    operational_transparency: 57.9
   previous_composite: 78.7
   provenance:
     agentic_access: derived
@@ -566,9 +571,9 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:
 - kind: authentication

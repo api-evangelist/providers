@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -466,7 +467,7 @@ mcp_servers:
 - description: ''
   name: medplum-mcp.yml
   slug: medplum-mcpyml
-modified: '2026-08-14'
+modified: '2026-08-17'
 name: Medplum
 nav: Providers
 network: true
@@ -487,7 +488,9 @@ rate_limits:
   name: Medplum Rate Limits
   slug: medplum-rate-limits
 rules:
-- name: Medplum API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Medplum API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -495,7 +498,10 @@ rules:
     info: 2
     warn: 3
   slug: medplum-jsonschema-spectral-rules
-- name: Medplum API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Medplum API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -510,32 +516,36 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 84.9
-  delta: 15.3
+  composite: 91.4
+  delta: 6.5
   facets:
+    access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_quality: 82.1
-    developer_ergonomics: 91.3
+    contract_governance: 55.3
+    contract_quality: 79.0
+    developer_ergonomics: 78.0
     discoverability: 83.3
-    governance: 89.6
-    operational_transparency: 100.0
-  previous_composite: 69.6
+    governance: 55.3
+    operational_transparency: 97.4
+  previous_composite: 84.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 92.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:

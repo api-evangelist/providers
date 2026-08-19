@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -305,14 +306,16 @@ overview: 'Due publishes 18 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 20
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 44.4
+  delta: -2.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 63.7
-    developer_ergonomics: 66.8
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 16.7
+    contract_quality: 61.2
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 47.3
   provenance:
@@ -331,8 +334,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

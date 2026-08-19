@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Default namespace
@@ -145,15 +146,17 @@ overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 10
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 32.8
+  delta: 1.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 35.8
-    developer_ergonomics: 27.7
+    contract_governance: 16.7
+    contract_quality: 34.0
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 31.0
   provenance:
     conformance: derived
@@ -170,8 +173,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:

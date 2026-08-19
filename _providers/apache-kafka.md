@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -573,7 +573,10 @@ rate_limits:
   name: Apache Kafka Rate Limits
   slug: apache-kafka-rate-limits
 rules:
-- name: Apache Kafka API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Apache Kafka API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -581,7 +584,9 @@ rules:
     info: 1
     warn: 1
   slug: apache-kafka-asyncapi-spectral-rules
-- name: Apache Kafka API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Kafka API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -589,7 +594,10 @@ rules:
     info: 1
     warn: 4
   slug: apache-kafka-jsonschema-spectral-rules
-- name: Apache Kafka API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Apache Kafka API Rules
   rule_count: 20
   severity_counts:
     error: 9
@@ -599,15 +607,17 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 44.7
+  delta: -6.6
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 62.1
-    developer_ergonomics: 37.0
+    contract_governance: 45.5
+    contract_quality: 58.6
+    developer_ergonomics: 31.0
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 39.5
+    governance: 45.5
+    operational_transparency: 36.8
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -618,9 +628,9 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -299,7 +300,10 @@ rate_limits:
   name: Dapr Rate Limits
   slug: dapr-rate-limits
 rules:
-- name: Dapr API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Dapr API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -307,7 +311,9 @@ rules:
     info: 1
     warn: 3
   slug: dapr-asyncapi-spectral-rules
-- name: Dapr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dapr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -315,7 +321,10 @@ rules:
     info: 2
     warn: 3
   slug: dapr-jsonschema-spectral-rules
-- name: Dapr API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Dapr API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -325,14 +334,16 @@ rules:
   slug: dapr-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 41.3
+  delta: -5.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 71.0
-    developer_ergonomics: 32.6
+    contract_governance: 28.8
+    contract_quality: 66.5
+    developer_ergonomics: 35.7
     discoverability: 66.7
-    governance: 68.8
+    governance: 28.8
     operational_transparency: 36.8
   previous_composite: 46.6
   provenance:
@@ -342,9 +353,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:
 - kind: domain-security

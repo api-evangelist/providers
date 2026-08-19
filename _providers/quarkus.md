@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,7 +159,9 @@ rate_limits:
   name: Quarkus Rate Limits
   slug: quarkus-rate-limits
 rules:
-- name: Quarkus API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Quarkus API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,15 +171,17 @@ rules:
   slug: quarkus-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 27.3
+  delta: -11.3
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 51.5
-    developer_ergonomics: 37.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 48.3
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -185,9 +190,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/screenshots/quarkus-2026-06-20T192414.png
 security:
 - kind: domain-security

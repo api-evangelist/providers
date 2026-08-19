@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -178,16 +179,18 @@ overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   Textcortex''s developer surface includes authentication, support, pricing, signup flow, and 19 more developer resources.'
 random_paper: 71
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 35.2
+  delta: -7.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 59.7
-    developer_ergonomics: 38.6
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 25.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 42.9
   provenance:
     agentic_access: derived
@@ -199,9 +202,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/screenshots/textcortex-2026-08-17T082329.png
 security:
 - kind: authentication
   name: Textcortex Authentication

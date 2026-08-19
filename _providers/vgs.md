@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -142,16 +143,18 @@ rate_limits:
   name: Vgs Rate Limits
   slug: vgs-rate-limits
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 39.4
+  delta: 1.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 58.5
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 58.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -166,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/screenshots/vgs-2026-06-20T201107.png
 security:

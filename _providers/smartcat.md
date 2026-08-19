@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 35.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -364,15 +365,17 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 118
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 51.9
+  delta: 0.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 49.3
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 47.6
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -384,9 +387,10 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/screenshots/smartcat-2026-08-17T081929.png
 security:
 - kind: authentication
   name: Smartcat Authentication

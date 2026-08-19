@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -188,15 +189,17 @@ rate_limits:
   slug: z-league-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 39.9
+  delta: -6.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 68.7
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 68.9
+    developer_ergonomics: 8.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -208,9 +211,10 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/screenshots/z-league-2026-08-17T083228.png
 security:
 - kind: authentication
   name: Z League Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -303,7 +304,9 @@ rate_limits:
   name: Brewpage Rate Limits
   slug: brewpage-rate-limits
 rules:
-- name: BrewPage API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BrewPage API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -311,7 +314,10 @@ rules:
     info: 2
     warn: 3
   slug: brewpage-jsonschema-spectral-rules
-- name: BrewPage API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: BrewPage API Rules
   rule_count: 21
   severity_counts:
     error: 4
@@ -321,14 +327,16 @@ rules:
   slug: brewpage-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 48.2
+  delta: -4.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.5
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 66.0
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 52.6
   provenance:
@@ -338,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
 security:

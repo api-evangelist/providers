@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Deploy a Salt AI workflow as a production HTTP API. A POST to the deployment execution endpoint accepts a workflow_input map (per input node: value + value_type such as RAW) and an optional callback U'
@@ -117,15 +118,17 @@ overview: 'Plai Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 140
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 30.8
+  delta: -3.5
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 41.3
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 26.2
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 34.3
   regulatory:
     applies: true
@@ -133,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

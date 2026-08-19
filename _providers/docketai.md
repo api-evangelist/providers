@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Docket's hosted, read-only remote Model Context Protocol server. It exposes Demand Capture Agents and their performance, captured visitors and leads, engaged accounts, conversation summaries with qual
@@ -188,19 +189,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: thin
-  composite: 41.8
-  delta: 26.1
+  composite: 37.8
+  delta: -4.0
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 47.6
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 15.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 41.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/screenshots/docketai-2026-07-25T212205.png
 security:
 - kind: authentication

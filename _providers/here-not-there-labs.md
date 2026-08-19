@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Towns Protocol is an open, decentralized messaging protocol built on Base. Builders integrate via first-party TypeScript SDKs, a React SDK of hooks, and a bot/app framework. Under the hood the network
@@ -135,22 +136,24 @@ overview: 'Here Not There Labs publishes 1 API on the [APIs.io](https://apis.io/
 random_paper: 58
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 33.7
+  delta: -5.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 60.3
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 13.2
+    governance: 4.5
+    operational_transparency: 10.5
   previous_composite: 38.9
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/screenshots/here-not-there-labs-2026-07-25T221025.png
 security:
 - kind: authentication

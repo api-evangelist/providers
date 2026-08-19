@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,12 +99,14 @@ overview: 'Archy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 88
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 16.6
+  delta: -4.0
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -114,8 +117,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archy/refs/heads/main/screenshots/archy-2026-07-25T201132.png
 security:

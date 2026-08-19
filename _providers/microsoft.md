@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -842,7 +843,9 @@ rate_limits:
   name: Microsoft Rate Limits
   slug: microsoft-rate-limits
 rules:
-- name: Microsoft API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -857,14 +860,16 @@ scopes:
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 48.2
+  delta: -7.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 76.3
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 76.6
+    developer_ergonomics: 33.3
     discoverability: 57.4
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 55.2
   provenance:
@@ -874,9 +879,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:
 - kind: authentication

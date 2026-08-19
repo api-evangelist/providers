@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -234,7 +235,9 @@ rate_limits:
   name: Sage Hr Rate Limits
   slug: sage-hr-rate-limits
 rules:
-- name: Sage HR API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sage HR API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,14 +247,16 @@ rules:
   slug: sage-hr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 42.5
+  delta: -5.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 61.7
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 59.5
+    developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 48.3
   provenance:
@@ -261,9 +266,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
 security:
 - kind: authentication

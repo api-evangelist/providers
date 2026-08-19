@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Brief's versioned REST API for creative automation — list and search designs, templates and brand templates, read a template's editable elements and size variants, submit exports with element chan
@@ -199,19 +200,25 @@ rate_limits:
   slug: thebrief-rate-limits
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 56.3
+  delta: -5.0
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 63.0
-    developer_ergonomics: 63.0
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 4.5
+    contract_quality: 56.7
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 42.1
+    governance: 4.5
+    operational_transparency: 39.5
   previous_composite: 61.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png
 security:
 - kind: authentication
   name: Thebrief Authentication

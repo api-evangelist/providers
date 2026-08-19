@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -217,7 +218,9 @@ rate_limits:
   name: Nasa Cmr Rate Limits
   slug: nasa-cmr-rate-limits
 rules:
-- name: NASA CMR API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NASA CMR API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,14 +230,16 @@ rules:
   slug: nasa-cmr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 44.0
+  delta: -2.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 58.5
-    developer_ergonomics: 15.2
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 68.4
   previous_composite: 46.8
   provenance:
@@ -250,8 +255,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

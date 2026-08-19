@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -7553,7 +7554,9 @@ rate_limits:
   name: Amazon Pinpoint Rate Limits
   slug: amazon-pinpoint-rate-limits
 rules:
-- name: Amazon Pinpoint API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Pinpoint API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -7561,7 +7564,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-pinpoint-jsonschema-spectral-rules
-- name: Amazon Pinpoint API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Amazon Pinpoint API Rules
   rule_count: 39
   severity_counts:
     error: 14
@@ -7571,31 +7577,36 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: exemplar
-  composite: 74.1
-  delta: 13.5
+  composite: 82.5
+  delta: 8.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 78.1
-    developer_ergonomics: 82.6
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 55.3
+    contract_quality: 78.8
+    developer_ergonomics: 85.1
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 71.1
-  previous_composite: 60.6
+    governance: 55.3
+    operational_transparency: 81.6
+  previous_composite: 74.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:

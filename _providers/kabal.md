@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,14 +79,16 @@ overview: 'Kabal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 60
 score:
   band: emerging
-  composite: 16.1
-  delta: 0.0
+  composite: 14.7
+  delta: -1.4
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 16.1
   provenance:
@@ -96,8 +99,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kabal/refs/heads/main/screenshots/kabal-2026-07-25T223358.png
 security:

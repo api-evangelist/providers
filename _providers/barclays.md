@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 23
 apis:
 - description: Barclays Smartpay Web Payment API enables businesses to accept payments on their website with real-time processing, secure encryption, and fraud prevention.
@@ -242,7 +243,9 @@ rate_limits:
   name: Barclays Rate Limits
   slug: barclays-rate-limits
 rules:
-- name: Barclays API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Barclays API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -250,7 +253,9 @@ rules:
     info: 2
     warn: 3
   slug: barclays-jsonschema-spectral-rules
-- name: Barclays API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Barclays API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -260,15 +265,23 @@ rules:
   slug: barclays-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 29.0
+  delta: -5.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 34.0
   regulatory:
     applies: true
@@ -276,9 +289,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png
 security:
 - kind: domain-security

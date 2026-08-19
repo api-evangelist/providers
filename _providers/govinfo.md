@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,12 +154,14 @@ rate_limits:
   slug: govinfo-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 32.6
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 52.7
-    developer_ergonomics: 28.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
@@ -175,9 +178,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 22.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/screenshots/govinfo-2026-06-20T182303.png
 security:

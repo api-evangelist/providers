@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-17'
+  score: 35.1
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -298,27 +299,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.7
-  delta: 3.3
+  composite: 51.4
+  delta: -4.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.3
-    developer_ergonomics: 56.0
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 30.3
+    contract_quality: 53.1
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 68.4
-  previous_composite: 52.4
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 55.7
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
       total: 16
-    mcp: derived
+    mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

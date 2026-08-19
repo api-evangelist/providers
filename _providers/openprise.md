@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: API Factory turns any Openprise Job or Bot into a REST endpoint with a single "Enable API" action. The caller sends an HTTP POST carrying a JSON array of records and receives a JSON array of processed
@@ -171,19 +172,24 @@ rate_limits:
   name: Openprise Rate Limits
   slug: openprise-rate-limits
 score:
-  band: thin
-  composite: 33.3
-  delta: 19.1
+  band: developing
+  composite: 39.4
+  delta: 6.1
   facets:
-    commercial_clarity: 63.2
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 47.6
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 28.9
-  previous_composite: 14.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 18.2
+    operational_transparency: 50.0
+  previous_composite: 33.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/screenshots/openprise-2026-06-20T191021.png
 security:

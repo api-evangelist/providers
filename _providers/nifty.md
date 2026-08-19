@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -168,12 +169,14 @@ overview: 'Nifty publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 107
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 33.3
+  delta: 0.6
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 52.2
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 28.6
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
@@ -185,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/screenshots/nifty-2026-06-20T190320.png
 security:

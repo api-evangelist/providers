@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -261,7 +262,9 @@ rate_limits:
   name: Dexterity Rate Limits
   slug: dexterity-rate-limits
 rules:
-- name: Dexterity API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dexterity API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +272,10 @@ rules:
     info: 1
     warn: 4
   slug: dexterity-jsonschema-spectral-rules
-- name: Dexterity API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Dexterity API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -278,15 +284,17 @@ rules:
     warn: 3
   slug: dexterity-rules
 score:
-  band: developing
-  composite: 44.3
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -6.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 64.9
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 61.4
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 44.3
   provenance:
@@ -296,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/screenshots/dexterity-2026-06-20T180009.png
 security:
 - kind: domain-security

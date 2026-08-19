@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Access-as-a-Service is Payactiv's API-driven infrastructure for embedding Earned Wage Access, debit and payroll card programs, instant payouts, and HCM workforce-data workflows into a partner platform
@@ -122,15 +123,17 @@ overview: 'PayActiv publishes 1 API on the [APIs.io](https://apis.io/) network. 
   PayActiv''s developer surface includes documentation, signup flow, support, engineering blog, and 13 more developer resources.'
 random_paper: 120
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 26.5
+  delta: -1.2
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 16.7
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 27.7
   provenance:
@@ -140,9 +143,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payactiv/refs/heads/main/screenshots/payactiv-2026-08-07T191623.png
 security:

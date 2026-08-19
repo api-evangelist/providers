@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: User account, sign-in, sessions, settings
@@ -303,15 +304,17 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 51
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 56.7
+  delta: -0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 71.7
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 71.0
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 57.6
   provenance:
     conformance: derived
@@ -322,8 +325,8 @@ score:
       total: 18
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -351,7 +352,10 @@ rate_limits:
   name: Contour Rate Limits
   slug: contour-rate-limits
 rules:
-- name: Contour API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Contour API Rules
   rule_count: 5
   severity_counts:
     error: 4
@@ -359,7 +363,10 @@ rules:
     info: 0
     warn: 1
   slug: contour-gateway-rules
-- name: Contour API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Contour API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -367,7 +374,9 @@ rules:
     info: 0
     warn: 2
   slug: contour-httpproxy-rules
-- name: Contour API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Contour API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -376,16 +385,18 @@ rules:
     warn: 4
   slug: contour-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 39.6
-  delta: 0.0
+  band: developing
+  composite: 42.5
+  delta: 2.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.2
-    developer_ergonomics: 23.9
+    contract_governance: 60.6
+    contract_quality: 61.2
+    developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 31.3
-    operational_transparency: 39.5
+    governance: 60.6
+    operational_transparency: 36.8
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -394,8 +405,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:

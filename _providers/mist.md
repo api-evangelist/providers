@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -1456,15 +1457,17 @@ rate_limits:
   slug: mist-rate-limits
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 52.1
+  delta: -2.2
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 72.3
-    developer_ergonomics: 64.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 72.1
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 73.7
+    governance: 16.7
+    operational_transparency: 71.1
   previous_composite: 54.3
   provenance:
     agentic_access: derived
@@ -1476,8 +1479,8 @@ score:
       total: 211
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:

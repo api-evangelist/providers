@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -179,7 +180,9 @@ rate_limits:
   name: Upbound Rate Limits
   slug: upbound-rate-limits
 rules:
-- name: Upbound API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Upbound API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -187,7 +190,10 @@ rules:
     info: 2
     warn: 3
   slug: upbound-jsonschema-spectral-rules
-- name: Upbound API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Upbound API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -196,16 +202,18 @@ rules:
     warn: 7
   slug: upbound-rules
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  delta: -7.6
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 69.4
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -214,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/screenshots/upbound-2026-06-20T200438.png
 security:
 - kind: authentication

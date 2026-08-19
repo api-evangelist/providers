@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-08-17'
+  score: 56.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -369,16 +370,18 @@ rate_limits:
   name: Kita Rate Limits
   slug: kita-rate-limits
 score:
-  band: strong
-  composite: 64.0
-  delta: 0.0
+  band: exemplar
+  composite: 69.3
+  delta: 5.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 70.1
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 68.9
+    developer_ergonomics: 78.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 64.0
   provenance:
     agentic_access: derived
@@ -396,9 +399,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:
 - kind: authentication

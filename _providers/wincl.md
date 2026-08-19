@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -386,15 +387,17 @@ overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
   WinCL''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
 random_paper: 94
 score:
-  band: thin
-  composite: 28.5
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  delta: -2.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 50.2
-    developer_ergonomics: 36.4
+    contract_governance: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 23.2
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 28.5
   provenance:
@@ -413,8 +416,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

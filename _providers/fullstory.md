@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -294,7 +295,10 @@ rate_limits:
   name: Fullstory Rate Limits
   slug: fullstory-rate-limits
 rules:
-- name: FullStory API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: FullStory API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -302,7 +306,9 @@ rules:
     info: 1
     warn: 6
   slug: fullstory-asyncapi-spectral-rules
-- name: FullStory API Rules
+- effective_rule_count: 6
+  extends: []
+  name: FullStory API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -312,15 +318,17 @@ rules:
   slug: fullstory-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 37.1
+  delta: -4.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 78.4
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 76.0
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 10.5
+    governance: 13.6
+    operational_transparency: 7.9
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -329,8 +337,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/screenshots/fullstory-2026-06-20T181612.png
 security:

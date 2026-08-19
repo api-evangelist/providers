@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,7 +144,9 @@ rate_limits:
   name: Agify Io Rate Limits
   slug: agify-io-rate-limits
 rules:
-- name: Agify.io API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Agify.io API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -153,14 +156,16 @@ rules:
   slug: agify-io-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.9
-  delta: 0.0
+  composite: 22.1
+  delta: -5.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 17.7
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 16.6
+    developer_ergonomics: 19.0
     discoverability: 66.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 27.9
   provenance:
@@ -170,9 +175,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:
 - kind: domain-security

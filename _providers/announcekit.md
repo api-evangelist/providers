@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
@@ -115,18 +116,20 @@ rate_limits:
   slug: announcekit-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 24.4
+  delta: 0.6
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 1.4
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 23.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/screenshots/announcekit-2026-06-20T172011.png
 security:

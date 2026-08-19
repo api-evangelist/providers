@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 62.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -343,16 +344,18 @@ scopes:
   slug: sarj-ai-developer-api-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 32.2
+  delta: -11.2
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 56.1
-    developer_ergonomics: 71.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 30.3
+    contract_quality: 55.4
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -364,9 +367,10 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png
 security:
 - kind: authentication
   name: Sarj Ai Developer Api Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -140,16 +141,18 @@ rate_limits:
   slug: beacon-health-rate-limits
 score:
   band: emerging
-  composite: 25.4
-  delta: 3.7
+  composite: 24.2
+  delta: -1.2
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 21.7
+  previous_composite: 25.4
   provenance:
     conformance: first-party
   regulatory:
@@ -157,9 +160,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 47.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beacon-health/refs/heads/main/screenshots/beacon-health-2026-07-25T202509.png
 security:

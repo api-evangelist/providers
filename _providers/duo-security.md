@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -90,6 +91,10 @@ collections:
   name: Duo Admin Bulk WebAuthn API
   slug: open-duo-security-webauthn-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,14 +143,14 @@ finops:
   slug: duo-security-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duo-security.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-19'
 name: Duo Security
 nav: Providers
 network: true
 overview: 'Duo Security publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bulk API, Bypass Codes API, Groups API, and 4 more. Tagged areas include Authentication, MFA, Zero Trust, and Identity.
 
 
-  Duo Security''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Duo Security''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Duo Security Plans Pricing
   plan_count: 3
@@ -156,27 +161,29 @@ rate_limits:
   name: Duo Security Rate Limits
   slug: duo-security-rate-limits
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 20.1
+  delta: -10.4
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 56.5
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 14.8
+    developer_ergonomics: 23.8
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 7
+      marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/screenshots/duo-security-2026-06-20T180323.png
 security:
 - kind: authentication

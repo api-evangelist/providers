@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-17'
+  score: 27.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -242,15 +243,17 @@ overview: 'Cellarity publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 75
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 24.6
+  delta: 1.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 14.5
-    developer_ergonomics: 16.8
+    contract_governance: 16.7
+    contract_quality: 17.1
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 22.9
   provenance:
     agentic_access: derived
@@ -267,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

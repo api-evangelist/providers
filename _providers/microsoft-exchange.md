@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -691,7 +692,9 @@ rate_limits:
   name: Microsoft Exchange Rate Limits
   slug: microsoft-exchange-rate-limits
 rules:
-- name: Microsoft Exchange API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Exchange API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -705,16 +708,18 @@ scopes:
   slug: microsoft-exchange-scopes
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
-  band: exemplar
-  composite: 66.7
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: -8.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.5
-    developer_ergonomics: 71.7
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 26.5
+    contract_quality: 72.4
+    developer_ergonomics: 76.2
     discoverability: 87.0
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 66.7
   provenance:
     agentic_access: derived
@@ -725,9 +730,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication

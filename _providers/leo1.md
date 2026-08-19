@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 39.0
+  scored_at: '2026-08-19'
 api_count: 32
 apis:
 - description: General system endpoints for the API.
@@ -359,14 +360,16 @@ overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 71
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 37.1
+  delta: -4.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 56.6
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 41.6
   provenance:
@@ -381,11 +384,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 45.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -282,7 +283,9 @@ rate_limits:
   name: Murex Rate Limits
   slug: murex-rate-limits
 rules:
-- name: Murex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Murex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,16 +294,18 @@ rules:
     warn: 3
   slug: murex-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 32.3
+  delta: -12.8
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 68.7
-    developer_ergonomics: 17.4
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -314,10 +319,10 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:
 - kind: authentication

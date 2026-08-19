@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -185,7 +186,10 @@ rate_limits:
   name: Nakama Rate Limits
   slug: nakama-rate-limits
 rules:
-- name: Nakama API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Nakama API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -195,15 +199,17 @@ rules:
   slug: nakama-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 40.5
+  delta: -5.5
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 61.4
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 58.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 52.1
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -212,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/screenshots/nakama-2026-08-07T184611.png
 security:
 - kind: authentication

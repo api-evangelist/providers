@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 22.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'The IBM API Connect Management API provides programmatic access to manage APIs, products, catalogs, organizations, and other platform resources in the API Connect platform. It is used to automate API '
@@ -159,7 +160,9 @@ rate_limits:
   name: Ibm Api Connect Rate Limits
   slug: ibm-api-connect-rate-limits
 rules:
-- name: IBM API Connect API Rules
+- effective_rule_count: 0
+  extends: []
+  name: IBM API Connect API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -169,19 +172,21 @@ rules:
   slug: ibm-api-connect-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 39.6
+  delta: -5.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 48.1
-    developer_ergonomics: 34.8
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 10.4
-    operational_transparency: 44.7
+    governance: 0.0
+    operational_transparency: 34.2
   previous_composite: 44.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png
 security:
 - kind: domain-security

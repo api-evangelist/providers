@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 54.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -187,15 +188,17 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 99
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 52.6
+  delta: -2.6
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 69.8
-    developer_ergonomics: 69.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 69.4
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -207,9 +210,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/screenshots/speko-2026-08-17T082025.png
 security:
 - kind: authentication
   name: Speko Authentication

@@ -11,26 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-17'
+  score: 61.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -296,7 +296,9 @@ rate_limits:
   name: Valueserp Rate Limits
   slug: valueserp-rate-limits
 rules:
-- name: ValueSERP API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ValueSERP API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,26 +308,31 @@ rules:
   slug: valueserp-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 79.4
-  delta: 23.7
+  composite: 69.9
+  delta: -9.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 75.4
-    developer_ergonomics: 65.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 41.7
+    contract_quality: 72.7
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 89.6
+    governance: 41.7
     operational_transparency: 81.6
-  previous_composite: 55.7
+  previous_composite: 79.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:
 - kind: authentication

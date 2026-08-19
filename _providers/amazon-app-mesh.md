@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -3124,7 +3125,9 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
   Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 18 more developer resources.'
 random_paper: 145
 rules:
-- name: Amazon App Mesh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon App Mesh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3132,7 +3135,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-app-mesh-jsonschema-spectral-rules
-- name: Amazon App Mesh API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Amazon App Mesh API Rules
   rule_count: 12
   severity_counts:
     error: 3
@@ -3142,15 +3148,17 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 46.2
+  delta: -5.2
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 67.9
-    developer_ergonomics: 41.3
+    contract_governance: 41.7
+    contract_quality: 65.7
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 80.2
-    operational_transparency: 5.3
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -3161,9 +3169,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 44.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -350,7 +351,9 @@ rate_limits:
   name: Suprsend Rate Limits
   slug: suprsend-rate-limits
 rules:
-- name: SuprSend API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SuprSend API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -360,15 +363,17 @@ rules:
   slug: suprsend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 51.1
+  delta: -3.6
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 70.6
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 66.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -383,8 +388,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:

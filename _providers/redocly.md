@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -239,7 +240,9 @@ rate_limits:
   name: Redocly Rate Limits
   slug: redocly-rate-limits
 rules:
-- name: Redocly API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Redocly API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,20 +251,22 @@ rules:
     warn: 4
   slug: redocly-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -6.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 24.2
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 21.1
+    developer_ergonomics: 31.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 55.3
   previous_composite: 45.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
 - kind: domain-security

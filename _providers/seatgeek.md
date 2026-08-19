@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 41.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,7 +220,9 @@ rate_limits:
   name: Seatgeek Rate Limits
   slug: seatgeek-rate-limits
 rules:
-- name: SeatGeek API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SeatGeek API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,7 +230,10 @@ rules:
     info: 1
     warn: 4
   slug: seatgeek-jsonschema-spectral-rules
-- name: SeatGeek API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SeatGeek API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -237,14 +243,16 @@ rules:
   slug: seatgeek-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 42.1
+  delta: -6.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 63.7
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 60.8
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 49.0
   provenance:
@@ -254,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:
 - kind: authentication

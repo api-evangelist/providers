@@ -25,14 +25,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.8
-  scored_at: '2026-08-17'
+  score: 56.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -358,7 +359,9 @@ rate_limits:
   name: Seamless Ai Rate Limits
   slug: seamless-ai-rate-limits
 rules:
-- name: Seamless.AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Seamless.AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,7 +369,10 @@ rules:
     info: 2
     warn: 3
   slug: seamless-ai-jsonschema-spectral-rules
-- name: Seamless.AI API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Seamless.AI API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -381,26 +387,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.0
-  delta: 24.1
+  composite: 69.1
+  delta: 1.1
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 73.1
-    developer_ergonomics: 63.0
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 41.7
+    contract_quality: 68.5
+    developer_ergonomics: 69.0
     discoverability: 87.0
-    governance: 89.6
-    operational_transparency: 18.4
-  previous_composite: 43.9
+    governance: 41.7
+    operational_transparency: 34.2
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
 security:
 - kind: authentication

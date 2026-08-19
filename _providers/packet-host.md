@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -395,15 +396,17 @@ overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 80
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 44.0
+  delta: 0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 61.1
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 61.3
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -415,8 +418,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:

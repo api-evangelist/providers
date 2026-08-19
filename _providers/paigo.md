@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -230,7 +231,9 @@ rate_limits:
   name: Paigo Rate Limits
   slug: paigo-rate-limits
 rules:
-- name: Paigo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Paigo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,14 +248,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 35.8
+  delta: -6.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.1
-    developer_ergonomics: 21.7
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 59.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 41.9
   provenance:
@@ -262,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/screenshots/paigo-2026-06-20T191330.png
 security:
 - kind: authentication

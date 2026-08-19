@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 37.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
@@ -182,15 +183,17 @@ overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.i
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
 random_paper: 87
 score:
-  band: thin
-  composite: 37.5
-  delta: 0.0
+  band: developing
+  composite: 47.1
+  delta: 9.6
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 58.3
-    developer_ergonomics: 45.1
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 45.5
+    contract_quality: 55.7
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 15.8
   previous_composite: 37.5
   provenance:
@@ -207,10 +210,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 28.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 39.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:
 - kind: authentication

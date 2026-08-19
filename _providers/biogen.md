@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,7 +224,9 @@ rate_limits:
   name: Biogen Rate Limits
   slug: biogen-rate-limits
 rules:
-- name: Biogen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Biogen API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,10 @@ rules:
     info: 1
     warn: 4
   slug: biogen-jsonschema-spectral-rules
-- name: Biogen API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Biogen API Rules
   rule_count: 28
   severity_counts:
     error: 7
@@ -240,16 +246,18 @@ rules:
     warn: 21
   slug: biogen-spectral-rules
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: emerging
+  composite: 25.3
+  delta: -3.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 22.0
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 20.9
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 28.9
   provenance:
     agentic_access: derived
@@ -264,8 +272,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

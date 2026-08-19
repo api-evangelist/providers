@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 58.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -1870,7 +1871,10 @@ rate_limits:
   name: Cloudflare Rate Limits
   slug: cloudflare-rate-limits
 rules:
-- name: Cloudflare API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Cloudflare API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1878,7 +1882,9 @@ rules:
     info: 1
     warn: 6
   slug: cloudflare-asyncapi-spectral-rules
-- name: Cloudflare API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cloudflare API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1886,7 +1892,10 @@ rules:
     info: 1
     warn: 4
   slug: cloudflare-jsonschema-spectral-rules
-- name: Cloudflare API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Cloudflare API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -1895,15 +1904,17 @@ rules:
     warn: 7
   slug: cloudflare-spectral-rules
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: -4.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 75.6
-    developer_ergonomics: 93.5
+    contract_governance: 13.6
+    contract_quality: 74.6
+    developer_ergonomics: 92.9
     discoverability: 57.4
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 44.7
   previous_composite: 67.0
   provenance:
@@ -1913,8 +1924,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

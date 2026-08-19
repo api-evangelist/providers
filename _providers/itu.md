@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -151,15 +152,17 @@ overview: 'ITU publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data
 random_paper: 40
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 37.7
+  delta: 1.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 59.9
-    developer_ergonomics: 29.9
+    contract_governance: 16.7
+    contract_quality: 57.1
+    developer_ergonomics: 30.4
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -176,9 +179,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 43.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

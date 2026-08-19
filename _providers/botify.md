@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-17'
+  score: 20.6
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -221,15 +222,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 43.8
+  delta: -5.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 48.5
-    developer_ergonomics: 49.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 46.5
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 49.1
   provenance:
     conformance: first-party
@@ -240,9 +243,10 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/screenshots/botify-2026-08-17T080653.png
 security:
 - kind: authentication
   name: Botify Authentication

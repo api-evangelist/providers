@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -799,7 +800,9 @@ rate_limits:
   name: Peoplesoft Rate Limits
   slug: peoplesoft-rate-limits
 rules:
-- name: PeopleSoft API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PeopleSoft API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -807,7 +810,10 @@ rules:
     info: 1
     warn: 4
   slug: peoplesoft-jsonschema-spectral-rules
-- name: PeopleSoft API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: PeopleSoft API Rules
   rule_count: 24
   severity_counts:
     error: 14
@@ -821,15 +827,17 @@ scopes:
   slug: peoplesoft-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -8.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 65.4
-    developer_ergonomics: 50.0
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 61.2
+    developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 47.4
   previous_composite: 57.9
   provenance:
@@ -839,9 +847,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:
 - kind: authentication

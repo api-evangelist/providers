@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -145,14 +146,16 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 119
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 34.3
+  delta: -5.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 70.8
-    developer_ergonomics: 36.4
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 67.1
+    developer_ergonomics: 22.0
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 18.4
   previous_composite: 39.8
   provenance:
@@ -169,10 +172,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 22.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:
 - kind: authentication

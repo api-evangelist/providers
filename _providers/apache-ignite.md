@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -609,7 +610,9 @@ rate_limits:
   name: Apache Ignite Rate Limits
   slug: apache-ignite-rate-limits
 rules:
-- name: Apache Ignite API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Ignite API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -617,7 +620,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-ignite-jsonschema-spectral-rules
-- name: Apache Ignite API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Apache Ignite API Rules
   rule_count: 27
   severity_counts:
     error: 10
@@ -627,15 +633,17 @@ rules:
   slug: apache-ignite-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 42.1
+  delta: -1.8
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 61.6
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 58.9
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -650,8 +658,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/screenshots/apache-ignite-2026-06-20T172109.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for creating and managing property capture jobs, retrieving 3D models and measurement deliverables, inspections, estimates, instant-design leads, and webhooks. OAuth 2.0 authenticated. Versio
@@ -146,15 +147,17 @@ rate_limits:
   slug: hover-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 41.2
+  delta: -3.9
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 26.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 42.1
+    governance: 18.2
+    operational_transparency: 31.6
   previous_composite: 45.1
   provenance:
     conformance: first-party
@@ -165,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
 security:

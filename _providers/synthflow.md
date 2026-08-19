@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -303,27 +304,32 @@ scopes:
   slug: synthflow-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: exemplar
-  composite: 68.5
-  delta: 27.5
+  band: strong
+  composite: 62.2
+  delta: -6.3
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 63.6
-    developer_ergonomics: 73.9
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 30.3
+    contract_quality: 64.9
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 41.0
+    governance: 30.3
+    operational_transparency: 68.4
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png
 security:
 - kind: authentication

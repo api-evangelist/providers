@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -213,7 +214,9 @@ rate_limits:
   name: Tidio Rate Limits
   slug: tidio-rate-limits
 rules:
-- name: Tidio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tidio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,14 +226,16 @@ rules:
   slug: tidio-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 49.2
+  delta: -5.1
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 66.4
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 65.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 47.4
   previous_composite: 54.3
   provenance:
@@ -240,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/screenshots/tidio-2026-06-20T195338.png
 security:
 - kind: authentication

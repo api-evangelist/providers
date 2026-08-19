@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: WabtecONE is Wabtec's digital intelligence platform enabling railroads and industrial operators to connect embedded devices and transmit operational data to the cloud for analysis. The platform provid
@@ -134,7 +135,9 @@ rate_limits:
   name: Westinghouse Air Brake Technologies Rate Limits
   slug: westinghouse-air-brake-technologies-rate-limits
 rules:
-- name: westinghouse-air-brake-technologies API Rules
+- effective_rule_count: 5
+  extends: []
+  name: westinghouse-air-brake-technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -144,19 +147,21 @@ rules:
   slug: westinghouse-air-brake-technologies-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 19.4
+  delta: -6.3
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 12.9
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 25.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png
 security:
 - kind: domain-security

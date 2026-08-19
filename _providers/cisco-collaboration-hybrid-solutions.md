@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -102,6 +103,10 @@ collections:
   name: Cisco Webex Platform API (Collaboration Hybrid Solutions)
   slug: open-cisco-collaboration-hybrid-solutions
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/webex/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,7 +136,7 @@ jsonld:
   property_count: 7
   slug: cisco-collaboration-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-19'
 name: Cisco Collaboration Hybrid Solutions
 nav: Providers
 network: true
@@ -141,7 +146,7 @@ overview: 'Cisco Collaboration Hybrid Solutions publishes 6 APIs on the [APIs.io
   The Cisco Collaboration Hybrid Solutions catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Cisco Collaboration Hybrid Solutions'' developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  Cisco Collaboration Hybrid Solutions'' developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Cisco Collaboration Hybrid Solutions Plans Pricing
   plan_count: 3
@@ -152,13 +157,15 @@ rate_limits:
   name: Cisco Collaboration Hybrid Solutions Rate Limits
   slug: cisco-collaboration-hybrid-solutions-rate-limits
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: emerging
+  composite: 19.4
+  delta: -9.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.0
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 19.9
+    developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
@@ -167,12 +174,12 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 6
+      marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/screenshots/cisco-collaboration-hybrid-solutions-2026-06-20T174354.png
 security:
 - kind: authentication

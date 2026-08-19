@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,15 +128,17 @@ scopes:
   slug: caa-insurance-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
-  band: emerging
-  composite: 24.5
-  delta: 0.0
+  band: thin
+  composite: 29.2
+  delta: 4.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 17.4
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 24.5
   provenance:
@@ -146,8 +149,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caa-insurance/refs/heads/main/screenshots/caa-insurance-2026-07-25T204155.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.9
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The REST API for Black Duck Open Hub (formerly Ohloh). Returns XML wrapped in a <response> root element that always carries a <status> (success/failed) and an <error> on failure. Requests append .xml '
@@ -123,21 +124,23 @@ rate_limits:
   slug: ohloh-rate-limits
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 26.0
+  delta: 0.3
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 26.3
+    governance: 4.5
+    operational_transparency: 23.7
   previous_composite: 25.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohloh/refs/heads/main/screenshots/ohloh-2026-08-07T190035.png
 security:

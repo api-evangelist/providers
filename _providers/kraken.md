@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1457,7 +1458,10 @@ rate_limits:
   name: Kraken Rate Limits
   slug: kraken-rate-limits
 rules:
-- name: Kraken API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Kraken API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -1465,7 +1469,9 @@ rules:
     info: 0
     warn: 5
   slug: kraken-asyncapi-spectral-rules
-- name: Kraken API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Kraken API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1473,7 +1479,10 @@ rules:
     info: 1
     warn: 4
   slug: kraken-jsonschema-spectral-rules
-- name: Kraken API Rules
+- effective_rule_count: 35
+  extends:
+  - '@stoplight/spectral:oas'
+  name: Kraken API Rules
   rule_count: 35
   severity_counts:
     error: 15
@@ -1483,15 +1492,17 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 68.0
-  delta: 0.0
+  composite: 71.2
+  delta: 3.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 36.3
-    developer_ergonomics: 78.3
+    contract_governance: 43.2
+    contract_quality: 34.7
+    developer_ergonomics: 76.2
     discoverability: 100.0
-    governance: 63.5
-    operational_transparency: 52.6
+    governance: 43.2
+    operational_transparency: 50.0
   previous_composite: 68.0
   provenance:
     agentic_access: derived
@@ -1507,9 +1518,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 70.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 83.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

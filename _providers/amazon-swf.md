@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -1867,7 +1868,9 @@ rate_limits:
   name: Amazon Swf Rate Limits
   slug: amazon-swf-rate-limits
 rules:
-- name: Amazon Simple Workflow Service API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Simple Workflow Service API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1875,7 +1878,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-swf-jsonschema-spectral-rules
-- name: Amazon Simple Workflow Service API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Amazon Simple Workflow Service API Rules
   rule_count: 15
   severity_counts:
     error: 4
@@ -1885,15 +1891,17 @@ rules:
   slug: amazon-swf-spectral-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 47.7
+  delta: -8.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 70.1
-    developer_ergonomics: 43.5
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 40.5
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -1902,9 +1910,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/screenshots/amazon-swf-2026-06-20T171832.png
 security:
 - kind: authentication

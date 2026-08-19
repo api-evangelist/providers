@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The PiggyVest Business API is a Bearer-token-authenticated REST API hosted at api.piggyvest.business that lets Nigerian businesses programmatically create and manage customers, provision customer wall
@@ -240,12 +241,14 @@ overview: 'PiggyVest publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 100
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 14.6
+  delta: -4.0
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
@@ -256,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/piggyvest/refs/heads/main/screenshots/piggyvest-2026-06-20T191707.png
 security:

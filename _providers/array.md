@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Array's REST API for embedded consumer-credit, identity and background-data products. Confirmed live at https://array.io/api — the /api/user/v2 and /api/report/v2 routes answer with structured JSON va
@@ -154,15 +155,17 @@ score:
   composite: 25.5
   delta: 0.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.8
+    developer_ergonomics: 47.6
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 25.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/screenshots/array-2026-07-25T201251.png
 security:

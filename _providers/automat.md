@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 38.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -137,15 +137,17 @@ overview: 'Automat publishes 1 API on the [APIs.io](https://apis.io/) network: e
   Automat''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 18
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -4.3
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 57.5
-    developer_ergonomics: 62.5
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 30.3
+    contract_quality: 53.8
+    developer_ergonomics: 55.4
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 42.2
   provenance:
@@ -158,8 +160,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/screenshots/automat-2026-07-25T201833.png
 security:

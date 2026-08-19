@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Harvey does not currently publish a public, self-serve developer API. Integrations with document management systems, research tools, and firm workflows are delivered through Harvey's Ecosystem program
@@ -103,19 +104,21 @@ rate_limits:
   slug: harvey-ai-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 28.3
+  delta: -5.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 48.1
-    developer_ergonomics: 2.2
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs/heads/main/screenshots/harvey-ai-2026-06-20T182535.png
 security:
 - kind: domain-security

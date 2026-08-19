@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -179,15 +180,17 @@ rate_limits:
   slug: openmeter-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 37.9
+  delta: -0.8
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 52.5
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -196,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/screenshots/openmeter-2026-08-07T190632.png
 security:

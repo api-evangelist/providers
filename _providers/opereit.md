@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Contracts API from Opereit — 3 operation(s) for contracts.
@@ -124,14 +125,16 @@ overview: 'Opereit publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 15
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 35.8
+  delta: -0.6
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 59.7
-    developer_ergonomics: 49.5
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 58.0
+    developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 36.4
   provenance:
@@ -143,8 +146,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 22.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -177,16 +178,18 @@ scopes:
   slug: nasdaq-data-link-scopes
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -5.3
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 76.1
+    developer_ergonomics: 58.3
     discoverability: 100.0
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 43.1
   provenance:
     conformance: first-party
@@ -196,10 +199,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 55.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:
 - kind: authentication

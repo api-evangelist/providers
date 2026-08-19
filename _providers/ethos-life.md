@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -123,12 +124,14 @@ overview: 'Ethos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 114
 score:
   band: emerging
-  composite: 16.8
-  delta: 0.0
+  composite: 14.3
+  delta: -2.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 48.1
-    developer_ergonomics: 2.2
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
@@ -139,8 +142,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethos-life/refs/heads/main/screenshots/ethos-life-2026-06-20T180839.png
 security:

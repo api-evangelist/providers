@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -884,7 +885,9 @@ rate_limits:
   name: Abstract Api Rate Limits
   slug: abstract-api-rate-limits
 rules:
-- name: Abstract API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Abstract API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -892,7 +895,10 @@ rules:
     info: 1
     warn: 4
   slug: abstract-api-jsonschema-spectral-rules
-- name: Abstract API API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Abstract API API Rules
   rule_count: 40
   severity_counts:
     error: 17
@@ -901,16 +907,18 @@ rules:
     warn: 17
   slug: abstract-api-spectral-rules
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 32.5
+  delta: -13.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 31.2
-    developer_ergonomics: 45.7
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 25.0
+    contract_quality: 29.3
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -919,9 +927,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 48.3
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -179,15 +180,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 45.2
+  delta: -4.9
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 36.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 78.9
+    governance: 18.2
+    operational_transparency: 69.7
   previous_composite: 50.1
   provenance:
     conformance: first-party
@@ -198,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 68.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:

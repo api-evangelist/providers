@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Daily/monthly production records for a well.
@@ -171,15 +172,17 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 45.6
+  delta: 0.5
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 58.2
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 58.0
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 45.1
   provenance:
     conformance: derived
@@ -196,9 +199,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/screenshots/tachyus-2026-08-17T082238.png
 security:
 - kind: authentication
   name: Tachyus Authentication

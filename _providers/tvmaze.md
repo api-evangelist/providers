@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -627,7 +628,9 @@ rate_limits:
   name: Tvmaze Rate Limits
   slug: tvmaze-rate-limits
 rules:
-- name: TVmaze API Rules
+- effective_rule_count: 6
+  extends: []
+  name: TVmaze API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -635,7 +638,10 @@ rules:
     info: 2
     warn: 4
   slug: tvmaze-jsonschema-spectral-rules
-- name: TVmaze API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: TVmaze API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -644,16 +650,18 @@ rules:
     warn: 7
   slug: tvmaze-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 59.8
+  delta: -6.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 72.4
-    developer_ergonomics: 50.0
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 25.0
+    contract_quality: 70.4
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -662,9 +670,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:
 - kind: authentication

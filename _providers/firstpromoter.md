@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 54.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -534,7 +535,9 @@ rate_limits:
   name: Firstpromoter Rate Limits
   slug: firstpromoter-rate-limits
 rules:
-- name: FirstPromoter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: FirstPromoter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -548,27 +551,32 @@ scopes:
   slug: firstpromoter-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 75.2
-  delta: 24.7
+  band: strong
+  composite: 63.6
+  delta: -11.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 68.7
-    developer_ergonomics: 73.9
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 67.5
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 50.0
-  previous_composite: 50.5
+    governance: 30.3
+    operational_transparency: 31.6
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 50
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -140,15 +141,17 @@ rate_limits:
   name: Sm Energy Rate Limits
   slug: sm-energy-rate-limits
 score:
-  band: minimal
-  composite: 12.9
-  delta: 0.0
+  band: emerging
+  composite: 12.2
+  delta: -0.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 8.1
+    contract_governance: 15.2
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 10.4
+    governance: 15.2
     operational_transparency: 5.3
   previous_composite: 12.9
   regulatory:
@@ -157,8 +160,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/screenshots/sm-energy-2026-06-20T194032.png
 security:

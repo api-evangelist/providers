@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 48.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Public API from Listen Labs — 9 operation(s) for public.
@@ -179,15 +180,17 @@ overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 75
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 49.2
+  delta: -0.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 56.6
-    developer_ergonomics: 67.4
+    contract_governance: 30.3
+    contract_quality: 55.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 49.4
   provenance:
     conformance: first-party
@@ -198,8 +201,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/screenshots/listen-labs-2026-07-25T225342.png
 security:

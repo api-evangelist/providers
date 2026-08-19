@@ -14,22 +14,23 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 48.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 2
@@ -882,7 +883,9 @@ rate_limits:
   name: Partnerize Rate Limits
   slug: partnerize-rate-limits
 rules:
-- name: Partnerize API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Partnerize API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -891,27 +894,32 @@ rules:
     warn: 4
   slug: partnerize-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 70.4
-  delta: 28.6
+  band: strong
+  composite: 62.2
+  delta: -8.2
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 64.0
-    developer_ergonomics: 73.9
+    contract_governance: 41.7
+    contract_quality: 61.9
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 50.0
-  previous_composite: 41.8
+    governance: 41.7
+    operational_transparency: 47.4
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 104
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png
 security:
 - kind: authentication

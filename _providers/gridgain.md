@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 15
@@ -270,7 +271,9 @@ rate_limits:
   name: Gridgain Rate Limits
   slug: gridgain-rate-limits
 rules:
-- name: GridGain API Rules
+- effective_rule_count: 3
+  extends: []
+  name: GridGain API Rules
   rule_count: 3
   severity_counts:
     error: 2
@@ -280,15 +283,17 @@ rules:
   slug: gridgain-rules
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 35.9
+  delta: 3.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 55.7
-    developer_ergonomics: 37.0
+    contract_governance: 30.3
+    contract_quality: 54.7
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 32.3
   provenance:
     agentic_access: derived
@@ -303,8 +308,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/screenshots/gridgain-2026-06-20T182404.png
 security:

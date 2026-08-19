@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: US Central Command (CENTCOM) does not offer a public developer API. Public information resources include press releases, news articles, official statements, and media content accessible through the of
@@ -76,11 +77,13 @@ rate_limits:
   slug: us-central-command-rate-limits
 score:
   band: emerging
-  composite: 13.6
-  delta: 0.0
+  composite: 11.8
+  delta: -1.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 0.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
@@ -92,8 +95,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-central-command/refs/heads/main/screenshots/us-central-command-2026-06-20T200558.png
 security:

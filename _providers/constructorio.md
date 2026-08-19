@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
@@ -285,15 +286,17 @@ scopes:
   summary_line: 37 scopes
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 51.8
+  delta: -3.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 60.7
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 62.3
+    developer_ergonomics: 57.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 22.4
   previous_composite: 55.0
   provenance:
     conformance: first-party
@@ -304,8 +307,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

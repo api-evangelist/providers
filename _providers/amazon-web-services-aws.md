@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -253,7 +254,10 @@ rate_limits:
   name: Amazon Web Services Aws Rate Limits
   slug: amazon-web-services-aws-rate-limits
 rules:
-- name: Amazon Web Services (AWS) API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Amazon Web Services (AWS) API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -263,14 +267,16 @@ rules:
   slug: amazon-web-services-aws-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 61.0
+  delta: -0.3
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 66.4
-    developer_ergonomics: 69.6
+    contract_governance: 26.5
+    contract_quality: 62.2
+    developer_ergonomics: 76.2
     discoverability: 66.7
-    governance: 31.3
+    governance: 26.5
     operational_transparency: 39.5
   previous_composite: 61.3
   provenance:
@@ -280,8 +286,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:

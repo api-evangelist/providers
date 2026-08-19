@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -230,17 +231,19 @@ rate_limits:
   name: Voicegenie Rate Limits
   slug: voicegenie-rate-limits
 score:
-  band: developing
-  composite: 55.8
-  delta: 8.7
+  band: strong
+  composite: 56.6
+  delta: 0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 67.9
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 65.7
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,9 +254,10 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/screenshots/voicegenie-2026-08-17T082816.png
 security:
 - kind: authentication
   name: Voicegenie Authentication

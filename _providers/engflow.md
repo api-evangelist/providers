@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.8
-  scored_at: '2026-08-17'
+  score: 25.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
@@ -174,24 +175,26 @@ overview: 'EngFlow publishes 1 API on the [APIs.io](https://apis.io/) network. T
   EngFlow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
 random_paper: 9
 score:
-  band: thin
-  composite: 36.2
-  delta: 0.0
+  band: developing
+  composite: 44.4
+  delta: 8.2
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 0.0
-    developer_ergonomics: 69.0
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
 security:
 - kind: authentication

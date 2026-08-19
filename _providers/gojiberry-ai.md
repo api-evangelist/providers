@@ -16,21 +16,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-17'
+  score: 51.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -269,17 +270,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.8
-  delta: 5.3
+  composite: 50.0
+  delta: -4.8
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 56.8
-    developer_ergonomics: 51.6
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 16.7
+    contract_quality: 53.7
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 50.0
-  previous_composite: 49.5
+    governance: 16.7
+    operational_transparency: 31.6
+  previous_composite: 54.8
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
@@ -288,9 +292,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:
 - kind: authentication

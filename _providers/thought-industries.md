@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -221,7 +222,9 @@ rate_limits:
   name: Thought Industries Rate Limits
   slug: thought-industries-rate-limits
 rules:
-- name: Thought Industries API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Thought Industries API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,7 +232,10 @@ rules:
     info: 1
     warn: 4
   slug: thought-industries-jsonschema-spectral-rules
-- name: Thought Industries API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Thought Industries API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -239,15 +245,17 @@ rules:
   slug: thought-industries-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 44.2
+  delta: -5.5
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 71.4
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 71.8
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 18.4
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -256,9 +264,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 40.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:
 - kind: authentication

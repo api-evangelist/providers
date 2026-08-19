@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -769,7 +770,10 @@ rate_limits:
   name: Airbnb Rate Limits
   slug: airbnb-rate-limits
 rules:
-- name: airbnb API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: airbnb API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -777,7 +781,9 @@ rules:
     info: 0
     warn: 6
   slug: airbnb-asyncapi-spectral-rules
-- name: airbnb API Rules
+- effective_rule_count: 5
+  extends: []
+  name: airbnb API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -785,7 +791,10 @@ rules:
     info: 1
     warn: 4
   slug: airbnb-jsonschema-spectral-rules
-- name: airbnb API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: airbnb API Rules
   rule_count: 26
   severity_counts:
     error: 6
@@ -800,14 +809,16 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 43.7
+  delta: -3.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 78.5
-    developer_ergonomics: 21.7
+    contract_governance: 26.5
+    contract_quality: 78.2
+    developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 26.3
   previous_composite: 46.9
   provenance:
@@ -817,8 +828,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

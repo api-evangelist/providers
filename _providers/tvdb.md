@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -899,7 +900,9 @@ rate_limits:
   name: Tvdb Rate Limits
   slug: tvdb-rate-limits
 rules:
-- name: TheTVDB API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TheTVDB API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -907,7 +910,10 @@ rules:
     info: 2
     warn: 3
   slug: tvdb-jsonschema-spectral-rules
-- name: TheTVDB API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: TheTVDB API Rules
   rule_count: 36
   severity_counts:
     error: 12
@@ -916,16 +922,18 @@ rules:
     warn: 20
   slug: tvdb-rules
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 48.1
+  delta: -10.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 68.9
-    developer_ergonomics: 30.4
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 9.8
+    contract_quality: 65.3
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 58.8
   provenance:
     agentic_access: derived
@@ -934,9 +942,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:
 - kind: authentication

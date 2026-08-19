@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The SharpSpring (Constant Contact Lead Gen & CRM) Open API — a single HTTPS POST endpoint that accepts a JSON envelope of method, params and id, very similar to JSON-RPC. Version v1 resolves timestamp
@@ -180,19 +181,24 @@ rate_limits:
   slug: sharpspring-rate-limits
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 49.8
+  delta: -1.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 52.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 71.1
+    governance: 4.5
+    operational_transparency: 68.4
   previous_composite: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/screenshots/sharpspring-2026-08-17T081825.png
 security:
 - kind: authentication
   name: Sharpspring Authentication

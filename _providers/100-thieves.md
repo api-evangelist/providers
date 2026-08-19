@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 47.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -146,11 +148,13 @@ score:
   composite: 34.1
   delta: 0.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 48.1
-    developer_ergonomics: 27.7
+    contract_governance: 18.2
+    contract_quality: 43.3
+    developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 34.1
   provenance:
@@ -158,8 +162,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/screenshots/100-thieves-2026-08-07T160646.png
 security:

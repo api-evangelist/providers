@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -381,15 +382,17 @@ rate_limits:
   slug: nash-rate-limits
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 51.6
+  delta: -3.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 66.0
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 64.8
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -401,8 +404,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
 security:

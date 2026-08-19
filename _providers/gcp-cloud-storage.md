@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -330,7 +331,9 @@ rate_limits:
   name: Gcp Cloud Storage Rate Limits
   slug: gcp-cloud-storage-rate-limits
 rules:
-- name: Google Cloud Storage API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Cloud Storage API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -338,7 +341,10 @@ rules:
     info: 2
     warn: 4
   slug: gcp-cloud-storage-jsonschema-spectral-rules
-- name: Google Cloud Storage API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Google Cloud Storage API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -353,15 +359,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 47.3
+  delta: -7.4
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 74.1
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 73.8
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -370,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:
 - kind: authentication

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -287,15 +287,17 @@ scopes:
   slug: america-movil-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 52.0
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 7.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 62.9
-    developer_ergonomics: 51.6
+    contract_governance: 30.3
+    contract_quality: 60.4
+    developer_ergonomics: 54.2
     discoverability: 72.2
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 55.3
   previous_composite: 52.0
   provenance:
@@ -313,10 +315,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 52.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 72.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:
 - kind: authentication

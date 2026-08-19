@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -112,21 +113,23 @@ rate_limits:
   slug: git-rate-limits
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 25.2
+  delta: -2.0
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 32.3
-    developer_ergonomics: 17.4
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 9.5
     discoverability: 83.3
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 27.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/screenshots/git-2026-06-20T181828.png
 security:

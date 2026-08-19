@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Lagom is an open source framework for building reactive microservice systems in Java and Scala, built on top of Akka and Play Framework, designed for distributed architectures.
@@ -100,7 +101,9 @@ rate_limits:
   name: Lagom Rate Limits
   slug: lagom-rate-limits
 rules:
-- name: Lagom API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lagom API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -110,19 +113,21 @@ rules:
   slug: lagom-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 14.2
+  delta: -11.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 16.1
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 14.1
+    developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 25.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lagom/refs/heads/main/screenshots/lagom-2026-06-20T184242.png
 security:
 - kind: domain-security

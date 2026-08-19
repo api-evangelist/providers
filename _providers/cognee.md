@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -232,7 +233,9 @@ rate_limits:
   name: Cognee Rate Limits
   slug: cognee-rate-limits
 rules:
-- name: Cognee API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cognee API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,14 +245,16 @@ rules:
   slug: cognee-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 48.3
+  delta: -5.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 61.4
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 53.9
   provenance:
@@ -259,9 +264,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/screenshots/cognee-2026-06-20T174711.png
 security:
 - kind: authentication

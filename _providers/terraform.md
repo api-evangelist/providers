@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -365,7 +366,10 @@ rate_limits:
   name: Terraform Rate Limits
   slug: terraform-rate-limits
 rules:
-- name: Terraform API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Terraform API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -373,7 +377,9 @@ rules:
     info: 1
     warn: 8
   slug: hcp-terraform-rules
-- name: Terraform API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Terraform API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -383,14 +389,16 @@ rules:
   slug: terraform-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 50.9
+  delta: 0.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 65.3
-    developer_ergonomics: 47.8
+    contract_governance: 71.2
+    contract_quality: 66.7
+    developer_ergonomics: 42.9
     discoverability: 92.6
-    governance: 59.4
+    governance: 71.2
     operational_transparency: 23.7
   previous_composite: 50.1
   provenance:
@@ -402,8 +410,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

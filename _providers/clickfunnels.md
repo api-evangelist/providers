@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 47.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 4
@@ -261,32 +262,32 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.9
-  delta: 30.7
+  composite: 64.7
+  delta: 0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 74.6
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 68.5
+    developer_ergonomics: 66.7
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 33.2
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+    conformance: first-party
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png
 security:
 - kind: authentication

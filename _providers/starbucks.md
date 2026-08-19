@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -222,7 +223,9 @@ rate_limits:
   name: Starbucks Rate Limits
   slug: starbucks-rate-limits
 rules:
-- name: Starbucks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Starbucks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -230,7 +233,10 @@ rules:
     info: 2
     warn: 3
   slug: starbucks-jsonschema-spectral-rules
-- name: Starbucks API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Starbucks API Rules
   rule_count: 18
   severity_counts:
     error: 6
@@ -239,16 +245,18 @@ rules:
     warn: 12
   slug: starbucks-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -7.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.9
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 66.0
+    developer_ergonomics: 26.2
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -257,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png
 security:
 - kind: authentication

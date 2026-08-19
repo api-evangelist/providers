@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -486,12 +487,14 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 45.6
+  delta: 0.8
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 57.8
-    developer_ergonomics: 41.3
+    contract_governance: 0.0
+    contract_quality: 58.1
+    developer_ergonomics: 45.2
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 42.1
@@ -503,8 +506,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/screenshots/relativity-2026-06-20T192818.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -273,7 +274,9 @@ rate_limits:
   name: Imagekit Rate Limits
   slug: imagekit-rate-limits
 rules:
-- name: ImageKit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ImageKit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -283,14 +286,16 @@ rules:
   slug: imagekit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 49.6
+  delta: -5.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 70.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 54.6
   provenance:
@@ -300,9 +305,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/screenshots/imagekit-2026-06-20T183243.png
 security:
 - kind: authentication

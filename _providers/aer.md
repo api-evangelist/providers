@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 34.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns a paged summary of all current, generally available retail energy plans for one retailer
@@ -231,15 +232,17 @@ rate_limits:
   slug: aer-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.8
+  delta: -1.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 52.2
-    developer_ergonomics: 47.3
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 30.3
+    contract_quality: 51.0
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 81.6
+    governance: 30.3
+    operational_transparency: 68.4
   previous_composite: 50.3
   provenance:
     conformance: first-party
@@ -255,10 +258,11 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 48.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 43.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
 security:
 - kind: authentication
   name: Aer Authentication

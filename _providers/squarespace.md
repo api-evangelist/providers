@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-17'
+  score: 55.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -346,7 +347,10 @@ rate_limits:
   name: Squarespace Rate Limits
   slug: squarespace-rate-limits
 rules:
-- name: Squarespace API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Squarespace API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -354,7 +358,9 @@ rules:
     info: 0
     warn: 6
   slug: squarespace-asyncapi-spectral-rules
-- name: Squarespace API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Squarespace API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -362,7 +368,10 @@ rules:
     info: 2
     warn: 4
   slug: squarespace-jsonschema-spectral-rules
-- name: Squarespace API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Squarespace API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -377,31 +386,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.8
-  delta: 22.7
+  composite: 76.1
+  delta: 6.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 77.5
-    developer_ergonomics: 67.4
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 28.0
+    contract_quality: 78.0
+    developer_ergonomics: 58.9
     discoverability: 64.8
-    governance: 62.5
-    operational_transparency: 68.4
-  previous_composite: 47.1
+    governance: 28.0
+    operational_transparency: 81.6
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 8
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

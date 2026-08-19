@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal, which is served '
@@ -246,7 +247,9 @@ rate_limits:
   name: Blackstone Rate Limits
   slug: blackstone-rate-limits
 rules:
-- name: Blackstone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Blackstone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -254,7 +257,9 @@ rules:
     info: 2
     warn: 3
   slug: blackstone-jsonschema-spectral-rules
-- name: Blackstone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Blackstone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -268,22 +273,24 @@ scopes:
   slug: blackstone-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 46.5
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: -11.7
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 29.0
-    developer_ergonomics: 26.1
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 29.5
+    contract_quality: 25.4
+    developer_ergonomics: 14.3
     discoverability: 87.0
-    governance: 71.9
+    governance: 29.5
     operational_transparency: 31.6
   previous_composite: 46.5
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png
 security:
 - kind: authentication

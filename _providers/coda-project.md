@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-17'
+  score: 56.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -542,15 +543,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 64.6
+  delta: -0.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 70.1
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 71.0
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 71.1
+    governance: 16.7
+    operational_transparency: 68.4
   previous_composite: 65.5
   provenance:
     agentic_access: derived
@@ -562,8 +565,8 @@ score:
       total: 32
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

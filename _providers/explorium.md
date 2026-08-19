@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 69.4
-  scored_at: '2026-08-17'
+  score: 61.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -350,26 +351,31 @@ rate_limits:
   slug: explorium-rate-limits
 score:
   band: exemplar
-  composite: 70.6
-  delta: 30.9
+  composite: 70.3
+  delta: -0.3
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 64.6
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 62.4
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 60.5
-  previous_composite: 39.7
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 21
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:
 - kind: authentication

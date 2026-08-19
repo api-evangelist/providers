@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,15 +180,17 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
 random_paper: 90
 score:
-  band: thin
-  composite: 35.5
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 7.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 59.0
-    developer_ergonomics: 27.7
+    contract_governance: 18.2
+    contract_quality: 57.3
+    developer_ergonomics: 30.4
     discoverability: 77.8
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 35.5
   provenance:
@@ -204,10 +207,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 60.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -413,7 +414,9 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 14 more developer resources.'
 random_paper: 73
 rules:
-- name: Allianz Trade API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Allianz Trade API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -421,7 +424,10 @@ rules:
     info: 2
     warn: 3
   slug: allianz-trade-online-jsonschema-spectral-rules
-- name: Allianz Trade API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Allianz Trade API Rules
   rule_count: 31
   severity_counts:
     error: 6
@@ -436,14 +442,16 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 35.4
+  delta: -3.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 29.5
-    developer_ergonomics: 45.7
+    contract_governance: 41.7
+    contract_quality: 28.1
+    developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 15.8
   previous_composite: 38.6
   provenance:
@@ -461,8 +469,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:

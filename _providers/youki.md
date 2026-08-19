@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: youki is a container runtime written in Rust that implements the OCI runtime specification, providing a memory-safe and high-performance alternative to runc. It supports rootless containers, cgroups v
@@ -353,7 +354,9 @@ rate_limits:
   name: Youki Rate Limits
   slug: youki-rate-limits
 rules:
-- name: Youki API Rules
+- effective_rule_count: 3
+  extends: []
+  name: Youki API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -362,20 +365,22 @@ rules:
     warn: 1
   slug: youki-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.2
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  delta: -6.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 32.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 slug: youki
 solutions:
 - description: Provides a CNCF sandbox container runtime for cloud-native platforms looking to adopt a memory-safe OCI runtime under containerd or CRI-O.

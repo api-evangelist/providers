@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, user
@@ -119,18 +120,20 @@ rate_limits:
   slug: taiga-rate-limits
 score:
   band: emerging
-  composite: 26.1
-  delta: 0.0
+  composite: 24.8
+  delta: -1.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 34.2
   previous_composite: 26.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/screenshots/taiga-2026-06-20T194855.png
 security:

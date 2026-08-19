@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 73.0
-  scored_at: '2026-08-17'
+  score: 65.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -296,29 +297,31 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 69.5
-  delta: 13.6
+  composite: 68.5
+  delta: -1.0
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 66.2
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 64.3
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
-  previous_composite: 55.9
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/screenshots/contextdev-2026-07-25T210330.png
 security:
 - kind: authentication

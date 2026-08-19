@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1702,7 +1703,9 @@ rate_limits:
   name: Amazon Eventbridge Pipes Rate Limits
   slug: amazon-eventbridge-pipes-rate-limits
 rules:
-- name: Amazon EventBridge Pipes API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon EventBridge Pipes API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1710,7 +1713,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-eventbridge-pipes-jsonschema-spectral-rules
-- name: Amazon EventBridge Pipes API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon EventBridge Pipes API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -1720,15 +1726,17 @@ rules:
   slug: amazon-eventbridge-pipes-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 56.4
+  delta: -6.9
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 79.9
-    developer_ergonomics: 45.7
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 76.9
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -1737,9 +1745,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:
 - kind: authentication

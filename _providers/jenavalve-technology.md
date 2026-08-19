@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Public author profiles attached to published content.
@@ -196,15 +197,17 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
 random_paper: 148
 score:
-  band: thin
-  composite: 33.4
-  delta: 0.0
+  band: developing
+  composite: 41.3
+  delta: 7.9
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 53.4
-    developer_ergonomics: 27.7
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 20.8
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 33.4
   provenance:
@@ -221,9 +224,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:
 - kind: authentication

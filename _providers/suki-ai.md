@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -376,7 +377,10 @@ rate_limits:
   name: Suki Ai Rate Limits
   slug: suki-ai-rate-limits
 rules:
-- name: Suki AI API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Suki AI API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -384,7 +388,9 @@ rules:
     info: 1
     warn: 7
   slug: suki-ai-asyncapi-spectral-rules
-- name: Suki AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Suki AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -393,15 +399,17 @@ rules:
     warn: 3
   slug: suki-ai-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 54.8
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 2.0
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 41.3
+    contract_governance: 28.8
+    contract_quality: 67.8
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 36.8
   previous_composite: 54.8
   provenance:
@@ -417,8 +425,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:

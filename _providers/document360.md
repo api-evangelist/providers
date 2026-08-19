@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -199,7 +200,9 @@ rate_limits:
   name: Document360 Rate Limits
   slug: document360-rate-limits
 rules:
-- name: Document360 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Document360 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,15 +212,17 @@ rules:
   slug: document360-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 41.8
+  delta: -10.4
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 72.4
-    developer_ergonomics: 39.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 71.3
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -226,9 +231,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/screenshots/document360-2026-06-20T180118.png
 security:
 - kind: authentication

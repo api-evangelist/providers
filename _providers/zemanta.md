@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Teads DSP REST Campaign Management API, formerly the Zemanta One API. It lets Teads DSP clients programmatically create and manage accounts, campaigns, budgets, campaign goals, ad groups, ad group
@@ -161,19 +162,23 @@ scopes:
   slug: zemanta-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 28.5
-  delta: 0.0
+  band: emerging
+  composite: 25.7
+  delta: -2.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 4.5
+    operational_transparency: 34.2
   previous_composite: 28.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

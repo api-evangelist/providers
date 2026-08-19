@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 60.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -269,14 +270,16 @@ rate_limits:
   slug: viator-rate-limits
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 51.3
+  delta: -0.1
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 65.4
-    developer_ergonomics: 66.8
+    contract_governance: 16.7
+    contract_quality: 63.4
+    developer_ergonomics: 66.1
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 51.4
   provenance:
@@ -289,9 +292,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png
 security:
 - kind: authentication
   name: Viator Authentication

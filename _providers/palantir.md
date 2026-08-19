@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -144,15 +145,17 @@ rate_limits:
   slug: palantir-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 28.0
+  delta: -9.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 59.0
-    developer_ergonomics: 30.4
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 55.2
+    developer_ergonomics: 11.9
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 37.4
   provenance:
     agentic_access: derived
@@ -166,10 +169,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 48.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 33.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png
 security:
 - kind: authentication

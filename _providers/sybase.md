@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -319,7 +320,9 @@ rate_limits:
   name: Sybase Rate Limits
   slug: sybase-rate-limits
 rules:
-- name: Sybase API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sybase API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -327,7 +330,10 @@ rules:
     info: 2
     warn: 3
   slug: sybase-jsonschema-spectral-rules
-- name: Sybase API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Sybase API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -336,16 +342,18 @@ rules:
     warn: 6
   slug: sybase-rules
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 43.6
+  delta: -14.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 64.9
-    developer_ergonomics: 56.5
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 38.1
     discoverability: 63.0
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -354,9 +362,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:
 - kind: authentication

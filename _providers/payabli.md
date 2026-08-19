@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-17'
+  score: 65.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -524,15 +525,17 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 142
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 63.8
+  delta: 4.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.5
-    developer_ergonomics: 91.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 57.1
+    developer_ergonomics: 90.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -549,9 +552,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png
 security:

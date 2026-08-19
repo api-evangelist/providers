@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -214,7 +215,9 @@ rate_limits:
   name: Xiaomi Rate Limits
   slug: xiaomi-rate-limits
 rules:
-- name: Xiaomi API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Xiaomi API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,7 +225,10 @@ rules:
     info: 1
     warn: 4
   slug: xiaomi-jsonschema-spectral-rules
-- name: Xiaomi API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Xiaomi API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -236,16 +242,18 @@ scopes:
   slug: xiaomi-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 36.9
+  delta: -6.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 66.0
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 61.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -254,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/screenshots/xiaomi-2026-06-20T201705.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-17'
+  score: 57.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -272,16 +273,18 @@ scopes:
   slug: wefunder-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 52.8
-  delta: 0.0
+  band: strong
+  composite: 56.6
+  delta: 3.8
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 70.2
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 67.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -299,9 +302,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/screenshots/wefunder-2026-08-17T082859.png
 security:
 - kind: authentication
   name: Wefunder Authentication

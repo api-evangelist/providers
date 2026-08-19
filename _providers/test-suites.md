@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -170,7 +171,9 @@ rate_limits:
   name: Test Suites Rate Limits
   slug: test-suites-rate-limits
 rules:
-- name: Test Suites API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Test Suites API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,14 +183,16 @@ rules:
   slug: test-suites-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 34.6
+  delta: -5.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 61.2
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 60.8
+    developer_ergonomics: 11.9
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 39.8
   provenance:
@@ -197,9 +202,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/screenshots/test-suites-2026-06-20T195156.png
 security:
 - kind: authentication

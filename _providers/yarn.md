@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The @yarnpkg/core programmatic JavaScript/TypeScript API that allows applications to interact with Yarn projects, workspaces, and dependency resolution. Used for building Yarn plugins and tooling inte
@@ -164,7 +165,9 @@ rate_limits:
   name: Yarn Rate Limits
   slug: yarn-rate-limits
 rules:
-- name: YARN API Rules
+- effective_rule_count: 5
+  extends: []
+  name: YARN API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -174,19 +177,21 @@ rules:
   slug: yarn-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 20.8
+  delta: -5.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 9.8
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn/refs/heads/main/screenshots/yarn-2026-06-20T201731.png
 security:
 - kind: domain-security

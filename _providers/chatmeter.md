@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for accessing and administrating all Chatmeter platform data including location listings, review management, social monitoring, surveys, and user administration. Uses JSON Web Token (JWT) aut
@@ -179,19 +180,24 @@ rate_limits:
   slug: chatmeter-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 16.1
+  composite: 33.7
+  delta: -3.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 8.1
-    developer_ergonomics: 34.8
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 7.0
+    developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 37.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/screenshots/chatmeter-2026-06-20T174238.png
 security:
 - kind: authentication

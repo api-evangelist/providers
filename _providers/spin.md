@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Spin HTTP Trigger API handles incoming HTTP requests and routes them to the appropriate Spin component. Components receive an HTTP request object and return an HTTP response. Supported via the Spi
@@ -162,7 +163,9 @@ rate_limits:
   name: Spin Rate Limits
   slug: spin-rate-limits
 rules:
-- name: Spin API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spin API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -170,7 +173,10 @@ rules:
     info: 1
     warn: 4
   slug: spin-jsonschema-spectral-rules
-- name: Spin API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Spin API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -179,20 +185,22 @@ rules:
     warn: 5
   slug: spin-rules
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: emerging
+  composite: 21.8
+  delta: -8.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 15.5
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 34.2
+    governance: 25.0
+    operational_transparency: 31.6
   previous_composite: 29.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/screenshots/spin-2026-06-20T194314.png
 security:
 - kind: domain-security

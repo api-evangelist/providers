@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -220,7 +221,9 @@ rate_limits:
   name: Ciena Rate Limits
   slug: ciena-rate-limits
 rules:
-- name: Ciena API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ciena API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,15 +238,17 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 44.1
+  delta: -6.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 67.2
-    developer_ergonomics: 34.8
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    contract_governance: 9.8
+    contract_quality: 64.0
+    developer_ergonomics: 28.6
+    discoverability: 74.1
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -258,10 +263,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-08-17T123118.png
 security:
 - kind: authentication
   name: Ciena Authentication

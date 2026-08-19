@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -235,15 +236,17 @@ rate_limits:
   slug: cloudflare-ai-gateway-rate-limits
 score:
   band: strong
-  composite: 57.3
-  delta: 0.0
+  composite: 55.8
+  delta: -1.5
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 56.7
-    developer_ergonomics: 89.1
+    contract_governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 88.1
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 57.9
+    operational_transparency: 55.3
   previous_composite: 57.3
   provenance:
     agentic_access: derived
@@ -252,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/screenshots/cloudflare-ai-gateway-2026-06-20T174550.png
 security:

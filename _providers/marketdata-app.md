@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -262,16 +263,18 @@ rate_limits:
   name: Marketdata App Rate Limits
   slug: marketdata-app-rate-limits
 score:
-  band: strong
-  composite: 63.3
-  delta: 0.0
+  band: exemplar
+  composite: 68.0
+  delta: 4.7
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 60.4
-    developer_ergonomics: 71.2
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 73.7
+    governance: 16.7
+    operational_transparency: 71.1
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -289,8 +292,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

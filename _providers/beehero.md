@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -170,14 +170,16 @@ overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 134
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 39.3
+  delta: -2.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.6
-    developer_ergonomics: 42.9
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 60.1
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 42.0
   provenance:
@@ -190,8 +192,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:

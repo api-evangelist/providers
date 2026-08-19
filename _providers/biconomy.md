@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -343,7 +344,9 @@ rate_limits:
   name: Biconomy Rate Limits
   slug: biconomy-rate-limits
 rules:
-- name: Biconomy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Biconomy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -351,7 +354,10 @@ rules:
     info: 2
     warn: 3
   slug: biconomy-jsonschema-spectral-rules
-- name: Biconomy API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Biconomy API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -361,14 +367,16 @@ rules:
   slug: biconomy-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 44.4
+  delta: -2.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 76.1
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 71.3
+    developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 47.3
   provenance:
@@ -384,8 +392,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
 security:

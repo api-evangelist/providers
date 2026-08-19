@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -181,15 +182,17 @@ overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 87
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 38.8
+  delta: 0.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 54.8
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 53.0
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -201,8 +204,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

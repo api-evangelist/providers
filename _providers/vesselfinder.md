@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -344,7 +345,9 @@ rate_limits:
   name: Vesselfinder Rate Limits
   slug: vesselfinder-rate-limits
 rules:
-- name: VesselFinder API Rules
+- effective_rule_count: 6
+  extends: []
+  name: VesselFinder API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -352,7 +355,10 @@ rules:
     info: 2
     warn: 4
   slug: vesselfinder-jsonschema-spectral-rules
-- name: VesselFinder API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: VesselFinder API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -361,15 +367,17 @@ rules:
     warn: 3
   slug: vesselfinder-rules
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: -6.7
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 71.6
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 70.8
+    developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 58.8
   provenance:
@@ -379,9 +387,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:
 - kind: authentication

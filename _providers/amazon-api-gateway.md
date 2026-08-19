@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -906,7 +907,10 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
   Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 28 more developer resources.'
 random_paper: 16
 rules:
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Amazon API Gateway API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -914,7 +918,9 @@ rules:
     info: 1
     warn: 7
   slug: amazon-api-gateway-asyncapi-spectral-rules
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon API Gateway API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -922,7 +928,10 @@ rules:
     info: 2
     warn: 4
   slug: amazon-api-gateway-jsonschema-spectral-rules
-- name: Amazon API Gateway API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Amazon API Gateway API Rules
   rule_count: 17
   severity_counts:
     error: 5
@@ -932,15 +941,17 @@ rules:
   slug: amazon-api-gateway-spectral-rules
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 54.4
+  delta: -3.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 81.7
-    developer_ergonomics: 41.3
+    contract_governance: 45.5
+    contract_quality: 82.3
+    developer_ergonomics: 40.5
     discoverability: 77.8
-    governance: 69.8
-    operational_transparency: 5.3
+    governance: 45.5
+    operational_transparency: 2.6
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -951,8 +962,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

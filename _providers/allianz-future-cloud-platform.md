@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -305,7 +306,9 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 random_paper: 122
 rules:
-- name: Allianz Future Cloud Platform API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Allianz Future Cloud Platform API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -313,7 +316,10 @@ rules:
     info: 1
     warn: 4
   slug: allianz-future-cloud-platform-jsonschema-spectral-rules
-- name: Allianz Future Cloud Platform API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Allianz Future Cloud Platform API Rules
   rule_count: 32
   severity_counts:
     error: 15
@@ -328,14 +334,16 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 31.1
+  delta: -4.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 31.7
-    developer_ergonomics: 23.9
+    contract_governance: 41.7
+    contract_quality: 29.8
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 5.3
   previous_composite: 35.6
   provenance:
@@ -353,8 +361,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 60.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:

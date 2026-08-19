@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -145,15 +146,17 @@ rate_limits:
   slug: portcast-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 35.0
+  delta: -0.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 60.3
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 57.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -162,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

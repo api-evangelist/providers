@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: Reactive web framework providing annotated controllers, functional endpoints, dispatcher handler, and the full reactive request/response processing pipeline. Supports non-blocking I/O with Reactor Mon
@@ -168,7 +169,10 @@ rate_limits:
   name: Webflux Rate Limits
   slug: webflux-rate-limits
 rules:
-- name: Spring WebFlux API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Spring WebFlux API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,7 +180,9 @@ rules:
     info: 1
     warn: 4
   slug: webflux-asyncapi-spectral-rules
-- name: Spring WebFlux API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spring WebFlux API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,19 +192,21 @@ rules:
   slug: webflux-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 33.1
+  delta: -6.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 71.6
-    developer_ergonomics: 6.5
+    contract_governance: 28.8
+    contract_quality: 64.4
+    developer_ergonomics: 7.1
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 28.8
+    operational_transparency: 26.3
   previous_composite: 39.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflux/refs/heads/main/screenshots/webflux-2026-06-20T201330.png
 slug: webflux
 tags:

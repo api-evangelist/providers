@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-17'
+  score: 39.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -1479,7 +1480,10 @@ rate_limits:
   name: Asana Rate Limits
   slug: asana-rate-limits
 rules:
-- name: Asana API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Asana API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -1487,7 +1491,9 @@ rules:
     info: 0
     warn: 2
   slug: asana-asyncapi-spectral-rules
-- name: Asana API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Asana API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1501,15 +1507,17 @@ scopes:
   slug: asana-scopes
   summary_line: 18 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.8
-  delta: 0.0
+  band: strong
+  composite: 66.1
+  delta: -3.7
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 85.6
-    developer_ergonomics: 63.0
+    contract_governance: 11.4
+    contract_quality: 85.3
+    developer_ergonomics: 69.0
     discoverability: 66.7
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 71.1
   previous_composite: 69.8
   provenance:
@@ -1519,8 +1527,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:

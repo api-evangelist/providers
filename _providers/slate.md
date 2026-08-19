@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Slate is an open-source static site generator for creating beautiful, three-panel API documentation from Markdown files. Originally created by Robert Lord in 2013 at TripIt and later maintained by the
@@ -158,7 +159,9 @@ rate_limits:
   name: Slate Rate Limits
   slug: slate-rate-limits
 rules:
-- name: Slate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Slate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,18 +171,26 @@ rules:
   slug: slate-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 26.7
+  delta: -4.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 17.7
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 16.9
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 31.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slate/refs/heads/main/screenshots/slate-2026-06-20T194025.png
 slug: slate

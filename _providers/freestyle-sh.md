@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -444,7 +445,9 @@ rate_limits:
   name: Freestyle Sh Rate Limits
   slug: freestyle-sh-rate-limits
 rules:
-- name: Freestyle API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Freestyle API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -454,14 +457,16 @@ rules:
   slug: freestyle-sh-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 61.5
+  delta: -4.4
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 73.3
-    developer_ergonomics: 65.2
+    contract_governance: 9.8
+    contract_quality: 74.1
+    developer_ergonomics: 71.4
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 65.9
   provenance:
@@ -471,8 +476,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

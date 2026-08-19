@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +195,9 @@ rate_limits:
   name: Vs Code Marketplace Rate Limits
   slug: vs-code-marketplace-rate-limits
 rules:
-- name: VS Code Marketplace API Rules
+- effective_rule_count: 5
+  extends: []
+  name: VS Code Marketplace API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -202,7 +205,10 @@ rules:
     info: 2
     warn: 3
   slug: vs-code-marketplace-jsonschema-spectral-rules
-- name: VS Code Marketplace API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: VS Code Marketplace API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -212,14 +218,16 @@ rules:
   slug: vs-code-marketplace-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 39.8
+  delta: -5.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 58.7
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 55.7
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 45.7
   provenance:
@@ -229,9 +237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/screenshots/vs-code-marketplace-2026-06-20T201145.png
 security:
 - kind: domain-security

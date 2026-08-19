@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -271,16 +272,18 @@ rate_limits:
   name: Shipmonk Rate Limits
   slug: shipmonk-rate-limits
 score:
-  band: strong
-  composite: 61.5
-  delta: 0.0
+  band: developing
+  composite: 53.5
+  delta: -8.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 64.6
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 41.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 56.6
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -292,9 +295,10 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
 security:
 - kind: authentication
   name: Shipmonk Authentication

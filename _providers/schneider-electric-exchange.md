@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The EcoStruxure IT Expert API provides programmatic access to data center infrastructure management data. It enables integrations to query locations, devices, alarms, sensors, and measurements from th
@@ -162,7 +163,9 @@ rate_limits:
   name: Schneider Electric Exchange Rate Limits
   slug: schneider-electric-exchange-rate-limits
 rules:
-- name: Schneider Electric Exchange API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Schneider Electric Exchange API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -172,14 +175,16 @@ rules:
   slug: schneider-electric-exchange-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 23.0
+  delta: -3.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 21.1
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 26.8
   regulatory:
@@ -188,8 +193,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/screenshots/schneider-electric-exchange-2026-06-20T193528.png
 security:

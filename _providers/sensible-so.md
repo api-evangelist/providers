@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -433,7 +434,9 @@ rate_limits:
   name: Sensible So Rate Limits
   slug: sensible-so-rate-limits
 rules:
-- name: sensible-so API Rules
+- effective_rule_count: 5
+  extends: []
+  name: sensible-so API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -441,7 +444,9 @@ rules:
     info: 1
     warn: 4
   slug: sensible-so-jsonschema-spectral-rules
-- name: sensible-so API Rules
+- effective_rule_count: 12
+  extends: []
+  name: sensible-so API Rules
   rule_count: 12
   severity_counts:
     error: 9
@@ -450,15 +455,17 @@ rules:
     warn: 3
   slug: sensible-so-rules
 score:
-  band: exemplar
-  composite: 69.0
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: -6.4
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 72.8
-    developer_ergonomics: 69.6
+    contract_governance: 25.0
+    contract_quality: 70.3
+    developer_ergonomics: 66.7
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 69.0
   provenance:
@@ -468,9 +475,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:
 - kind: authentication

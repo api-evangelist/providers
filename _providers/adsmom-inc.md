@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Stable REST API over the Adsmom ad index. 78 operations across Explore (list, hydrate and detail Meta/TikTok/Google/LinkedIn ads, plus reach and impression timeseries and point-in-time snapshots), Ins
@@ -181,21 +181,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.3
-  delta: 24.7
+  composite: 44.1
+  delta: -6.2
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 47.0
-    developer_ergonomics: 43.5
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 30.3
+    contract_quality: 46.2
+    developer_ergonomics: 32.7
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 26.3
-  previous_composite: 25.6
+    governance: 30.3
+    operational_transparency: 7.9
+  previous_composite: 50.3
   provenance:
+    conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:
 - kind: authentication

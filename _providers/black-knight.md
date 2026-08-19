@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -217,7 +218,9 @@ rate_limits:
   name: Black Knight Rate Limits
   slug: black-knight-rate-limits
 rules:
-- name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +228,10 @@ rules:
     info: 2
     warn: 3
   slug: black-knight-jsonschema-spectral-rules
-- name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -235,19 +241,21 @@ rules:
   slug: black-knight-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 26.5
+  delta: -6.5
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 33.9
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 33.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/screenshots/black-knight-2026-06-20T173333.png
 security:
 - kind: domain-security

@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: ChEMBL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ChEMBL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,15 +242,23 @@ rules:
   slug: chembl-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 32.5
+  delta: -3.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 53.7
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 50.7
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 35.9
   provenance:
     agentic_access: derived
@@ -262,8 +273,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/screenshots/chembl-2026-06-20T174255.png
 security:

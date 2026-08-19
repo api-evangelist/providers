@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
@@ -92,18 +93,20 @@ overview: 'Oracle NetSuite publishes 3 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 136
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 25.0
+  delta: -1.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 48.1
-    developer_ergonomics: 17.4
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 26.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsuite/refs/heads/main/screenshots/netsuite-2026-06-20T190208.png
 security:

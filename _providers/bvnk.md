@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -328,15 +329,17 @@ scopes:
   summary_line: 156 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 63.1
+  delta: 0.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.5
-    developer_ergonomics: 86.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 66.8
+    developer_ergonomics: 75.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -354,9 +357,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/screenshots/bvnk-2026-08-17T080753.png
 security:
 - kind: authentication
   name: Bvnk Authentication

@@ -13,7 +13,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
@@ -212,20 +213,25 @@ scopes:
   slug: keepface-scopes
   summary_line: 11 scopes
 score:
-  band: developing
-  composite: 49.1
-  delta: 32.6
+  band: thin
+  composite: 38.0
+  delta: -11.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 16.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 49.1
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/screenshots/keepface-2026-07-25T223555.png
 security:
 - kind: authentication

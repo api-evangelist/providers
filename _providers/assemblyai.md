@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -171,7 +172,10 @@ rate_limits:
   name: Assemblyai Rate Limits
   slug: assemblyai-rate-limits
 rules:
-- name: AssemblyAI API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: AssemblyAI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -181,15 +185,17 @@ rules:
   slug: assemblyai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 42.7
+  delta: -7.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 70.5
-    developer_ergonomics: 26.1
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 11.4
+    contract_quality: 66.5
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 52.1
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -198,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: IIIF Presentation (v2 stable, v3 alpha) and Image v2 APIs for digital image interoperability across the Stanford Digital Repository. Presentation manifests served from purl.stanford.edu; image tiles f
@@ -143,18 +144,26 @@ rate_limits:
   slug: stanford-rate-limits
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 25.1
+  delta: 0.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 12.9
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 15.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 40.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:

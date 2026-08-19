@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -273,7 +274,10 @@ rate_limits:
   name: Trello Rate Limits
   slug: trello-rate-limits
 rules:
-- name: trello API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: trello API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -281,7 +285,9 @@ rules:
     info: 0
     warn: 7
   slug: trello-asyncapi-spectral-rules
-- name: trello API Rules
+- effective_rule_count: 6
+  extends: []
+  name: trello API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -289,7 +295,10 @@ rules:
     info: 2
     warn: 4
   slug: trello-jsonschema-spectral-rules
-- name: trello API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: trello API Rules
   rule_count: 20
   severity_counts:
     error: 4
@@ -299,15 +308,17 @@ rules:
   slug: trello-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 35.8
+  delta: -3.3
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 76.7
-    developer_ergonomics: 10.9
+    contract_governance: 26.5
+    contract_quality: 76.4
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 52.1
-    operational_transparency: 13.2
+    governance: 26.5
+    operational_transparency: 10.5
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -316,8 +327,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Create and manage pre-authorization orders.
@@ -173,14 +174,16 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 random_paper: 125
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 52.2
+  delta: 6.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 70.1
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 71.3
+    developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 45.8
   provenance:
@@ -197,10 +200,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 46.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/screenshots/preauth-instacash-2026-08-17T124847.png
 security:
 - kind: authentication
   name: Preauth Instacash Authentication

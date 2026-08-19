@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -541,7 +542,9 @@ rate_limits:
   name: Oracle Integration Rate Limits
   slug: oracle-integration-rate-limits
 rules:
-- name: Oracle Integration API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle Integration API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -549,7 +552,10 @@ rules:
     info: 2
     warn: 3
   slug: oracle-integration-jsonschema-spectral-rules
-- name: Oracle Integration API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Oracle Integration API Rules
   rule_count: 42
   severity_counts:
     error: 18
@@ -564,15 +570,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 46.7
+  delta: -5.4
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 31.0
-    developer_ergonomics: 69.6
+    contract_governance: 25.0
+    contract_quality: 32.5
+    developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -581,9 +589,9 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:
 - kind: authentication

@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -460,16 +461,18 @@ scopes:
   slug: modernizing-medicine-scopes
   summary_line: 76 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 3.0
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 57.4
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 54.2
+    developer_ergonomics: 41.1
     discoverability: 68.5
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 35.5
   previous_composite: 54.5
   provenance:
     agentic_access: derived
@@ -486,9 +489,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 73.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 100.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:

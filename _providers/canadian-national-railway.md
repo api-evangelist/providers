@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: CN's Application Programming Interface (API) enables shippers to integrate CN data and operations into their own systems. The API supports automated shipment ordering, equipment release, real-time car
@@ -116,18 +117,20 @@ overview: 'Canadian National Railway publishes 5 APIs on the [APIs.io](https://a
 random_paper: 136
 score:
   band: minimal
-  composite: 8.2
-  delta: 0.0
+  composite: 8.4
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/screenshots/canadian-national-railway-2026-06-20T173917.png
 security:

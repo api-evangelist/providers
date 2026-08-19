@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -441,7 +442,9 @@ rate_limits:
   name: Booking Holdings Rate Limits
   slug: booking-holdings-rate-limits
 rules:
-- name: Booking Holdings API Rules
+- effective_rule_count: 30
+  extends: []
+  name: Booking Holdings API Rules
   rule_count: 30
   severity_counts:
     error: 10
@@ -449,7 +452,9 @@ rules:
     info: 7
     warn: 13
   slug: booking-com-demand-api-spectral-rules
-- name: Booking Holdings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Booking Holdings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -457,7 +462,10 @@ rules:
     info: 1
     warn: 4
   slug: booking-holdings-jsonschema-spectral-rules
-- name: Booking Holdings API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Booking Holdings API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -467,14 +475,16 @@ rules:
   slug: booking-holdings-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 27.3
+  delta: -4.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 22.9
-    developer_ergonomics: 13.0
+    contract_governance: 28.8
+    contract_quality: 21.5
+    developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 47.9
+    governance: 28.8
     operational_transparency: 36.8
   previous_composite: 32.0
   provenance:
@@ -484,8 +494,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png
 security:

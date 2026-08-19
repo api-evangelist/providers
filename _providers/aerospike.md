@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,15 +130,17 @@ overview: 'Aerospike publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 69
 score:
   band: thin
-  composite: 28.9
-  delta: 0.0
+  composite: 26.5
+  delta: -2.4
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 40.3
-    developer_ergonomics: 34.8
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 37.8
+    developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 28.9
   provenance:
     agentic_access: derived
@@ -146,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/screenshots/aerospike-2026-06-20T165533.png
 security:

@@ -13,7 +13,7 @@ agent_readiness:
   dimensions:
     agent_card: near-conformant
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.9
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -310,26 +311,38 @@ scopes:
   slug: fasten-health-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 55.5
-  delta: 32.0
+  band: strong
+  composite: 58.5
+  delta: 3.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 53.5
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 23.5
+    governance: 30.3
+    operational_transparency: 42.1
+  previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 66.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/screenshots/fasten-health-2026-06-20T181048.png
 security:
 - kind: authentication

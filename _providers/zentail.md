@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Zentail's Open API for building custom sales-channel, inventory, and fulfillment integrations and running bulk product report imports/exports. Authenticated with an account API token generated under A
@@ -123,20 +124,22 @@ overview: 'Zentail publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 14
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 31.7
+  delta: 1.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 15.8
   previous_composite: 30.5
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

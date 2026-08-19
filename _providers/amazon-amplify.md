@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -313,7 +314,9 @@ overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) net
   Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
 random_paper: 104
 rules:
-- name: Amazon Amplify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Amplify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,7 +324,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-amplify-jsonschema-spectral-rules
-- name: Amazon Amplify API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Amazon Amplify API Rules
   rule_count: 14
   severity_counts:
     error: 5
@@ -331,15 +337,17 @@ rules:
   slug: amazon-amplify-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 50.0
+  delta: -4.4
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 73.1
-    developer_ergonomics: 43.5
+    contract_governance: 41.7
+    contract_quality: 74.1
+    developer_ergonomics: 45.2
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 5.3
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -350,8 +358,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:

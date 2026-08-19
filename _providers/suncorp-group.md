@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,16 +99,18 @@ overview: 'Suncorp Group is profiled on the [APIs.io](https://apis.io/) network.
   Suncorp Group''s developer surface includes engineering blog, support, and 13 more developer resources.'
 random_paper: 39
 score:
-  band: emerging
-  composite: 15.7
-  delta: 0.0
+  band: minimal
+  composite: 6.2
+  delta: -9.5
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 15.7
   provenance:
     conformance: derived
@@ -116,10 +119,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 16.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Suncorp Group Authentication

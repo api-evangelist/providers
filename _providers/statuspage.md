@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -147,7 +148,10 @@ overview: 'Statuspage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   Statuspage''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
 random_paper: 46
 rules:
-- name: Statuspage API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Statuspage API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -157,15 +161,17 @@ rules:
   slug: statuspage-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 34.8
+  delta: -5.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 61.0
-    developer_ergonomics: 32.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 11.4
+    contract_quality: 58.0
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 41.7
-    operational_transparency: 5.3
+    governance: 11.4
+    operational_transparency: 2.6
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -174,9 +180,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/screenshots/statuspage-2026-06-20T194529.png
 security:
 - kind: authentication

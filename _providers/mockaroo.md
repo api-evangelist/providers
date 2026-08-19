@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -361,7 +362,9 @@ rate_limits:
   name: Mockaroo Rate Limits
   slug: mockaroo-rate-limits
 rules:
-- name: Mockaroo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mockaroo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -369,7 +372,10 @@ rules:
     info: 2
     warn: 3
   slug: mockaroo-jsonschema-spectral-rules
-- name: Mockaroo API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Mockaroo API Rules
   rule_count: 10
   severity_counts:
     error: 7
@@ -378,16 +384,18 @@ rules:
     warn: 3
   slug: mockaroo-rules
 score:
-  band: exemplar
-  composite: 67.7
-  delta: 0.0
+  band: strong
+  composite: 55.8
+  delta: -11.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 73.9
-    developer_ergonomics: 45.7
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 67.7
   provenance:
     agentic_access: derived
@@ -396,9 +404,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/screenshots/mockaroo-2026-06-20T185637.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Reflect Rate Limits
   slug: reflect-rate-limits
 rules:
-- name: Reflect API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Reflect API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +221,10 @@ rules:
     info: 2
     warn: 3
   slug: reflect-jsonschema-spectral-rules
-- name: Reflect API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Reflect API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -227,16 +233,18 @@ rules:
     warn: 3
   slug: reflect-rules
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -10.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 55.2
-    developer_ergonomics: 23.9
-    discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 13.2
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 25.0
+    contract_quality: 51.7
+    developer_ergonomics: 14.3
+    discoverability: 74.1
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/screenshots/reflect-2026-06-20T192747.png
 security:
 - kind: authentication

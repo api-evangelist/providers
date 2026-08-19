@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,15 +164,17 @@ overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 10
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 34.7
+  delta: -6.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 61.9
-    developer_ergonomics: 40.8
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 31.8
+    contract_quality: 60.1
+    developer_ergonomics: 35.1
     discoverability: 70.4
-    governance: 21.9
-    operational_transparency: 5.3
+    governance: 31.8
+    operational_transparency: 2.6
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -188,10 +191,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Nutrientsdb Authentication

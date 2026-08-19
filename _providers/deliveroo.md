@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -440,7 +441,10 @@ rate_limits:
   name: Deliveroo Rate Limits
   slug: deliveroo-rate-limits
 rules:
-- name: Deliveroo API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Deliveroo API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -448,7 +452,9 @@ rules:
     info: 0
     warn: 6
   slug: deliveroo-asyncapi-spectral-rules
-- name: Deliveroo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Deliveroo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -456,7 +462,10 @@ rules:
     info: 1
     warn: 4
   slug: deliveroo-jsonschema-spectral-rules
-- name: Deliveroo API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Deliveroo API Rules
   rule_count: 36
   severity_counts:
     error: 6
@@ -466,15 +475,17 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 40.2
+  delta: -6.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 31.0
-    developer_ergonomics: 39.1
+    contract_governance: 26.5
+    contract_quality: 29.0
+    developer_ergonomics: 32.1
     discoverability: 68.5
-    governance: 62.5
-    operational_transparency: 36.8
+    governance: 26.5
+    operational_transparency: 34.2
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -483,9 +494,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:
 - kind: authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 32.2
+  scored_at: '2026-08-19'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -231,14 +232,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 38.0
+  delta: 2.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 66.1
-    developer_ergonomics: 38.6
+    contract_governance: 30.3
+    contract_quality: 61.9
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 35.9
   provenance:
@@ -255,9 +258,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 49.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

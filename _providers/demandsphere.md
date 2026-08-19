@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -232,19 +233,21 @@ rate_limits:
   slug: demandsphere-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: 6.3
+  composite: 57.0
+  delta: -3.6
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 51.5
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 48.3
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
-  previous_composite: 54.3
+    governance: 30.3
+    operational_transparency: 28.9
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -252,9 +255,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/screenshots/demandsphere-2026-07-25T211708.png
 security:
 - kind: authentication

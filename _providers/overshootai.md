@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -175,15 +176,17 @@ rate_limits:
   slug: overshootai-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 33.7
+  delta: -4.4
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 48.8
-    developer_ergonomics: 51.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 46.2
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -195,8 +198,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/screenshots/overshootai-2026-08-07T191137.png
 security:

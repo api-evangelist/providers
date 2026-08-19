@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The core Bolt merchant API. Covers Bolt shopper accounts (profile, addresses, payment methods), merchant configuration and callbacks, order token creation, shipment tracking, transaction authorize/cap
@@ -218,15 +219,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 62.6
+  delta: 2.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 67.3
-    developer_ergonomics: 76.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 30.3
+    contract_quality: 64.6
+    developer_ergonomics: 77.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 60.5
   provenance:
     conformance: first-party
@@ -242,9 +245,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 78.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/screenshots/bolt-financial-2026-08-07T162709.png
 security:

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -191,22 +192,25 @@ rate_limits:
   name: Dinmo Rate Limits
   slug: dinmo-rate-limits
 score:
-  band: developing
-  composite: 55.5
-  delta: 26.1
+  band: strong
+  composite: 55.1
+  delta: -0.4
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 29.4
+  previous_composite: 55.5
   provenance:
+    conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png
 security:
 - kind: authentication

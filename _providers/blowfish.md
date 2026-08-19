@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,16 +195,18 @@ overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   Blowfish''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 20 more developer resources.'
 random_paper: 117
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  delta: -5.2
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 20.5
+    contract_quality: 60.8
+    developer_ergonomics: 41.1
     discoverability: 81.5
-    governance: 14.1
-    operational_transparency: 5.3
+    governance: 20.5
+    operational_transparency: 2.6
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -220,10 +223,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 29.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:
 - kind: authentication

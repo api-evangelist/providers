@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -196,7 +197,10 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
 random_paper: 46
 rules:
-- name: FastSpring API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: FastSpring API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -206,15 +210,17 @@ rules:
   slug: fastspring-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 32.5
+  delta: -6.7
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 61.2
-    developer_ergonomics: 26.1
+    contract_governance: 13.6
+    contract_quality: 57.3
+    developer_ergonomics: 13.1
     discoverability: 81.5
-    governance: 47.9
-    operational_transparency: 5.3
+    governance: 13.6
+    operational_transparency: 2.6
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -229,9 +235,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:
 - kind: authentication

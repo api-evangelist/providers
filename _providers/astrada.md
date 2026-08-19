@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -353,14 +354,16 @@ scopes:
   summary_line: 34 scopes · implicit
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 63.9
+  delta: 4.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.1
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 66.0
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 50.0
   previous_composite: 59.5
   provenance:
@@ -378,9 +381,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 84.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

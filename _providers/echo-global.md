@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -202,7 +203,9 @@ rate_limits:
   name: Echo Global Rate Limits
   slug: echo-global-rate-limits
 rules:
-- name: Echo Global Logistics API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Echo Global Logistics API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -212,14 +215,16 @@ rules:
   slug: echo-global-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 43.3
+  delta: -6.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 63.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 49.7
   provenance:
@@ -229,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -309,7 +310,9 @@ rate_limits:
   name: Orbit Rate Limits
   slug: orbit-rate-limits
 rules:
-- name: Orbit API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Orbit API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -318,16 +321,18 @@ rules:
     warn: 4
   slug: orbit-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 48.6
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -10.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 57.5
-    developer_ergonomics: 21.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 9.8
+    contract_quality: 54.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -336,9 +341,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/screenshots/orbit-2026-08-17T124255.png
 security:
 - kind: authentication
   name: Orbit Authentication

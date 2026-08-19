@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 47.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -238,14 +239,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 45.1
+  delta: -2.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 44.2
-    developer_ergonomics: 62.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 42.5
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 47.4
   provenance:
@@ -258,8 +261,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: RESTful access to ERCOT Market Information List (EMIL) public data products — 106 documented endpoints spanning real-time and day-ahead locational marginal prices, settlement point prices, SCED system
@@ -237,16 +237,18 @@ scopes:
   slug: ercot-scopes
   summary_line: 3 scopes · password
 score:
-  band: developing
-  composite: 52.6
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 6.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 67.9
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 65.7
+    developer_ergonomics: 56.5
     discoverability: 83.3
-    governance: 11.5
-    operational_transparency: 57.9
+    governance: 16.7
+    operational_transparency: 55.3
   previous_composite: 52.6
   provenance:
     conformance: derived
@@ -262,10 +264,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 67.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
 security:
 - kind: authentication

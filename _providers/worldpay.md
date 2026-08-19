@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 58.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -393,12 +394,14 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 46.8
+  delta: 0.4
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 63.7
-    developer_ergonomics: 58.7
+    contract_governance: 0.0
+    contract_quality: 62.1
+    developer_ergonomics: 50.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
@@ -416,9 +419,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/screenshots/worldpay-2026-08-17T130436.png
 security:
 - kind: authentication
   name: Worldpay Authentication

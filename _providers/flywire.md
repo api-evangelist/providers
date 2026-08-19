@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for integrating Flywire's global payment network — one-off, recurring, pre-authorization, refund and 529 payments, checkout sessions, payors, recipients, and documents, with real-time payment
@@ -182,15 +183,17 @@ overview: 'Flywire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 25
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 49.7
+  delta: 0.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 66.7
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 39.5
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 49.4
   provenance:
     conformance: first-party
@@ -200,9 +203,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/screenshots/flywire-2026-07-25T214857.png
 security:

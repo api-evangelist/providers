@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: A POST-only REST API for programmatically writing data into Marin. Five bulk endpoints — /campaigns, /groups, /keywords, /ads and /strategies — accept a JSON body containing a single "data" array of r
@@ -151,18 +152,22 @@ rate_limits:
   slug: marin-software-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 32.1
+  delta: -0.4
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 32.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png
 security:

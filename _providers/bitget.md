@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
@@ -119,26 +120,28 @@ overview: 'Bitget publishes 1 API on the [APIs.io](https://apis.io/) network: Sp
   Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 9 more developer resources.'
 random_paper: 43
 score:
-  band: thin
-  composite: 30.8
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -8.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 32.3
-    developer_ergonomics: 32.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 30.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 33.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 20.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/screenshots/bitget-2026-06-20T173307.png
 security:
 - kind: domain-security

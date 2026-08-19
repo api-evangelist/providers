@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST API giving partner developers and shipper TMS platforms access to the core Emerge shipper workflow: create and manage opportunities, post them to the Emerge Marketplace or to network partners, re'
@@ -215,20 +216,32 @@ rate_limits:
   name: Emerge Rate Limits
   slug: emerge-rate-limits
 score:
-  band: strong
-  composite: 60.9
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: -11.3
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 61.1
-    developer_ergonomics: 78.3
+    contract_governance: 16.7
+    contract_quality: 65.2
+    developer_ergonomics: 28.0
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 60.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:
 - kind: authentication
   name: Emerge Authentication

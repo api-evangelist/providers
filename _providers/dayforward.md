@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: A live GraphQL endpoint at api.dayforward.com/graphql that backs the Dayforward consumer application. Observed responding to GraphQL over HTTP POST (an empty operation returns a GRAPHQL_VALIDATION_FAI
@@ -96,16 +97,18 @@ overview: 'Dayforward publishes 1 API on the [APIs.io](https://apis.io/) network
   Dayforward''s developer surface includes signup flow, support, FAQ, and 11 more developer resources.'
 random_paper: 32
 score:
-  band: emerging
-  composite: 19.2
-  delta: 0.0
+  band: minimal
+  composite: 8.0
+  delta: -11.2
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 0.0
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 19.2
   provenance:
     conformance: derived
@@ -114,10 +117,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 16.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dayforward/refs/heads/main/screenshots/dayforward-2026-08-07T164205.png
 security:
 - kind: domain-security

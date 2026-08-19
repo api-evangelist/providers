@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-17'
+  score: 19.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Read-only, anonymously accessible WordPress REST API served by the Alzheon corporate site at https://alzheon.com/wp-json. It exposes the company's press releases and in-the-news items (224 posts), sta
@@ -113,14 +114,16 @@ overview: 'Alzheon publishes 1 API on the [APIs.io](https://apis.io/) network: C
 random_paper: 8
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 25.8
+  delta: 1.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 60.4
-    developer_ergonomics: 3.8
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 4.2
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 24.8
   provenance:
@@ -137,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png
 security:

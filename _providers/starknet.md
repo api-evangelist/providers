@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 27.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,7 +179,10 @@ rate_limits:
   name: Starknet Rate Limits
   slug: starknet-rate-limits
 rules:
-- name: Starknet API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Starknet API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -188,14 +192,16 @@ rules:
   slug: starknet-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 33.9
+  delta: -4.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.2
-    developer_ergonomics: 15.2
+    contract_governance: 11.4
+    contract_quality: 54.9
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 21.1
   previous_composite: 38.5
   provenance:
@@ -205,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
 security:

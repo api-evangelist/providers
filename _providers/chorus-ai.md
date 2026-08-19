@@ -15,22 +15,23 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Search and retrieve calls, meetings, emails and engagement metadata. A capability area of the single published Chorus API contract, served at /v3/engagements and /api/v1/conversations.
@@ -198,20 +199,31 @@ rate_limits:
   slug: chorus-ai-rate-limits
 score:
   band: developing
-  composite: 49.5
-  delta: 39.7
+  composite: 49.0
+  delta: -0.5
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 60.3
-    developer_ergonomics: 41.3
+    contract_governance: 30.3
+    contract_quality: 59.9
+    developer_ergonomics: 33.9
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 9.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-06-20T174336.png
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png
 security:
 - kind: authentication
   name: Chorus Ai Authentication

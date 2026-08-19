@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
@@ -186,14 +187,16 @@ overview: 'Unrivaled Basketball publishes 7 APIs on the [APIs.io](https://apis.i
 random_paper: 123
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 42.4
+  delta: 0.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 58.6
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 54.9
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 42.1
   provenance:
@@ -205,9 +208,10 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/screenshots/unrivaled-basketball-2026-08-17T082632.png
 security:
 - kind: authentication
   name: Unrivaled Basketball Authentication

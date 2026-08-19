@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 38.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -432,14 +432,16 @@ overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 31
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 52.1
+  delta: -0.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 55.0
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 54.1
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 26.3
   previous_composite: 52.4
   provenance:
@@ -452,8 +454,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -191,7 +192,9 @@ overview: 'Customer Database is profiled on the [APIs.io](https://apis.io/) netw
   Customer Database''s developer surface includes code examples and 23 more developer resources.'
 random_paper: 109
 rules:
-- name: Customer Database API Rules
+- effective_rule_count: 15
+  extends: []
+  name: Customer Database API Rules
   rule_count: 15
   severity_counts:
     error: 9
@@ -201,19 +204,27 @@ rules:
   slug: customer-database-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 13.9
-  delta: 8.2
+  composite: 14.1
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
+    contract_governance: 34.1
+    contract_quality: 16.9
     developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 31.3
+    governance: 34.1
     operational_transparency: 0.0
-  previous_composite: 5.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 13.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/screenshots/customer-database-2026-06-20T175347.png
 slug: customer-database
 tags:

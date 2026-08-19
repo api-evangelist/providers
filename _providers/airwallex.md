@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -314,7 +315,9 @@ rate_limits:
   name: Airwallex Rate Limits
   slug: airwallex-rate-limits
 rules:
-- name: Airwallex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Airwallex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -322,7 +325,10 @@ rules:
     info: 1
     warn: 4
   slug: airwallex-jsonschema-spectral-rules
-- name: Airwallex API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Airwallex API Rules
   rule_count: 32
   severity_counts:
     error: 11
@@ -332,15 +338,23 @@ rules:
   slug: airwallex-spectral-rules
 score:
   band: strong
-  composite: 57.1
-  delta: 0.0
+  composite: 55.5
+  delta: -1.6
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 64.0
-    developer_ergonomics: 58.7
+    contract_governance: 25.0
+    contract_quality: 60.0
+    developer_ergonomics: 64.3
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -355,8 +369,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:

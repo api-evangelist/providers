@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 29.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -213,7 +214,10 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, support, and 24 more developer resources.'
 random_paper: 54
 rules:
-- name: HiveMQ API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: HiveMQ API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -223,15 +227,17 @@ rules:
   slug: hivemq-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 49.3
+  delta: -6.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 60.8
-    developer_ergonomics: 47.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 29.5
+    contract_quality: 59.3
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 64.6
-    operational_transparency: 31.6
+    governance: 29.5
+    operational_transparency: 28.9
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -241,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:
 - kind: authentication

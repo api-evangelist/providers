@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 42.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -36,60 +37,72 @@ agentic_access:
   operation_count: 957
   slug: cisco-meraki-agentic-access
   summary_line: 957 operations · 445 acting · 88 human-in-the-loop
-api_count: 17
+api_count: 21
 apis:
 - description: Webhooks API for receiving real-time alerts and events from Meraki networks, including device, network, and security events delivered to configured HTTPS endpoints.
   name: Meraki Webhooks
   slug: webhooks
-- description: The administered product area of the Cisco Meraki Dashboard API — 4 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Administered
-  slug: administered
-- description: The appliance product area of the Cisco Meraki Dashboard API — 157 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Appliance
-  slug: appliance
-- description: The camera product area of the Cisco Meraki Dashboard API — 46 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Camera
-  slug: camera
-- description: The campusGateway product area of the Cisco Meraki Dashboard API — 4 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — campusGateway
-  slug: campusgateway
-- description: The cellularGateway product area of the Cisco Meraki Dashboard API — 24 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — cellularGateway
-  slug: cellulargateway
-- description: The devices product area of the Cisco Meraki Dashboard API — 41 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Devices
-  slug: devices
-- description: The insight product area of the Cisco Meraki Dashboard API — 7 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Insight
-  slug: insight
-- description: The licensing product area of the Cisco Meraki Dashboard API — 8 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Licensing
-  slug: licensing
-- description: The networks product area of the Cisco Meraki Dashboard API — 115 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Networks
-  slug: networks
-- description: The organizations product area of the Cisco Meraki Dashboard API — 228 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Organizations
-  slug: organizations
-- description: The sensor product area of the Cisco Meraki Dashboard API — 19 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Sensor
-  slug: sensor
-- description: The sm product area of the Cisco Meraki Dashboard API — 49 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Sm
-  slug: sm
-- description: The spaces product area of the Cisco Meraki Dashboard API — 2 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Spaces
-  slug: spaces
-- description: The switch product area of the Cisco Meraki Dashboard API — 102 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Switch
-  slug: switch
-- description: The wireless product area of the Cisco Meraki Dashboard API — 136 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — Wireless
-  slug: wireless
-- description: The wirelessController product area of the Cisco Meraki Dashboard API — 15 operations, from Cisco's published OpenAPI definition (v1.72.0).
-  name: Cisco Meraki Dashboard API — wirelessController
-  slug: wirelesscontroller
-artifact_total: 37
+- description: The administered API from Cisco Meraki — 4 operation(s) for administered.
+  name: Cisco Meraki Administered API
+  slug: cisco-meraki-administered-api
+- description: The appliance API from Cisco Meraki — 102 operation(s) for appliance.
+  name: Cisco Meraki Appliance API
+  slug: cisco-meraki-appliance-api
+- description: The camera API from Cisco Meraki — 29 operation(s) for camera.
+  name: Cisco Meraki Camera API
+  slug: cisco-meraki-camera-api
+- description: The campusGateway API from Cisco Meraki — 13 operation(s) for campusgateway.
+  name: Cisco Meraki Campus Gateway API
+  slug: cisco-meraki-campusgateway-api
+- description: The cellularGateway API from Cisco Meraki — 16 operation(s) for cellulargateway.
+  name: Cisco Meraki Cellular Gateway API
+  slug: cisco-meraki-cellulargateway-api
+- description: The devices API from Cisco Meraki — 151 operation(s) for devices.
+  name: Cisco Meraki Devices API
+  slug: cisco-meraki-devices-api
+- description: The insight API from Cisco Meraki — 4 operation(s) for insight.
+  name: Cisco Meraki Insight API
+  slug: cisco-meraki-insight-api
+- description: The licensing API from Cisco Meraki — 8 operation(s) for licensing.
+  name: Cisco Meraki Licensing API
+  slug: cisco-meraki-licensing-api
+- description: The networks API from Cisco Meraki — 89 operation(s) for networks.
+  name: Cisco Meraki Networks API
+  slug: cisco-meraki-networks-api
+- description: The organizations API from Cisco Meraki — 170 operation(s) for organizations.
+  name: Cisco Meraki Organizations API
+  slug: cisco-meraki-organizations-api
+- description: The sensor API from Cisco Meraki — 13 operation(s) for sensor.
+  name: Cisco Meraki Sensor API
+  slug: cisco-meraki-sensor-api
+- description: The sm API from Cisco Meraki — 43 operation(s) for sm.
+  name: Cisco Meraki Sm API
+  slug: cisco-meraki-sm-api
+- description: The spaces API from Cisco Meraki — 2 operation(s) for spaces.
+  name: Cisco Meraki Spaces API
+  slug: cisco-meraki-spaces-api
+- description: The switch API from Cisco Meraki — 56 operation(s) for switch.
+  name: Cisco Meraki Switch API
+  slug: cisco-meraki-switch-api
+- description: The wireless API from Cisco Meraki — 108 operation(s) for wireless.
+  name: Cisco Meraki Wireless API
+  slug: cisco-meraki-wireless-api
+- description: The wirelessController API from Cisco Meraki — 15 operation(s) for wirelesscontroller.
+  name: Cisco Meraki Wireless Controller API
+  slug: cisco-meraki-wirelesscontroller-api
+- description: The Deployments API from Cisco Meraki — 8 operation(s) for deployments.
+  name: Cisco Meraki Deployments API
+  slug: cisco-meraki-secure-connect-deployments-api
+- description: The Firewall Applications API from Cisco Meraki — 1 operation(s) for firewall applications.
+  name: Cisco Meraki Firewall Applications API
+  slug: cisco-meraki-secure-connect-firewallapplications-api
+- description: The Policies API from Cisco Meraki — 4 operation(s) for policies.
+  name: Cisco Meraki Policies API
+  slug: cisco-meraki-secure-connect-policies-api
+- description: The Reports API from Cisco Meraki — 9 operation(s) for reports.
+  name: Cisco Meraki Reports API
+  slug: cisco-meraki-secure-connect-reports-api
+artifact_total: 41
 collections:
 - collection_type: open
   name: Cisco Meraki Dashboard API — administered
@@ -143,6 +156,10 @@ collections:
   name: Cisco Meraki Dashboard API
   slug: open-cisco-meraki
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,26 +212,28 @@ created: '2026-05-11'
 description: Cisco Meraki is a cloud-managed networking platform that provides wireless access points, switches, security appliances, cameras, sensors, and mobile device management from a single dashboard. The Meraki Dashboard API is a RESTful interface for programmatically managing and monitoring Meraki networks at scale, automating organization provisioning, device configuration, network operations, and analytics.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco-meraki.png
 layout: provider
-modified: '2026-07-31'
+modified: '2026-08-19'
 name: Cisco Meraki
 nav: Providers
 network: true
-overview: 'Cisco Meraki publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Dashboard API — Administered, Dashboard API — Appliance, Dashboard API — Camera, and 13 more. Tagged areas include Networking, Wireless, Switching, Security Appliances, and Cloud-Managed Networking.
+overview: 'Cisco Meraki publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Administered API, Appliance API, Camera API, and 17 more. Tagged areas include Networking, Wireless, Switching, Security Appliances, and Cloud-Managed Networking.
 
 
-  Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 28.8
+  delta: -1.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 61.2
-    developer_ergonomics: 32.6
+    contract_governance: 0.0
+    contract_quality: 57.4
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 29.9
   provenance:
     agentic_access: derived
@@ -222,9 +241,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+      total: 20
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:

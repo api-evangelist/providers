@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -151,7 +152,9 @@ rate_limits:
   name: Oidc Rate Limits
   slug: oidc-rate-limits
 rules:
-- name: OIDC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OIDC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,14 +164,16 @@ rules:
   slug: oidc-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 30.8
+  delta: -6.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 54.4
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 50.9
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 36.9
   provenance:
@@ -178,9 +183,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/screenshots/oidc-2026-06-20T190645.png
 security:
 - kind: authentication

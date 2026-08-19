@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
@@ -240,14 +241,16 @@ overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 34
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 38.2
+  delta: 1.8
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 42.7
-    developer_ergonomics: 27.7
+    contract_governance: 30.3
+    contract_quality: 45.2
+    developer_ergonomics: 28.0
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 36.4
   provenance:
@@ -258,8 +261,8 @@ score:
       marker_coverage: 0.0
       total: 15
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
 security:

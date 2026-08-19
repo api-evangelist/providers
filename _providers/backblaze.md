@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -778,7 +778,9 @@ rate_limits:
   name: Backblaze Rate Limits
   slug: backblaze-rate-limits
 rules:
-- name: Backblaze API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Backblaze API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -786,7 +788,10 @@ rules:
     info: 2
     warn: 3
   slug: backblaze-jsonschema-spectral-rules
-- name: Backblaze API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Backblaze API Rules
   rule_count: 36
   severity_counts:
     error: 12
@@ -795,16 +800,18 @@ rules:
     warn: 16
   slug: backblaze-spectral-rules
 score:
-  band: strong
-  composite: 56.3
-  delta: 0.0
+  band: developing
+  composite: 47.8
+  delta: -8.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 24.3
-    developer_ergonomics: 73.9
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 41.7
+    contract_quality: 23.3
+    developer_ergonomics: 78.6
     discoverability: 63.0
-    governance: 80.2
-    operational_transparency: 44.7
+    governance: 41.7
+    operational_transparency: 26.3
   previous_composite: 56.3
   provenance:
     agentic_access: derived
@@ -815,9 +822,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:
 - kind: authentication

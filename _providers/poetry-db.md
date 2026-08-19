@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Search and retrieve English-language poems by author, title, line content, and line count. Returns structured JSON with title, author, lines array, and linecount fields. No authentication required.
@@ -128,7 +129,9 @@ rate_limits:
   name: Poetry Db Rate Limits
   slug: poetry-db-rate-limits
 rules:
-- name: PoetryDB API Rules
+- effective_rule_count: 4
+  extends: []
+  name: PoetryDB API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -138,14 +141,16 @@ rules:
   slug: poetry-db-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 29.5
+  delta: -5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 53.2
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 46.5
+    developer_ergonomics: 9.5
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 34.8
   provenance:
@@ -160,9 +165,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/poetry-db/refs/heads/main/screenshots/poetry-db-2026-06-20T191838.png
 security:
 - kind: domain-security

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-17'
+  score: 43.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -404,16 +404,18 @@ rate_limits:
   name: Bullish Rate Limits
   slug: bullish-rate-limits
 score:
-  band: strong
-  composite: 62.9
-  delta: 0.0
+  band: exemplar
+  composite: 68.4
+  delta: 5.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.9
-    developer_ergonomics: 69.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 64.8
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 84.2
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -430,10 +432,11 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 60.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 73.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/screenshots/bullish-2026-08-17T080736.png
 security:
 - kind: authentication
   name: Bullish Authentication

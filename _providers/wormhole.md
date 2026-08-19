@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -725,7 +726,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Wormhole API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wormhole API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -735,14 +738,16 @@ rules:
   slug: wormhole-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 31.0
+  delta: -10.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 48.3
-    developer_ergonomics: 15.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 46.6
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 41.6
   provenance:
@@ -752,9 +757,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/screenshots/wormhole-2026-06-20T201625.png
 security:
 - kind: domain-security

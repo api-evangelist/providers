@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.0
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -350,26 +351,31 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 64.4
-  delta: 28.4
+  composite: 59.5
+  delta: -4.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 58.9
-    developer_ergonomics: 84.8
+    contract_governance: 30.3
+    contract_quality: 60.3
+    developer_ergonomics: 49.4
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 36.0
+    governance: 30.3
+    operational_transparency: 68.4
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 91.7
       derived: 0
       marker_coverage: 0.0
-      total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:
 - kind: authentication

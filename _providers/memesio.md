@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -870,7 +871,9 @@ rate_limits:
   name: Memesio Rate Limits
   slug: memesio-rate-limits
 rules:
-- name: Memesio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Memesio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -878,7 +881,10 @@ rules:
     info: 2
     warn: 3
   slug: memesio-jsonschema-spectral-rules
-- name: Memesio API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Memesio API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -887,15 +893,17 @@ rules:
     warn: 7
   slug: memesio-rules
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 36.8
+  delta: -6.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 53.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 50.6
+    developer_ergonomics: 21.4
     discoverability: 87.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 43.0
   provenance:
@@ -905,9 +913,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:
 - kind: authentication

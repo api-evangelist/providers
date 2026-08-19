@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -184,7 +185,9 @@ rate_limits:
   name: Terrain Discovery Environment Api Rate Limits
   slug: terrain-discovery-environment-api-rate-limits
 rules:
-- name: Terrain Discovery Environment API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Terrain Discovery Environment API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +195,10 @@ rules:
     info: 1
     warn: 4
   slug: terrain-discovery-environment-api-jsonschema-spectral-rules
-- name: Terrain Discovery Environment API API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Terrain Discovery Environment API API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -202,14 +208,16 @@ rules:
   slug: terrain-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 32.9
+  delta: -4.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.7
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 61.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 37.8
   provenance:
@@ -225,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/screenshots/terrain-discovery-environment-api-2026-06-20T195131.png
 security:

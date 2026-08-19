@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -277,7 +278,9 @@ rate_limits:
   name: Arxiv Rate Limits
   slug: arxiv-rate-limits
 rules:
-- name: arXiv API Rules
+- effective_rule_count: 5
+  extends: []
+  name: arXiv API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -285,7 +288,11 @@ rules:
     info: 1
     warn: 4
   slug: arxiv-jsonschema-spectral-rules
-- name: arXiv API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: arXiv API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -295,15 +302,17 @@ rules:
   slug: arxiv-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 47.4
+  delta: -4.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 66.4
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 62.2
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -312,8 +321,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 35.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/screenshots/arxiv-2026-06-20T172448.png
 security:

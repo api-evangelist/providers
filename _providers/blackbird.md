@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -236,14 +237,16 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 46.3
+  delta: 1.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 59.6
-    developer_ergonomics: 80.4
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 44.8
   provenance:
@@ -262,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

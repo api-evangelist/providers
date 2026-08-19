@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -141,7 +142,9 @@ rate_limits:
   name: Sally Beauty Holdings Rate Limits
   slug: sally-beauty-holdings-rate-limits
 rules:
-- name: Sally Beauty Holdings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sally Beauty Holdings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -151,19 +154,21 @@ rules:
   slug: sally-beauty-holdings-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 13.0
+  delta: -6.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 8.1
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 7.0
+    developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 19.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png
 security:
 - kind: domain-security

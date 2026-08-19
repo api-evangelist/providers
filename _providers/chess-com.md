@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +289,9 @@ rate_limits:
   name: Chess Com Rate Limits
   slug: chess-com-rate-limits
 rules:
-- name: Chess.com API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Chess.com API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -296,7 +299,10 @@ rules:
     info: 1
     warn: 4
   slug: chess-com-jsonschema-spectral-rules
-- name: Chess.com API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Chess.com API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -306,14 +312,16 @@ rules:
   slug: chess-com-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 50.2
+  delta: -2.6
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 61.2
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 57.6
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 52.8
   provenance:
@@ -323,8 +331,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:

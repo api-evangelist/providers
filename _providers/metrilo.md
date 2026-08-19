@@ -12,25 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -224,28 +224,31 @@ rate_limits:
   slug: metrilo-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 9.0
+  composite: 47.6
+  delta: 0.6
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 14.5
-    developer_ergonomics: 60.3
+    contract_governance: 30.3
+    contract_quality: 13.9
+    developer_ergonomics: 60.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
-  previous_composite: 38.0
+    governance: 30.3
+    operational_transparency: 18.4
+  previous_composite: 47.0
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 4
-      marker_coverage: 100.0
-      total: 4
+      marker_coverage: 80.0
+      total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:
 - kind: authentication

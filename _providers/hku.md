@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -163,6 +164,10 @@ common:
   title: ''
   type: Blog
   url: https://www.hku.hk/press
+coverage:
+  detail: 2 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
+  reason: no_published_contract
+  state: none
 created: '2026-06-03'
 description: 'The University of Hong Kong (HKU) is a public research university in Hong Kong SAR, ranked #27 in the QS World University Rankings 2025. Its public developer and API footprint centers on an ITS API developer portal powered by Azure API Management (gated behind institutional sign-in), the Figshare-powered HKU DataHub research-data repository, and the DSpace-based HKU Scholars Hub institutional repository exposing an OAI-PMH metadata interface. Most administrative and identity interfaces are not openly self-service and require institutional affiliation.'
 examples:
@@ -227,7 +232,9 @@ rate_limits:
   name: Hku Rate Limits
   slug: hku-rate-limits
 rules:
-- name: University of Hong Kong API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Hong Kong API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +242,9 @@ rules:
     info: 1
     warn: 4
   slug: hku-jsonschema-spectral-rules
-- name: University of Hong Kong API Rules
+- effective_rule_count: 6
+  extends: []
+  name: University of Hong Kong API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -250,14 +259,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 42.1
+  delta: -4.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 73.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 72.3
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 46.4
   provenance:
@@ -267,8 +278,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/screenshots/hku-2026-06-20T182806.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +164,9 @@ rate_limits:
   name: Google Looker Rate Limits
   slug: google-looker-rate-limits
 rules:
-- name: Google Looker API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Google Looker API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -171,7 +174,10 @@ rules:
     info: 1
     warn: 3
   slug: google-looker-jsonschema-spectral-rules
-- name: Google Looker API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Google Looker API Rules
   rule_count: 19
   severity_counts:
     error: 11
@@ -181,14 +187,16 @@ rules:
   slug: google-looker-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 39.6
+  delta: -6.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 61.9
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 58.0
+    developer_ergonomics: 35.7
     discoverability: 63.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 45.7
   provenance:
@@ -198,9 +206,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/screenshots/google-looker-2026-06-20T182214.png
 security:
 - kind: authentication

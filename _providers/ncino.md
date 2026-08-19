@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 api_count: 86
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -708,15 +709,17 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 40.8
+  delta: -14.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 73.4
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 16.7
+    contract_quality: 66.1
+    developer_ergonomics: 17.3
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 55.5
   provenance:
     conformance: derived
@@ -732,10 +735,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 51.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
 security:
 - kind: authentication

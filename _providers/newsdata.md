@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: NewsData.io API for retrieving live breaking news and historical news data from over 82,000 sources, with search, filtering, and multi-language support.
@@ -95,18 +96,20 @@ rate_limits:
   slug: newsdata-rate-limits
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 12.6
+  delta: -4.9
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 57.4
+    developer_ergonomics: 2.4
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsdata/refs/heads/main/screenshots/newsdata-2026-06-20T190303.png
 security:

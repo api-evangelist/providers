@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Swagger UI renders OpenAPI specifications as interactive API documentation, allowing developers to explore and test API endpoints directly in the browser. It generates a rich HTML interface with try-i
@@ -145,7 +146,9 @@ rate_limits:
   name: Swagger Rate Limits
   slug: swagger-rate-limits
 rules:
-- name: Swagger API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Swagger API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -153,7 +156,10 @@ rules:
     info: 2
     warn: 4
   slug: swagger-jsonschema-spectral-rules
-- name: Swagger API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Swagger API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -163,19 +169,21 @@ rules:
   slug: swagger-rules
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 17.9
+  delta: -6.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 24.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger/refs/heads/main/screenshots/swagger-2026-06-20T194753.png
 security:
 - kind: domain-security

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -339,16 +340,18 @@ rate_limits:
   slug: dyspatch-rate-limits
 score:
   band: strong
-  composite: 60.3
-  delta: 5.3
+  composite: 61.9
+  delta: 1.6
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 70.4
-    developer_ergonomics: 69.0
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 16.7
+    contract_quality: 68.1
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 55.0
+    governance: 16.7
+    operational_transparency: 52.6
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,9 +368,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:
 - kind: authentication

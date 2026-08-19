@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -237,7 +237,10 @@ rate_limits:
   name: Circle Rate Limits
   slug: circle-rate-limits
 rules:
-- name: Circle API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Circle API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -245,7 +248,9 @@ rules:
     info: 0
     warn: 7
   slug: circle-asyncapi-spectral-rules
-- name: Circle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Circle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -253,7 +258,10 @@ rules:
     info: 2
     warn: 3
   slug: circle-jsonschema-spectral-rules
-- name: Circle API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Circle API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -263,15 +271,17 @@ rules:
   slug: circle-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 41.8
+  delta: -10.2
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 67.9
-    developer_ergonomics: 65.2
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 11.4
+    contract_quality: 63.6
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -285,10 +295,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:
 - kind: authentication

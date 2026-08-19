@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Suite of APIs across the mortgage lifecycle including AIM Check, Affordable Check, Property Insights, Pricing and Committing, Resolve workout decisioning, and Total MI reconciliations and claims.
@@ -101,7 +102,9 @@ rate_limits:
   name: Freddie Mac Rate Limits
   slug: freddie-mac-rate-limits
 rules:
-- name: Freddie Mac API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Freddie Mac API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -111,14 +114,16 @@ rules:
   slug: freddie-mac-rules
 score:
   band: emerging
-  composite: 13.6
-  delta: 0.0
+  composite: 11.5
+  delta: -2.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 59.3
-    governance: 10.4
+    governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.6
   regulatory:
@@ -127,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/screenshots/freddie-mac-2026-06-20T181516.png
 security:

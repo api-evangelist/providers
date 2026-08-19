@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -203,7 +204,9 @@ rate_limits:
   name: Trackingmore Rate Limits
   slug: trackingmore-rate-limits
 rules:
-- name: TrackingMore API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TrackingMore API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,14 +216,16 @@ rules:
   slug: trackingmore-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 45.9
+  delta: -5.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 70.5
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 68.1
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 51.5
   provenance:
@@ -230,9 +235,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/screenshots/trackingmore-2026-06-20T195521.png
 security:
 - kind: authentication

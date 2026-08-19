@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Noded (Apollo) GraphQL API behind the Customer Context Graph. One POST endpoint serving people and accounts (both modelled as tags), the unified activity timeline (blocks: notes, emails, tasks, me'
@@ -206,19 +207,25 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 45.0
-  delta: 27.5
+  composite: 40.6
+  delta: -4.4
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 18.4
+  previous_composite: 45.0
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/screenshots/noded-ai-2026-08-07T185418.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -178,15 +179,17 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 33
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 34.4
+  delta: 0.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 56.3
-    developer_ergonomics: 19.0
+    contract_governance: 16.7
+    contract_quality: 53.4
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -204,8 +207,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
 security:

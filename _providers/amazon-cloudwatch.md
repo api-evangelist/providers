@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,7 +338,9 @@ overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/)
   Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
 random_paper: 122
 rules:
-- name: Amazon CloudWatch API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CloudWatch API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -345,7 +348,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-cloudwatch-jsonschema-spectral-rules
-- name: Amazon CloudWatch API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon CloudWatch API Rules
   rule_count: 25
   severity_counts:
     error: 12
@@ -355,15 +361,17 @@ rules:
   slug: amazon-cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 55.0
+  delta: -7.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 78.4
-    developer_ergonomics: 54.3
+    contract_governance: 41.7
+    contract_quality: 73.4
+    developer_ergonomics: 50.0
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -374,9 +382,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:
 - kind: authentication

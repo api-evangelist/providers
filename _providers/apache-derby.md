@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -159,7 +160,9 @@ rate_limits:
   name: Apache Derby Rate Limits
   slug: apache-derby-rate-limits
 rules:
-- name: Apache Derby API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Derby API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,20 +171,22 @@ rules:
     warn: 3
   slug: apache-derby-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -7.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 29.0
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 25.4
+    developer_ergonomics: 31.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 32.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/screenshots/apache-derby-2026-06-20T172052.png
 security:
 - kind: domain-security

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -247,7 +248,9 @@ rate_limits:
   name: Agentql Rate Limits
   slug: agentql-rate-limits
 rules:
-- name: AgentQL API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AgentQL API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,16 +259,18 @@ rules:
     warn: 4
   slug: agentql-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 32.2
+  delta: -10.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 23.5
-    developer_ergonomics: 78.3
+    contract_governance: 9.8
+    contract_quality: 22.2
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 42.9
   provenance:
     agentic_access: derived
@@ -274,9 +279,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/screenshots/agentql-2026-06-20T170057.png
 security:
 - kind: authentication

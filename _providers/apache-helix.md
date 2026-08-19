@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -247,7 +248,9 @@ rate_limits:
   name: Apache Helix Rate Limits
   slug: apache-helix-rate-limits
 rules:
-- name: Apache Helix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Helix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,7 +258,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-helix-jsonschema-spectral-rules
-- name: Apache Helix API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Apache Helix API Rules
   rule_count: 13
   severity_counts:
     error: 2
@@ -265,15 +271,17 @@ rules:
   slug: apache-helix-spectral-rules
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 35.7
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.7
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 55.9
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -282,9 +290,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/screenshots/apache-helix-2026-06-20T172103.png
 security:
 - kind: domain-security

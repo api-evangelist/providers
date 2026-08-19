@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 52.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -380,7 +381,9 @@ rate_limits:
   name: Dataforseo Rate Limits
   slug: dataforseo-rate-limits
 rules:
-- name: DataForSEO API Rules
+- effective_rule_count: 6
+  extends: []
+  name: DataForSEO API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -395,26 +398,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.8
-  delta: 34.4
+  composite: 66.8
+  delta: -8.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 74.4
-    developer_ergonomics: 91.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 55.3
+    contract_quality: 74.6
+    developer_ergonomics: 90.5
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 44.7
-  previous_composite: 40.4
+    governance: 55.3
+    operational_transparency: 26.3
+  previous_composite: 74.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png
 security:
 - kind: authentication

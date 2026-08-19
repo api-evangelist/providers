@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,7 +219,9 @@ rate_limits:
   name: Linea Rate Limits
   slug: linea-rate-limits
 rules:
-- name: Linea API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Linea API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -228,15 +231,17 @@ rules:
   slug: linea-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 47.4
+  delta: -6.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 66.0
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 63.3
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -245,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea/refs/heads/main/screenshots/linea-2026-06-20T184539.png
 security:
 - kind: domain-security

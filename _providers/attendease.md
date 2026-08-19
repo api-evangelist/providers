@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-08-17'
+  score: 16.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -194,23 +195,25 @@ rate_limits:
   slug: attendease-rate-limits
 score:
   band: thin
-  composite: 40.6
-  delta: 14.8
+  composite: 36.0
+  delta: -4.6
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.6
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 42.1
-  previous_composite: 25.8
+    governance: 18.2
+    operational_transparency: 39.5
+  previous_composite: 40.6
   provenance:
-    conformance: derived
+    conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
 security:
 - kind: authentication

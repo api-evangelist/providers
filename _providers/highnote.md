@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -298,15 +299,17 @@ rate_limits:
   slug: highnote-rate-limits
 score:
   band: exemplar
-  composite: 66.3
-  delta: 0.0
+  composite: 75.8
+  delta: 9.5
   facets:
+    access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_quality: 73.9
-    developer_ergonomics: 73.4
+    contract_governance: 30.3
+    contract_quality: 69.8
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 73.7
+    governance: 30.3
+    operational_transparency: 71.1
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -323,10 +326,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:
 - kind: authentication

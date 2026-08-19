@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
@@ -203,23 +204,25 @@ rate_limits:
   name: Hull Rate Limits
   slug: hull-rate-limits
 score:
-  band: strong
-  composite: 59.0
-  delta: 18.9
+  band: developing
+  composite: 51.0
+  delta: -8.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 48.8
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 84.2
-  previous_composite: 40.1
+    governance: 18.2
+    operational_transparency: 72.4
+  previous_composite: 59.0
   provenance:
-    conformance: derived
+    conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hull/refs/heads/main/screenshots/hull-2026-07-25T221636.png
 security:
 - kind: authentication

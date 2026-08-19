@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -158,19 +159,24 @@ rate_limits:
   slug: coefficient-works-rate-limits
 score:
   band: developing
-  composite: 46.6
-  delta: 26.7
+  composite: 45.9
+  delta: -0.7
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 26.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 28.6
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 34.2
-  previous_composite: 19.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 31.6
+  previous_composite: 46.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/screenshots/coefficient-works-2026-07-25T205946.png
 security:
 - kind: domain-security

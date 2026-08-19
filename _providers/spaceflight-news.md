@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,7 +286,9 @@ overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) 
   Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 17 more developer resources.'
 random_paper: 13
 rules:
-- name: Spaceflight News API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spaceflight News API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -293,7 +296,10 @@ rules:
     info: 1
     warn: 4
   slug: spaceflight-news-jsonschema-spectral-rules
-- name: Spaceflight News API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Spaceflight News API Rules
   rule_count: 41
   severity_counts:
     error: 10
@@ -303,15 +309,17 @@ rules:
   slug: spaceflight-news-rules
 score:
   band: emerging
-  composite: 27.6
-  delta: 0.0
+  composite: 21.9
+  delta: -5.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 23.3
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 22.1
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 27.6
   provenance:
     agentic_access: derived
@@ -320,9 +328,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/screenshots/spaceflight-news-2026-06-20T194233.png
 security:
 - kind: domain-security

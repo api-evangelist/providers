@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Morf's REST API and webhook surface for building healthcare automation workflows. Webhooks from source applications are ingested at api.morf.healthcare/webhooks/ and processed into events that trigger
@@ -163,15 +164,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 45.4
+  delta: -3.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 52.2
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 38.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 49.1
   provenance:
     conformance: first-party
@@ -180,9 +183,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 52.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/screenshots/morf-2026-08-07T184304.png
 security:

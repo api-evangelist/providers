@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'The AVEVA CONNECT cloud platform REST APIs provide access to industrial data services including account management, identity management, data ingress pipelines, data views, and time-series retrieval. '
@@ -112,13 +113,15 @@ overview: 'AVEVA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   AVEVA''s developer surface includes documentation, engineering blog, YouTube channel, support, pricing, and 7 more developer resources.'
 random_paper: 84
 score:
-  band: emerging
-  composite: 27.3
-  delta: 0.0
+  band: thin
+  composite: 27.4
+  delta: 0.1
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 53.1
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 47.8
+    developer_ergonomics: 16.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
@@ -129,8 +132,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aveva/refs/heads/main/screenshots/aveva-2026-06-20T172722.png
 security:

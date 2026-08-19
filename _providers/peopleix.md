@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The hosted, remote Model Context Protocol server through which peopleIX exposes a customer's People Intelligence knowledge layer to agents such as Claude, ChatGPT and Copilot. A JSON-RPC POST to https
@@ -152,22 +153,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.0
-  delta: 5.8
+  composite: 21.6
+  delta: -2.4
   facets:
-    commercial_clarity: 39.5
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 18.2
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 24.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Peopleix Authentication

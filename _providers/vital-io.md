@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -665,7 +666,9 @@ rate_limits:
   name: Vital Io Rate Limits
   slug: vital-io-rate-limits
 rules:
-- name: Vital API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vital API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -673,7 +676,10 @@ rules:
     info: 1
     warn: 4
   slug: vital-io-jsonschema-spectral-rules
-- name: Vital API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Vital API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -683,18 +689,21 @@ rules:
   slug: vital-rules
 score:
   band: exemplar
-  composite: 71.6
-  delta: 11.1
+  composite: 74.8
+  delta: 3.2
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 72.7
-    developer_ergonomics: 78.3
+    contract_governance: 43.2
+    contract_quality: 70.5
+    developer_ergonomics: 85.7
     discoverability: 68.5
-    governance: 81.3
-    operational_transparency: 55.3
-  previous_composite: 60.5
+    governance: 43.2
+    operational_transparency: 39.5
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -706,9 +715,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:
 - kind: authentication

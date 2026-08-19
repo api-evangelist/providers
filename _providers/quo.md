@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -197,14 +198,16 @@ overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 43
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 51.4
+  delta: 3.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 71.4
-    developer_ergonomics: 53.8
+    contract_governance: 16.7
+    contract_quality: 69.9
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 47.6
   provenance:
@@ -222,9 +225,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/screenshots/quo-2026-08-17T081432.png
 security:
 - kind: authentication
   name: Quo Authentication

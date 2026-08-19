@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 62.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,16 +223,18 @@ scopes:
   slug: hydro-quebec-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 54.0
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: 3.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 56.7
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 55.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 71.1
+    governance: 16.7
+    operational_transparency: 65.8
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -244,8 +247,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png
 security:

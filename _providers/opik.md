@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -417,7 +418,9 @@ rate_limits:
   name: Opik Rate Limits
   slug: opik-rate-limits
 rules:
-- name: Opik API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Opik API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -427,14 +430,16 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 48.6
+  delta: -5.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 59.0
-    developer_ergonomics: 15.2
+    contract_governance: 25.0
+    contract_quality: 57.5
+    developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 53.9
   provenance:
@@ -443,9 +448,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:
 - kind: domain-security

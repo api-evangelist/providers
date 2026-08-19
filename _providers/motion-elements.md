@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,15 +184,17 @@ overview: 'Motion Elements publishes 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 78
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 45.0
+  delta: -1.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 62.0
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 58.1
+    developer_ergonomics: 55.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 46.7
   provenance:
     agentic_access: derived
@@ -203,8 +206,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
 security:

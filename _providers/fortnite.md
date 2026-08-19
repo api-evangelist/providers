@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,7 +255,9 @@ rate_limits:
   name: Fortnite Rate Limits
   slug: fortnite-rate-limits
 rules:
-- name: Fortnite Tracker API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fortnite Tracker API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -262,7 +265,10 @@ rules:
     info: 2
     warn: 3
   slug: fortnite-jsonschema-spectral-rules
-- name: Fortnite Tracker API Rules
+- effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Fortnite Tracker API Rules
   rule_count: 48
   severity_counts:
     error: 20
@@ -272,15 +278,17 @@ rules:
   slug: fortnite-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 30.0
+  delta: -5.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 24.3
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 22.8
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -289,9 +297,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Fortnite Authentication

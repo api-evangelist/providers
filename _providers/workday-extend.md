@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 32.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -294,7 +295,7 @@ common:
   url: https://doc.workday.com/extend/sdk/
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://github.com/Workday/extend-js-example
 - group: operate
   title: ''
@@ -533,7 +534,7 @@ overview: 'Workday Extend publishes 14 APIs on the [APIs.io](https://apis.io/) n
   The Workday Extend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Extend''s developer surface includes authentication, getting-started guide, developer portal, documentation, API reference, support, changelog, and 40 more developer resources.'
+  Workday Extend''s developer surface includes authentication, getting-started guide, developer portal, documentation, API reference, code examples, support, and 40 more developer resources.'
 plans:
 - name: Workday Extend Plans Pricing
   plan_count: 1
@@ -544,7 +545,9 @@ rate_limits:
   name: Workday Extend Rate Limits
   slug: workday-extend-rate-limits
 rules:
-- name: Workday Extend API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Workday Extend API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -552,7 +555,10 @@ rules:
     info: 2
     warn: 3
   slug: workday-extend-jsonschema-spectral-rules
-- name: Workday Extend API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Workday Extend API Rules
   rule_count: 15
   severity_counts:
     error: 6
@@ -566,16 +572,18 @@ scopes:
   slug: workday-extend-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.1
-  delta: 0.0
+  band: developing
+  composite: 44.4
+  delta: -18.7
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 64.9
-    developer_ergonomics: 69.6
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 25.0
+    contract_quality: 65.6
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 63.1
   provenance:
     agentic_access: derived
@@ -584,9 +592,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:
 - kind: authentication

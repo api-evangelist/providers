@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -636,7 +637,10 @@ rate_limits:
   name: Chainstack Rate Limits
   slug: chainstack-rate-limits
 rules:
-- name: Chainstack API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Chainstack API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -644,7 +648,9 @@ rules:
     info: 1
     warn: 6
   slug: chainstack-asyncapi-spectral-rules
-- name: Chainstack API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Chainstack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -652,7 +658,10 @@ rules:
     info: 1
     warn: 5
   slug: chainstack-jsonschema-spectral-rules
-- name: Chainstack API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Chainstack API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -662,14 +671,16 @@ rules:
   slug: chainstack-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 62.3
+  delta: -3.5
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 72.7
-    developer_ergonomics: 54.3
+    contract_governance: 28.8
+    contract_quality: 68.9
+    developer_ergonomics: 59.5
     discoverability: 59.3
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 73.7
   previous_composite: 65.8
   provenance:
@@ -679,8 +690,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

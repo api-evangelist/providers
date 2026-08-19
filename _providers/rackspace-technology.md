@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -408,7 +409,9 @@ rate_limits:
   name: Rackspace Technology Rate Limits
   slug: rackspace-technology-rate-limits
 rules:
-- name: Rackspace Technology API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rackspace Technology API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -416,7 +419,10 @@ rules:
     info: 2
     warn: 3
   slug: rackspace-technology-jsonschema-spectral-rules
-- name: Rackspace Technology API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Rackspace Technology API Rules
   rule_count: 34
   severity_counts:
     error: 16
@@ -425,16 +431,18 @@ rules:
     warn: 16
   slug: rackspace-technology-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -4.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 27.7
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 29.7
+    developer_ergonomics: 57.1
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -443,8 +451,8 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

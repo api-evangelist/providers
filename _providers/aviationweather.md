@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -279,7 +280,9 @@ rate_limits:
   name: Aviationweather Rate Limits
   slug: aviationweather-rate-limits
 rules:
-- name: Aviation Weather Center API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Aviation Weather Center API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -287,7 +290,10 @@ rules:
     info: 2
     warn: 3
   slug: aviationweather-jsonschema-spectral-rules
-- name: Aviation Weather Center API Rules
+- effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Aviation Weather Center API Rules
   rule_count: 48
   severity_counts:
     error: 14
@@ -297,14 +303,16 @@ rules:
   slug: aviationweather-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 36.6
+  delta: -2.9
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 71.2
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 9.5
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 39.5
   provenance:
@@ -320,8 +328,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

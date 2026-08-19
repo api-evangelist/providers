@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -217,7 +218,9 @@ rate_limits:
   name: Windstream Holdings Rate Limits
   slug: windstream-holdings-rate-limits
 rules:
-- name: Windstream Holdings API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Windstream Holdings API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +228,10 @@ rules:
     info: 1
     warn: 4
   slug: windstream-holdings-jsonschema-spectral-rules
-- name: Windstream Holdings API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Windstream Holdings API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -235,14 +241,16 @@ rules:
   slug: windstream-holdings-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 35.2
+  delta: -3.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.1
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 61.2
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 38.2
   provenance:
@@ -258,8 +266,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

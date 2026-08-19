@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -298,7 +299,9 @@ rate_limits:
   name: Amazon Security Hub Rate Limits
   slug: amazon-security-hub-rate-limits
 rules:
-- name: Amazon Security Hub API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Security Hub API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,7 +309,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-security-hub-jsonschema-spectral-rules
-- name: Amazon Security Hub API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon Security Hub API Rules
   rule_count: 22
   severity_counts:
     error: 8
@@ -316,15 +322,17 @@ rules:
   slug: amazon-security-hub-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 54.3
+  delta: -7.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 65.8
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 61.7
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -333,9 +341,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/screenshots/amazon-security-hub-2026-06-20T171826.png
 security:
 - kind: domain-security

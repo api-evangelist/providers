@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Partner-gated API surface exposing Ethos's underwriting and interview engines. Partners can retrieve customized quotes, conduct interviews and instant underwriting, collect required policy and billing
@@ -103,15 +104,17 @@ overview: 'Ethos publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 100
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 18.1
+  delta: -5.4
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 23.8
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 23.5
   provenance:
     conformance: first-party
@@ -120,10 +123,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 31.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethos/refs/heads/main/screenshots/ethos-2026-07-25T213654.png
 security:
 - kind: authentication

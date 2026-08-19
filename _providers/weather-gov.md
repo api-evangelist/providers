@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1191,7 +1192,9 @@ rate_limits:
   name: Weather Gov Rate Limits
   slug: weather-gov-rate-limits
 rules:
-- name: Weather.gov API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Weather.gov API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1199,7 +1202,10 @@ rules:
     info: 2
     warn: 3
   slug: weather-gov-jsonschema-spectral-rules
-- name: Weather.gov API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Weather.gov API Rules
   rule_count: 29
   severity_counts:
     error: 8
@@ -1208,15 +1214,17 @@ rules:
     warn: 16
   slug: weather-gov-spectral-rules
 score:
-  band: thin
-  composite: 41.4
-  delta: 0.0
+  band: developing
+  composite: 39.3
+  delta: -2.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.3
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 62.5
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 41.4
   provenance:
@@ -1232,8 +1240,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png
 security:

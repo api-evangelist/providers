@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: The Admin API from Revyze — 2 operation(s) for admin.
@@ -167,14 +168,16 @@ overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 81
 score:
   band: thin
-  composite: 29.4
-  delta: 0.0
+  composite: 30.8
+  delta: 1.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 51.3
-    developer_ergonomics: 10.9
+    contract_governance: 12.1
+    contract_quality: 48.5
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 7.9
   previous_composite: 29.4
   provenance:
@@ -183,8 +186,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 37.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

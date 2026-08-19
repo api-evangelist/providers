@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API over the Ahrefs data set — Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Batch Analysis, Brand Radar, Web Analytics, GSC Insights, Social Media Management, Manage
@@ -225,19 +226,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 59.8
+  delta: 1.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 32.3
-    developer_ergonomics: 71.7
+    contract_governance: 16.7
+    contract_quality: 35.2
+    developer_ergonomics: 78.6
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 58.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
 security:
 - kind: authentication
   name: Ahrefs Authentication

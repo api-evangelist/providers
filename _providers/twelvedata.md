@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -300,7 +301,10 @@ rate_limits:
   name: Twelvedata Rate Limits
   slug: twelvedata-rate-limits
 rules:
-- name: Twelve Data API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Twelve Data API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -310,15 +314,17 @@ rules:
   slug: twelvedata-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 75.4
-  delta: 0.0
+  composite: 77.0
+  delta: 1.6
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 62.5
-    developer_ergonomics: 86.4
+    contract_governance: 28.0
+    contract_quality: 59.0
+    developer_ergonomics: 85.1
     discoverability: 92.6
-    governance: 53.1
-    operational_transparency: 73.7
+    governance: 28.0
+    operational_transparency: 68.4
   previous_composite: 75.4
   provenance:
     agentic_access: derived
@@ -336,10 +342,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:
 - kind: authentication
   name: Twelvedata Authentication

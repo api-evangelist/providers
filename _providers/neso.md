@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-17'
+  score: 18.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
@@ -179,15 +180,17 @@ rate_limits:
   slug: neso-rate-limits
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 31.6
+  delta: 1.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 44.6
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 47.4
+    governance: 4.5
+    operational_transparency: 44.7
   previous_composite: 30.1
   provenance:
     conformance: derived
@@ -199,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/screenshots/neso-2026-08-07T184913.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'A production remote Model Context Protocol server operated by Persado at https://api.persado.com/mcp. Discovered by probing the API host: the RFC 9728 protected-resource document names the resource ve'
@@ -150,21 +151,24 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.0
-  delta: 16.9
+  composite: 22.6
+  delta: -2.4
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 21.4
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 8.1
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 25.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Persado Authentication

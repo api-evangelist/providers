@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-17'
+  score: 54.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -283,16 +284,18 @@ scopes:
   slug: nokia-network-as-code-scopes
   summary_line: 65 scopes
 score:
-  band: strong
-  composite: 60.4
-  delta: 0.0
+  band: exemplar
+  composite: 66.9
+  delta: 6.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 68.8
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 66.5
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 60.4
   provenance:
     agentic_access: derived
@@ -309,10 +312,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 93.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:
 - kind: authentication

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 21.6
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -224,18 +225,23 @@ rate_limits:
   slug: dealer-com-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 44.8
+  delta: -0.2
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 78.9
+    governance: 4.5
+    operational_transparency: 76.3
   previous_composite: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/screenshots/dealer-com-2026-07-25T211507.png
 security:

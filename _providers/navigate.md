@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-17'
+  score: 18.5
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -196,14 +197,16 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 102
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 29.6
+  delta: -1.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 52.6
-    developer_ergonomics: 8.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 50.7
+    developer_ergonomics: 6.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 31.2
   provenance:
@@ -215,8 +218,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:

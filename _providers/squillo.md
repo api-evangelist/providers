@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -177,7 +178,9 @@ rate_limits:
   name: Squillo Rate Limits
   slug: squillo-rate-limits
 rules:
-- name: Squillo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Squillo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,7 +188,10 @@ rules:
     info: 2
     warn: 3
   slug: squillo-jsonschema-spectral-rules
-- name: Squillo API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Squillo API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -195,15 +201,17 @@ rules:
   slug: squillo-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 36.8
+  delta: -1.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 66.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -218,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/screenshots/squillo-2026-06-20T194434.png
 security:

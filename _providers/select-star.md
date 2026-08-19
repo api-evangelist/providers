@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 26
 apis:
 - description: The bi API from Select Star — 23 operation(s) for bi.
@@ -324,14 +325,16 @@ overview: 'Select Star publishes 26 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 84
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 47.4
+  delta: -2.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 45.0
-    developer_ergonomics: 62.5
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 47.7
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 49.5
   provenance:
@@ -343,9 +346,10 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/screenshots/select-star-2026-08-17T081758.png
 security:
 - kind: authentication
   name: Select Star Authentication

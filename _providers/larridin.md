@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 48.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,15 +223,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 49.3
+  delta: -2.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 60.9
-    developer_ergonomics: 62.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 57.1
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -242,8 +245,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/screenshots/larridin-2026-07-25T224539.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -270,7 +271,9 @@ rate_limits:
   name: Telefonica Rate Limits
   slug: telefonica-rate-limits
 rules:
-- name: Telefónica API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telefónica API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +281,10 @@ rules:
     info: 2
     warn: 3
   slug: telefonica-jsonschema-spectral-rules
-- name: Telefónica API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Telefónica API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -288,14 +294,16 @@ rules:
   slug: telefonica-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 39.5
+  delta: -3.6
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 74.9
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 70.9
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 10.5
   previous_composite: 43.1
   provenance:
@@ -311,8 +319,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/screenshots/telefonica-2026-06-20T195129.png
 security:

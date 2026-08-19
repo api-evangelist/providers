@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -666,7 +667,9 @@ rate_limits:
   name: Runloop Ai Rate Limits
   slug: runloop-ai-rate-limits
 rules:
-- name: Runloop API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Runloop API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -674,7 +677,10 @@ rules:
     info: 1
     warn: 5
   slug: runloop-ai-jsonschema-spectral-rules
-- name: Runloop API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Runloop API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -683,15 +689,17 @@ rules:
     warn: 5
   slug: runloop-ai-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: -4.8
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 75.6
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 72.5
+    developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 66.5
   provenance:
@@ -701,8 +709,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -98,7 +99,9 @@ press:
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
 random_paper: 84
 rules:
-- name: Voya Financial API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Voya Financial API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -107,16 +110,24 @@ rules:
     warn: 3
   slug: voya-financial-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 14.6
-  delta: 0.0
+  band: minimal
+  composite: 7.9
+  delta: -6.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 8.1
+    contract_governance: 9.8
+    contract_quality: 7.0
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 14.6
   regulatory:
     applies: true
@@ -124,9 +135,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/screenshots/voya-financial-2026-06-20T201145.png
 security:
 - kind: domain-security

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +207,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Nexus Mutual API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nexus Mutual API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -216,15 +219,17 @@ rules:
   slug: nexus-mutual-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 42.2
+  delta: -3.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 57.1
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 54.5
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 47.4
+    governance: 9.8
+    operational_transparency: 44.7
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -239,8 +244,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

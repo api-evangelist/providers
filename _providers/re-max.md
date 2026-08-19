@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 17.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The RE/MAX Europe Datahub API is the franchise-operations API behind the RE/MAX EU Datahub application. It exposes offices, persons, RE/MAX Titles (the agent/broker role records), teams, regions and m
@@ -164,14 +165,16 @@ overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 random_paper: 139
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.0
+  composite: 19.8
+  delta: -5.2
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.6
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 25.0
   provenance:
@@ -183,10 +186,10 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 35.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 28.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Re Max Authentication

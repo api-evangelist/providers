@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -277,15 +277,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 59.8
+  delta: 0.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 64.8
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 60.7
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 59.5
   provenance:
     conformance: first-party
@@ -301,9 +303,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

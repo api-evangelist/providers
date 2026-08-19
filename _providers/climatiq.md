@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -281,7 +282,9 @@ rate_limits:
   name: Climatiq Rate Limits
   slug: climatiq-rate-limits
 rules:
-- name: Climatiq API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Climatiq API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -289,7 +292,10 @@ rules:
     info: 1
     warn: 4
   slug: climatiq-jsonschema-spectral-rules
-- name: Climatiq API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Climatiq API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -299,15 +305,17 @@ rules:
   slug: climatiq-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 48.7
+  delta: -2.8
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.7
-    developer_ergonomics: 56.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 58.3
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -322,10 +330,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-06-20T174523.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-08-17T083614.png
 security:
 - kind: authentication
   name: Climatiq Authentication

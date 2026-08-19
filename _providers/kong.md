@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -5503,7 +5504,9 @@ rate_limits:
   name: Kong Rate Limits
   slug: kong-rate-limits
 rules:
-- name: Kong API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Kong API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -5511,7 +5514,10 @@ rules:
     info: 1
     warn: 4
   slug: kong-jsonschema-spectral-rules
-- name: Kong API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Kong API Rules
   rule_count: 17
   severity_counts:
     error: 7
@@ -5520,16 +5526,18 @@ rules:
     warn: 8
   slug: kong-spectral-rules
 score:
-  band: strong
-  composite: 59.0
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: -8.8
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 61.8
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 63.3
+    developer_ergonomics: 47.6
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 52.6
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -5538,9 +5546,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:
 - kind: authentication

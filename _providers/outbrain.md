@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 48.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -571,7 +572,9 @@ rate_limits:
   name: Outbrain Rate Limits
   slug: outbrain-rate-limits
 rules:
-- name: Outbrain API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Outbrain API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -579,7 +582,10 @@ rules:
     info: 2
     warn: 3
   slug: outbrain-jsonschema-spectral-rules
-- name: Outbrain API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Outbrain API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -589,26 +595,31 @@ rules:
   slug: outbrain-rules
 score:
   band: exemplar
-  composite: 83.5
-  delta: 18.4
+  composite: 75.4
+  delta: -8.1
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 74.6
-    developer_ergonomics: 93.5
+    contract_governance: 41.7
+    contract_quality: 69.9
+    developer_ergonomics: 87.5
     discoverability: 92.6
-    governance: 89.6
+    governance: 41.7
     operational_transparency: 63.2
-  previous_composite: 65.1
+  previous_composite: 83.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:
 - kind: authentication

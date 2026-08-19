@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The Health Intelligence Platform (HIP) Admin API for creating and managing Human API users, submitting and managing EHR order types, managing subscriptions, and fetching delivered clinical summary rep
@@ -270,24 +270,26 @@ rate_limits:
   name: Human Api Rate Limits
   slug: human-api-rate-limits
 score:
-  band: developing
-  composite: 49.1
-  delta: 3.9
+  band: strong
+  composite: 57.4
+  delta: 8.3
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 60.1
-    developer_ergonomics: 66.8
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 30.3
+    contract_quality: 56.3
+    developer_ergonomics: 67.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
-  previous_composite: 45.2
+    governance: 30.3
+    operational_transparency: 26.3
+  previous_composite: 49.1
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -295,10 +297,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 58.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:
 - kind: authentication

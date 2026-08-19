@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -137,20 +138,22 @@ overview: 'Homebot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 5
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.9
+  delta: -1.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 41.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 21.1
   previous_composite: 44.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homebot/refs/heads/main/screenshots/homebot-2026-07-25T221335.png
 security:

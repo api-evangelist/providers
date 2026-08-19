@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 29.7
+  scored_at: '2026-08-19'
 api_count: 34
 apis:
 - description: The Brands API from VSCO — 2 operation(s) for brands.
@@ -350,16 +351,18 @@ overview: 'VSCO publishes 34 APIs on the [APIs.io](https://apis.io/) network, in
   VSCO''s developer surface includes documentation, getting-started guide, support, authentication, and 17 more developer resources.'
 random_paper: 145
 score:
-  band: thin
-  composite: 41.7
-  delta: 0.0
+  band: developing
+  composite: 42.5
+  delta: 0.8
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 65.7
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 67.1
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 41.7
   provenance:
     conformance: derived
@@ -370,8 +373,8 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

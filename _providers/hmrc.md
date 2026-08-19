@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -244,7 +245,9 @@ rate_limits:
   name: Hmrc Rate Limits
   slug: hmrc-rate-limits
 rules:
-- name: HMRC UK Tax Authority API Rules
+- effective_rule_count: 5
+  extends: []
+  name: HMRC UK Tax Authority API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,15 +262,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 46.9
+  delta: -5.4
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 67.9
-    developer_ergonomics: 47.8
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 9.8
+    contract_quality: 63.6
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -281,10 +286,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 68.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 61.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png
 security:
 - kind: authentication

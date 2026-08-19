@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -675,7 +676,9 @@ rate_limits:
   name: Pinwheel Rate Limits
   slug: pinwheel-rate-limits
 rules:
-- name: Pinwheel API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pinwheel API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -685,14 +688,16 @@ rules:
   slug: pinwheel-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 48.8
+  delta: -2.2
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 71.5
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 70.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 51.0
   provenance:
@@ -708,8 +713,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,22 +102,24 @@ overview: 'Tracera is profiled on the [APIs.io](https://apis.io/) network. Tagge
   Tracera''s developer surface includes engineering blog, support, signup flow, YouTube channel, and 10 more developer resources.'
 random_paper: 142
 score:
-  band: emerging
-  composite: 15.5
-  delta: 0.0
+  band: minimal
+  composite: 9.8
+  delta: -5.7
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 15.5
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Tracera Domain Security

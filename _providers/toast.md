@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1240,7 +1241,9 @@ rate_limits:
   name: Toast Rate Limits
   slug: toast-rate-limits
 rules:
-- name: Toast API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Toast API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1248,7 +1251,10 @@ rules:
     info: 2
     warn: 3
   slug: toast-jsonschema-spectral-rules
-- name: Toast API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Toast API Rules
   rule_count: 36
   severity_counts:
     error: 9
@@ -1262,16 +1268,18 @@ scopes:
   slug: toast-scopes
   summary_line: 22 scopes · clientCredentials
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -5.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 66.7
-    developer_ergonomics: 28.3
+    contract_governance: 25.0
+    contract_quality: 66.3
+    developer_ergonomics: 31.0
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -1280,9 +1288,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png
 security:
 - kind: authentication

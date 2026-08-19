@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Dataset releases
@@ -168,15 +169,17 @@ overview: 'Unitlab AI publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 104
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 43.7
+  delta: -1.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 61.2
-    developer_ergonomics: 56.0
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 45.1
   provenance:
     conformance: derived
@@ -187,9 +190,10 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/screenshots/unitlab-ai-2026-08-17T082617.png
 security:
 - kind: authentication
   name: Unitlab Ai Authentication

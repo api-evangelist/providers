@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 35.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -695,7 +696,9 @@ rate_limits:
   name: Juniper Rate Limits
   slug: juniper-rate-limits
 rules:
-- name: Juniper Networks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Juniper Networks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -704,16 +707,18 @@ rules:
     warn: 3
   slug: juniper-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -8.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 59.9
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 56.6
+    developer_ergonomics: 38.1
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -722,9 +727,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png
 security:
 - kind: authentication

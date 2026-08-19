@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -191,7 +192,10 @@ rate_limits:
   name: Jotform Rate Limits
   slug: jotform-rate-limits
 rules:
-- name: Jotform API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Jotform API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -201,14 +205,16 @@ rules:
   slug: jotform-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 37.9
+  delta: -1.6
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 61.9
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 60.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 27.1
+    governance: 13.6
     operational_transparency: 28.9
   previous_composite: 39.5
   provenance:
@@ -218,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:

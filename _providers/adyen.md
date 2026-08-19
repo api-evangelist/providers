@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 52.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -22317,7 +22318,10 @@ rate_limits:
   name: Adyen Rate Limits
   slug: adyen-rate-limits
 rules:
-- name: Adyen API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Adyen API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -22325,7 +22329,9 @@ rules:
     info: 1
     warn: 7
   slug: adyen-asyncapi-spectral-rules
-- name: Adyen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adyen API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -22333,7 +22339,9 @@ rules:
     info: 2
     warn: 3
   slug: adyen-jsonschema-spectral-rules
-- name: Adyen API Rules
+- effective_rule_count: 32
+  extends: []
+  name: Adyen API Rules
   rule_count: 32
   severity_counts:
     error: 12
@@ -22343,14 +22351,16 @@ rules:
   slug: adyen-spectral-rules
 score:
   band: exemplar
-  composite: 67.0
-  delta: 0.0
+  composite: 67.6
+  delta: 0.6
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 81.2
-    developer_ergonomics: 71.7
+    contract_governance: 28.8
+    contract_quality: 78.5
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 44.7
   previous_composite: 67.0
   provenance:
@@ -22366,8 +22376,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:

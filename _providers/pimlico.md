@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-17'
+  score: 18.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Unified ERC-4337 JSON-RPC endpoint exposing both the Pimlico bundler (eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationReceipt, pimlico_getUserOperationGasPrice, pimlico_getUse
@@ -215,15 +216,17 @@ rate_limits:
   slug: pimlico-rate-limits
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 47.4
+  delta: -3.0
   facets:
-    commercial_clarity: 89.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.8
+    developer_ergonomics: 61.3
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 60.5
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 50.4
   provenance:
     conformance: first-party
@@ -235,9 +238,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pimlico/refs/heads/main/screenshots/pimlico-2026-08-17T081231.png
 security:
 - kind: authentication
   name: Pimlico Authentication

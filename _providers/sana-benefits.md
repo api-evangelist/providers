@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -138,14 +139,16 @@ overview: 'Sana Benefits is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 120
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 20.5
+  delta: -0.3
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 20.8
   provenance:
@@ -155,9 +158,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 36.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 47.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

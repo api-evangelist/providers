@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -299,7 +300,9 @@ rate_limits:
   name: Amazon Location Service Rate Limits
   slug: amazon-location-service-rate-limits
 rules:
-- name: Amazon Location Service API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Location Service API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,7 +310,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-location-service-jsonschema-spectral-rules
-- name: Amazon Location Service API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Location Service API Rules
   rule_count: 24
   severity_counts:
     error: 9
@@ -316,16 +322,18 @@ rules:
     warn: 15
   slug: amazon-location-service-spectral-rules
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 51.6
+  delta: -7.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 58.8
   provenance:
     agentic_access: derived
@@ -334,9 +342,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/screenshots/amazon-location-service-2026-06-20T171726.png
 security:
 - kind: authentication

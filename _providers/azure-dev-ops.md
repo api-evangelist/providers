@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -328,7 +329,9 @@ rate_limits:
   name: Azure Dev Ops Rate Limits
   slug: azure-dev-ops-rate-limits
 rules:
-- name: Azure DevOps API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure DevOps API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -336,7 +339,10 @@ rules:
     info: 2
     warn: 3
   slug: azure-dev-ops-jsonschema-spectral-rules
-- name: Azure DevOps API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Azure DevOps API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -351,14 +357,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 46.1
+  delta: -6.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 58.9
-    developer_ergonomics: 58.7
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 23.7
   previous_composite: 52.6
   provenance:
@@ -368,9 +376,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/screenshots/azure-dev-ops-2026-06-20T172849.png
 security:
 - kind: authentication

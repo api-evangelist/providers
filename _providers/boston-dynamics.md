@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides Python and C++ libraries to control Spot, read
@@ -147,18 +148,20 @@ rate_limits:
   slug: boston-dynamics-rate-limits
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 22.0
+  delta: -0.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 17.7
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   previous_composite: 22.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/screenshots/boston-dynamics-2026-06-20T173614.png
 security:

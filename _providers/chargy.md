@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,16 +180,18 @@ overview: 'char.gy publishes 1 API on the [APIs.io](https://apis.io/) network: O
   char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
 random_paper: 42
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: developing
+  composite: 47.9
+  delta: 6.8
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 57.5
-    developer_ergonomics: 27.7
+    contract_governance: 30.3
+    contract_quality: 55.9
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 41.1
   provenance:
     agentic_access: derived
@@ -205,10 +208,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 58.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:
 - kind: authentication

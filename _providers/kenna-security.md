@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for the Kenna / Cisco Vulnerability Management platform: manage assets, asset groups, applications, findings, fixes, vulnerabilities, vulnerability intelligence, connectors, data exports, das'
@@ -36,6 +37,10 @@ apis:
   slug: cisco-vulnerability-management-api-kenna
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: company
   title: ''
   type: Website
@@ -116,30 +121,32 @@ created: '2026-07-17'
 description: 'Kenna Security is the risk-based vulnerability management platform now part of Cisco as Cisco Vulnerability Management. Founded in Chicago and acquired by Cisco in 2021, the platform ingests scanner, asset, and threat-intelligence data to prioritize vulnerabilities by real-world exploitability and business risk. It exposes a REST API (the Kenna / Cisco Vulnerability Management API) at api.kennasecurity.com covering assets, asset groups, applications, findings, fixes, vulnerabilities, vulnerability intelligence, connectors, data exports, dashboards, metrics, roles, and users. The API uses an X-Risk-Token API-key header over HTTPS, page-number pagination, and JSON payloads. Kenna also publishes a first-party open-source Scripting Toolkit on GitHub for building connectors and integrations. Sector: cybersecurity / vulnerability management.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kenna-security.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-19'
 name: Kenna Security
 nav: Providers
 network: true
 overview: 'Kenna Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Vulnerability Management, Risk-Based Prioritization, and Threat Intelligence.
 
 
-  Kenna Security''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 12 more developer resources.'
+  Kenna Security''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 13 more developer resources.'
 random_paper: 117
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 19.9
+  delta: -5.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 41.7
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 30.3
   previous_composite: 25.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/screenshots/kenna-security-2026-07-25T223615.png
 security:
 - kind: authentication

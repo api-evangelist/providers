@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -1305,7 +1306,10 @@ rate_limits:
   name: Fastly Rate Limits
   slug: fastly-rate-limits
 rules:
-- name: Fastly API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Fastly API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -1313,7 +1317,9 @@ rules:
     info: 0
     warn: 8
   slug: fastly-asyncapi-spectral-rules
-- name: Fastly API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fastly API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1321,7 +1327,10 @@ rules:
     info: 1
     warn: 4
   slug: fastly-jsonschema-spectral-rules
-- name: Fastly API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Fastly API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -1331,15 +1340,17 @@ rules:
   slug: fastly-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 60.4
+  delta: -4.9
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 80.0
-    developer_ergonomics: 67.4
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 26.5
+    contract_quality: 79.3
+    developer_ergonomics: 73.8
     discoverability: 68.5
-    governance: 62.5
-    operational_transparency: 28.9
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 65.3
   provenance:
     agentic_access: derived
@@ -1348,8 +1359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 35.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4934,7 +4935,9 @@ rate_limits:
   name: Unified To Rate Limits
   slug: unified-to-rate-limits
 rules:
-- name: Unified.to API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unified.to API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4942,7 +4945,10 @@ rules:
     info: 1
     warn: 4
   slug: unified-to-jsonschema-spectral-rules
-- name: Unified.to API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Unified.to API Rules
   rule_count: 39
   severity_counts:
     error: 13
@@ -4952,14 +4958,16 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 60.4
+  delta: -4.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 64.2
-    developer_ergonomics: 71.7
+    contract_governance: 25.0
+    contract_quality: 67.8
+    developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 55.3
   previous_composite: 65.3
   provenance:
@@ -4969,8 +4977,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 138
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

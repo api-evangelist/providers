@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -246,7 +247,10 @@ rate_limits:
   name: Calendly Rate Limits
   slug: calendly-rate-limits
 rules:
-- name: Calendly API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Calendly API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -254,7 +258,9 @@ rules:
     info: 0
     warn: 8
   slug: calendly-asyncapi-spectral-rules
-- name: Calendly API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Calendly API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -264,15 +270,17 @@ rules:
   slug: calendly-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 40.8
+  delta: -8.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 73.9
-    developer_ergonomics: 30.4
-    discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 10.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 11.4
+    contract_quality: 70.1
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -281,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -530,7 +531,10 @@ rate_limits:
   name: Juniper Networks Rate Limits
   slug: juniper-networks-rate-limits
 rules:
-- name: Juniper Networks API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Juniper Networks API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -538,7 +542,9 @@ rules:
     info: 0
     warn: 6
   slug: juniper-networks-asyncapi-spectral-rules
-- name: Juniper Networks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Juniper Networks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -548,15 +554,17 @@ rules:
   slug: juniper-networks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 39.8
+  delta: -9.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 77.1
-    developer_ergonomics: 34.8
+    contract_governance: 11.4
+    contract_quality: 73.0
+    developer_ergonomics: 21.4
     discoverability: 66.7
-    governance: 52.1
-    operational_transparency: 26.3
+    governance: 11.4
+    operational_transparency: 18.4
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -565,9 +573,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png
 security:
 - kind: authentication

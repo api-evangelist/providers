@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 40.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The fhir-r4-formulary-api API from Clover Health — 5 operation(s) for fhir-r4-formulary-api.
@@ -163,16 +164,18 @@ overview: 'Clover Health publishes 2 APIs on the [APIs.io](https://apis.io/) net
   Clover Health''s developer surface includes documentation, API reference, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 134
 score:
-  band: thin
-  composite: 40.3
-  delta: 0.0
+  band: developing
+  composite: 45.7
+  delta: 5.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 52.2
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 44.6
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 40.3
   provenance:
     conformance: derived
@@ -188,10 +191,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 38.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 55.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/screenshots/clover-health-2026-07-25T205721.png
 security:
 - kind: authentication

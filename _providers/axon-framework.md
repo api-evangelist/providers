@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -324,7 +325,9 @@ rate_limits:
   name: Axon Framework Rate Limits
   slug: axon-framework-rate-limits
 rules:
-- name: Axon Framework API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Axon Framework API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -332,7 +335,10 @@ rules:
     info: 2
     warn: 3
   slug: axon-framework-jsonschema-spectral-rules
-- name: Axon Framework API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Axon Framework API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -341,16 +347,18 @@ rules:
     warn: 6
   slug: axon-framework-spectral-rules
 score:
-  band: developing
-  composite: 46.7
-  delta: 0.0
+  band: thin
+  composite: 34.4
+  delta: -12.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 56.7
-    developer_ergonomics: 21.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 53.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 46.7
   provenance:
     agentic_access: derived
@@ -359,9 +367,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/screenshots/axon-framework-2026-06-20T172816.png
 security:
 - kind: domain-security

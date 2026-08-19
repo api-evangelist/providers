@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -147,7 +148,10 @@ rate_limits:
   name: Midjourney Rate Limits
   slug: midjourney-rate-limits
 rules:
-- name: midjourney API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: midjourney API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -155,7 +159,9 @@ rules:
     info: 0
     warn: 7
   slug: midjourney-asyncapi-spectral-rules
-- name: midjourney API Rules
+- effective_rule_count: 6
+  extends: []
+  name: midjourney API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -165,15 +171,17 @@ rules:
   slug: midjourney-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 32.9
+  delta: -4.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 82.4
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 78.7
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 41.7
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
   previous_composite: 37.7
   provenance:
     agentic_access: derived
@@ -182,8 +190,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/screenshots/midjourney-2026-06-20T185557.png
 security:

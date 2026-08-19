@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -260,16 +261,18 @@ scopes:
   slug: qubiqle-scopes
   summary_line: 1 scope
 score:
-  band: developing
+  band: strong
   composite: 54.4
   delta: 0.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 57.1
-    developer_ergonomics: 69.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 55.4
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -287,9 +290,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/screenshots/qubiqle-2026-08-17T081428.png
 security:
 - kind: authentication
   name: Qubiqle Authentication

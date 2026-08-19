@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -165,12 +166,14 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 32
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 34.8
+  delta: -0.5
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 62.3
-    developer_ergonomics: 17.4
+    contract_governance: 0.0
+    contract_quality: 59.0
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
@@ -181,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 slug: snapapi-pics
 tags:

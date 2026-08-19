@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -408,15 +409,17 @@ rate_limits:
   slug: finix-payments-rate-limits
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 66.2
+  delta: 6.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 67.2
-    developer_ergonomics: 73.4
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 65.1
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 73.7
+    governance: 30.3
+    operational_transparency: 71.1
   previous_composite: 59.9
   provenance:
     agentic_access: derived
@@ -433,10 +436,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:
 - kind: authentication

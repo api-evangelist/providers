@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -259,7 +260,9 @@ rate_limits:
   name: Amazon Service Catalog Rate Limits
   slug: amazon-service-catalog-rate-limits
 rules:
-- name: Amazon Service Catalog API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Service Catalog API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -267,7 +270,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-service-catalog-jsonschema-spectral-rules
-- name: Amazon Service Catalog API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon Service Catalog API Rules
   rule_count: 26
   severity_counts:
     error: 9
@@ -276,16 +282,18 @@ rules:
     warn: 15
   slug: amazon-service-catalog-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 36.4
+  delta: -6.9
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 21.5
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 20.1
+    developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -294,9 +302,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/screenshots/amazon-service-catalog-2026-06-20T171823.png
 security:
 - kind: authentication

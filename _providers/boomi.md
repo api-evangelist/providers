@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -1001,7 +1002,10 @@ rate_limits:
   name: Boomi Rate Limits
   slug: boomi-rate-limits
 rules:
-- name: Boomi API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Boomi API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1009,7 +1013,9 @@ rules:
     info: 1
     warn: 6
   slug: boomi-asyncapi-spectral-rules
-- name: Boomi API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Boomi API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1018,15 +1024,17 @@ rules:
     warn: 4
   slug: boomi-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.7
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: -3.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 82.1
-    developer_ergonomics: 56.5
+    contract_governance: 13.6
+    contract_quality: 78.9
+    developer_ergonomics: 61.9
     discoverability: 66.7
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 55.3
   previous_composite: 66.7
   provenance:
@@ -1036,8 +1044,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png
 security:

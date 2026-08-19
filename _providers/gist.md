@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
@@ -206,19 +206,30 @@ rate_limits:
   slug: gist-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 43.9
+  delta: -5.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 54.1
-    developer_ergonomics: 80.4
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 54.2
+    developer_ergonomics: 62.5
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 49.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:
 - kind: authentication

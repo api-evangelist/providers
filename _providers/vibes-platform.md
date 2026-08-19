@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 73.0
-  scored_at: '2026-08-17'
+  score: 55.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -330,7 +331,9 @@ rate_limits:
   name: Vibes Platform Rate Limits
   slug: vibes-platform-rate-limits
 rules:
-- name: Vibes Platform API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vibes Platform API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -338,7 +341,10 @@ rules:
     info: 1
     warn: 4
   slug: vibes-platform-jsonschema-spectral-rules
-- name: Vibes Platform API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Vibes Platform API Rules
   rule_count: 13
   severity_counts:
     error: 2
@@ -353,31 +359,36 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 67.3
-  delta: 26.4
+  composite: 72.6
+  delta: 5.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 75.2
-    developer_ergonomics: 73.9
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 40.2
+    contract_quality: 70.7
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 79.2
-    operational_transparency: 52.6
-  previous_composite: 40.9
+    governance: 40.2
+    operational_transparency: 76.3
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 92.3
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 13
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:

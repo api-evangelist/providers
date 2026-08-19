@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -287,14 +288,16 @@ rate_limits:
   slug: komerce-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 59.2
+  delta: -1.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 66.6
-    developer_ergonomics: 66.8
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 31.8
+    contract_quality: 63.7
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 21.9
+    governance: 31.8
     operational_transparency: 55.3
   previous_composite: 60.6
   provenance:
@@ -312,9 +315,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -329,7 +330,9 @@ rate_limits:
   name: Arcadia Power Rate Limits
   slug: arcadia-power-rate-limits
 rules:
-- name: Arcadia API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Arcadia API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -338,16 +341,18 @@ rules:
     warn: 3
   slug: arcadia-power-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.8
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  delta: -6.9
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 68.7
-    developer_ergonomics: 45.7
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 9.8
+    contract_quality: 64.4
+    developer_ergonomics: 44.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 50.0
   previous_composite: 60.8
   provenance:
     agentic_access: derived
@@ -361,10 +366,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 48.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 37.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/screenshots/arcadia-power-2026-06-20T172402.png
 security:
 - kind: authentication

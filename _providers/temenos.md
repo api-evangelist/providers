@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-17'
+  score: 33.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -826,7 +827,10 @@ rate_limits:
   name: Temenos Rate Limits
   slug: temenos-rate-limits
 rules:
-- name: Temenos API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Temenos API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -834,7 +838,9 @@ rules:
     info: 1
     warn: 7
   slug: temenos-asyncapi-spectral-rules
-- name: Temenos API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Temenos API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -842,7 +848,10 @@ rules:
     info: 2
     warn: 4
   slug: temenos-jsonschema-spectral-rules
-- name: Temenos API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Temenos API Rules
   rule_count: 14
   severity_counts:
     error: 2
@@ -857,15 +866,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 55.6
+  delta: -5.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 75.4
-    developer_ergonomics: 56.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 71.2
+    developer_ergonomics: 46.4
     discoverability: 87.0
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 28.8
+    operational_transparency: 31.6
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -880,9 +891,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:
 - kind: authentication

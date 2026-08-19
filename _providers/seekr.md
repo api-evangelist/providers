@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -425,14 +426,16 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 91
 score:
   band: strong
-  composite: 56.1
-  delta: 0.0
+  composite: 61.6
+  delta: 5.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.2
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 55.2
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 39.5
   previous_composite: 56.1
   provenance:
@@ -451,9 +454,10 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:
 - kind: authentication
   name: Seekr Authentication

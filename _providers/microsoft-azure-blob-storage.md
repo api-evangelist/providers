@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -328,7 +329,9 @@ rate_limits:
   name: Microsoft Azure Blob Storage Rate Limits
   slug: microsoft-azure-blob-storage-rate-limits
 rules:
-- name: Azure Blob Storage API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Azure Blob Storage API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -338,15 +341,17 @@ rules:
   slug: microsoft-azure-blob-storage-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 54.7
+  delta: -5.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 57.7
-    developer_ergonomics: 63.0
+    contract_governance: 9.8
+    contract_quality: 54.1
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 52.6
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -355,9 +360,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -255,15 +256,17 @@ rate_limits:
   slug: s2-dev-rate-limits
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 63.6
+  delta: 1.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 55.2
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 80.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 78.9
+    governance: 16.7
+    operational_transparency: 76.3
   previous_composite: 61.9
   provenance:
     agentic_access: derived
@@ -275,9 +278,10 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/screenshots/s2-dev-2026-08-17T081704.png
 security:
 - kind: authentication
   name: S2 Dev Authentication

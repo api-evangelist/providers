@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -246,14 +247,16 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 58
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 46.5
+  delta: 1.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 62.0
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 59.3
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 45.2
   provenance:
@@ -271,10 +274,11 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 37.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:
 - kind: authentication
   name: Thriva Authentication

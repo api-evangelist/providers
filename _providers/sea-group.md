@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 9
 common:
@@ -127,18 +128,20 @@ overview: 'Sea Group (Sea Limited) is profiled on the [APIs.io](https://apis.io/
 random_paper: 21
 score:
   band: minimal
-  composite: 8.8
-  delta: 0.0
+  composite: 9.0
+  delta: 0.2
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sea-group/refs/heads/main/screenshots/sea-group-2026-06-20T193615.png
 security:

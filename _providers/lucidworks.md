@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -272,7 +273,9 @@ rate_limits:
   name: Lucidworks Rate Limits
   slug: lucidworks-rate-limits
 rules:
-- name: Lucidworks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lucidworks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,15 +285,17 @@ rules:
   slug: lucidworks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 34.6
+  delta: -6.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 57.3
-    developer_ergonomics: 34.8
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 10.5
+    contract_governance: 9.8
+    contract_quality: 56.3
+    developer_ergonomics: 38.1
+    discoverability: 64.8
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 41.1
   provenance:
     agentic_access: derived
@@ -299,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/screenshots/lucidworks-2026-06-20T184745.png
 security:
 - kind: authentication

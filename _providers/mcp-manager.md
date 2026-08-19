@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Control-plane surface that lets an agent or script manage MCP Manager configuration — servers, gateways, identities, hosts, teams, roles, logs, and integrations — with the same actions as the app, sco
@@ -166,22 +167,24 @@ overview: 'MCP Manager publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 53
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 48.8
+  delta: -1.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 63.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 28.9
   previous_composite: 50.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/screenshots/mcp-manager-2026-08-07T172245.png
 security:

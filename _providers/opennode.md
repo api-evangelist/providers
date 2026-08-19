@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 46.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -229,7 +230,9 @@ rate_limits:
   name: Opennode Rate Limits
   slug: opennode-rate-limits
 rules:
-- name: OpenNode API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OpenNode API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,15 +242,17 @@ rules:
   slug: opennode-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 46.5
+  delta: -6.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 70.9
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 60.5
+    governance: 9.8
+    operational_transparency: 56.6
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -262,9 +267,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png
 security:
 - kind: authentication

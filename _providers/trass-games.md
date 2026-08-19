@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 13.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Live Shopify-hosted storefront MCP endpoint for the Yeeps store, exposing catalog search, cart management, product details, and shop policy/FAQ tools over JSON-RPC (streamable HTTP). Probed live 2026-
@@ -106,21 +107,29 @@ overview: 'Trass Games publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 84
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 16.8
+  delta: -0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 4.8
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 17.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

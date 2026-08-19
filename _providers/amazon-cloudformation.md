@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -361,7 +362,9 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
   Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
 random_paper: 115
 rules:
-- name: Amazon CloudFormation API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon CloudFormation API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -369,7 +372,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-cloudformation-jsonschema-spectral-rules
-- name: Amazon CloudFormation API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon CloudFormation API Rules
   rule_count: 24
   severity_counts:
     error: 12
@@ -378,16 +384,18 @@ rules:
     warn: 11
   slug: amazon-cloudformation-spectral-rules
 score:
-  band: strong
-  composite: 60.3
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -7.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 78.4
-    developer_ergonomics: 50.0
+    contract_governance: 41.7
+    contract_quality: 74.0
+    developer_ergonomics: 45.2
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 60.3
   provenance:
     agentic_access: derived
@@ -398,9 +406,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:
 - kind: authentication

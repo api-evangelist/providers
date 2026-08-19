@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -218,7 +219,10 @@ rate_limits:
   name: Phonely Rate Limits
   slug: phonely-rate-limits
 rules:
-- name: Phonely API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Phonely API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -226,7 +230,9 @@ rules:
     info: 1
     warn: 1
   slug: phonely-asyncapi-spectral-rules
-- name: Phonely API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Phonely API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +240,10 @@ rules:
     info: 2
     warn: 3
   slug: phonely-jsonschema-spectral-rules
-- name: Phonely API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Phonely API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -244,15 +253,17 @@ rules:
   slug: phonely-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 49.2
+  delta: -5.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 77.8
-    developer_ergonomics: 41.3
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 13.6
+    contract_quality: 75.3
+    developer_ergonomics: 45.2
     discoverability: 59.3
-    governance: 27.1
-    operational_transparency: 47.4
+    governance: 13.6
+    operational_transparency: 31.6
   previous_composite: 54.3
   provenance:
     agentic_access: derived
@@ -266,10 +277,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 23.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
 security:
 - kind: authentication

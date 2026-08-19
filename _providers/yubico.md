@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 44.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Yubico OTP validation operations.
@@ -194,15 +195,17 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 random_paper: 55
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 56.9
+  delta: 0.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 56.6
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
   previous_composite: 56.2
   provenance:
     conformance: first-party
@@ -213,9 +216,10 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:
 - kind: authentication
   name: Yubico Authentication

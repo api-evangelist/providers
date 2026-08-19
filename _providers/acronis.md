@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -560,7 +561,9 @@ rate_limits:
   name: Acronis Rate Limits
   slug: acronis-rate-limits
 rules:
-- name: Acronis API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Acronis API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -568,7 +571,10 @@ rules:
     info: 1
     warn: 4
   slug: acronis-jsonschema-spectral-rules
-- name: Acronis API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: Acronis API Rules
   rule_count: 38
   severity_counts:
     error: 15
@@ -578,15 +584,17 @@ rules:
   slug: acronis-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 34.0
+  delta: -4.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 23.6
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 24.0
+    developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -595,8 +603,8 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:

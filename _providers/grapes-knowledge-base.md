@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -148,7 +149,9 @@ rate_limits:
   name: Grapes Knowledge Base Rate Limits
   slug: grapes-knowledge-base-rate-limits
 rules:
-- name: Grapes Knowledge Base API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Grapes Knowledge Base API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -158,14 +161,16 @@ rules:
   slug: grapes-knowledge-base-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 30.2
+  delta: -6.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 54.5
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 36.6
   provenance:
@@ -175,9 +180,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/screenshots/grapes-knowledge-base-2026-06-20T182323.png
 security:
 - kind: authentication

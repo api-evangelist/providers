@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -225,7 +226,9 @@ rate_limits:
   name: Us Bancorp Rate Limits
   slug: us-bancorp-rate-limits
 rules:
-- name: US Bancorp API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Bancorp API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,7 +236,10 @@ rules:
     info: 2
     warn: 3
   slug: us-bancorp-jsonschema-spectral-rules
-- name: US Bancorp API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: US Bancorp API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -248,15 +254,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 33.0
+  delta: -6.0
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 74.3
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 69.9
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -271,9 +279,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png
 security:
 - kind: authentication

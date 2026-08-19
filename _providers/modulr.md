@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-17'
+  score: 62.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -236,15 +237,17 @@ rate_limits:
   slug: modulr-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 49.1
+  delta: -1.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 61.8
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 60.0
+    developer_ergonomics: 48.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 65.8
+    governance: 16.7
+    operational_transparency: 55.3
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -256,9 +259,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 51.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:

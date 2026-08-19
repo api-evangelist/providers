@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-17'
+  score: 58.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -297,11 +298,13 @@ score:
   composite: 59.1
   delta: 0.0
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 70.1
-    developer_ergonomics: 75.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 30.3
+    contract_quality: 65.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 60.5
   previous_composite: 59.1
   provenance:
@@ -319,10 +322,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 78.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/screenshots/processout-2026-08-17T081342.png
 security:
 - kind: authentication
   name: Processout Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: A curated collection of standards, conventions, and best practices for building RESTful APIs, including HAL, JSON:API, Siren, Collection+JSON, and HATEOAS patterns.
@@ -113,7 +114,9 @@ rate_limits:
   name: Restful Services Rate Limits
   slug: restful-services-rate-limits
 rules:
-- name: RESTful Services API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RESTful Services API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -123,19 +126,21 @@ rules:
   slug: restful-services-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 18.0
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 15.2
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 23.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restful-services/refs/heads/main/screenshots/restful-services-2026-06-20T193027.png
 security:
 - kind: domain-security

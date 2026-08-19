@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.9
-  scored_at: '2026-08-17'
+  score: 14.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Server-side API for sending advertiser conversion events (Purchase, AddToCart, Lead, ViewContent, etc.) to Teads for measurement and optimization, using a Conversion API Token generated in Teads Ad Ma
@@ -190,22 +191,24 @@ rate_limits:
   slug: teads-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 15.4
+  composite: 38.6
+  delta: 1.4
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 39.5
-  previous_composite: 21.8
+    governance: 18.2
+    operational_transparency: 36.8
+  previous_composite: 37.2
   provenance:
-    conformance: derived
-    mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Teads Authentication

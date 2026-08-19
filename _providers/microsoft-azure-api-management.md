@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -1232,7 +1233,9 @@ rate_limits:
   name: Microsoft Azure Api Management Rate Limits
   slug: microsoft-azure-api-management-rate-limits
 rules:
-- name: Microsoft Azure API Management API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Azure API Management API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1240,7 +1243,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-azure-api-management-jsonschema-spectral-rules
-- name: Microsoft Azure API Management API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Microsoft Azure API Management API Rules
   rule_count: 15
   severity_counts:
     error: 1
@@ -1254,16 +1260,18 @@ scopes:
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 53.4
+  delta: -6.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 17.1
-    developer_ergonomics: 93.5
+    contract_governance: 25.0
+    contract_quality: 16.1
+    developer_ergonomics: 92.9
     discoverability: 57.4
-    governance: 68.8
-    operational_transparency: 55.3
+    governance: 25.0
+    operational_transparency: 52.6
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -1272,9 +1280,9 @@ score:
       derived: 70
       marker_coverage: 100.0
       total: 70
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

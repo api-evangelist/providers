@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-17'
+  score: 55.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -409,15 +410,17 @@ rate_limits:
   slug: portone-rate-limits
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 61.8
+  delta: -3.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 66.8
-    developer_ergonomics: 79.9
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 65.4
+    developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 65.8
   previous_composite: 64.8
   provenance:
     agentic_access: derived
@@ -434,10 +437,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 43.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/screenshots/portone-2026-08-17T081325.png
 security:
 - kind: authentication
   name: Portone Authentication

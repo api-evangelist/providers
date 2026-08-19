@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -619,7 +620,9 @@ rate_limits:
   name: Metamap Rate Limits
   slug: metamap-rate-limits
 rules:
-- name: MetaMap API Rules
+- effective_rule_count: 5
+  extends: []
+  name: MetaMap API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -627,7 +630,10 @@ rules:
     info: 2
     warn: 3
   slug: metamap-jsonschema-spectral-rules
-- name: MetaMap API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: MetaMap API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -636,15 +642,17 @@ rules:
     warn: 4
   slug: metamap-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 57.7
+  delta: -8.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 69.9
-    developer_ergonomics: 71.7
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 9.8
+    contract_quality: 65.5
+    developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 44.7
   previous_composite: 66.3
   provenance:
@@ -654,9 +662,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:
 - kind: authentication

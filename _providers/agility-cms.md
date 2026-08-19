@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST and GraphQL APIs for fetching, syncing, and managing content from Agility CMS, with CDN delivery across global and regional endpoints.
@@ -102,18 +103,26 @@ overview: 'Agility CMS publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 80
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.2
+  delta: -1.0
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 48.1
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 11.9
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 25.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/screenshots/agility-cms-2026-06-20T170242.png
 security:

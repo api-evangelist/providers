@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 42.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -598,7 +599,9 @@ rate_limits:
   name: Emnify Rate Limits
   slug: emnify-rate-limits
 rules:
-- name: emnify API Rules
+- effective_rule_count: 5
+  extends: []
+  name: emnify API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -606,7 +609,10 @@ rules:
     info: 1
     warn: 4
   slug: emnify-jsonschema-spectral-rules
-- name: emnify API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: emnify API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -615,16 +621,18 @@ rules:
     warn: 7
   slug: emnify-rules
 score:
-  band: exemplar
-  composite: 66.0
-  delta: 0.0
+  band: strong
+  composite: 58.7
+  delta: -7.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 76.1
-    developer_ergonomics: 65.2
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 9.8
+    contract_quality: 76.0
+    developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 66.0
   provenance:
     agentic_access: derived
@@ -638,10 +646,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 30.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/screenshots/emnify-2026-06-20T180637.png
 security:
 - kind: authentication

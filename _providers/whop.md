@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -195,7 +196,10 @@ rate_limits:
   name: Whop Rate Limits
   slug: whop-rate-limits
 rules:
-- name: Whop API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Whop API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -205,15 +209,17 @@ rules:
   slug: whop-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 38.9
+  delta: -2.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 61.6
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 61.3
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -228,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

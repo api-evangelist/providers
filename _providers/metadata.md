@@ -12,25 +12,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The MetadataONE Model Context Protocol server — Metadata's only public developer surface. 141 documented tools let an MCP client (Claude Code, Claude Desktop, Hermes, Paperclip, OpenClaw or a custom a
@@ -143,18 +144,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 41.4
+  delta: -1.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 42.5
-    developer_ergonomics: 41.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 39.9
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
 security:

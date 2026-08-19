@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -160,7 +161,9 @@ rate_limits:
   name: Rsc Rate Limits
   slug: rsc-rate-limits
 rules:
-- name: RSC API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RSC API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,7 +171,10 @@ rules:
     info: 2
     warn: 3
   slug: rsc-jsonschema-spectral-rules
-- name: RSC API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: RSC API Rules
   rule_count: 18
   severity_counts:
     error: 2
@@ -177,15 +183,17 @@ rules:
     warn: 14
   slug: rsc-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 35.1
+  delta: -11.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.9
-    developer_ergonomics: 19.6
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 66.4
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 46.1
   provenance:
@@ -195,9 +203,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/screenshots/rsc-2026-08-17T081644.png
 security:
 - kind: authentication
   name: Rsc Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 30.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Auto Drive API API from Autonomys — 25 operation(s) for auto drive api.
@@ -171,16 +172,18 @@ overview: 'Autonomys publishes 2 APIs on the [APIs.io](https://apis.io/) network
   Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 113
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 0.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 43.3
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 41.9
   provenance:
     conformance: derived
@@ -191,8 +194,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -305,9 +306,11 @@ score:
   composite: 38.7
   delta: 0.0
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 57.6
-    developer_ergonomics: 52.2
+    contract_governance: 0.0
+    contract_quality: 53.9
+    developer_ergonomics: 57.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -319,8 +322,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:

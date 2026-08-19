@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -294,7 +295,9 @@ rate_limits:
   name: Captions Rate Limits
   slug: captions-rate-limits
 rules:
-- name: Captions API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Captions API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,15 +307,17 @@ rules:
   slug: captions-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.8
-  delta: 0.0
+  composite: 66.6
+  delta: -4.2
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 53.5
-    developer_ergonomics: 56.0
+    contract_governance: 55.3
+    contract_quality: 52.3
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 68.4
+    governance: 55.3
+    operational_transparency: 65.8
   previous_composite: 70.8
   provenance:
     agentic_access: derived
@@ -324,8 +329,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -142,14 +143,16 @@ rate_limits:
   slug: ellkay-rate-limits
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 29.6
+  delta: 0.4
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 39.3
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 36.8
   previous_composite: 29.2
   provenance:
@@ -160,9 +163,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 36.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
 security:

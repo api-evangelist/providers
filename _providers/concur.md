@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -265,7 +266,9 @@ rate_limits:
   name: Concur Rate Limits
   slug: concur-rate-limits
 rules:
-- name: SAP Concur API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SAP Concur API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,7 +276,10 @@ rules:
     info: 2
     warn: 3
   slug: concur-jsonschema-spectral-rules
-- name: SAP Concur API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: SAP Concur API Rules
   rule_count: 18
   severity_counts:
     error: 7
@@ -282,16 +288,18 @@ rules:
     warn: 9
   slug: concur-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 29.9
+  delta: -13.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 21.1
-    developer_ergonomics: 56.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 19.8
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -300,9 +308,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/screenshots/concur-2026-06-20T174842.png
 security:
 - kind: authentication

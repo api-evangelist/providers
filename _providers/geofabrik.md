@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +156,9 @@ rate_limits:
   name: Geofabrik Rate Limits
   slug: geofabrik-rate-limits
 rules:
-- name: Geofabrik API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Geofabrik API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -164,15 +167,17 @@ rules:
     warn: 4
   slug: geofabrik-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 36.9
+  delta: -6.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 63.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 61.0
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 43.3
   provenance:
@@ -182,9 +187,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/screenshots/geofabrik-2026-06-20T181750.png
 security:
 - kind: domain-security

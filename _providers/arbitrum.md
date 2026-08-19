@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-17'
+  score: 27.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,7 +178,10 @@ rate_limits:
   name: Arbitrum Rate Limits
   slug: arbitrum-rate-limits
 rules:
-- name: Arbitrum API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Arbitrum API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -187,14 +191,16 @@ rules:
   slug: arbitrum-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 42.0
+  delta: -4.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.7
-    developer_ergonomics: 23.9
+    contract_governance: 13.6
+    contract_quality: 63.0
+    developer_ergonomics: 26.2
     discoverability: 81.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 42.1
   previous_composite: 46.6
   provenance:
@@ -204,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/screenshots/arbitrum-2026-06-20T172358.png
 security:

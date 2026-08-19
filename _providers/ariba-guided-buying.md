@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -369,7 +370,9 @@ rate_limits:
   name: Ariba Guided Buying Rate Limits
   slug: ariba-guided-buying-rate-limits
 rules:
-- name: Ariba Guided Buying API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ariba Guided Buying API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -377,7 +380,10 @@ rules:
     info: 2
     warn: 3
   slug: ariba-guided-buying-jsonschema-spectral-rules
-- name: Ariba Guided Buying API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Ariba Guided Buying API Rules
   rule_count: 39
   severity_counts:
     error: 16
@@ -391,16 +397,18 @@ scopes:
   slug: ariba-guided-buying-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 28.8
+  delta: -13.4
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 31.0
-    developer_ergonomics: 47.8
-    discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 13.2
+    contract_governance: 25.0
+    contract_quality: 29.5
+    developer_ergonomics: 14.3
+    discoverability: 68.5
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 42.2
   provenance:
     agentic_access: derived
@@ -409,9 +417,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/screenshots/ariba-guided-buying-2026-07-25T201151.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 31.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Generate signed URLs for embedding Zenlytic content in host apps.
@@ -142,15 +143,17 @@ overview: 'Zenlytic publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 137
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 44.1
+  delta: -1.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 65.7
-    developer_ergonomics: 60.3
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 61.5
+    developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 45.7
   provenance:
     contracts:
@@ -159,9 +162,10 @@ score:
       marker_coverage: 0.0
       total: 1
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/screenshots/zenlytic-2026-08-17T083051.png
 security:
 - kind: authentication
   name: Zenlytic Authentication

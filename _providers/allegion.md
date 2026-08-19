@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -341,7 +342,9 @@ rate_limits:
   name: Allegion Rate Limits
   slug: allegion-rate-limits
 rules:
-- name: Allegion API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Allegion API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -349,7 +352,10 @@ rules:
     info: 2
     warn: 3
   slug: allegion-jsonschema-spectral-rules
-- name: Allegion API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Allegion API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -357,7 +363,10 @@ rules:
     info: 0
     warn: 4
   slug: engage-credentialing-rules
-- name: Allegion API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Allegion API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -372,15 +381,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 56.8
+  delta: -9.1
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 71.8
-    developer_ergonomics: 45.7
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 25.0
+    contract_quality: 68.1
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 65.9
   provenance:
     agentic_access: derived
@@ -389,9 +400,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:
 - kind: authentication

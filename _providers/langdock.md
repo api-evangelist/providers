@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 56.2
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -346,16 +347,18 @@ rate_limits:
   name: Langdock Rate Limits
   slug: langdock-rate-limits
 score:
-  band: strong
-  composite: 62.4
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: -13.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.0
-    developer_ergonomics: 66.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 16.7
+    contract_quality: 63.4
+    developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 65.8
   previous_composite: 62.4
   provenance:
     conformance: derived
@@ -366,9 +369,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:
 - kind: authentication

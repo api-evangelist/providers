@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -199,7 +200,9 @@ rate_limits:
   name: Bjs Wholesale Club Rate Limits
   slug: bjs-wholesale-club-rate-limits
 rules:
-- name: BJ's Wholesale Club API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BJ's Wholesale Club API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -207,7 +210,9 @@ rules:
     info: 0
     warn: 5
   slug: bjs-spectral-rules
-- name: BJ's Wholesale Club API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BJ's Wholesale Club API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -215,7 +220,10 @@ rules:
     info: 2
     warn: 3
   slug: bjs-wholesale-club-jsonschema-spectral-rules
-- name: BJ's Wholesale Club API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: BJ's Wholesale Club API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -225,14 +233,16 @@ rules:
   slug: bjs-wholesale-club-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 42.6
+  delta: -2.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 73.4
-    developer_ergonomics: 15.2
+    contract_governance: 45.5
+    contract_quality: 68.8
+    developer_ergonomics: 16.7
     discoverability: 55.6
-    governance: 62.5
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 45.5
   provenance:
@@ -242,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

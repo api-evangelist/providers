@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -164,6 +165,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 1 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
+  reason: no_published_contract
+  state: none
 created: '2026-06-03'
 description: 'Monash University is a public research university based in Melbourne, Australia, and a member of the Group of Eight. It ranked #42 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and largely indirect: research data is published through monash.figshare on the figshare platform (which exposes a versioned REST API and an OAI-PMH endpoint), and Monash eResearch operates a Cloud Resource Allocation and Management System (CRAMS) API portal. Monash maintains a GitHub organization (currently with no public repositories) alongside team and student-innovation orgs. No central, openly documented institutional developer portal for course, catalog, timetable, or SIS APIs was found to be publicly available.'
 examples:
@@ -222,7 +227,9 @@ rate_limits:
   name: Monash Rate Limits
   slug: monash-rate-limits
 rules:
-- name: Monash University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Monash University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -230,7 +237,9 @@ rules:
     info: 1
     warn: 4
   slug: monash-jsonschema-spectral-rules
-- name: Monash University API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Monash University API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -245,14 +254,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 44.1
+  delta: -3.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 71.6
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 70.2
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 47.4
   provenance:
@@ -265,11 +276,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 59.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png
 security:

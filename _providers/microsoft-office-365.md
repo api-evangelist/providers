@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -979,7 +980,9 @@ rate_limits:
   name: Microsoft Office 365 Rate Limits
   slug: microsoft-office-365-rate-limits
 rules:
-- name: Microsoft Office 365 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Office 365 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -987,7 +990,10 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-office-365-jsonschema-spectral-rules
-- name: Microsoft Office 365 API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Microsoft Office 365 API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -1002,15 +1008,17 @@ scopes:
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 54.9
+  delta: -6.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 75.7
-    developer_ergonomics: 69.6
+    contract_governance: 9.8
+    contract_quality: 79.4
+    developer_ergonomics: 76.2
     discoverability: 63.0
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 60.9
   provenance:
     agentic_access: derived
@@ -1019,9 +1027,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:
 - kind: authentication

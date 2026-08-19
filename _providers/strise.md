@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -174,23 +175,26 @@ overview: 'Strise publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 70
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 48.1
+  delta: -3.9
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 36.8
   previous_composite: 52.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/screenshots/strise-2026-08-17T082140.png
 security:
 - kind: authentication
   name: Strise Authentication

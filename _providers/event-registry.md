@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -251,7 +252,9 @@ rate_limits:
   name: Event Registry Rate Limits
   slug: event-registry-rate-limits
 rules:
-- name: Event Registry API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Event Registry API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -260,27 +263,32 @@ rules:
     warn: 4
   slug: event-registry-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 17.0
+  band: developing
+  composite: 52.9
+  delta: -13.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 68.4
-    developer_ergonomics: 56.5
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 26.5
+    contract_quality: 65.4
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 42.1
-  previous_composite: 49.3
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
 security:
 - kind: authentication

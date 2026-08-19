@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -353,7 +354,9 @@ rate_limits:
   name: Academy Software Foundation Rate Limits
   slug: academy-software-foundation-rate-limits
 rules:
-- name: Academy Software Foundation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Academy Software Foundation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -361,7 +364,10 @@ rules:
     info: 2
     warn: 3
   slug: academy-software-foundation-jsonschema-spectral-rules
-- name: Academy Software Foundation API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Academy Software Foundation API Rules
   rule_count: 25
   severity_counts:
     error: 14
@@ -370,16 +376,18 @@ rules:
     warn: 8
   slug: academy-software-foundation-spectral-rules
 score:
-  band: thin
-  composite: 35.4
-  delta: 0.0
+  band: emerging
+  composite: 25.6
+  delta: -9.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 25.6
-    developer_ergonomics: 21.7
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 25.0
+    contract_quality: 24.0
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 31.6
+    governance: 25.0
+    operational_transparency: 28.9
   previous_composite: 35.4
   provenance:
     agentic_access: derived
@@ -388,9 +396,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:
 - kind: domain-security

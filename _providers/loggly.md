@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST API (apiv2) for searching and retrieving log events: initiate a search to get an RSID, then page results via the events/iterate endpoints, enumerate indexed fields with the fields/facet API, and '
@@ -170,22 +171,24 @@ overview: 'Loggly publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 58
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 34.2
+  delta: -6.4
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 60.9
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 40.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/screenshots/loggly-2026-07-25T225459.png
 security:
 - kind: authentication

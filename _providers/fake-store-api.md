@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -129,13 +130,15 @@ rate_limits:
   name: Fake Store Api Rate Limits
   slug: fake-store-api-rate-limits
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 26.2
+  delta: 0.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 50.4
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 50.7
+    developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
@@ -147,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:

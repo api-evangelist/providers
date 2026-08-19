@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -236,7 +237,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Routescan (Snowtrace) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Routescan (Snowtrace) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -246,14 +249,16 @@ rules:
   slug: snowtrace-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 42.3
+  delta: -6.3
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 65.8
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 61.7
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 48.6
   provenance:
@@ -263,9 +268,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/screenshots/snowtrace-2026-08-17T125325.png
 security:
 - kind: authentication
   name: Snowtrace Authentication

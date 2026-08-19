@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -174,7 +175,10 @@ rate_limits:
   name: Ebanx Rate Limits
   slug: ebanx-rate-limits
 rules:
-- name: EBANX API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: EBANX API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -182,7 +186,9 @@ rules:
     info: 0
     warn: 5
   slug: ebanx-asyncapi-spectral-rules
-- name: EBANX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: EBANX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +196,10 @@ rules:
     info: 1
     warn: 4
   slug: ebanx-jsonschema-spectral-rules
-- name: EBANX API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: EBANX API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -200,14 +209,16 @@ rules:
   slug: ebanx-rules
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 41.1
+  delta: -2.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 76.5
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 72.6
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 31.6
   previous_composite: 43.7
   provenance:
@@ -223,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:

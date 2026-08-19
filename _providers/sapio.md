@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Sapio REST API provides programmatic access to the Sapio Informatics Platform, enabling developers to query and create records, manage laboratory workflows, handle experimental data, configure dat
@@ -107,12 +108,14 @@ rate_limits:
   slug: sapio-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 21.0
+  delta: 0.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
@@ -123,8 +126,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sapio/refs/heads/main/screenshots/sapio-2026-06-20T193445.png
 security:

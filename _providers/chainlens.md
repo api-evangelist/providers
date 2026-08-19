@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -391,12 +392,14 @@ rate_limits:
   slug: chainlens-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 31.2
+  delta: -4.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 39.2
-    developer_ergonomics: 21.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 38.2
+    developer_ergonomics: 23.8
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
@@ -408,8 +411,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
 security:

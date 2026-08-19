@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-17'
+  score: 46.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -2688,7 +2689,10 @@ rate_limits:
   name: Avalara Rate Limits
   slug: avalara-rate-limits
 rules:
-- name: Avalara API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Avalara API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -2696,7 +2700,9 @@ rules:
     info: 0
     warn: 3
   slug: avalara-asyncapi-spectral-rules
-- name: Avalara API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Avalara API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2704,7 +2710,10 @@ rules:
     info: 2
     warn: 4
   slug: avalara-jsonschema-spectral-rules
-- name: Avalara API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Avalara API Rules
   rule_count: 26
   severity_counts:
     error: 10
@@ -2718,15 +2727,17 @@ scopes:
   slug: avalara-scopes
   summary_line: 24 scopes
 score:
-  band: exemplar
-  composite: 68.1
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: -4.3
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_quality: 73.3
-    developer_ergonomics: 71.7
+    contract_governance: 56.8
+    contract_quality: 70.8
+    developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 83.3
+    governance: 56.8
     operational_transparency: 42.1
   previous_composite: 68.1
   provenance:
@@ -2738,8 +2749,8 @@ score:
       marker_coverage: 2.9
       total: 68
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

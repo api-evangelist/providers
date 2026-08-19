@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -212,15 +213,17 @@ overview: 'Renesas publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 8
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 46.3
+  delta: -1.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 53.7
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -232,9 +235,10 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/screenshots/renesas-2026-08-17T081518.png
 security:
 - kind: authentication
   name: Renesas Authentication

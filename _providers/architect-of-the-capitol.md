@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +240,9 @@ rate_limits:
   name: Architect Of The Capitol Rate Limits
   slug: architect-of-the-capitol-rate-limits
 rules:
-- name: Architect of the Capitol API Rules
+- effective_rule_count: 13
+  extends: []
+  name: Architect of the Capitol API Rules
   rule_count: 13
   severity_counts:
     error: 8
@@ -247,7 +250,9 @@ rules:
     info: 0
     warn: 5
   slug: aoc-spectral-rules
-- name: Architect of the Capitol API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Architect of the Capitol API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,7 +260,10 @@ rules:
     info: 2
     warn: 3
   slug: architect-of-the-capitol-jsonschema-spectral-rules
-- name: Architect of the Capitol API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Architect of the Capitol API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -265,14 +273,16 @@ rules:
   slug: architect-of-the-capitol-spectral-rules
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 30.1
+  delta: -0.4
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 55.7
-    developer_ergonomics: 19.6
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 45.5
+    contract_quality: 52.2
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 30.5
   provenance:
@@ -288,8 +298,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-17'
+  score: 48.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -276,15 +277,17 @@ rate_limits:
   slug: agentphone-rate-limits
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 43.5
+  delta: -6.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 65.7
-    developer_ergonomics: 71.7
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 16.7
+    contract_quality: 66.6
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -301,10 +304,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 23.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:
 - kind: authentication

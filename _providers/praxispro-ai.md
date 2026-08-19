@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -134,25 +135,29 @@ rate_limits:
   slug: praxispro-ai-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 5.8
+  composite: 21.2
+  delta: 0.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 14.6
+  previous_composite: 20.4
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Praxispro Ai Domain Security

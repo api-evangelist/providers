@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for managing users, teams, on-call schedules, escalation policies, incidents, and routing keys in Splunk On-Call (VictorOps). Authentication uses X-VO-Api-Id and X-VO-Api-Key headers generate
@@ -38,6 +39,10 @@ apis:
   slug: rest-endpoint
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/splunk/
 - group: auth
   title: ''
   type: TrustCenter
@@ -94,29 +99,31 @@ graphqls:
   slug: victorops-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/victorops.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-19'
 name: Splunk On-Call (VictorOps)
 nav: Providers
 network: true
 overview: 'Splunk On-Call (VictorOps) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Incident Management, On-Call, Alerting, DevOps, and SRE.
 
 
-  Splunk On-Call (VictorOps)''s developer surface includes documentation, pricing, signup flow, support, and 8 more developer resources.'
+  Splunk On-Call (VictorOps)''s developer surface includes documentation, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 107
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 27.3
+  delta: -2.5
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 48.1
-    developer_ergonomics: 19.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 29.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victorops/refs/heads/main/screenshots/victorops-2026-06-20T201030.png
 security:

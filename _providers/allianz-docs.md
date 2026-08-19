@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -341,7 +342,9 @@ overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   Allianz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
 random_paper: 25
 rules:
-- name: Allianz API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Allianz API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -349,7 +352,10 @@ rules:
     info: 1
     warn: 4
   slug: allianz-docs-jsonschema-spectral-rules
-- name: Allianz API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Allianz API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -364,14 +370,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 27.9
+  delta: -4.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 31.7
-    developer_ergonomics: 19.6
+    contract_governance: 41.7
+    contract_quality: 30.0
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 5.3
   previous_composite: 32.7
   provenance:
@@ -389,8 +397,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
 security:

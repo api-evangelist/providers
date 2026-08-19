@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,10 +111,12 @@ overview: 'Council on Environmental Quality is profiled on the [APIs.io](https:/
 random_paper: 14
 score:
   band: minimal
-  composite: 8.8
-  delta: 0.0
+  composite: 6.6
+  delta: -2.2
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
@@ -126,8 +129,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/council-on-environmental-quality/refs/heads/main/screenshots/council-on-environmental-quality-2026-06-20T175055.png
 security:

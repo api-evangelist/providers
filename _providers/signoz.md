@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 47.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -451,7 +452,9 @@ rate_limits:
   name: Signoz Rate Limits
   slug: signoz-rate-limits
 rules:
-- name: SigNoz API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SigNoz API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,7 +462,10 @@ rules:
     info: 2
     warn: 3
   slug: signoz-jsonschema-spectral-rules
-- name: SigNoz API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: SigNoz API Rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -469,15 +475,17 @@ rules:
   slug: signoz-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 45.6
+  delta: -6.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 62.7
-    developer_ergonomics: 52.2
+    contract_governance: 9.8
+    contract_quality: 63.9
+    developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -486,9 +494,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:
 - kind: authentication

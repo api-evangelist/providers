@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -179,23 +180,26 @@ rate_limits:
   name: Yieldxyz Rate Limits
   slug: yieldxyz-rate-limits
 score:
-  band: developing
-  composite: 48.7
-  delta: 0.0
+  band: thin
+  composite: 36.0
+  delta: -12.7
   facets:
-    commercial_clarity: 84.2
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 71.7
+    developer_ergonomics: 47.6
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 76.3
+    operational_transparency: 50.0
   previous_composite: 48.7
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/screenshots/yieldxyz-2026-08-17T083017.png
 security:
 - kind: authentication
   name: Yieldxyz Authentication

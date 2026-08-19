@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -225,16 +226,18 @@ rate_limits:
   name: Knostic Rate Limits
   slug: knostic-rate-limits
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  delta: -6.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.7
-    developer_ergonomics: 63.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 40.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 60.5
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -246,9 +249,9 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:
 - kind: authentication

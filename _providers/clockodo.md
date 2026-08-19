@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -196,7 +197,9 @@ rate_limits:
   name: Clockodo Rate Limits
   slug: clockodo-rate-limits
 rules:
-- name: Clockodo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Clockodo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -204,7 +207,10 @@ rules:
     info: 1
     warn: 4
   slug: clockodo-jsonschema-spectral-rules
-- name: Clockodo API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Clockodo API Rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -214,14 +220,16 @@ rules:
   slug: clockodo-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 39.6
+  delta: -5.5
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 63.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 45.1
   provenance:
@@ -231,9 +239,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/screenshots/clockodo-2026-06-20T174529.png
 security:
 - kind: authentication

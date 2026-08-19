@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -403,7 +404,10 @@ rate_limits:
   name: Wufoo Rate Limits
   slug: wufoo-rate-limits
 rules:
-- name: Wufoo API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Wufoo API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -411,7 +415,9 @@ rules:
     info: 1
     warn: 1
   slug: wufoo-asyncapi-spectral-rules
-- name: Wufoo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wufoo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -419,7 +425,10 @@ rules:
     info: 1
     warn: 4
   slug: wufoo-jsonschema-spectral-rules
-- name: Wufoo API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Wufoo API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -429,15 +438,17 @@ rules:
   slug: wufoo-rest-v3-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 60.5
+  delta: -0.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.5
-    developer_ergonomics: 71.7
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 28.8
+    contract_quality: 72.3
+    developer_ergonomics: 78.6
     discoverability: 74.1
-    governance: 37.5
-    operational_transparency: 21.1
+    governance: 28.8
+    operational_transparency: 18.4
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -451,9 +462,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

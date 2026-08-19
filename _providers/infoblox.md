@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -351,7 +352,9 @@ rate_limits:
   name: Infoblox Rate Limits
   slug: infoblox-rate-limits
 rules:
-- name: Infoblox API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Infoblox API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -361,15 +364,17 @@ rules:
   slug: infoblox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 50.0
+  delta: -5.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 59.0
-    developer_ergonomics: 56.5
+    contract_governance: 9.8
+    contract_quality: 56.9
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -378,9 +383,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/screenshots/infoblox-2026-06-20T183337.png
 security:
 - kind: authentication

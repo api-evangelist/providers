@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -2043,7 +2044,10 @@ rate_limits:
   name: Okta Rate Limits
   slug: okta-rate-limits
 rules:
-- name: Okta API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Okta API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -2051,7 +2055,9 @@ rules:
     info: 1
     warn: 5
   slug: okta-asyncapi-spectral-rules
-- name: Okta API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Okta API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2059,7 +2065,10 @@ rules:
     info: 2
     warn: 3
   slug: okta-jsonschema-spectral-rules
-- name: Okta API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Okta API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -2069,15 +2078,17 @@ rules:
   slug: okta-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 57.5
+  delta: -6.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 77.0
-    developer_ergonomics: 76.1
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 13.6
+    contract_quality: 77.8
+    developer_ergonomics: 73.8
     discoverability: 59.3
-    governance: 47.9
-    operational_transparency: 44.7
+    governance: 13.6
+    operational_transparency: 42.1
   previous_composite: 63.5
   provenance:
     agentic_access: derived
@@ -2086,9 +2097,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png
 security:
 - kind: authentication

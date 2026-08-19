@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -838,7 +838,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Centers for Medicare and Medicaid Services API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Centers for Medicare and Medicaid Services API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -853,31 +855,36 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.8
-  delta: 38.6
+  composite: 85.7
+  delta: 5.9
   facets:
+    access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_quality: 64.6
-    developer_ergonomics: 89.1
+    contract_governance: 55.3
+    contract_quality: 62.3
+    developer_ergonomics: 82.7
     discoverability: 83.3
-    governance: 89.6
-    operational_transparency: 86.8
-  previous_composite: 41.2
+    governance: 55.3
+    operational_transparency: 84.2
+  previous_composite: 79.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 94.1
       derived: 0
-      marker_coverage: 0.0
-      total: 11
+      marker_coverage: 11.8
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 83.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

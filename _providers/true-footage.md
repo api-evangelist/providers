@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Backend API for the TrueTracts appraiser console — the subscription platform that performs market definition, comparable selection, time and feature adjustments, heat mapping and 1004MC generation for
@@ -123,20 +124,22 @@ overview: 'True Footage publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 42
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 19.8
+  delta: -0.8
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 77.8
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 20.6
   provenance:
     conformance: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

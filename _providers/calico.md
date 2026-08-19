@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -206,15 +207,17 @@ rate_limits:
   slug: calico-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 38.0
+  delta: 2.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 51.9
-    developer_ergonomics: 37.0
+    contract_governance: 0.0
+    contract_quality: 53.3
+    developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -229,8 +232,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/screenshots/calico-2026-06-20T173846.png
 security:

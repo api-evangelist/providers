@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-17'
+  score: 36.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -249,15 +250,17 @@ overview: 'Release publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 141
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 51.0
+  delta: -2.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.7
-    developer_ergonomics: 62.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 56.6
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -269,9 +272,10 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/screenshots/release-2026-08-17T081509.png
 security:
 - kind: authentication
   name: Release Authentication

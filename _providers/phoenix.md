@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -272,7 +273,9 @@ rate_limits:
   name: Phoenix Rate Limits
   slug: phoenix-rate-limits
 rules:
-- name: Arize Phoenix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Arize Phoenix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,14 +285,16 @@ rules:
   slug: phoenix-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 40.2
+  delta: -5.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 59.1
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 57.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 46.1
   provenance:
@@ -299,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/screenshots/phoenix-2026-06-20T191644.png
 security:
 - kind: domain-security

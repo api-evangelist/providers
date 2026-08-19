@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-17'
+  score: 58.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -355,7 +356,9 @@ rate_limits:
   name: Fireflies Rate Limits
   slug: fireflies-rate-limits
 rules:
-- name: Fireflies.ai API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fireflies.ai API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -370,26 +373,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 83.2
-  delta: 29.6
+  composite: 73.7
+  delta: -9.5
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 85.0
-    developer_ergonomics: 73.9
+    contract_governance: 55.3
+    contract_quality: 80.2
+    developer_ergonomics: 59.5
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 55.3
-  previous_composite: 53.6
+    governance: 55.3
+    operational_transparency: 44.7
+  previous_composite: 83.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:
 - kind: authentication

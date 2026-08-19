@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -626,7 +626,9 @@ rate_limits:
   name: Apple Rate Limits
   slug: apple-rate-limits
 rules:
-- name: Apple API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Apple API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -634,7 +636,10 @@ rules:
     info: 2
     warn: 4
   slug: apple-jsonschema-spectral-rules
-- name: Apple API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Apple API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -643,16 +648,18 @@ rules:
     warn: 9
   slug: apple-spectral-rules
 score:
-  band: strong
-  composite: 59.3
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  delta: -7.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 77.0
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 77.7
+    developer_ergonomics: 40.5
     discoverability: 63.0
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 59.3
   provenance:
     agentic_access: derived
@@ -661,9 +668,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:
 - kind: authentication

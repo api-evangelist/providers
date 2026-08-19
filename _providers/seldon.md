@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -382,7 +383,9 @@ rate_limits:
   name: Seldon Rate Limits
   slug: seldon-rate-limits
 rules:
-- name: Seldon API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Seldon API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -396,16 +399,18 @@ scopes:
   slug: seldon-scopes
   summary_line: 5 scopes · password
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -8.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.9
-    developer_ergonomics: 28.3
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 51.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 21.1
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -414,9 +419,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:
 - kind: authentication

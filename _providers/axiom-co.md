@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -200,12 +201,14 @@ score:
   composite: 39.1
   delta: 0.0
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 58.5
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 58.3
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -214,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

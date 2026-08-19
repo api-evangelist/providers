@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -171,12 +172,14 @@ rate_limits:
   slug: fedex-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 34.7
+  delta: -0.3
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 62.3
-    developer_ergonomics: 30.4
+    contract_governance: 0.0
+    contract_quality: 58.8
+    developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -188,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png
 security:

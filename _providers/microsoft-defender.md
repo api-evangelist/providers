@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -214,7 +215,9 @@ rate_limits:
   name: Microsoft Defender Rate Limits
   slug: microsoft-defender-rate-limits
 rules:
-- name: Microsoft Defender API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Defender API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -228,16 +231,18 @@ scopes:
   slug: microsoft-defender-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -5.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 73.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 73.4
+    developer_ergonomics: 21.4
     discoverability: 37.0
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -246,10 +251,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-06-20T185449.png
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication
   name: Microsoft Defender Authentication

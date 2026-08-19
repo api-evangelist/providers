@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
@@ -124,7 +125,9 @@ rate_limits:
   name: Shipping Rate Limits
   slug: shipping-rate-limits
 rules:
-- name: Shipping.com API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shipping.com API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -134,19 +137,21 @@ rules:
   slug: shipping-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 17.1
+  delta: -5.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 2.2
+    contract_governance: 25.0
+    contract_quality: 12.7
+    developer_ergonomics: 1.2
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 22.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Shipping Domain Security

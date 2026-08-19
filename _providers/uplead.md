@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -273,7 +274,9 @@ rate_limits:
   name: Uplead Rate Limits
   slug: uplead-rate-limits
 rules:
-- name: UpLead API Rules
+- effective_rule_count: 5
+  extends: []
+  name: UpLead API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -282,27 +285,32 @@ rules:
     warn: 4
   slug: uplead-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 70.0
-  delta: 19.5
+  band: strong
+  composite: 60.1
+  delta: -9.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 67.8
-    developer_ergonomics: 58.7
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 26.5
+    contract_quality: 63.8
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 52.6
-  previous_composite: 50.5
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/screenshots/uplead-2026-06-20T200445.png
 security:
 - kind: authentication

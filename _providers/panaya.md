@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Panaya's REST API surface, including the Test Dynamix APIs (Transaction, Cycles, Folder, Business Process, Test, Test Step, Step Run, Defect, Requirements — each supporting get-all/get/create/update),
@@ -162,20 +163,22 @@ rate_limits:
   slug: panaya-rate-limits
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.1
+  delta: -1.3
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 52.2
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 65.8
   previous_composite: 49.4
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/screenshots/panaya-2026-08-07T191329.png
 security:

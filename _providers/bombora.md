@@ -13,7 +13,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: 'OAuth 2.0 token endpoint that issues bearer access tokens used to authenticate calls to the rest of Bombora''s developer APIs. Clients exchange credentials for a short-lived access token via a POST to '
@@ -276,19 +277,30 @@ rate_limits:
   slug: bombora-rate-limits
 score:
   band: developing
-  composite: 55.6
-  delta: 30.7
+  composite: 44.7
+  delta: -10.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 64.1
-    developer_ergonomics: 67.4
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 16.7
+    contract_quality: 68.0
+    developer_ergonomics: 30.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 57.9
-  previous_composite: 24.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 47.4
+  previous_composite: 55.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
 - kind: authentication

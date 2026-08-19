@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -289,7 +290,9 @@ rate_limits:
   name: Docspring Rate Limits
   slug: docspring-rate-limits
 rules:
-- name: DocSpring API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DocSpring API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,15 +302,17 @@ rules:
   slug: docspring-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 46.1
+  delta: -7.8
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 71.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 53.9
   provenance:
     agentic_access: derived
@@ -316,9 +321,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/screenshots/docspring-2026-06-20T180114.png
 security:
 - kind: authentication

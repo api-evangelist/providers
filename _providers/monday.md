@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.0
-  scored_at: '2026-08-17'
+  score: 17.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Programmatically access and update data inside a monday.com account
@@ -68,18 +69,20 @@ overview: 'Monday publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 52
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 17.2
+  delta: -1.0
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 43.2
-    developer_ergonomics: 2.2
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 2.4
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monday/refs/heads/main/screenshots/monday-2026-08-07T184146.png
 security:

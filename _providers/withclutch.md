@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Clutch delivers daily origination datasets to credit union customers over either SFTP or a File Transfer API. The public knowledge base documents the datasets (lending, account opening, funding, NACHA
@@ -147,15 +148,17 @@ overview: 'Clutch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 44
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 20.3
+  delta: -5.2
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 2.4
-    developer_ergonomics: 15.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 2.1
+    developer_ergonomics: 16.7
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 25.5
   provenance:
     conformance: first-party
@@ -164,10 +167,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 38.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 31.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Withclutch Domain Security

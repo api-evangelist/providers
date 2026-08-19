@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -173,12 +174,14 @@ rate_limits:
   slug: gitee-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 36.3
+  delta: -1.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 53.8
-    developer_ergonomics: 19.6
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 0.0
+    contract_quality: 50.7
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -190,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/screenshots/gitee-2026-07-25T215849.png
 security:

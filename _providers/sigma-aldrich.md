@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -176,7 +177,9 @@ rate_limits:
   name: Sigma Aldrich Rate Limits
   slug: sigma-aldrich-rate-limits
 rules:
-- name: Sigma-Aldrich API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sigma-Aldrich API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -184,7 +187,10 @@ rules:
     info: 2
     warn: 3
   slug: sigma-aldrich-jsonschema-spectral-rules
-- name: Sigma-Aldrich API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Sigma-Aldrich API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -194,14 +200,16 @@ rules:
   slug: sigma-aldrich-rules
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 32.8
+  delta: -3.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 73.1
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 68.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 36.3
   provenance:
@@ -217,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

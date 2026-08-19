@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 46.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -291,7 +292,9 @@ rate_limits:
   name: Refersion Rate Limits
   slug: refersion-rate-limits
 rules:
-- name: Refersion API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Refersion API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -300,27 +303,32 @@ rules:
     warn: 4
   slug: refersion-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 76.9
-  delta: 24.4
+  band: strong
+  composite: 64.5
+  delta: -12.4
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 79.1
-    developer_ergonomics: 67.4
+    contract_governance: 41.7
+    contract_quality: 74.7
+    developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 89.6
+    governance: 41.7
     operational_transparency: 60.5
-  previous_composite: 52.5
+  previous_composite: 76.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png
 security:
 - kind: authentication

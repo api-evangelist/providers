@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 24.4
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -224,7 +225,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Arweave API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Arweave API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,16 +236,18 @@ rules:
     warn: 4
   slug: arweave-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: -12.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 72.3
-    developer_ergonomics: 30.4
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 68.3
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 58.8
   provenance:
     contracts:
@@ -250,9 +255,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:
 - kind: domain-security

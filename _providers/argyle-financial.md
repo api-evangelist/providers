@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -552,7 +553,9 @@ rate_limits:
   name: Argyle Financial Rate Limits
   slug: argyle-financial-rate-limits
 rules:
-- name: Argyle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Argyle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -560,7 +563,9 @@ rules:
     info: 1
     warn: 4
   slug: argyle-financial-jsonschema-spectral-rules
-- name: Argyle API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Argyle API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -570,14 +575,16 @@ rules:
   slug: argyle-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 63.1
+  delta: -0.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 57.9
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 56.2
+    developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 71.1
   previous_composite: 63.2
   provenance:
@@ -593,8 +600,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle-financial/refs/heads/main/screenshots/argyle-financial-2026-06-20T172425.png
 security:

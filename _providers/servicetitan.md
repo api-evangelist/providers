@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -747,7 +748,9 @@ rate_limits:
   name: Servicetitan Rate Limits
   slug: servicetitan-rate-limits
 rules:
-- name: ServiceTitan API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ServiceTitan API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -761,15 +764,17 @@ scopes:
   slug: servicetitan-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.1
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  delta: -5.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.7
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 62.2
+    developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 42.1
   previous_composite: 59.1
   provenance:
@@ -779,9 +784,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:
 - kind: authentication

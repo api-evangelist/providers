@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -91,18 +92,20 @@ rate_limits:
   slug: boomy-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 16.6
+  delta: -4.6
   facets:
-    commercial_clarity: 63.2
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomy/refs/heads/main/screenshots/boomy-2026-06-20T173609.png
 security:

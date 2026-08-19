@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -259,15 +260,17 @@ overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 15
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 53.9
+  delta: 4.3
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 56.3
-    developer_ergonomics: 71.2
+    contract_governance: 30.3
+    contract_quality: 55.5
+    developer_ergonomics: 68.5
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 31.6
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -284,9 +287,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 58.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:

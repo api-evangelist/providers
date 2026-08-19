@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +176,9 @@ rate_limits:
   name: Gamerpower Rate Limits
   slug: gamerpower-rate-limits
 rules:
-- name: GamerPower API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GamerPower API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -183,7 +186,10 @@ rules:
     info: 1
     warn: 4
   slug: gamerpower-jsonschema-spectral-rules
-- name: GamerPower API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  name: GamerPower API Rules
   rule_count: 35
   severity_counts:
     error: 17
@@ -192,15 +198,17 @@ rules:
     warn: 17
   slug: gamerpower-rules
 score:
-  band: thin
-  composite: 31.5
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -6.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 28.0
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 26.5
+    developer_ergonomics: 9.5
     discoverability: 72.2
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 31.5
   provenance:
@@ -210,9 +218,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/screenshots/gamerpower-2026-06-20T181638.png
 security:
 - kind: domain-security

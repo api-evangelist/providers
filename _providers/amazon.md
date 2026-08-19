@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -852,7 +853,9 @@ rate_limits:
   name: Amazon Rate Limits
   slug: amazon-rate-limits
 rules:
-- name: Amazon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -860,7 +863,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-jsonschema-spectral-rules
-- name: Amazon API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon API Rules
   rule_count: 22
   severity_counts:
     error: 8
@@ -870,15 +876,17 @@ rules:
   slug: amazon-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 51.5
+  delta: -3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.6
-    developer_ergonomics: 45.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 25.0
+    contract_quality: 73.1
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -893,8 +901,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

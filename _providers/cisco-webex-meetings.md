@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 34.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,6 +103,10 @@ collections:
   name: Cisco Webex Meetings API
   slug: open-cisco-webex-meetings
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/webex/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,7 +200,7 @@ jsonld:
   property_count: 0
   slug: cisco-webex-meetings-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-19'
 name: Cisco Webex Meetings
 nav: Providers
 network: true
@@ -205,7 +210,7 @@ overview: 'Cisco Webex Meetings publishes 4 APIs on the [APIs.io](https://apis.i
   The Cisco Webex Meetings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cisco Webex Meetings'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, engineering blog, and 13 more developer resources.'
+  Cisco Webex Meetings'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
@@ -216,7 +221,10 @@ rate_limits:
   name: Cisco Webex Meetings Rate Limits
   slug: cisco-webex-meetings-rate-limits
 rules:
-- name: Cisco Webex Meetings API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cisco Webex Meetings API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -225,27 +233,29 @@ rules:
     warn: 3
   slug: cisco-webex-meetings-rules
 score:
-  band: developing
-  composite: 48.9
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -11.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 61.2
-    developer_ergonomics: 52.2
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 45.5
+    contract_quality: 22.0
+    developer_ergonomics: 57.1
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 45.5
+    operational_transparency: 26.3
   previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 4
+      marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
 security:
 - kind: authentication

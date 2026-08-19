@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -99,6 +100,10 @@ collections:
   name: Cisco Secure Firewall Management Center API (Secure Client management plane)
   slug: open-cisco-secure-client
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +181,7 @@ jsonld:
   property_count: 0
   slug: cisco-secure-client-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-19'
 name: Cisco Secure Client
 nav: Providers
 network: true
@@ -186,7 +191,7 @@ overview: 'Cisco Secure Client publishes 6 APIs on the [APIs.io](https://apis.io
   The Cisco Secure Client catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cisco Secure Client''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 9 more developer resources.'
+  Cisco Secure Client''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 10 more developer resources.'
 plans:
 - name: Cisco Secure Client Plans Pricing
   plan_count: 3
@@ -197,7 +202,10 @@ rate_limits:
   name: Cisco Secure Client Rate Limits
   slug: cisco-secure-client-rate-limits
 rules:
-- name: Cisco Secure Client API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cisco Secure Client API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -206,27 +214,29 @@ rules:
     warn: 2
   slug: cisco-secure-client-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 30.5
+  delta: -14.6
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 58.0
-    developer_ergonomics: 45.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 45.5
+    contract_quality: 17.8
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 45.5
+    operational_transparency: 23.7
   previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 6
+      marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/screenshots/cisco-secure-client-2026-06-20T174400.png
 security:
 - kind: authentication

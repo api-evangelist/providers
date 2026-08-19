@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 39.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -134,20 +135,22 @@ overview: 'Dapta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 75
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 39.0
+  delta: -2.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 54.3
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 50.0
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 41.5
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapta/refs/heads/main/screenshots/dapta-2026-07-25T211214.png
 security:

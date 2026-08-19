@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -267,7 +268,9 @@ rate_limits:
   name: Apache Guacamole Rate Limits
   slug: apache-guacamole-rate-limits
 rules:
-- name: Apache Guacamole API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Guacamole API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +278,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-guacamole-jsonschema-spectral-rules
-- name: Apache Guacamole API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Apache Guacamole API Rules
   rule_count: 16
   severity_counts:
     error: 4
@@ -285,15 +291,17 @@ rules:
   slug: apache-guacamole-spectral-rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 33.3
+  delta: -8.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 60.1
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 41.7
   provenance:
     agentic_access: derived
@@ -302,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/screenshots/apache-guacamole-2026-06-20T172106.png
 security:
 - kind: authentication

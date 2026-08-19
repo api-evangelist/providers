@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,12 +71,14 @@ overview: 'Noteworthy AI is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 29
 score:
   band: minimal
-  composite: 12.1
-  delta: 0.0
+  composite: 9.4
+  delta: -2.7
   facets:
-    commercial_clarity: 26.3
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -85,9 +88,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 17.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noteworthy-ai/refs/heads/main/screenshots/noteworthy-ai-2026-08-07T185545.png
 security:

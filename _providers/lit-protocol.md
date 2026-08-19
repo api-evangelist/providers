@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -268,7 +269,9 @@ rate_limits:
   name: Lit Protocol Rate Limits
   slug: lit-protocol-rate-limits
 rules:
-- name: Lit Protocol API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lit Protocol API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -277,16 +280,18 @@ rules:
     warn: 4
   slug: lit-protocol-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.3
-  delta: 0.0
+  band: emerging
+  composite: 21.9
+  delta: -6.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 34.7
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 33.6
+    developer_ergonomics: 2.4
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 28.3
   provenance:
     agentic_access: derived
@@ -295,9 +300,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:
 - kind: domain-security

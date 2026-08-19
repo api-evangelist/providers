@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -304,7 +305,9 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
 random_paper: 3
 rules:
-- name: Ruby Programming Language and Popular API Gems API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ruby Programming Language and Popular API Gems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -312,7 +315,10 @@ rules:
     info: 1
     warn: 4
   slug: ruby-jsonschema-spectral-rules
-- name: Ruby Programming Language and Popular API Gems API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Ruby Programming Language and Popular API Gems API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -322,15 +328,17 @@ rules:
   slug: rubygems-registry-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 40.6
+  delta: -6.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 75.7
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 70.9
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 47.4
+    governance: 25.0
+    operational_transparency: 44.7
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -339,9 +347,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:
 - kind: authentication

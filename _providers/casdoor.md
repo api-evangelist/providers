@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -273,15 +274,17 @@ rate_limits:
   slug: casdoor-rate-limits
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 35.0
+  delta: -6.9
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 55.2
-    developer_ergonomics: 45.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -290,9 +293,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:
 - kind: authentication

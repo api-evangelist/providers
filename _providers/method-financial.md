@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.1
-  scored_at: '2026-08-17'
+  score: 65.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -492,15 +493,17 @@ rate_limits:
   slug: method-financial-rate-limits
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 66.1
+  delta: 3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.2
-    developer_ergonomics: 84.8
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 70.5
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 78.9
+    governance: 30.3
+    operational_transparency: 76.3
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -517,9 +520,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 55.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:

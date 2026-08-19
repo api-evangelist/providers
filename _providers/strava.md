@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -244,7 +245,10 @@ rate_limits:
   name: Strava Rate Limits
   slug: strava-rate-limits
 rules:
-- name: Strava API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Strava API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -252,7 +256,9 @@ rules:
     info: 0
     warn: 2
   slug: strava-asyncapi-spectral-rules
-- name: Strava API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Strava API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -260,7 +266,10 @@ rules:
     info: 1
     warn: 4
   slug: strava-jsonschema-spectral-rules
-- name: Strava API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Strava API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -275,15 +284,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 46.8
+  delta: -2.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.8
-    developer_ergonomics: 34.8
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 11.4
+    contract_quality: 75.2
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -292,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/screenshots/strava-2026-06-20T194613.png
 security:

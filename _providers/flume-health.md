@@ -1,10 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 37.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The REST API for Relay by Flume Health. Manages Accounts, Account Contracts, Connections, Endpoints and their per-protocol secrets and tests (API, cloud storage, database, SFTP, Snowflake, Flume Lakeh
@@ -185,22 +185,37 @@ scopes:
   summary_line: 14 scopes · implicit
 score:
   band: developing
-  composite: 47.1
+  composite: 50.8
+  delta: 3.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 45.5
-    developer_ergonomics: 54.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 50.6
+    developer_ergonomics: 44.6
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
+  previous_composite: 47.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:
 - kind: authentication
   name: Flume Health Authentication

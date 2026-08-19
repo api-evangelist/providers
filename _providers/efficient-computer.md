@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,15 +115,17 @@ overview: 'Efficient Computer is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 77
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 13.3
+  delta: -5.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 16.7
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 18.5
   regulatory:
     applies: true
@@ -130,9 +133,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/screenshots/efficient-computer-2026-07-25T213043.png
 security:
 - kind: domain-security

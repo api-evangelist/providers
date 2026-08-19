@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -185,7 +186,9 @@ rate_limits:
   name: Snapapi Rate Limits
   slug: snapapi-rate-limits
 rules:
-- name: SnapAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SnapAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,7 +196,10 @@ rules:
     info: 1
     warn: 4
   slug: snapapi-jsonschema-spectral-rules
-- name: SnapAPI API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: SnapAPI API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -203,14 +209,16 @@ rules:
   slug: snapapi-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 43.6
+  delta: -6.4
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 63.4
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 59.4
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 50.0
   provenance:
@@ -220,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/screenshots/snapapi-2026-06-20T194100.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 53.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -495,7 +496,9 @@ rate_limits:
   name: Amazon Clean Rooms Rate Limits
   slug: amazon-clean-rooms-rate-limits
 rules:
-- name: Amazon Clean Rooms API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Clean Rooms API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -503,7 +506,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-clean-rooms-jsonschema-spectral-rules
-- name: Amazon Clean Rooms API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Amazon Clean Rooms API Rules
   rule_count: 34
   severity_counts:
     error: 14
@@ -512,17 +518,19 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: exemplar
-  composite: 70.5
-  delta: 21.3
+  band: strong
+  composite: 66.2
+  delta: -4.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 41.0
-    developer_ergonomics: 84.8
+    contract_governance: 41.7
+    contract_quality: 38.9
+    developer_ergonomics: 90.5
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 94.7
-  previous_composite: 49.2
+    governance: 41.7
+    operational_transparency: 92.1
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -532,9 +540,10 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:
 - kind: authentication

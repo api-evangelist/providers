@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-17'
+  score: 63.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -196,15 +197,17 @@ overview: 'HealthSherpa publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 81
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 40.7
+  delta: -2.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 70.5
-    developer_ergonomics: 58.7
+    contract_governance: 16.7
+    contract_quality: 67.8
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 13.2
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -222,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

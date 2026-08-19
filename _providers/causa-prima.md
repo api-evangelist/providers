@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-17'
+  score: 61.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,15 +182,17 @@ overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 64
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 45.6
+  delta: 1.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 52.7
-    developer_ergonomics: 67.4
+    contract_governance: 30.3
+    contract_quality: 50.8
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -207,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/screenshots/causa-prima-2026-07-25T204814.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 13.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Botrista's Wix-hosted content site (botrista.info). It is a platform-provided site MCP — supplied by the Wix website builder rather than authored by Botri
@@ -110,22 +111,24 @@ overview: 'Botrista publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 127
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 12.7
+  delta: -7.4
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 2.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/screenshots/botrista-2026-08-07T162727.png
 security:
 - kind: domain-security

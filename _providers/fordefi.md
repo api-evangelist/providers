@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -295,16 +296,18 @@ overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   Fordefi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 24 more developer resources.'
 random_paper: 139
 score:
-  band: developing
-  composite: 54.9
-  delta: 0.0
+  band: strong
+  composite: 56.7
+  delta: 1.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.7
-    developer_ergonomics: 58.2
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 66.5
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -322,8 +325,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:

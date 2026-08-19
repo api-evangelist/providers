@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -391,7 +392,9 @@ rate_limits:
   name: Bigid Rate Limits
   slug: bigid-rate-limits
 rules:
-- name: BigID API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BigID API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -399,7 +402,10 @@ rules:
     info: 2
     warn: 3
   slug: bigid-jsonschema-spectral-rules
-- name: BigID API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: BigID API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -409,14 +415,16 @@ rules:
   slug: bigid-rules
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 54.8
+  delta: -5.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 69.7
-    developer_ergonomics: 58.7
+    contract_governance: 25.0
+    contract_quality: 66.0
+    developer_ergonomics: 64.3
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 59.9
   provenance:
@@ -426,9 +434,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:
 - kind: authentication

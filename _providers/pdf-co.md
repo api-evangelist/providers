@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -304,7 +305,9 @@ rate_limits:
   name: Pdf Co Rate Limits
   slug: pdf-co-rate-limits
 rules:
-- name: PDF.co API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PDF.co API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -313,15 +316,17 @@ rules:
     warn: 3
   slug: pdf-co-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: -5.6
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 69.6
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 67.4
+    developer_ergonomics: 42.9
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 58.7
   provenance:
@@ -331,9 +336,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png
 security:
 - kind: authentication

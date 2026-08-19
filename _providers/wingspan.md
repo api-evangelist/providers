@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -345,15 +346,17 @@ rate_limits:
   slug: wingspan-rate-limits
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 59.3
+  delta: 1.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.7
-    developer_ergonomics: 73.4
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 66.7
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 30.3
+    operational_transparency: 47.4
   previous_composite: 58.3
   provenance:
     agentic_access: derived
@@ -371,9 +374,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png
 security:
 - kind: authentication
   name: Wingspan Authentication

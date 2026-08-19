@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -419,16 +420,18 @@ scopes:
   slug: kubeshop-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 55.4
-  delta: 0.0
+  band: strong
+  composite: 55.5
+  delta: 0.1
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 61.6
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 55.4
   provenance:
     agentic_access: derived
@@ -440,8 +443,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

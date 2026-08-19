@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing HATEOAS design, giving developers complete control over Foxy store accounts. Supports managing stores, customers, transactions, '
@@ -111,12 +112,14 @@ rate_limits:
   slug: foxycart-rate-limits
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 25.6
+  delta: -1.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 32.3
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 28.2
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
@@ -127,8 +130,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxycart/refs/heads/main/screenshots/foxycart-2026-06-20T181505.png
 security:

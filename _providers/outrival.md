@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -344,15 +345,17 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 141
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 52.3
+  delta: 3.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 55.3
-    developer_ergonomics: 58.2
+    contract_governance: 16.7
+    contract_quality: 56.1
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -370,8 +373,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:

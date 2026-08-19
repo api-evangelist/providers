@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for the full Cacheflow quote-to-cash surface: proposals (quotes) and proposal items, product catalog and versioning, customers and contacts, subscriptions and change/renewal proposals, billin'
@@ -166,25 +166,36 @@ rate_limits:
   slug: cacheflow-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: 29.8
+  composite: 31.2
+  delta: -4.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 47.0
-    developer_ergonomics: 67.4
+    contract_governance: 16.7
+    contract_quality: 52.6
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 13.2
-  previous_composite: 5.7
+    governance: 16.7
+    operational_transparency: 10.5
+  previous_composite: 35.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png
 security:
 - kind: authentication

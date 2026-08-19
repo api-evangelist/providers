@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 39.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,7 +217,10 @@ overview: 'Anthropic Claude publishes 4 APIs on the [APIs.io](https://apis.io/) 
   Anthropic Claude''s developer surface includes authentication, documentation, API reference, developer console, signup flow, pricing, support, and 23 more developer resources.'
 random_paper: 145
 rules:
-- name: Anthropic Claude API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Anthropic Claude API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -227,15 +230,17 @@ rules:
   slug: anthropic-claude-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 48.3
+  delta: -5.7
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 67.9
-    developer_ergonomics: 54.3
+    contract_governance: 11.4
+    contract_quality: 64.7
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -244,9 +249,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:
 - kind: authentication

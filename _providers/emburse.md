@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 77
@@ -453,7 +454,9 @@ rate_limits:
   name: Emburse Rate Limits
   slug: emburse-rate-limits
 rules:
-- name: Emburse API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Emburse API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -463,15 +466,17 @@ rules:
   slug: emburse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 43.4
+  delta: -2.9
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 62.0
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 61.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -486,8 +491,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/screenshots/emburse-2026-06-20T180630.png
 security:

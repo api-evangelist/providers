@@ -1,25 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: true
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-17'
+  score: 57.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -311,22 +311,34 @@ rate_limits:
   slug: siftingio-rate-limits
 score:
   band: strong
-  composite: 64.7
+  composite: 66.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 60.7
-    developer_ergonomics: 84.8
+    contract_governance: 16.7
+    contract_quality: 61.2
+    developer_ergonomics: 83.3
     discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
 security:
 - kind: authentication
   name: Siftingio Authentication

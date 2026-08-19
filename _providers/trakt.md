@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -541,7 +542,9 @@ rate_limits:
   name: Trakt Rate Limits
   slug: trakt-rate-limits
 rules:
-- name: Trakt API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trakt API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -549,7 +552,10 @@ rules:
     info: 1
     warn: 4
   slug: trakt-jsonschema-spectral-rules
-- name: Trakt API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Trakt API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -558,16 +564,18 @@ rules:
     warn: 7
   slug: trakt-rules
 score:
-  band: exemplar
-  composite: 68.5
-  delta: 0.0
+  band: strong
+  composite: 58.7
+  delta: -9.8
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 69.7
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 66.3
+    developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 57.9
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 68.5
   provenance:
     agentic_access: derived
@@ -576,9 +584,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:
 - kind: authentication

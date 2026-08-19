@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -482,7 +483,9 @@ rate_limits:
   name: Veeva Rate Limits
   slug: veeva-rate-limits
 rules:
-- name: veeva API Rules
+- effective_rule_count: 4
+  extends: []
+  name: veeva API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -490,7 +493,10 @@ rules:
     info: 1
     warn: 3
   slug: veeva-jsonschema-spectral-rules
-- name: veeva API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: veeva API Rules
   rule_count: 38
   severity_counts:
     error: 11
@@ -500,31 +506,36 @@ rules:
   slug: veeva-spectral-rules
 score:
   band: exemplar
-  composite: 67.8
-  delta: 15.5
+  composite: 75.0
+  delta: 7.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 81.9
-    developer_ergonomics: 84.8
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 55.3
+    contract_quality: 80.7
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 52.6
-  previous_composite: 52.3
+    governance: 55.3
+    operational_transparency: 76.3
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -267,7 +268,9 @@ rate_limits:
   name: Workday Advanced Compensation Rate Limits
   slug: workday-advanced-compensation-rate-limits
 rules:
-- name: Workday Advanced Compensation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Workday Advanced Compensation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +278,10 @@ rules:
     info: 2
     warn: 3
   slug: workday-advanced-compensation-jsonschema-spectral-rules
-- name: Workday Advanced Compensation API Rules
+- effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: Workday Advanced Compensation API Rules
   rule_count: 43
   severity_counts:
     error: 7
@@ -290,14 +296,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 27.7
+  delta: -8.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 31.7
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 29.8
+    developer_ergonomics: 19.0
     discoverability: 37.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 18.4
   previous_composite: 36.2
   provenance:
@@ -307,9 +315,13 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:
 - kind: authentication

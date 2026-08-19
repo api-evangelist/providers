@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -1076,7 +1077,9 @@ rate_limits:
   name: Bloomberg Aim Rate Limits
   slug: bloomberg-aim-rate-limits
 rules:
-- name: Bloomberg AIM API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bloomberg AIM API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1084,7 +1087,10 @@ rules:
     info: 2
     warn: 3
   slug: bloomberg-aim-jsonschema-spectral-rules
-- name: Bloomberg AIM API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Bloomberg AIM API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -1098,16 +1104,18 @@ scopes:
   slug: bloomberg-aim-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: developing
+  composite: 51.9
+  delta: -4.5
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.4
-    developer_ergonomics: 67.4
+    contract_governance: 9.8
+    contract_quality: 66.4
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -1122,8 +1130,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

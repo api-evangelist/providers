@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -305,15 +306,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 55.4
+  delta: -1.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 61.8
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 57.9
+    developer_ergonomics: 62.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 46.1
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -331,9 +334,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/screenshots/pinch-payments-2026-08-17T081230.png
 security:
 - kind: authentication
   name: Pinch Payments Authentication

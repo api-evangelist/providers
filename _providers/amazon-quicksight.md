@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -355,7 +356,9 @@ rate_limits:
   name: Amazon Quicksight Rate Limits
   slug: amazon-quicksight-rate-limits
 rules:
-- name: Amazon QuickSight API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon QuickSight API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -363,7 +366,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-quicksight-jsonschema-spectral-rules
-- name: Amazon QuickSight API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon QuickSight API Rules
   rule_count: 25
   severity_counts:
     error: 8
@@ -373,15 +379,17 @@ rules:
   slug: amazon-quicksight-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 55.9
+  delta: -5.3
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 67.9
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 61.2
   provenance:
     agentic_access: derived
@@ -390,9 +398,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/screenshots/amazon-quicksight-2026-06-20T171805.png
 security:
 - kind: authentication

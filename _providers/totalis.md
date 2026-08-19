@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -212,14 +213,16 @@ rate_limits:
   slug: totalis-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 51.5
+  delta: 2.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 66.8
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 63.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 48.9
   provenance:
@@ -237,9 +240,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/screenshots/totalis-2026-08-17T082410.png
 security:
 - kind: authentication
   name: Totalis Authentication

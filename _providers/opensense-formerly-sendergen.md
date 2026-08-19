@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -149,20 +150,24 @@ rate_limits:
   name: Opensense Formerly Sendergen Rate Limits
   slug: opensense-formerly-sendergen-rate-limits
 score:
-  band: thin
-  composite: 29.1
-  delta: 7.3
+  band: emerging
+  composite: 26.1
+  delta: -3.0
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 26.3
-  previous_composite: 21.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 10.5
+  previous_composite: 29.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensense-formerly-sendergen/refs/heads/main/screenshots/opensense-formerly-sendergen-2026-08-07T190637.png
 security:
 - kind: authentication

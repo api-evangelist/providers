@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'The EcoVadis API serves as a pivotal link, connecting your systems, applications, or platforms with EcoVadis'' vast repository of sustainability insights. Its primary function is facilitating seamless '
@@ -106,19 +107,21 @@ overview: 'Ecovadis publishes 4 APIs on the [APIs.io](https://apis.io/) network.
   Ecovadis'' developer surface includes support, engineering blog, and 10 more developer resources.'
 random_paper: 101
 score:
-  band: emerging
-  composite: 14.1
-  delta: 0.0
+  band: minimal
+  composite: 9.6
+  delta: -4.5
   facets:
-    commercial_clarity: 28.9
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 63.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 14.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecovadis/refs/heads/main/screenshots/ecovadis-2026-07-25T212809.png
 security:

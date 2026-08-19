@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -223,7 +224,9 @@ rate_limits:
   name: Drone Rate Limits
   slug: drone-rate-limits
 rules:
-- name: Drone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Drone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,14 +236,16 @@ rules:
   slug: drone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 41.6
+  delta: -4.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 63.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 46.5
   provenance:
@@ -250,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/screenshots/drone-2026-06-20T180238.png
 security:

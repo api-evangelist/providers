@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for the D-Tools Cloud platform. Read, create and update Clients, Products, Opportunities, Quotes, Projects, Change Orders, Purchase Orders, Service Contracts, Files and Time Entries. Requests
@@ -179,19 +180,31 @@ rate_limits:
   slug: d-tools-rate-limits
 score:
   band: strong
-  composite: 57.8
-  delta: 0.0
+  composite: 55.0
+  delta: -2.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 52.2
-    developer_ergonomics: 54.3
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 45.8
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 65.8
+    governance: 16.7
+    operational_transparency: 56.6
   previous_composite: 57.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:
 - kind: authentication
   name: D Tools Authentication

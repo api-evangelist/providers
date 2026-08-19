@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -560,7 +561,9 @@ rate_limits:
   name: Wildapricot Rate Limits
   slug: wildapricot-rate-limits
 rules:
-- name: WildApricot API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WildApricot API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -568,7 +571,10 @@ rules:
     info: 2
     warn: 3
   slug: wildapricot-jsonschema-spectral-rules
-- name: WildApricot API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  name: WildApricot API Rules
   rule_count: 35
   severity_counts:
     error: 11
@@ -582,16 +588,18 @@ scopes:
   slug: wildapricot-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: -10.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 22.7
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 21.5
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -606,9 +614,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png
 security:
 - kind: authentication

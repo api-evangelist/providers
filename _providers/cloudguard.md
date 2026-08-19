@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -188,7 +189,10 @@ rate_limits:
   name: Cloudguard Rate Limits
   slug: cloudguard-rate-limits
 rules:
-- name: CloudGuard API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CloudGuard API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -197,15 +201,17 @@ rules:
     warn: 5
   slug: cloudguard-rules
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: developing
+  composite: 40.7
+  delta: -0.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 59.0
-    developer_ergonomics: 45.7
+    contract_governance: 45.5
+    contract_quality: 55.2
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 23.7
   previous_composite: 41.2
   provenance:
@@ -215,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/screenshots/cloudguard-2026-06-20T174606.png
 security:

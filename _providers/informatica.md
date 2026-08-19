@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -533,7 +534,9 @@ rate_limits:
   name: Informatica Rate Limits
   slug: informatica-rate-limits
 rules:
-- name: Informatica API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Informatica API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -541,7 +544,10 @@ rules:
     info: 2
     warn: 3
   slug: informatica-jsonschema-spectral-rules
-- name: Informatica API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Informatica API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -551,15 +557,17 @@ rules:
   slug: informatica-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 39.6
+  delta: -6.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 76.4
-    developer_ergonomics: 34.8
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 25.0
+    contract_quality: 75.8
+    developer_ergonomics: 35.7
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -568,9 +576,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/screenshots/informatica-2026-06-20T183340.png
 security:
 - kind: authentication

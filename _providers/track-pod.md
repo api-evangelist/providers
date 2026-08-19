@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 44.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -305,7 +305,9 @@ rate_limits:
   name: Track Pod Rate Limits
   slug: track-pod-rate-limits
 rules:
-- name: Track-POD API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Track-POD API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -313,7 +315,10 @@ rules:
     info: 1
     warn: 4
   slug: track-pod-jsonschema-spectral-rules
-- name: Track-POD API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Track-POD API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -322,15 +327,17 @@ rules:
     warn: 3
   slug: track-pod-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -7.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 59.0
-    developer_ergonomics: 47.8
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 9.8
+    contract_quality: 57.6
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 39.5
   previous_composite: 60.7
   provenance:
@@ -340,9 +347,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/screenshots/track-pod-2026-06-20T195516.png
 security:
 - kind: authentication

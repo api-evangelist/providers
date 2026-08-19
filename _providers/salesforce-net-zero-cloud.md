@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -253,7 +254,9 @@ rate_limits:
   name: Salesforce Net Zero Cloud Rate Limits
   slug: salesforce-net-zero-cloud-rate-limits
 rules:
-- name: Salesforce Net Zero Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salesforce Net Zero Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +264,9 @@ rules:
     info: 1
     warn: 4
   slug: salesforce-net-zero-cloud-jsonschema-spectral-rules
-- name: Salesforce Net Zero Cloud API Rules
+- effective_rule_count: 9
+  extends: []
+  name: Salesforce Net Zero Cloud API Rules
   rule_count: 9
   severity_counts:
     error: 5
@@ -276,15 +281,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 46.3
+  delta: -7.3
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 66.5
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 64.8
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -293,9 +300,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:
 - kind: authentication

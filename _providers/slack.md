@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -1480,7 +1480,10 @@ rate_limits:
   name: Slack Rate Limits
   slug: slack-rate-limits
 rules:
-- name: Slack API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Slack API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -1488,7 +1491,9 @@ rules:
     info: 0
     warn: 2
   slug: slack-asyncapi-spectral-rules
-- name: Slack API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Slack API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1496,7 +1501,10 @@ rules:
     info: 1
     warn: 4
   slug: slack-jsonschema-spectral-rules
-- name: Slack API Rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Slack API Rules
   rule_count: 15
   severity_counts:
     error: 8
@@ -1511,14 +1519,16 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 61.8
+  delta: -3.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 71.6
-    developer_ergonomics: 84.8
+    contract_governance: 26.5
+    contract_quality: 67.6
+    developer_ergonomics: 76.2
     discoverability: 66.7
-    governance: 31.3
+    governance: 26.5
     operational_transparency: 63.2
   previous_composite: 65.1
   provenance:
@@ -1528,8 +1538,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 108
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

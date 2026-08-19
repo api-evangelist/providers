@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-17'
+  score: 30.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Auth API API from Serval — 1 operation(s) for auth api.
@@ -158,15 +159,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 45.3
+  delta: -6.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 65.7
-    developer_ergonomics: 56.5
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 4.5
+    contract_quality: 61.5
+    developer_ergonomics: 45.2
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 36.8
+    governance: 4.5
+    operational_transparency: 18.4
   previous_composite: 52.1
   provenance:
     conformance: derived
@@ -176,9 +179,10 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/screenshots/serval-2026-08-17T081819.png
 security:
 - kind: authentication
   name: Serval Authentication

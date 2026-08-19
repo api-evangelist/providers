@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -181,7 +182,10 @@ overview: 'Razorpay publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   Razorpay''s developer surface includes sandbox, changelog, authentication, documentation, API reference, pricing, signup flow, and 17 more developer resources.'
 random_paper: 143
 rules:
-- name: Razorpay API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Razorpay API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -196,14 +200,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 45.7
+  delta: -1.5
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 64.1
-    developer_ergonomics: 39.1
+    contract_governance: 11.4
+    contract_quality: 61.1
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 36.8
   previous_composite: 47.2
   provenance:
@@ -219,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png
 security:

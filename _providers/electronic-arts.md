@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Public-facing presence of Electronic Arts. Covers EA''s corporate site, consumer game services, EA app, EA Play subscription, and EA Help support surfaces. EA does not publicly publish a developer API '
@@ -123,18 +124,20 @@ rate_limits:
   slug: electronic-arts-rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 21.7
+  delta: -1.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 48.1
-    developer_ergonomics: 6.5
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 4.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 23.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/screenshots/electronic-arts-2026-06-20T180553.png
 security:

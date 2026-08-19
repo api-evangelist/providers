@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-17'
+  score: 51.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -1342,7 +1343,9 @@ rate_limits:
   name: Workos Rate Limits
   slug: workos-rate-limits
 rules:
-- name: WorkOS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WorkOS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1350,7 +1353,10 @@ rules:
     info: 1
     warn: 4
   slug: workos-jsonschema-spectral-rules
-- name: WorkOS API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: WorkOS API Rules
   rule_count: 13
   severity_counts:
     error: 4
@@ -1359,16 +1365,18 @@ rules:
     warn: 6
   slug: workos-rules
 score:
-  band: strong
-  composite: 59.2
-  delta: 0.0
+  band: developing
+  composite: 52.8
+  delta: -6.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.9
-    developer_ergonomics: 69.6
+    contract_governance: 25.0
+    contract_quality: 69.1
+    developer_ergonomics: 66.7
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 59.2
   provenance:
     agentic_access: derived
@@ -1377,9 +1385,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:
 - kind: authentication

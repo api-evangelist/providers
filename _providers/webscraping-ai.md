@@ -19,18 +19,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 63.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -258,15 +259,17 @@ rate_limits:
   slug: webscraping-ai-rate-limits
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 63.7
+  delta: -1.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 63.4
-    developer_ergonomics: 87.0
+    contract_governance: 16.7
+    contract_quality: 59.4
+    developer_ergonomics: 85.7
     discoverability: 100.0
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -278,8 +281,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:

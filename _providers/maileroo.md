@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -135,15 +136,17 @@ rate_limits:
   slug: maileroo-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 37.1
+  delta: -1.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.7
-    developer_ergonomics: 30.4
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
+    contract_quality: 59.8
+    developer_ergonomics: 33.3
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -152,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/screenshots/maileroo-2026-06-20T184856.png
 security:

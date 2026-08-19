@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -368,7 +369,9 @@ rate_limits:
   name: Yonsei Rate Limits
   slug: yonsei-rate-limits
 rules:
-- name: Yonsei University API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Yonsei University API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -376,7 +379,9 @@ rules:
     info: 2
     warn: 3
   slug: yonsei-jsonschema-spectral-rules
-- name: Yonsei University API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Yonsei University API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -386,14 +391,16 @@ rules:
   slug: yonsei-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 35.1
+  delta: -5.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 63.0
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 61.1
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 40.6
   provenance:
@@ -403,9 +410,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png
 security:
 - kind: authentication

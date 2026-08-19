@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Assignment specific calls
@@ -228,15 +229,17 @@ rate_limits:
   name: Axlehire Rate Limits
   slug: axlehire-rate-limits
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 52.4
+  delta: -7.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.0
-    developer_ergonomics: 66.8
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 66.4
+    developer_ergonomics: 35.1
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 55.3
   previous_composite: 59.8
   provenance:
@@ -247,9 +250,9 @@ score:
       marker_coverage: 0.0
       total: 5
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/screenshots/axlehire-2026-08-07T162043.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -241,7 +242,9 @@ rate_limits:
   name: Amazon Monitron Rate Limits
   slug: amazon-monitron-rate-limits
 rules:
-- name: Amazon Monitron API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Monitron API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -249,7 +252,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-monitron-jsonschema-spectral-rules
-- name: Amazon Monitron API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon Monitron API Rules
   rule_count: 26
   severity_counts:
     error: 9
@@ -258,16 +264,18 @@ rules:
     warn: 12
   slug: amazon-monitron-spectral-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -6.1
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 22.5
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 24.6
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -276,9 +284,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/screenshots/amazon-monitron-2026-06-20T171745.png
 security:
 - kind: authentication

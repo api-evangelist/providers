@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,14 +91,16 @@ overview: 'Infinera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 99
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 17.6
+  delta: -0.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.2
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 5.3
   previous_composite: 18.3
   provenance:
@@ -108,8 +111,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 26.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinera/refs/heads/main/screenshots/infinera-2026-07-25T222357.png
 security:

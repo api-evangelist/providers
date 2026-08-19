@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -155,7 +156,10 @@ rate_limits:
   name: Port Community Systems Rate Limits
   slug: port-community-systems-rate-limits
 rules:
-- name: Port Community Systems API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Port Community Systems API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -163,7 +167,9 @@ rules:
     info: 0
     warn: 6
   slug: port-community-systems-asyncapi-spectral-rules
-- name: Port Community Systems API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Port Community Systems API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,15 +183,17 @@ scopes:
   slug: port-community-systems-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -4.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 82.1
-    developer_ergonomics: 30.4
+    contract_governance: 11.4
+    contract_quality: 77.3
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 7.9
   previous_composite: 42.3
   provenance:
@@ -195,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/screenshots/port-community-systems-2026-06-20T191927.png
 security:

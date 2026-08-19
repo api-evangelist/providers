@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,7 +202,9 @@ rate_limits:
   name: Staples Rate Limits
   slug: staples-rate-limits
 rules:
-- name: Staples API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Staples API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,7 +212,10 @@ rules:
     info: 2
     warn: 3
   slug: staples-jsonschema-spectral-rules
-- name: Staples API Rules
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Staples API Rules
   rule_count: 21
   severity_counts:
     error: 9
@@ -218,16 +224,18 @@ rules:
     warn: 10
   slug: staples-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: -8.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 68.7
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 23.8
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -236,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/screenshots/staples-2026-06-20T194507.png
 security:
 - kind: authentication

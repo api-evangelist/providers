@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: derived
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-17'
+  score: 59.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -269,17 +270,19 @@ rate_limits:
   name: Exec Rate Limits
   slug: exec-rate-limits
 score:
-  band: strong
-  composite: 65.0
-  delta: 6.3
+  band: exemplar
+  composite: 68.2
+  delta: 3.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 70.1
-    developer_ergonomics: 56.0
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 30.3
+    contract_quality: 69.7
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 55.3
-  previous_composite: 58.7
+    governance: 30.3
+    operational_transparency: 39.5
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,11 +291,17 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-    mcp: derived
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
 security:
 - kind: authentication

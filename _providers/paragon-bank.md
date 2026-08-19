@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -167,14 +168,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 35.1
+  delta: 2.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 53.0
-    developer_ergonomics: 19.0
+    contract_governance: 16.7
+    contract_quality: 51.2
+    developer_ergonomics: 18.5
     discoverability: 72.2
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 32.6
   provenance:
@@ -192,9 +195,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 48.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

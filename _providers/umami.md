@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -532,7 +533,9 @@ rate_limits:
   name: Umami Rate Limits
   slug: umami-rate-limits
 rules:
-- name: Umami API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Umami API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -540,7 +543,10 @@ rules:
     info: 2
     warn: 3
   slug: umami-jsonschema-spectral-rules
-- name: Umami API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Umami API Rules
   rule_count: 37
   severity_counts:
     error: 13
@@ -550,26 +556,31 @@ rules:
   slug: umami-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 23.2
+  composite: 63.7
+  delta: 2.5
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 26.7
-    developer_ergonomics: 67.4
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 55.3
+    contract_quality: 26.8
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 52.6
-  previous_composite: 38.0
+    governance: 55.3
+    operational_transparency: 65.8
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
 - kind: authentication

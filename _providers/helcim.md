@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -245,15 +246,17 @@ rate_limits:
   slug: helcim-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 58.0
+  delta: 0.6
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 56.8
-    developer_ergonomics: 64.7
+    access_clarity: 48.7
+    commercial_clarity: 48.7
+    contract_governance: 30.3
+    contract_quality: 55.3
+    developer_ergonomics: 45.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 84.2
+    governance: 30.3
+    operational_transparency: 77.6
   previous_composite: 57.4
   provenance:
     agentic_access: derived
@@ -265,9 +268,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 55.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

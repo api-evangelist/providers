@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -149,7 +150,10 @@ rate_limits:
   name: Cloud Custodian Rate Limits
   slug: cloud-custodian-rate-limits
 rules:
-- name: Cloud Custodian API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Cloud Custodian API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -157,7 +161,9 @@ rules:
     info: 0
     warn: 2
   slug: cloud-custodian-asyncapi-spectral-rules
-- name: Cloud Custodian API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Cloud Custodian API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -167,15 +173,17 @@ rules:
   slug: cloud-custodian-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 33.4
+  delta: -1.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 23.9
+    contract_governance: 11.4
+    contract_quality: 57.8
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 11.4
+    operational_transparency: 36.8
   previous_composite: 34.9
   regulatory:
     applies: true
@@ -183,8 +191,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/screenshots/cloud-custodian-2026-06-20T174534.png
 security:

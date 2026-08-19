@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The G2 API V2 provides programmatic access to G2's software reviews, buyer intent signals, competitive intelligence, and product data. Uses OAuth 2.0 for authentication. Enables integration of G2 buye
@@ -248,26 +249,31 @@ scopes:
   slug: business-software-and-services-reviews-g2-scopes
   summary_line: 16 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.1
-  delta: 32.2
+  band: developing
+  composite: 54.1
+  delta: -6.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 70.0
-    developer_ergonomics: 73.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 65.6
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 34.2
-  previous_composite: 27.9
+    governance: 16.7
+    operational_transparency: 47.4
+  previous_composite: 60.1
   provenance:
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:
 - kind: authentication

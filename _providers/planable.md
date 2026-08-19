@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -760,7 +761,9 @@ rate_limits:
   name: Planable Rate Limits
   slug: planable-rate-limits
 rules:
-- name: Planable API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Planable API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -774,27 +777,32 @@ scopes:
   slug: planable-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 72.0
-  delta: 24.3
+  band: strong
+  composite: 63.4
+  delta: -8.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 56.7
-    developer_ergonomics: 67.4
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 41.7
+    contract_quality: 56.2
+    developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 57.9
-  previous_composite: 47.7
+    governance: 41.7
+    operational_transparency: 55.3
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 11
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:
 - kind: authentication

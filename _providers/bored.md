@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -253,7 +254,9 @@ overview: 'Bored API publishes 5 APIs on the [APIs.io](https://apis.io/) network
   Bored API''s developer surface includes developer portal, GitHub presence, documentation, and 13 more developer resources.'
 random_paper: 77
 rules:
-- name: Bored API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bored API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +264,10 @@ rules:
     info: 1
     warn: 4
   slug: bored-jsonschema-spectral-rules
-- name: Bored API API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Bored API API Rules
   rule_count: 12
   severity_counts:
     error: 8
@@ -271,14 +277,16 @@ rules:
   slug: bored-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 32.5
+  delta: -6.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 64.9
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 61.3
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 39.1
   provenance:
@@ -288,9 +296,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/screenshots/bored-2026-06-20T173607.png
 security:
 - kind: domain-security

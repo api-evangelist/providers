@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
@@ -134,14 +135,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 38.6
+  delta: 4.0
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 53.0
-    developer_ergonomics: 13.0
+    contract_governance: 4.5
+    contract_quality: 51.2
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 34.6
   provenance:
@@ -156,9 +159,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 88.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The VitePress Runtime API provides Vue composition functions and helper utilities for use in custom themes, Vue components, and Markdown pages. Key composables include useData() for accessing site and
@@ -131,7 +132,9 @@ rate_limits:
   name: Vitepress Rate Limits
   slug: vitepress-rate-limits
 rules:
-- name: VitePress API Rules
+- effective_rule_count: 6
+  extends: []
+  name: VitePress API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -141,19 +144,21 @@ rules:
   slug: vitepress-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.5
-  delta: 0.0
+  composite: 19.1
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 8.1
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 7.0
+    developer_ergonomics: 9.5
     discoverability: 75.9
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 24.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitepress/refs/heads/main/screenshots/vitepress-2026-06-20T201107.png
 security:
 - kind: domain-security

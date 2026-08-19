@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-17'
+  score: 60.7
+  scored_at: '2026-08-19'
 api_count: 90
 apis:
 - description: Account configurations
@@ -730,15 +731,17 @@ scopes:
   summary_line: 100 scopes
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 49.2
+  delta: -5.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 64.9
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 64.3
+    developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 54.4
   provenance:
     conformance: derived
@@ -749,9 +752,10 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png
 security:
 - kind: authentication
   name: Xentral Authentication

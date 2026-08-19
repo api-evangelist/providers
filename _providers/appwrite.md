@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,7 +232,10 @@ rate_limits:
   name: Appwrite Rate Limits
   slug: appwrite-rate-limits
 rules:
-- name: Appwrite API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Appwrite API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -240,7 +243,9 @@ rules:
     info: 1
     warn: 5
   slug: appwrite-asyncapi-spectral-rules
-- name: Appwrite API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Appwrite API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,7 +253,10 @@ rules:
     info: 2
     warn: 3
   slug: appwrite-jsonschema-spectral-rules
-- name: Appwrite API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Appwrite API Rules
   rule_count: 23
   severity_counts:
     error: 8
@@ -257,16 +265,18 @@ rules:
     warn: 14
   slug: appwrite-spectral-rules
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: -10.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 83.0
-    developer_ergonomics: 45.7
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 13.6
+    contract_quality: 78.4
+    developer_ergonomics: 38.1
     discoverability: 63.0
-    governance: 47.9
-    operational_transparency: 55.3
+    governance: 13.6
+    operational_transparency: 36.8
   previous_composite: 57.0
   provenance:
     agentic_access: derived
@@ -275,9 +285,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -215,7 +216,10 @@ rate_limits:
   name: Cloudevents Rate Limits
   slug: cloudevents-rate-limits
 rules:
-- name: CloudEvents API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: CloudEvents API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -223,7 +227,9 @@ rules:
     info: 0
     warn: 6
   slug: cloudevents-asyncapi-spectral-rules
-- name: CloudEvents API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CloudEvents API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -231,7 +237,10 @@ rules:
     info: 1
     warn: 5
   slug: cloudevents-jsonschema-spectral-rules
-- name: CloudEvents API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CloudEvents API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -241,15 +250,17 @@ rules:
   slug: cloudevents-rules
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 38.7
+  delta: -3.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 71.9
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 72.8
+    developer_ergonomics: 31.0
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 26.3
+    governance: 11.4
+    operational_transparency: 23.7
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -258,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

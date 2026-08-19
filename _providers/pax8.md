@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -340,14 +340,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 46.9
+  delta: -3.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 66.4
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 65.8
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 50.8
   provenance:
@@ -360,8 +362,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/screenshots/pax8-2026-08-07T191618.png
 security:

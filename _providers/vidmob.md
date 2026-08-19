@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -213,15 +214,17 @@ scopes:
   summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 43.4
+  delta: -6.0
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 60.3
-    developer_ergonomics: 62.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 16.7
+    contract_quality: 56.5
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -233,9 +236,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:
 - kind: authentication
   name: Vidmob Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -131,7 +132,9 @@ rate_limits:
   name: Grounded Tools Rate Limits
   slug: grounded-tools-rate-limits
 rules:
-- name: Grounded.tools API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Grounded.tools API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -141,15 +144,23 @@ rules:
   slug: grounded-tools-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 26.4
+  delta: -6.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.7
+    contract_governance: 9.8
+    contract_quality: 55.9
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 33.2
   provenance:
     agentic_access: derived
@@ -158,9 +169,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
 security:
 - kind: domain-security

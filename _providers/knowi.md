@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -170,12 +171,14 @@ rate_limits:
   slug: knowi-rate-limits
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 32.0
+  delta: -5.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 59.7
-    developer_ergonomics: 26.1
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 0.0
+    contract_quality: 59.4
+    developer_ergonomics: 14.3
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
@@ -187,9 +190,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/screenshots/knowi-2026-06-20T184113.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Intuit TurboTax API enables integration with TurboTax for consumer and business tax preparation workflows, including data import, tax calculation, and e-filing.
@@ -115,7 +116,9 @@ rate_limits:
   name: Tax Templates Rate Limits
   slug: tax-templates-rate-limits
 rules:
-- name: Tax Templates API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tax Templates API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -125,19 +128,21 @@ rules:
   slug: tax-templates-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 15.9
+  delta: -5.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 25.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 21.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tax-templates/refs/heads/main/screenshots/tax-templates-2026-06-20T194933.png
 security:
 - kind: domain-security

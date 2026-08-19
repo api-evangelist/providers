@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -337,7 +338,9 @@ rate_limits:
   name: Zocdoc Rate Limits
   slug: zocdoc-rate-limits
 rules:
-- name: Zocdoc API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Zocdoc API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -352,32 +355,37 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 68.6
-  delta: 26.8
+  composite: 69.5
+  delta: 0.9
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 72.6
-    developer_ergonomics: 73.9
+    contract_governance: 41.7
+    contract_quality: 70.8
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 89.6
+    governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 41.8
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 13
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 60.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:
 - kind: authentication

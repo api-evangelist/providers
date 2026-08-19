@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 7
@@ -355,7 +356,9 @@ rate_limits:
   name: Uclouvain Rate Limits
   slug: uclouvain-rate-limits
 rules:
-- name: UCLouvain API Rules
+- effective_rule_count: 5
+  extends: []
+  name: UCLouvain API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -363,7 +366,10 @@ rules:
     info: 2
     warn: 3
   slug: uclouvain-jsonschema-spectral-rules
-- name: UCLouvain API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: UCLouvain API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -373,14 +379,16 @@ rules:
   slug: uclouvain-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 28.2
+  delta: -5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 50.7
+    contract_governance: 9.8
+    contract_quality: 49.0
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 33.5
   provenance:
@@ -393,12 +401,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/screenshots/uclouvain-2026-06-20T195945.png
 security:
 - kind: domain-security

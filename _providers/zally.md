@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -262,7 +263,9 @@ rate_limits:
   name: Zally Rate Limits
   slug: zally-rate-limits
 rules:
-- name: Zally API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zally API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -270,7 +273,9 @@ rules:
     info: 1
     warn: 4
   slug: zally-jsonschema-spectral-rules
-- name: Zally API Rules
+- effective_rule_count: 18
+  extends: []
+  name: Zally API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -280,15 +285,17 @@ rules:
   slug: zally-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 42.6
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 73.9
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -297,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
 security:
 - kind: authentication

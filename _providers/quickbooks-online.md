@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -139,12 +140,14 @@ score:
   composite: 35.1
   delta: 0.0
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 52.2
-    developer_ergonomics: 39.1
+    contract_governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 42.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 35.1
   provenance:
     agentic_access: derived
@@ -159,8 +162,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-online/refs/heads/main/screenshots/quickbooks-online-2026-06-20T192431.png
 security:

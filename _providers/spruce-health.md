@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-17'
+  score: 53.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -318,32 +319,38 @@ rate_limits:
   slug: spruce-health-rate-limits
 score:
   band: strong
-  composite: 65.1
-  delta: 28.4
+  composite: 65.3
+  delta: 0.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 69.9
-    developer_ergonomics: 67.4
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 16.7
+    contract_quality: 68.5
+    developer_ergonomics: 43.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 36.7
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 15
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 45.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/screenshots/spruce-health-2026-08-17T082049.png
 security:
 - kind: authentication
   name: Spruce Health Authentication

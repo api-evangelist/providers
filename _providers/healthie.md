@@ -13,10 +13,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
@@ -300,7 +300,10 @@ rate_limits:
   name: Healthie Rate Limits
   slug: healthie-rate-limits
 rules:
-- name: Healthie API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Healthie API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -310,25 +313,31 @@ rules:
   slug: healthie-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 68.7
-  delta: 30.8
+  composite: 68.8
+  delta: 0.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 56.0
-    developer_ergonomics: 80.4
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 29.5
+    contract_quality: 52.3
+    developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 54.2
-    operational_transparency: 89.5
-  previous_composite: 37.9
+    governance: 29.5
+    operational_transparency: 86.8
+  previous_composite: 68.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 45.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
 security:
 - kind: authentication

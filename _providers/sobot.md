@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 42.9
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -200,14 +200,16 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 104
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 40.4
+  delta: -8.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.8
-    developer_ergonomics: 62.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 59.8
+    developer_ergonomics: 28.0
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 23.7
   previous_composite: 49.0
   provenance:
@@ -219,9 +221,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/screenshots/sobot-2026-08-17T082001.png
 security:
 - kind: authentication
   name: Sobot Authentication

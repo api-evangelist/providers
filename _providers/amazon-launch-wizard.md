@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -207,7 +208,9 @@ rate_limits:
   name: Amazon Launch Wizard Rate Limits
   slug: amazon-launch-wizard-rate-limits
 rules:
-- name: Amazon Launch Wizard API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Amazon Launch Wizard API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -215,7 +218,10 @@ rules:
     info: 1
     warn: 3
   slug: amazon-launch-wizard-jsonschema-spectral-rules
-- name: Amazon Launch Wizard API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon Launch Wizard API Rules
   rule_count: 22
   severity_counts:
     error: 9
@@ -224,16 +230,18 @@ rules:
     warn: 13
   slug: amazon-launch-wizard-spectral-rules
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: -7.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 70.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 66.4
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -242,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/screenshots/amazon-launch-wizard-2026-06-20T171723.png
 security:
 - kind: authentication

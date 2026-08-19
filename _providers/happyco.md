@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: HappyCo's gRPC API for property inspections, reports, templates, accounts, users, partner account provisioning, assets, folders, and streaming events.
@@ -178,22 +179,24 @@ overview: 'HappyCo publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 45.8
+  delta: -3.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 51.6
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 44.7
+    governance: 4.5
+    operational_transparency: 26.3
   previous_composite: 49.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/screenshots/happyco-2026-07-25T220650.png
 security:

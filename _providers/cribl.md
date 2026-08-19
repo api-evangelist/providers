@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -492,7 +493,10 @@ rate_limits:
   name: Cribl Rate Limits
   slug: cribl-rate-limits
 rules:
-- name: Cribl API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 6
   severity_counts:
     error: 5
@@ -500,7 +504,10 @@ rules:
     info: 0
     warn: 1
   slug: cribl-as-code-api-rules
-- name: Cribl API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 6
   severity_counts:
     error: 5
@@ -508,7 +515,10 @@ rules:
     info: 0
     warn: 1
   slug: cribl-cloud-api-rules
-- name: Cribl API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -516,7 +526,9 @@ rules:
     info: 0
     warn: 0
   slug: cribl-edge-api-rules
-- name: Cribl API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Cribl API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -524,7 +536,10 @@ rules:
     info: 2
     warn: 4
   slug: cribl-jsonschema-spectral-rules
-- name: Cribl API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -532,7 +547,10 @@ rules:
     info: 0
     warn: 0
   slug: cribl-lake-api-rules
-- name: Cribl API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -540,7 +558,10 @@ rules:
     info: 0
     warn: 0
   slug: cribl-search-api-rules
-- name: Cribl API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Cribl API Rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -555,15 +576,17 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 45.1
+  delta: 1.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.6
-    developer_ergonomics: 30.4
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 45.5
+    contract_quality: 64.9
+    developer_ergonomics: 33.3
     discoverability: 66.7
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 45.5
+    operational_transparency: 10.5
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -572,8 +595,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
 security:

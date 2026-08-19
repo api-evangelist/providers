@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -1630,7 +1631,10 @@ rate_limits:
   name: Letta Rate Limits
   slug: letta-rate-limits
 rules:
-- name: Letta API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Letta API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1638,7 +1642,9 @@ rules:
     info: 0
     warn: 7
   slug: letta-asyncapi-spectral-rules
-- name: Letta API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Letta API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1648,15 +1654,17 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 45.3
+  delta: -3.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 84.1
-    developer_ergonomics: 21.7
+    contract_governance: 26.5
+    contract_quality: 83.5
+    developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 52.1
-    operational_transparency: 10.5
+    governance: 26.5
+    operational_transparency: 7.9
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -1665,8 +1673,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:

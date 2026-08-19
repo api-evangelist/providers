@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -146,19 +147,23 @@ rate_limits:
   slug: superside-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 15.1
+  composite: 32.3
+  delta: -0.8
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 47.4
-  previous_composite: 18.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 44.7
+  previous_composite: 33.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Superside Domain Security

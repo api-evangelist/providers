@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Spellbook is delivered primarily as a Microsoft Word add-in and a multi-document Associate agent rather than a public REST API. This entry documents the Spellbook product surface for discoverability; '
@@ -103,18 +104,20 @@ rate_limits:
   slug: spellbook-rate-limits
 score:
   band: emerging
-  composite: 24.5
-  delta: 0.0
+  composite: 20.3
+  delta: -4.2
   facets:
-    commercial_clarity: 68.4
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spellbook/refs/heads/main/screenshots/spellbook-2026-06-20T194305.png
 security:

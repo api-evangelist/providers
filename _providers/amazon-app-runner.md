@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-17'
+  score: 28.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -2051,7 +2052,9 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
   Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
 random_paper: 84
 rules:
-- name: Amazon App Runner API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon App Runner API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2059,7 +2062,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-app-runner-jsonschema-spectral-rules
-- name: Amazon App Runner API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Amazon App Runner API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -2069,15 +2075,17 @@ rules:
   slug: amazon-app-runner-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 49.7
+  delta: -5.7
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 71.8
-    developer_ergonomics: 43.5
+    contract_governance: 41.7
+    contract_quality: 69.3
+    developer_ergonomics: 42.9
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 15.8
+    governance: 41.7
+    operational_transparency: 13.2
   previous_composite: 55.4
   provenance:
     agentic_access: derived
@@ -2088,9 +2096,9 @@ score:
       marker_coverage: 0.0
       total: 36
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:
 - kind: authentication

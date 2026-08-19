@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -270,7 +271,10 @@ rate_limits:
   name: Dagster Rate Limits
   slug: dagster-rate-limits
 rules:
-- name: Dagster API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Dagster API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -278,7 +282,9 @@ rules:
     info: 0
     warn: 3
   slug: dagster-external-assets-rest-api-rules
-- name: Dagster API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Dagster API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -288,15 +294,17 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 61.4
+  delta: 3.2
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 69.4
-    developer_ergonomics: 63.0
+    contract_governance: 60.6
+    contract_quality: 65.0
+    developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 31.3
-    operational_transparency: 39.5
+    governance: 60.6
+    operational_transparency: 36.8
   previous_composite: 58.2
   provenance:
     agentic_access: derived
@@ -305,8 +313,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:

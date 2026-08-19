@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -351,7 +352,10 @@ rate_limits:
   name: Vonage Rate Limits
   slug: vonage-rate-limits
 rules:
-- name: Vonage API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Vonage API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -359,7 +363,9 @@ rules:
     info: 1
     warn: 3
   slug: vonage-asyncapi-spectral-rules
-- name: Vonage API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vonage API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -367,7 +373,10 @@ rules:
     info: 1
     warn: 4
   slug: vonage-jsonschema-spectral-rules
-- name: Vonage API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Vonage API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -377,14 +386,16 @@ rules:
   slug: vonage-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 53.6
+  delta: -1.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 73.9
-    developer_ergonomics: 69.6
+    contract_governance: 13.6
+    contract_quality: 71.1
+    developer_ergonomics: 66.7
     discoverability: 81.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 54.9
   provenance:
@@ -400,8 +411,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:

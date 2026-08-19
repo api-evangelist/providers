@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
@@ -178,15 +179,17 @@ overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 84
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 32.4
+  delta: -5.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 47.8
-    developer_ergonomics: 39.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 44.8
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 37.8
   provenance:
     conformance: derived
@@ -201,10 +204,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:
 - kind: authentication

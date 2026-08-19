@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -213,7 +214,10 @@ rate_limits:
   name: Mercury Rate Limits
   slug: mercury-rate-limits
 rules:
-- name: Mercury API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Mercury API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -223,15 +227,17 @@ rules:
   slug: mercury-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 36.2
+  delta: -3.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 65.7
-    developer_ergonomics: 32.6
+    contract_governance: 13.6
+    contract_quality: 65.2
+    developer_ergonomics: 29.8
     discoverability: 81.5
-    governance: 47.9
-    operational_transparency: 28.9
+    governance: 13.6
+    operational_transparency: 26.3
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -246,8 +252,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png
 security:

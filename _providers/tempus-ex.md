@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-17'
+  score: 32.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'FusionFeed aggregates sports data and media (schedules, rosters, official and automated statistics, telemetry, scoreboard, and live/VOD video) into a single GraphQL-first API (with an interchangeable '
@@ -150,22 +151,24 @@ rate_limits:
   slug: tempus-ex-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 36.4
+  delta: -0.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 53.1
-    developer_ergonomics: 53.8
+    contract_governance: 18.2
+    contract_quality: 47.8
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

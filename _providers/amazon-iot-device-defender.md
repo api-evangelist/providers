@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 40.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -2598,7 +2599,9 @@ rate_limits:
   name: Amazon Iot Device Defender Rate Limits
   slug: amazon-iot-device-defender-rate-limits
 rules:
-- name: Amazon IoT Device Defender API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon IoT Device Defender API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2606,7 +2609,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-iot-device-defender-jsonschema-spectral-rules
-- name: Amazon IoT Device Defender API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Amazon IoT Device Defender API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -2615,16 +2621,18 @@ rules:
     warn: 10
   slug: amazon-iot-device-defender-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -6.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.5
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 68.5
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -2633,9 +2641,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 69
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/screenshots/amazon-iot-device-defender-2026-06-20T171707.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-17'
+  score: 63.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -438,15 +439,17 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 63.1
+  delta: -2.8
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 64.8
-    developer_ergonomics: 89.1
+    contract_governance: 16.7
+    contract_quality: 64.5
+    developer_ergonomics: 73.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 94.7
+    governance: 16.7
+    operational_transparency: 92.1
   previous_composite: 65.9
   provenance:
     agentic_access: derived
@@ -458,9 +461,10 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/screenshots/twitter-x-2026-08-17T082510.png
 security:
 - kind: authentication
   name: Twitter X Authentication

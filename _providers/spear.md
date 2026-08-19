@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
@@ -91,7 +92,9 @@ rate_limits:
   name: Spear Rate Limits
   slug: spear-rate-limits
 rules:
-- name: Spear API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spear API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -101,19 +104,27 @@ rules:
   slug: spear-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 13.9
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
+    contract_governance: 9.8
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 20.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/screenshots/spear-2026-06-20T194252.png
 security:
 - kind: domain-security

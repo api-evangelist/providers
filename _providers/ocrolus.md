@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -399,15 +400,17 @@ rate_limits:
   slug: ocrolus-rate-limits
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 58.4
+  delta: -0.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.2
-    developer_ergonomics: 60.3
+    contract_governance: 30.3
+    contract_quality: 64.0
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 30.3
+    operational_transparency: 61.8
   previous_composite: 58.7
   provenance:
     agentic_access: derived
@@ -425,8 +428,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

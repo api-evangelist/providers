@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 25.2
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: Electronic customs declaration filing for import, export and transit. Creates consignments and deliveries, transmits them to national customs systems (German ATLAS, EU AES/NCTS, UK CHIEF), and polls d
@@ -158,15 +159,23 @@ overview: 'AEB publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 147
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 23.1
+  delta: -1.7
   facets:
+    access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_quality: 47.6
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 46.7
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
   previous_composite: 24.8
   provenance:
     contracts:
@@ -180,8 +189,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 6.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

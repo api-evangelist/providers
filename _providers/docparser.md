@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Docparser Rate Limits
   slug: docparser-rate-limits
 rules:
-- name: Docparser API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Docparser API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,15 +222,17 @@ rules:
     warn: 4
   slug: docparser-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: -6.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 68.7
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 60.5
   previous_composite: 57.5
   provenance:
@@ -237,9 +242,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/screenshots/docparser-2026-06-20T180109.png
 security:
 - kind: authentication

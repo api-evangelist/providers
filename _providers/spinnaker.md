@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -223,7 +224,9 @@ rate_limits:
   name: Spinnaker Rate Limits
   slug: spinnaker-rate-limits
 rules:
-- name: Spinnaker API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spinnaker API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +234,10 @@ rules:
     info: 2
     warn: 3
   slug: spinnaker-jsonschema-spectral-rules
-- name: Spinnaker API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Spinnaker API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -245,16 +251,18 @@ scopes:
   slug: spinnaker-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 34.1
+  delta: -9.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 62.6
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 58.7
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 34.2
+    governance: 25.0
+    operational_transparency: 15.8
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -263,9 +271,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/screenshots/spinnaker-2026-06-20T194321.png
 security:
 - kind: authentication

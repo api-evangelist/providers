@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-17'
+  score: 54.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -223,15 +224,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 49.8
+  delta: -1.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 61.1
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 34.2
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -243,9 +246,10 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/screenshots/spaitial-2026-08-17T125348.png
 security:
 - kind: authentication
   name: Spaitial Authentication

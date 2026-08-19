@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-17'
+  score: 10.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Edge Case's own host and advertised in its llms.txt. It is the Wix platform site MCP — it exposes site content, business details, site search and Wix busi
@@ -102,20 +103,22 @@ overview: 'Edge Case Research publishes 1 API on the [APIs.io](https://apis.io/)
 random_paper: 113
 score:
   band: emerging
-  composite: 13.4
-  delta: 0.0
+  composite: 11.4
+  delta: -2.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 7.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 13.4
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-case-research/refs/heads/main/screenshots/edge-case-research-2026-08-07T164729.png
 security:

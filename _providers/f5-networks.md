@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -573,7 +574,9 @@ rate_limits:
   name: F5 Networks Rate Limits
   slug: f5-networks-rate-limits
 rules:
-- name: F5 Networks API Rules
+- effective_rule_count: 6
+  extends: []
+  name: F5 Networks API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -581,7 +584,10 @@ rules:
     info: 2
     warn: 4
   slug: f5-networks-jsonschema-spectral-rules
-- name: F5 Networks API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: F5 Networks API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -590,16 +596,18 @@ rules:
     warn: 7
   slug: f5-networks-spectral-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: developing
+  composite: 47.2
+  delta: -9.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.8
-    developer_ergonomics: 39.1
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 9.8
+    contract_quality: 69.3
+    developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -608,9 +616,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:
 - kind: authentication

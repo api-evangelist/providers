@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -301,16 +302,18 @@ rate_limits:
   slug: cloudtalk-rate-limits
 score:
   band: strong
-  composite: 63.0
-  delta: 11.3
+  composite: 59.5
+  delta: -3.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 62.1
-    developer_ergonomics: 56.0
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 16.7
+    contract_quality: 60.0
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 81.6
-  previous_composite: 51.7
+    governance: 16.7
+    operational_transparency: 68.4
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,10 +329,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 43.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:
 - kind: authentication

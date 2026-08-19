@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 67.8
-  scored_at: '2026-08-17'
+  score: 67.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -252,17 +253,19 @@ scopes:
   slug: the-hog-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.8
-  delta: 6.9
+  band: developing
+  composite: 52.6
+  delta: -4.2
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 61.2
-    developer_ergonomics: 71.2
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 16.7
+    contract_quality: 59.4
+    developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 26.3
-  previous_composite: 49.9
+    governance: 16.7
+    operational_transparency: 23.7
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,10 +275,11 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/screenshots/the-hog-2026-08-17T082336.png
 security:
 - kind: authentication
   name: The Hog Authentication

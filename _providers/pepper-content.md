@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-17'
+  score: 6.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -129,18 +130,23 @@ rate_limits:
   slug: pepper-content-rate-limits
 score:
   band: emerging
-  composite: 15.2
-  delta: 2.9
+  composite: 15.6
+  delta: 0.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 12.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 15.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

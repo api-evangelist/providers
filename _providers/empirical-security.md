@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,14 +183,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 32.7
+  delta: 1.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 15.7
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 14.9
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 31.7
   provenance:
@@ -202,8 +205,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png
 security:

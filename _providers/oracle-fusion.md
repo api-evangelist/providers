@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -987,7 +988,9 @@ rate_limits:
   name: Oracle Fusion Rate Limits
   slug: oracle-fusion-rate-limits
 rules:
-- name: Oracle Fusion Cloud Applications API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Oracle Fusion Cloud Applications API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -997,15 +1000,17 @@ rules:
   slug: oracle-fusion-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 45.8
+  delta: -8.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.7
-    developer_ergonomics: 39.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 67.4
+    developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -1014,9 +1019,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:
 - kind: authentication

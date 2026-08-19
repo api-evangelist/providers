@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 51.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -801,7 +802,9 @@ rate_limits:
   name: Github Copilot Rate Limits
   slug: github-copilot-rate-limits
 rules:
-- name: GitHub Copilot API Rules
+- effective_rule_count: 6
+  extends: []
+  name: GitHub Copilot API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -809,7 +812,10 @@ rules:
     info: 1
     warn: 5
   slug: github-copilot-jsonschema-spectral-rules
-- name: GitHub Copilot API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: GitHub Copilot API Rules
   rule_count: 20
   severity_counts:
     error: 8
@@ -823,15 +829,17 @@ scopes:
   slug: github-copilot-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 70.5
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: -6.7
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 76.9
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 73.1
+    developer_ergonomics: 69.0
     discoverability: 83.3
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 50.0
   previous_composite: 70.5
   provenance:
@@ -843,9 +851,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:
 - kind: authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 51.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -237,16 +238,18 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
 random_paper: 147
 score:
-  band: developing
-  composite: 50.8
-  delta: 0.0
+  band: strong
+  composite: 55.7
+  delta: 4.9
   facets:
-    commercial_clarity: 7.9
-    contract_quality: 72.0
-    developer_ergonomics: 77.7
+    access_clarity: 3.9
+    commercial_clarity: 3.9
+    contract_governance: 30.3
+    contract_quality: 69.6
+    developer_ergonomics: 75.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 52.6
+    governance: 30.3
+    operational_transparency: 50.0
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -263,10 +266,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 52.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:
 - kind: authentication
   name: Shift4 Authentication

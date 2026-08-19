@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Markable's visual search platform API. Index catalogs of products or styles, then search for visually similar items inside images and video. Covers catalog and catalog-item management, product search,
@@ -140,19 +141,23 @@ rate_limits:
   slug: markable-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 18.7
+  composite: 35.1
+  delta: 1.2
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 26.3
-  previous_composite: 15.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 23.7
+  previous_composite: 33.9
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/screenshots/markable-2026-07-25T230203.png
 security:
 - kind: authentication

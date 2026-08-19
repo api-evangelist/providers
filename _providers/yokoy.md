@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -289,15 +290,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 40.3
+  delta: -6.6
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 30.3
     contract_quality: 55.6
-    developer_ergonomics: 53.8
+    developer_ergonomics: 18.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 30.3
+    operational_transparency: 28.9
   previous_composite: 46.9
   provenance:
     conformance: first-party
@@ -314,9 +317,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/screenshots/yokoy-2026-08-17T083017.png
 security:
 - kind: authentication
   name: Yokoy Authentication

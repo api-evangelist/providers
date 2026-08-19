@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Search and retrieve regulatory and clinical documents.
@@ -162,14 +163,16 @@ rate_limits:
   slug: rhizome-ai-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 49.1
+  delta: 3.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 65.7
-    developer_ergonomics: 53.8
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 63.6
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 21.1
   previous_composite: 45.4
   provenance:
@@ -187,9 +190,10 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/screenshots/rhizome-ai-2026-08-17T081552.png
 security:
 - kind: authentication
   name: Rhizome Ai Authentication

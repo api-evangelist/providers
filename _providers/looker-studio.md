@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -407,7 +408,9 @@ rate_limits:
   name: Looker Studio Rate Limits
   slug: looker-studio-rate-limits
 rules:
-- name: Looker Studio API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Looker Studio API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -421,16 +424,18 @@ scopes:
   slug: looker-studio-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -9.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 74.4
-    developer_ergonomics: 50.0
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 70.3
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -439,10 +444,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-06-20T184714.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-08-17T082124.png
 security:
 - kind: authentication
   name: Looker Studio Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-17'
+  score: 47.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -183,14 +184,16 @@ rate_limits:
   slug: onsi-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 46.1
+  delta: 3.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 16.7
     contract_quality: 50.9
-    developer_ergonomics: 62.5
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 36.8
   previous_composite: 42.4
   provenance:
@@ -209,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/screenshots/onsi-2026-08-07T190412.png
 security:

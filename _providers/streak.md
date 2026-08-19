@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -159,12 +160,14 @@ overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 54
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 30.3
+  delta: -1.6
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 0.0
     contract_quality: 55.2
-    developer_ergonomics: 26.1
+    developer_ergonomics: 17.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
@@ -176,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/screenshots/streak-2026-06-20T194620.png
 security:

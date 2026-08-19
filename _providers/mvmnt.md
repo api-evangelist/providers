@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 27
 apis:
 - description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
@@ -345,15 +346,17 @@ scopes:
   slug: mvmnt-scopes
   summary_line: 1 scope
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: 4.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 72.7
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 73.7
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 53.2
   provenance:
@@ -371,8 +374,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/screenshots/mvmnt-2026-08-07T184459.png
 security:

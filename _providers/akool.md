@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -157,15 +158,17 @@ rate_limits:
   slug: akool-rate-limits
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 27.9
+  delta: -0.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 14.6
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 13.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 28.1
   provenance:
     agentic_access: derived
@@ -174,8 +177,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/screenshots/akool-2026-07-25T195517.png
 security:

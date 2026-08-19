@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -295,14 +296,16 @@ rate_limits:
   slug: prezent-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 64.5
+  delta: 6.4
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 71.6
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 69.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 47.4
   previous_composite: 58.1
   provenance:
@@ -321,9 +324,10 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/screenshots/prezent-2026-08-17T081335.png
 security:
 - kind: authentication
   name: Prezent Authentication

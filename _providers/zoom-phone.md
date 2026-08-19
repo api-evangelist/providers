@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-17'
+  score: 60.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -302,15 +303,17 @@ scopes:
   summary_line: 435 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.5
-  delta: 0.0
+  composite: 72.5
+  delta: 6.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 57.2
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 57.1
+    developer_ergonomics: 71.4
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 94.7
+    governance: 30.3
+    operational_transparency: 92.1
   previous_composite: 66.5
   provenance:
     agentic_access: derived
@@ -322,10 +325,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 81.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png
 security:
 - kind: authentication
   name: Zoom Phone Authentication

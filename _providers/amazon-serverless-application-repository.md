@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -366,7 +367,9 @@ rate_limits:
   name: Amazon Serverless Application Repository Rate Limits
   slug: amazon-serverless-application-repository-rate-limits
 rules:
-- name: Amazon Serverless Application Repository API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Serverless Application Repository API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -374,7 +377,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-serverless-application-repository-jsonschema-spectral-rules
-- name: Amazon Serverless Application Repository API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Amazon Serverless Application Repository API Rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -384,15 +390,17 @@ rules:
   slug: amazon-serverless-application-repository-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 44.4
+  delta: -9.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 31.5
-    developer_ergonomics: 63.0
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 33.0
+    developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -401,9 +409,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:
 - kind: authentication

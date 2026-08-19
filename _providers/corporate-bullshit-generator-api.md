@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +112,10 @@ rate_limits:
   name: Corporate Bullshit Generator Api Rate Limits
   slug: corporate-bullshit-generator-api-rate-limits
 rules:
-- name: Corporate Bullshit Generator API API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Corporate Bullshit Generator API API Rules
   rule_count: 10
   severity_counts:
     error: 7
@@ -121,14 +125,16 @@ rules:
   slug: corporate-bullshit-generator-api-rules
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 28.0
+  delta: -1.1
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 59.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 45.5
+    contract_quality: 55.9
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 13.2
   previous_composite: 29.1
   provenance:
@@ -138,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/screenshots/corporate-bullshit-generator-api-2026-06-20T175036.png
 security:

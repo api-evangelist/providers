@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -305,7 +306,9 @@ rate_limits:
   name: Instructure Rate Limits
   slug: instructure-rate-limits
 rules:
-- name: Instructure API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Instructure API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,14 +323,16 @@ scopes:
   summary_line: 17 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 47.6
+  delta: -1.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 58.3
-    developer_ergonomics: 21.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 55.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 48.9
   provenance:
@@ -337,8 +342,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 70.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/screenshots/instructure-2026-06-20T183421.png
 security:

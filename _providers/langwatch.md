@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 48.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -444,16 +445,18 @@ rate_limits:
   name: Langwatch Rate Limits
   slug: langwatch-rate-limits
 score:
-  band: strong
-  composite: 58.3
-  delta: 0.0
+  band: developing
+  composite: 47.6
+  delta: -10.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 61.1
-    developer_ergonomics: 52.2
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 60.9
+    developer_ergonomics: 42.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 63.2
+    operational_transparency: 44.7
   previous_composite: 58.3
   provenance:
     agentic_access: derived
@@ -462,9 +465,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:
 - kind: authentication

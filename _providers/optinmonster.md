@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The OptinMonster application REST API. Versioned path segments (`/v1`, `/v2`) sit on api.optinmonster.com and cover campaigns, leads, sites, site origins, integrations, account, revenue attribution an
@@ -151,19 +152,24 @@ rate_limits:
   slug: optinmonster-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.7
+  delta: -1.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 51.6
-    developer_ergonomics: 41.3
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 34.2
   previous_composite: 50.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/screenshots/optinmonster-2026-08-17T081135.png
 security:
 - kind: authentication
   name: Optinmonster Authentication

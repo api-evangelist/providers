@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,15 +216,17 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 47.4
+  delta: 2.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 52.2
-    developer_ergonomics: 34.2
+    contract_governance: 16.7
+    contract_quality: 51.0
+    developer_ergonomics: 35.1
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 65.8
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -241,8 +244,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

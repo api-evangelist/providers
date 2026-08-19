@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -220,16 +221,18 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 33 more developer resources.'
 random_paper: 0
 score:
-  band: thin
-  composite: 41.0
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: 5.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 50.0
-    developer_ergonomics: 37.0
+    contract_governance: 34.1
+    contract_quality: 46.9
+    developer_ergonomics: 38.1
     discoverability: 66.7
-    governance: 23.4
-    operational_transparency: 52.6
+    governance: 34.1
+    operational_transparency: 50.0
   previous_composite: 41.0
   provenance:
     agentic_access: derived
@@ -246,10 +249,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 35.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 45.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:
 - kind: authentication

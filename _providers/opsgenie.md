@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -649,7 +650,10 @@ rate_limits:
   name: Opsgenie Rate Limits
   slug: opsgenie-rate-limits
 rules:
-- name: OpsGenie API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: OpsGenie API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -657,7 +661,9 @@ rules:
     info: 1
     warn: 5
   slug: opsgenie-asyncapi-spectral-rules
-- name: OpsGenie API Rules
+- effective_rule_count: 6
+  extends: []
+  name: OpsGenie API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -667,15 +673,17 @@ rules:
   slug: opsgenie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 51.4
+  delta: -3.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 86.9
-    developer_ergonomics: 39.1
+    contract_governance: 13.6
+    contract_quality: 86.8
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -684,8 +692,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

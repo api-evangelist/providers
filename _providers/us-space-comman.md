@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -149,7 +150,9 @@ rate_limits:
   name: Us Space Comman Rate Limits
   slug: us-space-comman-rate-limits
 rules:
-- name: US Space Command API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Space Command API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -157,7 +160,10 @@ rules:
     info: 1
     warn: 4
   slug: us-space-comman-jsonschema-spectral-rules
-- name: US Space Command API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: US Space Command API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -167,14 +173,16 @@ rules:
   slug: us-space-comman-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 31.4
+  delta: -4.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 35.9
   provenance:
@@ -190,8 +198,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/screenshots/us-space-comman-2026-06-20T200629.png
 security:

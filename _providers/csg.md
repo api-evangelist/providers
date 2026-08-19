@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -199,7 +200,10 @@ rate_limits:
   name: Csg Rate Limits
   slug: csg-rate-limits
 rules:
-- name: CSG Systems API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: CSG Systems API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -207,7 +211,9 @@ rules:
     info: 0
     warn: 4
   slug: csg-forte-rules
-- name: CSG Systems API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CSG Systems API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -217,15 +223,17 @@ rules:
   slug: csg-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 51.8
+  delta: 6.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 73.1
-    developer_ergonomics: 52.2
+    contract_governance: 60.6
+    contract_quality: 70.1
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 31.3
-    operational_transparency: 42.1
+    governance: 60.6
+    operational_transparency: 39.5
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -240,9 +248,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:
 - kind: authentication

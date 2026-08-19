@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 16.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -65,7 +66,10 @@ overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cl
   The Nasdaq catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
 random_paper: 36
 rules:
-- name: Nasdaq API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Nasdaq API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -75,19 +79,27 @@ rules:
   slug: nasdaq-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 25.4
-  delta: 0.0
+  composite: 19.5
+  delta: -5.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 58.0
+    contract_governance: 13.6
+    contract_quality: 52.2
     developer_ergonomics: 0.0
     discoverability: 44.4
-    governance: 47.9
-    operational_transparency: 5.3
+    governance: 13.6
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 25.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png
 security:
 - kind: domain-security

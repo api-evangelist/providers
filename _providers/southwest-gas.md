@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Southwest Gas My Account API powers the online customer portal and mobile application for natural gas utility customers in Arizona, Nevada, and California. Customers can view usage history, pay bi
@@ -144,7 +145,9 @@ rate_limits:
   name: Southwest Gas Rate Limits
   slug: southwest-gas-rate-limits
 rules:
-- name: Southwest Gas API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Southwest Gas API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -154,14 +157,16 @@ rules:
   slug: southwest-gas-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 19.0
+  delta: -5.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 33.9
+    contract_governance: 25.0
+    contract_quality: 29.6
     developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 24.3
   regulatory:
@@ -170,9 +175,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png
 security:
 - kind: domain-security

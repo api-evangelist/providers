@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -1104,7 +1105,9 @@ rate_limits:
   name: Data Api
   slug: data-api
 rules:
-- name: Avalanche API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Avalanche API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1113,15 +1116,17 @@ rules:
     warn: 3
   slug: avalanche-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 48.7
+  delta: -9.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 71.8
-    developer_ergonomics: 41.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 9.8
+    contract_quality: 72.8
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 58.1
   provenance:
@@ -1131,9 +1136,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:
 - kind: authentication

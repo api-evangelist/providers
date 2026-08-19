@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -254,20 +254,26 @@ scopes:
   slug: storylane-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 39.4
+  band: strong
+  composite: 62.9
+  delta: -4.4
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 59.7
-    developer_ergonomics: 58.7
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 52.1
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 27.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 67.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/screenshots/storylane-2026-06-20T194611.png
 security:
 - kind: authentication

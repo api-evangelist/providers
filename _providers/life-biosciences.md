@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The Comments API from Life Biosciences — 1 operation(s) for comments.
@@ -220,15 +221,17 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
 random_paper: 130
 score:
-  band: thin
-  composite: 31.5
-  delta: 0.0
+  band: developing
+  composite: 41.6
+  delta: 10.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 57.5
-    developer_ergonomics: 16.8
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 54.5
+    developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 31.5
   provenance:
@@ -245,10 +248,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:
 - kind: authentication

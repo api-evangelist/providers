@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 46.6
+  scored_at: '2026-08-19'
 api_count: 19
 apis:
 - description: The Unified Customer Database. Upsert user profiles, attributes and behavioural events, read profiles back with a sparse fieldset, manage identifiers, export raw data, and run the GDPR delete/anonymiz
@@ -335,27 +336,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.1
-  delta: 30.5
+  composite: 66.0
+  delta: 1.9
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.8
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 55.7
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 60.5
-  previous_composite: 33.6
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 64.1
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 22.2
+      total: 18
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:
 - kind: authentication

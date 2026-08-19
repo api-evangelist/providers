@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -126,19 +127,21 @@ rate_limits:
   slug: avenue-rate-limits
 score:
   band: thin
-  composite: 31.3
-  delta: 19.5
+  composite: 29.4
+  delta: -1.9
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 51.6
-    developer_ergonomics: 2.2
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 2.4
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 11.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    operational_transparency: 10.5
+  previous_composite: 31.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue/refs/heads/main/screenshots/avenue-2026-07-25T201920.png
 security:
 - kind: domain-security

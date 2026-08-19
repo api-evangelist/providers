@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
@@ -178,15 +179,17 @@ overview: 'NAESB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   NAESB''s developer surface includes documentation, tooling, pricing, support, authentication, changelog, and 23 more developer resources.'
 random_paper: 74
 score:
-  band: emerging
-  composite: 25.2
-  delta: 0.0
+  band: thin
+  composite: 33.0
+  delta: 7.8
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 27.7
+    contract_governance: 4.5
+    contract_quality: 28.2
+    developer_ergonomics: 28.0
     discoverability: 66.7
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 15.8
   previous_composite: 25.2
   provenance:
@@ -199,9 +202,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/naesb/refs/heads/main/screenshots/naesb-2026-08-07T184604.png
 security:
 - kind: authentication

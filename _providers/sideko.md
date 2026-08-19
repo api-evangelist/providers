@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -267,7 +268,9 @@ rate_limits:
   name: Sideko Rate Limits
   slug: sideko-rate-limits
 rules:
-- name: Sideko API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sideko API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +278,10 @@ rules:
     info: 2
     warn: 3
   slug: sideko-jsonschema-spectral-rules
-- name: Sideko API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Sideko API Rules
   rule_count: 11
   severity_counts:
     error: 4
@@ -285,15 +291,17 @@ rules:
   slug: sideko-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 41.9
+  delta: -11.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 78.4
-    developer_ergonomics: 26.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 76.9
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -302,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
 security:
 - kind: authentication

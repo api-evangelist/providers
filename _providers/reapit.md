@@ -12,7 +12,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -273,23 +274,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 54.5
+  delta: -5.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 58.0
-    developer_ergonomics: 73.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 53.3
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 76.3
+    governance: 18.2
+    operational_transparency: 73.7
   previous_composite: 59.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/screenshots/reapit-2026-08-17T081459.png
 security:
 - kind: authentication
   name: Reapit Authentication

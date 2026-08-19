@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-17'
+  score: 55.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -916,7 +917,10 @@ rate_limits:
   name: Knock Rate Limits
   slug: knock-rate-limits
 rules:
-- name: Knock API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Knock API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -924,7 +928,9 @@ rules:
     info: 0
     warn: 5
   slug: knock-app-asyncapi-spectral-rules
-- name: Knock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Knock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -932,7 +938,10 @@ rules:
     info: 1
     warn: 4
   slug: knock-app-jsonschema-spectral-rules
-- name: Knock API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Knock API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -942,15 +951,17 @@ rules:
   slug: knock-app-rules
 score:
   band: exemplar
-  composite: 74.7
-  delta: 0.0
+  composite: 71.5
+  delta: -3.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 77.5
-    developer_ergonomics: 87.0
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 43.2
+    contract_quality: 75.0
+    developer_ergonomics: 85.7
     discoverability: 77.8
-    governance: 63.5
-    operational_transparency: 76.3
+    governance: 43.2
+    operational_transparency: 73.7
   previous_composite: 74.7
   provenance:
     agentic_access: derived
@@ -966,9 +977,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 27.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.4
-  scored_at: '2026-08-17'
+  score: 66.0
+  scored_at: '2026-08-19'
 api_count: 18
 apis:
 - description: The Accounts API from Copper.co — 1 operation(s) for accounts.
@@ -297,15 +298,17 @@ rate_limits:
   slug: copper-co-rate-limits
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 56.6
+  delta: -1.8
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 59.8
-    developer_ergonomics: 78.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 57.5
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 78.9
+    governance: 16.7
+    operational_transparency: 63.2
   previous_composite: 58.4
   provenance:
     conformance: derived
@@ -322,8 +325,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:

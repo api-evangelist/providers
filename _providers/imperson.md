@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 10.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -112,21 +113,23 @@ rate_limits:
   slug: imperson-rate-limits
 score:
   band: emerging
-  composite: 15.9
-  delta: 8.0
+  composite: 14.2
+  delta: -1.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.9
+  previous_composite: 15.9
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperson/refs/heads/main/screenshots/imperson-2026-07-25T222152.png
 security:
 - kind: authentication

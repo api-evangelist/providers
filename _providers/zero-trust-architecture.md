@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: NIST Special Publication 800-207 defines zero trust architecture (ZTA) and provides a roadmap for organizations migrating to ZTA. It describes seven ZTA tenets, three logical components (Policy Decisi
@@ -232,7 +233,9 @@ rate_limits:
   name: Zero Trust Architecture Rate Limits
   slug: zero-trust-architecture-rate-limits
 rules:
-- name: Zero Trust Architecture API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zero Trust Architecture API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,19 +245,21 @@ rules:
   slug: zero-trust-architecture-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.4
-  delta: 0.0
+  composite: 21.5
+  delta: -5.9
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 12.9
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 12.7
+    developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 27.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/screenshots/zero-trust-architecture-2026-06-20T201825.png
 security:
 - kind: domain-security

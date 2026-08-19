@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -238,15 +239,17 @@ rate_limits:
   slug: mem0-rate-limits
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 45.4
+  delta: -0.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 54.3
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 28.6
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 50.0
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -255,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/screenshots/mem0-2026-06-20T185233.png
 security:

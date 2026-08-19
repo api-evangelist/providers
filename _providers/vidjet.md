@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The first-party HTTP API behind the Vidjet embed and the Vidjet platform plugins, served from https://app-api.vidjet.io (Express). Vidjet publishes no developer documentation, reference, or machine-re
@@ -135,19 +136,23 @@ rate_limits:
   slug: vidjet-rate-limits
 score:
   band: thin
-  composite: 30.7
-  delta: 13.0
+  composite: 28.9
+  delta: -1.8
   facets:
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 87.0
-    governance: 12.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 17.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 30.7
+  provenance:
+    conformance: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Vidjet Authentication

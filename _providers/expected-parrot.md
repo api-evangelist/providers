@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.5
-  scored_at: '2026-08-17'
+  score: 12.8
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,20 +100,22 @@ overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 69
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 19.0
+  delta: -2.9
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 47.6
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 21.9
   provenance:
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expected-parrot/refs/heads/main/screenshots/expected-parrot-2026-07-25T213916.png
 security:

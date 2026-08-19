@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.7
-  scored_at: '2026-08-17'
+  score: 15.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -150,23 +151,25 @@ overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 92
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 22.2
+  delta: 0.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 64.7
+    developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 21.6
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bittensor/refs/heads/main/screenshots/bittensor-2026-07-25T203211.png
 security:

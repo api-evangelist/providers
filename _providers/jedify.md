@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -135,12 +136,14 @@ overview: 'Jedify publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 39
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 22.6
+  delta: -3.4
   facets:
-    commercial_clarity: 23.7
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 58.2
+    developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
@@ -148,8 +151,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
 security:

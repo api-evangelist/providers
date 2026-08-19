@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 50.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -254,14 +255,16 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 51.8
+  delta: -1.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 56.5
-    developer_ergonomics: 73.4
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 55.0
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 53.7
   provenance:
@@ -280,9 +283,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
 security:
 - kind: authentication
   name: Plansource Authentication

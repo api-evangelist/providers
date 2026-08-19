@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 46.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -276,16 +277,18 @@ rate_limits:
   slug: spade-rate-limits
 score:
   band: exemplar
-  composite: 66.1
-  delta: 11.7
+  composite: 72.4
+  delta: 6.3
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 69.8
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 67.5
+    developer_ergonomics: 69.0
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 54.4
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -295,16 +298,17 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-    skills: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/screenshots/spade-2026-08-17T080423.png
 security:
 - kind: authentication
   name: Spade Authentication

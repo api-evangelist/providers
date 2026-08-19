@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ common:
   url: https://developer.microsoft.com/en-us/sharepoint
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://pnp.github.io/
 - group: operate
   title: ''
@@ -441,7 +441,7 @@ overview: 'Microsoft SharePoint publishes 6 APIs on the [APIs.io](https://apis.i
   The Microsoft SharePoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft SharePoint''s developer surface includes authentication, sandbox, changelog, CLI, support, pricing, and 31 more developer resources.'
+  Microsoft SharePoint''s developer surface includes authentication, sandbox, changelog, CLI, code examples, support, pricing, and 30 more developer resources.'
 plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
@@ -452,7 +452,9 @@ rate_limits:
   name: Sharepoint Rate Limits
   slug: sharepoint-rate-limits
 rules:
-- name: Microsoft SharePoint API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft SharePoint API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -460,7 +462,10 @@ rules:
     info: 2
     warn: 3
   slug: sharepoint-jsonschema-spectral-rules
-- name: Microsoft SharePoint API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Microsoft SharePoint API Rules
   rule_count: 20
   severity_counts:
     error: 14
@@ -474,16 +479,18 @@ scopes:
   slug: sharepoint-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 33.0
+  delta: -10.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 21.8
-    developer_ergonomics: 50.0
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 26.5
+    contract_quality: 20.4
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 26.3
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -494,9 +501,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:
 - kind: authentication

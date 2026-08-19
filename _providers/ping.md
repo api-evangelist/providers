@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
@@ -178,15 +179,17 @@ overview: 'Ping++ publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 132
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 46.1
+  delta: -1.2
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 69.0
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 47.3
   provenance:
     mcp: derived
@@ -197,9 +200,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/screenshots/ping-2026-08-17T081244.png
 security:
 - kind: authentication
   name: Ping Authentication

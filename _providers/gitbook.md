@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -255,7 +256,10 @@ rate_limits:
   name: Gitbook Rate Limits
   slug: gitbook-rate-limits
 rules:
-- name: GitBook API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: GitBook API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -263,7 +267,9 @@ rules:
     info: 1
     warn: 5
   slug: gitbook-asyncapi-spectral-rules
-- name: GitBook API Rules
+- effective_rule_count: 5
+  extends: []
+  name: GitBook API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -272,16 +278,18 @@ rules:
     warn: 3
   slug: gitbook-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 37.0
+  delta: -5.5
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 82.8
-    developer_ergonomics: 13.0
+    contract_governance: 13.6
+    contract_quality: 77.8
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 13.2
+    governance: 13.6
+    operational_transparency: 10.5
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -290,9 +298,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:
 - kind: authentication

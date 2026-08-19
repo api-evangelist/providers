@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -247,15 +248,17 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 50.9
+  delta: 2.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.3
-    developer_ergonomics: 78.3
+    contract_governance: 30.3
+    contract_quality: 53.6
+    developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -273,9 +276,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/screenshots/sponge-2026-08-17T082030.png
 security:
 - kind: authentication
   name: Sponge Authentication

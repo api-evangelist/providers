@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -172,7 +173,9 @@ rate_limits:
   name: Unisys Rate Limits
   slug: unisys-rate-limits
 rules:
-- name: Unisys API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unisys API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,7 +183,10 @@ rules:
     info: 2
     warn: 3
   slug: unisys-jsonschema-spectral-rules
-- name: Unisys API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Unisys API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -188,7 +194,9 @@ rules:
     info: 1
     warn: 8
   slug: unisys-spectral-rules
-- name: Unisys API Rules
+- effective_rule_count: 30
+  extends: []
+  name: Unisys API Rules
   rule_count: 30
   severity_counts:
     error: 13
@@ -198,14 +206,16 @@ rules:
   slug: unisys-stealth-spectral-rules
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 21.3
+  delta: -6.0
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 27.8
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 26.0
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 27.3
   provenance:
@@ -215,9 +225,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Unisys Authentication

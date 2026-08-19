@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,7 +196,9 @@ rate_limits:
   name: Google People Rate Limits
   slug: google-people-rate-limits
 rules:
-- name: Google People API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Google People API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,15 +213,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 46.2
+  delta: -6.4
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 70.1
-    developer_ergonomics: 47.8
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 52.6
   provenance:
     agentic_access: derived
@@ -227,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/screenshots/google-people-2026-06-20T182221.png
 security:
 - kind: authentication

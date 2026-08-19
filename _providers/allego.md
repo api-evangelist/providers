@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-17'
+  score: 19.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
@@ -177,20 +178,25 @@ rate_limits:
   name: Allego Rate Limits
   slug: allego-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 9.3
+  band: emerging
+  composite: 24.9
+  delta: -13.9
   facets:
-    commercial_clarity: 100.0
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 11.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 29.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 2.6
+  previous_composite: 38.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/screenshots/allego-2026-06-20T171529.png
 security:
 - kind: authentication

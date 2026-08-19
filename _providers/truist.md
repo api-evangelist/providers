@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Open Banking API in the Truist Developer Center covering personal and small-business accounts - account information, balances, and transaction data. Documented in a registration-gated sandbox that ret
@@ -105,14 +106,16 @@ overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 87
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 15.2
+  delta: -7.8
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 9.5
     discoverability: 66.7
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 23.0
   provenance:
@@ -123,9 +126,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Truist Domain Security

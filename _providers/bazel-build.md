@@ -16,18 +16,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -338,7 +339,9 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
   Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 44 more developer resources.'
 random_paper: 56
 rules:
-- name: Bazel API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bazel API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -346,7 +349,10 @@ rules:
     info: 1
     warn: 4
   slug: bazel-build-jsonschema-spectral-rules
-- name: Bazel API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Bazel API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -356,15 +362,17 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 47.5
+  delta: -3.1
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 70.9
-    developer_ergonomics: 56.5
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 25.0
+    contract_quality: 67.5
+    developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -373,8 +381,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:

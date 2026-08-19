@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 44.6
+  scored_at: '2026-08-19'
 api_count: 14
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -289,15 +289,17 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 64.3
+  delta: 6.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 72.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 70.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 34.2
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 58.0
   provenance:
     conformance: derived
@@ -314,9 +316,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:
 - kind: authentication

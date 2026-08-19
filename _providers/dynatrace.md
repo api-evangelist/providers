@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 40.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1873,7 +1874,10 @@ rate_limits:
   name: Dynatrace Rate Limits
   slug: dynatrace-rate-limits
 rules:
-- name: Dynatrace API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Dynatrace API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -1881,7 +1885,9 @@ rules:
     info: 1
     warn: 4
   slug: dynatrace-asyncapi-spectral-rules
-- name: Dynatrace API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Dynatrace API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1889,7 +1895,10 @@ rules:
     info: 2
     warn: 4
   slug: dynatrace-jsonschema-spectral-rules
-- name: Dynatrace API Rules
+- effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Dynatrace API Rules
   rule_count: 30
   severity_counts:
     error: 19
@@ -1904,14 +1913,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 74.6
-  delta: 0.0
+  composite: 71.7
+  delta: -2.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 91.5
-    developer_ergonomics: 84.8
+    contract_governance: 28.8
+    contract_quality: 87.9
+    developer_ergonomics: 92.9
     discoverability: 68.5
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 55.3
   previous_composite: 74.6
   provenance:
@@ -1921,8 +1932,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:

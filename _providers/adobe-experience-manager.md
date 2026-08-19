@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -124,15 +125,17 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: emerging
-  composite: 27.0
-  delta: 0.0
+  composite: 25.3
+  delta: -1.7
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 43.3
-    developer_ergonomics: 19.6
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 0.0
+    contract_quality: 40.6
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 27.0
   provenance:
     agentic_access: derived
@@ -141,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/screenshots/adobe-experience-manager-2026-06-20T164924.png
 security:

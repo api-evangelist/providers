@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -164,15 +165,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 30.3
+  delta: -0.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 51.7
-    developer_ergonomics: 34.8
+    contract_governance: 0.0
+    contract_quality: 48.5
+    developer_ergonomics: 35.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 31.2
   provenance:
     agentic_access: derived
@@ -181,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/screenshots/presto-foundation-2026-06-20T192054.png
 security:

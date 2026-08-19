@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -464,7 +465,9 @@ rate_limits:
   name: Ironclad Rate Limits
   slug: ironclad-rate-limits
 rules:
-- name: Ironclad API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Ironclad API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -472,7 +475,11 @@ rules:
     info: 2
     warn: 4
   slug: ironclad-jsonschema-spectral-rules
-- name: Ironclad API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: Ironclad API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -486,16 +493,18 @@ scopes:
   slug: ironclad-scopes
   summary_line: 60 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 69.0
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: -11.2
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 75.1
-    developer_ergonomics: 52.2
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 77.1
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 68.4
+    governance: 25.0
+    operational_transparency: 57.9
   previous_composite: 69.0
   provenance:
     agentic_access: derived
@@ -504,9 +513,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:
 - kind: authentication

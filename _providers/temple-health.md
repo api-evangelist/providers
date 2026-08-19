@@ -12,25 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -360,7 +360,9 @@ rate_limits:
   name: Temple Health Rate Limits
   slug: temple-health-rate-limits
 rules:
-- name: Temple Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Temple Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -368,7 +370,10 @@ rules:
     info: 2
     warn: 3
   slug: temple-health-jsonschema-spectral-rules
-- name: Temple Health API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Temple Health API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -384,31 +389,36 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: 12.0
+  delta: 0.0
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 64.5
-    developer_ergonomics: 32.6
+    contract_governance: 55.3
+    contract_quality: 61.1
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 89.6
+    governance: 55.3
     operational_transparency: 5.3
-  previous_composite: 47.3
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 76.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:
 - kind: authentication

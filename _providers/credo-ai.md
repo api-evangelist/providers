@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-17'
+  score: 26.8
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Multi-tenant JSON:API REST interface to the Credo AI Governance Platform. 300 operations across 26 tags cover use cases, use case questionnaires, risk scenarios, controls, policy packs, reports, revie
@@ -171,19 +172,26 @@ rate_limits:
   slug: credo-ai-rate-limits
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 46.3
+  delta: 2.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 32.3
-    developer_ergonomics: 54.3
+    contract_governance: 30.3
+    contract_quality: 35.2
+    developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 43.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/screenshots/credo-ai-2026-08-17T080838.png
 security:
 - kind: authentication
   name: Credo Ai Authentication

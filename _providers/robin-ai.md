@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -309,7 +310,9 @@ rate_limits:
   name: Robin Ai Rate Limits
   slug: robin-ai-rate-limits
 rules:
-- name: Robin AI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Robin AI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -317,7 +320,10 @@ rules:
     info: 1
     warn: 4
   slug: robin-ai-jsonschema-spectral-rules
-- name: Robin AI API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Robin AI API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -326,16 +332,18 @@ rules:
     warn: 2
   slug: robin-ai-rules
 score:
-  band: strong
-  composite: 57.8
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: -11.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 69.3
-    developer_ergonomics: 34.8
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 9.8
+    contract_quality: 65.7
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 57.8
   provenance:
     agentic_access: derived
@@ -344,9 +352,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:
 - kind: authentication

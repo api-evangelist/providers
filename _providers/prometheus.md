@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -391,7 +392,10 @@ rate_limits:
   name: Prometheus Rate Limits
   slug: prometheus-rate-limits
 rules:
-- name: Prometheus API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Prometheus API Rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -399,7 +403,9 @@ rules:
     info: 1
     warn: 1
   slug: prometheus-asyncapi-spectral-rules
-- name: Prometheus API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Prometheus API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -409,15 +415,17 @@ rules:
   slug: prometheus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 42.6
+  delta: -2.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 71.8
-    developer_ergonomics: 45.7
+    contract_governance: 30.3
+    contract_quality: 67.8
+    developer_ergonomics: 45.2
     discoverability: 72.2
-    governance: 38.5
-    operational_transparency: 26.3
+    governance: 30.3
+    operational_transparency: 23.7
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -428,8 +436,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

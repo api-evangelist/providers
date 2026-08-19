@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -349,7 +350,9 @@ rate_limits:
   name: Frankfurter Rate Limits
   slug: frankfurter-rate-limits
 rules:
-- name: Frankfurter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Frankfurter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -357,7 +360,10 @@ rules:
     info: 1
     warn: 4
   slug: frankfurter-jsonschema-spectral-rules
-- name: Frankfurter API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Frankfurter API Rules
   rule_count: 40
   severity_counts:
     error: 14
@@ -367,15 +373,17 @@ rules:
   slug: frankfurter-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 39.9
+  delta: -6.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 69.9
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 66.2
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -384,9 +392,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/screenshots/frankfurter-2026-06-20T181506.png
 security:
 - kind: domain-security

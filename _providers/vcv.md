@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: The chatbot API from VCV — 2 operation(s) for chatbot.
@@ -268,15 +269,17 @@ overview: 'VCV publishes 17 APIs on the [APIs.io](https://apis.io/) network, inc
   VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 37
 score:
-  band: thin
-  composite: 41.0
-  delta: 0.0
+  band: developing
+  composite: 40.7
+  delta: -0.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 56.8
-    developer_ergonomics: 36.4
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 57.7
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 41.0
   provenance:
@@ -288,8 +291,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

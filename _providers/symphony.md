@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 42.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -446,7 +447,9 @@ rate_limits:
   name: Symphony Rate Limits
   slug: symphony-rate-limits
 rules:
-- name: Symphony API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Symphony API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -454,7 +457,10 @@ rules:
     info: 2
     warn: 4
   slug: symphony-jsonschema-spectral-rules
-- name: Symphony API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Symphony API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -464,15 +470,17 @@ rules:
   slug: symphony-rules
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 32.2
+  delta: -9.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 51.5
-    developer_ergonomics: 39.1
+    contract_governance: 9.8
+    contract_quality: 50.5
+    developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 41.3
   provenance:
     agentic_access: derived
@@ -481,9 +489,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/screenshots/symphony-2026-06-20T194823.png
 security:
 - kind: authentication

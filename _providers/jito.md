@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -365,7 +366,10 @@ rate_limits:
   name: Jito Rate Limits
   slug: jito-rate-limits
 rules:
-- name: Jito Labs API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Jito Labs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -373,7 +377,9 @@ rules:
     info: 0
     warn: 6
   slug: jito-asyncapi-spectral-rules
-- name: Jito Labs API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Jito Labs API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -381,7 +387,10 @@ rules:
     info: 2
     warn: 3
   slug: jito-jsonschema-spectral-rules
-- name: Jito Labs API Rules
+- effective_rule_count: 45
+  extends:
+  - spectral:oas
+  name: Jito Labs API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -391,14 +400,16 @@ rules:
   slug: jito-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 45.6
+  delta: -4.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 74.3
-    developer_ergonomics: 43.5
+    contract_governance: 26.5
+    contract_quality: 71.4
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 62.5
+    governance: 26.5
     operational_transparency: 5.3
   previous_composite: 49.8
   provenance:
@@ -408,8 +419,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:

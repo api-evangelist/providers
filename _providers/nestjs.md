@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Built with TypeScript and inspired by Angular, it provides an out-of-the-box applicat
@@ -141,7 +142,9 @@ rate_limits:
   name: Nestjs Rate Limits
   slug: nestjs-rate-limits
 rules:
-- name: NestJS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: NestJS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -150,20 +153,22 @@ rules:
     warn: 3
   slug: nestjs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.6
-  delta: 0.0
+  band: emerging
+  composite: 18.6
+  delta: -11.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
-    developer_ergonomics: 26.1
-    discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 39.5
+    contract_governance: 9.8
+    contract_quality: 8.5
+    developer_ergonomics: 7.1
+    discoverability: 59.3
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 29.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestjs/refs/heads/main/screenshots/nestjs-2026-06-20T190137.png
 security:
 - kind: domain-security

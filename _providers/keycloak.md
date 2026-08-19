@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -293,7 +294,9 @@ rate_limits:
   name: Keycloak Rate Limits
   slug: keycloak-rate-limits
 rules:
-- name: Keycloak API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Keycloak API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -302,16 +305,18 @@ rules:
     warn: 3
   slug: keycloak-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -8.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 58.7
-    developer_ergonomics: 45.7
+    contract_governance: 40.2
+    contract_quality: 55.4
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 79.2
-    operational_transparency: 28.9
+    governance: 40.2
+    operational_transparency: 26.3
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -322,9 +327,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:
 - kind: authentication

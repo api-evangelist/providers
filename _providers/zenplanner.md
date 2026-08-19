@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -147,12 +148,14 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 29.5
+  delta: -2.4
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 55.2
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
@@ -164,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

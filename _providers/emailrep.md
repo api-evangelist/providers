@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-17'
+  score: 47.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -407,7 +408,9 @@ rate_limits:
   name: Emailrep Rate Limits
   slug: emailrep-rate-limits
 rules:
-- name: EmailRep API Rules
+- effective_rule_count: 5
+  extends: []
+  name: EmailRep API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -415,7 +418,10 @@ rules:
     info: 1
     warn: 4
   slug: emailrep-jsonschema-spectral-rules
-- name: EmailRep API Rules
+- effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: EmailRep API Rules
   rule_count: 47
   severity_counts:
     error: 17
@@ -424,27 +430,32 @@ rules:
     warn: 27
   slug: emailrep-spectral-rules
 score:
-  band: strong
-  composite: 62.3
-  delta: 10.5
+  band: developing
+  composite: 47.4
+  delta: -14.9
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 22.0
-    developer_ergonomics: 76.1
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 41.7
+    contract_quality: 20.6
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 36.8
-  previous_composite: 51.8
+    governance: 41.7
+    operational_transparency: 34.2
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:
 - kind: authentication

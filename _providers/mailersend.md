@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -64,7 +65,7 @@ apis:
 - description: The Webhooks API from MailerSend — 2 operation(s) for webhooks.
   name: MailerSend Webhooks API
   slug: mailersend-webhooks-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Mailersend Webhooks
@@ -268,32 +269,37 @@ scopes:
   slug: mailersend-scopes
   summary_line: 30 scopes
 score:
-  band: developing
-  composite: 55.5
-  delta: 26.9
+  band: strong
+  composite: 65.0
+  delta: 9.5
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 65.7
-    developer_ergonomics: 78.3
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 16.7
+    contract_quality: 61.5
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
-  previous_composite: 28.6
+    governance: 16.7
+    operational_transparency: 57.9
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 52.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/screenshots/mailersend-2026-06-20T184858.png
 security:
@@ -305,6 +311,10 @@ security:
   name: Mailersend Domain Security
   slug: mailersend-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: MailerSend
+  slug: mailersend
 slug: mailersend
 tags:
 - Email

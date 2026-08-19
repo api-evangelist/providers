@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-17'
+  score: 29.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: For creditors. Uploading B2B and B2C invoices to collection, then tracking cases, contracts, payments and tasks through recovery. 53 operations across 44 paths, OpenAPI 3.0.4 with 81 component schemas
@@ -52,11 +53,13 @@ overview: 'Debitura publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 103
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 17.0
+  delta: -1.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 58.2
+    contract_governance: 0.0
+    contract_quality: 59.3
     developer_ergonomics: 0.0
     discoverability: 70.4
     governance: 0.0
@@ -74,8 +77,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debitura/refs/heads/main/screenshots/debitura-2026-08-07T164217.png
 slug: debitura

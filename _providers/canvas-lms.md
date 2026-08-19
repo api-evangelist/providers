@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -651,7 +651,9 @@ rate_limits:
   name: Canvas Lms Rate Limits
   slug: canvas-lms-rate-limits
 rules:
-- name: Canvas LMS API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Canvas LMS API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -666,14 +668,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.6
-  delta: 0.0
+  composite: 78.3
+  delta: 3.7
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 75.0
-    developer_ergonomics: 80.4
+    contract_governance: 26.5
+    contract_quality: 71.8
+    developer_ergonomics: 85.7
     discoverability: 77.8
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 68.4
   previous_composite: 74.6
   provenance:
@@ -685,8 +689,14 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 85.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

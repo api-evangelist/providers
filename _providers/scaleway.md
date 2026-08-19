@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1917,7 +1918,9 @@ rate_limits:
   name: Scaleway Rate Limits
   slug: scaleway-rate-limits
 rules:
-- name: Scaleway API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scaleway API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1925,7 +1928,9 @@ rules:
     info: 1
     warn: 4
   slug: scaleway-jsonschema-spectral-rules
-- name: Scaleway API Rules
+- effective_rule_count: 10
+  extends: []
+  name: Scaleway API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -1935,14 +1940,16 @@ rules:
   slug: scaleway-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 48.0
+  delta: -4.0
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 61.7
-    developer_ergonomics: 63.0
+    contract_governance: 25.0
+    contract_quality: 62.2
+    developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 52.0
   provenance:
@@ -1952,9 +1959,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/screenshots/scaleway-2026-08-17T125218.png
 security:
 - kind: authentication
   name: Scaleway Authentication

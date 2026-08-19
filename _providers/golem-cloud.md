@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -149,7 +150,10 @@ rate_limits:
   name: Golem Cloud Rate Limits
   slug: golem-cloud-rate-limits
 rules:
-- name: Golem API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Golem API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -159,15 +163,17 @@ rules:
   slug: golem-cloud-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 40.8
+  delta: -4.8
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 59.5
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 59.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 52.1
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -176,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/screenshots/golem-cloud-2026-06-20T181950.png
 security:

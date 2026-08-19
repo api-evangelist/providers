@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -254,7 +255,10 @@ rate_limits:
   name: Clerk Rate Limits
   slug: clerk-rate-limits
 rules:
-- name: Clerk API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Clerk API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -264,14 +268,16 @@ rules:
   slug: clerk-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 45.4
+  delta: -3.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 66.3
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 65.7
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 52.6
   previous_composite: 48.8
   provenance:
@@ -281,8 +287,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

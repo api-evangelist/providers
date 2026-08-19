@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -147,12 +148,14 @@ overview: 'SpruceID publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 118
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 18.7
+  delta: -3.5
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 49.3
-    developer_ergonomics: 6.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 47.0
+    developer_ergonomics: 7.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
@@ -169,9 +172,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/screenshots/spruceid-2026-06-20T194421.png
 security:

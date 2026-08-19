@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -727,7 +728,9 @@ rate_limits:
   name: Wakatime Rate Limits
   slug: wakatime-rate-limits
 rules:
-- name: WakaTime API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WakaTime API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -735,7 +738,10 @@ rules:
     info: 1
     warn: 4
   slug: wakatime-jsonschema-spectral-rules
-- name: WakaTime API Rules
+- effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: WakaTime API Rules
   rule_count: 51
   severity_counts:
     error: 18
@@ -749,16 +755,18 @@ scopes:
   slug: wakatime-scopes
   summary_line: 8 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: -8.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 27.7
-    developer_ergonomics: 43.5
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 25.0
+    contract_quality: 26.0
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -767,9 +775,9 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:
 - kind: authentication

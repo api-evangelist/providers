@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: OSCAR's REST web-services layer, served under the /ws/services base path of a deployed OSCAR instance, covering most of the clinical record - scheduling/appointments, demographics, billing, prescripti
@@ -113,16 +114,18 @@ overview: 'OSCAR EMR publishes 1 API on the [APIs.io](https://apis.io/) network.
   OSCAR EMR''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 11 more developer resources.'
 random_paper: 11
 score:
-  band: emerging
-  composite: 23.3
-  delta: 0.0
+  band: thin
+  composite: 27.9
+  delta: 4.6
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 54.8
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 23.3
   provenance:
     conformance: first-party
@@ -131,9 +134,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 38.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oscar-emr/refs/heads/main/screenshots/oscar-emr-2026-08-07T191006.png
 security:

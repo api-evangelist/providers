@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -298,7 +299,9 @@ rate_limits:
   name: Amazon S3 Glacier Rate Limits
   slug: amazon-s3-glacier-rate-limits
 rules:
-- name: Amazon S3 Glacier API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon S3 Glacier API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,7 +309,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-s3-glacier-jsonschema-spectral-rules
-- name: Amazon S3 Glacier API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon S3 Glacier API Rules
   rule_count: 25
   severity_counts:
     error: 8
@@ -316,15 +322,17 @@ rules:
   slug: amazon-s3-glacier-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 45.7
+  delta: -7.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 63.4
-    developer_ergonomics: 37.0
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 60.1
+    developer_ergonomics: 40.5
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -333,9 +341,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/screenshots/amazon-s3-glacier-2026-06-20T171814.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -253,7 +254,10 @@ rate_limits:
   name: Moodys Corporation Rate Limits
   slug: moodys-corporation-rate-limits
 rules:
-- name: Moody's Corporation API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Moody's Corporation API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -261,7 +265,9 @@ rules:
     info: 0
     warn: 4
   slug: moodys-analytics-developer-rules
-- name: Moody's Corporation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Moody's Corporation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -276,15 +282,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 44.6
+  delta: 2.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 68.3
-    developer_ergonomics: 21.7
+    contract_governance: 45.5
+    contract_quality: 66.4
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 45.5
+    operational_transparency: 2.6
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -293,9 +301,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/screenshots/moodys-corporation-2026-08-17T081109.png
 security:
 - kind: authentication
   name: Moodys Corporation Authentication

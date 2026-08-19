@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -294,16 +294,18 @@ scopes:
   slug: databento-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: -6.1
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 58.8
-    developer_ergonomics: 64.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 55.7
+    developer_ergonomics: 68.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 81.6
+    governance: 16.7
+    operational_transparency: 78.9
   previous_composite: 66.1
   provenance:
     agentic_access: derived
@@ -320,10 +322,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 68.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 55.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:
 - kind: authentication

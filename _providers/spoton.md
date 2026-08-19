@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -604,7 +605,9 @@ rate_limits:
   name: Spoton Rate Limits
   slug: spoton-rate-limits
 rules:
-- name: SpotOn API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SpotOn API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -612,7 +615,10 @@ rules:
     info: 2
     warn: 3
   slug: spoton-jsonschema-spectral-rules
-- name: SpotOn API Rules
+- effective_rule_count: 76
+  extends:
+  - spectral:oas
+  name: SpotOn API Rules
   rule_count: 35
   severity_counts:
     error: 10
@@ -622,15 +628,17 @@ rules:
   slug: spoton-rules
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 42.1
+  delta: -4.9
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 31.7
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -645,8 +653,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png
 security:

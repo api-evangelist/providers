@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -154,15 +155,17 @@ scopes:
   slug: santander-uk-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 36.7
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  delta: 4.4
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 53.0
-    developer_ergonomics: 38.6
+    contract_governance: 16.7
+    contract_quality: 51.2
+    developer_ergonomics: 36.3
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 36.7
   provenance:
@@ -180,9 +183,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 48.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 75.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

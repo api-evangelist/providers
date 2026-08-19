@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -436,7 +437,10 @@ rate_limits:
   name: Storyblok Rate Limits
   slug: storyblok-rate-limits
 rules:
-- name: Storyblok API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Storyblok API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -444,7 +448,9 @@ rules:
     info: 0
     warn: 7
   slug: storyblok-asyncapi-spectral-rules
-- name: Storyblok API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Storyblok API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -452,7 +458,10 @@ rules:
     info: 1
     warn: 5
   slug: storyblok-jsonschema-spectral-rules
-- name: Storyblok API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Storyblok API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -461,16 +470,18 @@ rules:
     warn: 6
   slug: storyblok-rules
 score:
-  band: strong
-  composite: 63.8
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -10.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 74.1
-    developer_ergonomics: 60.9
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 28.0
+    contract_quality: 70.7
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 53.1
-    operational_transparency: 44.7
+    governance: 28.0
+    operational_transparency: 36.8
   previous_composite: 63.8
   provenance:
     agentic_access: derived
@@ -481,9 +492,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:
 - kind: authentication

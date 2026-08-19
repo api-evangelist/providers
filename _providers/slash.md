@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.8
-  scored_at: '2026-08-17'
+  score: 61.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -461,15 +462,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 64.1
+  delta: 5.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 61.4
-    developer_ergonomics: 73.4
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 58.4
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 39.5
+    governance: 30.3
+    operational_transparency: 36.8
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -486,10 +489,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 87.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/screenshots/slash-2026-08-17T081925.png
 security:
 - kind: authentication
   name: Slash Authentication

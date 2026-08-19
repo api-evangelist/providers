@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -515,7 +516,9 @@ rate_limits:
   name: Deel Com Rate Limits
   slug: deel-com-rate-limits
 rules:
-- name: Deel API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Deel API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -525,15 +528,17 @@ rules:
   slug: deel-com-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 55.4
+  delta: -5.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.6
-    developer_ergonomics: 52.2
+    contract_governance: 9.8
+    contract_quality: 71.1
+    developer_ergonomics: 57.1
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 65.8
+    governance: 9.8
+    operational_transparency: 63.2
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -542,9 +547,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:
 - kind: authentication

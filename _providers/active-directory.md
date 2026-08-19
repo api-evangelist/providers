@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -427,7 +428,9 @@ rate_limits:
   name: Active Directory Rate Limits
   slug: active-directory-rate-limits
 rules:
-- name: Microsoft Active Directory API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Active Directory API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -435,7 +438,10 @@ rules:
     info: 2
     warn: 3
   slug: active-directory-jsonschema-spectral-rules
-- name: Microsoft Active Directory API Rules
+- effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Microsoft Active Directory API Rules
   rule_count: 39
   severity_counts:
     error: 14
@@ -450,15 +456,17 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 54.4
+  delta: -9.1
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 74.5
-    developer_ergonomics: 69.6
+    contract_governance: 25.0
+    contract_quality: 77.0
+    developer_ergonomics: 64.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 63.5
   provenance:
     agentic_access: derived
@@ -467,9 +475,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:
 - kind: authentication

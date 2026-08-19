@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-17'
+  score: 20.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Orgs API from Rill Data — 17 operation(s) for orgs.
@@ -175,15 +176,17 @@ scopes:
   summary_line: 1 scope · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 44.5
+  delta: -3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 39.6
-    developer_ergonomics: 64.7
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 30.3
+    contract_quality: 42.7
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 47.7
   provenance:
     conformance: first-party
@@ -194,9 +197,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/screenshots/rill-data-2026-08-17T081604.png
 security:
 - kind: authentication
   name: Rill Data Authentication

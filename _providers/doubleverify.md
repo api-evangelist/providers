@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 15.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol endpoint that exposes DoubleVerify's media quality, verification and performance data to an AI assistant as the DV Neura Insight Agent. DoubleVerify states that cl
@@ -215,20 +216,25 @@ scopes:
   slug: doubleverify-scopes
   summary_line: 21 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: emerging
-  composite: 27.3
-  delta: 7.1
+  band: thin
+  composite: 26.4
+  delta: -0.9
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 28.6
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 21.1
-  previous_composite: 20.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 27.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/screenshots/doubleverify-2026-06-20T180204.png
 security:
 - kind: authentication

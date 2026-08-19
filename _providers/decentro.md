@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Decentro Rate Limits
   slug: decentro-rate-limits
 rules:
-- name: Decentro API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Decentro API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +221,10 @@ rules:
     info: 1
     warn: 4
   slug: decentro-jsonschema-spectral-rules
-- name: Decentro API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Decentro API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -228,15 +234,17 @@ rules:
   slug: decentro-payments-api-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 34.4
+  delta: -6.2
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 63.4
-    developer_ergonomics: 28.3
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 59.4
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.6
   provenance:
     agentic_access: derived
@@ -251,9 +259,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png
 security:
 - kind: authentication

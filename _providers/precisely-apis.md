@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 api_count: 81
 apis:
 - description: The Address API from Precisely APIs — 2 operation(s) for address.
@@ -638,15 +639,17 @@ rate_limits:
   slug: precisely-apis-rate-limits
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 39.3
+  delta: -4.9
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 57.9
-    developer_ergonomics: 32.6
-    discoverability: 57.4
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 0.0
+    contract_quality: 56.2
+    developer_ergonomics: 26.2
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 44.2
   provenance:
     contracts:
@@ -654,8 +657,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/screenshots/precisely-apis-2026-06-20T192041.png
 security:

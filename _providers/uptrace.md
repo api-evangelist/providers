@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -178,7 +179,9 @@ rate_limits:
   name: Uptrace Rate Limits
   slug: uptrace-rate-limits
 rules:
-- name: Uptrace API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Uptrace API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,7 +189,10 @@ rules:
     info: 2
     warn: 3
   slug: uptrace-jsonschema-spectral-rules
-- name: Uptrace API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Uptrace API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -195,16 +201,18 @@ rules:
     warn: 4
   slug: uptrace-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 34.7
+  delta: -7.8
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.2
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 66.4
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -213,9 +221,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:
 - kind: authentication

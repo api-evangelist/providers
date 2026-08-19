@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -294,7 +295,9 @@ rate_limits:
   name: Autodesk Bim360 Rate Limits
   slug: autodesk-bim360-rate-limits
 rules:
-- name: Autodesk BIM 360 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Autodesk BIM 360 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,14 +312,16 @@ scopes:
   summary_line: 17 scopes · clientCredentials/implicit/authorizationCode
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 41.1
+  delta: -6.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.6
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 60.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 47.1
   provenance:
@@ -326,9 +331,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/screenshots/autodesk-bim360-2026-06-20T172629.png
 security:
 - kind: authentication

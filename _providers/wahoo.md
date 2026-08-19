@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -219,7 +220,10 @@ rate_limits:
   name: Wahoo Rate Limits
   slug: wahoo-rate-limits
 rules:
-- name: Wahoo Fitness API Rules
+- effective_rule_count: 29
+  extends:
+  - spectral:asyncapi
+  name: Wahoo Fitness API Rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -227,7 +231,9 @@ rules:
     info: 0
     warn: 2
   slug: wahoo-asyncapi-spectral-rules
-- name: Wahoo Fitness API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wahoo Fitness API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,14 +248,16 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 46.1
+  delta: -0.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 73.9
-    developer_ergonomics: 32.6
+    contract_governance: 11.4
+    contract_quality: 72.7
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 36.8
   previous_composite: 46.6
   provenance:
@@ -265,8 +273,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1133,7 +1133,9 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
   Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
 random_paper: 87
 rules:
-- name: Amazon CodeGuru Reviewer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CodeGuru Reviewer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1141,7 +1143,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-codeguru-reviewer-jsonschema-spectral-rules
-- name: Amazon CodeGuru Reviewer API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amazon CodeGuru Reviewer API Rules
   rule_count: 16
   severity_counts:
     error: 5
@@ -1150,16 +1155,18 @@ rules:
     warn: 10
   slug: amazon-codeguru-reviewer-spectral-rules
 score:
-  band: strong
-  composite: 61.1
-  delta: 0.0
+  band: developing
+  composite: 48.3
+  delta: -12.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 72.4
-    developer_ergonomics: 54.3
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 41.7
+    contract_quality: 69.9
+    developer_ergonomics: 28.6
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -1170,9 +1177,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:
 - kind: authentication

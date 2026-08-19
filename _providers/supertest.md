@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Supports GET, POST, PUT, DELETE, PATCH HTTP met
@@ -113,7 +114,9 @@ rate_limits:
   name: Supertest Rate Limits
   slug: supertest-rate-limits
 rules:
-- name: SuperTest API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SuperTest API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -123,19 +126,21 @@ rules:
   slug: supertest-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 20.5
+  delta: -6.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 22.6
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 19.7
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 27.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/screenshots/supertest-2026-06-20T194726.png
 slug: supertest
 tags:

@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,15 +228,17 @@ overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
 random_paper: 29
 score:
-  band: thin
-  composite: 29.3
-  delta: 0.0
+  band: developing
+  composite: 40.9
+  delta: 11.6
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 14.8
-    developer_ergonomics: 29.9
+    access_clarity: 71.4
+    commercial_clarity: 71.4
+    contract_governance: 30.3
+    contract_quality: 14.2
+    developer_ergonomics: 30.4
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 15.8
   previous_composite: 29.3
   provenance:
@@ -254,9 +257,9 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:
 - kind: authentication

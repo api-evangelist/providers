@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -180,15 +181,17 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 31.2
+  delta: -1.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 55.2
-    developer_ergonomics: 17.4
+    contract_governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 16.7
     discoverability: 44.4
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 18.4
   previous_composite: 32.8
   provenance:
     agentic_access: derived
@@ -197,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:

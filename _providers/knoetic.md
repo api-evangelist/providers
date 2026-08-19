@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,18 +81,20 @@ overview: Knoetic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 4
 score:
   band: emerging
-  composite: 13.3
-  delta: 0.0
+  composite: 11.7
+  delta: -1.6
   facets:
-    commercial_clarity: 28.9
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 13.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knoetic/refs/heads/main/screenshots/knoetic-2026-07-25T224041.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 49.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -209,15 +210,17 @@ rate_limits:
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 60.2
+  delta: -0.8
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 64.2
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 60.1
+    developer_ergonomics: 63.7
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 57.9
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -229,9 +232,10 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/faturapdf-brazilian-invoice-receipt-pdf-api/refs/heads/main/screenshots/faturapdf-brazilian-invoice-receipt-pdf-api-2026-08-17T080925.png
 security:
 - kind: authentication
   name: Faturapdf Brazilian Invoice Receipt Pdf Api Authentication

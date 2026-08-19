@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -282,7 +283,9 @@ overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   ACI.dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 29 more developer resources.'
 random_paper: 69
 rules:
-- name: ACI.dev API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ACI.dev API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -290,7 +293,10 @@ rules:
     info: 1
     warn: 4
   slug: aci-dev-jsonschema-spectral-rules
-- name: ACI.dev API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: ACI.dev API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -299,16 +305,18 @@ rules:
     warn: 4
   slug: aci-dev-rules
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  delta: -4.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 72.8
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 73.3
+    developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -317,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/screenshots/aci-dev-2026-06-20T163831.png
 security:

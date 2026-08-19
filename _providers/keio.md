@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: KOARA (KeiO Associated Repository of Academic resources) is Keio University's institutional repository, released in 2006 and running on the XooNips platform. It exposes a publicly accessible OAI-PMH 2
@@ -119,18 +120,26 @@ rate_limits:
   slug: keio-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 21.6
+  delta: 0.4
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 12.9
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/screenshots/keio-2026-06-20T183942.png
 security:

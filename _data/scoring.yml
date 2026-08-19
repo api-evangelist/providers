@@ -11,9 +11,56 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.11.0
-last_updated: '2026-08-11'
+schema_version: 0.12.0
+last_updated: '2026-08-18'
 maintainer: kin@apievangelist.com
+
+# The public "what changed" note. The apis.io /rating/ page renders this rather than
+# carrying its own copy, because the copy it carried was v0.6's — and it sat under a
+# heading that read "What changed in v{{ schema_version }}", so it re-badged itself as
+# current through ten rubric versions while describing none of them. `version` below is
+# checked against schema_version by test_rubric_record.py: a rubric cannot reach a
+# rebuild carrying the previous release's story.
+release_note:
+  version: 0.12.0
+  body: |
+    Two facets were renamed. `governance` is now **Contract Governance** — it scores
+    rulesets, vocabulary, conformance and overlays, all of them artifacts describing a
+    contract, and it never measured how an organisation governs itself. `commercial_clarity`
+    is now **Access Clarity**: for a free statutory interface, or a provider whose own
+    OpenAPI says no authentication and no quota, the word *commercial* described nothing,
+    and 14 of that facet's 38 points were never commercial in the first place. Both keys
+    are emitted side by side through 0.12.x, because these names are schema and appear in
+    roughly 27,300 files.
+
+    **A check that cannot apply now leaves the denominator instead of scoring zero.**
+    1,008 of the 7,579 providers holding a contract are entirely read-only; for them
+    `dry_run_mode` and `idempotency` are `na`, since every request to a read API already is
+    a dry run and a GET is idempotent by definition. 212 providers have no commercial
+    surface by design, so 24 of Access Clarity's 38 points are `na` for them. Applicability
+    is keyed on published evidence, never on sector.
+
+    **Being correctly identified as regulated used to cost a provider points.** The
+    regulatory facet was scored against the provider's own base, which dragged every
+    regulated provider down by a mean of 1.06 and rewarded thin tagging. It is now scored
+    relative to the mean of its own regime, frozen per rubric version, so it is zero at the
+    peer mean and the incentive points the right way.
+
+    **A pointer is no longer proof.** Across the 33 checks a pointer alone used to satisfy,
+    a live URL now scores 1.00, an unverified one 0.50, and a dead one nothing. `mcp_server`
+    reads deployment truth rather than a link and sheds 72.6% of the points it was awarding;
+    2,503 derived candidates lose it outright. Protobuf/gRPC and WSDL now count as contracts,
+    which restores 45 providers scored as publishing nothing while holding 5,526 RPCs or
+    1,363 SOAP operations.
+
+    Three checks are new — `lifecycle_documented`, `domain_standard_conformance` and
+    `reversibility_documented`, the fifteenth agent dimension. Two were removed:
+    `zero_errors` and `low_error_density` read declared severities while promising lint
+    outcomes, which made the scoring-optimal ruleset one that could never fail a build.
+
+    Both band ladders were re-cut against the new distribution. The cut points move with the
+    scores on purpose: a band is meant to keep meaning the same thing from one release to
+    the next, and the providers who change band should be the ones whose evidence changed.
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
@@ -571,7 +618,6 @@ attribution:
   json_ld_property_depth: catalog
   json_schema_per_resource: catalog
   json_schema_present: catalog
-  low_error_density: catalog
   maintainer_present: catalog
   multiple_apis: catalog
   overlay_published: catalog
@@ -583,7 +629,6 @@ attribution:
   rules_substantial: catalog
   tags_present: catalog
   vocabulary_published: catalog
-  zero_errors: catalog
 
   # INDEX — the evidence lives on the provider's public surface and the score
   # reads OUR apis.yml pointer. Unearned means EITHER we never indexed it OR
@@ -808,8 +853,8 @@ provenance:
     # PREPARED 0.10.3, INERT UNTIL STAMPED — the derived tier, and it is larger
     # than the plans/rate-limits surface that preceded it. GOVERNANCE rests 42 of
     # its 48 points on artifacts API Evangelist authors: the Spectral ruleset
-    # (rules_present, rules_substantial, low_error_density, zero_errors,
-    # balanced_severities = 33 pts), the vocabulary, and the overlay. At weight
+    # (rules_present, rules_substantial, balanced_severities = 18 pts after 0.12
+    # dropped low_error_density and zero_errors), the vocabulary, and the overlay. At weight
     # 0.12 that is roughly 10.5% of every composite asserting "this provider
     # governs its contracts" where the true statement is "API Evangelist wrote a
     # ruleset for them". CONTRACT_QUALITY carries another 21 points of
@@ -825,8 +870,6 @@ provenance:
     # is correct the moment it does.
     rules_present: rules               # governance, 10 pts
     rules_substantial: rules           # governance, 5 pts
-    low_error_density: rules           # governance, 10 pts
-    zero_errors: rules                 # governance, 5 pts
     balanced_severities: rules         # governance, 3 pts
     vocabulary_published: vocabulary   # governance, 5 pts
     json_schema_present: json_schema      # contract_quality, 6 pts
@@ -876,10 +919,18 @@ facets:
       OpenAPI, AsyncAPI, JSON Schema, JSON-LD.
   governance:
     weight: 0.12
-    label: Governance
+    label: Contract Governance
+    emits_as: contract_governance
     description: >
-      Outcomes of Spectral linting and presence of governance artifacts
-      (rulesets, vocabulary). Severity-weighted.
+      Artifacts that describe and constrain the CONTRACT — rulesets, vocabulary,
+      declared conformance, overlays. Renamed in 0.12 from "Governance": it never
+      measured how the organisation governs itself, and the standalone
+      `accountability` layer now does, so one word could not carry both.
+      NOTE ON WHAT THIS SCORES (0.12, roadmap#62): these checks read what a ruleset
+      DECLARES, not the result of running it. Spectral is never executed against
+      the provider's own spec. The facet text through 0.11 described lint outcomes,
+      which was the source of a reported and confirmed defect. Outcome-based linting
+      is a separate artifact class and is not in this release.
   operational_transparency:
     weight: 0.13
     label: Operational Transparency
@@ -894,10 +945,17 @@ facets:
       documentation, sandbox/console, MCP server, and authentication clarity.
   commercial_clarity:
     weight: 0.20
-    label: Commercial Clarity
+    label: Access Clarity
+    emits_as: access_clarity
     description: >
-      Are commercial terms machine-readable? Plans, pricing, sign-up,
-      terms of service, privacy, finops mapping, compliance/trust.
+      What it costs, what you are permitted to do, and how you get in — plans,
+      pricing, sign-up, terms of service, privacy, finops mapping, compliance/trust.
+      Renamed in 0.12 from "Commercial Clarity". For a free statutory interface, a
+      public-interest open-data API, or a provider whose own OpenAPI states "No
+      authentication, no registration, no rate limit, no quota", there is no
+      commercial surface to measure and only the permission and access questions
+      apply. The word described a subset of the catalog and was read as a deficiency
+      by the rest.
   regulatory:
     weight: 0.15
     conditional: true          # only applies to regulated industries (see industry_regulatory)
@@ -980,6 +1038,66 @@ facets:
 # The ambiguous tags are additionally demoted out of `tags` into `weak_tags`,
 # which count toward a match only when no strong tag matched anywhere.
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# 0.12 (roadmap#34 pt 4) — REGIME-RELATIVE REGULATORY SCORING.
+#
+# THE DEFECT. The composite folds a conditional facet in as
+#   composite = base + 0.15 * (reg - base)
+# so the facet ADDS when reg > base and SUBTRACTS when reg < base. Catalog-wide
+# the regulatory facet means 23.8 against a much higher base, so it dragged every
+# correctly-identified regulated provider DOWN. Measured on the US payments
+# cohort: it lowered the composite for 38 of 57 regulated providers, mean -1.06,
+# Plaid -4.9. Braintree, Fireblocks, Socure and WEX carry NO TAGS and kept their
+# full score. Being described well was a penalty; being described poorly was a
+# reward. That inverts what the facet is for.
+#
+# THE FIX, decided 2026-08-17: regulated providers are compared ONLY TO EACH
+# OTHER. The reference point becomes the regime, not the catalog:
+#   composite = base + 0.15 * (reg - regime_mean)
+# A provider AT its regime mean contributes zero delta and scores exactly `base`.
+# Above its peers it gains; below its peers it loses. The systematic drag goes to
+# ZERO BY CONSTRUCTION, because the mean of (reg - regime_mean) within a regime is
+# zero by definition.
+#
+# WHY A FROZEN CONSTANT AND NOT A LIVE PERCENTILE. A live within-cohort ranking
+# would destroy absolute meaning (if no bank implements FAPI the top bank still
+# scores well, so the facet would CONCEAL the gap it exists to expose), make
+# regimes non-comparable, and — worst — move a provider's score when someone else
+# joins the catalog. That breaks the contract that makes this legitimate rather
+# than an accusation: publish an artifact, get rescored. These means are measured
+# once per rubric version, published here, and snapshotted with the rubric.
+#
+# THE GUARD. Calibration stops at the FACET. Check-level pass rates stay RAW and
+# are never normalised — that is where a whole market failing has to stay visible,
+# and it is what the Market Reports publish.
+#
+# Measured 2026-08-17 over 8,327 providers holding a 0.11.0 artifact with a regime.
+regime_means:
+  _default: 24.9          # all-regulated mean; a regime with no cohort yet
+  _measured_at: '2026-08-18'
+  _rubric: 0.12.0         # RECOMPUTED from the clean 0.12.0 snapshot
+  _n: 8991
+  # The 0.11.0 means were measured from scores carrying the CONFORMANCE_CACHE type
+  # collision, which silently evaluated reg_smart_configuration, reg_pci_sca,
+  # reg_certification_signal and reg_mandate_verified as FALSE wherever the boolean
+  # cache landed first. Those checks read conformance_text, so the damage was
+  # concentrated in payments (+1.7 after the fix) and banking (+2.8) -- the two
+  # regimes whose checks depend on it most. Re-centring against the dirty means
+  # would have over-rewarded exactly those providers.
+  #
+  # `education` now carries its own measured mean (n=834) and no longer takes the
+  # default. `government` fell 978 -> 836 providers and 22.8 -> 21.7 because the new
+  # regime took the universities that were only ever matching it on a tag brush.
+  health: 18.7                    # n=2783
+  payments: 32.5                  # n=1335
+  energy_utilities: 19.4          # n=920
+  government: 21.7                # n=836
+  education: 27.6                 # n=834
+  insurance: 27.2                 # n=719
+  banking_open_finance: 31.1      # n=641
+  securities_market_data: 35.2    # n=475
+  telecommunications: 29.5        # n=448
+
 industry_regulatory:
   banking_open_finance:
     label: Banking & Open Finance
@@ -1115,6 +1233,43 @@ industry_regulatory:
            green button, renewables, ev charging, water utility]
     standards: [green-button, espi, cds-energy, cds-common, smart-energy-code,
                 ieee-2030-5, openadr]
+  # 0.12 (roadmap#34, and the university research). 119 of 300 university
+  # providers were being scored against GOVERNMENT because a tag brushed it, and
+  # the regimes their own profiles found binding -- FERPA, UK GDPR in an education
+  # setting, UGC, PIPA -- were in this map nowhere at all.
+  #
+  # specificity 3 so it beats `government` (2) on a multi-tag match, following the
+  # most-specific-wins rule that fixed the insurance-broker collision in 0.6. A
+  # public university genuinely carrying public-sector obligations still matches
+  # `government` on its government tags; the tie-break does the work.
+  #
+  # DELIBERATELY NOT HERE: a check for scoping institutional AI use against a
+  # named regulation. It was proposed for this regime and it belongs in the
+  # standalone `accountability` layer instead -- that is organisational posture,
+  # not a property of the API surface, and carrying it twice was the same
+  # collision the governance rename exists to fix.
+  #
+  # OPEN, and recorded rather than papered over: FERPA, UK GDPR + the Equality
+  # Act, the EU AI Act, UGC and PIPA are not one posture. A single regime may
+  # repeat the `government` mistake at smaller scale, and per-jurisdiction
+  # sub-regimes may be the right shape once a cohort is scored.
+  education:
+    label: Education & Research
+    specificity: 3
+    regimes: ['FERPA (US)', 'Title IV / IPEDS (US)', 'UK GDPR + Equality Act 2010',
+              'GDPR (EU)', 'UGC (India)', 'PIPA (Korea)', 'QAA (UK)']
+    basis: >
+      Student records, research data and institutional accountability: student-data
+      protection, accessibility obligations, provisioning between institutional
+      systems, and identity federation.
+
+    tags: ['university', 'universities', 'higher education', 'college', 'campus',
+           'student', 'student information system', 'sis', 'academic',
+           'research information', 'institutional repository', 'scholarly',
+           'learning management', 'lms', 'edtech', 'education', 'school',
+           'registrar', 'admissions', 'courseware', 'library']
+    standards: ['scim', 'lti', 'oneroster', 'ed-fi', 'caliper', 'qti', 'oai-pmh',
+                'shibboleth', 'saml', 'orcid', 'datacite', 'crossref']
   government:
     label: Government & Public Sector
     specificity: 2
@@ -1730,6 +1885,72 @@ artifacts:
       a large ruleset that throws errors on the provider's own spec scores below a
       modest one that passes clean.
     checks:
+      - id: lifecycle_documented
+        facet: contract_quality
+        label: Documented resource lifecycle
+        points: 5
+        graded: true
+        rule: 'share of creatable resources that also document read, update and delete, capped at 0.33'
+        description: >
+          Of the resources a provider lets you CREATE, the share that also document how to
+          read the thing back, change it, and remove it. Grouped by RESOURCE, not by path --
+          REST splits one resource across `POST /things` and `GET|PUT|DELETE /things/{id}`,
+          and a path-level view would score that as two incomplete resources.
+          WHY IT IS A CONTRACT SIGNAL. An agent that creates something and cannot read it
+          back has no way to confirm the write landed, no way to correct it, and no way to
+          clean up after itself. That is a property of the contract, visible in the
+          contract, and orthogonal to everything else this facet measures -- a provider can
+          document one endpoint impeccably, score full marks on tagging, schemas and
+          examples, and tell an agent nothing about what happens next.
+          REWARD-ONLY AND CAPPED. Absence of a documented DELETE is not absence of DELETE:
+          a resource can be genuinely append-only (an event, a log line, an audit record),
+          the capability can exist and be undocumented, or the resource can be managed
+          elsewhere. Only the middle case is a provider deficiency and none of the three is
+          distinguishable by reading the spec, so incompleteness is never penalised. The
+          0.33 cap means a provider clears this on a healthy third rather than needing 100%,
+          and it stops the check rewarding CRUD-for-its-own-sake -- an API that deliberately
+          exposes no DELETE must not score below a worse one that ships a dangerous one.
+          MEASURED 2026-08-18 over 5,884 providers with a creatable resource: 96,704
+          creatable resources, 15.5% fully round-trippable, mean provider share 15.6%,
+          MEDIAN 0.0%, and 59.1% documenting not one. This check reads near-zero across the
+          catalog on day one, which IS the finding, and the band re-cut is part of the
+          change rather than a follow-up.
+          TWO CONVENTION BUGS WERE FOUND AND FIXED BEFORE THIS SHIPPED, both by spot-checking
+          providers whose answer could be reasoned about independently rather than by
+          trusting the aggregate. (1) Requiring PUT or PATCH for the update leg scored STRIPE
+          0.000 on 189 creatable resources -- Stripe uses POST on the instance path and does
+          not use PUT or PATCH anywhere. (2) Not stripping file extensions scored SHOPIFY
+          0.000 on 166 -- `/customers.json` and `/customers/{id}.json` folded to two
+          different resources. Corrected: Stripe 0.583, Shopify 1.000.
+          KNOWN CAVEAT, recorded rather than hidden: an RPC-style API inflates the
+          denominator. Slack publishes 636 paths and NOT ONE parameter segment
+          (`/calls.add`, `/calls.end`) -- it is not resource-oriented, so 121 of its POST
+          endpoints are counted as creatable resources that can never round-trip. Because
+          this check is reward-only, no such provider is penalised; the effect is that the
+          catalog-wide percentages above UNDERSTATE round-trip coverage among genuinely
+          RESTful APIs. Quote them with that caveat.
+      - id: domain_standard_conformance
+        label: Implements a domain standard
+        facet: contract_quality
+        points: 4
+        rule: 'contract carries a recognised domain-standard signature'
+        description: >
+          The contract itself declares conformance to an interoperability standard for its
+          market -- a SCIM schema URN, an OData metadata surface, an OpenRTB bid endpoint,
+          a Sparkplug topic namespace, an ActivityPub actor. A customer who already speaks
+          the standard can integrate with no bespoke connector; one who does not needs a
+          bilateral one, and until 0.12 both scored identically.
+          REWARD-ONLY, and that is deliberate. Absence earns nothing and costs nothing,
+          because most markets in this catalog have no domain standard to implement and
+          penalising their providers would measure the market rather than the provider.
+          EVIDENCE, NOT CLAIM -- inherited from reg_mandate_verified, whose own finding was
+          that a claimed-but-unverifiable mandate scored BELOW organizations under no
+          obligation at all. Naming SCIM in marketing copy earns nothing here; declaring
+          `urn:ietf:params:scim:schemas:...` in the contract earns.
+          Measured 2026-08-17: 164 of 7,579 providers with a contract (2.2%) -- OData 89,
+          SCIM 60, ActivityPub 10, OpenRTB 4, Sparkplug 2. Web of Things, oneM2M and HR
+          Open have ZERO detectable adoption. That thinness is why this is a check and not
+          the conditional facet originally proposed.
       - id: rules_present
         label: Publishes a ruleset
         facet: governance
@@ -1742,26 +1963,14 @@ artifacts:
         label: Substantial ruleset
         facet: governance
         points: 5
-        rule: 'rules[0].rule_count >= 20'
+        rule: 'rules[0].effective_rule_count >= 20'
         description: >
-          Twenty or more rules — a ruleset with real coverage rather than the handful
-          that ship in a starter template.
-      - id: low_error_density
-        label: Low error density
-        facet: governance
-        points: 10
-        rule: 'severity_counts.error / rule_count <= 0.20'
-        description: >
-          No more than 20% of rules fire at error severity against the provider's own
-          specs. Measures whether governance is actually being met, not just declared.
-      - id: zero_errors
-        label: Clean lint
-        facet: governance
-        points: 5
-        rule: 'severity_counts.error == 0'
-        description: >
-          The provider's specs pass their own ruleset with zero errors. Awarded on top
-          of low error density.
+          Twenty or more rules ENFORCED — authored plus whatever an `extends:` brings in.
+          0.12 (roadmap#62): this counted authored rules only, so a ruleset extending
+          spectral:oas and adding a focused handful was measured on the handful. As the
+          provider who reported it put it, the alternative was "inlining 41 rules I didn't
+          write in order to be measured on the 9 I did". Extending a maintained base is
+          the better engineering choice and the threshold was punishing it.
       - id: balanced_severities
         label: Balanced severities
         facet: governance
@@ -1986,24 +2195,6 @@ artifacts:
         description: >
           A runnable collection — the fastest path from reading about the API to calling
           it.
-      - id: mcp_server_present
-        label: MCP server
-        facet: developer_ergonomics
-        points: 4
-        provenance: mcp
-        rule: 'common[].type includes "MCPServer", graded by whether the provider runs it'
-        description: >
-          A Model Context Protocol server, making the API directly callable by agents.
-          Weighted alongside the strongest human on-ramps because it increasingly is one.
-
-          PROVENANCE-GRADED IN 0.6, and this is where the defect was worst. 1,882 of the
-          3,046 MCP artifacts in the catalog are API-Evangelist-derived CANDIDATES with
-          `status: candidate` and `url: null` — 1,679 of them listed as an MCPServer in
-          the provider's index, earning full credit for a server that does not exist.
-          8x8's own artifact states that its 312-tool catalog "is a proposal, not an 8x8
-          product." A derived candidate keeps a floor because it is a real, groundable
-          artifact one adapter away from working; it can no longer outrank a running
-          server.
       - id: agent_skill_present
         label: Agent Skill
         facet: developer_ergonomics
@@ -2495,45 +2686,45 @@ artifacts:
 bands:
   - id: exemplar
     label: Exemplar
-    min: 66
-    range: 66+
-    share: 1.2%
+    min: 66.5
+    range: 66.5+
+    share: 1.0%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
       top ~1% of the catalog, and the band no provider reaches by accident.
   - id: strong
     label: Strong
-    min: 56
-    range: 56 – 65.9
-    share: 4.3%
+    min: 54.3
+    range: 54.3 – 66.4
+    share: 3.8%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
       commercial artifact.
   - id: developing
     label: Developing
-    min: 42
-    range: 42 – 55.9
-    share: 13.7%
+    min: 39.3
+    range: 39.3 – 54.2
+    share: 13.3%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
       and commercial terms are absent.
   - id: thin
     label: Thin
-    min: 28
-    range: 28 – 41.9
-    share: 14.6%
+    min: 26.2
+    range: 26.2 – 39.2
+    share: 15.9%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
       without scraping.
   - id: emerging
     label: Emerging
-    min: 13
-    range: 13 – 27.9
-    share: 23.5%
+    min: 11.0
+    range: 11 – 26.1
+    share: 24.0%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common
@@ -2542,8 +2733,8 @@ bands:
   - id: minimal
     label: Minimal
     min: 0
-    range: 0 – 12.9
-    share: 42.7%
+    range: 0 – 10.9
+    share: 41.9%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -2577,6 +2768,200 @@ trending:
 # API with no machine-readable contract cannot be driven by an agent at all,
 # so every dimension is always in the denominator.
 # ===========================================================================
+# ===========================================================================
+# 0.12 — ACCOUNTABILITY. A STANDALONE LAYER. NEVER FOLDED INTO THE COMPOSITE.
+# ===========================================================================
+#
+# WHAT IT MEASURES: who is answerable, and what must happen before a thing ships.
+# Not what a contract says -- `contract_governance` does that, and carrying both
+# under the word "governance" would have put two unrelated Governance numbers on
+# one provider page. That collision is why this layer exists under this name.
+#
+# WHY `accountability` AND NOT `policy`. Half these checks are not about a
+# document at all: accountable_officer, standing_body and impact_assessment
+# measure APPARATUS AND PROCESS. A provider could publish an immaculate policy and
+# score half. Naming the layer after the artifact would also be
+# presence-is-not-provenance in the title bar -- the constraint this layer is
+# built on is that a policy PDF that exists is not a governed institution; one
+# with a version, an approval date, a named owner and a review cycle is evidence.
+# (`policy` also collides with four existing checks that live in other facets:
+# deprecation_policy, privacy_policy, reg_privacy_policy, os_security_policy.)
+#
+# THE BLUEPRINT IS ENTERPRISE-GENERAL. It was derived from universities, where the
+# Open University is the only institution in the research with real governance --
+# a versioned Responsible AI Policy V1.3, a named SIRO, mandatory assessments. But
+# every check transposes to a commercial vendor without alteration. What varies by
+# sector is not the blueprint, it is the DISCLOSURE SURFACE: a university publishes
+# because it answers to students and regulators, a bank under supervision, a SaaS
+# vendor behind a Trust Center login, and a private company may govern well and
+# publish nothing. That is why `domains:` is a field rather than baked into check
+# names -- v1 reads `ai`, and the same eight checks will read a data, security or
+# access policy without a rename.
+#
+# IT IS NOT A HYPE INDEX. The layer must be able to rank an institution with ONE
+# narrowly-scoped tool, a versioned policy and mandatory assessments ABOVE one with
+# five vendor tools and no policy. `proportionality_clause` is the check that keeps
+# it honest: the Open University's principle 5.8, "keep AI use proportionate", is
+# the only institutional text in the research treating NOT DEPLOYING as a valid
+# outcome. If a draft of this ever ranks tool count, it is wrong.
+#
+# UNSCORED IN 0.12. The schema ships; no number does. Five profiled institutions
+# is a hypothesis, not a calibration, and `band_distribution.rb` cuts bands from a
+# measured distribution -- there is none yet. Tier 2 checks are RESEARCHED, not
+# harvested, and cannot run at 26k scale. Scoring waits for ~50 institutions.
+# ---------------------------------------------------------------------------
+# 0.12 — DISCLOSURE STATES (roadmap#28, #70, #67, and the university research).
+#
+# An index-class check reads a pointer in apis.yml while the evidence lives on the
+# provider's own surface. When the check is unearned there are two readings the
+# rubric already handles -- we never indexed it, they never published it. There are
+# THREE MORE, and collapsing them into one zero is how a policy choice, a language
+# barrier and a login become indistinguishable from an absence.
+#
+#   published    public URL, fetched, status code recorded          -> scoreable
+#   refused      serves a browser, 403s an identified crawler       -> OURS
+#   authwalled   exists, behind SSO / a customer portal / an NDA    -> OURS
+#   language     published, not in a language we read               -> OURS
+#   unpublished  no evidence either way                             -> reportable
+#
+# THE THREE MIDDLE STATES ARE OUR LIMIT, NOT THEIRS, and a report may never state
+# one as a market finding. Same rule the `attribution:` block enforces for points,
+# applied to reachability.
+#
+# WHERE EACH WAS EARNED:
+#   refused    -- www.tibco.com and www.sap.com serve 200 to a browser and 403 to a
+#                 declared, self-identifying catalog crawler. TIBCO scores 57.2 and
+#                 SAP 56.9, and part of both numbers is a statement about their edge
+#                 policy rather than about what they publish. Blocking crawlers is an
+#                 ordinary, defensible decision -- which is exactly why it needs a
+#                 name instead of quietly becoming a lower score.
+#   authwalled -- NYU's Private GenAI pilot sits behind institutional SSO.
+#                 Generalises to any SaaS Trust Center behind a login.
+#   language   -- Yonsei's generative-AI guideline exists only on the Korean surface.
+#
+# `language` and `authwalled` were EARNED BY THE UNIVERSITY RESEARCH: three of five
+# profiled institutions hit one or the other. The commercial catalog never needed
+# them and would have gone on mis-reading those cases indefinitely.
+#
+# A JS CHALLENGE IS NOT A REFUSAL. makeBIMI returns Cloudflare's "Just a moment..."
+# interstitial to everything -- an anti-bot challenge a headless browser would pass,
+# not a WAF rule naming our crawler. Only the second is a statement about us.
+disclosure_states:
+  published:
+    scoreable: true
+    attribution: index
+  refused:
+    scoreable: false
+    attribution: ours
+    note: serves a browser, refuses a declared crawler — named, not penalised
+  authwalled:
+    scoreable: false
+    attribution: ours
+    note: published behind SSO, a customer portal or an NDA
+  language:
+    scoreable: false
+    attribution: ours
+    note: published, not in a language we read
+  js_challenge:
+    scoreable: false
+    attribution: ours
+    note: anti-bot interstitial — a headless browser would pass it
+  unpublished:
+    scoreable: true
+    attribution: provider
+    note: the only state a report may quote as an absence
+
+accountability:
+  standalone: true
+  scored: false
+  schema_version: 0.1
+  label: Accountability
+  description: >
+    Who is answerable for this organisation's use of a technology, and what must
+    happen before it is deployed. Standalone, beside Agent Readiness; never part of
+    the Kin Score composite.
+  domains: [ai, data, security, access]
+  active_domains: [ai]
+
+  # A Tier-1-only organisation is NEVER ranked against a Tier-2 one, and every
+  # published score carries its tier. This is roadmap#35's finding -- cohorts
+  # enriched to different depths measure our coverage as much as the market --
+  # stated as a scoring constraint instead of a caveat.
+  tiers:
+    1: machine-checkable; runs catalog-wide (document metadata, probed status codes)
+    2: researched; runs only on a profiled cohort (ownership, process, proportionality)
+
+  # Two classes the commercial catalog never needed, both EARNED by the university
+  # research: three of five profiled institutions hit one or the other. A zero in
+  # either is OUR research gap and may never be reported as an institutional
+  # finding. They generalise -- a German public body, a Japanese vendor, and any
+  # SaaS Trust Center behind a login are the same shape.
+  attribution_classes:
+    catalog: we can satisfy it alone
+    index: their surface, our pointer — probe first
+    language: published, but not in a language we read
+    authwall: published, behind SSO or a customer portal
+    frontier: only the organisation can produce it
+
+  checks:
+    - id: policy_published
+      tier: 1
+      attribution: index
+      points: 10
+      description: A policy document for the active domain RESOLVES — status code, not link presence.
+    - id: policy_versioned
+      tier: 1
+      attribution: frontier
+      points: 8
+      description: Carries a version, an approval date and a review cycle.
+    - id: policy_owner_named
+      tier: 2
+      attribution: frontier
+      points: 8
+      description: A named ROLE owns it (DPO, CISO, Chief Trust Officer, SIRO).
+    - id: accountable_officer
+      tier: 2
+      attribution: frontier
+      points: 7
+      description: A senior accountable officer exists and is named.
+    - id: standing_body
+      tier: 2
+      attribution: frontier
+      points: 6
+      description: A standing governance body with a named chair.
+    - id: impact_assessment
+      tier: 2
+      attribution: frontier
+      points: 10
+      description: A MANDATORY assessment before deployment, not an optional guideline.
+    - id: proportionality_clause
+      tier: 2
+      attribution: frontier
+      points: 6
+      description: >
+        The policy contemplates NOT deploying. The check that stops this being a hype
+        index — it must be able to rank restraint above enthusiasm.
+    - id: regulation_scoped
+      tier: 2
+      attribution: frontier
+      points: 5
+      description: >
+        Scoped against a NAMED regulation rather than generic ethics language. Lives
+        here and not in the education regime: this is organisational posture, not a
+        property of the API surface, and carrying it in both was the same collision
+        the governance rename exists to fix.
+
+  # PLACEHOLDERS. Not cut, and not cuttable until a real cohort is scored. `Owned`
+  # replaces the draft's `Accountable`, which collided with the layer name — and is
+  # the truer word anyway, since it is what policy_owner_named and
+  # accountable_officer actually establish.
+  bands:
+    - {id: governed, label: Governed, note: versioned policy, named owner, mandatory assessment, and an operated surface}
+    - {id: owned, label: Owned, note: real governance and named ownership, but no programmatic surface}
+    - {id: provisioned, label: Provisioned, note: tools provided and documented; governance thin or unowned}
+    - {id: declared, label: Declared, note: something published, with no ownership or process behind it}
+    - {id: undeclared, label: Undeclared, note: building or teaching with no findable posture}
+
 agent_readiness:
   schema_version: 0.2
   standalone: true          # not part of the composite; own score + own band
@@ -2615,11 +3000,39 @@ agent_readiness:
         in the catalog — when the provider publishes it. A derived classification
         keeps a floor: it is a real artifact an agent can fetch and act on, it is
         simply not evidence about the provider's design intent.
+    - id: reversibility_documented
+      label: Documented Reversibility
+      points: 6
+      graded: true
+      credit: {verified: 1.0, documented: 0.4}
+      signal: 'a reversal operation in the contract, graded up when a window is documented too'
+      description: >
+        Does the contract say what can be UNDONE, how, and within what window. roadmap#68
+        proposed this over a consequence multiplier on dry-run and idempotency, and preferred
+        it for a reason that holds up: a multiplier needs whole markets classified by hazard,
+        which is the hard part, while this measures something no dimension covers and needs
+        no such classification.
+        It is what an agent actually needs BEFORE it acts. Dry-run lets it rehearse and
+        idempotency stops it double-firing; neither tells it whether the action it is about
+        to take can be taken back.
+        GRADED. `documented` = a reversal operation exists in the contract (cancel, refund,
+        void, reverse, undo, rollback, restore). `verified` = that AND a stated window
+        (grace_period, cancellation_window, "within 30 days"). A path says the capability
+        exists; the window is what makes it plannable. A window with NO reversal operation
+        behind it earns nothing -- that is a policy sentence, not a capability.
+        MEASURED 2026-08-18 across 7,579 providers holding a contract: 1,353 (17.8%) expose a
+        reversal operation, 343 (4.5%) document a window, 171 (2.3%) do both. It discriminates
+        without being near-empty, which is what a new dimension has to clear.
+        GATED ON WRITE SURFACE like the other hazard dimensions: a read-only API has nothing
+        to reverse, and a zero there would measure the absence of a hazard rather than the
+        absence of work.
     - id: mcp_server
       label: MCP Server
       points: 12
       provenance: mcp
-      signal: 'common[].type includes MCPServer, graded by whether the provider runs it'
+      graded: true
+      credit: {verified: 1.0, documented: 0.4}
+      signal: 'deployment.mode + probe verdict on the mcp/ manifest, not the pointer'
       description: >
         A Model Context Protocol server makes the API directly callable by agents
         over a uniform tool surface — the most direct expression of agent-first
@@ -2876,7 +3289,8 @@ agent_readiness:
     - id: agent-native
       label: Agent-Native
       min: 46
-      share: 1.2%
+      range: 46+
+      share: 1.7%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -2886,7 +3300,8 @@ agent_readiness:
     - id: agent-ready
       label: Agent-Ready
       min: 34
-      share: 13.2%
+      range: 34 – 45.9
+      share: 15.2%
       description: >
         An agent can drive the core surface. A machine-readable contract and
         documented auth are in place, and there is real agent-facing work beyond
@@ -2901,7 +3316,8 @@ agent_readiness:
     - id: agent-aware
       label: Agent-Aware
       min: 6
-      share: 24.1%
+      range: 6 – 33.9
+      share: 22.3%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -2909,7 +3325,8 @@ agent_readiness:
     - id: human-only
       label: Human-Only
       min: 0
-      share: 61.4%
+      range: 0 – 5.9
+      share: 60.8%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.

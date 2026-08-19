@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -179,15 +180,17 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 35.2
+  delta: -0.8
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 0.0
     contract_quality: 55.6
-    developer_ergonomics: 28.3
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -196,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,18 +111,20 @@ overview: 'LVMH is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 141
 score:
   band: emerging
-  composite: 17.2
-  delta: 0.0
+  composite: 15.1
+  delta: -2.1
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 43.2
+    contract_governance: 0.0
+    contract_quality: 38.9
     developer_ergonomics: 0.0
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png
 security:

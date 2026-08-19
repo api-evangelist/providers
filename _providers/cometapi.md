@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -182,7 +183,9 @@ rate_limits:
   name: Cometapi Rate Limits
   slug: cometapi-rate-limits
 rules:
-- name: CometAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CometAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +193,10 @@ rules:
     info: 1
     warn: 4
   slug: cometapi-jsonschema-spectral-rules
-- name: CometAPI API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CometAPI API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -199,16 +205,18 @@ rules:
     warn: 3
   slug: cometapi-rules
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 35.2
+  delta: -9.8
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 63.9
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 59.9
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -217,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/screenshots/cometapi-2026-06-20T174808.png
 security:
 - kind: authentication

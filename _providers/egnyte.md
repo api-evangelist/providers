@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 30.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -200,16 +201,18 @@ scopes:
   slug: egnyte-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: thin
+  composite: 30.6
+  delta: -16.0
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 58.2
-    developer_ergonomics: 60.9
-    discoverability: 81.5
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
+    contract_quality: 58.0
+    developer_ergonomics: 14.3
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 46.6
   provenance:
     agentic_access: derived
@@ -218,9 +221,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:
 - kind: authentication

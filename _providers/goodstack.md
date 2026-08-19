@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 54.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -311,15 +312,17 @@ overview: 'Goodstack publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
 random_paper: 65
 score:
-  band: developing
-  composite: 53.1
-  delta: 0.0
+  band: strong
+  composite: 54.5
+  delta: 1.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 66.1
-    developer_ergonomics: 62.5
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 64.1
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 39.5
   previous_composite: 53.1
   provenance:
@@ -337,9 +340,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 39.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:

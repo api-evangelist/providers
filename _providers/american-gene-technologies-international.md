@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -324,14 +325,16 @@ overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https:/
 random_paper: 43
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 21.2
+  delta: 0.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 15.1
-    developer_ergonomics: 21.2
+    contract_governance: 16.7
+    contract_quality: 14.4
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 20.6
   provenance:
@@ -350,8 +353,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

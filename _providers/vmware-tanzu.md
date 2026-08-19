@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -193,7 +194,9 @@ rate_limits:
   name: Vmware Tanzu Rate Limits
   slug: vmware-tanzu-rate-limits
 rules:
-- name: VMware Tanzu API Rules
+- effective_rule_count: 5
+  extends: []
+  name: VMware Tanzu API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,7 +204,10 @@ rules:
     info: 1
     warn: 4
   slug: vmware-tanzu-jsonschema-spectral-rules
-- name: VMware Tanzu API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: VMware Tanzu API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -210,16 +216,18 @@ rules:
     warn: 6
   slug: vmware-tanzu-rules
 score:
-  band: developing
-  composite: 46.2
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.7
-    developer_ergonomics: 28.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -228,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/screenshots/vmware-tanzu-2026-06-20T201119.png
 security:
 - kind: authentication

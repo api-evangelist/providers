@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,7 +233,9 @@ rate_limits:
   name: Agrio Rate Limits
   slug: agrio-rate-limits
 rules:
-- name: agrio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: agrio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -240,7 +243,10 @@ rules:
     info: 2
     warn: 3
   slug: agrio-jsonschema-spectral-rules
-- name: agrio API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: agrio API Rules
   rule_count: 26
   severity_counts:
     error: 9
@@ -250,14 +256,16 @@ rules:
   slug: agrio-spectral-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 39.4
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 81.3
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 76.2
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 45.4
   provenance:
@@ -267,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/screenshots/agrio-2026-06-20T170436.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Public REST API for the Knowledge Bank, Ohio State University Libraries' DSpace 7.6 institutional repository. Exposes communities, collections, items, and bitstreams as JSON (HAL) for the digital scho
@@ -113,18 +114,26 @@ rate_limits:
   slug: ohio-state-university-rate-limits
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 19.1
+  delta: -2.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 11.3
+    developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/screenshots/ohio-state-university-2026-06-20T190643.png
 security:

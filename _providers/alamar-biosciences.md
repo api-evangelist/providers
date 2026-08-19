@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,25 +117,27 @@ overview: 'Alamar Biosciences is profiled on the [APIs.io](https://apis.io/) net
   Alamar Biosciences'' developer surface includes documentation, changelog, engineering blog, support, and 16 more developer resources.'
 random_paper: 38
 score:
-  band: emerging
-  composite: 14.4
-  delta: 3.6
+  band: minimal
+  composite: 9.5
+  delta: -4.9
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 10.8
+    operational_transparency: 18.4
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 7.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alamar-biosciences/refs/heads/main/screenshots/alamar-biosciences-2026-08-07T161140.png
 security:

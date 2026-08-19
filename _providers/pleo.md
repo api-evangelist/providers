@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -349,7 +350,9 @@ rate_limits:
   name: Pleo Rate Limits
   slug: pleo-rate-limits
 rules:
-- name: Pleo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pleo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -359,15 +362,17 @@ rules:
   slug: pleo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 46.7
+  delta: -2.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 63.6
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 63.5
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -382,8 +387,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
 security:

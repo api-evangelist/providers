@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -200,7 +201,9 @@ rate_limits:
   name: Sso Rate Limits
   slug: sso-rate-limits
 rules:
-- name: SSO API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SSO API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +211,10 @@ rules:
     info: 2
     warn: 3
   slug: sso-jsonschema-spectral-rules
-- name: SSO API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: SSO API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -218,14 +224,16 @@ rules:
   slug: sso-rules
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 32.0
+  delta: -5.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.4
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 57.5
+    developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 37.9
   provenance:
@@ -235,9 +243,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/screenshots/sso-2026-06-20T194436.png
 security:
 - kind: authentication

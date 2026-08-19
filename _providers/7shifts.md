@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -367,7 +368,9 @@ rate_limits:
   name: 7Shifts Rate Limits
   slug: 7shifts-rate-limits
 rules:
-- name: 7shifts API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 7shifts API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -375,7 +378,10 @@ rules:
     info: 1
     warn: 4
   slug: 7shifts-jsonschema-spectral-rules
-- name: 7shifts API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: 7shifts API Rules
   rule_count: 41
   severity_counts:
     error: 10
@@ -390,15 +396,17 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 41.9
+  delta: -12.3
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 62.5
-    developer_ergonomics: 30.4
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 25.0
+    contract_quality: 58.6
+    developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -407,9 +415,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
 security:
 - kind: authentication

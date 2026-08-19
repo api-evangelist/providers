@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -133,7 +134,9 @@ press:
   url: https://www.pymnts.com/news/partnerships-acquisitions/2020/rent-a-center-acquires-acima-for-virtual-lease-to-own-platform/
 random_paper: 77
 rules:
-- name: Rent-A-Center API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rent-A-Center API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -143,19 +146,21 @@ rules:
   slug: rent-a-center-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 14.1
+  delta: -7.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 17.7
-    developer_ergonomics: 15.2
+    contract_governance: 25.0
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 21.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rent-a-center/refs/heads/main/screenshots/rent-a-center-2026-06-20T192849.png
 security:
 - kind: domain-security

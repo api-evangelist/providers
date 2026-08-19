@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 6
@@ -212,7 +213,9 @@ rate_limits:
   name: Wiremock Rate Limits
   slug: wiremock-rate-limits
 rules:
-- name: WireMock API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WireMock API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,7 +223,10 @@ rules:
     info: 2
     warn: 3
   slug: wiremock-jsonschema-spectral-rules
-- name: WireMock API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: WireMock API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -230,14 +236,16 @@ rules:
   slug: wiremock-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 33.7
+  delta: -5.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 50.5
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 47.8
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 39.1
   provenance:
@@ -247,9 +255,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/screenshots/wiremock-2026-06-20T201523.png
 security:
 - kind: domain-security

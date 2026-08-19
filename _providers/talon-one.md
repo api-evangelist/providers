@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 68.9
-  scored_at: '2026-08-17'
+  score: 59.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 3
@@ -277,26 +278,32 @@ rate_limits:
   slug: talon-one-rate-limits
 score:
   band: exemplar
-  composite: 74.6
-  delta: 32.9
+  composite: 73.1
+  delta: -1.5
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 64.3
-    developer_ergonomics: 84.8
+    contract_governance: 16.7
+    contract_quality: 66.4
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 84.2
-  previous_composite: 41.7
+    governance: 16.7
+    operational_transparency: 81.6
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png
 security:
 - kind: authentication
   name: Talon One Authentication

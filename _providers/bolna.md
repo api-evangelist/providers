@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
@@ -194,24 +195,26 @@ rate_limits:
   name: Bolna Rate Limits
   slug: bolna-rate-limits
 score:
-  band: strong
-  composite: 56.8
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -7.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 80.4
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 84.2
+    governance: 4.5
+    operational_transparency: 65.8
   previous_composite: 56.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -203,7 +204,9 @@ rate_limits:
   name: Jetic Rate Limits
   slug: jetic-rate-limits
 rules:
-- name: Jetic API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Jetic API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,14 +216,16 @@ rules:
   slug: jetic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 41.1
+  delta: -5.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 73.9
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 73.1
+    developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 46.5
   provenance:
@@ -230,9 +235,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:
 - kind: authentication

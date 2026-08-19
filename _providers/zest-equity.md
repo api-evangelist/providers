@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -245,15 +246,17 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 129
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 50.7
+  delta: 0.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 66.6
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 64.0
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 49.9
   provenance:
     agentic_access: derived
@@ -265,9 +268,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/screenshots/zest-equity-2026-08-17T083105.png
 security:
 - kind: authentication
   name: Zest Equity Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -129,25 +130,30 @@ rate_limits:
   slug: 23andme-rate-limits
 score:
   band: thin
-  composite: 28.0
-  delta: 9.9
+  composite: 29.7
+  delta: 1.7
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 15.8
-  previous_composite: 18.1
+    governance: 18.2
+    operational_transparency: 13.2
+  previous_composite: 28.0
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: 23Andme Domain Security

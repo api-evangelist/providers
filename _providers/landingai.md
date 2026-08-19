@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 45.1
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -327,16 +327,18 @@ rate_limits:
   name: Landingai Rate Limits
   slug: landingai-rate-limits
 score:
-  band: exemplar
-  composite: 69.7
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  delta: -5.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 54.1
-    developer_ergonomics: 84.8
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 16.7
+    contract_quality: 52.5
+    developer_ergonomics: 83.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 68.4
   previous_composite: 69.7
   provenance:
     conformance: derived
@@ -347,9 +349,9 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:
 - kind: authentication

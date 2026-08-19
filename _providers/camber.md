@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -128,25 +129,29 @@ rate_limits:
   slug: camber-rate-limits
 score:
   band: emerging
-  composite: 22.0
-  delta: 6.7
+  composite: 19.8
+  delta: -2.2
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 2.4
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 15.8
-  previous_composite: 15.3
+    governance: 18.2
+    operational_transparency: 13.2
+  previous_composite: 22.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camber/refs/heads/main/screenshots/camber-2026-07-25T204252.png
 security:
 - kind: domain-security

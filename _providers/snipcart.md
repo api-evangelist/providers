@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 43.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -210,15 +211,17 @@ rate_limits:
   slug: snipcart-rate-limits
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 47.5
+  delta: 2.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 65.2
-    developer_ergonomics: 21.7
+    contract_governance: 15.2
+    contract_quality: 64.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 10.4
-    operational_transparency: 65.8
+    governance: 15.2
+    operational_transparency: 63.2
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -233,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/screenshots/snipcart-2026-06-20T194105.png
 security:

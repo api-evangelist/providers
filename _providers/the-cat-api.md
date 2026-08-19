@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -169,7 +170,9 @@ rate_limits:
   name: The Cat Api Rate Limits
   slug: the-cat-api-rate-limits
 rules:
-- name: The Cat API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Cat API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,7 +180,10 @@ rules:
     info: 1
     warn: 4
   slug: the-cat-api-jsonschema-spectral-rules
-- name: The Cat API API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: The Cat API API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -186,16 +192,18 @@ rules:
     warn: 7
   slug: the-cat-api-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: -10.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.7
-    developer_ergonomics: 19.6
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 61.6
+    developer_ergonomics: 11.9
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -204,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
 security:
 - kind: authentication

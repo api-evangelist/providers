@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -124,7 +125,7 @@ common:
   url: https://cloudrf.com/documentation/developer/swagger-ui/
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://github.com/Cloud-RF/CloudRF-API-clients
 - group: commercial
   title: ''
@@ -169,7 +170,7 @@ overview: 'CloudRF publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The CloudRF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CloudRF''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
+  CloudRF''s developer surface includes authentication, documentation, API reference, code examples, engineering blog, and 9 more developer resources.'
 plans:
 - name: Cloudrf Plans Pricing
   plan_count: 3
@@ -180,7 +181,10 @@ rate_limits:
   name: Cloudrf Rate Limits
   slug: cloudrf-rate-limits
 rules:
-- name: CloudRF API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: CloudRF API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -190,14 +194,16 @@ rules:
   slug: cloudrf-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 35.1
+  delta: -0.6
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 63.9
-    developer_ergonomics: 28.3
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 45.5
+    contract_quality: 60.5
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 20.8
+    governance: 45.5
     operational_transparency: 7.9
   previous_composite: 35.7
   provenance:
@@ -212,9 +218,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 29.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 23.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/screenshots/cloudrf-2026-06-20T174617.png
 security:

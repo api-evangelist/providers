@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -440,7 +441,10 @@ rate_limits:
   name: Socure Rate Limits
   slug: socure-rate-limits
 rules:
-- name: socure API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: socure API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -448,7 +452,9 @@ rules:
     info: 0
     warn: 4
   slug: socure-asyncapi-spectral-rules
-- name: socure API Rules
+- effective_rule_count: 5
+  extends: []
+  name: socure API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -456,7 +462,10 @@ rules:
     info: 2
     warn: 3
   slug: socure-jsonschema-spectral-rules
-- name: socure API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: socure API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -465,15 +474,17 @@ rules:
     warn: 3
   slug: socure-rules
 score:
-  band: exemplar
-  composite: 68.4
-  delta: 0.0
+  band: strong
+  composite: 64.5
+  delta: -3.9
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 76.8
-    developer_ergonomics: 65.2
+    contract_governance: 26.5
+    contract_quality: 72.2
+    developer_ergonomics: 66.7
     discoverability: 63.0
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 60.5
   previous_composite: 68.4
   provenance:
@@ -483,8 +494,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:

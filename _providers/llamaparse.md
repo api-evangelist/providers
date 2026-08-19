@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -548,7 +549,9 @@ rate_limits:
   name: Llamaparse Rate Limits
   slug: llamaparse-rate-limits
 rules:
-- name: LlamaParse API Rules
+- effective_rule_count: 5
+  extends: []
+  name: LlamaParse API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -557,16 +560,18 @@ rules:
     warn: 4
   slug: llamaparse-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.5
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -4.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 60.2
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 60.7
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 78.9
+    governance: 25.0
+    operational_transparency: 76.3
   previous_composite: 57.5
   provenance:
     agentic_access: derived
@@ -575,8 +580,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

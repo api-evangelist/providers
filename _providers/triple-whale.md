@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-17'
+  score: 50.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -317,7 +318,9 @@ rate_limits:
   name: Triple Whale Rate Limits
   slug: triple-whale-rate-limits
 rules:
-- name: Triple Whale API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Triple Whale API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -332,26 +335,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 82.3
-  delta: 25.6
+  composite: 67.6
+  delta: -14.7
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 70.6
-    developer_ergonomics: 84.8
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 26.5
+    contract_quality: 66.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 68.4
-  previous_composite: 56.7
+    governance: 26.5
+    operational_transparency: 65.8
+  previous_composite: 82.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:
 - kind: authentication

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-17'
+  score: 16.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -179,21 +180,23 @@ overview: 'Point One Navigation publishes 3 APIs on the [APIs.io](https://apis.i
 random_paper: 101
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 35.4
+  delta: -2.4
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.8
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 37.8
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

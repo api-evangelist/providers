@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Versioned (mob-api-v4) REST API for Dealerware fleet-management and courtesy/loaner mobility workflows: contracts, reservations, contactless check-in, customers, drivers, employees, dealerships, fleet'
@@ -122,19 +123,21 @@ overview: 'silvercar publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 77
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 31.3
+  delta: -5.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 33.3
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 11.8
   previous_composite: 36.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Silvercar Authentication

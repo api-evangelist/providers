@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 45.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -244,16 +245,18 @@ overview: 'Fat Zebra publishes 4 APIs on the [APIs.io](https://apis.io/) network
   Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 34 more developer resources.'
 random_paper: 147
 score:
-  band: developing
-  composite: 55.3
-  delta: 0.0
+  band: strong
+  composite: 56.6
+  delta: 1.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 60.8
-    developer_ergonomics: 69.0
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 60.7
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 30.3
+    operational_transparency: 43.4
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -265,9 +268,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 58.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

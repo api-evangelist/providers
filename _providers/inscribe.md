@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -126,15 +127,17 @@ rate_limits:
   slug: inscribe-rate-limits
 score:
   band: emerging
-  composite: 27.5
-  delta: 0.0
+  composite: 24.5
+  delta: -3.0
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 50.0
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 43.7
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 39.5
   previous_composite: 27.5
   regulatory:
     applies: true
@@ -142,8 +145,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/screenshots/inscribe-2026-06-20T183404.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 29.0
+  scored_at: '2026-08-19'
 api_count: 45
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
@@ -409,15 +410,17 @@ rate_limits:
   slug: onfido-rate-limits
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 42.3
+  delta: 0.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 58.2
-    developer_ergonomics: 34.8
+    contract_governance: 0.0
+    contract_quality: 57.3
+    developer_ergonomics: 38.1
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 42.2
   provenance:
     contracts:
@@ -425,8 +428,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

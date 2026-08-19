@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,7 +184,10 @@ rate_limits:
   name: Cargosmart Rate Limits
   slug: cargosmart-rate-limits
 rules:
-- name: CargoSmart API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: CargoSmart API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -191,7 +195,9 @@ rules:
     info: 0
     warn: 5
   slug: cargosmart-asyncapi-spectral-rules
-- name: CargoSmart API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CargoSmart API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -206,14 +212,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 36.0
+  delta: -4.1
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 74.8
-    developer_ergonomics: 28.3
+    contract_governance: 11.4
+    contract_quality: 70.9
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 5.3
   previous_composite: 40.1
   provenance:
@@ -223,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
 security:

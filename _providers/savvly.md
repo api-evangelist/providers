@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 44.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,14 +88,16 @@ overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 81
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 19.0
+  delta: -1.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 53.5
-    developer_ergonomics: 10.3
+    contract_governance: 16.7
+    contract_quality: 50.1
+    developer_ergonomics: 1.8
     discoverability: 40.7
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 20.9
   provenance:
@@ -107,8 +110,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

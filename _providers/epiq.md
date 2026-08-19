@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest servicing applications and proprietary systems. S
@@ -113,18 +114,20 @@ rate_limits:
   slug: epiq-rate-limits
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 21.1
+  delta: -0.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 17.7
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 15.5
+    developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/screenshots/epiq-2026-06-20T180757.png
 security:

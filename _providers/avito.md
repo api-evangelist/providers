@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 50.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -603,15 +604,17 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 48.4
+  delta: 0.9
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 58.6
-    developer_ergonomics: 53.8
+    contract_governance: 30.3
+    contract_quality: 56.6
+    developer_ergonomics: 56.5
     discoverability: 63.0
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 30.3
+    operational_transparency: 47.4
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -623,8 +626,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

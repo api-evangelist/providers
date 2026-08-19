@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -155,7 +156,10 @@ rate_limits:
   name: Brightdata Rate Limits
   slug: brightdata-rate-limits
 rules:
-- name: Bright Data API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Bright Data API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -165,15 +169,17 @@ rules:
   slug: brightdata-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 42.5
+  delta: -5.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 69.7
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 65.3
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 47.6
   provenance:
     agentic_access: derived
@@ -182,9 +188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/screenshots/brightdata-2026-07-25T203834.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 53.2
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -220,16 +221,18 @@ scopes:
   slug: wallapop-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 55.4
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  delta: -0.3
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 63.5
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 64.4
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 60.5
+    governance: 16.7
+    operational_transparency: 57.9
   previous_composite: 55.4
   provenance:
     conformance: derived
@@ -240,9 +243,10 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/screenshots/wallapop-2026-08-17T082833.png
 security:
 - kind: authentication
   name: Wallapop Authentication

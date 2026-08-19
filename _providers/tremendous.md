@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -235,7 +236,9 @@ rate_limits:
   name: Tremendous Rate Limits
   slug: tremendous-rate-limits
 rules:
-- name: Tremendous API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tremendous API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -243,7 +246,10 @@ rules:
     info: 1
     warn: 4
   slug: tremendous-jsonschema-spectral-rules
-- name: Tremendous API Rules
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Tremendous API Rules
   rule_count: 20
   severity_counts:
     error: 3
@@ -258,15 +264,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.7
+  delta: -7.9
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 70.9
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 66.7
+    developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -275,9 +283,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/screenshots/tremendous-2026-06-20T195654.png
 security:
 - kind: authentication

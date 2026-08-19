@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -502,7 +503,9 @@ rate_limits:
   name: Circana Rate Limits
   slug: circana-rate-limits
 rules:
-- name: Circana API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Circana API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -510,7 +513,10 @@ rules:
     info: 1
     warn: 4
   slug: circana-jsonschema-spectral-rules
-- name: Circana API Rules
+- effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Circana API Rules
   rule_count: 45
   severity_counts:
     error: 19
@@ -520,14 +526,16 @@ rules:
   slug: circana-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 34.5
+  delta: -5.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 31.7
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 30.1
+    developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 40.0
   provenance:
@@ -537,9 +545,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/screenshots/circana-2026-06-20T174349.png
 security:
 - kind: authentication

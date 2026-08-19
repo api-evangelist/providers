@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Action-based RPC API covering every UCloud product (compute, networking, storage, databases, Kubernetes, monitoring, AI) through a single signed gateway. Requests carry an Action name plus PublicKey/S
@@ -169,23 +170,26 @@ overview: 'UCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   UCloud''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 56
 score:
-  band: developing
-  composite: 51.7
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -13.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 78.3
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 31.0
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 39.5
+    governance: 4.5
+    operational_transparency: 36.8
   previous_composite: 51.7
   provenance:
     conformance: derived
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/screenshots/ucloud-2026-08-17T082534.png
 security:
 - kind: authentication
   name: Ucloud Authentication

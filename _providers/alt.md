@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,26 +102,28 @@ overview: 'Alt is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
   Alt''s developer surface includes engineering blog, support, pricing, signup flow, and 12 more developer resources.'
 random_paper: 23
 score:
-  band: emerging
-  composite: 18.4
-  delta: 0.0
+  band: minimal
+  composite: 8.1
+  delta: -10.3
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 4.8
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 18.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/screenshots/alt-2026-08-07T161246.png
 security:
 - kind: domain-security

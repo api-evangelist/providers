@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
@@ -62,18 +63,20 @@ overview: 'Convex Finance publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 87
 score:
   band: emerging
-  composite: 17.3
-  delta: 0.0
+  composite: 16.4
+  delta: -0.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 37.0
-    developer_ergonomics: 2.2
+    contract_governance: 0.0
+    contract_quality: 33.3
+    developer_ergonomics: 2.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex-finance/refs/heads/main/screenshots/convex-finance-2026-07-25T210351.png
 security:

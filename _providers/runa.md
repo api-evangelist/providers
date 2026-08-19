@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,7 +190,9 @@ rate_limits:
   name: Runa Rate Limits
   slug: runa-rate-limits
 rules:
-- name: Runa API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Runa API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -197,7 +200,10 @@ rules:
     info: 1
     warn: 4
   slug: runa-jsonschema-spectral-rules
-- name: Runa API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Runa API Rules
   rule_count: 18
   severity_counts:
     error: 2
@@ -207,14 +213,16 @@ rules:
   slug: runa-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 42.4
+  delta: -9.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 72.6
-    developer_ergonomics: 32.6
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 9.8
+    contract_quality: 69.1
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 51.6
   provenance:
@@ -229,10 +237,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 34.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:
 - kind: authentication

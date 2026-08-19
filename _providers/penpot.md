@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -970,7 +971,9 @@ rate_limits:
   name: Penpot Rate Limits
   slug: penpot-rate-limits
 rules:
-- name: Penpot API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Penpot API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -980,14 +983,16 @@ rules:
   slug: penpot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 33.8
+  delta: -6.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 54.3
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 50.9
+    developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 40.3
   provenance:
@@ -997,9 +1002,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 137
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/penpot/refs/heads/main/screenshots/penpot-2026-06-20T191548.png
 security:
 - kind: domain-security

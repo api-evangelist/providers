@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -126,7 +127,9 @@ overview: 'VentureBeat is profiled on the [APIs.io](https://apis.io/) network. T
   The VentureBeat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 random_paper: 146
 rules:
-- name: VentureBeat API Rules
+- effective_rule_count: 5
+  extends: []
+  name: VentureBeat API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -136,19 +139,27 @@ rules:
   slug: venturebeat-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 13.6
+  delta: -6.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 12.9
+    contract_governance: 9.8
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 20.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Venturebeat Domain Security

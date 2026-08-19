@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 34.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -285,7 +286,9 @@ rate_limits:
   name: Tidb Rate Limits
   slug: tidb-rate-limits
 rules:
-- name: tidb API Rules
+- effective_rule_count: 6
+  extends: []
+  name: tidb API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -295,14 +298,16 @@ rules:
   slug: tidb-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 33.2
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 75.7
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 74.4
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 38.5
   provenance:
@@ -312,9 +317,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/screenshots/tidb-2026-06-20T195336.png
 security:
 - kind: authentication

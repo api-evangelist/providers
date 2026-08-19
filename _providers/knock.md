@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-17'
+  score: 38.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -235,7 +236,10 @@ rate_limits:
   name: Knock Rate Limits
   slug: knock-rate-limits
 rules:
-- name: Knock API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Knock API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -245,15 +249,17 @@ rules:
   slug: knock-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 29.6
+  delta: -3.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 65.8
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 63.8
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 32.9
   provenance:
     agentic_access: derived
@@ -268,8 +274,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

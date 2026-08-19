@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -144,16 +145,18 @@ rate_limits:
   name: Tipalti Rate Limits
   slug: tipalti-rate-limits
 score:
-  band: thin
+  band: developing
   composite: 40.9
   delta: 0.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 56.8
-    developer_ergonomics: 15.2
+    contract_governance: 0.0
+    contract_quality: 51.1
+    developer_ergonomics: 16.7
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 40.9
   regulatory:
     applies: true
@@ -161,8 +164,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png
 security:

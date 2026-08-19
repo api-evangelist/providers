@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Create, retrieve, revise, and delete metric alarms.
@@ -166,15 +167,17 @@ overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 19
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 43.1
+  delta: -0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 61.2
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 43.5
   provenance:
     conformance: derived
@@ -185,9 +188,10 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/screenshots/pepperdata-2026-08-17T081155.png
 security:
 - kind: authentication
   name: Pepperdata Authentication

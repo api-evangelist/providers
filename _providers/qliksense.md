@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-17'
+  score: 11.5
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -180,20 +181,22 @@ rate_limits:
   name: Qliksense Rate Limits
   slug: qliksense-rate-limits
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: emerging
+  composite: 22.6
+  delta: -8.0
   facets:
-    commercial_clarity: 36.8
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 34.2
   previous_composite: 30.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -305,7 +306,9 @@ rate_limits:
   name: Manhattan Associates Rate Limits
   slug: manhattan-associates-rate-limits
 rules:
-- name: manhattan-associates API Rules
+- effective_rule_count: 6
+  extends: []
+  name: manhattan-associates API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -319,15 +322,17 @@ scopes:
   slug: manhattan-associates-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -7.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 72.9
-    developer_ergonomics: 45.7
+    contract_governance: 9.8
+    contract_quality: 69.7
+    developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 46.9
   provenance:
@@ -337,9 +342,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/screenshots/manhattan-associates-2026-06-20T184920.png
 security:
 - kind: authentication

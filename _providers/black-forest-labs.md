@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -140,13 +141,15 @@ rate_limits:
   slug: black-forest-labs-rate-limits
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 30.1
+  delta: 0.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 56.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
+    contract_governance: 0.0
+    contract_quality: 52.7
+    developer_ergonomics: 23.8
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 29.8
@@ -157,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/screenshots/black-forest-labs-2026-06-20T173409.png
 security:

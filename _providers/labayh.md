@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-17'
+  score: 33.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -217,15 +218,17 @@ overview: 'Labayh publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   Labayh''s developer surface includes support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 29
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 40.6
+  delta: 2.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 67.2
-    developer_ergonomics: 21.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 67.3
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 38.2
   provenance:
@@ -244,8 +247,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 52.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1506,7 +1507,9 @@ rate_limits:
   name: Mediamath Rate Limits
   slug: mediamath-rate-limits
 rules:
-- name: MediaMath API Rules
+- effective_rule_count: 5
+  extends: []
+  name: MediaMath API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1520,27 +1523,32 @@ scopes:
   slug: mediamath-scopes
   summary_line: 2 scopes · authorizationCode/password/clientCredentials
 score:
-  band: exemplar
-  composite: 72.4
-  delta: 24.9
+  band: strong
+  composite: 63.0
+  delta: -9.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 70.7
-    developer_ergonomics: 78.3
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 26.5
+    contract_quality: 71.2
+    developer_ergonomics: 70.8
     discoverability: 87.0
-    governance: 79.2
-    operational_transparency: 63.2
-  previous_composite: 47.5
+    governance: 26.5
+    operational_transparency: 60.5
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 84.1
       derived: 0
       marker_coverage: 0.0
-      total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 44
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:
 - kind: authentication

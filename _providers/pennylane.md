@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -409,15 +409,17 @@ scopes:
   summary_line: 23 scopes
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 65.7
+  delta: 0.3
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 55.3
-    developer_ergonomics: 66.8
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 30.3
+    contract_quality: 51.8
+    developer_ergonomics: 53.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 30.3
+    operational_transparency: 69.7
   previous_composite: 65.4
   provenance:
     agentic_access: derived
@@ -434,10 +436,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 64.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
 security:
 - kind: authentication
   name: Pennylane Authentication

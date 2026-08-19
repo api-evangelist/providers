@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 32.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +197,9 @@ rate_limits:
   name: Starwood Hotels And Resorts Rate Limits
   slug: starwood-hotels-and-resorts-rate-limits
 rules:
-- name: Starwood Hotels and Resorts API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Starwood Hotels and Resorts API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -204,7 +207,10 @@ rules:
     info: 2
     warn: 3
   slug: starwood-hotels-and-resorts-jsonschema-spectral-rules
-- name: Starwood Hotels and Resorts API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Starwood Hotels and Resorts API Rules
   rule_count: 13
   severity_counts:
     error: 4
@@ -213,15 +219,17 @@ rules:
     warn: 9
   slug: starwood-hotels-and-resorts-rules
 score:
-  band: thin
-  composite: 39.4
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -13.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 61.9
-    developer_ergonomics: 10.9
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 58.0
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 39.4
   provenance:
@@ -231,9 +239,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:
 - kind: domain-security

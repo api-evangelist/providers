@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-17'
+  score: 46.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -209,15 +210,17 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 random_paper: 106
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 46.2
+  delta: -1.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 47.0
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 44.1
+    developer_ergonomics: 53.0
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 7.9
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -230,8 +233,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

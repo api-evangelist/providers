@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -297,22 +298,24 @@ rate_limits:
   name: Wunderkind Rate Limits
   slug: wunderkind-rate-limits
 score:
-  band: developing
-  composite: 54.8
-  delta: 2.3
+  band: strong
+  composite: 59.9
+  delta: 5.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 61.7
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 57.6
+    developer_ergonomics: 61.3
     discoverability: 92.6
-    governance: 11.5
+    governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 52.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 83.3
       derived: 0
       marker_coverage: 0.0
       total: 6
@@ -324,9 +327,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/screenshots/wunderkind-2026-08-17T082958.png
 security:
 - kind: authentication
   name: Wunderkind Authentication

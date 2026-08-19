@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The credits API from World Labs — 1 operation(s) for credits.
@@ -96,14 +97,16 @@ overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 121
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 24.6
+  delta: -0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 58.7
-    developer_ergonomics: 19.6
+    contract_governance: 16.7
+    contract_quality: 56.1
+    developer_ergonomics: 19.0
     discoverability: 48.1
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 24.8
   provenance:
@@ -114,8 +117,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 41.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -423,7 +424,9 @@ rate_limits:
   name: Benchmark Email Rate Limits
   slug: benchmark-email-rate-limits
 rules:
-- name: Benchmark Email API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Benchmark Email API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -437,27 +440,32 @@ scopes:
   slug: benchmark-email-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 72.0
-  delta: 20.4
+  band: strong
+  composite: 65.1
+  delta: -6.9
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 78.1
-    developer_ergonomics: 63.0
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 26.5
+    contract_quality: 76.6
+    developer_ergonomics: 69.0
     discoverability: 81.5
-    governance: 79.2
+    governance: 26.5
     operational_transparency: 28.9
-  previous_composite: 51.6
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 96.7
       derived: 0
       marker_coverage: 0.0
-      total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 30
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:
 - kind: authentication

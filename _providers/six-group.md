@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -286,16 +287,18 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 27 more developer resources.'
 random_paper: 48
 score:
-  band: developing
-  composite: 51.0
-  delta: 0.0
+  band: strong
+  composite: 56.4
+  delta: 5.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.8
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 61.4
+    developer_ergonomics: 63.7
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 47.4
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 51.0
   provenance:
     conformance: first-party
@@ -311,10 +314,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 39.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 55.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:
 - kind: authentication

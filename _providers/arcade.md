@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -531,7 +532,10 @@ rate_limits:
   name: Arcade Rate Limits
   slug: arcade-rate-limits
 rules:
-- name: Arcade API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Arcade API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -539,7 +543,9 @@ rules:
     info: 1
     warn: 4
   slug: arcade-engine-rules
-- name: Arcade API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Arcade API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -549,15 +555,17 @@ rules:
   slug: arcade-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 61.3
+  delta: 3.7
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 73.2
-    developer_ergonomics: 32.6
-    discoverability: 66.7
-    governance: 37.5
-    operational_transparency: 36.8
+    contract_governance: 69.7
+    contract_quality: 74.2
+    developer_ergonomics: 35.7
+    discoverability: 59.3
+    governance: 69.7
+    operational_transparency: 34.2
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -566,8 +574,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/screenshots/arcade-2026-06-20T172354.png
 security:

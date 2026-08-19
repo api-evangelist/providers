@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -345,7 +346,9 @@ rate_limits:
   name: Avaloq Rate Limits
   slug: avaloq-rate-limits
 rules:
-- name: Avaloq API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Avaloq API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -353,7 +356,10 @@ rules:
     info: 2
     warn: 3
   slug: avaloq-jsonschema-spectral-rules
-- name: Avaloq API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: Avaloq API Rules
   rule_count: 33
   severity_counts:
     error: 9
@@ -363,15 +369,17 @@ rules:
   slug: avaloq-spectral-rules
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 35.5
+  delta: -5.3
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 70.3
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 65.9
+    developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.8
   provenance:
     agentic_access: derived
@@ -386,9 +394,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:
 - kind: authentication

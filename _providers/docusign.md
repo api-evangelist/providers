@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 44.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -1595,7 +1595,10 @@ rate_limits:
   name: Docusign Rate Limits
   slug: docusign-rate-limits
 rules:
-- name: Docusign API Rules
+- effective_rule_count: 37
+  extends:
+  - spectral:asyncapi
+  name: Docusign API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -1603,7 +1606,9 @@ rules:
     info: 1
     warn: 8
   slug: docusign-asyncapi-spectral-rules
-- name: Docusign API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Docusign API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1611,7 +1616,10 @@ rules:
     info: 2
     warn: 4
   slug: docusign-jsonschema-spectral-rules
-- name: Docusign API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Docusign API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -1626,14 +1634,16 @@ scopes:
   summary_line: 13 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 58.1
+  delta: -5.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 80.2
-    developer_ergonomics: 63.0
+    contract_governance: 13.6
+    contract_quality: 77.3
+    developer_ergonomics: 59.5
     discoverability: 59.3
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 55.3
   previous_composite: 63.6
   provenance:
@@ -1643,9 +1653,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 128
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:
 - kind: authentication

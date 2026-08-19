@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-17'
+  score: 47.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -244,15 +245,17 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 50.1
+  delta: -2.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 61.8
-    developer_ergonomics: 62.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 16.7
+    contract_quality: 60.0
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 39.5
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -264,9 +267,10 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/screenshots/zippykid-2026-08-17T083111.png
 security:
 - kind: authentication
   name: Zippykid Authentication

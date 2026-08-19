@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: 'The GalaChain asset-channel token contract, exposed over REST by the GalaChain Gateway. Covers fungible and non-fungible token classes, balances, allowances, minting, burning, locking, transfers, NFT '
@@ -189,22 +190,37 @@ rate_limits:
   slug: gala-games-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 43.3
+  delta: -3.0
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 48.5
-    developer_ergonomics: 78.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 16.7
+    contract_quality: 49.3
+    developer_ergonomics: 70.8
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 42.1
+    governance: 16.7
+    operational_transparency: 39.5
+  previous_composite: 46.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:
 - kind: authentication
   name: Gala Games Authentication

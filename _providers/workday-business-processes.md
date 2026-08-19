@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 37.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -244,7 +245,9 @@ rate_limits:
   name: Workday Business Processes Rate Limits
   slug: workday-business-processes-rate-limits
 rules:
-- name: Workday Business Processes API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Workday Business Processes API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +255,10 @@ rules:
     info: 2
     warn: 3
   slug: workday-business-processes-jsonschema-spectral-rules
-- name: Workday Business Processes API Rules
+- effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Workday Business Processes API Rules
   rule_count: 44
   severity_counts:
     error: 8
@@ -267,15 +273,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 31.5
+  delta: -8.5
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 31.7
-    developer_ergonomics: 34.8
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 25.0
+    contract_quality: 29.9
+    developer_ergonomics: 38.1
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 18.4
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 40.0
   provenance:
     agentic_access: derived
@@ -284,9 +292,13 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/screenshots/workday-business-processes-2026-06-20T201558.png
 security:
 - kind: authentication

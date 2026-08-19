@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
@@ -139,20 +140,22 @@ rate_limits:
   name: Nutrient Io Rate Limits
   slug: nutrient-io-rate-limits
 score:
-  band: thin
-  composite: 31.2
-  delta: 0.0
+  band: emerging
+  composite: 23.9
+  delta: -7.3
   facets:
-    commercial_clarity: 68.4
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 35.7
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 10.5
   previous_composite: 31.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrient-io/refs/heads/main/screenshots/nutrient-io-2026-06-20T190530.png
 security:
 - kind: domain-security

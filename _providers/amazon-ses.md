@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-17'
+  score: 55.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -458,7 +459,9 @@ rate_limits:
   name: Amazon Ses Rate Limits
   slug: amazon-ses-rate-limits
 rules:
-- name: Amazon SES API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Amazon SES API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -466,7 +469,10 @@ rules:
     info: 1
     warn: 3
   slug: amazon-ses-jsonschema-spectral-rules
-- name: Amazon SES API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon SES API Rules
   rule_count: 22
   severity_counts:
     error: 8
@@ -476,26 +482,31 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: 26.8
+  composite: 77.9
+  delta: 2.3
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 67.1
-    developer_ergonomics: 91.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 55.3
+    contract_quality: 63.5
+    developer_ergonomics: 90.5
     discoverability: 63.0
-    governance: 89.6
-    operational_transparency: 63.2
-  previous_composite: 48.8
+    governance: 55.3
+    operational_transparency: 84.2
+  previous_composite: 75.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:
 - kind: authentication

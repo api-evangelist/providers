@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The ICAO API Data Service provides programmatic access to authoritative civil aviation data published by ICAO, with continuously updated endpoints across six data areas. An API key is required and res
@@ -117,18 +118,20 @@ rate_limits:
   slug: icao-rate-limits
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 17.9
+  delta: -1.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 21.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 0.0
+    contract_quality: 1.4
+    developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/screenshots/icao-2026-06-20T183144.png
 security:

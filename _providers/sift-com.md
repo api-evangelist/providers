@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -401,7 +402,9 @@ rate_limits:
   name: Sift Com Rate Limits
   slug: sift-com-rate-limits
 rules:
-- name: Sift API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Sift API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -409,7 +412,10 @@ rules:
     info: 1
     warn: 3
   slug: sift-com-jsonschema-spectral-rules
-- name: Sift API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Sift API Rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -419,14 +425,16 @@ rules:
   slug: sift-com-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 67.0
+  delta: -4.9
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 71.4
-    developer_ergonomics: 78.3
+    contract_governance: 25.0
+    contract_quality: 66.9
+    developer_ergonomics: 85.7
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 68.4
   previous_composite: 71.9
   provenance:
@@ -436,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/heads/main/screenshots/sift-com-2026-06-20T193904.png
 security:

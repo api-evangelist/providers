@@ -20,16 +20,17 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-17'
+  score: 50.3
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Create physical gift, direct mail and eGift sends against Sendoso campaigns, and read the campaigns, users and team groups behind them. Ten operations on /api/v3.
@@ -254,7 +255,9 @@ rate_limits:
   name: Sendoso Rate Limits
   slug: sendoso-rate-limits
 rules:
-- name: Sendoso API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sendoso API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -262,7 +265,10 @@ rules:
     info: 1
     warn: 4
   slug: sendoso-jsonschema-spectral-rules
-- name: Sendoso API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Sendoso API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -277,26 +283,30 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.7
-  delta: 11.3
+  composite: 54.6
+  delta: -11.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.0
-    developer_ergonomics: 73.9
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 41.7
+    contract_quality: 30.0
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 18.4
-  previous_composite: 54.4
+    governance: 41.7
+    operational_transparency: 31.6
+  previous_composite: 65.7
   provenance:
-    agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -991,7 +992,9 @@ rate_limits:
   name: Amazon Entity Resolution Rate Limits
   slug: amazon-entity-resolution-rate-limits
 rules:
-- name: Amazon Entity Resolution API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Entity Resolution API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -999,7 +1002,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-entity-resolution-jsonschema-spectral-rules
-- name: Amazon Entity Resolution API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Entity Resolution API Rules
   rule_count: 25
   severity_counts:
     error: 10
@@ -1009,15 +1015,17 @@ rules:
   slug: amazon-entity-resolution-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 57.9
+  delta: -5.9
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 79.9
-    developer_ergonomics: 45.7
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 80.4
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 63.8
   provenance:
     agentic_access: derived
@@ -1026,9 +1034,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
 security:
 - kind: authentication

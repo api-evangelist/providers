@@ -13,11 +13,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -182,19 +182,31 @@ rate_limits:
   slug: insightera-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 29.3
+  composite: 30.6
+  delta: -5.0
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 44.0
-    developer_ergonomics: 45.7
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 46.9
+    developer_ergonomics: 30.4
     discoverability: 87.0
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 6.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 35.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/screenshots/insightera-2026-08-07T170722.png
 security:
 - kind: authentication

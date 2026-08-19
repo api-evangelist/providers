@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -163,19 +164,21 @@ rate_limits:
   slug: ground-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 5.8
+  composite: 20.3
+  delta: 0.1
   facets:
+    access_clarity: 65.8
     commercial_clarity: 65.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 20.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ground/refs/heads/main/screenshots/ground-2026-07-25T220344.png
 security:
 - kind: domain-security

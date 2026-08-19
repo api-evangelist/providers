@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -272,24 +273,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.8
-  delta: 12.7
+  composite: 60.9
+  delta: 3.1
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 56.6
-    developer_ergonomics: 51.6
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 30.3
+    contract_quality: 54.8
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 68.4
-  previous_composite: 45.1
+    governance: 30.3
+    operational_transparency: 50.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -298,9 +301,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:
 - kind: authentication

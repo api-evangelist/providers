@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -308,16 +309,18 @@ scopes:
   slug: up-bank-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 50.4
-  delta: 0.0
+  band: strong
+  composite: 55.9
+  delta: 5.5
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 60.0
-    developer_ergonomics: 49.5
+    contract_governance: 16.7
+    contract_quality: 57.9
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 31.6
+    governance: 16.7
+    operational_transparency: 28.9
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -334,10 +337,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 78.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:
 - kind: authentication

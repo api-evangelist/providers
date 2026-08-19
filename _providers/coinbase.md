@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -569,7 +570,10 @@ rate_limits:
   name: Coinbase Rate Limits
   slug: coinbase-rate-limits
 rules:
-- name: Coinbase API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Coinbase API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -577,7 +581,9 @@ rules:
     info: 0
     warn: 7
   slug: coinbase-asyncapi-spectral-rules
-- name: Coinbase API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Coinbase API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -585,7 +591,10 @@ rules:
     info: 1
     warn: 5
   slug: coinbase-jsonschema-spectral-rules
-- name: Coinbase API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Coinbase API Rules
   rule_count: 12
   severity_counts:
     error: 5
@@ -595,14 +604,16 @@ rules:
   slug: coinbase-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 45.7
+  delta: -5.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 76.6
-    developer_ergonomics: 39.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 11.4
+    contract_quality: 73.7
+    developer_ergonomics: 42.9
     discoverability: 66.7
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 13.2
   previous_composite: 51.0
   provenance:
@@ -617,10 +628,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:
 - kind: authentication

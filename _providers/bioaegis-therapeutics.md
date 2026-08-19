@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
@@ -242,15 +243,17 @@ overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis
   BioAegis Therapeutics'' developer surface includes FAQ, product news, support, YouTube channel, authentication, and 28 more developer resources.'
 random_paper: 91
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: developing
+  composite: 41.3
+  delta: 9.3
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 60.0
-    developer_ergonomics: 16.8
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 56.4
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 32.0
   provenance:
@@ -267,9 +270,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Calls API from Veritus — 2 operation(s) for calls.
@@ -163,15 +164,17 @@ overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 41
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.5
+  delta: -2.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.7
-    developer_ergonomics: 32.1
+    contract_governance: 16.7
+    contract_quality: 59.3
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 44.7
   provenance:
     conformance: derived
@@ -182,9 +185,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/screenshots/veritus-2026-08-17T082732.png
 security:
 - kind: authentication
   name: Veritus Authentication

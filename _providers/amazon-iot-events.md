@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1511,7 +1512,9 @@ rate_limits:
   name: Amazon Iot Events Rate Limits
   slug: amazon-iot-events-rate-limits
 rules:
-- name: Amazon IoT Events API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon IoT Events API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1519,7 +1522,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-iot-events-jsonschema-spectral-rules
-- name: Amazon IoT Events API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Amazon IoT Events API Rules
   rule_count: 19
   severity_counts:
     error: 8
@@ -1528,16 +1534,18 @@ rules:
     warn: 9
   slug: amazon-iot-events-spectral-rules
 score:
-  band: strong
-  composite: 56.6
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -7.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 70.6
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.6
   provenance:
     agentic_access: derived
@@ -1546,9 +1554,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:
 - kind: authentication

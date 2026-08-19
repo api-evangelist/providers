@@ -11,25 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-17'
+  score: 36.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -573,7 +573,10 @@ rate_limits:
   name: Athenahealth Rate Limits
   slug: athenahealth-rate-limits
 rules:
-- name: athenahealth API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: athenahealth API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -581,7 +584,9 @@ rules:
     info: 1
     warn: 4
   slug: athenahealth-asyncapi-spectral-rules
-- name: athenahealth API Rules
+- effective_rule_count: 5
+  extends: []
+  name: athenahealth API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -589,7 +594,10 @@ rules:
     info: 1
     warn: 4
   slug: athenahealth-jsonschema-spectral-rules
-- name: athenahealth API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: athenahealth API Rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -604,25 +612,37 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 75.2
-  delta: 40.3
+  composite: 77.2
+  delta: 2.0
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 78.4
-    developer_ergonomics: 80.4
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 59.1
+    contract_quality: 77.8
+    developer_ergonomics: 73.2
     discoverability: 57.4
-    governance: 79.2
-    operational_transparency: 44.7
-  previous_composite: 34.9
+    governance: 59.1
+    operational_transparency: 42.1
+  previous_composite: 75.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 82.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:
 - kind: authentication

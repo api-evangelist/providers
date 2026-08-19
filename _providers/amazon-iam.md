@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -421,7 +422,9 @@ rate_limits:
   name: Amazon Iam Rate Limits
   slug: amazon-iam-rate-limits
 rules:
-- name: Amazon IAM API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon IAM API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -429,7 +432,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-iam-jsonschema-spectral-rules
-- name: Amazon IAM API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon IAM API Rules
   rule_count: 25
   severity_counts:
     error: 9
@@ -438,16 +444,18 @@ rules:
     warn: 13
   slug: amazon-iam-spectral-rules
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: -6.9
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 70.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 67.7
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -456,9 +464,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
 security:
 - kind: authentication

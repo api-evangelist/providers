@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -481,7 +482,9 @@ rate_limits:
   name: Canvas Medical Rate Limits
   slug: canvas-medical-rate-limits
 rules:
-- name: Canvas Medical API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Canvas Medical API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -496,32 +499,37 @@ scopes:
   summary_line: 20 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 73.7
-  delta: 22.7
+  composite: 70.5
+  delta: -3.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 77.4
-    developer_ergonomics: 78.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 40.2
+    contract_quality: 75.1
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 79.2
-    operational_transparency: 57.9
-  previous_composite: 51.0
+    governance: 40.2
+    operational_transparency: 42.1
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 28
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 82.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png
 security:
 - kind: authentication

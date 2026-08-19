@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -212,7 +213,9 @@ rate_limits:
   name: Amazon Lakeformation Rate Limits
   slug: amazon-lakeformation-rate-limits
 rules:
-- name: AWS Lake Formation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AWS Lake Formation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,7 +223,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-lakeformation-jsonschema-spectral-rules
-- name: AWS Lake Formation API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: AWS Lake Formation API Rules
   rule_count: 23
   severity_counts:
     error: 9
@@ -229,16 +235,18 @@ rules:
     warn: 14
   slug: amazon-lakeformation-spectral-rules
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: -7.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.9
-    developer_ergonomics: 43.5
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 69.2
+    developer_ergonomics: 47.6
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 57.4
   provenance:
     agentic_access: derived
@@ -247,9 +255,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/screenshots/amazon-lakeformation-2026-06-20T171721.png
 security:
 - kind: authentication

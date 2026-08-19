@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Connections API from Prophecy.io — 2 operation(s) for connections.
@@ -206,15 +207,17 @@ overview: 'Prophecy.io publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 47
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 42.8
+  delta: -6.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 47.0
-    developer_ergonomics: 69.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 16.7
+    contract_quality: 46.7
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 48.8
   provenance:
     conformance: derived
@@ -225,9 +228,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/screenshots/prophecyio-2026-08-17T081352.png
 security:
 - kind: authentication
   name: Prophecyio Authentication

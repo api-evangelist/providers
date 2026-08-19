@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-17'
+  score: 30.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
@@ -142,14 +143,16 @@ overview: 'Provable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 114
 score:
   band: developing
-  composite: 42.3
-  delta: 0.0
+  composite: 40.1
+  delta: -2.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 51.6
-    developer_ergonomics: 45.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 24.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 23.7
   previous_composite: 42.3
   provenance:
@@ -161,10 +164,11 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 63.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/screenshots/provable-2026-08-17T081404.png
 security:
 - kind: authentication
   name: Provable Authentication

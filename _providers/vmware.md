@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -1047,7 +1048,9 @@ rate_limits:
   name: Vmware Rate Limits
   slug: vmware-rate-limits
 rules:
-- name: VMware API Rules
+- effective_rule_count: 5
+  extends: []
+  name: VMware API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1055,7 +1058,10 @@ rules:
     info: 1
     warn: 4
   slug: vmware-jsonschema-spectral-rules
-- name: VMware API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: VMware API Rules
   rule_count: 14
   severity_counts:
     error: 8
@@ -1065,15 +1071,17 @@ rules:
   slug: vmware-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 45.5
+  delta: -9.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 67.5
-    developer_ergonomics: 52.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 63.6
+    developer_ergonomics: 50.0
     discoverability: 40.7
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -1082,9 +1090,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:
 - kind: authentication

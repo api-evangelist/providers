@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 62.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -746,16 +747,18 @@ scopes:
   slug: infobip-scopes
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 65.4
-  delta: 0.0
+  band: exemplar
+  composite: 71.5
+  delta: 6.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 66.2
-    developer_ergonomics: 79.9
+    contract_governance: 30.3
+    contract_quality: 66.0
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 71.1
+    governance: 30.3
+    operational_transparency: 68.4
   previous_composite: 65.4
   provenance:
     agentic_access: derived
@@ -772,10 +775,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 93.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:
 - kind: authentication

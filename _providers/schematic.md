@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -300,7 +301,9 @@ rate_limits:
   name: Schematic Rate Limits
   slug: schematic-rate-limits
 rules:
-- name: Schematic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Schematic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -308,7 +311,10 @@ rules:
     info: 2
     warn: 4
   slug: schematic-jsonschema-spectral-rules
-- name: Schematic API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Schematic API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -318,15 +324,17 @@ rules:
   slug: schematic-rules
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 40.3
+  delta: -8.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 71.5
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 71.4
+    developer_ergonomics: 31.0
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 49.2
   provenance:
     agentic_access: derived
@@ -335,9 +343,9 @@ score:
       derived: 0
       marker_coverage: 4.8
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png
 security:
 - kind: authentication

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -210,7 +211,9 @@ rate_limits:
   name: Chargedesk Rate Limits
   slug: chargedesk-rate-limits
 rules:
-- name: ChargeDesk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ChargeDesk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,14 +223,16 @@ rules:
   slug: chargedesk-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 42.4
+  delta: -3.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 62.8
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 63.4
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 45.5
   provenance:
@@ -243,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:

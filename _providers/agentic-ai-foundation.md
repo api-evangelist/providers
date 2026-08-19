@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems including data sources, tools, and workflows. Originally developed by Anthropic and donat
@@ -158,7 +159,9 @@ rate_limits:
   name: Agentic Ai Foundation Rate Limits
   slug: agentic-ai-foundation-rate-limits
 rules:
-- name: Agentic AI Foundation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agentic AI Foundation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,19 +171,21 @@ rules:
   slug: agentic-ai-foundation-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 27.9
-  delta: 0.0
+  composite: 21.7
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 12.9
-    developer_ergonomics: 17.4
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 19.0
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 27.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:
 - kind: domain-security

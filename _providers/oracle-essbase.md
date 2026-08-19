@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -466,7 +467,9 @@ rate_limits:
   name: Oracle Essbase Rate Limits
   slug: oracle-essbase-rate-limits
 rules:
-- name: Oracle Essbase API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Oracle Essbase API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -475,16 +478,18 @@ rules:
     warn: 4
   slug: oracle-essbase-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -6.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 72.4
-    developer_ergonomics: 50.0
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 9.8
+    contract_quality: 72.1
+    developer_ergonomics: 54.8
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -493,9 +498,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:
 - kind: authentication

@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-17'
+  score: 19.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
@@ -193,16 +194,18 @@ rate_limits:
   name: Openapi Generator Rate Limits
   slug: openapi-generator-rate-limits
 score:
-  band: thin
-  composite: 40.1
-  delta: 0.0
+  band: developing
+  composite: 40.7
+  delta: 0.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 46.3
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 45.5
+    developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 23.7
   previous_composite: 40.1
   provenance:
     conformance: derived
@@ -213,8 +216,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

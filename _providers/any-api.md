@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: APILayer (formerly Any-API) is a curated marketplace of reliable and scalable APIs for developers. Offers a unified dashboard, single billing subscription, API sandboxing, SDK generation, and monitori
@@ -95,19 +96,21 @@ rate_limits:
   slug: any-api-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 15.1
+  delta: -6.1
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/any-api/refs/heads/main/screenshots/any-api-2026-06-20T172031.png
 security:
 - kind: domain-security

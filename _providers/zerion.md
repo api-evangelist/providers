@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -303,15 +304,17 @@ rate_limits:
   name: Zerion Rate Limits
   slug: zerion-rate-limits
 score:
-  band: strong
-  composite: 62.4
-  delta: 0.0
+  band: exemplar
+  composite: 67.0
+  delta: 4.6
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 70.8
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 68.4
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 68.4
   previous_composite: 62.4
   provenance:
@@ -330,9 +333,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/screenshots/zerion-2026-08-17T083053.png
 security:
 - kind: authentication
   name: Zerion Authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 21.9
+  scored_at: '2026-08-19'
 api_count: 40
 apis:
 - description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
@@ -354,7 +355,9 @@ rate_limits:
   name: Thespacedevs Ll2 Api Rate Limits
   slug: thespacedevs-ll2-api-rate-limits
 rules:
-- name: TheSpaceDevs LL2 API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TheSpaceDevs LL2 API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -362,7 +365,9 @@ rules:
     info: 1
     warn: 4
   slug: thespacedevs-ll2-api-jsonschema-spectral-rules
-- name: TheSpaceDevs LL2 API API Rules
+- effective_rule_count: 9
+  extends: []
+  name: TheSpaceDevs LL2 API API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -372,14 +377,16 @@ rules:
   slug: thespacedevs-rules
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 30.9
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 63.2
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 60.6
+    developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 37.1
   provenance:
@@ -388,9 +395,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:
 - kind: domain-security

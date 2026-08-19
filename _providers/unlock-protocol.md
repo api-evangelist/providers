@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 38.6
+  scored_at: '2026-08-19'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -384,15 +385,17 @@ overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 89
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 50.9
+  delta: 2.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 59.0
-    developer_ergonomics: 69.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 55.6
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 34.2
+    governance: 30.3
+    operational_transparency: 31.6
   previous_composite: 48.8
   provenance:
     conformance: first-party
@@ -409,9 +412,10 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
 security:
 - kind: authentication
   name: Unlock Protocol Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -502,7 +503,9 @@ rate_limits:
   name: Dolby Io Rate Limits
   slug: dolby-io-rate-limits
 rules:
-- name: Dolby.io API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Dolby.io API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -510,7 +513,10 @@ rules:
     info: 2
     warn: 4
   slug: dolby-io-jsonschema-spectral-rules
-- name: Dolby.io API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Dolby.io API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -519,16 +525,18 @@ rules:
     warn: 5
   slug: dolby-io-rules
 score:
-  band: exemplar
-  composite: 76.2
-  delta: 0.0
+  band: strong
+  composite: 64.8
+  delta: -11.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 65.6
-    developer_ergonomics: 73.9
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 26.5
+    contract_quality: 66.5
+    developer_ergonomics: 78.6
     discoverability: 83.3
-    governance: 69.8
-    operational_transparency: 76.3
+    governance: 26.5
+    operational_transparency: 57.9
   previous_composite: 76.2
   provenance:
     agentic_access: derived
@@ -539,9 +547,9 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:
 - kind: authentication

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1118,7 +1118,10 @@ rate_limits:
   name: Woocommerce Rate Limits
   slug: woocommerce-rate-limits
 rules:
-- name: WooCommerce API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: WooCommerce API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1126,7 +1129,9 @@ rules:
     info: 0
     warn: 6
   slug: woocommerce-asyncapi-spectral-rules
-- name: WooCommerce API Rules
+- effective_rule_count: 6
+  extends: []
+  name: WooCommerce API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1134,7 +1139,10 @@ rules:
     info: 1
     warn: 5
   slug: woocommerce-jsonschema-spectral-rules
-- name: WooCommerce API Rules
+- effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: WooCommerce API Rules
   rule_count: 45
   severity_counts:
     error: 12
@@ -1144,15 +1152,17 @@ rules:
   slug: woocommerce-spectral-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 50.4
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 82.9
-    developer_ergonomics: 65.2
+    contract_governance: 26.5
+    contract_quality: 82.2
+    developer_ergonomics: 61.9
     discoverability: 66.7
-    governance: 52.1
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 34.2
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -1161,9 +1171,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:
 - kind: authentication

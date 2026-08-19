@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -322,16 +323,18 @@ overview: 'Lex Machina publishes 21 APIs on the [APIs.io](https://apis.io/) netw
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
 random_paper: 52
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 34.6
+  delta: -8.2
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 61.7
-    developer_ergonomics: 41.3
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -345,10 +348,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 57.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 40.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:
 - kind: authentication

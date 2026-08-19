@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -292,7 +293,9 @@ rate_limits:
   name: Amazon Opensearch Service Rate Limits
   slug: amazon-opensearch-service-rate-limits
 rules:
-- name: Amazon OpenSearch Service API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon OpenSearch Service API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -300,7 +303,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-opensearch-service-jsonschema-spectral-rules
-- name: Amazon OpenSearch Service API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon OpenSearch Service API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -310,15 +316,17 @@ rules:
   slug: amazon-opensearch-service-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 54.9
+  delta: -5.7
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 71.3
-    developer_ergonomics: 54.3
+    contract_governance: 25.0
+    contract_quality: 66.9
+    developer_ergonomics: 59.5
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -327,9 +335,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/screenshots/amazon-opensearch-service-2026-06-20T171751.png
 security:
 - kind: authentication

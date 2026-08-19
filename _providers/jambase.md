@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -257,7 +258,9 @@ rate_limits:
   name: Jambase Rate Limits
   slug: jambase-rate-limits
 rules:
-- name: JamBase API Rules
+- effective_rule_count: 6
+  extends: []
+  name: JamBase API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -266,15 +269,17 @@ rules:
     warn: 3
   slug: jambase-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 49.5
+  delta: -7.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 74.0
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 71.1
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 31.6
   previous_composite: 57.0
   provenance:
@@ -284,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/screenshots/jambase-2026-06-20T183655.png
 security:
 - kind: authentication

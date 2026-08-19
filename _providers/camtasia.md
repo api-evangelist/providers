@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -215,7 +216,9 @@ rate_limits:
   name: Camtasia Rate Limits
   slug: camtasia-rate-limits
 rules:
-- name: Camtasia API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Camtasia API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,15 +227,17 @@ rules:
     warn: 3
   slug: camtasia-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 37.1
+  delta: -8.0
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 66.4
-    developer_ergonomics: 28.3
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 65.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 45.1
   provenance:
@@ -242,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/screenshots/camtasia-2026-06-20T173915.png
 security:
 - kind: authentication

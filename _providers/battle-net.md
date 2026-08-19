@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -388,7 +389,9 @@ rate_limits:
   name: Battle Net Rate Limits
   slug: battle-net-rate-limits
 rules:
-- name: Battle.net API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Battle.net API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -396,7 +399,10 @@ rules:
     info: 2
     warn: 3
   slug: battle-net-jsonschema-spectral-rules
-- name: Battle.net API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Battle.net API Rules
   rule_count: 37
   severity_counts:
     error: 14
@@ -411,15 +417,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 26.7
+  delta: -12.8
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 31.0
-    developer_ergonomics: 54.3
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 25.0
+    contract_quality: 29.0
+    developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -428,9 +436,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/screenshots/battle-net-2026-06-20T173043.png
 security:
 - kind: authentication

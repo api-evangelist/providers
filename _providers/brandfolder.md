@@ -11,25 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -223,19 +223,31 @@ rate_limits:
   slug: brandfolder-rate-limits
 score:
   band: strong
-  composite: 63.0
-  delta: 30.4
+  composite: 55.4
+  delta: -7.6
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 68.6
-    developer_ergonomics: 58.7
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 16.7
+    contract_quality: 69.9
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 47.4
-  previous_composite: 32.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 28.9
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
 security:
 - kind: authentication

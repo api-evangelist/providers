@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -202,7 +203,9 @@ rate_limits:
   name: Visa Acceptance Rate Limits
   slug: visa-acceptance-rate-limits
 rules:
-- name: Visa Acceptance API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Visa Acceptance API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,7 +213,10 @@ rules:
     info: 2
     warn: 3
   slug: visa-acceptance-jsonschema-spectral-rules
-- name: Visa Acceptance API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Visa Acceptance API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -220,15 +226,17 @@ rules:
   slug: visa-acceptance-rules
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 36.8
+  delta: -4.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 68.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 64.9
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 41.3
   provenance:
     agentic_access: derived
@@ -243,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
 security:

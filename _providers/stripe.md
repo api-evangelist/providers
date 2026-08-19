@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-17'
+  score: 58.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1659,7 +1660,7 @@ common:
   url: https://dashboard.stripe.com/login
 - group: build
   title: ''
-  type: Code Samples
+  type: CodeExamples
   url: https://docs.stripe.com/samples
 - group: auth
   title: ''
@@ -1898,7 +1899,10 @@ rate_limits:
   name: Stripe Rate Limits
   slug: stripe-rate-limits
 rules:
-- name: Stripe API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Stripe API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -1906,7 +1910,9 @@ rules:
     info: 0
     warn: 7
   slug: stripe-asyncapi-spectral-rules
-- name: Stripe API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stripe API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1914,7 +1920,10 @@ rules:
     info: 1
     warn: 4
   slug: stripe-jsonschema-spectral-rules
-- name: Stripe API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Stripe API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -1929,14 +1938,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 75.6
-  delta: 0.0
+  composite: 82.8
+  delta: 7.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 73.8
-    developer_ergonomics: 95.1
+    contract_governance: 43.2
+    contract_quality: 73.4
+    developer_ergonomics: 94.6
     discoverability: 59.3
-    governance: 63.5
+    governance: 43.2
     operational_transparency: 76.3
   previous_composite: 75.6
   provenance:
@@ -1954,11 +1965,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
+    score: 93.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png
 security:
 - kind: authentication
   name: Stripe Authentication

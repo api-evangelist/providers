@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -191,15 +192,17 @@ rate_limits:
   slug: synfutures-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 35.8
+  delta: -2.4
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 56.7
-    developer_ergonomics: 56.0
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 53.1
+    developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 26.3
+    governance: 4.5
+    operational_transparency: 23.7
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -217,8 +220,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

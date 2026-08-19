@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-17'
+  score: 26.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,7 +271,9 @@ rate_limits:
   name: Studio Ghibli Rate Limits
   slug: studio-ghibli-rate-limits
 rules:
-- name: Studio Ghibli API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Studio Ghibli API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +281,10 @@ rules:
     info: 1
     warn: 4
   slug: studio-ghibli-jsonschema-spectral-rules
-- name: Studio Ghibli API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Studio Ghibli API Rules
   rule_count: 23
   severity_counts:
     error: 5
@@ -288,14 +294,16 @@ rules:
   slug: studio-ghibli-rules
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 27.9
+  delta: -5.4
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 27.4
-    developer_ergonomics: 15.2
+    contract_governance: 25.0
+    contract_quality: 25.9
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 33.3
   provenance:
@@ -305,9 +313,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:
 - kind: domain-security

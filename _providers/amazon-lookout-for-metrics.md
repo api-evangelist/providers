@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -2490,7 +2491,9 @@ rate_limits:
   name: Amazon Lookout For Metrics Rate Limits
   slug: amazon-lookout-for-metrics-rate-limits
 rules:
-- name: Amazon Lookout for Metrics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Lookout for Metrics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2498,7 +2501,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-lookout-for-metrics-jsonschema-spectral-rules
-- name: Amazon Lookout for Metrics API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Amazon Lookout for Metrics API Rules
   rule_count: 29
   severity_counts:
     error: 8
@@ -2507,16 +2513,18 @@ rules:
     warn: 16
   slug: amazon-lookout-for-metrics-spectral-rules
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 45.7
+  delta: -10.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 71.3
+    developer_ergonomics: 31.0
     discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.2
   provenance:
     agentic_access: derived
@@ -2525,9 +2533,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:
 - kind: authentication

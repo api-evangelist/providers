@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -208,7 +209,9 @@ rate_limits:
   name: Jupyterlab Rate Limits
   slug: jupyterlab-rate-limits
 rules:
-- name: JupyterLab API Rules
+- effective_rule_count: 5
+  extends: []
+  name: JupyterLab API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -217,16 +220,18 @@ rules:
     warn: 4
   slug: jupyterlab-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.6
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -7.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 67.2
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 44.6
   provenance:
     agentic_access: derived
@@ -235,9 +240,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/screenshots/jupyterlab-2026-06-20T183842.png
 security:
 - kind: authentication

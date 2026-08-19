@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: JSON Schema for validating Apache Avro schema definitions. Covers all Avro types including primitive types (null, boolean, int, long, float, double, bytes, string), complex types (records, enums, arra
@@ -123,7 +124,9 @@ rate_limits:
   name: Avro Rate Limits
   slug: avro-rate-limits
 rules:
-- name: Apache Avro API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Apache Avro API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -131,7 +134,9 @@ rules:
     info: 1
     warn: 5
   slug: avro-jsonschema-spectral-rules
-- name: Apache Avro API Rules
+- effective_rule_count: 15
+  extends: []
+  name: Apache Avro API Rules
   rule_count: 15
   severity_counts:
     error: 9
@@ -141,19 +146,21 @@ rules:
   slug: avro-spectral-rules
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 17.5
+  delta: -5.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 8.5
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 23.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avro/refs/heads/main/screenshots/avro-2026-06-20T172729.png
 security:
 - kind: domain-security

@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -272,32 +273,37 @@ rate_limits:
   slug: postscript-rate-limits
 score:
   band: strong
-  composite: 63.6
-  delta: 22.4
+  composite: 65.5
+  delta: 1.9
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 72.7
-    developer_ergonomics: 73.9
+    access_clarity: 96.1
+    commercial_clarity: 96.1
+    contract_governance: 16.7
+    contract_quality: 70.8
+    developer_ergonomics: 41.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 55.3
-  previous_composite: 41.2
+    governance: 16.7
+    operational_transparency: 59.2
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 46.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/screenshots/postscript-2026-06-20T192017.png
 security:
 - kind: authentication

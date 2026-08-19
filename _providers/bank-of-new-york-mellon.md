@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -320,7 +321,9 @@ rate_limits:
   name: Bank Of New York Mellon Rate Limits
   slug: bank-of-new-york-mellon-rate-limits
 rules:
-- name: BNY Mellon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BNY Mellon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,7 +331,10 @@ rules:
     info: 2
     warn: 3
   slug: bank-of-new-york-mellon-jsonschema-spectral-rules
-- name: BNY Mellon API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: BNY Mellon API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -336,7 +342,9 @@ rules:
     info: 1
     warn: 9
   slug: bank-of-new-york-mellon-spectral-rules
-- name: BNY Mellon API Rules
+- effective_rule_count: 16
+  extends: []
+  name: BNY Mellon API Rules
   rule_count: 16
   severity_counts:
     error: 10
@@ -350,16 +358,18 @@ scopes:
   slug: bank-of-new-york-mellon-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -7.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 67.2
-    developer_ergonomics: 21.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 62.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -373,10 +383,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 48.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:
 - kind: authentication

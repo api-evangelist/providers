@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 44.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -207,7 +207,9 @@ rate_limits:
   name: Zamzar Rate Limits
   slug: zamzar-rate-limits
 rules:
-- name: Zamzar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zamzar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -217,14 +219,16 @@ rules:
   slug: zamzar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 42.1
+  delta: -6.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.3
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 64.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 48.3
   provenance:
@@ -234,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/screenshots/zamzar-2026-06-20T201800.png
 security:
 - kind: authentication

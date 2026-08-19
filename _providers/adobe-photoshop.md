@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 42.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -610,7 +610,10 @@ rate_limits:
   name: Adobe Photoshop Rate Limits
   slug: adobe-photoshop-rate-limits
 rules:
-- name: Adobe Photoshop API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: Adobe Photoshop API Rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -618,7 +621,9 @@ rules:
     info: 1
     warn: 2
   slug: adobe-photoshop-asyncapi-spectral-rules
-- name: Adobe Photoshop API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adobe Photoshop API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -626,7 +631,10 @@ rules:
     info: 2
     warn: 3
   slug: adobe-photoshop-jsonschema-spectral-rules
-- name: Adobe Photoshop API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Adobe Photoshop API Rules
   rule_count: 29
   severity_counts:
     error: 14
@@ -636,14 +644,16 @@ rules:
   slug: adobe-photoshop-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 56.4
+  delta: -3.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 84.3
-    developer_ergonomics: 58.7
+    contract_governance: 30.3
+    contract_quality: 80.1
+    developer_ergonomics: 50.0
     discoverability: 92.6
-    governance: 38.5
+    governance: 30.3
     operational_transparency: 47.4
   previous_composite: 60.2
   provenance:
@@ -655,8 +665,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

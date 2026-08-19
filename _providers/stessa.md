@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -142,13 +143,15 @@ overview: 'Stessa is profiled on the [APIs.io](https://apis.io/) network. Tagged
   Stessa''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
 random_paper: 63
 score:
-  band: emerging
-  composite: 15.1
-  delta: 0.0
+  band: minimal
+  composite: 6.8
+  delta: -8.3
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
@@ -158,10 +161,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 25.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 15.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stessa/refs/heads/main/screenshots/stessa-2026-06-20T194548.png
 security:
 - kind: domain-security

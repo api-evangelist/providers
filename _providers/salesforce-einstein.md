@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -487,7 +488,9 @@ rate_limits:
   name: Salesforce Einstein Rate Limits
   slug: salesforce-einstein-rate-limits
 rules:
-- name: Salesforce Einstein API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Salesforce Einstein API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -495,7 +498,10 @@ rules:
     info: 2
     warn: 4
   slug: salesforce-einstein-jsonschema-spectral-rules
-- name: Salesforce Einstein API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Salesforce Einstein API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -510,15 +516,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 41.7
+  delta: -7.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 68.7
-    developer_ergonomics: 37.0
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 40.5
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 23.7
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 48.7
   provenance:
     agentic_access: derived
@@ -527,9 +535,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:
 - kind: authentication

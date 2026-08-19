@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -198,7 +199,9 @@ rate_limits:
   name: Apiida Rate Limits
   slug: apiida-rate-limits
 rules:
-- name: APIIDA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APIIDA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +209,10 @@ rules:
     info: 2
     warn: 3
   slug: apiida-jsonschema-spectral-rules
-- name: APIIDA API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: APIIDA API Rules
   rule_count: 16
   severity_counts:
     error: 4
@@ -215,16 +221,18 @@ rules:
     warn: 11
   slug: apiida-spectral-rules
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -7.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 76.1
-    developer_ergonomics: 23.9
+    contract_governance: 9.8
+    contract_quality: 74.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -233,9 +241,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/screenshots/apiida-2026-06-20T172240.png
 security:
 - kind: authentication

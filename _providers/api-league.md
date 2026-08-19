@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The API League Platform provides access to 60+ APIs spanning books, news, humor, food, knowledge, art, web, text processing, and media categories. Authentication uses API keys with free signup. SDKs a
@@ -96,18 +97,20 @@ rate_limits:
   slug: api-league-rate-limits
 score:
   band: emerging
-  composite: 13.5
-  delta: 0.0
+  composite: 13.0
+  delta: -0.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.0
-    discoverability: 66.7
+    developer_ergonomics: 14.3
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 13.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/screenshots/api-league-2026-06-20T172214.png
 security:

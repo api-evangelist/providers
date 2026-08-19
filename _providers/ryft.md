@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 41.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Push query-execution telemetry to Ryft.
@@ -142,14 +143,16 @@ overview: 'Ryft publishes 1 API on the [APIs.io](https://apis.io/) network: Inge
 random_paper: 6
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 45.9
+  delta: -1.9
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 62.7
-    developer_ergonomics: 62.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 30.3
+    contract_quality: 58.7
+    developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 0.0
   previous_composite: 47.8
   provenance:
@@ -161,9 +164,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/screenshots/ryft-2026-08-17T081702.png
 security:
 - kind: authentication
   name: Ryft Authentication

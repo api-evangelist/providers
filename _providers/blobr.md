@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -177,7 +178,9 @@ rate_limits:
   name: Blobr Rate Limits
   slug: blobr-rate-limits
 rules:
-- name: Blobr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Blobr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,7 +188,9 @@ rules:
     info: 2
     warn: 3
   slug: blobr-jsonschema-spectral-rules
-- name: Blobr API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Blobr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -194,20 +199,22 @@ rules:
     warn: 5
   slug: blobr-spectral-rules
 score:
-  band: thin
-  composite: 33.1
-  delta: 0.0
+  band: emerging
+  composite: 18.5
+  delta: -14.6
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 29.0
-    developer_ergonomics: 2.2
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 0.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 33.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: domain-security
   name: Blobr Domain Security

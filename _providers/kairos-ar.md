@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-17'
+  score: 18.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -181,15 +182,17 @@ overview: 'Kairos AR publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 11
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 47.7
+  delta: -2.6
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 58.2
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -201,10 +204,10 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-07-25T223414.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-08-17T123941.png
 security:
 - kind: authentication
   name: Kairos Ar Authentication

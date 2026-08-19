@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 5
@@ -302,7 +303,10 @@ rate_limits:
   name: Statsig Rate Limits
   slug: statsig-rate-limits
 rules:
-- name: statsig API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: statsig API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -310,7 +314,9 @@ rules:
     info: 1
     warn: 6
   slug: statsig-asyncapi-spectral-rules
-- name: statsig API Rules
+- effective_rule_count: 6
+  extends: []
+  name: statsig API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -318,7 +324,10 @@ rules:
     info: 2
     warn: 4
   slug: statsig-jsonschema-spectral-rules
-- name: statsig API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: statsig API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -328,15 +337,17 @@ rules:
   slug: statsig-rules
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 36.6
+  delta: -4.1
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 77.3
-    developer_ergonomics: 10.9
+    contract_governance: 28.8
+    contract_quality: 75.5
+    developer_ergonomics: 11.9
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 28.8
+    operational_transparency: 10.5
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -345,8 +356,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/screenshots/statsig-2026-06-20T194528.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -162,7 +163,10 @@ rate_limits:
   name: Kit Rate Limits
   slug: kit-rate-limits
 rules:
-- name: Kit API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Kit API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -177,15 +181,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 43.6
+  delta: -2.0
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 68.7
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 66.4
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -200,8 +206,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/screenshots/kit-2026-06-20T184050.png
 security:

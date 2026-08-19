@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,14 +195,16 @@ scopes:
   summary_line: 11 scopes
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 39.0
+  delta: -0.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 50.1
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 47.0
+    developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 15.8
   previous_composite: 39.9
   provenance:
@@ -214,8 +217,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

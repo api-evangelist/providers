@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -999,7 +1000,9 @@ rate_limits:
   name: Pipedream Rate Limits
   slug: pipedream-rate-limits
 rules:
-- name: Pipedream API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Pipedream API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1007,7 +1010,10 @@ rules:
     info: 1
     warn: 5
   slug: pipedream-jsonschema-spectral-rules
-- name: Pipedream API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Pipedream API Rules
   rule_count: 9
   severity_counts:
     error: 0
@@ -1021,15 +1027,17 @@ scopes:
   slug: pipedream-scopes
   summary_line: 16 scopes · clientCredentials
 score:
-  band: strong
-  composite: 65.1
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  delta: -13.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 71.7
-    discoverability: 57.4
-    governance: 68.8
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 25.0
+    contract_quality: 70.2
+    developer_ergonomics: 73.8
+    discoverability: 50.0
+    governance: 25.0
     operational_transparency: 55.3
   previous_composite: 65.1
   provenance:
@@ -1039,9 +1047,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:
 - kind: authentication

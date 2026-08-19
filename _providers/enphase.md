@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 40.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -268,16 +269,18 @@ scopes:
   slug: enphase-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.1
-  delta: 0.0
+  band: exemplar
+  composite: 70.0
+  delta: 7.9
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 61.2
-    developer_ergonomics: 56.0
+    contract_governance: 30.3
+    contract_quality: 62.9
+    developer_ergonomics: 57.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 71.1
+    governance: 30.3
+    operational_transparency: 68.4
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -290,9 +293,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:
 - kind: authentication

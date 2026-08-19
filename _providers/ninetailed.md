@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -174,7 +175,9 @@ rate_limits:
   name: Ninetailed Rate Limits
   slug: ninetailed-rate-limits
 rules:
-- name: Ninetailed API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Ninetailed API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -184,15 +187,17 @@ rules:
   slug: ninetailed-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 43.6
+  delta: -9.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 65.7
-    developer_ergonomics: 10.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 9.8
+    contract_quality: 67.1
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 52.6
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -201,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/screenshots/ninetailed-2026-06-20T190329.png
 security:
 - kind: domain-security

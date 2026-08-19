@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -1619,7 +1620,9 @@ rate_limits:
   name: Amazon Step Functions Rate Limits
   slug: amazon-step-functions-rate-limits
 rules:
-- name: Amazon Step Functions API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon Step Functions API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1627,7 +1630,10 @@ rules:
     info: 2
     warn: 4
   slug: amazon-step-functions-jsonschema-spectral-rules
-- name: Amazon Step Functions API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon Step Functions API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -1636,16 +1642,18 @@ rules:
     warn: 12
   slug: amazon-step-functions-spectral-rules
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 49.8
+  delta: -6.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 75.9
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 73.1
+    developer_ergonomics: 50.0
     discoverability: 48.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -1654,9 +1662,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/screenshots/amazon-step-functions-2026-06-20T171830.png
 security:
 - kind: authentication

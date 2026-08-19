@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -309,7 +310,10 @@ rate_limits:
   name: Dreamfactory Rate Limits
   slug: dreamfactory-rate-limits
 rules:
-- name: DreamFactory API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: DreamFactory API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -317,7 +321,9 @@ rules:
     info: 0
     warn: 3
   slug: dreamfactory-asyncapi-spectral-rules
-- name: DreamFactory API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DreamFactory API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -327,15 +333,23 @@ rules:
   slug: dreamfactory-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 43.0
+  delta: -4.5
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 79.1
-    developer_ergonomics: 26.1
+    contract_governance: 11.4
+    contract_quality: 78.5
+    developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -344,8 +358,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/screenshots/dreamfactory-2026-06-20T180322.png
 security:

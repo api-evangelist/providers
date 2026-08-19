@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -218,15 +219,17 @@ scopes:
   slug: getpaid-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: strong
+  composite: 58.0
+  delta: 4.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 74.3
-    developer_ergonomics: 64.7
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 30.3
+    contract_quality: 71.3
+    developer_ergonomics: 68.5
     discoverability: 92.6
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 23.7
   previous_composite: 53.2
   provenance:
@@ -244,9 +247,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 78.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:

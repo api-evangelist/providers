@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -226,7 +227,9 @@ rate_limits:
   name: Stitch Rate Limits
   slug: stitch-rate-limits
 rules:
-- name: Stitch API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Stitch API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +237,10 @@ rules:
     info: 2
     warn: 3
   slug: stitch-jsonschema-spectral-rules
-- name: Stitch API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Stitch API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -243,16 +249,18 @@ rules:
     warn: 2
   slug: stitch-rules
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -4.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 70.1
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 65.7
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 23.7
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -267,8 +275,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:

@@ -13,22 +13,23 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 82.0
-  scored_at: '2026-08-17'
+  score: 67.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1601
   human_in_the_loop: 29
@@ -460,19 +461,31 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 67.5
-  delta: 33.1
+  composite: 71.6
+  delta: 4.1
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 59.1
-    developer_ergonomics: 87.0
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 16.7
+    contract_quality: 63.8
+    developer_ergonomics: 80.4
     discoverability: 83.3
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 34.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 91.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 70
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png
 security:
 - kind: authentication

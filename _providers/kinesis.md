@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -2942,7 +2943,9 @@ rate_limits:
   name: Kinesis Rate Limits
   slug: kinesis-rate-limits
 rules:
-- name: AWS Kinesis API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AWS Kinesis API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2951,15 +2954,17 @@ rules:
     warn: 4
   slug: kinesis-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -5.2
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 56.7
-    developer_ergonomics: 50.0
+    contract_governance: 9.8
+    contract_quality: 55.2
+    developer_ergonomics: 54.8
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 44.0
   provenance:
@@ -2969,9 +2974,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 99
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:
 - kind: authentication

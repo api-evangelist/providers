@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,18 +119,20 @@ overview: 'Akto is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 133
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 26.5
+  delta: -3.1
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 38.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 18.4
   previous_composite: 29.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akto/refs/heads/main/screenshots/akto-2026-07-25T195533.png
 security:

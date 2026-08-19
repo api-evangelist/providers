@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -151,18 +152,20 @@ overview: 'Zipcar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 119
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 12.2
+  delta: -1.5
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 16.7
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipcar-com/refs/heads/main/screenshots/zipcar-com-2026-06-20T201916.png
 security:

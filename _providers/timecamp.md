@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 40.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -285,12 +286,14 @@ rate_limits:
   slug: timecamp-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 38.2
+  delta: -2.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 61.8
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 19.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
@@ -302,8 +305,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

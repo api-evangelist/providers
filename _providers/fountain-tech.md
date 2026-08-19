@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: REST API for the Fountain Hire product, covering applicants (create, retrieve, update, delete, list, latest applicant, duplicate detection, notes, labels, file uploads, transitions, bulk advance, bulk
@@ -126,18 +127,20 @@ overview: 'Fountain publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 141
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 18.9
+  delta: -3.6
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 21.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 22.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain-tech/refs/heads/main/screenshots/fountain-tech-2026-06-20T181458.png
 security:

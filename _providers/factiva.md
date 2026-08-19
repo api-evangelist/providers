@@ -11,11 +11,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -25,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -293,25 +293,32 @@ scopes:
   summary_line: 8 scopes · password/authorizationCode/implicit
 score:
   band: strong
-  composite: 61.6
-  delta: 27.7
+  composite: 63.0
+  delta: 1.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 58.6
-    developer_ergonomics: 69.6
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 66.1
     discoverability: 100.0
-    governance: 20.8
-    operational_transparency: 47.4
-  previous_composite: 33.9
+    governance: 16.7
+    operational_transparency: 44.7
+  previous_composite: 61.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 86.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:
 - kind: authentication

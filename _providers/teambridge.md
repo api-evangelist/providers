@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: '**Powerful generic endpoints** for reading and writing any collection type. Works with all collections using field UUIDs. Query `/fields` first to discover the schema, then use these endpoints for fle'
@@ -192,14 +193,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 50.5
+  delta: 1.5
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 68.3
-    developer_ergonomics: 40.8
+    contract_governance: 30.3
+    contract_quality: 68.5
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 20.8
+    governance: 30.3
     operational_transparency: 7.9
   previous_composite: 49.0
   provenance:
@@ -211,9 +214,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/screenshots/teambridge-2026-08-17T082257.png
 security:
 - kind: authentication
   name: Teambridge Authentication

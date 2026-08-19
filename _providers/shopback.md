@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 49.7
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
@@ -216,15 +217,17 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 98
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.5
+  delta: -1.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.1
-    developer_ergonomics: 66.8
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 16.7
+    contract_quality: 61.3
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 52.4
   provenance:
     conformance: derived
@@ -240,10 +243,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 54.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/screenshots/shopback-2026-08-17T081837.png
 security:
 - kind: authentication
   name: Shopback Authentication

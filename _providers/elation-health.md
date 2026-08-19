@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-08-17'
+  score: 59.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -583,7 +584,9 @@ rate_limits:
   name: Elation Health Rate Limits
   slug: elation-health-rate-limits
 rules:
-- name: Elation Health API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Elation Health API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -598,29 +601,36 @@ scopes:
   summary_line: 154 scopes · clientCredentials/password
 score:
   band: exemplar
-  composite: 73.2
-  delta: 16.3
+  composite: 83.8
+  delta: 10.6
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 67.1
-    developer_ergonomics: 73.4
+    contract_governance: 55.3
+    contract_quality: 71.0
+    developer_ergonomics: 76.2
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 44.7
-  previous_composite: 56.9
+    governance: 55.3
+    operational_transparency: 42.1
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 92.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
     mcp: first-party
-    skills: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 92.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

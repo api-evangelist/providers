@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-17'
+  score: 42.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -246,19 +247,21 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.1
-  delta: 6.6
+  composite: 44.0
+  delta: -7.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 71.6
-    developer_ergonomics: 62.5
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 30.3
+    contract_quality: 67.1
+    developer_ergonomics: 38.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -266,9 +269,10 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/screenshots/shopmy-2026-08-17T081840.png
 security:
 - kind: authentication
   name: Shopmy Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -440,7 +441,9 @@ rate_limits:
   name: Sap Concur Expense Rate Limits
   slug: sap-concur-expense-rate-limits
 rules:
-- name: SAP Concur Expense API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SAP Concur Expense API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -448,7 +451,10 @@ rules:
     info: 2
     warn: 3
   slug: sap-concur-expense-jsonschema-spectral-rules
-- name: SAP Concur Expense API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: SAP Concur Expense API Rules
   rule_count: 16
   severity_counts:
     error: 2
@@ -462,16 +468,18 @@ scopes:
   slug: sap-concur-expense-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: -12.2
   facets:
-    commercial_clarity: 47.4
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 25.0
     contract_quality: 68.7
-    developer_ergonomics: 47.8
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -480,9 +488,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/screenshots/sap-concur-expense-2026-06-20T193425.png
 security:
 - kind: authentication

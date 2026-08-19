@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 33.7
+  scored_at: '2026-08-19'
 api_count: 13
 apis:
 - description: Manage account info.
@@ -205,15 +206,17 @@ overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 24
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 32.0
+  delta: -0.3
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 16.7
     contract_quality: 60.3
-    developer_ergonomics: 34.8
+    developer_ergonomics: 32.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 32.3
   provenance:
     conformance: derived
@@ -223,8 +226,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:

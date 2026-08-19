@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-17'
+  score: 58.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -282,15 +283,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.7
+  delta: -3.0
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 67.7
-    developer_ergonomics: 60.3
+    contract_governance: 30.3
+    contract_quality: 63.4
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 76.3
+    governance: 30.3
+    operational_transparency: 73.7
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -302,9 +305,10 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/screenshots/salsify-2026-08-17T081714.png
 security:
 - kind: authentication
   name: Salsify Authentication

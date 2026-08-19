@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 37.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -298,15 +299,17 @@ rate_limits:
   slug: london-stock-exchange-group-rate-limits
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 52.8
+  delta: 1.2
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 53.5
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -324,8 +327,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

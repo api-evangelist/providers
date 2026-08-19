@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -270,7 +271,10 @@ rate_limits:
   name: Jupyter Notebook Rate Limits
   slug: jupyter-notebook-rate-limits
 rules:
-- name: Jupyter Notebook API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Jupyter Notebook API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +282,9 @@ rules:
     info: 0
     warn: 5
   slug: jupyter-notebook-asyncapi-spectral-rules
-- name: Jupyter Notebook API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Jupyter Notebook API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -288,15 +294,17 @@ rules:
   slug: jupyter-notebook-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 41.0
+  delta: -4.7
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 72.6
-    developer_ergonomics: 37.0
+    contract_governance: 11.4
+    contract_quality: 71.7
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 52.1
-    operational_transparency: 36.8
+    governance: 11.4
+    operational_transparency: 34.2
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -305,8 +313,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

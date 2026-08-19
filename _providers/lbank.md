@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -202,7 +203,9 @@ rate_limits:
   name: Lbank Rate Limits
   slug: lbank-rate-limits
 rules:
-- name: LBank API Rules
+- effective_rule_count: 5
+  extends: []
+  name: LBank API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,15 +215,17 @@ rules:
   slug: lbank-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 44.8
+  delta: -6.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.0
-    developer_ergonomics: 28.3
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 58.7
+    developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -234,10 +239,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/screenshots/lbank-2026-06-20T184341.png
 security:
 - kind: authentication

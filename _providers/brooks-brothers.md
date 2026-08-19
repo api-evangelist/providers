@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 23
 common:
@@ -134,18 +135,20 @@ overview: 'Brooks Brothers is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 84
 score:
   band: minimal
-  composite: 11.4
-  delta: 0.0
+  composite: 10.3
+  delta: -1.1
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooks-brothers/refs/heads/main/screenshots/brooks-brothers-2026-06-20T173720.png
 security:

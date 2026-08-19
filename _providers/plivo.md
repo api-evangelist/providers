@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -309,7 +310,10 @@ rate_limits:
   name: Plivo Rate Limits
   slug: plivo-rate-limits
 rules:
-- name: Plivo API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Plivo API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -319,15 +323,17 @@ rules:
   slug: plivo-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 44.4
+  delta: -7.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.4
-    developer_ergonomics: 67.4
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 13.6
+    contract_quality: 61.7
+    developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 47.9
-    operational_transparency: 44.7
+    governance: 13.6
+    operational_transparency: 42.1
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -342,9 +348,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
@@ -205,24 +206,27 @@ rate_limits:
   name: Verkada Rate Limits
   slug: verkada-rate-limits
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: -7.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 60.3
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 84.2
+    governance: 18.2
+    operational_transparency: 77.6
   previous_composite: 57.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/screenshots/verkada-2026-08-17T082733.png
 security:
 - kind: authentication
   name: Verkada Authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -305,7 +306,9 @@ rate_limits:
   name: Holidays Rate Limits
   slug: holidays-rate-limits
 rules:
-- name: Holiday API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Holiday API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -313,7 +316,10 @@ rules:
     info: 1
     warn: 4
   slug: holidays-jsonschema-spectral-rules
-- name: Holiday API API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Holiday API API Rules
   rule_count: 16
   severity_counts:
     error: 9
@@ -322,16 +328,18 @@ rules:
     warn: 7
   slug: holidays-rules
 score:
-  band: strong
-  composite: 58.4
-  delta: 0.0
+  band: developing
+  composite: 51.1
+  delta: -7.3
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 68.7
-    developer_ergonomics: 37.0
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -340,9 +348,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
 security:
 - kind: domain-security

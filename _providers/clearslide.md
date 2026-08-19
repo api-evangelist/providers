@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-17'
+  score: 34.8
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The Insights API from ClearSlide — 1 operation(s) for insights.
@@ -251,17 +252,19 @@ scopes:
   slug: clearslide-scopes
   summary_line: 2 scopes · authorizationCode/refreshToken
 score:
-  band: strong
-  composite: 56.0
-  delta: 8.6
+  band: developing
+  composite: 51.2
+  delta: -4.8
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 56.7
-    developer_ergonomics: 56.0
+    contract_governance: 30.3
+    contract_quality: 53.1
+    developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 31.6
-  previous_composite: 47.4
+    governance: 30.3
+    operational_transparency: 21.1
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     contracts:
@@ -271,9 +274,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:
 - kind: authentication

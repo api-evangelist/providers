@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.6
-  scored_at: '2026-08-17'
+  score: 57.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -997,7 +998,9 @@ rate_limits:
   name: Canva Rate Limits
   slug: canva-rate-limits
 rules:
-- name: Canva API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Canva API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1005,7 +1008,10 @@ rules:
     info: 1
     warn: 5
   slug: canva-jsonschema-spectral-rules
-- name: Canva API Rules
+- effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Canva API Rules
   rule_count: 18
   severity_counts:
     error: 8
@@ -1020,26 +1026,31 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.2
-  delta: 16.8
+  composite: 69.1
+  delta: -6.1
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 84.5
-    developer_ergonomics: 84.8
+    contract_governance: 40.2
+    contract_quality: 81.5
+    developer_ergonomics: 83.3
     discoverability: 83.3
-    governance: 79.2
-    operational_transparency: 63.2
-  previous_composite: 58.4
+    governance: 40.2
+    operational_transparency: 60.5
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 10
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:
 - kind: authentication

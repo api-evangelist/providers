@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -235,16 +236,18 @@ rate_limits:
   name: Brainfish Rate Limits
   slug: brainfish-rate-limits
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 54.0
+  delta: -4.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 63.7
-    developer_ergonomics: 58.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 30.3
+    contract_quality: 62.6
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 57.9
+    governance: 30.3
+    operational_transparency: 39.5
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -256,8 +259,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

@@ -11,11 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 31.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Trend platform API — the NestJS backend behind app.trend.io and the Trend creator app. It exposes 124 operations across brand accounts and approvals, campaign creation/submission/relisting, creato
@@ -166,25 +166,37 @@ rate_limits:
   slug: trend-rate-limits
 score:
   band: developing
-  composite: 43.7
-  delta: 28.5
+  composite: 42.3
+  delta: -1.4
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 42.5
-    developer_ergonomics: 39.1
+    contract_governance: 16.7
+    contract_quality: 42.0
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 15.2
+    governance: 16.7
+    operational_transparency: 2.6
+  previous_composite: 43.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:
 - kind: authentication
   name: Trend Authentication

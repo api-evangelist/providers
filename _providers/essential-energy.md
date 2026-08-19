@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-17'
+  score: 16.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -190,15 +191,17 @@ overview: 'Essential Energy publishes 3 APIs on the [APIs.io](https://apis.io/) 
   Essential Energy''s developer surface includes developer portal, documentation, authentication, code examples, support, engineering blog, and 24 more developer resources.'
 random_paper: 24
 score:
-  band: emerging
-  composite: 26.8
-  delta: 0.0
+  band: thin
+  composite: 29.5
+  delta: 2.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 42.9
+    contract_governance: 22.0
+    contract_quality: 1.4
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 15.1
+    governance: 22.0
     operational_transparency: 10.5
   previous_composite: 26.8
   provenance:
@@ -211,8 +214,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/screenshots/essential-energy-2026-08-07T165022.png
 security:

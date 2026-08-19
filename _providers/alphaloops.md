@@ -13,10 +13,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -24,14 +23,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 38.1
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -201,24 +201,35 @@ rate_limits:
   slug: alphaloops-rate-limits
 score:
   band: strong
-  composite: 61.8
-  delta: 1.2
+  composite: 60.9
+  delta: -0.9
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 59.3
-    developer_ergonomics: 43.5
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 16.7
+    contract_quality: 60.7
+    developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 86.8
-  previous_composite: 60.6
+    governance: 16.7
+    operational_transparency: 68.4
+  previous_composite: 61.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:

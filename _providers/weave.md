@@ -10,11 +10,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -308,27 +309,36 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 59.6
-  delta: 22.2
+  composite: 64.8
+  delta: 5.2
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 54.5
-    developer_ergonomics: 34.8
+    contract_governance: 18.2
+    contract_quality: 54.8
+    developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 63.2
-  previous_composite: 37.4
+    governance: 18.2
+    operational_transparency: 60.5
+  previous_composite: 59.6
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:
 - kind: authentication
   name: Weave Authentication

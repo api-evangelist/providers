@@ -1,10 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-17'
+  score: 41.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'REST API for the Proactive Patient Risk Feed: upload FHIR R4 US Core / CCLF / custom claims and EHR datasets, then retrieve ranked actionable risk lists, per-patient risk profiles with contributing fa'
@@ -186,26 +186,38 @@ scopes:
   slug: diagnostic-robotics-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: strong
+  composite: 55.9
+  delta: 7.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 48.4
-    developer_ergonomics: 65.2
+    contract_governance: 30.3
+    contract_quality: 50.2
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 21.1
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 48.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:
 - kind: authentication
   name: Diagnostic Robotics Authentication

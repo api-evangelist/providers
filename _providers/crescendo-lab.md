@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -206,17 +207,19 @@ rate_limits:
   name: Crescendo Lab Rate Limits
   slug: crescendo-lab-rate-limits
 score:
-  band: developing
-  composite: 55.8
-  delta: 11.8
+  band: strong
+  composite: 59.5
+  delta: 3.7
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 64.3
-    developer_ergonomics: 82.1
+    contract_governance: 16.7
+    contract_quality: 60.8
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 26.3
-  previous_composite: 44.0
+    governance: 16.7
+    operational_transparency: 23.7
+  previous_composite: 55.8
   provenance:
     conformance: derived
     contracts:
@@ -232,9 +235,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 38.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -243,24 +244,26 @@ scopes:
   summary_line: 30 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 47.0
-  delta: 8.3
+  composite: 44.7
+  delta: -2.3
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 69.0
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 47.4
-  previous_composite: 38.7
+    governance: 18.2
+    operational_transparency: 28.9
+  previous_composite: 47.0
   provenance:
     agentic_access: first-party
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
 security:
 - kind: authentication

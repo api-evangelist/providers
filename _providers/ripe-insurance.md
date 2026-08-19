@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,16 +192,18 @@ scopes:
   slug: ripe-insurance-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: thin
-  composite: 36.8
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 5.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 41.0
-    developer_ergonomics: 21.2
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 40.6
+    developer_ergonomics: 20.8
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -218,9 +221,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Ripe Insurance Authentication

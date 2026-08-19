@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-17'
+  score: 45.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -528,7 +528,9 @@ rate_limits:
   name: Google Search Console Rate Limits
   slug: google-search-console-rate-limits
 rules:
-- name: Google Search Console API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Search Console API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -536,7 +538,10 @@ rules:
     info: 2
     warn: 4
   slug: google-search-console-jsonschema-spectral-rules
-- name: Google Search Console API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Google Search Console API Rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -551,26 +556,31 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.2
-  delta: 21.1
+  composite: 67.9
+  delta: -4.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 72.4
-    developer_ergonomics: 84.8
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 26.5
+    contract_quality: 68.9
+    developer_ergonomics: 69.6
     discoverability: 88.9
-    governance: 79.2
-    operational_transparency: 55.3
-  previous_composite: 51.1
+    governance: 26.5
+    operational_transparency: 76.3
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:
 - kind: authentication

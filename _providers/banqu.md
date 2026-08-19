@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 25
 apis:
 - description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
@@ -292,14 +293,16 @@ overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 88
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 36.4
+  delta: -0.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 55.6
-    developer_ergonomics: 36.4
+    access_clarity: 17.1
+    commercial_clarity: 17.1
+    contract_governance: 16.7
+    contract_quality: 57.2
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 36.5
   provenance:
@@ -311,8 +314,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

@@ -1,44 +1,220 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Public API, undisclosed pricing
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  public: true
+  source:
+  - https://api.cloud.quandela.com/openapi.json
+  - https://www.quandela.com/products-and-services/cloud/
+  - https://cloud.quandela.com/pricing
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-17'
-api_count: 0
-artifact_total: 1
+  score: 42.4
+  scored_at: '2026-08-19'
+agentic_access:
+- acting_count: 31
+  human_in_the_loop: 3
+  name: Quandela Agentic Access
+  operation_count: 59
+  slug: quandela-agentic-access
+  summary_line: 59 operations · 31 acting · 3 human-in-the-loop
+api_count: 2
+apis:
+- description: The core Quandela Cloud REST surface — Perceval job submission, status/result polling, cancel and rerun, plus the full Cloud Job Token lifecycle (create, list, read, update, revoke, reopen, delete) an
+  name: Quandela Cloud API
+  slug: quandela-cloud-api
+- description: Quandela's pre-built quantum primitives, published as a separate specification at https://api.cloud.quandela.com/qt-openapi.json. Five fully typed algorithms — Chemistry VQE, Custom VQE, CVaR VQE, Gra
+  name: Quandela Quantum Toolbox API
+  slug: quandela-quantum-toolbox-api
+arazzos:
+- description: Price a Chemistry VQE workload with the estimator before committing credits, check the Quantum Toolbox concurrency ceiling, submit, poll and collect.
+  name: Estimate then run a Chemistry VQE workload on Quandela Quantum Toolbox
+  slug: quandela-estimate-and-run-chemistry-vqe
+- description: Mint a replacement Cloud Job Token, read the outgoing token's per-platform consumption ledger, then revoke and delete it — the full credential rotation Quandela supports entirely over the API.
+  name: Rotate and audit a Quandela Cloud Job Token
+  slug: quandela-rotate-and-audit-job-token
+- description: Mint a Cloud Job Token, verify account capacity, submit a photonic-circuit job, poll to completion, then retrieve the result and the submission record.
+  name: Submit a Perceval job to Quandela Cloud and collect the result
+  slug: quandela-submit-and-collect-perceval-job
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/quandela-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/quandela-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/quandela-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/quandela-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/quandela-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/quandela-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/quandela-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/quandela-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://api.cloud.quandela.com/api/platforms/public
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/quandela-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/Quandela/Perceval/releases
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/quandela-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/quandela-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/quandela-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/quandela-packages.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/quandela-cloud-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/quandela-well-known.yml
+- group: agent
+  title: ''
+  type: MCPCandidate
+  url: mcp/quandela-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quandela-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/quandela-submit-perceval-job.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/quandela-run-quantum-toolbox-algorithm.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/quandela-manage-cloud-job-tokens.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/quandela-draw-certified-quantum-randomness.md
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/quandela-submit-and-collect-perceval-job.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/quandela-estimate-and-run-chemistry-vqe.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/quandela-rotate-and-audit-job-token.yml
 - group: company
   title: ''
   type: Website
   url: https://www.quandela.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://hub.quandela.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://perceval.quandela.net/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://perceval.quandela.net/docs/v1.2/getting_started.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://community.quandela.com
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.quandela.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Quandela
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.quandela.com/roadmap/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.quandela.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://account.quandela.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.quandela.com/legal-terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.quandela.com/privacy-policy/
 - group: other
   title: ''
   type: Cloud
@@ -51,10 +227,6 @@ common:
   title: ''
   type: Perceval
   url: https://perceval.quandela.net
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://perceval.quandela.net/docs
 - group: learn
   title: ''
   type: Tutorials
@@ -74,6 +246,10 @@ common:
 - group: build
   title: ''
   type: SDKs
+  url: packages/quandela-packages.yml
+- group: build
+  title: ''
+  type: SDKs
   url: https://github.com/Quandela/Perceval
 - group: other
   title: ''
@@ -83,10 +259,6 @@ common:
   title: ''
   type: Training
   url: https://training.quandela.com
-- group: operate
-  title: ''
-  type: Community
-  url: https://community.quandela.com
 - group: other
   title: ''
   type: Products
@@ -132,36 +304,60 @@ common:
   type: Discord
   url: https://discord.gg/quandela
 created: '2026-05-25'
-description: Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, and energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first deployed cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus (its latest state-of-the-art system), and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, an open-source Python framework for programming photonic quantum computers, distributed via PyPI as perceval-quandela, and operates a cloud platform at cloud.quandela.com where users authenticate with a token and submit jobs to simulators and QPUs (e.g. "sim:altair", "qpu:altair") through Perceval's RemoteProcessor. The company also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy,
-  and aerospace. There is no public REST/HTTP OpenAPI specification — the cloud surface is abstracted entirely behind the Perceval Python SDK and its companion perceval-interop bridges to Qiskit, QuTiP, cQASM, and myQLM.
+description: 'Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus, and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, the open-source Python framework for programming photonic quantum computers, distributed on PyPI as perceval-quandela with the perceval-interop bridges to Qiskit, QuTiP, cQASM and myQLM and the exqalibur native optimisation kernel. It operates Quandela Cloud, which — contrary to an earlier reading of this profile — DOES publish a real, anonymously readable REST contract: OpenAPI 3.0.3 at https://api.cloud.quandela.com/openapi.json, version v2.8.0-rc4, with 55 paths, 59 operations and 54 component schemas,
+  plus a Quantum Toolbox sub-specification at /qt-openapi.json. The surface covers Perceval job submission (submit-then-poll, with the circuit carried as an SDK-serialised opaque payload), a self-service Cloud Job Token lifecycle with a per-platform credit ledger, five typed Quantum Toolbox primitives (Chemistry VQE, Custom VQE, CVaR VQE, Graph DSI, Graph Isomorphism) each with a paired cost estimator, and the Entropy QRNG, whose draws return CHSH and min-entropy certification. Authentication is a single declared bearer scheme covering two distinct credentials — an account token from account.quandela.com and a Cloud Job Token minted over the API. Quandela also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy and aerospace, and publishes a 2024-2030 roadmap to fault-tolerant quantum computing.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quandela.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-17'
 name: Quandela
 nav: Providers
 network: true
-overview: 'Quandela is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
+overview: 'Quandela publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and Quantum Toolbox API. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
 
 
-  Quandela''s developer surface includes documentation, GitHub presence, training material, engineering blog, YouTube channel, and 20 more developer resources.'
+  Quandela''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, pricing, and 54 more developer resources.'
+plans:
+- name: Quandela Plans Pricing
+  plan_count: 0
+  slug: quandela-plans-pricing
 random_paper: 98
+rate_limits:
+- limit_count: 6
+  name: Quandela Rate Limits
+  slug: quandela-rate-limits
 score:
-  band: minimal
-  composite: 10.0
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: 42.1
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 21.7
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 57.3
+    developer_ergonomics: 61.3
+    discoverability: 87.0
+    governance: 16.7
+    operational_transparency: 71.1
   previous_composite: 10.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png
 security:
+- kind: authentication
+  name: Quandela Authentication
+  slug: quandela-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Quandela Domain Security
   slug: quandela-domain-security
@@ -179,6 +375,10 @@ tags:
 - Python SDK
 - Quantum Random Number Generation
 - Quantum Simulation
+- Variational Quantum Algorithms
+- Quantum Chemistry
+- Graph Algorithms
+- Job Orchestration
 - Open Source
 - France
 website: https://www.quandela.com

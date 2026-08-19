@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.5
-  scored_at: '2026-08-17'
+  score: 6.7
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -94,20 +95,22 @@ overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 52
 score:
   band: minimal
-  composite: 11.4
-  delta: 0.0
+  composite: 7.6
+  delta: -3.8
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 2.4
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 11.4
   provenance:
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabal/refs/heads/main/screenshots/cabal-2026-07-25T204200.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-17'
+  score: 4.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Moleculer is a fast, modern, and powerful microservices framework for Node.js. It provides built-in service discovery, load balancing, fault tolerance with circuit breaker, request retries, distribute
@@ -128,7 +129,9 @@ rate_limits:
   name: Moleculer Rate Limits
   slug: moleculer-rate-limits
 rules:
-- name: Moleculer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Moleculer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -137,20 +140,22 @@ rules:
     warn: 3
   slug: moleculer-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: emerging
+  composite: 23.9
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 16.1
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 15.5
+    developer_ergonomics: 21.4
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 29.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moleculer/refs/heads/main/screenshots/moleculer-2026-06-20T185709.png
 security:
 - kind: domain-security

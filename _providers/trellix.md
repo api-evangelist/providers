@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -446,7 +447,9 @@ rate_limits:
   name: Trellix Rate Limits
   slug: trellix-rate-limits
 rules:
-- name: Trellix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trellix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -454,7 +457,10 @@ rules:
     info: 2
     warn: 3
   slug: trellix-jsonschema-spectral-rules
-- name: Trellix API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Trellix API Rules
   rule_count: 17
   severity_counts:
     error: 3
@@ -463,16 +469,18 @@ rules:
     warn: 12
   slug: trellix-spectral-rules
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 43.4
+  delta: -15.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.7
-    developer_ergonomics: 50.0
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 13.6
+    contract_quality: 64.3
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 13.6
+    operational_transparency: 39.5
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -481,9 +489,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:
 - kind: authentication

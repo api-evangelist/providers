@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 46.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -193,7 +194,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Coinbase Commerce API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Coinbase Commerce API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -203,14 +206,16 @@ rules:
   slug: commerce-coinbase-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 44.9
+  delta: -7.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 71.5
-    developer_ergonomics: 34.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 69.1
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 15.8
   previous_composite: 52.6
   provenance:
@@ -225,10 +230,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 42.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/screenshots/commerce-coinbase-2026-06-20T174814.png
 security:
 - kind: authentication

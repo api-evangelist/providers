@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 38.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -202,15 +203,17 @@ overview: 'Bell Canada publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 17
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 49.4
+  delta: 5.0
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 56.0
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 56.9
+    developer_ergonomics: 66.1
     discoverability: 83.3
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 21.1
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -227,10 +230,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 43.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:
 - kind: authentication

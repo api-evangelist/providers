@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 26.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -495,7 +496,9 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 69 more developer resources.'
 random_paper: 14
 rules:
-- name: Formant API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Formant API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -503,7 +506,9 @@ rules:
     info: 2
     warn: 3
   slug: formant-jsonschema-spectral-rules
-- name: Formant API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Formant API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -512,16 +517,18 @@ rules:
     warn: 4
   slug: formant-rules
 score:
-  band: developing
-  composite: 48.4
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: -13.5
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 68.7
-    developer_ergonomics: 47.8
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 9.8
+    contract_quality: 64.3
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 13.2
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -530,9 +537,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png
 security:
 - kind: authentication

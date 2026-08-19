@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -270,7 +271,9 @@ rate_limits:
   name: Uspto Gov Rate Limits
   slug: uspto-gov-rate-limits
 rules:
-- name: USPTO API Rules
+- effective_rule_count: 6
+  extends: []
+  name: USPTO API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -280,14 +283,16 @@ rules:
   slug: uspto-gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 34.4
+  delta: -5.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 69.6
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 65.2
+    developer_ergonomics: 26.2
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 39.6
   provenance:
@@ -303,9 +308,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png
 security:
 - kind: authentication

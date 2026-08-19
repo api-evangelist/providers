@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -232,7 +233,9 @@ rate_limits:
   name: Sourceforge Rate Limits
   slug: sourceforge-rate-limits
 rules:
-- name: SourceForge API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SourceForge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -240,7 +243,10 @@ rules:
     info: 1
     warn: 4
   slug: sourceforge-jsonschema-spectral-rules
-- name: SourceForge API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: SourceForge API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -250,14 +256,16 @@ rules:
   slug: sourceforge-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.5
+  delta: -8.1
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 69.0
-    developer_ergonomics: 45.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 64.9
+    developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 28.9
   previous_composite: 50.6
   provenance:
@@ -267,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/screenshots/sourceforge-2026-06-20T194221.png
 security:
 - kind: authentication

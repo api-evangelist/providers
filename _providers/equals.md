@@ -16,21 +16,22 @@ agent_readiness:
   dimensions:
     agent_card: near-conformant
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.9
-  scored_at: '2026-08-17'
+  score: 50.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,22 +215,32 @@ rate_limits:
   name: Equals Rate Limits
   slug: equals-rate-limits
 score:
-  band: strong
-  composite: 60.0
-  delta: 34.3
+  band: developing
+  composite: 49.2
+  delta: -10.8
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 60.7
-    developer_ergonomics: 65.2
+    contract_governance: 18.2
+    contract_quality: 18.6
+    developer_ergonomics: 61.9
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 25.7
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 60.0
   provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/screenshots/equals-2026-07-25T213540.png
 security:
 - kind: authentication

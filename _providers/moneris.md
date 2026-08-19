@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 73.2
-  scored_at: '2026-08-17'
+  score: 71.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -227,16 +228,18 @@ scopes:
   slug: moneris-scopes
   summary_line: 14 scopes · clientCredentials
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 48.2
+  delta: -9.7
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 71.1
-    developer_ergonomics: 66.8
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 30.3
+    contract_quality: 70.2
+    developer_ergonomics: 36.3
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -253,10 +256,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 64.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
 security:
 - kind: authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-17'
+  score: 39.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -624,7 +625,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: CyberSource API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CyberSource API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -634,14 +637,16 @@ rules:
   slug: cybersource-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 40.6
+  delta: -3.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.8
-    developer_ergonomics: 54.3
+    contract_governance: 9.8
+    contract_quality: 56.1
+    developer_ergonomics: 57.1
     discoverability: 68.5
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 44.2
   provenance:
@@ -657,8 +662,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png
 security:

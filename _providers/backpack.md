@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -437,7 +438,10 @@ rate_limits:
   name: Backpack Rate Limits
   slug: backpack-rate-limits
 rules:
-- name: Backpack API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Backpack API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -445,7 +449,9 @@ rules:
     info: 1
     warn: 6
   slug: backpack-asyncapi-spectral-rules
-- name: Backpack API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Backpack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -453,7 +459,10 @@ rules:
     info: 2
     warn: 4
   slug: backpack-jsonschema-spectral-rules
-- name: Backpack API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Backpack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -463,15 +472,17 @@ rules:
   slug: backpack-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 57.5
+  delta: -4.5
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 79.0
-    developer_ergonomics: 39.1
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 28.8
+    contract_quality: 75.8
+    developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 78.9
+    governance: 28.8
+    operational_transparency: 60.5
   previous_composite: 62.0
   provenance:
     agentic_access: derived
@@ -485,9 +496,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:

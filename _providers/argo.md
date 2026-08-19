@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 35.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 2
@@ -736,7 +737,10 @@ rate_limits:
   name: Argo Rate Limits
   slug: argo-rate-limits
 rules:
-- name: Argo API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Argo API Rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -744,7 +748,9 @@ rules:
     info: 0
     warn: 7
   slug: argo-asyncapi-spectral-rules
-- name: Argo API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Argo API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -752,7 +758,10 @@ rules:
     info: 2
     warn: 4
   slug: argo-jsonschema-spectral-rules
-- name: Argo API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Argo API Rules
   rule_count: 16
   severity_counts:
     error: 7
@@ -762,15 +771,17 @@ rules:
   slug: argo-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 40.8
+  delta: -4.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 71.2
-    developer_ergonomics: 26.1
+    contract_governance: 26.5
+    contract_quality: 69.9
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 62.5
-    operational_transparency: 39.5
+    governance: 26.5
+    operational_transparency: 36.8
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -779,8 +790,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/screenshots/argo-2026-06-20T172416.png
 security:

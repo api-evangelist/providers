@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -711,7 +712,9 @@ rate_limits:
   name: Outline Rate Limits
   slug: outline-rate-limits
 rules:
-- name: Outline API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Outline API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -726,15 +729,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 43.2
+  delta: -6.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 68.0
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 65.6
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -743,10 +748,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-06-20T191231.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-08-17T082817.png
 security:
 - kind: authentication
   name: Outline Authentication

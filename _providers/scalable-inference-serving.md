@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -249,7 +250,10 @@ rate_limits:
   name: Scalable Inference Serving Rate Limits
   slug: scalable-inference-serving-rate-limits
 rules:
-- name: Scalable Inference Serving API Rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Scalable Inference Serving API Rules
   rule_count: 17
   severity_counts:
     error: 5
@@ -257,7 +261,9 @@ rules:
     info: 3
     warn: 9
   slug: kserve-open-inference-protocol-rules
-- name: Scalable Inference Serving API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Scalable Inference Serving API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -267,15 +273,17 @@ rules:
   slug: scalable-inference-serving-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 38.0
+  delta: 2.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.9
-    developer_ergonomics: 23.9
+    contract_governance: 69.7
+    contract_quality: 62.4
+    developer_ergonomics: 23.8
     discoverability: 55.6
-    governance: 37.5
-    operational_transparency: 10.5
+    governance: 69.7
+    operational_transparency: 7.9
   previous_composite: 35.1
   provenance:
     agentic_access: derived
@@ -284,8 +292,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving

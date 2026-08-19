@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -125,25 +126,29 @@ rate_limits:
   slug: aktana-rate-limits
 score:
   band: emerging
-  composite: 24.0
-  delta: 11.4
+  composite: 24.3
+  delta: 0.3
   facets:
-    commercial_clarity: 71.1
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 12.6
+  previous_composite: 24.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/screenshots/aktana-2026-07-25T195518.png
 security:
 - kind: domain-security

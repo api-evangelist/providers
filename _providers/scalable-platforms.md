@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -182,7 +183,9 @@ rate_limits:
   name: Scalable Platforms Rate Limits
   slug: scalable-platforms-rate-limits
 rules:
-- name: Scalable Platforms API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Scalable Platforms API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,14 +195,16 @@ rules:
   slug: scalable-platforms-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 29.5
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 61.2
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 11.9
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 35.5
   provenance:
@@ -209,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/screenshots/scalable-platforms-2026-06-20T193455.png
 security:
 - kind: authentication

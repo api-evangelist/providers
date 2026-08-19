@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 51.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -397,7 +398,10 @@ rate_limits:
   name: Rudderstack Rate Limits
   slug: rudderstack-rate-limits
 rules:
-- name: RudderStack API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: RudderStack API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -412,26 +416,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 78.1
-  delta: 23.3
+  composite: 80.5
+  delta: 2.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 72.1
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 43.9
+    contract_quality: 69.3
     developer_ergonomics: 100.0
     discoverability: 83.3
-    governance: 68.8
-    operational_transparency: 63.2
-  previous_composite: 54.8
+    governance: 43.9
+    operational_transparency: 84.2
+  previous_composite: 78.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:
 - kind: authentication

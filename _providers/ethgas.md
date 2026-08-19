@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: ETHGas v1 REST + WebSocket API for market data, order placement/management, funding (collateral deposits/withdrawals), and validator/builder operations across whole-block commitments and inclusion pre
@@ -158,15 +159,17 @@ overview: 'ETHGas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 40
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 42.5
+  delta: -1.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 44.3
   provenance:
     conformance: first-party
@@ -177,8 +180,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/screenshots/ethgas-2026-07-25T213653.png
 security:

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -170,15 +171,17 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 118
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 46.2
+  delta: -2.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 55.3
+    governance: 18.2
+    operational_transparency: 52.6
   previous_composite: 48.4
   provenance:
     conformance: first-party
@@ -189,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/screenshots/c-side-2026-07-25T204147.png
 security:

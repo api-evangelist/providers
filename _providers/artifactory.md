@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -508,7 +508,9 @@ rate_limits:
   name: Artifactory Rate Limits
   slug: artifactory-rate-limits
 rules:
-- name: JFrog Artifactory API Rules
+- effective_rule_count: 6
+  extends: []
+  name: JFrog Artifactory API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -517,16 +519,18 @@ rules:
     warn: 4
   slug: artifactory-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.9
-  delta: 0.0
+  band: developing
+  composite: 50.8
+  delta: -16.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 66.9
-    developer_ergonomics: 65.2
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 26.5
+    contract_quality: 63.0
+    developer_ergonomics: 50.0
     discoverability: 92.6
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 26.5
+    operational_transparency: 18.4
   previous_composite: 66.9
   provenance:
     agentic_access: derived
@@ -537,9 +541,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication

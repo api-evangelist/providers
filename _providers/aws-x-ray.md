@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -428,7 +429,9 @@ rate_limits:
   name: Aws X Ray Rate Limits
   slug: aws-x-ray-rate-limits
 rules:
-- name: AWS X-Ray API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AWS X-Ray API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -436,7 +439,10 @@ rules:
     info: 2
     warn: 3
   slug: aws-x-ray-jsonschema-spectral-rules
-- name: AWS X-Ray API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: AWS X-Ray API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -446,14 +452,16 @@ rules:
   slug: aws-x-ray-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 48.8
+  delta: -5.9
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 70.1
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 66.2
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 23.7
   previous_composite: 54.7
   provenance:
@@ -463,9 +471,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/screenshots/aws-x-ray-2026-06-20T172820.png
 security:
 - kind: authentication

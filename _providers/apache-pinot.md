@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 23.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -281,7 +282,9 @@ rate_limits:
   name: Apache Pinot Rate Limits
   slug: apache-pinot-rate-limits
 rules:
-- name: Apache Pinot API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Pinot API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -289,7 +292,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-pinot-jsonschema-spectral-rules
-- name: Apache Pinot API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Apache Pinot API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -299,15 +305,17 @@ rules:
   slug: apache-pinot-spectral-rules
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 21.5
+  delta: -5.7
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 20.6
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 19.3
+    developer_ergonomics: 9.5
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 27.2
   provenance:
     agentic_access: derived
@@ -316,9 +324,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png
 security:
 - kind: domain-security

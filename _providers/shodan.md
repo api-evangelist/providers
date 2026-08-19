@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -690,7 +691,10 @@ rate_limits:
   name: Shodan Rate Limits
   slug: shodan-rate-limits
 rules:
-- name: Shodan API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Shodan API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -698,7 +702,9 @@ rules:
     info: 0
     warn: 6
   slug: shodan-asyncapi-spectral-rules
-- name: Shodan API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shodan API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -706,7 +712,10 @@ rules:
     info: 1
     warn: 4
   slug: shodan-jsonschema-spectral-rules
-- name: Shodan API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Shodan API Rules
   rule_count: 11
   severity_counts:
     error: 6
@@ -715,16 +724,18 @@ rules:
     warn: 5
   slug: shodan-rules
 score:
-  band: exemplar
-  composite: 72.5
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: -8.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 79.5
-    developer_ergonomics: 84.8
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 26.5
+    contract_quality: 77.1
+    developer_ergonomics: 89.3
     discoverability: 57.4
-    governance: 52.1
-    operational_transparency: 52.6
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 72.5
   provenance:
     agentic_access: derived
@@ -733,9 +744,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:
 - kind: authentication

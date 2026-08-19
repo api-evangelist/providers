@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,7 +178,9 @@ rate_limits:
   name: Uml Rate Limits
   slug: uml-rate-limits
 rules:
-- name: UML API Rules
+- effective_rule_count: 5
+  extends: []
+  name: UML API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,7 +188,10 @@ rules:
     info: 2
     warn: 3
   slug: uml-jsonschema-spectral-rules
-- name: UML API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: UML API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -195,14 +201,16 @@ rules:
   slug: uml-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 31.8
+  delta: -6.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 62.2
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 58.3
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 37.8
   provenance:
@@ -212,9 +220,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/screenshots/uml-2026-06-20T200022.png
 security:
 - kind: domain-security

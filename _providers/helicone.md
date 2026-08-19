@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -2124,7 +2125,9 @@ rate_limits:
   name: Helicone Rate Limits
   slug: helicone-rate-limits
 rules:
-- name: Helicone API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Helicone API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2134,15 +2137,17 @@ rules:
   slug: helicone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 46.1
+  delta: -8.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 44.5
-    developer_ergonomics: 50.0
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 9.8
+    contract_quality: 43.9
+    developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 55.3
+    governance: 9.8
+    operational_transparency: 39.5
   previous_composite: 55.0
   provenance:
     agentic_access: derived
@@ -2151,9 +2156,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:
 - kind: authentication

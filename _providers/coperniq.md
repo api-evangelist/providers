@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -374,16 +375,18 @@ rate_limits:
   name: Coperniq Rate Limits
   slug: coperniq-rate-limits
 score:
-  band: developing
-  composite: 54.1
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: 4.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 66.2
-    developer_ergonomics: 66.8
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 16.7
+    contract_quality: 67.5
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 60.5
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -401,8 +404,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

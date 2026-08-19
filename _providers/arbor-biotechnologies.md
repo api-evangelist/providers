@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-17'
+  score: 19.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Read-only, anonymously accessible WordPress REST API served by the Arbor Biotechnologies corporate site at https://arbor.bio/wp-json. It exposes the company's press releases and announcements (59 post
@@ -142,14 +143,16 @@ overview: 'Arbor Biotechnologies publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 91
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 18.8
+  delta: 0.6
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 14.0
-    developer_ergonomics: 8.2
+    contract_governance: 16.7
+    contract_quality: 13.6
+    developer_ergonomics: 8.9
     discoverability: 75.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 18.2
   provenance:
@@ -166,8 +169,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/screenshots/arbor-biotechnologies-2026-08-07T161620.png
 security:

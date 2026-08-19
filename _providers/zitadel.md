@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -418,7 +419,9 @@ rate_limits:
   name: Zitadel Rate Limits
   slug: zitadel-rate-limits
 rules:
-- name: Zitadel API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zitadel API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -426,7 +429,10 @@ rules:
     info: 2
     warn: 3
   slug: zitadel-jsonschema-spectral-rules
-- name: Zitadel API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Zitadel API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -436,15 +442,17 @@ rules:
   slug: zitadel-spectral
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 48.0
+  delta: -5.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 75.8
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 73.0
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 53.7
   provenance:
     agentic_access: derived
@@ -453,9 +461,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:
 - kind: authentication

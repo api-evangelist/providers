@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -228,24 +229,26 @@ scopes:
   slug: connecteam-scopes
   summary_line: 62 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.5
-  delta: 0.0
+  band: strong
+  composite: 63.7
+  delta: -3.8
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 66.5
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 67.9
+    developer_ergonomics: 39.9
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 73.7
   previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
 security:

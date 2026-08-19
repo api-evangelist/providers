@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 34.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -1004,7 +1005,9 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
   Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 17 more developer resources.'
 random_paper: 54
 rules:
-- name: Amazon CodeStar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CodeStar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1012,7 +1015,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-codestar-jsonschema-spectral-rules
-- name: Amazon CodeStar API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Amazon CodeStar API Rules
   rule_count: 27
   severity_counts:
     error: 10
@@ -1022,15 +1028,17 @@ rules:
   slug: amazon-codestar-spectral-rules
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 46.8
+  delta: -8.7
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 72.4
-    developer_ergonomics: 41.3
+    contract_governance: 41.7
+    contract_quality: 69.8
+    developer_ergonomics: 26.2
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 55.5
   provenance:
     agentic_access: derived
@@ -1041,9 +1049,9 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:
 - kind: authentication

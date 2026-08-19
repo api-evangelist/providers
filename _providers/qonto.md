@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 55.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -385,15 +386,17 @@ scopes:
   summary_line: 35 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 75.0
+  delta: 3.1
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 69.1
-    developer_ergonomics: 79.9
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 16.7
+    contract_quality: 64.8
+    developer_ergonomics: 75.6
     discoverability: 68.5
-    governance: 11.5
-    operational_transparency: 86.8
+    governance: 16.7
+    operational_transparency: 84.2
   previous_composite: 71.9
   provenance:
     agentic_access: derived
@@ -410,10 +413,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 74.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/screenshots/qonto-2026-08-17T075403.png
 security:
 - kind: authentication
   name: Qonto Authentication

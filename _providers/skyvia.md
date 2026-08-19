@@ -4,7 +4,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 52.3
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -235,19 +236,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 52.8
+  delta: -3.1
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 80.4
+    contract_governance: 30.3
+    contract_quality: 52.1
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 30.3
+    operational_transparency: 15.8
   previous_composite: 55.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/screenshots/skyvia-2026-08-17T081918.png
 security:
 - kind: authentication
   name: Skyvia Authentication

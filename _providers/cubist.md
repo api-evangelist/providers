@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -368,15 +369,17 @@ scopes:
   summary_line: 135 scopes
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 51.2
+  delta: 2.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 57.7
-    developer_ergonomics: 49.5
+    contract_governance: 30.3
+    contract_quality: 56.1
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 15.8
+    governance: 30.3
+    operational_transparency: 13.2
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -394,8 +397,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

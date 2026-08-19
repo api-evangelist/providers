@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 39.6
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Public REST API for the Session AI (ZineOne) platform. Documented operations cover sending events into the platform from any channel, retrieving hosted content, calling customer-authored microservices
@@ -197,19 +197,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.4
-  delta: 38.9
+  composite: 42.8
+  delta: -6.6
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 73.9
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 52.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 10.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 49.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/screenshots/sessionai-2026-08-17T081818.png
 security:
 - kind: authentication
   name: Sessionai Authentication

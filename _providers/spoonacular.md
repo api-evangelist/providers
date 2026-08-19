@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -344,7 +345,9 @@ rate_limits:
   name: Spoonacular Rate Limits
   slug: spoonacular-rate-limits
 rules:
-- name: Spoonacular API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Spoonacular API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -352,7 +355,10 @@ rules:
     info: 2
     warn: 3
   slug: spoonacular-jsonschema-spectral-rules
-- name: Spoonacular API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Spoonacular API Rules
   rule_count: 29
   severity_counts:
     error: 6
@@ -362,15 +368,17 @@ rules:
   slug: spoonacular-spectral-rules
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 55.5
+  delta: -6.1
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 79.9
-    developer_ergonomics: 39.1
+    contract_governance: 25.0
+    contract_quality: 74.8
+    developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 61.6
   provenance:
     agentic_access: derived
@@ -379,9 +387,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:
 - kind: authentication

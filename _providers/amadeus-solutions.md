@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 32.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -2309,7 +2310,9 @@ overview: 'Amadeus Solutions publishes 2 APIs on the [APIs.io](https://apis.io/)
   Amadeus Solutions'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
 random_paper: 1
 rules:
-- name: Amadeus Solutions API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amadeus Solutions API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2317,7 +2320,10 @@ rules:
     info: 2
     warn: 3
   slug: amadeus-solutions-jsonschema-spectral-rules
-- name: Amadeus Solutions API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Amadeus Solutions API Rules
   rule_count: 19
   severity_counts:
     error: 10
@@ -2326,16 +2332,18 @@ rules:
     warn: 8
   slug: amadeus-solutions-spectral-rules
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: thin
+  composite: 32.6
+  delta: -21.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 54.5
-    developer_ergonomics: 54.3
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 41.7
+    contract_quality: 53.1
+    developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 2.6
   previous_composite: 54.5
   provenance:
     agentic_access: derived
@@ -2346,9 +2354,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:
 - kind: domain-security

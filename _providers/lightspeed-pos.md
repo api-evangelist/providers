@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-17'
+  score: 47.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -1083,7 +1084,9 @@ rate_limits:
   name: Lightspeed Pos Rate Limits
   slug: lightspeed-pos-rate-limits
 rules:
-- name: Lightspeed API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Lightspeed API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1091,7 +1094,10 @@ rules:
     info: 2
     warn: 3
   slug: lightspeed-pos-jsonschema-spectral-rules
-- name: Lightspeed API Rules
+- effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: Lightspeed API Rules
   rule_count: 33
   severity_counts:
     error: 6
@@ -1106,14 +1112,16 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.7
-  delta: 0.0
+  composite: 19.5
+  delta: -5.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 23.7
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 24.9
+    developer_ergonomics: 14.3
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 24.7
   provenance:
@@ -1123,9 +1131,9 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:
 - kind: authentication

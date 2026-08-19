@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -190,7 +191,10 @@ rate_limits:
   name: Tradestation Rate Limits
   slug: tradestation-rate-limits
 rules:
-- name: TradeStation API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: TradeStation API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -198,7 +202,9 @@ rules:
     info: 0
     warn: 8
   slug: tradestation-asyncapi-spectral-rules
-- name: TradeStation API Rules
+- effective_rule_count: 6
+  extends: []
+  name: TradeStation API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -206,7 +212,10 @@ rules:
     info: 1
     warn: 5
   slug: tradestation-jsonschema-spectral-rules
-- name: TradeStation API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: TradeStation API Rules
   rule_count: 11
   severity_counts:
     error: 6
@@ -221,14 +230,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.0
+  delta: -2.6
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 77.8
-    developer_ergonomics: 21.7
+    contract_governance: 11.4
+    contract_quality: 74.9
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 13.2
   previous_composite: 46.6
   provenance:
@@ -244,9 +255,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/screenshots/tradestation-2026-08-17T125935.png
 security:
 - kind: authentication
   name: Tradestation Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Fiber is an Express-inspired web framework for Go built on Fasthttp for building fast and scalable microservices and APIs.
@@ -74,7 +75,9 @@ rate_limits:
   name: Fiber Rate Limits
   slug: fiber-rate-limits
 rules:
-- name: Fiber API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Fiber API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -84,19 +87,21 @@ rules:
   slug: fiber-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 11.6
+  delta: -6.1
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 9.7
+    contract_governance: 9.8
+    contract_quality: 8.5
     developer_ergonomics: 0.0
     discoverability: 40.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 17.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/screenshots/fiber-2026-06-20T181148.png
 security:
 - kind: domain-security

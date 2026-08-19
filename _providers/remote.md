@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-17'
+  score: 52.1
+  scored_at: '2026-08-19'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -1117,16 +1118,18 @@ scopes:
   slug: remote-scopes
   summary_line: 86 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 61.4
-  delta: 0.0
+  band: developing
+  composite: 48.2
+  delta: -13.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.6
-    developer_ergonomics: 79.9
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 30.3
+    contract_quality: 70.3
+    developer_ergonomics: 72.0
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 61.4
   provenance:
     conformance: first-party
@@ -1137,9 +1140,10 @@ score:
       total: 101
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/remote/refs/heads/main/screenshots/remote-2026-08-17T081516.png
 security:
 - kind: authentication
   name: Remote Authentication

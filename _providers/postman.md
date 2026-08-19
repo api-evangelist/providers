@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-17'
+  score: 49.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -890,7 +891,10 @@ rate_limits:
   name: Postman Rate Limits
   slug: postman-rate-limits
 rules:
-- name: Postman API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Postman API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -898,7 +902,9 @@ rules:
     info: 1
     warn: 5
   slug: postman-asyncapi-spectral-rules
-- name: Postman API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Postman API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -906,7 +912,11 @@ rules:
     info: 2
     warn: 4
   slug: postman-jsonschema-spectral-rules
-- name: Postman API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: Postman API Rules
   rule_count: 15
   severity_counts:
     error: 7
@@ -915,16 +925,24 @@ rules:
     warn: 8
   slug: postman-rules
 score:
-  band: exemplar
-  composite: 69.4
-  delta: 0.0
+  band: strong
+  composite: 64.9
+  delta: -4.5
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 70.6
-    developer_ergonomics: 76.1
+    contract_governance: 13.6
+    contract_quality: 71.0
+    developer_ergonomics: 73.8
     discoverability: 83.3
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 55.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 69.4
   provenance:
     agentic_access: derived
@@ -933,8 +951,8 @@ score:
       derived: 0
       marker_coverage: 50.0
       total: 34
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

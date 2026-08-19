@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -156,7 +157,9 @@ rate_limits:
   name: Level2 Rate Limits
   slug: level2-rate-limits
 rules:
-- name: level2 API Rules
+- effective_rule_count: 6
+  extends: []
+  name: level2 API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -166,14 +169,16 @@ rules:
   slug: level2-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 27.9
+  delta: -6.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 60.5
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 34.4
   provenance:
@@ -183,9 +188,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
 security:
 - kind: authentication

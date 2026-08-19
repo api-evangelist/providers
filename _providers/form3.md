@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 44.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -242,15 +243,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 47.9
+  delta: -5.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 50.7
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 52.1
+    developer_ergonomics: 28.0
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 36.8
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -268,9 +271,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:
 - kind: authentication

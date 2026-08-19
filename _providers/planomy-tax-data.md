@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,14 +158,16 @@ plans:
 random_paper: 111
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 38.1
+  delta: 2.3
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 22.6
-    developer_ergonomics: 19.0
+    contract_governance: 20.5
+    contract_quality: 21.7
+    developer_ergonomics: 18.5
     discoverability: 75.9
-    governance: 14.1
+    governance: 20.5
     operational_transparency: 0.0
   previous_composite: 35.8
   provenance:
@@ -183,8 +186,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

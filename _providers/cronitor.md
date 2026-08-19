@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -215,7 +216,9 @@ rate_limits:
   name: Cronitor Rate Limits
   slug: cronitor-rate-limits
 rules:
-- name: Cronitor API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cronitor API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,15 +228,17 @@ rules:
   slug: cronitor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 46.9
+  delta: -7.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 69.6
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 69.0
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -242,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/screenshots/cronitor-2026-06-20T175236.png
 security:
 - kind: authentication

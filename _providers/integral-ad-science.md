@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'RESTful API that exposes IAS viewability, fraud and brand safety metrics for a customer''s own business applications. Job-oriented: POST /report submits a JSON ReportRequest describing teams, date rang'
@@ -229,18 +230,22 @@ rate_limits:
   slug: integral-ad-science-rate-limits
 score:
   band: emerging
-  composite: 27.1
-  delta: 0.0
+  composite: 25.0
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 27.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integral-ad-science/refs/heads/main/screenshots/integral-ad-science-2026-06-20T183425.png
 security:

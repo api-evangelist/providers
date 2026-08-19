@@ -15,22 +15,23 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -365,7 +366,9 @@ rate_limits:
   name: Trustradius Rate Limits
   slug: trustradius-rate-limits
 rules:
-- name: TrustRadius API Rules
+- effective_rule_count: 5
+  extends: []
+  name: TrustRadius API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -373,7 +376,10 @@ rules:
     info: 2
     warn: 3
   slug: trustradius-jsonschema-spectral-rules
-- name: TrustRadius API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: TrustRadius API Rules
   rule_count: 14
   severity_counts:
     error: 5
@@ -383,26 +389,31 @@ rules:
   slug: trustradius-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 16.5
+  composite: 61.2
+  delta: -1.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 65.8
-    developer_ergonomics: 69.6
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 41.7
+    contract_quality: 62.8
+    developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 10.5
-  previous_composite: 45.7
+    governance: 41.7
+    operational_transparency: 26.3
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/screenshots/trustradius-2026-06-20T195813.png
 security:
 - kind: authentication

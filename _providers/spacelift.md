@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,7 +175,9 @@ rate_limits:
   name: Spacelift Rate Limits
   slug: spacelift-rate-limits
 rules:
-- name: Spacelift API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Spacelift API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -184,15 +187,17 @@ rules:
   slug: spacelift-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 41.4
+  delta: -8.6
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 78.4
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 73.4
+    developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 13.2
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -201,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/screenshots/spacelift-2026-06-20T194237.png
 security:
 - kind: authentication

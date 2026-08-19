@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -462,7 +463,10 @@ rate_limits:
   name: Onfleet Rate Limits
   slug: onfleet-rate-limits
 rules:
-- name: Onfleet API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Onfleet API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -470,7 +474,9 @@ rules:
     info: 1
     warn: 4
   slug: onfleet-asyncapi-spectral-rules
-- name: Onfleet API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Onfleet API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -478,7 +484,10 @@ rules:
     info: 2
     warn: 3
   slug: onfleet-jsonschema-spectral-rules
-- name: Onfleet API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Onfleet API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -487,16 +496,18 @@ rules:
     warn: 5
   slug: onfleet-rules
 score:
-  band: exemplar
-  composite: 70.3
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: -8.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 78.4
-    developer_ergonomics: 65.2
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 28.8
+    contract_quality: 77.8
+    developer_ergonomics: 60.7
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 28.8
+    operational_transparency: 26.3
   previous_composite: 70.3
   provenance:
     agentic_access: derived
@@ -505,9 +516,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:
 - kind: authentication

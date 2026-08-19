@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-17'
+  score: 48.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -246,15 +247,17 @@ overview: 'OpenSERP publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 131
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 50.9
+  delta: -0.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 53.9
-    developer_ergonomics: 82.1
+    contract_governance: 16.7
+    contract_quality: 52.6
+    developer_ergonomics: 78.0
     discoverability: 77.8
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -266,9 +269,10 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/screenshots/openserp-2026-08-17T081125.png
 security:
 - kind: authentication
   name: Openserp Authentication

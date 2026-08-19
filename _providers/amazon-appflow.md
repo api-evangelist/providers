@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 43.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -796,7 +796,9 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 random_paper: 111
 rules:
-- name: Amazon AppFlow API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Amazon AppFlow API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -804,7 +806,10 @@ rules:
     info: 1
     warn: 5
   slug: amazon-appflow-jsonschema-spectral-rules
-- name: Amazon AppFlow API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Amazon AppFlow API Rules
   rule_count: 41
   severity_counts:
     error: 17
@@ -814,15 +819,17 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 43.5
+  delta: -4.9
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 32.1
-    developer_ergonomics: 47.8
+    contract_governance: 41.7
+    contract_quality: 30.4
+    developer_ergonomics: 50.0
     discoverability: 87.0
-    governance: 80.2
-    operational_transparency: 31.6
+    governance: 41.7
+    operational_transparency: 28.9
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -833,8 +840,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

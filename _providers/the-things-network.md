@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -832,7 +833,9 @@ rate_limits:
   name: The Things Network Rate Limits
   slug: the-things-network-rate-limits
 rules:
-- name: The Things Network / The Things Stack API Rules
+- effective_rule_count: 6
+  extends: []
+  name: The Things Network / The Things Stack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -840,7 +843,10 @@ rules:
     info: 1
     warn: 5
   slug: the-things-network-jsonschema-spectral-rules
-- name: The Things Network / The Things Stack API Rules
+- effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: The Things Network / The Things Stack API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -849,15 +855,17 @@ rules:
     warn: 2
   slug: the-things-network-rules
 score:
-  band: strong
-  composite: 56.8
-  delta: 0.0
+  band: developing
+  composite: 52.4
+  delta: -4.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 64.1
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 63.6
+    developer_ergonomics: 57.1
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 63.2
   previous_composite: 56.8
   provenance:
@@ -867,8 +875,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:

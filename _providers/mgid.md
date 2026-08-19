@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -192,20 +193,24 @@ rate_limits:
   name: Mgid Rate Limits
   slug: mgid-rate-limits
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -6.2
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 12.9
-    developer_ergonomics: 43.5
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 18.2
+    contract_quality: 11.3
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 52.6
+    governance: 18.2
+    operational_transparency: 50.0
   previous_composite: 45.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/screenshots/mgid-2026-06-20T185319.png
 security:
 - kind: authentication

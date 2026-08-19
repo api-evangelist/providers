@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,7 +61,9 @@ overview: 'Instructions.md is profiled on the [APIs.io](https://apis.io/) networ
   Instructions.md''s developer surface includes documentation and 1 more developer resources.'
 random_paper: 97
 rules:
-- name: Instructions.md API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Instructions.md API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -69,20 +72,22 @@ rules:
     warn: 3
   slug: instructions-md-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 13.7
-  delta: 0.0
+  band: minimal
+  composite: 8.1
+  delta: -5.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 9.8
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 13.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/screenshots/instructions-md-2026-06-20T183420.png
 slug: instructions-md
 tags:

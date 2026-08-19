@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -374,7 +375,9 @@ rate_limits:
   name: Drivewealth Rate Limits
   slug: drivewealth-rate-limits
 rules:
-- name: DriveWealth API Rules
+- effective_rule_count: 5
+  extends: []
+  name: DriveWealth API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -384,15 +387,17 @@ rules:
   slug: drivewealth-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 42.9
+  delta: -4.5
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 62.6
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 60.6
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 42.1
+    governance: 25.0
+    operational_transparency: 39.5
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -407,8 +412,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

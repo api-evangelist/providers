@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -185,15 +186,17 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 116
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 32.5
+  delta: 1.4
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 48.1
-    developer_ergonomics: 51.6
+    contract_governance: 16.7
+    contract_quality: 46.3
+    developer_ergonomics: 54.2
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 31.1
   provenance:
     agentic_access: derived
@@ -211,8 +214,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

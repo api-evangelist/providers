@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -122,6 +123,10 @@ collections:
   name: Splunk Enterprise REST Data Inputs Search API
   slug: open-splunk-search-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 - group: commercial
   title: ''
   type: License
@@ -314,6 +319,22 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/splunk/splunk-mcp-server2
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/signalfx/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/splunk-observability/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/splunk-soar/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/victorops/
 created: '2025-01-08'
 description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
 examples:
@@ -722,7 +743,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-19'
 name: Splunk
 nav: Providers
 network: true
@@ -732,7 +753,7 @@ overview: 'Splunk publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
   The Splunk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 41 more developer resources.'
+  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 46 more developer resources.'
 plans:
 - name: Splunk Plans Pricing
   plan_count: 3
@@ -743,7 +764,9 @@ rate_limits:
   name: Splunk Rate Limits
   slug: splunk-rate-limits
 rules:
-- name: Splunk API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Splunk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -751,7 +774,10 @@ rules:
     info: 2
     warn: 3
   slug: splunk-jsonschema-spectral-rules
-- name: Splunk API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Splunk API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -760,27 +786,29 @@ rules:
     warn: 7
   slug: splunk-spectral-rules
 score:
-  band: exemplar
-  composite: 66.7
-  delta: 0.0
+  band: developing
+  composite: 46.3
+  delta: -20.4
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 75.5
-    developer_ergonomics: 73.9
+    contract_governance: 9.8
+    contract_quality: 36.2
+    developer_ergonomics: 61.9
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 52.6
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 66.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 3
+      marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:
 - kind: authentication

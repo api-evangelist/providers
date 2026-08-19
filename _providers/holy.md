@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-17'
+  score: 23.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'HOLY''s Shopify-powered storefront and its agentic-commerce surface: a hosted Storefront MCP server (product search, cart, policies), a Universal Commerce Protocol (UCP) endpoint, Shopify Customer Acco'
@@ -128,12 +129,14 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 17.9
+  delta: -2.6
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 23.8
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
@@ -141,8 +144,8 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holy/refs/heads/main/screenshots/holy-2026-08-07T170240.png
 security:

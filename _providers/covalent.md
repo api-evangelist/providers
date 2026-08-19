@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -453,7 +454,10 @@ rate_limits:
   name: Covalent Rate Limits
   slug: covalent-rate-limits
 rules:
-- name: Covalent API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Covalent API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -461,7 +465,9 @@ rules:
     info: 0
     warn: 7
   slug: covalent-asyncapi-spectral-rules
-- name: Covalent API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Covalent API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -470,15 +476,17 @@ rules:
     warn: 5
   slug: covalent-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 66.9
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: -6.3
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 77.7
-    developer_ergonomics: 60.9
-    discoverability: 59.3
-    governance: 52.1
+    contract_governance: 26.5
+    contract_quality: 67.5
+    developer_ergonomics: 66.7
+    discoverability: 40.7
+    governance: 26.5
     operational_transparency: 68.4
   previous_composite: 66.9
   provenance:
@@ -488,9 +496,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:
 - kind: authentication

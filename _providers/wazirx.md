@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -217,7 +218,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: WazirX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WazirX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,15 +229,17 @@ rules:
     warn: 3
   slug: wazirx-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: -12.2
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 59.9
-    developer_ergonomics: 17.4
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 9.8
+    contract_quality: 56.5
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 47.0
   provenance:
@@ -249,10 +254,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 38.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png
 security:
 - kind: authentication

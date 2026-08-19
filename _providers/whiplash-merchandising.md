@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 api_count: 21
 apis:
 - description: Bundle Items are components that make up a bundle, defining the quantity and relationship of items within product bundles.
@@ -297,15 +298,17 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
 random_paper: 46
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 44.5
+  delta: -1.5
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 63.9
-    developer_ergonomics: 49.5
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 16.7
+    contract_quality: 64.4
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 28.9
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 46.0
   provenance:
     conformance: derived
@@ -316,9 +319,10 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/screenshots/whiplash-merchandising-2026-08-17T082956.png
 security:
 - kind: authentication
   name: Whiplash Merchandising Authentication

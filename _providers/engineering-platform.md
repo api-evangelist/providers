@@ -12,24 +12,26 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -21014,7 +21016,9 @@ rate_limits:
   name: Engineering Platform Rate Limits
   slug: engineering-platform-rate-limits
 rules:
-- name: APIs.io Engineering Platform API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APIs.io Engineering Platform API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -21024,15 +21028,17 @@ rules:
   slug: engineering-platform-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 29.5
+  delta: -5.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 59.2
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 21.4
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -21041,9 +21047,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 470
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png
 security:
 - kind: authentication

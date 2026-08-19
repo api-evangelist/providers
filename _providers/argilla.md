@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -277,7 +278,9 @@ rate_limits:
   name: Argilla Rate Limits
   slug: argilla-rate-limits
 rules:
-- name: Argilla API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Argilla API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -287,15 +290,17 @@ rules:
   slug: argilla-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 40.3
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.5
-    developer_ergonomics: 21.7
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 65.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -304,9 +309,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
 security:
 - kind: authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-17'
+  score: 26.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The integration surface of You''ve Got Leads, the senior-living CRM that is a division of A Place for Mom, Inc. The public integrations page names an "application programming interface (API)" used for '
@@ -130,16 +131,18 @@ rate_limits:
   name: A Place For Mom Rate Limits
   slug: a-place-for-mom-rate-limits
 score:
-  band: emerging
-  composite: 26.8
-  delta: 0.0
+  band: thin
+  composite: 26.3
+  delta: -0.5
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 4.3
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 4.8
     discoverability: 87.0
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 26.8
   regulatory:
     applies: true
@@ -147,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-place-for-mom/refs/heads/main/screenshots/a-place-for-mom-2026-07-25T181304.png
 security:

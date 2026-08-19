@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 9
 common:
@@ -117,7 +118,9 @@ press:
   url: https://www.regeneron.com/stories/the-nucleus-emerging-ai-tools
 random_paper: 67
 rules:
-- name: regeneron-pharmaceuticals API Rules
+- effective_rule_count: 5
+  extends: []
+  name: regeneron-pharmaceuticals API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -126,15 +129,17 @@ rules:
     warn: 3
   slug: regeneron-pharmaceuticals-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 16.2
-  delta: 0.0
+  band: minimal
+  composite: 10.2
+  delta: -6.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
+    contract_governance: 25.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 44.4
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 16.2
   regulatory:
@@ -143,9 +148,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png
 security:
 - kind: domain-security

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-17'
+  score: 12.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'TypeScript Embed SDK plus the server-side launch endpoint used to embed AI-powered medical consultations, dictations and meetings into a healthcare application. The backend mints a short-lived launch '
@@ -147,15 +148,17 @@ overview: 'Tortus publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 93
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 29.7
+  delta: -0.8
   facets:
-    commercial_clarity: 26.3
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 30.5
   provenance:
     conformance: first-party
@@ -164,9 +167,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 26.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

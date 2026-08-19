@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 35.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 1
@@ -1695,7 +1696,9 @@ rate_limits:
   name: Lithic Com Rate Limits
   slug: lithic-com-rate-limits
 rules:
-- name: Lithic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Lithic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1704,16 +1707,18 @@ rules:
     warn: 5
   slug: lithic-com-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -5.7
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 65.8
-    developer_ergonomics: 41.3
+    contract_governance: 9.8
+    contract_quality: 63.3
+    developer_ergonomics: 29.8
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 57.9
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -1728,9 +1733,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/screenshots/lithic-com-2026-07-25T225335.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -265,15 +266,17 @@ rate_limits:
   slug: digio-rate-limits
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 54.3
+  delta: -7.7
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 70.1
-    developer_ergonomics: 56.0
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 16.7
+    contract_quality: 66.3
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 62.0
   provenance:
     agentic_access: derived
@@ -285,9 +288,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:
 - kind: authentication

@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +163,9 @@ rate_limits:
   name: Sec Edgar Rate Limits
   slug: sec-edgar-rate-limits
 rules:
-- name: sec-edgar API Rules
+- effective_rule_count: 5
+  extends: []
+  name: sec-edgar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,16 +174,18 @@ rules:
     warn: 3
   slug: sec-edgar-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: -6.6
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 65.7
-    developer_ergonomics: 30.4
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 9.8
+    operational_transparency: 7.9
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -189,9 +194,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/screenshots/sec-edgar-2026-06-20T193620.png
 security:
 - kind: domain-security

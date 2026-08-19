@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -375,7 +376,9 @@ rate_limits:
   name: Shell Rate Limits
   slug: shell-rate-limits
 rules:
-- name: Shell API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Shell API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -383,7 +386,10 @@ rules:
     info: 2
     warn: 3
   slug: shell-jsonschema-spectral-rules
-- name: Shell API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Shell API Rules
   rule_count: 13
   severity_counts:
     error: 3
@@ -398,14 +404,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 52.0
+  delta: -0.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 75.1
-    developer_ergonomics: 41.3
+    contract_governance: 25.0
+    contract_quality: 70.6
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 26.3
   previous_composite: 52.7
   provenance:
@@ -421,8 +429,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

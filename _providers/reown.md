@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +160,10 @@ rate_limits:
   name: Reown Rate Limits
   slug: reown-rate-limits
 rules:
-- name: Reown API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Reown API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -169,15 +173,17 @@ rules:
   slug: reown-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 31.5
+  delta: -4.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 66.0
-    developer_ergonomics: 13.0
+    contract_governance: 11.4
+    contract_quality: 62.3
+    developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 10.5
+    governance: 11.4
+    operational_transparency: 7.9
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -192,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:

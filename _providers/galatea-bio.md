@@ -1,11 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-17'
+  score: 43.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -167,23 +167,39 @@ rate_limits:
   name: Galatea Bio Rate Limits
   slug: galatea-bio-rate-limits
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 36.9
+  delta: -5.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 57.1
-    developer_ergonomics: 71.7
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 30.3
+    contract_quality: 58.6
+    developer_ergonomics: 35.1
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
+  previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/screenshots/galatea-bio-2026-08-17T080949.png
 security:
 - kind: authentication
   name: Galatea Bio Authentication

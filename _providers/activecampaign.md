@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 72.3
-  scored_at: '2026-08-17'
+  score: 62.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -916,7 +917,10 @@ rate_limits:
   name: Activecampaign Rate Limits
   slug: activecampaign-rate-limits
 rules:
-- name: ActiveCampaign API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: ActiveCampaign API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -924,7 +928,9 @@ rules:
     info: 0
     warn: 4
   slug: activecampaign-asyncapi-spectral-rules
-- name: ActiveCampaign API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ActiveCampaign API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -932,7 +938,9 @@ rules:
     info: 2
     warn: 3
   slug: activecampaign-jsonschema-spectral-rules
-- name: ActiveCampaign API Rules
+- effective_rule_count: 26
+  extends: []
+  name: ActiveCampaign API Rules
   rule_count: 26
   severity_counts:
     error: 12
@@ -942,26 +950,31 @@ rules:
   slug: activecampaign-spectral-rules
 score:
   band: exemplar
-  composite: 68.7
-  delta: 16.0
+  composite: 67.2
+  delta: -1.5
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 45.1
-    developer_ergonomics: 93.5
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 43.2
+    contract_quality: 45.7
+    developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 72.9
-    operational_transparency: 60.5
-  previous_composite: 52.7
+    governance: 43.2
+    operational_transparency: 76.3
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 36
       marker_coverage: 100.0
       total: 36
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
 - kind: authentication

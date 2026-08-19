@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -249,7 +250,9 @@ rate_limits:
   name: University Of Waterloo Rate Limits
   slug: university-of-waterloo-rate-limits
 rules:
-- name: University of Waterloo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Waterloo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -257,7 +260,9 @@ rules:
     info: 2
     warn: 3
   slug: university-of-waterloo-jsonschema-spectral-rules
-- name: University of Waterloo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Waterloo API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -266,15 +271,17 @@ rules:
     warn: 2
   slug: university-of-waterloo-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  delta: -4.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 58.2
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 54.7
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 42.5
   provenance:
@@ -287,11 +294,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 42.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:

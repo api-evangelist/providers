@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-08-17'
+  score: 62.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -483,16 +484,18 @@ scopes:
   slug: chariot-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.4
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: -6.9
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 71.8
-    developer_ergonomics: 79.9
+    contract_governance: 16.7
+    contract_quality: 68.3
+    developer_ergonomics: 39.9
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 10.5
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -509,10 +512,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 63.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:
 - kind: authentication

@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -1092,7 +1092,9 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
   Amazon Application Migration Service''s developer surface includes authentication and 8 more developer resources.'
 random_paper: 100
 rules:
-- name: Amazon Application Migration Service API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Application Migration Service API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1100,7 +1102,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-application-migration-service-jsonschema-spectral-rules
-- name: Amazon Application Migration Service API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: Amazon Application Migration Service API Rules
   rule_count: 28
   severity_counts:
     error: 13
@@ -1110,15 +1115,23 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 31.6
+  delta: -6.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 76.1
-    developer_ergonomics: 13.0
+    contract_governance: 26.5
+    contract_quality: 73.0
+    developer_ergonomics: 11.9
     discoverability: 77.8
-    governance: 69.8
+    governance: 26.5
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -1129,9 +1142,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:
 - kind: authentication

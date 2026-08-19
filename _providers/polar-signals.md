@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 35.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: gRPC/Connect API for managing Polar Signals Cloud organizations, projects, service accounts, tokens, roles/RBAC, rate limits, and billing, plus a Parca-compatible profiling data plane for uploading an
@@ -183,23 +184,25 @@ scopes:
   slug: polar-signals-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 39.4
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 3.5
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 75.5
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 31.6
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 39.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

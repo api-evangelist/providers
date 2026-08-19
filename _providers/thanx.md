@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.5
-  scored_at: '2026-08-17'
+  score: 62.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -706,7 +707,9 @@ rate_limits:
   name: Thanx Rate Limits
   slug: thanx-rate-limits
 rules:
-- name: Thanx API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Thanx API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -714,7 +717,10 @@ rules:
     info: 1
     warn: 4
   slug: thanx-jsonschema-spectral-rules
-- name: Thanx API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Thanx API Rules
   rule_count: 40
   severity_counts:
     error: 6
@@ -729,26 +735,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 86.9
-  delta: 27.4
+  composite: 75.6
+  delta: -11.3
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 88.1
-    developer_ergonomics: 84.8
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 55.3
+    contract_quality: 82.9
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 89.6
-    operational_transparency: 89.5
-  previous_composite: 59.5
+    governance: 55.3
+    operational_transparency: 86.8
+  previous_composite: 86.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:
 - kind: authentication

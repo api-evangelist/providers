@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -185,7 +186,9 @@ rate_limits:
   name: Papaya Global Rate Limits
   slug: papaya-global-rate-limits
 rules:
-- name: Papaya Global API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Papaya Global API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -195,14 +198,16 @@ rules:
   slug: papaya-global-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 45.7
+  delta: -2.9
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.5
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 69.3
+    developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 48.6
   provenance:
@@ -218,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/screenshots/papaya-global-2026-06-20T191348.png
 security:

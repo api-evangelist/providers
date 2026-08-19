@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -324,15 +325,17 @@ rate_limits:
   slug: barchart-rate-limits
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 62.8
+  delta: 3.8
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 60.1
-    developer_ergonomics: 60.3
+    contract_governance: 16.7
+    contract_quality: 56.3
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -350,9 +353,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/screenshots/barchart-2026-08-17T122638.png
 security:
 - kind: authentication
   name: Barchart Authentication

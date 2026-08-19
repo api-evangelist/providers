@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: Check whether a destination URL can be monetized by Sovrn Commerce, get its estimated earnings per click, and receive the optimized affiliate URL to use in its place. Supports a geo override for affil
@@ -249,19 +250,31 @@ rate_limits:
   slug: sovrn-rate-limits
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 49.6
+  delta: -3.7
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 52.6
-    developer_ergonomics: 58.7
+    contract_governance: 16.7
+    contract_quality: 53.2
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 53.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:
 - kind: authentication
   name: Sovrn Authentication

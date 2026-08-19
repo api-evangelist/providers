@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -137,12 +138,14 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 23.5
+  delta: -0.6
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 54.5
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 51.0
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
@@ -154,8 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/screenshots/marriott-international-2026-06-20T185001.png
 security:

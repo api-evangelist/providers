@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -152,7 +153,10 @@ rate_limits:
   name: Hipchat Rate Limits
   slug: hipchat-rate-limits
 rules:
-- name: HipChat API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: HipChat API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -160,7 +164,9 @@ rules:
     info: 0
     warn: 5
   slug: hipchat-asyncapi-spectral-rules
-- name: HipChat API Rules
+- effective_rule_count: 5
+  extends: []
+  name: HipChat API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,7 +174,10 @@ rules:
     info: 1
     warn: 4
   slug: hipchat-jsonschema-spectral-rules
-- name: HipChat API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: HipChat API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -178,15 +187,17 @@ rules:
   slug: hipchat-rest-api-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 43.3
+  delta: -5.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 82.7
-    developer_ergonomics: 19.6
+    contract_governance: 11.4
+    contract_quality: 74.4
+    developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 41.7
-    operational_transparency: 26.3
+    governance: 11.4
+    operational_transparency: 23.7
   previous_composite: 48.9
   provenance:
     contracts:
@@ -194,9 +205,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/screenshots/hipchat-2026-06-20T182747.png
 security:
 - kind: domain-security

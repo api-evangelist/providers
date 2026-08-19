@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Access OSHA enforcement data including inspections, violations, and penalties through the Department of Labor's API.
@@ -91,12 +92,14 @@ rate_limits:
   slug: osha-rate-limits
 score:
   band: emerging
-  composite: 15.7
-  delta: 0.0
+  composite: 11.9
+  delta: -3.8
   facets:
-    commercial_clarity: 26.3
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
@@ -106,9 +109,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 18.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 11.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -455,14 +456,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 41.2
+  delta: -3.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 53.3
-    developer_ergonomics: 62.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 12.1
+    contract_quality: 52.5
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 8.3
+    governance: 12.1
     operational_transparency: 10.5
   previous_composite: 44.3
   provenance:
@@ -474,8 +477,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:

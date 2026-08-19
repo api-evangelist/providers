@@ -11,26 +11,26 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 30.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Bevz Integrator Service is a partner REST API that lets POS vendors and third-party integrators provision and manage stores on the Bevz platform programmatically. It covers store creation, provisi
@@ -149,19 +149,30 @@ rate_limits:
   slug: bevz-rate-limits
 score:
   band: developing
-  composite: 54.7
-  delta: 42.1
+  composite: 52.7
+  delta: -2.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 64.2
-    developer_ergonomics: 56.5
+    contract_governance: 16.7
+    contract_quality: 65.7
+    developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 12.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 54.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/screenshots/bevz-2026-07-25T202827.png
 security:
 - kind: authentication

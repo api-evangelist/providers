@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +129,9 @@ rate_limits:
   name: Federal Emergency Management Agency Rate Limits
   slug: federal-emergency-management-agency-rate-limits
 rules:
-- name: Federal Emergency Management Agency API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Federal Emergency Management Agency API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -138,15 +141,17 @@ rules:
   slug: openfema-rules
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 21.5
+  delta: -4.4
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 53.0
-    developer_ergonomics: 8.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 10.4
-    operational_transparency: 13.2
+    governance: 0.0
+    operational_transparency: 10.5
   previous_composite: 25.9
   provenance:
     agentic_access: derived
@@ -161,8 +166,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

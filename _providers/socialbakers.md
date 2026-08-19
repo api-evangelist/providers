@@ -14,21 +14,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 23.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -228,17 +229,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.3
-  delta: 17.2
+  composite: 56.9
+  delta: -1.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 55.2
-    developer_ergonomics: 45.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 57.9
-  previous_composite: 41.1
+    governance: 16.7
+    operational_transparency: 55.3
+  previous_composite: 58.3
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -247,9 +251,10 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png
 security:
 - kind: authentication
   name: Socialbakers Authentication

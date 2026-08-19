@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -111,15 +112,17 @@ overview: 'My AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 30
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 14.9
+  delta: -6.0
   facets:
-    commercial_clarity: 10.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 45.2
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 20.9
   regulatory:
     applies: true
@@ -127,9 +130,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/screenshots/my-ai-2026-08-07T184501.png
 security:
 - kind: authentication

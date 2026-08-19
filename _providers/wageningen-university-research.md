@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +176,9 @@ rate_limits:
   name: Wageningen University Research Rate Limits
   slug: wageningen-university-research-rate-limits
 rules:
-- name: Wageningen University & Research API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wageningen University & Research API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -183,7 +186,9 @@ rules:
     info: 1
     warn: 4
   slug: wageningen-university-research-jsonschema-spectral-rules
-- name: Wageningen University & Research API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Wageningen University & Research API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -193,14 +198,16 @@ rules:
   slug: wageningen-university-research-rules
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 40.7
+  delta: -4.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 73.9
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 69.3
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 44.7
   provenance:
@@ -213,11 +220,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 42.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:

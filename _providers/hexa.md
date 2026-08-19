@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 39.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -181,13 +182,15 @@ rate_limits:
   slug: hexa-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 33.8
+  delta: -1.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 51.2
-    developer_ergonomics: 21.7
-    discoverability: 72.2
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 0.0
+    contract_quality: 53.6
+    developer_ergonomics: 23.8
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 34.9
@@ -198,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/screenshots/hexa-2026-06-20T182713.png
 security:

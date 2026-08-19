@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -311,7 +312,9 @@ rate_limits:
   name: Currencylayer Rate Limits
   slug: currencylayer-rate-limits
 rules:
-- name: Currencylayer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Currencylayer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -319,7 +322,10 @@ rules:
     info: 1
     warn: 4
   slug: currencylayer-jsonschema-spectral-rules
-- name: Currencylayer API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Currencylayer API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -328,16 +334,18 @@ rules:
     warn: 8
   slug: currencylayer-rules
 score:
-  band: strong
-  composite: 60.0
-  delta: 0.0
+  band: developing
+  composite: 52.3
+  delta: -7.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 74.6
-    developer_ergonomics: 37.0
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 25.0
+    contract_quality: 69.9
+    developer_ergonomics: 39.3
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 60.0
   provenance:
     agentic_access: derived
@@ -346,9 +354,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
 security:
 - kind: authentication

@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -205,16 +206,18 @@ overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ev
   UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 95
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 51.1
+  delta: -5.0
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 62.7
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 58.7
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 56.1
   provenance:
     conformance: derived
@@ -225,9 +228,10 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/screenshots/uxcam-2026-08-17T082703.png
 security:
 - kind: authentication
   name: Uxcam Authentication

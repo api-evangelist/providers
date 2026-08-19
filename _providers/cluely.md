@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,18 +124,20 @@ overview: 'Cluely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 58
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 26.2
+  delta: -2.9
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 45.2
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 28.9
   previous_composite: 29.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cluely/refs/heads/main/screenshots/cluely-2026-07-25T205736.png
 security:

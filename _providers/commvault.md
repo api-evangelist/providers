@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -383,7 +384,9 @@ rate_limits:
   name: Commvault Rate Limits
   slug: commvault-rate-limits
 rules:
-- name: Commvault API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Commvault API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -391,7 +394,10 @@ rules:
     info: 2
     warn: 3
   slug: commvault-jsonschema-spectral-rules
-- name: Commvault API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Commvault API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -401,15 +407,17 @@ rules:
   slug: commvault-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 39.3
+  delta: -12.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 39.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 9.8
+    contract_quality: 63.5
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 9.8
+    operational_transparency: 15.8
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -418,9 +426,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
 security:
 - kind: authentication

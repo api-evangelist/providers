@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-17'
+  score: 39.0
+  scored_at: '2026-08-19'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -257,15 +258,17 @@ plans:
 random_paper: 67
 score:
   band: exemplar
-  composite: 66.5
-  delta: 0.0
+  composite: 68.3
+  delta: 1.8
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 65.7
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 66.3
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 66.5
   provenance:
     conformance: first-party
@@ -276,8 +279,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

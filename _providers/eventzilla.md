@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -212,7 +213,9 @@ rate_limits:
   name: Default
   slug: default
 rules:
-- name: Eventzilla API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Eventzilla API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,14 +225,16 @@ rules:
   slug: eventzilla-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 41.4
+  delta: -9.3
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 64.2
-    developer_ergonomics: 34.8
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 9.8
+    contract_quality: 61.3
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 50.7
   provenance:
@@ -239,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/screenshots/eventzilla-2026-06-20T180909.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -165,15 +166,17 @@ rate_limits:
   slug: import-io-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 34.0
+  delta: -2.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.0
-    developer_ergonomics: 21.7
-    discoverability: 81.5
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
+    contract_quality: 55.7
+    developer_ergonomics: 23.8
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -182,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/screenshots/import-io-2026-06-20T183259.png
 security:

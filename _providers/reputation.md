@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -357,7 +358,9 @@ rate_limits:
   name: Reputation Rate Limits
   slug: reputation-rate-limits
 rules:
-- name: Reputation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Reputation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,27 +369,32 @@ rules:
     warn: 3
   slug: reputation-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 71.0
-  delta: 19.4
+  band: strong
+  composite: 64.3
+  delta: -6.7
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 75.6
-    developer_ergonomics: 52.2
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 55.3
+    contract_quality: 70.8
+    developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 89.6
+    governance: 55.3
     operational_transparency: 21.1
-  previous_composite: 51.6
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:
 - kind: authentication

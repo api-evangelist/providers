@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.0
-  scored_at: '2026-08-17'
+  score: 59.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -4972,7 +4973,10 @@ rate_limits:
   name: Github Rate Limits
   slug: github-rate-limits
 rules:
-- name: GitHub API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: GitHub API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -4980,7 +4984,9 @@ rules:
     info: 0
     warn: 6
   slug: github-asyncapi-spectral-rules
-- name: GitHub API Rules
+- effective_rule_count: 6
+  extends: []
+  name: GitHub API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -4988,7 +4994,9 @@ rules:
     info: 1
     warn: 5
   slug: github-jsonschema-spectral-rules
-- name: GitHub API Rules
+- effective_rule_count: 20
+  extends: []
+  name: GitHub API Rules
   rule_count: 20
   severity_counts:
     error: 14
@@ -4997,15 +5005,17 @@ rules:
     warn: 3
   slug: github-spectral-rules
 score:
-  band: exemplar
-  composite: 66.2
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: -3.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 79.9
-    developer_ergonomics: 78.3
+    contract_governance: 11.4
+    contract_quality: 81.7
+    developer_ergonomics: 76.2
     discoverability: 66.7
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 68.4
   previous_composite: 66.2
   provenance:
@@ -5015,8 +5025,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 322
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:

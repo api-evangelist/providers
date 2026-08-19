@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 24.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +156,9 @@ rate_limits:
   name: Wine Searcher Rate Limits
   slug: wine-searcher-rate-limits
 rules:
-- name: Wine-Searcher API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Wine-Searcher API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,7 +166,10 @@ rules:
     info: 1
     warn: 4
   slug: wine-searcher-jsonschema-spectral-rules
-- name: Wine-Searcher API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Wine-Searcher API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -173,14 +179,16 @@ rules:
   slug: wine-searcher-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 32.0
+  delta: -4.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 61.2
-    developer_ergonomics: 17.4
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 19.0
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 36.7
   provenance:
@@ -196,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/screenshots/wine-searcher-2026-06-20T201514.png
 security:

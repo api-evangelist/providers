@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -198,7 +199,9 @@ rate_limits:
   name: Tillo Rate Limits
   slug: tillo-rate-limits
 rules:
-- name: Tillo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tillo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +209,10 @@ rules:
     info: 1
     warn: 4
   slug: tillo-jsonschema-spectral-rules
-- name: Tillo API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Tillo API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -216,15 +222,17 @@ rules:
   slug: tillo-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 40.5
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.3
-    developer_ergonomics: 45.7
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 62.5
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -238,10 +246,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 26.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
 security:
 - kind: authentication

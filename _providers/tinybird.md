@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -272,7 +273,9 @@ rate_limits:
   name: Tinybird Rate Limits
   slug: tinybird-rate-limits
 rules:
-- name: Tinybird API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Tinybird API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -280,7 +283,10 @@ rules:
     info: 1
     warn: 4
   slug: tinybird-jsonschema-spectral-rules
-- name: Tinybird API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Tinybird API Rules
   rule_count: 12
   severity_counts:
     error: 6
@@ -290,15 +296,17 @@ rules:
   slug: tinybird-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 45.9
+  delta: -6.7
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 69.6
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 69.1
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 52.6
   provenance:
     agentic_access: derived
@@ -307,9 +315,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
 security:
 - kind: authentication

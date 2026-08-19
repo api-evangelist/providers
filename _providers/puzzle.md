@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -379,15 +379,17 @@ scopes:
   slug: puzzle-scopes
   summary_line: 21 scopes
 score:
-  band: strong
-  composite: 63.5
-  delta: 0.0
+  band: developing
+  composite: 48.7
+  delta: -14.8
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 50.1
-    developer_ergonomics: 69.0
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 16.7
+    contract_quality: 46.9
+    developer_ergonomics: 44.6
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 50.0
   previous_composite: 63.5
   provenance:
@@ -400,9 +402,10 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/screenshots/puzzle-2026-08-17T081407.png
 security:
 - kind: authentication
   name: Puzzle Authentication

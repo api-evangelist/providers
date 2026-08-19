@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-17'
+  score: 3.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: XAG's developer Open Platform (Chinese-language) integrating application management, device data authorization, secure data communication, and message subscription, offering APIs for retrieving device
@@ -98,18 +99,20 @@ overview: 'XAG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 22
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 15.6
+  delta: -4.7
   facets:
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 7.1
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

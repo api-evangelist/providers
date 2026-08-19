@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -231,7 +232,9 @@ rate_limits:
   name: Galileo Ai Rate Limits
   slug: galileo-ai-rate-limits
 rules:
-- name: Galileo API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Galileo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,7 +242,10 @@ rules:
     info: 1
     warn: 4
   slug: galileo-ai-jsonschema-spectral-rules
-- name: Galileo API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Galileo API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -249,15 +255,17 @@ rules:
   slug: galileo-ai-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 39.7
+  delta: -4.2
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 56.7
-    developer_ergonomics: 37.0
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    contract_governance: 25.0
+    contract_quality: 56.6
+    developer_ergonomics: 40.5
+    discoverability: 81.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -266,8 +274,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/screenshots/galileo-ai-2026-06-20T181635.png
 security:

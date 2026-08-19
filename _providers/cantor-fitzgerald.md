@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945. It is a U.S. Federal Reserve primary dealer in U.S. government securities and operates investment banking, f
@@ -109,11 +110,13 @@ rate_limits:
   slug: cantor-fitzgerald-rate-limits
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 21.8
+  delta: -2.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 12.9
+    contract_governance: 0.0
+    contract_quality: 11.3
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
@@ -125,8 +128,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

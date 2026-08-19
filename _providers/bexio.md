@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -326,16 +326,18 @@ scopes:
   slug: bexio-scopes
   summary_line: 71 scopes
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: -5.7
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 53.7
-    developer_ergonomics: 66.8
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 16.7
+    contract_quality: 51.4
+    developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 76.3
+    governance: 16.7
+    operational_transparency: 63.2
   previous_composite: 67.3
   provenance:
     agentic_access: derived
@@ -347,9 +349,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:
 - kind: authentication

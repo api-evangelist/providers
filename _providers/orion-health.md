@@ -10,25 +10,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -496,7 +496,10 @@ rate_limits:
   name: Orion Health Rate Limits
   slug: orion-health-rate-limits
 rules:
-- name: Orion Health API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Orion Health API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -504,7 +507,9 @@ rules:
     info: 1
     warn: 5
   slug: orion-health-asyncapi-spectral-rules
-- name: Orion Health API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Orion Health API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -518,26 +523,35 @@ scopes:
   slug: orion-health-scopes
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.2
-  delta: 49.8
+  band: developing
+  composite: 42.4
+  delta: -13.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 83.5
-    developer_ergonomics: 41.3
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 13.6
+    contract_quality: 84.6
+    developer_ergonomics: 21.4
     discoverability: 38.9
-    governance: 58.3
-    operational_transparency: 52.6
-  previous_composite: 6.4
+    governance: 13.6
+    operational_transparency: 18.4
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 47.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/screenshots/orion-health-2026-06-20T191207.png
 security:
 - kind: authentication

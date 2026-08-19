@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: Blazing-fast full-text `search` query across all 4M+ podcasts and 200M+ episodes, with filters for country, genre, language, publish date, and whether a transcript is available, and sortable by exactn
@@ -131,18 +132,20 @@ rate_limits:
   slug: taddy-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 31.9
+  delta: -1.2
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 43.2
-    developer_ergonomics: 10.9
+    contract_governance: 0.0
+    contract_quality: 38.9
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 33.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

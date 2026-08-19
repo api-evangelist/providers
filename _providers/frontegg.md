@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -770,7 +771,10 @@ rate_limits:
   name: Frontegg Rate Limits
   slug: frontegg-rate-limits
 rules:
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -778,7 +782,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-applications-rules
-- name: Frontegg API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Frontegg API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -786,7 +793,10 @@ rules:
     info: 1
     warn: 5
   slug: frontegg-asyncapi-spectral-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -794,7 +804,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-audits-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -802,7 +815,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-entitlements-agent-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -810,7 +826,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-entitlements-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -818,7 +837,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-env-auth-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -826,7 +848,9 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-identity-rules
-- name: Frontegg API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Frontegg API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -834,7 +858,10 @@ rules:
     info: 2
     warn: 3
   slug: frontegg-jsonschema-spectral-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -842,7 +869,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-scim-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -850,7 +880,10 @@ rules:
     info: 3
     warn: 3
   slug: frontegg-sso-rules
-- name: Frontegg API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Frontegg API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -860,14 +893,16 @@ rules:
   slug: frontegg-tenants-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 63.7
+  delta: 2.4
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 68.9
-    developer_ergonomics: 63.0
+    contract_governance: 69.7
+    contract_quality: 67.5
+    developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 37.5
+    governance: 69.7
     operational_transparency: 68.4
   previous_composite: 61.3
   provenance:
@@ -877,10 +912,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png
 security:
 - kind: authentication
   name: Frontegg Authentication

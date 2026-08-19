@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 38.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
@@ -207,22 +208,26 @@ rate_limits:
   name: Sugarcrm Rate Limits
   slug: sugarcrm-rate-limits
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 31.0
+  band: strong
+  composite: 63.9
+  delta: -2.9
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 71.7
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 73.8
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 84.2
-  previous_composite: 35.8
+    governance: 18.2
+    operational_transparency: 65.8
+  previous_composite: 66.8
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png
 security:
 - kind: authentication
   name: Sugarcrm Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -154,7 +155,9 @@ rate_limits:
   name: Us Commission On International Religious Freedom Rate Limits
   slug: us-commission-on-international-religious-freedom-rate-limits
 rules:
-- name: US Commission on International Religious Freedom API Rules
+- effective_rule_count: 5
+  extends: []
+  name: US Commission on International Religious Freedom API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,15 +166,17 @@ rules:
     warn: 4
   slug: us-commission-on-international-religious-freedom-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 20.2
+  delta: -8.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 29.0
-    developer_ergonomics: 8.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 25.4
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 28.4
   regulatory:
@@ -179,10 +184,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/screenshots/us-commission-on-international-religious-freedom-2026-06-20T200619.png
 security:
 - kind: domain-security

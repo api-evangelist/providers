@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Companies API from Housecall Pro — 1 operation(s) for companies.
@@ -295,7 +296,9 @@ rate_limits:
   name: Housecall Pro Rate Limits
   slug: housecall-pro-rate-limits
 rules:
-- name: Housecall Pro API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Housecall Pro API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,15 +307,17 @@ rules:
     warn: 4
   slug: housecall-pro-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -5.1
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 68.7
-    developer_ergonomics: 50.0
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 23.7
   previous_composite: 58.1
   provenance:
@@ -326,10 +331,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:
 - kind: domain-security

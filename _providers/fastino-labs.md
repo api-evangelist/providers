@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 55.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -228,16 +229,18 @@ scopes:
   slug: fastino-labs-scopes
   summary_line: 4 scopes
 score:
-  band: strong
-  composite: 60.1
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  delta: -8.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.8
-    developer_ergonomics: 80.4
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 63.2
+    governance: 16.7
+    operational_transparency: 55.3
   previous_composite: 60.1
   provenance:
     agentic_access: derived
@@ -249,9 +252,9 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/screenshots/fastino-labs-2026-07-25T214244.png
 security:
 - kind: authentication

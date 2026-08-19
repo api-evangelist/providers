@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-17'
+  score: 21.2
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -126,7 +127,10 @@ rate_limits:
   name: Partykit Rate Limits
   slug: partykit-rate-limits
 rules:
-- name: PartyKit API Rules
+- effective_rule_count: 31
+  extends:
+  - spectral:asyncapi
+  name: PartyKit API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -136,19 +140,21 @@ rules:
   slug: partykit-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 40.1
+  delta: -5.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 50.6
-    developer_ergonomics: 30.4
+    contract_governance: 11.4
+    contract_quality: 46.7
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 52.1
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 45.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/partykit/refs/heads/main/screenshots/partykit-2026-06-20T191429.png
 security:
 - kind: domain-security

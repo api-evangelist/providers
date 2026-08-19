@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -166,7 +167,9 @@ rate_limits:
   name: Medium Rate Limits
   slug: medium-rate-limits
 rules:
-- name: medium API Rules
+- effective_rule_count: 5
+  extends: []
+  name: medium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,14 +179,16 @@ rules:
   slug: medium-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 27.3
+  delta: -6.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 60.1
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 56.3
+    developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 33.8
   provenance:
@@ -193,9 +198,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/screenshots/medium-2026-06-20T185123.png
 security:
 - kind: authentication

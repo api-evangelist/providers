@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.9
-  scored_at: '2026-08-17'
+  score: 5.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 8
 common:
@@ -183,7 +184,9 @@ rate_limits:
   name: Rr Donnelley And Sons Rate Limits
   slug: rr-donnelley-and-sons-rate-limits
 rules:
-- name: RR Donnelley And Sons API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RR Donnelley And Sons API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,19 +196,23 @@ rules:
   slug: rr-donnelley-and-sons-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 12.9
+  composite: 27.1
+  delta: -6.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 15.2
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 43.2
+    contract_quality: 11.3
+    developer_ergonomics: 16.7
     discoverability: 57.4
-    governance: 81.3
+    governance: 43.2
     operational_transparency: 10.5
-  previous_composite: 20.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 33.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rr-donnelley-and-sons/refs/heads/main/screenshots/rr-donnelley-and-sons-2026-06-20T193234.png
 security:
 - kind: domain-security

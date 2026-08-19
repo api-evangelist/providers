@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 48.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -349,15 +350,17 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 28
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 45.2
+  delta: 0.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 62.3
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 59.6
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -369,8 +372,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:

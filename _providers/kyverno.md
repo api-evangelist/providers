@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,7 +214,9 @@ rate_limits:
   name: Kyverno Rate Limits
   slug: kyverno-rate-limits
 rules:
-- name: Kyverno API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Kyverno API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -223,15 +226,17 @@ rules:
   slug: kyverno-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 29.8
+  delta: -8.6
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 58.2
-    developer_ergonomics: 26.1
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 39.5
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 54.8
+    developer_ergonomics: 26.2
+    discoverability: 64.8
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -246,9 +251,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/screenshots/kyverno-2026-06-20T184228.png
 security:
 - kind: domain-security

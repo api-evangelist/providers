@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 api_count: 15
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
@@ -256,15 +257,17 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 43.7
+  delta: -0.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 41.5
-    developer_ergonomics: 27.7
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 30.3
+    contract_quality: 40.4
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 44.5
   provenance:
     conformance: first-party
@@ -280,10 +283,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 54.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:
 - kind: authentication
   name: Certifid Authentication

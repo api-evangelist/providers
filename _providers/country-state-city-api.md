@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +176,10 @@ rate_limits:
   name: Country State City Api Rate Limits
   slug: country-state-city-api-rate-limits
 rules:
-- name: Country State City API API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Country State City API API Rules
   rule_count: 7
   severity_counts:
     error: 4
@@ -185,14 +189,16 @@ rules:
   slug: country-state-city-api-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 39.6
+  delta: -4.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 58.2
-    developer_ergonomics: 26.1
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 60.6
+    contract_quality: 54.5
+    developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 31.3
+    governance: 60.6
     operational_transparency: 23.7
   previous_composite: 44.2
   provenance:
@@ -202,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:

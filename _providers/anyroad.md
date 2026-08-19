@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -93,19 +94,21 @@ overview: 'Anyroad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 5
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 26.9
+  delta: -5.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 4.3
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 0.0
+    contract_quality: 45.1
+    developer_ergonomics: 4.8
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 31.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyroad/refs/heads/main/screenshots/anyroad-2026-07-25T200517.png
 security:
 - kind: domain-security

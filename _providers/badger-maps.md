@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 38.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -248,27 +248,32 @@ rate_limits:
   name: Badger Maps Rate Limits
   slug: badger-maps-rate-limits
 score:
-  band: exemplar
-  composite: 67.7
-  delta: 28.0
+  band: strong
+  composite: 61.3
+  delta: -6.4
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 70.1
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 69.7
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 60.5
-  previous_composite: 39.7
+    governance: 16.7
+    operational_transparency: 57.9
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication

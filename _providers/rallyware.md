@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.3
-  scored_at: '2026-08-17'
+  score: 16.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Rallyware tenant API — identity, task programs, tasks and task units, unit results, badges and KPIs for a customer's field organization. A JSON-LD / Hydra REST API on API Platform (Symfony), secur
@@ -155,19 +156,25 @@ rate_limits:
   slug: rallyware-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 8.8
+  composite: 22.8
+  delta: -1.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 30.4
+    developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
-  previous_composite: 15.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 13.2
+  previous_composite: 24.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: authentication
   name: Rallyware Authentication

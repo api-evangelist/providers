@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-17'
+  score: 25.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 124
@@ -44,7 +45,7 @@ apis:
 - description: 'The Soku AI platform API (identifies as "NexStudio API"). Powers an autonomous marketing agent across ads, analytics (GA4, GSC, PostHog), SEO hosting, and review-gated writes. Authenticated via OAuth '
   name: Soku (NexStudio) API
   slug: soku-nexstudio-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -219,21 +220,25 @@ rate_limits:
 score:
   band: developing
   composite: 43.6
-  delta: 9.9
+  delta: 0.0
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 80.4
+    developer_ergonomics: 78.6
     discoverability: 66.7
-    governance: 12.5
-    operational_transparency: 31.6
-  previous_composite: 33.7
+    governance: 18.2
+    operational_transparency: 28.9
+  previous_composite: 43.6
   provenance:
+    agentic_access: derived
+    conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/screenshots/nexad-2026-08-07T185142.png
 security:
 - kind: authentication
@@ -248,6 +253,10 @@ security:
   name: Nexad Vulnerability Disclosure
   slug: nexad-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 1
+skills:
+- name: soku
+  slug: soku
 slug: nexad
 tags:
 - Company

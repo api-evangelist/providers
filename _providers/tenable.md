@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-17'
+  score: 49.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -846,15 +847,17 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 135
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 54.9
+  delta: -1.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 59.2
-    developer_ergonomics: 69.0
+    contract_governance: 16.7
+    contract_quality: 60.0
+    developer_ergonomics: 61.3
     discoverability: 72.2
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 48.7
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -866,9 +869,10 @@ score:
       total: 107
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/screenshots/tenable-2026-08-17T082310.png
 security:
 - kind: authentication
   name: Tenable Authentication

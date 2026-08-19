@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoin
@@ -180,18 +181,20 @@ rate_limits:
   slug: apache-camel-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 25.5
+  delta: 0.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
+    contract_governance: 15.2
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 10.4
-    operational_transparency: 39.5
+    governance: 15.2
+    operational_transparency: 36.8
   previous_composite: 24.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/screenshots/apache-camel-2026-06-20T172046.png
 security:

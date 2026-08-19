@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-17'
+  score: 46.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -463,15 +464,17 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 111
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 65.3
+  delta: 5.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 66.7
-    developer_ergonomics: 87.0
+    contract_governance: 30.3
+    contract_quality: 67.9
+    developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -489,9 +492,10 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/screenshots/syllable-2026-08-17T082225.png
 security:
 - kind: authentication
   name: Syllable Authentication

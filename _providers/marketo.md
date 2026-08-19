@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -649,7 +649,10 @@ rate_limits:
   name: Marketo Rate Limits
   slug: marketo-rate-limits
 rules:
-- name: Marketo API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Marketo API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -664,26 +667,31 @@ scopes:
   summary_line: 24 scopes
 score:
   band: strong
-  composite: 60.3
-  delta: 20.4
+  composite: 55.0
+  delta: -5.3
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 63.3
-    developer_ergonomics: 71.7
+    contract_governance: 30.3
+    contract_quality: 64.1
+    developer_ergonomics: 63.7
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 71.1
-  previous_composite: 39.9
+    governance: 30.3
+    operational_transparency: 76.3
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 0.0
+      callable: 94.2
       derived: 0
       marker_coverage: 0.0
-      total: 64
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 69
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:
 - kind: authentication

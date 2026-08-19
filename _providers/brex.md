@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -127,7 +128,10 @@ rate_limits:
   name: Brex Rate Limits
   slug: brex-rate-limits
 rules:
-- name: Brex API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Brex API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -137,15 +141,23 @@ rules:
   slug: brex-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 28.4
+  delta: -4.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 63.4
-    developer_ergonomics: 10.9
+    contract_governance: 11.4
+    contract_quality: 59.9
+    developer_ergonomics: 11.9
     discoverability: 72.2
-    governance: 41.7
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 32.7
   provenance:
     agentic_access: derived
@@ -160,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png
 security:

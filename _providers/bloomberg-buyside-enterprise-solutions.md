@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 37.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -271,7 +272,9 @@ rate_limits:
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
   slug: bloomberg-buyside-enterprise-solutions-rate-limits
 rules:
-- name: Bloomberg Buyside Enterprise Solutions API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Bloomberg Buyside Enterprise Solutions API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -281,14 +284,16 @@ rules:
   slug: bloomberg-buyside-enterprise-solutions-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 41.6
+  delta: -4.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 66.4
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 63.4
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 46.4
   provenance:
@@ -304,8 +309,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:

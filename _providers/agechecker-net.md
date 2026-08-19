@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -233,7 +234,9 @@ rate_limits:
   name: Agechecker Net Rate Limits
   slug: agechecker-net-rate-limits
 rules:
-- name: AgeChecker.Net API Rules
+- effective_rule_count: 5
+  extends: []
+  name: AgeChecker.Net API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +244,10 @@ rules:
     info: 1
     warn: 4
   slug: agechecker-net-jsonschema-spectral-rules
-- name: AgeChecker.Net API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: AgeChecker.Net API Rules
   rule_count: 29
   severity_counts:
     error: 14
@@ -251,14 +257,16 @@ rules:
   slug: agechecker-net-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 44.2
+  delta: -5.8
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 72.9
-    developer_ergonomics: 34.8
+    contract_governance: 25.0
+    contract_quality: 68.3
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 50.0
   provenance:
@@ -268,9 +276,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
 security:
 - kind: authentication

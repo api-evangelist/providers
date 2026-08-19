@@ -18,18 +18,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -255,7 +256,9 @@ rate_limits:
   name: Microsoft Visio Rate Limits
   slug: microsoft-visio-rate-limits
 rules:
-- name: Microsoft Visio API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Microsoft Visio API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -263,7 +266,10 @@ rules:
     info: 1
     warn: 4
   slug: microsoft-visio-jsonschema-spectral-rules
-- name: Microsoft Visio API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Microsoft Visio API Rules
   rule_count: 24
   severity_counts:
     error: 12
@@ -278,15 +284,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 34.5
+  delta: -6.7
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 31.7
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 29.7
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -295,9 +303,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/screenshots/microsoft-visio-2026-06-20T185541.png
 security:
 - kind: authentication

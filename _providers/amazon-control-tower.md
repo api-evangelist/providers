@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -652,7 +653,9 @@ rate_limits:
   name: Amazon Control Tower Rate Limits
   slug: amazon-control-tower-rate-limits
 rules:
-- name: Amazon Control Tower API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Control Tower API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -660,7 +663,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-control-tower-jsonschema-spectral-rules
-- name: Amazon Control Tower API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Amazon Control Tower API Rules
   rule_count: 32
   severity_counts:
     error: 13
@@ -670,15 +676,17 @@ rules:
   slug: amazon-control-tower-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 43.8
+  delta: -6.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 31.9
-    developer_ergonomics: 45.7
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 25.0
+    contract_quality: 30.3
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -687,9 +695,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/screenshots/amazon-control-tower-2026-06-20T171608.png
 security:
 - kind: authentication

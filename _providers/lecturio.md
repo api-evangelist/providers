@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,24 +108,26 @@ overview: 'Lecturio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 126
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 19.0
+  delta: -1.0
   facets:
-    commercial_clarity: 44.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 13.2
   previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 25.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    regime: Education & Research
+    regime_id: education
+    score: 37.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lecturio/refs/heads/main/screenshots/lecturio-2026-08-07T182846.png
 security:

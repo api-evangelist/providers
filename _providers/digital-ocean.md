@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 29.5
+  scored_at: '2026-08-19'
 api_count: 37
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
@@ -373,13 +374,15 @@ rate_limits:
   name: Digital Ocean Rate Limits
   slug: digital-ocean-rate-limits
 score:
-  band: thin
-  composite: 41.0
-  delta: 0.0
+  band: developing
+  composite: 40.3
+  delta: -0.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.6
-    developer_ergonomics: 15.2
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 0.0
+    contract_quality: 63.2
+    developer_ergonomics: 16.7
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 28.9
@@ -390,8 +393,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-17'
+  score: 23.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Groupthink's hosted, remote Model Context Protocol (MCP) server and API, served from api.groupthink.com. Authenticated with a Bearer API token minted in the app, it lets an AI assistant join live meet
@@ -127,22 +128,24 @@ overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 56
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 28.0
+  delta: -0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.1
+    developer_ergonomics: 39.9
     discoverability: 68.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 28.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupthink/refs/heads/main/screenshots/groupthink-2026-07-25T220349.png
 security:

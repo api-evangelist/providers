@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: flavored
-    agent_skills: derived
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-17'
+  score: 31.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
@@ -187,23 +188,26 @@ rate_limits:
   slug: segmentstream-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: 9.6
+  composite: 42.4
+  delta: -3.9
   facets:
-    commercial_clarity: 92.1
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.7
+    developer_ergonomics: 66.7
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 36.7
+    governance: 18.2
+    operational_transparency: 18.4
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/screenshots/segmentstream-2026-08-17T081754.png
 security:
 - kind: authentication
   name: Segmentstream Authentication

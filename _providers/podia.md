@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Logical surface for Podia products - online courses, digital downloads, coaching, and webinars. Podia does not expose a public REST API for products; enrollment can only be automated through the Zapie
@@ -177,19 +178,23 @@ rate_limits:
   slug: podia-rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 18.9
+  composite: 34.0
+  delta: 0.6
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 16.7
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 14.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 33.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 security:
 - kind: domain-security
   name: Podia Domain Security

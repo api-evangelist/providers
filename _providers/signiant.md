@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: Unified API to manage storage, endpoints, users, and roles across multiple Signiant products. Authenticates via OAuth 2.0 client_credentials, returning a one-hour JWT bearer token.
@@ -179,22 +180,25 @@ overview: 'Signiant publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 116
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 47.8
+  delta: -2.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 44.7
+    governance: 18.2
+    operational_transparency: 42.1
   previous_composite: 50.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/screenshots/signiant-2026-08-17T081855.png
 security:
 - kind: authentication
   name: Signiant Authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 42.0
+  scored_at: '2026-08-19'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -478,15 +479,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 48.9
+  delta: -2.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 60.9
-    developer_ergonomics: 64.7
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 30.3
+    contract_quality: 58.1
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 14.5
   previous_composite: 51.3
   provenance:
     conformance: first-party
@@ -502,10 +505,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 71.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:
 - kind: authentication
   name: Toqio Authentication

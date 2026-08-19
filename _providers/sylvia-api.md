@@ -1,73 +1,65 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     auth_clarity: true
-    consent_identity: false
-    dry_run_mode: false
+    consent_identity: true
+    dry_run_mode: na
     error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
+    event_surface_described: true
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-17'
-api_count: 7
+  score: 56.9
+  scored_at: '2026-08-19'
+api_count: 12
 apis:
-- description: The Comments API from Sylvia API — 2 operation(s) for comments.
-  name: Sylvia API Comments API
-  slug: sylvia-api-comments-api
-- description: The Datasets API from Sylvia API — 1 operation(s) for datasets.
-  name: Sylvia API Datasets API
-  slug: sylvia-api-datasets-api
 - description: The Live API from Sylvia API — 1 operation(s) for live.
   name: Sylvia API Live API
   slug: sylvia-api-live-api
-- description: The Posts API from Sylvia API — 2 operation(s) for posts.
-  name: Sylvia API Posts API
-  slug: sylvia-api-posts-api
 - description: The Subreddits API from Sylvia API — 2 operation(s) for subreddits.
   name: Sylvia API Subreddits API
   slug: sylvia-api-subreddits-api
-- description: The Usage API from Sylvia API — 1 operation(s) for usage.
-  name: Sylvia API Usage API
-  slug: sylvia-api-usage-api
 - description: The Users API from Sylvia API — 3 operation(s) for users.
   name: Sylvia API Users API
   slug: sylvia-api-users-api
-artifact_total: 16
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Sylvia Comments API
-  slug: open-sylvia-api-comments-api
-- collection_type: open
-  name: Sylvia Datasets API
-  slug: open-sylvia-api-datasets-api
-- collection_type: open
-  name: Sylvia Live API
-  slug: open-sylvia-api-live-api
-- collection_type: open
-  name: Sylvia Posts API
-  slug: open-sylvia-api-posts-api
-- collection_type: open
-  name: Sylvia Subreddits API
-  slug: open-sylvia-api-subreddits-api
-- collection_type: open
-  name: Sylvia Usage API
-  slug: open-sylvia-api-usage-api
-- collection_type: open
-  name: Sylvia Users API
-  slug: open-sylvia-api-users-api
+- description: The Account API from Sylvia API — 5 operation(s) for account.
+  name: Sylvia API Account API
+  slug: sylvia-api-account-api
+- description: The Billing API from Sylvia API — 2 operation(s) for billing.
+  name: Sylvia API Billing API
+  slug: sylvia-api-billing-api
+- description: The Discovery API from Sylvia API — 3 operation(s) for discovery.
+  name: Sylvia API Discovery API
+  slug: sylvia-api-discovery-api
+- description: The Domains API from Sylvia API — 2 operation(s) for domains.
+  name: Sylvia API Domains API
+  slug: sylvia-api-domains-api
+- description: The Health API from Sylvia API — 1 operation(s) for health.
+  name: Sylvia API Health API
+  slug: sylvia-api-health-api
+- description: The Keys API from Sylvia API — 2 operation(s) for keys.
+  name: Sylvia API Keys API
+  slug: sylvia-api-keys-api
+- description: The Posts & Comments API from Sylvia API — 6 operation(s) for posts & comments.
+  name: Sylvia API Posts & Comments API
+  slug: sylvia-api-posts-comments-api
+- description: The Search API from Sylvia API — 1 operation(s) for search.
+  name: Sylvia API Search API
+  slug: sylvia-api-search-api
+- description: The Templates API from Sylvia API — 2 operation(s) for templates.
+  name: Sylvia API Templates API
+  slug: sylvia-api-templates-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -81,40 +73,151 @@ common:
   title: ''
   type: Authentication
   url: authentication/sylvia-api-authentication.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://sylvia-api.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://sylvia-api.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sylvia-api.com/docs/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://sylvia-api.com/pricing/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sylvia-api-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sylvia-api-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/sylvia-api-finops.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://sylvia-api.instatus.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sylvia-api-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://sylvia-api.com/changelog/
+- group: auth
+  title: ''
+  type: Security
+  url: https://sylvia-api.com/security/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/sylvia-api-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: https://sylvia-api.com/.well-known/security.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sylvia-api.com/privacy/
+- group: company
+  title: ''
+  type: Blog
+  url: https://sylvia-api.com/blog/
+- group: build
+  title: ''
+  type: SDK
+  url: https://sylvia-api.com/sdk/
+- group: build
+  title: ''
+  type: Packages
+  url: https://pypi.org/project/sylvia-api/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://api.sylvia-api.com/mcp
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/sylvia-api-agent-card.json
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/sylvia-api-api-catalog.json
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sylvia-api-well-known.yml
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://sylvia-api.com/apis.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://sylvia-api.com/openapi.json
 created: '2026-08-04'
-description: Sylvia API is a third-party Reddit data API that serves Reddit content as JSON — posts, comments with full recursive threads, subreddit and user surfaces, and a live comment feed. Twelve read operations cover post and comment search, single-item lookup, subreddit and user timelines, a live comments stream, dataset torrents for bulk access, and a usage endpoint. Authentication is an API key. It occupies the gap left by Pushshift, giving researchers and developers queryable Reddit history without going through OAuth on the first-party API.
+description: 'Sylvia API is a third-party Reddit data API that serves Reddit content as JSON — posts, comments with full recursive threads, subreddit and user surfaces, global search, and a live comment stream. Thirty-six operations across twelve tags cover the read surface (posts, comments, subreddits, users, search, domains, discovery and live feeds) plus account self-service: API key issue and revoke, response-format templates, usage history and crypto billing. Authentication is an API key for data endpoints and a separate account token for account operations. It occupies the gap left by Pushshift, giving researchers and developers queryable Reddit history without going through OAuth on the first-party API.'
+finops:
+- name: Sylvia Api Finops
+  service_category: ''
+  slug: sylvia-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sylvia-api.png
 layout: provider
-modified: '2026-08-04'
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-18'
 name: Sylvia API
 nav: Providers
 network: true
-overview: 'Sylvia API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Datasets API, Live API, and 4 more. Tagged areas include Reddit, Social, Data, Search, and Comments.
+overview: 'Sylvia API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Live API, Subreddits API, Users API, and 9 more. Tagged areas include Reddit, Social, Data, Search, and Comments.
 
 
-  Sylvia API''s developer surface includes authentication and 2 more developer resources.'
+  Sylvia API''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, SDKs, and 19 more developer resources.'
+plans:
+- name: Sylvia Api Plans Pricing
+  plan_count: 4
+  slug: sylvia-api-plans-pricing
 random_paper: 129
+rate_limits:
+- limit_count: 0
+  name: Sylvia Api Rate Limits
+  slug: sylvia-api-rate-limits
 score:
-  band: emerging
-  composite: 25.6
-  delta: 0.0
+  band: developing
+  composite: 48.2
+  delta: 22.6
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 61.2
-    developer_ergonomics: 10.9
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 60.1
+    developer_ergonomics: 47.6
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 26.3
   previous_composite: 25.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+      total: 12
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Sylvia Api Authentication

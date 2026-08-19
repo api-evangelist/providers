@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -245,7 +246,9 @@ overview: 'Amazon Billing And Cost Management publishes 9 APIs on the [APIs.io](
   Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 18 more developer resources.'
 random_paper: 86
 rules:
-- name: Amazon Billing And Cost Management API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Billing And Cost Management API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,15 +258,17 @@ rules:
   slug: amazon-billing-and-cost-management-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 44.9
+  delta: -7.4
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 67.7
-    developer_ergonomics: 45.7
+    contract_governance: 26.5
+    contract_quality: 64.3
+    developer_ergonomics: 40.5
     discoverability: 92.6
-    governance: 69.8
-    operational_transparency: 5.3
+    governance: 26.5
+    operational_transparency: 2.6
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -274,9 +279,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:
 - kind: authentication

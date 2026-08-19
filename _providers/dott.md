@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Auto-discovery of available feeds and cities
@@ -189,16 +190,18 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 16 more developer resources.'
 random_paper: 145
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 6.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 50.9
-    developer_ergonomics: 51.6
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 30.3
+    contract_quality: 48.4
+    developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 5.3
+    governance: 30.3
+    operational_transparency: 2.6
   previous_composite: 38.6
   provenance:
     conformance: first-party
@@ -209,9 +212,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:
 - kind: authentication

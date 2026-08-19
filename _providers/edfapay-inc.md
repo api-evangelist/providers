@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Branch Management APIs
@@ -232,16 +233,18 @@ overview: 'EdfaPay, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) net
   EdfaPay, Inc.''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 46
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: strong
+  composite: 55.9
+  delta: 4.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.4
-    developer_ergonomics: 73.4
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 63.7
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 51.8
   provenance:
     conformance: first-party
@@ -257,9 +260,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 68.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:

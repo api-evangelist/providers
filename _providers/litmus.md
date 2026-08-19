@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -182,7 +183,9 @@ rate_limits:
   name: Litmus Rate Limits
   slug: litmus-rate-limits
 rules:
-- name: Litmus API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Litmus API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -191,16 +194,18 @@ rules:
     warn: 5
   slug: litmus-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.1
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -6.5
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 70.9
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 66.8
+    developer_ergonomics: 40.5
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -209,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/screenshots/litmus-2026-06-20T184609.png
 security:
 - kind: authentication

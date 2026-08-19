@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -295,7 +295,9 @@ rate_limits:
   name: Albertsons Rate Limits
   slug: albertsons-rate-limits
 rules:
-- name: albertsons API Rules
+- effective_rule_count: 5
+  extends: []
+  name: albertsons API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -303,7 +305,10 @@ rules:
     info: 2
     warn: 3
   slug: albertsons-jsonschema-spectral-rules
-- name: albertsons API Rules
+- effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: albertsons API Rules
   rule_count: 42
   severity_counts:
     error: 16
@@ -313,16 +318,18 @@ rules:
   slug: albertsons-spectral-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 1.0
+  composite: 29.6
+  delta: -6.5
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 32.1
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 30.1
+    developer_ergonomics: 20.2
     discoverability: 92.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
-  previous_composite: 35.1
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -330,9 +337,10 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Albertsons Authentication

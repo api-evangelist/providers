@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Burlington Stores offers off-price retail with brand-name clothing, footwear, accessories, baby products, and home decor. No public API is currently documented, but the website provides online shoppin
@@ -92,18 +93,20 @@ rate_limits:
   slug: burlington-stores-rate-limits
 score:
   band: minimal
-  composite: 9.6
-  delta: 0.0
+  composite: 7.5
+  delta: -2.1
   facets:
-    commercial_clarity: 18.4
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/screenshots/burlington-stores-2026-06-20T173818.png
 security:

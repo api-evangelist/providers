@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -236,15 +237,17 @@ rate_limits:
   slug: pigment-rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 48.0
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 44.8
-    developer_ergonomics: 67.4
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 30.3
+    contract_quality: 43.0
+    developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 34.2
   previous_composite: 50.1
   provenance:
     agentic_access: derived
@@ -256,9 +259,10 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/screenshots/pigment-2026-08-17T081227.png
 security:
 - kind: authentication
   name: Pigment Authentication

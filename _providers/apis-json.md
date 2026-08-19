@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -186,7 +187,9 @@ rate_limits:
   name: Apis Json Rate Limits
   slug: apis-json-rate-limits
 rules:
-- name: APIs.json API Rules
+- effective_rule_count: 6
+  extends: []
+  name: APIs.json API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -194,7 +197,9 @@ rules:
     info: 2
     warn: 4
   slug: apis-json-jsonschema-spectral-rules
-- name: APIs.json API Rules
+- effective_rule_count: 34
+  extends: []
+  name: APIs.json API Rules
   rule_count: 34
   severity_counts:
     error: 15
@@ -203,20 +208,22 @@ rules:
     warn: 12
   slug: apis-json-spectral-rules
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 22.3
+  delta: -6.5
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 33.9
-    developer_ergonomics: 6.5
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 7.1
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-json/refs/heads/main/screenshots/apis-json-2026-06-20T172256.png
 security:
 - kind: domain-security

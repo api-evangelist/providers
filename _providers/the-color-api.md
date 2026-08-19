@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +133,9 @@ rate_limits:
   name: The Color Api Rate Limits
   slug: the-color-api-rate-limits
 rules:
-- name: The Color API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: The Color API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -140,7 +143,10 @@ rules:
     info: 2
     warn: 3
   slug: the-color-api-jsonschema-spectral-rules
-- name: The Color API API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: The Color API API Rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -149,16 +155,18 @@ rules:
     warn: 6
   slug: the-color-api-rules
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: emerging
+  composite: 24.0
+  delta: -7.8
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 64.9
-    developer_ergonomics: 8.7
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 60.8
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 31.8
   provenance:
     agentic_access: derived
@@ -173,9 +181,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/screenshots/the-color-api-2026-06-20T195217.png
 security:
 - kind: domain-security

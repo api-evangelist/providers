@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 42.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -188,16 +188,18 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 16 more developer resources.'
 random_paper: 103
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 35.0
+  delta: -8.9
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 69.6
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 69.1
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -209,9 +211,10 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/screenshots/uncapped-2026-08-17T082550.png
 security:
 - kind: authentication
   name: Uncapped Authentication

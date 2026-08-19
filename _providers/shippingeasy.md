@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -162,15 +163,17 @@ overview: 'ShippingEasy publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 108
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 29.6
+  delta: -5.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 60.4
-    developer_ergonomics: 26.1
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 57.7
+    developer_ergonomics: 17.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 35.4
   provenance:
     agentic_access: derived
@@ -184,10 +187,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 22.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/screenshots/shippingeasy-2026-06-20T193821.png
 security:
 - kind: authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 48.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -345,20 +346,22 @@ scopes:
   slug: dow-jones-scopes
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 score:
-  band: strong
-  composite: 64.2
-  delta: 11.6
+  band: exemplar
+  composite: 67.1
+  delta: 2.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.8
-    developer_ergonomics: 66.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 30.3
+    contract_quality: 65.7
+    developer_ergonomics: 66.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 78.9
-  previous_composite: 52.6
+    governance: 30.3
+    operational_transparency: 76.3
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 85.7
       derived: 0
@@ -371,10 +374,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 86.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 80.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:
 - kind: authentication

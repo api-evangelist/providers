@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
@@ -152,25 +153,27 @@ rate_limits:
   slug: ameriprise-financial-rate-limits
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 17.4
+  delta: -8.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 32.1
-    developer_ergonomics: 15.2
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 30.1
+    developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 5.3
   previous_composite: 26.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 9.1
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png
 security:
 - kind: domain-security

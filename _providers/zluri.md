@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -285,7 +286,9 @@ rate_limits:
   name: Zluri Rate Limits
   slug: zluri-rate-limits
 rules:
-- name: Zluri API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zluri API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -293,7 +296,10 @@ rules:
     info: 1
     warn: 4
   slug: zluri-jsonschema-spectral-rules
-- name: Zluri API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Zluri API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -303,15 +309,17 @@ rules:
   slug: zluri-spectral
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 44.5
+  delta: -6.8
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 74.6
-    developer_ergonomics: 17.4
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 73.4
+    developer_ergonomics: 19.0
     discoverability: 63.0
-    governance: 68.8
-    operational_transparency: 23.7
+    governance: 25.0
+    operational_transparency: 21.1
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -320,9 +328,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/screenshots/zluri-2026-08-17T130446.png
 security:
 - kind: authentication
   name: Zluri Authentication

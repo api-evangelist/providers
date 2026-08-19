@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -764,7 +765,9 @@ rate_limits:
   name: Microsoft Azure Key Vault Rate Limits
   slug: microsoft-azure-key-vault-rate-limits
 rules:
-- name: Azure Key Vault API Rules
+- effective_rule_count: 7
+  extends: []
+  name: Azure Key Vault API Rules
   rule_count: 7
   severity_counts:
     error: 7
@@ -772,7 +775,9 @@ rules:
     info: 0
     warn: 0
   slug: azure-key-vault-spectral-rules
-- name: Azure Key Vault API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Azure Key Vault API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -780,7 +785,10 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-azure-key-vault-jsonschema-spectral-rules
-- name: Azure Key Vault API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Azure Key Vault API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -795,14 +803,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 50.9
+  delta: 1.7
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 70.1
-    developer_ergonomics: 30.4
+    contract_governance: 45.5
+    contract_quality: 67.8
+    developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 31.3
+    governance: 45.5
     operational_transparency: 39.5
   previous_composite: 49.2
   provenance:
@@ -812,8 +822,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:

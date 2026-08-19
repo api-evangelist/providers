@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -132,13 +133,15 @@ rate_limits:
   name: Natera Rate Limits
   slug: natera-rate-limits
 score:
-  band: emerging
-  composite: 26.6
-  delta: 0.0
+  band: thin
+  composite: 27.6
+  delta: 1.0
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 53.0
-    developer_ergonomics: 8.7
+    contract_governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
@@ -156,8 +159,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/screenshots/natera-2026-06-20T185957.png
 security:

@@ -7,18 +7,19 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-17'
+  score: 33.9
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Press releases, publications, corporate pages and site-specific custom post types.
@@ -224,15 +225,17 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
 random_paper: 31
 score:
-  band: thin
-  composite: 30.7
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: 9.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 57.4
-    developer_ergonomics: 12.5
+    access_clarity: 57.1
+    commercial_clarity: 57.1
+    contract_governance: 16.7
+    contract_quality: 54.3
+    developer_ergonomics: 13.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 30.7
   provenance:
@@ -249,9 +252,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Recode Therapeutics Authentication

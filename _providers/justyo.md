@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: Read account/subscriber information.
@@ -136,15 +137,17 @@ rate_limits:
   slug: justyo-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 33.3
+  delta: -3.8
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 59.0
-    developer_ergonomics: 38.6
+    access_clarity: 6.6
+    commercial_clarity: 6.6
+    contract_governance: 12.1
+    contract_quality: 55.2
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 26.3
+    governance: 12.1
+    operational_transparency: 23.7
   previous_composite: 37.1
   provenance:
     contracts:
@@ -154,8 +157,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

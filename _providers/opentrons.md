@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -216,7 +217,9 @@ rate_limits:
   name: Opentrons Rate Limits
   slug: opentrons-rate-limits
 rules:
-- name: Opentrons API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Opentrons API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -226,15 +229,17 @@ rules:
   slug: opentrons-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 32.8
+  delta: -2.7
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 50.7
-    developer_ergonomics: 23.9
+    contract_governance: 9.8
+    contract_quality: 51.7
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -249,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/screenshots/opentrons-2026-06-20T191056.png
 security:

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -220,15 +221,17 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 50.2
+  delta: 1.7
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 49.3
-    developer_ergonomics: 62.5
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 16.7
+    contract_quality: 48.3
+    developer_ergonomics: 49.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 26.3
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -245,10 +248,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 94.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
 security:
 - kind: authentication
   name: Triodos Bank Uk Authentication

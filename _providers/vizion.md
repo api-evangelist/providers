@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +161,9 @@ rate_limits:
   name: Vizion Rate Limits
   slug: vizion-rate-limits
 rules:
-- name: Vizion API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vizion API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,7 +171,10 @@ rules:
     info: 1
     warn: 4
   slug: vizion-jsonschema-spectral-rules
-- name: Vizion API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Vizion API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -177,15 +183,17 @@ rules:
     warn: 5
   slug: vizion-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 36.8
+  delta: -7.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 71.3
-    developer_ergonomics: 37.0
+    contract_governance: 9.8
+    contract_quality: 67.8
+    developer_ergonomics: 35.7
     discoverability: 66.7
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 43.8
   provenance:
@@ -195,9 +203,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png
 security:
 - kind: authentication

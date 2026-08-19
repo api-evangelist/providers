@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -260,15 +261,17 @@ rate_limits:
   slug: signzy-rate-limits
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 57.7
+  delta: -4.2
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 60.1
-    developer_ergonomics: 73.4
+    contract_governance: 16.7
+    contract_quality: 56.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 34.2
   previous_composite: 61.9
   provenance:
     agentic_access: derived
@@ -280,9 +283,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
 security:
 - kind: authentication
   name: Signzy Authentication

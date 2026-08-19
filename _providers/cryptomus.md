@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-17'
+  score: 43.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -204,7 +205,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Cryptomus API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cryptomus API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,14 +217,16 @@ rules:
   slug: cryptomus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 39.8
+  delta: -7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 17.4
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 65.5
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 47.1
   provenance:
@@ -236,10 +241,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 32.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/screenshots/cryptomus-2026-06-20T175312.png
 security:
 - kind: authentication

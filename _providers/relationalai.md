@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    reversibility_documented: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.5
-  scored_at: '2026-08-17'
+  score: 28.2
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -150,23 +151,25 @@ overview: 'RelationalAI is profiled on the [APIs.io](https://apis.io/) network. 
   RelationalAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 19 more developer resources.'
 random_paper: 77
 score:
-  band: thin
-  composite: 35.6
-  delta: 0.0
+  band: developing
+  composite: 44.2
+  delta: 8.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 67.4
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 73.8
     discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 35.6
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 security:
 - kind: authentication
   name: Relationalai Authentication

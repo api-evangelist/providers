@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 43.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -3555,7 +3556,9 @@ rate_limits:
   name: Flipdish Rate Limits
   slug: flipdish-rate-limits
 rules:
-- name: Flipdish API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Flipdish API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3563,7 +3566,10 @@ rules:
     info: 1
     warn: 4
   slug: flipdish-jsonschema-spectral-rules
-- name: Flipdish API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Flipdish API Rules
   rule_count: 37
   severity_counts:
     error: 10
@@ -3577,16 +3583,18 @@ scopes:
   slug: flipdish-scopes
   summary_line: 1 scope · implicit/clientCredentials
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -6.1
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 69.3
-    developer_ergonomics: 63.0
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 25.0
+    contract_quality: 66.3
+    developer_ergonomics: 48.8
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 26.3
+    governance: 25.0
+    operational_transparency: 23.7
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -3601,9 +3609,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:
 - kind: authentication

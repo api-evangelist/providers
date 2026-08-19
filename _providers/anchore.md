@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -286,7 +287,9 @@ rate_limits:
   name: Anchore Rate Limits
   slug: anchore-rate-limits
 rules:
-- name: Anchore API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Anchore API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -294,7 +297,10 @@ rules:
     info: 2
     warn: 3
   slug: anchore-jsonschema-spectral-rules
-- name: Anchore API Rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Anchore API Rules
   rule_count: 19
   severity_counts:
     error: 5
@@ -303,16 +309,18 @@ rules:
     warn: 12
   slug: anchore-spectral-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 42.7
+  delta: -16.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 69.4
-    developer_ergonomics: 58.7
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 65.0
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 58.7
   provenance:
     agentic_access: derived
@@ -321,9 +329,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/screenshots/anchore-2026-07-25T200203.png
 security:
 - kind: authentication

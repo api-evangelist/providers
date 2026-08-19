@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 28.0
+  scored_at: '2026-08-19'
 api_count: 10
 apis:
 - description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
@@ -232,15 +233,17 @@ overview: 'Emerge Tools publishes 10 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 43
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 47.7
+  delta: -4.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 53.5
-    developer_ergonomics: 64.7
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 30.3
+    contract_quality: 50.1
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 23.7
+    governance: 30.3
+    operational_transparency: 21.1
   previous_composite: 52.1
   provenance:
     conformance: first-party
@@ -251,8 +254,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

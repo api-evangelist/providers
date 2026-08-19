@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: Whiplash Rate Limits
   slug: whiplash-rate-limits
 rules:
-- name: Whiplash API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Whiplash API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -237,14 +240,16 @@ rules:
   slug: whiplash-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 40.6
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.7
-    developer_ergonomics: 21.7
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 9.8
+    contract_quality: 61.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 42.1
   previous_composite: 47.8
   provenance:
@@ -254,10 +259,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/screenshots/whiplash-2026-06-20T201434.png
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/screenshots/whiplash-2026-08-17T130420.png
 security:
 - kind: authentication
   name: Whiplash Authentication

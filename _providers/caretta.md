@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.1
-  scored_at: '2026-08-17'
+  score: 51.8
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
@@ -192,19 +193,25 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 45.4
-  delta: 31.5
+  composite: 42.1
+  delta: -3.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 52.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 13.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  previous_composite: 45.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/screenshots/caretta-2026-07-25T204603.png
 security:
 - kind: authentication

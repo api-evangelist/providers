@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,7 +161,10 @@ rate_limits:
   name: Interactive Brokers Rate Limits
   slug: interactive-brokers-rate-limits
 rules:
-- name: Interactive Brokers API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Interactive Brokers API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -175,14 +179,16 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 36.2
+  delta: -5.1
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 59.7
-    developer_ergonomics: 28.3
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 13.6
+    contract_quality: 55.9
+    developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 41.3
   provenance:
@@ -198,9 +204,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-17'
+  score: 55.7
+  scored_at: '2026-08-19'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -316,15 +317,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 58.6
+  delta: 0.7
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 66.5
-    developer_ergonomics: 73.4
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 16.7
+    contract_quality: 66.7
+    developer_ergonomics: 70.8
     discoverability: 63.0
-    governance: 11.5
-    operational_transparency: 57.9
+    governance: 16.7
+    operational_transparency: 55.3
   previous_composite: 57.9
   provenance:
     conformance: derived
@@ -340,10 +343,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 54.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/screenshots/resolve-2026-08-17T081532.png
 security:
 - kind: authentication
   name: Resolve Authentication

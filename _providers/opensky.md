@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 46.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,7 +184,9 @@ rate_limits:
   name: Opensky Trino Api
   slug: opensky-trino-api
 rules:
-- name: OpenSky Network API Rules
+- effective_rule_count: 5
+  extends: []
+  name: OpenSky Network API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,14 +196,16 @@ rules:
   slug: opensky-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 46.1
+  delta: -7.8
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 69.2
-    developer_ergonomics: 23.9
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 9.8
+    contract_quality: 64.8
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 53.9
   provenance:
@@ -210,9 +215,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/screenshots/opensky-2026-08-17T081130.png
 security:
 - kind: authentication
   name: Opensky Authentication

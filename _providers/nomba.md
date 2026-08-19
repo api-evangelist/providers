@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-17'
+  score: 49.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -354,7 +355,10 @@ rate_limits:
   name: Nomba Rate Limits
   slug: nomba-rate-limits
 rules:
-- name: Nomba API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Nomba API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -362,7 +366,9 @@ rules:
     info: 1
     warn: 5
   slug: nomba-asyncapi-spectral-rules
-- name: Nomba API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Nomba API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -372,14 +378,16 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 36.0
+  delta: -3.4
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 75.9
-    developer_ergonomics: 21.7
+    contract_governance: 13.6
+    contract_quality: 72.2
+    developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 5.3
   previous_composite: 39.4
   provenance:
@@ -395,8 +403,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

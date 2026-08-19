@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -185,7 +186,9 @@ rate_limits:
   name: Telefoon Rate Limits
   slug: telefoon-rate-limits
 rules:
-- name: Telefoon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Telefoon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,7 +196,10 @@ rules:
     info: 1
     warn: 4
   slug: telefoon-jsonschema-spectral-rules
-- name: Telefoon API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Telefoon API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -202,16 +208,18 @@ rules:
     warn: 5
   slug: telefoon-rules
 score:
-  band: developing
-  composite: 46.5
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: -11.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 64.2
-    developer_ergonomics: 28.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 9.8
+    contract_quality: 60.1
+    developer_ergonomics: 15.5
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 21.1
+    governance: 9.8
+    operational_transparency: 13.2
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -225,10 +233,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 29.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Telefoon Authentication

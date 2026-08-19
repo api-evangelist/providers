@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,7 +156,9 @@ rate_limits:
   name: Trabex Rate Limits
   slug: trabex-rate-limits
 rules:
-- name: Trabex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trabex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,7 +166,10 @@ rules:
     info: 2
     warn: 3
   slug: trabex-jsonschema-spectral-rules
-- name: Trabex API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Trabex API Rules
   rule_count: 11
   severity_counts:
     error: 5
@@ -173,14 +179,16 @@ rules:
   slug: trabex-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 35.3
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 73.1
-    developer_ergonomics: 23.9
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 41.6
   provenance:
@@ -190,9 +198,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/screenshots/trabex-2026-06-20T195511.png
 security:
 - kind: authentication

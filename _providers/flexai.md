@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-17'
+  score: 36.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -251,14 +252,16 @@ rate_limits:
   slug: flexai-rate-limits
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 46.9
+  delta: -1.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 15.3
-    developer_ergonomics: 60.3
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 16.7
+    contract_quality: 14.3
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 47.4
   previous_composite: 48.4
   provenance:
@@ -271,8 +274,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

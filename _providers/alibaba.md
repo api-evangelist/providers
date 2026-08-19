@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-17'
+  score: 19.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Alibaba Cloud provides a comprehensive API ecosystem covering all major cloud services including Elastic Compute Service (ECS), Object Storage Service (OSS), Container Service for Kubernetes (ACK), Re
@@ -128,22 +129,24 @@ overview: 'Alibaba publishes 1 API on the [APIs.io](https://apis.io/) network: C
   Alibaba''s developer surface includes documentation, developer portal, GitHub presence, SDKs, signup flow, pricing, engineering blog, and 11 more developer resources.'
 random_paper: 104
 score:
-  band: thin
-  composite: 29.6
-  delta: 0.0
+  band: emerging
+  composite: 26.1
+  delta: -3.5
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 32.3
-    developer_ergonomics: 34.8
+    contract_governance: 18.2
+    contract_quality: 28.2
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 5.3
   previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/screenshots/alibaba-2026-07-25T195614.png
 security:

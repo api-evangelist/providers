@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,7 +166,9 @@ rate_limits:
   name: Acuity Rate Limits
   slug: acuity-rate-limits
 rules:
-- name: Acuity Scheduling API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Acuity Scheduling API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,14 +183,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 46.5
+  delta: -7.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 73.1
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 69.2
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 53.9
   provenance:
@@ -197,9 +202,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/screenshots/acuity-2026-06-20T164353.png
 security:
 - kind: authentication

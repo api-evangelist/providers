@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -2208,7 +2209,9 @@ rate_limits:
   name: Amazon Iam Identity Center Rate Limits
   slug: amazon-iam-identity-center-rate-limits
 rules:
-- name: Amazon IAM Identity Center API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon IAM Identity Center API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2216,7 +2219,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-iam-identity-center-jsonschema-spectral-rules
-- name: Amazon IAM Identity Center API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Amazon IAM Identity Center API Rules
   rule_count: 22
   severity_counts:
     error: 9
@@ -2225,16 +2231,18 @@ rules:
     warn: 12
   slug: amazon-iam-identity-center-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -6.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.4
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -2243,9 +2251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:
 - kind: authentication

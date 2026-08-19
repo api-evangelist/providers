@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -1621,7 +1621,9 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
   Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
 random_paper: 11
 rules:
-- name: Amazon CodeArtifact API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon CodeArtifact API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1629,7 +1631,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-codeartifact-jsonschema-spectral-rules
-- name: Amazon CodeArtifact API Rules
+- effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Amazon CodeArtifact API Rules
   rule_count: 27
   severity_counts:
     error: 11
@@ -1639,15 +1644,17 @@ rules:
   slug: amazon-codeartifact-spectral-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 58.0
+  delta: -5.0
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 79.9
-    developer_ergonomics: 54.3
+    contract_governance: 41.7
+    contract_quality: 77.5
+    developer_ergonomics: 57.1
     discoverability: 92.6
-    governance: 80.2
-    operational_transparency: 21.1
+    governance: 41.7
+    operational_transparency: 18.4
   previous_composite: 63.0
   provenance:
     agentic_access: derived
@@ -1658,9 +1665,9 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:
 - kind: authentication

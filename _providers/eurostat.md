@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,7 +198,9 @@ rate_limits:
   name: Eurostat Rate Limits
   slug: eurostat-rate-limits
 rules:
-- name: Eurostat API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Eurostat API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -207,14 +210,16 @@ rules:
   slug: eurostat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 35.7
+  delta: -3.1
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 49.4
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 46.3
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 38.8
   provenance:
@@ -230,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
 security:

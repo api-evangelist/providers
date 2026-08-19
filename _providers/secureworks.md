@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,7 +185,9 @@ rate_limits:
   name: Secureworks Rate Limits
   slug: secureworks-rate-limits
 rules:
-- name: Secureworks API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Secureworks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +195,10 @@ rules:
     info: 2
     warn: 3
   slug: secureworks-jsonschema-spectral-rules
-- name: Secureworks API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Secureworks API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -201,15 +207,17 @@ rules:
     warn: 3
   slug: secureworks-rules
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -7.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 66.2
-    developer_ergonomics: 28.3
+    contract_governance: 13.6
+    contract_quality: 62.7
+    developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 42.8
   provenance:
@@ -219,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/screenshots/secureworks-2026-06-20T193632.png
 security:
 - kind: authentication

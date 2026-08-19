@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +178,9 @@ rate_limits:
   name: Carbon Intensity Rate Limits
   slug: carbon-intensity-rate-limits
 rules:
-- name: Carbon Intensity API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Carbon Intensity API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -187,15 +190,17 @@ rules:
   slug: carbon-intensity-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 40.0
+  delta: -2.6
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 70.8
-    developer_ergonomics: 8.7
+    contract_governance: 9.8
+    contract_quality: 68.0
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 9.8
+    operational_transparency: 34.2
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -210,8 +215,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/screenshots/carbon-intensity-2026-06-20T173949.png
 security:

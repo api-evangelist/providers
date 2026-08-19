@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-17'
+  score: 2.6
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,22 +112,24 @@ overview: 'Bloom & Wild is profiled on the [APIs.io](https://apis.io/) network. 
   Bloom & Wild''s developer surface includes support, engineering blog, and 12 more developer resources.'
 random_paper: 16
 score:
-  band: emerging
-  composite: 15.9
-  delta: 0.0
+  band: minimal
+  composite: 10.8
+  delta: -5.1
   facets:
-    commercial_clarity: 21.1
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 15.9
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloom--wild/refs/heads/main/screenshots/bloom--wild-2026-08-07T162636.png
 security:
 - kind: domain-security

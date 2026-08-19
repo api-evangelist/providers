@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 api_count: 9
 apis:
 - description: 'Person enrichment from an email address, plus the Combined lookup that returns the person and their company in one response. Endpoints: /v2/people/find, /v2/combined/find. Verified live 2026-08-13 (HT'
@@ -235,19 +236,24 @@ rate_limits:
   slug: clearbit-rate-limits
 score:
   band: strong
-  composite: 58.9
-  delta: 30.8
+  composite: 61.9
+  delta: 3.0
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 63.0
-    developer_ergonomics: 47.8
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 4.5
+    contract_quality: 56.7
+    developer_ergonomics: 52.4
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 71.1
-  previous_composite: 28.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 4.5
+    operational_transparency: 92.1
+  previous_composite: 58.9
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/screenshots/clearbit-2026-06-20T174455.png
 security:
 - kind: authentication

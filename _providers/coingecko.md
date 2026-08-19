@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 36.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -381,7 +382,10 @@ rate_limits:
   name: Coingecko Rate Limits
   slug: coingecko-rate-limits
 rules:
-- name: CoinGecko API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: CoinGecko API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -389,7 +393,9 @@ rules:
     info: 0
     warn: 8
   slug: coingecko-asyncapi-spectral-rules
-- name: CoinGecko API Rules
+- effective_rule_count: 6
+  extends: []
+  name: CoinGecko API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -397,7 +403,10 @@ rules:
     info: 1
     warn: 5
   slug: coingecko-jsonschema-spectral-rules
-- name: CoinGecko API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: CoinGecko API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -407,15 +416,17 @@ rules:
   slug: coingecko-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 51.1
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 71.8
-    developer_ergonomics: 39.1
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 11.4
+    contract_quality: 67.4
+    developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 28.9
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 54.3
   provenance:
     agentic_access: derived
@@ -430,8 +441,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

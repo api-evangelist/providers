@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 17.5
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
@@ -193,23 +194,26 @@ scopes:
   slug: tremor-video-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 31.9
-  delta: 12.6
+  band: emerging
+  composite: 23.9
+  delta: -8.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 56.5
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 1.4
+    developer_ergonomics: 20.8
     discoverability: 92.6
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 19.3
+  previous_composite: 31.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Tremor Video Authentication

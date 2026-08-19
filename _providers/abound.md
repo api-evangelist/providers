@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-17'
+  score: 54.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -246,14 +247,16 @@ overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 37
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 35.6
+  delta: 2.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 71.6
-    developer_ergonomics: 27.7
+    contract_governance: 16.7
+    contract_quality: 69.2
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 33.6
   provenance:
@@ -272,8 +275,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

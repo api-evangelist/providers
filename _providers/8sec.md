@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -43,10 +44,6 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/8sec_games
-- group: company
-  title: ''
-  type: Careers
-  url: https://8sec.teamtailor.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -68,10 +65,11 @@ coverage:
   reason: defunct
   state: none
 created: '2026-07-17'
-description: 8SEC is a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 by serial entrepreneur and investor Jeremie Berrebi. The studio rapidly prototypes and ships engaging free-to-play mobile games for iOS and Android, with titles such as Jump Race!, Turbo Taxi, Trivia.io, Untie!, and Human Puzzle that have collectively driven over 50 million downloads. 8SEC positions itself as a full-stack studio spanning game design, development, and publishing. It is a portfolio company of 500 Global, surfaced into the API Evangelist network via VC portfolio mapping. The company operates as a game producer and does not currently publish a public developer API, SDK, or documentation surface.
+description: 8SEC was a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 and later opening a second office in Paris. Over a ten-year run it published more than 90 free-to-play mobile games for iOS and Android — Jump Race!, Turbo Taxi, Trivia.io, Untie! and Human Puzzle among them — collectively driving roughly 50 million downloads, and positioned itself as a full-stack studio spanning game design, development and publishing. UK publisher Kwalee invested EUR 1.5 million in January 2024 and took over publishing duties across the entire 8SEC catalogue. THE STUDIO IS NOW CLOSED — the shutdown was reported in October 2025, with all seven staff, including cofounders Louis Croquet and Louis Giraud, seeking new roles. The company's own site at 8sec.games is no longer deployed — the domain resolves to OVHcloud shared hosting serving a "Site not installed" 404 behind a certificate that does not cover the hostname — and the Teamtailor careers page returns 404.
+  8SEC was surfaced into the API Evangelist network as a 500 Global portfolio lead; it never published a public developer API, SDK, machine-readable specification or documentation surface, and it no longer exists to publish one.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/8sec.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-17'
 name: 8sec
 nav: Providers
 network: true
@@ -82,15 +80,17 @@ score:
   composite: 5.0
   delta: 0.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security
@@ -104,6 +104,8 @@ tags:
 - Mobile Games
 - Game Studio
 - Hyper-Casual
+- Hybrid-Casual
+- Free-to-Play
 - Gaming
 - France
 website: https://8sec.games

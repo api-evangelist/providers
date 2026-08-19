@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-17'
+  score: 19.9
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: A single GraphQL endpoint for the Filed platform. Create clients and ingest source documents into a binder, trigger tax prep and tax advisor runs and poll them to completion, read leadsheets and revie
@@ -143,22 +144,24 @@ overview: 'Filed publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 69
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 27.7
+  delta: -1.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 36.4
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 3.1
+    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 28.7
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/screenshots/filed-2026-07-25T214447.png
 security:

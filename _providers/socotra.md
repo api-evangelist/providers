@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-17'
+  score: 42.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -307,14 +307,16 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 18
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 52.1
+  delta: 3.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 46.3
-    developer_ergonomics: 82.1
+    contract_governance: 16.7
+    contract_quality: 46.6
+    developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 48.5
   provenance:
@@ -333,9 +335,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
 security:
 - kind: authentication
   name: Socotra Authentication

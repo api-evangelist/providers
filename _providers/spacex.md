@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -402,7 +403,9 @@ rate_limits:
   name: Spacex Rate Limits
   slug: spacex-rate-limits
 rules:
-- name: SpaceX (Community API) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SpaceX (Community API) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -410,7 +413,10 @@ rules:
     info: 1
     warn: 4
   slug: spacex-jsonschema-spectral-rules
-- name: SpaceX (Community API) API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: SpaceX (Community API) API Rules
   rule_count: 32
   severity_counts:
     error: 10
@@ -420,15 +426,17 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 34.3
+  delta: -2.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 27.5
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 26.2
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 25.0
+    operational_transparency: 50.0
   previous_composite: 37.2
   provenance:
     agentic_access: derived
@@ -443,8 +451,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

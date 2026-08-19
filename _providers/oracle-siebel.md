@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 36.8
+  scored_at: '2026-08-19'
 api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -332,7 +332,10 @@ rate_limits:
   name: Oracle Siebel Rate Limits
   slug: oracle-siebel-rate-limits
 rules:
-- name: Oracle Siebel API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: Oracle Siebel API Rules
   rule_count: 9
   severity_counts:
     error: 0
@@ -340,7 +343,9 @@ rules:
     info: 0
     warn: 9
   slug: oracle-siebel-asyncapi-spectral-rules
-- name: Oracle Siebel API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Oracle Siebel API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -355,25 +360,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.3
-  delta: 16.2
+  composite: 68.0
+  delta: -4.3
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 68.6
-    developer_ergonomics: 78.3
+    contract_governance: 28.0
+    contract_quality: 68.1
+    developer_ergonomics: 70.8
     discoverability: 72.2
-    governance: 72.9
-    operational_transparency: 63.2
-  previous_composite: 56.1
+    governance: 28.0
+    operational_transparency: 84.2
+  previous_composite: 72.3
   provenance:
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: authentication

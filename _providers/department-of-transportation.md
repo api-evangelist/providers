@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -228,7 +229,9 @@ rate_limits:
   name: Department Of Transportation Rate Limits
   slug: department-of-transportation-rate-limits
 rules:
-- name: Department of Transportation API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Department of Transportation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,7 +239,9 @@ rules:
     info: 2
     warn: 3
   slug: department-of-transportation-jsonschema-spectral-rules
-- name: Department of Transportation API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Department of Transportation API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -246,14 +251,16 @@ rules:
   slug: dot-rules
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 30.9
+  delta: -6.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 61.2
-    developer_ergonomics: 28.3
+    contract_governance: 9.8
+    contract_quality: 57.3
+    developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 37.1
   provenance:
@@ -269,9 +276,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png
 security:
 - kind: authentication

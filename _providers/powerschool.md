@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -234,7 +235,9 @@ rate_limits:
   name: Powerschool Rate Limits
   slug: powerschool-rate-limits
 rules:
-- name: PowerSchool API Rules
+- effective_rule_count: 6
+  extends: []
+  name: PowerSchool API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -244,14 +247,16 @@ rules:
   slug: powerschool-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 45.4
+  delta: -6.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.0
-    developer_ergonomics: 21.7
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 65.9
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 51.6
   provenance:
@@ -261,9 +266,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 40.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/screenshots/powerschool-2026-06-20T192035.png
 security:
 - kind: authentication

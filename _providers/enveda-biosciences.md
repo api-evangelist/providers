@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -243,15 +244,17 @@ overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 43
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 25.0
+  delta: 1.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 14.5
-    developer_ergonomics: 19.0
+    contract_governance: 16.7
+    contract_quality: 17.1
+    developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 23.3
   provenance:
     agentic_access: derived
@@ -269,8 +272,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

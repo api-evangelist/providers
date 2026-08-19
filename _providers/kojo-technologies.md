@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,20 +119,22 @@ overview: 'Kojo Technologies is profiled on the [APIs.io](https://apis.io/) netw
 random_paper: 125
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 21.5
+  delta: -0.5
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 22.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/screenshots/kojo-technologies-2026-07-25T224119.png
 security:

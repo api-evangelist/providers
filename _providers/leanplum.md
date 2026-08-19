@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -25,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -269,27 +269,32 @@ rate_limits:
   name: Leanplum Rate Limits
   slug: leanplum-rate-limits
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 33.9
+  band: developing
+  composite: 53.3
+  delta: -13.5
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 60.8
-    developer_ergonomics: 76.1
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 30.3
+    contract_quality: 20.4
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 60.5
-  previous_composite: 32.9
+    governance: 30.3
+    operational_transparency: 57.9
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      callable: 87.5
+      derived: 7
+      marker_coverage: 87.5
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:
 - kind: authentication

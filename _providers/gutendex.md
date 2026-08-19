@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 41.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -244,7 +245,9 @@ rate_limits:
   name: Gutendex Rate Limits
   slug: gutendex-rate-limits
 rules:
-- name: Gutendex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Gutendex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +255,9 @@ rules:
     info: 1
     warn: 4
   slug: gutendex-jsonschema-spectral-rules
-- name: Gutendex API Rules
+- effective_rule_count: 13
+  extends: []
+  name: Gutendex API Rules
   rule_count: 13
   severity_counts:
     error: 8
@@ -262,14 +267,16 @@ rules:
   slug: gutendex-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 45.3
+  delta: -4.8
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 73.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 71.3
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 50.1
   provenance:
@@ -279,8 +286,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/screenshots/gutendex-2026-06-20T182442.png
 security:

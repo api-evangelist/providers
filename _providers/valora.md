@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-17'
+  score: 28.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
@@ -178,15 +179,17 @@ overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 49
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 30.0
+  delta: -0.1
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 13.8
-    developer_ergonomics: 42.9
+    contract_governance: 16.7
+    contract_quality: 13.1
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 30.1
   provenance:
     conformance: derived
@@ -203,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-17'
+  score: 38.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -213,15 +214,17 @@ overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 57
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 58.3
+  delta: -0.7
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 61.2
-    developer_ergonomics: 75.5
+    contract_governance: 30.3
+    contract_quality: 65.0
+    developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 36.8
+    governance: 30.3
+    operational_transparency: 18.4
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -233,9 +236,10 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/screenshots/unblocked-2026-08-17T082549.png
 security:
 - kind: authentication
   name: Unblocked Authentication

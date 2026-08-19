@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.7
-  scored_at: '2026-08-17'
+  score: 19.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Lightpanda's primary programmable interface. The browser runs as a CDP server (`lightpanda serve`) and exposes the Chrome DevTools Protocol over a WebSocket endpoint (default `ws://127.0.0.1:9222`). C
@@ -118,7 +119,10 @@ rate_limits:
   name: Lightpanda Rate Limits
   slug: lightpanda-rate-limits
 rules:
-- name: Lightpanda API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Lightpanda API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -128,19 +132,21 @@ rules:
   slug: lightpanda-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 31.7
+  delta: -6.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 42.5
-    developer_ergonomics: 10.9
+    contract_governance: 13.6
+    contract_quality: 40.1
+    developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    governance: 13.6
+    operational_transparency: 34.2
   previous_composite: 37.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
 security:
 - kind: domain-security

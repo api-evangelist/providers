@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-17'
+  score: 37.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -390,7 +391,9 @@ rate_limits:
   name: Bloomberg Rate Limits
   slug: bloomberg-rate-limits
 rules:
-- name: Bloomberg API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Bloomberg API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -398,7 +401,10 @@ rules:
     info: 2
     warn: 4
   slug: bloomberg-jsonschema-spectral-rules
-- name: Bloomberg API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Bloomberg API Rules
   rule_count: 10
   severity_counts:
     error: 7
@@ -412,16 +418,18 @@ scopes:
   slug: bloomberg-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.0
+  band: strong
+  composite: 64.5
+  delta: -2.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 73.9
-    developer_ergonomics: 66.8
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 55.3
+    contract_quality: 69.2
+    developer_ergonomics: 70.8
     discoverability: 83.3
-    governance: 89.6
-    operational_transparency: 39.5
+    governance: 55.3
+    operational_transparency: 36.8
   previous_composite: 67.4
   provenance:
     agentic_access: derived
@@ -439,8 +447,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-17'
+  score: 35.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -224,15 +225,17 @@ scopes:
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 40.8
+  delta: -9.4
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 61.2
-    developer_ergonomics: 56.0
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 16.7
+    contract_quality: 62.9
+    developer_ergonomics: 16.1
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 36.8
+    governance: 16.7
+    operational_transparency: 26.3
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -244,10 +247,10 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 51.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:
 - kind: authentication

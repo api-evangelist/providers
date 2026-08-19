@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 38.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -335,7 +336,9 @@ overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 14 more developer resources.'
 random_paper: 112
 rules:
-- name: IKEA API Rules
+- effective_rule_count: 5
+  extends: []
+  name: IKEA API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -343,7 +346,10 @@ rules:
     info: 2
     warn: 3
   slug: ikea-jsonschema-spectral-rules
-- name: IKEA API Rules
+- effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: IKEA API Rules
   rule_count: 34
   severity_counts:
     error: 14
@@ -353,15 +359,17 @@ rules:
   slug: ikea-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 28.6
+  delta: -6.6
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 68.5
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 65.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -370,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Ikea Authentication

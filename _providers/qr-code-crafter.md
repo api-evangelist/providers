@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 43.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -176,19 +177,32 @@ rate_limits:
   slug: qr-code-crafter-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 45.7
+  delta: 2.2
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 32.3
-    developer_ergonomics: 43.5
+    contract_governance: 16.7
+    contract_quality: 43.7
+    developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 47.4
   previous_composite: 43.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/screenshots/qr-code-crafter-2026-08-17T081420.png
 security:
 - kind: authentication
   name: Qr Code Crafter Authentication

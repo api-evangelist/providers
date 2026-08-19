@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 36.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -246,27 +247,32 @@ rate_limits:
   name: Goatcounter Rate Limits
   slug: goatcounter-rate-limits
 score:
-  band: developing
-  composite: 55.2
-  delta: 23.4
+  band: strong
+  composite: 57.0
+  delta: 1.8
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 55.7
-    developer_ergonomics: 60.9
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 16.7
+    contract_quality: 52.2
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 20.8
+    governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 31.8
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/screenshots/goatcounter-2026-06-20T181940.png
 security:
 - kind: authentication

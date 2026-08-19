@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: 'A live, production API gateway at api.canadalife.com serving Canada Life''s partner, distributor and MGA integrations. It is fully gated: every business path probed (including /v1, /docs, /health, /ope'
@@ -145,15 +146,17 @@ scopes:
   slug: canada-life-scopes
   summary_line: 36 scopes · clientCredentials/authorizationCode
 score:
-  band: emerging
-  composite: 27.3
-  delta: 0.0
+  band: thin
+  composite: 27.1
+  delta: -0.2
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 87.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 27.3
   provenance:
@@ -164,8 +167,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/screenshots/canada-life-2026-07-25T204322.png
 security:

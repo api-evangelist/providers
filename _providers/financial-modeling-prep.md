@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: derived
-    idempotency: false
-    mcp_server: derived
+    idempotency: na
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 48.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -343,7 +344,10 @@ rate_limits:
   name: Financial Modeling Prep Rate Limits
   slug: financial-modeling-prep-rate-limits
 rules:
-- name: Financial Modeling Prep API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Financial Modeling Prep API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -353,15 +357,17 @@ rules:
   slug: financial-modeling-prep-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.0
+  composite: 73.2
+  delta: 1.7
   facets:
+    access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_quality: 72.4
-    developer_ergonomics: 49.5
+    contract_governance: 28.0
+    contract_quality: 67.8
+    developer_ergonomics: 51.8
     discoverability: 92.6
-    governance: 53.1
-    operational_transparency: 76.3
+    governance: 28.0
+    operational_transparency: 73.7
   previous_composite: 71.5
   provenance:
     agentic_access: derived
@@ -379,9 +385,10 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/screenshots/financial-modeling-prep-2026-08-17T080057.png
 security:
 - kind: authentication
   name: Financial Modeling Prep Authentication

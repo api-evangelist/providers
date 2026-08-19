@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 39.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -204,15 +205,17 @@ overview: 'Whitespace publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 125
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 49.1
+  delta: 3.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 52.0
-    developer_ergonomics: 69.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 30.3
+    contract_quality: 50.9
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 28.9
+    governance: 30.3
+    operational_transparency: 26.3
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -230,9 +233,10 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/screenshots/whitespace-london-2026-08-17T082915.png
 security:
 - kind: authentication
   name: Whitespace London Authentication

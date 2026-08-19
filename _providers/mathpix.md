@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -313,7 +314,9 @@ rate_limits:
   name: Mathpix Rate Limits
   slug: mathpix-rate-limits
 rules:
-- name: Mathpix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Mathpix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,7 +324,10 @@ rules:
     info: 1
     warn: 4
   slug: mathpix-jsonschema-spectral-rules
-- name: Mathpix API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Mathpix API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -331,14 +337,16 @@ rules:
   slug: mathpix-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 55.6
+  delta: -8.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 67.7
-    developer_ergonomics: 58.7
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 25.0
+    contract_quality: 64.1
+    developer_ergonomics: 64.3
     discoverability: 55.6
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 36.8
   previous_composite: 64.1
   provenance:
@@ -348,9 +356,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/screenshots/mathpix-2026-06-20T185033.png
 security:
 - kind: authentication

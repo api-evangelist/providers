@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 25.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -222,15 +223,17 @@ rate_limits:
   slug: podman-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 29.1
+  delta: -1.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 51.2
-    developer_ergonomics: 26.1
+    contract_governance: 0.0
+    contract_quality: 49.5
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     agentic_access: derived
@@ -239,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
 security:

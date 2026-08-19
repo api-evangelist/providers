@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 39.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -444,7 +444,9 @@ rate_limits:
   name: Teradata Rate Limits
   slug: teradata-rate-limits
 rules:
-- name: Teradata API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Teradata API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -452,7 +454,10 @@ rules:
     info: 2
     warn: 3
   slug: teradata-jsonschema-spectral-rules
-- name: Teradata API Rules
+- effective_rule_count: 73
+  extends:
+  - spectral:oas
+  name: Teradata API Rules
   rule_count: 32
   severity_counts:
     error: 13
@@ -462,15 +467,17 @@ rules:
   slug: teradata-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 41.1
+  delta: -7.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 23.6
-    developer_ergonomics: 80.4
-    discoverability: 88.9
-    governance: 68.8
-    operational_transparency: 13.2
+    contract_governance: 25.0
+    contract_quality: 22.2
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -479,9 +486,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication

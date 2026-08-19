@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -396,7 +397,10 @@ rate_limits:
   name: Corelogic Rate Limits
   slug: corelogic-rate-limits
 rules:
-- name: CoreLogic (Cotality) API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: CoreLogic (Cotality) API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -404,7 +408,9 @@ rules:
     info: 0
     warn: 3
   slug: corelogic-direct-webapi-crm-rules
-- name: CoreLogic (Cotality) API Rules
+- effective_rule_count: 5
+  extends: []
+  name: CoreLogic (Cotality) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -412,7 +418,10 @@ rules:
     info: 2
     warn: 3
   slug: corelogic-jsonschema-spectral-rules
-- name: CoreLogic (Cotality) API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: CoreLogic (Cotality) API Rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -426,16 +435,18 @@ scopes:
   slug: corelogic-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: 2.7
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 64.5
-    developer_ergonomics: 45.7
-    discoverability: 57.4
-    governance: 31.3
-    operational_transparency: 36.8
+    access_clarity: 56.6
+    commercial_clarity: 56.6
+    contract_governance: 60.6
+    contract_quality: 63.2
+    developer_ergonomics: 50.0
+    discoverability: 50.0
+    governance: 60.6
+    operational_transparency: 34.2
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -449,9 +460,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 63.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 57.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png
 security:

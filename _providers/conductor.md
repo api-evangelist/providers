@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-17'
+  score: 21.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -353,7 +354,10 @@ rate_limits:
   name: Conductor Rate Limits
   slug: conductor-rate-limits
 rules:
-- name: Conductor API Rules
+- effective_rule_count: 30
+  extends:
+  - spectral:asyncapi
+  name: Conductor API Rules
   rule_count: 3
   severity_counts:
     error: 0
@@ -361,7 +365,9 @@ rules:
     info: 1
     warn: 2
   slug: conductor-asyncapi-spectral-rules
-- name: Conductor API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Conductor API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -369,7 +375,10 @@ rules:
     info: 2
     warn: 4
   slug: conductor-jsonschema-spectral-rules
-- name: Conductor API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Conductor API Rules
   rule_count: 14
   severity_counts:
     error: 8
@@ -378,15 +387,17 @@ rules:
     warn: 4
   slug: conductor-spectral-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -5.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 81.5
-    developer_ergonomics: 2.2
+    contract_governance: 28.8
+    contract_quality: 80.7
+    developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 28.8
     operational_transparency: 34.2
   previous_composite: 43.2
   provenance:
@@ -396,9 +407,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/screenshots/conductor-2026-06-20T174854.png
 security:
 - kind: domain-security

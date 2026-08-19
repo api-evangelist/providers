@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-17'
+  score: 48.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -877,7 +878,9 @@ rate_limits:
   name: Google Cloud Platform Rate Limits
   slug: google-cloud-platform-rate-limits
 rules:
-- name: Google Cloud Platform API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Google Cloud Platform API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -885,7 +888,10 @@ rules:
     info: 2
     warn: 4
   slug: google-cloud-platform-jsonschema-spectral-rules
-- name: Google Cloud Platform API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Google Cloud Platform API Rules
   rule_count: 16
   severity_counts:
     error: 8
@@ -899,16 +905,18 @@ scopes:
   slug: google-cloud-platform-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 72.6
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: -9.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 73.9
-    developer_ergonomics: 78.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 26.5
+    contract_quality: 73.6
+    developer_ergonomics: 72.6
     discoverability: 75.9
-    governance: 69.8
-    operational_transparency: 55.3
+    governance: 26.5
+    operational_transparency: 52.6
   previous_composite: 72.6
   provenance:
     agentic_access: derived
@@ -919,9 +927,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:
 - kind: authentication

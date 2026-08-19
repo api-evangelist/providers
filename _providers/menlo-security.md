@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,19 +75,21 @@ overview: 'Menlo Security is profiled on the [APIs.io](https://apis.io/) network
   Menlo Security''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 131
 score:
-  band: minimal
-  composite: 12.1
-  delta: 0.0
+  band: emerging
+  composite: 12.2
+  delta: 0.1
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/menlo-security/refs/heads/main/screenshots/menlo-security-2026-08-07T172524.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -240,7 +241,10 @@ rate_limits:
   name: Rippling Rate Limits
   slug: rippling-rate-limits
 rules:
-- name: Rippling API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Rippling API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -249,16 +253,18 @@ rules:
     warn: 7
   slug: rippling-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 50.3
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  delta: -14.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.3
-    developer_ergonomics: 32.6
-    discoverability: 53.7
-    governance: 41.7
-    operational_transparency: 28.9
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 11.4
+    contract_quality: 68.2
+    developer_ergonomics: 14.3
+    discoverability: 46.3
+    governance: 11.4
+    operational_transparency: 26.3
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -267,9 +273,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/screenshots/rippling-2026-06-20T193125.png
 security:
 - kind: authentication

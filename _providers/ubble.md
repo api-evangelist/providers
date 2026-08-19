@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-17'
+  score: 39.5
+  scored_at: '2026-08-19'
 api_count: 11
 apis:
 - description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
@@ -249,15 +250,17 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 75
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 44.0
+  delta: -9.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.7
-    developer_ergonomics: 62.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 61.6
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
+    governance: 16.7
+    operational_transparency: 42.1
   previous_composite: 53.8
   provenance:
     conformance: derived
@@ -268,9 +271,10 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/ubble/refs/heads/main/screenshots/ubble-2026-08-17T082623.png
 security:
 - kind: authentication
   name: Ubble Authentication

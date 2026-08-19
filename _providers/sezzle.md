@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -239,7 +240,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Sezzle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Sezzle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,15 +251,17 @@ rules:
     warn: 4
   slug: sezzle-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -6.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.2
-    developer_ergonomics: 19.6
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 9.8
+    contract_quality: 58.5
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 44.0
   provenance:
@@ -272,9 +277,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/screenshots/sezzle-2026-06-20T193742.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -771,7 +772,9 @@ rate_limits:
   name: Amazon Detective Rate Limits
   slug: amazon-detective-rate-limits
 rules:
-- name: Amazon Detective API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Detective API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -779,7 +782,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-detective-jsonschema-spectral-rules
-- name: Amazon Detective API Rules
+- effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Amazon Detective API Rules
   rule_count: 46
   severity_counts:
     error: 18
@@ -789,15 +795,17 @@ rules:
   slug: amazon-detective-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 43.6
+  delta: -6.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 32.1
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 30.5
+    developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -806,9 +814,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/screenshots/amazon-detective-2026-06-20T171627.png
 security:
 - kind: authentication

@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The normative REST binding of the GS1 EPCIS 2.0 standard — the sector's supply chain visibility event interface, describing what happened to an object, when, where and why, using Core Business Vocabul
@@ -153,12 +154,20 @@ score:
   composite: 23.9
   delta: 0.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 57.3
-    developer_ergonomics: 8.7
+    contract_governance: 15.2
+    contract_quality: 55.8
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 10.4
-    operational_transparency: 5.3
+    governance: 15.2
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
   previous_composite: 23.9
   provenance:
     contracts:
@@ -166,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
 slug: gs1

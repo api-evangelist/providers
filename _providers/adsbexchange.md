@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -339,7 +340,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: ADS-B Exchange API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ADS-B Exchange API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -349,14 +352,16 @@ rules:
   slug: adsbexchange-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 40.3
+  delta: -10.3
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 72.4
-    developer_ergonomics: 19.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 69.9
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 50.6
   provenance:
@@ -366,9 +371,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png
 security:
 - kind: authentication

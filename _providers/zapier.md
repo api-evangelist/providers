@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 67.1
-  scored_at: '2026-08-17'
+  score: 63.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -1395,7 +1396,9 @@ rate_limits:
   name: Zapier Rate Limits
   slug: zapier-rate-limits
 rules:
-- name: Zapier API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Zapier API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1403,7 +1406,9 @@ rules:
     info: 2
     warn: 3
   slug: zapier-jsonschema-spectral-rules
-- name: Zapier API Rules
+- effective_rule_count: 18
+  extends: []
+  name: Zapier API Rules
   rule_count: 18
   severity_counts:
     error: 5
@@ -1417,15 +1422,17 @@ scopes:
   slug: zapier-scopes
   summary_line: 10 scopes · authorizationCode/implicit
 score:
-  band: exemplar
-  composite: 70.9
-  delta: 0.0
+  band: strong
+  composite: 65.0
+  delta: -5.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 75.9
-    developer_ergonomics: 71.7
+    contract_governance: 41.7
+    contract_quality: 73.0
+    developer_ergonomics: 69.0
     discoverability: 74.1
-    governance: 80.2
+    governance: 41.7
     operational_transparency: 52.6
   previous_composite: 70.9
   provenance:
@@ -1437,9 +1444,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:
 - kind: authentication

@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-17'
+  score: 19.4
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: Authenticated customer profile and registration.
@@ -215,14 +216,16 @@ overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 123
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 35.7
+  delta: 0.4
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 56.3
-    developer_ergonomics: 19.0
+    contract_governance: 16.7
+    contract_quality: 53.2
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 35.3
   provenance:
@@ -240,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:

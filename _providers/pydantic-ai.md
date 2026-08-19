@@ -15,11 +15,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-17'
+  score: 48.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -340,7 +341,9 @@ rate_limits:
   name: Pydantic Ai Rate Limits
   slug: pydantic-ai-rate-limits
 rules:
-- name: PydanticAI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PydanticAI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -354,16 +357,18 @@ scopes:
   slug: pydantic-ai-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  delta: -5.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 67.8
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 69.0
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 9.8
+    operational_transparency: 65.8
   previous_composite: 57.0
   provenance:
     agentic_access: derived
@@ -372,9 +377,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:
 - kind: authentication

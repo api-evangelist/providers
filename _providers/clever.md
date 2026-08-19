@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -280,7 +281,9 @@ rate_limits:
   name: Clever Rate Limits
   slug: clever-rate-limits
 rules:
-- name: Clever API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Clever API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,14 +298,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 50.7
+  delta: 0.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 64.1
-    developer_ergonomics: 21.7
+    contract_governance: 25.0
+    contract_quality: 63.0
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 21.1
   previous_composite: 50.4
   provenance:
@@ -312,8 +317,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 70.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/screenshots/clever-2026-06-20T174509.png
 security:

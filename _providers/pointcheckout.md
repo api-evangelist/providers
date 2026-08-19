@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: API endpoints for branch management.
@@ -203,16 +203,18 @@ overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) net
   PointCheckout''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, quickstart, support, and 22 more developer resources.'
 random_paper: 67
 score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  delta: 5.6
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 65.7
-    developer_ergonomics: 69.0
+    contract_governance: 30.3
+    contract_quality: 63.6
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 30.3
+    operational_transparency: 10.5
   previous_composite: 49.5
   provenance:
     conformance: first-party
@@ -228,10 +230,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 59.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/screenshots/pointcheckout-2026-08-17T081313.png
 security:
 - kind: authentication
   name: Pointcheckout Authentication

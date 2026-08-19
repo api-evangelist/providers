@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -109,7 +110,9 @@ overview: 'United States Botanic Garden is profiled on the [APIs.io](https://api
   United States Botanic Garden''s developer surface includes engineering blog and 11 more developer resources.'
 random_paper: 123
 rules:
-- name: United States Botanic Garden API Rules
+- effective_rule_count: 5
+  extends: []
+  name: United States Botanic Garden API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -118,26 +121,28 @@ rules:
     warn: 3
   slug: united-states-botanic-garden-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 16.4
-  delta: 0.0
+  band: minimal
+  composite: 8.4
+  delta: -8.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
-    developer_ergonomics: 2.2
+    contract_governance: 9.8
+    contract_quality: 11.3
+    developer_ergonomics: 2.4
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 0.0
   previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-botanic-garden/refs/heads/main/screenshots/united-states-botanic-garden-2026-06-20T200050.png
 security:
 - kind: domain-security

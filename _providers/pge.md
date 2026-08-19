@@ -1,24 +1,25 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,15 +223,17 @@ scopes:
   summary_line: 21 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 53.4
+  delta: 5.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 20.7
-    developer_ergonomics: 66.8
+    contract_governance: 30.3
+    contract_quality: 19.9
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 71.1
+    governance: 30.3
+    operational_transparency: 68.4
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -247,9 +250,10 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png
 security:
 - kind: authentication
   name: Pge Authentication

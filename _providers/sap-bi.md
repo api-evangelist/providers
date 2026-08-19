@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -563,7 +564,9 @@ rate_limits:
   name: Sap Bi Rate Limits
   slug: sap-bi-rate-limits
 rules:
-- name: SAP Business Intelligence API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP Business Intelligence API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -571,7 +574,10 @@ rules:
     info: 2
     warn: 4
   slug: sap-bi-jsonschema-spectral-rules
-- name: SAP Business Intelligence API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: SAP Business Intelligence API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -585,16 +591,18 @@ scopes:
   slug: sap-bi-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -5.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 63.4
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 63.5
+    developer_ergonomics: 28.6
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -603,9 +611,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/screenshots/sap-bi-2026-06-20T193416.png
 security:
 - kind: authentication

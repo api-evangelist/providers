@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-17'
+  score: 41.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -633,7 +634,9 @@ rate_limits:
   name: Affinda Rate Limits
   slug: affinda-rate-limits
 rules:
-- name: Affinda API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Affinda API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -641,7 +644,10 @@ rules:
     info: 2
     warn: 4
   slug: affinda-jsonschema-spectral-rules
-- name: Affinda API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Affinda API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -650,16 +656,18 @@ rules:
     warn: 5
   slug: affinda-rules
 score:
-  band: exemplar
-  composite: 69.9
-  delta: 0.0
+  band: strong
+  composite: 64.7
+  delta: -5.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 68.7
-    developer_ergonomics: 78.3
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 9.8
+    contract_quality: 70.0
+    developer_ergonomics: 83.3
     discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 60.5
+    governance: 9.8
+    operational_transparency: 57.9
   previous_composite: 69.9
   provenance:
     agentic_access: derived
@@ -673,10 +681,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 33.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:
 - kind: authentication

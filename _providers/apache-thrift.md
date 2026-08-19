@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The Thrift Interface Definition Language (IDL) is used to define data types and service interfaces in a language-neutral format. A .thrift file defines structs, enums, exceptions, typedefs, constants,
@@ -144,7 +145,9 @@ rate_limits:
   name: Apache Thrift Rate Limits
   slug: apache-thrift-rate-limits
 rules:
-- name: Apache Thrift API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Apache Thrift API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -154,19 +157,21 @@ rules:
   slug: apache-thrift-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 26.6
+  delta: -5.4
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 9.7
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 8.5
+    developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 34.2
   previous_composite: 32.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-thrift/refs/heads/main/screenshots/apache-thrift-2026-06-20T172152.png
 security:
 - kind: domain-security

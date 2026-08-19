@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -287,7 +288,9 @@ rate_limits:
   name: Amazon Finspace Rate Limits
   slug: amazon-finspace-rate-limits
 rules:
-- name: Amazon FinSpace API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon FinSpace API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,7 +298,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-finspace-jsonschema-spectral-rules
-- name: Amazon FinSpace API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Amazon FinSpace API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -305,15 +311,17 @@ rules:
   slug: amazon-finspace-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 42.4
+  delta: -4.8
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 32.1
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 33.7
+    developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -322,8 +330,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/screenshots/amazon-finspace-2026-06-20T171652.png
 security:

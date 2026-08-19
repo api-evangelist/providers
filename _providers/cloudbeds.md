@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -356,7 +357,9 @@ rate_limits:
   name: Cloudbeds Rate Limits
   slug: cloudbeds-rate-limits
 rules:
-- name: Cloudbeds API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cloudbeds API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -364,7 +367,9 @@ rules:
     info: 2
     warn: 3
   slug: cloudbeds-jsonschema-spectral-rules
-- name: Cloudbeds API Rules
+- effective_rule_count: 0
+  extends: []
+  name: Cloudbeds API Rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -379,15 +384,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 32.9
+  delta: -5.5
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 64.9
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 60.8
+    developer_ergonomics: 14.3
     discoverability: 66.7
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -402,9 +409,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Cloudbeds Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 36.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -308,7 +309,9 @@ rate_limits:
   name: Jokeapi Rate Limits
   slug: jokeapi-rate-limits
 rules:
-- name: JokeAPI API Rules
+- effective_rule_count: 5
+  extends: []
+  name: JokeAPI API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -316,7 +319,10 @@ rules:
     info: 1
     warn: 4
   slug: jokeapi-jsonschema-spectral-rules
-- name: JokeAPI API Rules
+- effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: JokeAPI API Rules
   rule_count: 46
   severity_counts:
     error: 15
@@ -326,14 +332,16 @@ rules:
   slug: jokeapi-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 29.9
+  delta: -5.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 22.5
-    developer_ergonomics: 13.0
+    contract_governance: 25.0
+    contract_quality: 21.4
+    developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 42.1
   previous_composite: 35.1
   provenance:
@@ -343,9 +351,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:
 - kind: domain-security

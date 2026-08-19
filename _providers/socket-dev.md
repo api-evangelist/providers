@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-17'
+  score: 48.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -703,7 +704,9 @@ rate_limits:
   name: Socket Dev Rate Limits
   slug: socket-dev-rate-limits
 rules:
-- name: Socket API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Socket API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -711,7 +714,10 @@ rules:
     info: 2
     warn: 4
   slug: socket-dev-jsonschema-spectral-rules
-- name: Socket API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Socket API Rules
   rule_count: 12
   severity_counts:
     error: 2
@@ -725,16 +731,18 @@ scopes:
   slug: socket-dev-scopes
   summary_line: 97 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 74.8
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: -18.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 71.6
-    developer_ergonomics: 67.4
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 26.5
+    contract_quality: 67.6
+    developer_ergonomics: 47.6
     discoverability: 77.8
-    governance: 69.8
-    operational_transparency: 68.4
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 74.8
   provenance:
     agentic_access: derived
@@ -745,9 +753,9 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:
 - kind: authentication

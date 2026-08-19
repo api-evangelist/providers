@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -218,7 +219,10 @@ rate_limits:
   name: Signal Rate Limits
   slug: signal-rate-limits
 rules:
-- name: Signal API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: Signal API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -226,7 +230,9 @@ rules:
     info: 1
     warn: 6
   slug: signal-asyncapi-spectral-rules
-- name: Signal API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Signal API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -234,7 +240,10 @@ rules:
     info: 2
     warn: 4
   slug: signal-jsonschema-spectral-rules
-- name: Signal API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Signal API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -244,14 +253,16 @@ rules:
   slug: signal-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 41.5
+  delta: -4.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 82.1
-    developer_ergonomics: 26.1
+    contract_governance: 13.6
+    contract_quality: 77.9
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 10.5
   previous_composite: 46.2
   provenance:
@@ -261,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/screenshots/signal-2026-06-20T193905.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -506,7 +507,9 @@ rate_limits:
   name: Whoop Rate Limits
   slug: whoop-rate-limits
 rules:
-- name: WHOOP API Rules
+- effective_rule_count: 5
+  extends: []
+  name: WHOOP API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -514,7 +517,10 @@ rules:
     info: 1
     warn: 4
   slug: whoop-jsonschema-spectral-rules
-- name: WHOOP API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: WHOOP API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -529,16 +535,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.5
-  delta: 11.8
+  composite: 60.3
+  delta: 0.8
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 65.9
-    developer_ergonomics: 50.0
+    contract_governance: 25.0
+    contract_quality: 63.1
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 47.7
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -552,9 +560,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/screenshots/whoop-2026-06-20T201453.png
 security:
 - kind: authentication

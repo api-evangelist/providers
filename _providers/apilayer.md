@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'The APILayer Marketplace API provides access to 100+ APIs across geolocation, currency, weather, dev tools, marketing, finance, security, and AI/ML categories. Individual APIs include IPstack, Fixer, '
@@ -150,7 +151,9 @@ rate_limits:
   name: Apilayer Rate Limits
   slug: apilayer-rate-limits
 rules:
-- name: APILayer API Rules
+- effective_rule_count: 5
+  extends: []
+  name: APILayer API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -159,20 +162,22 @@ rules:
     warn: 3
   slug: apilayer-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: emerging
+  composite: 21.7
+  delta: -10.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 22.6
-    developer_ergonomics: 10.9
+    access_clarity: 22.4
+    commercial_clarity: 22.4
+    contract_governance: 9.8
+    contract_quality: 19.7
+    developer_ergonomics: 10.7
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 32.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/screenshots/apilayer-2026-06-20T172242.png
 security:
 - kind: domain-security

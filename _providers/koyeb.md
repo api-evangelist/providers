@@ -12,24 +12,26 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 52.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -165,7 +167,7 @@ apis:
 - description: The Users API from Koyeb — 2 operation(s) for users.
   name: Koyeb Users API
   slug: koyeb-users-api
-artifact_total: 92
+artifact_total: 94
 collections:
 - collection_type: open
   name: API Collection
@@ -332,65 +334,214 @@ common:
   title: ''
   type: GettingStarted
   url: https://www.koyeb.com/docs/deploy
-- group: start
-  title: ''
-  type: Signup
-  url: https://app.koyeb.com/auth/signup
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://app.koyeb.com/llms.txt
 - group: company
   title: ''
   type: Blog
   url: https://www.koyeb.com/feed.xml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/koyeb-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/koyeb-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/koyeb-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/koyeb-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/koyeb-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/koyeb-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.koyeb.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/koyeb-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/koyeb-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/koyeb-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.koyeb.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/koyeb-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/koyeb-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/koyeb-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/koyeb-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/koyeb-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/koyeb-sandbox.yml
+- group: start
+  title: ''
+  type: Console
+  url: https://app.koyeb.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/koyeb-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/koyeb-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/koyeb-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.koyeb.com/docs/reference/api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.koyeb.com/docs
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.koyeb.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.koyeb.com/auth/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.koyeb.com/auth/signin
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.koyeb.com/docs/legal/terms
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://koyeb.canny.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://slack.koyeb.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.koyeb.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/gokoyeb/koyeb/collection/y5r00xu/koyeb-rest-api
+- group: operate
+  title: ''
+  type: SLA
+  url: https://www.koyeb.com/docs/legal/sla
+- group: commercial
+  title: ''
+  type: MasterServiceAgreement
+  url: https://www.koyeb.com/docs/legal/msa
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://www.koyeb.com/docs/legal/data-processing-agreement
+- group: other
+  title: ''
+  type: Customers
+  url: https://www.koyeb.com/customers
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.koyeb.com/partners
 created: '2025-01-08'
-description: Koyeb is a developer-friendly serverless platform for deploying apps globally. The Koyeb API allows you to interact with the Koyeb platform in a simple, programmatic way using conventional HTTP requests for managing apps, services, deployments, and secrets.
+description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operations and 422 schemas, all under /v1 on https://app.koyeb.com — covering apps, services, deployments, regional deployments, instances, secrets, volumes, snapshots, domains, organizations, quotas, budgets and usage. Authentication is a single organization-wide bearer token with no scopes; the platform is also driven by a first-party Go CLI, JavaScript/Python/Go SDKs, Terraform and Pulumi providers, an MCP server, and sixteen published Agent Skills. Koyeb entered into a definitive agreement with Mistral AI in February 2026.
 finops:
 - name: Koyeb Finops
   service_category: API
   slug: koyeb-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/koyeb.png
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: koyeb-mcp.yml
+  slug: koyeb-mcpyml
+modified: '2026-08-17'
 name: Koyeb
 nav: Providers
 network: true
-overview: 'Koyeb publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 39 more. Tagged areas include Cloud Platform, Deployment, PaaS, and Serverless.
+overview: 'Koyeb publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 39 more. Tagged areas include Cloud Platform, Deployment, PaaS, Serverless, and Serverless GPU.
 
 
-  Koyeb''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 6 more developer resources.'
+  Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 39 more developer resources.'
 plans:
 - name: Koyeb Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: koyeb-plans-pricing
 random_paper: 91
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Koyeb Rate Limits
   slug: koyeb-rate-limits
 score:
-  band: thin
-  composite: 33.9
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: 28.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 50.8
-    developer_ergonomics: 32.6
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 13.2
+    access_clarity: 75.0
+    commercial_clarity: 75.0
+    contract_governance: 30.3
+    contract_quality: 53.0
+    developer_ergonomics: 78.6
+    discoverability: 92.6
+    governance: 30.3
+    operational_transparency: 44.7
   previous_composite: 33.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:
 - kind: authentication
@@ -401,11 +552,25 @@ security:
   name: Koyeb Domain Security
   slug: koyeb-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Koyeb Trust Center
+  slug: koyeb-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: koyeb
 tags:
 - Cloud Platform
 - Deployment
 - PaaS
 - Serverless
+- Serverless GPU
+- AI Infrastructure
+- Containers
+- Developer Tools
+- Compute
+- Hosting
+- Postgres
+- Sandboxes
+- Edge Network
+- Infrastructure as Code
 website: https://www.koyeb.com
 ---

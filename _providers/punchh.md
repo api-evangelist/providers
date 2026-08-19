@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-17'
+  score: 53.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -521,7 +522,9 @@ rate_limits:
   name: Punchh Rate Limits
   slug: punchh-rate-limits
 rules:
-- name: Punchh API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Punchh API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -529,7 +532,10 @@ rules:
     info: 1
     warn: 4
   slug: punchh-jsonschema-spectral-rules
-- name: Punchh API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Punchh API Rules
   rule_count: 37
   severity_counts:
     error: 3
@@ -538,33 +544,38 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: strong
-  composite: 63.9
-  delta: 20.2
+  band: exemplar
+  composite: 67.2
+  delta: 3.3
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 38.9
-    developer_ergonomics: 78.3
+    contract_governance: 55.3
+    contract_quality: 59.3
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 89.6
-    operational_transparency: 94.7
-  previous_composite: 43.7
+    governance: 55.3
+    operational_transparency: 92.1
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
-      total: 7
+      callable: 42.3
+      derived: 11
+      marker_coverage: 42.3
+      total: 26
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:
 - kind: authentication

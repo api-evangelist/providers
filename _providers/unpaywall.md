@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +153,9 @@ rate_limits:
   name: Unpaywall Rate Limits
   slug: unpaywall-rate-limits
 rules:
-- name: Unpaywall API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Unpaywall API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,7 +163,10 @@ rules:
     info: 1
     warn: 4
   slug: unpaywall-jsonschema-spectral-rules
-- name: Unpaywall API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Unpaywall API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -170,15 +176,17 @@ rules:
   slug: unpaywall-rules
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 26.9
+  delta: -14.3
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 71.6
-    developer_ergonomics: 13.0
-    discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 13.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 67.1
+    developer_ergonomics: 0.0
+    discoverability: 68.5
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -187,9 +195,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -501,7 +502,9 @@ rate_limits:
   name: D Wave Rate Limits
   slug: d-wave-rate-limits
 rules:
-- name: D-Wave API Rules
+- effective_rule_count: 5
+  extends: []
+  name: D-Wave API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -509,7 +512,10 @@ rules:
     info: 1
     warn: 4
   slug: d-wave-jsonschema-spectral-rules
-- name: D-Wave API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: D-Wave API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -523,15 +529,17 @@ scopes:
   slug: d-wave-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: -4.8
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 71.6
-    developer_ergonomics: 71.7
+    contract_governance: 25.0
+    contract_quality: 67.9
+    developer_ergonomics: 78.6
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 36.8
   previous_composite: 67.4
   provenance:
@@ -541,8 +549,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:

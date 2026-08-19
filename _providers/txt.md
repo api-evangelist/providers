@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 46.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -204,15 +205,17 @@ overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 54
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 42.7
+  delta: -3.5
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 59.0
-    developer_ergonomics: 66.8
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 16.7
+    contract_quality: 57.0
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -224,9 +227,10 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/screenshots/txt-2026-08-17T082608.png
 security:
 - kind: authentication
   name: Txt Authentication

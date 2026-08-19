@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,14 +84,16 @@ overview: 'Adyton is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 59
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 19.9
+  delta: -1.2
   facets:
-    commercial_clarity: 31.6
+    access_clarity: 25.0
+    commercial_clarity: 25.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 19.0
     discoverability: 50.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 21.1
   provenance:
@@ -101,8 +104,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyton/refs/heads/main/screenshots/adyton-2026-07-25T181712.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -163,15 +164,17 @@ rate_limits:
   slug: v7-labs-rate-limits
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 38.2
+  delta: -1.6
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 55.2
-    developer_ergonomics: 21.7
+    contract_governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 39.8
   provenance:
     agentic_access: derived
@@ -180,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

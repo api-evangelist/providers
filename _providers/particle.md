@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -358,15 +359,17 @@ rate_limits:
   slug: particle-rate-limits
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 61.3
+  delta: 0.9
   facets:
+    access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_quality: 76.2
-    developer_ergonomics: 47.8
+    contract_governance: 15.2
+    contract_quality: 75.1
+    developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 10.4
-    operational_transparency: 68.4
+    governance: 15.2
+    operational_transparency: 65.8
   previous_composite: 60.4
   provenance:
     agentic_access: derived
@@ -375,8 +378,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:

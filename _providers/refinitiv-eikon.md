@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -588,7 +589,10 @@ rate_limits:
   name: Refinitiv Eikon Rate Limits
   slug: refinitiv-eikon-rate-limits
 rules:
-- name: Refinitiv Eikon API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Refinitiv Eikon API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -596,7 +600,9 @@ rules:
     info: 1
     warn: 3
   slug: refinitiv-eikon-asyncapi-spectral-rules
-- name: Refinitiv Eikon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Refinitiv Eikon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -604,7 +610,10 @@ rules:
     info: 2
     warn: 3
   slug: refinitiv-eikon-jsonschema-spectral-rules
-- name: Refinitiv Eikon API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Refinitiv Eikon API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -613,16 +622,18 @@ rules:
     warn: 6
   slug: refinitiv-eikon-rules
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  delta: -5.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 75.6
-    developer_ergonomics: 56.5
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 28.8
+    contract_quality: 74.2
+    developer_ergonomics: 61.9
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 42.1
+    governance: 28.8
+    operational_transparency: 31.6
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -636,10 +647,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 45.0
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:
 - kind: authentication

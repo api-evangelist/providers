@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-17'
+  score: 45.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -670,7 +670,9 @@ rate_limits:
   name: Paragon Rate Limits
   slug: paragon-rate-limits
 rules:
-- name: Paragon API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Paragon API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -678,7 +680,10 @@ rules:
     info: 2
     warn: 3
   slug: paragon-jsonschema-spectral-rules
-- name: Paragon API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Paragon API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -688,14 +693,16 @@ rules:
   slug: paragon-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 57.3
+  delta: -7.4
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 75.9
-    developer_ergonomics: 52.2
+    contract_governance: 25.0
+    contract_quality: 71.1
+    developer_ergonomics: 47.6
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 63.2
   previous_composite: 64.7
   provenance:
@@ -705,9 +712,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:
 - kind: authentication

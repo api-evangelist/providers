@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -400,7 +401,9 @@ rate_limits:
   name: 123Formbuilder Rate Limits
   slug: 123formbuilder-rate-limits
 rules:
-- name: 123FormBuilder API Rules
+- effective_rule_count: 5
+  extends: []
+  name: 123FormBuilder API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -408,7 +411,9 @@ rules:
     info: 1
     warn: 4
   slug: 123formbuilder-jsonschema-spectral-rules
-- name: 123FormBuilder API Rules
+- effective_rule_count: 27
+  extends: []
+  name: 123FormBuilder API Rules
   rule_count: 27
   severity_counts:
     error: 13
@@ -418,15 +423,17 @@ rules:
   slug: 123formbuilder-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 61.7
+  delta: -2.9
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 77.6
-    developer_ergonomics: 39.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 25.0
+    contract_quality: 74.2
+    developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 64.6
   provenance:
     agentic_access: derived
@@ -441,8 +448,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:

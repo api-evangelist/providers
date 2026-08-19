@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-17'
+  score: 28.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,7 +154,9 @@ rate_limits:
   name: Whisky Hunter Rate Limits
   slug: whisky-hunter-rate-limits
 rules:
-- name: Whisky Hunter API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Whisky Hunter API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,7 +164,10 @@ rules:
     info: 1
     warn: 4
   slug: whisky-hunter-jsonschema-spectral-rules
-- name: Whisky Hunter API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Whisky Hunter API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -170,15 +176,17 @@ rules:
     warn: 7
   slug: whisky-hunter-rules
 score:
-  band: thin
-  composite: 34.0
-  delta: 0.0
+  band: emerging
+  composite: 24.6
+  delta: -9.4
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 61.2
-    developer_ergonomics: 2.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 25.0
+    contract_quality: 57.3
+    developer_ergonomics: 2.4
     discoverability: 68.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 34.0
   provenance:
@@ -194,9 +202,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/screenshots/whisky-hunter-2026-06-20T201439.png
 security:
 - kind: domain-security

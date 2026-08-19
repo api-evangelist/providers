@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -1216,7 +1217,9 @@ rate_limits:
   name: Nuix Rate Limits
   slug: nuix-rate-limits
 rules:
-- name: Nuix API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Nuix API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1226,14 +1229,16 @@ rules:
   slug: nuix-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 48.5
+  delta: -5.6
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 67.1
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 65.3
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 54.1
   provenance:
@@ -1243,9 +1248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:
 - kind: authentication

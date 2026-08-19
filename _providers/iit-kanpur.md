@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-17'
+  score: 27.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -512,7 +513,9 @@ rate_limits:
   name: Iit Kanpur Rate Limits
   slug: iit-kanpur-rate-limits
 rules:
-- name: Indian Institute of Technology Kanpur API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Indian Institute of Technology Kanpur API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -520,7 +523,10 @@ rules:
     info: 1
     warn: 4
   slug: iit-kanpur-jsonschema-spectral-rules
-- name: Indian Institute of Technology Kanpur API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Indian Institute of Technology Kanpur API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -530,14 +536,16 @@ rules:
   slug: iit-kanpur-rules
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 28.2
+  delta: -6.8
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 57.8
+    contract_governance: 9.8
+    contract_quality: 58.2
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 21.1
   previous_composite: 35.0
   provenance:
@@ -547,9 +555,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 20.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:
 - kind: domain-security

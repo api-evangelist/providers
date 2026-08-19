@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Self-hosted administration REST API for Parallels RAS (Remote Application Server). Applications authenticate with administrator credentials to obtain an authToken, then manage infrastructure (agents, '
@@ -135,18 +136,20 @@ overview: 'Parallels publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 66
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 27.3
+  delta: -1.8
   facets:
-    commercial_clarity: 13.2
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
+    developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 29.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/screenshots/parallels-2026-08-07T191426.png
 security:

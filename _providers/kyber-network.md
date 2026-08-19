@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-17'
+  score: 53.2
+  scored_at: '2026-08-19'
 api_count: 5
 apis:
 - description: The General API from Kyber Network — 2 operation(s) for general.
@@ -215,15 +216,17 @@ rate_limits:
   slug: kyber-network-rate-limits
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 53.7
+  delta: 2.5
   facets:
+    access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_quality: 52.2
-    developer_ergonomics: 73.9
+    contract_governance: 30.3
+    contract_quality: 49.8
+    developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 60.5
+    governance: 30.3
+    operational_transparency: 57.9
   previous_composite: 51.2
   provenance:
     conformance: first-party
@@ -240,8 +243,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
 security:

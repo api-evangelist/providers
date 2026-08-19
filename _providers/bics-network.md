@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -241,12 +242,14 @@ rate_limits:
   slug: bics-network-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 22.5
+  delta: -0.4
   facets:
+    access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_quality: 53.9
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 53.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
@@ -264,8 +267,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -461,7 +462,9 @@ rate_limits:
   name: Hyperbolic Ai Rate Limits
   slug: hyperbolic-ai-rate-limits
 rules:
-- name: Hyperbolic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Hyperbolic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -469,7 +472,10 @@ rules:
     info: 1
     warn: 5
   slug: hyperbolic-ai-jsonschema-spectral-rules
-- name: Hyperbolic API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Hyperbolic API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -478,15 +484,17 @@ rules:
     warn: 7
   slug: hyperbolic-ai-rules
 score:
-  band: exemplar
-  composite: 69.0
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: -4.9
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 73.3
-    developer_ergonomics: 71.7
+    contract_governance: 25.0
+    contract_quality: 69.1
+    developer_ergonomics: 78.6
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 69.0
   provenance:
@@ -496,8 +504,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

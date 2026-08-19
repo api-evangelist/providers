@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-17'
+  score: 22.5
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Code issue search and management
@@ -205,7 +206,9 @@ rate_limits:
   name: Sonarqube Rate Limits
   slug: sonarqube-rate-limits
 rules:
-- name: SonarQube API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SonarQube API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,7 +216,9 @@ rules:
     info: 2
     warn: 3
   slug: sonarqube-jsonschema-spectral-rules
-- name: SonarQube API Rules
+- effective_rule_count: 9
+  extends: []
+  name: SonarQube API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -223,15 +228,17 @@ rules:
   slug: sonarqube-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 39.4
+  delta: -12.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 70.1
-    developer_ergonomics: 43.5
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 66.0
+    developer_ergonomics: 38.1
     discoverability: 46.3
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 18.4
   previous_composite: 52.3
   provenance:
     contracts:
@@ -239,9 +246,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:
 - kind: domain-security

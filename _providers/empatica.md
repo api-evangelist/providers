@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-17'
+  score: 15.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'Cloud-to-cloud API that connects Empatica Health Monitoring Platform data to a sponsor''s or CRO''s own clinical trial systems in real time. Documented capabilities: participant onboarding from external'
@@ -163,25 +164,29 @@ rate_limits:
   name: Empatica Rate Limits
   slug: empatica-rate-limits
 score:
-  band: thin
-  composite: 36.9
-  delta: 0.0
+  band: developing
+  composite: 40.0
+  delta: 3.1
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 37.0
+    developer_ergonomics: 40.5
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   previous_composite: 36.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

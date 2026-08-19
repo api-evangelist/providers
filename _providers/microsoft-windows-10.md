@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -1289,7 +1290,9 @@ rate_limits:
   name: Microsoft Windows 10 Rate Limits
   slug: microsoft-windows-10-rate-limits
 rules:
-- name: Microsoft Windows 10 API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Microsoft Windows 10 API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1298,16 +1301,18 @@ rules:
     warn: 4
   slug: microsoft-windows-10-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: -9.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.8
-    developer_ergonomics: 63.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 59.0
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 58.7
   provenance:
     agentic_access: derived
@@ -1316,9 +1321,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 77
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:
 - kind: domain-security

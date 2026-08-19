@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -218,7 +219,9 @@ rate_limits:
   name: Traiana Rate Limits
   slug: traiana-rate-limits
 rules:
-- name: Traiana API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Traiana API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,7 +229,9 @@ rules:
     info: 2
     warn: 3
   slug: traiana-jsonschema-spectral-rules
-- name: Traiana API Rules
+- effective_rule_count: 16
+  extends: []
+  name: Traiana API Rules
   rule_count: 16
   severity_counts:
     error: 9
@@ -236,15 +241,17 @@ rules:
   slug: traiana-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 34.3
+  delta: -7.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 75.7
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 71.1
+    developer_ergonomics: 21.4
     discoverability: 55.6
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -253,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/screenshots/traiana-2026-06-20T195541.png
 security:
 - kind: authentication

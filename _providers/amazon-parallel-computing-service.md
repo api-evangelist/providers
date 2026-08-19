@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -266,7 +267,10 @@ rate_limits:
   name: Amazon Parallel Computing Service Rate Limits
   slug: amazon-parallel-computing-service-rate-limits
 rules:
-- name: Amazon Parallel Computing Service API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Amazon Parallel Computing Service API Rules
   rule_count: 23
   severity_counts:
     error: 10
@@ -276,15 +280,17 @@ rules:
   slug: amazon-parallel-computing-service-spectral-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 41.3
+  delta: -4.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 47.0
-    developer_ergonomics: 30.4
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 28.8
+    contract_quality: 44.1
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 47.9
-    operational_transparency: 28.9
+    governance: 28.8
+    operational_transparency: 26.3
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -293,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/screenshots/amazon-parallel-computing-service-2026-06-20T171755.png
 security:

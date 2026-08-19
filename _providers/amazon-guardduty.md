@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -3764,7 +3765,9 @@ rate_limits:
   name: Amazon Guardduty Rate Limits
   slug: amazon-guardduty-rate-limits
 rules:
-- name: Amazon GuardDuty API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon GuardDuty API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3772,7 +3775,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-guardduty-jsonschema-spectral-rules
-- name: Amazon GuardDuty API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amazon GuardDuty API Rules
   rule_count: 16
   severity_counts:
     error: 5
@@ -3781,16 +3787,18 @@ rules:
     warn: 9
   slug: amazon-guardduty-spectral-rules
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: -6.3
   facets:
+    access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_quality: 76.9
-    developer_ergonomics: 45.7
+    contract_governance: 13.6
+    contract_quality: 76.2
+    developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 13.6
+    operational_transparency: 26.3
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -3799,9 +3807,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
 security:
 - kind: authentication

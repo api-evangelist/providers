@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-17'
+  score: 47.7
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -42,7 +43,7 @@ apis:
 - description: Terminology services for working with FHIR CodeSystems, ValueSets, and ConceptMaps, including validation and lookup against clinical terminologies.
   name: Aidbox Terminology API
   slug: aidbox-terminology-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Aidbox Subscriptions Webhooks
@@ -244,29 +245,31 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
   band: strong
-  composite: 56.1
-  delta: 0.0
+  composite: 62.6
+  delta: 6.5
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 55.0
-    developer_ergonomics: 75.5
+    contract_governance: 18.2
+    contract_quality: 49.4
+    developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 63.2
+    governance: 18.2
+    operational_transparency: 60.5
   previous_composite: 56.1
   provenance:
     conformance: first-party
     mcp: first-party
-    skills: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 61.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 71.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:
 - kind: authentication
@@ -277,6 +280,10 @@ security:
   name: Aidbox Domain Security
   slug: aidbox-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: aidbox
+  slug: aidbox
 slug: aidbox
 tags:
 - Healthcare

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -539,7 +540,10 @@ rate_limits:
   name: Twitch Rate Limits
   slug: twitch-rate-limits
 rules:
-- name: Twitch API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Twitch API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -547,7 +551,9 @@ rules:
     info: 0
     warn: 6
   slug: twitch-asyncapi-spectral-rules
-- name: Twitch API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Twitch API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -555,7 +561,10 @@ rules:
     info: 1
     warn: 4
   slug: twitch-jsonschema-spectral-rules
-- name: Twitch API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Twitch API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -570,14 +579,16 @@ scopes:
   summary_line: 42 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 45.1
+  delta: -3.2
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 73.0
-    developer_ergonomics: 32.6
+    contract_governance: 26.5
+    contract_quality: 69.9
+    developer_ergonomics: 35.7
     discoverability: 66.7
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 28.9
   previous_composite: 48.3
   provenance:
@@ -587,8 +598,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:

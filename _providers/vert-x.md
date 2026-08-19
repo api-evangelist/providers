@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -220,7 +221,9 @@ rate_limits:
   name: Vert X Rate Limits
   slug: vert-x-rate-limits
 rules:
-- name: Vert.x API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Vert.x API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -228,7 +231,10 @@ rules:
     info: 2
     warn: 3
   slug: vert-x-jsonschema-spectral-rules
-- name: Vert.x API Rules
+- effective_rule_count: 67
+  extends:
+  - spectral:oas
+  name: Vert.x API Rules
   rule_count: 26
   severity_counts:
     error: 7
@@ -238,19 +244,21 @@ rules:
   slug: vert-x-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 31.3
+  delta: -8.2
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 33.9
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 29.6
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 39.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/screenshots/vert-x-2026-06-20T200945.png
 security:
 - kind: domain-security

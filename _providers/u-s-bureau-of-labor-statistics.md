@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -277,7 +278,9 @@ rate_limits:
   name: U S Bureau Of Labor Statistics Rate Limits
   slug: u-s-bureau-of-labor-statistics-rate-limits
 rules:
-- name: U.S. Bureau of Labor Statistics API Rules
+- effective_rule_count: 33
+  extends: []
+  name: U.S. Bureau of Labor Statistics API Rules
   rule_count: 33
   severity_counts:
     error: 9
@@ -285,7 +288,9 @@ rules:
     info: 7
     warn: 17
   slug: bls-public-data-api-rules
-- name: U.S. Bureau of Labor Statistics API Rules
+- effective_rule_count: 5
+  extends: []
+  name: U.S. Bureau of Labor Statistics API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,14 +300,16 @@ rules:
   slug: u-s-bureau-of-labor-statistics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 34.9
+  delta: 1.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 31.2
-    developer_ergonomics: 30.4
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 69.7
+    contract_quality: 29.5
+    developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 47.9
+    governance: 69.7
     operational_transparency: 7.9
   previous_composite: 33.7
   provenance:
@@ -317,9 +324,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 38.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:

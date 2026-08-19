@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -202,13 +203,15 @@ rate_limits:
   name: Confluent The Data Streaming Platform Rate Limits
   slug: confluent-the-data-streaming-platform-rate-limits
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -4.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 52.2
-    developer_ergonomics: 37.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 40.5
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 28.9
@@ -220,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/screenshots/confluent-the-data-streaming-platform-2026-06-20T174902.png
 security:

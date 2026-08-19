@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 34.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1123,7 +1124,9 @@ rate_limits:
   name: Apache Airflow Rate Limits
   slug: apache-airflow-rate-limits
 rules:
-- name: Apache Airflow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache Airflow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1131,7 +1134,10 @@ rules:
     info: 1
     warn: 4
   slug: apache-airflow-jsonschema-spectral-rules
-- name: Apache Airflow API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Apache Airflow API Rules
   rule_count: 29
   severity_counts:
     error: 8
@@ -1141,15 +1147,17 @@ rules:
   slug: apache-airflow-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 49.4
+  delta: -4.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 56.5
+    contract_governance: 41.7
+    contract_quality: 64.8
+    developer_ergonomics: 59.5
     discoverability: 83.3
-    governance: 80.2
-    operational_transparency: 39.5
+    governance: 41.7
+    operational_transparency: 36.8
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -1160,8 +1168,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

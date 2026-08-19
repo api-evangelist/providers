@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 36.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
@@ -154,15 +155,17 @@ overview: 'bKash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 74
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 33.5
+  delta: -5.9
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 28.9
+    governance: 4.5
+    operational_transparency: 26.3
   previous_composite: 39.4
   provenance:
     conformance: derived
@@ -173,9 +176,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/screenshots/bkash-2026-07-25T203226.png
 security:
 - kind: authentication

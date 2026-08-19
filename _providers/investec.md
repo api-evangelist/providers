@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -197,16 +198,18 @@ scopes:
   slug: investec-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 40.6
-  delta: 0.0
+  band: developing
+  composite: 44.8
+  delta: 4.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 57.5
-    developer_ergonomics: 64.7
+    contract_governance: 16.7
+    contract_quality: 55.9
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
   previous_composite: 40.6
   provenance:
     agentic_access: derived
@@ -222,9 +225,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 60.8
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:

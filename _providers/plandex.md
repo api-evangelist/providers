@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -483,7 +484,9 @@ rate_limits:
   name: Plandex Rate Limits
   slug: plandex-rate-limits
 rules:
-- name: Plandex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Plandex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -491,7 +494,10 @@ rules:
     info: 2
     warn: 3
   slug: plandex-jsonschema-spectral-rules
-- name: Plandex API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Plandex API Rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -500,16 +506,18 @@ rules:
     warn: 3
   slug: plandex-rules
 score:
-  band: strong
-  composite: 64.0
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -14.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 71.1
-    developer_ergonomics: 47.8
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 25.0
+    contract_quality: 66.6
+    developer_ergonomics: 31.0
     discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 63.2
+    governance: 25.0
+    operational_transparency: 55.3
   previous_composite: 64.0
   provenance:
     agentic_access: derived
@@ -518,9 +526,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Plandex Authentication

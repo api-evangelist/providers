@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -3265,7 +3266,10 @@ rate_limits:
   name: New Relic Rate Limits
   slug: new-relic-rate-limits
 rules:
-- name: New Relic API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: New Relic API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -3273,7 +3277,9 @@ rules:
     info: 1
     warn: 6
   slug: new-relic-asyncapi-spectral-rules
-- name: New Relic API Rules
+- effective_rule_count: 6
+  extends: []
+  name: New Relic API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -3281,7 +3287,10 @@ rules:
     info: 1
     warn: 5
   slug: new-relic-jsonschema-spectral-rules
-- name: New Relic API Rules
+- effective_rule_count: 69
+  extends:
+  - spectral:oas
+  name: New Relic API Rules
   rule_count: 28
   severity_counts:
     error: 19
@@ -3291,14 +3300,16 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 68.7
+  delta: -3.2
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 89.9
-    developer_ergonomics: 78.3
+    contract_governance: 28.8
+    contract_quality: 88.1
+    developer_ergonomics: 82.1
     discoverability: 59.3
-    governance: 58.3
+    governance: 28.8
     operational_transparency: 55.3
   previous_composite: 71.9
   provenance:
@@ -3308,8 +3319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:

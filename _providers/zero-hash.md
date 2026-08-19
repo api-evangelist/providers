@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-17'
+  score: 52.3
+  scored_at: '2026-08-19'
 api_count: 31
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -402,15 +403,17 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 59.7
+  delta: -1.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 68.4
-    developer_ergonomics: 69.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 30.3
+    contract_quality: 66.1
+    developer_ergonomics: 54.2
     discoverability: 68.5
-    governance: 20.8
-    operational_transparency: 55.3
+    governance: 30.3
+    operational_transparency: 52.6
   previous_composite: 61.4
   provenance:
     conformance: first-party
@@ -426,10 +429,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 65.6
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
 security:
 - kind: authentication
   name: Zero Hash Authentication

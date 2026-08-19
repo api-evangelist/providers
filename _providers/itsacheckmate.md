@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -303,7 +304,9 @@ rate_limits:
   name: Itsacheckmate Rate Limits
   slug: itsacheckmate-rate-limits
 rules:
-- name: ItsaCheckmate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ItsaCheckmate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -311,7 +314,10 @@ rules:
     info: 1
     warn: 4
   slug: itsacheckmate-jsonschema-spectral-rules
-- name: ItsaCheckmate API Rules
+- effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: ItsaCheckmate API Rules
   rule_count: 38
   severity_counts:
     error: 10
@@ -320,15 +326,17 @@ rules:
     warn: 18
   slug: itsacheckmate-spectral-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -5.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 24.6
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 23.2
+    developer_ergonomics: 32.1
     discoverability: 81.5
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 43.2
   provenance:
@@ -338,9 +346,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:
 - kind: authentication

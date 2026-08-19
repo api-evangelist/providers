@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -666,7 +666,10 @@ rate_limits:
   name: Sap Rate Limits
   slug: sap-rate-limits
 rules:
-- name: SAP API Rules
+- effective_rule_count: 36
+  extends:
+  - spectral:asyncapi
+  name: SAP API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -674,7 +677,9 @@ rules:
     info: 0
     warn: 8
   slug: sap-asyncapi-spectral-rules
-- name: SAP API Rules
+- effective_rule_count: 6
+  extends: []
+  name: SAP API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -682,7 +687,10 @@ rules:
     info: 2
     warn: 4
   slug: sap-jsonschema-spectral-rules
-- name: SAP API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: SAP API Rules
   rule_count: 14
   severity_counts:
     error: 8
@@ -696,16 +704,18 @@ scopes:
   slug: sap-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: -6.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 72.5
-    developer_ergonomics: 63.0
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 11.4
+    contract_quality: 68.9
+    developer_ergonomics: 59.5
     discoverability: 53.7
-    governance: 41.7
-    operational_transparency: 42.1
+    governance: 11.4
+    operational_transparency: 39.5
   previous_composite: 56.1
   provenance:
     agentic_access: derived
@@ -714,9 +724,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:
 - kind: authentication

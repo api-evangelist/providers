@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -289,7 +289,10 @@ rate_limits:
   name: Harness Rate Limits
   slug: harness-rate-limits
 rules:
-- name: Harness API Rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Harness API Rules
   rule_count: 16
   severity_counts:
     error: 5
@@ -299,15 +302,17 @@ rules:
   slug: harness-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 46.1
+  delta: -2.9
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 18.5
-    developer_ergonomics: 65.2
+    contract_governance: 13.6
+    contract_quality: 17.3
+    developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 27.1
-    operational_transparency: 55.3
+    governance: 13.6
+    operational_transparency: 52.6
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -316,8 +321,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/screenshots/harness-2026-06-20T182519.png
 security:

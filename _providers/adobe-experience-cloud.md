@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 50.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -1513,7 +1514,10 @@ rate_limits:
   name: Adobe Experience Cloud Rate Limits
   slug: adobe-experience-cloud-rate-limits
 rules:
-- name: Adobe Experience Cloud API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Adobe Experience Cloud API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1521,7 +1525,9 @@ rules:
     info: 0
     warn: 6
   slug: adobe-experience-cloud-asyncapi-spectral-rules
-- name: Adobe Experience Cloud API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Adobe Experience Cloud API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1529,7 +1535,10 @@ rules:
     info: 2
     warn: 3
   slug: adobe-experience-cloud-jsonschema-spectral-rules
-- name: Adobe Experience Cloud API Rules
+- effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Adobe Experience Cloud API Rules
   rule_count: 37
   severity_counts:
     error: 16
@@ -1543,27 +1552,32 @@ scopes:
   slug: adobe-experience-cloud-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 72.4
-  delta: 13.6
+  band: strong
+  composite: 63.6
+  delta: -8.8
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 78.2
-    developer_ergonomics: 91.3
+    contract_governance: 43.2
+    contract_quality: 77.0
+    developer_ergonomics: 73.8
     discoverability: 75.9
-    governance: 72.9
-    operational_transparency: 63.2
-  previous_composite: 58.8
+    governance: 43.2
+    operational_transparency: 52.6
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png
 security:
 - kind: authentication

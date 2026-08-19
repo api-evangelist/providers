@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 47.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -258,7 +259,10 @@ rate_limits:
   name: Tradier Rate Limits
   slug: tradier-rate-limits
 rules:
-- name: Tradier API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Tradier API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -272,16 +276,18 @@ scopes:
   slug: tradier-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 68.2
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: -6.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.1
-    developer_ergonomics: 79.9
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 28.0
+    contract_quality: 61.0
+    developer_ergonomics: 55.4
     discoverability: 92.6
-    governance: 53.1
-    operational_transparency: 55.3
+    governance: 28.0
+    operational_transparency: 52.6
   previous_composite: 68.2
   provenance:
     agentic_access: derived
@@ -299,9 +305,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
 security:
 - kind: authentication

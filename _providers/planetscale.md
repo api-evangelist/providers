@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -319,7 +320,10 @@ rate_limits:
   name: Planetscale Rate Limits
   slug: planetscale-rate-limits
 rules:
-- name: planetscale API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: planetscale API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -327,7 +331,9 @@ rules:
     info: 0
     warn: 7
   slug: planetscale-asyncapi-spectral-rules
-- name: planetscale API Rules
+- effective_rule_count: 6
+  extends: []
+  name: planetscale API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -337,15 +343,17 @@ rules:
   slug: planetscale-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 32.0
+  delta: -4.9
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 77.7
-    developer_ergonomics: 13.0
+    contract_governance: 11.4
+    contract_quality: 72.8
+    developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 41.7
-    operational_transparency: 13.2
+    governance: 11.4
+    operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -354,8 +362,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/screenshots/planetscale-2026-06-20T191803.png
 security:

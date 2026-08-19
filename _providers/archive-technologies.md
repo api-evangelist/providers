@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -192,24 +193,26 @@ scopes:
   slug: archive-technologies-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.4
-  delta: 23.3
+  band: developing
+  composite: 51.5
+  delta: -4.9
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 48.1
-    developer_ergonomics: 62.5
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 44.4
+    developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 3.1
-    operational_transparency: 57.9
-  previous_composite: 33.1
+    governance: 4.5
+    operational_transparency: 42.1
+  previous_composite: 56.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:
 - kind: authentication

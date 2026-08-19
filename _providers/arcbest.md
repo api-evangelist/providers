@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -290,7 +291,9 @@ rate_limits:
   name: Arcbest Rate Limits
   slug: arcbest-rate-limits
 rules:
-- name: ArcBest API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ArcBest API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -298,7 +301,10 @@ rules:
     info: 2
     warn: 3
   slug: arcbest-jsonschema-spectral-rules
-- name: ArcBest API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: ArcBest API Rules
   rule_count: 24
   severity_counts:
     error: 11
@@ -308,14 +314,16 @@ rules:
   slug: arcbest-spectral-rules
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 26.3
+  delta: -5.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 24.3
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 23.0
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 31.5
   provenance:
@@ -325,9 +333,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png
 security:
 - kind: authentication

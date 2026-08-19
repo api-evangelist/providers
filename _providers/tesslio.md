@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-17'
+  score: 56.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -404,15 +405,17 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 26
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 46.5
+  delta: -3.9
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 49.0
-    developer_ergonomics: 75.5
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 16.7
+    contract_quality: 47.6
+    developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 55.3
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -424,9 +427,10 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/screenshots/tesslio-2026-08-17T082329.png
 security:
 - kind: authentication
   name: Tesslio Authentication

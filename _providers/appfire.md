@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -196,14 +197,16 @@ overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 147
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 45.3
+  delta: -3.4
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 61.1
-    developer_ergonomics: 58.2
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 16.7
+    contract_quality: 60.7
+    developer_ergonomics: 49.4
     discoverability: 88.9
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 31.6
   previous_composite: 48.7
   provenance:
@@ -216,8 +219,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -728,7 +729,10 @@ rate_limits:
   name: Contentstack Rate Limits
   slug: contentstack-rate-limits
 rules:
-- name: contentstack API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: contentstack API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -736,7 +740,9 @@ rules:
     info: 0
     warn: 4
   slug: contentstack-asyncapi-spectral-rules
-- name: contentstack API Rules
+- effective_rule_count: 6
+  extends: []
+  name: contentstack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -744,7 +750,10 @@ rules:
     info: 1
     warn: 5
   slug: contentstack-jsonschema-spectral-rules
-- name: contentstack API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: contentstack API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -754,15 +763,17 @@ rules:
   slug: contentstack-rules
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 36.5
+  delta: -2.7
   facets:
+    access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_quality: 77.4
-    developer_ergonomics: 10.9
+    contract_governance: 26.5
+    contract_quality: 79.5
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 52.1
-    operational_transparency: 13.2
+    governance: 26.5
+    operational_transparency: 10.5
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -771,8 +782,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 43
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:

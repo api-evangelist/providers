@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 35.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -795,7 +796,10 @@ rate_limits:
   name: Paystack Rate Limits
   slug: paystack-rate-limits
 rules:
-- name: Paystack API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Paystack API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -803,7 +807,9 @@ rules:
     info: 0
     warn: 4
   slug: paystack-asyncapi-spectral-rules
-- name: Paystack API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Paystack API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -811,7 +817,10 @@ rules:
     info: 1
     warn: 4
   slug: paystack-jsonschema-spectral-rules
-- name: Paystack API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Paystack API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -821,15 +830,17 @@ rules:
   slug: paystack-rules
 score:
   band: exemplar
-  composite: 70.2
-  delta: 0.0
+  composite: 71.5
+  delta: 1.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 77.7
-    developer_ergonomics: 71.7
+    contract_governance: 26.5
+    contract_quality: 74.7
+    developer_ergonomics: 78.6
     discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 68.4
+    governance: 26.5
+    operational_transparency: 50.0
   previous_composite: 70.2
   provenance:
     agentic_access: derived
@@ -844,8 +855,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-17'
+  score: 44.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -233,15 +233,17 @@ rate_limits:
   slug: niural-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 57.9
+  delta: -4.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 65.9
-    developer_ergonomics: 62.5
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 16.7
+    contract_quality: 61.8
+    developer_ergonomics: 41.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 50.0
+    governance: 16.7
+    operational_transparency: 47.4
   previous_composite: 62.4
   provenance:
     agentic_access: derived
@@ -258,9 +260,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 48.4
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
 security:

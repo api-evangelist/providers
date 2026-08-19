@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 72.1
-  scored_at: '2026-08-17'
+  score: 62.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -343,26 +344,31 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.4
-  delta: 40.3
+  composite: 68.0
+  delta: -3.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 65.1
-    developer_ergonomics: 80.4
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 63.3
+    developer_ergonomics: 78.6
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 68.4
-  previous_composite: 31.1
+    governance: 30.3
+    operational_transparency: 50.0
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+      total: 20
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/screenshots/lemlist-2026-06-20T184417.png
 security:
 - kind: authentication

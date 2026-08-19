@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -191,25 +192,31 @@ rate_limits:
   slug: kixie-rate-limits
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 61.9
+  delta: 2.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 51.6
-    developer_ergonomics: 56.5
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 12.5
-    operational_transparency: 76.3
+    governance: 18.2
+    operational_transparency: 73.7
   previous_composite: 59.0
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 59.7
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png
 security:
 - kind: authentication
   name: Kixie Authentication

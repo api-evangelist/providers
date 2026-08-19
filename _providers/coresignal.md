@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 42.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -451,7 +451,9 @@ rate_limits:
   name: Coresignal Rate Limits
   slug: coresignal-rate-limits
 rules:
-- name: Coresignal API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Coresignal API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,7 +461,10 @@ rules:
     info: 1
     warn: 4
   slug: coresignal-jsonschema-spectral-rules
-- name: Coresignal API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Coresignal API Rules
   rule_count: 9
   severity_counts:
     error: 6
@@ -467,7 +472,10 @@ rules:
     info: 0
     warn: 3
   slug: coresignal-multi-source-company-api-rules
-- name: Coresignal API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Coresignal API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -475,7 +483,10 @@ rules:
     info: 1
     warn: 1
   slug: coresignal-multi-source-employee-api-rules
-- name: Coresignal API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Coresignal API Rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -490,26 +501,31 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 75.2
-  delta: 16.0
+  composite: 71.4
+  delta: -3.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 76.1
-    developer_ergonomics: 78.3
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 55.3
+    contract_quality: 71.3
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 52.6
-  previous_composite: 59.2
+    governance: 55.3
+    operational_transparency: 57.9
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
 security:
 - kind: authentication

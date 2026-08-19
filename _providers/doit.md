@@ -4,21 +4,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 83.3
-  scored_at: '2026-08-17'
+  score: 74.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -278,20 +279,33 @@ scopes:
   slug: doit-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 72.6
-  delta: 0.0
+  band: strong
+  composite: 65.1
+  delta: -7.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 64.0
-    developer_ergonomics: 80.4
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 16.7
+    contract_quality: 69.0
+    developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 20.8
-    operational_transparency: 84.2
+    governance: 16.7
+    operational_transparency: 69.7
   previous_composite: 72.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/screenshots/doit-2026-08-17T080051.png
 security:
 - kind: authentication
   name: Doit Authentication

@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-17'
+  score: 54.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -252,14 +253,16 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 47.8
+  delta: 1.7
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 61.3
-    developer_ergonomics: 56.0
+    contract_governance: 16.7
+    contract_quality: 59.2
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 7.9
   previous_composite: 46.1
   provenance:
@@ -272,9 +275,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 64.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 72.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

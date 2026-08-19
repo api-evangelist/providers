@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -20,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-17'
+  score: 20.1
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Backstory's hosted, remote Model Context Protocol server. It lets an AI client query a customer's own Backstory revenue-intelligence data — accounts, opportunities, recent activity, engaged people, sc
@@ -196,19 +197,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.5
-  delta: 22.6
+  composite: 34.6
+  delta: -2.9
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 42.3
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 36.8
-  previous_composite: 14.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 18.2
+    operational_transparency: 34.2
+  previous_composite: 37.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/screenshots/backstory-2026-07-25T202235.png
 security:
 - kind: authentication

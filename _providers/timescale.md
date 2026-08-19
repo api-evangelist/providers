@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-17'
+  score: 43.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -302,15 +303,17 @@ overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 57
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.5
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 54.4
-    developer_ergonomics: 90.8
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 16.7
+    contract_quality: 52.5
+    developer_ergonomics: 82.7
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 44.7
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -322,9 +325,10 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/screenshots/timescale-2026-08-17T082356.png
 security:
 - kind: authentication
   name: Timescale Authentication

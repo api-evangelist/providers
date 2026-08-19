@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-17'
+  score: 34.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The FlipperForce Public API is the REST API behind Upright's (formerly Fund That Flip's) FlipperForce project management platform for real estate redevelopers. It exposes 50 operations across projects
@@ -157,16 +158,31 @@ rate_limits:
   slug: fund-that-flip-rate-limits
 score:
   band: developing
-  composite: 53.8
+  composite: 53.6
+  delta: -0.2
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 56.0
-    developer_ergonomics: 58.7
+    contract_governance: 16.7
+    contract_quality: 58.1
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 20.8
-    operational_transparency: 21.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    governance: 16.7
+    operational_transparency: 18.4
+  previous_composite: 53.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fund-that-flip/refs/heads/main/screenshots/fund-that-flip-2026-08-17T080937.png
 security:
 - kind: authentication
   name: Fund That Flip Authentication

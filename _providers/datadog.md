@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-17'
+  score: 45.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -2619,7 +2619,9 @@ rate_limits:
   name: Datadog Rate Limits
   slug: datadog-rate-limits
 rules:
-- name: Datadog API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Datadog API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2627,7 +2629,10 @@ rules:
     info: 1
     warn: 5
   slug: datadog-jsonschema-spectral-rules
-- name: Datadog API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Datadog API Rules
   rule_count: 25
   severity_counts:
     error: 14
@@ -2642,15 +2647,17 @@ scopes:
   summary_line: 68 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 55.3
+  delta: -7.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 72.0
-    developer_ergonomics: 65.2
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 9.8
+    contract_quality: 75.3
+    developer_ergonomics: 61.9
     discoverability: 57.4
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 62.6
   provenance:
     agentic_access: derived
@@ -2659,9 +2666,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 211
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -237,7 +238,9 @@ rate_limits:
   name: Enphase Energy Rate Limits
   slug: enphase-energy-rate-limits
 rules:
-- name: Enphase Energy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Enphase Energy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +248,10 @@ rules:
     info: 1
     warn: 4
   slug: enphase-energy-jsonschema-spectral-rules
-- name: Enphase Energy API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Enphase Energy API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -255,14 +261,16 @@ rules:
   slug: enphase-energy-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 53.0
+  delta: -0.4
   facets:
+    access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_quality: 66.4
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 62.9
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 53.4
   provenance:
@@ -278,8 +286,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/screenshots/enphase-energy-2026-06-20T180721.png
 security:

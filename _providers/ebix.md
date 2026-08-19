@@ -14,11 +14,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -167,14 +168,16 @@ overview: 'Ebix is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 126
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 15.7
+  delta: -0.9
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 16.7
     discoverability: 57.4
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 16.6
   provenance:
@@ -185,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebix/refs/heads/main/screenshots/ebix-2026-07-25T212726.png
 security:

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -232,7 +233,9 @@ overview: 'SushiSwap publishes 7 APIs on the [APIs.io](https://apis.io/) network
   SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
 random_paper: 105
 rules:
-- name: SushiSwap API Rules
+- effective_rule_count: 5
+  extends: []
+  name: SushiSwap API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,16 +244,18 @@ rules:
     warn: 4
   slug: sushiswap-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 32.6
+  delta: -11.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 68.6
-    developer_ergonomics: 34.8
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 9.8
+    contract_quality: 65.3
+    developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -264,10 +269,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 28.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:
 - kind: authentication

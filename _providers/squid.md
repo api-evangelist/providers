@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +191,9 @@ rate_limits:
   name: Squid Rate Limits
   slug: squid-rate-limits
 rules:
-- name: Squid API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Squid API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,7 +201,10 @@ rules:
     info: 1
     warn: 4
   slug: squid-jsonschema-spectral-rules
-- name: Squid API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Squid API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -208,15 +214,17 @@ rules:
   slug: squid-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 35.4
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 64.2
-    developer_ergonomics: 19.6
+    contract_governance: 25.0
+    contract_quality: 60.1
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -225,9 +233,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/screenshots/squid-2026-06-20T194428.png
 security:
 - kind: authentication

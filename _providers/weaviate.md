@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-17'
+  score: 46.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -1630,7 +1631,9 @@ rate_limits:
   name: Weaviate Rate Limits
   slug: weaviate-rate-limits
 rules:
-- name: Weaviate API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Weaviate API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1638,7 +1641,10 @@ rules:
     info: 2
     warn: 3
   slug: weaviate-jsonschema-spectral-rules
-- name: Weaviate API Rules
+- effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Weaviate API Rules
   rule_count: 31
   severity_counts:
     error: 8
@@ -1648,14 +1654,16 @@ rules:
   slug: weaviate-spectral-rules
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 49.0
+  delta: -6.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 57.2
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 56.9
+    developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 39.5
   previous_composite: 55.2
   provenance:
@@ -1665,9 +1673,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:
 - kind: authentication

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +160,9 @@ rate_limits:
   name: University Of Alberta Rate Limits
   slug: university-of-alberta-rate-limits
 rules:
-- name: University of Alberta API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Alberta API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -167,7 +170,9 @@ rules:
     info: 2
     warn: 3
   slug: university-of-alberta-jsonschema-spectral-rules
-- name: University of Alberta API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Alberta API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -177,14 +182,16 @@ rules:
   slug: university-of-alberta-rules
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 37.1
+  delta: -4.2
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 65.7
-    developer_ergonomics: 19.6
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 41.3
   provenance:
@@ -197,11 +204,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
+    regime: Education & Research
+    regime_id: education
     score: 31.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

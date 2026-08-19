@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -225,15 +225,17 @@ overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 19
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 42.6
+  delta: 0.2
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 68.0
-    developer_ergonomics: 62.5
+    contract_governance: 16.7
+    contract_quality: 64.0
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 16.7
+    operational_transparency: 31.6
   previous_composite: 42.4
   provenance:
     agentic_access: derived
@@ -251,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:

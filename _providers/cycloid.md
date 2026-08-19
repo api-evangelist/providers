@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-17'
+  score: 33.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -261,7 +262,10 @@ rate_limits:
   name: Cycloid Rate Limits
   slug: cycloid-rate-limits
 rules:
-- name: Cycloid API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Cycloid API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -269,7 +273,9 @@ rules:
     info: 0
     warn: 3
   slug: cycloid-api-rules
-- name: Cycloid API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cycloid API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,15 +290,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 44.3
+  delta: -6.9
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 59.7
-    developer_ergonomics: 34.8
+    access_clarity: 40.8
+    commercial_clarity: 40.8
+    contract_governance: 60.6
+    contract_quality: 55.9
+    developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 31.3
-    operational_transparency: 28.9
+    governance: 60.6
+    operational_transparency: 26.3
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -301,9 +309,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:
 - kind: authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-17'
+  score: 40.4
+  scored_at: '2026-08-19'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -239,16 +240,18 @@ scopes:
   slug: green-dot-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  delta: -9.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 51.6
-    developer_ergonomics: 45.1
+    access_clarity: 30.3
+    commercial_clarity: 30.3
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 11.3
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 42.1
+    governance: 18.2
+    operational_transparency: 31.6
   previous_composite: 47.0
   provenance:
     conformance: first-party
@@ -258,10 +261,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 60.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:
 - kind: authentication

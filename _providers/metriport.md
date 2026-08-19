@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-17'
+  score: 46.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -314,32 +315,37 @@ rate_limits:
   slug: metriport-rate-limits
 score:
   band: exemplar
-  composite: 68.9
-  delta: 33.9
+  composite: 68.6
+  delta: -0.3
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 65.2
-    developer_ergonomics: 84.8
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 30.3
+    contract_quality: 64.2
+    developer_ergonomics: 69.0
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 71.1
-  previous_composite: 35.0
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    score: 51.2
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:
 - kind: authentication

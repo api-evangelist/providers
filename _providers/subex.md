@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,7 +194,9 @@ rate_limits:
   name: Subex Rate Limits
   slug: subex-rate-limits
 rules:
-- name: Subex API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Subex API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,7 +204,10 @@ rules:
     info: 2
     warn: 3
   slug: subex-jsonschema-spectral-rules
-- name: Subex API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Subex API Rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -210,16 +216,18 @@ rules:
     warn: 4
   slug: subex-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -3.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 63.7
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 59.7
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -234,8 +242,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/screenshots/subex-2026-06-20T194634.png
 security:

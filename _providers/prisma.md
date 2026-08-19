@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-17'
+  score: 49.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -660,7 +661,9 @@ rate_limits:
   name: Prisma Rate Limits
   slug: prisma-rate-limits
 rules:
-- name: Prisma API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Prisma API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -669,16 +672,18 @@ rules:
     warn: 4
   slug: prisma-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 49.1
+  delta: -10.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.8
-    developer_ergonomics: 65.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 66.7
+    developer_ergonomics: 61.9
     discoverability: 38.9
-    governance: 58.3
-    operational_transparency: 44.7
+    governance: 9.8
+    operational_transparency: 42.1
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -687,10 +692,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-06-20T192111.png
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
+screenshot: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-08-17T124858.png
 security:
 - kind: authentication
   name: Prisma Authentication

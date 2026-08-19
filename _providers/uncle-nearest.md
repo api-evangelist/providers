@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-17'
+  score: 33.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -212,14 +213,16 @@ overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 142
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 29.8
+  delta: 0.7
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 46.0
-    developer_ergonomics: 19.0
+    contract_governance: 16.7
+    contract_quality: 46.9
+    developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 0.0
   previous_composite: 29.1
   provenance:
@@ -232,8 +235,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

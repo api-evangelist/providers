@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-17'
+  score: 35.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -653,7 +654,9 @@ rate_limits:
   name: Convoy Rate Limits
   slug: convoy-rate-limits
 rules:
-- name: Convoy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Convoy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -661,7 +664,10 @@ rules:
     info: 1
     warn: 4
   slug: convoy-jsonschema-spectral-rules
-- name: Convoy API Rules
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Convoy API Rules
   rule_count: 14
   severity_counts:
     error: 6
@@ -670,16 +676,18 @@ rules:
     warn: 5
   slug: convoy-rules
 score:
-  band: exemplar
-  composite: 72.6
-  delta: 0.0
+  band: strong
+  composite: 62.8
+  delta: -9.8
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 77.0
-    developer_ergonomics: 78.3
-    discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 68.4
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 9.8
+    contract_quality: 74.4
+    developer_ergonomics: 73.8
+    discoverability: 68.5
+    governance: 9.8
+    operational_transparency: 65.8
   previous_composite: 72.6
   provenance:
     agentic_access: derived
@@ -688,9 +696,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:
 - kind: authentication

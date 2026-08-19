@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1366,7 +1367,9 @@ rate_limits:
   name: Cobalt Rate Limits
   slug: cobalt-rate-limits
 rules:
-- name: Cobalt API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cobalt API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1374,7 +1377,10 @@ rules:
     info: 2
     warn: 3
   slug: cobalt-jsonschema-spectral-rules
-- name: Cobalt API Rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Cobalt API Rules
   rule_count: 13
   severity_counts:
     error: 4
@@ -1383,16 +1389,18 @@ rules:
     warn: 8
   slug: cobalt-rules
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -6.2
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 73.9
-    developer_ergonomics: 43.5
+    contract_governance: 9.8
+    contract_quality: 70.6
+    developer_ergonomics: 47.6
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 39.5
+    governance: 9.8
+    operational_transparency: 36.8
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -1401,9 +1409,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:
 - kind: authentication

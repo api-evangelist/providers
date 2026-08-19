@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -199,15 +200,17 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
   steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 15 more developer resources.'
 random_paper: 38
 score:
-  band: thin
-  composite: 37.5
-  delta: 0.0
+  band: developing
+  composite: 41.5
+  delta: 4.0
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 61.1
-    developer_ergonomics: 47.3
+    contract_governance: 16.7
+    contract_quality: 60.7
+    developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 23.7
   previous_composite: 37.5
   provenance:
@@ -226,8 +229,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

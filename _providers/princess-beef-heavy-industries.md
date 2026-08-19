@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -114,7 +115,9 @@ rate_limits:
   name: Princess Beef Heavy Industries Rate Limits
   slug: princess-beef-heavy-industries-rate-limits
 rules:
-- name: Princess Beef Heavy Industries API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Princess Beef Heavy Industries API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -124,15 +127,17 @@ rules:
   slug: princess-beef-heavy-industries-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 31.5
+  delta: -6.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 74.9
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 73.7
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -141,9 +146,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/screenshots/princess-beef-heavy-industries-2026-06-20T192117.png
 security:
 - kind: authentication

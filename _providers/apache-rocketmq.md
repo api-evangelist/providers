@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -287,7 +288,9 @@ rate_limits:
   name: Apache Rocketmq Rate Limits
   slug: apache-rocketmq-rate-limits
 rules:
-- name: Apache RocketMQ API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Apache RocketMQ API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -295,7 +298,10 @@ rules:
     info: 2
     warn: 3
   slug: apache-rocketmq-jsonschema-spectral-rules
-- name: Apache RocketMQ API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Apache RocketMQ API Rules
   rule_count: 12
   severity_counts:
     error: 5
@@ -305,15 +311,17 @@ rules:
   slug: apache-rocketmq-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 29.5
+  delta: -6.2
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 57.5
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 54.4
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 35.7
   provenance:
     agentic_access: derived
@@ -322,9 +330,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png
 security:
 - kind: domain-security

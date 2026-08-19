@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-17'
+  score: 35.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -227,7 +228,9 @@ rate_limits:
   name: Veli Rate Limits
   slug: veli-rate-limits
 rules:
-- name: Veli API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Veli API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +238,10 @@ rules:
     info: 2
     warn: 3
   slug: veli-jsonschema-spectral-rules
-- name: Veli API Rules
+- effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Veli API Rules
   rule_count: 36
   severity_counts:
     error: 13
@@ -244,15 +250,17 @@ rules:
     warn: 22
   slug: veli-spectral-rules
 score:
-  band: thin
-  composite: 31.0
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -5.0
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 23.9
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 22.5
+    developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 31.0
   provenance:
@@ -262,9 +270,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/screenshots/veli-2026-06-20T200905.png
 security:
 - kind: authentication

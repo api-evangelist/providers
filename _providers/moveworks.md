@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-17'
+  score: 55.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -316,15 +317,17 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 111
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 59.3
+  delta: 0.2
   facets:
+    access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_quality: 65.7
-    developer_ergonomics: 62.5
+    contract_governance: 30.3
+    contract_quality: 66.2
+    developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 68.4
+    governance: 30.3
+    operational_transparency: 65.8
   previous_composite: 59.1
   provenance:
     agentic_access: derived
@@ -336,8 +339,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:

@@ -19,18 +19,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-17'
+  score: 46.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -263,7 +264,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: Flightradar24 API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Flightradar24 API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,15 +276,17 @@ rules:
   slug: flightradar24-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 47.3
+  delta: -7.7
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 71.0
-    developer_ergonomics: 60.9
+    contract_governance: 9.8
+    contract_quality: 67.9
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 55.0
   provenance:
     agentic_access: derived
@@ -290,9 +295,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/screenshots/flightradar24-2026-06-20T181313.png
 security:
 - kind: authentication

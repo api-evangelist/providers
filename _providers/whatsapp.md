@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 40.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -782,7 +783,10 @@ rate_limits:
   name: Whatsapp Rate Limits
   slug: whatsapp-rate-limits
 rules:
-- name: WhatsApp API Rules
+- effective_rule_count: 35
+  extends:
+  - spectral:asyncapi
+  name: WhatsApp API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -790,7 +794,9 @@ rules:
     info: 0
     warn: 7
   slug: whatsapp-asyncapi-spectral-rules
-- name: WhatsApp API Rules
+- effective_rule_count: 6
+  extends: []
+  name: WhatsApp API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -798,7 +804,10 @@ rules:
     info: 1
     warn: 5
   slug: whatsapp-jsonschema-spectral-rules
-- name: WhatsApp API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: WhatsApp API Rules
   rule_count: 23
   severity_counts:
     error: 14
@@ -807,16 +816,18 @@ rules:
     warn: 8
   slug: whatsapp-spectral-rules
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: -7.2
   facets:
+    access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_quality: 85.4
-    developer_ergonomics: 54.3
+    contract_governance: 11.4
+    contract_quality: 80.5
+    developer_ergonomics: 59.5
     discoverability: 40.7
-    governance: 41.7
-    operational_transparency: 55.3
+    governance: 11.4
+    operational_transparency: 28.9
   previous_composite: 57.4
   provenance:
     agentic_access: derived
@@ -825,9 +836,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: false
+    note: provider carries no tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:
 - kind: authentication

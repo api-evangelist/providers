@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 56.8
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -261,18 +262,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.3
-  delta: 6.9
+  composite: 62.7
+  delta: 5.4
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 68.9
-    developer_ergonomics: 58.7
+    contract_governance: 30.3
+    contract_quality: 66.6
+    developer_ergonomics: 54.8
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 50.4
+    governance: 30.3
+    operational_transparency: 42.1
+  previous_composite: 57.3
   provenance:
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -286,9 +289,10 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/screenshots/starbridge-2026-08-17T082105.png
 security:
 - kind: authentication
   name: Starbridge Authentication

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-17'
+  score: 31.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -414,7 +415,10 @@ rate_limits:
   name: Filevine Rate Limits
   slug: filevine-rate-limits
 rules:
-- name: Filevine API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Filevine API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -422,7 +426,9 @@ rules:
     info: 0
     warn: 5
   slug: filevine-asyncapi-spectral-rules
-- name: Filevine API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Filevine API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -430,7 +436,10 @@ rules:
     info: 2
     warn: 3
   slug: filevine-jsonschema-spectral-rules
-- name: Filevine API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Filevine API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -440,14 +449,16 @@ rules:
   slug: filevine-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 59.3
+  delta: -3.2
   facets:
+    access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_quality: 77.4
-    developer_ergonomics: 39.1
+    contract_governance: 26.5
+    contract_quality: 73.7
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 52.1
+    governance: 26.5
     operational_transparency: 52.6
   previous_composite: 62.5
   provenance:
@@ -457,8 +468,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/screenshots/filevine-2026-06-20T181208.png
 security:

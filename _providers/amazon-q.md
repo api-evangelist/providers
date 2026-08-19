@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -405,7 +406,9 @@ rate_limits:
   name: Amazon Q Rate Limits
   slug: amazon-q-rate-limits
 rules:
-- name: Amazon Q API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Q API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -413,7 +416,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-q-jsonschema-spectral-rules
-- name: Amazon Q API Rules
+- effective_rule_count: 66
+  extends:
+  - spectral:oas
+  name: Amazon Q API Rules
   rule_count: 25
   severity_counts:
     error: 8
@@ -423,15 +429,17 @@ rules:
   slug: amazon-q-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 55.2
+  delta: -5.8
   facets:
+    access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_quality: 61.9
-    developer_ergonomics: 56.5
+    contract_governance: 25.0
+    contract_quality: 58.7
+    developer_ergonomics: 59.5
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 44.7
+    governance: 25.0
+    operational_transparency: 42.1
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -440,9 +448,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:
 - kind: authentication

@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 43.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -360,15 +361,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 47.5
+  delta: -4.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 56.0
-    developer_ergonomics: 69.0
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 31.8
+    contract_quality: 55.2
+    developer_ergonomics: 54.2
     discoverability: 83.3
-    governance: 21.9
-    operational_transparency: 34.2
+    governance: 31.8
+    operational_transparency: 31.6
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -380,8 +383,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png
 security:

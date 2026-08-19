@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -219,7 +220,9 @@ rate_limits:
   name: Rainbow Rate Limits
   slug: rainbow-rate-limits
 rules:
-- name: Rainbow API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Rainbow API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,7 +230,10 @@ rules:
     info: 2
     warn: 3
   slug: rainbow-jsonschema-spectral-rules
-- name: Rainbow API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Rainbow API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -236,15 +242,17 @@ rules:
     warn: 5
   slug: rainbow-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  delta: -4.1
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 69.4
-    developer_ergonomics: 17.4
-    discoverability: 81.5
-    governance: 68.8
+    contract_governance: 25.0
+    contract_quality: 66.2
+    developer_ergonomics: 19.0
+    discoverability: 74.1
+    governance: 25.0
     operational_transparency: 10.5
   previous_composite: 43.2
   provenance:
@@ -260,8 +268,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/screenshots/rainbow-2026-06-20T192535.png
 security:

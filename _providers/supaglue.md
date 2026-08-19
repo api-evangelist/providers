@@ -12,10 +12,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -26,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-17'
+  score: 41.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -509,7 +509,9 @@ rate_limits:
   name: Supaglue Rate Limits
   slug: supaglue-rate-limits
 rules:
-- name: Supaglue API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Supaglue API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -517,7 +519,10 @@ rules:
     info: 1
     warn: 4
   slug: supaglue-jsonschema-spectral-rules
-- name: Supaglue API Rules
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Supaglue API Rules
   rule_count: 10
   severity_counts:
     error: 0
@@ -527,27 +532,32 @@ rules:
   slug: supaglue-rules
 score:
   band: strong
-  composite: 59.8
-  delta: 19.2
+  composite: 57.1
+  delta: -2.7
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 76.7
-    developer_ergonomics: 43.5
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 40.2
+    contract_quality: 74.6
+    developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 79.2
-    operational_transparency: 44.7
-  previous_composite: 40.6
+    governance: 40.2
+    operational_transparency: 42.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 35
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
-screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-06-20T194702.png
+      total: 40
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:
 - kind: authentication
   name: Supaglue Authentication

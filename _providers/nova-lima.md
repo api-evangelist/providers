@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -160,21 +160,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 34.9
+  delta: -3.6
   facets:
+    access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_quality: 51.6
-    developer_ergonomics: 50.0
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 34.2
+    governance: 18.2
+    operational_transparency: 31.6
   previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/screenshots/nova-lima-2026-08-07T185626.png
 security:

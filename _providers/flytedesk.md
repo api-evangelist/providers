@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-17'
+  score: 22.6
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The first-party GraphQL API behind the flytedesk application — the campus advertising marketplace covering suppliers (campus media organizations), campuses, buyers, audiences, ad shops, campaigns, ads
@@ -116,18 +117,30 @@ rate_limits:
   slug: flytedesk-rate-limits
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 26.3
+  delta: -3.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 43.2
-    developer_ergonomics: 13.0
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 38.9
+    developer_ergonomics: 14.3
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 5.3
+    governance: 4.5
+    operational_transparency: 2.6
   previous_composite: 30.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 25.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flytedesk/refs/heads/main/screenshots/flytedesk-2026-07-25T214857.png
 security:

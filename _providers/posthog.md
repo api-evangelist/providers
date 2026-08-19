@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 45.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -6232,7 +6233,10 @@ rate_limits:
   name: Posthog Rate Limits
   slug: posthog-rate-limits
 rules:
-- name: PostHog API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: PostHog API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -6240,7 +6244,9 @@ rules:
     info: 0
     warn: 6
   slug: posthog-asyncapi-spectral-rules
-- name: PostHog API Rules
+- effective_rule_count: 5
+  extends: []
+  name: PostHog API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -6249,16 +6255,18 @@ rules:
     warn: 4
   slug: posthog-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 50.3
+  delta: -5.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 56.4
-    developer_ergonomics: 54.3
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 11.4
+    contract_quality: 56.9
+    developer_ergonomics: 59.5
     discoverability: 66.7
-    governance: 41.7
-    operational_transparency: 44.7
+    governance: 11.4
+    operational_transparency: 28.9
   previous_composite: 56.1
   provenance:
     agentic_access: derived
@@ -6267,9 +6275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 131
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:
 - kind: authentication

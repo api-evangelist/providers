@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-17'
+  score: 18.4
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: Create and confirm Afterpay checkouts for merchant integrations.
@@ -106,15 +107,17 @@ rate_limits:
   slug: afterpay-rate-limits
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 19.7
+  delta: -2.9
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 48.1
+    contract_governance: 0.0
+    contract_quality: 43.3
     developer_ergonomics: 0.0
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   previous_composite: 22.6
   regulatory:
     applies: true
@@ -122,8 +125,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/afterpay/refs/heads/main/screenshots/afterpay-2026-06-20T165725.png
 security:

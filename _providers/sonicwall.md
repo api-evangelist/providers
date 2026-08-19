@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -187,19 +188,21 @@ overview: 'SonicWall is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 78
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 17.7
+  delta: -6.3
   facets:
-    commercial_clarity: 42.1
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 39.1
+    developer_ergonomics: 40.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 2.6
   previous_composite: 24.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonicwall/refs/heads/main/screenshots/sonicwall-2026-06-20T194209.png
 security:
 - kind: domain-security

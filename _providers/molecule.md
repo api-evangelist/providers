@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-17'
+  score: 23.3
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint serving the Data API (browse IP-NFTs, IPTs, and market data), the Tokenization API (mint IP-NFTs and fractionalize into IPTs), and the Labs API (manage research datarooms, file
@@ -131,15 +132,17 @@ overview: 'Molecule publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 109
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 23.4
+  delta: -1.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 15.8
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 24.4
   provenance:
     conformance: first-party
@@ -151,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/molecule/refs/heads/main/screenshots/molecule-2026-08-07T184106.png
 security:

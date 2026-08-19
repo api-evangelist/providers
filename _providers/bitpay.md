@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-17'
+  score: 46.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -212,7 +213,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- name: BitPay API Rules
+- effective_rule_count: 5
+  extends: []
+  name: BitPay API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,15 +225,17 @@ rules:
   slug: bitpay-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 42.0
+  delta: -6.0
   facets:
+    access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_quality: 61.6
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 58.3
+    developer_ergonomics: 25.0
     discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 9.2
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -245,9 +250,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:
 - kind: domain-security

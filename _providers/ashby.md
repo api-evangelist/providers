@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-17'
+  score: 42.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -502,15 +503,17 @@ rate_limits:
   slug: ashby-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 42.0
+  delta: -5.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 66.5
-    developer_ergonomics: 32.6
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 0.0
+    contract_quality: 62.8
+    developer_ergonomics: 21.4
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 30.3
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -519,9 +522,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png
 security:
 - kind: authentication

@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: documented
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-17'
+  score: 49.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -396,7 +396,9 @@ rate_limits:
   name: Exchangerate Api Rate Limits
   slug: exchangerate-api-rate-limits
 rules:
-- name: ExchangeRate-API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: ExchangeRate-API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -404,7 +406,9 @@ rules:
     info: 1
     warn: 4
   slug: exchangerate-api-jsonschema-spectral-rules
-- name: ExchangeRate-API API Rules
+- effective_rule_count: 8
+  extends: []
+  name: ExchangeRate-API API Rules
   rule_count: 8
   severity_counts:
     error: 7
@@ -414,14 +418,16 @@ rules:
   slug: exchangerate-api-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 55.0
+  delta: -10.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.1
-    developer_ergonomics: 50.0
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 25.0
+    contract_quality: 72.0
+    developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 31.6
   previous_composite: 65.6
   provenance:
@@ -431,9 +437,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:
 - kind: authentication

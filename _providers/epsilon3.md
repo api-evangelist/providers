@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-17'
+  score: 45.7
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -201,19 +201,25 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 59.1
+  delta: -4.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 60.9
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 78.9
   previous_composite: 63.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/screenshots/epsilon3-2026-08-17T080928.png
 security:
 - kind: authentication
   name: Epsilon3 Authentication

@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 26.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -360,7 +361,9 @@ rate_limits:
   name: Trino Rate Limits
   slug: trino-rate-limits
 rules:
-- name: Trino API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Trino API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -368,7 +371,10 @@ rules:
     info: 2
     warn: 3
   slug: trino-jsonschema-spectral-rules
-- name: Trino API Rules
+- effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Trino API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -377,15 +383,17 @@ rules:
     warn: 6
   slug: trino-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -5.3
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 59.7
-    developer_ergonomics: 32.6
+    contract_governance: 25.0
+    contract_quality: 57.0
+    developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 39.5
   previous_composite: 43.9
   provenance:
@@ -395,9 +403,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/screenshots/trino-2026-06-20T195720.png
 security:
 - kind: domain-security

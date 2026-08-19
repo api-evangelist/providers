@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.0
-  scored_at: '2026-08-17'
+  score: 7.1
+  scored_at: '2026-08-19'
 api_count: 2
 apis:
 - description: The encore.app configuration file is the canonical declaration of an Encore application, including its platform application ID, primary language, global CORS rules, and authenticator settings. The JSO
@@ -148,7 +149,9 @@ rate_limits:
   name: Encore Rate Limits
   slug: encore-rate-limits
 rules:
-- name: Encore API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Encore API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -157,20 +160,22 @@ rules:
     warn: 4
   slug: encore-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.1
-  delta: 0.0
+  band: emerging
+  composite: 24.4
+  delta: -7.7
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 9.7
-    developer_ergonomics: 34.8
+    contract_governance: 9.8
+    contract_quality: 8.5
+    developer_ergonomics: 28.6
     discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 28.9
+    governance: 9.8
+    operational_transparency: 26.3
   previous_composite: 32.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/screenshots/encore-2026-06-20T180722.png
 security:
 - kind: domain-security

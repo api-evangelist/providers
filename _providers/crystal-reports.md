@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-17'
+  score: 38.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -398,7 +399,9 @@ rate_limits:
   name: Crystal Reports Rate Limits
   slug: crystal-reports-rate-limits
 rules:
-- name: Crystal Reports API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Crystal Reports API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -406,7 +409,10 @@ rules:
     info: 2
     warn: 3
   slug: crystal-reports-jsonschema-spectral-rules
-- name: Crystal Reports API Rules
+- effective_rule_count: 63
+  extends:
+  - spectral:oas
+  name: Crystal Reports API Rules
   rule_count: 22
   severity_counts:
     error: 14
@@ -415,15 +421,17 @@ rules:
     warn: 6
   slug: crystal-reports-spectral-rules
 score:
-  band: thin
-  composite: 31.9
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -7.8
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 22.8
-    developer_ergonomics: 26.1
+    contract_governance: 9.8
+    contract_quality: 24.3
+    developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 5.3
   previous_composite: 31.9
   provenance:
@@ -433,9 +441,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
 security:
 - kind: authentication

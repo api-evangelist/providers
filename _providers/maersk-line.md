@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 29.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -373,7 +374,9 @@ rate_limits:
   name: Maersk Line Rate Limits
   slug: maersk-line-rate-limits
 rules:
-- name: Maersk API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Maersk API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -381,7 +384,10 @@ rules:
     info: 2
     warn: 4
   slug: maersk-line-jsonschema-spectral-rules
-- name: Maersk API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Maersk API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -396,14 +402,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 47.7
+  delta: -7.0
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 72.1
-    developer_ergonomics: 45.7
+    contract_governance: 25.0
+    contract_quality: 71.3
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 5.3
   previous_composite: 54.7
   provenance:
@@ -413,9 +421,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png
 security:
 - kind: authentication

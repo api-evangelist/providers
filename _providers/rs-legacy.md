@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -105,7 +106,9 @@ press:
   url: https://www.law360.com/articles/636062/state-ags-keep-eye-on-radioshack-customers-personal-data
 random_paper: 9
 rules:
-- name: RS Legacy API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RS Legacy API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -114,20 +117,22 @@ rules:
     warn: 3
   slug: rs-legacy-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 17.7
-  delta: 0.0
+  band: minimal
+  composite: 9.9
+  delta: -7.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 0.0
     discoverability: 40.7
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 17.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/screenshots/rs-legacy-2026-06-20T193241.png
 security:
 - kind: domain-security

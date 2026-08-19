@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 31.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -169,15 +170,17 @@ rate_limits:
   slug: shopmonkey-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 36.7
+  delta: -0.5
   facets:
+    access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_quality: 58.2
-    developer_ergonomics: 19.6
+    contract_governance: 0.0
+    contract_quality: 56.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   previous_composite: 37.2
   provenance:
     agentic_access: derived
@@ -186,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

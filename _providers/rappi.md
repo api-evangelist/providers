@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-17'
+  score: 13.7
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The Rappi Partners REST API is the integration surface used by approved restaurants, grocery and retail merchants, and middleware/POS providers to operate on the Rappi marketplace. Authentication is O
@@ -144,16 +145,18 @@ overview: 'Rappi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   Rappi''s developer surface includes API reference, authentication, FAQ, engineering blog, and 14 more developer resources.'
 random_paper: 93
 score:
-  band: emerging
-  composite: 15.0
-  delta: 0.0
+  band: minimal
+  composite: 5.5
+  delta: -9.5
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
+    contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 1.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 10.5
   previous_composite: 15.0
   regulatory:
     applies: true
@@ -161,9 +164,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rappi/refs/heads/main/screenshots/rappi-2026-06-20T192604.png
 security:
 - kind: domain-security

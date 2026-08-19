@@ -10,10 +10,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +20,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-17'
+  score: 44.6
+  scored_at: '2026-08-19'
 api_count: 4
 apis:
 - description: 'OpenAPI for Sensors Analytics — the product-analytics engine. 64 operations across eight services: analysis models (funnel, retention, LTV, attribution, path, interval, addiction, segmentation, custom'
@@ -291,19 +291,31 @@ rate_limits:
   slug: sensors-data-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 36.1
+  composite: 43.4
+  delta: -3.9
   facets:
+    access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_quality: 51.5
-    developer_ergonomics: 73.9
+    contract_governance: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 60.1
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 28.9
-  previous_composite: 11.2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 26.3
+  previous_composite: 47.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
 security:
 - kind: authentication
   name: Sensors Data Authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-17'
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,20 +103,22 @@ overview: 'Guidde is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 30
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 17.3
+  delta: -1.9
   facets:
-    commercial_clarity: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
-    governance: 12.5
+    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 19.2
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidde/refs/heads/main/screenshots/guidde-2026-07-25T220417.png
 security:

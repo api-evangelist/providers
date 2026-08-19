@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -395,7 +396,9 @@ rate_limits:
   name: Agilent Technologies Rate Limits
   slug: agilent-technologies-rate-limits
 rules:
-- name: agilent-technologies API Rules
+- effective_rule_count: 5
+  extends: []
+  name: agilent-technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -403,7 +406,10 @@ rules:
     info: 1
     warn: 4
   slug: agilent-technologies-jsonschema-spectral-rules
-- name: agilent-technologies API Rules
+- effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: agilent-technologies API Rules
   rule_count: 41
   severity_counts:
     error: 11
@@ -413,15 +419,17 @@ rules:
   slug: agilent-technologies-spectral-rules
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 30.3
+  delta: -3.4
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 31.2
-    developer_ergonomics: 15.2
+    contract_governance: 25.0
+    contract_quality: 29.3
+    developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 33.7
   provenance:
     agentic_access: derived
@@ -436,8 +444,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

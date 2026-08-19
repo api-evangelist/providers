@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 34.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 356
   human_in_the_loop: 4
@@ -488,7 +489,9 @@ rate_limits:
   name: Zoho Inventory Rate Limits
   slug: zoho-inventory-rate-limits
 rules:
-- name: Zoho Inventory API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Zoho Inventory API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -503,14 +506,16 @@ scopes:
   summary_line: 96 scopes · implicit
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 47.0
+  delta: -5.1
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 65.9
-    developer_ergonomics: 21.7
+    contract_governance: 9.8
+    contract_quality: 67.4
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 52.6
   previous_composite: 52.1
   provenance:
@@ -520,9 +525,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/screenshots/zoho-inventory-2026-06-20T201942.png
 security:
 - kind: authentication

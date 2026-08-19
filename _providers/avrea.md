@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-17'
+  score: 8.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,21 +144,23 @@ overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 80
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 30.9
+  delta: -6.1
   facets:
-    commercial_clarity: 60.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 34.2
   previous_composite: 37.0
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/screenshots/avrea-2026-07-25T202013.png
 security:
 - kind: authentication

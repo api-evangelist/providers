@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-17'
+  score: 30.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -178,15 +179,17 @@ overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 34
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 35.3
+  delta: -3.7
   facets:
+    access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_quality: 46.3
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 44.1
+    developer_ergonomics: 31.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -198,8 +201,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: authentication

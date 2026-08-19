@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,7 +243,9 @@ rate_limits:
   name: Radio Browser Rate Limits
   slug: radio-browser-rate-limits
 rules:
-- name: Radio Browser API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Radio Browser API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -250,7 +253,10 @@ rules:
     info: 1
     warn: 4
   slug: radio-browser-jsonschema-spectral-rules
-- name: Radio Browser API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Radio Browser API Rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -260,15 +266,17 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 40.3
+  delta: -2.3
   facets:
+    access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_quality: 63.1
-    developer_ergonomics: 30.4
+    contract_governance: 25.0
+    contract_quality: 59.1
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -283,8 +291,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

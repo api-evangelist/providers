@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-17'
+  score: 20.5
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: Partner-gated REST API for embedding Wisetack pay-over-time financing into vertical SaaS and field service management platforms - create and monitor consumer financing applications with webhook report
@@ -125,15 +126,17 @@ overview: 'Wisetack publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 114
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 38.2
+  delta: -0.3
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 17.4
+    contract_governance: 18.2
+    contract_quality: 45.1
+    developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 21.1
   previous_composite: 38.5
   provenance:
     conformance: first-party
@@ -143,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 security:
 - kind: domain-security

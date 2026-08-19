@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,14 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-17'
+  score: 39.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 3
@@ -363,15 +363,17 @@ overview: 'Kentik publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 50
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 55.5
+  delta: -1.2
   facets:
+    access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_quality: 61.1
-    developer_ergonomics: 75.5
+    contract_governance: 16.7
+    contract_quality: 62.8
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 16.7
+    operational_transparency: 50.0
   previous_composite: 56.7
   provenance:
     agentic_access: derived
@@ -383,8 +385,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/screenshots/kentik-2026-07-25T223629.png
 security:

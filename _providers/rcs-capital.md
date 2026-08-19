@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.6
-  scored_at: '2026-08-17'
+  score: 1.5
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -128,7 +129,9 @@ press:
   url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
 random_paper: 64
 rules:
-- name: RCS Capital API Rules
+- effective_rule_count: 5
+  extends: []
+  name: RCS Capital API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -137,16 +140,24 @@ rules:
     warn: 3
   slug: rcs-capital-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 18.2
-  delta: 0.0
+  band: minimal
+  composite: 10.5
+  delta: -7.7
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 12.9
-    developer_ergonomics: 8.7
+    contract_governance: 25.0
+    contract_quality: 12.7
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 68.8
+    governance: 25.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 18.2
   regulatory:
     applies: true
@@ -154,9 +165,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/screenshots/rcs-capital-2026-06-20T192624.png
 security:
 - kind: domain-security

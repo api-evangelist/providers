@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-17'
+  score: 37.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -465,7 +466,9 @@ rate_limits:
   name: Raygun Rate Limits
   slug: raygun-rate-limits
 rules:
-- name: Raygun API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Raygun API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -473,7 +476,10 @@ rules:
     info: 2
     warn: 3
   slug: raygun-jsonschema-spectral-rules
-- name: Raygun API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Raygun API Rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -482,16 +488,18 @@ rules:
     warn: 8
   slug: raygun-rules
 score:
-  band: exemplar
-  composite: 70.7
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: -7.7
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_quality: 73.4
-    developer_ergonomics: 65.2
+    contract_governance: 25.0
+    contract_quality: 69.4
+    developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 47.4
+    governance: 25.0
+    operational_transparency: 34.2
   previous_composite: 70.7
   provenance:
     agentic_access: derived
@@ -500,9 +508,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:
 - kind: authentication

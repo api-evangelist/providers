@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -125,7 +126,10 @@ rate_limits:
   name: Clearstream Rate Limits
   slug: clearstream-rate-limits
 rules:
-- name: Clearstream API Rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Clearstream API Rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -135,24 +139,26 @@ rules:
   slug: clearstream-rules
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 21.0
+  delta: -3.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 8.1
-    developer_ergonomics: 21.7
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 45.5
+    contract_quality: 7.0
+    developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 20.8
-    operational_transparency: 13.2
+    governance: 45.5
+    operational_transparency: 10.5
   previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 35.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 28.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/screenshots/clearstream-2026-06-20T174506.png
 security:

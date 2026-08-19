@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-17'
+  score: 31.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,7 +198,10 @@ rate_limits:
   name: Apache Zookeeper Rate Limits
   slug: apache-zookeeper-rate-limits
 rules:
-- name: Apache ZooKeeper API Rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Apache ZooKeeper API Rules
   rule_count: 12
   severity_counts:
     error: 7
@@ -207,14 +211,16 @@ rules:
   slug: apache-zookeeper-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 37.6
+  delta: -1.2
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 51.5
-    developer_ergonomics: 39.1
+    access_clarity: 28.6
+    commercial_clarity: 28.6
+    contract_governance: 13.6
+    contract_quality: 48.3
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 27.1
+    governance: 13.6
     operational_transparency: 23.7
   previous_composite: 38.8
   provenance:
@@ -224,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:

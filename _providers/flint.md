@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -24,14 +24,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: verified
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-17'
+  score: 54.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -270,30 +271,32 @@ scopes:
   slug: flint-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 13.6
+  band: strong
+  composite: 65.9
+  delta: -0.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 71.6
-    developer_ergonomics: 62.5
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 30.3
+    contract_quality: 67.1
+    developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 52.5
+    governance: 30.3
+    operational_transparency: 52.6
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-    skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:
 - kind: authentication

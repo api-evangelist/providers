@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -603,7 +604,9 @@ rate_limits:
   name: Amazon Simpledb Rate Limits
   slug: amazon-simpledb-rate-limits
 rules:
-- name: Amazon SimpleDB API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon SimpleDB API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -611,7 +614,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-simpledb-jsonschema-spectral-rules
-- name: Amazon SimpleDB API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon SimpleDB API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -620,16 +626,18 @@ rules:
     warn: 13
   slug: amazon-simpledb-spectral-rules
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: -8.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 69.1
-    developer_ergonomics: 45.7
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 25.0
+    contract_quality: 66.6
+    developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 28.9
+    governance: 25.0
+    operational_transparency: 26.3
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -638,9 +646,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/screenshots/amazon-simpledb-2026-06-20T171823.png
 security:
 - kind: authentication

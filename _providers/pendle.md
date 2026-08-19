@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 32.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -888,7 +889,9 @@ rate_limits:
   name: Pendle Rate Limits
   slug: pendle-rate-limits
 rules:
-- name: Pendle API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Pendle API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -898,14 +901,16 @@ rules:
   slug: pendle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 41.2
+  delta: -5.6
   facets:
+    access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_quality: 46.2
-    developer_ergonomics: 30.4
+    contract_governance: 9.8
+    contract_quality: 44.8
+    developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 36.8
   previous_composite: 46.8
   provenance:
@@ -915,9 +920,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/screenshots/pendle-2026-06-20T191632.png
 security:
 - kind: domain-security

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-17'
+  score: 32.5
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 7
@@ -339,7 +340,9 @@ rate_limits:
   name: University Of Gottingen Rate Limits
   slug: university-of-gottingen-rate-limits
 rules:
-- name: University of Göttingen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Göttingen API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -347,7 +350,9 @@ rules:
     info: 2
     warn: 3
   slug: university-of-gottingen-jsonschema-spectral-rules
-- name: University of Göttingen API Rules
+- effective_rule_count: 5
+  extends: []
+  name: University of Göttingen API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -357,14 +362,16 @@ rules:
   slug: university-of-gottingen-rules
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 32.4
+  delta: -5.6
   facets:
+    access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_quality: 53.2
-    developer_ergonomics: 13.0
+    contract_governance: 9.8
+    contract_quality: 50.8
+    developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 38.0
   provenance:
@@ -374,9 +381,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png
 security:
 - kind: domain-security

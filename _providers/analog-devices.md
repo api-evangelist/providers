@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-17'
+  score: 3.0
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -174,7 +175,9 @@ rate_limits:
   name: Analog Devices Rate Limits
   slug: analog-devices-rate-limits
 rules:
-- name: Analog Devices API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Analog Devices API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,7 +185,9 @@ rules:
     info: 1
     warn: 4
   slug: analog-devices-jsonschema-spectral-rules
-- name: Analog Devices API Rules
+- effective_rule_count: 4
+  extends: []
+  name: Analog Devices API Rules
   rule_count: 4
   severity_counts:
     error: 4
@@ -192,19 +197,21 @@ rules:
   slug: analog-devices-spectral-rules
 score:
   band: emerging
-  composite: 27.7
-  delta: 0.0
+  composite: 19.5
+  delta: -8.2
   facets:
+    access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_quality: 12.9
-    developer_ergonomics: 23.9
+    contract_governance: 25.0
+    contract_quality: 11.3
+    developer_ergonomics: 13.1
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 10.5
+    governance: 25.0
+    operational_transparency: 7.9
   previous_composite: 27.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/screenshots/analog-devices-2026-08-07T161354.png
 security:
 - kind: domain-security

@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-17'
+  score: 49.6
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -3816,7 +3817,9 @@ rate_limits:
   name: Amazon Ec2 Image Builder Rate Limits
   slug: amazon-ec2-image-builder-rate-limits
 rules:
-- name: Amazon EC2 Image Builder API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon EC2 Image Builder API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3824,7 +3827,10 @@ rules:
     info: 2
     warn: 3
   slug: amazon-ec2-image-builder-jsonschema-spectral-rules
-- name: Amazon EC2 Image Builder API Rules
+- effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Amazon EC2 Image Builder API Rules
   rule_count: 24
   severity_counts:
     error: 10
@@ -3834,15 +3840,17 @@ rules:
   slug: amazon-ec2-image-builder-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 56.4
+  delta: -6.9
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 79.9
-    developer_ergonomics: 45.7
+    access_clarity: 59.2
+    commercial_clarity: 59.2
+    contract_governance: 25.0
+    contract_quality: 76.9
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 39.5
+    governance: 25.0
+    operational_transparency: 36.8
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -3851,9 +3859,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:
 - kind: authentication

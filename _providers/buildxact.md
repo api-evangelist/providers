@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -220,7 +221,10 @@ rate_limits:
   name: Buildxact Rate Limits
   slug: buildxact-rate-limits
 rules:
-- name: Buildxact API Rules
+- effective_rule_count: 33
+  extends:
+  - spectral:asyncapi
+  name: Buildxact API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -228,7 +232,9 @@ rules:
     info: 0
     warn: 5
   slug: buildxact-asyncapi-spectral-rules
-- name: Buildxact API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Buildxact API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,7 +242,10 @@ rules:
     info: 2
     warn: 3
   slug: buildxact-jsonschema-spectral-rules
-- name: Buildxact API Rules
+- effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Buildxact API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -246,14 +255,16 @@ rules:
   slug: buildxact-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 47.8
+  delta: -5.5
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 75.8
-    developer_ergonomics: 26.1
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 11.4
+    contract_quality: 74.7
+    developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 41.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 53.3
   provenance:
@@ -263,9 +274,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/screenshots/buildxact-2026-06-20T173758.png
 security:
 - kind: authentication

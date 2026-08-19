@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-17'
+  score: 24.4
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The default API from Salad Transcription API — 2 operation(s) for default.
@@ -144,7 +145,9 @@ rate_limits:
   name: Salad Transcription Api Rate Limits
   slug: salad-transcription-api-rate-limits
 rules:
-- name: Salad Transcription API API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Salad Transcription API API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -152,7 +155,10 @@ rules:
     info: 1
     warn: 4
   slug: salad-transcription-api-jsonschema-spectral-rules
-- name: Salad Transcription API API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Salad Transcription API API Rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -161,16 +167,18 @@ rules:
     warn: 2
   slug: salad-transcription-api-rules
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 36.1
+  delta: -7.0
   facets:
+    access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_quality: 59.0
-    developer_ergonomics: 6.5
+    contract_governance: 9.8
+    contract_quality: 55.2
+    developer_ergonomics: 7.1
     discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 23.7
+    governance: 9.8
+    operational_transparency: 21.1
   previous_composite: 43.1
   provenance:
     contracts:
@@ -178,9 +186,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/screenshots/salad-transcription-api-2026-06-20T193339.png
 security:
 - kind: domain-security

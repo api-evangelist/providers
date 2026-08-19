@@ -12,14 +12,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-17'
+  score: 61.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -359,14 +360,16 @@ rate_limits:
   slug: fieldpulse-rate-limits
 score:
   band: strong
-  composite: 59.3
-  delta: 0.0
+  composite: 64.1
+  delta: 4.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 67.9
-    developer_ergonomics: 62.5
+    access_clarity: 69.7
+    commercial_clarity: 69.7
+    contract_governance: 16.7
+    contract_quality: 67.1
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 65.8
   previous_composite: 59.3
   provenance:
@@ -385,8 +388,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:

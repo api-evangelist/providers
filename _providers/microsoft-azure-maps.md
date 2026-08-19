@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-17'
+  score: 34.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,15 +204,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 48.8
+  delta: -1.3
   facets:
+    access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_quality: 51.5
-    developer_ergonomics: 52.2
-    discoverability: 88.9
+    contract_governance: 0.0
+    contract_quality: 48.3
+    developer_ergonomics: 54.8
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 44.7
+    operational_transparency: 42.1
   previous_composite: 50.1
   provenance:
     agentic_access: derived
@@ -220,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/screenshots/microsoft-azure-maps-2026-06-20T185424.png
 security:

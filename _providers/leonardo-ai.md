@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-17'
+  score: 36.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -478,7 +479,10 @@ rate_limits:
   name: Leonardo Ai Rate Limits
   slug: leonardo-ai-rate-limits
 rules:
-- name: Leonardo.AI API Rules
+- effective_rule_count: 32
+  extends:
+  - spectral:asyncapi
+  name: Leonardo.AI API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -486,7 +490,9 @@ rules:
     info: 1
     warn: 3
   slug: leonardo-ai-asyncapi-spectral-rules
-- name: Leonardo.AI API Rules
+- effective_rule_count: 6
+  extends: []
+  name: Leonardo.AI API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -494,7 +500,10 @@ rules:
     info: 2
     warn: 4
   slug: leonardo-ai-jsonschema-spectral-rules
-- name: Leonardo.AI API Rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Leonardo.AI API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -504,14 +513,16 @@ rules:
   slug: leonardo-ai-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 59.9
+  delta: -6.0
   facets:
+    access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_quality: 79.5
-    developer_ergonomics: 65.2
+    contract_governance: 13.6
+    contract_quality: 75.7
+    developer_ergonomics: 60.7
     discoverability: 59.3
-    governance: 47.9
+    governance: 13.6
     operational_transparency: 34.2
   previous_composite: 65.9
   provenance:
@@ -521,9 +532,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:
 - kind: authentication

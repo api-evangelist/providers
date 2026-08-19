@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-17'
+  score: 41.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -474,7 +475,9 @@ rate_limits:
   name: Amazon Secrets Manager Rate Limits
   slug: amazon-secrets-manager-rate-limits
 rules:
-- name: Amazon Secrets Manager API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Amazon Secrets Manager API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -482,7 +485,10 @@ rules:
     info: 1
     warn: 4
   slug: amazon-secrets-manager-jsonschema-spectral-rules
-- name: Amazon Secrets Manager API Rules
+- effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Amazon Secrets Manager API Rules
   rule_count: 23
   severity_counts:
     error: 9
@@ -492,15 +498,17 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 71.8
-  delta: 0.0
+  composite: 66.7
+  delta: -5.1
   facets:
+    access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_quality: 71.9
-    developer_ergonomics: 71.7
+    contract_governance: 41.7
+    contract_quality: 67.8
+    developer_ergonomics: 76.2
     discoverability: 94.4
-    governance: 80.2
-    operational_transparency: 39.5
+    governance: 41.7
+    operational_transparency: 36.8
   previous_composite: 71.8
   provenance:
     agentic_access: derived
@@ -511,9 +519,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:
 - kind: authentication

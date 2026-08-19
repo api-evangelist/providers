@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-17'
+  score: 32.1
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,7 +218,9 @@ overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   Cataas'' developer surface includes authentication, tooling, and 13 more developer resources.'
 random_paper: 25
 rules:
-- name: Cataas API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Cataas API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +228,10 @@ rules:
     info: 1
     warn: 4
   slug: cataas-jsonschema-spectral-rules
-- name: Cataas API Rules
+- effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Cataas API Rules
   rule_count: 40
   severity_counts:
     error: 12
@@ -235,15 +241,17 @@ rules:
   slug: cataas-spectral-rules
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 20.6
+  delta: -5.8
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 28.6
-    developer_ergonomics: 10.9
+    contract_governance: 25.0
+    contract_quality: 26.8
+    developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 5.3
+    governance: 25.0
+    operational_transparency: 2.6
   previous_composite: 26.4
   provenance:
     agentic_access: derived
@@ -252,9 +260,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/screenshots/cataas-2026-06-20T174040.png
 security:
 - kind: authentication

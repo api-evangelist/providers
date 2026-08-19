@@ -26,11 +26,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-17'
+  score: 46.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -693,7 +694,10 @@ rate_limits:
   name: Novu Rate Limits
   slug: novu-rate-limits
 rules:
-- name: Novu API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: Novu API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -701,7 +705,9 @@ rules:
     info: 1
     warn: 5
   slug: novu-asyncapi-spectral-rules
-- name: Novu API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Novu API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -709,7 +715,10 @@ rules:
     info: 2
     warn: 3
   slug: novu-jsonschema-spectral-rules
-- name: Novu API Rules
+- effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Novu API Rules
   rule_count: 48
   severity_counts:
     error: 9
@@ -719,15 +728,17 @@ rules:
   slug: novu-spectral-rules
 score:
   band: exemplar
-  composite: 66.4
-  delta: 0.0
+  composite: 67.1
+  delta: 0.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 85.1
-    developer_ergonomics: 52.2
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 28.8
+    contract_quality: 85.2
+    developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 58.3
-    operational_transparency: 68.4
+    governance: 28.8
+    operational_transparency: 57.9
   previous_composite: 66.4
   provenance:
     agentic_access: derived
@@ -742,8 +753,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:

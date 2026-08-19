@@ -22,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-17'
+  score: 40.7
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -272,14 +273,16 @@ rate_limits:
   slug: wompi-rate-limits
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 58.2
+  delta: 1.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 67.4
-    developer_ergonomics: 60.3
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 16.7
+    contract_quality: 63.5
+    developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 44.7
   previous_composite: 56.7
   provenance:
@@ -297,10 +300,11 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 62.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/screenshots/wompi-2026-08-17T082934.png
 security:
 - kind: authentication
   name: Wompi Authentication

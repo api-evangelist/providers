@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-17'
+  score: 35.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -167,7 +168,9 @@ rate_limits:
   name: Bloomberg Emsx Rate Limits
   slug: bloomberg-emsx-rate-limits
 rules:
-- name: Bloomberg EMSX API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Bloomberg EMSX API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,14 +180,16 @@ rules:
   slug: bloomberg-emsx-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 42.6
+  delta: -4.1
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 66.4
-    developer_ergonomics: 32.6
+    contract_governance: 9.8
+    contract_quality: 65.6
+    developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 58.3
+    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 46.7
   provenance:
@@ -200,8 +205,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:

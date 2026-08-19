@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +22,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-17'
+  score: 44.8
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -288,15 +288,17 @@ rate_limits:
   slug: prometeo-rate-limits
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 58.2
+  delta: -4.8
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 62.7
-    developer_ergonomics: 79.9
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 30.3
+    contract_quality: 59.2
+    developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 44.7
+    governance: 30.3
+    operational_transparency: 42.1
   previous_composite: 63.0
   provenance:
     agentic_access: derived
@@ -313,10 +315,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 40.5
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/screenshots/prometeo-2026-08-17T081352.png
 security:
 - kind: authentication
   name: Prometeo Authentication

@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-17'
+  score: 15.4
+  scored_at: '2026-08-19'
 api_count: 0
 artifact_total: 13
 common:
@@ -104,15 +105,23 @@ press:
 random_paper: 113
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.0
+  composite: 16.0
+  delta: -2.0
   facets:
+    access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_quality: 48.1
-    developer_ergonomics: 13.0
+    contract_governance: 0.0
+    contract_quality: 43.3
+    developer_ergonomics: 14.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 18.0
   regulatory:
     applies: true
@@ -120,8 +129,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png
 security:

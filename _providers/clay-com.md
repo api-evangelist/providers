@@ -15,21 +15,22 @@ agent_readiness:
   dimensions:
     agent_card: conformant
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-17'
+  score: 55.4
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -291,20 +292,27 @@ scopes:
   slug: clay-com-scopes
   summary_line: 1 scope
 score:
-  band: exemplar
-  composite: 66.5
-  delta: 38.6
+  band: strong
+  composite: 61.9
+  delta: -4.6
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 51.6
-    developer_ergonomics: 65.2
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 16.7
+    contract_quality: 45.1
+    developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 76.3
-  previous_composite: 27.9
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:
 - kind: authentication

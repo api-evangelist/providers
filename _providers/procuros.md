@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-17'
+  score: 40.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -183,15 +184,17 @@ overview: 'Procuros publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 148
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 44.9
+  delta: -1.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 60.4
-    developer_ergonomics: 58.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 16.7
+    contract_quality: 58.2
+    developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 21.1
+    governance: 16.7
+    operational_transparency: 18.4
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -203,9 +206,10 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/screenshots/procuros-2026-08-17T081343.png
 security:
 - kind: authentication
   name: Procuros Authentication

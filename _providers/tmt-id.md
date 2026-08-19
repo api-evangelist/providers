@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,14 +11,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-17'
+  score: 45.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -246,14 +246,16 @@ overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 144
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 46.8
+  delta: 3.5
   facets:
+    access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_quality: 50.6
-    developer_ergonomics: 45.1
+    contract_governance: 16.7
+    contract_quality: 48.1
+    developer_ergonomics: 47.0
     discoverability: 92.6
-    governance: 11.5
+    governance: 16.7
     operational_transparency: 10.5
   previous_composite: 43.3
   provenance:
@@ -271,10 +273,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+    score: 58.3
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/screenshots/tmt-id-2026-08-17T082402.png
 security:
 - kind: authentication
   name: Tmt Id Authentication

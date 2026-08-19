@@ -23,11 +23,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.3
-  scored_at: '2026-08-17'
+  score: 19.2
+  scored_at: '2026-08-19'
 api_count: 1
 apis:
 - description: The multi-tenant commerce backend Amboras operates at api.amboras.com. Every Amboras-built storefront calls it through the Medusa JS SDK, sending a publishable API key (x-publishable-api-key, pk_ pref
@@ -167,25 +168,30 @@ rate_limits:
   slug: amboras-rate-limits
 score:
   band: developing
-  composite: 43.4
-  delta: 21.1
+  composite: 45.7
+  delta: 2.3
   facets:
+    access_clarity: 92.1
     commercial_clarity: 92.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 37.0
+    developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 47.4
-  previous_composite: 22.3
+    governance: 18.2
+    operational_transparency: 44.7
+  previous_composite: 43.4
+  provenance:
+    conformance: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/screenshots/amboras-2026-07-25T200029.png
 security:
 - kind: authentication

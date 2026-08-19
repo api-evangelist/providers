@@ -21,14 +21,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-17'
+  score: 50.6
+  scored_at: '2026-08-19'
 api_count: 6
 apis:
 - description: Customer Due Diligence
@@ -219,15 +220,17 @@ overview: 'Diligent publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 103
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 48.6
+  delta: -3.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.8
-    developer_ergonomics: 66.8
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 16.7
+    contract_quality: 62.1
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 23.7
+    governance: 16.7
+    operational_transparency: 7.9
   previous_composite: 52.2
   provenance:
     conformance: derived
@@ -238,8 +241,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:

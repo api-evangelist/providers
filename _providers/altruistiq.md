@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 41.9
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -302,7 +303,9 @@ rate_limits:
   name: Altruistiq Rate Limits
   slug: altruistiq-rate-limits
 rules:
-- name: Altruistiq API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Altruistiq API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -310,7 +313,10 @@ rules:
     info: 2
     warn: 3
   slug: altruistiq-jsonschema-spectral-rules
-- name: Altruistiq API Rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Altruistiq API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -324,16 +330,18 @@ scopes:
   slug: altruistiq-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 47.0
+  delta: -10.3
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 71.6
-    developer_ergonomics: 30.4
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 9.8
+    contract_quality: 71.8
+    developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 15.8
+    governance: 9.8
+    operational_transparency: 2.6
   previous_composite: 57.3
   provenance:
     agentic_access: derived
@@ -347,10 +355,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 63.5
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+    score: 45.9
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:
 - kind: authentication

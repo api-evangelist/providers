@@ -17,18 +17,19 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: true
+    idempotency: na
+    mcp_server: documented
     openapi_examples: verified
     rate_limit_signal: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-17'
+  score: 43.2
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,13 +153,15 @@ overview: 'Contrast Security publishes 4 APIs on the [APIs.io](https://apis.io/)
 random_paper: 23
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 28.6
+  delta: -5.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 59.0
-    developer_ergonomics: 30.4
-    discoverability: 81.5
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 55.2
+    developer_ergonomics: 23.8
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 33.7
@@ -169,9 +172,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
 security:
 - kind: authentication

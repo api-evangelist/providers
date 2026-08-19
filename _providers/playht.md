@@ -25,11 +25,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-17'
+  score: 30.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -179,7 +180,10 @@ rate_limits:
   name: Playht Rate Limits
   slug: playht-rate-limits
 rules:
-- name: PlayHT API Rules
+- effective_rule_count: 34
+  extends:
+  - spectral:asyncapi
+  name: PlayHT API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -188,15 +192,17 @@ rules:
     warn: 5
   slug: playht-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 48.7
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  delta: -10.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.2
-    developer_ergonomics: 26.1
-    discoverability: 81.5
-    governance: 47.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 13.6
+    contract_quality: 53.1
+    developer_ergonomics: 16.7
+    discoverability: 74.1
+    governance: 13.6
     operational_transparency: 26.3
   previous_composite: 48.7
   provenance:
@@ -206,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 security:
 - kind: authentication
   name: Playht Authentication

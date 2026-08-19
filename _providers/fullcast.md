@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: documented
     openapi_examples: false
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-17'
+  score: 47.5
+  scored_at: '2026-08-19'
 api_count: 3
 apis:
 - description: The HTTP API behind the in-platform Fullcast Assistant (copilot) and the assistant-hosted Fullcast MCP Server. Covers chat sessions, message history, feedback, assistant configuration lifecycle, and a
@@ -227,21 +228,25 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.7
-  delta: 43.2
+  composite: 55.2
+  delta: -10.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 59.7
-    developer_ergonomics: 73.9
+    access_clarity: 46.1
+    commercial_clarity: 46.1
+    contract_governance: 30.3
+    contract_quality: 59.6
+    developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 22.5
+    governance: 30.3
+    operational_transparency: 42.1
+  previous_composite: 65.7
   provenance:
     conformance: first-party
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: rising
+    mcp: first-party
+    skills: derived
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/screenshots/fullcast-2026-07-25T215257.png
 security:
 - kind: authentication

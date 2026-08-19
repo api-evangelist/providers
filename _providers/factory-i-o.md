@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-17'
+  score: 33.3
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -147,7 +148,9 @@ rate_limits:
   name: Factory I O Rate Limits
   slug: factory-i-o-rate-limits
 rules:
-- name: FACTORY I/O API Rules
+- effective_rule_count: 5
+  extends: []
+  name: FACTORY I/O API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,7 +158,9 @@ rules:
     info: 2
     warn: 3
   slug: factory-i-o-jsonschema-spectral-rules
-- name: FACTORY I/O API Rules
+- effective_rule_count: 6
+  extends: []
+  name: FACTORY I/O API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -165,15 +170,17 @@ rules:
   slug: factory-i-o-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 27.3
+  delta: -7.4
   facets:
+    access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_quality: 60.2
-    developer_ergonomics: 10.9
+    contract_governance: 9.8
+    contract_quality: 56.4
+    developer_ergonomics: 9.5
     discoverability: 55.6
-    governance: 58.3
-    operational_transparency: 13.2
+    governance: 9.8
+    operational_transparency: 10.5
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -182,9 +189,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
-  trend: flat
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/screenshots/factory-i-o-2026-06-20T181011.png
 security:
 - kind: domain-security

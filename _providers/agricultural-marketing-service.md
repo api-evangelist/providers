@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-17'
+  score: 50.0
+  scored_at: '2026-08-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -248,7 +249,9 @@ rate_limits:
   name: Agricultural Marketing Service Rate Limits
   slug: agricultural-marketing-service-rate-limits
 rules:
-- name: Agricultural Marketing Service API Rules
+- effective_rule_count: 5
+  extends: []
+  name: Agricultural Marketing Service API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,7 +259,10 @@ rules:
     info: 1
     warn: 4
   slug: agricultural-marketing-service-jsonschema-spectral-rules
-- name: Agricultural Marketing Service API Rules
+- effective_rule_count: 70
+  extends:
+  - spectral:oas
+  name: Agricultural Marketing Service API Rules
   rule_count: 29
   severity_counts:
     error: 10
@@ -266,15 +272,17 @@ rules:
   slug: agricultural-marketing-service-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 34.6
+  delta: -4.4
   facets:
+    access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_quality: 30.8
-    developer_ergonomics: 26.1
+    contract_governance: 25.0
+    contract_quality: 29.1
+    developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    governance: 25.0
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -289,8 +297,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.11.0
-  scored_at: '2026-08-17'
+  schema_version: 0.12.0
+  scored_at: '2026-08-19'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:
