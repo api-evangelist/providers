@@ -161,12 +161,30 @@ def company_slugs():
     already do; this makes the listing agree with them.
     """
     skip = delisted_slugs()
-    out, dropped_delisted, dropped_nodesc = [], [], []
+    out, dropped_delisted, dropped_nodesc, dropped_nogit = [], [], [], []
     for entry in os.listdir(ALL):
         path = os.path.join(ALL, entry)
         if not os.path.isdir(path):
             continue
         if not os.path.isdir(os.path.join(path, ".git")):
+            # roadmap#54 ROOT CAUSE. This check is undocumented above and it
+            # contradicts the contract this function states: "keying on apis.yml
+            # is what build-providers.py and build-sections.py already do; this
+            # makes the listing agree with them." A non-git directory that HAS an
+            # apis.yml is scored by score.rb, gets a _providers/<slug>.md page
+            # with a correct band in its frontmatter, and is then dropped HERE —
+            # silently, because this branch had no bucket.
+            #
+            # That is how `gs1` (23.9, a named headline in the published Supply
+            # Chain report) plus Alphabet, AMD, Toyota, UnitedHealth and 20 others
+            # came to hold a live score that no band file publishes. It is NOT
+            # roadmap#47's cause: all 25 parse fine.
+            #
+            # Do not silence this by deleting the warning. Either `git init` the
+            # repo (they should be real repos anyway — see the git-state
+            # inventory) or decide deliberately that the .git requirement stays.
+            if os.path.isfile(os.path.join(path, "apis.yml")) and entry not in skip:
+                dropped_nogit.append(entry)
             continue
         if entry in skip:
             dropped_delisted.append(entry)
@@ -179,6 +197,14 @@ def company_slugs():
         print("delisted, excluded: %d (%s)" % (len(dropped_delisted), ", ".join(sorted(dropped_delisted))))
     if dropped_nodesc:
         print("no apis.yml, excluded: %d" % len(dropped_nodesc))
+    if dropped_nogit:
+        print("*" * 78)
+        print("WARNING: %d SCORED providers excluded for having no .git directory."
+              % len(dropped_nogit))
+        print("These carry an apis.yml, they are scored, and they will appear in NO")
+        print("band file — so every cohort and report reads them as unscored (roadmap#54).")
+        print("  %s" % ", ".join(sorted(dropped_nogit)))
+        print("*" * 78)
     return sorted(out, key=str.lower)
 
 
