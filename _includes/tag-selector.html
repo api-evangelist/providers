@@ -1,0 +1,316 @@
+{%- comment -%}
+  THE TAG SELECTOR — top of the right-hand feature bar, every page, every site.
+
+  Canonical source: api-evangelist/scripts/tag-selector.html. It is COPIED into
+  each site's _includes/ by scripts/build-tag-selector.py --install; edit it
+  there and the next install run overwrites you.
+
+  Where it lands. The include sits at the top of <main> in the site's
+  default.html, but its home is the right-hand feature bar — the
+  `<div class="sidebar">` a page opens inside its own row. That element is below
+  the include in source order and does not exist on every page, so the mount is
+  done on DOMContentLoaded: first `main .sidebar` wins and the widget is
+  prepended into it (the left-hand nav is `.sidebar` too, but it lives OUTSIDE
+  <main>, which is what makes this selector safe). Pages with no feature bar get
+  the horizontal variant in place, so "every page" really is every page.
+
+  Styles are self-contained on purpose. Three sites (extensions, questions,
+  newsletters) predate the shared theme and carry neither --ae-green nor
+  .widget-card, so nothing here inherits from them; the brand blue is read as
+  var(--ae-green, #3098d8) so the themed sites still win.
+
+  Data is assets/data/tags-top.json, written to all 29 sites by the same script:
+  the top 1,000 tags by API count out of 11,377 that have at least one API. The
+  cap is stated in the panel footer rather than implied.
+{%- endcomment -%}
+
+<style>
+  .ae-tagsel { --ae-tagsel-blue: var(--ae-green, #3098d8);
+               border: 1px solid #e3e7ee; border-radius: 12px; background: #fff;
+               overflow: hidden; margin-bottom: 1rem; }
+  .ae-tagsel[hidden] { display: none !important; }
+
+  .ae-tagsel-head { display: flex; align-items: center; gap: 0.45rem;
+                    padding: 0.6rem 0.85rem; font-size: 0.78rem; font-weight: 700;
+                    letter-spacing: 0.05em; text-transform: uppercase; color: #fff;
+                    background: linear-gradient(100deg, var(--ae-tagsel-blue), #6f5ce0 55%, #d2568a); }
+  .ae-tagsel-icon { width: 1em; height: 1em; flex: 0 0 auto; }
+  .ae-tagsel-head .ae-tagsel-icon { width: 1.05em; height: 1.05em; }
+  .ae-tagsel-total { margin-left: auto; font-weight: 600; letter-spacing: 0.02em;
+                     text-transform: none; opacity: 0.85; font-size: 0.72rem; }
+
+  .ae-tagsel-body { padding: 0.75rem 0.85rem 0.85rem; }
+  .ae-tagsel-kicker { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em;
+                      color: #8a94a6; margin: 0 0 0.4rem; }
+
+  /* The spotlight: one tag, big, in its own colour, replaced on a timer. */
+  .ae-tagsel-spot { display: block; width: 100%; text-align: left; text-decoration: none;
+                    border: 1px solid transparent; border-radius: 10px;
+                    padding: 0.7rem 0.85rem; transition: opacity 0.35s ease, transform 0.12s ease;
+                    background: var(--c-bg, #eef2f7); color: var(--c-fg, #34405a); }
+  .ae-tagsel-spot:hover { transform: translateY(-1px); border-color: currentColor; }
+  .ae-tagsel-spot.is-fading { opacity: 0; }
+  .ae-tagsel-spot-name { display: block; font-size: 1.05rem; font-weight: 700; line-height: 1.25; }
+  .ae-tagsel-spot-meta { display: block; margin-top: 0.2rem; font-size: 0.74rem; font-weight: 600;
+                         opacity: 0.75; font-variant-numeric: tabular-nums; }
+
+  .ae-tagsel-controls { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.6rem; }
+  .ae-tagsel-btn { flex: 1 1 auto; display: inline-flex; align-items: center; justify-content: center;
+                   gap: 0.3rem; border: 1px solid #dfe4ec; background: #f7f9fc; color: #34405a;
+                   border-radius: 8px; padding: 0.4rem 0.6rem; font-size: 0.78rem; font-weight: 600;
+                   cursor: pointer; }
+  .ae-tagsel-btn:hover { background: var(--ae-tagsel-blue); border-color: var(--ae-tagsel-blue); color: #fff; }
+  .ae-tagsel-btn .ae-tagsel-icon { width: 1.05em; height: 1.05em; }
+  .ae-tagsel-shuffle { flex: 0 0 auto; }
+  .ae-tagsel[data-open="1"] .ae-tagsel-caret { transform: rotate(180deg); }
+  .ae-tagsel-caret { transition: transform 0.15s ease; }
+
+  .ae-tagsel-panel { border-top: 1px solid #eef1f5; padding: 0.7rem 0.85rem 0.5rem; background: #fbfcfe; }
+  .ae-tagsel-panel[hidden] { display: none; }
+  .ae-tagsel-filter { width: 100%; border: 1px solid #dfe4ec; border-radius: 8px;
+                      padding: 0.4rem 0.6rem; font-size: 0.82rem; background: #fff; color: inherit; }
+  .ae-tagsel-filter:focus { outline: 2px solid var(--ae-tagsel-blue); outline-offset: -1px; }
+  .ae-tagsel-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem;
+                     max-height: 20rem; overflow-y: auto; overscroll-behavior: contain;
+                     scrollbar-width: thin; scrollbar-color: #cdd6e4 transparent; }
+  .ae-tagsel-chips::-webkit-scrollbar { width: 9px; }
+  .ae-tagsel-chips::-webkit-scrollbar-thumb { background: #cdd6e4; border-radius: 999px; border: 3px solid #fbfcfe; }
+  .ae-tagsel-chip { display: inline-flex; align-items: baseline; gap: 0.3rem;
+                    padding: 0.22rem 0.55rem; border-radius: 999px; text-decoration: none;
+                    font-size: 0.78rem; font-weight: 600; line-height: 1.5;
+                    background: var(--c-bg); color: var(--c-fg); }
+  .ae-tagsel-chip:hover { box-shadow: inset 0 0 0 1.5px currentColor; color: var(--c-fg); }
+  .ae-tagsel-chip[hidden] { display: none; }
+  .ae-tagsel-chip-n { font-size: 0.68rem; font-weight: 700; opacity: 0.65; font-variant-numeric: tabular-nums; }
+  .ae-tagsel-foot { font-size: 0.7rem; color: #8a94a6; margin: 0.55rem 0 0; padding-bottom: 0.25rem; }
+  .ae-tagsel-foot a { color: var(--ae-tagsel-blue); font-weight: 600; text-decoration: none; }
+  .ae-tagsel-empty { font-size: 0.8rem; color: #8a94a6; padding: 0.5rem 0; }
+
+  /* No feature bar on this page — same widget, laid out along the top instead. */
+  .ae-tagsel--bar { max-width: 100%; }
+  .ae-tagsel--bar .ae-tagsel-body { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; }
+  .ae-tagsel--bar .ae-tagsel-kicker { margin: 0; flex: 0 0 auto; }
+  .ae-tagsel--bar .ae-tagsel-spot { flex: 1 1 16rem; width: auto; }
+  .ae-tagsel--bar .ae-tagsel-controls { margin-top: 0; flex: 0 0 auto; }
+  .ae-tagsel--bar .ae-tagsel-chips { max-height: 13rem; }
+
+  [data-bs-theme="dark"] .ae-tagsel { background: #1b1f27; border-color: #2c3340; }
+  [data-bs-theme="dark"] .ae-tagsel-panel { background: #171b22; border-top-color: #2c3340; }
+  [data-bs-theme="dark"] .ae-tagsel-btn { background: #232833; border-color: #333b49; color: #cbd3e1; }
+  [data-bs-theme="dark"] .ae-tagsel-filter { background: #232833; border-color: #333b49; }
+  [data-bs-theme="dark"] .ae-tagsel-chip,
+  [data-bs-theme="dark"] .ae-tagsel-spot {
+    background: color-mix(in srgb, var(--c-bg) 20%, #12151c);
+    color: color-mix(in srgb, var(--c-fg) 30%, #ffffff);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ae-tagsel-spot, .ae-tagsel-caret { transition: none; }
+    .ae-tagsel-spot:hover { transform: none; }
+  }
+</style>
+
+<div class="ae-tagsel" id="ae-tagsel" hidden>
+  <div class="ae-tagsel-head">
+    <svg class="ae-tagsel-icon" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" aria-hidden="true" focusable="false"><path d="M11.6 2.6 2.6 11.6a2 2 0 0 0 0 2.8l7 7a2 2 0 0 0 2.8 0l9-9a2 2 0 0 0 .6-1.4V4a2 2 0 0 0-2-2h-7a2 2 0 0 0-1.4.6ZM17 8a1.6 1.6 0 1 1 0-3.2A1.6 1.6 0 0 1 17 8Z"/></svg>
+    <span>Explore by tag</span>
+    <span class="ae-tagsel-total" id="ae-tagsel-total"></span>
+  </div>
+  <div class="ae-tagsel-body">
+    <p class="ae-tagsel-kicker">In the spotlight</p>
+    <a class="ae-tagsel-spot" id="ae-tagsel-spot" href="#" aria-live="polite">
+      <span class="ae-tagsel-spot-name" id="ae-tagsel-spot-name">&nbsp;</span>
+      <span class="ae-tagsel-spot-meta" id="ae-tagsel-spot-meta">&nbsp;</span>
+    </a>
+    <div class="ae-tagsel-controls">
+      <button type="button" class="ae-tagsel-btn" id="ae-tagsel-toggle"
+              aria-expanded="false" aria-controls="ae-tagsel-panel">
+        <span id="ae-tagsel-toggle-label">Browse all top tags</span>
+        <svg class="ae-tagsel-icon ae-tagsel-caret" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 15.4 5.6 9l1.4-1.4 5 5 5-5L18.4 9Z"/></svg>
+      </button>
+      <button type="button" class="ae-tagsel-btn ae-tagsel-shuffle" id="ae-tagsel-shuffle"
+              title="Show me another tag" aria-label="Show me another tag">
+        <svg class="ae-tagsel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="3.5"/><circle cx="8.4" cy="8.4" r="1.35" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.35" fill="currentColor" stroke="none"/><circle cx="15.6" cy="15.6" r="1.35" fill="currentColor" stroke="none"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="ae-tagsel-panel" id="ae-tagsel-panel" hidden>
+    <input type="search" class="ae-tagsel-filter" id="ae-tagsel-filter"
+           placeholder="Filter tags…" aria-label="Filter tags" autocomplete="off">
+    <div class="ae-tagsel-chips" id="ae-tagsel-chips"></div>
+    <p class="ae-tagsel-empty" id="ae-tagsel-empty" hidden>No tag matches that.</p>
+    <p class="ae-tagsel-foot" id="ae-tagsel-foot"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('ae-tagsel');
+  if (!root || root.dataset.mounted) return;
+  root.dataset.mounted = '1';
+
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) {
+    return (s || '').replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  };
+  var num = function (n) { return (n || 0).toLocaleString('en-US'); };
+
+  /* A fixed palette rather than a hashed hue — hashing a hue lands on muddy
+     olives and greys about a third of the time. The hash only chooses WHICH
+     pair, so a tag is always the same colour on every page. */
+  var PALETTE = [
+    ['#e3f2fd', '#0b4a7d'], ['#d1f7e0', '#0f5132'], ['#fff3cd', '#664d03'],
+    ['#ffe0e6', '#86214a'], ['#ede2fb', '#4b2a86'], ['#d7f4f7', '#0d5a63'],
+    ['#ffe6cc', '#7a3e07'], ['#e6f0d4', '#3f5a12'], ['#fde2e2', '#842029'],
+    ['#dfe4fb', '#2c3a8c'], ['#f7e6d0', '#6b4a1e'], ['#e2f0e6', '#1e5a34']
+  ];
+  function paint(slug) {
+    var h = 0;
+    for (var i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) >>> 0;
+    return PALETTE[h % PALETTE.length];
+  }
+  function styleFor(slug) {
+    var p = paint(slug);
+    return '--c-bg:' + p[0] + ';--c-fg:' + p[1];
+  }
+
+  /* Tags that exist as a vocabulary word go to the word page, which carries the
+     definition AND the banded provider/API lists. The rest go to apis.io. */
+  function hrefFor(t) {
+    return t[5]
+      ? 'https://vocabularies.apievangelist.com/details/?vocabularyId=' + encodeURIComponent(t[5])
+      : 'https://apis.io/tags/' + encodeURIComponent(t[1]) + '/';
+  }
+
+  var SPOT_POOL = 300;          // rotate among the busiest tags, not the tail
+  var ROTATE_MS = 5000;
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var DATA = null, timer = null, chipsBuilt = false, lastSpot = -1;
+
+  function showSpot(i) {
+    var t = DATA.tags[i];
+    var el = $('ae-tagsel-spot');
+    el.href = hrefFor(t);
+    el.setAttribute('style', styleFor(t[1]));
+    $('ae-tagsel-spot-name').textContent = t[0];
+    $('ae-tagsel-spot-meta').textContent = num(t[2]) + ' API' + (t[2] === 1 ? '' : 's')
+                                         + ' · ' + num(t[3]) + ' provider' + (t[3] === 1 ? '' : 's');
+    lastSpot = i;
+  }
+
+  function pick() {
+    var pool = Math.min(SPOT_POOL, DATA.tags.length);
+    var i = lastSpot;
+    while (i === lastSpot && pool > 1) i = Math.floor(Math.random() * pool);
+    return i < 0 ? 0 : i;
+  }
+
+  function rotate(instant) {
+    var el = $('ae-tagsel-spot');
+    if (instant || reduced) { showSpot(pick()); return; }
+    el.classList.add('is-fading');
+    setTimeout(function () { showSpot(pick()); el.classList.remove('is-fading'); }, 350);
+  }
+
+  function startTimer() {
+    if (timer || reduced) return;
+    timer = setInterval(function () {
+      if (document.hidden || root.dataset.open === '1' || root.dataset.hover === '1') return;
+      rotate();
+    }, ROTATE_MS);
+  }
+
+  function buildChips() {
+    if (chipsBuilt) return;
+    chipsBuilt = true;
+    var html = '';
+    for (var i = 0; i < DATA.tags.length; i++) {
+      var t = DATA.tags[i];
+      html += '<a class="ae-tagsel-chip" style="' + styleFor(t[1]) + '"'
+            + ' href="' + hrefFor(t) + '" data-q="' + esc(t[0].toLowerCase()) + '">'
+            + esc(t[0]) + '<span class="ae-tagsel-chip-n">' + num(t[2]) + '</span></a>';
+    }
+    $('ae-tagsel-chips').innerHTML = html;
+  }
+
+  function filter(q) {
+    q = (q || '').trim().toLowerCase();
+    var chips = $('ae-tagsel-chips').children, shown = 0;
+    for (var i = 0; i < chips.length; i++) {
+      var hit = !q || chips[i].getAttribute('data-q').indexOf(q) >= 0;
+      chips[i].hidden = !hit;
+      if (hit) shown++;
+    }
+    $('ae-tagsel-empty').hidden = shown > 0;
+  }
+
+  function wire() {
+    root.addEventListener('mouseenter', function () { root.dataset.hover = '1'; });
+    root.addEventListener('mouseleave', function () { root.dataset.hover = '0'; });
+    root.addEventListener('focusin', function () { root.dataset.hover = '1'; });
+    root.addEventListener('focusout', function () { root.dataset.hover = '0'; });
+
+    $('ae-tagsel-shuffle').addEventListener('click', function () { rotate(true); });
+
+    $('ae-tagsel-toggle').addEventListener('click', function () {
+      var open = root.dataset.open === '1';
+      if (open) {
+        root.dataset.open = '0';
+        $('ae-tagsel-panel').hidden = true;
+        this.setAttribute('aria-expanded', 'false');
+        $('ae-tagsel-toggle-label').textContent = 'Browse all top tags';
+      } else {
+        buildChips();
+        root.dataset.open = '1';
+        $('ae-tagsel-panel').hidden = false;
+        this.setAttribute('aria-expanded', 'true');
+        $('ae-tagsel-toggle-label').textContent = 'Hide tags';
+        $('ae-tagsel-filter').focus();
+      }
+    });
+
+    $('ae-tagsel-filter').addEventListener('input', function () { filter(this.value); });
+    $('ae-tagsel-filter').addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { this.value = ''; filter(''); $('ae-tagsel-toggle').click(); }
+    });
+  }
+
+  /* The feature bar is BELOW this include in source order and is absent on some
+     pages, so the move waits for the document and falls back in place. */
+  function mount() {
+    var main = document.querySelector('main');
+    var rail = main && main.querySelector('.sidebar');
+    if (rail) { rail.insertBefore(root, rail.firstChild); }
+    else { root.classList.add('ae-tagsel--bar'); }
+  }
+
+  var booted = false;
+  function boot() {
+    if (booted) return;        // one DOMContentLoaded is enough
+    booted = true;
+    mount();
+    fetch('/assets/data/tags-top.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.tags || !d.tags.length) return;   // widget stays hidden
+        DATA = d;
+        $('ae-tagsel-total').textContent = num(d.shown) + ' tags';
+        $('ae-tagsel-foot').innerHTML =
+          'Top ' + num(d.shown) + ' of ' + num(d.tags_with_apis)
+          + ' tags with at least one API, ranked by API count (floor: ' + num(d.floor)
+          + '). <a href="https://apis.io/tags/">All ' + num(d.total_tags) + ' tags &rarr;</a>';
+        root.hidden = false;
+        showSpot(pick());
+        wire();
+        startTimer();
+      })
+      .catch(function () { /* a missing payload leaves the page exactly as it was */ });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+  else boot();
+})();
+</script>
