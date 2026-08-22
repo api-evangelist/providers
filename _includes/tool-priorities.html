@@ -1,10 +1,10 @@
 {%- comment -%}
-  THE BUY SIDE of a market report. Its sibling, tool-opportunities.html, is the
+  THE BUY SIDE of a market. Its sibling, tool-opportunities.html, is the
   sell side: a vendor finds what to ship. This one is for the buyer — weight what
   your team is optimizing for and the shortlist re-sorts underneath you.
 
   READS THE LISTING, NOT A SNAPSHOT. The first version of this tool embedded two
-  CSVs copied out of the report's data bundle. It was correct on the day it shipped
+  CSVs copied out of a static data bundle. It was correct on the day it shipped
   and silently wrong after the next rescore, disagreeing with the ranked listing
   directly beneath it. It now renders from site.data via tool-cohort-json.html —
   the same file the listing renders from — so the two cannot diverge.
@@ -15,9 +15,9 @@
   phrasing of each facet, and the flag marking which facets are substantially
   API Evangelist's own catalog work rather than the vendor's.
 
-  Requires: page.data_key, page.cohort, page.report_title, page.report_url
+  Requires: page.data_key, page.cohort, page.section_url
 {%- endcomment -%}
-<title>Pick Your Priorities — {{ page.report_title }}</title>
+<title>Pick Your Priorities — {{ page.cohort }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -155,7 +155,7 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 </style>
 
 <div class="wrap">
-  <div class="eyebrow">{{ page.report_title }} &nbsp;·&nbsp; For buyers</div>
+  <div class="eyebrow">{{ page.cohort }} &nbsp;·&nbsp; For buyers</div>
   <h1>Pick your priorities</h1>
   <p class="lede"><span id="lede-n"></span>, scored on one public rubric. There is no single
   best one — there is a best one for <em>what you are optimizing for</em>. Weight what matters to your
@@ -204,7 +204,6 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
   <div class="sig">
     <span id="prov"></span>
     <span><a href="{{ page.section_url | default: '/' }}">‹ Back to the listing</a>
-      &nbsp;·&nbsp; <a href="{{ page.report_url }}" target="_blank" rel="noopener">Read the full report ›</a>
       &nbsp;·&nbsp; <b>API Evangelist</b></span>
   </div>
 </div>
@@ -431,10 +430,10 @@ $('copy').addEventListener('click', async () => {
     ``,
     ...top.map((p, i) => `${i + 1}. ${p.name} — ${p.w.toFixed(1)} weighted, #${p.rank} of ${N} overall`),
     ``,
-    `Source: ${C.report}, API Evangelist.${AS_OF ? ` Scored ${AS_OF},` : ''} ${n_(N)} providers` +
+    `Source: ${C.cohort}, API Evangelist.${AS_OF ? ` Scored ${AS_OF},` : ''} ${n_(N)} providers` +
       (TRUNC ? ` (the top ${n_(N)} of ${n_(C.total)} ranked in this market),` : `,`),
     `one public rubric.`,
-    C.report_url,
+    location.origin + C.section_url,
   ].join('\n');
   try {
     await navigator.clipboard.writeText(txt);

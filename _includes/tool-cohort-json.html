@@ -1,27 +1,25 @@
 {%- comment -%}
   THE COHORT PAYLOAD, emitted once and read by both market tools.
 
-  Both sides of a market report — priorities.html for buyers, opportunities.html
-  for providers — render from THIS, which is the same site.data the ranked listing
-  on the section page renders from. That is deliberate and it is the whole reason
+  Both sides of a market — priorities.html for buyers, opportunities.html for
+  providers — render from THIS, which is the same site.data the ranked listing on
+  the section page renders from. That is deliberate and it is the whole reason
   this include exists: the first version of the buyer tool pasted two CSVs out of
-  the report's data bundle, so it froze on the day the report shipped and drifted
-  from the listing directly beneath it on every rescore. A tool that tells a buyer
-  who to call, or a vendor what to fix, has to agree with the page it sits on.
+  a static bundle, so it froze on the day it shipped and drifted from the listing
+  directly beneath it on every rescore. A tool that tells a buyer who to call, or
+  a vendor what to fix, has to agree with the page it sits on.
 
   `total` and `shown` are carried through because the large industry listings are
   TRUNCATED at 1,000. On those pages every share, average and "who holds it" count
   describes the top 1,000 of a larger market, and both tools say so on the page
   rather than presenting a truncated cohort as the whole thing.
 
-  Requires: page.data_key, page.cohort, page.report_title, page.report_url
+  Requires: page.data_key, page.cohort, page.section_url
 {%- endcomment -%}
 {%- assign listing = site.data[page.data_key] -%}
 <script id="cohort-json" type="application/json">
 {
   "cohort": {{ page.cohort | jsonify }},
-  "report": {{ page.report_title | jsonify }},
-  "report_url": {{ page.report_url | jsonify }},
   "section_url": {{ page.section_url | default: '/' | jsonify }},
   "total": {{ listing.total | default: 0 | jsonify }},
   "shown": {{ listing.shown | default: 0 | jsonify }},

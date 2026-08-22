@@ -50,7 +50,6 @@ ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 APISIO = os.path.join(ROOT, "api-search", "providers", "_providers")
 PAPERS = os.path.join(ROOT, "api-evangelist", "papers", "_papers")
-REPORTS_DIR = os.path.join(ROOT, "api-evangelist", "reports", "_reports")
 OUT = os.path.join(SITE, "_providers")
 DATA = os.path.join(SITE, "_data")
 DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
@@ -147,15 +146,15 @@ def read_frontmatter(path):
 def load_papers():
     """The catalogue behind the random-paper sidebar feature.
 
-    Reads BOTH storefronts. Papers and reports split on 2026-08-16 onto separate
-    repos and domains, and a promo card that builds its own href from a slug will
-    send 99 of these to the wrong host — so each entry carries an absolute `url`
-    and `cover`, and the template links what it is given rather than guessing.
+    Papers only. The reports line was retired on 2026-08-21 and
+    reports.apievangelist.com was taken down, so a report entry here would
+    put a dead host in the sidebar of every provider page. Entries still
+    carry an absolute `url` and `cover`, and the template links what it is
+    given rather than guessing.
     """
     out = []
     for base, src, kind in (
         ("https://papers.apievangelist.com/papers", PAPERS, "paper"),
-        ("https://reports.apievangelist.com/reports", REPORTS_DIR, "report"),
     ):
         if not src or not os.path.isdir(src):
             continue
@@ -179,11 +178,8 @@ def load_papers():
                 "price": str(fm.get("price", "")).replace(".00", ""),
                 "cover": cover,
             })
-    # During the phased split a slug can appear in both storefronts — papers has
-    # not been trimmed yet and reports already holds the copy. The report is the
-    # live one, so it wins; after papers is trimmed this is a no-op.
     seen, deduped = set(), []
-    for e in sorted(out, key=lambda e: 0 if e["kind"] == "report" else 1):
+    for e in out:
         if e["slug"] in seen:
             continue
         seen.add(e["slug"])
@@ -279,17 +275,13 @@ def dump(slug, data, papers_len, paper_index=None):
     data["nav"] = "Providers"
     data["network"] = True
     # Deterministic per-provider paper pick — varies by slug, stable across runs.
-    # EXCEPT: when this provider has its own Enterprise Insights Bundle, feature that
-    # instead of a random one. An account intelligence report about the company whose
-    # page you are reading beats a rotating pick, and pinning it by slug convention
-    # means every future insights-<slug> bundle wires itself up with no extra work.
+    # There used to be an exception here: a provider with its own Profile Report
+    # (insights-<slug>) featured that instead of a rotating pick. The reports line
+    # was retired on 2026-08-21, so there is nothing per-provider left to pin and
+    # every page gets the rotating pick.
     if papers_len:
-        own = (paper_index or {}).get("insights-%s" % slug)
-        if own is not None:
-            data["random_paper"] = own
-            data["paper_is_own"] = True
-        else:
-            data["random_paper"] = sum(ord(c) for c in slug) % papers_len
+        data["random_paper"] = sum(ord(c) for c in slug) % papers_len
+        data.pop("paper_is_own", None)
     phrases, total = artifact_summary(data)
     data["artifact_total"] = total
     cov = read_coverage(slug)

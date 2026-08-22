@@ -10,7 +10,7 @@
 {%- assign idx = page.random_paper | default: 0 -%}
 {%- assign paper = papers[idx] | default: papers[0] -%}
 <aside class="prov-paper">
-  <div class="prov-paper-eyebrow">{% if page.paper_is_own %}Account intelligence on {{ page.name }}{% else %}From the API Evangelist bookshelf{% endif %}</div>
+  <div class="prov-paper-eyebrow">From the API Evangelist bookshelf</div>
   <a class="prov-paper-card" href="{{ paper.url }}" target="_blank" rel="noopener">
     <div class="prov-paper-cover">
       <img src="{{ paper.cover }}" alt="{{ paper.title }} cover" loading="lazy" onerror="this.closest('.prov-paper-cover').style.display='none'">
@@ -19,9 +19,9 @@
       <div class="prov-paper-area">{{ paper.area }}</div>
       <div class="prov-paper-title">{{ paper.title }}</div>
       {%- if paper.tagline %}<p class="prov-paper-tagline">{{ paper.tagline | truncate: 150 }}</p>{% endif %}
-      <span class="prov-paper-cta">{% if page.paper_is_own %}See the report &rarr;{% else %}Read the paper &rarr;{% endif %}{% if paper.price and paper.price != "" %} <span class="prov-paper-price">${{ paper.price }}</span>{% endif %}</span>
+      <span class="prov-paper-cta">Read the paper &rarr;{% if paper.price and paper.price != "" %} <span class="prov-paper-price">${{ paper.price }}</span>{% endif %}</span>
     </div>
   </a>
-  <a class="prov-paper-all" href="{% if paper.kind == 'report' %}https://reports.apievangelist.com/{% else %}https://papers.apievangelist.com/{% endif %}" target="_blank" rel="noopener">Browse all {{ papers.size }} &rarr;</a>
+  <a class="prov-paper-all" href="https://papers.apievangelist.com/" target="_blank" rel="noopener">Browse all {{ papers.size }} &rarr;</a>
 </aside>
 {%- endif -%}

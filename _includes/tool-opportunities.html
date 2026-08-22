@@ -1,5 +1,5 @@
 {%- comment -%}
-  THE SELL SIDE of a market report. Its sibling, tool-priorities.html, is the buy
+  THE SELL SIDE of a market. Its sibling, tool-priorities.html, is the buy
   side: a buyer weights what matters and the shortlist re-sorts. This one is for
   the vendors ON that shortlist, and for the ones who want to be.
 
@@ -21,15 +21,15 @@
   every "who holds it" count then describes the top 1,000 of a larger market, and
   the page says so rather than presenting it as the whole thing.
 
-  Requires: page.data_key, page.cohort, page.report_title, page.report_url
+  Requires: page.data_key, page.cohort, page.section_url
 {%- endcomment -%}
-<title>Find Your Opening — {{ page.report_title }}</title>
+<title>Find Your Opening — {{ page.cohort }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-/* Same tokens as priorities.html so the two sides of this report look like one
+/* Same tokens as priorities.html so the two sides of this market look like one
    product. Tokens lifted from providers/_includes/head.html so this does not drift. */
 :root{
   --brand:#3098d8; --brand-dark:#2680c2; --brand-soft:#e3f1fb; --brand-ink:#1c5f90;
@@ -228,7 +228,7 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 </style>
 
 <div class="wrap">
-  <div class="eyebrow">{{ page.report_title }} &nbsp;·&nbsp; For providers</div>
+  <div class="eyebrow">{{ page.cohort }} &nbsp;·&nbsp; For providers</div>
   <h1>Find your opening</h1>
   <p class="lede">Your buyers are next door weighting this same rubric against you. Here is the
   other side of it: every check in the model, what share of <span id="n-cohort"></span>
@@ -303,12 +303,6 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
             <span>The per-provider checklist itemizes every check you are failing, what each is
             worth, and the order to do them in.</span>
             <a class="btn ghost" id="checklist" href="#">Ask for the checklist ›</a>
-          </div>
-          <div class="card">
-            <b>You want the market</b>
-            <span>The full report scores this market across every facet, with the cohort
-            tables and the standing of everyone you compete with.</span>
-            <a class="btn ghost" href="{{ page.report_url }}" target="_blank" rel="noopener">Read the report ›</a>
           </div>
         </div>
       </div>
@@ -747,7 +741,7 @@ function planText() {
            (held > 0 ? ` (you hold partial credit: ${me.dims[d.id]})` : '');
   };
   return [
-    `${listed() ? me.name : 'Not yet listed'} — ${C.report}`,
+    `${listed() ? me.name : 'Not yet listed'} — ${C.cohort}`,
     listed()
       ? `Kin Score ${me.score} (${me.band_label}, #${rankBy(me.score, 'score')} of ${N}) · ` +
         `Agent Readiness ${me.agent_score} (${(me.agent_band || '').replace(/-/g, ' ')})`
@@ -763,7 +757,7 @@ function planText() {
         `(${UNCLAIMED_N} checks).`,
     ``,
     `Rubric ${R.version}${AS_OF ? `, scored ${AS_OF}` : ''}. ${N} providers, one public rubric.`,
-    C.report_url,
+    location.origin + C.section_url,
   ].join('\n');
 }
 

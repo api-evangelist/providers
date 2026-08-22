@@ -7,11 +7,7 @@
 
     - name: Products
       symbol: storefront
-      href: https://reports.apievangelist.com/products/
-
-    - name: Queue
-      symbol: schedule
-      href: https://reports.apievangelist.com/queue/
+      href: https://papers.apievangelist.com/products/
 
     - name: MCP Server
       symbol: hub
@@ -44,10 +40,6 @@
     - name: Conversations
       symbol: forum
       href: https://conversations.apievangelist.com
-
-    - name: Reports
-      symbol: lab_profile
-      href: https://reports.apievangelist.com
 
     - name: Papers
       symbol: description

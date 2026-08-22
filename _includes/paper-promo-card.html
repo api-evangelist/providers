@@ -13,24 +13,24 @@
 {%- endcomment -%}
 {%- assign p_url = include.p.url -%}
 {%- unless p_url -%}
-  {%- assign p_url = "https://reports.apievangelist.com/reports/" | append: include.p.slug | append: "/" -%}
+  {%- assign p_url = "https://papers.apievangelist.com/papers/" | append: include.p.slug | append: "/" -%}
 {%- endunless -%}
 {%- assign p_cover = include.p.cover -%}
 {%- unless p_cover -%}
-  {%- assign p_cover = "https://reports.apievangelist.com/assets/covers/" | append: include.p.slug | append: ".png" -%}
+  {%- assign p_cover = "https://papers.apievangelist.com/assets/covers/" | append: include.p.slug | append: ".png" -%}
 {%- endunless -%}
 <a class="paper-promo" href="{{ p_url }}" style="text-decoration:none;">
   <div class="paper-promo-cover">
     <img src="{{ p_cover }}" alt="{{ include.p.title }} cover" loading="lazy">
   </div>
   <div class="paper-promo-body">
-    <div class="paper-promo-eyebrow">{{ include.p.kind | default: "API Evangelist Trend Report" }}</div>
+    <div class="paper-promo-eyebrow">{{ include.p.kind | default: "API Evangelist Paper" }}</div>
     <div class="paper-promo-title">{{ include.p.title }}</div>
     <div class="paper-promo-blurb">{{ include.p.blurb }}</div>
     <span class="paper-promo-cta">
-      <span class="btn btn-success btn-sm">Read the report &rarr;</span>
-      <span class="paper-promo-price ms-1">${{ include.p.price | default: "500" }}</span>
-      <span class="text-muted small">· {{ include.p.gets | default: "PDF + Word + AI data bundle, instant download" }}</span>
+      <span class="btn btn-success btn-sm">Read the paper &rarr;</span>
+      <span class="paper-promo-price ms-1">${{ include.p.price | default: "25" }}</span>
+      <span class="text-muted small">· {{ include.p.gets | default: "PDF + Word, instant download" }}</span>
     </span>
   </div>
 </a>
