@@ -84,7 +84,7 @@ overview: 'Regrello is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Regrello''s developer surface includes support and 9 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: emerging
   composite: 14.7

@@ -174,7 +174,7 @@ plans:
 - name: Delos Plans Pricing
   plan_count: 0
   slug: delos-plans-pricing
-random_paper: 88
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Delos Rate Limits

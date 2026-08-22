@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Despite a strong quarter for its Powder River Basin ...
   url: https://www.facebook.com/cowboystatedaily/posts/despite-a-strong-quarter-for-its-powder-river-basin-operations-arch-resources-in/500718778737496/
-random_paper: 129
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Arch Coal Rate Limits

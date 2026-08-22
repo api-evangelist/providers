@@ -85,7 +85,7 @@ overview: 'Valthos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Valthos'' developer surface includes engineering blog, product news, and 6 more developer resources.'
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 4.5

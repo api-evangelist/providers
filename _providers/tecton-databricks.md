@@ -153,7 +153,7 @@ overview: 'Tecton (Databricks) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Tecton (Databricks)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 18 more developer resources.'
-random_paper: 107
+random_paper: 3
 score:
   band: thin
   composite: 33.8

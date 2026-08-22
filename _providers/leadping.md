@@ -320,7 +320,7 @@ plans:
 - name: Leadping Plans Pricing
   plan_count: 2
   slug: leadping-plans-pricing
-random_paper: 91
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Leadping Rate Limits

@@ -109,7 +109,7 @@ plans:
 - name: Apache Sqoop Plans Pricing
   plan_count: 3
   slug: apache-sqoop-plans-pricing
-random_paper: 25
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Apache Sqoop Rate Limits

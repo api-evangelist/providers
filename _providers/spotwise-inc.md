@@ -167,7 +167,7 @@ plans:
 - name: Spotwise Inc Plans Pricing
   plan_count: 0
   slug: spotwise-inc-plans-pricing
-random_paper: 61
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Spotwise Inc Rate Limits

@@ -195,7 +195,7 @@ plans:
 - name: Lengow Plans Pricing
   plan_count: 3
   slug: lengow-plans-pricing
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Lengow Rate Limits

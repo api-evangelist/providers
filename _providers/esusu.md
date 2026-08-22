@@ -96,7 +96,7 @@ overview: 'Esusu is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Esusu''s developer surface includes developer portal, support, engineering blog, and 10 more developer resources.'
-random_paper: 118
+random_paper: 19
 score:
   band: emerging
   composite: 19.7

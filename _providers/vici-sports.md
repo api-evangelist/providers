@@ -49,7 +49,7 @@ name: VICI Sports
 nav: Providers
 network: true
 overview: VICI Sports is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Fan Engagement, Sports Technology, and Marketing.
-random_paper: 112
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

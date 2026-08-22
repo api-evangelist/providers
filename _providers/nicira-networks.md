@@ -53,7 +53,7 @@ name: Nicira Networks
 nav: Providers
 network: true
 overview: Nicira Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Networking, Software Defined Networking, and Network Virtualization.
-random_paper: 78
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

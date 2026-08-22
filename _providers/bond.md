@@ -194,7 +194,7 @@ overview: 'Bond publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 121
+random_paper: 20
 score:
   band: developing
   composite: 50.0

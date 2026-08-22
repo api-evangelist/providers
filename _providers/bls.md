@@ -174,7 +174,7 @@ plans:
 - name: Bls Plans Pricing
   plan_count: 2
   slug: bls-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Bls Rate Limits

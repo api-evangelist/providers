@@ -57,7 +57,7 @@ name: CitySDK
 nav: Providers
 network: true
 overview: CitySDK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

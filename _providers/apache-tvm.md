@@ -136,7 +136,7 @@ plans:
 - name: Apache Tvm Plans Pricing
   plan_count: 3
   slug: apache-tvm-plans-pricing
-random_paper: 104
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apache Tvm Rate Limits

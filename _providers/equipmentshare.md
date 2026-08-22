@@ -129,7 +129,7 @@ overview: 'EquipmentShare publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   EquipmentShare''s developer surface includes documentation, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 25
+random_paper: 3
 scopes:
 - name: Equipmentshare Scopes
   scope_count: 2

@@ -68,7 +68,7 @@ overview: 'Boson Motors is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Boson Motors'' developer surface includes support and 5 more developer resources.'
-random_paper: 74
+random_paper: 6
 score:
   band: minimal
   composite: 5.3

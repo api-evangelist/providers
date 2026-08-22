@@ -66,7 +66,7 @@ name: AllStripes
 nav: Providers
 network: true
 overview: AllStripes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Rare Disease, Real-World Data, and Real-World Evidence.
-random_paper: 48
+random_paper: 20
 score:
   band: minimal
   composite: 2.9

@@ -40,7 +40,7 @@ name: SeeCommerce
 nav: Providers
 network: true
 overview: SeeCommerce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Software, Analytics, and E-commerce.
-random_paper: 117
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -273,7 +273,7 @@ plans:
 - name: Google Admob Plans Pricing
   plan_count: 0
   slug: google-admob-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Google Admob Rate Limits

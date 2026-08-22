@@ -88,7 +88,7 @@ overview: 'One Model is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   One Model''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 19.9

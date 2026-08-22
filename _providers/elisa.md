@@ -73,7 +73,7 @@ plans:
 - name: Elisa Plans Pricing
   plan_count: 3
   slug: elisa-plans-pricing
-random_paper: 79
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Elisa Rate Limits

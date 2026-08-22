@@ -96,7 +96,7 @@ overview: 'DNN Software is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   DNN Software''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 48
+random_paper: 1
 score:
   band: emerging
   composite: 11.1

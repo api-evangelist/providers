@@ -53,7 +53,7 @@ name: Brain Jar Games
 nav: Providers
 network: true
 overview: Brain Jar Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Gaming, Game Studio, and Entertainment.
-random_paper: 115
+random_paper: 7
 score:
   band: minimal
   composite: 7.1

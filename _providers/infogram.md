@@ -153,7 +153,7 @@ overview: 'Infogram publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Infogram''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: thin
   composite: 29.4

@@ -68,7 +68,7 @@ overview: 'Groundspeed is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Groundspeed''s developer surface includes support and 5 more developer resources.'
-random_paper: 141
+random_paper: 8
 score:
   band: minimal
   composite: 9.3

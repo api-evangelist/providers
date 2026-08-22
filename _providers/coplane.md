@@ -77,7 +77,7 @@ overview: 'CoPlane is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CoPlane''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: minimal
   composite: 10.2

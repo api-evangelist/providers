@@ -64,7 +64,7 @@ overview: 'Federal Mediation and Conciliation Service is profiled on the [APIs.i
 
 
   Federal Mediation and Conciliation Service''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: minimal
   composite: 3.7

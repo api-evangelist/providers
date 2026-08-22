@@ -113,7 +113,7 @@ overview: 'Chef Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Chef Robotics'' developer surface includes engineering blog, GitHub presence, support, and 14 more developer resources.'
-random_paper: 128
+random_paper: 18
 score:
   band: minimal
   composite: 7.1

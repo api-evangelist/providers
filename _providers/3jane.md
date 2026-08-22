@@ -112,7 +112,7 @@ overview: '3Jane is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   3Jane''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, FAQ, and 10 more developer resources.'
-random_paper: 18
+random_paper: 3
 score:
   band: emerging
   composite: 20.1

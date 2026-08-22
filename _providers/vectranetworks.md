@@ -260,7 +260,7 @@ overview: 'Vectra AI publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Vectra AI''s developer surface includes authentication, engineering blog, support, pricing, documentation, changelog, and 20 more developer resources.'
-random_paper: 48
+random_paper: 5
 scopes:
 - name: Vectranetworks Scopes
   scope_count: 0

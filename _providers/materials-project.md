@@ -275,7 +275,7 @@ plans:
 - name: Materials Project Plans Pricing
   plan_count: 3
   slug: materials-project-plans-pricing
-random_paper: 127
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Materials Project Rate Limits

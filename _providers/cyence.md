@@ -80,7 +80,7 @@ overview: 'Cyence publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cyence''s developer surface includes documentation, API reference, engineering blog, and 5 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 11.3

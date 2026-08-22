@@ -72,7 +72,7 @@ overview: 'Truveris is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Truveris'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: minimal
   composite: 6.5

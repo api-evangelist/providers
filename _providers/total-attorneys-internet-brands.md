@@ -77,7 +77,7 @@ name: Total Attorneys (Internet Brands)
 nav: Providers
 network: true
 overview: Total Attorneys (Internet Brands) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Marketing, Lead Generation, and Attorneys.
-random_paper: 62
+random_paper: 20
 score:
   band: emerging
   composite: 11.3

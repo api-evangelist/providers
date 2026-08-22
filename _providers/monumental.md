@@ -60,7 +60,7 @@ overview: 'Monumental is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Monumental''s developer surface includes support and 3 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: minimal
   composite: 6.7

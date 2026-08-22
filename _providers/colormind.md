@@ -57,7 +57,7 @@ name: Colormind
 nav: Providers
 network: true
 overview: Colormind publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 73
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

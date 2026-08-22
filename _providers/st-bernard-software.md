@@ -40,7 +40,7 @@ name: St. Bernard Software
 nav: Providers
 network: true
 overview: St. Bernard Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Web Filtering, Cybersecurity, and Defunct.
-random_paper: 142
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

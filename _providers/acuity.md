@@ -160,7 +160,7 @@ plans:
 - name: Acuity Plans Pricing
   plan_count: 4
   slug: acuity-plans-pricing
-random_paper: 59
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Acuity Rate Limits

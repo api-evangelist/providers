@@ -76,7 +76,7 @@ overview: 'Optiwatt is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Optiwatt''s developer surface includes signup flow, support, and 6 more developer resources.'
-random_paper: 147
+random_paper: 10
 score:
   band: minimal
   composite: 10.1

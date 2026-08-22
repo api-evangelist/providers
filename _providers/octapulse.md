@@ -53,7 +53,7 @@ name: Octapulse
 nav: Providers
 network: true
 overview: Octapulse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, AgriTech, Computer Vision, and Robotics.
-random_paper: 82
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

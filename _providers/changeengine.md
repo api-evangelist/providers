@@ -96,7 +96,7 @@ overview: 'ChangeEngine is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ChangeEngine''s developer surface includes pricing, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 52
+random_paper: 5
 score:
   band: emerging
   composite: 21.4

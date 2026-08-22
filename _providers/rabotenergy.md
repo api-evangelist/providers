@@ -64,7 +64,7 @@ overview: 'rabot.energy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   rabot.energy''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 9.6

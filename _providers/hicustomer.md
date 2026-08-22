@@ -64,7 +64,7 @@ name: HiCustomer
 nav: Providers
 network: true
 overview: HiCustomer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Success, Customer Success Management, SaaS, and Health Score.
-random_paper: 48
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

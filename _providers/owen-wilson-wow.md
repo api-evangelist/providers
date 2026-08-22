@@ -57,7 +57,7 @@ name: Owen Wilson Wow
 nav: Providers
 network: true
 overview: Owen Wilson Wow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 58
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

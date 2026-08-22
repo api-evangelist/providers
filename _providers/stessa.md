@@ -141,7 +141,7 @@ overview: 'Stessa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stessa''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 63
+random_paper: 8
 score:
   band: minimal
   composite: 6.8

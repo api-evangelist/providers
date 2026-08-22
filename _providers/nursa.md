@@ -277,7 +277,7 @@ overview: 'Nursa publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 106
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Nursa Rate Limits

@@ -390,7 +390,7 @@ plans:
 - name: Sorsa Plans Pricing
   plan_count: 4
   slug: sorsa-plans-pricing
-random_paper: 105
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Sorsa Rate Limits

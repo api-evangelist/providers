@@ -56,7 +56,7 @@ overview: 'Lotus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lotus'' developer surface includes support and 2 more developer resources.'
-random_paper: 120
+random_paper: 0
 score:
   band: minimal
   composite: 4.3

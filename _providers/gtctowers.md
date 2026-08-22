@@ -49,7 +49,7 @@ name: Gtctowers
 nav: Providers
 network: true
 overview: Gtctowers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Wireless Infrastructure, Cell Towers, and Small Cells.
-random_paper: 100
+random_paper: 7
 score:
   band: minimal
   composite: 1.8

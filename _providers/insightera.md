@@ -175,7 +175,7 @@ plans:
 - name: Insightera Plans Pricing
   plan_count: 0
   slug: insightera-plans-pricing
-random_paper: 27
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Insightera Rate Limits

@@ -53,7 +53,7 @@ name: Hop Aero
 nav: Providers
 network: true
 overview: Hop Aero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Defense, Space, and Logistics.
-random_paper: 50
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

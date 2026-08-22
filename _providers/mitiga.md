@@ -103,7 +103,7 @@ overview: 'Mitiga publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mitiga''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: Mitiga Scopes
   scope_count: 14

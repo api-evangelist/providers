@@ -230,7 +230,7 @@ plans:
 - name: Tremendous Plans Pricing
   plan_count: 3
   slug: tremendous-plans-pricing
-random_paper: 51
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Tremendous Rate Limits

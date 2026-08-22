@@ -64,7 +64,7 @@ overview: 'Within3 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Within3''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 114
+random_paper: 17
 score:
   band: minimal
   composite: 9.5

@@ -76,7 +76,7 @@ overview: 'Healthera is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Healthera''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 48
+random_paper: 18
 score:
   band: emerging
   composite: 11.5

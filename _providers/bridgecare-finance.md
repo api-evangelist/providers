@@ -72,7 +72,7 @@ overview: 'BridgeCare Finance is profiled on the [APIs.io](https://apis.io/) net
 
 
   BridgeCare Finance''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 16
 score:
   band: emerging
   composite: 12.0

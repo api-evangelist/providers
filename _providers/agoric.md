@@ -108,7 +108,7 @@ overview: 'Agoric is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Agoric''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 20.0

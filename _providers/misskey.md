@@ -715,7 +715,7 @@ plans:
 - name: Misskey Plans Pricing
   plan_count: 3
   slug: misskey-plans-pricing
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Misskey Rate Limits

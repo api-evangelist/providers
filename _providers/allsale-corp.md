@@ -110,7 +110,7 @@ plans:
 - name: Allsale Corp Plans Pricing
   plan_count: 3
   slug: allsale-corp-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Allsale Corp Rate Limits

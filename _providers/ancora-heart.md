@@ -101,7 +101,7 @@ overview: 'Ancora Heart is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ancora Heart''s developer surface includes support, engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 6.2

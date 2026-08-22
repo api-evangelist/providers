@@ -145,7 +145,7 @@ overview: 'Hyundai Bluelink is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Hyundai Bluelink''s developer surface includes YouTube channel and 24 more developer resources.'
-random_paper: 14
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

@@ -64,7 +64,7 @@ overview: 'Open Government, Greece publishes 1 API on the [APIs.io](https://apis
 
 
   Open Government, Greece''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 1
+random_paper: 10
 score:
   band: minimal
   composite: 4.6

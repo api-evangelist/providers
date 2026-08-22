@@ -80,7 +80,7 @@ overview: 'VOO (now SideUp) is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   VOO (now SideUp)''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 42
+random_paper: 4
 score:
   band: minimal
   composite: 9.9

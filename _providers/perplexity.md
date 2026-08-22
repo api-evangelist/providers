@@ -699,7 +699,7 @@ plans:
 - name: Perplexity Plans Pricing
   plan_count: 4
   slug: perplexity-plans-pricing
-random_paper: 67
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Perplexity Rate Limits

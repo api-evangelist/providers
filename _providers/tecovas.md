@@ -161,7 +161,7 @@ overview: 'Tecovas publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Tecovas'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 12
+random_paper: 1
 scopes:
 - name: Tecovas Scopes
   scope_count: 4

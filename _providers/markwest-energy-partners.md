@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: MLP of Marathon Petroleum Acquires MarkWest Energy ...
   url: https://www.oilandgas360.com/mlp-of-marathon-petroleum-acquires-markwest-energy-partners-for-20-billion/
-random_paper: 113
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

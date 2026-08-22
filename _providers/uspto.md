@@ -241,7 +241,7 @@ plans:
 - name: Uspto Plans Pricing
   plan_count: 1
   slug: uspto-plans-pricing
-random_paper: 124
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Uspto Rate Limits

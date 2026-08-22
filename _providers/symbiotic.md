@@ -73,7 +73,7 @@ name: Symbiotic
 nav: Providers
 network: true
 overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company and Crypto Defi.'
-random_paper: 85
+random_paper: 13
 score:
   band: emerging
   composite: 16.1

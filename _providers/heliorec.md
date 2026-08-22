@@ -68,7 +68,7 @@ overview: 'HelioRec is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HelioRec''s developer surface includes engineering blog, support, pricing, and 3 more developer resources.'
-random_paper: 98
+random_paper: 3
 score:
   band: minimal
   composite: 6.8

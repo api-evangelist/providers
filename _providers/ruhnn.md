@@ -67,7 +67,7 @@ name: ruhnn
 nav: Providers
 network: true
 overview: ruhnn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, E-Commerce, KOL, and Social Commerce.
-random_paper: 108
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

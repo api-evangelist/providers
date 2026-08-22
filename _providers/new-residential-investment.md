@@ -74,7 +74,7 @@ name: New Residential Investment Corp (Rithm Capital)
 nav: Providers
 network: true
 overview: New Residential Investment Corp (Rithm Capital) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mortgage REIT, Real Estate Investment Trust, Asset Management, Mortgage Origination, and Mortgage Servicing.
-random_paper: 11
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

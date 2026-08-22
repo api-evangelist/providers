@@ -147,7 +147,7 @@ plans:
 - name: Ltk Plans Pricing
   plan_count: 0
   slug: ltk-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Ltk Rate Limits

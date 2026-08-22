@@ -223,7 +223,7 @@ overview: 'BCU Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BCU Bank''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 25 more developer resources.'
-random_paper: 26
+random_paper: 15
 scopes:
 - name: Bcu Bank Scopes
   scope_count: 5

@@ -80,7 +80,7 @@ overview: 'TicketRev is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TicketRev''s developer surface includes support and 8 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: emerging
   composite: 14.2

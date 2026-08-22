@@ -49,7 +49,7 @@ name: Cardiogram
 nav: Providers
 network: true
 overview: Cardiogram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Wearables.
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

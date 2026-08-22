@@ -125,7 +125,7 @@ plans:
 - name: Sourcehut Plans Pricing
   plan_count: 3
   slug: sourcehut-plans-pricing
-random_paper: 100
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Sourcehut Rate Limits

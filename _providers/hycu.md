@@ -104,7 +104,7 @@ overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   HYCU''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: emerging
   composite: 23.1

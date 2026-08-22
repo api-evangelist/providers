@@ -188,7 +188,7 @@ plans:
 - name: Golden Plans Pricing
   plan_count: 4
   slug: golden-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Golden Rate Limits

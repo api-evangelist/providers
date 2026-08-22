@@ -84,7 +84,7 @@ overview: 'Paradromics is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Paradromics'' developer surface includes engineering blog, product news, support, and 9 more developer resources.'
-random_paper: 130
+random_paper: 18
 score:
   band: emerging
   composite: 11.5

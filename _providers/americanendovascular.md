@@ -60,7 +60,7 @@ overview: 'American Endovascular is profiled on the [APIs.io](https://apis.io/) 
 
 
   American Endovascular''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 33
+random_paper: 19
 score:
   band: minimal
   composite: 6.7

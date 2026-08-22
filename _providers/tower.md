@@ -347,7 +347,7 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 24 more developer resources.'
-random_paper: 114
+random_paper: 15
 scopes:
 - name: Tower Scopes
   scope_count: 53

@@ -49,7 +49,7 @@ name: Edmodo
 nav: Providers
 network: true
 overview: Edmodo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Learning Management System, and Social Learning.
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 2.5

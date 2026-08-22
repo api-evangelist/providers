@@ -151,7 +151,7 @@ plans:
 - name: Passionfroot Plans Pricing
   plan_count: 1
   slug: passionfroot-plans-pricing
-random_paper: 127
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Passionfroot Rate Limits

@@ -169,7 +169,7 @@ plans:
 - name: Alloy Automation Plans Pricing
   plan_count: 3
   slug: alloy-automation-plans-pricing
-random_paper: 40
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Alloy Automation Rate Limits

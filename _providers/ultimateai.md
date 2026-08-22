@@ -95,7 +95,7 @@ overview: 'Ultimate.ai publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ultimate.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: emerging
   composite: 26.0

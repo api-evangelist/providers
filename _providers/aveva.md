@@ -111,7 +111,7 @@ overview: 'AVEVA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   AVEVA''s developer surface includes documentation, engineering blog, YouTube channel, support, pricing, and 7 more developer resources.'
-random_paper: 84
+random_paper: 6
 score:
   band: thin
   composite: 27.4

@@ -151,7 +151,7 @@ plans:
 - name: Fund That Flip Plans Pricing
   plan_count: 7
   slug: fund-that-flip-plans-pricing
-random_paper: 38
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Fund That Flip Rate Limits

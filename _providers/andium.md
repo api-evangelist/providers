@@ -139,7 +139,7 @@ overview: 'Andium publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Andium''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 42
+random_paper: 8
 scopes:
 - name: Andium Scopes
   scope_count: 4

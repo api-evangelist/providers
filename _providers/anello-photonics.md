@@ -127,7 +127,7 @@ overview: 'ANELLO Photonics publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   ANELLO Photonics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 24
+random_paper: 4
 score:
   band: emerging
   composite: 25.2

@@ -266,7 +266,7 @@ overview: 'Cresilon publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cresilon''s developer surface includes engineering blog, support, signup flow, YouTube channel, authentication, code examples, and 30 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: thin
   composite: 38.9

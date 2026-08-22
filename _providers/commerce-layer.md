@@ -1450,7 +1450,7 @@ plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
   slug: commerce-layer-plans-pricing
-random_paper: 88
+random_paper: 1
 rate_limits:
 - limit_count: 13
   name: Commerce Layer Rate Limits

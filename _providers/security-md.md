@@ -40,7 +40,7 @@ name: SECURITY.md
 nav: Providers
 network: true
 overview: SECURITY.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Policy, Repository, Security, and Vulnerability Disclosure.
-random_paper: 99
+random_paper: 8
 score:
   band: minimal
   composite: 0.0

@@ -182,7 +182,7 @@ plans:
 - name: Vlt Plans
   plan_count: 4
   slug: vlt-plans
-random_paper: 44
+random_paper: 6
 score:
   band: developing
   composite: 44.1

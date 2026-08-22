@@ -40,7 +40,7 @@ name: Rentlytics
 nav: Providers
 network: true
 overview: Rentlytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Analytics, Multifamily, and PropTech.
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

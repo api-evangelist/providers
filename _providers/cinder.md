@@ -49,7 +49,7 @@ name: Cinder
 nav: Providers
 network: true
 overview: Cinder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Trust and Safety, Content Moderation, and Policy Enforcement.
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 2.3

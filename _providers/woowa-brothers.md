@@ -84,7 +84,7 @@ overview: 'Woowa Brothers is profiled on the [APIs.io](https://apis.io/) network
 
 
   Woowa Brothers'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 134
+random_paper: 5
 score:
   band: minimal
   composite: 9.9

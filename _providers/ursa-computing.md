@@ -53,7 +53,7 @@ name: Ursa Computing
 nav: Providers
 network: true
 overview: Ursa Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Data, Apache Arrow, and Open Source.
-random_paper: 129
+random_paper: 0
 score:
   band: minimal
   composite: 6.1

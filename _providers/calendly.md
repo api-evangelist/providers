@@ -241,7 +241,7 @@ plans:
 - name: Calendly Plans Pricing
   plan_count: 4
   slug: calendly-plans-pricing
-random_paper: 99
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Calendly Rate Limits

@@ -108,7 +108,7 @@ plans:
 - name: Moonfruit Plans Pricing
   plan_count: 0
   slug: moonfruit-plans-pricing
-random_paper: 101
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

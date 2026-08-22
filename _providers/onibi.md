@@ -102,7 +102,7 @@ name: Onibi
 nav: Providers
 network: true
 overview: Onibi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studio, and Sandbox MMO.
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 10.9

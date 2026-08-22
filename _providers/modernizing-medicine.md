@@ -450,7 +450,7 @@ overview: 'ModMed publishes 43 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 128
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Modernizing Medicine Rate Limits

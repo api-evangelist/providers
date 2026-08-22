@@ -306,7 +306,7 @@ overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: strong
   composite: 54.4

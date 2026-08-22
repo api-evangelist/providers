@@ -112,7 +112,7 @@ overview: 'Billogram publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Billogram''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 10 more developer resources.'
-random_paper: 59
+random_paper: 8
 score:
   band: thin
   composite: 32.6

@@ -320,7 +320,7 @@ overview: 'Gencove publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gencove''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: strong
   composite: 54.5

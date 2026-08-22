@@ -60,7 +60,7 @@ overview: '360 Commerce is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   360 Commerce''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: minimal
   composite: 6.4

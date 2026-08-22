@@ -105,7 +105,7 @@ name: Darewise
 nav: Providers
 network: true
 overview: Darewise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Games, Game Development, and Web3.
-random_paper: 107
+random_paper: 12
 score:
   band: minimal
   composite: 6.1

@@ -68,7 +68,7 @@ overview: 'Ansible Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ansible Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

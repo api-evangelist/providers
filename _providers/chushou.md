@@ -49,7 +49,7 @@ name: chushou
 nav: Providers
 network: true
 overview: chushou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Streaming, Gaming, Video, and Mobile.
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

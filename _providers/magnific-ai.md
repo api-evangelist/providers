@@ -126,7 +126,7 @@ overview: 'Magnific is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Magnific''s developer surface includes signup flow, pricing, support, engineering blog, and 14 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 9.2

@@ -116,7 +116,7 @@ overview: 'Intact Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Intact Financial''s developer surface includes developer portal, engineering blog, product news, support, and 16 more developer resources.'
-random_paper: 131
+random_paper: 4
 score:
   band: emerging
   composite: 12.0

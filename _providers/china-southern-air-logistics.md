@@ -105,7 +105,7 @@ overview: 'China Southern Air Logistics is profiled on the [APIs.io](https://api
 
 
   China Southern Air Logistics'' developer surface includes support, signup flow, pricing, product news, and 9 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: emerging
   composite: 13.5

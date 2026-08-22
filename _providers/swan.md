@@ -192,7 +192,7 @@ overview: 'Swan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Swan''s developer surface includes documentation, API reference, getting-started guide, developer console, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 143
+random_paper: 0
 scopes:
 - name: Swan Scopes
   scope_count: 5

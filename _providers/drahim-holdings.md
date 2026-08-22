@@ -77,7 +77,7 @@ overview: 'Drahim Holdings is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Drahim Holdings'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 40
+random_paper: 18
 score:
   band: minimal
   composite: 8.6

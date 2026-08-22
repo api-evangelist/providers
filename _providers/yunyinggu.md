@@ -49,7 +49,7 @@ name: Yunyinggu (Viewtrix Technology)
 nav: Providers
 network: true
 overview: Yunyinggu (Viewtrix Technology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Display, Hardware, and AMOLED.
-random_paper: 113
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

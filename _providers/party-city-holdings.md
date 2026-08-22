@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Party City's bankruptcy filing was brought about by the ...
   url: https://www.facebook.com/recordonline/posts/party-citys-bankruptcy-filing-was-brought-about-by-the-pandemic-and-a-global-sup/10159605523201298/
-random_paper: 10
+random_paper: 15
 score:
   band: minimal
   composite: 4.1

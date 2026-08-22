@@ -84,7 +84,7 @@ overview: 'Orchid Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Orchid Labs'' developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: emerging
   composite: 14.4

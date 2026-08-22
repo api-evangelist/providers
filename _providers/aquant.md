@@ -226,7 +226,7 @@ overview: 'Aquant publishes 2 APIs on the [APIs.io](https://apis.io/) network: M
 
 
   Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 54
+random_paper: 20
 scopes:
 - name: Aquant Scopes
   scope_count: 7

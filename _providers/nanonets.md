@@ -532,7 +532,7 @@ plans:
 - name: Nanonets Plans Pricing
   plan_count: 3
   slug: nanonets-plans-pricing
-random_paper: 125
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Nanonets Rate Limits

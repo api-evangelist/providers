@@ -176,7 +176,7 @@ overview: 'Datasaur is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datasaur''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: developing
   composite: 47.6

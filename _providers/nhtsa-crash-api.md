@@ -106,7 +106,7 @@ plans:
 - name: Nhtsa Crash Api Plans Pricing
   plan_count: 3
   slug: nhtsa-crash-api-plans-pricing
-random_paper: 134
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Nhtsa Crash Api Rate Limits

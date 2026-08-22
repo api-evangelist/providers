@@ -84,7 +84,7 @@ overview: 'JobNimbus publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   JobNimbus'' developer surface includes documentation, pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 75
+random_paper: 3
 score:
   band: emerging
   composite: 15.3

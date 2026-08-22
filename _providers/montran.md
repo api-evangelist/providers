@@ -661,7 +661,7 @@ plans:
 - name: Montran Plans Pricing
   plan_count: 1
   slug: montran-plans-pricing
-random_paper: 22
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Montran Rate Limits

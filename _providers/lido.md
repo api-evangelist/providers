@@ -320,7 +320,7 @@ overview: 'Lido publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lido''s developer surface includes documentation, developer portal, engineering blog, CLI, tooling, YouTube channel, and 54 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: thin
   composite: 28.6

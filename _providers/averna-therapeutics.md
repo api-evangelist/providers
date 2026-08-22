@@ -64,7 +64,7 @@ overview: 'Averna Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Averna Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 42
+random_paper: 5
 score:
   band: minimal
   composite: 8.4

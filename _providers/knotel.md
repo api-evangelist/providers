@@ -77,7 +77,7 @@ overview: 'Knotel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Knotel''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

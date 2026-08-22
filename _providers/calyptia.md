@@ -419,7 +419,7 @@ overview: 'Calyptia publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Calyptia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 21 more developer resources.'
-random_paper: 110
+random_paper: 15
 scopes:
 - name: Calyptia Scopes
   scope_count: 6

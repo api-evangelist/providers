@@ -155,7 +155,7 @@ overview: 'AutoGen Studio is profiled on the [APIs.io](https://apis.io/) network
 
 
   AutoGen Studio''s developer surface includes engineering blog, documentation, FAQ, and 19 more developer resources.'
-random_paper: 123
+random_paper: 15
 score:
   band: emerging
   composite: 12.8

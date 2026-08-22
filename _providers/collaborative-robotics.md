@@ -57,7 +57,7 @@ name: Collaborative Robotics
 nav: Providers
 network: true
 overview: Collaborative Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Collaborative Robotics, Physical AI, and Automation.
-random_paper: 62
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

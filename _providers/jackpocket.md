@@ -72,7 +72,7 @@ overview: 'Jackpocket is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jackpocket''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: minimal
   composite: 10.2

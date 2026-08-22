@@ -66,7 +66,7 @@ plans:
 - name: Hallmark Cards Plans Pricing
   plan_count: 1
   slug: hallmark-cards-plans-pricing
-random_paper: 73
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Hallmark Cards Rate Limits

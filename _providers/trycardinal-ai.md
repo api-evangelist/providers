@@ -134,7 +134,7 @@ plans:
 - name: Trycardinal Ai Plans Pricing
   plan_count: 0
   slug: trycardinal-ai-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Trycardinal Ai Rate Limits

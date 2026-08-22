@@ -157,7 +157,7 @@ overview: 'Tsenta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tsenta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 19 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: thin
   composite: 33.6

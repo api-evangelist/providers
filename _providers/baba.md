@@ -68,7 +68,7 @@ overview: 'Baba is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Baba''s developer surface includes support and 5 more developer resources.'
-random_paper: 92
+random_paper: 12
 score:
   band: emerging
   composite: 11.3

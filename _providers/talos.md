@@ -116,7 +116,7 @@ overview: 'Talos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Talos'' developer surface includes documentation, engineering blog, signup flow, support, YouTube channel, and 13 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: emerging
   composite: 22.7

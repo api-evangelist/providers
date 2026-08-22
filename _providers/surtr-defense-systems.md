@@ -54,7 +54,7 @@ name: Surtr Defense Systems
 nav: Providers
 network: true
 overview: Surtr Defense Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Counter-UAS, and Command and Control.
-random_paper: 102
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

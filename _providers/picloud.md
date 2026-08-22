@@ -40,7 +40,7 @@ name: PiCloud
 nav: Providers
 network: true
 overview: PiCloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Computing, Serverless, High Performance Computing, and Batch Processing.
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

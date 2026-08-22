@@ -218,7 +218,7 @@ plans:
 - name: Walnut Plans Pricing
   plan_count: 3
   slug: walnut-plans-pricing
-random_paper: 71
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Walnut Rate Limits

@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: 'US electricity demand to boost coal by 57%: Peabody Energy'
   url: https://www.linkedin.com/posts/vuslat-bayoglu_swelling-us-demand-for-electricity-has-the-activity-7369569133400711169-hIac
-random_paper: 94
+random_paper: 7
 score:
   band: minimal
   composite: 2.4

@@ -125,7 +125,7 @@ plans:
 - name: Scaled Agile Plans Pricing
   plan_count: 3
   slug: scaled-agile-plans-pricing
-random_paper: 136
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Scaled Agile Rate Limits

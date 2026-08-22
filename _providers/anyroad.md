@@ -91,7 +91,7 @@ overview: 'Anyroad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Anyroad''s developer surface includes support, pricing, and 8 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
   composite: 26.9

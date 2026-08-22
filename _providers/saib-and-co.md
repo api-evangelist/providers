@@ -81,7 +81,7 @@ overview: 'SAIB & Co. publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   SAIB & Co.''s developer surface includes support, authentication, and 6 more developer resources.'
-random_paper: 128
+random_paper: 14
 scopes:
 - name: Saib And Co Scopes
   scope_count: 6

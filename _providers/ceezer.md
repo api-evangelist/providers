@@ -76,7 +76,7 @@ overview: 'CEEZER is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CEEZER''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: minimal
   composite: 9.0

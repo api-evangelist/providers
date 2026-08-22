@@ -49,7 +49,7 @@ name: Asetek
 nav: Providers
 network: true
 overview: Asetek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Hardware, Liquid Cooling, and Thermal Management.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 1.8

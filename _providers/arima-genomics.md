@@ -95,7 +95,7 @@ overview: 'Arima Genomics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Arima Genomics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 79
+random_paper: 13
 score:
   band: emerging
   composite: 11.5

@@ -233,7 +233,7 @@ press:
 - date: '2026-05-25'
   title: AI-Enabled Radiation Therapy System & 1,000th Patient
   url: https://siteman.wustl.edu/ai-enabled-radiation-therapy-system-at-siteman/
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Varian Medical Systems Rate Limits

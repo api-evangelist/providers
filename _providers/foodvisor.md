@@ -81,7 +81,7 @@ plans:
 - name: Foodvisor Plans Pricing
   plan_count: 3
   slug: foodvisor-plans-pricing
-random_paper: 93
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Foodvisor Rate Limits

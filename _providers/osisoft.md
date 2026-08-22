@@ -64,7 +64,7 @@ overview: 'OSIsoft is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OSIsoft''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 9.8

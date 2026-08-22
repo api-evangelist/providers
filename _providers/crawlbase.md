@@ -143,7 +143,7 @@ plans:
 - name: Crawlbase Plans Pricing
   plan_count: 10
   slug: crawlbase-plans-pricing
-random_paper: 54
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Crawlbase Rate Limits

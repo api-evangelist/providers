@@ -157,7 +157,7 @@ overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Visual Layer''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 54
+random_paper: 7
 score:
   band: thin
   composite: 26.8

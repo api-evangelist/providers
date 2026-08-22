@@ -40,7 +40,7 @@ name: CrediFi
 nav: Providers
 network: true
 overview: CrediFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Commercial Real Estate, Real Estate Finance, and Lending.
-random_paper: 130
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

@@ -84,7 +84,7 @@ overview: 'Atrandi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atrandi''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 13.0

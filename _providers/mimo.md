@@ -76,7 +76,7 @@ overview: 'Mimo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mimo''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 136
+random_paper: 14
 score:
   band: emerging
   composite: 12.5

@@ -371,7 +371,7 @@ plans:
 - name: Suki Ai Plans Pricing
   plan_count: 1
   slug: suki-ai-plans-pricing
-random_paper: 95
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Suki Ai Rate Limits

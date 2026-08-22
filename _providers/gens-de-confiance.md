@@ -49,7 +49,7 @@ name: Gens de confiance
 nav: Providers
 network: true
 overview: Gens de confiance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Trust, and Community.
-random_paper: 15
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

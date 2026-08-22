@@ -265,7 +265,7 @@ overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Jinba''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: developing
   composite: 53.7

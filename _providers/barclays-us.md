@@ -72,7 +72,7 @@ overview: 'Barclays US is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Barclays US''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 83
+random_paper: 13
 score:
   band: minimal
   composite: 8.6

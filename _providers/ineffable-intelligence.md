@@ -73,7 +73,7 @@ name: Ineffable Intelligence
 nav: Providers
 network: true
 overview: Ineffable Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Superintelligence, Reinforcement Learning, and AI Research.
-random_paper: 1
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

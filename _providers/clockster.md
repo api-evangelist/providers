@@ -84,7 +84,7 @@ overview: 'Clockster is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clockster''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: minimal
   composite: 8.5

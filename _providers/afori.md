@@ -85,7 +85,7 @@ overview: 'Afori is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Afori''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: emerging
   composite: 15.1

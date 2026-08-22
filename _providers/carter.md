@@ -62,7 +62,7 @@ plans:
 - name: Carter Plans Pricing
   plan_count: 1
   slug: carter-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Carter Rate Limits

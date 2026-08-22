@@ -105,7 +105,7 @@ overview: 'Amazon DynamoDB publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Amazon DynamoDB''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 92
+random_paper: 7
 score:
   band: thin
   composite: 32.1

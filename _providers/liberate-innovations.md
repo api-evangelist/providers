@@ -175,7 +175,7 @@ overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 20 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: thin
   composite: 30.5

@@ -161,7 +161,7 @@ plans:
 - name: Macrostrat Plans Pricing
   plan_count: 3
   slug: macrostrat-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Macrostrat Rate Limits

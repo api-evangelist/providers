@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Pediatrix Medical Group, Inc.
   url: https://mednax.gcs-web.com/news-releases
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 2.6

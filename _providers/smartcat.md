@@ -362,7 +362,7 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: developing
   composite: 51.9

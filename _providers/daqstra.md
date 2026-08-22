@@ -84,7 +84,7 @@ overview: 'Daqstra is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Daqstra''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 6.4

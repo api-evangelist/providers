@@ -100,7 +100,7 @@ plans:
 - name: Publy Plans Pricing
   plan_count: 2
   slug: publy-plans-pricing
-random_paper: 109
+random_paper: 10
 score:
   band: emerging
   composite: 19.9

@@ -57,7 +57,7 @@ name: Phone Validation
 nav: Providers
 network: true
 overview: Phone Validation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Phone and Public APIs.
-random_paper: 11
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

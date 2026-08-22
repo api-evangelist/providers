@@ -69,7 +69,7 @@ overview: 'Kickpay is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kickpay''s developer surface includes FAQ and 5 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: minimal
   composite: 10.5

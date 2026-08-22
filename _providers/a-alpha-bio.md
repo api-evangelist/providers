@@ -191,7 +191,7 @@ overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
-random_paper: 125
+random_paper: 11
 score:
   band: thin
   composite: 37.9

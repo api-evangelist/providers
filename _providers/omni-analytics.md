@@ -169,7 +169,7 @@ overview: 'Omni Analytics publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Omni Analytics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
-random_paper: 107
+random_paper: 20
 score:
   band: developing
   composite: 41.3

@@ -98,7 +98,7 @@ overview: 'Denticon publishes 7 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Denticon''s developer surface includes documentation, signup flow, and 6 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: emerging
   composite: 12.8

@@ -98,7 +98,7 @@ overview: 'LVX (formerly LetsVenture) is profiled on the [APIs.io](https://apis.
 
 
   LVX (formerly LetsVenture)''s developer surface includes engineering blog, support, FAQ, product news, and 9 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: emerging
   composite: 11.4

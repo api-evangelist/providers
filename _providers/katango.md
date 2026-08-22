@@ -40,7 +40,7 @@ name: Katango
 nav: Providers
 network: true
 overview: Katango is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile, Social, and Contacts.
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

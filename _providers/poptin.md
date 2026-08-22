@@ -159,7 +159,7 @@ plans:
 - name: Poptin Plans Pricing
   plan_count: 0
   slug: poptin-plans-pricing
-random_paper: 70
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Poptin Rate Limits

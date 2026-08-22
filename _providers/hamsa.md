@@ -109,7 +109,7 @@ overview: 'Hamsa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hamsa''s developer surface includes documentation, API reference, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 19.9

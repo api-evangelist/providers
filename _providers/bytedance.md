@@ -53,7 +53,7 @@ name: ByteDance
 nav: Providers
 network: true
 overview: ByteDance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Internet, Social Media, Video, and Artificial Intelligence.
-random_paper: 49
+random_paper: 19
 score:
   band: minimal
   composite: 5.3

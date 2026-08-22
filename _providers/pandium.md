@@ -433,7 +433,7 @@ plans:
 - name: Pandium Plans Pricing
   plan_count: 3
   slug: pandium-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Pandium Rate Limits

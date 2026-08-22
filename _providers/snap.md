@@ -233,7 +233,7 @@ plans:
 - name: Snap Plans Pricing
   plan_count: 0
   slug: snap-plans-pricing
-random_paper: 136
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Snap Rate Limits

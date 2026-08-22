@@ -101,7 +101,7 @@ overview: 'ClearNote Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   ClearNote Health''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 125
+random_paper: 0
 score:
   band: minimal
   composite: 10.8

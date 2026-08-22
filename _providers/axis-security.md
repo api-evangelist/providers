@@ -49,7 +49,7 @@ name: Axis Security
 nav: Providers
 network: true
 overview: Axis Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Security Service Edge, Zero Trust Network Access, and Secure Web Gateway.
-random_paper: 29
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

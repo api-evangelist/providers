@@ -109,7 +109,7 @@ overview: 'Augmenta is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Augmenta''s developer surface includes documentation, GitHub presence, YouTube channel, support, and 12 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: minimal
   composite: 8.5

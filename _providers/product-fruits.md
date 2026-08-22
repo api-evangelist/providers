@@ -189,7 +189,7 @@ plans:
 - name: Product Fruits Plans Pricing
   plan_count: 4
   slug: product-fruits-plans-pricing
-random_paper: 142
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Product Fruits Rate Limits

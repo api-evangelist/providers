@@ -139,7 +139,7 @@ plans:
 - name: Persado Plans Pricing
   plan_count: 0
   slug: persado-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Persado Rate Limits

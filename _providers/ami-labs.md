@@ -91,7 +91,7 @@ plans:
 - name: Ami Labs Plans Pricing
   plan_count: 0
   slug: ami-labs-plans-pricing
-random_paper: 29
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Ami Labs Rate Limits

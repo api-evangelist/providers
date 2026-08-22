@@ -180,7 +180,7 @@ overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
-random_paper: 89
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Fever Rate Limits

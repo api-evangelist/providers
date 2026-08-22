@@ -172,7 +172,7 @@ plans:
 - name: Daloopa Plans Pricing
   plan_count: 0
   slug: daloopa-plans-pricing
-random_paper: 140
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Daloopa Rate Limits

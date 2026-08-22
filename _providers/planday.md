@@ -149,7 +149,7 @@ overview: 'Planday publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Planday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 0
+random_paper: 10
 scopes:
 - name: Planday Scopes
   scope_count: 78

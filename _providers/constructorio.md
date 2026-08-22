@@ -278,7 +278,7 @@ overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 97
+random_paper: 10
 scopes:
 - name: Constructorio Scopes
   scope_count: 37

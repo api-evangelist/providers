@@ -121,7 +121,7 @@ overview: 'Duetto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Duetto''s developer surface includes GitHub presence, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

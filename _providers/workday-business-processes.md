@@ -239,7 +239,7 @@ plans:
 - name: Workday Business Processes Plans Pricing
   plan_count: 3
   slug: workday-business-processes-plans-pricing
-random_paper: 36
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Workday Business Processes Rate Limits

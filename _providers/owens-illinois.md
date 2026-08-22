@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: O-I Glass, Inc. | News
   url: https://www.otcmarkets.com/stock/OI/news/Owens-Brockway-Glass-Container-Inc-Launches-500-Million-Senior-Notes-Offering?e&id=3458089
-random_paper: 127
+random_paper: 19
 score:
   band: minimal
   composite: 6.2

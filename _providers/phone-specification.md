@@ -53,7 +53,7 @@ name: Phone Specification
 nav: Providers
 network: true
 overview: Phone Specification publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Phone and Public APIs.
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

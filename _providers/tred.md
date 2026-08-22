@@ -45,7 +45,7 @@ name: TRED
 nav: Providers
 network: true
 overview: TRED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Marketplace, Used Cars, and Peer to Peer.
-random_paper: 133
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

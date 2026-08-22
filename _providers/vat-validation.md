@@ -57,7 +57,7 @@ name: VAT Validation
 nav: Providers
 network: true
 overview: VAT Validation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 102
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

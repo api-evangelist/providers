@@ -88,7 +88,7 @@ overview: 'TotalEnergies is profiled on the [APIs.io](https://apis.io/) network.
 
 
   TotalEnergies'' developer surface includes product news and 10 more developer resources.'
-random_paper: 57
+random_paper: 12
 score:
   band: minimal
   composite: 4.9

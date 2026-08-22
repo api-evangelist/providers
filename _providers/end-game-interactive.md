@@ -95,7 +95,7 @@ overview: 'End Game Interactive is profiled on the [APIs.io](https://apis.io/) n
 
 
   End Game Interactive''s developer surface includes support and 9 more developer resources.'
-random_paper: 56
+random_paper: 19
 score:
   band: minimal
   composite: 10.9

@@ -45,7 +45,7 @@ name: Mountain America Credit Union
 nav: Providers
 network: true
 overview: Mountain America Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Consumer Banking.
-random_paper: 3
+random_paper: 4
 score:
   band: minimal
   composite: 1.5

@@ -97,7 +97,7 @@ overview: 'NOCD is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   NOCD''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: emerging
   composite: 12.8

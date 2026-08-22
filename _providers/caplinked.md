@@ -169,7 +169,7 @@ overview: 'Caplinked publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Caplinked''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, pricing, support, changelog, and 22 more developer resources.'
-random_paper: 45
+random_paper: 15
 score:
   band: thin
   composite: 29.9

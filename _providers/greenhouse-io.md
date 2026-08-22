@@ -500,7 +500,7 @@ plans:
 - name: Greenhouse Io Plans Pricing
   plan_count: 3
   slug: greenhouse-io-plans-pricing
-random_paper: 146
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Greenhouse Io Rate Limits

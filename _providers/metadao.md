@@ -150,7 +150,7 @@ overview: 'MetaDAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   MetaDAO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 135
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits

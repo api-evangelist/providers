@@ -112,7 +112,7 @@ overview: 'Cority publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cority''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: thin
   composite: 26.7

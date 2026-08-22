@@ -45,7 +45,7 @@ name: Ivella
 nav: Providers
 network: true
 overview: Ivella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Consumer Finance, and Banking.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 0.3

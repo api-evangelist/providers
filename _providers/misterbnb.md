@@ -57,7 +57,7 @@ name: MisterBnB
 nav: Providers
 network: true
 overview: MisterBnB is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Accommodation, Booking, and Vacation Rental.
-random_paper: 72
+random_paper: 0
 score:
   band: minimal
   composite: 5.3

@@ -68,7 +68,7 @@ overview: 'Sett AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sett AI''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 99
+random_paper: 2
 score:
   band: minimal
   composite: 10.4

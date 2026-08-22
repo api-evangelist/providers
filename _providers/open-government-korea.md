@@ -57,7 +57,7 @@ name: Open Government, Korea
 nav: Providers
 network: true
 overview: Open Government, Korea publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 61
+random_paper: 5
 score:
   band: minimal
   composite: 4.2

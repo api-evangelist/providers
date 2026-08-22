@@ -283,7 +283,7 @@ plans:
 - name: Doku Plans Pricing
   plan_count: 3
   slug: doku-plans-pricing
-random_paper: 137
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Doku Rate Limits

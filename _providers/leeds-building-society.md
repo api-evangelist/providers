@@ -99,7 +99,7 @@ overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.
 
 
   Leeds Building Society''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 143
+random_paper: 3
 score:
   band: thin
   composite: 28.7

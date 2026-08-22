@@ -110,7 +110,7 @@ plans:
 - name: Flytedesk Plans Pricing
   plan_count: 0
   slug: flytedesk-plans-pricing
-random_paper: 77
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Flytedesk Rate Limits

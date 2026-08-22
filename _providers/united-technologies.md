@@ -249,7 +249,7 @@ press:
 - date: '2026-05-25'
   title: United Technologies - Oak Ridge Leadership Computing Facility
   url: https://www.olcf.ornl.gov/tag/united-technologies/
-random_paper: 41
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: United Technologies Rate Limits

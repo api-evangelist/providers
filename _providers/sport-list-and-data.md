@@ -57,7 +57,7 @@ name: Sport List & Data
 nav: Providers
 network: true
 overview: Sport List & Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 76
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

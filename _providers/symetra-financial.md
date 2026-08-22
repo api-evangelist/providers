@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: Sumitomo Life to Acquire Symetra for $3.76 Billion - Best's News
   url: https://news.ambest.com/newscontent.aspx?refnum=185237&altsrc=114&SrvId=156
-random_paper: 112
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Symetra Financial Rate Limits

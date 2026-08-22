@@ -124,7 +124,7 @@ overview: 'ABL Space Systems is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ABL Space Systems'' developer surface includes engineering blog, product news, and 20 more developer resources.'
-random_paper: 70
+random_paper: 8
 score:
   band: minimal
   composite: 10.4

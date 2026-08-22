@@ -53,7 +53,7 @@ name: Inspiration
 nav: Providers
 network: true
 overview: Inspiration publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 8
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

@@ -53,7 +53,7 @@ name: Endogastric Solutions
 nav: Providers
 network: true
 overview: Endogastric Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, GERD, and Endoscopy.
-random_paper: 138
+random_paper: 19
 score:
   band: minimal
   composite: 7.9

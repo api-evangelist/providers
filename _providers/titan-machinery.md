@@ -53,7 +53,7 @@ name: Titan Machinery
 nav: Providers
 network: true
 overview: Titan Machinery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Construction Equipment, Heavy Equipment, Equipment Dealer, and Farm Equipment.
-random_paper: 59
+random_paper: 16
 score:
   band: minimal
   composite: 4.4

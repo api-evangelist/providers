@@ -84,7 +84,7 @@ overview: 'HostnFly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HostnFly''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 142
+random_paper: 5
 score:
   band: emerging
   composite: 14.8

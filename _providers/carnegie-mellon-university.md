@@ -207,7 +207,7 @@ plans:
 - name: Carnegie Mellon University Plans Pricing
   plan_count: 2
   slug: carnegie-mellon-university-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Carnegie Mellon University Rate Limits

@@ -141,7 +141,7 @@ plans:
 - name: Canada Post Plans Pricing
   plan_count: 13
   slug: canada-post-plans-pricing
-random_paper: 56
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Canada Post Rate Limits

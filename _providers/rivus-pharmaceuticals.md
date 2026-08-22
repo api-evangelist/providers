@@ -95,7 +95,7 @@ overview: 'Rivus Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) 
 
 
   Rivus Pharmaceuticals'' developer surface includes product news and 10 more developer resources.'
-random_paper: 118
+random_paper: 20
 score:
   band: minimal
   composite: 9.8

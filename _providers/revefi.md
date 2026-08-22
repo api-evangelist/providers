@@ -190,7 +190,7 @@ overview: 'Revefi publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: developing
   composite: 45.8

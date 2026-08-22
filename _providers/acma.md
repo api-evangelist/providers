@@ -211,7 +211,7 @@ plans:
 - name: Acma Plans
   plan_count: 9
   slug: acma-plans
-random_paper: 104
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Acma Rate Limits

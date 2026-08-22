@@ -113,7 +113,7 @@ overview: 'TheMonetizr publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   TheMonetizr''s developer surface includes documentation, getting-started guide, changelog, support, and 11 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 23.5

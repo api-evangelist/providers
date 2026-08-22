@@ -88,7 +88,7 @@ overview: 'Ukio is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ukio''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 142
+random_paper: 20
 score:
   band: minimal
   composite: 9.1

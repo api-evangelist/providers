@@ -319,7 +319,7 @@ overview: 'Artsy publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Artsy''s developer surface includes documentation, API reference, authentication, engineering blog, and 22 more developer resources.'
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Art Rate Limits

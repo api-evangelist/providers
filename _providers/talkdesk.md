@@ -91,7 +91,7 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 106
+random_paper: 11
 rules:
 - effective_rule_count: 35
   extends:

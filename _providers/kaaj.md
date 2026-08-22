@@ -120,7 +120,7 @@ overview: 'Kaaj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kaaj''s developer surface includes documentation, engineering blog, pricing, support, YouTube channel, and 13 more developer resources.'
-random_paper: 109
+random_paper: 8
 score:
   band: emerging
   composite: 22.8

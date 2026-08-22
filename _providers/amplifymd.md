@@ -76,7 +76,7 @@ overview: 'AmplifyMD is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AmplifyMD''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: emerging
   composite: 11.8

@@ -22312,7 +22312,7 @@ plans:
 - name: Adyen Plans Pricing
   plan_count: 2
   slug: adyen-plans-pricing
-random_paper: 82
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Adyen Rate Limits

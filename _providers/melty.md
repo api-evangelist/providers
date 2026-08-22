@@ -124,7 +124,7 @@ plans:
 - name: Melty Plans Pricing
   plan_count: 0
   slug: melty-plans-pricing
-random_paper: 108
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Melty Rate Limits

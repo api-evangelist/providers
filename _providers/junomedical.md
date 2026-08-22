@@ -76,7 +76,7 @@ overview: 'Junomedical is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Junomedical''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 120
+random_paper: 8
 score:
   band: minimal
   composite: 10.8

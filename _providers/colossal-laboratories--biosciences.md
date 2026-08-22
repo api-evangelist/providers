@@ -217,7 +217,7 @@ overview: 'Colossal Laboratories & Biosciences publishes 9 APIs on the [APIs.io]
 
 
   Colossal Laboratories & Biosciences'' developer surface includes engineering blog, product news, authentication, and 24 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: emerging
   composite: 23.7

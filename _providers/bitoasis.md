@@ -207,7 +207,7 @@ overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: thin
   composite: 27.7

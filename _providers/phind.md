@@ -73,7 +73,7 @@ plans:
 - name: Phind Plans Pricing
   plan_count: 5
   slug: phind-plans-pricing
-random_paper: 84
+random_paper: 6
 score:
   band: emerging
   composite: 12.3

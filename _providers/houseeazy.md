@@ -68,7 +68,7 @@ overview: 'HouseEazy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HouseEazy''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: minimal
   composite: 10.6

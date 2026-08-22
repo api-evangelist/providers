@@ -125,7 +125,7 @@ plans:
 - name: Unravel Data Plans
   plan_count: 1
   slug: unravel-data-plans
-random_paper: 28
+random_paper: 2
 score:
   band: thin
   composite: 27.1

@@ -73,7 +73,7 @@ name: Phare Health
 nav: Providers
 network: true
 overview: Phare Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Medical Coding, and Clinical Documentation.
-random_paper: 11
+random_paper: 6
 score:
   band: minimal
   composite: 10.3

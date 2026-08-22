@@ -150,7 +150,7 @@ overview: 'IHG Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) n
 
 
   IHG Hotels & Resorts'' developer surface includes signup flow, support, and 26 more developer resources.'
-random_paper: 118
+random_paper: 4
 score:
   band: emerging
   composite: 13.5

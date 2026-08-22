@@ -249,7 +249,7 @@ overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
-random_paper: 146
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Applike Rate Limits

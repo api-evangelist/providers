@@ -230,7 +230,7 @@ plans:
 - name: Erxes Plans Pricing
   plan_count: 5
   slug: erxes-plans-pricing
-random_paper: 104
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Erxes Rate Limits

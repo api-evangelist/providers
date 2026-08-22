@@ -57,7 +57,7 @@ name: A Bíblia Digital
 nav: Providers
 network: true
 overview: A Bíblia Digital publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 131
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

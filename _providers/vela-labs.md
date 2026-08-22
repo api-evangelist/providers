@@ -76,7 +76,7 @@ overview: 'Vela Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vela Labs'' developer surface includes pricing, signup flow, support, FAQ, and 4 more developer resources.'
-random_paper: 142
+random_paper: 5
 score:
   band: minimal
   composite: 10.9

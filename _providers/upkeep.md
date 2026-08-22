@@ -199,7 +199,7 @@ plans:
 - name: Upkeep Plans Pricing
   plan_count: 3
   slug: upkeep-plans-pricing
-random_paper: 54
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Upkeep Rate Limits

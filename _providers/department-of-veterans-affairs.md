@@ -310,7 +310,7 @@ plans:
 - name: Department Of Veterans Affairs Plans Pricing
   plan_count: 2
   slug: department-of-veterans-affairs-plans-pricing
-random_paper: 48
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Department Of Veterans Affairs Rate Limits

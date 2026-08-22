@@ -167,7 +167,7 @@ overview: 'Liesheng Group publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Liesheng Group''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 102
+random_paper: 7
 scopes:
 - name: Liesheng Scopes
   scope_count: 1

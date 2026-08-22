@@ -154,7 +154,7 @@ plans:
 - name: Us Department Of Defense Plans Pricing
   plan_count: 3
   slug: us-department-of-defense-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Us Department Of Defense Rate Limits

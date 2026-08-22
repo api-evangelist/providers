@@ -45,7 +45,7 @@ name: Reply.ai
 nav: Providers
 network: true
 overview: Reply.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Customer Experience, Customer Service, and Chatbots.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -80,7 +80,7 @@ overview: 'BioTheryX is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BioTheryX''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 96
+random_paper: 3
 score:
   band: minimal
   composite: 4.5

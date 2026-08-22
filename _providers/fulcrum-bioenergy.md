@@ -55,7 +55,7 @@ name: Fulcrum BioEnergy
 nav: Providers
 network: true
 overview: Fulcrum BioEnergy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Energy, Biofuels, and Sustainable Aviation Fuel.
-random_paper: 136
+random_paper: 11
 score:
   band: minimal
   composite: 1.7

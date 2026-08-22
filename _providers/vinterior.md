@@ -53,7 +53,7 @@ name: Vinterior
 nav: Providers
 network: true
 overview: Vinterior is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Furniture, Vintage, and Antiques.
-random_paper: 100
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

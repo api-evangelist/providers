@@ -149,7 +149,7 @@ plans:
 - name: Exotel Plans Pricing
   plan_count: 4
   slug: exotel-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Exotel Rate Limits

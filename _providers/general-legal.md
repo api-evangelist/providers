@@ -100,7 +100,7 @@ overview: 'General Legal is profiled on the [APIs.io](https://apis.io/) network.
 
 
   General Legal''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 104
+random_paper: 15
 score:
   band: emerging
   composite: 14.8

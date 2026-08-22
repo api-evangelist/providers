@@ -88,7 +88,7 @@ overview: 'Enclave is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enclave''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: emerging
   composite: 11.3

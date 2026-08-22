@@ -65,7 +65,7 @@ name: THIS
 nav: Providers
 network: true
 overview: THIS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Plant-Based, Vegan, and Consumer Packaged Goods.
-random_paper: 142
+random_paper: 20
 score:
   band: minimal
   composite: 7.1

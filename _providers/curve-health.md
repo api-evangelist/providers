@@ -72,7 +72,7 @@ overview: 'Curve Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Curve Health''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 32
+random_paper: 6
 score:
   band: minimal
   composite: 10.5

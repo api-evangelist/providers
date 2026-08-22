@@ -49,7 +49,7 @@ name: Huscarl
 nav: Providers
 network: true
 overview: Huscarl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Actuarial, Captive Insurance, and Self-Insurance.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 2.3

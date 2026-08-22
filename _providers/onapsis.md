@@ -124,7 +124,7 @@ overview: 'Onapsis publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Onapsis'' developer surface includes documentation, support, engineering blog, changelog, authentication, and 15 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: thin
   composite: 27.9

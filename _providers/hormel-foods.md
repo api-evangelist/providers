@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Hormel modernizes supply chain with AI planning platform
   url: https://www.supplychaindive.com/news/hormel-supply-chain-ai-planning-platform/816293/
-random_paper: 39
+random_paper: 13
 score:
   band: minimal
   composite: 5.5

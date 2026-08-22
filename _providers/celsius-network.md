@@ -183,7 +183,7 @@ overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 93
+random_paper: 8
 score:
   band: developing
   composite: 46.0

@@ -81,7 +81,7 @@ overview: 'Liquidly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Liquidly''s developer surface includes support and 8 more developer resources.'
-random_paper: 132
+random_paper: 16
 score:
   band: emerging
   composite: 14.8

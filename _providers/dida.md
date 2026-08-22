@@ -53,7 +53,7 @@ name: Dida
 nav: Providers
 network: true
 overview: Dida is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Travel Technology, Hotels, and Hotel Distribution.
-random_paper: 104
+random_paper: 3
 score:
   band: minimal
   composite: 5.3

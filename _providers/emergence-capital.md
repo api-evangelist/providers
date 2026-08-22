@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Emergence Capital
 nav: Providers
 network: true
-random_paper: 79
+random_paper: 17
 slug: emergence-capital
 tags:
 - Venture Capital

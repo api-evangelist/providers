@@ -40,7 +40,7 @@ name: Three Squirrels
 nav: Providers
 network: true
 overview: Three Squirrels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Snacks, Food and Beverage, and E-commerce.
-random_paper: 93
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

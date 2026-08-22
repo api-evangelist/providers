@@ -147,7 +147,7 @@ overview: 'Balbix publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Balbix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Balbix Rate Limits

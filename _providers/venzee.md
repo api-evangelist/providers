@@ -124,7 +124,7 @@ overview: 'Venzee publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Venzee''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: thin
   composite: 35.8

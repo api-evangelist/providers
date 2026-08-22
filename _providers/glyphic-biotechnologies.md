@@ -80,7 +80,7 @@ overview: 'Glyphic Biotechnologies is profiled on the [APIs.io](https://apis.io/
 
 
   Glyphic Biotechnologies'' developer surface includes support and 8 more developer resources.'
-random_paper: 11
+random_paper: 1
 score:
   band: minimal
   composite: 10.0

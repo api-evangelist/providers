@@ -172,7 +172,7 @@ overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ubank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
-random_paper: 82
+random_paper: 4
 scopes:
 - name: Ubank Scopes
   scope_count: 9

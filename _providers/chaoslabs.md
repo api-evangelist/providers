@@ -105,7 +105,7 @@ overview: 'Chaoslabs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chaoslabs'' developer surface includes documentation, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 50
+random_paper: 20
 score:
   band: emerging
   composite: 18.3

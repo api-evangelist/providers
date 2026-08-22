@@ -213,7 +213,7 @@ plans:
 - name: Traiana Plans Pricing
   plan_count: 1
   slug: traiana-plans-pricing
-random_paper: 140
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Traiana Rate Limits

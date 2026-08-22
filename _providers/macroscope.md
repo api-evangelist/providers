@@ -143,7 +143,7 @@ overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Macroscope''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 12 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: thin
   composite: 32.9

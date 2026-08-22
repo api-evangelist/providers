@@ -116,7 +116,7 @@ overview: 'Huel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Huel''s developer surface includes support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: emerging
   composite: 19.5

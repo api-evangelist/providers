@@ -80,7 +80,7 @@ overview: 'wayup is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   wayup''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 119
+random_paper: 20
 score:
   band: emerging
   composite: 13.3

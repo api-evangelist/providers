@@ -312,7 +312,7 @@ overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 23 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 50.0

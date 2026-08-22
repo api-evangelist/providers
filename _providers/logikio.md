@@ -226,7 +226,7 @@ plans:
 - name: Logikio Plans Pricing
   plan_count: 0
   slug: logikio-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Logikio Rate Limits

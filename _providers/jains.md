@@ -88,7 +88,7 @@ overview: 'Jain Irrigation Systems Ltd is profiled on the [APIs.io](https://apis
 
 
   Jain Irrigation Systems Ltd''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: minimal
   composite: 10.4

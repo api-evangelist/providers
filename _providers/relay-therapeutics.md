@@ -108,7 +108,7 @@ overview: 'Relay Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Relay Therapeutics'' developer surface includes engineering blog, GitHub presence, and 14 more developer resources.'
-random_paper: 95
+random_paper: 14
 score:
   band: minimal
   composite: 4.2

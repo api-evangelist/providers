@@ -125,7 +125,7 @@ overview: 'Wing is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Wing''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 123
+random_paper: 13
 score:
   band: minimal
   composite: 5.9

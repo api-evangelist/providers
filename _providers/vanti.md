@@ -65,7 +65,7 @@ name: Vanti Analytics
 nav: Providers
 network: true
 overview: Vanti Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Manufacturing, Machine Learning, and Predictive Quality.
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 6.1

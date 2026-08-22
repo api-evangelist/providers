@@ -76,7 +76,7 @@ overview: 'Kaizen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kaizen''s developer surface includes support and 7 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

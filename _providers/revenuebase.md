@@ -257,7 +257,7 @@ plans:
 - name: Revenuebase Plans Pricing
   plan_count: 5
   slug: revenuebase-plans-pricing
-random_paper: 130
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Revenuebase Rate Limits

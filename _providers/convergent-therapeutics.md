@@ -95,7 +95,7 @@ overview: 'Convergent Therapeutics is profiled on the [APIs.io](https://apis.io/
 
 
   Convergent Therapeutics'' developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 41
+random_paper: 10
 score:
   band: minimal
   composite: 7.4

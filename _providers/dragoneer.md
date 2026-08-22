@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Dragoneer Investment Group
 nav: Providers
 network: true
-random_paper: 57
+random_paper: 6
 slug: dragoneer
 tags:
 - Venture Capital

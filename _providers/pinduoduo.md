@@ -49,7 +49,7 @@ name: Pinduoduo
 nav: Providers
 network: true
 overview: Pinduoduo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, E-Commerce, Marketplace, and Retail.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

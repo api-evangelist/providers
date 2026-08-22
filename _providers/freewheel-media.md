@@ -211,7 +211,7 @@ plans:
 - name: Freewheel Media Plans Pricing
   plan_count: 0
   slug: freewheel-media-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Freewheel Media Rate Limits

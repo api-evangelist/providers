@@ -53,7 +53,7 @@ name: Origin Bio
 nav: Providers
 network: true
 overview: Origin Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cancer Research, Spatial Genomics, and Transcriptomics.
-random_paper: 113
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

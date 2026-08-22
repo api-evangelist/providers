@@ -144,7 +144,7 @@ plans:
 - name: Golem Cloud Plans Pricing
   plan_count: 4
   slug: golem-cloud-plans-pricing
-random_paper: 69
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Golem Cloud Rate Limits

@@ -57,7 +57,7 @@ name: Songsterr
 nav: Providers
 network: true
 overview: Songsterr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 105
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

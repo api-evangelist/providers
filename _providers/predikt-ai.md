@@ -120,7 +120,7 @@ plans:
 - name: Predikt Ai Plans Pricing
   plan_count: 0
   slug: predikt-ai-plans-pricing
-random_paper: 108
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Predikt Ai Rate Limits

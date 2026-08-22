@@ -40,7 +40,7 @@ name: Beechwood Data Systems
 nav: Providers
 network: true
 overview: Beechwood Data Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Telecommunications, Systems Integration, and Enterprise Software.
-random_paper: 1
+random_paper: 10
 score:
   band: minimal
   composite: 0.6

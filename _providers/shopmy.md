@@ -235,7 +235,7 @@ plans:
 - name: Shopmy Plans Pricing
   plan_count: 0
   slug: shopmy-plans-pricing
-random_paper: 76
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Shopmy Rate Limits

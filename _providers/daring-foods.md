@@ -258,7 +258,7 @@ overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) net
 
 
   Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: developing
   composite: 39.4

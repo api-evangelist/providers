@@ -72,7 +72,7 @@ overview: 'Jiraaf is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Jiraaf''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: emerging
   composite: 11.9

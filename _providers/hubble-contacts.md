@@ -158,7 +158,7 @@ overview: 'Hubble Contacts publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Hubble Contacts'' developer surface includes signup flow, pricing, support, engineering blog, documentation, authentication, and 21 more developer resources.'
-random_paper: 44
+random_paper: 1
 scopes:
 - name: Hubble Contacts Scopes
   scope_count: 4

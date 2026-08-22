@@ -85,7 +85,7 @@ plans:
 - name: Avoindata Fi Plans Pricing
   plan_count: 1
   slug: avoindata-fi-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Avoindata Fi Rate Limits

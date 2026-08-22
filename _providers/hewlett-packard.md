@@ -56,7 +56,7 @@ name: hewlett-packard
 nav: Providers
 network: true
 overview: hewlett-packard is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 46
+random_paper: 3
 score:
   band: minimal
   composite: 3.9

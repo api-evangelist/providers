@@ -658,7 +658,7 @@ plans:
 - name: Weatherbit Plans Pricing
   plan_count: 6
   slug: weatherbit-plans-pricing
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 10
   name: Weatherbit Rate Limits

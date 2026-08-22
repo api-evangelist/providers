@@ -49,7 +49,7 @@ name: AnalytiChem
 nav: Providers
 network: true
 overview: AnalytiChem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Laboratory, Reference Materials, and Life Sciences.
-random_paper: 124
+random_paper: 12
 score:
   band: minimal
   composite: 2.2

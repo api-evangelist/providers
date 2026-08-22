@@ -108,7 +108,7 @@ overview: 'BlockFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BlockFi''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 134
+random_paper: 16
 score:
   band: emerging
   composite: 11.4

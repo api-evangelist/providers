@@ -45,7 +45,7 @@ name: BrightView Holdings
 nav: Providers
 network: true
 overview: BrightView Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 47
+random_paper: 10
 score:
   band: minimal
   composite: 2.6

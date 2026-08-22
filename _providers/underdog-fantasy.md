@@ -128,7 +128,7 @@ overview: 'Underdog Fantasy is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Underdog Fantasy''s developer surface includes signup flow, support, and 21 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: emerging
   composite: 11.8

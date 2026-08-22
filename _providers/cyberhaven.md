@@ -88,7 +88,7 @@ overview: 'Cyberhaven is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cyberhaven''s developer surface includes documentation, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: emerging
   composite: 18.5

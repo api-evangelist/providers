@@ -207,7 +207,7 @@ plans:
 - name: Punkapi Plans Pricing
   plan_count: 1
   slug: punkapi-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Punkapi Rate Limits

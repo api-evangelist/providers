@@ -173,7 +173,7 @@ plans:
 - name: Cosmoplat Plans Pricing
   plan_count: 0
   slug: cosmoplat-plans-pricing
-random_paper: 84
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Cosmoplat Rate Limits

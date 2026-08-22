@@ -112,7 +112,7 @@ plans:
 - name: University Of Wollongong Plans Pricing
   plan_count: 2
   slug: university-of-wollongong-plans-pricing
-random_paper: 135
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Wollongong Rate Limits

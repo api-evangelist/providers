@@ -57,7 +57,7 @@ name: BioOrbit
 nav: Providers
 network: true
 overview: BioOrbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Biotechnology, Pharmaceuticals, and Manufacturing.
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

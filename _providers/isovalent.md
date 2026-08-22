@@ -267,7 +267,7 @@ overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 30 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: thin
   composite: 35.6

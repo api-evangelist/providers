@@ -207,7 +207,7 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 30 more developer resources.'
-random_paper: 106
+random_paper: 19
 score:
   band: developing
   composite: 46.2

@@ -606,7 +606,7 @@ overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: developing
   composite: 46.6

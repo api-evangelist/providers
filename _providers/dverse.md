@@ -49,7 +49,7 @@ name: Dverse
 nav: Providers
 network: true
 overview: Dverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Twin, Geospatial, Data Visualization, and Infrastructure.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

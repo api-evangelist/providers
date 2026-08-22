@@ -197,7 +197,7 @@ overview: 'Niyo Solutions is profiled on the [APIs.io](https://apis.io/) network
 
 
   Niyo Solutions'' developer surface includes legal docs, privacy policy, engineering blog, YouTube channel, and 34 more developer resources.'
-random_paper: 10
+random_paper: 9
 score:
   band: minimal
   composite: 4.8

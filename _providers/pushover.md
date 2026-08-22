@@ -139,7 +139,7 @@ overview: 'Pushover publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Pushover''s developer surface includes documentation, pricing, signup flow, FAQ, support, engineering blog, and 5 more developer resources.'
-random_paper: 147
+random_paper: 10
 score:
   band: thin
   composite: 31.8

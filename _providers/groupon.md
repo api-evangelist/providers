@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Groupon, Inc. - Press Releases
   url: https://investor.groupon.com/press-releases/default.aspx
-random_paper: 33
+random_paper: 1
 score:
   band: minimal
   composite: 2.9

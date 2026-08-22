@@ -238,7 +238,7 @@ overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 140
+random_paper: 3
 scopes:
 - name: Polysign Scopes
   scope_count: 1

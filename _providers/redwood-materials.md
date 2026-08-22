@@ -104,7 +104,7 @@ overview: 'Redwood Materials is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Redwood Materials'' developer surface includes product news, engineering blog, and 15 more developer resources.'
-random_paper: 124
+random_paper: 20
 score:
   band: minimal
   composite: 10.4

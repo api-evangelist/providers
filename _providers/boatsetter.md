@@ -149,7 +149,7 @@ overview: 'Boatsetter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Boatsetter''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: emerging
   composite: 14.3

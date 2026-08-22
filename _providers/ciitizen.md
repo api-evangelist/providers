@@ -49,7 +49,7 @@ name: Ciitizen
 nav: Providers
 network: true
 overview: Ciitizen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Records, Patient Data, and Rare Disease.
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

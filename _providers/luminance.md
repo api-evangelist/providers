@@ -272,7 +272,7 @@ overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 62
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Luminance Rate Limits

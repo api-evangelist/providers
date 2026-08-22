@@ -131,7 +131,7 @@ plans:
 - name: Dazn Plans Pricing
   plan_count: 0
   slug: dazn-plans-pricing
-random_paper: 131
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Dazn Rate Limits

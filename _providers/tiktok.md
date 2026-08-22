@@ -283,7 +283,7 @@ plans:
 - name: Tiktok Plans Pricing
   plan_count: 4
   slug: tiktok-plans-pricing
-random_paper: 66
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Tiktok Rate Limits

@@ -68,7 +68,7 @@ overview: 'Polyup is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Polyup''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 85
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

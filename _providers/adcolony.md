@@ -149,7 +149,7 @@ plans:
 - name: Adcolony Plans Pricing
   plan_count: 0
   slug: adcolony-plans-pricing
-random_paper: 112
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Adcolony Rate Limits

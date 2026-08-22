@@ -251,7 +251,7 @@ plans:
 - name: Parallel Web Systems Plans Pricing
   plan_count: 1
   slug: parallel-web-systems-plans-pricing
-random_paper: 108
+random_paper: 8
 rate_limits:
 - limit_count: 8
   name: Parallel Web Systems Rate Limits

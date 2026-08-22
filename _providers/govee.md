@@ -133,7 +133,7 @@ plans:
 - name: Govee Plans Pricing
   plan_count: 2
   slug: govee-plans-pricing
-random_paper: 87
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Govee Rate Limits

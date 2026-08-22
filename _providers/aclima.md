@@ -84,7 +84,7 @@ overview: 'Aclima is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aclima''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 9.2

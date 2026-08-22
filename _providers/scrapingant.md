@@ -110,7 +110,7 @@ plans:
 - name: Scrapingant Plans Pricing
   plan_count: 3
   slug: scrapingant-plans-pricing
-random_paper: 135
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Scrapingant Rate Limits

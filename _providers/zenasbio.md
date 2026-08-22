@@ -49,7 +49,7 @@ name: Zenasbio
 nav: Providers
 network: true
 overview: Zenasbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Autoimmune, and Therapeutics.
-random_paper: 114
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

@@ -76,7 +76,7 @@ overview: 'Fairbanc is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fairbanc''s developer surface includes getting-started guide, support, and 6 more developer resources.'
-random_paper: 77
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

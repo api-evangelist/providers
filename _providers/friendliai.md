@@ -410,7 +410,7 @@ overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits

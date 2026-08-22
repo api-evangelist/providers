@@ -53,7 +53,7 @@ name: BYD
 nav: Providers
 network: true
 overview: BYD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Electric Vehicles, Automotive, and Batteries.
-random_paper: 21
+random_paper: 4
 score:
   band: minimal
   composite: 6.2

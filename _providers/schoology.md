@@ -185,7 +185,7 @@ plans:
 - name: Schoology Plans Pricing
   plan_count: 1
   slug: schoology-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Schoology Rate Limits

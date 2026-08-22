@@ -65,7 +65,7 @@ name: Tri Pointe Homes
 nav: Providers
 network: true
 overview: Tri Pointe Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Homebuilder, Mortgage, Real Estate, and Residential.
-random_paper: 130
+random_paper: 3
 score:
   band: minimal
   composite: 4.4

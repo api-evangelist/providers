@@ -243,7 +243,7 @@ plans:
 - name: Storylane Plans Pricing
   plan_count: 8
   slug: storylane-plans-pricing
-random_paper: 99
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Storylane Rate Limits

@@ -113,7 +113,7 @@ plans:
 - name: Cequence Plans Pricing
   plan_count: 3
   slug: cequence-plans-pricing
-random_paper: 96
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Cequence Rate Limits

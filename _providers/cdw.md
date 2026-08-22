@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence (AI) Solutions
   url: https://www.cdw.com/content/cdw/en/solutions/ai-and-data/artificial-intelligence-ai.html
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Cdw Rate Limits

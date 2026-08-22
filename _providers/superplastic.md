@@ -49,7 +49,7 @@ name: Superplastic
 nav: Providers
 network: true
 overview: Superplastic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Designer Toys, Collectibles, Entertainment, and E-Commerce.
-random_paper: 119
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

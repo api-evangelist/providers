@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: 'Energy Transfer''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/energy-transfer-ai-strategy-analysis-of-dominance-in-energy-ai/
-random_paper: 137
+random_paper: 0
 score:
   band: minimal
   composite: 2.6

@@ -240,7 +240,7 @@ plans:
 - name: Exentis Group Plans Pricing
   plan_count: 0
   slug: exentis-group-plans-pricing
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Exentis Group Rate Limits

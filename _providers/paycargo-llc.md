@@ -108,7 +108,7 @@ overview: 'PayCargo, LLC publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PayCargo, LLC''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 9 more developer resources.'
-random_paper: 22
+random_paper: 17
 score:
   band: thin
   composite: 28.3

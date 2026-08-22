@@ -168,7 +168,7 @@ overview: 'HCF is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   HCF''s developer surface includes authentication, support, YouTube channel, engineering blog, and 29 more developer resources.'
-random_paper: 7
+random_paper: 11
 scopes:
 - name: Hcf Scopes
   scope_count: 83

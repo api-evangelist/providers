@@ -173,7 +173,7 @@ overview: 'Landis+Gyr is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Landis+Gyr''s developer surface includes signup flow, developer portal, documentation, training material, support, engineering blog, YouTube channel, and 27 more developer resources.'
-random_paper: 124
+random_paper: 10
 score:
   band: thin
   composite: 27.2

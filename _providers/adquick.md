@@ -161,7 +161,7 @@ plans:
 - name: Adquick Plans Pricing
   plan_count: 0
   slug: adquick-plans-pricing
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Adquick Rate Limits

@@ -49,7 +49,7 @@ name: Audos
 nav: Providers
 network: true
 overview: Audos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Startup Studio, Venture Studio, and Entrepreneurship.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -361,7 +361,7 @@ overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   AngelCam''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 79
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Angelcam Rate Limits

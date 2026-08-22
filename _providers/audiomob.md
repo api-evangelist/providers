@@ -92,7 +92,7 @@ overview: 'Audiomob is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Audiomob''s developer surface includes documentation, signup flow, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 103
+random_paper: 8
 score:
   band: minimal
   composite: 10.9

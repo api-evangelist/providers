@@ -100,7 +100,7 @@ overview: 'InfiniGods is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   InfiniGods'' developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
-random_paper: 23
+random_paper: 16
 score:
   band: emerging
   composite: 11.0

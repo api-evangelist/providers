@@ -40,7 +40,7 @@ name: Illustra
 nav: Providers
 network: true
 overview: Illustra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Database, Object-Relational Database, and Acquired.
-random_paper: 135
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

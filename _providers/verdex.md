@@ -76,7 +76,7 @@ overview: 'Verdex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Verdex''s developer surface includes support and 7 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: minimal
   composite: 7.5

@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: 'CPKC''s AI Strategy: Analysis of Dominance in Rail ...'
   url: https://www.klover.ai/cpkc-ai-strategy-analysis-of-dominance-in-rail-transportation-ai/
-random_paper: 123
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

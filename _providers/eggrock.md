@@ -40,7 +40,7 @@ name: Eggrock
 nav: Providers
 network: true
 overview: Eggrock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Modular Construction, Prefabrication, and Manufacturing.
-random_paper: 142
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -77,7 +77,7 @@ overview: 'Liftoff is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Liftoff''s developer surface includes signup flow, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: emerging
   composite: 13.3

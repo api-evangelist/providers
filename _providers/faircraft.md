@@ -49,7 +49,7 @@ name: Faircraft
 nav: Providers
 network: true
 overview: Faircraft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cultivated Leather, Advanced Materials, and Sustainability.
-random_paper: 52
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

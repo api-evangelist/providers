@@ -604,7 +604,7 @@ plans:
 - name: Adobe Photoshop Plans Pricing
   plan_count: 4
   slug: adobe-photoshop-plans-pricing
-random_paper: 58
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Adobe Photoshop Rate Limits

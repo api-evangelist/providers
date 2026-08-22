@@ -113,7 +113,7 @@ plans:
 - name: Dragonfly Therapeutics Plans Pricing
   plan_count: 0
   slug: dragonfly-therapeutics-plans-pricing
-random_paper: 73
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Dragonfly Therapeutics Rate Limits

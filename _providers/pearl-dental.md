@@ -87,7 +87,7 @@ plans:
 - name: Pearl Dental Plans Pricing
   plan_count: 0
   slug: pearl-dental-plans-pricing
-random_paper: 17
+random_paper: 12
 score:
   band: minimal
   composite: 9.1

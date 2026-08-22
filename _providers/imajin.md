@@ -96,7 +96,7 @@ overview: 'Imajin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Imajin''s developer surface includes engineering blog, support, signup flow, YouTube channel, and 9 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 6.8

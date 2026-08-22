@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: 'Hanesbrands & Wipro: Advancing Digital Transformation ...'
   url: https://www.wipro.com/newsroom/press-releases/2024/hanesbrands-inc-strengthens-wipro-partnership-to-accelerate-digital-transformation/
-random_paper: 118
+random_paper: 6
 score:
   band: minimal
   composite: 4.4

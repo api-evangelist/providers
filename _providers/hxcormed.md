@@ -40,7 +40,7 @@ name: HXCORMED
 nav: Providers
 network: true
 overview: HXCORMED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 1.3

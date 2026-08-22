@@ -242,7 +242,7 @@ overview: 'ABB Robotics publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ABB Robotics'' developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 35 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: emerging
   composite: 20.4

@@ -107,7 +107,7 @@ overview: 'CAVA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CAVA''s developer surface includes support, signup flow, engineering blog, product news, and 14 more developer resources.'
-random_paper: 113
+random_paper: 12
 score:
   band: emerging
   composite: 15.0

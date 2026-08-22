@@ -854,7 +854,7 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 116
+random_paper: 8
 rules:
 - effective_rule_count: 6
   extends: []

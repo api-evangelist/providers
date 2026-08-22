@@ -278,7 +278,7 @@ plans:
 - name: Instapage Plans Pricing
   plan_count: 3
   slug: instapage-plans-pricing
-random_paper: 62
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Instapage Rate Limits

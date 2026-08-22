@@ -56,7 +56,7 @@ overview: 'Nabhdrishti Aerospace is profiled on the [APIs.io](https://apis.io/) 
 
 
   Nabhdrishti Aerospace''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 74
+random_paper: 18
 score:
   band: minimal
   composite: 3.8

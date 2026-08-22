@@ -184,7 +184,7 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 18 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: developing
   composite: 47.7

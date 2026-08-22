@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Press Resources | Newsroom
   url: https://www.intuitive.com/en-us/about-us/newsroom/press-resources
-random_paper: 108
+random_paper: 6
 score:
   band: minimal
   composite: 3.3

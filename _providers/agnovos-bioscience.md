@@ -103,7 +103,7 @@ overview: 'AgNovos Bioscience is profiled on the [APIs.io](https://apis.io/) net
 
 
   AgNovos Bioscience''s developer surface includes engineering blog, support, FAQ, and 9 more developer resources.'
-random_paper: 66
+random_paper: 6
 score:
   band: minimal
   composite: 10.5

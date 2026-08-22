@@ -100,7 +100,7 @@ overview: 'La Haus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   La Haus'' developer surface includes engineering blog, support, tooling, and 13 more developer resources.'
-random_paper: 87
+random_paper: 11
 score:
   band: emerging
   composite: 11.2

@@ -499,7 +499,7 @@ plans:
 - name: Honeycomb Io Plans Pricing
   plan_count: 4
   slug: honeycomb-io-plans-pricing
-random_paper: 33
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Honeycomb Io Rate Limits

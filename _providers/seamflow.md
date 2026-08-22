@@ -68,7 +68,7 @@ overview: 'Seamflow is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Seamflow''s developer surface includes support and 5 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 7.5

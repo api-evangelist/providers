@@ -73,7 +73,7 @@ plans:
 - name: Vidcruiter Plans Pricing
   plan_count: 1
   slug: vidcruiter-plans-pricing
-random_paper: 46
+random_paper: 18
 score:
   band: emerging
   composite: 12.1

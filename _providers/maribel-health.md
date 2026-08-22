@@ -49,7 +49,7 @@ name: Maribel Health
 nav: Providers
 network: true
 overview: Maribel Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Operational Intelligence, Home Health, and Hospice.
-random_paper: 66
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

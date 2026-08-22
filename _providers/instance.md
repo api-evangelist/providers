@@ -296,7 +296,7 @@ overview: 'Instance publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Instance''s developer surface includes support and 16 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: emerging
   composite: 22.3

@@ -40,7 +40,7 @@ name: Trading Machines
 nav: Providers
 network: true
 overview: Trading Machines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Trading, Options, and High Frequency Trading.
-random_paper: 140
+random_paper: 13
 score:
   band: minimal
   composite: 0.0

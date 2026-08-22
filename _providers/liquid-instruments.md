@@ -174,7 +174,7 @@ overview: 'Liquid Instruments publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Liquid Instruments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, pricing, and 26 more developer resources.'
-random_paper: 133
+random_paper: 10
 scopes:
 - name: Liquid Instruments Scopes
   scope_count: 5

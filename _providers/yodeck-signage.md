@@ -155,7 +155,7 @@ plans:
 - name: Yodeck Signage Plans Pricing
   plan_count: 4
   slug: yodeck-signage-plans-pricing
-random_paper: 77
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Yodeck Signage Rate Limits

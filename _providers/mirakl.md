@@ -360,7 +360,7 @@ plans:
 - name: Mirakl Plans Pricing
   plan_count: 3
   slug: mirakl-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 478
   name: Mirakl Rate Limits

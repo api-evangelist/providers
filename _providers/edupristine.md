@@ -49,7 +49,7 @@ name: EduPristine
 nav: Providers
 network: true
 overview: EduPristine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Training, and Finance.
-random_paper: 4
+random_paper: 20
 score:
   band: minimal
   composite: 2.5

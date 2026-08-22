@@ -80,7 +80,7 @@ overview: 'TransferRoom publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   TransferRoom''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 122
+random_paper: 12
 score:
   band: emerging
   composite: 14.6

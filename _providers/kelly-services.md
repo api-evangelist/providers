@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Kelly Services outlines mid-single-digit revenue decline for ...
   url: https://seekingalpha.com/news/4551293-kelly-services-outlines-mid-single-digit-revenue-decline-for-2026-as-technology-modernization
-random_paper: 117
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

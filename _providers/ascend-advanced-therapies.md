@@ -167,7 +167,7 @@ overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://a
 
 
   Ascend Advanced Therapies'' developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 115
+random_paper: 0
 score:
   band: thin
   composite: 29.2

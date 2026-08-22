@@ -127,7 +127,7 @@ plans:
 - name: Recipe Api Plans
   plan_count: 4
   slug: recipe-api-plans
-random_paper: 97
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits

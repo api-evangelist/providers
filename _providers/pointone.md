@@ -80,7 +80,7 @@ overview: 'Pointone is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pointone''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: emerging
   composite: 16.1

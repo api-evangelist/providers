@@ -198,7 +198,7 @@ overview: 'Quote Garden publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quote Garden''s developer surface includes developer portal and 10 more developer resources.'
-random_paper: 36
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []

@@ -490,7 +490,7 @@ plans:
 - name: Orion Health Plans Pricing
   plan_count: 1
   slug: orion-health-plans-pricing
-random_paper: 34
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Orion Health Rate Limits

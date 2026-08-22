@@ -60,7 +60,7 @@ overview: 'OpenEyes Insurance is profiled on the [APIs.io](https://apis.io/) net
 
 
   OpenEyes Insurance''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 97
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

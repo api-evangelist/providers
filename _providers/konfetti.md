@@ -213,7 +213,7 @@ overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
-random_paper: 123
+random_paper: 7
 score:
   band: thin
   composite: 35.7

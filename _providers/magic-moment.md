@@ -158,7 +158,7 @@ plans:
 - name: Magic Moment Plans Pricing
   plan_count: 2
   slug: magic-moment-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Magic Moment Rate Limits

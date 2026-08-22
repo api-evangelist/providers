@@ -94,7 +94,7 @@ press:
 - date: '2026-05-13'
   title: FOSSIL Group, Inc. Reports First Quarter 2026 Financial Results
   url: https://www.fossilgroup.com/wp-content/uploads/2026/05/Q1-2026-Earnings-release.pdf
-random_paper: 66
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

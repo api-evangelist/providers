@@ -233,7 +233,7 @@ plans:
 - name: Abloatai Plans Pricing
   plan_count: 3
   slug: abloatai-plans-pricing
-random_paper: 84
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Abloatai Rate Limits

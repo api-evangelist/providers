@@ -283,7 +283,7 @@ plans:
 - name: Agntcy Plans Pricing
   plan_count: 0
   slug: agntcy-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Agntcy Rate Limits

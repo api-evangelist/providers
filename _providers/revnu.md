@@ -206,7 +206,7 @@ plans:
 - name: Revnu Plans Pricing
   plan_count: 1
   slug: revnu-plans-pricing
-random_paper: 113
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Revnu Rate Limits

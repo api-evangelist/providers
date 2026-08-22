@@ -386,7 +386,7 @@ plans:
 - name: Gitpod Plans Pricing
   plan_count: 2
   slug: gitpod-plans-pricing
-random_paper: 51
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Gitpod Rate Limits

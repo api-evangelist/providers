@@ -244,7 +244,7 @@ overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abound''s developer surface includes authentication, sandbox, and 20 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 35.6

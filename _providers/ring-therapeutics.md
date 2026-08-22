@@ -107,7 +107,7 @@ overview: 'Ring Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Ring Therapeutics'' developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 135
+random_paper: 10
 score:
   band: minimal
   composite: 10.6

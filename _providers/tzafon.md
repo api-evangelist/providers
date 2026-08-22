@@ -161,7 +161,7 @@ overview: 'Tzafon publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 20 more developer resources.'
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Tzafon Rate Limits

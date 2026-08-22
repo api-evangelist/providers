@@ -214,7 +214,7 @@ plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
   slug: wahoo-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Wahoo Rate Limits

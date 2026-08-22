@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: Tokio Marine to buy HCC Insurance for $7.5 billion
   url: https://www.reuters.com/article/business/tokio-marine-to-buy-hcc-insurance-for-75-billion-idUSKBN0OQ0KU/
-random_paper: 130
+random_paper: 11
 score:
   band: minimal
   composite: 2.7

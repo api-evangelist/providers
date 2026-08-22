@@ -148,7 +148,7 @@ overview: 'Nova Lima publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Nova Lima''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Nova Lima Rate Limits

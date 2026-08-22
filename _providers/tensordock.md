@@ -369,7 +369,7 @@ plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits

@@ -113,7 +113,7 @@ plans:
 - name: Makrwatch Plans Pricing
   plan_count: 0
   slug: makrwatch-plans-pricing
-random_paper: 68
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Makrwatch Rate Limits

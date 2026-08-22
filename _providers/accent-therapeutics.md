@@ -64,7 +64,7 @@ overview: 'Accent Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Accent Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 9.5

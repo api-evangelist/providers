@@ -202,7 +202,7 @@ name: Sageox
 nav: Providers
 network: true
 overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company.
-random_paper: 51
+random_paper: 17
 scopes:
 - name: Sageox Scopes
   scope_count: 4

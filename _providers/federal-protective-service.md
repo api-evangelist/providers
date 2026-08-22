@@ -53,7 +53,7 @@ name: Federal Protective Service
 nav: Providers
 network: true
 overview: Federal Protective Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Security, and Law Enforcement.
-random_paper: 126
+random_paper: 13
 score:
   band: minimal
   composite: 2.5

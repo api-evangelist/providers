@@ -80,7 +80,7 @@ overview: 'XING Mobility is profiled on the [APIs.io](https://apis.io/) network.
 
 
   XING Mobility''s developer surface includes YouTube channel and 8 more developer resources.'
-random_paper: 15
+random_paper: 12
 score:
   band: minimal
   composite: 4.4

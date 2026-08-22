@@ -3500,7 +3500,7 @@ overview: 'Amazon CodeDeploy publishes 49 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 25 more developer resources.'
-random_paper: 116
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []

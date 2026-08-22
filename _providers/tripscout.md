@@ -60,7 +60,7 @@ overview: 'TripScout is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TripScout''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 111
+random_paper: 18
 score:
   band: minimal
   composite: 7.6

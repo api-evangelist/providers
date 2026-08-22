@@ -198,7 +198,7 @@ overview: 'Firebase publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 27 more developer resources.'
-random_paper: 88
+random_paper: 14
 scopes:
 - name: Firebase Scopes
   scope_count: 8

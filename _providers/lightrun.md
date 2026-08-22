@@ -329,7 +329,7 @@ overview: 'Lightrun publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 132
+random_paper: 16
 scopes:
 - name: Lightrun Scopes
   scope_count: 0

@@ -128,7 +128,7 @@ plans:
 - name: Sutra Ai Plans Pricing
   plan_count: 3
   slug: sutra-ai-plans-pricing
-random_paper: 61
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Sutra Ai Rate Limits

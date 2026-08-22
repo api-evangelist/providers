@@ -57,7 +57,7 @@ name: Optain
 nav: Providers
 network: true
 overview: Optain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Medical Imaging, and Ophthalmology.
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 6.2

@@ -68,7 +68,7 @@ overview: 'Peddlr is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Peddlr''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 2.5

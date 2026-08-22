@@ -166,7 +166,7 @@ plans:
 - name: Pega Plans Pricing
   plan_count: 4
   slug: pega-plans-pricing
-random_paper: 115
+random_paper: 14
 score:
   band: developing
   composite: 42.3

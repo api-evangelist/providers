@@ -315,7 +315,7 @@ plans:
 - name: Beyond Identity Plans Pricing
   plan_count: 3
   slug: beyond-identity-plans-pricing
-random_paper: 70
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Beyond Identity Rate Limits

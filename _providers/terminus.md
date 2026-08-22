@@ -158,7 +158,7 @@ plans:
 - name: Terminus Plans Pricing
   plan_count: 0
   slug: terminus-plans-pricing
-random_paper: 142
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Terminus Rate Limits

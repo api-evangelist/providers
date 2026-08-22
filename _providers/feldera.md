@@ -233,7 +233,7 @@ overview: 'Feldera publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 127
+random_paper: 9
 score:
   band: strong
   composite: 58.7

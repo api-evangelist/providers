@@ -125,7 +125,7 @@ plans:
 - name: Crowdhealth Plans Pricing
   plan_count: 1
   slug: crowdhealth-plans-pricing
-random_paper: 130
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Crowdhealth Rate Limits

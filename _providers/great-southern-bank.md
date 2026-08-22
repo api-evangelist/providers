@@ -201,7 +201,7 @@ overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Great Southern Bank''s developer surface includes authentication, API reference, developer portal, documentation, support, engineering blog, and 20 more developer resources.'
-random_paper: 133
+random_paper: 10
 scopes:
 - name: Great Southern Bank Scopes
   scope_count: 13

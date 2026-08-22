@@ -223,7 +223,7 @@ plans:
 - name: 99Designs Plans Pricing
   plan_count: 0
   slug: 99designs-plans-pricing
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: 99Designs Rate Limits

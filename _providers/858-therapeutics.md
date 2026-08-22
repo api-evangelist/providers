@@ -60,7 +60,7 @@ overview: '858 Therapeutics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   858 Therapeutics'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 17
+random_paper: 16
 score:
   band: minimal
   composite: 4.7

@@ -193,7 +193,7 @@ plans:
 - name: Fipto Plans Pricing
   plan_count: 0
   slug: fipto-plans-pricing
-random_paper: 99
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Fipto Rate Limits

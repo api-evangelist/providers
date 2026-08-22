@@ -61,7 +61,7 @@ name: Scout
 nav: Providers
 network: true
 overview: Scout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Satellite, and Space Domain Awareness.
-random_paper: 111
+random_paper: 12
 score:
   band: minimal
   composite: 9.2

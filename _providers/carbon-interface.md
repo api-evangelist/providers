@@ -57,7 +57,7 @@ name: Carbon Interface
 nav: Providers
 network: true
 overview: Carbon Interface publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 129
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

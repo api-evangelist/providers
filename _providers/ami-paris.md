@@ -97,7 +97,7 @@ overview: 'AMI Paris publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   AMI Paris'' developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 5
+random_paper: 17
 scopes:
 - name: Ami Paris Scopes
   scope_count: 4

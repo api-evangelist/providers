@@ -80,7 +80,7 @@ overview: 'ComparaOnline is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ComparaOnline''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: minimal
   composite: 3.1

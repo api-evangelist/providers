@@ -202,7 +202,7 @@ overview: 'DNAnexus publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   DNAnexus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, developer console, pricing, and 33 more developer resources.'
-random_paper: 125
+random_paper: 9
 rate_limits:
 - limit_count: 8
   name: Dnanexus Rate Limits

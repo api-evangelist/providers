@@ -429,7 +429,7 @@ overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: developing
   composite: 52.1

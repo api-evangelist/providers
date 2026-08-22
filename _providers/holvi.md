@@ -193,7 +193,7 @@ overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: developing
   composite: 47.5

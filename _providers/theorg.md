@@ -182,7 +182,7 @@ plans:
 - name: Theorg Plans Pricing
   plan_count: 4
   slug: theorg-plans-pricing
-random_paper: 53
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Theorg Rate Limits

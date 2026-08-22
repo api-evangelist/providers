@@ -126,7 +126,7 @@ plans:
 - name: Bikky Plans Pricing
   plan_count: 0
   slug: bikky-plans-pricing
-random_paper: 91
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Bikky Rate Limits

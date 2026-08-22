@@ -45,7 +45,7 @@ name: Playbrush
 nav: Providers
 network: true
 overview: Playbrush is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oral Care, Consumer Hardware, Smart Toothbrush, and IoT.
-random_paper: 92
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

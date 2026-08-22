@@ -125,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: $6 Billion Merger with CenterPoint Energy, Inc. | Experience
   url: https://www.bakerbotts.com/experience/v/vectren-corporation--6-billion-merger-wi
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Vectren Rate Limits

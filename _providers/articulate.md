@@ -145,7 +145,7 @@ overview: 'Articulate is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Articulate''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 27
+random_paper: 20
 scopes:
 - name: Articulate Scopes
   scope_count: 7

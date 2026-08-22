@@ -73,7 +73,7 @@ name: Infera
 nav: Providers
 network: true
 overview: Infera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laboratory Automation, Biotech, Life Sciences, and Artificial Intelligence.
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 15.6

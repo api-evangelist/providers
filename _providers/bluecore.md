@@ -287,7 +287,7 @@ plans:
 - name: Bluecore Plans Pricing
   plan_count: 0
   slug: bluecore-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Bluecore Rate Limits

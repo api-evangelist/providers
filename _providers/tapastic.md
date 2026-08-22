@@ -45,7 +45,7 @@ name: Tapastic
 nav: Providers
 network: true
 overview: Tapastic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Webcomics, Web Novels, Digital Publishing, and Entertainment.
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

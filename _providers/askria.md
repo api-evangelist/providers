@@ -76,7 +76,7 @@ overview: 'Askria is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Askria''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 15.4

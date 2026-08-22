@@ -76,7 +76,7 @@ overview: 'Complori is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Complori''s developer surface includes pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 124
+random_paper: 8
 score:
   band: emerging
   composite: 15.1

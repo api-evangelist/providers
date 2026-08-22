@@ -158,7 +158,7 @@ press:
 - date: '2026-05-25'
   title: Tetra Tech acquires Halvik to expand data analytics and AI ...
   url: https://ng.investing.com/news/company-news/tetra-tech-acquires-halvik-to-expand-data-analytics-and-ai-services-93CH-2301323
-random_paper: 115
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Tetra Tech Rate Limits

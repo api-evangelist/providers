@@ -120,7 +120,7 @@ plans:
 - name: Avenue Plans Pricing
   plan_count: 2
   slug: avenue-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Avenue Rate Limits

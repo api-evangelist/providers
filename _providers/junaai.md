@@ -85,7 +85,7 @@ overview: 'Juna.ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Juna.ai''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 8.4

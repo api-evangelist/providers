@@ -73,7 +73,7 @@ name: Baxus
 nav: Providers
 network: true
 overview: Baxus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Solana, and NFT.
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Baxus Rate Limits

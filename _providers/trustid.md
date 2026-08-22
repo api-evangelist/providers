@@ -53,7 +53,7 @@ name: Trustid
 nav: Providers
 network: true
 overview: Trustid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Caller Authentication, Identity, Fraud Prevention, and Call Centers.
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 2.6

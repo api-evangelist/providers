@@ -45,7 +45,7 @@ name: Sqoot
 nav: Providers
 network: true
 overview: Sqoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 119
+random_paper: 20
 score:
   band: minimal
   composite: 3.2

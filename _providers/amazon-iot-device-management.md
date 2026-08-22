@@ -2592,7 +2592,7 @@ plans:
 - name: Amazon Iot Device Management Plans Pricing
   plan_count: 3
   slug: amazon-iot-device-management-plans-pricing
-random_paper: 108
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Device Management Rate Limits

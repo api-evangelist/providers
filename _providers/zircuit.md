@@ -159,7 +159,7 @@ overview: 'Zircuit publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: developing
   composite: 45.5

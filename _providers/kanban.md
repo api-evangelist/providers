@@ -170,7 +170,7 @@ plans:
 - name: Kanban Plans Pricing
   plan_count: 3
   slug: kanban-plans-pricing
-random_paper: 23
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Kanban Rate Limits

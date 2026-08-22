@@ -96,7 +96,7 @@ overview: 'August is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   August''s developer surface includes support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 69
+random_paper: 14
 score:
   band: emerging
   composite: 16.1

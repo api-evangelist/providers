@@ -101,7 +101,7 @@ name: Assured Allies
 nav: Providers
 network: true
 overview: Assured Allies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Long-Term Care, and Health.
-random_paper: 97
+random_paper: 10
 score:
   band: emerging
   composite: 18.8

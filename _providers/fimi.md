@@ -72,7 +72,7 @@ overview: 'FIMI Technology is profiled on the [APIs.io](https://apis.io/) networ
 
 
   FIMI Technology''s developer surface includes support and 6 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 6.0

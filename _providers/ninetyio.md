@@ -234,7 +234,7 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ninety.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 134
+random_paper: 18
 score:
   band: developing
   composite: 46.7

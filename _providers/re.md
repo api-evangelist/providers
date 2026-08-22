@@ -180,7 +180,7 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 
 
   Re''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 18 more developer resources.'
-random_paper: 66
+random_paper: 5
 score:
   band: developing
   composite: 40.9

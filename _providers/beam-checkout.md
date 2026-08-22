@@ -176,7 +176,7 @@ overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Beam Checkout''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 21 more developer resources.'
-random_paper: 112
+random_paper: 2
 score:
   band: strong
   composite: 54.5

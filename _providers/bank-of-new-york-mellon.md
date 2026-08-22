@@ -315,7 +315,7 @@ press:
 - date: '2026-05-25'
   title: BNY Shares Jump 65% As AI Hiring Push Accelerates
   url: https://finance.yahoo.com/sectors/technology/articles/bny-shares-jump-65-ai-115004909.html
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Bank Of New York Mellon Rate Limits

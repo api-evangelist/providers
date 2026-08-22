@@ -76,7 +76,7 @@ overview: 'Bacca.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bacca.ai''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 96
+random_paper: 20
 score:
   band: emerging
   composite: 11.5

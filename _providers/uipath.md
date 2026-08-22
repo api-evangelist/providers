@@ -1484,7 +1484,7 @@ plans:
 - name: Uipath Plans Pricing
   plan_count: 5
   slug: uipath-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Uipath Rate Limits

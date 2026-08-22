@@ -150,7 +150,7 @@ plans:
 - name: Bonjoro Plans Pricing
   plan_count: 5
   slug: bonjoro-plans-pricing
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Bonjoro Rate Limits

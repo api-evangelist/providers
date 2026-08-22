@@ -60,7 +60,7 @@ overview: 'Ateios is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ateios'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 4.7

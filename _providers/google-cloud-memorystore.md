@@ -158,7 +158,7 @@ plans:
 - name: Google Cloud Memorystore Plans Pricing
   plan_count: 3
   slug: google-cloud-memorystore-plans-pricing
-random_paper: 100
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Cloud Memorystore Rate Limits

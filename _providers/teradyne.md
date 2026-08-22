@@ -52,7 +52,7 @@ overview: 'Teradyne is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Teradyne''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: minimal
   composite: 3.1

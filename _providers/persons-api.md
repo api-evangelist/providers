@@ -87,7 +87,7 @@ plans:
 - name: Persons Api Plans Pricing
   plan_count: 3
   slug: persons-api-plans-pricing
-random_paper: 94
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Persons Api Rate Limits

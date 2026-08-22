@@ -40,7 +40,7 @@ name: Kabbage
 nav: Providers
 network: true
 overview: Kabbage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Small Business Lending, Cash Flow, and Working Capital.
-random_paper: 105
+random_paper: 8
 score:
   band: minimal
   composite: 0.1

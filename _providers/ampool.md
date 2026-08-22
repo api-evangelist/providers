@@ -45,7 +45,7 @@ name: Ampool
 nav: Providers
 network: true
 overview: Ampool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 52
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

@@ -555,7 +555,7 @@ overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) networ
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 66
+random_paper: 15
 score:
   band: thin
   composite: 36.2

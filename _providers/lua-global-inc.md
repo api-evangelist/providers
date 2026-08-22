@@ -172,7 +172,7 @@ overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Lua Global Inc''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, authentication, and 21 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: thin
   composite: 37.0

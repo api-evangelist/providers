@@ -175,7 +175,7 @@ plans:
 - name: Go Electra Plans Pricing
   plan_count: 4
   slug: go-electra-plans-pricing
-random_paper: 101
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Go Electra Rate Limits

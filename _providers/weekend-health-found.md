@@ -72,7 +72,7 @@ overview: 'Weekend Health (Found) is profiled on the [APIs.io](https://apis.io/)
 
 
   Weekend Health (Found)''s developer surface includes support, engineering blog, pricing, and 4 more developer resources.'
-random_paper: 62
+random_paper: 4
 score:
   band: emerging
   composite: 12.6

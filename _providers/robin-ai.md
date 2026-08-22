@@ -304,7 +304,7 @@ plans:
 - name: Robin Ai Plans Pricing
   plan_count: 4
   slug: robin-ai-plans-pricing
-random_paper: 40
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Robin Ai Rate Limits

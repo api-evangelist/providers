@@ -80,7 +80,7 @@ overview: 'BentoBox is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BentoBox''s developer surface includes support, engineering blog, tooling, and 6 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 4.7

@@ -40,7 +40,7 @@ name: AppAssure Software (Dell)
 nav: Providers
 network: true
 overview: AppAssure Software (Dell) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Disaster Recovery, Data Protection, and Replication.
-random_paper: 127
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

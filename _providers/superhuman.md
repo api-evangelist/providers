@@ -116,7 +116,7 @@ overview: 'Superhuman is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Superhuman''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: emerging
   composite: 25.8

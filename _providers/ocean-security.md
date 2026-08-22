@@ -165,7 +165,7 @@ overview: 'Ocean Security publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 110
+random_paper: 2
 score:
   band: developing
   composite: 40.5

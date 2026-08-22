@@ -57,7 +57,7 @@ name: Digg
 nav: Providers
 network: true
 overview: Digg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, News Aggregation, Social News, Content Curation, and Technology.
-random_paper: 113
+random_paper: 12
 score:
   band: minimal
   composite: 7.1

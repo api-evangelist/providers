@@ -84,7 +84,7 @@ overview: 'Prime Roots publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Prime Roots'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 110
+random_paper: 19
 score:
   band: emerging
   composite: 13.4

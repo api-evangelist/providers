@@ -84,7 +84,7 @@ overview: 'Nolla Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Nolla Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 17.4

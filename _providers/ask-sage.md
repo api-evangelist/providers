@@ -373,7 +373,7 @@ overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: developing
   composite: 44.8

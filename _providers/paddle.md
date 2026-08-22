@@ -201,7 +201,7 @@ plans:
 - name: Paddle Plans Pricing
   plan_count: 2
   slug: paddle-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Paddle Rate Limits

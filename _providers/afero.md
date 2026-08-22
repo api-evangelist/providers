@@ -211,7 +211,7 @@ overview: 'Afero publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 27 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: developing
   composite: 52.7

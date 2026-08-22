@@ -73,7 +73,7 @@ name: Archimetis
 nav: Providers
 network: true
 overview: Archimetis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Industrial, Refining, and Chemicals.
-random_paper: 22
+random_paper: 15
 score:
   band: minimal
   composite: 6.2

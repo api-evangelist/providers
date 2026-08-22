@@ -151,7 +151,7 @@ overview: 'Aryaka is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aryaka''s developer surface includes documentation, getting-started guide, support, engineering blog, FAQ, legal docs, authentication, and 19 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: developing
   composite: 40.7

@@ -72,7 +72,7 @@ overview: 'Rithm Capital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Rithm Capital''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 135
+random_paper: 4
 score:
   band: minimal
   composite: 4.9

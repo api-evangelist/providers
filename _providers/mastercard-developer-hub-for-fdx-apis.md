@@ -290,7 +290,7 @@ plans:
 - name: Mastercard Developer Hub For Fdx Apis Plans Pricing
   plan_count: 3
   slug: mastercard-developer-hub-for-fdx-apis-plans-pricing
-random_paper: 74
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Mastercard Developer Hub For Fdx Apis Rate Limits

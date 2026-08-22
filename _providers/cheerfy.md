@@ -146,7 +146,7 @@ plans:
 - name: Cheerfy Plans Pricing
   plan_count: 3
   slug: cheerfy-plans-pricing
-random_paper: 146
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Cheerfy Rate Limits

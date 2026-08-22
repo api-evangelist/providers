@@ -186,7 +186,7 @@ plans:
 - name: Read Ai Plans
   plan_count: 4
   slug: read-ai-plans
-random_paper: 63
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Read Ai Rate Limits

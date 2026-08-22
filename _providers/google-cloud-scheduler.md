@@ -105,7 +105,7 @@ plans:
 - name: Google Cloud Scheduler Plans Pricing
   plan_count: 3
   slug: google-cloud-scheduler-plans-pricing
-random_paper: 135
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Google Cloud Scheduler Rate Limits

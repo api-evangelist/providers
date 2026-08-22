@@ -129,7 +129,7 @@ overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 16 more developer resources.'
-random_paper: 64
+random_paper: 9
 score:
   band: emerging
   composite: 15.0

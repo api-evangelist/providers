@@ -89,7 +89,7 @@ name: Alexandria Real Estate Equities
 nav: Providers
 network: true
 overview: Alexandria Real Estate Equities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Life Sciences, REIT, Commercial Real Estate, and Biotechnology.
-random_paper: 143
+random_paper: 15
 score:
   band: minimal
   composite: 2.8

@@ -76,7 +76,7 @@ overview: 'Standard Chartered is profiled on the [APIs.io](https://apis.io/) net
 
 
   Standard Chartered''s developer surface includes product news, engineering blog, and 6 more developer resources.'
-random_paper: 52
+random_paper: 13
 score:
   band: minimal
   composite: 1.0

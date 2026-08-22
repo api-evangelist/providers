@@ -103,7 +103,7 @@ overview: 'Biofourmis is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Biofourmis'' developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 44
+random_paper: 16
 score:
   band: emerging
   composite: 11.2

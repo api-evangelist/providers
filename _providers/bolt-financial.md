@@ -211,7 +211,7 @@ overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 70
+random_paper: 4
 scopes:
 - name: Bolt Financial Scopes
   scope_count: 4

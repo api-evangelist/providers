@@ -72,7 +72,7 @@ overview: 'Heart Aerospace is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Heart Aerospace''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 6.4

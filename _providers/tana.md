@@ -193,7 +193,7 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 122
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits

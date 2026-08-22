@@ -57,7 +57,7 @@ name: Aestheticpartners
 nav: Providers
 network: true
 overview: Aestheticpartners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Aesthetics, Healthcare, Dermatology, and Plastic Surgery.
-random_paper: 45
+random_paper: 6
 score:
   band: minimal
   composite: 9.0

@@ -340,7 +340,7 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 65
+random_paper: 8
 score:
   band: developing
   composite: 53.0

@@ -96,7 +96,7 @@ overview: 'DeepHow is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DeepHow''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: emerging
   composite: 19.3

@@ -681,7 +681,7 @@ plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 43
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits

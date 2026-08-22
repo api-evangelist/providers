@@ -84,7 +84,7 @@ overview: 'Hrmony is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hrmony''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 13.0

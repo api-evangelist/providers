@@ -96,7 +96,7 @@ overview: 'Concourse is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Concourse''s developer surface includes documentation, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: emerging
   composite: 16.8

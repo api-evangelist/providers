@@ -111,7 +111,7 @@ overview: 'Linqto publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Linqto''s developer surface includes engineering blog, support, FAQ, getting-started guide, signup flow, and 12 more developer resources.'
-random_paper: 67
+random_paper: 12
 score:
   band: emerging
   composite: 17.4

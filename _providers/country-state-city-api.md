@@ -170,7 +170,7 @@ plans:
 - name: Country State City Api Plans Pricing
   plan_count: 3
   slug: country-state-city-api-plans-pricing
-random_paper: 137
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Country State City Api Rate Limits

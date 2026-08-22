@@ -64,7 +64,7 @@ overview: 'Modak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Modak''s developer surface includes support and 4 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: minimal
   composite: 8.2

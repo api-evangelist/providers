@@ -193,7 +193,7 @@ overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 32
+random_paper: 4
 scopes:
 - name: Brooklinen Scopes
   scope_count: 4

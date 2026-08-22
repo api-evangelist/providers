@@ -174,7 +174,7 @@ overview: 'Episerver publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Episerver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: developing
   composite: 48.7

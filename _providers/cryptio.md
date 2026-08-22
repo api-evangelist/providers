@@ -80,7 +80,7 @@ overview: 'Cryptio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cryptio''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: emerging
   composite: 15.4

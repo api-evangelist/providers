@@ -175,7 +175,7 @@ overview: 'Worders publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Worders'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: thin
   composite: 30.2

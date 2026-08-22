@@ -64,7 +64,7 @@ overview: 'Kony is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kony''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: minimal
   composite: 6.0

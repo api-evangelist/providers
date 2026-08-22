@@ -64,7 +64,7 @@ overview: 'Swiggy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Swiggy''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 9.7

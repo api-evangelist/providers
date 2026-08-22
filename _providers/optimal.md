@@ -72,7 +72,7 @@ overview: 'Optimal is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Optimal''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 10.0

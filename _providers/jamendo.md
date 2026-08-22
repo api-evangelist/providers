@@ -57,7 +57,7 @@ name: Jamendo
 nav: Providers
 network: true
 overview: Jamendo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

@@ -375,7 +375,7 @@ plans:
 - name: Factorial Plans Pricing
   plan_count: 5
   slug: factorial-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Factorial Rate Limits

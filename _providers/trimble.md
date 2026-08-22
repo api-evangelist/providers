@@ -289,7 +289,7 @@ plans:
 - name: Trimble Plans Pricing
   plan_count: 1
   slug: trimble-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Trimble Rate Limits

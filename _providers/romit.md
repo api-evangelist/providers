@@ -144,7 +144,7 @@ overview: 'Romit publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Romit''s developer surface includes authentication, sandbox, and 8 more developer resources.'
-random_paper: 108
+random_paper: 9
 scopes:
 - name: Romit Scopes
   scope_count: 15

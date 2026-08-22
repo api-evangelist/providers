@@ -99,7 +99,7 @@ plans:
 - name: Bureau Of Ocean Energy Management Plans Pricing
   plan_count: 3
   slug: bureau-of-ocean-energy-management-plans-pricing
-random_paper: 129
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bureau Of Ocean Energy Management Rate Limits

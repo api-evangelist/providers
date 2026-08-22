@@ -60,7 +60,7 @@ overview: 'Cova is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cova''s developer surface includes support and 3 more developer resources.'
-random_paper: 127
+random_paper: 5
 score:
   band: minimal
   composite: 4.3

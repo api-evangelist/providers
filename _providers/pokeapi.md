@@ -751,7 +751,7 @@ overview: 'PokéAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 13 more developer resources.'
-random_paper: 0
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []

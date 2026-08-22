@@ -221,7 +221,7 @@ overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 23 more developer resources.'
-random_paper: 106
+random_paper: 15
 score:
   band: developing
   composite: 53.2

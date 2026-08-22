@@ -134,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: Thrivent Financial for Lutherans'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12298853
-random_paper: 132
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Thrivent Financial For Lutherans Rate Limits

@@ -45,7 +45,7 @@ name: Kiira
 nav: Providers
 network: true
 overview: Kiira is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Digital Health, and Student Health.
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 2.2

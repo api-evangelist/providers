@@ -165,7 +165,7 @@ plans:
 - name: Vitess Plans Pricing
   plan_count: 1
   slug: vitess-plans-pricing
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Vitess Rate Limits

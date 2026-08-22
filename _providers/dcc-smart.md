@@ -219,7 +219,7 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 33 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: developing
   composite: 46.4

@@ -45,7 +45,7 @@ name: Frontier Car group
 nav: Providers
 network: true
 overview: Frontier Car group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Automotive, Used Cars, and Emerging Markets.
-random_paper: 42
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

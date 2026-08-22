@@ -56,7 +56,7 @@ overview: 'Tellabs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tellabs'' developer surface includes documentation, support, and 1 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 3.4

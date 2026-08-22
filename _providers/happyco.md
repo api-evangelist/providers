@@ -176,7 +176,7 @@ overview: 'HappyCo publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   HappyCo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: developing
   composite: 45.8

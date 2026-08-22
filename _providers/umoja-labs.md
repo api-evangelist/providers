@@ -68,7 +68,7 @@ overview: 'Umoja Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Umoja Labs'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 109
+random_paper: 16
 score:
   band: minimal
   composite: 6.6

@@ -244,7 +244,7 @@ plans:
 - name: Stackadapt Plans Pricing
   plan_count: 5
   slug: stackadapt-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Stackadapt Rate Limits

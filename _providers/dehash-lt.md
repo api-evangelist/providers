@@ -53,7 +53,7 @@ name: Dehash.lt
 nav: Providers
 network: true
 overview: Dehash.lt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 145
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

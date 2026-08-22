@@ -202,7 +202,7 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 90
+random_paper: 16
 score:
   band: developing
   composite: 50.9

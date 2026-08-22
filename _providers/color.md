@@ -191,7 +191,7 @@ plans:
 - name: Color Plans Pricing
   plan_count: 0
   slug: color-plans-pricing
-random_paper: 96
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Color Rate Limits

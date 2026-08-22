@@ -53,7 +53,7 @@ name: PenFed Credit Union
 nav: Providers
 network: true
 overview: PenFed Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Credit Union, United States, and Open Finance.
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 5.2

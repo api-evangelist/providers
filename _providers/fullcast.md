@@ -216,7 +216,7 @@ plans:
 - name: Fullcast Plans Pricing
   plan_count: 3
   slug: fullcast-plans-pricing
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Fullcast Rate Limits

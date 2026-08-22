@@ -261,7 +261,7 @@ overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Embat''s developer surface includes documentation, API reference, authentication, sandbox, and 13 more developer resources.'
-random_paper: 74
+random_paper: 17
 score:
   band: thin
   composite: 29.6

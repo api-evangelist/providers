@@ -132,7 +132,7 @@ overview: 'Get Covered publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Get Covered''s developer surface includes developer portal, documentation, engineering blog, support, and 19 more developer resources.'
-random_paper: 66
+random_paper: 17
 score:
   band: emerging
   composite: 24.9

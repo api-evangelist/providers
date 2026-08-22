@@ -193,7 +193,7 @@ overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 64
+random_paper: 9
 score:
   band: thin
   composite: 36.6

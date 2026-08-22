@@ -144,7 +144,7 @@ overview: 'Drillinginfo publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Drillinginfo''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 15 more developer resources.'
-random_paper: 89
+random_paper: 0
 score:
   band: thin
   composite: 31.6

@@ -184,7 +184,7 @@ overview: 'Sifflet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Sifflet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, authentication, and 24 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: developing
   composite: 45.1

@@ -64,7 +64,7 @@ overview: 'Qardy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Qardy''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 98
+random_paper: 20
 score:
   band: minimal
   composite: 9.4

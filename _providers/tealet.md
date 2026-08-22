@@ -92,7 +92,7 @@ overview: 'Tealet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tealet''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: emerging
   composite: 14.0

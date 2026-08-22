@@ -72,7 +72,7 @@ overview: 'Aaptiv is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aaptiv''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

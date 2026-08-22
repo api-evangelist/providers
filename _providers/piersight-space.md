@@ -68,7 +68,7 @@ overview: 'PierSight Space is profiled on the [APIs.io](https://apis.io/) networ
 
 
   PierSight Space''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 54
+random_paper: 11
 score:
   band: minimal
   composite: 6.4

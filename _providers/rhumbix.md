@@ -144,7 +144,7 @@ overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: developing
   composite: 41.4

@@ -363,7 +363,7 @@ plans:
 - name: Maastricht Plans Pricing
   plan_count: 2
   slug: maastricht-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Maastricht Rate Limits

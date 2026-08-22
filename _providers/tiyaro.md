@@ -122,7 +122,7 @@ plans:
 - name: Tiyaro Plans Pricing
   plan_count: 0
   slug: tiyaro-plans-pricing
-random_paper: 68
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Tiyaro Rate Limits

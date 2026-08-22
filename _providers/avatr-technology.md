@@ -117,7 +117,7 @@ name: Avatr Technology
 nav: Providers
 network: true
 overview: Avatr Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Electric Vehicles, Smart Cockpit, and Autonomous Driving.
-random_paper: 32
+random_paper: 12
 score:
   band: emerging
   composite: 11.8

@@ -84,7 +84,7 @@ overview: 'Lupin & Holmes is profiled on the [APIs.io](https://apis.io/) network
 
 
   Lupin & Holmes'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 107
+random_paper: 1
 score:
   band: minimal
   composite: 10.7

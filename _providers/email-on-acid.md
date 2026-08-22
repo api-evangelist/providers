@@ -181,7 +181,7 @@ plans:
 - name: Email On Acid Plans Pricing
   plan_count: 3
   slug: email-on-acid-plans-pricing
-random_paper: 40
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Email On Acid Rate Limits

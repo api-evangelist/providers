@@ -72,7 +72,7 @@ overview: 'Atlantic Money is profiled on the [APIs.io](https://apis.io/) network
 
 
   Atlantic Money''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 104
+random_paper: 17
 score:
   band: minimal
   composite: 9.1

@@ -69,7 +69,7 @@ name: Distributional
 nav: Providers
 network: true
 overview: Distributional is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Testing, and Reliability.
-random_paper: 27
+random_paper: 5
 score:
   band: minimal
   composite: 7.1

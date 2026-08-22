@@ -57,7 +57,7 @@ name: Indian Mutual Fund
 nav: Providers
 network: true
 overview: Indian Mutual Fund publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 22
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

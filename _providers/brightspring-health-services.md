@@ -72,7 +72,7 @@ overview: 'BrightSpring Health Services is profiled on the [APIs.io](https://api
 
 
   BrightSpring Health Services'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 56
+random_paper: 10
 score:
   band: minimal
   composite: 4.5

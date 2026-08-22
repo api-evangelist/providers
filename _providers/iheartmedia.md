@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: iHeartPodcasts and Bill and Giuliana Rancic Launch Bold, New Podcast Exploring Life’s Most Unfiltered Questions
   url: https://content.iheartmedia.com/press/iheartpodcasts-and-bill-and-giuliana-rancic-launch-bold-new-podcast-exploring-lifes-most
-random_paper: 106
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

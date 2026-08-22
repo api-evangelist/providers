@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Textron Systems Collaborates with Kodiak to Develop ...
   url: https://www.prnewswire.com/news-releases/textron-systems-collaborates-with-kodiak-to-develop-uncrewed-military-vehicle-302149440.html
-random_paper: 43
+random_paper: 11
 score:
   band: minimal
   composite: 9.6

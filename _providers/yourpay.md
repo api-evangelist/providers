@@ -49,7 +49,7 @@ name: YourPay
 nav: Providers
 network: true
 overview: YourPay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Remittances, and Money Transfer.
-random_paper: 48
+random_paper: 16
 score:
   band: minimal
   composite: 1.5

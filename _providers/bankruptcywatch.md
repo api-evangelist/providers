@@ -282,7 +282,7 @@ plans:
 - name: Bankruptcywatch Plans Pricing
   plan_count: 3
   slug: bankruptcywatch-plans-pricing
-random_paper: 136
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Bankruptcywatch Rate Limits

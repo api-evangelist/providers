@@ -281,7 +281,7 @@ plans:
 - name: Prometeo Plans Pricing
   plan_count: 2
   slug: prometeo-plans-pricing
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Prometeo Rate Limits

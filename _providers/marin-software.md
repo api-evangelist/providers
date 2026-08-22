@@ -145,7 +145,7 @@ plans:
 - name: Marin Software Plans Pricing
   plan_count: 3
   slug: marin-software-plans-pricing
-random_paper: 114
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Marin Software Rate Limits

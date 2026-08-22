@@ -94,7 +94,7 @@ plans:
 - name: Alphin Plans Pricing
   plan_count: 0
   slug: alphin-plans-pricing
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 11.7

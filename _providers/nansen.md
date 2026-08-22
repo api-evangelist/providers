@@ -130,7 +130,7 @@ plans:
 - name: Nansen Plans Pricing
   plan_count: 2
   slug: nansen-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Nansen Rate Limits

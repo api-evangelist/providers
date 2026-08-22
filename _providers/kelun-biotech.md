@@ -53,7 +53,7 @@ name: Kelun-Biotech
 nav: Providers
 network: true
 overview: Kelun-Biotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Oncology.
-random_paper: 130
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

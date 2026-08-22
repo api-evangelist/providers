@@ -49,7 +49,7 @@ name: XtremIO
 nav: Providers
 network: true
 overview: XtremIO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Flash Storage, Enterprise Storage, and Data Center.
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

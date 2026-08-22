@@ -224,7 +224,7 @@ overview: 'Azupay publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 26 more developer resources.'
-random_paper: 70
+random_paper: 15
 scopes:
 - name: Azupay Scopes
   scope_count: 1

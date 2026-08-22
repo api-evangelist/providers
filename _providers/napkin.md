@@ -187,7 +187,7 @@ overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Vi
 
 
   Napkin''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 45
+random_paper: 11
 scopes:
 - name: Napkin Scopes
   scope_count: 2

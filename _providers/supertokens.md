@@ -287,7 +287,7 @@ plans:
 - name: Supertokens Plans Pricing
   plan_count: 3
   slug: supertokens-plans-pricing
-random_paper: 27
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Supertokens Rate Limits

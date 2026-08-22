@@ -135,7 +135,7 @@ plans:
 - name: Apache Wicket Plans Pricing
   plan_count: 3
   slug: apache-wicket-plans-pricing
-random_paper: 110
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Apache Wicket Rate Limits

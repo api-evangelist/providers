@@ -64,7 +64,7 @@ overview: 'NEXT Academy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   NEXT Academy''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: minimal
   composite: 9.4

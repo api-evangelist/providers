@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: 'PRESS RELEASE: Simplifying car remarketing through AI'
   url: https://cms.openlane.eu/en/blogs/blog/2023/02/06/press-release-simplifying-car-remarketing-through-ai
-random_paper: 94
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

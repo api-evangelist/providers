@@ -352,7 +352,7 @@ plans:
 - name: Knak Plans Pricing
   plan_count: 0
   slug: knak-plans-pricing
-random_paper: 123
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Knak Rate Limits

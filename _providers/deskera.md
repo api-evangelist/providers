@@ -183,7 +183,7 @@ overview: 'Deskera publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Deskera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 139
+random_paper: 0
 scopes:
 - name: Deskera Scopes
   scope_count: 3

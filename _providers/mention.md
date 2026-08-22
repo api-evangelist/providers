@@ -260,7 +260,7 @@ plans:
 - name: Mention Plans Pricing
   plan_count: 1
   slug: mention-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Mention Rate Limits

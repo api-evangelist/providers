@@ -129,7 +129,7 @@ overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network
 
 
   Saul Ewing LLP''s developer surface includes product news, engineering blog, GitHub presence, and 18 more developer resources.'
-random_paper: 126
+random_paper: 12
 score:
   band: minimal
   composite: 3.9

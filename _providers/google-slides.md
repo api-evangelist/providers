@@ -1455,7 +1455,7 @@ plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
   slug: google-slides-plans-pricing
-random_paper: 134
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Slides Rate Limits

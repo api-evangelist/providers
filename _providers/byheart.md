@@ -101,7 +101,7 @@ overview: 'ByHeart is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ByHeart''s developer surface includes signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 6
+random_paper: 16
 scopes:
 - name: Byheart Scopes
   scope_count: 4

@@ -45,7 +45,7 @@ name: Chemours
 nav: Providers
 network: true
 overview: Chemours is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 2.6

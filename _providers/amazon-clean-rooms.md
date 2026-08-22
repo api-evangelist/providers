@@ -490,7 +490,7 @@ plans:
 - name: Amazon Clean Rooms Plans Pricing
   plan_count: 0
   slug: amazon-clean-rooms-plans-pricing
-random_paper: 23
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Amazon Clean Rooms Rate Limits

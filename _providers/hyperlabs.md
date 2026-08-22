@@ -190,7 +190,7 @@ overview: 'HYPERLABS publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   HYPERLABS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 26 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: thin
   composite: 32.4

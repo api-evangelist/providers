@@ -68,7 +68,7 @@ overview: 'Prewitt Ridge is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Prewitt Ridge''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: minimal
   composite: 9.1

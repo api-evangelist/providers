@@ -2751,7 +2751,6 @@ overview: 'Oracle publishes 322 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Oracle''s developer surface includes authentication, developer portal, documentation, engineering blog, support, getting-started guide, signup flow, and 40 more developer resources.'
-paper_is_own: true
 plans:
 - name: Oracle Plans Pricing
   plan_count: 3
@@ -2772,7 +2771,7 @@ press:
 - date: '2026-05-25'
   title: Oracle News and Press Releases
   url: https://www.oracle.com/news/
-random_paper: 29
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Oracle Rate Limits

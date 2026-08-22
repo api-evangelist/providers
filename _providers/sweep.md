@@ -194,7 +194,7 @@ plans:
 - name: Sweep Plans Pricing
   plan_count: 4
   slug: sweep-plans-pricing
-random_paper: 101
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Sweep Rate Limits

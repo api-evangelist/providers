@@ -53,7 +53,7 @@ name: Catawiki
 nav: Providers
 network: true
 overview: Catawiki is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, Auction, and Collectibles.
-random_paper: 100
+random_paper: 5
 score:
   band: minimal
   composite: 5.3

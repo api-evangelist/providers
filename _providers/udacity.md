@@ -141,7 +141,7 @@ overview: 'Udacity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Udacity''s developer surface includes pricing, engineering blog, privacy policy, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: emerging
   composite: 12.2

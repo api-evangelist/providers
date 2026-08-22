@@ -96,7 +96,7 @@ overview: 'Vanilla is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vanilla''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: emerging
   composite: 19.4

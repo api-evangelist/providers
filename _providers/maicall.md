@@ -80,7 +80,7 @@ overview: 'MaiCall is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   MaiCall''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 127
+random_paper: 9
 score:
   band: emerging
   composite: 13.8

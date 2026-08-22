@@ -165,7 +165,7 @@ plans:
 - name: Fintary Plans Pricing
   plan_count: 0
   slug: fintary-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Fintary Rate Limits

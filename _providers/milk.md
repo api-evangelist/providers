@@ -40,7 +40,7 @@ name: Milk *
 nav: Providers
 network: true
 overview: Milk * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile, Defunct, and Acqui-hired.
-random_paper: 131
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

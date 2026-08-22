@@ -108,7 +108,7 @@ overview: 'EQL is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   EQL''s developer surface includes developer portal, pricing, engineering blog, support, and 12 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: emerging
   composite: 22.0

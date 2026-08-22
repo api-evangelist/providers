@@ -102,7 +102,7 @@ plans:
 - name: Euler Motors Plans Pricing
   plan_count: 0
   slug: euler-motors-plans-pricing
-random_paper: 70
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Euler Motors Rate Limits

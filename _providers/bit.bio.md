@@ -119,7 +119,7 @@ overview: 'Bit.bio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bit.bio''s developer surface includes support, engineering blog, product news, and 13 more developer resources.'
-random_paper: 83
+random_paper: 7
 score:
   band: emerging
   composite: 12.6

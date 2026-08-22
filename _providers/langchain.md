@@ -529,7 +529,7 @@ plans:
 - name: Langchain Plans Pricing
   plan_count: 3
   slug: langchain-plans-pricing
-random_paper: 39
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Langchain Rate Limits

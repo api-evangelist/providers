@@ -80,7 +80,7 @@ overview: 'WhatsCookin'' is profiled on the [APIs.io](https://apis.io/) network.
 
 
   WhatsCookin''''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: minimal
   composite: 9.8

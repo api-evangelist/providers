@@ -193,7 +193,7 @@ overview: 'Moondream publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moondream''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 68
+random_paper: 17
 score:
   band: developing
   composite: 53.0

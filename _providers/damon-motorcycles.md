@@ -49,7 +49,7 @@ name: Damon Motorcycles
 nav: Providers
 network: true
 overview: Damon Motorcycles is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Motorcycles, Transportation, and Hardware.
-random_paper: 137
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

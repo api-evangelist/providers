@@ -160,7 +160,7 @@ overview: 'ShippingEasy publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ShippingEasy''s developer surface includes authentication, pricing, documentation, signup flow, support, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 108
+random_paper: 19
 score:
   band: thin
   composite: 29.6

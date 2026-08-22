@@ -69,7 +69,7 @@ overview: 'Auransa is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Auransa''s developer surface includes support and 5 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

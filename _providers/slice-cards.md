@@ -217,7 +217,7 @@ overview: 'Slice is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Slice''s developer surface includes support and 42 more developer resources.'
-random_paper: 55
+random_paper: 6
 score:
   band: minimal
   composite: 8.9

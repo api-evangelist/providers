@@ -565,7 +565,7 @@ plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits

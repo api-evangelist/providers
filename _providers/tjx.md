@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Retailers Embracing AI
   url: https://logisticsti.com/insights/f/retailers-embracing-ai
-random_paper: 44
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Tjx Rate Limits

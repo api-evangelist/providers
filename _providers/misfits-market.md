@@ -76,7 +76,7 @@ overview: 'Misfits Market is profiled on the [APIs.io](https://apis.io/) network
 
 
   Misfits Market''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 115
+random_paper: 7
 score:
   band: emerging
   composite: 13.3

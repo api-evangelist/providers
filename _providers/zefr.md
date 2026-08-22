@@ -141,7 +141,7 @@ plans:
 - name: Zefr Plans Pricing
   plan_count: 0
   slug: zefr-plans-pricing
-random_paper: 141
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Zefr Rate Limits

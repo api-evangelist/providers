@@ -187,7 +187,7 @@ plans:
 - name: Tableaux De Bord Plans Pricing
   plan_count: 3
   slug: tableaux-de-bord-plans-pricing
-random_paper: 78
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Tableaux De Bord Rate Limits

@@ -82,7 +82,7 @@ plans:
 - name: Continental Ag Plans Pricing
   plan_count: 1
   slug: continental-ag-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Continental Ag Rate Limits

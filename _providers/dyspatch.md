@@ -333,7 +333,7 @@ plans:
 - name: Dyspatch Plans Pricing
   plan_count: 3
   slug: dyspatch-plans-pricing
-random_paper: 119
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Dyspatch Rate Limits

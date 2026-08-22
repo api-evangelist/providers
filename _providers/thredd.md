@@ -170,7 +170,7 @@ overview: 'Thredd publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Thredd''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 16 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: Thredd Scopes
   scope_count: 6

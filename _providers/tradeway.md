@@ -53,7 +53,7 @@ name: Tradeway
 nav: Providers
 network: true
 overview: Tradeway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contractors, Trades, HVAC, and Plumbing.
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 6.3

@@ -135,7 +135,7 @@ overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   OverDrive''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: thin
   composite: 28.4

@@ -57,7 +57,7 @@ name: apilayer languagelayer
 nav: Providers
 network: true
 overview: apilayer languagelayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 42
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

@@ -80,7 +80,7 @@ overview: 'Barinthus Biotherapeutics is profiled on the [APIs.io](https://apis.i
 
 
   Barinthus Biotherapeutics'' developer surface includes support, product news, and 7 more developer resources.'
-random_paper: 99
+random_paper: 7
 score:
   band: minimal
   composite: 7.1

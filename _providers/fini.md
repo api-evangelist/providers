@@ -219,7 +219,7 @@ overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: developing
   composite: 43.8

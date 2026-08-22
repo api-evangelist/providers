@@ -65,7 +65,7 @@ name: Widgera, Inc.
 nav: Providers
 network: true
 overview: Widgera, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Operations, and Adaptive OS.
-random_paper: 55
+random_paper: 6
 score:
   band: minimal
   composite: 10.8

@@ -76,7 +76,7 @@ overview: 'First Hawaiian Bank publishes 1 API on the [APIs.io](https://apis.io/
 
 
   First Hawaiian Bank''s developer surface includes documentation, support, and 7 more developer resources.'
-random_paper: 100
+random_paper: 19
 score:
   band: emerging
   composite: 11.7

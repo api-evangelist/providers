@@ -73,7 +73,7 @@ overview: 'Lori Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Lori Systems'' developer surface includes GitHub presence and 6 more developer resources.'
-random_paper: 83
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

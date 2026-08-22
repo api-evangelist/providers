@@ -49,7 +49,7 @@ name: Augur
 nav: Providers
 network: true
 overview: Augur is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Attribution, Cross-Device, AdTech, and Device Recognition.
-random_paper: 101
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

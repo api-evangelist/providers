@@ -153,7 +153,7 @@ overview: 'Freeverse publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Freeverse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: thin
   composite: 32.7

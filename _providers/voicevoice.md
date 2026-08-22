@@ -49,7 +49,7 @@ name: VoiceVoice
 nav: Providers
 network: true
 overview: VoiceVoice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conferencing, Audio, Communications, and Defunct.
-random_paper: 25
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

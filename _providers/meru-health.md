@@ -72,7 +72,7 @@ overview: 'Meru Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Meru Health''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 73
+random_paper: 3
 score:
   band: emerging
   composite: 13.1

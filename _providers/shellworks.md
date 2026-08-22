@@ -45,7 +45,7 @@ name: Shellworks
 nav: Providers
 network: true
 overview: Shellworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Sustainability, Packaging, and Biomaterials.
-random_paper: 59
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

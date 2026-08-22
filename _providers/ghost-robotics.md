@@ -132,7 +132,7 @@ overview: 'Ghost Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ghost Robotics'' developer surface includes product news, YouTube channel, and 20 more developer resources.'
-random_paper: 122
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

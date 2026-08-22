@@ -152,7 +152,7 @@ plans:
 - name: Nectar Social Plans Pricing
   plan_count: 0
   slug: nectar-social-plans-pricing
-random_paper: 125
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Nectar Social Rate Limits

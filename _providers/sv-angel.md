@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: SV Angel
 nav: Providers
 network: true
-random_paper: 52
+random_paper: 20
 slug: sv-angel
 tags:
 - Venture Capital

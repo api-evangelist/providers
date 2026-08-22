@@ -222,7 +222,7 @@ overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 142
+random_paper: 5
 scopes:
 - name: Twentyci Scopes
   scope_count: 1

@@ -50,7 +50,7 @@ name: firstgrid
 nav: Providers
 network: true
 overview: firstgrid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Supply Chain, Logistics, and Healthcare.
-random_paper: 80
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

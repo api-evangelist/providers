@@ -522,7 +522,7 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: strong
   composite: 63.8

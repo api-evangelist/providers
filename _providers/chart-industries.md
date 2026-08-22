@@ -53,7 +53,7 @@ name: Chart Industries
 nav: Providers
 network: true
 overview: Chart Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Cryogenics, Energy, Manufacturing, and Clean Energy.
-random_paper: 34
+random_paper: 14
 score:
   band: minimal
   composite: 2.7

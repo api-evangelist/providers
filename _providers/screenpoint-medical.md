@@ -76,7 +76,7 @@ overview: 'ScreenPoint Medical is profiled on the [APIs.io](https://apis.io/) ne
 
 
   ScreenPoint Medical''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
   composite: 14.8

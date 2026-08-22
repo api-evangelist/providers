@@ -209,7 +209,7 @@ overview: 'Eigenpal publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Eigenpal''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, changelog, and 21 more developer resources.'
-random_paper: 92
+random_paper: 18
 score:
   band: developing
   composite: 44.0

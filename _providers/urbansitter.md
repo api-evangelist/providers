@@ -88,7 +88,7 @@ overview: 'UrbanSitter is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   UrbanSitter''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: emerging
   composite: 16.8

@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Morgan Stanley Dives Deeper Into Retail With E*Trade Deal
   url: https://www.wealthmanagement.com/equities/morgan-stanley-dives-deeper-into-retail-with-e-trade-deal
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Etrade Rate Limits

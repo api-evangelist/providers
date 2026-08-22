@@ -632,7 +632,7 @@ plans:
 - name: Precisely Apis Plans Pricing
   plan_count: 3
   slug: precisely-apis-plans-pricing
-random_paper: 109
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Precisely Apis Rate Limits

@@ -76,7 +76,7 @@ overview: 'Standard Practice is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Standard Practice''s developer surface includes support and 7 more developer resources.'
-random_paper: 98
+random_paper: 15
 score:
   band: emerging
   composite: 11.3

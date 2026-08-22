@@ -112,7 +112,7 @@ plans:
 - name: Gomultiply Plans Pricing
   plan_count: 3
   slug: gomultiply-plans-pricing
-random_paper: 67
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Gomultiply Rate Limits

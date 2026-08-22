@@ -76,7 +76,7 @@ overview: 'Bambee is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bambee''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: minimal
   composite: 6.3

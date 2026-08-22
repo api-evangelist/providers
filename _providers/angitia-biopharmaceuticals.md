@@ -81,7 +81,7 @@ overview: 'Angitia Biopharmaceuticals is profiled on the [APIs.io](https://apis.
 
 
   Angitia Biopharmaceuticals'' developer surface includes product news, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 15
 score:
   band: minimal
   composite: 10.0

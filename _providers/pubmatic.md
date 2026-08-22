@@ -261,7 +261,7 @@ plans:
 - name: Pubmatic Plans Pricing
   plan_count: 0
   slug: pubmatic-plans-pricing
-random_paper: 108
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Pubmatic Rate Limits

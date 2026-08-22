@@ -105,7 +105,7 @@ overview: 'Away publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Away''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 136
+random_paper: 14
 scopes:
 - name: Away Scopes
   scope_count: 4

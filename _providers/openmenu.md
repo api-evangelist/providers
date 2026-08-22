@@ -171,7 +171,7 @@ plans:
 - name: Openmenu Plans Pricing
   plan_count: 4
   slug: openmenu-plans-pricing
-random_paper: 126
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Openmenu Rate Limits

@@ -85,7 +85,7 @@ plans:
 - name: Opendata Leipzig De Plans Pricing
   plan_count: 1
   slug: opendata-leipzig-de-plans-pricing
-random_paper: 103
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Opendata Leipzig De Rate Limits

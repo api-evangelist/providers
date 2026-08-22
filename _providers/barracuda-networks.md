@@ -35,7 +35,7 @@ name: Barracuda Networks
 nav: Providers
 network: true
 overview: Barracuda Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Security.
-random_paper: 83
+random_paper: 2
 score:
   band: minimal
   composite: 3.7

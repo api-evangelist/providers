@@ -108,7 +108,7 @@ overview: 'iCapital Network is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   iCapital Network''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 23
+random_paper: 3
 score:
   band: emerging
   composite: 11.7

@@ -113,7 +113,7 @@ plans:
 - name: Aishub Plans Pricing
   plan_count: 1
   slug: aishub-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Aishub Rate Limits

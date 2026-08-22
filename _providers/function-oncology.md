@@ -40,7 +40,7 @@ name: Function Oncology
 nav: Providers
 network: true
 overview: Function Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Genomics, and Biotechnology.
-random_paper: 1
+random_paper: 4
 score:
   band: minimal
   composite: 2.2

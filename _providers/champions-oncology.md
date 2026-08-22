@@ -88,7 +88,7 @@ overview: 'Champions Oncology is profiled on the [APIs.io](https://apis.io/) net
 
 
   Champions Oncology''s developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 93
+random_paper: 12
 score:
   band: emerging
   composite: 17.1

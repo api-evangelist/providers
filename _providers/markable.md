@@ -134,7 +134,7 @@ plans:
 - name: Markable Plans Pricing
   plan_count: 5
   slug: markable-plans-pricing
-random_paper: 86
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Markable Rate Limits

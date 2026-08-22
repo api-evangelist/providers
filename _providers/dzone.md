@@ -155,7 +155,7 @@ overview: 'DZone is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   DZone''s developer surface includes documentation and 27 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: emerging
   composite: 12.1

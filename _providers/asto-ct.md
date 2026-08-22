@@ -109,7 +109,7 @@ overview: 'Asto CT is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Asto CT''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
-random_paper: 103
+random_paper: 6
 score:
   band: minimal
   composite: 8.3

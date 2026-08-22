@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Governor Newsom signs SB 53, advancing California's world ...
   url: https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/
-random_paper: 47
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Ca Rate Limits

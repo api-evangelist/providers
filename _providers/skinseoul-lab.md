@@ -45,7 +45,7 @@ name: Skinseoul Lab
 nav: Providers
 network: true
 overview: Skinseoul Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Beauty, Skincare, and Cosmetics.
-random_paper: 145
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

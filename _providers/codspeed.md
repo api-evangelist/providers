@@ -165,7 +165,7 @@ overview: 'CodSpeed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CodSpeed''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 94
+random_paper: 20
 score:
   band: thin
   composite: 33.5

@@ -80,7 +80,7 @@ overview: 'Wholesail is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wholesail''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: emerging
   composite: 12.4

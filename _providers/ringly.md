@@ -96,7 +96,7 @@ overview: 'Ringly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ringly''s developer surface includes documentation, pricing, engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: emerging
   composite: 20.1

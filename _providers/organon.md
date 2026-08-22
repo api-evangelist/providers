@@ -60,7 +60,7 @@ overview: 'Organon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Organon''s developer surface includes developer portal and 3 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 4.7

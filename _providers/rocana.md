@@ -40,7 +40,7 @@ name: Rocana
 nav: Providers
 network: true
 overview: Rocana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, IT Operations, Analytics, and Observability.
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

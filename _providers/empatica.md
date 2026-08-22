@@ -158,7 +158,7 @@ plans:
 - name: Empatica Plans Pricing
   plan_count: 6
   slug: empatica-plans-pricing
-random_paper: 91
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Empatica Rate Limits

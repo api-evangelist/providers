@@ -100,7 +100,7 @@ overview: 'Ballard Spahr is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ballard Spahr''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 117
+random_paper: 7
 score:
   band: minimal
   composite: 2.0

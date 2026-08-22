@@ -94,7 +94,7 @@ plans:
 - name: Defense Threat Reduction Agency Plans Pricing
   plan_count: 3
   slug: defense-threat-reduction-agency-plans-pricing
-random_paper: 137
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Defense Threat Reduction Agency Rate Limits

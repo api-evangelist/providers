@@ -76,7 +76,7 @@ overview: 'Andela is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Andela''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: emerging
   composite: 11.0

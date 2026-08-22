@@ -125,7 +125,7 @@ overview: 'Topgolf Callaway Brands is profiled on the [APIs.io](https://apis.io/
 
 
   Topgolf Callaway Brands'' developer surface includes GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

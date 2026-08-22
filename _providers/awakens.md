@@ -149,7 +149,7 @@ overview: 'AWAKENS publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AWAKENS''s developer surface includes signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 1
+random_paper: 11
 scopes:
 - name: Awakens Scopes
   scope_count: 0

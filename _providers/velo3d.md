@@ -105,7 +105,7 @@ plans:
 - name: Velo3D Plans Pricing
   plan_count: 2
   slug: velo3d-plans-pricing
-random_paper: 142
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Velo3D Rate Limits

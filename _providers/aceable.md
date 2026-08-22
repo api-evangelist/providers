@@ -116,7 +116,7 @@ overview: 'Aceable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aceable''s developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 105
+random_paper: 8
 score:
   band: emerging
   composite: 17.5

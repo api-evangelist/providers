@@ -66,7 +66,7 @@ plans:
 - name: Novopayment Plans Pricing
   plan_count: 3
   slug: novopayment-plans-pricing
-random_paper: 24
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Novopayment Rate Limits

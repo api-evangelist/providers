@@ -64,7 +64,7 @@ overview: 'PeakMetrics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   PeakMetrics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 133
+random_paper: 0
 score:
   band: minimal
   composite: 4.6

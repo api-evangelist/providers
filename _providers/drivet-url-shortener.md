@@ -61,7 +61,7 @@ name: Drivet URL Shortener
 nav: Providers
 network: true
 overview: Drivet URL Shortener publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 132
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

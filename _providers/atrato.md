@@ -192,7 +192,7 @@ overview: 'Atrato publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Atrato''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: developing
   composite: 40.2

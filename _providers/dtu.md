@@ -156,7 +156,7 @@ plans:
 - name: Dtu Plans Pricing
   plan_count: 2
   slug: dtu-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Dtu Rate Limits

@@ -72,7 +72,7 @@ overview: 'Academic Partnerships is profiled on the [APIs.io](https://apis.io/) 
 
 
   Academic Partnerships'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 81
+random_paper: 4
 score:
   band: minimal
   composite: 7.8

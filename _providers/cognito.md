@@ -168,7 +168,7 @@ overview: 'Cognito publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cognito''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: developing
   composite: 44.7

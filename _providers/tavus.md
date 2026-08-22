@@ -204,7 +204,7 @@ plans:
 - name: Tavus Plans Pricing
   plan_count: 1
   slug: tavus-plans-pricing
-random_paper: 116
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Tavus Rate Limits

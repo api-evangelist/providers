@@ -80,7 +80,7 @@ overview: 'Perimeter VRM (formerly ProcessBolt) is profiled on the [APIs.io](htt
 
 
   Perimeter VRM (formerly ProcessBolt)''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 8
+random_paper: 3
 score:
   band: emerging
   composite: 13.3

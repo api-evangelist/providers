@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: EchoStar Corporation | Englewood CO
   url: https://www.facebook.com/EchoStar/
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

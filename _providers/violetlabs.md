@@ -169,7 +169,7 @@ overview: 'Violetlabs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Violetlabs'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 22 more developer resources.'
-random_paper: 34
+random_paper: 6
 scopes:
 - name: Violetlabs Scopes
   scope_count: 1

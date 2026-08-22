@@ -181,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: WARNER MUSIC GROUP AND SUNO FORGE ...
   url: https://www.wmg.com/news/warner-music-group-and-suno-forge-groundbreaking-partnership
-random_paper: 59
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Warner Music Group Rate Limits

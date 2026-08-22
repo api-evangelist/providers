@@ -144,7 +144,7 @@ overview: 'Francis Medical is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Francis Medical''s developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
-random_paper: 16
+random_paper: 15
 score:
   band: emerging
   composite: 13.7

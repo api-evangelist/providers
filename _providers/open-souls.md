@@ -68,7 +68,7 @@ overview: 'Open Souls is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Open Souls'' developer surface includes CLI and 5 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: minimal
   composite: 8.2

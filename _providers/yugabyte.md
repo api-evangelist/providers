@@ -254,7 +254,7 @@ overview: 'Yugabyte publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Yugabyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: strong
   composite: 55.4

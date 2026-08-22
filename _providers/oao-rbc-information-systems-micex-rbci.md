@@ -40,7 +40,7 @@ name: OAO RBC Information Systems (MICEX:RBCI)
 nav: Providers
 network: true
 overview: OAO RBC Information Systems (MICEX:RBCI) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 62
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

@@ -150,7 +150,7 @@ overview: 'Ressl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
 
 
   Ressl''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, and 15 more developer resources.'
-random_paper: 55
+random_paper: 2
 score:
   band: developing
   composite: 40.3

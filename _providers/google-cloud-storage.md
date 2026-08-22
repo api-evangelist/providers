@@ -161,7 +161,7 @@ plans:
 - name: Google Cloud Storage Plans Pricing
   plan_count: 3
   slug: google-cloud-storage-plans-pricing
-random_paper: 82
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Cloud Storage Rate Limits

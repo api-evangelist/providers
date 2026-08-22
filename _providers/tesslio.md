@@ -402,7 +402,7 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: developing
   composite: 46.5

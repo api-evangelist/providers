@@ -49,7 +49,7 @@ name: Solugen
 nav: Providers
 network: true
 overview: Solugen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Manufacturing, Sustainability, and Biotechnology.
-random_paper: 20
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

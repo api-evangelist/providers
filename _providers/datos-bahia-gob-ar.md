@@ -85,7 +85,7 @@ plans:
 - name: Datos Bahia Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-bahia-gob-ar-plans-pricing
-random_paper: 59
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Datos Bahia Gob Ar Rate Limits

@@ -85,7 +85,7 @@ plans:
 - name: Open Canada Ca Plans Pricing
   plan_count: 1
   slug: open-canada-ca-plans-pricing
-random_paper: 128
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Open Canada Ca Rate Limits

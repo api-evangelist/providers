@@ -88,7 +88,7 @@ plans:
 - name: Json Plans Pricing
   plan_count: 3
   slug: json-plans-pricing
-random_paper: 144
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Json Rate Limits

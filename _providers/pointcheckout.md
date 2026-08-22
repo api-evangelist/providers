@@ -201,7 +201,7 @@ overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   PointCheckout''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, quickstart, support, and 22 more developer resources.'
-random_paper: 67
+random_paper: 1
 score:
   band: strong
   composite: 55.1

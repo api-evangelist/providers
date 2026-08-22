@@ -335,7 +335,7 @@ plans:
 - name: Dow Jones Plans Pricing
   plan_count: 0
   slug: dow-jones-plans-pricing
-random_paper: 24
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Dow Jones Rate Limits

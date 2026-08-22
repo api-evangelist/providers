@@ -65,7 +65,7 @@ name: Santa Ana Bio
 nav: Providers
 network: true
 overview: Santa Ana Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immunology, Autoimmune Disease, and Drug Discovery.
-random_paper: 51
+random_paper: 4
 score:
   band: minimal
   composite: 9.2

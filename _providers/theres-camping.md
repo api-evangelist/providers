@@ -49,7 +49,7 @@ name: Theres Camping
 nav: Providers
 network: true
 overview: Theres Camping is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Outdoor, and Camping.
-random_paper: 90
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

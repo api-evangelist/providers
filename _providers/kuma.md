@@ -391,7 +391,7 @@ plans:
 - name: Kuma Plans Pricing
   plan_count: 2
   slug: kuma-plans-pricing
-random_paper: 132
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Kuma Rate Limits

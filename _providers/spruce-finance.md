@@ -56,7 +56,7 @@ overview: 'Spruce Finance * is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Spruce Finance *''s developer surface includes support and 2 more developer resources.'
-random_paper: 86
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

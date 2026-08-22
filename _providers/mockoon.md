@@ -137,7 +137,7 @@ plans:
 - name: Mockoon Plans Pricing
   plan_count: 3
   slug: mockoon-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Mockoon Rate Limits

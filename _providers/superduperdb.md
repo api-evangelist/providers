@@ -96,7 +96,7 @@ plans:
 - name: Superduperdb Plans Pricing
   plan_count: 1
   slug: superduperdb-plans-pricing
-random_paper: 109
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Superduperdb Rate Limits

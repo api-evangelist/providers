@@ -202,7 +202,7 @@ overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://a
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 99
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Bargo Congress Trades Api Rate Limits

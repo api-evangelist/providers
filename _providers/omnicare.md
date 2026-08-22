@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Federal Court Imposes Nearly $1 Billion in FCA Damages ...
   url: https://www.afslaw.com/perspectives/investigations-blog/federal-court-imposes-nearly-1-billion-fca-damages-and-penalties
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 2.4

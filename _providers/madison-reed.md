@@ -49,7 +49,7 @@ name: Madison-reed
 nav: Providers
 network: true
 overview: Madison-reed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Hair Color, Cosmetics, and Direct to Consumer.
-random_paper: 16
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

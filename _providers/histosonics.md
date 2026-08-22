@@ -104,7 +104,7 @@ overview: 'HistoSonics is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HistoSonics'' developer surface includes product news and 16 more developer resources.'
-random_paper: 14
+random_paper: 9
 score:
   band: minimal
   composite: 9.8

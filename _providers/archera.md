@@ -231,7 +231,7 @@ overview: 'Archera publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 130
+random_paper: 12
 scopes:
 - name: Archera Scopes
   scope_count: 4

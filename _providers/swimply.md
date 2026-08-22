@@ -53,7 +53,7 @@ name: Swimply
 nav: Providers
 network: true
 overview: Swimply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Consumer, Travel and Hospitality, and Booking.
-random_paper: 44
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

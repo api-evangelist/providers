@@ -109,7 +109,7 @@ plans:
 - name: Nirvana Plans Pricing
   plan_count: 1
   slug: nirvana-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Nirvana Rate Limits

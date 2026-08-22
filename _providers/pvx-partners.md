@@ -76,7 +76,7 @@ overview: 'Pvx Partners is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Pvx Partners'' developer surface includes engineering blog, FAQ, and 6 more developer resources.'
-random_paper: 82
+random_paper: 14
 score:
   band: minimal
   composite: 9.7

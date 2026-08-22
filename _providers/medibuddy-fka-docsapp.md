@@ -68,7 +68,7 @@ overview: 'MediBuddy (fka DocsApp) is profiled on the [APIs.io](https://apis.io/
 
 
   MediBuddy (fka DocsApp)''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

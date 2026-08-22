@@ -222,7 +222,7 @@ plans:
 - name: Atlassian Confluence Plans Pricing
   plan_count: 3
   slug: atlassian-confluence-plans-pricing
-random_paper: 126
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Atlassian Confluence Rate Limits

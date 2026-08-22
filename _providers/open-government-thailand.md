@@ -57,7 +57,7 @@ name: Open Government, Thailand
 nav: Providers
 network: true
 overview: Open Government, Thailand publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 70
+random_paper: 18
 score:
   band: minimal
   composite: 4.2

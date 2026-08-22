@@ -176,7 +176,7 @@ plans:
 - name: Google Cloud Run Plans Pricing
   plan_count: 3
   slug: google-cloud-run-plans-pricing
-random_paper: 113
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google Cloud Run Rate Limits

@@ -53,7 +53,7 @@ name: Rig Veda
 nav: Providers
 network: true
 overview: Rig Veda publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

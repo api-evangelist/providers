@@ -80,7 +80,7 @@ overview: 'XtGem is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   XtGem''s developer surface includes documentation, support, and 7 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: emerging
   composite: 14.5

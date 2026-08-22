@@ -270,7 +270,7 @@ overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
-random_paper: 51
+random_paper: 4
 score:
   band: strong
   composite: 57.4

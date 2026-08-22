@@ -141,7 +141,7 @@ overview: 'Synthesized publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Synthesized''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: thin
   composite: 29.3

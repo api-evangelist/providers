@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Take-Two Sees AI As Production Aid, Not Business Threat
   url: https://www.investors.com/news/technology/take-two-ai-not-business-threat-ceo-strauss-zelnick/
-random_paper: 128
+random_paper: 19
 score:
   band: minimal
   composite: 5.8

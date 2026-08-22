@@ -84,7 +84,7 @@ overview: 'Chimelabs Holdings PTY LTD is profiled on the [APIs.io](https://apis.
 
 
   Chimelabs Holdings PTY LTD''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 67
+random_paper: 17
 score:
   band: minimal
   composite: 8.5

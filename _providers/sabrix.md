@@ -45,7 +45,7 @@ name: Sabrix
 nav: Providers
 network: true
 overview: Sabrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Tax, Compliance, and Indirect Tax.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

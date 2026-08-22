@@ -45,7 +45,7 @@ name: Rooster
 nav: Providers
 network: true
 overview: Rooster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reading, Publishing, Serialized Fiction, and Mobile App.
-random_paper: 37
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -68,7 +68,7 @@ overview: 'Proteinea is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Proteinea''s developer surface includes support and 5 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: minimal
   composite: 7.5

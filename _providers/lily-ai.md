@@ -145,7 +145,7 @@ plans:
 - name: Lily Ai Plans Pricing
   plan_count: 0
   slug: lily-ai-plans-pricing
-random_paper: 93
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Lily Ai Rate Limits

@@ -122,7 +122,7 @@ overview: 'AccessHope is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AccessHope''s developer surface includes engineering blog, product news, and 15 more developer resources.'
-random_paper: 11
+random_paper: 4
 score:
   band: emerging
   composite: 16.6

@@ -76,7 +76,7 @@ overview: 'Binu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Binu''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: minimal
   composite: 10.0

@@ -49,7 +49,7 @@ name: Space Ape
 nav: Providers
 network: true
 overview: Space Ape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Game Studio.
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

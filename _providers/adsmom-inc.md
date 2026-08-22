@@ -169,7 +169,7 @@ plans:
 - name: Adsmom Inc Plans
   plan_count: 3
   slug: adsmom-inc-plans
-random_paper: 106
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Adsmom Inc Rate Limits

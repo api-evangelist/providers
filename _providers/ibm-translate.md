@@ -201,7 +201,7 @@ plans:
 - name: Ibm Translate Plans Pricing
   plan_count: 2
   slug: ibm-translate-plans-pricing
-random_paper: 139
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Ibm Translate Rate Limits

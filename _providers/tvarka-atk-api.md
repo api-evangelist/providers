@@ -290,7 +290,7 @@ plans:
 - name: Tvarka Atk Api Plans
   plan_count: 5
   slug: tvarka-atk-api-plans
-random_paper: 32
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Tvarka Atk Api Rate Limits

@@ -374,7 +374,7 @@ plans:
 - name: Openai Apis Plans Pricing
   plan_count: 6
   slug: openai-apis-plans-pricing
-random_paper: 67
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Openai Apis Rate Limits

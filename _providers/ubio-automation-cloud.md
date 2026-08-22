@@ -136,7 +136,7 @@ overview: 'UBIO Automation Cloud publishes 2 APIs on the [APIs.io](https://apis.
 
 
   UBIO Automation Cloud''s developer surface includes API reference, authentication, sandbox, and 16 more developer resources.'
-random_paper: 59
+random_paper: 3
 score:
   band: emerging
   composite: 14.8

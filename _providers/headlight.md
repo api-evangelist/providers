@@ -80,7 +80,7 @@ overview: 'Headlight is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Headlight''s developer surface includes engineering blog, support, signup flow, pricing, and 5 more developer resources.'
-random_paper: 44
+random_paper: 14
 score:
   band: emerging
   composite: 15.2

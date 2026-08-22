@@ -57,7 +57,7 @@ name: Kano Computing
 nav: Providers
 network: true
 overview: Kano Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, STEM, Hardware, and Computing.
-random_paper: 111
+random_paper: 3
 score:
   band: minimal
   composite: 2.6

@@ -104,7 +104,7 @@ overview: '5DollarFootballAPI publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   5DollarFootballAPI''s developer surface includes documentation, API reference, pricing, signup flow, changelog, and 7 more developer resources.'
-random_paper: 68
+random_paper: 8
 score:
   band: thin
   composite: 38.8

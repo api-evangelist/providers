@@ -175,7 +175,7 @@ plans:
 - name: Kartra Plans Pricing
   plan_count: 4
   slug: kartra-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Kartra Rate Limits

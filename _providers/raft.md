@@ -56,7 +56,7 @@ overview: 'Raft is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Raft''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: minimal
   composite: 6.9

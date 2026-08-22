@@ -49,7 +49,7 @@ name: Rudus
 nav: Providers
 network: true
 overview: Rudus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Technology, Artificial Intelligence, Computer Vision, and Estimation.
-random_paper: 116
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

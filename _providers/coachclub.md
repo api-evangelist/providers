@@ -109,7 +109,7 @@ plans:
 - name: Coachclub Plans Pricing
   plan_count: 3
   slug: coachclub-plans-pricing
-random_paper: 38
+random_paper: 8
 score:
   band: emerging
   composite: 19.2

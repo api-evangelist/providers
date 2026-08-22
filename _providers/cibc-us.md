@@ -72,7 +72,7 @@ overview: 'CIBC Bank USA is profiled on the [APIs.io](https://apis.io/) network.
 
 
   CIBC Bank USA''s developer surface includes support and 8 more developer resources.'
-random_paper: 82
+random_paper: 6
 score:
   band: minimal
   composite: 8.2

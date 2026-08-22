@@ -132,7 +132,7 @@ overview: 'SEI Investments is profiled on the [APIs.io](https://apis.io/) networ
 
 
   SEI Investments'' developer surface includes engineering blog and 21 more developer resources.'
-random_paper: 92
+random_paper: 7
 score:
   band: emerging
   composite: 11.0

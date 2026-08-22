@@ -218,7 +218,7 @@ overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arccos Golf''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 61
+random_paper: 12
 scopes:
 - name: Arccos Golf Scopes
   scope_count: 4

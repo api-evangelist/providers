@@ -113,7 +113,7 @@ overview: 'Addi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Addi''s developer surface includes documentation, engineering blog, support, signup flow, authentication, sandbox, and 10 more developer resources.'
-random_paper: 104
+random_paper: 3
 score:
   band: thin
   composite: 26.8

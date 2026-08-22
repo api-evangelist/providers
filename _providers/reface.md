@@ -57,7 +57,7 @@ name: Reface
 nav: Providers
 network: true
 overview: Reface is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Face Swap, and Consumer Apps.
-random_paper: 18
+random_paper: 5
 score:
   band: minimal
   composite: 9.2

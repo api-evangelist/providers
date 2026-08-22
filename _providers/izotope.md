@@ -230,7 +230,7 @@ plans:
 - name: Izotope Plans Pricing
   plan_count: 0
   slug: izotope-plans-pricing
-random_paper: 33
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Izotope Rate Limits

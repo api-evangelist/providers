@@ -57,7 +57,7 @@ name: Blue Vision Labs
 nav: Providers
 network: true
 overview: Blue Vision Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Augmented Reality, Computer Vision, and Mapping.
-random_paper: 106
+random_paper: 0
 score:
   band: minimal
   composite: 6.4

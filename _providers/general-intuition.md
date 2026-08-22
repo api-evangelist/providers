@@ -96,7 +96,7 @@ overview: 'General Intuition is profiled on the [APIs.io](https://apis.io/) netw
 
 
   General Intuition''s developer surface includes signup flow, documentation, engineering blog, and 10 more developer resources.'
-random_paper: 135
+random_paper: 10
 score:
   band: emerging
   composite: 16.8

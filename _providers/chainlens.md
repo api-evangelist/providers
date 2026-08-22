@@ -385,7 +385,7 @@ plans:
 - name: Chainlens Plans Pricing
   plan_count: 1
   slug: chainlens-plans-pricing
-random_paper: 55
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Chainlens Rate Limits

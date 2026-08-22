@@ -49,7 +49,7 @@ name: zhaosuliao
 nav: Providers
 network: true
 overview: zhaosuliao is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 44
+random_paper: 16
 score:
   band: minimal
   composite: 3.2

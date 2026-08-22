@@ -157,7 +157,7 @@ overview: 'MangoBoost publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MangoBoost''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: thin
   composite: 30.3

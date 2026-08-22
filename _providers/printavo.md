@@ -117,7 +117,7 @@ plans:
 - name: Printavo Plans Pricing
   plan_count: 5
   slug: printavo-plans-pricing
-random_paper: 138
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Printavo Rate Limits

@@ -245,7 +245,7 @@ overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 15
+random_paper: 12
 scopes:
 - name: Danske Bank Uk Scopes
   scope_count: 4

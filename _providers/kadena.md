@@ -253,7 +253,7 @@ overview: 'Kadena publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: thin
   composite: 28.6

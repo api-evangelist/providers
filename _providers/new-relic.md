@@ -3260,7 +3260,7 @@ plans:
 - name: New Relic Plans Pricing
   plan_count: 4
   slug: new-relic-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: New Relic Rate Limits

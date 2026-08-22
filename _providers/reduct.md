@@ -141,7 +141,7 @@ overview: 'Reduct publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Reduct''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: thin
   composite: 34.4

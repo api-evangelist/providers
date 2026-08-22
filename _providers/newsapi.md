@@ -168,7 +168,7 @@ plans:
 - name: Newsapi Plans Pricing
   plan_count: 4
   slug: newsapi-plans-pricing
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Newsapi Rate Limits

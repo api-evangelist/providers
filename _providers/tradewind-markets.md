@@ -56,7 +56,7 @@ overview: 'Tradewind Markets is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Tradewind Markets'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 127
+random_paper: 2
 score:
   band: minimal
   composite: 5.5

@@ -88,7 +88,7 @@ overview: 'Paytient is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Paytient''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 19.5

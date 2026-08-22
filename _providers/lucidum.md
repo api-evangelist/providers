@@ -76,7 +76,7 @@ overview: 'Lucidum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lucidum''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 9.2

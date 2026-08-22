@@ -73,7 +73,7 @@ name: Arca
 nav: Providers
 network: true
 overview: Arca is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Fintech, Financial Services, and Wealth Management.
-random_paper: 109
+random_paper: 8
 score:
   band: minimal
   composite: 7.1

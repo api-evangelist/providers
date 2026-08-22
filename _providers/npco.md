@@ -49,7 +49,7 @@ name: NPco
 nav: Providers
 network: true
 overview: NPco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial, Energy & Iot, Artificial Intelligence, Physics Simulation, and Aerospace.
-random_paper: 134
+random_paper: 12
 score:
   band: minimal
   composite: 3.3

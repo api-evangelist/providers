@@ -80,7 +80,7 @@ overview: 'Arrcus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arrcus'' developer surface includes developer portal, documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: emerging
   composite: 14.8

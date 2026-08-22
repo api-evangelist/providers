@@ -185,7 +185,7 @@ overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   Allay Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
-random_paper: 85
+random_paper: 4
 score:
   band: thin
   composite: 39.1

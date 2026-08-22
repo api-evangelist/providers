@@ -222,7 +222,7 @@ plans:
 - name: Rockerbox Plans Pricing
   plan_count: 1
   slug: rockerbox-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Rockerbox Rate Limits

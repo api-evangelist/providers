@@ -101,7 +101,7 @@ overview: 'Blackberry is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blackberry''s developer surface includes documentation, API reference, support, engineering blog, and 10 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: emerging
   composite: 15.2

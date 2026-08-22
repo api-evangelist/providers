@@ -265,7 +265,7 @@ overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: developing
   composite: 53.4

@@ -40,7 +40,7 @@ name: Solazyme
 nav: Providers
 network: true
 overview: Solazyme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 139
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

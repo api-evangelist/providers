@@ -84,7 +84,7 @@ overview: 'Office Luv is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Office Luv''s developer surface includes signup flow and 9 more developer resources.'
-random_paper: 114
+random_paper: 0
 score:
   band: emerging
   composite: 13.2

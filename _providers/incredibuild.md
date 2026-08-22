@@ -113,7 +113,7 @@ overview: 'Incredibuild publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Incredibuild''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 9 more developer resources.'
-random_paper: 70
+random_paper: 2
 score:
   band: thin
   composite: 27.0

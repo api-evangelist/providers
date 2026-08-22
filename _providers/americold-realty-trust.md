@@ -173,7 +173,7 @@ overview: 'Americold Realty Trust publishes 2 APIs on the [APIs.io](https://apis
 
 
   Americold Realty Trust''s developer surface includes developer portal, engineering blog, and 13 more developer resources.'
-random_paper: 34
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

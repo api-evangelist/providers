@@ -45,7 +45,7 @@ name: Humane
 nav: Providers
 network: true
 overview: Humane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Artificial Intelligence, Hardware, and Wearables.
-random_paper: 42
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

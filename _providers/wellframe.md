@@ -64,7 +64,7 @@ overview: 'Wellframe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wellframe''s developer surface includes support and 4 more developer resources.'
-random_paper: 65
+random_paper: 14
 score:
   band: minimal
   composite: 10.0

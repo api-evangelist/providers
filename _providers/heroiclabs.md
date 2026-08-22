@@ -338,7 +338,7 @@ plans:
 - name: Heroiclabs Plans Pricing
   plan_count: 5
   slug: heroiclabs-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Heroiclabs Rate Limits

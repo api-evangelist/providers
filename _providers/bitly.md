@@ -335,7 +335,7 @@ plans:
 - name: Bitly Plans Pricing
   plan_count: 5
   slug: bitly-plans-pricing
-random_paper: 101
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Bitly Rate Limits

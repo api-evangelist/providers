@@ -92,7 +92,7 @@ overview: 'Courtyard is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Courtyard''s developer surface includes documentation, support, signup flow, and 9 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: emerging
   composite: 16.8

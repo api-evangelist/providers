@@ -165,7 +165,7 @@ overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Revyze''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 81
+random_paper: 5
 score:
   band: thin
   composite: 30.8

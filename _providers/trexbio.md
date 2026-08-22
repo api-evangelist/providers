@@ -134,7 +134,7 @@ overview: 'TRexBio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TRexBio''s developer surface includes engineering blog and 18 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: minimal
   composite: 10.6

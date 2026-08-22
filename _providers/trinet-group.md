@@ -144,7 +144,7 @@ press:
 - date: '2026-05-25'
   title: TriNet to launch AI-powered HR suite for small businesses
   url: https://www.investing.com/news/company-news/trinet-to-launch-aipowered-hr-suite-for-small-businesses-93CH-4302017
-random_paper: 72
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Trinet Group Rate Limits

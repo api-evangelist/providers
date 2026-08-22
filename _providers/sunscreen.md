@@ -101,7 +101,7 @@ overview: 'Sunscreen is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sunscreen''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, changelog, and 7 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: emerging
   composite: 18.6

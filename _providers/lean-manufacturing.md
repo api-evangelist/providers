@@ -40,7 +40,7 @@ name: Lean Manufacturing
 nav: Providers
 network: true
 overview: Lean Manufacturing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Lean Manufacturing, Manufacturing, Process Improvement, and Waste Reduction.
-random_paper: 69
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

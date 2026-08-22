@@ -80,7 +80,7 @@ overview: 'Freshket is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Freshket''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: emerging
   composite: 13.3

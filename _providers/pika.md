@@ -158,7 +158,7 @@ plans:
 - name: Pika Plans Pricing
   plan_count: 5
   slug: pika-plans-pricing
-random_paper: 123
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Pika Rate Limits

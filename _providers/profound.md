@@ -241,7 +241,7 @@ plans:
 - name: Profound Plans Pricing
   plan_count: 3
   slug: profound-plans-pricing
-random_paper: 132
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Profound Rate Limits

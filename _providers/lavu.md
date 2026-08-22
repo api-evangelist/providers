@@ -219,7 +219,7 @@ plans:
 - name: Lavu Plans Pricing
   plan_count: 4
   slug: lavu-plans-pricing
-random_paper: 142
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Lavu Rate Limits

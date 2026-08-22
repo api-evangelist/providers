@@ -60,7 +60,7 @@ overview: 'Santander US is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Santander US''s developer surface includes support and 5 more developer resources.'
-random_paper: 45
+random_paper: 19
 score:
   band: minimal
   composite: 8.2

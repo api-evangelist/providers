@@ -445,7 +445,7 @@ plans:
 - name: Impact Radius Plans Pricing
   plan_count: 2
   slug: impact-radius-plans-pricing
-random_paper: 139
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Impact Radius Rate Limits

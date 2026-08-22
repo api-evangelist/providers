@@ -114,7 +114,7 @@ name: CoRegen
 nav: Providers
 network: true
 overview: CoRegen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Oncology, and Cell Therapy.
-random_paper: 143
+random_paper: 4
 score:
   band: minimal
   composite: 9.8

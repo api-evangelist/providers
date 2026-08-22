@@ -96,7 +96,7 @@ overview: 'Cit Vericash is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cit Vericash''s developer surface includes support, engineering blog, YouTube channel, and 10 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

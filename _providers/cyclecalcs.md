@@ -426,7 +426,7 @@ plans:
 - name: Cyclecalcs Plans
   plan_count: 4
   slug: cyclecalcs-plans
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 15
   name: Cyclecalcs Rate Limits

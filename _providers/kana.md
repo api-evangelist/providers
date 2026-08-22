@@ -144,7 +144,7 @@ plans:
 - name: Kana Plans Pricing
   plan_count: 3
   slug: kana-plans-pricing
-random_paper: 113
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Kana Rate Limits

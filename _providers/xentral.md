@@ -719,7 +719,7 @@ overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Xentral Rate Limits

@@ -90,7 +90,7 @@ plans:
 - name: Simplepractice Plans Pricing
   plan_count: 5
   slug: simplepractice-plans-pricing
-random_paper: 3
+random_paper: 2
 score:
   band: emerging
   composite: 15.5

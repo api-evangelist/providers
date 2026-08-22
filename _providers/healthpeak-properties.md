@@ -101,7 +101,7 @@ overview: 'Healthpeak Properties is profiled on the [APIs.io](https://apis.io/) 
 
 
   Healthpeak Properties'' developer surface includes signup flow and 13 more developer resources.'
-random_paper: 107
+random_paper: 9
 score:
   band: minimal
   composite: 5.6

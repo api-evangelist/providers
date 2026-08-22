@@ -84,7 +84,7 @@ overview: 'Electric Car Scheme is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Electric Car Scheme''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 84
+random_paper: 3
 score:
   band: emerging
   composite: 12.1

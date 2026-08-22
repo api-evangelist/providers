@@ -132,7 +132,7 @@ overview: 'Popp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Popp''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 13 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: thin
   composite: 29.9

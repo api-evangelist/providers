@@ -169,7 +169,7 @@ plans:
 - name: Nuvemshop Plans Pricing
   plan_count: 6
   slug: nuvemshop-plans-pricing
-random_paper: 103
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Nuvemshop Rate Limits

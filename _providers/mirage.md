@@ -214,7 +214,7 @@ overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mirage''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: developing
   composite: 48.8

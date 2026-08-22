@@ -40,7 +40,7 @@ name: Programming Paradigm
 nav: Providers
 network: true
 overview: Programming Paradigm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Programming Paradigm and Software Development.
-random_paper: 132
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

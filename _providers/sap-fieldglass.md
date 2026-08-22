@@ -304,7 +304,7 @@ plans:
 - name: Sap Fieldglass Plans Pricing
   plan_count: 1
   slug: sap-fieldglass-plans-pricing
-random_paper: 82
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Sap Fieldglass Rate Limits

@@ -73,7 +73,7 @@ name: Luminous Computing
 nav: Providers
 network: true
 overview: Luminous Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Silicon Photonics, Photonic Computing, and Optical Interconnect.
-random_paper: 131
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

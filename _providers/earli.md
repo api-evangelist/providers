@@ -60,7 +60,7 @@ overview: 'Earli is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Earli''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: minimal
   composite: 6.7

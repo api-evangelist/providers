@@ -81,7 +81,7 @@ overview: 'Dejbox (Refectory) publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Dejbox (Refectory)''s developer surface includes support, authentication, and 6 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: Dejbox Scopes
   scope_count: 3

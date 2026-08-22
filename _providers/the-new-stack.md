@@ -156,7 +156,7 @@ plans:
 - name: The New Stack Plans Pricing
   plan_count: 3
   slug: the-new-stack-plans-pricing
-random_paper: 83
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: The New Stack Rate Limits

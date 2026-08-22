@@ -49,7 +49,7 @@ name: Airborne Entertainment
 nav: Providers
 network: true
 overview: Airborne Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Entertainment, Mobile Content, and Gaming.
-random_paper: 66
+random_paper: 12
 score:
   band: minimal
   composite: 6.4

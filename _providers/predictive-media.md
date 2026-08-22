@@ -40,7 +40,7 @@ name: Predictive Media
 nav: Providers
 network: true
 overview: Predictive Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 138
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

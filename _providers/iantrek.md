@@ -103,7 +103,7 @@ overview: 'Iantrek is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Iantrek''s developer surface includes product news, support, and 15 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 10.1

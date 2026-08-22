@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Couche-Tard Announces Definitive Merger Agreement with ...
   url: https://www.prnewswire.com/news-releases/couche-tard-announces-definitive-merger-agreement-with-cst-brands-inc-590890761.html
-random_paper: 115
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

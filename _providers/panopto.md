@@ -224,7 +224,7 @@ plans:
 - name: Panopto Plans Pricing
   plan_count: 2
   slug: panopto-plans-pricing
-random_paper: 24
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Panopto Rate Limits

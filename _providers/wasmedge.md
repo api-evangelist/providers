@@ -156,7 +156,7 @@ plans:
 - name: Wasmedge Plans Pricing
   plan_count: 3
   slug: wasmedge-plans-pricing
-random_paper: 100
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Wasmedge Rate Limits

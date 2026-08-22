@@ -100,7 +100,7 @@ overview: 'Kaizen Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kaizen Labs'' developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 9.7

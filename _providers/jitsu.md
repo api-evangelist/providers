@@ -125,7 +125,7 @@ plans:
 - name: Jitsu Plans Pricing
   plan_count: 4
   slug: jitsu-plans-pricing
-random_paper: 112
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Jitsu Rate Limits

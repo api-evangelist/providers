@@ -282,7 +282,7 @@ plans:
 - name: Fatsecret Plans Pricing
   plan_count: 3
   slug: fatsecret-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Fatsecret Rate Limits

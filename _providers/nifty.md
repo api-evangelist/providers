@@ -166,7 +166,7 @@ overview: 'Nifty publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nifty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: thin
   composite: 33.3

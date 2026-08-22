@@ -188,7 +188,7 @@ overview: 'Castle publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Castle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 44.6

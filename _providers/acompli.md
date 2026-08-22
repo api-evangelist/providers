@@ -45,7 +45,7 @@ name: Acompli
 nav: Providers
 network: true
 overview: Acompli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Mobile, Productivity, and Calendar.
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

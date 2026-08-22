@@ -309,7 +309,7 @@ overview: 'Upwind publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
-random_paper: 67
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Upwind Rate Limits

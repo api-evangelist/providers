@@ -214,7 +214,7 @@ plans:
 - name: Ahrefs Plans Pricing
   plan_count: 6
   slug: ahrefs-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Ahrefs Rate Limits

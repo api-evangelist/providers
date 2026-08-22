@@ -113,7 +113,7 @@ plans:
 - name: Reservoir Plans Pricing
   plan_count: 3
   slug: reservoir-plans-pricing
-random_paper: 99
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Reservoir Rate Limits

@@ -701,7 +701,7 @@ overview: 'nCino publishes 85 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   nCino''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 88
+random_paper: 10
 scopes:
 - name: Ncino Scopes
   scope_count: 1

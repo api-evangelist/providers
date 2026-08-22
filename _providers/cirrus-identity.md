@@ -183,7 +183,7 @@ overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 93
+random_paper: 8
 score:
   band: developing
   composite: 51.4

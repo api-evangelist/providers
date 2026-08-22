@@ -109,7 +109,7 @@ overview: 'Claim Genius publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Claim Genius'' developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 22
+random_paper: 17
 score:
   band: emerging
   composite: 12.6

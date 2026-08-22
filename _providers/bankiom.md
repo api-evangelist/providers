@@ -64,7 +64,7 @@ overview: 'Bankiom is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bankiom''s developer surface includes support and 4 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 2.4

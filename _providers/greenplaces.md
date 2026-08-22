@@ -72,7 +72,7 @@ overview: 'Greenplaces is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Greenplaces'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 118
+random_paper: 6
 score:
   band: minimal
   composite: 10.0

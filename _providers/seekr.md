@@ -423,7 +423,7 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: strong
   composite: 61.6

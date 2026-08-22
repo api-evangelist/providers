@@ -76,7 +76,7 @@ overview: 'Summer 2 is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Summer 2''s developer surface includes documentation, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: emerging
   composite: 16.8

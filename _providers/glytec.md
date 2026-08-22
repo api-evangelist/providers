@@ -152,7 +152,7 @@ overview: 'Glytec is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Glytec''s developer surface includes support, FAQ, engineering blog, and 26 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 23.4

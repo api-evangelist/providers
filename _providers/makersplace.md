@@ -53,7 +53,7 @@ name: MakersPlace
 nav: Providers
 network: true
 overview: MakersPlace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, NFT, Digital Art, and Marketplace.
-random_paper: 117
+random_paper: 5
 score:
   band: minimal
   composite: 5.3

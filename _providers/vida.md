@@ -49,7 +49,7 @@ name: Vida
 nav: Providers
 network: true
 overview: Vida is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverage, Consumer Goods, and Malaysia.
-random_paper: 122
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

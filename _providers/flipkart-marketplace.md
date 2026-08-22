@@ -57,7 +57,7 @@ name: Flipkart Marketplace
 nav: Providers
 network: true
 overview: Flipkart Marketplace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping and Public APIs.
-random_paper: 130
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

@@ -307,7 +307,7 @@ overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: developing
   composite: 45.8

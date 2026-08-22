@@ -364,7 +364,7 @@ plans:
 - name: Logto Plans Pricing
   plan_count: 3
   slug: logto-plans-pricing
-random_paper: 102
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Logto Rate Limits

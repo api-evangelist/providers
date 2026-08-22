@@ -64,7 +64,7 @@ name: DustPhotonics
 nav: Providers
 network: true
 overview: DustPhotonics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Silicon Photonics, Semiconductors, Optical Interconnect, and Photonic Integrated Circuits.
-random_paper: 90
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

@@ -248,7 +248,7 @@ plans:
 - name: Shopify Admin Plans Pricing
   plan_count: 5
   slug: shopify-admin-plans-pricing
-random_paper: 144
+random_paper: 13
 rate_limits:
 - limit_count: 13
   name: Shopify Admin Rate Limits

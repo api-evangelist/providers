@@ -705,7 +705,7 @@ plans:
 - name: Reclaim Ai Plans Pricing
   plan_count: 4
   slug: reclaim-ai-plans-pricing
-random_paper: 86
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Reclaim Ai Rate Limits

@@ -154,7 +154,7 @@ plans:
 - name: Fevo Plans Pricing
   plan_count: 0
   slug: fevo-plans-pricing
-random_paper: 134
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Fevo Rate Limits

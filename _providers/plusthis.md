@@ -125,7 +125,7 @@ plans:
 - name: Plusthis Plans Pricing
   plan_count: 7
   slug: plusthis-plans-pricing
-random_paper: 147
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Plusthis Rate Limits

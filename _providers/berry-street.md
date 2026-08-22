@@ -88,7 +88,7 @@ overview: 'Berry Street is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Berry Street''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 64
+random_paper: 17
 score:
   band: emerging
   composite: 13.1

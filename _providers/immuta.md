@@ -218,7 +218,7 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 
 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: strong
   composite: 60.4

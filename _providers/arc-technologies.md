@@ -77,7 +77,7 @@ plans:
 - name: Arc Technologies Plans Pricing
   plan_count: 1
   slug: arc-technologies-plans-pricing
-random_paper: 0
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Arc Technologies Rate Limits

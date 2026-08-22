@@ -271,7 +271,7 @@ plans:
 - name: Moloco Plans Pricing
   plan_count: 0
   slug: moloco-plans-pricing
-random_paper: 53
+random_paper: 19
 rate_limits:
 - limit_count: 11
   name: Moloco Rate Limits

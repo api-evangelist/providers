@@ -113,7 +113,7 @@ overview: 'Apptopia publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Apptopia''s developer surface includes documentation, API reference, authentication, support, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Apptopia Rate Limits

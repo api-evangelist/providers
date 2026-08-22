@@ -215,7 +215,7 @@ overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Rhino''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, code examples, and 24 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: developing
   composite: 45.0

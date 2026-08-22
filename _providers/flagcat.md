@@ -49,7 +49,7 @@ name: Flagcat
 nav: Providers
 network: true
 overview: Flagcat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Animation, Webtoon, Anime, and Artificial Intelligence.
-random_paper: 126
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

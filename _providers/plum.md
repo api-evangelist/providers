@@ -76,7 +76,7 @@ overview: 'Plum is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Plum''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
-random_paper: 148
+random_paper: 5
 score:
   band: emerging
   composite: 12.7

@@ -93,7 +93,7 @@ overview: 'Cyberwrite is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cyberwrite''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: minimal
   composite: 4.4

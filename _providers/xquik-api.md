@@ -372,7 +372,7 @@ plans:
 - name: Xquik Plans
   plan_count: 4
   slug: xquik-plans
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Xquik Rate Limits

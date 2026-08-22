@@ -116,7 +116,7 @@ overview: 'Oddcast publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Oddcast''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: thin
   composite: 28.9

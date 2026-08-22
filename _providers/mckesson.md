@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: McKesson ties AI, automation, specialty tech to Q3 sales ...
   url: https://www.digitalcommerce360.com/2026/02/05/mckesson-ai-automation-specialty-tech-q3-sales/
-random_paper: 122
+random_paper: 6
 score:
   band: minimal
   composite: 4.8

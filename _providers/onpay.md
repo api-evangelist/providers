@@ -199,7 +199,7 @@ overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 104
+random_paper: 5
 scopes:
 - name: Onpay Scopes
   scope_count: 6

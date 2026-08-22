@@ -80,7 +80,7 @@ overview: 'Faks is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Faks'' developer surface includes engineering blog, pricing, and 7 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: emerging
   composite: 14.0

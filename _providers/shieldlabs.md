@@ -10,7 +10,7 @@ modified: '2026-08-19'
 name: ShieldLabs
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 1
 slug: shieldlabs
 tags:
 - fraud-detection

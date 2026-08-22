@@ -294,7 +294,7 @@ overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Deutsche Börse''s developer surface includes changelog, API reference, getting-started guide, support, authentication, developer portal, documentation, and 28 more developer resources.'
-random_paper: 48
+random_paper: 5
 score:
   band: strong
   composite: 55.5

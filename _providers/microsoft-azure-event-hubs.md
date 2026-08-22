@@ -345,7 +345,7 @@ plans:
 - name: Microsoft Azure Event Hubs Plans Pricing
   plan_count: 4
   slug: microsoft-azure-event-hubs-plans-pricing
-random_paper: 115
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Event Hubs Rate Limits

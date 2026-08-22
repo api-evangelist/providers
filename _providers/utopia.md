@@ -69,7 +69,7 @@ name: Utopia
 nav: Providers
 network: true
 overview: Utopia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Design, Low Code, and React.
-random_paper: 62
+random_paper: 7
 score:
   band: minimal
   composite: 6.1

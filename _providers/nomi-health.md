@@ -123,7 +123,7 @@ overview: 'Nomi Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Nomi Health''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 67
+random_paper: 18
 score:
   band: emerging
   composite: 15.8

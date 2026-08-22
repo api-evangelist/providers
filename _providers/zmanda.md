@@ -72,7 +72,7 @@ overview: 'Zmanda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Zmanda''s developer surface includes API reference, documentation, and 5 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 11.6

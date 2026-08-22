@@ -164,7 +164,7 @@ overview: 'Vev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vev''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, engineering blog, and 20 more developer resources.'
-random_paper: 39
+random_paper: 1
 score:
   band: developing
   composite: 42.9

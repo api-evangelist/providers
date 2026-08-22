@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: HNI) 2026 proxy details Steelcase deal, pay and ESG
   url: https://www.stocktitan.net/sec-filings/HNI/def-14a-hni-corp-definitive-proxy-statement-3603a98d9fc3.html
-random_paper: 21
+random_paper: 4
 score:
   band: minimal
   composite: 3.1

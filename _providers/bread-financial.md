@@ -145,7 +145,7 @@ overview: 'Bread Financial publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 147
+random_paper: 18
 score:
   band: thin
   composite: 31.5

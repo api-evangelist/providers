@@ -140,7 +140,7 @@ overview: 'Number26 publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Number26''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: thin
   composite: 37.5

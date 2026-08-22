@@ -61,7 +61,7 @@ name: Text'nPayMe
 nav: Providers
 network: true
 overview: Text'nPayMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Embedded Payments, and Payment Gateway.
-random_paper: 60
+random_paper: 11
 score:
   band: minimal
   composite: 4.6

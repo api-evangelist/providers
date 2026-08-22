@@ -175,7 +175,7 @@ overview: 'WestJet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   WestJet''s developer surface includes getting-started guide, changelog, engineering blog, developer portal, documentation, signup flow, support, and 25 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: thin
   composite: 38.8

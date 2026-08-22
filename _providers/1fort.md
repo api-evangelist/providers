@@ -736,7 +736,7 @@ overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
-random_paper: 45
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: 1Fort Rate Limits

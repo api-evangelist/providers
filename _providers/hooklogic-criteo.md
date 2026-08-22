@@ -282,7 +282,7 @@ plans:
 - name: Hooklogic Criteo Plans Pricing
   plan_count: 0
   slug: hooklogic-criteo-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Hooklogic Criteo Rate Limits

@@ -49,7 +49,7 @@ name: Plenty
 nav: Providers
 network: true
 overview: Plenty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Agriculture, Vertical Farming, and AgTech.
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

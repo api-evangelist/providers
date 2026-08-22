@@ -127,7 +127,7 @@ plans:
 - name: Hopper Travel Plans Pricing
   plan_count: 1
   slug: hopper-travel-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Hopper Travel Rate Limits

@@ -68,7 +68,7 @@ overview: 'E-Peas is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   E-Peas'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 124
+random_paper: 4
 score:
   band: minimal
   composite: 10.6

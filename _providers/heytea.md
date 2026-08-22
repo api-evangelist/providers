@@ -49,7 +49,7 @@ name: Heytea
 nav: Providers
 network: true
 overview: Heytea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Beverages, and Tea.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

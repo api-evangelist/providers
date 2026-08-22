@@ -173,7 +173,7 @@ overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 19 more developer resources.'
-random_paper: 120
+random_paper: 14
 score:
   band: thin
   composite: 35.1

@@ -268,7 +268,7 @@ overview: 'Conxai publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 39.4

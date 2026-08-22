@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Cummins completes acquisition of Meritor
   url: https://www.cummins.com/en-na/news/releases/2022/08/03/cummins-completes-acquisition-meritor
-random_paper: 25
+random_paper: 14
 score:
   band: minimal
   composite: 2.6

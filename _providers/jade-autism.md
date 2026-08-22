@@ -68,7 +68,7 @@ overview: 'Jade Autism is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Jade Autism''s developer surface includes engineering blog, pricing, support, and 3 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: minimal
   composite: 7.4

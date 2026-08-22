@@ -1425,7 +1425,6 @@ overview: 'Autodesk publishes 48 APIs on the [APIs.io](https://apis.io/) network
 
 
   Autodesk''s developer surface includes authentication, developer portal, engineering blog, support, getting-started guide, documentation, pricing, and 69 more developer resources.'
-paper_is_own: true
 plans:
 - name: Autodesk Plans Pricing
   plan_count: 3
@@ -1446,7 +1445,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 26
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits

@@ -80,7 +80,7 @@ overview: 'All3D is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   All3D''s developer surface includes pricing, getting-started guide, support, signup flow, and 5 more developer resources.'
-random_paper: 17
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

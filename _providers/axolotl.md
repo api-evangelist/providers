@@ -61,7 +61,7 @@ name: Axolotl
 nav: Providers
 network: true
 overview: Axolotl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 7.3

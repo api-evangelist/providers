@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: FirstEnergy Looks To Capture Long-Term Growth Amid AI ...
   url: https://www.investors.com/research/the-income-investor/firstenergy-stock-fe-ai-dividend-yield-earnings-growth-markets-investing/
-random_paper: 10
+random_paper: 5
 score:
   band: minimal
   composite: 2.4

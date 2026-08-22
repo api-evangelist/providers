@@ -91,7 +91,7 @@ overview: 'Apeel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apeel''s developer surface includes FAQ, product news, engineering blog, support, and 10 more developer resources.'
-random_paper: 68
+random_paper: 2
 score:
   band: emerging
   composite: 11.0

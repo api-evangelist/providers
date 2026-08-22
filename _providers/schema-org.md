@@ -415,7 +415,7 @@ plans:
 - name: Schema Org Plans Pricing
   plan_count: 0
   slug: schema-org-plans-pricing
-random_paper: 104
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Schema Org Rate Limits

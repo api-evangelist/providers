@@ -65,7 +65,7 @@ name: Everstring
 nav: Providers
 network: true
 overview: Everstring publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Predictive Marketing, Sales Intelligence, Data Enrichment, and Firmographics.
-random_paper: 54
+random_paper: 5
 score:
   band: minimal
   composite: 8.6

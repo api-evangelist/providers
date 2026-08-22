@@ -91,7 +91,7 @@ plans:
 - name: Hundsun Plans Pricing
   plan_count: 3
   slug: hundsun-plans-pricing
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Hundsun Rate Limits

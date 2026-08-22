@@ -72,7 +72,7 @@ overview: 'Sidekick is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sidekick''s developer surface includes support, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 94
+random_paper: 20
 score:
   band: emerging
   composite: 13.3

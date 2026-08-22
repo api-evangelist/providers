@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Anadarko Announces New Board Member and Promotion ...
   url: https://www.prnewswire.com/news-releases/anadarko-announces-new-board-member-and-promotion-of-amanda-mcmillian-300144415.html
-random_paper: 79
+random_paper: 19
 score:
   band: minimal
   composite: 5.2

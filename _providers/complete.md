@@ -97,7 +97,7 @@ overview: 'Complete is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Complete''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: emerging
   composite: 19.9

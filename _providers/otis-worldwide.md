@@ -48,7 +48,7 @@ name: otis-worldwide
 nav: Providers
 network: true
 overview: otis-worldwide is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 128
+random_paper: 20
 score:
   band: minimal
   composite: 2.6

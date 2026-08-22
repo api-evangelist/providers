@@ -102,7 +102,7 @@ plans:
 - name: Supponor Plans Pricing
   plan_count: 0
   slug: supponor-plans-pricing
-random_paper: 8
+random_paper: 20
 score:
   band: minimal
   composite: 9.6

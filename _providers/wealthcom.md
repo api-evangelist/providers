@@ -164,7 +164,7 @@ overview: 'Wealth.com publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Wealth.com''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Wealthcom Rate Limits

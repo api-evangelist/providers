@@ -76,7 +76,7 @@ overview: 'Sondermind is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sondermind''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: emerging
   composite: 12.5

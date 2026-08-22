@@ -139,7 +139,7 @@ overview: 'JobGet publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 22.9

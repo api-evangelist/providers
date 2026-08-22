@@ -112,7 +112,7 @@ overview: 'Sworkit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sworkit''s developer surface includes documentation, support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 42
+random_paper: 10
 score:
   band: emerging
   composite: 18.0

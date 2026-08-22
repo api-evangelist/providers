@@ -189,7 +189,7 @@ plans:
 - name: Microsoft Azure Mysql Plans Pricing
   plan_count: 3
   slug: microsoft-azure-mysql-plans-pricing
-random_paper: 103
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Mysql Rate Limits

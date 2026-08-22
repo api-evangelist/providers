@@ -77,7 +77,7 @@ plans:
 - name: Krunch Plans Pricing
   plan_count: 0
   slug: krunch-plans-pricing
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

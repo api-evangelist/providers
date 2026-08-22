@@ -214,7 +214,7 @@ overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wugen''s developer surface includes authentication, code examples, product news, support, and 27 more developer resources.'
-random_paper: 103
+random_paper: 4
 score:
   band: thin
   composite: 32.5

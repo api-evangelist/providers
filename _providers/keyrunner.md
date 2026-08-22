@@ -73,7 +73,7 @@ plans:
 - name: Keyrunner Plans Pricing
   plan_count: 3
   slug: keyrunner-plans-pricing
-random_paper: 101
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Keyrunner Rate Limits

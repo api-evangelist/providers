@@ -171,7 +171,7 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   PreAuth (Instacash)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 125
+random_paper: 0
 score:
   band: developing
   composite: 52.2

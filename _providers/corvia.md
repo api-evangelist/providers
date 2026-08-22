@@ -80,7 +80,7 @@ overview: 'Corvia Medical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Corvia Medical''s developer surface includes support, engineering blog, YouTube channel, and 6 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: minimal
   composite: 7.6

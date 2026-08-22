@@ -57,7 +57,7 @@ name: arcsecond.io
 nav: Providers
 network: true
 overview: arcsecond.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 15
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

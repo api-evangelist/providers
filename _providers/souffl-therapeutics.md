@@ -53,7 +53,7 @@ name: Soufflé Therapeutics
 nav: Providers
 network: true
 overview: Soufflé Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Therapeutics, Genetic Medicine, and siRNA.
-random_paper: 60
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

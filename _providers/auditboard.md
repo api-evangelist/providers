@@ -108,7 +108,7 @@ overview: 'AuditBoard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AuditBoard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: emerging
   composite: 16.3

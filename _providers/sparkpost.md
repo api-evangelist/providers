@@ -262,7 +262,7 @@ plans:
 - name: Sparkpost Plans Pricing
   plan_count: 3
   slug: sparkpost-plans-pricing
-random_paper: 105
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Sparkpost Rate Limits

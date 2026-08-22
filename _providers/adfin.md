@@ -168,7 +168,7 @@ overview: 'Adfin publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Adfin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 20 more developer resources.'
-random_paper: 67
+random_paper: 10
 score:
   band: developing
   composite: 47.0

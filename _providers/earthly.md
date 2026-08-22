@@ -124,7 +124,7 @@ overview: 'Earthly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Earthly''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
   composite: 18.5

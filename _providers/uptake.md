@@ -113,7 +113,7 @@ overview: 'Uptake publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Uptake''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 54
+random_paper: 20
 scopes:
 - name: Uptake Scopes
   scope_count: 0

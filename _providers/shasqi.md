@@ -49,7 +49,7 @@ name: Shasqi
 nav: Providers
 network: true
 overview: Shasqi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Cancer Therapeutics.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

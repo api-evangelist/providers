@@ -384,7 +384,7 @@ overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
-random_paper: 76
+random_paper: 2
 scopes:
 - name: Anaconda Scopes
   scope_count: 3

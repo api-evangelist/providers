@@ -128,7 +128,7 @@ overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   dltHub''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 13 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: thin
   composite: 27.7

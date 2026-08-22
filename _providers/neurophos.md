@@ -91,7 +91,7 @@ overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Neurophos'' developer surface includes authentication, product news, and 10 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: minimal
   composite: 10.8

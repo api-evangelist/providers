@@ -57,7 +57,7 @@ name: Liveprofile
 nav: Providers
 network: true
 overview: Liveprofile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Chat, Communication, and Mobile.
-random_paper: 142
+random_paper: 9
 score:
   band: minimal
   composite: 5.3

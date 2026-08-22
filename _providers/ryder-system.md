@@ -259,7 +259,7 @@ press:
 - date: '2026-05-25'
   title: Ryder and Terminal Digitize Yard; Achieve 99% Accuracy ...
   url: https://www.businesswire.com/news/home/20240821139395/en/Ryder-and-Terminal-Digitize-Yard-Achieve-99-Accuracy-with-AI-Computer-Vision
-random_paper: 80
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Ryder System Rate Limits

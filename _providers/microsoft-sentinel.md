@@ -159,7 +159,7 @@ plans:
 - name: Microsoft Sentinel Plans Pricing
   plan_count: 3
   slug: microsoft-sentinel-plans-pricing
-random_paper: 105
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Sentinel Rate Limits

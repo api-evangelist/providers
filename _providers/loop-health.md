@@ -72,7 +72,7 @@ overview: 'Loop Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Loop Health''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 74
+random_paper: 4
 score:
   band: minimal
   composite: 8.8

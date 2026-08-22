@@ -49,7 +49,7 @@ name: Openet
 nav: Providers
 network: true
 overview: Openet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, BSS, Monetization, and Charging.
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 0.6

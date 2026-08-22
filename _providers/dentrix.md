@@ -108,7 +108,7 @@ plans:
 - name: Dentrix Plans Pricing
   plan_count: 3
   slug: dentrix-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Dentrix Rate Limits

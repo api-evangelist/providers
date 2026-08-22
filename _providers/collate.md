@@ -184,7 +184,7 @@ overview: 'Collate publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Collate''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 23 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: developing
   composite: 49.0

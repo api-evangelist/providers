@@ -97,7 +97,7 @@ overview: 'Antimatter Systems is profiled on the [APIs.io](https://apis.io/) net
 
 
   Antimatter Systems'' developer surface includes signup flow, support, YouTube channel, and 10 more developer resources.'
-random_paper: 130
+random_paper: 7
 score:
   band: minimal
   composite: 10.4

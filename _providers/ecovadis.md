@@ -105,7 +105,7 @@ overview: 'Ecovadis publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Ecovadis'' developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 9.6

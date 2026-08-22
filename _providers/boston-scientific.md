@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Using AI to predict and prevent cardiac emergencies
   url: https://news.bostonscientific.com/ai-diagnostic-heart-failure-symptoms-arrythmia
-random_paper: 124
+random_paper: 20
 score:
   band: minimal
   composite: 3.7

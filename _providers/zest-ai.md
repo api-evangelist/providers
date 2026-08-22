@@ -60,7 +60,7 @@ overview: 'Zest AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zest AI''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 105
+random_paper: 8
 score:
   band: minimal
   composite: 5.8

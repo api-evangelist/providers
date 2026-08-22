@@ -232,7 +232,7 @@ overview: 'Picarro publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Picarro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 37 more developer resources.'
-random_paper: 7
+random_paper: 17
 scopes:
 - name: Picarro Scopes
   scope_count: 9

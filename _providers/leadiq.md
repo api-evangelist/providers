@@ -294,7 +294,7 @@ plans:
 - name: Leadiq Plans Pricing
   plan_count: 3
   slug: leadiq-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Leadiq Rate Limits

@@ -65,7 +65,7 @@ name: Eyva
 nav: Providers
 network: true
 overview: Eyva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Personal Care, Consumer Insights, and Market Intelligence.
-random_paper: 139
+random_paper: 17
 score:
   band: minimal
   composite: 8.4

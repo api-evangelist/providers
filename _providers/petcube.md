@@ -49,7 +49,7 @@ name: Petcube
 nav: Providers
 network: true
 overview: Petcube is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Tech, Internet of Things, Consumer Hardware, and Cameras.
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

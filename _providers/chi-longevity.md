@@ -76,7 +76,7 @@ overview: 'Chi Longevity is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Chi Longevity''s developer surface includes developer portal, support, signup flow, and 5 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: emerging
   composite: 11.9

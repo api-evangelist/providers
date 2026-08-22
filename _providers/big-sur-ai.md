@@ -49,7 +49,7 @@ name: Big Sur Ai
 nav: Providers
 network: true
 overview: Big Sur Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, E-Commerce, Conversational AI, and Shopping Assistant.
-random_paper: 50
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

@@ -172,7 +172,7 @@ overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 132
+random_paper: 20
 score:
   band: thin
   composite: 30.3

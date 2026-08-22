@@ -195,7 +195,7 @@ plans:
 - name: Stack Auth Plans Pricing
   plan_count: 1
   slug: stack-auth-plans-pricing
-random_paper: 119
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Stack Auth Rate Limits

@@ -90,7 +90,7 @@ overview: 'JetZero is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   JetZero''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 9.3

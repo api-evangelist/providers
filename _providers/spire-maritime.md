@@ -110,7 +110,7 @@ plans:
 - name: Spire Maritime Plans Pricing
   plan_count: 1
   slug: spire-maritime-plans-pricing
-random_paper: 107
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Spire Maritime Rate Limits

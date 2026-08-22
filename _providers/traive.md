@@ -113,7 +113,7 @@ overview: 'Traive is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Traive''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 55
+random_paper: 0
 scopes:
 - name: Traive Scopes
   scope_count: 50

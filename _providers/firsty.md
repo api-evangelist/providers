@@ -76,7 +76,7 @@ overview: 'Firsty is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Firsty''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 77
+random_paper: 1
 score:
   band: emerging
   composite: 11.2

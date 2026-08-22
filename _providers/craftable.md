@@ -81,7 +81,7 @@ overview: 'Craftable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Craftable''s developer surface includes signup flow, support, documentation, engineering blog, and 5 more developer resources.'
-random_paper: 38
+random_paper: 8
 score:
   band: minimal
   composite: 9.7

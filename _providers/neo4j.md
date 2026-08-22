@@ -244,7 +244,7 @@ plans:
 - name: Neo4J Plans Pricing
   plan_count: 8
   slug: neo4j-plans-pricing
-random_paper: 33
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Neo4J Rate Limits

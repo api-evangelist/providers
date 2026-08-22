@@ -68,7 +68,7 @@ overview: 'Personal Capital is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Personal Capital''s developer surface includes signup flow, support, engineering blog, and 3 more developer resources.'
-random_paper: 8
+random_paper: 9
 score:
   band: minimal
   composite: 9.1

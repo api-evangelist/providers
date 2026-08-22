@@ -160,7 +160,7 @@ plans:
 - name: Cohere Health Plans Pricing
   plan_count: 0
   slug: cohere-health-plans-pricing
-random_paper: 113
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Cohere Health Rate Limits

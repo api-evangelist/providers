@@ -554,7 +554,7 @@ plans:
 - name: Workday Financials Plans Pricing
   plan_count: 1
   slug: workday-financials-plans-pricing
-random_paper: 74
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Workday Financials Rate Limits

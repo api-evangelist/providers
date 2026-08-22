@@ -404,7 +404,7 @@ plans:
 - name: Nuxeo Plans Pricing
   plan_count: 2
   slug: nuxeo-plans-pricing
-random_paper: 112
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Nuxeo Rate Limits

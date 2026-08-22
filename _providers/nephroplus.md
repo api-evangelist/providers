@@ -49,7 +49,7 @@ name: NephroPlus
 nav: Providers
 network: true
 overview: NephroPlus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dialysis, Kidney Care, and Nephrology.
-random_paper: 61
+random_paper: 12
 score:
   band: minimal
   composite: 3.3

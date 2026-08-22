@@ -115,7 +115,7 @@ plans:
 - name: Meetash Plans Pricing
   plan_count: 0
   slug: meetash-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Meetash Rate Limits

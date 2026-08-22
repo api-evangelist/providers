@@ -49,7 +49,7 @@ name: Schneider National
 nav: Providers
 network: true
 overview: Schneider National is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 2.9

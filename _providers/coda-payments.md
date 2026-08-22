@@ -191,7 +191,7 @@ overview: 'Coda Payments publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coda Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 141
+random_paper: 10
 score:
   band: strong
   composite: 57.7

@@ -68,7 +68,7 @@ overview: 'Basebuild is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Basebuild''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 45
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

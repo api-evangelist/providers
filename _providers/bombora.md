@@ -270,7 +270,7 @@ plans:
 - name: Bombora Plans Pricing
   plan_count: 0
   slug: bombora-plans-pricing
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Bombora Rate Limits

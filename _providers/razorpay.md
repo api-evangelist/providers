@@ -180,7 +180,7 @@ overview: 'Razorpay publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Razorpay''s developer surface includes sandbox, changelog, authentication, documentation, API reference, pricing, signup flow, and 17 more developer resources.'
-random_paper: 143
+random_paper: 6
 rules:
 - effective_rule_count: 34
   extends:

@@ -85,7 +85,7 @@ overview: 'Antech Diagnostics publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Antech Diagnostics'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 9.6

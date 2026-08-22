@@ -60,7 +60,7 @@ overview: 'Bitacora.io is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Bitacora.io''s developer surface includes support and 3 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: minimal
   composite: 6.6

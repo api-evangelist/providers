@@ -114,7 +114,7 @@ plans:
 - name: Iit Delhi Plans Pricing
   plan_count: 2
   slug: iit-delhi-plans-pricing
-random_paper: 144
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Iit Delhi Rate Limits

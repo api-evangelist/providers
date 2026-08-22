@@ -40,7 +40,7 @@ name: Performance Drone Works
 nav: Providers
 network: true
 overview: Performance Drone Works is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Drones, UAV, and Aerospace.
-random_paper: 127
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

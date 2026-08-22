@@ -84,7 +84,7 @@ overview: 'Investly publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Investly''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
   composite: 16.2

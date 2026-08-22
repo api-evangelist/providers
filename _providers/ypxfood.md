@@ -49,7 +49,7 @@ name: ypxfood
 nav: Providers
 network: true
 overview: ypxfood is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Restaurant, Quick Service Restaurant, and Taiwan.
-random_paper: 32
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

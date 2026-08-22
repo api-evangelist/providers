@@ -153,7 +153,7 @@ overview: 'ClassDojo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ClassDojo''s developer surface includes GitHub presence, YouTube channel, engineering blog, and 23 more developer resources.'
-random_paper: 68
+random_paper: 17
 score:
   band: emerging
   composite: 21.5

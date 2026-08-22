@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: American Equity Recognized for Award-Winning Customer ...
   url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
-random_paper: 69
+random_paper: 16
 score:
   band: minimal
   composite: 4.5

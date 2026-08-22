@@ -143,7 +143,7 @@ plans:
 - name: Payerset Plans Pricing
   plan_count: 2
   slug: payerset-plans-pricing
-random_paper: 132
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Payerset Rate Limits

@@ -68,7 +68,7 @@ overview: 'TAAI Labs, Inc is profiled on the [APIs.io](https://apis.io/) network
 
 
   TAAI Labs, Inc''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 45
+random_paper: 19
 score:
   band: emerging
   composite: 11.8

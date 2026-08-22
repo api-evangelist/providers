@@ -53,7 +53,7 @@ name: EraDrive
 nav: Providers
 network: true
 overview: EraDrive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Satellite, and Autonomy.
-random_paper: 105
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -78,7 +78,7 @@ overview: 'Ansa Biotechnologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Ansa Biotechnologies'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 125
+random_paper: 4
 score:
   band: minimal
   composite: 4.3

@@ -60,7 +60,7 @@ overview: 'Procuri is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Procuri''s developer surface includes support and 3 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: minimal
   composite: 8.1

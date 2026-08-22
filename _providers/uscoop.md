@@ -113,7 +113,7 @@ overview: 'uScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   uScoop''s developer surface includes documentation, authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 69
+random_paper: 14
 scopes:
 - name: Uscoop Scopes
   scope_count: 4

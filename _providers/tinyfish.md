@@ -235,7 +235,7 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: developing
   composite: 51.1

@@ -455,7 +455,7 @@ plans:
 - name: Subscan
   plan_count: 3
   slug: subscan
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Subscan

@@ -88,7 +88,7 @@ overview: 'At-Home-Doc is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   At-Home-Doc''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 144
+random_paper: 9
 score:
   band: minimal
   composite: 10.5

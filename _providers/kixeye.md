@@ -114,7 +114,7 @@ overview: 'Kixeye is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kixeye''s developer surface includes support, legal docs, authentication, and 14 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: emerging
   composite: 15.3

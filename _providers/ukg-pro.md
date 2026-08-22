@@ -151,7 +151,7 @@ overview: 'UKG Pro publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   UKG Pro''s developer surface includes authentication, documentation, pricing, support, and 9 more developer resources.'
-random_paper: 113
+random_paper: 16
 score:
   band: emerging
   composite: 25.0

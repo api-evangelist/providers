@@ -122,7 +122,7 @@ overview: 'Antares Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Antares Therapeutics'' developer surface includes engineering blog, product news, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: emerging
   composite: 16.7

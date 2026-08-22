@@ -101,7 +101,7 @@ plans:
 - name: Eci Solutions Plans Pricing
   plan_count: 3
   slug: eci-solutions-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Eci Solutions Rate Limits

@@ -72,7 +72,7 @@ overview: 'Bounce is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bounce''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 11.4

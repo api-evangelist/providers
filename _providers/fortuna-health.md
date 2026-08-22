@@ -88,7 +88,7 @@ overview: 'Fortuna Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Fortuna Health''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 101
+random_paper: 14
 score:
   band: emerging
   composite: 16.9

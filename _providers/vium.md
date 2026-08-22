@@ -40,7 +40,7 @@ name: Vium
 nav: Providers
 network: true
 overview: Vium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Preclinical Research, and Laboratory.
-random_paper: 2
+random_paper: 8
 score:
   band: minimal
   composite: 2.2

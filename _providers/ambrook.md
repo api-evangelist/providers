@@ -109,7 +109,7 @@ overview: 'Ambrook is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ambrook''s developer surface includes pricing, signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 2
+random_paper: 12
 scopes:
 - name: Ambrook Scopes
   scope_count: 5

@@ -100,7 +100,7 @@ overview: 'Trovy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Trovy''s developer surface includes support, FAQ, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 133
+random_paper: 13
 score:
   band: emerging
   composite: 14.5

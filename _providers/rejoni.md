@@ -98,7 +98,7 @@ overview: 'Rejoni is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rejoni''s developer surface includes product news and 10 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 6.9

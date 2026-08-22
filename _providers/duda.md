@@ -194,7 +194,7 @@ plans:
 - name: Duda Plans Pricing
   plan_count: 5
   slug: duda-plans-pricing
-random_paper: 116
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Duda Rate Limits

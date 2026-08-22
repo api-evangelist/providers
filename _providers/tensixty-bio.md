@@ -49,7 +49,7 @@ name: TenSixty Bio
 nav: Providers
 network: true
 overview: TenSixty Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Oncology, Cancer, and Machine Learning.
-random_paper: 71
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

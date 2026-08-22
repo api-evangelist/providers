@@ -57,7 +57,7 @@ name: Economia.Awesome
 nav: Providers
 network: true
 overview: Economia.Awesome publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 2
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

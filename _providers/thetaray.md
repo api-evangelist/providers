@@ -114,7 +114,7 @@ overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 121
+random_paper: 5
 scopes:
 - name: Thetaray Scopes
   scope_count: 4

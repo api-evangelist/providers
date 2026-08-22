@@ -271,7 +271,7 @@ overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
-random_paper: 140
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits

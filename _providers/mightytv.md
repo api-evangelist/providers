@@ -40,7 +40,7 @@ name: Mightytv
 nav: Providers
 network: true
 overview: Mightytv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 147
+random_paper: 10
 score:
   band: minimal
   composite: 3.2

@@ -169,7 +169,7 @@ overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Overshootai Rate Limits

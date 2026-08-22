@@ -57,7 +57,7 @@ name: Pravica
 nav: Providers
 network: true
 overview: Pravica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Programmable Money.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 1.5

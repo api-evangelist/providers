@@ -620,7 +620,7 @@ overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 137
+random_paper: 15
 score:
   band: strong
   composite: 57.5

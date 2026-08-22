@@ -49,7 +49,7 @@ name: CasaOne
 nav: Providers
 network: true
 overview: CasaOne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Furniture, Rental, and Home.
-random_paper: 134
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -282,7 +282,7 @@ overview: 'Tidelift publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 23 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: developing
   composite: 41.9

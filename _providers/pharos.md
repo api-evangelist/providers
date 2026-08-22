@@ -49,7 +49,7 @@ name: Pharos
 nav: Providers
 network: true
 overview: Pharos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Safety, Hospitals, and Quality Improvement.
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

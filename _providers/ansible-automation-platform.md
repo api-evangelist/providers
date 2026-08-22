@@ -200,7 +200,7 @@ plans:
 - name: Ansible Automation Platform Plans Pricing
   plan_count: 3
   slug: ansible-automation-platform-plans-pricing
-random_paper: 100
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Ansible Automation Platform Rate Limits

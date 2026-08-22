@@ -89,7 +89,7 @@ overview: 'Hallo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hallo''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: emerging
   composite: 21.6

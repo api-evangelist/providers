@@ -275,7 +275,7 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
-random_paper: 71
+random_paper: 14
 scopes:
 - name: Brale Scopes
   scope_count: 20

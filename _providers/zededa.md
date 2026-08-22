@@ -379,7 +379,7 @@ overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: developing
   composite: 40.8

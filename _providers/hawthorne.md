@@ -93,7 +93,7 @@ overview: 'Hawthorne publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hawthorne''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 82
+random_paper: 10
 scopes:
 - name: Hawthorne Scopes
   scope_count: 4

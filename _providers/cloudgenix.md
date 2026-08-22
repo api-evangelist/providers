@@ -73,7 +73,7 @@ overview: 'Cloudgenix publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cloudgenix''s developer surface includes documentation, CLI, authentication, and 3 more developer resources.'
-random_paper: 31
+random_paper: 3
 score:
   band: emerging
   composite: 13.4

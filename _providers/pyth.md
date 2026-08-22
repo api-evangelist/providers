@@ -203,7 +203,7 @@ overview: 'Pyth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pyth''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 6
+random_paper: 12
 score:
   band: developing
   composite: 50.9

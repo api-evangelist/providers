@@ -100,7 +100,7 @@ overview: 'SnapMagic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SnapMagic''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 53
+random_paper: 2
 score:
   band: emerging
   composite: 25.2

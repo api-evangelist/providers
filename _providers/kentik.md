@@ -360,7 +360,7 @@ overview: 'Kentik publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kentik''s developer surface includes documentation, API reference, developer portal, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: strong
   composite: 55.5

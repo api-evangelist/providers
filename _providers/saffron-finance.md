@@ -88,7 +88,7 @@ overview: 'Saffron Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Saffron Finance''s developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 30
+random_paper: 8
 score:
   band: emerging
   composite: 11.8

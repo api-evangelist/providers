@@ -80,7 +80,7 @@ overview: 'OnDeck Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   OnDeck Capital''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 66
+random_paper: 0
 score:
   band: emerging
   composite: 12.7

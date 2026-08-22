@@ -187,7 +187,7 @@ plans:
 - name: Channel99 Plans Pricing
   plan_count: 0
   slug: channel99-plans-pricing
-random_paper: 98
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Channel99 Rate Limits

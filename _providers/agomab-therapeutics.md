@@ -100,7 +100,7 @@ overview: 'Agomab Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Agomab Therapeutics'' developer surface includes engineering blog, product news, support, legal docs, and 10 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: minimal
   composite: 7.6

@@ -84,7 +84,7 @@ overview: 'Donnerstag Ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Donnerstag Ai''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 132
+random_paper: 1
 score:
   band: minimal
   composite: 9.4

@@ -68,7 +68,7 @@ overview: 'Bedrock Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bedrock Robotics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

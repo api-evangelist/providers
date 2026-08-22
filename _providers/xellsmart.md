@@ -60,7 +60,7 @@ overview: 'XellSmart Biomedical is profiled on the [APIs.io](https://apis.io/) n
 
 
   XellSmart Biomedical''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 94
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

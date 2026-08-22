@@ -123,7 +123,7 @@ overview: 'CrowdStreet is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CrowdStreet''s developer surface includes signup flow, support, FAQ, engineering blog, legal docs, and 17 more developer resources.'
-random_paper: 14
+random_paper: 9
 score:
   band: emerging
   composite: 16.8

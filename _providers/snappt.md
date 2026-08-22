@@ -236,7 +236,7 @@ overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 66
+random_paper: 11
 score:
   band: strong
   composite: 54.6

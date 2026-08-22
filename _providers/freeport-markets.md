@@ -72,7 +72,7 @@ overview: 'Freeport Markets is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Freeport Markets'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 36
+random_paper: 16
 score:
   band: minimal
   composite: 9.6

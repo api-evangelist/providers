@@ -100,7 +100,7 @@ name: BHP
 nav: Providers
 network: true
 overview: BHP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Resources, Commodities, Iron Ore, and Copper.
-random_paper: 16
+random_paper: 20
 score:
   band: minimal
   composite: 10.8

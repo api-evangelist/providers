@@ -53,7 +53,7 @@ name: Doc Doc
 nav: Providers
 network: true
 overview: Doc Doc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telemedicine, Healthcare, Telehealth, and Medical.
-random_paper: 69
+random_paper: 14
 score:
   band: minimal
   composite: 4.6

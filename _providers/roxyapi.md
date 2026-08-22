@@ -39,7 +39,7 @@ name: RoxyAPI
 nav: Providers
 network: true
 overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include astrology, vedic-astrology, numerology, tarot, and human-design.'
-random_paper: 35
+random_paper: 3
 score:
   band: emerging
   composite: 13.0

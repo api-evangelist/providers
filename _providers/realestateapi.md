@@ -173,7 +173,7 @@ plans:
 - name: Realestateapi Plans Pricing
   plan_count: 3
   slug: realestateapi-plans-pricing
-random_paper: 39
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Realestateapi Rate Limits

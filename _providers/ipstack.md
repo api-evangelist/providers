@@ -64,7 +64,7 @@ overview: 'IPstack publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   IPstack''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: minimal
   composite: 6.2

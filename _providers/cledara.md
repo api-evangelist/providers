@@ -101,7 +101,7 @@ plans:
 - name: Cledara Plans Pricing
   plan_count: 3
   slug: cledara-plans-pricing
-random_paper: 120
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Cledara Rate Limits

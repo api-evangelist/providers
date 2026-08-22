@@ -194,7 +194,7 @@ plans:
 - name: Automation Preflight Api Plans
   plan_count: 4
   slug: automation-preflight-api-plans
-random_paper: 74
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits

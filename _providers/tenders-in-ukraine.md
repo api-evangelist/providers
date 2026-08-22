@@ -53,7 +53,7 @@ name: Tenders in Ukraine
 nav: Providers
 network: true
 overview: Tenders in Ukraine publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 25
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

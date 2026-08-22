@@ -41,7 +41,7 @@ name: Dija
 nav: Providers
 network: true
 overview: Dija is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Startup, Venture Backed, and Portfolio.
-random_paper: 110
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

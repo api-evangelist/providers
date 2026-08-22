@@ -45,7 +45,7 @@ name: Gray Television
 nav: Providers
 network: true
 overview: Gray Television is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 80
+random_paper: 16
 score:
   band: minimal
   composite: 2.6

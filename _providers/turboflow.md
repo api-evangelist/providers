@@ -49,7 +49,7 @@ name: TurboFlow
 nav: Providers
 network: true
 overview: TurboFlow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Web3, Blockchain, and Wallet.
-random_paper: 102
+random_paper: 9
 score:
   band: minimal
   composite: 1.5

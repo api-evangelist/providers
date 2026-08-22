@@ -286,7 +286,7 @@ plans:
 - name: Ubc Plans Pricing
   plan_count: 2
   slug: ubc-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ubc Rate Limits

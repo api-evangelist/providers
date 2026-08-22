@@ -53,7 +53,7 @@ name: Saudara Ai
 nav: Providers
 network: true
 overview: Saudara Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sourcing, Manufacturing, Supply Chain, and Procurement.
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

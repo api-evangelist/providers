@@ -84,7 +84,7 @@ overview: 'Blue Water Autonomy is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Blue Water Autonomy''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 10.6

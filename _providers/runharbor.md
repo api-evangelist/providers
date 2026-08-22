@@ -100,7 +100,7 @@ overview: 'Runharbor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Runharbor''s developer surface includes engineering blog, pricing, and 12 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: emerging
   composite: 19.9

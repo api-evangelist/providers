@@ -61,7 +61,7 @@ name: FT Cash
 nav: Providers
 network: true
 overview: FT Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Lending.
-random_paper: 82
+random_paper: 6
 score:
   band: minimal
   composite: 8.4

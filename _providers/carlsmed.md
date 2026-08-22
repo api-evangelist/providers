@@ -107,7 +107,7 @@ overview: 'Carlsmed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Carlsmed''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 98
+random_paper: 3
 score:
   band: minimal
   composite: 8.3

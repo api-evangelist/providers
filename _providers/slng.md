@@ -345,7 +345,7 @@ overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 27 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: strong
   composite: 57.4

@@ -57,7 +57,7 @@ name: GoFile
 nav: Providers
 network: true
 overview: GoFile publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

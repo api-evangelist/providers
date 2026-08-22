@@ -80,7 +80,7 @@ overview: 'METYCLE is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   METYCLE''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 10.2

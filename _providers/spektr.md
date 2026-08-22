@@ -246,7 +246,7 @@ overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spektr''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 69
+random_paper: 14
 score:
   band: developing
   composite: 52.9

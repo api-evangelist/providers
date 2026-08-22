@@ -40,7 +40,7 @@ name: Ponto
 nav: Providers
 network: true
 overview: Ponto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Cryptocurrency, Banking, and Payments.
-random_paper: 113
+random_paper: 14
 score:
   band: minimal
   composite: 0.3

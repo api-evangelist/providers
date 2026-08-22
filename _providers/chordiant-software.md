@@ -40,7 +40,7 @@ name: Chordiant Software
 nav: Providers
 network: true
 overview: Chordiant Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Customer Decision Management, Decisioning, and Enterprise Software.
-random_paper: 88
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

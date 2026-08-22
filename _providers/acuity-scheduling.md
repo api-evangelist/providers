@@ -127,7 +127,7 @@ overview: 'Acuity Scheduling publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Acuity Scheduling''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 123
+random_paper: 19
 score:
   band: thin
   composite: 29.8

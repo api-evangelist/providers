@@ -56,7 +56,7 @@ overview: 'Quick Ride is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quick Ride''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 112
+random_paper: 19
 score:
   band: minimal
   composite: 5.2

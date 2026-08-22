@@ -169,7 +169,7 @@ plans:
 - name: Capterra Plans Pricing
   plan_count: 0
   slug: capterra-plans-pricing
-random_paper: 105
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Capterra Rate Limits

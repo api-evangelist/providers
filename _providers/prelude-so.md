@@ -129,7 +129,7 @@ plans:
 - name: Prelude So Plans Pricing
   plan_count: 3
   slug: prelude-so-plans-pricing
-random_paper: 130
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Prelude So Rate Limits

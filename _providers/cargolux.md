@@ -112,7 +112,7 @@ overview: 'Cargolux is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cargolux''s developer surface includes documentation, engineering blog, and 17 more developer resources.'
-random_paper: 124
+random_paper: 8
 score:
   band: emerging
   composite: 11.9

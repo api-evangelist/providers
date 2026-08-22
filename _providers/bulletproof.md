@@ -150,7 +150,7 @@ overview: 'BulletProof publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   BulletProof''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 6
+random_paper: 1
 scopes:
 - name: Bulletproof Scopes
   scope_count: 4

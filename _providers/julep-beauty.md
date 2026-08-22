@@ -181,7 +181,7 @@ overview: 'Julep Beauty publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Julep Beauty''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 47
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Julep Beauty Rate Limits

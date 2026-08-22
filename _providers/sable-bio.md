@@ -80,7 +80,7 @@ overview: 'Sable Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sable Bio''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 14.7

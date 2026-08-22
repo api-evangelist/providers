@@ -72,7 +72,7 @@ overview: 'Aruna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aruna''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 9.3

@@ -89,7 +89,7 @@ overview: 'True & Co publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   True & Co''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 12
+random_paper: 5
 scopes:
 - name: True And Co Scopes
   scope_count: 0

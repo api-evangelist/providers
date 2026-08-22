@@ -112,7 +112,7 @@ plans:
 - name: Speedybrand Plans Pricing
   plan_count: 2
   slug: speedybrand-plans-pricing
-random_paper: 126
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Speedybrand Rate Limits

@@ -45,7 +45,7 @@ name: TrialPay
 nav: Providers
 network: true
 overview: TrialPay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Advertising, Monetization, and Offer Wall.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 1.5

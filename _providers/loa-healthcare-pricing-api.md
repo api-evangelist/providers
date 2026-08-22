@@ -66,7 +66,7 @@ name: Loa Healthcare Pricing API
 nav: Providers
 network: true
 overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and providers.
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
   composite: 17.1

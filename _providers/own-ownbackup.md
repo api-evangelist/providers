@@ -92,7 +92,7 @@ overview: 'Own (OwnBackup) is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Own (OwnBackup)''s developer surface includes support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 14
+random_paper: 11
 score:
   band: emerging
   composite: 15.1

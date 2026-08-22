@@ -60,7 +60,7 @@ overview: 'Nava Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Nava Therapeutics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 125
+random_paper: 0
 score:
   band: minimal
   composite: 6.7

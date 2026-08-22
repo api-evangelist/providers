@@ -80,7 +80,7 @@ overview: 'Kinema is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kinema''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 13.5

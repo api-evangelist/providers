@@ -68,7 +68,7 @@ overview: 'CoverHound is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CoverHound''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: minimal
   composite: 9.7

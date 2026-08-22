@@ -114,7 +114,7 @@ overview: 'Sarus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sarus'' developer surface includes documentation, engineering blog, support, code examples, authentication, changelog, and 12 more developer resources.'
-random_paper: 111
+random_paper: 12
 score:
   band: thin
   composite: 26.6

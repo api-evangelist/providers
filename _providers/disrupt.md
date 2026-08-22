@@ -64,7 +64,7 @@ overview: 'Disrupt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Disrupt''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 34
+random_paper: 2
 score:
   band: minimal
   composite: 6.7

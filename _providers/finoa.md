@@ -76,7 +76,7 @@ overview: 'Finoa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Finoa''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: minimal
   composite: 9.5

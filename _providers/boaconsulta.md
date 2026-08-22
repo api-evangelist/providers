@@ -88,7 +88,7 @@ overview: 'BoaConsulta is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BoaConsulta''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
-random_paper: 136
+random_paper: 3
 score:
   band: emerging
   composite: 11.0

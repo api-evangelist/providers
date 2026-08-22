@@ -308,7 +308,7 @@ plans:
 - name: Chili Piper Plans Pricing
   plan_count: 4
   slug: chili-piper-plans-pricing
-random_paper: 67
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Chili Piper Rate Limits

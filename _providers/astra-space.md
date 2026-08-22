@@ -91,7 +91,7 @@ overview: 'Astra Space is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Astra Space''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: minimal
   composite: 8.3

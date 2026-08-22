@@ -96,7 +96,7 @@ overview: 'Promise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Promise''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: emerging
   composite: 22.4

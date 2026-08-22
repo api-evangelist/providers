@@ -203,7 +203,7 @@ overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 22 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: developing
   composite: 47.0

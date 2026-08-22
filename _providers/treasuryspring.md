@@ -254,7 +254,7 @@ overview: 'TreasurySpring publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   TreasurySpring''s developer surface includes authentication, sandbox, getting-started guide, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 64
+random_paper: 0
 score:
   band: developing
   composite: 44.7

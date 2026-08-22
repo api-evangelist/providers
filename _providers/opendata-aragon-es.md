@@ -85,7 +85,7 @@ plans:
 - name: Opendata Aragon Es Plans Pricing
   plan_count: 1
   slug: opendata-aragon-es-plans-pricing
-random_paper: 143
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Opendata Aragon Es Rate Limits

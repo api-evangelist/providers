@@ -205,7 +205,7 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 28 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: developing
   composite: 50.0

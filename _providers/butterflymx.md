@@ -272,7 +272,7 @@ overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
-random_paper: 30
+random_paper: 4
 scopes:
 - name: Butterflymx Scopes
   scope_count: 6

@@ -205,7 +205,7 @@ plans:
 - name: Appgain Plans Pricing
   plan_count: 0
   slug: appgain-plans-pricing
-random_paper: 140
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Appgain Rate Limits

@@ -96,7 +96,7 @@ overview: 'Rain (Raincards) is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Rain (Raincards)''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: emerging
   composite: 17.2

@@ -340,7 +340,7 @@ plans:
 - name: Clover Plans Pricing
   plan_count: 2
   slug: clover-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Clover Rate Limits

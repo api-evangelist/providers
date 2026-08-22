@@ -64,7 +64,7 @@ overview: 'Aday is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aday''s developer surface includes FAQ, support, and 3 more developer resources.'
-random_paper: 117
+random_paper: 16
 score:
   band: minimal
   composite: 6.5

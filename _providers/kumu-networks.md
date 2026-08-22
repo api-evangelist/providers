@@ -52,7 +52,7 @@ name: Kumu Networks
 nav: Providers
 network: true
 overview: Kumu Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Wireless, RF, and Spectrum.
-random_paper: 47
+random_paper: 2
 score:
   band: minimal
   composite: 2.2

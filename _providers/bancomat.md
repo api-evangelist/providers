@@ -118,7 +118,7 @@ plans:
 - name: Bancomat Plans Pricing
   plan_count: 3
   slug: bancomat-plans-pricing
-random_paper: 92
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Bancomat Rate Limits

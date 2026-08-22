@@ -140,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Coty launches digital accelerator start-up program
   url: https://www.coty.com/news/coty-launches-digital-accelerator-start-up-program
-random_paper: 0
+random_paper: 6
 score:
   band: minimal
   composite: 7.6

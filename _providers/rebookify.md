@@ -49,7 +49,7 @@ name: Rebookify
 nav: Providers
 network: true
 overview: Rebookify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Hotels, and Booking.
-random_paper: 76
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

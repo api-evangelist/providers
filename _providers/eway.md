@@ -160,7 +160,7 @@ overview: 'eWAY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   eWAY''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: developing
   composite: 43.8

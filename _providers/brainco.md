@@ -89,7 +89,7 @@ overview: 'BrainCo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BrainCo''s developer surface includes documentation, support, and 9 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 8.7

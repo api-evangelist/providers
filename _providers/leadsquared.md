@@ -248,7 +248,7 @@ plans:
 - name: Leadsquared Plans Pricing
   plan_count: 4
   slug: leadsquared-plans-pricing
-random_paper: 120
+random_paper: 8
 rate_limits:
 - limit_count: 10
   name: Leadsquared Rate Limits

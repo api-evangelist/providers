@@ -115,7 +115,7 @@ plans:
 - name: Ecole Des Ponts Paristech Plans Pricing
   plan_count: 2
   slug: ecole-des-ponts-paristech-plans-pricing
-random_paper: 114
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ecole Des Ponts Paristech Rate Limits

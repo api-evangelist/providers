@@ -104,7 +104,7 @@ overview: 'Anduin Transactions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Anduin Transactions'' developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 52
+random_paper: 15
 score:
   band: emerging
   composite: 18.5

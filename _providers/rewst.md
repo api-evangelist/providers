@@ -168,7 +168,7 @@ overview: 'Rewst publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rewst''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 118
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Rewst Rate Limits

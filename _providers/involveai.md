@@ -101,7 +101,7 @@ plans:
 - name: Involveai Plans Pricing
   plan_count: 0
   slug: involveai-plans-pricing
-random_paper: 79
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Involveai Rate Limits

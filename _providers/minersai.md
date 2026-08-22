@@ -80,7 +80,7 @@ overview: 'Minersai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Minersai''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: emerging
   composite: 12.3

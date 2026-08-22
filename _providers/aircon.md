@@ -156,7 +156,7 @@ plans:
 - name: Aircon Plans Pricing
   plan_count: 3
   slug: aircon-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Aircon Rate Limits

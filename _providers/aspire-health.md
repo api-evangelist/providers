@@ -49,7 +49,7 @@ name: Aspire Health *
 nav: Providers
 network: true
 overview: Aspire Health * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Healthcare, Palliative Care, and Serious Illness Care.
-random_paper: 127
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

@@ -5354,7 +5354,7 @@ plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits

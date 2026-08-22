@@ -86,7 +86,7 @@ name: Brightloom
 nav: Providers
 network: true
 overview: Brightloom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Data Platform, Customer Intelligence, Restaurants, and Retail.
-random_paper: 36
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

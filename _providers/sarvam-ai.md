@@ -156,7 +156,7 @@ plans:
 - name: Sarvam Ai Plans Pricing
   plan_count: 3
   slug: sarvam-ai-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Sarvam Ai Rate Limits

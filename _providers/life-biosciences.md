@@ -219,7 +219,7 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
 
 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
-random_paper: 130
+random_paper: 3
 score:
   band: developing
   composite: 41.6

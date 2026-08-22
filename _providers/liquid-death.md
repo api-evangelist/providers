@@ -193,7 +193,7 @@ overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 27 more developer resources.'
-random_paper: 19
+random_paper: 14
 scopes:
 - name: Liquid Death Scopes
   scope_count: 4

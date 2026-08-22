@@ -236,7 +236,7 @@ plans:
 - name: Photon Plans Pricing
   plan_count: 0
   slug: photon-plans-pricing
-random_paper: 68
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Photon Rate Limits

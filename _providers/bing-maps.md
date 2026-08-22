@@ -65,7 +65,7 @@ name: Bing Maps
 nav: Providers
 network: true
 overview: Bing Maps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 7.3

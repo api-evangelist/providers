@@ -100,7 +100,7 @@ overview: 'Noom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Noom''s developer surface includes engineering blog, support, pricing, and 12 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: emerging
   composite: 24.0

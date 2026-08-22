@@ -105,7 +105,7 @@ plans:
 - name: Energy Charts Api Plans Pricing
   plan_count: 3
   slug: energy-charts-api-plans-pricing
-random_paper: 60
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Energy Charts Api Rate Limits

@@ -213,7 +213,7 @@ plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
   slug: osisoft-pi-plans-pricing
-random_paper: 143
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Osisoft Pi Rate Limits

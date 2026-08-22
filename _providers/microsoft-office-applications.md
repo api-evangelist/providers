@@ -156,7 +156,7 @@ plans:
 - name: Microsoft Office Applications Plans Pricing
   plan_count: 3
   slug: microsoft-office-applications-plans-pricing
-random_paper: 148
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Applications Rate Limits

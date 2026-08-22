@@ -93,7 +93,7 @@ overview: 'CarbonChain is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CarbonChain''s developer surface includes engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 101
+random_paper: 10
 score:
   band: minimal
   composite: 7.7

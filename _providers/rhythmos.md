@@ -92,7 +92,7 @@ overview: 'Rhythmos is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rhythmos'' developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
   composite: 19.9

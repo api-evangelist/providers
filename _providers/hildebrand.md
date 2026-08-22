@@ -213,7 +213,7 @@ plans:
 - name: Hildebrand Plans
   plan_count: 3
   slug: hildebrand-plans
-random_paper: 143
+random_paper: 8
 score:
   band: strong
   composite: 58.8

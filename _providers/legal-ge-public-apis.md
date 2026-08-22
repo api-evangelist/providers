@@ -179,7 +179,7 @@ overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 136
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Legal Ge Public Apis Rate Limits

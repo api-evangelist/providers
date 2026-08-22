@@ -133,7 +133,7 @@ overview: 'Vianai Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vianai Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 13 more developer resources.'
-random_paper: 128
+random_paper: 20
 score:
   band: emerging
   composite: 22.2

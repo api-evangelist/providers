@@ -89,7 +89,7 @@ overview: 'Urban Remedy publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Urban Remedy''s developer surface includes engineering blog, support, signup flow, authentication, and 6 more developer resources.'
-random_paper: 139
+random_paper: 6
 score:
   band: emerging
   composite: 18.2

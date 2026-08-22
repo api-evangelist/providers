@@ -264,7 +264,7 @@ plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
   slug: yodlee-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Yodlee Rate Limits

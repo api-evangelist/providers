@@ -528,7 +528,7 @@ plans:
 - name: Amberflo Plans Pricing
   plan_count: 4
   slug: amberflo-plans-pricing
-random_paper: 95
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Amberflo Rate Limits

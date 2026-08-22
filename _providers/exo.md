@@ -131,7 +131,7 @@ plans:
 - name: Exo Plans
   plan_count: 11
   slug: exo-plans
-random_paper: 34
+random_paper: 17
 score:
   band: thin
   composite: 38.3

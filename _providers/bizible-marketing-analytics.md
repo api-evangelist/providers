@@ -106,7 +106,7 @@ plans:
 - name: Bizible Marketing Analytics Plans Pricing
   plan_count: 0
   slug: bizible-marketing-analytics-plans-pricing
-random_paper: 75
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Bizible Marketing Analytics Rate Limits

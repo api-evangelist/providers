@@ -92,7 +92,7 @@ overview: 'Journey Clinical is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Journey Clinical''s developer surface includes pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 17
+random_paper: 18
 score:
   band: emerging
   composite: 21.6

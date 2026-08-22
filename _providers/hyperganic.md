@@ -76,7 +76,7 @@ overview: 'Hyperganic is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hyperganic''s developer surface includes pricing, signup flow, engineering blog, support, and 4 more developer resources.'
-random_paper: 23
+random_paper: 16
 score:
   band: emerging
   composite: 15.4

@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: AEP Receives U.S. Department of Energy Loan Guarantee ...
   url: https://www.aep.com/news/stories/view/10501/
-random_paper: 87
+random_paper: 12
 score:
   band: minimal
   composite: 5.2

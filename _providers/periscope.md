@@ -49,7 +49,7 @@ name: Periscope
 nav: Providers
 network: true
 overview: Periscope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Live Streaming, Video, and Mobile.
-random_paper: 76
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

@@ -180,7 +180,7 @@ plans:
 - name: Dunamu Plans Pricing
   plan_count: 1
   slug: dunamu-plans-pricing
-random_paper: 54
+random_paper: 20
 rate_limits:
 - limit_count: 11
   name: Dunamu Rate Limits

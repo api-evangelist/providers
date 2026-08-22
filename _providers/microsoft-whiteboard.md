@@ -97,7 +97,7 @@ plans:
 - name: Microsoft Whiteboard Plans Pricing
   plan_count: 3
   slug: microsoft-whiteboard-plans-pricing
-random_paper: 6
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Whiteboard Rate Limits

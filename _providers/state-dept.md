@@ -152,7 +152,7 @@ plans:
 - name: State Dept Plans Pricing
   plan_count: 1
   slug: state-dept-plans-pricing
-random_paper: 125
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: State Dept Rate Limits

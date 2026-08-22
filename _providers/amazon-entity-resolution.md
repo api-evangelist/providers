@@ -986,7 +986,7 @@ plans:
 - name: Amazon Entity Resolution Plans Pricing
   plan_count: 3
   slug: amazon-entity-resolution-plans-pricing
-random_paper: 129
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Entity Resolution Rate Limits

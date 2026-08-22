@@ -336,7 +336,7 @@ plans:
 - name: Rocketreach Plans Pricing
   plan_count: 4
   slug: rocketreach-plans-pricing
-random_paper: 120
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Rocketreach Rate Limits

@@ -149,7 +149,7 @@ overview: 'View.com.au publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   View.com.au''s developer surface includes authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 23
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: View Com Au Rate Limits

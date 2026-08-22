@@ -157,7 +157,7 @@ overview: 'Ragas publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ragas'' developer surface includes documentation, getting-started guide, release notes, and 14 more developer resources.'
-random_paper: 28
+random_paper: 17
 score:
   band: emerging
   composite: 13.6

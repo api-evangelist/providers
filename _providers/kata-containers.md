@@ -113,7 +113,7 @@ plans:
 - name: Kata Containers Plans Pricing
   plan_count: 3
   slug: kata-containers-plans-pricing
-random_paper: 50
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Kata Containers Rate Limits

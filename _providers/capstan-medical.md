@@ -91,7 +91,7 @@ overview: 'Capstan Medical is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Capstan Medical''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 20
+random_paper: 19
 score:
   band: emerging
   composite: 11.5

@@ -124,7 +124,7 @@ overview: 'Grafast publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Grafast''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: thin
   composite: 26.7

@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Jacobs releases digital twin solution for AI data centers
   url: https://invest.jacobs.com/news/investor-news/news-details/2026/Jacobs-releases-digital-twin-solution-for-AI-data-centers/default.aspx
-random_paper: 52
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

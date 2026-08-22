@@ -132,7 +132,7 @@ overview: 'ChromaCode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ChromaCode''s developer surface includes support, authentication, and 21 more developer resources.'
-random_paper: 2
+random_paper: 16
 scopes:
 - name: Chromacode Scopes
   scope_count: 12

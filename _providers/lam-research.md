@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: AI is only as powerful as the chips fueling it. Advanced ...
   url: https://www.facebook.com/LamResearchCorporation/posts/ai-is-only-as-powerful-as-the-chips-fueling-it-advanced-packaging-is-the-technol/1210743711094850/
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 3.6

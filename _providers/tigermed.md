@@ -68,7 +68,7 @@ overview: 'Tigermed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tigermed''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: minimal
   composite: 10.5

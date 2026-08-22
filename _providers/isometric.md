@@ -401,7 +401,7 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Isometric''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 81
+random_paper: 9
 score:
   band: thin
   composite: 28.8

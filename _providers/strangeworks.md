@@ -160,7 +160,7 @@ overview: 'Strangeworks publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Strangeworks'' developer surface includes documentation, getting-started guide, signup flow, support, changelog, authentication, and 20 more developer resources.'
-random_paper: 130
+random_paper: 20
 score:
   band: developing
   composite: 43.3

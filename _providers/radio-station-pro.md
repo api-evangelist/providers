@@ -49,7 +49,7 @@ name: Radio Station Pro
 nav: Providers
 network: true
 overview: Radio Station Pro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Radio, Streaming, WordPress, and Broadcasting.
-random_paper: 85
+random_paper: 2
 score:
   band: minimal
   composite: 3.5

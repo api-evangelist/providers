@@ -77,7 +77,7 @@ plans:
 - name: Scrapy Plans Pricing
   plan_count: 3
   slug: scrapy-plans-pricing
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Scrapy Rate Limits

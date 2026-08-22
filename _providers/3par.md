@@ -76,7 +76,7 @@ overview: '3PAR (HPE 3PAR StoreServ) publishes 1 API on the [APIs.io](https://ap
 
 
   3PAR (HPE 3PAR StoreServ)''s developer surface includes documentation, API reference, support, and 4 more developer resources.'
-random_paper: 76
+random_paper: 17
 score:
   band: emerging
   composite: 14.8

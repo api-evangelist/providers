@@ -138,7 +138,7 @@ plans:
 - name: Opencost Plans Pricing
   plan_count: 3
   slug: opencost-plans-pricing
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Opencost Rate Limits

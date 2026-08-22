@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: Ferrellgas Partners L.P. Upgrade'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3458622
-random_paper: 50
+random_paper: 13
 score:
   band: minimal
   composite: 2.4

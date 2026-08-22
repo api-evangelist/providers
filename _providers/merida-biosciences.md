@@ -64,7 +64,7 @@ overview: 'Merida Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   Merida Biosciences'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 42
+random_paper: 3
 score:
   band: minimal
   composite: 8.4

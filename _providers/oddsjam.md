@@ -180,7 +180,7 @@ plans:
 - name: Oddsjam Plans Pricing
   plan_count: 3
   slug: oddsjam-plans-pricing
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Oddsjam Rate Limits

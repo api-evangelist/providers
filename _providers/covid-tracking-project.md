@@ -57,7 +57,7 @@ name: Covid Tracking Project
 nav: Providers
 network: true
 overview: Covid Tracking Project publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 147
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

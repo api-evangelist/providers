@@ -64,7 +64,7 @@ overview: 'Synthekine is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Synthekine''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 7.6

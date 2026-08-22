@@ -46,7 +46,7 @@ name: Lighthouse
 nav: Providers
 network: true
 overview: Lighthouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Venture Portfolio, Lead, and Unresolved.
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

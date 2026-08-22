@@ -65,7 +65,7 @@ name: Carreira Beauty
 nav: Providers
 network: true
 overview: Carreira Beauty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Wellness, Aesthetics, and Jobs.
-random_paper: 46
+random_paper: 3
 score:
   band: emerging
   composite: 11.5

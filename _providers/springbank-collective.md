@@ -57,7 +57,7 @@ name: Springbank Collective
 nav: Providers
 network: true
 overview: Springbank Collective is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investment, Infrastructure, and Healthcare.
-random_paper: 96
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

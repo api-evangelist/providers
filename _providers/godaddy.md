@@ -182,7 +182,7 @@ plans:
 - name: Godaddy Plans Pricing
   plan_count: 2
   slug: godaddy-plans-pricing
-random_paper: 136
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Godaddy Rate Limits

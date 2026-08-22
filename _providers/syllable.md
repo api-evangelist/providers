@@ -461,7 +461,7 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syllable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: strong
   composite: 65.3

@@ -40,7 +40,7 @@ name: Streamonce
 nav: Providers
 network: true
 overview: Streamonce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Collaboration, Social Enterprise, Team Collaboration, and Productivity.
-random_paper: 30
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -68,7 +68,7 @@ overview: 'Saturn is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Saturn''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: minimal
   composite: 10.4

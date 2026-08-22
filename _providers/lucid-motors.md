@@ -149,7 +149,7 @@ overview: 'Lucid Motors is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Lucid Motors'' developer surface includes YouTube channel and 25 more developer resources.'
-random_paper: 58
+random_paper: 11
 score:
   band: minimal
   composite: 7.4

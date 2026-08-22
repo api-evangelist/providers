@@ -407,7 +407,7 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: strong
   composite: 62.4

@@ -139,7 +139,7 @@ overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Acrisure''s developer surface includes engineering blog, product news, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 117
+random_paper: 1
 scopes:
 - name: Acrisure Scopes
   scope_count: 2

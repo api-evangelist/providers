@@ -423,7 +423,7 @@ plans:
 - name: Therundown Plans Pricing
   plan_count: 8
   slug: therundown-plans-pricing
-random_paper: 59
+random_paper: 10
 rate_limits:
 - limit_count: 8
   name: Therundown Rate Limits

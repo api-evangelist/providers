@@ -240,7 +240,7 @@ plans:
 - name: Lambda Labs Plans Pricing
   plan_count: 1
   slug: lambda-labs-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Lambda Labs Rate Limits

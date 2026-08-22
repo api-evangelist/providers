@@ -76,7 +76,7 @@ overview: 'Robby is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Robby''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: emerging
   composite: 12.6

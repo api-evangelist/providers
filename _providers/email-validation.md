@@ -57,7 +57,7 @@ name: Email Validation
 nav: Providers
 network: true
 overview: Email Validation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 142
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

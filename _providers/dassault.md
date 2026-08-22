@@ -632,7 +632,7 @@ plans:
 - name: Dassault Plans Pricing
   plan_count: 3
   slug: dassault-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Dassault Rate Limits

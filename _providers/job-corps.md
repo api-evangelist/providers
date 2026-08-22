@@ -81,7 +81,7 @@ name: Job Corps
 nav: Providers
 network: true
 overview: Job Corps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Department of Labor, Education, Employment, Government, and Training.
-random_paper: 17
+random_paper: 8
 score:
   band: minimal
   composite: 2.9

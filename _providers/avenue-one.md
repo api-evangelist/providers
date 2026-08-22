@@ -97,7 +97,7 @@ overview: 'Avenue One is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avenue One''s developer surface includes support and 11 more developer resources.'
-random_paper: 117
+random_paper: 3
 score:
   band: emerging
   composite: 13.3

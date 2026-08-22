@@ -295,7 +295,7 @@ overview: 'Obol publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Obol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 26 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: developing
   composite: 47.4

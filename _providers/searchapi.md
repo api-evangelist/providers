@@ -201,7 +201,7 @@ plans:
 - name: Searchapi Plans Pricing
   plan_count: 8
   slug: searchapi-plans-pricing
-random_paper: 50
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Searchapi Rate Limits

@@ -68,7 +68,7 @@ overview: 'Cignara is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cignara''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 129
+random_paper: 11
 score:
   band: emerging
   composite: 12.6

@@ -176,7 +176,7 @@ overview: 'Bespoken Spirits publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Bespoken Spirits'' developer surface includes documentation, authentication, code examples, engineering blog, support, pricing, and 23 more developer resources.'
-random_paper: 43
+random_paper: 2
 scopes:
 - name: Bespoken Spirits Scopes
   scope_count: 4

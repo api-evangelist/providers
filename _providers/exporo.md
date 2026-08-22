@@ -72,7 +72,7 @@ overview: 'Exporo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Exporo''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 11.3

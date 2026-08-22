@@ -149,7 +149,7 @@ overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   M-Files'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 89
+random_paper: 13
 score:
   band: thin
   composite: 33.4

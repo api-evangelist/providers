@@ -49,7 +49,7 @@ name: Maimai
 nav: Providers
 network: true
 overview: Maimai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Professional Networking, Social Network, and Recruitment.
-random_paper: 26
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

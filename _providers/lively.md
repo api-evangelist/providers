@@ -96,7 +96,7 @@ overview: 'Lively is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lively''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: emerging
   composite: 16.6

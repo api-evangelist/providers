@@ -292,7 +292,7 @@ overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits

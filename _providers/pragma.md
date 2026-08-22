@@ -149,7 +149,7 @@ overview: 'Pragma publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Pragma''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 36
+random_paper: 2
 scopes:
 - name: Pragma Scopes
   scope_count: 5

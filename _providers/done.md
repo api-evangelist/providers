@@ -299,7 +299,7 @@ plans:
 - name: Done Plans Pricing
   plan_count: 1
   slug: done-plans-pricing
-random_paper: 124
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Done Rate Limits

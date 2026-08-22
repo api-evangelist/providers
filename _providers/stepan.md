@@ -66,7 +66,7 @@ plans:
 - name: Stepan Plans Pricing
   plan_count: 1
   slug: stepan-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Stepan Rate Limits

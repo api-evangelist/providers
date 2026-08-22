@@ -144,7 +144,7 @@ press:
 - date: '2026-05-25'
   title: Press Archive
   url: https://www.coachhub.com/press-archive
-random_paper: 63
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

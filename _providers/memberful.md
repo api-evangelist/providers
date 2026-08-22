@@ -113,7 +113,7 @@ plans:
 - name: Memberful Plans Pricing
   plan_count: 3
   slug: memberful-plans-pricing
-random_paper: 65
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Memberful Rate Limits

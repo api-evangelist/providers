@@ -68,7 +68,7 @@ overview: 'Nimblerx is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nimblerx''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 9.3

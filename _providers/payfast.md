@@ -226,7 +226,7 @@ plans:
 - name: Payfast Plans Pricing
   plan_count: 2
   slug: payfast-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Payfast Rate Limits

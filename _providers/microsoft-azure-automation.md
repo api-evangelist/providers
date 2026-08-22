@@ -129,7 +129,7 @@ plans:
 - name: Microsoft Azure Automation Plans Pricing
   plan_count: 3
   slug: microsoft-azure-automation-plans-pricing
-random_paper: 30
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Automation Rate Limits

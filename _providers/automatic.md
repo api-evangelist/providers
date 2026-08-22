@@ -58,7 +58,7 @@ name: Automatic
 nav: Providers
 network: true
 overview: Automatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Connected Car, Telematics, and Internet of Things.
-random_paper: 73
+random_paper: 1
 score:
   band: minimal
   composite: 6.4

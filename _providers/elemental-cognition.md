@@ -79,7 +79,7 @@ plans:
 - name: Elemental Cognition Plans Pricing
   plan_count: 0
   slug: elemental-cognition-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Elemental Cognition Rate Limits

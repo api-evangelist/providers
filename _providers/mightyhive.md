@@ -117,7 +117,7 @@ plans:
 - name: Mightyhive Plans Pricing
   plan_count: 0
   slug: mightyhive-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Mightyhive Rate Limits

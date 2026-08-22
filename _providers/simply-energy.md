@@ -188,7 +188,7 @@ overview: 'Simply Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 24
+random_paper: 0
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits

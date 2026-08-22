@@ -73,7 +73,7 @@ overview: 'AgroSpheres is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   AgroSpheres'' developer surface includes product news and 4 more developer resources.'
-random_paper: 144
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

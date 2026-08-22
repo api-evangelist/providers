@@ -133,7 +133,7 @@ overview: 'Philo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Philo''s developer surface includes support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 93
+random_paper: 15
 score:
   band: emerging
   composite: 19.3

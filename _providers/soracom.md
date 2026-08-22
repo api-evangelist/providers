@@ -849,7 +849,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits

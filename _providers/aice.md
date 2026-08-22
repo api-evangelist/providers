@@ -61,7 +61,7 @@ name: AICE
 nav: Providers
 network: true
 overview: AICE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Robotics, Autonomous Systems, and Maritime.
-random_paper: 104
+random_paper: 3
 score:
   band: minimal
   composite: 5.3

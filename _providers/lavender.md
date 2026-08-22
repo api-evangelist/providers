@@ -131,7 +131,7 @@ plans:
 - name: Lavender Plans Pricing
   plan_count: 0
   slug: lavender-plans-pricing
-random_paper: 104
+random_paper: 9
 score:
   band: emerging
   composite: 19.7

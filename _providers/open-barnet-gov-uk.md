@@ -85,7 +85,7 @@ plans:
 - name: Open Barnet Gov Uk Plans Pricing
   plan_count: 1
   slug: open-barnet-gov-uk-plans-pricing
-random_paper: 122
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Open Barnet Gov Uk Rate Limits

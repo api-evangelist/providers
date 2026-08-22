@@ -230,7 +230,7 @@ overview: 'NALA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   NALA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 114
+random_paper: 13
 scopes:
 - name: Nala Scopes
   scope_count: 9

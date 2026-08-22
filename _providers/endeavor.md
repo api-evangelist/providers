@@ -61,7 +61,7 @@ name: Endeavor
 nav: Providers
 network: true
 overview: Endeavor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Entertainment, Talent, Media, and Licensing.
-random_paper: 107
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

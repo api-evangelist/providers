@@ -150,7 +150,7 @@ plans:
 - name: Secton Api Plans Pricing
   plan_count: 0
   slug: secton-api-plans-pricing
-random_paper: 117
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Secton Api Rate Limits

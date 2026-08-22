@@ -80,7 +80,7 @@ overview: 'Goldbelly is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Goldbelly''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: emerging
   composite: 13.4

@@ -49,7 +49,7 @@ name: CrowdAnalytix
 nav: Providers
 network: true
 overview: CrowdAnalytix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, Data Science, and Predictive Analytics.
-random_paper: 76
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

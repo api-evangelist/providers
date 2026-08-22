@@ -146,7 +146,7 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Outpost''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 53
+random_paper: 0
 score:
   band: thin
   composite: 38.3

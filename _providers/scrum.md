@@ -40,7 +40,7 @@ name: Scrum
 nav: Providers
 network: true
 overview: Scrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agile, Framework, Iterative Development, Project Management, and Software Development.
-random_paper: 107
+random_paper: 8
 score:
   band: minimal
   composite: 5.2

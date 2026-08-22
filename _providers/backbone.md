@@ -85,7 +85,7 @@ overview: 'Backbone is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Backbone''s developer surface includes support, authentication, and 7 more developer resources.'
-random_paper: 76
+random_paper: 2
 score:
   band: emerging
   composite: 13.3

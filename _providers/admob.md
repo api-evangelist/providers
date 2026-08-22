@@ -219,7 +219,7 @@ plans:
 - name: Admob Plans Pricing
   plan_count: 0
   slug: admob-plans-pricing
-random_paper: 68
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Admob Rate Limits

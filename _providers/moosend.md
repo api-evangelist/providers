@@ -229,7 +229,7 @@ plans:
 - name: Moosend Plans Pricing
   plan_count: 5
   slug: moosend-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 10
   name: Moosend Rate Limits

@@ -84,7 +84,7 @@ overview: 'HyBird is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HyBird''s developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 19.0

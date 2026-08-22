@@ -88,7 +88,7 @@ plans:
 - name: Data Stadt Zuerich Ch Plans Pricing
   plan_count: 0
   slug: data-stadt-zuerich-ch-plans-pricing
-random_paper: 117
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Data Stadt Zuerich Ch Rate Limits

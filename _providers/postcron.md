@@ -114,7 +114,7 @@ plans:
 - name: Postcron Plans Pricing
   plan_count: 0
   slug: postcron-plans-pricing
-random_paper: 143
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Postcron Rate Limits

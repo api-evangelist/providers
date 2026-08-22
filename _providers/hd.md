@@ -72,7 +72,7 @@ overview: 'HD is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   HD''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 55
+random_paper: 15
 score:
   band: emerging
   composite: 11.2

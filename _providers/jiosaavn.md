@@ -53,7 +53,7 @@ name: JioSaavn
 nav: Providers
 network: true
 overview: JioSaavn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 114
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

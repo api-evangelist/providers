@@ -51,7 +51,7 @@ name: Celestial AI
 nav: Providers
 network: true
 overview: Celestial AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Silicon Photonics, Optical Interconnect, and AI Infrastructure.
-random_paper: 5
+random_paper: 0
 score:
   band: minimal
   composite: 4.6

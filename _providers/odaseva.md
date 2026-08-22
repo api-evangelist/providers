@@ -149,7 +149,7 @@ plans:
 - name: Odaseva Plans Pricing
   plan_count: 0
   slug: odaseva-plans-pricing
-random_paper: 143
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Odaseva Rate Limits

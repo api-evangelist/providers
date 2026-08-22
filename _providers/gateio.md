@@ -64,7 +64,7 @@ overview: 'Gateio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   The Gateio catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 37
+random_paper: 3
 rules:
 - effective_rule_count: 33
   extends:

@@ -60,7 +60,7 @@ overview: 'Apoha is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apoha''s developer surface includes support and 3 more developer resources.'
-random_paper: 74
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

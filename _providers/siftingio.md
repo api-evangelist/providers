@@ -304,7 +304,7 @@ plans:
 - name: Siftingio Plans Pricing
   plan_count: 5
   slug: siftingio-plans-pricing
-random_paper: 78
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Siftingio Rate Limits

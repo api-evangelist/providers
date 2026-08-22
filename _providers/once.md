@@ -64,7 +64,7 @@ overview: 'Once is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Once''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 5.5

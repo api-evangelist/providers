@@ -68,7 +68,7 @@ overview: 'Public Goods is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Public Goods'' developer surface includes support and 5 more developer resources.'
-random_paper: 32
+random_paper: 6
 score:
   band: minimal
   composite: 10.2

@@ -60,7 +60,7 @@ overview: 'Octant is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Octant''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 6.7

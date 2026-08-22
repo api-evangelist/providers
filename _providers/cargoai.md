@@ -139,7 +139,7 @@ overview: 'CargoAi publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   CargoAi''s developer surface includes documentation, API reference, changelog, engineering blog, developer portal, signup flow, and 8 more developer resources.'
-random_paper: 130
+random_paper: 12
 score:
   band: emerging
   composite: 17.8

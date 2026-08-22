@@ -592,7 +592,7 @@ plans:
 - name: Miso Plans
   plan_count: 5
   slug: miso-plans
-random_paper: 142
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Miso Rate Limits

@@ -512,7 +512,7 @@ plans:
 - name: Cisco Crosswork Plans Pricing
   plan_count: 0
   slug: cisco-crosswork-plans-pricing
-random_paper: 89
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Cisco Crosswork Rate Limits

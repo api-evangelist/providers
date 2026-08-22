@@ -393,7 +393,7 @@ overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 19 more developer resources.'
-random_paper: 80
+random_paper: 10
 score:
   band: developing
   composite: 44.0

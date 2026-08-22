@@ -40,7 +40,7 @@ name: Loose Cubes
 nav: Providers
 network: true
 overview: Loose Cubes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coworking, Real Estate, Marketplace, and Workspace.
-random_paper: 78
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

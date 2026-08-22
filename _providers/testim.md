@@ -107,7 +107,7 @@ plans:
 - name: Testim Plans Pricing
   plan_count: 1
   slug: testim-plans-pricing
-random_paper: 66
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Testim Rate Limits

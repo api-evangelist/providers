@@ -101,7 +101,7 @@ plans:
 - name: Joy Io Plans Pricing
   plan_count: 3
   slug: joy-io-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Joy Io Rate Limits

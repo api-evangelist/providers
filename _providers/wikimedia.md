@@ -462,7 +462,7 @@ plans:
 - name: Wikimedia Enterprise
   plan_count: 2
   slug: wikimedia-enterprise
-random_paper: 54
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Mediawiki Action Api

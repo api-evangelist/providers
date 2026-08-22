@@ -61,7 +61,7 @@ name: Lunar-X
 nav: Providers
 network: true
 overview: Lunar-X is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Content, and Digital Media.
-random_paper: 115
+random_paper: 18
 score:
   band: minimal
   composite: 7.1

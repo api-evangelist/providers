@@ -53,7 +53,7 @@ name: Tripwire
 nav: Providers
 network: true
 overview: Tripwire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, File Integrity Monitoring, Security Configuration Management, and Vulnerability Management.
-random_paper: 141
+random_paper: 4
 score:
   band: minimal
   composite: 5.3

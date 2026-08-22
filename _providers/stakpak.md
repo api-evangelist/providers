@@ -278,7 +278,7 @@ overview: 'StakPak publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StakPak''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: developing
   composite: 44.6

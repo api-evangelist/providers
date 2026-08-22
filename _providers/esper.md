@@ -227,7 +227,7 @@ overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: developing
   composite: 48.5

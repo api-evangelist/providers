@@ -208,7 +208,7 @@ plans:
 - name: Feathery Plans Pricing
   plan_count: 3
   slug: feathery-plans-pricing
-random_paper: 111
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Feathery Rate Limits

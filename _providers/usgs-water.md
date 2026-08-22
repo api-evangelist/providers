@@ -485,7 +485,7 @@ plans:
 - name: Usgs Water Plans
   plan_count: 2
   slug: usgs-water-plans
-random_paper: 148
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Usgs Water Rate Limits

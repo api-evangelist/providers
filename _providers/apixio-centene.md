@@ -49,7 +49,7 @@ name: Apixio (Centene)
 nav: Providers
 network: true
 overview: Apixio (Centene) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine Learning, and Risk Adjustment.
-random_paper: 92
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

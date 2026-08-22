@@ -227,7 +227,7 @@ plans:
 - name: Liveblocks Plans Pricing
   plan_count: 1
   slug: liveblocks-plans-pricing
-random_paper: 27
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Liveblocks Rate Limits

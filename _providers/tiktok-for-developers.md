@@ -335,7 +335,7 @@ plans:
 - name: Tiktok For Developers Plans Pricing
   plan_count: 4
   slug: tiktok-for-developers-plans-pricing
-random_paper: 74
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Tiktok For Developers Rate Limits

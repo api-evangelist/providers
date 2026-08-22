@@ -151,7 +151,7 @@ overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 14 more developer resources.'
-random_paper: 96
+random_paper: 11
 score:
   band: developing
   composite: 41.2

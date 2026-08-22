@@ -40,7 +40,7 @@ name: Insert Mobile Technologies
 nav: Providers
 network: true
 overview: Insert Mobile Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 134
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

@@ -112,7 +112,7 @@ overview: 'Stark is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Stark''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: emerging
   composite: 18.6

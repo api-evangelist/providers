@@ -84,7 +84,7 @@ overview: 'Foaster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Foaster''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.5

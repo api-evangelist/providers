@@ -336,7 +336,7 @@ plans:
 - name: Craft Io Plans Pricing
   plan_count: 3
   slug: craft-io-plans-pricing
-random_paper: 44
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []

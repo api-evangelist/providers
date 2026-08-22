@@ -101,7 +101,7 @@ overview: 'BetterView Marketplace publishes 1 API on the [APIs.io](https://apis.
 
 
   BetterView Marketplace''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 7 more developer resources.'
-random_paper: 60
+random_paper: 6
 score:
   band: emerging
   composite: 13.3

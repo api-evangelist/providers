@@ -185,7 +185,7 @@ plans:
 - name: Surescripts Plans Pricing
   plan_count: 0
   slug: surescripts-plans-pricing
-random_paper: 31
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Surescripts Rate Limits

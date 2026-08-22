@@ -72,7 +72,7 @@ overview: 'Onecard is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Onecard''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 136
+random_paper: 18
 score:
   band: minimal
   composite: 9.1

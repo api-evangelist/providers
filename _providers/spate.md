@@ -182,7 +182,7 @@ plans:
 - name: Spate Plans Pricing
   plan_count: 0
   slug: spate-plans-pricing
-random_paper: 94
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Spate Rate Limits

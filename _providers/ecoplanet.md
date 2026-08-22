@@ -68,7 +68,7 @@ overview: 'ecoplanet is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ecoplanet''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: minimal
   composite: 9.0

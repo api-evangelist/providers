@@ -166,7 +166,7 @@ overview: 'Sfox publishes 2 APIs on the [APIs.io](https://apis.io/) network: RES
 
 
   Sfox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Sfox Rate Limits

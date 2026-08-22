@@ -183,7 +183,7 @@ plans:
 - name: Maxar Plans Pricing
   plan_count: 1
   slug: maxar-plans-pricing
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Maxar Rate Limits

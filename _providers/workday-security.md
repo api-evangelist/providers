@@ -360,7 +360,7 @@ plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 63
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits

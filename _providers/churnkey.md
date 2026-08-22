@@ -153,7 +153,7 @@ plans:
 - name: Churnkey Plans Pricing
   plan_count: 4
   slug: churnkey-plans-pricing
-random_paper: 128
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Churnkey Rate Limits

@@ -57,7 +57,7 @@ name: Atia Vision
 nav: Providers
 network: true
 overview: Atia Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Ophthalmology, Intraocular Lens, and Cataract Surgery.
-random_paper: 81
+random_paper: 11
 score:
   band: minimal
   composite: 2.9

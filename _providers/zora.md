@@ -322,7 +322,7 @@ plans:
 - name: Zora Plans Pricing
   plan_count: 3
   slug: zora-plans-pricing
-random_paper: 146
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Zora Rate Limits

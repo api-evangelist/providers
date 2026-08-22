@@ -108,7 +108,7 @@ overview: 'Trellis publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Trellis'' developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 7 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: thin
   composite: 31.0

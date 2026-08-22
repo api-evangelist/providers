@@ -76,7 +76,7 @@ overview: 'Nutmeg (J.P. Morgan Personal Investing) is profiled on the [APIs.io](
 
 
   Nutmeg (J.P. Morgan Personal Investing)''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: emerging
   composite: 12.7

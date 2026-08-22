@@ -185,7 +185,7 @@ plans:
 - name: Medable Plans Pricing
   plan_count: 0
   slug: medable-plans-pricing
-random_paper: 118
+random_paper: 0
 rate_limits:
 - limit_count: 12
   name: Medable Rate Limits

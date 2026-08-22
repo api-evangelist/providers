@@ -101,7 +101,7 @@ plans:
 - name: Memoir Plans Pricing
   plan_count: 3
   slug: memoir-plans-pricing
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 20.6

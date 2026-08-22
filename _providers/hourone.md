@@ -192,7 +192,7 @@ overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 23
+random_paper: 12
 score:
   band: developing
   composite: 39.6

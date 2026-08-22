@@ -72,7 +72,7 @@ overview: 'Agile Robots is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Agile Robots'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 32
+random_paper: 6
 score:
   band: emerging
   composite: 11.0

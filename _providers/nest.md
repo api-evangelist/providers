@@ -164,7 +164,7 @@ overview: 'Nest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nest''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 19 more developer resources.'
-random_paper: 144
+random_paper: 1
 scopes:
 - name: Nest Scopes
   scope_count: 1

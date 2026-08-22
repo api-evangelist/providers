@@ -54,7 +54,7 @@ name: Foodology
 nav: Providers
 network: true
 overview: Foodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Cloud Kitchen, Virtual Restaurants, and Food Tech.
-random_paper: 84
+random_paper: 12
 score:
   band: minimal
   composite: 7.1

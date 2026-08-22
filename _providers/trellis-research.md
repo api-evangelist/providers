@@ -140,7 +140,7 @@ overview: 'Trellis Research publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Trellis Research''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 18
+random_paper: 19
 score:
   band: developing
   composite: 41.1

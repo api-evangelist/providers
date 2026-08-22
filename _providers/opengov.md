@@ -807,7 +807,7 @@ overview: 'OpenGov publishes 102 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenGov''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Opengov Rate Limits

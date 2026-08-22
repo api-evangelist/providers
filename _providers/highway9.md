@@ -101,7 +101,7 @@ overview: 'Highway9 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Highway9''s developer surface includes documentation, API reference, engineering blog, support, product news, authentication, and 7 more developer resources.'
-random_paper: 65
+random_paper: 12
 score:
   band: emerging
   composite: 18.7

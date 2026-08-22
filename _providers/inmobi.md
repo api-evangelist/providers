@@ -187,7 +187,7 @@ plans:
 - name: Inmobi Plans Pricing
   plan_count: 2
   slug: inmobi-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Inmobi Rate Limits

@@ -152,7 +152,7 @@ overview: 'Nivoda publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nivoda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
   composite: 25.2

@@ -113,7 +113,7 @@ plans:
 - name: Flexe Plans Pricing
   plan_count: 1
   slug: flexe-plans-pricing
-random_paper: 85
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Flexe Rate Limits

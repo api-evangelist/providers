@@ -45,7 +45,7 @@ name: Tandem
 nav: Providers
 network: true
 overview: Tandem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remote Work, Virtual Office, Team Collaboration, and Video Conferencing.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

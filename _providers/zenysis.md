@@ -92,7 +92,7 @@ overview: 'Zenysis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zenysis'' developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: minimal
   composite: 6.3

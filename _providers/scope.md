@@ -53,7 +53,7 @@ name: Scope
 nav: Providers
 network: true
 overview: Scope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Inspection, Testing Inspection Certification, and Industrial.
-random_paper: 91
+random_paper: 13
 score:
   band: minimal
   composite: 8.4

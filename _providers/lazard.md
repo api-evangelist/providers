@@ -66,7 +66,7 @@ plans:
 - name: Lazard Plans Pricing
   plan_count: 1
   slug: lazard-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Lazard Rate Limits

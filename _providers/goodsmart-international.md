@@ -53,7 +53,7 @@ name: GoodsMart International
 nav: Providers
 network: true
 overview: GoodsMart International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery Delivery, E-Commerce, Q-Commerce, and Consumer App.
-random_paper: 37
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

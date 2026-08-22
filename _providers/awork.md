@@ -52,7 +52,7 @@ overview: 'Awork is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Awork''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 101
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

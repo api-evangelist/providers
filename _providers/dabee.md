@@ -49,7 +49,7 @@ name: Dabee
 nav: Providers
 network: true
 overview: Dabee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, Consumer Electronics, Comparison Shopping, and Affiliate.
-random_paper: 50
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

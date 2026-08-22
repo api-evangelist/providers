@@ -141,7 +141,7 @@ overview: 'Simpplr publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Simpplr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 25.0

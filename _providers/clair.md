@@ -99,7 +99,7 @@ overview: 'Clair is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Clair''s developer surface includes support, changelog, and 10 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: minimal
   composite: 10.9

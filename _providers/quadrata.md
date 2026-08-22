@@ -164,7 +164,7 @@ overview: 'Quadrata publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Quadrata''s developer surface includes documentation, getting-started guide, API reference, signup flow, engineering blog, support, sandbox, and 19 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: developing
   composite: 40.8

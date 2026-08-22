@@ -68,7 +68,7 @@ name: Riggs Distler
 nav: Providers
 network: true
 overview: Riggs Distler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Electrical, Utilities, and Energy Infrastructure.
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 5.2

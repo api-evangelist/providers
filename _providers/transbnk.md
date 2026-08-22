@@ -80,7 +80,7 @@ overview: 'Transbnk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Transbnk''s developer surface includes engineering blog, support, product news, and 6 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

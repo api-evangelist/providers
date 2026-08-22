@@ -650,7 +650,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
-random_paper: 62
+random_paper: 13
 rules:
 - effective_rule_count: 6
   extends: []

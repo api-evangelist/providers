@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Acceptance Criteria
 nav: Providers
 network: true
-random_paper: 139
+random_paper: 16
 slug: acceptance-criteria
 tags:
 - Agile

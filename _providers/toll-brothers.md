@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Toll Brothers Technographics, Software Purchases, AI and ...
   url: https://www.appsruntheworld.com/customers-database/customers/view/toll-brothers-inc-united-states
-random_paper: 20
+random_paper: 17
 score:
   band: minimal
   composite: 5.5

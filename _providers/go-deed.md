@@ -45,7 +45,7 @@ name: Go Deed
 nav: Providers
 network: true
 overview: Go Deed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Giving, Corporate Social Responsibility, Employee Engagement, and Volunteering.
-random_paper: 65
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

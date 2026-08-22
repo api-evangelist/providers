@@ -184,7 +184,7 @@ overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
-random_paper: 19
+random_paper: 14
 scopes:
 - name: Gateway Bank Scopes
   scope_count: 5

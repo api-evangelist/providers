@@ -201,7 +201,7 @@ overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: developing
   composite: 40.4

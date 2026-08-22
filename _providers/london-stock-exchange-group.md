@@ -292,7 +292,7 @@ plans:
 - name: London Stock Exchange Group Plans Pricing
   plan_count: 3
   slug: london-stock-exchange-group-plans-pricing
-random_paper: 43
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: London Stock Exchange Group Rate Limits

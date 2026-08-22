@@ -84,7 +84,7 @@ overview: 'Oatfi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oatfi''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
-random_paper: 84
+random_paper: 6
 score:
   band: emerging
   composite: 13.1

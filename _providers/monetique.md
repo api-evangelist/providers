@@ -40,7 +40,7 @@ name: Monetique
 nav: Providers
 network: true
 overview: Monetique is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cards, Financial Services, Fintech, Monetique, and Payments.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 0.1

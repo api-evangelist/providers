@@ -121,7 +121,7 @@ overview: 'HEAVY.AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HEAVY.AI''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, authentication, and 11 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: emerging
   composite: 21.9

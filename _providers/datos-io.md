@@ -53,7 +53,7 @@ name: Datos Io
 nav: Providers
 network: true
 overview: Datos Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management, Backup and Recovery, Data Protection, and Cloud Databases.
-random_paper: 55
+random_paper: 2
 score:
   band: minimal
   composite: 6.1

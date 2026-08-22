@@ -185,7 +185,7 @@ overview: 'Kensho publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Kensho''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 52
+random_paper: 18
 scopes:
 - name: Kensho Scopes
   scope_count: 2

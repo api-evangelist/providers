@@ -117,7 +117,7 @@ overview: 'Vayyar Imaging publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vayyar Imaging''s developer surface includes engineering blog, documentation, API reference, support, authentication, and 11 more developer resources.'
-random_paper: 104
+random_paper: 17
 scopes:
 - name: Vayyar Imaging Scopes
   scope_count: 4

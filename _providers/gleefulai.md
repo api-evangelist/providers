@@ -211,7 +211,7 @@ plans:
 - name: Gleefulai Plans
   plan_count: 0
   slug: gleefulai-plans
-random_paper: 48
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Gleefulai Rate Limits

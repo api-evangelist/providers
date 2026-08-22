@@ -64,7 +64,7 @@ overview: 'Inyad is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Inyad''s developer surface includes engineering blog, pricing, signup flow, and 2 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: minimal
   composite: 5.4

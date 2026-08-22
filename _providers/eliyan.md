@@ -104,7 +104,7 @@ name: Eliyan
 nav: Providers
 network: true
 overview: Eliyan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chiplets, Silicon IP, and Interconnect.
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

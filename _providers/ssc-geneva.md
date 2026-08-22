@@ -205,7 +205,7 @@ plans:
 - name: Ssc Geneva Plans Pricing
   plan_count: 3
   slug: ssc-geneva-plans-pricing
-random_paper: 110
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Ssc Geneva Rate Limits

@@ -76,7 +76,7 @@ overview: 'Amber Box is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Amber Box''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 148
+random_paper: 11
 score:
   band: emerging
   composite: 12.7

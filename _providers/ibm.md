@@ -597,7 +597,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits

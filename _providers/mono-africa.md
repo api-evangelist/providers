@@ -149,7 +149,7 @@ plans:
 - name: Mono Africa Plans Pricing
   plan_count: 3
   slug: mono-africa-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Mono Africa Rate Limits

@@ -163,7 +163,7 @@ overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: In
 
 
   Nowsta''s developer surface includes API reference, support, engineering blog, and 24 more developer resources.'
-random_paper: 72
+random_paper: 17
 score:
   band: thin
   composite: 32.9

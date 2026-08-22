@@ -154,7 +154,7 @@ overview: 'mPower Social is profiled on the [APIs.io](https://apis.io/) network.
 
 
   mPower Social''s developer surface includes engineering blog, product news, and 23 more developer resources.'
-random_paper: 55
+random_paper: 14
 score:
   band: emerging
   composite: 11.5

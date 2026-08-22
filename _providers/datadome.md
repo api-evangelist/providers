@@ -200,7 +200,7 @@ plans:
 - name: Datadome Plans Pricing
   plan_count: 1
   slug: datadome-plans-pricing
-random_paper: 86
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Datadome Rate Limits

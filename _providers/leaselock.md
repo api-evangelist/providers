@@ -96,7 +96,7 @@ overview: 'LeaseLock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LeaseLock''s developer surface includes engineering blog, support, FAQ, and 10 more developer resources.'
-random_paper: 53
+random_paper: 2
 score:
   band: emerging
   composite: 13.5

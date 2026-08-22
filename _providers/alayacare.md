@@ -818,7 +818,7 @@ plans:
 - name: Alayacare Plans Pricing
   plan_count: 4
   slug: alayacare-plans-pricing
-random_paper: 37
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Alayacare Rate Limits

@@ -183,7 +183,7 @@ plans:
 - name: Gala Games Plans Pricing
   plan_count: 0
   slug: gala-games-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Gala Games Rate Limits

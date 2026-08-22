@@ -266,7 +266,7 @@ overview: 'Wefunder publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 119
+random_paper: 3
 scopes:
 - name: Wefunder Scopes
   scope_count: 16

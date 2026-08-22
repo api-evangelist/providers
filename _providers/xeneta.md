@@ -181,7 +181,7 @@ overview: 'Xeneta publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 47.1

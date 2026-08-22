@@ -88,7 +88,7 @@ overview: 'Arta is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Arta''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: emerging
   composite: 13.3

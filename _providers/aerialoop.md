@@ -68,7 +68,7 @@ overview: 'Aerialoop is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aerialoop''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: minimal
   composite: 6.8

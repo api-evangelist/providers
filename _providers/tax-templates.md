@@ -110,7 +110,7 @@ plans:
 - name: Tax Templates Plans Pricing
   plan_count: 3
   slug: tax-templates-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Tax Templates Rate Limits

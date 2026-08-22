@@ -140,7 +140,7 @@ overview: 'Pave Bank publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pave Bank''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 16 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: developing
   composite: 40.5

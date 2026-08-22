@@ -45,7 +45,7 @@ name: Mevvy Network
 nav: Providers
 network: true
 overview: Mevvy Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto Web3.
-random_paper: 49
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

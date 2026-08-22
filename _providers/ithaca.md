@@ -100,7 +100,7 @@ overview: 'Ithaca is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ithaca''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
-random_paper: 22
+random_paper: 9
 score:
   band: emerging
   composite: 15.5

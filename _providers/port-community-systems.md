@@ -150,7 +150,7 @@ plans:
 - name: Port Community Systems Plans Pricing
   plan_count: 3
   slug: port-community-systems-plans-pricing
-random_paper: 97
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Port Community Systems Rate Limits

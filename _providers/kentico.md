@@ -253,7 +253,7 @@ plans:
 - name: Kentico Plans Pricing
   plan_count: 5
   slug: kentico-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Kentico Rate Limits

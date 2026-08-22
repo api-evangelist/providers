@@ -85,7 +85,7 @@ name: Savvly
 nav: Providers
 network: true
 overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company.'
-random_paper: 81
+random_paper: 5
 score:
   band: emerging
   composite: 19.0

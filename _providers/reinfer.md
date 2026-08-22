@@ -45,7 +45,7 @@ name: Reinfer
 nav: Providers
 network: true
 overview: Reinfer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, Communications Intelligence, Conversational Data, and Machine Learning.
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

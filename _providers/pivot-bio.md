@@ -133,7 +133,7 @@ overview: 'Pivot Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pivot Bio''s developer surface includes FAQ, product news, engineering blog, developer portal, YouTube channel, and 17 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 7.4

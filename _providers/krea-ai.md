@@ -300,7 +300,7 @@ overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 38 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: thin
   composite: 38.7

@@ -151,7 +151,7 @@ plans:
 - name: Blockchair Plans Pricing
   plan_count: 6
   slug: blockchair-plans-pricing
-random_paper: 148
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Blockchair Rate Limits

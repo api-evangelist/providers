@@ -309,7 +309,7 @@ overview: 'Frame.io publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Frame.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 143
+random_paper: 4
 scopes:
 - name: Frameio Scopes
   scope_count: 6

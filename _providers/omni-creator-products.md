@@ -53,7 +53,7 @@ name: Omni Creator Products
 nav: Providers
 network: true
 overview: Omni Creator Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Game Development, User Generated Content, and Modding.
-random_paper: 75
+random_paper: 19
 score:
   band: minimal
   composite: 5.3

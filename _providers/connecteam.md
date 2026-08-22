@@ -218,7 +218,7 @@ plans:
 - name: Connecteam Plans
   plan_count: 5
   slug: connecteam-plans
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits

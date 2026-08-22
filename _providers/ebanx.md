@@ -169,7 +169,7 @@ plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
   slug: ebanx-plans-pricing
-random_paper: 79
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Ebanx Rate Limits

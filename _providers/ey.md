@@ -92,7 +92,7 @@ overview: 'EY is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   EY''s developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 73
+random_paper: 12
 score:
   band: minimal
   composite: 7.0

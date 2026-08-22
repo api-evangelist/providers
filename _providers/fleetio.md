@@ -179,7 +179,7 @@ plans:
 - name: Fleetio Plans Pricing
   plan_count: 3
   slug: fleetio-plans-pricing
-random_paper: 148
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Fleetio Rate Limits

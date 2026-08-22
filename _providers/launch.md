@@ -40,7 +40,7 @@ name: Launch
 nav: Providers
 network: true
 overview: Launch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 3.2

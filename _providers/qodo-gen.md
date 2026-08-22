@@ -135,7 +135,7 @@ plans:
 - name: Qodo Gen Plans Pricing
   plan_count: 4
   slug: qodo-gen-plans-pricing
-random_paper: 49
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Qodo Gen Rate Limits

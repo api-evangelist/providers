@@ -138,7 +138,7 @@ overview: 'Artisight publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Artisight''s developer surface includes engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 81
+random_paper: 9
 scopes:
 - name: Artisight Scopes
   scope_count: 1

@@ -272,7 +272,7 @@ plans:
 - name: Arxiv Plans Pricing
   plan_count: 1
   slug: arxiv-plans-pricing
-random_paper: 107
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Arxiv Rate Limits

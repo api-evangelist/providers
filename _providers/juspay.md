@@ -143,7 +143,7 @@ plans:
 - name: Juspay Plans Pricing
   plan_count: 3
   slug: juspay-plans-pricing
-random_paper: 72
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Juspay Rate Limits

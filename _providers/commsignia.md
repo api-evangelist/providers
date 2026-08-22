@@ -64,7 +64,7 @@ overview: 'Commsignia is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Commsignia''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: minimal
   composite: 6.8

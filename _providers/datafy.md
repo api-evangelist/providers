@@ -155,7 +155,7 @@ plans:
 - name: Datafy Plans Pricing
   plan_count: 0
   slug: datafy-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Datafy Rate Limits

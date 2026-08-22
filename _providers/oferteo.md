@@ -80,7 +80,7 @@ overview: 'Oferteo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oferteo''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 14.9

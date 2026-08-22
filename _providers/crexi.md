@@ -153,7 +153,7 @@ overview: 'CREXi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   CREXi''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 92
+random_paper: 14
 scopes:
 - name: Crexi Scopes
   scope_count: 2

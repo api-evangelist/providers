@@ -211,7 +211,7 @@ press:
 - date: '2026-05-25'
   title: Thermo Fisher and NVIDIA Partner to Expand AI Driven ...
   url: https://www.chromatographyonline.com/view/thermo-fisher-and-nvidia-partner-to-expand-ai-driven-laboratory-automation
-random_paper: 59
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Thermo Fisher Scientific Rate Limits

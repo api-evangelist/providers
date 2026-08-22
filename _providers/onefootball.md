@@ -72,7 +72,7 @@ overview: 'Onefootball is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Onefootball''s developer surface includes support and 6 more developer resources.'
-random_paper: 130
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

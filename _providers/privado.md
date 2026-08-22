@@ -104,7 +104,7 @@ overview: 'Privado is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Privado''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, CLI, changelog, and 8 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: emerging
   composite: 20.9

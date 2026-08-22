@@ -88,7 +88,7 @@ overview: 'DouxMatok is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DouxMatok''s developer surface includes support and 8 more developer resources.'
-random_paper: 94
+random_paper: 1
 score:
   band: minimal
   composite: 10.9

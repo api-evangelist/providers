@@ -883,7 +883,7 @@ plans:
 - name: Pendle Plans Pricing
   plan_count: 4
   slug: pendle-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Pendle Rate Limits

@@ -64,7 +64,7 @@ overview: 'Whisper Aero is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Whisper Aero''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: minimal
   composite: 9.7

@@ -64,7 +64,7 @@ overview: 'enechain is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   enechain''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 82
+random_paper: 8
 score:
   band: minimal
   composite: 7.6

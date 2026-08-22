@@ -464,7 +464,7 @@ overview: 'Reactome publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Reactome''s developer surface includes documentation, FAQ, GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 103
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []

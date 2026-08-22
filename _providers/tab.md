@@ -72,7 +72,7 @@ overview: 'Tab is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Tab''s developer surface includes pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: emerging
   composite: 13.3

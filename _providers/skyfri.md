@@ -65,7 +65,7 @@ name: Skyfri
 nav: Providers
 network: true
 overview: Skyfri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Cleantech, and Renewable Energy.
-random_paper: 68
+random_paper: 13
 score:
   band: minimal
   composite: 4.6

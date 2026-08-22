@@ -450,7 +450,7 @@ overview: 'Oper publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: thin
   composite: 35.3

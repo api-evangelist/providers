@@ -83,7 +83,7 @@ plans:
 - name: Yummly Plans Pricing
   plan_count: 4
   slug: yummly-plans-pricing
-random_paper: 89
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Yummly Rate Limits

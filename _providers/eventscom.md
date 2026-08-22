@@ -838,7 +838,7 @@ overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: developing
   composite: 40.4

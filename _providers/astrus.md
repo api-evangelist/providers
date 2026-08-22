@@ -106,7 +106,7 @@ plans:
 - name: Astrus Plans Pricing
   plan_count: 0
   slug: astrus-plans-pricing
-random_paper: 78
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Astrus Rate Limits

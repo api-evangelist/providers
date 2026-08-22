@@ -332,7 +332,7 @@ plans:
 - name: Reddit Plans Pricing
   plan_count: 2
   slug: reddit-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Reddit Rate Limits

@@ -76,7 +76,7 @@ overview: 'Boletia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boletia''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 140
+random_paper: 1
 score:
   band: minimal
   composite: 10.7

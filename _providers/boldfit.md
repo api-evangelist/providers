@@ -85,7 +85,7 @@ overview: 'Boldfit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boldfit''s developer surface includes signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 144
+random_paper: 5
 scopes:
 - name: Boldfit Scopes
   scope_count: 0

@@ -49,7 +49,7 @@ name: Cedar Point Communications
 nav: Providers
 network: true
 overview: Cedar Point Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, VoIP, Softswitch, and Cable.
-random_paper: 135
+random_paper: 1
 score:
   band: minimal
   composite: 1.8

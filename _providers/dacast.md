@@ -126,7 +126,7 @@ plans:
 - name: Dacast Plans Pricing
   plan_count: 5
   slug: dacast-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Dacast Rate Limits

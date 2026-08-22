@@ -81,7 +81,7 @@ overview: 'Threat Stack is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Threat Stack''s developer surface includes documentation, API reference, authentication, CLI, and 5 more developer resources.'
-random_paper: 35
+random_paper: 9
 score:
   band: emerging
   composite: 13.9

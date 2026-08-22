@@ -56,7 +56,7 @@ overview: 'Assist is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Assist''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 134
+random_paper: 12
 score:
   band: minimal
   composite: 5.5

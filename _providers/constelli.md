@@ -52,7 +52,7 @@ overview: 'Constelli is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Constelli''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: minimal
   composite: 5.5

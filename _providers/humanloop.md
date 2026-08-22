@@ -164,7 +164,7 @@ plans:
 - name: Humanloop Plans Pricing
   plan_count: 1
   slug: humanloop-plans-pricing
-random_paper: 85
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Humanloop Rate Limits

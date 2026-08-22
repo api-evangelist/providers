@@ -40,7 +40,7 @@ name: Process Flow Diagrams
 nav: Providers
 network: true
 overview: Process Flow Diagrams is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process Management, Documentation, Process Mapping, and Workflow Visualization.
-random_paper: 51
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

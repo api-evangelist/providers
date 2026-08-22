@@ -125,7 +125,7 @@ overview: 'Harmonic publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Harmonic''s developer surface includes signup flow, engineering blog, authentication, CLI, changelog, and 13 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: emerging
   composite: 23.1

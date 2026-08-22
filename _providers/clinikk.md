@@ -68,7 +68,7 @@ overview: 'Clinikk is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clinikk''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 9.5

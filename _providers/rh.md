@@ -45,7 +45,7 @@ name: RH
 nav: Providers
 network: true
 overview: RH is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 69
+random_paper: 8
 score:
   band: minimal
   composite: 2.6

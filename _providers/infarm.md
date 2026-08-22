@@ -49,7 +49,7 @@ name: infarm
 nav: Providers
 network: true
 overview: infarm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Farming, Agriculture, AgTech, and Food.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -163,7 +163,7 @@ overview: 'kanye.rest publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   kanye.rest''s developer surface includes CLI, code examples, and 16 more developer resources.'
-random_paper: 133
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Kanye Rest Rate Limits

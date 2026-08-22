@@ -108,7 +108,7 @@ overview: 'Essential AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Essential AI''s developer surface includes product news and 17 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 6.6

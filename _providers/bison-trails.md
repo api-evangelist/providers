@@ -49,7 +49,7 @@ name: Bison Trails
 nav: Providers
 network: true
 overview: Bison Trails is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Infrastructure, and Staking.
-random_paper: 47
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

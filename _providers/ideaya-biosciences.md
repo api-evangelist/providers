@@ -68,7 +68,7 @@ overview: 'Ideaya Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   Ideaya Biosciences'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 37
+random_paper: 19
 score:
   band: minimal
   composite: 10.5

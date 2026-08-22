@@ -72,7 +72,7 @@ overview: 'Scoutzie is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Scoutzie''s developer surface includes pricing, signup flow, and 5 more developer resources.'
-random_paper: 141
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

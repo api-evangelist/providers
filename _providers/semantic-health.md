@@ -40,7 +40,7 @@ name: Semantic Health
 nav: Providers
 network: true
 overview: Semantic Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Coding, Artificial Intelligence, and Natural Language Processing.
-random_paper: 37
+random_paper: 15
 score:
   band: minimal
   composite: 2.2

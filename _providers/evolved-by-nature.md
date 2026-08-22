@@ -138,7 +138,7 @@ plans:
 - name: Evolved By Nature Plans Pricing
   plan_count: 0
   slug: evolved-by-nature-plans-pricing
-random_paper: 82
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Evolved By Nature Rate Limits

@@ -104,7 +104,7 @@ overview: 'Top Hat is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Top Hat''s developer surface includes engineering blog, pricing, support, signup flow, and 11 more developer resources.'
-random_paper: 105
+random_paper: 8
 score:
   band: emerging
   composite: 25.1

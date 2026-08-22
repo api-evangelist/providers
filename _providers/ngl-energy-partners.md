@@ -120,7 +120,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1504461/000150446123000002/ngl-20221230.htm
-random_paper: 3
+random_paper: 8
 score:
   band: minimal
   composite: 6.2

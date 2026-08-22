@@ -40,7 +40,7 @@ name: Aitme
 nav: Providers
 network: true
 overview: Aitme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Robotics, Automation, and Food Technology.
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -515,7 +515,7 @@ plans:
 - name: Amazon Data Exchange Plans Pricing
   plan_count: 3
   slug: amazon-data-exchange-plans-pricing
-random_paper: 44
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Data Exchange Rate Limits

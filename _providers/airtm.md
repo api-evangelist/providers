@@ -351,7 +351,7 @@ overview: 'Airtm publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Airtm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
-random_paper: 94
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Airtm Rate Limits

@@ -92,7 +92,7 @@ overview: 'Eye Security is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Eye Security''s developer surface includes developer portal, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 64
+random_paper: 17
 score:
   band: minimal
   composite: 5.6

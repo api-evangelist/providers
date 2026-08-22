@@ -66,7 +66,7 @@ name: AMP Fund
 nav: Providers
 network: true
 overview: AMP Fund is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Compute, Infrastructure, and Venture Capital.
-random_paper: 47
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

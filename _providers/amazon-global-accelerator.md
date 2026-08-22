@@ -2112,7 +2112,7 @@ plans:
 - name: Amazon Global Accelerator Plans Pricing
   plan_count: 3
   slug: amazon-global-accelerator-plans-pricing
-random_paper: 134
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Global Accelerator Rate Limits

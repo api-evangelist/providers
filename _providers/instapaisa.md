@@ -49,7 +49,7 @@ name: InstaPaisa
 nav: Providers
 network: true
 overview: InstaPaisa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Personal Finance, and Payments.
-random_paper: 26
+random_paper: 19
 score:
   band: minimal
   composite: 1.5

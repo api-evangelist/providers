@@ -119,7 +119,7 @@ plans:
 - name: Charter Plans Pricing
   plan_count: 3
   slug: charter-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Charter Rate Limits

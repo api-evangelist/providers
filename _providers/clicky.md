@@ -49,7 +49,7 @@ name: Clicky
 nav: Providers
 network: true
 overview: Clicky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Wellness, Membership, and Subscription.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

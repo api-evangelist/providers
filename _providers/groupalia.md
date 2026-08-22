@@ -53,7 +53,7 @@ name: Groupalia
 nav: Providers
 network: true
 overview: Groupalia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Daily Deals, Group Buying, and E-commerce.
-random_paper: 70
+random_paper: 19
 score:
   band: minimal
   composite: 1.5

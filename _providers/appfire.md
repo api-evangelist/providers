@@ -194,7 +194,7 @@ overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: developing
   composite: 45.3

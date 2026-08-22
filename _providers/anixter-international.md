@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: Anixter International Inc. Announces the Acquisition of Tri-Ed
   url: https://securitytoday.com/articles/2014/08/11/anixter-international-inc-announces-the-acquisition-of-tri-ed.aspx?admgarea=ht.accesscontrol
-random_paper: 122
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Anixter International Rate Limits

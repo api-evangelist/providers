@@ -294,7 +294,7 @@ overview: 'Ascend Elements publishes 21 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ascend Elements'' developer surface includes engineering blog, privacy policy, YouTube channel, authentication, and 25 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: emerging
   composite: 19.5

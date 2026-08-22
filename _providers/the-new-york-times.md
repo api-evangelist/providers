@@ -222,7 +222,7 @@ plans:
 - name: The New York Times Plans Pricing
   plan_count: 2
   slug: the-new-york-times-plans-pricing
-random_paper: 146
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: The New York Times Rate Limits

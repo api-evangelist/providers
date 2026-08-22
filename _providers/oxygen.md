@@ -49,7 +49,7 @@ name: Oxygen
 nav: Providers
 network: true
 overview: Oxygen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Neobank, and Financial Services.
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 1.5

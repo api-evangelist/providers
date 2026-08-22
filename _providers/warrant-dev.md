@@ -147,7 +147,7 @@ plans:
 - name: Warrant Dev Plans Pricing
   plan_count: 4
   slug: warrant-dev-plans-pricing
-random_paper: 88
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Warrant Dev Rate Limits

@@ -96,7 +96,7 @@ overview: 'Blurb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blurb''s developer surface includes documentation, getting-started guide, pricing, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 23.4

@@ -60,7 +60,7 @@ overview: 'Carevision Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Carevision Inc.''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 93
+random_paper: 6
 score:
   band: minimal
   composite: 3.3

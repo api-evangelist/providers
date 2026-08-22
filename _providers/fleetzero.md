@@ -65,7 +65,7 @@ name: Fleetzero
 nav: Providers
 network: true
 overview: Fleetzero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Shipping, Batteries, and Energy Storage.
-random_paper: 82
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

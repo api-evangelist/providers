@@ -203,7 +203,7 @@ overview: 'MediaLab.AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 31 more developer resources.'
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Medialab Ai Rate Limits

@@ -56,7 +56,7 @@ overview: 'DOT Regulations is profiled on the [APIs.io](https://apis.io/) networ
 
 
   DOT Regulations'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 79
+random_paper: 15
 score:
   band: minimal
   composite: 6.1

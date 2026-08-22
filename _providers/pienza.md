@@ -49,7 +49,7 @@ name: Pienza
 nav: Providers
 network: true
 overview: Pienza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Startup Studio, SaaS, and B2B.
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

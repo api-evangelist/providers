@@ -68,7 +68,7 @@ overview: 'SendWave is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SendWave''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

@@ -72,7 +72,7 @@ overview: 'Gronda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gronda''s developer surface includes support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 14.6

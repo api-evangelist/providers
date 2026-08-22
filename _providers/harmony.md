@@ -151,7 +151,7 @@ overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: t
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Harmony Rate Limits

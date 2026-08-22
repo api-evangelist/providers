@@ -88,7 +88,7 @@ plans:
 - name: Coralogix Plans Pricing
   plan_count: 3
   slug: coralogix-plans-pricing
-random_paper: 74
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Coralogix Rate Limits

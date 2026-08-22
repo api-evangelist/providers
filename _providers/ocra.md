@@ -45,7 +45,7 @@ name: OCRA
 nav: Providers
 network: true
 overview: OCRA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, OCRA, OTP, and Security.
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 5.5

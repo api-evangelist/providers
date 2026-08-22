@@ -64,7 +64,7 @@ overview: 'Marley Medical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Marley Medical''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 73
+random_paper: 7
 score:
   band: minimal
   composite: 4.6

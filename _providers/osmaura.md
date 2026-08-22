@@ -147,7 +147,7 @@ plans:
 - name: Osmaura Plans Pricing
   plan_count: 1
   slug: osmaura-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Osmaura Rate Limits

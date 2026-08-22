@@ -113,7 +113,7 @@ plans:
 - name: Wagtail Plans Pricing
   plan_count: 5
   slug: wagtail-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Wagtail Rate Limits

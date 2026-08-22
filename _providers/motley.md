@@ -181,7 +181,7 @@ overview: 'Motley publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Motley''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 70
+random_paper: 15
 scopes:
 - name: Motley Scopes
   scope_count: 7

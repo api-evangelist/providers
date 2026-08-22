@@ -86,7 +86,7 @@ overview: 'Conformal Medical is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Conformal Medical''s developer surface includes product news, support, and 7 more developer resources.'
-random_paper: 86
+random_paper: 3
 score:
   band: minimal
   composite: 9.6

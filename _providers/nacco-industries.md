@@ -66,7 +66,7 @@ plans:
 - name: Nacco Industries Plans Pricing
   plan_count: 1
   slug: nacco-industries-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Nacco Industries Rate Limits

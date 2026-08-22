@@ -173,7 +173,7 @@ plans:
 - name: Questdb Plans Pricing
   plan_count: 4
   slug: questdb-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Questdb Rate Limits

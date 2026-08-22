@@ -40,7 +40,7 @@ name: Office of Career, Technical, and Adult Education
 nav: Providers
 network: true
 overview: Office of Career, Technical, and Adult Education is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
-random_paper: 148
+random_paper: 17
 score:
   band: minimal
   composite: 0.8

@@ -116,7 +116,7 @@ overview: 'Favro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Favro''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: developing
   composite: 41.8

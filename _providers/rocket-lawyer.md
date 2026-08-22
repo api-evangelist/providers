@@ -262,7 +262,7 @@ overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
-random_paper: 12
+random_paper: 9
 score:
   band: thin
   composite: 35.8

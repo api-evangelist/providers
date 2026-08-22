@@ -64,7 +64,7 @@ overview: 'Aerodyne is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Aerodyne''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: minimal
   composite: 8.5

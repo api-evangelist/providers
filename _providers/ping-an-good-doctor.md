@@ -40,7 +40,7 @@ name: Ping An Good Doctor
 nav: Providers
 network: true
 overview: Ping An Good Doctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Online Consultations.
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 2.2

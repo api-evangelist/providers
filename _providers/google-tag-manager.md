@@ -816,7 +816,7 @@ plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 2
   slug: google-tag-manager-plans-pricing
-random_paper: 135
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Google Tag Manager Rate Limits

@@ -40,7 +40,7 @@ name: Frubana
 nav: Providers
 network: true
 overview: Frubana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

@@ -234,7 +234,7 @@ overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 146
+random_paper: 7
 scopes:
 - name: Safello Scopes
   scope_count: 8

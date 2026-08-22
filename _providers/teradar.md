@@ -104,7 +104,7 @@ overview: 'Teradar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Teradar''s developer surface includes YouTube channel and 12 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: minimal
   composite: 7.8

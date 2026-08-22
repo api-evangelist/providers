@@ -65,7 +65,7 @@ name: Moonhub
 nav: Providers
 network: true
 overview: Moonhub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Recruiting, Talent Acquisition, and Hiring.
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 10.5

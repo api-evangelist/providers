@@ -90,7 +90,7 @@ overview: 'The Block publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   The Block''s developer surface includes developer portal, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 144
+random_paper: 7
 score:
   band: emerging
   composite: 14.3

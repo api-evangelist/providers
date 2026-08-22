@@ -139,7 +139,7 @@ plans:
 - name: Partnerstack Plans Pricing
   plan_count: 3
   slug: partnerstack-plans-pricing
-random_paper: 106
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Partnerstack Rate Limits

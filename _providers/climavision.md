@@ -121,7 +121,7 @@ overview: 'Climavision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Climavision''s developer surface includes documentation, engineering blog, GitHub presence, and 16 more developer resources.'
-random_paper: 139
+random_paper: 6
 score:
   band: minimal
   composite: 5.4

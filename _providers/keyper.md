@@ -154,7 +154,7 @@ overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   Keyper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: developing
   composite: 42.6

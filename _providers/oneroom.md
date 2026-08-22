@@ -40,7 +40,7 @@ name: OneRoom
 nav: Providers
 network: true
 overview: OneRoom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Online Learning, Writing, and Video Conferencing.
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 0.9

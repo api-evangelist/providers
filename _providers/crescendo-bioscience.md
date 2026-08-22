@@ -40,7 +40,7 @@ name: Crescendo Bioscience
 nav: Providers
 network: true
 overview: Crescendo Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, Molecular Diagnostics, and Biotechnology.
-random_paper: 102
+random_paper: 2
 score:
   band: minimal
   composite: 2.2

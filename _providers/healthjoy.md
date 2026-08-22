@@ -88,7 +88,7 @@ overview: 'HealthJoy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HealthJoy''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: emerging
   composite: 18.2

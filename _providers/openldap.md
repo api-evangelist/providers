@@ -80,7 +80,7 @@ overview: 'OpenLDAP publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   OpenLDAP''s developer surface includes documentation, FAQ, and 6 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 8.2

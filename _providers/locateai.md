@@ -84,7 +84,7 @@ overview: 'LocateAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LocateAI''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 89
+random_paper: 15
 score:
   band: minimal
   composite: 9.1

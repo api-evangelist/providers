@@ -306,7 +306,7 @@ plans:
 - name: Crowddev Plans Pricing
   plan_count: 1
   slug: crowddev-plans-pricing
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Crowddev Rate Limits

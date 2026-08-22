@@ -49,7 +49,7 @@ name: Omniscient
 nav: Providers
 network: true
 overview: Omniscient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Risk Intelligence, Reputation Monitoring, and Geopolitical Risk.
-random_paper: 38
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

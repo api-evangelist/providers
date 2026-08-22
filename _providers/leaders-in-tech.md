@@ -81,7 +81,7 @@ overview: 'Leaders In Tech is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Leaders In Tech''s developer surface includes FAQ and 8 more developer resources.'
-random_paper: 120
+random_paper: 12
 score:
   band: minimal
   composite: 3.3

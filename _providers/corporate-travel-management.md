@@ -227,7 +227,7 @@ overview: 'Corporate Travel Management publishes 1 API on the [APIs.io](https://
 
 
   Corporate Travel Management''s developer surface includes authentication, documentation, developer portal, engineering blog, product news, and 37 more developer resources.'
-random_paper: 90
+random_paper: 0
 scopes:
 - name: Corporate Travel Management Scopes
   scope_count: 14

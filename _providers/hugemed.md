@@ -64,7 +64,7 @@ overview: 'HugeMed is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HugeMed''s developer surface includes support and 4 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 10.0

@@ -109,7 +109,7 @@ overview: 'Energy Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Energy Robotics'' developer surface includes engineering blog, support, signup flow, YouTube channel, and 12 more developer resources.'
-random_paper: 74
+random_paper: 10
 score:
   band: emerging
   composite: 19.7

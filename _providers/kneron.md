@@ -152,7 +152,7 @@ overview: 'Kneron is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kneron''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: emerging
   composite: 24.6

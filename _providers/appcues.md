@@ -198,7 +198,7 @@ plans:
 - name: Appcues Plans Pricing
   plan_count: 1
   slug: appcues-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Appcues Rate Limits

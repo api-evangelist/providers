@@ -68,7 +68,7 @@ overview: 'Rippl Care * is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Rippl Care *''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 113
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

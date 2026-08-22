@@ -76,7 +76,7 @@ overview: 'checkout51 is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   checkout51''s developer surface includes support, getting-started guide, signup flow, and 5 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: emerging
   composite: 15.2

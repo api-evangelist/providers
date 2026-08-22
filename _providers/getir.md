@@ -166,7 +166,7 @@ overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: Get
 
 
   Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 92
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Getir Rate Limits

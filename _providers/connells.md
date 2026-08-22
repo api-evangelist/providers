@@ -216,7 +216,7 @@ overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits

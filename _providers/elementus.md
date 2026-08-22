@@ -80,7 +80,7 @@ plans:
 - name: Elementus Plans Pricing
   plan_count: 0
   slug: elementus-plans-pricing
-random_paper: 84
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Elementus Rate Limits

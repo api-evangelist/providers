@@ -293,7 +293,7 @@ plans:
 - name: Egym Plans Pricing
   plan_count: 0
   slug: egym-plans-pricing
-random_paper: 136
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Egym Rate Limits

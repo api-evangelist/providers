@@ -53,7 +53,7 @@ name: SODA
 nav: Providers
 network: true
 overview: SODA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Sneakers.
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 1.5

@@ -57,7 +57,7 @@ name: Old National Bancorp
 nav: Providers
 network: true
 overview: Old National Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, and Wealth Management.
-random_paper: 67
+random_paper: 9
 score:
   band: minimal
   composite: 1.3

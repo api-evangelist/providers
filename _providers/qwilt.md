@@ -217,7 +217,7 @@ overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 23 more developer resources.'
-random_paper: 114
+random_paper: 15
 score:
   band: developing
   composite: 41.4

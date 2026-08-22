@@ -49,7 +49,7 @@ name: Qubit Smart Tickets
 nav: Providers
 network: true
 overview: Qubit Smart Tickets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Entertainment, and Payments.
-random_paper: 12
+random_paper: 17
 score:
   band: minimal
   composite: 1.5

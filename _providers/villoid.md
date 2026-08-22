@@ -64,7 +64,7 @@ overview: 'Villoid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Villoid''s developer surface includes support and 4 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 10.2

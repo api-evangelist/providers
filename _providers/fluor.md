@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Fluor Selected for Expansion of Large-Scale Biologics ...
   url: https://www.sttinfo.fi/tiedote/69952904/fluor-selected-for-expansion-of-large-scale-biologics-manufacturing-facility-in-scandinavia?publisherId=58763726
-random_paper: 105
+random_paper: 6
 score:
   band: minimal
   composite: 3.1

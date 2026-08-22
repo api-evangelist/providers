@@ -141,7 +141,7 @@ overview: 'Goodfire publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Goodfire''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, authentication, changelog, and 16 more developer resources.'
-random_paper: 102
+random_paper: 7
 score:
   band: thin
   composite: 31.4

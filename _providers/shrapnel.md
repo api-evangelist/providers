@@ -49,7 +49,7 @@ name: SHRAPNEL
 nav: Providers
 network: true
 overview: SHRAPNEL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Blockchain, Web3, and Avalanche.
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

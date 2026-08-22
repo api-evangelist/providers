@@ -137,7 +137,7 @@ overview: 'Virtualmin publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Virtualmin''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 14 more developer resources.'
-random_paper: 56
+random_paper: 7
 score:
   band: thin
   composite: 27.9

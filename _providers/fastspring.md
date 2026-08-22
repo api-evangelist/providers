@@ -195,7 +195,7 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 18
 rules:
 - effective_rule_count: 34
   extends:

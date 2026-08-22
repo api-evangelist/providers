@@ -72,7 +72,7 @@ overview: 'Minu Holdings Limited is profiled on the [APIs.io](https://apis.io/) 
 
 
   Minu Holdings Limited''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 45
+random_paper: 10
 score:
   band: emerging
   composite: 12.7

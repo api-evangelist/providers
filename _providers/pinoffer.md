@@ -177,7 +177,7 @@ plans:
 - name: Pinoffer Plans Pricing
   plan_count: 3
   slug: pinoffer-plans-pricing
-random_paper: 112
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Pinoffer Rate Limits

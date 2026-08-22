@@ -120,7 +120,7 @@ overview: 'Accordance Ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Accordance Ai''s developer surface includes signup flow, support, and 17 more developer resources.'
-random_paper: 82
+random_paper: 14
 score:
   band: emerging
   composite: 18.1

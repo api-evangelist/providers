@@ -346,7 +346,7 @@ overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 22 more developer resources.'
-random_paper: 99
+random_paper: 4
 scopes:
 - name: Tackleio Scopes
   scope_count: 0

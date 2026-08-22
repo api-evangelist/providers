@@ -274,7 +274,7 @@ overview: 'Cielo publishes 13 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cielo''s developer surface includes developer portal, documentation, developer console, signup flow, pricing, getting-started guide, API reference, and 32 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: thin
   composite: 29.2

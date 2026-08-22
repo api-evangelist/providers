@@ -149,7 +149,7 @@ plans:
 - name: Smartmoving Plans Pricing
   plan_count: 3
   slug: smartmoving-plans-pricing
-random_paper: 15
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Smartmoving Rate Limits

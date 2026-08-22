@@ -104,7 +104,7 @@ overview: 'Fractal Analytics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Fractal Analytics'' developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 107
+random_paper: 3
 score:
   band: emerging
   composite: 11.4

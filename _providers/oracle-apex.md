@@ -344,7 +344,7 @@ plans:
 - name: Oracle Apex Plans Pricing
   plan_count: 3
   slug: oracle-apex-plans-pricing
-random_paper: 62
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Oracle Apex Rate Limits

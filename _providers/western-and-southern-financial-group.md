@@ -106,7 +106,7 @@ press:
 - date: '2026-05-25'
   title: Western & Southern Financial Adds Group Term Life ...
   url: https://iireporter.com/western-southern-financial-adds-group-term-life-product-to-thumbscore/
-random_paper: 65
+random_paper: 8
 score:
   band: minimal
   composite: 6.1

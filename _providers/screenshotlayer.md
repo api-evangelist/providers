@@ -57,7 +57,7 @@ name: Screenshotlayer
 nav: Providers
 network: true
 overview: Screenshotlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 137
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

@@ -189,7 +189,7 @@ overview: 'Yorkshire Building Society publishes 4 APIs on the [APIs.io](https://
 
 
   Yorkshire Building Society''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 24 more developer resources.'
-random_paper: 14
+random_paper: 8
 scopes:
 - name: Yorkshire Building Society Scopes
   scope_count: 4

@@ -77,7 +77,7 @@ name: Createra
 nav: Providers
 network: true
 overview: Createra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Metaverse, User Generated Content, and 3D.
-random_paper: 94
+random_paper: 20
 score:
   band: minimal
   composite: 7.2

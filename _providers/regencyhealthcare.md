@@ -49,7 +49,7 @@ name: Regency Healthcare
 nav: Providers
 network: true
 overview: Regency Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Hospitals, Medical, and Health.
-random_paper: 2
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

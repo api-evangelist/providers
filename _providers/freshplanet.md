@@ -64,7 +64,7 @@ overview: 'FreshPlanet is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   FreshPlanet''s developer surface includes support and 4 more developer resources.'
-random_paper: 137
+random_paper: 4
 score:
   band: minimal
   composite: 9.2

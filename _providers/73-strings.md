@@ -220,7 +220,7 @@ plans:
 - name: 73 Strings Plans
   plan_count: 4
   slug: 73-strings-plans
-random_paper: 35
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: 73 Strings Rate Limits

@@ -49,7 +49,7 @@ name: roxmotor
 nav: Providers
 network: true
 overview: roxmotor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Electric Vehicles, Mobility, and China.
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

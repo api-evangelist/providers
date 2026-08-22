@@ -49,7 +49,7 @@ name: Hyphen
 nav: Providers
 network: true
 overview: Hyphen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Engagement, Human Resources, Surveys, and Employee Feedback.
-random_paper: 56
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

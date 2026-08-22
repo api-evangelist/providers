@@ -148,7 +148,7 @@ overview: 'Gravie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gravie''s developer surface includes documentation, support, engineering blog, and 24 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 23.0

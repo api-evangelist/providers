@@ -163,7 +163,7 @@ overview: 'Condé Nast publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Condé Nast''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 110
+random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []

@@ -76,7 +76,7 @@ overview: 'Orus is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Orus'' developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 10
+random_paper: 16
 score:
   band: emerging
   composite: 11.0

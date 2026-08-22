@@ -132,7 +132,7 @@ plans:
 - name: Stormforge Plans Pricing
   plan_count: 3
   slug: stormforge-plans-pricing
-random_paper: 53
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Stormforge Rate Limits

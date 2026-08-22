@@ -149,7 +149,7 @@ overview: 'Redplanetlabs publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 12
 score:
   band: emerging
   composite: 25.7

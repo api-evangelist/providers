@@ -98,7 +98,7 @@ plans:
 - name: Roofline Plans Pricing
   plan_count: 0
   slug: roofline-plans-pricing
-random_paper: 117
+random_paper: 1
 score:
   band: emerging
   composite: 12.2

@@ -68,7 +68,7 @@ overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MasterClass'' developer surface includes support, pricing, engineering blog, and 3 more developer resources.'
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 6.8

@@ -45,7 +45,7 @@ name: Cortera
 nav: Providers
 network: true
 overview: Cortera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Credit, Trade Credit, Credit Risk, and B2B Payments Data.
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: Lucira Health
 nav: Providers
 network: true
 overview: Lucira Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diagnostics, Health, Medical Devices, and COVID-19.
-random_paper: 123
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

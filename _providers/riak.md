@@ -154,7 +154,7 @@ overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Riak KV''s developer surface includes authentication, documentation, and 11 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: emerging
   composite: 25.0

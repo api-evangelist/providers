@@ -171,7 +171,7 @@ plans:
 - name: Cross River Plans Pricing
   plan_count: 2
   slug: cross-river-plans-pricing
-random_paper: 108
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Cross River Rate Limits

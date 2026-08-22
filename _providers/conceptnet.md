@@ -199,7 +199,7 @@ plans:
 - name: Conceptnet Plans Pricing
   plan_count: 2
   slug: conceptnet-plans-pricing
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Conceptnet Rate Limits

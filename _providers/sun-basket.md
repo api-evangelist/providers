@@ -57,7 +57,7 @@ name: Sun Basket
 nav: Providers
 network: true
 overview: Sun Basket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Meal Kit, Food Delivery, and Subscription.
-random_paper: 127
+random_paper: 13
 score:
   band: minimal
   composite: 6.4

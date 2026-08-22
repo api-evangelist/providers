@@ -95,7 +95,7 @@ overview: 'Albo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Albo''s developer surface includes support, pricing, signup flow, YouTube channel, and 7 more developer resources.'
-random_paper: 116
+random_paper: 15
 score:
   band: emerging
   composite: 12.1

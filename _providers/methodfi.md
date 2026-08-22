@@ -623,7 +623,7 @@ plans:
 - name: Methodfi Plans Pricing
   plan_count: 2
   slug: methodfi-plans-pricing
-random_paper: 103
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits

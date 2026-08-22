@@ -68,7 +68,7 @@ overview: 'Fold is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fold''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 7.6

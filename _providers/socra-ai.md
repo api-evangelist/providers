@@ -49,7 +49,7 @@ name: Socra AI
 nav: Providers
 network: true
 overview: Socra AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Artificial Intelligence, and Tutoring.
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 2.5

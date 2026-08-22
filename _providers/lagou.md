@@ -80,7 +80,7 @@ overview: 'Lagou is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lagou''s developer surface includes signup flow and 8 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 12.7

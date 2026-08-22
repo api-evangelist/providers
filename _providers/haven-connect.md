@@ -76,7 +76,7 @@ overview: 'Haven Connect is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Haven Connect''s developer surface includes signup flow, support, pricing, and 5 more developer resources.'
-random_paper: 129
+random_paper: 19
 score:
   band: emerging
   composite: 13.9

@@ -144,7 +144,7 @@ overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
-random_paper: 92
+random_paper: 5
 scopes:
 - name: Shawbrook Bank Scopes
   scope_count: 3

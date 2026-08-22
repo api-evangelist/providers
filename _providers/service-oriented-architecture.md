@@ -40,7 +40,7 @@ name: Service Oriented Architecture
 nav: Providers
 network: true
 overview: Service Oriented Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Distributed Systems, Integration, Service-Oriented Architecture, and Web Services.
-random_paper: 4
+random_paper: 2
 score:
   band: minimal
   composite: 5.2

@@ -49,7 +49,7 @@ name: FavStay
 nav: Providers
 network: true
 overview: FavStay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Hotels, and Accommodation.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

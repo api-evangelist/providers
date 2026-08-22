@@ -153,7 +153,7 @@ plans:
 - name: Google Cloud Automl Plans Pricing
   plan_count: 3
   slug: google-cloud-automl-plans-pricing
-random_paper: 132
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Cloud Automl Rate Limits

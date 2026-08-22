@@ -368,7 +368,7 @@ plans:
 - name: Amazon Data Lifecycle Manager Plans Pricing
   plan_count: 3
   slug: amazon-data-lifecycle-manager-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Data Lifecycle Manager Rate Limits

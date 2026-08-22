@@ -146,7 +146,7 @@ overview: 'Hiya publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hiya''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: thin
   composite: 28.8

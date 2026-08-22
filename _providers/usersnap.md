@@ -261,7 +261,7 @@ overview: 'Usersnap publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 136
+random_paper: 20
 scopes:
 - name: Usersnap Scopes
   scope_count: 2

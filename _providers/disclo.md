@@ -84,7 +84,7 @@ overview: 'Disclo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Disclo''s developer surface includes pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 15.5

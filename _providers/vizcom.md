@@ -112,7 +112,7 @@ overview: 'Vizcom is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vizcom''s developer surface includes documentation, pricing, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: emerging
   composite: 21.0

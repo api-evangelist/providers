@@ -331,7 +331,7 @@ plans:
 - name: Eaton Plans Pricing
   plan_count: 9
   slug: eaton-plans-pricing
-random_paper: 88
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Eaton Rate Limits

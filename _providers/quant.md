@@ -81,7 +81,7 @@ plans:
 - name: Quant Plans Pricing
   plan_count: 3
   slug: quant-plans-pricing
-random_paper: 106
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Quant Rate Limits

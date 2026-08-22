@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: Land O'Lakes and Microsoft partner to accelerate AI ...
   url: https://news.microsoft.com/source/2025/11/12/land-olakes-and-microsoft-partner-to-accelerate-ai-innovation-in-agriculture/
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

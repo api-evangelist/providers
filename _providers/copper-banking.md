@@ -103,7 +103,7 @@ overview: 'Copper Banking publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Copper Banking''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 83
+random_paper: 17
 scopes:
 - name: Copper Banking Scopes
   scope_count: 2

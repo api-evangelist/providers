@@ -164,7 +164,7 @@ plans:
 - name: Knowi Plans Pricing
   plan_count: 3
   slug: knowi-plans-pricing
-random_paper: 105
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Knowi Rate Limits

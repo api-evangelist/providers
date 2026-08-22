@@ -175,7 +175,7 @@ plans:
 - name: Terminal Shop Plans Pricing
   plan_count: 3
   slug: terminal-shop-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Terminal Shop Rate Limits

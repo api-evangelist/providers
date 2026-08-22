@@ -76,7 +76,7 @@ overview: 'Associated Bank publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Associated Bank''s developer surface includes changelog, engineering blog, support, and 6 more developer resources.'
-random_paper: 49
+random_paper: 12
 score:
   band: minimal
   composite: 9.5

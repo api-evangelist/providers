@@ -229,7 +229,7 @@ plans:
 - name: Hilos Plans Pricing
   plan_count: 0
   slug: hilos-plans-pricing
-random_paper: 96
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Hilos Rate Limits

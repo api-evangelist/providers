@@ -144,7 +144,7 @@ plans:
 - name: Octane Ai Plans Pricing
   plan_count: 4
   slug: octane-ai-plans-pricing
-random_paper: 136
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Octane Ai Rate Limits

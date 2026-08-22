@@ -180,7 +180,7 @@ overview: 'Skymerse publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Skymerse''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 138
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Skymerse Rate Limits

@@ -228,7 +228,7 @@ plans:
 - name: Us Abilityone Commission Plans Pricing
   plan_count: 3
   slug: us-abilityone-commission-plans-pricing
-random_paper: 99
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Us Abilityone Commission Rate Limits

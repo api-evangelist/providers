@@ -163,7 +163,7 @@ plans:
 - name: Atomic Fi Plans Pricing
   plan_count: 2
   slug: atomic-fi-plans-pricing
-random_paper: 144
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Atomic Fi Rate Limits

@@ -49,7 +49,7 @@ name: Verge Labs
 nav: Providers
 network: true
 overview: Verge Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Biotechnology.
-random_paper: 106
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

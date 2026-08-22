@@ -238,7 +238,7 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 124
+random_paper: 4
 score:
   band: strong
   composite: 55.1

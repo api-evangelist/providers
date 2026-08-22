@@ -230,7 +230,7 @@ overview: 'MetaLend publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   MetaLend''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: strong
   composite: 54.6

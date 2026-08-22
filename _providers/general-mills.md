@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: General Mills is 'innovating how we innovate' with AI
   url: https://www.fooddive.com/news/general-mills-product-innovation-ai/812457/
-random_paper: 132
+random_paper: 1
 score:
   band: minimal
   composite: 5.3

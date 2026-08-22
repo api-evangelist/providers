@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: OpenAI Partnership Puts Conversational AI in Mattel Toys
   url: https://www.pymnts.com/news/artificial-intelligence/2025/barbie-gets-brain-openai-partnership-puts-conversational-ai-mattel-toys/
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 2.9

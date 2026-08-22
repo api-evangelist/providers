@@ -73,7 +73,7 @@ plans:
 - name: Openyurt Plans Pricing
   plan_count: 3
   slug: openyurt-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Openyurt Rate Limits

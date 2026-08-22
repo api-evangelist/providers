@@ -155,7 +155,7 @@ overview: 'Code Ocean publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 80
+random_paper: 8
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4

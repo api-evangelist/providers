@@ -312,7 +312,7 @@ plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
   slug: triple-whale-plans-pricing
-random_paper: 38
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Triple Whale Rate Limits

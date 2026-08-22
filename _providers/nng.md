@@ -80,7 +80,7 @@ overview: 'NNG is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   NNG''s developer surface includes support and 8 more developer resources.'
-random_paper: 25
+random_paper: 8
 score:
   band: minimal
   composite: 10.2

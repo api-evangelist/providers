@@ -73,7 +73,7 @@ overview: 'CERPRO is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CERPRO''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: emerging
   composite: 12.6

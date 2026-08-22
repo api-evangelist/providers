@@ -190,7 +190,7 @@ plans:
 - name: Deezer Plans Pricing
   plan_count: 2
   slug: deezer-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Deezer Rate Limits

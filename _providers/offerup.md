@@ -72,7 +72,7 @@ overview: 'OfferUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OfferUp''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: minimal
   composite: 10.6

@@ -116,7 +116,7 @@ overview: 'Zoox is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zoox''s developer surface includes support, YouTube channel, and 16 more developer resources.'
-random_paper: 17
+random_paper: 2
 score:
   band: minimal
   composite: 10.2

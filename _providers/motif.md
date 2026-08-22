@@ -84,7 +84,7 @@ overview: 'Motif is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Motif''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: emerging
   composite: 14.1

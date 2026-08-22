@@ -237,7 +237,7 @@ plans:
 - name: Mapp Plans Pricing
   plan_count: 3
   slug: mapp-plans-pricing
-random_paper: 132
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Mapp Rate Limits

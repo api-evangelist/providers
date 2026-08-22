@@ -370,7 +370,7 @@ plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
   slug: google-chrome-plans-pricing
-random_paper: 128
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Google Chrome Rate Limits

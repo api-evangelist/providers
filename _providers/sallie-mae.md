@@ -68,7 +68,7 @@ overview: 'Sallie Mae Bank is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sallie Mae Bank''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: minimal
   composite: 3.6

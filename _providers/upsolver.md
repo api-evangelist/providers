@@ -93,7 +93,7 @@ overview: 'Upsolver publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Upsolver''s developer surface includes documentation, changelog, CLI, authentication, and 7 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 17.1

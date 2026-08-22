@@ -60,7 +60,7 @@ overview: 'newmo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   newmo''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 103
+random_paper: 4
 score:
   band: minimal
   composite: 7.6

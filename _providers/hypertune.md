@@ -126,7 +126,7 @@ plans:
 - name: Hypertune Plans Pricing
   plan_count: 4
   slug: hypertune-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Hypertune Rate Limits

@@ -40,7 +40,7 @@ name: Ethos 9q9rq
 nav: Providers
 network: true
 overview: Ethos 9q9rq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Duplicate, Scrape Artifact, and Retire.
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 4.1

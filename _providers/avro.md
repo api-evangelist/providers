@@ -118,7 +118,7 @@ plans:
 - name: Avro Plans Pricing
   plan_count: 3
   slug: avro-plans-pricing
-random_paper: 142
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Avro Rate Limits

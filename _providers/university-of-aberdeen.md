@@ -104,7 +104,7 @@ plans:
 - name: University Of Aberdeen Plans Pricing
   plan_count: 2
   slug: university-of-aberdeen-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Aberdeen Rate Limits

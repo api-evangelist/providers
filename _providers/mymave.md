@@ -45,7 +45,7 @@ name: mymave
 nav: Providers
 network: true
 overview: mymave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 3.2

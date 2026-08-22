@@ -94,7 +94,7 @@ plans:
 - name: Jam Gg Plans Pricing
   plan_count: 0
   slug: jam-gg-plans-pricing
-random_paper: 116
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Jam Gg Rate Limits

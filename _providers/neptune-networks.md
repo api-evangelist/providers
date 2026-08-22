@@ -72,7 +72,7 @@ overview: 'Neptune Networks is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Neptune Networks'' developer surface includes support and 6 more developer resources.'
-random_paper: 66
+random_paper: 4
 score:
   band: minimal
   composite: 9.7

@@ -104,7 +104,7 @@ overview: 'Attivo Networks (SentinelOne) is profiled on the [APIs.io](https://ap
 
 
   Attivo Networks (SentinelOne)''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: emerging
   composite: 15.9

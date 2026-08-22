@@ -131,7 +131,7 @@ overview: 'Zonos publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zonos'' developer surface includes documentation, API reference, authentication, pricing, signup flow, developer portal, engineering blog, and 12 more developer resources.'
-random_paper: 122
+random_paper: 2
 score:
   band: emerging
   composite: 23.7

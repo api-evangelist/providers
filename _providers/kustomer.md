@@ -136,7 +136,7 @@ plans:
 - name: Kustomer Plans Pricing
   plan_count: 1
   slug: kustomer-plans-pricing
-random_paper: 145
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Kustomer Rate Limits

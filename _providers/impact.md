@@ -270,7 +270,7 @@ plans:
 - name: Impact Plans Pricing
   plan_count: 0
   slug: impact-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Impact Rate Limits

@@ -332,7 +332,7 @@ overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 20 more developer resources.'
-random_paper: 87
+random_paper: 7
 scopes:
 - name: Pax8 Scopes
   scope_count: 4

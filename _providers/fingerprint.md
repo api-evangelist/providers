@@ -141,7 +141,7 @@ plans:
 - name: Fingerprint Plans Pricing
   plan_count: 3
   slug: fingerprint-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Fingerprint Rate Limits

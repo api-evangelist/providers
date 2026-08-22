@@ -57,7 +57,7 @@ name: PlaceBear
 nav: Providers
 network: true
 overview: PlaceBear publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

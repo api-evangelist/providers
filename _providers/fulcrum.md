@@ -223,7 +223,7 @@ plans:
 - name: Fulcrum Plans Pricing
   plan_count: 3
   slug: fulcrum-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Fulcrum Rate Limits

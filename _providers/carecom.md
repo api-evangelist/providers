@@ -74,7 +74,7 @@ name: Care.com
 nav: Providers
 network: true
 overview: Care.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Care, Childcare, Senior Care, Pet Care, and Housekeeping.
-random_paper: 134
+random_paper: 16
 score:
   band: minimal
   composite: 6.3

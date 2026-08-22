@@ -108,7 +108,7 @@ overview: 'Tide is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tide''s developer surface includes pricing, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: emerging
   composite: 18.0

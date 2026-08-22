@@ -84,7 +84,7 @@ overview: 'Anzen is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Anzen''s developer surface includes support and 9 more developer resources.'
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 8.2

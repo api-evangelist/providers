@@ -148,7 +148,7 @@ overview: 'Pathai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pathai''s developer surface includes engineering blog, support, YouTube channel, and 23 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 19.9

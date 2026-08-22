@@ -478,7 +478,7 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: developing
   composite: 49.5

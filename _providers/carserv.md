@@ -105,7 +105,7 @@ overview: 'CarServ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CarServ''s developer surface includes authentication and 14 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 10.4

@@ -65,7 +65,7 @@ name: HelprNow
 nav: Providers
 network: true
 overview: HelprNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gifting, E-commerce, Retail, and Marketplace.
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

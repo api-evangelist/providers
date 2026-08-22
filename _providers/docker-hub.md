@@ -213,7 +213,7 @@ plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
   slug: docker-hub-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Docker Hub Rate Limits

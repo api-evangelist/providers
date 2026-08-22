@@ -196,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: Staples Canada ULC Press Releases | Cision
   url: https://www.newswire.ca/news/staples-canada-ulc/
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Staples Rate Limits

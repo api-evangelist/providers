@@ -127,7 +127,7 @@ overview: 'Anumana is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Anumana''s developer surface includes documentation, support, engineering blog, FAQ, and 19 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: thin
   composite: 26.9

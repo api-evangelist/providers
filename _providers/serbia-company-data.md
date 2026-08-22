@@ -171,7 +171,7 @@ plans:
 - name: Serbia Company Data Plans Pricing
   plan_count: 0
   slug: serbia-company-data-plans-pricing
-random_paper: 101
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Serbia Company Data Rate Limits

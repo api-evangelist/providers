@@ -56,7 +56,7 @@ overview: 'Qorvo is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Qorvo''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 120
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

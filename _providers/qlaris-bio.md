@@ -72,7 +72,7 @@ overview: 'Qlaris Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qlaris Bio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 117
+random_paper: 3
 score:
   band: minimal
   composite: 9.5

@@ -77,7 +77,7 @@ plans:
 - name: Medpace Holdings Plans Pricing
   plan_count: 1
   slug: medpace-holdings-plans-pricing
-random_paper: 130
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Medpace Holdings Rate Limits

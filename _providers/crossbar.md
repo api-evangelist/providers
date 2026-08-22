@@ -49,7 +49,7 @@ name: Crossbar
 nav: Providers
 network: true
 overview: Crossbar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductors, Memory, and ReRAM.
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

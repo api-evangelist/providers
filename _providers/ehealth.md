@@ -68,7 +68,7 @@ overview: 'eHealth publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   eHealth''s developer surface includes support and 4 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 6.9

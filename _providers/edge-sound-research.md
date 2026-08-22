@@ -49,7 +49,7 @@ name: EDGE Sound Research
 nav: Providers
 network: true
 overview: EDGE Sound Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Sound, Audio Infrastructure, and Audio Technology.
-random_paper: 105
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

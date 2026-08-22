@@ -207,7 +207,7 @@ overview: 'Clawvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clawvisor''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: developing
   composite: 50.1

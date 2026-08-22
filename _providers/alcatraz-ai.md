@@ -111,7 +111,7 @@ overview: 'Alcatraz AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Alcatraz AI''s developer surface includes documentation, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 54
+random_paper: 5
 score:
   band: emerging
   composite: 23.2

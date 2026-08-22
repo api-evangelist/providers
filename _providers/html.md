@@ -61,7 +61,7 @@ name: HTML
 nav: Providers
 network: true
 overview: HTML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include HTML, Living Standard, Markup Language, Semantic Web, and W3C.
-random_paper: 139
+random_paper: 17
 score:
   band: minimal
   composite: 6.4

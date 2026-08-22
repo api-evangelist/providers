@@ -45,7 +45,7 @@ name: Futurtec
 nav: Providers
 network: true
 overview: Futurtec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Medical Devices, Surgical Robotics, and Orthopedics.
-random_paper: 137
+random_paper: 0
 score:
   band: minimal
   composite: 2.2

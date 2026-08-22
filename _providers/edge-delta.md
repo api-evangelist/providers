@@ -295,7 +295,7 @@ overview: 'Edge Delta publishes 19 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Edge Delta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: developing
   composite: 54.2

@@ -137,7 +137,7 @@ overview: 'String Technology Inc publishes 1 API on the [APIs.io](https://apis.i
 
 
   String Technology Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
-random_paper: 65
+random_paper: 9
 score:
   band: emerging
   composite: 18.3

@@ -205,7 +205,7 @@ overview: 'Ardent publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ardent''s developer surface includes CLI, sandbox, authentication, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: developing
   composite: 46.3

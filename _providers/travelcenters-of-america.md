@@ -176,7 +176,7 @@ press:
 - date: '2026-05-25'
   title: TravelCenters of America and NATSO Foundation Work to ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-and-natso-foundation-work-to-enhance-safety-for-roadside-service-technicians-302112405.html
-random_paper: 51
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Travelcenters Of America Rate Limits

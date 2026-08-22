@@ -88,7 +88,7 @@ overview: 'Jellyfish is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jellyfish''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: emerging
   composite: 15.5

@@ -471,7 +471,7 @@ overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 145
+random_paper: 12
 score:
   band: developing
   composite: 46.0

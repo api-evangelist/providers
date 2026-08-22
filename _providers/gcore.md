@@ -157,7 +157,7 @@ plans:
 - name: Gcore Plans Pricing
   plan_count: 8
   slug: gcore-plans-pricing
-random_paper: 81
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Gcore Rate Limits

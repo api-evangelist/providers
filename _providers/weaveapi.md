@@ -151,7 +151,7 @@ plans:
 - name: Weaveapi Plans Pricing
   plan_count: 2
   slug: weaveapi-plans-pricing
-random_paper: 105
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Weaveapi Rate Limits

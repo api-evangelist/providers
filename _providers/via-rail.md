@@ -176,7 +176,7 @@ overview: 'VIA Rail Canada publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   VIA Rail Canada''s developer surface includes authentication, documentation, support, FAQ, status page, engineering blog, and 27 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: emerging
   composite: 26.1

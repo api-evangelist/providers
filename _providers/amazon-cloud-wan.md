@@ -259,7 +259,7 @@ overview: 'Amazon Cloud WAN publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Amazon Cloud WAN''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 107
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

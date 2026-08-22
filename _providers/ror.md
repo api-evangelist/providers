@@ -121,7 +121,7 @@ plans:
 - name: Ror Plans Pricing
   plan_count: 2
   slug: ror-plans-pricing
-random_paper: 41
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Ror Rate Limits

@@ -134,7 +134,7 @@ overview: 'Enterprise Mobility publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Enterprise Mobility''s developer surface includes developer portal, documentation, authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 70
+random_paper: 12
 scopes:
 - name: Enterprise Mobility Scopes
   scope_count: 14

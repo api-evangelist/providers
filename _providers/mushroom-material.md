@@ -53,7 +53,7 @@ name: Mushroom Material
 nav: Providers
 network: true
 overview: Mushroom Material is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, Packaging, Materials, and Mycelium.
-random_paper: 143
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

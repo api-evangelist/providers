@@ -85,7 +85,7 @@ plans:
 - name: Deutsche Bank Plans Pricing
   plan_count: 3
   slug: deutsche-bank-plans-pricing
-random_paper: 118
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Deutsche Bank Rate Limits

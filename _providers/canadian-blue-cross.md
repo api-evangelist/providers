@@ -124,7 +124,7 @@ overview: 'Blue Cross Canada is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Blue Cross Canada''s developer surface includes product news, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 95
+random_paper: 14
 scopes:
 - name: Canadian Blue Cross Scopes
   scope_count: 2

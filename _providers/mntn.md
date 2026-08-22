@@ -222,7 +222,7 @@ plans:
 - name: Mntn Plans Pricing
   plan_count: 0
   slug: mntn-plans-pricing
-random_paper: 147
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Mntn Rate Limits

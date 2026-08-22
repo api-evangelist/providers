@@ -186,7 +186,7 @@ plans:
 - name: Trane Technologies Plans Pricing
   plan_count: 4
   slug: trane-technologies-plans-pricing
-random_paper: 79
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Trane Technologies Rate Limits

@@ -231,7 +231,7 @@ plans:
 - name: Quotapath Plans Pricing
   plan_count: 3
   slug: quotapath-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Quotapath Rate Limits

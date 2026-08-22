@@ -34,7 +34,7 @@ name: MediaCaption API
 nav: Providers
 network: true
 overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include youtube, transcription, captions, subtitles, and video.'
-random_paper: 131
+random_paper: 4
 score:
   band: emerging
   composite: 13.0

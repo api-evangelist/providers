@@ -45,7 +45,7 @@ name: Shurpa
 nav: Providers
 network: true
 overview: Shurpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Logistics, Medical Transportation, and Population Health.
-random_paper: 63
+random_paper: 8
 score:
   band: minimal
   composite: 2.2

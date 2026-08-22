@@ -49,7 +49,7 @@ name: Good Glamm Group
 nav: Providers
 network: true
 overview: Good Glamm Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Personal Care, and Cosmetics.
-random_paper: 108
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

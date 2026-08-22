@@ -53,7 +53,7 @@ name: Caffeine
 nav: Providers
 network: true
 overview: Caffeine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Streaming, Social Broadcasting, Video, and WebRTC.
-random_paper: 72
+random_paper: 19
 score:
   band: minimal
   composite: 5.3

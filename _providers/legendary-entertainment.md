@@ -89,7 +89,7 @@ overview: 'Legendary Entertainment is profiled on the [APIs.io](https://apis.io/
 
 
   Legendary Entertainment''s developer surface includes engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 22
+random_paper: 12
 score:
   band: minimal
   composite: 10.4

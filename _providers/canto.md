@@ -319,7 +319,7 @@ plans:
 - name: Canto Plans Pricing
   plan_count: 4
   slug: canto-plans-pricing
-random_paper: 86
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Canto Rate Limits

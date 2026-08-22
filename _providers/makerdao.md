@@ -112,7 +112,7 @@ overview: 'MakerDAO is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MakerDAO''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 12 more developer resources.'
-random_paper: 91
+random_paper: 17
 score:
   band: minimal
   composite: 10.9

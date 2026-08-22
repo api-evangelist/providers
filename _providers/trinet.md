@@ -157,7 +157,7 @@ overview: 'TriNet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   TriNet''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, and 24 more developer resources.'
-random_paper: 66
+random_paper: 11
 score:
   band: emerging
   composite: 13.5

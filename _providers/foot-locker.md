@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Foot Locker – InMoment
   url: https://inmoment.com/customer-stories/foot-locker-uses-ai-npl-text-analytics/
-random_paper: 82
+random_paper: 12
 score:
   band: minimal
   composite: 5.3

@@ -108,7 +108,7 @@ overview: 'Miso Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Miso Robotics'' developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 13
+random_paper: 10
 score:
   band: emerging
   composite: 11.7

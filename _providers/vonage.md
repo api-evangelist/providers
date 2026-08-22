@@ -346,7 +346,7 @@ plans:
 - name: Vonage Plans Pricing
   plan_count: 2
   slug: vonage-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Vonage Rate Limits

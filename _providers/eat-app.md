@@ -156,7 +156,7 @@ plans:
 - name: Eat App Plans Pricing
   plan_count: 5
   slug: eat-app-plans-pricing
-random_paper: 84
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Eat App Rate Limits

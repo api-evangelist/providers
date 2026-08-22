@@ -262,7 +262,7 @@ overview: 'Tesser publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 66
+random_paper: 11
 score:
   band: developing
   composite: 49.7

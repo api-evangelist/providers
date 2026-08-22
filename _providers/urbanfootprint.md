@@ -125,7 +125,7 @@ overview: 'UrbanFootprint is profiled on the [APIs.io](https://apis.io/) network
 
 
   UrbanFootprint''s developer surface includes documentation, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 43
+random_paper: 0
 score:
   band: emerging
   composite: 20.1

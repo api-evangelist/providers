@@ -64,7 +64,7 @@ overview: 'Aven is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aven''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 128
+random_paper: 6
 score:
   band: minimal
   composite: 5.8

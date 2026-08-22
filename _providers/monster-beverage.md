@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: 'Monster Beverage''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/monster-beverage-ai-strategy-analysis-of-dominance-in-cpg-beverage-ai/
-random_paper: 15
+random_paper: 16
 score:
   band: minimal
   composite: 2.4

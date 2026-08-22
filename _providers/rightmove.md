@@ -194,7 +194,7 @@ overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 27 more developer resources.'
-random_paper: 87
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Rightmove Rate Limits

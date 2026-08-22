@@ -78,7 +78,7 @@ plans:
 - name: Contractorforeman Plans Pricing
   plan_count: 5
   slug: contractorforeman-plans-pricing
-random_paper: 43
+random_paper: 4
 score:
   band: emerging
   composite: 13.8

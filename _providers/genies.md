@@ -113,7 +113,7 @@ overview: 'Genies is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Genies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 22.4

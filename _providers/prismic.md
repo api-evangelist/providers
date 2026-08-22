@@ -250,7 +250,7 @@ plans:
 - name: Prismic Plans Pricing
   plan_count: 6
   slug: prismic-plans-pricing
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Prismic Rate Limits

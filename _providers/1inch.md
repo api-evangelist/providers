@@ -133,7 +133,7 @@ plans:
 - name: 1Inch Plans Pricing
   plan_count: 1
   slug: 1inch-plans-pricing
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: 1Inch Rate Limits

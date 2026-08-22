@@ -100,7 +100,7 @@ overview: 'BladeLogic is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BladeLogic''s developer surface includes documentation, API reference, engineering blog, CLI, and 10 more developer resources.'
-random_paper: 136
+random_paper: 1
 score:
   band: emerging
   composite: 20.4

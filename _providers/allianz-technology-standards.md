@@ -21,7 +21,7 @@ modified: '2026-06-20'
 name: Allianz Technology Standards
 nav: Providers
 network: true
-random_paper: 54
+random_paper: 8
 slug: allianz-technology-standards
 tags:
 - Best Practices

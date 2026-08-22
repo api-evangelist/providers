@@ -68,7 +68,7 @@ overview: 'Happiest Baby is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Happiest Baby''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 129
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

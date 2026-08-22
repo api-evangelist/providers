@@ -212,7 +212,7 @@ overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Cofactr''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 24 more developer resources.'
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Cofactr Rate Limits

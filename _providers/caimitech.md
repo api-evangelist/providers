@@ -89,7 +89,7 @@ overview: 'caimitech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   caimitech''s developer surface includes documentation, authentication, sandbox, and 8 more developer resources.'
-random_paper: 41
+random_paper: 11
 score:
   band: emerging
   composite: 13.2

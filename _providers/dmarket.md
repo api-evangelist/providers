@@ -170,7 +170,7 @@ overview: 'DMarket publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   DMarket''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: developing
   composite: 39.3

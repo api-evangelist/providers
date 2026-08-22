@@ -307,7 +307,7 @@ overview: 'Codag publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Codag''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 63
+random_paper: 6
 score:
   band: developing
   composite: 50.2

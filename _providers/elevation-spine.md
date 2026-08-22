@@ -67,7 +67,7 @@ overview: 'Elevation Spine is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Elevation Spine''s developer surface includes YouTube channel and 3 more developer resources.'
-random_paper: 65
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

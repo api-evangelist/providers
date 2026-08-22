@@ -164,7 +164,7 @@ overview: 'Fox Rothschild LLP publishes 21 APIs on the [APIs.io](https://apis.io
 
 
   Fox Rothschild LLP''s developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 113
+random_paper: 5
 score:
   band: minimal
   composite: 7.9

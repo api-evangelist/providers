@@ -161,7 +161,7 @@ plans:
 - name: Launch27 Plans Pricing
   plan_count: 4
   slug: launch27-plans-pricing
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Launch27 Rate Limits

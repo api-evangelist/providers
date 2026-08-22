@@ -7548,7 +7548,7 @@ plans:
 - name: Amazon Pinpoint Plans Pricing
   plan_count: 1
   slug: amazon-pinpoint-plans-pricing
-random_paper: 82
+random_paper: 18
 rate_limits:
 - limit_count: 26
   name: Amazon Pinpoint Rate Limits

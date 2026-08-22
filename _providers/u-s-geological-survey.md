@@ -360,7 +360,7 @@ plans:
 - name: U S Geological Survey Plans Pricing
   plan_count: 1
   slug: u-s-geological-survey-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: U S Geological Survey Rate Limits

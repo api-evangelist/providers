@@ -53,7 +53,7 @@ name: First National of Nebraska
 nav: Providers
 network: true
 overview: First National of Nebraska is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Consumer Banking, Credit Cards, and Commercial Banking.
-random_paper: 60
+random_paper: 10
 score:
   band: minimal
   composite: 0.9

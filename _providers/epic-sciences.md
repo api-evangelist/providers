@@ -54,7 +54,7 @@ name: Epic Sciences
 nav: Providers
 network: true
 overview: Epic Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Diagnostics, Oncology, and Life Sciences.
-random_paper: 115
+random_paper: 5
 score:
   band: minimal
   composite: 2.9

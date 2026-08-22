@@ -59,7 +59,7 @@ overview: 'Randolph-Brooks FCU is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Randolph-Brooks FCU''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 67
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

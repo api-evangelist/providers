@@ -342,7 +342,7 @@ overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
-random_paper: 35
+random_paper: 9
 scopes:
 - name: Clear Street Scopes
   scope_count: 5

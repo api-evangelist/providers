@@ -297,7 +297,7 @@ plans:
 - name: Energyx Plans Pricing
   plan_count: 0
   slug: energyx-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Energyx Rate Limits

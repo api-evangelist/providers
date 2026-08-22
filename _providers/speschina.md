@@ -49,7 +49,7 @@ name: SPES (speschina)
 nav: Providers
 network: true
 overview: SPES (speschina) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Brand, Personal Care, Beauty, and E-commerce.
-random_paper: 64
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

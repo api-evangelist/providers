@@ -61,7 +61,7 @@ name: Farmwise
 nav: Providers
 network: true
 overview: Farmwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Robotics, and Artificial Intelligence.
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 9.6

@@ -113,7 +113,7 @@ plans:
 - name: Spline Plans Pricing
   plan_count: 4
   slug: spline-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Spline Rate Limits

@@ -514,7 +514,7 @@ plans:
 - name: Tomorrow Plans Pricing
   plan_count: 4
   slug: tomorrow-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Tomorrow Rate Limits

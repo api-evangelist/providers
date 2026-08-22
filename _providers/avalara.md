@@ -2678,12 +2678,11 @@ overview: 'Avalara publishes 68 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Avalara''s developer surface includes authentication, sandbox, changelog, engineering blog, support, developer portal, training material, and 87 more developer resources.'
-paper_is_own: true
 plans:
 - name: Avalara Plans Pricing
   plan_count: 5
   slug: avalara-plans-pricing
-random_paper: 27
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Avalara Rate Limits

@@ -96,7 +96,7 @@ overview: 'Cvent Community is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Cvent Community''s developer surface includes training material, support, engineering blog, and 10 more developer resources.'
-random_paper: 96
+random_paper: 11
 score:
   band: minimal
   composite: 10.5

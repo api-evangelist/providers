@@ -68,7 +68,7 @@ plans:
 - name: Bluebirds Plans Pricing
   plan_count: 0
   slug: bluebirds-plans-pricing
-random_paper: 62
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

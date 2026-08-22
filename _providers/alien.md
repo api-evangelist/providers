@@ -161,7 +161,7 @@ overview: 'Alien publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alien''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 20 more developer resources.'
-random_paper: 74
+random_paper: 17
 scopes:
 - name: Alien Scopes
   scope_count: 1

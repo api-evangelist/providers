@@ -221,7 +221,7 @@ overview: 'Antimetal publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
-random_paper: 65
+random_paper: 14
 scopes:
 - name: Antimetal Scopes
   scope_count: 4

@@ -89,7 +89,7 @@ name: Radia
 nav: Providers
 network: true
 overview: Radia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Aviation, Air Cargo, and Logistics.
-random_paper: 66
+random_paper: 9
 score:
   band: minimal
   composite: 5.1

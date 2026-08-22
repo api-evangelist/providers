@@ -61,7 +61,7 @@ name: Wiom
 nav: Providers
 network: true
 overview: Wiom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Internet, Broadband, and WiFi.
-random_paper: 146
+random_paper: 3
 score:
   band: minimal
   composite: 1.8

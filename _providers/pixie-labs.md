@@ -125,7 +125,7 @@ overview: 'Pixie Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Pixie Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 12 more developer resources.'
-random_paper: 112
+random_paper: 19
 score:
   band: thin
   composite: 32.2

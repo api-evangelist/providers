@@ -195,7 +195,7 @@ overview: 'St.George Bank publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   St.George Bank''s developer surface includes developer portal, documentation, support, authentication, and 19 more developer resources.'
-random_paper: 25
+random_paper: 1
 scopes:
 - name: St George Bank Scopes
   scope_count: 9

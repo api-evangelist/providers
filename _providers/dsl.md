@@ -49,7 +49,7 @@ name: DSL
 nav: Providers
 network: true
 overview: DSL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Domain-Specific Language, DSL, Programming Languages, and Software Engineering.
-random_paper: 25
+random_paper: 8
 score:
   band: minimal
   composite: 5.5

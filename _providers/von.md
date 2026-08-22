@@ -126,7 +126,7 @@ plans:
 - name: Von Plans Pricing
   plan_count: 0
   slug: von-plans-pricing
-random_paper: 41
+random_paper: 3
 score:
   band: emerging
   composite: 17.2

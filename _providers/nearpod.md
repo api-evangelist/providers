@@ -100,7 +100,7 @@ overview: 'Nearpod is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nearpod''s developer surface includes engineering blog, pricing, signup flow, support, getting-started guide, and 9 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: emerging
   composite: 19.7

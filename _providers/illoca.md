@@ -84,7 +84,7 @@ overview: 'illoca is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   illoca''s developer surface includes signup flow, pricing, and 8 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: emerging
   composite: 14.7

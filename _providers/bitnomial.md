@@ -163,7 +163,7 @@ overview: 'Bitnomial publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Bitnomial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 65
+random_paper: 14
 score:
   band: developing
   composite: 40.8

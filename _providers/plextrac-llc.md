@@ -116,7 +116,7 @@ overview: 'PlexTrac, LLC publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PlexTrac, LLC''s developer surface includes documentation, API reference, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 35
+random_paper: 9
 score:
   band: thin
   composite: 36.7

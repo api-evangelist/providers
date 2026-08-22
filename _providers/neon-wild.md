@@ -40,7 +40,7 @@ name: Neon Wild
 nav: Providers
 network: true
 overview: Neon Wild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Children, Entertainment, Games, and Consumer Apps.
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

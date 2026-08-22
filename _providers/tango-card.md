@@ -235,7 +235,7 @@ plans:
 - name: Tango Card Plans Pricing
   plan_count: 1
   slug: tango-card-plans-pricing
-random_paper: 98
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Tango Card Rate Limits

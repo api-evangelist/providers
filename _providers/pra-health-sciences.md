@@ -62,7 +62,7 @@ overview: 'PRA Health Sciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   PRA Health Sciences'' developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 100
+random_paper: 19
 score:
   band: minimal
   composite: 2.9

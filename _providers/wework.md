@@ -135,7 +135,7 @@ overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   WeWork''s developer surface includes developer portal, documentation, API reference, getting-started guide, release notes, authentication, signup flow, and 14 more developer resources.'
-random_paper: 75
+random_paper: 20
 score:
   band: emerging
   composite: 20.7

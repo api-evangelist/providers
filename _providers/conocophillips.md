@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: 'ConocoPhillips: Market Strategy and AI Energy Demand'
   url: https://www.monexa.ai/blog/conocophillips-market-strategy-ai-demand-marathon--COP-2025-02-18
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Conocophillips Rate Limits

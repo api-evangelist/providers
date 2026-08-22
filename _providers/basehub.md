@@ -92,7 +92,7 @@ overview: 'BaseHub publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   BaseHub''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 134
+random_paper: 16
 score:
   band: emerging
   composite: 22.7

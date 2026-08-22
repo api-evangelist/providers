@@ -285,7 +285,7 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 
 
   The San Francisco Compute Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 21
+random_paper: 2
 score:
   band: strong
   composite: 55.7

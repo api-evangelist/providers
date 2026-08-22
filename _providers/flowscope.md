@@ -96,7 +96,7 @@ overview: 'Flowscope is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flowscope''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 84
+random_paper: 12
 score:
   band: emerging
   composite: 14.9

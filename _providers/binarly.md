@@ -296,7 +296,7 @@ overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Binarly''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: developing
   composite: 47.7

@@ -322,7 +322,7 @@ overview: 'Zavu publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zavu''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Zavu Rate Limits

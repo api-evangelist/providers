@@ -93,7 +93,7 @@ plans:
 - name: Multiply Plans Pricing
   plan_count: 3
   slug: multiply-plans-pricing
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 12.1

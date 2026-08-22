@@ -201,7 +201,7 @@ plans:
 - name: Zamzar Plans Pricing
   plan_count: 5
   slug: zamzar-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Zamzar Rate Limits

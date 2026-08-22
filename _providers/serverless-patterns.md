@@ -45,7 +45,7 @@ name: Serverless Patterns
 nav: Providers
 network: true
 overview: Serverless Patterns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Cloud, Patterns, and Serverless.
-random_paper: 91
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

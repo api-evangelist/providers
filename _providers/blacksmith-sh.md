@@ -133,7 +133,7 @@ plans:
 - name: Blacksmith Sh Plans Pricing
   plan_count: 4
   slug: blacksmith-sh-plans-pricing
-random_paper: 130
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Blacksmith Sh Rate Limits

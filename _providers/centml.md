@@ -146,7 +146,7 @@ plans:
 - name: Centml Plans Pricing
   plan_count: 3
   slug: centml-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Centml Rate Limits

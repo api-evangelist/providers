@@ -101,7 +101,7 @@ overview: 'Swypex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Swypex''s developer surface includes support, signup flow, and 12 more developer resources.'
-random_paper: 92
+random_paper: 16
 score:
   band: emerging
   composite: 12.8

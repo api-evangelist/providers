@@ -140,7 +140,7 @@ overview: 'Human Interest publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Human Interest''s developer surface includes documentation, pricing, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 119
+random_paper: 11
 score:
   band: developing
   composite: 39.3

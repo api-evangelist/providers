@@ -77,7 +77,7 @@ plans:
 - name: Podcast Api Plans Pricing
   plan_count: 3
   slug: podcast-api-plans-pricing
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Podcast Api Rate Limits

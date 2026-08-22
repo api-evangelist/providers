@@ -168,7 +168,7 @@ overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   uShip''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: thin
   composite: 37.6

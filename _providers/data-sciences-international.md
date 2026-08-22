@@ -64,7 +64,7 @@ overview: 'Data Sciences International is profiled on the [APIs.io](https://apis
 
 
   Data Sciences International''s developer surface includes support and 4 more developer resources.'
-random_paper: 63
+random_paper: 15
 score:
   band: minimal
   composite: 10.0

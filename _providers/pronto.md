@@ -68,7 +68,7 @@ overview: 'Pronto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pronto''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 78
+random_paper: 2
 score:
   band: minimal
   composite: 10.4

@@ -134,7 +134,7 @@ plans:
 - name: Catch And Release Plans Pricing
   plan_count: 4
   slug: catch-and-release-plans-pricing
-random_paper: 10
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Catch And Release Rate Limits

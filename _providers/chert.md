@@ -144,7 +144,7 @@ overview: 'Chert publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chert''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: thin
   composite: 35.4

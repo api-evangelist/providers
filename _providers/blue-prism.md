@@ -81,7 +81,7 @@ plans:
 - name: Blue Prism Plans Pricing
   plan_count: 3
   slug: blue-prism-plans-pricing
-random_paper: 130
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Blue Prism Rate Limits

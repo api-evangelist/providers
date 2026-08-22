@@ -374,7 +374,7 @@ plans:
 - name: Qonto Plans Pricing
   plan_count: 6
   slug: qonto-plans-pricing
-random_paper: 114
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Qonto Rate Limits

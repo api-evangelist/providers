@@ -190,7 +190,7 @@ plans:
 - name: Elium Plans Pricing
   plan_count: 3
   slug: elium-plans-pricing
-random_paper: 93
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Elium Rate Limits

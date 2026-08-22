@@ -228,7 +228,7 @@ plans:
 - name: 1Lookup Plans Pricing
   plan_count: 5
   slug: 1lookup-plans-pricing
-random_paper: 119
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: 1Lookup Rate Limits

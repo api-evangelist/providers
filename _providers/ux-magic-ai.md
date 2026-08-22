@@ -121,7 +121,7 @@ overview: 'UX Magic AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   UX Magic AI''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 148
+random_paper: 13
 score:
   band: emerging
   composite: 23.2

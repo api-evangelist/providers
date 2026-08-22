@@ -226,7 +226,7 @@ overview: 'Kaseya publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Kaseya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, legal docs, and 30 more developer resources.'
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Kaseya Rate Limits

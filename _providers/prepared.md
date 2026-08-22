@@ -88,7 +88,7 @@ overview: 'Prepared is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Prepared''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: emerging
   composite: 12.0

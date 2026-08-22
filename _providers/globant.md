@@ -70,7 +70,7 @@ plans:
 - name: Globant Plans Pricing
   plan_count: 1
   slug: globant-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Globant Rate Limits

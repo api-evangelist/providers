@@ -61,7 +61,7 @@ name: Atlas5D
 nav: Providers
 network: true
 overview: Atlas5D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Technology, Remote Patient Monitoring, and Ambient Computing.
-random_paper: 90
+random_paper: 14
 score:
   band: minimal
   composite: 9.4

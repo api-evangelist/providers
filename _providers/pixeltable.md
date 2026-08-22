@@ -202,7 +202,7 @@ plans:
 - name: Pixeltable Plans Pricing
   plan_count: 4
   slug: pixeltable-plans-pricing
-random_paper: 23
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Pixeltable Rate Limits

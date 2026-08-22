@@ -68,7 +68,7 @@ overview: 'Local Holdings Limited is profiled on the [APIs.io](https://apis.io/)
 
 
   Local Holdings Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 127
+random_paper: 8
 score:
   band: minimal
   composite: 9.1

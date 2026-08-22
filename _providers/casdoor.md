@@ -267,7 +267,7 @@ plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
   slug: casdoor-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Casdoor Rate Limits

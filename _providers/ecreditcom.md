@@ -40,7 +40,7 @@ name: eCredit.com
 nav: Providers
 network: true
 overview: eCredit.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trade Credit, Credit Risk, Credit Decisioning, and Financial Services.
-random_paper: 12
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

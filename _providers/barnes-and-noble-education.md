@@ -97,7 +97,7 @@ overview: 'Barnes & Noble Education is profiled on the [APIs.io](https://apis.io
 
 
   Barnes & Noble Education''s developer surface includes product news and 10 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 5.6

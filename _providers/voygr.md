@@ -147,7 +147,7 @@ plans:
 - name: Voygr Plans Pricing
   plan_count: 4
   slug: voygr-plans-pricing
-random_paper: 120
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Voygr Rate Limits

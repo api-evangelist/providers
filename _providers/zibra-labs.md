@@ -53,7 +53,7 @@ name: Zibra Labs
 nav: Providers
 network: true
 overview: Zibra Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Distributed Compute, AI Infrastructure, GPU, and Cloud.
-random_paper: 105
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

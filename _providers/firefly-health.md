@@ -131,7 +131,7 @@ overview: 'Firefly Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Firefly Health''s developer surface includes signup flow, support, FAQ, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 87
+random_paper: 0
 score:
   band: emerging
   composite: 21.5

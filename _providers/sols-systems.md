@@ -40,7 +40,7 @@ name: Sols Systems
 nav: Providers
 network: true
 overview: Sols Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 94
+random_paper: 5
 score:
   band: minimal
   composite: 1.3

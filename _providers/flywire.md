@@ -180,7 +180,7 @@ overview: 'Flywire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Flywire''s developer surface includes engineering blog, documentation, API reference, getting-started guide, sandbox, authentication, and 24 more developer resources.'
-random_paper: 25
+random_paper: 14
 score:
   band: developing
   composite: 49.7

@@ -56,7 +56,7 @@ overview: 'Cambrio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cambrio''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 137
+random_paper: 19
 score:
   band: minimal
   composite: 5.5

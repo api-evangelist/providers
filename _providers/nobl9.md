@@ -91,7 +91,7 @@ overview: 'Nobl9 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nobl9''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 37
+random_paper: 1
 score:
   band: emerging
   composite: 15.3

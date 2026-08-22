@@ -49,7 +49,7 @@ name: hayneedle.com (formerly know as NetShops)
 nav: Providers
 network: true
 overview: hayneedle.com (formerly know as NetShops) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Home Goods, and Furniture.
-random_paper: 140
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

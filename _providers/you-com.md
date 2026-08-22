@@ -114,7 +114,7 @@ plans:
 - name: You Com Plans Pricing
   plan_count: 1
   slug: you-com-plans-pricing
-random_paper: 117
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: You Com Rate Limits

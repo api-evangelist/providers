@@ -315,7 +315,7 @@ plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
   slug: alpha-vantage-plans-pricing
-random_paper: 113
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Alpha Vantage Rate Limits

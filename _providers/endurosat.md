@@ -72,7 +72,7 @@ overview: 'EnduroSat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   EnduroSat''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: emerging
   composite: 11.0

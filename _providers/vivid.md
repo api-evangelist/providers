@@ -72,7 +72,7 @@ overview: 'Vivid is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vivid''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 8.6

@@ -291,7 +291,7 @@ overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits

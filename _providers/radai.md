@@ -68,7 +68,7 @@ overview: 'Rad AI is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rad AI''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 66
+random_paper: 9
 score:
   band: minimal
   composite: 10.8

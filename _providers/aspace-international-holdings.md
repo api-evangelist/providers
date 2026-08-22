@@ -70,7 +70,7 @@ name: ASPACE International Holdings
 nav: Providers
 network: true
 overview: ASPACE International Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Commercial Space, and Satellite Manufacturing.
-random_paper: 136
+random_paper: 6
 score:
   band: minimal
   composite: 5.4

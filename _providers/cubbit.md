@@ -161,7 +161,7 @@ overview: 'Cubbit publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cubbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 35.3

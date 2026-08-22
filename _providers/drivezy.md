@@ -67,7 +67,7 @@ name: Drivezy
 nav: Providers
 network: true
 overview: Drivezy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Mobility, Car Rental, and Vehicle Sharing.
-random_paper: 36
+random_paper: 4
 score:
   band: minimal
   composite: 6.1

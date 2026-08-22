@@ -76,7 +76,7 @@ overview: 'NCX is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   NCX''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 31
+random_paper: 14
 score:
   band: minimal
   composite: 10.6

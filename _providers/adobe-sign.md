@@ -126,7 +126,7 @@ overview: 'Adobe Acrobat Sign publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Adobe Acrobat Sign''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, and 8 more developer resources.'
-random_paper: 91
+random_paper: 19
 scopes:
 - name: Adobe Sign Scopes
   scope_count: 12

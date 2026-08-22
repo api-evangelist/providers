@@ -53,7 +53,7 @@ name: Wave Capital
 nav: Providers
 network: true
 overview: Wave Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Seed Fund, Marketplaces, and Early Stage.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

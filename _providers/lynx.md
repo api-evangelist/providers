@@ -128,7 +128,7 @@ overview: 'Lynx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lynx''s developer surface includes documentation, API reference, getting-started guide, changelog, sandbox, signup flow, support, and 13 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: thin
   composite: 28.7

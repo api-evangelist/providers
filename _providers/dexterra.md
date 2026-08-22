@@ -40,7 +40,7 @@ name: Dexterra
 nav: Providers
 network: true
 overview: Dexterra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Workforce Management, Field Service, and Enterprise Mobility.
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

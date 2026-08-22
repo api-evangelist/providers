@@ -229,7 +229,7 @@ plans:
 - name: Zillapi Plans
   plan_count: 4
   slug: zillapi-plans
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Zillapi Rate Limits

@@ -57,7 +57,7 @@ name: GOAT
 nav: Providers
 network: true
 overview: GOAT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Marketplace, Retail, and Fashion.
-random_paper: 129
+random_paper: 7
 score:
   band: minimal
   composite: 6.4

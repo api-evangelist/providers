@@ -126,7 +126,7 @@ overview: 'VillageMD is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   VillageMD''s developer surface includes engineering blog, product news, and 16 more developer resources.'
-random_paper: 55
+random_paper: 4
 score:
   band: emerging
   composite: 11.7

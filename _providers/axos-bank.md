@@ -101,7 +101,7 @@ overview: 'Axos Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Axos Bank''s developer surface includes engineering blog, authentication, documentation, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: emerging
   composite: 19.5

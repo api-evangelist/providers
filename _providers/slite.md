@@ -360,7 +360,7 @@ plans:
 - name: Slite Plans Pricing
   plan_count: 3
   slug: slite-plans-pricing
-random_paper: 98
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Slite Rate Limits

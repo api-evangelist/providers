@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Kadant Carmanah Design and Hexion Inc. Announce ...
   url: https://www.hexion.com/news-resources/news-detail/kadant-carmanah-design-and-hexion-inc.-announce-collaborative-partnership
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

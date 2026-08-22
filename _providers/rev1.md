@@ -68,7 +68,7 @@ overview: 'Rev1 is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rev1''s developer surface includes YouTube channel and 5 more developer resources.'
-random_paper: 84
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

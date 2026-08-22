@@ -136,7 +136,7 @@ overview: 'Banyan Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 129
+random_paper: 0
 score:
   band: thin
   composite: 34.0

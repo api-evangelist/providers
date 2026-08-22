@@ -87,7 +87,7 @@ plans:
 - name: Products Api Plans
   plan_count: 3
   slug: products-api-plans
-random_paper: 51
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Products Api Rate Limits

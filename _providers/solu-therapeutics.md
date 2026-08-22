@@ -57,7 +57,7 @@ name: Solu Therapeutics
 nav: Providers
 network: true
 overview: Solu Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Oncology.
-random_paper: 5
+random_paper: 8
 score:
   band: minimal
   composite: 9.0

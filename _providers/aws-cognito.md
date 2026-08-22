@@ -6105,7 +6105,7 @@ plans:
 - name: Aws Cognito Plans Pricing
   plan_count: 3
   slug: aws-cognito-plans-pricing
-random_paper: 88
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Aws Cognito Rate Limits

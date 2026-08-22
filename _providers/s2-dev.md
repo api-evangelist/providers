@@ -249,7 +249,7 @@ overview: 'S2 Dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   S2 Dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 82
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: S2 Dev Rate Limits

@@ -93,7 +93,7 @@ press:
 - date: '2026-03-03'
   title: VF Corporation Announces Participation at Citi’s 2026 Global Consumer & Retail Conference
   url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1864/vf-corporation-announces-participation-at-citis-2026
-random_paper: 71
+random_paper: 10
 score:
   band: minimal
   composite: 7.4

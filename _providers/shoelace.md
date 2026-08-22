@@ -94,7 +94,7 @@ overview: 'Shoelace is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Shoelace''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 91
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

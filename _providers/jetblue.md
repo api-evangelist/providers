@@ -140,7 +140,7 @@ overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 21 more developer resources.'
-random_paper: 2
+random_paper: 12
 scopes:
 - name: Jetblue Scopes
   scope_count: 7

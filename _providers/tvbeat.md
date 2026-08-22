@@ -151,7 +151,7 @@ plans:
 - name: Tvbeat Plans Pricing
   plan_count: 0
   slug: tvbeat-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Tvbeat Rate Limits

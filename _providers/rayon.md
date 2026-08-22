@@ -96,7 +96,7 @@ overview: 'Rayon is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rayon''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: emerging
   composite: 22.3

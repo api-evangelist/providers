@@ -280,7 +280,7 @@ plans:
 - name: Imdb Api Plans Pricing
   plan_count: 4
   slug: imdb-api-plans-pricing
-random_paper: 26
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Imdb Api Rate Limits

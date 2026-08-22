@@ -56,7 +56,7 @@ overview: 'Gas POS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gas POS''s developer surface includes pricing and 2 more developer resources.'
-random_paper: 102
+random_paper: 5
 score:
   band: minimal
   composite: 1.5

@@ -165,7 +165,7 @@ plans:
 - name: Laurence Plans Pricing
   plan_count: 0
   slug: laurence-plans-pricing
-random_paper: 102
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Laurence Rate Limits

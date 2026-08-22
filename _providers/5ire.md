@@ -158,7 +158,7 @@ overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
-random_paper: 75
+random_paper: 16
 score:
   band: emerging
   composite: 21.5

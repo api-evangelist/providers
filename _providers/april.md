@@ -96,7 +96,7 @@ overview: 'April is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   April''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, sandbox, and 8 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 16.2

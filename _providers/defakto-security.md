@@ -173,7 +173,7 @@ plans:
 - name: Defakto Security Plans Pricing
   plan_count: 0
   slug: defakto-security-plans-pricing
-random_paper: 28
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Defakto Security Rate Limits

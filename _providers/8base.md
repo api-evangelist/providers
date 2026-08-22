@@ -92,7 +92,7 @@ overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   8base''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 20
+random_paper: 5
 score:
   band: emerging
   composite: 22.5

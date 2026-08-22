@@ -120,7 +120,7 @@ overview: 'Regular Expressions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Regular Expressions'' developer surface includes documentation, code examples, and 12 more developer resources.'
-random_paper: 81
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []

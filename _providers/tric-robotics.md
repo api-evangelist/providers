@@ -65,7 +65,7 @@ overview: 'TRIC Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   TRIC Robotics'' developer surface includes support and 4 more developer resources.'
-random_paper: 7
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

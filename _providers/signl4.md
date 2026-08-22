@@ -126,7 +126,7 @@ overview: 'SIGNL4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   SIGNL4''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 146
+random_paper: 5
 score:
   band: thin
   composite: 34.6

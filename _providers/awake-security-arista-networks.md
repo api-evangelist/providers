@@ -49,7 +49,7 @@ name: Awake Security (Arista Networks)
 nav: Providers
 network: true
 overview: Awake Security (Arista Networks) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Network Detection and Response, NDR, and Cybersecurity.
-random_paper: 101
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

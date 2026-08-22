@@ -125,7 +125,7 @@ plans:
 - name: Microsoft Azure Express Route Plans Pricing
   plan_count: 3
   slug: microsoft-azure-express-route-plans-pricing
-random_paper: 25
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Express Route Rate Limits

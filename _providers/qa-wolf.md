@@ -197,7 +197,7 @@ overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 99
+random_paper: 2
 score:
   band: developing
   composite: 43.5

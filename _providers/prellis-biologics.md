@@ -83,7 +83,7 @@ overview: 'Prellis Biologics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Prellis Biologics'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 124
+random_paper: 20
 score:
   band: minimal
   composite: 8.7

@@ -128,7 +128,7 @@ overview: 'Privacera is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Privacera''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 14 more developer resources.'
-random_paper: 63
+random_paper: 12
 score:
   band: thin
   composite: 29.2

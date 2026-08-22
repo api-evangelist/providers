@@ -156,7 +156,7 @@ overview: 'Seventh Sense publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Seventh Sense''s developer surface includes authentication, documentation, signup flow, and 15 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: thin
   composite: 34.5

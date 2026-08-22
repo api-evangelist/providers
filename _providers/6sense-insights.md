@@ -196,7 +196,7 @@ plans:
 - name: 6Sense Insights Plans Pricing
   plan_count: 0
   slug: 6sense-insights-plans-pricing
-random_paper: 24
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: 6Sense Insights Rate Limits

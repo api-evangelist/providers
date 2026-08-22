@@ -66,7 +66,7 @@ plans:
 - name: Huron Consulting Group Plans Pricing
   plan_count: 1
   slug: huron-consulting-group-plans-pricing
-random_paper: 62
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Huron Consulting Group Rate Limits

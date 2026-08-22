@@ -249,7 +249,7 @@ overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 97
+random_paper: 2
 scopes:
 - name: Certifid Scopes
   scope_count: 12

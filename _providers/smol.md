@@ -64,7 +64,7 @@ overview: 'Smol is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Smol''s developer surface includes support and 4 more developer resources.'
-random_paper: 145
+random_paper: 2
 score:
   band: emerging
   composite: 11.5

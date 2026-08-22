@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: National Fuel Gas furnishes Q1 2026 earnings release | NFG 8-K ...
   url: https://www.stocktitan.net/sec-filings/NFG/8-k-national-fuel-gas-co-reports-material-event-9b4c523a6a22.html
-random_paper: 48
+random_paper: 7
 score:
   band: minimal
   composite: 2.4

@@ -123,7 +123,7 @@ overview: 'Wisetack publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Wisetack''s developer surface includes support, engineering blog, getting-started guide, signup flow, FAQ, and 12 more developer resources.'
-random_paper: 114
+random_paper: 19
 score:
   band: thin
   composite: 38.2

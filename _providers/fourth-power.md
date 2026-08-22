@@ -49,7 +49,7 @@ name: Fourth Power
 nav: Providers
 network: true
 overview: Fourth Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Thermal Energy Storage, Grid Storage, and Long Duration Energy Storage.
-random_paper: 74
+random_paper: 6
 score:
   band: minimal
   composite: 3.3

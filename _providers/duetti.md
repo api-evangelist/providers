@@ -97,7 +97,7 @@ name: Duetti
 nav: Providers
 network: true
 overview: Duetti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Music Rights, Royalties, and Catalog Acquisition.
-random_paper: 59
+random_paper: 4
 score:
   band: emerging
   composite: 11.3

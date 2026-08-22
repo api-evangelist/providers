@@ -135,7 +135,7 @@ overview: 'Odessa Technologies publishes 10 APIs on the [APIs.io](https://apis.i
 
 
   Odessa Technologies'' developer surface includes engineering blog, GitHub presence, and 13 more developer resources.'
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 7.6

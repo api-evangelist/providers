@@ -60,7 +60,7 @@ overview: 'Those Beyond is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Those Beyond''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 41
+random_paper: 15
 score:
   band: minimal
   composite: 7.6

@@ -240,7 +240,7 @@ press:
 - date: '2026-05-25'
   title: AGCO to Showcase Full-Line Innovation and Smart ...
   url: https://www.prnewswire.com/news-releases/agco-to-showcase-full-line-innovation-and-smart-farming-technologies-at-agritechnica-2025-302604586.html
-random_paper: 112
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Agco Rate Limits

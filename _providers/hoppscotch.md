@@ -169,7 +169,7 @@ plans:
 - name: Hoppscotch Plans Pricing
   plan_count: 3
   slug: hoppscotch-plans-pricing
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Hoppscotch Rate Limits

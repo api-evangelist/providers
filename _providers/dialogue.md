@@ -80,7 +80,7 @@ overview: 'Dialogue is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dialogue''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: emerging
   composite: 15.9

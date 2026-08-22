@@ -107,7 +107,7 @@ overview: 'Hygraph publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Hygraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: emerging
   composite: 23.6

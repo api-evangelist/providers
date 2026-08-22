@@ -49,7 +49,7 @@ name: Carro
 nav: Providers
 network: true
 overview: Carro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Used Cars, and Marketplace.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 2.3

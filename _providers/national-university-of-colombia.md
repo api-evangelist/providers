@@ -155,7 +155,7 @@ plans:
 - name: National University Of Colombia Plans Pricing
   plan_count: 2
   slug: national-university-of-colombia-plans-pricing
-random_paper: 33
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: National University Of Colombia Rate Limits

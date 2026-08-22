@@ -310,7 +310,7 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 116
+random_paper: 15
 score:
   band: developing
   composite: 52.7

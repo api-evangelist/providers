@@ -207,7 +207,7 @@ overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: developing
   composite: 44.5

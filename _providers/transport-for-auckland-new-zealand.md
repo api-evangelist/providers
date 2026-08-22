@@ -57,7 +57,7 @@ name: Transport for Auckland, New Zealand
 nav: Providers
 network: true
 overview: Transport for Auckland, New Zealand publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 134
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

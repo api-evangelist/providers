@@ -197,7 +197,7 @@ plans:
 - name: Fivetran Plans Pricing
   plan_count: 4
   slug: fivetran-plans-pricing
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Fivetran Rate Limits

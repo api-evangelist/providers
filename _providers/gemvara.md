@@ -45,7 +45,7 @@ name: Gemvara
 nav: Providers
 network: true
 overview: Gemvara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jewelry, E-commerce, Retail, and Custom Manufacturing.
-random_paper: 143
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

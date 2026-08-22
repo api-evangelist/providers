@@ -109,7 +109,7 @@ overview: 'Andon Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Andon Health''s developer surface includes documentation, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 11
+random_paper: 6
 scopes:
 - name: Andon Health Scopes
   scope_count: 0

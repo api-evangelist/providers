@@ -92,7 +92,7 @@ overview: 'Altana AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Altana AI''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 127
+random_paper: 11
 score:
   band: emerging
   composite: 18.2

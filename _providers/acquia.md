@@ -472,7 +472,7 @@ plans:
 - name: Acquia Plans Pricing
   plan_count: 8
   slug: acquia-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Acquia Rate Limits

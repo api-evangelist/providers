@@ -181,7 +181,7 @@ overview: 'Motion Elements publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Motion Elements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 78
+random_paper: 14
 score:
   band: developing
   composite: 45.0

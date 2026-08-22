@@ -145,7 +145,7 @@ overview: 'Trustlogix publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Trustlogix''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 82
+random_paper: 12
 score:
   band: thin
   composite: 33.8

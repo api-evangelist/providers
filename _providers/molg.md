@@ -56,7 +56,7 @@ overview: 'MOLG is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MOLG''s developer surface includes support and 2 more developer resources.'
-random_paper: 133
+random_paper: 11
 score:
   band: minimal
   composite: 6.0

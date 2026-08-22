@@ -176,7 +176,7 @@ overview: 'JupiterOne publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 22 more developer resources.'
-random_paper: 50
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Jupiterone Rate Limits

@@ -93,7 +93,7 @@ plans:
 - name: Mth Sense Plans Pricing
   plan_count: 0
   slug: mth-sense-plans-pricing
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 8.0

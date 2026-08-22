@@ -60,7 +60,7 @@ overview: 'BeConfident is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BeConfident''s developer surface includes signup flow, support, and 2 more developer resources.'
-random_paper: 110
+random_paper: 19
 score:
   band: minimal
   composite: 3.5

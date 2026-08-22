@@ -54,7 +54,7 @@ name: Lab0
 nav: Providers
 network: true
 overview: Lab0 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Software, and Implementation.
-random_paper: 53
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

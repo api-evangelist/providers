@@ -101,7 +101,7 @@ overview: 'Path Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Path Robotics'' developer surface includes product news, GitHub presence, and 10 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: minimal
   composite: 7.8

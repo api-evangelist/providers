@@ -192,7 +192,7 @@ plans:
 - name: Chorus Ai Plans Pricing
   plan_count: 0
   slug: chorus-ai-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Chorus Ai Rate Limits

@@ -165,7 +165,7 @@ overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wyze''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 16
+random_paper: 1
 scopes:
 - name: Wyze Scopes
   scope_count: 4

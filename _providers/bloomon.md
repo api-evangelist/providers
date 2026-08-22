@@ -96,7 +96,7 @@ overview: 'Bloomon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bloomon''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 7.0

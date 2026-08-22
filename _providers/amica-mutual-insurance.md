@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Amica Mutual Insurance Expands Partnership With ZestyAI ...
   url: https://www.prnewswire.com/news-releases/amica-mutual-insurance-expands-partnership-with-zestyai-to-enhance-property-risk-assessment-in-the-face-of-increasing-climate-risks-302208765.html
-random_paper: 143
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Amica Mutual Insurance Rate Limits

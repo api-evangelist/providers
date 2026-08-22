@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: Chevron to Buy Noble Energy for $5B
   url: https://www.cfo.com/news/chevron-to-buy-noble-energy-for-5b/656399/
-random_paper: 31
+random_paper: 5
 score:
   band: minimal
   composite: 1.2

@@ -156,7 +156,7 @@ overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 63
+random_paper: 8
 scopes:
 - name: Olipop Scopes
   scope_count: 4

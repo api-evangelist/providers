@@ -343,7 +343,7 @@ plans:
 - name: Convex Plans Pricing
   plan_count: 3
   slug: convex-plans-pricing
-random_paper: 63
+random_paper: 8
 rate_limits:
 - limit_count: 28
   name: Convex Rate Limits

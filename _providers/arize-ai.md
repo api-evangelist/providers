@@ -207,7 +207,7 @@ plans:
 - name: Arize Ai Plans Pricing
   plan_count: 1
   slug: arize-ai-plans-pricing
-random_paper: 41
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Arize Ai Rate Limits

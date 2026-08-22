@@ -175,7 +175,7 @@ overview: 'Securden publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Securden''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: developing
   composite: 44.6

@@ -334,7 +334,7 @@ overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: developing
   composite: 49.7

@@ -167,7 +167,7 @@ plans:
 - name: Chimoney Plans Pricing
   plan_count: 3
   slug: chimoney-plans-pricing
-random_paper: 115
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Chimoney Rate Limits

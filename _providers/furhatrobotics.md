@@ -104,7 +104,7 @@ overview: 'Furhat Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Furhat Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: emerging
   composite: 21.3

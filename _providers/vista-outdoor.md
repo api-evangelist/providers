@@ -49,7 +49,7 @@ name: Vista Outdoor
 nav: Providers
 network: true
 overview: Vista Outdoor is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 2.9

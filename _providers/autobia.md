@@ -72,7 +72,7 @@ overview: 'Autobia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Autobia''s developer surface includes support and 6 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 6.0

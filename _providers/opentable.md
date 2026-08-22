@@ -152,7 +152,7 @@ plans:
 - name: Opentable Plans Pricing
   plan_count: 2
   slug: opentable-plans-pricing
-random_paper: 60
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Opentable Rate Limits

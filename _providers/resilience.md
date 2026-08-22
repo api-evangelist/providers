@@ -49,7 +49,7 @@ name: Resilience
 nav: Providers
 network: true
 overview: Resilience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biomanufacturing, CDMO, and Pharmaceuticals.
-random_paper: 16
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

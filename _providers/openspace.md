@@ -173,7 +173,7 @@ overview: 'OpenSpace is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   OpenSpace''s developer surface includes engineering blog, pricing, support, academy / training, YouTube channel, and 27 more developer resources.'
-random_paper: 64
+random_paper: 13
 score:
   band: minimal
   composite: 10.1

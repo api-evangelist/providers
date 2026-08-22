@@ -96,7 +96,7 @@ overview: 'Augmentus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Augmentus'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 7 more developer resources.'
-random_paper: 91
+random_paper: 19
 score:
   band: emerging
   composite: 19.1

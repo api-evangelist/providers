@@ -60,7 +60,7 @@ overview: 'VXB Aerospace is profiled on the [APIs.io](https://apis.io/) network.
 
 
   VXB Aerospace''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: minimal
   composite: 6.4

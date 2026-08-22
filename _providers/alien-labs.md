@@ -65,7 +65,7 @@ name: Alien Labs
 nav: Providers
 network: true
 overview: Alien Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Slack Apps, Knowledge Management, and Team Collaboration.
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 6.1

@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Freddie Mac's Evolved AI/ML Guidance for Mortgage ...
   url: https://richeymay.com/resource/articles/navigating-the-new-frontier-freddie-macs-evolved-ai-ml-guidance-for-mortgage-companies/
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Freddie Mac Rate Limits

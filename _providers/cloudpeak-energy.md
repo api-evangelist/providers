@@ -57,7 +57,7 @@ name: Cloud Peak Energy
 nav: Providers
 network: true
 overview: Cloud Peak Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coal, Defunct, Energy, Mining, and Powder River Basin.
-random_paper: 8
+random_paper: 9
 score:
   band: minimal
   composite: 2.1

@@ -49,7 +49,7 @@ name: Anon
 nav: Providers
 network: true
 overview: Anon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, AI Agents, Agent Authentication, and Browser Automation.
-random_paper: 130
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

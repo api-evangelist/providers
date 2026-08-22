@@ -288,7 +288,7 @@ plans:
 - name: Ortto Plans Pricing
   plan_count: 5
   slug: ortto-plans-pricing
-random_paper: 121
+random_paper: 1
 rate_limits:
 - limit_count: 14
   name: Ortto Rate Limits

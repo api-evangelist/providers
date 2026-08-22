@@ -147,7 +147,7 @@ plans:
 - name: Tonic Ai Plans Pricing
   plan_count: 1
   slug: tonic-ai-plans-pricing
-random_paper: 43
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Tonic Ai Rate Limits

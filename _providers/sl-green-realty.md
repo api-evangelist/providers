@@ -126,7 +126,7 @@ overview: 'SL Green Realty Corp. publishes 1 API on the [APIs.io](https://apis.i
 
 
   The SL Green Realty Corp. catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 9
+random_paper: 8
 score:
   band: emerging
   composite: 18.1

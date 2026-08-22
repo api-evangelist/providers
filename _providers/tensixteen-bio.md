@@ -57,7 +57,7 @@ name: TenSixteen Bio
 nav: Providers
 network: true
 overview: TenSixteen Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Precision Medicine, and Genomics.
-random_paper: 113
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

@@ -53,7 +53,7 @@ name: Altonomy
 nav: Providers
 network: true
 overview: Altonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Cryptocurrency, Digital Assets, and Market Making.
-random_paper: 138
+random_paper: 1
 score:
   band: minimal
   composite: 0.0

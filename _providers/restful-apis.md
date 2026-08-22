@@ -108,7 +108,7 @@ overview: 'RESTful APIs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   The RESTful APIs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 55
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []

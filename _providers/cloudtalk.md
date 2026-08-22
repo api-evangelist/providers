@@ -295,7 +295,7 @@ plans:
 - name: Cloudtalk Plans Pricing
   plan_count: 4
   slug: cloudtalk-plans-pricing
-random_paper: 69
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Cloudtalk Rate Limits

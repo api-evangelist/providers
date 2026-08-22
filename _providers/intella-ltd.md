@@ -72,7 +72,7 @@ overview: 'Intella, LTD is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Intella, LTD''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 71
+random_paper: 1
 score:
   band: minimal
   composite: 10.6

@@ -150,7 +150,7 @@ plans:
 - name: Waqi Plans Pricing
   plan_count: 2
   slug: waqi-plans-pricing
-random_paper: 136
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Waqi Rate Limits

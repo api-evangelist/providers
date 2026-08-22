@@ -49,7 +49,7 @@ name: TXN
 nav: Providers
 network: true
 overview: TXN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Consumer Spending, Market Research, and Competitive Intelligence.
-random_paper: 48
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

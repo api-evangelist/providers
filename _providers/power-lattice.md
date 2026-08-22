@@ -60,7 +60,7 @@ overview: 'Power Lattice is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Power Lattice''s developer surface includes product news and 3 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

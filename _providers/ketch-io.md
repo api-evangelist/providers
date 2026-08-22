@@ -157,7 +157,7 @@ plans:
 - name: Ketch Io Plans Pricing
   plan_count: 1
   slug: ketch-io-plans-pricing
-random_paper: 43
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Ketch Io Rate Limits

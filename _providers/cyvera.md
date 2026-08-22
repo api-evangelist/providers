@@ -40,7 +40,7 @@ name: Cyvera
 nav: Providers
 network: true
 overview: Cyvera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Endpoint Security, Exploit Prevention, and Zero-Day Defense.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

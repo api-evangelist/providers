@@ -49,7 +49,7 @@ name: QLC
 nav: Providers
 network: true
 overview: QLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Innovation, Accelerator, and Incubation.
-random_paper: 22
+random_paper: 5
 score:
   band: minimal
   composite: 2.5

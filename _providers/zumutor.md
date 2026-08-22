@@ -49,7 +49,7 @@ name: Zumutor
 nav: Providers
 network: true
 overview: Zumutor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 61
+random_paper: 8
 score:
   band: minimal
   composite: 2.4

@@ -134,7 +134,7 @@ plans:
 - name: Cloudflare Turnstile Plans Pricing
   plan_count: 1
   slug: cloudflare-turnstile-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Cloudflare Turnstile Rate Limits

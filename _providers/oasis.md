@@ -72,7 +72,7 @@ overview: 'Oasis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oasis'' developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: minimal
   composite: 10.0

@@ -183,7 +183,7 @@ overview: 'RACQ Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   RACQ Bank''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, and 15 more developer resources.'
-random_paper: 135
+random_paper: 19
 score:
   band: thin
   composite: 38.2

@@ -80,7 +80,7 @@ overview: 'Improbable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Improbable''s developer surface includes product news, support, and 7 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: emerging
   composite: 11.9

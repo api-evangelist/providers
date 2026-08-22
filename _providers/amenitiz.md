@@ -108,7 +108,7 @@ overview: 'Amenitiz is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Amenitiz''s developer surface includes documentation, pricing, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: thin
   composite: 30.1

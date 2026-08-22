@@ -65,7 +65,7 @@ overview: 'AgroMatch is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AgroMatch''s developer surface includes engineering blog, signup flow, support, and 2 more developer resources.'
-random_paper: 56
+random_paper: 5
 score:
   band: minimal
   composite: 6.4

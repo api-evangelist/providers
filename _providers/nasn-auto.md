@@ -49,7 +49,7 @@ name: nasn-auto
 nav: Providers
 network: true
 overview: nasn-auto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Automotive Electronics, Brake-by-Wire, and Steer-by-Wire.
-random_paper: 24
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -169,7 +169,7 @@ overview: 'Gallop publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gallop''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Gallop Rate Limits

@@ -49,7 +49,7 @@ name: FDA Regulations
 nav: Providers
 network: true
 overview: FDA Regulations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food Safety, Healthcare, Medical Devices, Pharmaceuticals, and Regulatory Compliance.
-random_paper: 51
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

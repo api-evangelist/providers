@@ -40,7 +40,7 @@ name: API Evangelist Network
 nav: Providers
 network: true
 overview: API Evangelist Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Directory, Index, and Network.
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 2.6

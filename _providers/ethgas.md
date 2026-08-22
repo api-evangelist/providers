@@ -156,7 +156,7 @@ overview: 'ETHGas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   ETHGas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 42.5

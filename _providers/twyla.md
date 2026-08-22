@@ -57,7 +57,7 @@ name: Twyla
 nav: Providers
 network: true
 overview: Twyla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Art, Marketplace, and Art Prints.
-random_paper: 114
+random_paper: 15
 score:
   band: minimal
   composite: 6.1

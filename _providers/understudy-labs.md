@@ -243,7 +243,7 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 84
+random_paper: 20
 score:
   band: developing
   composite: 47.4

@@ -107,7 +107,7 @@ plans:
 - name: Facet Wealth Plans Pricing
   plan_count: 3
   slug: facet-wealth-plans-pricing
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Facet Wealth Rate Limits

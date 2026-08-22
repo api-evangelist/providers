@@ -84,7 +84,7 @@ overview: 'Curve Dental is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Curve Dental''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 8
 score:
   band: emerging
   composite: 12.9

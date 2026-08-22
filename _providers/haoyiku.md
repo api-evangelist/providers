@@ -49,7 +49,7 @@ name: haoyiku
 nav: Providers
 network: true
 overview: haoyiku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Social Commerce, Retail, and Mobile Apps.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

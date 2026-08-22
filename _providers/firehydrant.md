@@ -202,7 +202,7 @@ plans:
 - name: Firehydrant Plans Pricing
   plan_count: 3
   slug: firehydrant-plans-pricing
-random_paper: 141
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Firehydrant Rate Limits

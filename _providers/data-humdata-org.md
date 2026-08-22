@@ -85,7 +85,7 @@ plans:
 - name: Data Humdata Org Plans Pricing
   plan_count: 1
   slug: data-humdata-org-plans-pricing
-random_paper: 78
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Data Humdata Org Rate Limits

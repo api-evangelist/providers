@@ -108,7 +108,7 @@ overview: 'Ubeya is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ubeya''s developer surface includes engineering blog, pricing, support, changelog, and 12 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: emerging
   composite: 24.2

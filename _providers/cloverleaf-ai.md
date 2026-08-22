@@ -157,7 +157,7 @@ plans:
 - name: Cloverleaf Ai Plans Pricing
   plan_count: 0
   slug: cloverleaf-ai-plans-pricing
-random_paper: 114
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Cloverleaf Ai Rate Limits

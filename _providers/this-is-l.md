@@ -80,7 +80,7 @@ overview: 'This Is L. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   This Is L.''s developer surface includes support and 8 more developer resources.'
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 10.2

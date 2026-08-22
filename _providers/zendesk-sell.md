@@ -253,7 +253,7 @@ plans:
 - name: Zendesk Sell Plans Pricing
   plan_count: 0
   slug: zendesk-sell-plans-pricing
-random_paper: 41
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Zendesk Sell Rate Limits

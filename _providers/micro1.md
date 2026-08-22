@@ -170,7 +170,7 @@ overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   micro1''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 140
+random_paper: 20
 score:
   band: developing
   composite: 45.5

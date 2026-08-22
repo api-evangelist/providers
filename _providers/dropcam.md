@@ -49,7 +49,7 @@ name: Dropcam
 nav: Providers
 network: true
 overview: Dropcam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Home Security, Security Camera, and IoT.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -189,7 +189,7 @@ overview: 'Cesanta publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cesanta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, and 20 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: developing
   composite: 43.3

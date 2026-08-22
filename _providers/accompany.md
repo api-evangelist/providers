@@ -45,7 +45,7 @@ name: Accompany
 nav: Providers
 network: true
 overview: Accompany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Relationship Intelligence, Sales Intelligence, and Acquired.
-random_paper: 61
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -68,7 +68,7 @@ overview: 'Zapia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zapia''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: minimal
   composite: 9.7

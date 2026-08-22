@@ -2037,7 +2037,7 @@ plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits

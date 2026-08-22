@@ -49,7 +49,7 @@ name: Nextcure
 nav: Providers
 network: true
 overview: Nextcure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immunotherapy, Oncology, and Healthcare.
-random_paper: 133
+random_paper: 17
 score:
   band: minimal
   composite: 2.2

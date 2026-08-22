@@ -68,7 +68,7 @@ overview: 'Book My Show is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Book My Show''s developer surface includes support and 5 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: minimal
   composite: 10.9

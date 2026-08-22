@@ -149,7 +149,7 @@ overview: 'Hush Security publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Hush Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 32
+random_paper: 8
 score:
   band: thin
   composite: 35.8

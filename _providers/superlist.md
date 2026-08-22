@@ -149,7 +149,7 @@ overview: 'Superlist publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Superlist''s developer surface includes documentation, support, engineering blog, changelog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 109
+random_paper: 16
 score:
   band: thin
   composite: 29.8

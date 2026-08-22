@@ -930,7 +930,7 @@ plans:
 - name: Openshift Plans Pricing
   plan_count: 8
   slug: openshift-plans-pricing
-random_paper: 82
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Openshift Rate Limits

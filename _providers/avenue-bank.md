@@ -184,7 +184,7 @@ overview: 'Avenue Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Avenue Bank''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 58
+random_paper: 9
 scopes:
 - name: Avenue Bank Scopes
   scope_count: 5

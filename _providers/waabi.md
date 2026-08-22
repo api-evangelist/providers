@@ -60,7 +60,7 @@ overview: 'Waabi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Waabi''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: minimal
   composite: 7.6

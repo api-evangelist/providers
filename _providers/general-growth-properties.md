@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: General Growth Properties Inc.(GGP,N) reports earnings for Qtr ...
   url: https://www.nytimes.com/1995/04/27/business/general-growth-properties-inc-ggpn-reports-earnings-for-qtr-to-mar-31.html
-random_paper: 59
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

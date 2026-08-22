@@ -49,7 +49,7 @@ name: citic-pharm
 nav: Providers
 network: true
 overview: citic-pharm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 3.2

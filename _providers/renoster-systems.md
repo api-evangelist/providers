@@ -68,7 +68,7 @@ overview: 'Renoster Systems is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Renoster Systems'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 80
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

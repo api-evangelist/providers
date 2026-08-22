@@ -64,7 +64,7 @@ overview: 'Poloniex publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   The Poloniex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 133
+random_paper: 17
 rules:
 - effective_rule_count: 35
   extends:

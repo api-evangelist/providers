@@ -53,7 +53,7 @@ name: Neocarbon
 nav: Providers
 network: true
 overview: Neocarbon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Carbon Capture, Data Centers, and Cooling.
-random_paper: 57
+random_paper: 6
 score:
   band: minimal
   composite: 7.1

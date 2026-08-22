@@ -66,7 +66,7 @@ plans:
 - name: James Webb Space Telescope Api Plans Pricing
   plan_count: 3
   slug: james-webb-space-telescope-api-plans-pricing
-random_paper: 95
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: James Webb Space Telescope Api Rate Limits

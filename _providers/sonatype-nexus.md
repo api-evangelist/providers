@@ -419,7 +419,7 @@ plans:
 - name: Sonatype Nexus Plans Pricing
   plan_count: 3
   slug: sonatype-nexus-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Sonatype Nexus Rate Limits

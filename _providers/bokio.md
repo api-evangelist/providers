@@ -338,7 +338,7 @@ overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 85
+random_paper: 7
 scopes:
 - name: Bokio Scopes
   scope_count: 24

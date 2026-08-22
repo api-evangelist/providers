@@ -178,7 +178,7 @@ plans:
 - name: Plinth Us Grants Data Plans Pricing
   plan_count: 4
   slug: plinth-us-grants-data-plans-pricing
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Plinth Us Grants Data Rate Limits

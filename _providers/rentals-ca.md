@@ -98,7 +98,7 @@ overview: 'Rentals.ca publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentals.ca''s developer surface includes developer portal, signup flow, engineering blog, documentation, and 9 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: emerging
   composite: 15.2

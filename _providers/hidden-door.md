@@ -72,7 +72,7 @@ overview: 'Hidden Door is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hidden Door''s developer surface includes pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: emerging
   composite: 12.7

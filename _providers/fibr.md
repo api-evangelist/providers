@@ -159,7 +159,7 @@ plans:
 - name: Fibr Plans Pricing
   plan_count: 3
   slug: fibr-plans-pricing
-random_paper: 121
+random_paper: 20
 score:
   band: thin
   composite: 34.5

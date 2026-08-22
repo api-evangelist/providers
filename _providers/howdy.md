@@ -76,7 +76,7 @@ overview: 'Howdy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Howdy''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 108
+random_paper: 9
 score:
   band: minimal
   composite: 8.6

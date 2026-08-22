@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: AI + EV = Can Utilities Generate Enough Power?
   url: https://gabelli.com/research/ai-ev-can-utilities-generate-enough-power/
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 6.9

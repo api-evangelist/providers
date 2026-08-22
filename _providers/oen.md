@@ -80,7 +80,7 @@ overview: 'OEN is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   OEN''s developer surface includes support and 8 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: emerging
   composite: 15.7

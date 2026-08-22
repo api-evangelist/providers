@@ -49,7 +49,7 @@ name: Simpo
 nav: Providers
 network: true
 overview: Simpo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Adoption, Onboarding, User Onboarding, and In-App Guidance.
-random_paper: 105
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

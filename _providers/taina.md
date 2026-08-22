@@ -99,7 +99,7 @@ overview: 'Taina publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Taina''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: thin
   composite: 29.9

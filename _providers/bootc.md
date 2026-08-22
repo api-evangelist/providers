@@ -143,7 +143,7 @@ overview: 'Bootc is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bootc''s developer surface includes documentation, release notes, engineering blog, and 9 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 11.6

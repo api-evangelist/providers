@@ -64,7 +64,7 @@ overview: 'PitPro Automation is profiled on the [APIs.io](https://apis.io/) netw
 
 
   PitPro Automation''s developer surface includes support and 4 more developer resources.'
-random_paper: 16
+random_paper: 19
 score:
   band: minimal
   composite: 10.2

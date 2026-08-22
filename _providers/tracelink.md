@@ -314,7 +314,7 @@ overview: 'TraceLink publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 27 more developer resources.'
-random_paper: 63
+random_paper: 12
 score:
   band: developing
   composite: 52.9

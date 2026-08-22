@@ -124,7 +124,7 @@ overview: 'Bretton is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bretton''s developer surface includes documentation, engineering blog, signup flow, support, and 16 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: emerging
   composite: 20.5

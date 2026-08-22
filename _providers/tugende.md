@@ -72,7 +72,7 @@ overview: 'Tugende is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tugende''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: minimal
   composite: 9.3

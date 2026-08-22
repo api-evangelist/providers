@@ -52,7 +52,7 @@ name: Seiza
 nav: Providers
 network: true
 overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Human Resources, HR Tech, and Recruitment.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 4.6

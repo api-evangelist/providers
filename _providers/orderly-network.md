@@ -213,7 +213,7 @@ overview: 'Orderly Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 23 more developer resources.'
-random_paper: 102
+random_paper: 17
 score:
   band: developing
   composite: 48.5

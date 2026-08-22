@@ -84,7 +84,7 @@ overview: 'XFuel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   XFuel''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 101
+random_paper: 2
 score:
   band: minimal
   composite: 7.4

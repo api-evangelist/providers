@@ -128,7 +128,7 @@ overview: 'Kosmik is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kosmik''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: emerging
   composite: 19.9

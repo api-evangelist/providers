@@ -41,7 +41,7 @@ name: Diablo Technologies
 nav: Providers
 network: true
 overview: Diablo Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Memory, Enterprise Storage, and Semiconductors.
-random_paper: 11
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

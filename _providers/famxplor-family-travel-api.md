@@ -89,7 +89,7 @@ plans:
 - name: Famxplor Family Travel Api Plans Pricing
   plan_count: 3
   slug: famxplor-family-travel-api-plans-pricing
-random_paper: 85
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Famxplor Family Travel Api Rate Limits

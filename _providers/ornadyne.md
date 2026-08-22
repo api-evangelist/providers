@@ -49,7 +49,7 @@ name: Ornadyne
 nav: Providers
 network: true
 overview: Ornadyne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Robotics, Aerospace, and Defense.
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

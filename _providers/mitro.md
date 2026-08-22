@@ -40,7 +40,7 @@ name: Mitro *
 nav: Providers
 network: true
 overview: Mitro * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Password Manager, Security, and Identity.
-random_paper: 108
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

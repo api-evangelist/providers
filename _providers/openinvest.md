@@ -40,7 +40,7 @@ name: OpenInvest
 nav: Providers
 network: true
 overview: OpenInvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, ESG, and Wealth Management.
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

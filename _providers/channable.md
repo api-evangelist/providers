@@ -232,7 +232,7 @@ plans:
 - name: Channable Plans Pricing
   plan_count: 6
   slug: channable-plans-pricing
-random_paper: 30
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Channable Rate Limits

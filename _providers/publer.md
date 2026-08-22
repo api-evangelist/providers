@@ -249,7 +249,7 @@ plans:
 - name: Publer Plans Pricing
   plan_count: 4
   slug: publer-plans-pricing
-random_paper: 54
+random_paper: 20
 rate_limits:
 - limit_count: 18
   name: Publer Rate Limits

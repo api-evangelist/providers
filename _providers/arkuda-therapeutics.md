@@ -66,7 +66,7 @@ name: Arkuda Therapeutics
 nav: Providers
 network: true
 overview: Arkuda Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Drug Discovery.
-random_paper: 37
+random_paper: 0
 score:
   band: minimal
   composite: 1.8

@@ -863,7 +863,7 @@ plans:
 - name: Blockchain Plans Pricing
   plan_count: 3
   slug: blockchain-plans-pricing
-random_paper: 144
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Blockchain Rate Limits

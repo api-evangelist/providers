@@ -49,7 +49,7 @@ name: Thalamed
 nav: Providers
 network: true
 overview: Thalamed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Marketplace, and Procurement.
-random_paper: 87
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

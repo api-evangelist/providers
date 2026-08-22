@@ -76,7 +76,7 @@ overview: 'Jive is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jive''s developer surface includes support and 7 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: minimal
   composite: 9.4

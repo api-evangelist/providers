@@ -91,7 +91,7 @@ overview: 'Blox is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Blox''s developer surface includes product news and 9 more developer resources.'
-random_paper: 139
+random_paper: 17
 score:
   band: minimal
   composite: 9.4

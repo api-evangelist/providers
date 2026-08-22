@@ -49,7 +49,7 @@ name: Samunnati
 nav: Providers
 network: true
 overview: Samunnati is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Agriculture, Agri Finance, and Financial Services.
-random_paper: 82
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -87,7 +87,7 @@ overview: 'Alume Biosciences is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Alume Biosciences'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 97
+random_paper: 14
 score:
   band: minimal
   composite: 4.5

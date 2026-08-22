@@ -57,7 +57,7 @@ overview: 'Lean Six Sigma Black Belt is profiled on the [APIs.io](https://apis.i
 
 
   The Lean Six Sigma Black Belt catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 13
+random_paper: 3
 score:
   band: minimal
   composite: 7.8

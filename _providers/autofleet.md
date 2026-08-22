@@ -106,7 +106,7 @@ overview: 'Autofleet publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Autofleet''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 75
+random_paper: 3
 score:
   band: emerging
   composite: 17.3

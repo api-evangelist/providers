@@ -92,7 +92,7 @@ plans:
 - name: Relay Financial Plans Pricing
   plan_count: 3
   slug: relay-financial-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Relay Financial Rate Limits

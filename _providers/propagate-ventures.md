@@ -72,7 +72,7 @@ overview: 'Propagate Ventures is profiled on the [APIs.io](https://apis.io/) net
 
 
   Propagate Ventures'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 112
+random_paper: 10
 score:
   band: minimal
   composite: 9.1

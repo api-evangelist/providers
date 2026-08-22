@@ -65,7 +65,7 @@ name: 9 Mothers Corporation
 nav: Providers
 network: true
 overview: 9 Mothers Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-Drone, Autonomous Systems, and Robotics.
-random_paper: 31
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

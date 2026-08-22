@@ -190,7 +190,7 @@ overview: 'Manitoba Hydro publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Manitoba Hydro''s developer surface includes authentication, code examples, documentation, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 97
+random_paper: 10
 score:
   band: thin
   composite: 32.1

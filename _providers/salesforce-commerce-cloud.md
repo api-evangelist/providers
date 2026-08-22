@@ -144,7 +144,7 @@ overview: 'Salesforce Commerce Cloud publishes 1 API on the [APIs.io](https://ap
 
 
   Salesforce Commerce Cloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 147
+random_paper: 11
 score:
   band: thin
   composite: 35.7

@@ -279,7 +279,7 @@ overview: 'Zepto publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 33 more developer resources.'
-random_paper: 147
+random_paper: 18
 scopes:
 - name: Zepto Payments Scopes
   scope_count: 9

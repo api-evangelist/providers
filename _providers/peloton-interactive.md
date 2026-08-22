@@ -57,7 +57,7 @@ name: Peloton Interactive
 nav: Providers
 network: true
 overview: Peloton Interactive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Connected Fitness, Consumer Hardware, Streaming, and Health and Wellness.
-random_paper: 59
+random_paper: 1
 score:
   band: minimal
   composite: 3.9

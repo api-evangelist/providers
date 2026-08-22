@@ -56,7 +56,7 @@ overview: 'RecommerceX is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RecommerceX''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 135
+random_paper: 2
 score:
   band: minimal
   composite: 6.4

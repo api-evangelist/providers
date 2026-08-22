@@ -49,7 +49,7 @@ name: Alterya
 nav: Providers
 network: true
 overview: Alterya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Fraud Detection, Cryptocurrency, and Blockchain.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

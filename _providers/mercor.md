@@ -143,7 +143,7 @@ plans:
 - name: Mercor Plans Pricing
   plan_count: 1
   slug: mercor-plans-pricing
-random_paper: 52
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Mercor Rate Limits

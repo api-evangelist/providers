@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Cameron International 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41282-47
-random_paper: 100
+random_paper: 2
 score:
   band: minimal
   composite: 6.4

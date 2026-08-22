@@ -97,7 +97,7 @@ overview: 'LiveAction is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   LiveAction''s developer surface includes documentation, support, engineering blog, changelog, authentication, and 8 more developer resources.'
-random_paper: 27
+random_paper: 20
 score:
   band: emerging
   composite: 16.3

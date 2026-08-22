@@ -198,7 +198,7 @@ plans:
 - name: Whmcs Plans Pricing
   plan_count: 3
   slug: whmcs-plans-pricing
-random_paper: 99
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Whmcs Rate Limits

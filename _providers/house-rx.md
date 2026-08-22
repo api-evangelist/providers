@@ -92,7 +92,7 @@ overview: 'House Rx is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   House Rx''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 82
+random_paper: 8
 score:
   band: emerging
   composite: 16.9

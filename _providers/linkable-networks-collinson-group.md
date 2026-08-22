@@ -130,7 +130,7 @@ overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](
 
 
   Linkable Networks (Collinson Group)''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 118
+random_paper: 15
 score:
   band: emerging
   composite: 21.2

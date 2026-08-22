@@ -97,7 +97,7 @@ overview: 'Lamudi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lamudi''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 15.1

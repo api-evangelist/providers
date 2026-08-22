@@ -203,7 +203,7 @@ plans:
 - name: Zoho Creator Plans Pricing
   plan_count: 6
   slug: zoho-creator-plans-pricing
-random_paper: 53
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Zoho Creator Rate Limits

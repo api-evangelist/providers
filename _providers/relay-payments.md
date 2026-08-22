@@ -68,7 +68,7 @@ overview: 'Relay Payments is profiled on the [APIs.io](https://apis.io/) network
 
 
   Relay Payments'' developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 126
+random_paper: 18
 score:
   band: minimal
   composite: 9.1

@@ -108,7 +108,7 @@ overview: 'EndoQuest Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   EndoQuest Robotics'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 110
+random_paper: 8
 score:
   band: minimal
   composite: 9.5

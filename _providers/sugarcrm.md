@@ -202,7 +202,7 @@ plans:
 - name: Sugarcrm Plans Pricing
   plan_count: 3
   slug: sugarcrm-plans-pricing
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Sugarcrm Rate Limits

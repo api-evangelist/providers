@@ -182,7 +182,7 @@ plans:
 - name: Archive Technologies Plans Pricing
   plan_count: 5
   slug: archive-technologies-plans-pricing
-random_paper: 130
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Archive Technologies Rate Limits

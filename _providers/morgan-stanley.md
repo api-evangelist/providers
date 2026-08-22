@@ -173,7 +173,7 @@ press:
 - date: '2026-05-25'
   title: Research
   url: https://www.morganstanley.com/what-we-do/research
-random_paper: 116
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Morgan Stanley Rate Limits

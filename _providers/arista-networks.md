@@ -56,7 +56,7 @@ overview: 'Arista Networks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Arista Networks'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 92
+random_paper: 7
 score:
   band: minimal
   composite: 3.4

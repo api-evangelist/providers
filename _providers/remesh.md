@@ -88,7 +88,7 @@ overview: 'Remesh is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Remesh''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 14.3

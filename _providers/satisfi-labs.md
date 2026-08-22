@@ -97,7 +97,7 @@ overview: 'Satisfi Labs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Satisfi Labs'' developer surface includes documentation, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: emerging
   composite: 20.2

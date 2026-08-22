@@ -53,7 +53,7 @@ name: Pahdo Labs
 nav: Providers
 network: true
 overview: Pahdo Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Game Development, Game Engine, and Godot.
-random_paper: 93
+random_paper: 0
 score:
   band: minimal
   composite: 5.3

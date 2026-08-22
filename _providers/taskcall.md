@@ -119,7 +119,7 @@ overview: 'TaskCall publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TaskCall''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 102
+random_paper: 7
 score:
   band: thin
   composite: 29.7

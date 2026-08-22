@@ -460,7 +460,7 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: Coinme Scopes
   scope_count: 3

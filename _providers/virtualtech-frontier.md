@@ -49,7 +49,7 @@ name: Virtualtech Frontier
 nav: Providers
 network: true
 overview: Virtualtech Frontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Metaverse, Extended Reality, Immersive Technology, and Virtual Worlds.
-random_paper: 27
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

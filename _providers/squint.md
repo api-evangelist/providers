@@ -72,7 +72,7 @@ overview: 'Squint is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Squint''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 80
+random_paper: 4
 score:
   band: emerging
   composite: 11.0

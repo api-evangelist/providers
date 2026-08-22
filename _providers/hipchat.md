@@ -147,7 +147,7 @@ plans:
 - name: Hipchat Plans Pricing
   plan_count: 4
   slug: hipchat-plans-pricing
-random_paper: 141
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Hipchat Rate Limits

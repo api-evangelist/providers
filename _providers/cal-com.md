@@ -259,7 +259,7 @@ plans:
 - name: Cal Com Plans Pricing
   plan_count: 6
   slug: cal-com-plans-pricing
-random_paper: 72
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Cal Com Rate Limits

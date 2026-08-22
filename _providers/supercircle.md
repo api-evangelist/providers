@@ -53,7 +53,7 @@ name: SuperCircle
 nav: Providers
 network: true
 overview: SuperCircle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Circular Economy, Reverse Logistics, and Textile Recycling.
-random_paper: 142
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

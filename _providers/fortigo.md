@@ -45,7 +45,7 @@ name: Fortigo
 nav: Providers
 network: true
 overview: Fortigo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Freight, and Trucking.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

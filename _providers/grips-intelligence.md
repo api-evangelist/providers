@@ -133,7 +133,7 @@ overview: 'Grips Intelligence publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Grips Intelligence''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 73
+random_paper: 13
 scopes:
 - name: Grips Intelligence Scopes
   scope_count: 1

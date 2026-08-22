@@ -153,7 +153,7 @@ plans:
 - name: Versioning Protocols Plans Pricing
   plan_count: 3
   slug: versioning-protocols-plans-pricing
-random_paper: 48
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Versioning Protocols Rate Limits

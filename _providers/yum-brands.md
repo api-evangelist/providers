@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: Introducing Byte by Yum!™, an AI-Driven Restaurant ...
   url: https://investors.yum.com/news-events/financial-releases/news-details/2025/Introducing-Byte-by-Yum-an-AI-Driven-Restaurant-Technology-Platform-Powering-Customer-and-Team-Member-Experiences-Worldwide/default.aspx
-random_paper: 132
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Yum Brands Rate Limits

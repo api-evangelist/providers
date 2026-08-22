@@ -165,7 +165,7 @@ overview: 'Chase UK publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Chase UK''s developer surface includes authentication, documentation, getting-started guide, support, sandbox, and 22 more developer resources.'
-random_paper: 40
+random_paper: 8
 scopes:
 - name: Chase Uk Scopes
   scope_count: 3

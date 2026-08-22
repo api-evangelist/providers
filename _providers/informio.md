@@ -40,7 +40,7 @@ name: Informio
 nav: Providers
 network: true
 overview: Informio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 122
+random_paper: 6
 score:
   band: minimal
   composite: 3.2

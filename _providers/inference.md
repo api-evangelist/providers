@@ -165,7 +165,7 @@ plans:
 - name: Inference Plans
   plan_count: 3
   slug: inference-plans
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Inference Rate Limits

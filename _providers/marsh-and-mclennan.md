@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: 'Marsh & McLennan''s''s Glaser: Artificial Intelligence Should ...'
   url: https://www.ambest.com/v.asp?v=dglaser218
-random_paper: 141
+random_paper: 16
 score:
   band: minimal
   composite: 2.6

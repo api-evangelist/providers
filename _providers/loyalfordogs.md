@@ -53,7 +53,7 @@ name: Loyalfordogs
 nav: Providers
 network: true
 overview: Loyalfordogs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Animal Health, and Veterinary.
-random_paper: 109
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

@@ -80,7 +80,7 @@ overview: 'Ray Browser is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Ray Browser''s developer surface includes signup flow, support, YouTube channel, and 6 more developer resources.'
-random_paper: 106
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

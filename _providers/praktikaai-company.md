@@ -72,7 +72,7 @@ overview: 'Praktika.ai Company is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Praktika.ai Company''s developer surface includes signup flow, engineering blog, support, and 4 more developer resources.'
-random_paper: 73
+random_paper: 13
 score:
   band: minimal
   composite: 10.4

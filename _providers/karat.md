@@ -161,7 +161,7 @@ overview: 'Karat publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Karat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 84
+random_paper: 6
 score:
   band: thin
   composite: 35.1

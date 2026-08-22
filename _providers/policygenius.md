@@ -72,7 +72,7 @@ overview: 'Policygenius is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Policygenius'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 115
+random_paper: 5
 score:
   band: minimal
   composite: 10.1

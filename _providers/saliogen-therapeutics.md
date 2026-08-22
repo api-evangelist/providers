@@ -49,7 +49,7 @@ name: SalioGen Therapeutics
 nav: Providers
 network: true
 overview: SalioGen Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Genetic Medicine, Gene Therapy, and Life Sciences.
-random_paper: 106
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

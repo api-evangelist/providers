@@ -53,7 +53,7 @@ name: Transphorm
 nav: Providers
 network: true
 overview: Transphorm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Semiconductors, Gallium Nitride, and Power Electronics.
-random_paper: 59
+random_paper: 10
 score:
   band: minimal
   composite: 4.0

@@ -141,7 +141,7 @@ overview: 'Mirelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mirelo''s developer surface includes documentation, API reference, engineering blog, pricing, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: thin
   composite: 29.6

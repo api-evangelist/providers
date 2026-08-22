@@ -113,7 +113,7 @@ overview: 'Hotelogix is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hotelogix''s developer surface includes pricing, engineering blog, support, YouTube channel, and 13 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 7.4

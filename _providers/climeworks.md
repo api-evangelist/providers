@@ -111,7 +111,7 @@ overview: 'Climeworks is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Climeworks'' developer surface includes support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: emerging
   composite: 17.8

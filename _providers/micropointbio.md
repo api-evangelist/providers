@@ -49,7 +49,7 @@ name: micropointbio
 nav: Providers
 network: true
 overview: micropointbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Medical Devices, Diagnostics, and POCT.
-random_paper: 65
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

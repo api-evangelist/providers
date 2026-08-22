@@ -222,7 +222,7 @@ plans:
 - name: Microsoft Clarity Plans Pricing
   plan_count: 1
   slug: microsoft-clarity-plans-pricing
-random_paper: 148
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Microsoft Clarity Rate Limits

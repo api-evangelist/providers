@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Community Health Systems Completes Data Migration and ...
   url: https://www.prnewswire.com/news-releases/community-health-systems-completes-data-migration-and-implements-new-generative-ai-innovations-with-google-cloud-302048799.html
-random_paper: 125
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Community Health Systems Rate Limits

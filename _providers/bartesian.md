@@ -92,7 +92,7 @@ overview: 'Bartesian publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bartesian''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 59
+random_paper: 8
 scopes:
 - name: Bartesian Scopes
   scope_count: 4

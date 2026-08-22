@@ -45,7 +45,7 @@ name: Telcare
 nav: Providers
 network: true
 overview: Telcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Medical Devices, Diabetes, and Remote Patient Monitoring.
-random_paper: 140
+random_paper: 1
 score:
   band: minimal
   composite: 2.2

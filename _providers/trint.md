@@ -141,7 +141,7 @@ plans:
 - name: Trint Plans Pricing
   plan_count: 3
   slug: trint-plans-pricing
-random_paper: 114
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Trint Rate Limits

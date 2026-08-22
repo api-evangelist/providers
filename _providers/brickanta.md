@@ -88,7 +88,7 @@ overview: 'Brickanta is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brickanta''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: emerging
   composite: 16.3

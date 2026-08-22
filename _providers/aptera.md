@@ -50,7 +50,7 @@ name: Aptera
 nav: Providers
 network: true
 overview: Aptera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, Consulting, Application Modernization, and Microsoft.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 6.4

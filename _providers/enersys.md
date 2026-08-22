@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: 'EnerSys: The Battery Company Sitting Right In The Middle ...'
   url: https://seekingalpha.com/article/4898339-enersysthe-battery-company-sitting-right-in-the-middle-of-the-ai-boom
-random_paper: 32
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

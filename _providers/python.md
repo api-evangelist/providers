@@ -98,7 +98,7 @@ plans:
 - name: Python Plans Pricing
   plan_count: 3
   slug: python-plans-pricing
-random_paper: 78
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Python Rate Limits

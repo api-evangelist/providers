@@ -152,7 +152,7 @@ plans:
 - name: Moonshot Ai Plans Pricing
   plan_count: 2
   slug: moonshot-ai-plans-pricing
-random_paper: 91
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Moonshot Ai Rate Limits

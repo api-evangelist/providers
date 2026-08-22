@@ -112,7 +112,7 @@ plans:
 - name: Funeralone Plans Pricing
   plan_count: 3
   slug: funeralone-plans-pricing
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Funeralone Rate Limits

@@ -40,7 +40,7 @@ name: Solar City
 nav: Providers
 network: true
 overview: Solar City is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Renewable Energy, and Residential Solar.
-random_paper: 137
+random_paper: 2
 score:
   band: minimal
   composite: 2.1

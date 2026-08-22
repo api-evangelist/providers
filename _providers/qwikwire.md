@@ -88,7 +88,7 @@ overview: 'Qwikwire publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Qwikwire''s developer surface includes API reference, signup flow, support, and 7 more developer resources.'
-random_paper: 138
+random_paper: 1
 score:
   band: minimal
   composite: 10.4

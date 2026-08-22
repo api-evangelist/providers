@@ -107,7 +107,7 @@ plans:
 - name: University Of Texas At Austin Plans Pricing
   plan_count: 2
   slug: university-of-texas-at-austin-plans-pricing
-random_paper: 106
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: University Of Texas At Austin Rate Limits

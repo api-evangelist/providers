@@ -69,7 +69,7 @@ name: Slip Robotics
 nav: Providers
 network: true
 overview: Slip Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Logistics, Supply Chain, and Automation.
-random_paper: 13
+random_paper: 10
 score:
   band: minimal
   composite: 6.4

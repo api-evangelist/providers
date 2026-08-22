@@ -196,7 +196,7 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 100
+random_paper: 5
 score:
   band: developing
   composite: 39.4

@@ -131,7 +131,7 @@ plans:
 - name: Sage X3 Plans Pricing
   plan_count: 2
   slug: sage-x3-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Sage X3 Rate Limits

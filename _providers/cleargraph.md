@@ -45,7 +45,7 @@ name: Cleargraph
 nav: Providers
 network: true
 overview: Cleargraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Search, Analytics, and Graph.
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 5.3

@@ -81,7 +81,7 @@ plans:
 - name: Lf Edge Plans Pricing
   plan_count: 3
   slug: lf-edge-plans-pricing
-random_paper: 64
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Lf Edge Rate Limits

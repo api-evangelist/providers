@@ -119,7 +119,7 @@ overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: emerging
   composite: 15.1

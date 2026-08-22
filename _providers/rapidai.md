@@ -132,7 +132,7 @@ overview: 'RapidAI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   RapidAI''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 134
+random_paper: 16
 score:
   band: emerging
   composite: 25.2

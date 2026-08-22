@@ -57,7 +57,7 @@ name: Dagpi
 nav: Providers
 network: true
 overview: Dagpi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 70
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

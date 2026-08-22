@@ -187,7 +187,7 @@ plans:
 - name: Cure Hydration Plans Pricing
   plan_count: 0
   slug: cure-hydration-plans-pricing
-random_paper: 113
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Cure Hydration Rate Limits

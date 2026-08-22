@@ -64,7 +64,7 @@ overview: 'Blue Studios is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Blue Studios'' developer surface includes support and 4 more developer resources.'
-random_paper: 56
+random_paper: 9
 score:
   band: minimal
   composite: 2.5

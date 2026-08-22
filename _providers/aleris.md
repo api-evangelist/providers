@@ -52,7 +52,7 @@ name: aleris
 nav: Providers
 network: true
 overview: aleris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Aerospace, Automotive, and Industrial.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 4.4

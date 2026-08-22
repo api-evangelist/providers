@@ -397,7 +397,7 @@ plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
   slug: pennylane-plans-pricing
-random_paper: 76
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits

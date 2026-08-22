@@ -100,7 +100,7 @@ overview: 'Deep Rooted is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Deep Rooted''s developer surface includes engineering blog, FAQ, support, signup flow, and 10 more developer resources.'
-random_paper: 69
+random_paper: 20
 score:
   band: minimal
   composite: 7.0

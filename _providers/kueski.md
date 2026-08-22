@@ -142,7 +142,7 @@ overview: 'Kueski publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Kueski''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: thin
   composite: 31.4

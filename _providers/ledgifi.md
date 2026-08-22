@@ -89,7 +89,7 @@ overview: 'LedgiFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LedgiFi''s developer surface includes documentation, support, getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 128
+random_paper: 10
 score:
   band: emerging
   composite: 11.5

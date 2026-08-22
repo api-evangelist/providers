@@ -53,7 +53,7 @@ name: PKO Inc.
 nav: Providers
 network: true
 overview: PKO Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Community, Technology, and Entertainment.
-random_paper: 93
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

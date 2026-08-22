@@ -178,7 +178,7 @@ plans:
 - name: Evidently Plans Pricing
   plan_count: 3
   slug: evidently-plans-pricing
-random_paper: 86
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Evidently Rate Limits

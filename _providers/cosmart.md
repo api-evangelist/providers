@@ -64,7 +64,7 @@ overview: 'Cosmart is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cosmart''s developer surface includes support and 4 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: minimal
   composite: 5.5

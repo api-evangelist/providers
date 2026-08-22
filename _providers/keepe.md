@@ -49,7 +49,7 @@ name: Keepe
 nav: Providers
 network: true
 overview: Keepe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Field Service, Property Management, and HVAC.
-random_paper: 75
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

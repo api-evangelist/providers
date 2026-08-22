@@ -53,7 +53,7 @@ name: Apex (Apex Security)
 nav: Providers
 network: true
 overview: Apex (Apex Security) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Artificial Intelligence, AI Security, and LLM Security.
-random_paper: 132
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

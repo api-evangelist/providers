@@ -59,7 +59,7 @@ overview: 'Cowboy Clean Fuels is profiled on the [APIs.io](https://apis.io/) net
 
 
   Cowboy Clean Fuels'' developer surface includes product news and 5 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
   band: minimal
   composite: 2.9

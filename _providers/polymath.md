@@ -213,7 +213,7 @@ overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: developing
   composite: 40.3

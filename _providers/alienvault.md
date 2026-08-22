@@ -150,7 +150,7 @@ overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 14 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: thin
   composite: 27.4

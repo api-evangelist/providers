@@ -392,7 +392,7 @@ overview: 'Starfish Space publishes 34 APIs on the [APIs.io](https://apis.io/) n
 
 
   Starfish Space''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 96
+random_paper: 9
 scopes:
 - name: Starfish Space Scopes
   scope_count: 1

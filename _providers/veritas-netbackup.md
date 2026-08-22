@@ -741,7 +741,7 @@ plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
   slug: veritas-netbackup-plans-pricing
-random_paper: 129
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Veritas Netbackup Rate Limits

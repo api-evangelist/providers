@@ -76,7 +76,7 @@ overview: 'Savant is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Savant''s developer surface includes documentation, changelog, support, and 5 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: emerging
   composite: 16.2

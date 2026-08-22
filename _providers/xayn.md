@@ -84,7 +84,7 @@ overview: 'Xayn (now Noxtua) is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Xayn (now Noxtua)''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
   composite: 11.2

@@ -3057,7 +3057,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 101
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits

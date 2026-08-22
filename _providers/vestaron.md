@@ -245,7 +245,7 @@ overview: 'Vestaron publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 28 more developer resources.'
-random_paper: 137
+random_paper: 0
 scopes:
 - name: Vestaron Scopes
   scope_count: 1

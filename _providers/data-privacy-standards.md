@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Privacy Standards
 nav: Providers
 network: true
-random_paper: 144
+random_paper: 4
 slug: data-privacy-standards
 tags:
 - Compliance

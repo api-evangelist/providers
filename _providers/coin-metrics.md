@@ -309,7 +309,7 @@ overview: 'Coin Metrics publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coin Metrics'' developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, API reference, and 25 more developer resources.'
-random_paper: 37
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Coin Metrics Rate Limits

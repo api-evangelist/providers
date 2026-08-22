@@ -105,7 +105,7 @@ name: Yards Brewing
 nav: Providers
 network: true
 overview: Yards Brewing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Brewing, Beverages, Craft Beer, Philadelphia, and Hospitality.
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

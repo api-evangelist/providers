@@ -64,7 +64,7 @@ overview: 'Aclarity Water is profiled on the [APIs.io](https://apis.io/) network
 
 
   Aclarity Water''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 108
+random_paper: 0
 score:
   band: minimal
   composite: 8.5

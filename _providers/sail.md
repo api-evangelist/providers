@@ -206,7 +206,7 @@ overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Sail''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 127
+random_paper: 5
 score:
   band: developing
   composite: 48.5

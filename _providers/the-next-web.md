@@ -153,7 +153,7 @@ plans:
 - name: The Next Web Plans Pricing
   plan_count: 3
   slug: the-next-web-plans-pricing
-random_paper: 133
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: The Next Web Rate Limits

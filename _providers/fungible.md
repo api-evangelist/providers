@@ -40,7 +40,7 @@ name: Fungible
 nav: Providers
 network: true
 overview: Fungible is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Processing Unit, DPU, Semiconductors, and Data Center.
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

@@ -73,7 +73,7 @@ plans:
 - name: Propublica Plans Pricing
   plan_count: 3
   slug: propublica-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Propublica Rate Limits

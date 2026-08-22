@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: ManpowerGroup Talent Solutions Partners with Carv as ...
   url: https://www.prnewswire.com/news-releases/manpowergroup-talent-solutions-partners-with-carv-as-part-of-its-strategy-to-embed-gen-ai-within-recruitment-302510536.html
-random_paper: 89
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

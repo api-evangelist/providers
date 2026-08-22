@@ -119,7 +119,7 @@ overview: 'Introhive publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Introhive''s developer surface includes support, engineering blog, YouTube channel, authentication, and 16 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: emerging
   composite: 23.0

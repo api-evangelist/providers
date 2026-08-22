@@ -49,7 +49,7 @@ name: Portals
 nav: Providers
 network: true
 overview: Portals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Metaverse, Gaming, and NFT.
-random_paper: 130
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

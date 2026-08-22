@@ -112,7 +112,7 @@ plans:
 - name: Elucid Bioimaging Plans Pricing
   plan_count: 0
   slug: elucid-bioimaging-plans-pricing
-random_paper: 82
+random_paper: 20
 score:
   band: minimal
   composite: 7.4

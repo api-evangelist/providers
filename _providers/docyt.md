@@ -136,7 +136,7 @@ plans:
 - name: Docyt Plans Pricing
   plan_count: 2
   slug: docyt-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Docyt Rate Limits

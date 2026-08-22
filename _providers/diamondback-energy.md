@@ -53,7 +53,7 @@ name: Diamondback Energy
 nav: Providers
 network: true
 overview: Diamondback Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Fortune 500, and Permian Basin.
-random_paper: 40
+random_paper: 1
 score:
   band: minimal
   composite: 2.4

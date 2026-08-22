@@ -173,7 +173,7 @@ overview: 'Casap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Casap''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 73
+random_paper: 16
 score:
   band: developing
   composite: 44.1

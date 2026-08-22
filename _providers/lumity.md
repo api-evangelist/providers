@@ -68,7 +68,7 @@ overview: 'Lumity is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lumity''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 80
+random_paper: 4
 score:
   band: minimal
   composite: 9.6

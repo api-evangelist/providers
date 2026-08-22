@@ -165,7 +165,7 @@ overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 53
+random_paper: 19
 scopes:
 - name: Stilla Scopes
   scope_count: 4

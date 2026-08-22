@@ -49,7 +49,7 @@ name: Luxe Nomad
 nav: Providers
 network: true
 overview: Luxe Nomad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Villas, and Booking.
-random_paper: 124
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

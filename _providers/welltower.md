@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Investors Press Releases Details | ...
   url: https://welltower.com/investors/press-release-details/
-random_paper: 103
+random_paper: 10
 score:
   band: minimal
   composite: 9.9

@@ -182,7 +182,7 @@ plans:
 - name: Float Financial Plans Pricing
   plan_count: 3
   slug: float-financial-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Float Financial Rate Limits

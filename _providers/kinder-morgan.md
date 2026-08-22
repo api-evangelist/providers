@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: User | chroniclejournal.com - The Backbone of the AI Revolution
   url: http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-4-15-the-backbone-of-the-ai-revolution-a-comprehensive-research-feature-on-kinder-morgan-inc-kmi
-random_paper: 134
+random_paper: 3
 score:
   band: minimal
   composite: 6.2

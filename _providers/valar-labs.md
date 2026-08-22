@@ -84,7 +84,7 @@ overview: 'Valar Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Valar Labs'' developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
-random_paper: 103
+random_paper: 10
 score:
   band: minimal
   composite: 9.8

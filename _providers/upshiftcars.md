@@ -80,7 +80,7 @@ overview: 'Upshift is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upshift''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: minimal
   composite: 9.5

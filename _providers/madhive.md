@@ -592,7 +592,7 @@ overview: 'MadHive publishes 66 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MadHive''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, FAQ, changelog, and 29 more developer resources.'
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Madhive Rate Limits

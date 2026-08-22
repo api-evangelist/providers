@@ -76,7 +76,7 @@ overview: 'Agilon Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Agilon Health''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 117
+random_paper: 7
 score:
   band: minimal
   composite: 6.1

@@ -104,7 +104,7 @@ overview: 'Southern Company is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Southern Company''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 53
+random_paper: 12
 score:
   band: emerging
   composite: 13.2

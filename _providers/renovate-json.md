@@ -111,7 +111,7 @@ overview: 'Renovate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Renovate''s developer surface includes documentation, SDKs, tutorials, and 12 more developer resources.'
-random_paper: 14
+random_paper: 11
 score:
   band: emerging
   composite: 13.7

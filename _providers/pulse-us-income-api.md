@@ -58,7 +58,7 @@ plans:
 - name: Pulse Us Income Api Plans Pricing
   plan_count: 3
   slug: pulse-us-income-api-plans-pricing
-random_paper: 81
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Pulse Us Income Api Rate Limits

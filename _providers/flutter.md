@@ -45,7 +45,7 @@ name: Flutter
 nav: Providers
 network: true
 overview: Flutter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gesture Recognition, Computer Vision, Consumer Software, and Media Control.
-random_paper: 29
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

@@ -76,7 +76,7 @@ overview: 'Metropolis Technologies is profiled on the [APIs.io](https://apis.io/
 
 
   Metropolis Technologies'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 47
+random_paper: 16
 score:
   band: emerging
   composite: 13.4

@@ -49,7 +49,7 @@ name: Airside
 nav: Providers
 network: true
 overview: Airside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Digital Identity, Mobile Credentials, and Identity Verification.
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

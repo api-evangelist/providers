@@ -256,7 +256,7 @@ plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
   slug: google-drive-plans-pricing
-random_paper: 28
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Google Drive Rate Limits

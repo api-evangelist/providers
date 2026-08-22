@@ -52,7 +52,7 @@ overview: 'Palus Finance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Palus Finance''s developer surface includes signup flow and 1 more developer resources.'
-random_paper: 126
+random_paper: 16
 score:
   band: minimal
   composite: 7.6

@@ -364,7 +364,7 @@ plans:
 - name: Alation Plans Pricing
   plan_count: 1
   slug: alation-plans-pricing
-random_paper: 148
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Alation Rate Limits

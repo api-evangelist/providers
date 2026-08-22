@@ -49,7 +49,7 @@ name: Tastemade
 nav: Providers
 network: true
 overview: Tastemade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Video, Streaming, and Food.
-random_paper: 58
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -129,7 +129,7 @@ overview: 'Arrive AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Arrive AI''s developer surface includes engineering blog, support, YouTube channel, and 17 more developer resources.'
-random_paper: 26
+random_paper: 19
 score:
   band: emerging
   composite: 11.5

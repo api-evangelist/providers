@@ -149,7 +149,7 @@ overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
-random_paper: 92
+random_paper: 14
 scopes:
 - name: Podio Scopes
   scope_count: 5

@@ -250,7 +250,7 @@ overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis
 
 
   Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 37 more developer resources.'
-random_paper: 46
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Electricity North West Rate Limits

@@ -49,7 +49,7 @@ name: microTERRA
 nav: Providers
 network: true
 overview: microTERRA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food and Beverage, Ingredients, and Sustainability.
-random_paper: 37
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

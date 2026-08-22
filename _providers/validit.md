@@ -96,7 +96,7 @@ overview: 'Valid.it is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Valid.it''s developer surface includes engineering blog, FAQ, support, and 10 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: emerging
   composite: 15.5

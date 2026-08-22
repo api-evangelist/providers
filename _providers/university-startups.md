@@ -80,7 +80,7 @@ overview: 'University Startups is profiled on the [APIs.io](https://apis.io/) ne
 
 
   University Startups'' developer surface includes support and 8 more developer resources.'
-random_paper: 132
+random_paper: 11
 score:
   band: emerging
   composite: 17.5

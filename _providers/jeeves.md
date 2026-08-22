@@ -92,7 +92,7 @@ overview: 'Jeeves is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Jeeves'' developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 17.5

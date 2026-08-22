@@ -40,7 +40,7 @@ name: SeedFi
 nav: Providers
 network: true
 overview: SeedFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Lending, and Credit Building.
-random_paper: 28
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

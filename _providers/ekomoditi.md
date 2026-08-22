@@ -84,7 +84,7 @@ overview: 'Ekomoditi is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ekomoditi''s developer surface includes support, engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 71
+random_paper: 20
 score:
   band: minimal
   composite: 7.2

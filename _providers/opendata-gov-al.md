@@ -60,7 +60,7 @@ name: opendata.gov.al (Open Data Albania)
 nav: Providers
 network: true
 overview: opendata.gov.al (Open Data Albania) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Custom Platform, DCAT-AP, SPARQL, and Linked Data.
-random_paper: 130
+random_paper: 1
 score:
   band: minimal
   composite: 5.3

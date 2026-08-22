@@ -579,7 +579,7 @@ plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
   slug: microsoft-word-plans-pricing
-random_paper: 130
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Microsoft Word Rate Limits

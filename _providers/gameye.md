@@ -245,7 +245,7 @@ overview: 'Gameye publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gameye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: developing
   composite: 52.0

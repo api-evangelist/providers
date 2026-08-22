@@ -172,7 +172,7 @@ overview: 'Improvado.io publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Improvado.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: developing
   composite: 50.1

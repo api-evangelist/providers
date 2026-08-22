@@ -286,7 +286,7 @@ overview: 'Automattic publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 40
+random_paper: 12
 scopes:
 - name: Automattic Scopes
   scope_count: 21

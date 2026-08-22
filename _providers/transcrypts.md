@@ -84,7 +84,7 @@ overview: 'TransCrypts is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   TransCrypts'' developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: minimal
   composite: 7.9

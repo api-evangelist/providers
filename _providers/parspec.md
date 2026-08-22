@@ -92,7 +92,7 @@ overview: 'Parspec is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parspec''s developer surface includes signup flow, documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 12.8

@@ -111,7 +111,7 @@ overview: 'Alzheon publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Alzheon''s developer surface includes engineering blog, product news, and 15 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 25.8

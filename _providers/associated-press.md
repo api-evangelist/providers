@@ -137,7 +137,7 @@ plans:
 - name: Associated Press Plans Pricing
   plan_count: 3
   slug: associated-press-plans-pricing
-random_paper: 19
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Associated Press Rate Limits

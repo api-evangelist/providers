@@ -224,7 +224,7 @@ overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SD
 
 
   Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: developing
   composite: 53.6

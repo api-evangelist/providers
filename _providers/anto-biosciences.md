@@ -60,7 +60,7 @@ overview: 'Anto Biosciences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Anto Biosciences'' developer surface includes support and 3 more developer resources.'
-random_paper: 148
+random_paper: 0
 score:
   band: minimal
   composite: 8.9

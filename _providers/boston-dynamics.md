@@ -141,7 +141,7 @@ plans:
 - name: Boston Dynamics Plans Pricing
   plan_count: 1
   slug: boston-dynamics-plans-pricing
-random_paper: 72
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Boston Dynamics Rate Limits

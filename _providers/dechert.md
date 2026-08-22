@@ -90,7 +90,7 @@ name: Dechert
 nav: Providers
 network: true
 overview: Dechert is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Antitrust, Arbitration, Artificial Intelligence, Asset Management, and Banking.
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 1.5

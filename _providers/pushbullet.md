@@ -175,7 +175,7 @@ overview: 'Pushbullet publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pushbullet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 53
+random_paper: 4
 scopes:
 - name: Pushbullet Scopes
   scope_count: 1

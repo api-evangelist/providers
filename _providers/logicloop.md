@@ -45,7 +45,7 @@ name: LogicLoop
 nav: Providers
 network: true
 overview: LogicLoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, No-Code, Automation, and Business Rules.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: Wise (TransferWise)
 nav: Providers
 network: true
 overview: Wise (TransferWise) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, and Duplicate.
-random_paper: 6
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

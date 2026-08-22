@@ -59,7 +59,7 @@ name: Givemetap
 nav: Providers
 network: true
 overview: Givemetap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Products, E-Commerce, Sustainability, and Social Enterprise.
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

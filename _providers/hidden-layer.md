@@ -181,7 +181,7 @@ overview: 'HiddenLayer is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HiddenLayer''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 31 more developer resources.'
-random_paper: 14
+random_paper: 9
 score:
   band: minimal
   composite: 6.2

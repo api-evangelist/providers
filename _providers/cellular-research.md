@@ -40,7 +40,7 @@ name: Cellular Research
 nav: Providers
 network: true
 overview: Cellular Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Single-Cell Genomics, Genomics, Life Sciences, and Biotechnology.
-random_paper: 103
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

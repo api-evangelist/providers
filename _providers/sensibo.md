@@ -161,7 +161,7 @@ plans:
 - name: Sensibo Plans Pricing
   plan_count: 3
   slug: sensibo-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Sensibo Rate Limits

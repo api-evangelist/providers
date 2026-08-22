@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: Terex Corporation Standardizes 36 Websites ...
   url: https://www.progress.com/customers/terex-corporation-standardizes-sitefinity
-random_paper: 105
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Terex Rate Limits

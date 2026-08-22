@@ -300,7 +300,7 @@ overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
-random_paper: 132
+random_paper: 10
 scopes:
 - name: Pexa Scopes
   scope_count: 11

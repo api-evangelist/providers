@@ -76,7 +76,7 @@ overview: 'Croissant is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Croissant''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: minimal
   composite: 10.9

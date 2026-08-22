@@ -173,7 +173,7 @@ overview: 'Testsigma publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Testsigma''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: developing
   composite: 42.0

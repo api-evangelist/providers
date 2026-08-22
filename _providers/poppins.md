@@ -115,7 +115,7 @@ plans:
 - name: Poppins Plans Pricing
   plan_count: 3
   slug: poppins-plans-pricing
-random_paper: 32
+random_paper: 0
 score:
   band: emerging
   composite: 20.9

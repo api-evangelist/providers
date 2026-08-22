@@ -147,7 +147,7 @@ plans:
 - name: Dad Jokes Plans Pricing
   plan_count: 1
   slug: dad-jokes-plans-pricing
-random_paper: 137
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Dad Jokes Rate Limits

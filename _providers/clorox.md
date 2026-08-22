@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: How Clorox Used AI and Chatbots for Customer Service ...
   url: https://www.chiefmarketer.com/how-clorox-used-ai-and-chatbots-for-customer-service-inquiries-during-the-pandemic/
-random_paper: 67
+random_paper: 12
 score:
   band: minimal
   composite: 5.5

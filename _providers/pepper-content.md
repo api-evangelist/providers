@@ -123,7 +123,7 @@ plans:
 - name: Pepper Content Plans Pricing
   plan_count: 0
   slug: pepper-content-plans-pricing
-random_paper: 119
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Pepper Content Rate Limits

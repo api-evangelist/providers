@@ -225,7 +225,7 @@ plans:
 - name: Sendlane Plans Pricing
   plan_count: 4
   slug: sendlane-plans-pricing
-random_paper: 97
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Sendlane Rate Limits

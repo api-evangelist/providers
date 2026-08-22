@@ -61,7 +61,7 @@ name: VulDB
 nav: Providers
 network: true
 overview: VulDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

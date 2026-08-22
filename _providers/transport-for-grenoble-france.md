@@ -57,7 +57,7 @@ name: Transport for Grenoble, France
 nav: Providers
 network: true
 overview: Transport for Grenoble, France publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 105
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

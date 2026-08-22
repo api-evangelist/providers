@@ -230,7 +230,7 @@ plans:
 - name: Poggio Labs Plans Pricing
   plan_count: 3
   slug: poggio-labs-plans-pricing
-random_paper: 65
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Poggio Labs Rate Limits

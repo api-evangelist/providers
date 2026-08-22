@@ -109,7 +109,7 @@ plans:
 - name: Elpha Secure Plans Pricing
   plan_count: 0
   slug: elpha-secure-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Elpha Secure Rate Limits

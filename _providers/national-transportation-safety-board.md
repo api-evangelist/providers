@@ -73,7 +73,7 @@ plans:
 - name: National Transportation Safety Board Plans Pricing
   plan_count: 3
   slug: national-transportation-safety-board-plans-pricing
-random_paper: 129
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: National Transportation Safety Board Rate Limits

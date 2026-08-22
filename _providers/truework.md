@@ -328,7 +328,7 @@ plans:
 - name: Truework Plans Pricing
   plan_count: 3
   slug: truework-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Truework Rate Limits

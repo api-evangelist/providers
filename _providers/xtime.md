@@ -92,7 +92,7 @@ overview: 'Xtime is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xtime''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: emerging
   composite: 14.0

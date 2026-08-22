@@ -64,7 +64,7 @@ overview: 'WebComics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   WebComics'' developer surface includes support and 4 more developer resources.'
-random_paper: 85
+random_paper: 17
 score:
   band: minimal
   composite: 10.2

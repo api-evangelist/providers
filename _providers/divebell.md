@@ -68,7 +68,7 @@ overview: 'Divebell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Divebell''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 94
+random_paper: 20
 score:
   band: minimal
   composite: 9.4

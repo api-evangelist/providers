@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: AI Courses - Artificial Intelligence
   url: https://www.fmctraining.com/ai
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 5.5

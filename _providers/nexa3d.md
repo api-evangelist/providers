@@ -57,7 +57,7 @@ name: Nexa3D
 nav: Providers
 network: true
 overview: Nexa3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Additive Manufacturing, Manufacturing, and Hardware.
-random_paper: 132
+random_paper: 12
 score:
   band: minimal
   composite: 4.6

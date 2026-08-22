@@ -50,7 +50,7 @@ name: DecisionPoint Software
 nav: Providers
 network: true
 overview: DecisionPoint Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Performance Management, Business Intelligence, Data Warehousing, and Enterprise Software.
-random_paper: 85
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

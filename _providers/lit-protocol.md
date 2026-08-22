@@ -263,7 +263,7 @@ plans:
 - name: Lit Protocol Plans Pricing
   plan_count: 2
   slug: lit-protocol-plans-pricing
-random_paper: 64
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Lit Protocol Rate Limits

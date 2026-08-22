@@ -141,7 +141,7 @@ overview: 'CD Baby is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CD Baby''s developer surface includes pricing, signup flow, support, engineering blog, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: emerging
   composite: 13.9

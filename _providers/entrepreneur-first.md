@@ -68,7 +68,7 @@ overview: 'Entrepreneur First is profiled on the [APIs.io](https://apis.io/) net
 
 
   Entrepreneur First''s developer surface includes signup flow, support, engineering blog, and 3 more developer resources.'
-random_paper: 120
+random_paper: 18
 score:
   band: emerging
   composite: 11.2

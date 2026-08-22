@@ -158,7 +158,7 @@ plans:
 - name: Centers For Disease Control And Prevention Plans Pricing
   plan_count: 3
   slug: centers-for-disease-control-and-prevention-plans-pricing
-random_paper: 44
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Centers For Disease Control And Prevention Rate Limits

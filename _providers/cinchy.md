@@ -129,7 +129,7 @@ overview: 'Cinchy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cinchy''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 20.7

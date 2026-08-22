@@ -208,7 +208,7 @@ plans:
 - name: Wegowise Plans Pricing
   plan_count: 1
   slug: wegowise-plans-pricing
-random_paper: 129
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Wegowise Rate Limits

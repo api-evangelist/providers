@@ -40,7 +40,7 @@ name: FogHorn Systems (Johnson Controls)
 nav: Providers
 network: true
 overview: FogHorn Systems (Johnson Controls) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Edge AI, Industrial IoT, and Machine Learning.
-random_paper: 55
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

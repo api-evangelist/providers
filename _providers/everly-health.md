@@ -169,7 +169,7 @@ plans:
 - name: Everly Health Plans Pricing
   plan_count: 0
   slug: everly-health-plans-pricing
-random_paper: 146
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Everly Health Rate Limits

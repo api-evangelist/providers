@@ -153,7 +153,7 @@ plans:
 - name: Thunes Plans Pricing
   plan_count: 1
   slug: thunes-plans-pricing
-random_paper: 67
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Thunes Rate Limits

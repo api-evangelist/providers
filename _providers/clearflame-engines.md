@@ -49,7 +49,7 @@ name: ClearFlame Engines
 nav: Providers
 network: true
 overview: ClearFlame Engines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engines, Clean Energy, Transportation, and Heavy Duty Trucking.
-random_paper: 38
+random_paper: 20
 score:
   band: minimal
   composite: 1.7

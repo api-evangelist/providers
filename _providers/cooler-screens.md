@@ -99,7 +99,7 @@ plans:
 - name: Cooler Screens Plans Pricing
   plan_count: 0
   slug: cooler-screens-plans-pricing
-random_paper: 103
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Cooler Screens Rate Limits

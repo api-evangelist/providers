@@ -139,7 +139,7 @@ plans:
 - name: Jarvislabs Plans Pricing
   plan_count: 3
   slug: jarvislabs-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Jarvislabs Rate Limits

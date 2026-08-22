@@ -64,7 +64,7 @@ overview: 'Collectiv Food is profiled on the [APIs.io](https://apis.io/) network
 
 
   Collectiv Food''s developer surface includes support and 4 more developer resources.'
-random_paper: 93
+random_paper: 6
 score:
   band: minimal
   composite: 10.2

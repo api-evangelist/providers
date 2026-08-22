@@ -49,7 +49,7 @@ name: PCH International
 nav: Providers
 network: true
 overview: PCH International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Manufacturing, Logistics, and Product Development.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

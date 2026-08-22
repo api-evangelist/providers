@@ -440,7 +440,7 @@ plans:
 - name: Amazon Ec2 Plans Pricing
   plan_count: 3
   slug: amazon-ec2-plans-pricing
-random_paper: 47
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Rate Limits

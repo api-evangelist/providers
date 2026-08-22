@@ -138,7 +138,7 @@ plans:
 - name: Onescreen Ai Plans Pricing
   plan_count: 2
   slug: onescreen-ai-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Onescreen Ai Rate Limits

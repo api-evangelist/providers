@@ -49,7 +49,7 @@ name: Hero Journey Club
 nav: Providers
 network: true
 overview: Hero Journey Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Mental Health, Wellness, and Digital Health.
-random_paper: 83
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

@@ -116,7 +116,7 @@ overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Striveworks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 12 more developer resources.'
-random_paper: 43
+random_paper: 17
 score:
   band: thin
   composite: 27.0

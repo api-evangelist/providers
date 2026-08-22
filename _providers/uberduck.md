@@ -133,7 +133,7 @@ plans:
 - name: Uberduck Plans Pricing
   plan_count: 4
   slug: uberduck-plans-pricing
-random_paper: 108
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Uberduck Rate Limits

@@ -76,7 +76,7 @@ overview: 'Zaapi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zaapi''s developer surface includes pricing, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: emerging
   composite: 15.4

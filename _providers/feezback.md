@@ -65,7 +65,7 @@ name: FeezBack
 nav: Providers
 network: true
 overview: FeezBack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Open Banking, Payments, and Payment Initiation.
-random_paper: 82
+random_paper: 8
 score:
   band: emerging
   composite: 12.9

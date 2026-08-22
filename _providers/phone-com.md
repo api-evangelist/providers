@@ -176,7 +176,7 @@ overview: 'Phone Com publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Phone Com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 8
+random_paper: 20
 scopes:
 - name: Phone Com Scopes
   scope_count: 0

@@ -112,7 +112,7 @@ overview: '1QBit is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   1QBit''s developer surface includes product news, engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 34
+random_paper: 19
 score:
   band: minimal
   composite: 10.8

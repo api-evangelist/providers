@@ -105,7 +105,7 @@ overview: 'bswift publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   bswift''s developer surface includes engineering blog, changelog, and 11 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: emerging
   composite: 20.8

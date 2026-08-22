@@ -156,7 +156,7 @@ overview: 'RockSolid publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   RockSolid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: developing
   composite: 40.8

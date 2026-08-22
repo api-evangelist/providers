@@ -329,7 +329,7 @@ plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-service-cloud-plans-pricing
-random_paper: 57
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Salesforce Service Cloud Rate Limits

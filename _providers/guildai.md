@@ -129,7 +129,7 @@ overview: 'Guild.ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Guild.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 12 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: thin
   composite: 28.2

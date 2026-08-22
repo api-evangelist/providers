@@ -45,7 +45,7 @@ name: Abyrx
 nav: Providers
 network: true
 overview: Abyrx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Surgical, and Hemostatics.
-random_paper: 103
+random_paper: 4
 score:
   band: minimal
   composite: 2.2

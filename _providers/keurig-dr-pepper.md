@@ -84,7 +84,7 @@ overview: 'Keurig Dr Pepper is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Keurig Dr Pepper''s developer surface includes developer portal and 9 more developer resources.'
-random_paper: 113
+random_paper: 7
 score:
   band: minimal
   composite: 6.9

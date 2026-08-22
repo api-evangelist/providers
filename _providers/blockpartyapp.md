@@ -80,7 +80,7 @@ overview: 'Blockpartyapp is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Blockpartyapp''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 63
+random_paper: 18
 score:
   band: emerging
   composite: 15.4

@@ -72,7 +72,7 @@ overview: 'Cirsium Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cirsium Biosciences'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 10.5

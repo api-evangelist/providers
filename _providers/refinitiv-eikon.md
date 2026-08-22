@@ -583,7 +583,7 @@ plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
   slug: refinitiv-eikon-plans-pricing
-random_paper: 65
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Refinitiv Eikon Rate Limits

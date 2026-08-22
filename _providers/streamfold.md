@@ -104,7 +104,7 @@ overview: 'Streamfold is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Streamfold''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, and 10 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: emerging
   composite: 17.2

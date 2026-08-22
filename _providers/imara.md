@@ -40,7 +40,7 @@ name: Imara
 nav: Providers
 network: true
 overview: Imara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Batteries, Lithium-Ion, Energy Storage, and Clean Technology.
-random_paper: 75
+random_paper: 18
 score:
   band: minimal
   composite: 2.1

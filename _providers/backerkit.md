@@ -88,7 +88,7 @@ overview: 'Backerkit is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Backerkit''s developer surface includes support, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 50
+random_paper: 20
 score:
   band: emerging
   composite: 16.2

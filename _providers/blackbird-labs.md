@@ -80,7 +80,7 @@ overview: 'Blackbird Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Blackbird Labs'' developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 48
+random_paper: 3
 score:
   band: minimal
   composite: 4.9

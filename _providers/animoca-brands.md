@@ -76,7 +76,7 @@ overview: 'Animoca Brands is profiled on the [APIs.io](https://apis.io/) network
 
 
   Animoca Brands'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 66
+random_paper: 0
 score:
   band: minimal
   composite: 10.4

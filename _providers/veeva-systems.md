@@ -123,7 +123,7 @@ plans:
 - name: Veeva Systems Plans Pricing
   plan_count: 1
   slug: veeva-systems-plans-pricing
-random_paper: 31
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Veeva Systems Rate Limits

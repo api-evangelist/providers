@@ -49,7 +49,7 @@ name: Anchor *
 nav: Providers
 network: true
 overview: Anchor * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasting, Podcast Hosting, and Audio.
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

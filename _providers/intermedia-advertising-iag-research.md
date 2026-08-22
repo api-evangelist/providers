@@ -40,7 +40,7 @@ name: Intermedia Advertising (IAG RESEARCH)
 nav: Providers
 network: true
 overview: Intermedia Advertising (IAG RESEARCH) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 100
+random_paper: 20
 score:
   band: minimal
   composite: 4.1

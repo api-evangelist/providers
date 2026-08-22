@@ -57,7 +57,7 @@ name: Open Government, Mexico
 nav: Providers
 network: true
 overview: Open Government, Mexico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 27
+random_paper: 15
 score:
   band: minimal
   composite: 4.2

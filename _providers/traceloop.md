@@ -158,7 +158,7 @@ plans:
 - name: Traceloop Plans Pricing
   plan_count: 2
   slug: traceloop-plans-pricing
-random_paper: 75
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Traceloop Rate Limits

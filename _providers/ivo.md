@@ -104,7 +104,7 @@ overview: 'Ivo is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ivo''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: emerging
   composite: 17.6

@@ -80,7 +80,7 @@ overview: 'Stellar Sleep is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Stellar Sleep''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 0
+random_paper: 18
 score:
   band: emerging
   composite: 11.5

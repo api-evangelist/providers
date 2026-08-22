@@ -97,7 +97,7 @@ plans:
 - name: Hemlane Plans Pricing
   plan_count: 4
   slug: hemlane-plans-pricing
-random_paper: 134
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Hemlane Rate Limits

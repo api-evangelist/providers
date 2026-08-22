@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Discover Financial Services Builds a Generative AI ...
   url: https://aws.amazon.com/solutions/case-studies/discover-financial-services-generative-ai/
-random_paper: 53
+random_paper: 14
 score:
   band: emerging
   composite: 20.4

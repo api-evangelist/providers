@@ -88,7 +88,7 @@ overview: 'Lavante is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lavante''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
   composite: 13.6

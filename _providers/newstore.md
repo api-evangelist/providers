@@ -440,7 +440,7 @@ overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 23 more developer resources.'
-random_paper: 142
+random_paper: 5
 scopes:
 - name: Newstore Scopes
   scope_count: 29

@@ -188,7 +188,7 @@ plans:
 - name: Attendease Plans Pricing
   plan_count: 3
   slug: attendease-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Attendease Rate Limits

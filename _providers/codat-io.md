@@ -187,7 +187,7 @@ plans:
 - name: Codat Io Plans Pricing
   plan_count: 3
   slug: codat-io-plans-pricing
-random_paper: 39
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Codat Io Rate Limits

@@ -149,7 +149,7 @@ plans:
 - name: Determined Ai Plans Pricing
   plan_count: 3
   slug: determined-ai-plans-pricing
-random_paper: 112
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Determined Ai Rate Limits

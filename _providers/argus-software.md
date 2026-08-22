@@ -68,7 +68,7 @@ overview: 'Argus Software is profiled on the [APIs.io](https://apis.io/) network
 
 
   Argus Software''s developer surface includes developer portal, documentation, support, and 3 more developer resources.'
-random_paper: 125
+random_paper: 17
 score:
   band: minimal
   composite: 9.8

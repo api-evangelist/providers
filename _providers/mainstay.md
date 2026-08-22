@@ -113,7 +113,7 @@ overview: 'Mainstay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mainstay''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 125
+random_paper: 9
 score:
   band: thin
   composite: 28.5

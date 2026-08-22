@@ -57,7 +57,7 @@ name: Rhyme (fka PriorAuthNow)
 nav: Providers
 network: true
 overview: Rhyme (fka PriorAuthNow) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Prior Authorization, Health IT, and Payers.
-random_paper: 40
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

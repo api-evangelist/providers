@@ -57,7 +57,7 @@ name: Upollo
 nav: Providers
 network: true
 overview: Upollo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Account Sharing, Customer Growth, and Subscription Management.
-random_paper: 71
+random_paper: 16
 score:
   band: minimal
   composite: 6.8

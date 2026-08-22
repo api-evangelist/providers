@@ -56,7 +56,7 @@ overview: 'SCIWIND is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SCIWIND''s developer surface includes product news and 2 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

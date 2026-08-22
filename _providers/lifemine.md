@@ -536,7 +536,7 @@ overview: 'LifeMine publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
-random_paper: 96
+random_paper: 1
 score:
   band: emerging
   composite: 22.4

@@ -177,7 +177,7 @@ overview: 'Signiant publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Signiant''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: developing
   composite: 47.8

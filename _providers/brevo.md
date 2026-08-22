@@ -766,7 +766,7 @@ plans:
 - name: Brevo Plans Pricing
   plan_count: 5
   slug: brevo-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 30
   name: Brevo Rate Limits

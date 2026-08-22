@@ -121,7 +121,7 @@ overview: 'Virsec publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Virsec''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 11 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: thin
   composite: 33.4

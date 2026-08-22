@@ -60,7 +60,7 @@ overview: 'AdaptHealth is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   AdaptHealth''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 109
+random_paper: 18
 score:
   band: minimal
   composite: 3.2

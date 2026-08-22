@@ -88,7 +88,7 @@ overview: 'Getbasis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Getbasis'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: emerging
   composite: 14.9

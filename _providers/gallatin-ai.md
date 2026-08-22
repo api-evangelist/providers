@@ -76,7 +76,7 @@ overview: 'Gallatin AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Gallatin AI''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 48
+random_paper: 20
 score:
   band: minimal
   composite: 4.2

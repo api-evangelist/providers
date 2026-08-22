@@ -76,7 +76,7 @@ overview: 'National Gallery of Art is profiled on the [APIs.io](https://apis.io/
 
 
   National Gallery of Art''s developer surface includes developer portal and 7 more developer resources.'
-random_paper: 46
+random_paper: 13
 score:
   band: minimal
   composite: 5.3

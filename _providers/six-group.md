@@ -285,7 +285,7 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 27 more developer resources.'
-random_paper: 48
+random_paper: 18
 score:
   band: strong
   composite: 56.4

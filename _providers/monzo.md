@@ -172,7 +172,7 @@ overview: 'Monzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monzo''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 21 more developer resources.'
-random_paper: 116
+random_paper: 17
 score:
   band: developing
   composite: 44.3

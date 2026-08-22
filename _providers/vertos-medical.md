@@ -67,7 +67,7 @@ name: Vertos Medical
 nav: Providers
 network: true
 overview: Vertos Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Spine, and Interventional Pain Management.
-random_paper: 98
+random_paper: 11
 score:
   band: minimal
   composite: 2.9

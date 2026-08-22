@@ -122,7 +122,7 @@ plans:
 - name: Atmosplay Plans Pricing
   plan_count: 0
   slug: atmosplay-plans-pricing
-random_paper: 92
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Atmosplay Rate Limits

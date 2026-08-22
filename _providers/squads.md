@@ -152,7 +152,7 @@ overview: 'Squads publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Squads'' developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: developing
   composite: 41.4

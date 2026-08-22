@@ -230,7 +230,7 @@ overview: 'Emerge Tools publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 43
+random_paper: 17
 score:
   band: developing
   composite: 47.7

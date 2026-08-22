@@ -103,7 +103,7 @@ plans:
 - name: Sorbonne Plans Pricing
   plan_count: 2
   slug: sorbonne-plans-pricing
-random_paper: 125
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Sorbonne Rate Limits

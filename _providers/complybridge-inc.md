@@ -84,7 +84,7 @@ overview: 'ComplyBridge, Inc. is profiled on the [APIs.io](https://apis.io/) net
 
 
   ComplyBridge, Inc.''s developer surface includes signup flow, support, and 8 more developer resources.'
-random_paper: 1
+random_paper: 2
 score:
   band: emerging
   composite: 15.7

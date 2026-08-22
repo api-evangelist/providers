@@ -618,7 +618,7 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 46.1

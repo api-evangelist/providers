@@ -57,7 +57,7 @@ name: CheapShark
 nav: Providers
 network: true
 overview: CheapShark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 7
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

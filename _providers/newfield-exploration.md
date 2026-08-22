@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Newfield Exploration | Company Overview & News
   url: https://www.forbes.com/companies/newfield-exploration/
-random_paper: 10
+random_paper: 17
 score:
   band: minimal
   composite: 1.5

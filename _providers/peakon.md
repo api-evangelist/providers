@@ -189,7 +189,7 @@ overview: 'Peakon publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Peakon''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 15 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: thin
   composite: 34.5

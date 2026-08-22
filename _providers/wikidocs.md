@@ -49,7 +49,7 @@ name: Wikidocs
 nav: Providers
 network: true
 overview: Wikidocs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Real-Time, Documentation, and Productivity.
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

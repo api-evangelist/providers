@@ -60,7 +60,7 @@ overview: 'PennyMac Financial Services is profiled on the [APIs.io](https://apis
 
 
   PennyMac Financial Services'' developer surface includes developer portal and 3 more developer resources.'
-random_paper: 68
+random_paper: 20
 score:
   band: minimal
   composite: 5.4

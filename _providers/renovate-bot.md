@@ -272,7 +272,7 @@ overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 39 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: thin
   composite: 26.3

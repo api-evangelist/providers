@@ -60,7 +60,7 @@ overview: 'Mevo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mevo''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 141
+random_paper: 19
 score:
   band: minimal
   composite: 4.7

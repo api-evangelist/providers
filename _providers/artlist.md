@@ -210,7 +210,7 @@ overview: 'Artlist publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 26
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Artlist Rate Limits

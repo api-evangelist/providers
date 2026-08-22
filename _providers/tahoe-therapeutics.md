@@ -84,7 +84,7 @@ overview: 'Tahoe Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Tahoe Therapeutics'' developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 83
+random_paper: 2
 score:
   band: minimal
   composite: 7.5

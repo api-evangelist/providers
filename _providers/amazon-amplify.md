@@ -312,7 +312,7 @@ overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
-random_paper: 104
+random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []

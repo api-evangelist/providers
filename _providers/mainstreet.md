@@ -124,7 +124,7 @@ overview: 'MainStreet publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MainStreet''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 14 more developer resources.'
-random_paper: 41
+random_paper: 13
 scopes:
 - name: Mainstreet Scopes
   scope_count: 14

@@ -91,7 +91,7 @@ overview: 'Five9 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Five9''s developer surface includes documentation, pricing, signup flow, GitHub presence, support, and 5 more developer resources.'
-random_paper: 36
+random_paper: 0
 score:
   band: emerging
   composite: 17.0

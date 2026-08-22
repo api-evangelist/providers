@@ -240,7 +240,7 @@ plans:
 - name: Bitmovin Plans Pricing
   plan_count: 2
   slug: bitmovin-plans-pricing
-random_paper: 127
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Bitmovin Rate Limits

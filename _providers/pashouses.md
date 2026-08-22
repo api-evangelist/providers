@@ -61,7 +61,7 @@ name: Pashouses
 nav: Providers
 network: true
 overview: Pashouses is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Indonesia, and Marketplace.
-random_paper: 93
+random_paper: 0
 score:
   band: minimal
   composite: 9.2

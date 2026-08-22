@@ -76,7 +76,7 @@ overview: 'Pedestal Health (formerly Target RWE) is profiled on the [APIs.io](ht
 
 
   Pedestal Health (formerly Target RWE)''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: emerging
   composite: 11.2

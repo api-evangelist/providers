@@ -108,7 +108,7 @@ plans:
 - name: Wto Plans Pricing
   plan_count: 1
   slug: wto-plans-pricing
-random_paper: 48
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Wto Rate Limits

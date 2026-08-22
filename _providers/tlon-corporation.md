@@ -136,7 +136,7 @@ overview: 'Tlon Corporation publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Tlon Corporation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, signup flow, and 14 more developer resources.'
-random_paper: 51
+random_paper: 10
 score:
   band: emerging
   composite: 25.0

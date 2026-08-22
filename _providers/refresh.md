@@ -73,7 +73,7 @@ plans:
 - name: Refresh Plans Pricing
   plan_count: 0
   slug: refresh-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Refresh Rate Limits

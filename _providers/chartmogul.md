@@ -161,7 +161,7 @@ overview: 'ChartMogul publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: thin
   composite: 33.2

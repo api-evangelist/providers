@@ -49,7 +49,7 @@ name: PaintZen
 nav: Providers
 network: true
 overview: PaintZen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Painting, Home Improvement, and Marketplace.
-random_paper: 128
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

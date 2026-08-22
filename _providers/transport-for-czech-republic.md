@@ -61,7 +61,7 @@ name: Transport for Czech Republic
 nav: Providers
 network: true
 overview: Transport for Czech Republic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

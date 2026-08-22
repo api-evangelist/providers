@@ -133,7 +133,7 @@ overview: 'Mirror publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mirror''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 13 more developer resources.'
-random_paper: 71
+random_paper: 16
 score:
   band: emerging
   composite: 15.6

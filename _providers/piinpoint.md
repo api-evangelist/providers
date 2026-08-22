@@ -80,7 +80,7 @@ overview: 'Piinpoint is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Piinpoint''s developer surface includes signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: emerging
   composite: 13.3

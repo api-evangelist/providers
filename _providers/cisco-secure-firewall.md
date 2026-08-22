@@ -553,7 +553,7 @@ plans:
 - name: Cisco Secure Firewall Plans Pricing
   plan_count: 0
   slug: cisco-secure-firewall-plans-pricing
-random_paper: 34
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Cisco Secure Firewall Rate Limits

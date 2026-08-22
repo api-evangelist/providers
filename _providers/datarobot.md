@@ -165,7 +165,7 @@ overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 21 more developer resources.'
-random_paper: 66
+random_paper: 15
 scopes:
 - name: Datarobot Scopes
   scope_count: 3

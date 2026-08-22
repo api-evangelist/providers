@@ -168,7 +168,7 @@ plans:
 - name: Prestmit Plans Pricing
   plan_count: 3
   slug: prestmit-plans-pricing
-random_paper: 143
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Prestmit Rate Limits

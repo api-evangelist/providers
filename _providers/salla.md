@@ -493,7 +493,7 @@ plans:
 - name: Salla Plans Pricing
   plan_count: 5
   slug: salla-plans-pricing
-random_paper: 78
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Salla Rate Limits

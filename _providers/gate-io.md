@@ -133,7 +133,7 @@ plans:
 - name: Gate Io Plans Pricing
   plan_count: 5
   slug: gate-io-plans-pricing
-random_paper: 82
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Gate Io Rate Limits

@@ -57,7 +57,7 @@ name: Ollin Bio
 nav: Providers
 network: true
 overview: Ollin Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Life Sciences, and Drug Development.
-random_paper: 7
+random_paper: 19
 score:
   band: minimal
   composite: 9.0

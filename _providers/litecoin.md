@@ -189,7 +189,7 @@ plans:
 - name: Litecoin Space Websocket
   plan_count: 2
   slug: litecoin-space-websocket
-random_paper: 110
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Litecoin Core Json Rpc

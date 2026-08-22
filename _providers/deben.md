@@ -80,7 +80,7 @@ overview: 'Deben is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Deben''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 6
 score:
   band: minimal
   composite: 4.2

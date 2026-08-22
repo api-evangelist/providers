@@ -49,7 +49,7 @@ name: Modsy *
 nav: Providers
 network: true
 overview: Modsy * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Interior Design, 3D Visualization, and Home.
-random_paper: 109
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

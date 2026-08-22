@@ -161,7 +161,7 @@ overview: 'LI-COR Intermediate publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 114
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Li Cor Intermediate Rate Limits

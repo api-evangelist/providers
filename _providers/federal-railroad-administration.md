@@ -118,7 +118,7 @@ plans:
 - name: Federal Railroad Administration Plans Pricing
   plan_count: 3
   slug: federal-railroad-administration-plans-pricing
-random_paper: 40
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Federal Railroad Administration Rate Limits

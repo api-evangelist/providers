@@ -50,7 +50,7 @@ name: Lancope
 nav: Providers
 network: true
 overview: Lancope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Network Security, Security Analytics, and Network Visibility.
-random_paper: 142
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

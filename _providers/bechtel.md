@@ -96,7 +96,7 @@ name: Bechtel
 nav: Providers
 network: true
 overview: Bechtel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Engineering, Infrastructure, and Energy.
-random_paper: 131
+random_paper: 13
 score:
   band: minimal
   composite: 10.8

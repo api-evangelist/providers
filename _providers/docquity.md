@@ -108,7 +108,7 @@ plans:
 - name: Docquity Plans Pricing
   plan_count: 0
   slug: docquity-plans-pricing
-random_paper: 137
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Docquity Rate Limits

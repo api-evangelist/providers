@@ -76,7 +76,7 @@ overview: 'Chatter Research is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Chatter Research''s developer surface includes documentation, support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 147
+random_paper: 20
 score:
   band: emerging
   composite: 15.2

@@ -84,7 +84,7 @@ overview: 'Plural Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Plural Ai''s developer surface includes signup flow and 9 more developer resources.'
-random_paper: 9
+random_paper: 0
 score:
   band: emerging
   composite: 12.6

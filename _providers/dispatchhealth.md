@@ -148,7 +148,7 @@ overview: 'DispatchHealth publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   DispatchHealth''s developer surface includes authentication, engineering blog, support, FAQ, pricing, signup flow, and 20 more developer resources.'
-random_paper: 137
+random_paper: 8
 scopes:
 - name: Dispatchhealth Scopes
   scope_count: 1

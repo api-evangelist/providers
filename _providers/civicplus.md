@@ -176,7 +176,7 @@ overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   CivicPlus'' developer surface includes support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 84
+random_paper: 12
 score:
   band: thin
   composite: 32.4

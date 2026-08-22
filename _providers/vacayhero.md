@@ -53,7 +53,7 @@ name: VacayHero
 nav: Providers
 network: true
 overview: VacayHero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Vacation Rentals, and Marketplace.
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

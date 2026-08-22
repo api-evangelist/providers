@@ -53,7 +53,7 @@ name: Dux
 nav: Providers
 network: true
 overview: Dux is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Exposure Management.
-random_paper: 39
+random_paper: 1
 score:
   band: minimal
   composite: 7.1

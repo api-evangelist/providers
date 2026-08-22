@@ -159,7 +159,7 @@ plans:
 - name: Smithsonian Institution Plans Pricing
   plan_count: 3
   slug: smithsonian-institution-plans-pricing
-random_paper: 84
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Smithsonian Institution Rate Limits

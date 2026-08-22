@@ -647,7 +647,7 @@ plans:
 - name: Amazon Control Tower Plans Pricing
   plan_count: 3
   slug: amazon-control-tower-plans-pricing
-random_paper: 129
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Control Tower Rate Limits

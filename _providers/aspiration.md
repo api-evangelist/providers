@@ -100,7 +100,7 @@ overview: 'GreenFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GreenFi''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: emerging
   composite: 14.1

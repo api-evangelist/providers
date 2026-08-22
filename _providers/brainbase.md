@@ -122,7 +122,7 @@ overview: 'Brainbase publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainbase''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 41
+random_paper: 11
 score:
   band: emerging
   composite: 23.3

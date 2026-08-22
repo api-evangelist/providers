@@ -1665,7 +1665,7 @@ plans:
 - name: Websphere Plans Pricing
   plan_count: 1
   slug: websphere-plans-pricing
-random_paper: 71
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Websphere Rate Limits

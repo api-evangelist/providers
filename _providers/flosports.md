@@ -56,7 +56,7 @@ overview: 'FloSports is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FloSports'' developer surface includes support and 2 more developer resources.'
-random_paper: 110
+random_paper: 17
 score:
   band: minimal
   composite: 6.0

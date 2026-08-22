@@ -329,7 +329,7 @@ overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) n
 
 
   StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 23
+random_paper: 1
 scopes:
 - name: Streamelements Scopes
   scope_count: 20

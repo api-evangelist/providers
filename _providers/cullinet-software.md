@@ -40,7 +40,7 @@ name: Cullinet Software
 nav: Providers
 network: true
 overview: Cullinet Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, Mainframe, Enterprise Software, and Application Development.
-random_paper: 145
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

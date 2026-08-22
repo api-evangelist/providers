@@ -169,7 +169,7 @@ overview: 'Con Edison publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 19 more developer resources.'
-random_paper: 113
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Con Edison Rate Limits

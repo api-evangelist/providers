@@ -108,7 +108,7 @@ overview: 'Netradyne publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Netradyne''s developer surface includes documentation, API reference, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: emerging
   composite: 22.2

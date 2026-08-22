@@ -130,7 +130,7 @@ overview: 'CopThis publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   CopThis'' developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: thin
   composite: 31.6

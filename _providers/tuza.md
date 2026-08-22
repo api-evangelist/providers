@@ -56,7 +56,7 @@ overview: 'Tuza is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tuza''s developer surface includes support and 2 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: minimal
   composite: 1.5

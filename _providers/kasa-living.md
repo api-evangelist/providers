@@ -87,7 +87,7 @@ overview: 'Kasa Living is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kasa Living''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 67
+random_paper: 18
 score:
   band: emerging
   composite: 11.4

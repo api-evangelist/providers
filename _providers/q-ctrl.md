@@ -141,7 +141,7 @@ overview: 'Q Ctrl publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Q Ctrl''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, authentication, changelog, and 16 more developer resources.'
-random_paper: 148
+random_paper: 7
 score:
   band: thin
   composite: 30.4

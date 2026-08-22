@@ -156,7 +156,7 @@ overview: 'Contra publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Contra''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 51
+random_paper: 17
 scopes:
 - name: Contra Scopes
   scope_count: 1

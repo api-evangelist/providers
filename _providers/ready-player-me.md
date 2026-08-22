@@ -227,7 +227,7 @@ plans:
 - name: Ready Player Me Plans Pricing
   plan_count: 3
   slug: ready-player-me-plans-pricing
-random_paper: 145
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Ready Player Me Rate Limits

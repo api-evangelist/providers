@@ -89,7 +89,7 @@ name: Breathe Life
 nav: Providers
 network: true
 overview: Breathe Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Insurtech, and Core Systems.
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
   composite: 6.7

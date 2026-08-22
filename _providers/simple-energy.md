@@ -45,7 +45,7 @@ name: Simple Energy
 nav: Providers
 network: true
 overview: Simple Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Energy.
-random_paper: 4
+random_paper: 1
 score:
   band: minimal
   composite: 1.2

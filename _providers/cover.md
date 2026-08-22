@@ -49,7 +49,7 @@ name: Cover
 nav: Providers
 network: true
 overview: Cover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Technology, Prefab Housing, Accessory Dwelling Units, and Homebuilding.
-random_paper: 96
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

@@ -125,7 +125,7 @@ overview: 'Petstore.com publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Petstore.com''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 13
+random_paper: 8
 scopes:
 - name: Petstorecom Scopes
   scope_count: 4

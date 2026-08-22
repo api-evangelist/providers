@@ -93,7 +93,7 @@ plans:
 - name: Labcorp Plans Pricing
   plan_count: 2
   slug: labcorp-plans-pricing
-random_paper: 143
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Labcorp Rate Limits

@@ -40,7 +40,7 @@ name: IZOIC&#8217;s
 nav: Providers
 network: true
 overview: IZOIC&#8217;s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Government.
-random_paper: 117
+random_paper: 7
 score:
   band: minimal
   composite: 0.8

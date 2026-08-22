@@ -40,7 +40,7 @@ name: Jaunt *
 nav: Providers
 network: true
 overview: Jaunt * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Virtual Reality, Immersive Media, and Augmented Reality.
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

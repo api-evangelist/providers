@@ -166,7 +166,7 @@ overview: 'Gardin publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Gardin''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 33
+random_paper: 20
 scopes:
 - name: Gardin Scopes
   scope_count: 11

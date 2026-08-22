@@ -276,7 +276,7 @@ plans:
 - name: Chucknorris Io Plans Pricing
   plan_count: 1
   slug: chucknorris-io-plans-pricing
-random_paper: 115
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Chucknorris Io Rate Limits

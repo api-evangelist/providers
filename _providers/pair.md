@@ -72,7 +72,7 @@ overview: 'Pair is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pair''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: minimal
   composite: 7.5

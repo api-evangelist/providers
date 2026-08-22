@@ -192,7 +192,7 @@ overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   SpecCheck''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
-random_paper: 43
+random_paper: 13
 score:
   band: thin
   composite: 39.2

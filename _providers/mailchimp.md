@@ -1681,7 +1681,7 @@ plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
   slug: mailchimp-plans-pricing
-random_paper: 54
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Mailchimp Rate Limits

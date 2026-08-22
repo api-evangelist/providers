@@ -96,7 +96,7 @@ plans:
 - name: Absurd Plans Pricing
   plan_count: 0
   slug: absurd-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Absurd Rate Limits

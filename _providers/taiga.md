@@ -113,7 +113,7 @@ plans:
 - name: Taiga Plans Pricing
   plan_count: 6
   slug: taiga-plans-pricing
-random_paper: 71
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Taiga Rate Limits

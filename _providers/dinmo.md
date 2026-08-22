@@ -186,7 +186,7 @@ plans:
 - name: Dinmo Plans Pricing
   plan_count: 4
   slug: dinmo-plans-pricing
-random_paper: 88
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Dinmo Rate Limits

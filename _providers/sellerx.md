@@ -99,7 +99,7 @@ overview: 'SellerX publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SellerX''s developer surface includes legal docs, authentication, and 12 more developer resources.'
-random_paper: 22
+random_paper: 11
 scopes:
 - name: Sellerx Scopes
   scope_count: 1

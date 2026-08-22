@@ -56,7 +56,7 @@ name: Kiute
 nav: Providers
 network: true
 overview: Kiute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Beauty, Salons, and Booking.
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 4.6

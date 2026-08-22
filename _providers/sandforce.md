@@ -40,7 +40,7 @@ name: Sandforce
 nav: Providers
 network: true
 overview: Sandforce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, SSD Controller, Flash Memory, and Defunct.
-random_paper: 55
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

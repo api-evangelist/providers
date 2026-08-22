@@ -212,7 +212,7 @@ overview: 'Hotmart publishes 8 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 22
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Hotmart Rate Limits

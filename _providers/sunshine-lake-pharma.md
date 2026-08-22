@@ -45,7 +45,7 @@ name: Sunshine Lake Pharma
 nav: Providers
 network: true
 overview: Sunshine Lake Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Life Sciences.
-random_paper: 76
+random_paper: 18
 score:
   band: minimal
   composite: 2.2

@@ -93,7 +93,7 @@ plans:
 - name: Dapperdox Plans Pricing
   plan_count: 3
   slug: dapperdox-plans-pricing
-random_paper: 73
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dapperdox Rate Limits

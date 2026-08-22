@@ -119,7 +119,7 @@ overview: 'FlixBus publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   FlixBus'' developer surface includes authentication, documentation, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: thin
   composite: 28.6

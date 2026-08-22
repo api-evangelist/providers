@@ -80,7 +80,7 @@ overview: 'Highway 9 Networks publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Highway 9 Networks'' developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 5
+random_paper: 8
 score:
   band: emerging
   composite: 12.3

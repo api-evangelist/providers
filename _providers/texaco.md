@@ -69,7 +69,7 @@ name: Texaco
 nav: Providers
 network: true
 overview: Texaco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil & Gas, and Retail.
-random_paper: 48
+random_paper: 14
 score:
   band: minimal
   composite: 2.4

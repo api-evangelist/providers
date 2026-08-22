@@ -483,7 +483,7 @@ plans:
 - name: Solana Plans
   plan_count: 3
   slug: solana-plans
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Solana Rpc Rate Limits

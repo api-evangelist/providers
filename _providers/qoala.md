@@ -205,7 +205,7 @@ overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Qoala''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 26 more developer resources.'
-random_paper: 79
+random_paper: 1
 score:
   band: developing
   composite: 40.1

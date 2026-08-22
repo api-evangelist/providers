@@ -73,7 +73,7 @@ plans:
 - name: Skool Plans Pricing
   plan_count: 2
   slug: skool-plans-pricing
-random_paper: 105
+random_paper: 6
 score:
   band: emerging
   composite: 12.1

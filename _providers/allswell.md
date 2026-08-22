@@ -76,7 +76,7 @@ overview: 'Allswell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Allswell''s developer surface includes pricing, engineering blog, getting-started guide, signup flow, support, and 3 more developer resources.'
-random_paper: 119
+random_paper: 3
 score:
   band: emerging
   composite: 12.1

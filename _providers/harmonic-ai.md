@@ -237,7 +237,7 @@ plans:
 - name: Harmonic Ai Plans Pricing
   plan_count: 3
   slug: harmonic-ai-plans-pricing
-random_paper: 53
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Harmonic Ai Rate Limits

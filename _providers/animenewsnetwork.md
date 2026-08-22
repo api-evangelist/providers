@@ -64,7 +64,7 @@ overview: 'AnimeNewsNetwork publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   AnimeNewsNetwork''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 106
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

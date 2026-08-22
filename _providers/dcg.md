@@ -77,7 +77,7 @@ name: DCG
 nav: Providers
 network: true
 overview: DCG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Blockchain, and Digital Assets.
-random_paper: 4
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

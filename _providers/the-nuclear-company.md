@@ -56,7 +56,7 @@ overview: 'The Nuclear Company is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The Nuclear Company''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 128
+random_paper: 5
 score:
   band: minimal
   composite: 3.5

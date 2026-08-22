@@ -57,7 +57,7 @@ name: National Bank of Poland
 nav: Providers
 network: true
 overview: National Bank of Poland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

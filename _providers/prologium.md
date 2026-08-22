@@ -119,7 +119,7 @@ overview: 'ProLogium Technology is profiled on the [APIs.io](https://apis.io/) n
 
 
   ProLogium Technology''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 96
+random_paper: 3
 score:
   band: minimal
   composite: 7.6

@@ -279,7 +279,7 @@ plans:
 - name: Rybbit Plans Pricing
   plan_count: 5
   slug: rybbit-plans-pricing
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Rybbit Rate Limits

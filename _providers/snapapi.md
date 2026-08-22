@@ -180,7 +180,7 @@ plans:
 - name: Snapapi Plans Pricing
   plan_count: 5
   slug: snapapi-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Snapapi Rate Limits

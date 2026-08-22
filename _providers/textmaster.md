@@ -150,7 +150,7 @@ plans:
 - name: Textmaster Plans Pricing
   plan_count: 0
   slug: textmaster-plans-pricing
-random_paper: 62
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Textmaster Rate Limits

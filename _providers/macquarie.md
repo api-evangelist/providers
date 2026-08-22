@@ -213,7 +213,7 @@ plans:
 - name: Macquarie Plans Pricing
   plan_count: 2
   slug: macquarie-plans-pricing
-random_paper: 58
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Macquarie Rate Limits

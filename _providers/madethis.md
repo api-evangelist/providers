@@ -121,7 +121,7 @@ plans:
 - name: Madethis Plans Pricing
   plan_count: 4
   slug: madethis-plans-pricing
-random_paper: 102
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Madethis Rate Limits

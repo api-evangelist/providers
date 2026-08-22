@@ -247,7 +247,7 @@ overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blynk''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, pricing, engineering blog, and 35 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: thin
   composite: 27.1

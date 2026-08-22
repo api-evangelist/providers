@@ -80,7 +80,7 @@ overview: 'Pasito is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pasito''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: emerging
   composite: 15.1

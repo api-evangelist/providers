@@ -80,7 +80,7 @@ overview: 'Authy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Authy''s developer surface includes documentation, support, and 7 more developer resources.'
-random_paper: 108
+random_paper: 9
 score:
   band: emerging
   composite: 11.0

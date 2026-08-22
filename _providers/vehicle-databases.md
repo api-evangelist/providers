@@ -210,7 +210,7 @@ plans:
 - name: Vehicle Databases Plans Pricing
   plan_count: 3
   slug: vehicle-databases-plans-pricing
-random_paper: 78
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Vehicle Databases Rate Limits

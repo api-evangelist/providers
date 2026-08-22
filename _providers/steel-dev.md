@@ -133,7 +133,7 @@ plans:
 - name: Steel Dev Plans Pricing
   plan_count: 6
   slug: steel-dev-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Steel Dev Rate Limits

@@ -472,7 +472,7 @@ plans:
 - name: Modal Plans Pricing
   plan_count: 3
   slug: modal-plans-pricing
-random_paper: 144
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Modal Rate Limits

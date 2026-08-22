@@ -95,7 +95,7 @@ overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   ResWare''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: minimal
   composite: 8.4

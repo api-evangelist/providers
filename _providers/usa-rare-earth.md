@@ -96,7 +96,7 @@ name: USA Rare Earth
 nav: Providers
 network: true
 overview: USA Rare Earth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rare Earth, Critical Minerals, Advanced Materials, and Permanent Magnets.
-random_paper: 36
+random_paper: 12
 score:
   band: minimal
   composite: 9.1

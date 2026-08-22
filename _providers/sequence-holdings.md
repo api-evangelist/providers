@@ -53,7 +53,7 @@ name: Sequence Holdings
 nav: Providers
 network: true
 overview: Sequence Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Holding Company, Artificial Intelligence, Business Acquisition, and Technology.
-random_paper: 119
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

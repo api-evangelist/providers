@@ -128,7 +128,7 @@ plans:
 - name: Pagbank Plans Pricing
   plan_count: 2
   slug: pagbank-plans-pricing
-random_paper: 128
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Pagbank Rate Limits

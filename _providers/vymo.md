@@ -115,7 +115,7 @@ plans:
 - name: Vymo Plans Pricing
   plan_count: 0
   slug: vymo-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Vymo Rate Limits

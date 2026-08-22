@@ -113,7 +113,7 @@ plans:
 - name: Tekion Plans Pricing
   plan_count: 3
   slug: tekion-plans-pricing
-random_paper: 54
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Tekion Rate Limits

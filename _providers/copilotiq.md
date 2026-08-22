@@ -64,7 +64,7 @@ overview: 'CopilotIQ is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CopilotIQ''s developer surface includes support and 4 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

@@ -131,7 +131,7 @@ overview: 'Athletic Brewing publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Athletic Brewing''s developer surface includes documentation, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Athletic Brewing Rate Limits

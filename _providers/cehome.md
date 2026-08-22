@@ -49,7 +49,7 @@ name: cehome
 nav: Providers
 network: true
 overview: cehome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Machinery, Heavy Equipment, Engineering Machinery, and Marketplace.
-random_paper: 29
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -40,7 +40,7 @@ name: Lanistar
 nav: Providers
 network: true
 overview: Lanistar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Financial Services, Fintech, and Banking.
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 0.0

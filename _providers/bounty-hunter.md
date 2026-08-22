@@ -49,7 +49,7 @@ name: Bounty Hunter
 nav: Providers
 network: true
 overview: Bounty Hunter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Competitions, Contests, Creative, and Crowdsourcing.
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

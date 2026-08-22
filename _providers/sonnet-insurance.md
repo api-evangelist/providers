@@ -141,7 +141,7 @@ overview: 'Sonnet Insurance is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Sonnet Insurance''s developer surface includes engineering blog, YouTube channel, support, FAQ, signup flow, product news, and 20 more developer resources.'
-random_paper: 37
+random_paper: 17
 score:
   band: emerging
   composite: 11.8

@@ -173,7 +173,7 @@ plans:
 - name: D Tools Plans Pricing
   plan_count: 6
   slug: d-tools-plans-pricing
-random_paper: 110
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: D Tools Rate Limits

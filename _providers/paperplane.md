@@ -105,7 +105,7 @@ plans:
 - name: Paperplane Plans Pricing
   plan_count: 0
   slug: paperplane-plans-pricing
-random_paper: 21
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Paperplane Rate Limits

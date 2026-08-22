@@ -40,7 +40,7 @@ name: Tcell Io
 nav: Providers
 network: true
 overview: Tcell Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, API Security, and Inactive.
-random_paper: 48
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

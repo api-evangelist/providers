@@ -140,7 +140,7 @@ overview: 'Upstash publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upstash''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 31
+random_paper: 20
 score:
   band: thin
   composite: 31.1

@@ -99,7 +99,7 @@ plans:
 - name: Likeable Local Plans Pricing
   plan_count: 0
   slug: likeable-local-plans-pricing
-random_paper: 52
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Likeable Local Rate Limits

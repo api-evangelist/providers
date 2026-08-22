@@ -245,7 +245,7 @@ plans:
 - name: Refuel Ai Plans Pricing
   plan_count: 3
   slug: refuel-ai-plans-pricing
-random_paper: 145
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Refuel Ai Rate Limits

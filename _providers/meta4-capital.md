@@ -61,7 +61,7 @@ name: Meta4 Capital
 nav: Providers
 network: true
 overview: Meta4 Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, NFT, Investment, and Venture Capital.
-random_paper: 62
+random_paper: 15
 score:
   band: minimal
   composite: 7.1

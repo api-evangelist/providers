@@ -257,7 +257,7 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
 
 
   i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 18 more developer resources.'
-random_paper: 68
+random_paper: 10
 score:
   band: developing
   composite: 49.2

@@ -40,7 +40,7 @@ name: Healthvision
 nav: Providers
 network: true
 overview: Healthvision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthcare IT, Health Information, and Integration.
-random_paper: 102
+random_paper: 13
 score:
   band: minimal
   composite: 2.2

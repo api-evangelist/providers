@@ -110,7 +110,7 @@ overview: 'Bloom & Wild is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bloom & Wild''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 16
+random_paper: 9
 score:
   band: minimal
   composite: 10.8

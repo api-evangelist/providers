@@ -49,7 +49,7 @@ name: Enbala
 nav: Providers
 network: true
 overview: Enbala is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Distributed Energy Resources, Smart Grid, and Grid Services.
-random_paper: 15
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

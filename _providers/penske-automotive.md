@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Penske expands service-scheduling AI pilot nationally
   url: https://www.autonews.com/service-and-parts/penske-automotive-group-expands-ai-pilot-nationally/
-random_paper: 4
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

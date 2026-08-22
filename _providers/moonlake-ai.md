@@ -89,7 +89,7 @@ overview: 'MoonLake AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MoonLake AI''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: emerging
   composite: 14.5

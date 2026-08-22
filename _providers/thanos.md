@@ -299,7 +299,7 @@ plans:
 - name: Thanos Plans Pricing
   plan_count: 1
   slug: thanos-plans-pricing
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Thanos Rate Limits

@@ -140,7 +140,7 @@ overview: 'Ceph publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ceph''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 118
+random_paper: 17
 score:
   band: emerging
   composite: 25.7

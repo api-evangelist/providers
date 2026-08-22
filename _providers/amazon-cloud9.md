@@ -268,7 +268,7 @@ overview: 'Amazon Cloud9 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 91
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []

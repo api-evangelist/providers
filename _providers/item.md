@@ -68,7 +68,7 @@ overview: 'Item is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Item''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 133
+random_paper: 11
 score:
   band: emerging
   composite: 11.8

@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Cargill and Continental Grain purchase Sanderson Farms ...
   url: https://www.wdam.com/2022/07/26/cargill-continental-grain-purchase-sanderson-farms-combine-with-wayne-farms/
-random_paper: 65
+random_paper: 1
 score:
   band: minimal
   composite: 7.6

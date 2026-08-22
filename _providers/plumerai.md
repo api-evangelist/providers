@@ -88,7 +88,7 @@ overview: 'Plumerai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Plumerai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 6 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 10.8

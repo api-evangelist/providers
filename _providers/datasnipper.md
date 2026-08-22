@@ -92,7 +92,7 @@ overview: 'DataSnipper is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   DataSnipper''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 136
+random_paper: 3
 score:
   band: emerging
   composite: 16.2

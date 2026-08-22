@@ -40,7 +40,7 @@ name: ConnectCapital
 nav: Providers
 network: true
 overview: ConnectCapital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Equity, Investment, Venture Capital, and Financial Services.
-random_paper: 139
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

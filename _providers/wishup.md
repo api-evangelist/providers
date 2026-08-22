@@ -76,7 +76,7 @@ overview: 'Wishup is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Wishup''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 76
+random_paper: 0
 score:
   band: emerging
   composite: 14.1

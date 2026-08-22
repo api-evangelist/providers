@@ -352,7 +352,7 @@ plans:
 - name: Arlula Plans Pricing
   plan_count: 3
   slug: arlula-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Arlula Rate Limits

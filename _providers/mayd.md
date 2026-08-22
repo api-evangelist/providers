@@ -60,7 +60,7 @@ overview: 'MAYD is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MAYD''s developer surface includes support and 3 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: minimal
   composite: 4.3

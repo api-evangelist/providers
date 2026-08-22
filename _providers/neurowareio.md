@@ -68,7 +68,7 @@ overview: 'Neuroware.io is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Neuroware.io''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 8
+random_paper: 3
 score:
   band: minimal
   composite: 3.8

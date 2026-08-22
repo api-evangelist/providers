@@ -145,7 +145,7 @@ plans:
 - name: Smallest Ai Plans Pricing
   plan_count: 4
   slug: smallest-ai-plans-pricing
-random_paper: 73
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Smallest Ai Rate Limits

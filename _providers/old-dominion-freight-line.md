@@ -141,7 +141,7 @@ press:
 - date: '2026-05-25'
   title: Old Dominion Freight Line Meets Growing Demand in Six ...
   url: https://www.dcvelocity.com/articles/51838-old-dominion-freight-line-meets-growing-demand-in-six-markets-with-new-expanded-service-centers
-random_paper: 100
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Old Dominion Freight Line Rate Limits

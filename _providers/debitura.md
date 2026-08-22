@@ -50,7 +50,7 @@ name: Debitura
 nav: Providers
 network: true
 overview: 'Debitura publishes 3 APIs on the [APIs.io](https://apis.io/) network: Customer API, Referral Partner API, and Collection Partner API. Tagged areas include Debt Collection, Accounts Receivable, Debt Recovery, FinTech, and Payments.'
-random_paper: 103
+random_paper: 8
 score:
   band: emerging
   composite: 17.0

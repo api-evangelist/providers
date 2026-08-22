@@ -139,7 +139,7 @@ overview: 'Aptera Motors publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Aptera Motors'' developer surface includes authentication, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 17
+random_paper: 14
 scopes:
 - name: Aptera Motors Scopes
   scope_count: 4

@@ -76,7 +76,7 @@ overview: 'Solace Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Solace Health''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 114
+random_paper: 4
 score:
   band: minimal
   composite: 6.1

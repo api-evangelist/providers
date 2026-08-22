@@ -253,7 +253,7 @@ plans:
 - name: Stigg Plans Pricing
   plan_count: 3
   slug: stigg-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Stigg Rate Limits

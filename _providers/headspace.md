@@ -184,7 +184,7 @@ overview: 'Headspace is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Headspace''s developer surface includes pricing, engineering blog, YouTube channel, signup flow, and 31 more developer resources.'
-random_paper: 32
+random_paper: 2
 score:
   band: emerging
   composite: 15.5

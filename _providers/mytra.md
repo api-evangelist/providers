@@ -83,7 +83,7 @@ overview: 'Mytra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Mytra''s developer surface includes product news and 8 more developer resources.'
-random_paper: 110
+random_paper: 11
 score:
   band: minimal
   composite: 10.0

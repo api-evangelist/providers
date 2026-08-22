@@ -154,7 +154,7 @@ plans:
 - name: Reown Plans Pricing
   plan_count: 3
   slug: reown-plans-pricing
-random_paper: 108
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Reown Rate Limits

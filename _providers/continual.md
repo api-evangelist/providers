@@ -80,7 +80,7 @@ overview: 'Continual is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Continual''s developer surface includes CLI and 8 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: minimal
   composite: 8.9

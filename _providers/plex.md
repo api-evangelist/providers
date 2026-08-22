@@ -403,7 +403,7 @@ overview: 'Plex publishes 29 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Plex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 143
+random_paper: 0
 scopes:
 - name: Plex Scopes
   scope_count: 7

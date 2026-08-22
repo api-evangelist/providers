@@ -64,7 +64,7 @@ overview: 'Nodal Industries is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Nodal Industries'' developer surface includes support and 4 more developer resources.'
-random_paper: 30
+random_paper: 10
 score:
   band: minimal
   composite: 7.6

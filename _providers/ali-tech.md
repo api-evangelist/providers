@@ -68,7 +68,7 @@ overview: 'Ali Tech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ali Tech''s developer surface includes documentation, API reference, signup flow, and 3 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 12.9

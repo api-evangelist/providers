@@ -121,7 +121,7 @@ overview: 'Ethos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ethos'' developer surface includes GitHub presence, engineering blog, and 16 more developer resources.'
-random_paper: 114
+random_paper: 0
 score:
   band: emerging
   composite: 14.3

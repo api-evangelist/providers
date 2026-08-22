@@ -159,7 +159,7 @@ overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 117
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []

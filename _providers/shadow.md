@@ -119,7 +119,7 @@ plans:
 - name: Shadow Plans Pricing
   plan_count: 3
   slug: shadow-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Shadow Rate Limits

@@ -291,7 +291,7 @@ plans:
 - name: Aeso Plans
   plan_count: 1
   slug: aeso-plans
-random_paper: 126
+random_paper: 4
 score:
   band: developing
   composite: 43.6

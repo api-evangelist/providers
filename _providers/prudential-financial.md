@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Prudential - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-prudential/
-random_paper: 121
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Prudential Financial Rate Limits

@@ -84,7 +84,7 @@ overview: 'Season Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Season Health''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 11.8

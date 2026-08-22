@@ -57,7 +57,7 @@ name: Dribbble
 nav: Providers
 network: true
 overview: Dribbble publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 77
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

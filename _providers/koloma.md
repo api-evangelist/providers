@@ -108,7 +108,7 @@ overview: 'Koloma publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Koloma''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 17.0

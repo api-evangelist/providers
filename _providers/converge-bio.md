@@ -76,7 +76,7 @@ overview: 'Converge Bio is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Converge Bio''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: emerging
   composite: 11.5

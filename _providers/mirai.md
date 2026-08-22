@@ -104,7 +104,7 @@ overview: 'Mirai publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mirai''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 83
+random_paper: 5
 score:
   band: emerging
   composite: 19.0

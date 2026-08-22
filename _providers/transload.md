@@ -250,7 +250,7 @@ overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 12 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: thin
   composite: 29.8

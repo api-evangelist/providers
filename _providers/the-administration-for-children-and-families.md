@@ -165,7 +165,7 @@ plans:
 - name: The Administration For Children And Families Plans Pricing
   plan_count: 3
   slug: the-administration-for-children-and-families-plans-pricing
-random_paper: 52
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: The Administration For Children And Families Rate Limits

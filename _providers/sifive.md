@@ -164,7 +164,7 @@ overview: 'SiFive publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   SiFive''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 50
+random_paper: 16
 scopes:
 - name: Sifive Scopes
   scope_count: 3

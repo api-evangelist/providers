@@ -243,7 +243,7 @@ plans:
 - name: Sovrn Plans Pricing
   plan_count: 0
   slug: sovrn-plans-pricing
-random_paper: 121
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sovrn Rate Limits

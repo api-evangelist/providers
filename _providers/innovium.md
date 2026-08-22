@@ -45,7 +45,7 @@ name: Innovium
 nav: Providers
 network: true
 overview: Innovium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Semiconductors, Networking, and Ethernet Switch Silicon.
-random_paper: 140
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

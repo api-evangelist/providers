@@ -161,7 +161,7 @@ overview: 'Font Awesome publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 20 more developer resources.'
-random_paper: 45
+random_paper: 19
 scopes:
 - name: Font Awesome Scopes
   scope_count: 8

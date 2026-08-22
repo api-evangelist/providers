@@ -103,7 +103,7 @@ overview: 'IRALOGIX publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   IRALOGIX''s developer surface includes documentation, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 118
+random_paper: 2
 scopes:
 - name: Iralogix Scopes
   scope_count: 14

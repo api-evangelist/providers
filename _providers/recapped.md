@@ -131,7 +131,7 @@ plans:
 - name: Recapped Plans Pricing
   plan_count: 7
   slug: recapped-plans-pricing
-random_paper: 91
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Recapped Rate Limits

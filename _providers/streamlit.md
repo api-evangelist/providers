@@ -193,7 +193,7 @@ plans:
 - name: Streamlit Plans Pricing
   plan_count: 3
   slug: streamlit-plans-pricing
-random_paper: 87
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Streamlit Rate Limits

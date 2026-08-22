@@ -45,7 +45,7 @@ name: BlueLinx Holdings
 nav: Providers
 network: true
 overview: BlueLinx Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 129
+random_paper: 4
 score:
   band: minimal
   composite: 2.6

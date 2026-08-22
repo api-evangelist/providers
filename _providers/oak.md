@@ -61,7 +61,7 @@ name: Oak
 nav: Providers
 network: true
 overview: Oak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Security, Identity Governance, and AI Agents.
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 8.4

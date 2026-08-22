@@ -119,7 +119,7 @@ plans:
 - name: Cloudnuro Plans Pricing
   plan_count: 3
   slug: cloudnuro-plans-pricing
-random_paper: 93
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cloudnuro Rate Limits

@@ -318,7 +318,7 @@ plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 94
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits

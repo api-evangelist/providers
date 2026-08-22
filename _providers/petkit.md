@@ -57,7 +57,7 @@ name: petkit
 nav: Providers
 network: true
 overview: petkit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Tech, Smart Home, Internet of Things, and Consumer Electronics.
-random_paper: 61
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

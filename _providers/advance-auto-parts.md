@@ -420,7 +420,7 @@ press:
 - date: '2026-05-25'
   title: Advance Auto Parts reshapes footprint and 2025 results
   url: https://www.stocktitan.net/sec-filings/AAP/10-k-advance-auto-parts-inc-files-annual-report-a1f015e6e77e.html
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Advance Auto Parts Rate Limits

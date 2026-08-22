@@ -76,7 +76,7 @@ overview: 'C2FO is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   C2FO''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 64
+random_paper: 5
 score:
   band: minimal
   composite: 3.2

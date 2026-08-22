@@ -123,7 +123,7 @@ plans:
 - name: Federal Emergency Management Agency Plans Pricing
   plan_count: 3
   slug: federal-emergency-management-agency-plans-pricing
-random_paper: 74
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Federal Emergency Management Agency Rate Limits

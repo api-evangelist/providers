@@ -187,7 +187,7 @@ overview: 'Coinbase Global publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Coinbase Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 15
 score:
   band: developing
   composite: 46.7

@@ -76,7 +76,7 @@ overview: 'Showrunner is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Showrunner''s developer surface includes support and 6 more developer resources.'
-random_paper: 72
+random_paper: 2
 score:
   band: minimal
   composite: 10.9

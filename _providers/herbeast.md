@@ -40,7 +40,7 @@ name: Herbeast
 nav: Providers
 network: true
 overview: Herbeast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skin Care, Cosmetics, Consumer, and Lifestyle.
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

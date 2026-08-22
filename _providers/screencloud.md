@@ -124,7 +124,7 @@ plans:
 - name: Screencloud Plans Pricing
   plan_count: 3
   slug: screencloud-plans-pricing
-random_paper: 132
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Screencloud Rate Limits

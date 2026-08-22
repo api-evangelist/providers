@@ -64,7 +64,7 @@ overview: 'Binaris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Binaris'' developer surface includes CLI and 4 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 8.9

@@ -1759,7 +1759,7 @@ plans:
 - name: Navision Plans Pricing
   plan_count: 5
   slug: navision-plans-pricing
-random_paper: 126
+random_paper: 10
 rate_limits:
 - limit_count: 20
   name: Navision Rate Limits

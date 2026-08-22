@@ -380,7 +380,7 @@ overview: 'Legendary Entertainment publishes 43 APIs on the [APIs.io](https://ap
 
 
   Legendary Entertainment''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: thin
   composite: 31.9

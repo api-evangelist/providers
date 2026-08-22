@@ -49,7 +49,7 @@ name: Pulse Space
 nav: Providers
 network: true
 overview: Pulse Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Satellites, and Power.
-random_paper: 79
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

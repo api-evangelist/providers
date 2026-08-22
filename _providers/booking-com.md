@@ -297,7 +297,7 @@ plans:
 - name: Booking Com Plans Pricing
   plan_count: 1
   slug: booking-com-plans-pricing
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Booking Com Rate Limits

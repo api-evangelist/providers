@@ -167,7 +167,7 @@ plans:
 - name: Storyclash Plans Pricing
   plan_count: 3
   slug: storyclash-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Storyclash Rate Limits

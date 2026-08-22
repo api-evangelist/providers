@@ -147,7 +147,7 @@ plans:
 - name: Magaya Plans Pricing
   plan_count: 2
   slug: magaya-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Magaya Rate Limits

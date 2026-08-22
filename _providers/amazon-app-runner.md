@@ -2050,7 +2050,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
-random_paper: 84
+random_paper: 1
 rules:
 - effective_rule_count: 6
   extends: []

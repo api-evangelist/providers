@@ -53,7 +53,7 @@ name: Naranga
 nav: Providers
 network: true
 overview: Naranga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Operations, Lead Management, CRM, and Training.
-random_paper: 132
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

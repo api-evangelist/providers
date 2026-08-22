@@ -40,7 +40,7 @@ name: Wrapp
 nav: Providers
 network: true
 overview: Wrapp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 107
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

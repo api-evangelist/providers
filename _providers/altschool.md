@@ -40,7 +40,7 @@ name: AltSchool
 nav: Providers
 network: true
 overview: AltSchool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Personalized Learning, and K-12.
-random_paper: 75
+random_paper: 3
 score:
   band: minimal
   composite: 0.9

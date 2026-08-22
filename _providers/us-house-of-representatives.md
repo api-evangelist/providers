@@ -145,7 +145,7 @@ plans:
 - name: Us House Of Representatives Plans Pricing
   plan_count: 3
   slug: us-house-of-representatives-plans-pricing
-random_paper: 82
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Us House Of Representatives Rate Limits

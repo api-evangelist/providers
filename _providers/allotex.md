@@ -221,7 +221,7 @@ overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Allotex''s developer surface includes support, authentication, and 31 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
   composite: 21.5

@@ -92,7 +92,7 @@ overview: 'Barakah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Barakah''s developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 118
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

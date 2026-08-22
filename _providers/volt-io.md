@@ -224,7 +224,7 @@ overview: 'Volt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Acc
 
 
   Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 30 more developer resources.'
-random_paper: 118
+random_paper: 0
 score:
   band: developing
   composite: 42.2

@@ -45,7 +45,7 @@ name: Minova Pharma
 nav: Providers
 network: true
 overview: Minova Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceutical, Drug Discovery, and Life Sciences.
-random_paper: 136
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

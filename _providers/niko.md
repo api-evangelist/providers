@@ -49,7 +49,7 @@ name: Niko
 nav: Providers
 network: true
 overview: Niko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Solar, Renewable Energy, and Energy Efficiency.
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

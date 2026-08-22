@@ -140,7 +140,7 @@ overview: 'Arena publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Arena''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 72
+random_paper: 15
 score:
   band: developing
   composite: 39.7

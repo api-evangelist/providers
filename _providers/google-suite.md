@@ -133,7 +133,7 @@ plans:
 - name: Google Suite Plans Pricing
   plan_count: 3
   slug: google-suite-plans-pricing
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Suite Rate Limits

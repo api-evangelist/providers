@@ -157,7 +157,7 @@ overview: 'Kick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kick''s developer surface includes documentation, API reference, quickstart, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 120
+random_paper: 19
 scopes:
 - name: Kick Scopes
   scope_count: 2

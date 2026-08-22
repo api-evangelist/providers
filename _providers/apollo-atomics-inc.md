@@ -56,7 +56,7 @@ overview: 'Apollo Atomics Inc is profiled on the [APIs.io](https://apis.io/) net
 
 
   Apollo Atomics Inc''s developer surface includes support and 2 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: minimal
   composite: 4.3

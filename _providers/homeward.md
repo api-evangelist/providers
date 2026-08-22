@@ -175,7 +175,7 @@ overview: 'Homeward publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Homeward''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: developing
   composite: 39.8

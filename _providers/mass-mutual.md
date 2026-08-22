@@ -65,7 +65,7 @@ name: MassMutual
 nav: Providers
 network: true
 overview: MassMutual is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Financial Services, Fortune 500, Insurance, and Investment Management.
-random_paper: 102
+random_paper: 11
 score:
   band: minimal
   composite: 2.6

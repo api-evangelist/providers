@@ -57,7 +57,7 @@ name: IQI Inc (Beijing AIQI Technology)
 nav: Providers
 network: true
 overview: IQI Inc (Beijing AIQI Technology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Smart Hardware, Building Blocks, and Consumer Electronics.
-random_paper: 86
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

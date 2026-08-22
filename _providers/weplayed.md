@@ -64,7 +64,7 @@ overview: 'WePlayed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   WePlayed''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 114
+random_paper: 19
 score:
   band: minimal
   composite: 2.5

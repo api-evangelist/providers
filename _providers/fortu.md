@@ -62,7 +62,7 @@ name: Fortu
 nav: Providers
 network: true
 overview: Fortu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Banking, Wealth Management, and Banking as a Service.
-random_paper: 113
+random_paper: 14
 score:
   band: minimal
   composite: 1.5

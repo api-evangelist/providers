@@ -228,7 +228,7 @@ overview: 'Terminal 3 publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: developing
   composite: 42.6

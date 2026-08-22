@@ -125,7 +125,7 @@ overview: 'BlackSky is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlackSky''s developer surface includes YouTube channel, engineering blog, and 18 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: minimal
   composite: 5.5

@@ -134,7 +134,7 @@ overview: 'Aliro Quantum is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Aliro Quantum''s developer surface includes getting-started guide, product news, engineering blog, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: minimal
   composite: 4.2

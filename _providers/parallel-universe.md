@@ -96,7 +96,7 @@ overview: 'Parallel Universe is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Parallel Universe''s developer surface includes documentation, engineering blog, support, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 132
+random_paper: 7
 score:
   band: emerging
   composite: 13.6

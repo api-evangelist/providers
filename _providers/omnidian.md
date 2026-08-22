@@ -90,7 +90,7 @@ overview: 'Omnidian is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Omnidian''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 102
+random_paper: 7
 score:
   band: emerging
   composite: 11.6

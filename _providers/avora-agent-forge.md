@@ -174,7 +174,7 @@ plans:
 - name: Avora Agent Forge Plans
   plan_count: 4
   slug: avora-agent-forge-plans
-random_paper: 46
+random_paper: 5
 score:
   band: developing
   composite: 40.5

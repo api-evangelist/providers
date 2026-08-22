@@ -49,7 +49,7 @@ name: The League
 nav: Providers
 network: true
 overview: The League is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Dating, Social, and Mobile Application.
-random_paper: 99
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

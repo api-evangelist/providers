@@ -101,7 +101,7 @@ overview: 'Gigya publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gigya''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: emerging
   composite: 16.9

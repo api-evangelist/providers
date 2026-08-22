@@ -131,7 +131,7 @@ plans:
 - name: Serif Health Plans Pricing
   plan_count: 4
   slug: serif-health-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Serif Health Rate Limits

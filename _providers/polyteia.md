@@ -193,7 +193,7 @@ overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 20 more developer resources.'
-random_paper: 126
+random_paper: 10
 score:
   band: strong
   composite: 55.6

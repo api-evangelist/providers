@@ -73,7 +73,7 @@ name: Atlas Card
 nav: Providers
 network: true
 overview: Atlas Card is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Credit Cards, and Charge Card.
-random_paper: 49
+random_paper: 19
 score:
   band: minimal
   composite: 10.8

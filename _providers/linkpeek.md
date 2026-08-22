@@ -180,7 +180,7 @@ plans:
 - name: Linkpeek Plans
   plan_count: 3
   slug: linkpeek-plans
-random_paper: 106
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Linkpeek Rate Limits

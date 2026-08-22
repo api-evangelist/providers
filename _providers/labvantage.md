@@ -132,7 +132,7 @@ plans:
 - name: Labvantage Plans Pricing
   plan_count: 1
   slug: labvantage-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Labvantage Rate Limits

@@ -212,7 +212,7 @@ overview: 'CMA CGM publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   CMA CGM''s developer surface includes developer portal, getting-started guide, release notes, support, YouTube channel, and 26 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: emerging
   composite: 11.3

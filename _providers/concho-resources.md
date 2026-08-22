@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: ConocoPhillips to buy Concho Resources for $9.7 bln in ...
   url: https://www.reuters.com/world/asia-pacific/conocophillips-buy-concho-resources-97-bln-2020s-top-shale-deal-2020-10-19/
-random_paper: 27
+random_paper: 7
 score:
   band: minimal
   composite: 2.1

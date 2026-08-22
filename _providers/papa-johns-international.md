@@ -102,7 +102,7 @@ plans:
 - name: Papa Johns International Plans Pricing
   plan_count: 1
   slug: papa-johns-international-plans-pricing
-random_paper: 70
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Papa Johns International Rate Limits

@@ -139,7 +139,7 @@ plans:
 - name: Moyasar Plans Pricing
   plan_count: 2
   slug: moyasar-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Moyasar Rate Limits

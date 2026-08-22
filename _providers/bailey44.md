@@ -68,7 +68,7 @@ overview: 'Bailey44 is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bailey44''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 9.7

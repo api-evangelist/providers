@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: 'RRD Survey: Marketers Embrace Technology to ...'
   url: https://www.businesswire.com/news/home/20240411726617/en/RRD-Survey-Marketers-Embrace-Technology-to-Strategically-Integrate-Print-and-Digital
-random_paper: 5
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rr Donnelley And Sons Rate Limits

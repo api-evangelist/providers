@@ -169,7 +169,7 @@ overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 75
+random_paper: 3
 score:
   band: developing
   composite: 50.8

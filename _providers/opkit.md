@@ -135,7 +135,7 @@ plans:
 - name: Opkit Plans Pricing
   plan_count: 1
   slug: opkit-plans-pricing
-random_paper: 104
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Opkit Rate Limits

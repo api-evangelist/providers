@@ -77,7 +77,7 @@ plans:
 - name: Pluton Biosciences Plans Pricing
   plan_count: 1
   slug: pluton-biosciences-plans-pricing
-random_paper: 90
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Pluton Biosciences Rate Limits

@@ -649,7 +649,7 @@ plans:
 - name: Agorapulse Plans Pricing
   plan_count: 4
   slug: agorapulse-plans-pricing
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Agorapulse Rate Limits

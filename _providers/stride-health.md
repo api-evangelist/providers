@@ -68,7 +68,7 @@ overview: 'Stride Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Stride Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 134
+random_paper: 3
 score:
   band: minimal
   composite: 9.7

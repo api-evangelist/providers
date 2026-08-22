@@ -72,7 +72,7 @@ overview: 'Halo Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Halo Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 52
+random_paper: 3
 score:
   band: minimal
   composite: 10.5

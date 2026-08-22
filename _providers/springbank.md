@@ -40,7 +40,7 @@ name: Springbank
 nav: Providers
 network: true
 overview: Springbank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

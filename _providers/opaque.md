@@ -215,7 +215,7 @@ overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: developing
   composite: 45.5

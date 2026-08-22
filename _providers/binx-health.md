@@ -104,7 +104,7 @@ overview: 'Binx Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Binx Health''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: emerging
   composite: 11.2

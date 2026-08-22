@@ -68,7 +68,7 @@ overview: 'Edgefolio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Edgefolio''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 48
+random_paper: 18
 score:
   band: minimal
   composite: 8.1

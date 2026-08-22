@@ -304,7 +304,7 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: developing
   composite: 52.1

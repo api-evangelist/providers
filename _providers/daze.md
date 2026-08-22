@@ -64,7 +64,7 @@ overview: 'Daze is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Daze''s developer surface includes support and 4 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

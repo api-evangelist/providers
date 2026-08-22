@@ -291,7 +291,7 @@ plans:
 - name: University Of Chile Plans Pricing
   plan_count: 2
   slug: university-of-chile-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: University Of Chile Rate Limits

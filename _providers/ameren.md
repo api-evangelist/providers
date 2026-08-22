@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: Ameren Announces 2025 Results, Affirms Guidance for 2026 ...
   url: https://www.amereninvestors.com/investors/financial-releases/financial-releases-details/2026/Ameren-Announces-2025-Results-Affirms-Guidance-for-2026-Earnings-and-Issues-Long-Term-Growth-Guidance/default.aspx
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Ameren Rate Limits

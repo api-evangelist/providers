@@ -40,7 +40,7 @@ name: GoInstant
 nav: Providers
 network: true
 overview: GoInstant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Time, Collaboration, Co-Browsing, and Backend as a Service.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

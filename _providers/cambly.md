@@ -76,7 +76,7 @@ overview: 'Cambly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cambly''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: emerging
   composite: 12.9

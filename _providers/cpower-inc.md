@@ -84,7 +84,7 @@ overview: 'CPower, Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CPower, Inc.''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 121
+random_paper: 7
 score:
   band: emerging
   composite: 15.6

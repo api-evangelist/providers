@@ -281,7 +281,7 @@ plans:
 - name: Leadspace Plans Pricing
   plan_count: 4
   slug: leadspace-plans-pricing
-random_paper: 36
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Leadspace Rate Limits

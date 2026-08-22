@@ -171,7 +171,7 @@ overview: 'Kite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kite''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, changelog, authentication, and 21 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: thin
   composite: 34.3

@@ -188,7 +188,7 @@ plans:
 - name: Bonitasoft Plans Pricing
   plan_count: 4
   slug: bonitasoft-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Bonitasoft Rate Limits

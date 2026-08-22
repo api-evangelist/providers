@@ -54,7 +54,7 @@ overview: 'SteadyGateway publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SteadyGateway''s developer surface includes documentation, pricing, and 2 more developer resources.'
-random_paper: 63
+random_paper: 18
 score:
   band: minimal
   composite: 9.7

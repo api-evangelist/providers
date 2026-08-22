@@ -129,7 +129,7 @@ plans:
 - name: Ipregistry Plans Pricing
   plan_count: 6
   slug: ipregistry-plans-pricing
-random_paper: 63
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Ipregistry Rate Limits

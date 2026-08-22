@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: 'Berkshire Hathaway Specialty''s Mirza: How Generative AI ...'
   url: https://www.ambest.com/video/MediaArchive.aspx?lid=1068187747001&vid=6341117189112
-random_paper: 71
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Berkshire Hathaway Rate Limits

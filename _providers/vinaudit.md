@@ -202,7 +202,7 @@ plans:
 - name: Vinaudit Plans Pricing
   plan_count: 4
   slug: vinaudit-plans-pricing
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Vinaudit Rate Limits

@@ -100,7 +100,7 @@ overview: 'Nexamp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nexamp''s developer surface includes developer portal, support, engineering blog, and 13 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 14.7

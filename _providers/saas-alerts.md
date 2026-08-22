@@ -169,7 +169,7 @@ plans:
 - name: Saas Alerts Plans Pricing
   plan_count: 3
   slug: saas-alerts-plans-pricing
-random_paper: 77
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Saas Alerts Rate Limits

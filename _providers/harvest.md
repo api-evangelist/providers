@@ -185,7 +185,7 @@ overview: 'Harvest publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Harvest''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: thin
   composite: 35.6

@@ -47,7 +47,7 @@ name: Renegade Insurance
 nav: Providers
 network: true
 overview: Renegade Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Property and Casualty, Insurtech, and Insurance Agency.
-random_paper: 52
+random_paper: 13
 score:
   band: minimal
   composite: 2.3

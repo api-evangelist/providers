@@ -53,7 +53,7 @@ name: Pratt & Whitney
 nav: Providers
 network: true
 overview: Pratt & Whitney is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Aviation, Manufacturing, and Engines.
-random_paper: 89
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

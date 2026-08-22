@@ -68,7 +68,7 @@ overview: 'Flock Homes is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Flock Homes'' developer surface includes signup flow and 5 more developer resources.'
-random_paper: 69
+random_paper: 20
 score:
   band: emerging
   composite: 11.8

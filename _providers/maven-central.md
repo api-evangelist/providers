@@ -130,7 +130,7 @@ plans:
 - name: Maven Central Plans Pricing
   plan_count: 3
   slug: maven-central-plans-pricing
-random_paper: 133
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Maven Central Rate Limits

@@ -117,7 +117,7 @@ overview: 'Level is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Level''s developer surface includes documentation, getting-started guide, support, and 15 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 20.1

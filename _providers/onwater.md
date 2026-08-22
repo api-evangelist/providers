@@ -57,7 +57,7 @@ name: OnWater
 nav: Providers
 network: true
 overview: OnWater publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 23
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

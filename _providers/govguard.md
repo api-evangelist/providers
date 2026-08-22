@@ -84,7 +84,7 @@ overview: 'GovGuard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GovGuard''s developer surface includes support and 9 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: emerging
   composite: 12.1

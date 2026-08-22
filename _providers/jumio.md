@@ -147,7 +147,7 @@ plans:
 - name: Jumio Plans Pricing
   plan_count: 1
   slug: jumio-plans-pricing
-random_paper: 101
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Jumio Rate Limits

@@ -45,7 +45,7 @@ name: Garrett Motion
 nav: Providers
 network: true
 overview: Garrett Motion is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 127
+random_paper: 19
 score:
   band: minimal
   composite: 2.6

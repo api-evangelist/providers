@@ -72,7 +72,7 @@ overview: 'Industrious is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Industrious'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 33
+random_paper: 7
 score:
   band: emerging
   composite: 11.9

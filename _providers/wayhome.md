@@ -88,7 +88,7 @@ overview: 'Wayhome is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Wayhome''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: emerging
   composite: 14.6

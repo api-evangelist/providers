@@ -80,7 +80,7 @@ overview: 'Trunk Tools is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Trunk Tools'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 127
+random_paper: 15
 score:
   band: emerging
   composite: 11.2

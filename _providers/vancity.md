@@ -52,7 +52,7 @@ overview: 'Vancity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vancity''s developer surface includes support and 3 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 2.4

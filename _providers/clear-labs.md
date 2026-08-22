@@ -76,7 +76,7 @@ overview: 'Clear Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Clear Labs'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: emerging
   composite: 11.5

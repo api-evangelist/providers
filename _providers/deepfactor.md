@@ -50,7 +50,7 @@ name: deepfactor
 nav: Providers
 network: true
 overview: deepfactor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Application Security, DevSecOps, and SBOM.
-random_paper: 10
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

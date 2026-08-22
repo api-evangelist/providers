@@ -128,7 +128,7 @@ overview: 'Rerun is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rerun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: emerging
   composite: 25.1

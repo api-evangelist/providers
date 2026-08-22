@@ -62,7 +62,7 @@ overview: 'AI Dev Jobs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   AI Dev Jobs'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: minimal
   composite: 5.9

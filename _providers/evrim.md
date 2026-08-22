@@ -254,7 +254,7 @@ plans:
 - name: Evrim Plans Pricing
   plan_count: 0
   slug: evrim-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Evrim Rate Limits

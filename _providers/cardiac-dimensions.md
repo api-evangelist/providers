@@ -55,7 +55,7 @@ name: Cardiac Dimensions
 nav: Providers
 network: true
 overview: Cardiac Dimensions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Cardiology, Heart Failure, and Structural Heart.
-random_paper: 49
+random_paper: 10
 score:
   band: minimal
   composite: 2.9

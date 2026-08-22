@@ -100,7 +100,7 @@ plans:
 - name: Descartes Underwriting Plans Pricing
   plan_count: 0
   slug: descartes-underwriting-plans-pricing
-random_paper: 82
+random_paper: 7
 score:
   band: minimal
   composite: 10.8

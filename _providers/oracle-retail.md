@@ -301,7 +301,7 @@ plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
   slug: oracle-retail-plans-pricing
-random_paper: 124
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Oracle Retail Rate Limits

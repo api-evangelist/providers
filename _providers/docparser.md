@@ -205,7 +205,7 @@ plans:
 - name: Docparser Plans Pricing
   plan_count: 4
   slug: docparser-plans-pricing
-random_paper: 69
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Docparser Rate Limits

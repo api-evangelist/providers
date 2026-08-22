@@ -49,7 +49,7 @@ name: Coinbooks
 nav: Providers
 network: true
 overview: Coinbooks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Cryptocurrency, and Bookkeeping.
-random_paper: 73
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

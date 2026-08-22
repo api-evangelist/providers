@@ -415,7 +415,7 @@ plans:
 - name: Mcafee Plans Pricing
   plan_count: 1
   slug: mcafee-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Mcafee Rate Limits

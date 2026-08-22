@@ -128,7 +128,7 @@ overview: 'Feedzai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Feedzai''s developer surface includes documentation, support, engineering blog, and 18 more developer resources.'
-random_paper: 132
+random_paper: 14
 score:
   band: thin
   composite: 27.8

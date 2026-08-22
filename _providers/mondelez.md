@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Release Details
   url: https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-joins-forces-accenture-and-publicis
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 3.5

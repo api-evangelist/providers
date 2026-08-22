@@ -109,7 +109,7 @@ overview: 'Xelix is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xelix''s developer surface includes support, engineering blog, and 14 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: emerging
   composite: 16.3

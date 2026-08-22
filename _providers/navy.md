@@ -61,7 +61,7 @@ name: Navy
 nav: Providers
 network: true
 overview: Navy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, and Defense.
-random_paper: 148
+random_paper: 5
 score:
   band: minimal
   composite: 2.8

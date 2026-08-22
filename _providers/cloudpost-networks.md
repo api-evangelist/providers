@@ -76,7 +76,7 @@ overview: 'Cloudpost Networks is profiled on the [APIs.io](https://apis.io/) net
 
 
   Cloudpost Networks'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 139
+random_paper: 16
 score:
   band: emerging
   composite: 14.9

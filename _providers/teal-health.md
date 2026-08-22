@@ -76,7 +76,7 @@ overview: 'Teal Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Teal Health''s developer surface includes engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 54
+random_paper: 5
 score:
   band: emerging
   composite: 15.2

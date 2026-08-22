@@ -56,7 +56,7 @@ overview: 'Hexagon Bio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hexagon Bio''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 3.8

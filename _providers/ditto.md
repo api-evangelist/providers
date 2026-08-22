@@ -39,7 +39,7 @@ name: Ditto
 nav: Providers
 network: true
 overview: Ditto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Duplicate, Developer Tools, Database, and Synchronization.
-random_paper: 101
+random_paper: 2
 score:
   band: minimal
   composite: 4.6

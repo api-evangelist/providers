@@ -68,7 +68,7 @@ overview: 'Bastille Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bastille Networks'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 147
+random_paper: 1
 score:
   band: minimal
   composite: 9.3

@@ -180,7 +180,7 @@ overview: 'Buxfer publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Buxfer''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: developing
   composite: 46.5

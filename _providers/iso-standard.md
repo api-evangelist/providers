@@ -56,7 +56,7 @@ overview: 'ISO Standard is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   The ISO Standard catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 33
+random_paper: 7
 rules:
 - effective_rule_count: 0
   extends: []

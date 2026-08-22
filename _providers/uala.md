@@ -137,7 +137,7 @@ overview: 'Ualá is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ualá''s developer surface includes engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 121
+random_paper: 20
 score:
   band: minimal
   composite: 2.0

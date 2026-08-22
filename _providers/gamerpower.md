@@ -170,7 +170,7 @@ plans:
 - name: Gamerpower Plans Pricing
   plan_count: 2
   slug: gamerpower-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Gamerpower Rate Limits

@@ -321,7 +321,7 @@ overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://a
 
 
   Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 71
+random_paper: 20
 scopes:
 - name: Hellosign Scopes
   scope_count: 7

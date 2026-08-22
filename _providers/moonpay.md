@@ -199,7 +199,7 @@ overview: 'MoonPay publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   MoonPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: strong
   composite: 58.2

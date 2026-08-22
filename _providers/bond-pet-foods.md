@@ -155,7 +155,7 @@ overview: 'Bond Pet Foods publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 36
+random_paper: 12
 score:
   band: thin
   composite: 32.5

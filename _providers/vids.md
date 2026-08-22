@@ -80,7 +80,7 @@ overview: 'Google Vids is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Google Vids'' developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: minimal
   composite: 10.7

@@ -189,7 +189,7 @@ overview: 'Glia publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glia''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, authentication, and 28 more developer resources.'
-random_paper: 115
+random_paper: 14
 score:
   band: developing
   composite: 41.0

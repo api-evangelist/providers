@@ -60,7 +60,7 @@ overview: 'Integrated Development Environment is profiled on the [APIs.io](https
 
 
   The Integrated Development Environment catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 118
+random_paper: 17
 rules:
 - effective_rule_count: 0
   extends: []

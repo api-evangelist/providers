@@ -151,7 +151,7 @@ plans:
 - name: Daz 3D Plans Pricing
   plan_count: 3
   slug: daz-3d-plans-pricing
-random_paper: 68
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Daz 3D Rate Limits

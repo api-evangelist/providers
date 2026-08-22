@@ -69,7 +69,7 @@ name: Bestmile
 nav: Providers
 network: true
 overview: Bestmile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Mobility, Fleet Orchestration, and Autonomous Vehicles.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 5.3

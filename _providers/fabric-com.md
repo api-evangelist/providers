@@ -612,7 +612,7 @@ plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
   slug: fabric-com-plans-pricing
-random_paper: 85
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Fabric Com Rate Limits

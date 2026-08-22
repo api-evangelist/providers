@@ -117,7 +117,7 @@ plans:
 - name: Vendavo Plans Pricing
   plan_count: 0
   slug: vendavo-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Vendavo Rate Limits

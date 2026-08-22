@@ -213,7 +213,7 @@ overview: 'Airstack publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Airstack''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
-random_paper: 105
+random_paper: 10
 rules:
 - effective_rule_count: 6
   extends: []

@@ -68,7 +68,7 @@ overview: 'Study Edge is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Study Edge''s developer surface includes pricing, support, signup flow, and 3 more developer resources.'
-random_paper: 125
+random_paper: 11
 score:
   band: minimal
   composite: 8.2

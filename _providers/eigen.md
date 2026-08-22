@@ -57,7 +57,7 @@ name: Eigen
 nav: Providers
 network: true
 overview: Eigen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document AI, Intelligent Document Processing, Data Extraction, and Natural Language Processing.
-random_paper: 73
+random_paper: 16
 score:
   band: minimal
   composite: 2.6

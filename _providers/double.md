@@ -76,7 +76,7 @@ overview: 'Double is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Double''s developer surface includes pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 12.7

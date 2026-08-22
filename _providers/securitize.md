@@ -211,7 +211,7 @@ overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Securitize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 52
+random_paper: 3
 scopes:
 - name: Securitize Scopes
   scope_count: 3

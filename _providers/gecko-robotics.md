@@ -95,7 +95,7 @@ overview: 'Gecko Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Gecko Robotics'' developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: emerging
   composite: 14.1

@@ -49,7 +49,7 @@ name: Healthy Labs
 nav: Providers
 network: true
 overview: Healthy Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Insurance, and Medicare.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

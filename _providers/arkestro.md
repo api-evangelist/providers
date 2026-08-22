@@ -260,7 +260,7 @@ overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 130
+random_paper: 14
 scopes:
 - name: Arkestro Scopes
   scope_count: 3

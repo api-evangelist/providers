@@ -73,7 +73,7 @@ name: GE HealthCare Technologies
 nav: Providers
 network: true
 overview: GE HealthCare Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Healthcare, Medical Devices, and Medical Imaging.
-random_paper: 86
+random_paper: 15
 score:
   band: minimal
   composite: 3.9

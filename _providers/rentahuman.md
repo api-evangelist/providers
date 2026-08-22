@@ -211,7 +211,7 @@ overview: 'Rentahuman publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentahuman''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 9
   name: Rentahuman Rate Limits

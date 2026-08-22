@@ -122,7 +122,7 @@ plans:
 - name: Eu Open Data Portal Plans Pricing
   plan_count: 3
   slug: eu-open-data-portal-plans-pricing
-random_paper: 67
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Eu Open Data Portal Rate Limits

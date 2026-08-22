@@ -84,7 +84,7 @@ overview: 'Rainwalk Technology publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Rainwalk Technology''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 49
+random_paper: 12
 score:
   band: emerging
   composite: 14.8

@@ -88,7 +88,7 @@ overview: 'Evri is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Evri''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: minimal
   composite: 6.9

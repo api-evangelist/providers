@@ -84,7 +84,7 @@ plans:
 - name: Opendata Cro Ie Plans Pricing
   plan_count: 0
   slug: opendata-cro-ie-plans-pricing
-random_paper: 123
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Opendata Cro Ie Rate Limits

@@ -88,7 +88,7 @@ overview: 'Wattpad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Wattpad''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: emerging
   composite: 15.1

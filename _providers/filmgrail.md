@@ -76,7 +76,7 @@ overview: 'Filmgrail is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Filmgrail''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: minimal
   composite: 5.8

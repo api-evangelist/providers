@@ -1002,7 +1002,6 @@ overview: 'Adobe publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Adobe''s developer surface includes sandbox, changelog, CLI, authentication, developer portal, documentation, API reference, and 69 more developer resources.'
-paper_is_own: true
 plans:
 - name: Adobe Plans Pricing
   plan_count: 5
@@ -1023,7 +1022,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 25
+random_paper: 3
 rate_limits:
 - limit_count: 10
   name: Adobe Rate Limits

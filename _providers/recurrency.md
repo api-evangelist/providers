@@ -178,7 +178,7 @@ overview: 'Recurrency publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 21 more developer resources.'
-random_paper: 47
+random_paper: 19
 scopes:
 - name: Recurrency Scopes
   scope_count: 4

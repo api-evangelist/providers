@@ -97,7 +97,7 @@ overview: 'Stilta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Stilta''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: emerging
   composite: 20.4

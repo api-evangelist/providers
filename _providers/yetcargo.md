@@ -49,7 +49,7 @@ name: Yetcargo
 nav: Providers
 network: true
 overview: Yetcargo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight, Transportation, and Cargo.
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

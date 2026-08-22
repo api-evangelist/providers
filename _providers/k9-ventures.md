@@ -80,7 +80,7 @@ overview: 'K9 Ventures is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   K9 Ventures'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: minimal
   composite: 6.2

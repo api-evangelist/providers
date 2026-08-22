@@ -174,7 +174,7 @@ overview: 'SaskPower publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   SaskPower''s developer surface includes authentication, code examples, privacy policy, support, pricing, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 97
+random_paper: 4
 score:
   band: emerging
   composite: 19.8

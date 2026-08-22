@@ -260,7 +260,7 @@ overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: developing
   composite: 52.9

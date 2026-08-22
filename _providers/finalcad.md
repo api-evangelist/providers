@@ -187,7 +187,7 @@ plans:
 - name: Finalcad Plans Pricing
   plan_count: 0
   slug: finalcad-plans-pricing
-random_paper: 73
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Finalcad Rate Limits

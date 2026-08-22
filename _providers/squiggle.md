@@ -57,7 +57,7 @@ name: Squiggle
 nav: Providers
 network: true
 overview: Squiggle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

@@ -116,7 +116,7 @@ overview: 'Poka publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Poka''s developer surface includes getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: emerging
   composite: 14.0

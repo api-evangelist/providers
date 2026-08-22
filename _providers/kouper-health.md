@@ -97,7 +97,7 @@ overview: 'Kouper Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Kouper Health''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 145
+random_paper: 14
 score:
   band: emerging
   composite: 11.2

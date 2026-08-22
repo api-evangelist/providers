@@ -64,7 +64,7 @@ overview: 'Maelyscosmetics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Maelyscosmetics'' developer surface includes support and 4 more developer resources.'
-random_paper: 131
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

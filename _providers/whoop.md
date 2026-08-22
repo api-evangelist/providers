@@ -501,7 +501,7 @@ plans:
 - name: Whoop Plans Pricing
   plan_count: 1
   slug: whoop-plans-pricing
-random_paper: 110
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Whoop Rate Limits

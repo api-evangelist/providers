@@ -190,7 +190,7 @@ overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chatwork''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: thin
   composite: 28.3

@@ -213,7 +213,7 @@ plans:
 - name: Trustwell Plans Pricing
   plan_count: 1
   slug: trustwell-plans-pricing
-random_paper: 120
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Trustwell Rate Limits

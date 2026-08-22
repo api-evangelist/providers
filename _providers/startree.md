@@ -183,7 +183,7 @@ overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   StarTree''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: developing
   composite: 51.1

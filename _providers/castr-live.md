@@ -151,7 +151,7 @@ plans:
 - name: Castr Live Plans Pricing
   plan_count: 6
   slug: castr-live-plans-pricing
-random_paper: 124
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Castr Live Rate Limits

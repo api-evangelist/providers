@@ -102,7 +102,7 @@ plans:
 - name: Cybercube Plans Pricing
   plan_count: 0
   slug: cybercube-plans-pricing
-random_paper: 54
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Cybercube Rate Limits

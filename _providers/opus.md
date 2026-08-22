@@ -290,7 +290,7 @@ overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 8
+random_paper: 14
 score:
   band: developing
   composite: 47.2

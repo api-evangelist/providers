@@ -49,7 +49,7 @@ name: Virgio
 nav: Providers
 network: true
 overview: Virgio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Fashion, Retail, and E-commerce.
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

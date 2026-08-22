@@ -89,7 +89,7 @@ plans:
 - name: Xh Plans Pricing
   plan_count: 3
   slug: xh-plans-pricing
-random_paper: 75
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Xh Rate Limits

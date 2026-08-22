@@ -93,7 +93,7 @@ plans:
 - name: Impactyn Bv Plans Pricing
   plan_count: 0
   slug: impactyn-bv-plans-pricing
-random_paper: 87
+random_paper: 17
 score:
   band: minimal
   composite: 10.9

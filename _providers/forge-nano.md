@@ -99,7 +99,7 @@ overview: 'Forge Nano is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Forge Nano''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 110
+random_paper: 17
 score:
   band: emerging
   composite: 11.5

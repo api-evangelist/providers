@@ -248,7 +248,7 @@ plans:
 - name: End Game Plans Pricing
   plan_count: 0
   slug: end-game-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: End Game Rate Limits

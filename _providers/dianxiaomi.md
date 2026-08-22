@@ -68,7 +68,7 @@ overview: 'Dianxiaomi is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dianxiaomi''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 16
+random_paper: 9
 score:
   band: emerging
   composite: 12.1

@@ -120,7 +120,7 @@ overview: 'Heeler is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Heeler''s developer surface includes pricing, signup flow, engineering blog, support, CLI, and 14 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: thin
   composite: 26.7

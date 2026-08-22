@@ -64,7 +64,7 @@ overview: 'Medley is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Medley''s developer surface includes developer portal and 4 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: emerging
   composite: 11.1

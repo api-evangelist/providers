@@ -57,7 +57,7 @@ name: Urban Observatory
 nav: Providers
 network: true
 overview: Urban Observatory publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 9
+random_paper: 12
 score:
   band: minimal
   composite: 4.2

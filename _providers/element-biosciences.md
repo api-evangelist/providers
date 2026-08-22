@@ -214,7 +214,7 @@ overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io
 
 
   Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 13
+random_paper: 18
 scopes:
 - name: Element Biosciences Scopes
   scope_count: 12

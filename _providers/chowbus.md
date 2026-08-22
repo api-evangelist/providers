@@ -112,7 +112,7 @@ overview: 'Chowbus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Chowbus'' developer surface includes pricing, signup flow, engineering blog, product news, and 15 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 10.9

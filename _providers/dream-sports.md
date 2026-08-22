@@ -558,7 +558,7 @@ overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 27 more developer resources.'
-random_paper: 57
+random_paper: 10
 scopes:
 - name: Dream Sports Scopes
   scope_count: 7

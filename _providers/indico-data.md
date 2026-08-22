@@ -184,7 +184,7 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: developing
   composite: 48.9

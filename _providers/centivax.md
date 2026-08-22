@@ -80,7 +80,7 @@ overview: 'Centivax is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Centivax''s developer surface includes support, engineering blog, YouTube channel, and 6 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: minimal
   composite: 7.6

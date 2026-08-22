@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: DNOW and MRC Global to Combine in All-Stock ...
   url: https://www.sec.gov/Archives/edgar/data/1439095/000119312525149152/d75113dex991.htm
-random_paper: 98
+random_paper: 5
 score:
   band: minimal
   composite: 2.7

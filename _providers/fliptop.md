@@ -40,7 +40,7 @@ name: Fliptop
 nav: Providers
 network: true
 overview: Fliptop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Predictive Marketing, Customer Intelligence, Lead Scoring, and Data Science.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

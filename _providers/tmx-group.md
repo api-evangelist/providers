@@ -184,7 +184,7 @@ plans:
 - name: Tmx Group Plans
   plan_count: 10
   slug: tmx-group-plans
-random_paper: 53
+random_paper: 2
 rate_limits:
 - limit_count: 11
   name: Tmx Group Rate Limits

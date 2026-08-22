@@ -153,7 +153,7 @@ overview: 'Airbrake publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Airbrake''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 88
+random_paper: 14
 score:
   band: thin
   composite: 29.2

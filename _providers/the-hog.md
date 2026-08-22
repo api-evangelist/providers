@@ -242,7 +242,7 @@ plans:
 - name: The Hog Plans Pricing
   plan_count: 2
   slug: the-hog-plans-pricing
-random_paper: 88
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: The Hog Rate Limits

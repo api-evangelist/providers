@@ -49,7 +49,7 @@ name: Pandorum Technologies
 nav: Providers
 network: true
 overview: Pandorum Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Tissue Engineering, Regenerative Medicine, and Life Sciences.
-random_paper: 113
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

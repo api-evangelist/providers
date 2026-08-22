@@ -132,7 +132,7 @@ overview: 'Boosted Commerce publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Boosted Commerce''s developer surface includes support, authentication, and 18 more developer resources.'
-random_paper: 1
+random_paper: 2
 score:
   band: emerging
   composite: 20.5

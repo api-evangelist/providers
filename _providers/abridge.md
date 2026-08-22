@@ -182,7 +182,7 @@ plans:
 - name: Abridge Plans Pricing
   plan_count: 0
   slug: abridge-plans-pricing
-random_paper: 122
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Abridge Rate Limits

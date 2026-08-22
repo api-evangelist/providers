@@ -137,7 +137,7 @@ overview: 'Celer Network publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Celer Network''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: thin
   composite: 27.3

@@ -166,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: CMS Energy Exceeds Earnings Guidance in 2025, Raises ...
   url: https://www.prnewswire.com/news-releases/cms-energy-exceeds-earnings-guidance-in-2025-raises-2026-adjusted-eps-guidance-302679615.html
-random_paper: 124
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Cms Energy Rate Limits

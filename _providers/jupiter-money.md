@@ -165,7 +165,7 @@ overview: 'Jupiter Money is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Jupiter Money''s developer surface includes engineering blog, YouTube channel, and 28 more developer resources.'
-random_paper: 27
+random_paper: 3
 score:
   band: minimal
   composite: 8.8

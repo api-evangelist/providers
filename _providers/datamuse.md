@@ -273,7 +273,7 @@ plans:
 - name: Datamuse Plans Pricing
   plan_count: 2
   slug: datamuse-plans-pricing
-random_paper: 107
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Datamuse Rate Limits

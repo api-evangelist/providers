@@ -76,7 +76,7 @@ overview: 'Long-Term Stock Exchange is profiled on the [APIs.io](https://apis.io
 
 
   Long-Term Stock Exchange''s developer surface includes documentation, support, engineering blog, pricing, and 4 more developer resources.'
-random_paper: 6
+random_paper: 17
 score:
   band: emerging
   composite: 12.9

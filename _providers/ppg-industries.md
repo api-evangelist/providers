@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: PPG
   url: https://www.facebook.com/ppgindustries/posts/in-an-environment-where-every-minute-counts-our-technical-service-helps-customer/1237238018538005/
-random_paper: 129
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

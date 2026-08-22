@@ -68,7 +68,7 @@ overview: 'Supersolid is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Supersolid''s developer surface includes support and 5 more developer resources.'
-random_paper: 55
+random_paper: 6
 score:
   band: minimal
   composite: 10.2

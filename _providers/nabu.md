@@ -84,7 +84,7 @@ overview: 'Nabu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nabu''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: emerging
   composite: 12.0

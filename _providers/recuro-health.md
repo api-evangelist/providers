@@ -134,7 +134,7 @@ overview: 'Recuro Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Recuro Health''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 139
+random_paper: 8
 scopes:
 - name: Recuro Health Scopes
   scope_count: 14

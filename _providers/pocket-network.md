@@ -462,7 +462,7 @@ plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
   slug: pocket-network-plans-pricing
-random_paper: 128
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Pocket Network Rate Limits

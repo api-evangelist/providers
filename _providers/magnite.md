@@ -317,7 +317,7 @@ plans:
 - name: Magnite Plans Pricing
   plan_count: 0
   slug: magnite-plans-pricing
-random_paper: 145
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Magnite Rate Limits

@@ -174,7 +174,7 @@ plans:
 - name: Dagshub Plans Pricing
   plan_count: 1
   slug: dagshub-plans-pricing
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Dagshub Rate Limits

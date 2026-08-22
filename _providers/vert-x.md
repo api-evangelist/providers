@@ -215,7 +215,7 @@ plans:
 - name: Vert X Plans Pricing
   plan_count: 3
   slug: vert-x-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Vert X Rate Limits

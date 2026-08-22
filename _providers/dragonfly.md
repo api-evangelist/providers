@@ -120,7 +120,7 @@ overview: 'Dragonfly is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dragonfly''s developer surface includes documentation, getting-started guide, pricing, engineering blog, FAQ, and 14 more developer resources.'
-random_paper: 72
+random_paper: 0
 score:
   band: emerging
   composite: 17.4

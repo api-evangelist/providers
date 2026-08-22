@@ -115,7 +115,7 @@ overview: 'Rockstar Games publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rockstar Games'' developer surface includes support, authentication, and 12 more developer resources.'
-random_paper: 102
+random_paper: 15
 score:
   band: emerging
   composite: 12.4

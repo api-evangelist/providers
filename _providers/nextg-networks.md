@@ -45,7 +45,7 @@ name: NextG Networks
 nav: Providers
 network: true
 overview: NextG Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Telecommunications, Wireless Infrastructure, and Distributed Antenna Systems.
-random_paper: 147
+random_paper: 18
 score:
   band: minimal
   composite: 0.6

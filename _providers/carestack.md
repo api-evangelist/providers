@@ -107,7 +107,7 @@ overview: 'CareStack publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CareStack''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 51
+random_paper: 0
 score:
   band: thin
   composite: 37.6

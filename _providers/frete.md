@@ -106,7 +106,7 @@ plans:
 - name: Frete Plans Pricing
   plan_count: 0
   slug: frete-plans-pricing
-random_paper: 87
+random_paper: 9
 score:
   band: emerging
   composite: 16.4

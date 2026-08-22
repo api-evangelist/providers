@@ -226,7 +226,7 @@ plans:
 - name: Niural Plans Pricing
   plan_count: 8
   slug: niural-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Niural Rate Limits

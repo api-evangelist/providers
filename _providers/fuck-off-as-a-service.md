@@ -57,7 +57,7 @@ name: Fuck Off as a Service
 nav: Providers
 network: true
 overview: Fuck Off as a Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
-random_paper: 45
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

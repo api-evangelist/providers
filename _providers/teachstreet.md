@@ -49,7 +49,7 @@ name: TeachStreet
 nav: Providers
 network: true
 overview: TeachStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Online Learning, Marketplace, and Classes.
-random_paper: 137
+random_paper: 4
 score:
   band: minimal
   composite: 2.5

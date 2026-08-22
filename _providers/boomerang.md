@@ -72,7 +72,7 @@ overview: 'Boomerang is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Boomerang''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
-random_paper: 60
+random_paper: 9
 score:
   band: emerging
   composite: 12.7

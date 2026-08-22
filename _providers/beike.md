@@ -53,7 +53,7 @@ name: Beike
 nav: Providers
 network: true
 overview: Beike is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Real Estate, Housing, and Property.
-random_paper: 65
+random_paper: 8
 score:
   band: minimal
   composite: 7.1

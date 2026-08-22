@@ -398,7 +398,7 @@ overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: developing
   composite: 49.3

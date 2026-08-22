@@ -116,7 +116,7 @@ overview: 'Tegus publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tegus'' developer surface includes signup flow, support, YouTube channel, authentication, and 11 more developer resources.'
-random_paper: 105
+random_paper: 6
 scopes:
 - name: Tegus Scopes
   scope_count: 14

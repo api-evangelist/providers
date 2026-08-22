@@ -156,7 +156,7 @@ overview: 'Sorare publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sorare''s developer surface includes documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Sorare Rate Limits

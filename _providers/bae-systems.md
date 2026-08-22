@@ -103,7 +103,7 @@ overview: 'BAE Systems is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BAE Systems'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 90
+random_paper: 20
 score:
   band: minimal
   composite: 10.7

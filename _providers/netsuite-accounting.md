@@ -74,7 +74,7 @@ overview: 'NetSuite Accounting publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   NetSuite Accounting''s developer surface includes documentation, pricing, signup flow, and 2 more developer resources.'
-random_paper: 56
+random_paper: 19
 score:
   band: emerging
   composite: 14.1

@@ -229,7 +229,7 @@ plans:
 - name: Jasper Plans Pricing
   plan_count: 2
   slug: jasper-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Jasper Rate Limits

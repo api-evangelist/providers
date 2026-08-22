@@ -57,7 +57,7 @@ name: Axamer
 nav: Providers
 network: true
 overview: Axamer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Restaurants, and Food Service.
-random_paper: 42
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

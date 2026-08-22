@@ -53,7 +53,7 @@ name: aplum
 nav: Providers
 network: true
 overview: aplum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Second-Hand, Luxury Fashion, Resale Marketplace, and E-Commerce.
-random_paper: 96
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

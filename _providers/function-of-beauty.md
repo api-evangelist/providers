@@ -109,7 +109,7 @@ overview: 'Function of Beauty publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Function of Beauty''s developer surface includes support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 35
+random_paper: 17
 scopes:
 - name: Function Of Beauty Scopes
   scope_count: 4

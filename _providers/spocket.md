@@ -150,7 +150,7 @@ plans:
 - name: Spocket Plans Pricing
   plan_count: 4
   slug: spocket-plans-pricing
-random_paper: 16
+random_paper: 5
 scopes:
 - name: Spocket Scopes
   scope_count: 5

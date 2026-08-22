@@ -151,7 +151,7 @@ plans:
 - name: Cerenovus Plans Pricing
   plan_count: 0
   slug: cerenovus-plans-pricing
-random_paper: 92
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Cerenovus Rate Limits

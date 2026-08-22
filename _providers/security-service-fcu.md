@@ -59,7 +59,7 @@ overview: 'Security Service Federal Credit Union is profiled on the [APIs.io](ht
 
 
   Security Service Federal Credit Union''s developer surface includes support and 5 more developer resources.'
-random_paper: 112
+random_paper: 12
 score:
   band: minimal
   composite: 9.5

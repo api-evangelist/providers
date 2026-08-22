@@ -148,7 +148,7 @@ overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tagove''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 16 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: thin
   composite: 37.8

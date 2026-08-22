@@ -84,7 +84,7 @@ plans:
 - name: Dati Unibo It Plans Pricing
   plan_count: 0
   slug: dati-unibo-it-plans-pricing
-random_paper: 78
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Dati Unibo It Rate Limits

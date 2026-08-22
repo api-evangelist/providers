@@ -151,7 +151,7 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: emerging
   composite: 25.7

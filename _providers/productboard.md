@@ -168,7 +168,7 @@ overview: 'Productboard publishes 11 APIs on the [APIs.io](https://apis.io/) net
 
 
   Productboard''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 97
+random_paper: 8
 score:
   band: thin
   composite: 33.1

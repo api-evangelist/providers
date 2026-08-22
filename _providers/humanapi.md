@@ -210,7 +210,7 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: developing
   composite: 41.8

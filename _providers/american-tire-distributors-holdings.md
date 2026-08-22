@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
-random_paper: 9
+random_paper: 15
 score:
   band: minimal
   composite: 6.9

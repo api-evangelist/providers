@@ -105,7 +105,7 @@ overview: 'Varda Space Industries is profiled on the [APIs.io](https://apis.io/)
 
 
   Varda Space Industries'' developer surface includes legal docs and 12 more developer resources.'
-random_paper: 3
+random_paper: 12
 score:
   band: minimal
   composite: 7.8

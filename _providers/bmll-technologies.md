@@ -142,7 +142,7 @@ overview: 'BMLL Technologies publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   BMLL Technologies'' developer surface includes developer portal, documentation, engineering blog, support, authentication, changelog, CLI, and 14 more developer resources.'
-random_paper: 113
+random_paper: 9
 score:
   band: thin
   composite: 31.2

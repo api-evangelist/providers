@@ -181,7 +181,7 @@ plans:
 - name: Reform Plans Pricing
   plan_count: 4
   slug: reform-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Reform Rate Limits

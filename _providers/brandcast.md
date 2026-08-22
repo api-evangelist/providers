@@ -171,7 +171,7 @@ plans:
 - name: Brandcast Plans Pricing
   plan_count: 0
   slug: brandcast-plans-pricing
-random_paper: 52
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Brandcast Rate Limits

@@ -101,7 +101,7 @@ overview: 'Youart publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Youart''s developer surface includes documentation, API reference, pricing, support, authentication, and 7 more developer resources.'
-random_paper: 80
+random_paper: 4
 score:
   band: emerging
   composite: 21.5

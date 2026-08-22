@@ -49,7 +49,7 @@ name: Prana Health
 nav: Providers
 network: true
 overview: Prana Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Fitness, Longevity, and Body Composition.
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

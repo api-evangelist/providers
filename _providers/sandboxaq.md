@@ -311,7 +311,7 @@ overview: 'SandboxAQ publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SandboxAQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 28 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: developing
   composite: 50.6

@@ -238,7 +238,7 @@ plans:
 - name: Moxe Health Plans Pricing
   plan_count: 0
   slug: moxe-health-plans-pricing
-random_paper: 73
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Moxe Health Rate Limits

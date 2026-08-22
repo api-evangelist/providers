@@ -247,7 +247,7 @@ overview: 'PlanSource publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PlanSource''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 41
+random_paper: 13
 scopes:
 - name: Plansource Scopes
   scope_count: 8

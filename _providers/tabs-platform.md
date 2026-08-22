@@ -150,7 +150,7 @@ plans:
 - name: Tabs Platform Plans Pricing
   plan_count: 3
   slug: tabs-platform-plans-pricing
-random_paper: 148
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Tabs Platform Rate Limits

@@ -120,7 +120,7 @@ plans:
 - name: Innertrends Plans Pricing
   plan_count: 5
   slug: innertrends-plans-pricing
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
   composite: 24.7

@@ -88,7 +88,7 @@ overview: 'RenoFi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   RenoFi''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 12.3

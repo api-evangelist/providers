@@ -123,7 +123,7 @@ overview: 'ServiceUp publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   ServiceUp''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 16
 scopes:
 - name: Serviceup Scopes
   scope_count: 3

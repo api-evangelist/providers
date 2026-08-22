@@ -122,7 +122,7 @@ plans:
 - name: National Institute Of Standards And Technology Plans Pricing
   plan_count: 3
   slug: national-institute-of-standards-and-technology-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: National Institute Of Standards And Technology Rate Limits

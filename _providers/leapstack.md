@@ -49,7 +49,7 @@ name: LeapStack
 nav: Providers
 network: true
 overview: LeapStack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, InsurTech, Insurance, and Health Insurance.
-random_paper: 58
+random_paper: 7
 score:
   band: minimal
   composite: 2.3

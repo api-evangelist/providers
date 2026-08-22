@@ -69,7 +69,7 @@ overview: '99Bill is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   99Bill''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: minimal
   composite: 7.0

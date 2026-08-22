@@ -64,7 +64,7 @@ overview: 'Shepherd is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Shepherd''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 3.7

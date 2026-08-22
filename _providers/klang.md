@@ -117,7 +117,7 @@ overview: 'Klang Games publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Klang Games'' developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 78
+random_paper: 0
 scopes:
 - name: Klang Scopes
   scope_count: 5

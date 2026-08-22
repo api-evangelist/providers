@@ -45,7 +45,7 @@ name: Option Care Health
 nav: Providers
 network: true
 overview: Option Care Health is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 8
+random_paper: 11
 score:
   band: minimal
   composite: 2.6

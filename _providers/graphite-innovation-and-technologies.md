@@ -64,7 +64,7 @@ overview: 'Graphite Innovation and Technologies is profiled on the [APIs.io](htt
 
 
   Graphite Innovation and Technologies'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: minimal
   composite: 8.5

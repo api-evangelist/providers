@@ -108,7 +108,7 @@ overview: 'Totus Medicines is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Totus Medicines'' developer surface includes product news, support, and 14 more developer resources.'
-random_paper: 75
+random_paper: 11
 score:
   band: minimal
   composite: 9.4

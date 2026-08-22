@@ -110,7 +110,7 @@ plans:
 - name: Oracle Financials 12 Plans Pricing
   plan_count: 3
   slug: oracle-financials-12-plans-pricing
-random_paper: 79
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Oracle Financials 12 Rate Limits

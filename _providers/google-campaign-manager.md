@@ -907,7 +907,7 @@ plans:
 - name: Google Campaign Manager Plans Pricing
   plan_count: 0
   slug: google-campaign-manager-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Google Campaign Manager Rate Limits

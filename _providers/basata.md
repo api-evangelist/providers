@@ -88,7 +88,7 @@ overview: 'Basata is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Basata''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 24
+random_paper: 11
 score:
   band: emerging
   composite: 17.8

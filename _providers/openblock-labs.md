@@ -117,7 +117,7 @@ overview: 'OpenBlock Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   OpenBlock Labs'' developer surface includes documentation, pricing, signup flow, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 79
+random_paper: 13
 scopes:
 - name: Openblock Labs Scopes
   scope_count: 0

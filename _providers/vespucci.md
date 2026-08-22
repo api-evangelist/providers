@@ -72,7 +72,7 @@ overview: 'Vespucci is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Vespucci''s developer surface includes documentation, signup flow, and 5 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: minimal
   composite: 10.1

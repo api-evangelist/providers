@@ -124,7 +124,7 @@ plans:
 - name: Rocksalt Plans Pricing
   plan_count: 5
   slug: rocksalt-plans-pricing
-random_paper: 122
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rocksalt Rate Limits

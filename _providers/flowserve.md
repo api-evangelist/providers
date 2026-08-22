@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Flowserve
   url: https://appian.com/about/explore/customers/all-customers/flowserve
-random_paper: 95
+random_paper: 2
 score:
   band: minimal
   composite: 8.9

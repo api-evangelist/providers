@@ -133,7 +133,7 @@ overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 110
+random_paper: 17
 score:
   band: thin
   composite: 28.2

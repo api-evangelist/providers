@@ -117,7 +117,7 @@ overview: 'Lentra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lentra''s developer surface includes engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 14.2

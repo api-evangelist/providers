@@ -199,7 +199,7 @@ plans:
 - name: Federated Wireless Plans Pricing
   plan_count: 0
   slug: federated-wireless-plans-pricing
-random_paper: 67
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Federated Wireless Rate Limits

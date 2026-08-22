@@ -77,7 +77,7 @@ overview: 'Florence Healthcare is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Florence Healthcare''s developer surface includes documentation, signup flow, pricing, and 5 more developer resources.'
-random_paper: 130
+random_paper: 3
 score:
   band: minimal
   composite: 10.3

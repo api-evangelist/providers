@@ -280,7 +280,7 @@ overview: 'CompanyCam publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CompanyCam''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 21
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Companycam Rate Limits

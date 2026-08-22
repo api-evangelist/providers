@@ -76,7 +76,7 @@ overview: 'Salesape is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Salesape''s developer surface includes support and 7 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 10.5

@@ -80,7 +80,7 @@ overview: 'ThredUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ThredUp''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: emerging
   composite: 11.7

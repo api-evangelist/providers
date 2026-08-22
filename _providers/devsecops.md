@@ -49,7 +49,7 @@ name: DevSecOps
 nav: Providers
 network: true
 overview: DevSecOps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Application Security, Automation, Best Practices, CI/CD, and Compliance.
-random_paper: 78
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

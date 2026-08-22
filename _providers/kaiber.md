@@ -76,7 +76,7 @@ overview: 'Kaiber is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kaiber''s developer surface includes pricing and 7 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: minimal
   composite: 9.7

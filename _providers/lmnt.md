@@ -185,7 +185,7 @@ plans:
 - name: Lmnt Plans Pricing
   plan_count: 5
   slug: lmnt-plans-pricing
-random_paper: 145
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Lmnt Rate Limits

@@ -77,7 +77,7 @@ overview: 'Fidor Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Fidor Bank''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: minimal
   composite: 7.5

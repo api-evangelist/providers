@@ -149,7 +149,7 @@ plans:
 - name: Shopee Plans Pricing
   plan_count: 1
   slug: shopee-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Shopee Rate Limits

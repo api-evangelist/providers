@@ -149,7 +149,7 @@ plans:
 - name: Lucky Cart Plans Pricing
   plan_count: 0
   slug: lucky-cart-plans-pricing
-random_paper: 129
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Lucky Cart Rate Limits

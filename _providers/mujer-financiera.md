@@ -72,7 +72,7 @@ overview: 'Mujer Financiera is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Mujer Financiera''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 142
+random_paper: 15
 score:
   band: minimal
   composite: 2.5

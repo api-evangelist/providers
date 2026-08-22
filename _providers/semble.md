@@ -166,7 +166,7 @@ overview: 'Semble publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Semble''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Semble Rate Limits

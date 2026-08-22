@@ -252,7 +252,7 @@ overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://
 
 
   UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 37 more developer resources.'
-random_paper: 115
+random_paper: 16
 score:
   band: developing
   composite: 44.3

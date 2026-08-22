@@ -84,7 +84,7 @@ overview: 'STORI AI Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   STORI AI Inc.''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 124
+random_paper: 12
 score:
   band: emerging
   composite: 12.7

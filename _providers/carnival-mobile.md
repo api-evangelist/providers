@@ -133,7 +133,7 @@ overview: 'Carnival Mobile * is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Carnival Mobile *''s developer surface includes developer portal, documentation, getting-started guide, support, changelog, sandbox, and 16 more developer resources.'
-random_paper: 35
+random_paper: 13
 score:
   band: emerging
   composite: 21.8

@@ -68,7 +68,7 @@ overview: 'Kodiak Networks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Kodiak Networks'' developer surface includes signup flow and 5 more developer resources.'
-random_paper: 75
+random_paper: 11
 score:
   band: minimal
   composite: 7.1

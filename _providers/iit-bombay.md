@@ -103,7 +103,7 @@ plans:
 - name: Iit Bombay Plans Pricing
   plan_count: 2
   slug: iit-bombay-plans-pricing
-random_paper: 111
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Iit Bombay Rate Limits

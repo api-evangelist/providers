@@ -96,7 +96,7 @@ overview: 'Newsela is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Newsela''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 22.7

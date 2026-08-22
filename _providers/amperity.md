@@ -219,7 +219,7 @@ plans:
 - name: Amperity Plans Pricing
   plan_count: 0
   slug: amperity-plans-pricing
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Amperity Rate Limits

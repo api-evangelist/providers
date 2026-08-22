@@ -72,7 +72,7 @@ overview: 'ECOVACS Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   ECOVACS Robotics'' developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 15
+random_paper: 16
 score:
   band: minimal
   composite: 9.3

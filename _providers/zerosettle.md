@@ -234,7 +234,7 @@ overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 20 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: developing
   composite: 51.1

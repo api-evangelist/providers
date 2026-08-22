@@ -45,7 +45,7 @@ name: Digit
 nav: Providers
 network: true
 overview: Digit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fintech, Personal Finance, and Savings.
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 0.3

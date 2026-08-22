@@ -62,7 +62,7 @@ name: Reibus International
 nav: Providers
 network: true
 overview: Reibus International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight, Metals, and Marketplace.
-random_paper: 9
+random_paper: 16
 score:
   band: minimal
   composite: 10.0

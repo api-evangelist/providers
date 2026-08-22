@@ -92,7 +92,7 @@ overview: 'Delightree is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Delightree''s developer surface includes documentation, support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: emerging
   composite: 17.3

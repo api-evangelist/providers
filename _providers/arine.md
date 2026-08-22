@@ -104,7 +104,7 @@ overview: 'Arine is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Arine''s developer surface includes documentation, engineering blog, support, and 14 more developer resources.'
-random_paper: 80
+random_paper: 2
 score:
   band: emerging
   composite: 18.1

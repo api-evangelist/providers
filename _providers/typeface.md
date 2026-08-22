@@ -306,7 +306,7 @@ plans:
 - name: Typeface Plans Pricing
   plan_count: 0
   slug: typeface-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Typeface Rate Limits

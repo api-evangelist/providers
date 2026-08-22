@@ -192,7 +192,7 @@ overview: 'Morning Consult publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 93
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits

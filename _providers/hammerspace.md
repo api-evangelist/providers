@@ -163,7 +163,7 @@ overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
-random_paper: 115
+random_paper: 3
 scopes:
 - name: Hammerspace Scopes
   scope_count: 36

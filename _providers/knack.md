@@ -123,7 +123,7 @@ overview: 'Knack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ob
 
 
   Knack''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 73
+random_paper: 16
 score:
   band: thin
   composite: 33.4

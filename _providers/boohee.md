@@ -49,7 +49,7 @@ name: Boohee
 nav: Providers
 network: true
 overview: Boohee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Health, Nutrition, and Weight Management.
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

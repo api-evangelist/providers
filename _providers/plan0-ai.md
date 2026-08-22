@@ -53,7 +53,7 @@ name: Plan0 Ai
 nav: Providers
 network: true
 overview: Plan0 Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Construction, Real Estate, and Cost Estimation.
-random_paper: 126
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

@@ -152,7 +152,7 @@ plans:
 - name: Callminer Plans Pricing
   plan_count: 0
   slug: callminer-plans-pricing
-random_paper: 57
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Callminer Rate Limits

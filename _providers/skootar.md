@@ -80,7 +80,7 @@ overview: 'Skootar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Skootar''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: emerging
   composite: 16.1

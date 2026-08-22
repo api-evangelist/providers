@@ -238,7 +238,7 @@ plans:
 - name: Zeplin Plans Pricing
   plan_count: 4
   slug: zeplin-plans-pricing
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Zeplin Rate Limits

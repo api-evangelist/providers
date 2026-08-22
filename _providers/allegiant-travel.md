@@ -61,7 +61,7 @@ name: Allegiant Travel
 nav: Providers
 network: true
 overview: Allegiant Travel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Airline, and Aviation.
-random_paper: 5
+random_paper: 6
 score:
   band: minimal
   composite: 3.9

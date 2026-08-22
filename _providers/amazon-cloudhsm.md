@@ -189,7 +189,7 @@ overview: 'Amazon CloudHSM publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Amazon CloudHSM''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 21 more developer resources.'
-random_paper: 64
+random_paper: 0
 rules:
 - effective_rule_count: 19
   extends: []

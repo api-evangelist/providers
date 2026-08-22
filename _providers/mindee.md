@@ -425,7 +425,7 @@ plans:
 - name: Mindee Plans Pricing
   plan_count: 4
   slug: mindee-plans-pricing
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Mindee Rate Limits

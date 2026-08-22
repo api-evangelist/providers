@@ -336,7 +336,7 @@ overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Picsart Rate Limits

@@ -257,7 +257,7 @@ overview: 'Air Canada publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Air Canada''s developer surface includes authentication, sandbox, changelog, code examples, documentation, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: thin
   composite: 32.6

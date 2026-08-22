@@ -80,7 +80,7 @@ overview: 'Trudenty is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Trudenty''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 1
+random_paper: 13
 score:
   band: emerging
   composite: 13.4

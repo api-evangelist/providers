@@ -60,7 +60,7 @@ overview: 'Suncoast Credit Union is profiled on the [APIs.io](https://apis.io/) 
 
 
   Suncoast Credit Union''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 135
+random_paper: 19
 score:
   band: minimal
   composite: 1.5

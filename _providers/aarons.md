@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: IQVentures Completes Acquisition of The Aaron's Company
   url: https://www.prnewswire.com/news-releases/iqventures-completes-acquisition-of-the-aarons-company-302267226.html
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Aarons Rate Limits

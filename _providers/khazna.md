@@ -49,7 +49,7 @@ name: Khazna
 nav: Providers
 network: true
 overview: Khazna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Financial Inclusion, and Earned Wage Access.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 1.5

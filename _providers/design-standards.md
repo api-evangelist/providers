@@ -74,7 +74,7 @@ plans:
 - name: Design Standards Plans Pricing
   plan_count: 3
   slug: design-standards-plans-pricing
-random_paper: 4
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Design Standards Rate Limits

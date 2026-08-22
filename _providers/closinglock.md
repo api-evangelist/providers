@@ -116,7 +116,7 @@ overview: 'Closinglock is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Closinglock''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 133
+random_paper: 0
 score:
   band: emerging
   composite: 12.4

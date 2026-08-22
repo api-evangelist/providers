@@ -104,7 +104,7 @@ overview: 'HomeToGo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HomeToGo''s developer surface includes support, engineering blog, legal docs, and 12 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: emerging
   composite: 13.6

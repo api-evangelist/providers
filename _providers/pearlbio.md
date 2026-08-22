@@ -49,7 +49,7 @@ name: Pearlbio
 nav: Providers
 network: true
 overview: Pearlbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Biologics, and Genome Engineering.
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

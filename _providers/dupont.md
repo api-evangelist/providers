@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: DuPont Collaborates with Uncountable to Advance AI ...
   url: https://www.prnewswire.com/news-releases/dupont-collaborates-with-uncountable-to-advance-ai-ready-labs-strategy-302758823.html
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 4.1

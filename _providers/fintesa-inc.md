@@ -49,7 +49,7 @@ name: Fintesa Inc.
 nav: Providers
 network: true
 overview: Fintesa Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Merchants.
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 1.5

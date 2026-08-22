@@ -128,7 +128,7 @@ overview: 'Masterworks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Masterworks'' developer surface includes authentication, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: emerging
   composite: 22.1

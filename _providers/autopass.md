@@ -151,7 +151,7 @@ overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 135
+random_paper: 19
 scopes:
 - name: Autopass Scopes
   scope_count: 1

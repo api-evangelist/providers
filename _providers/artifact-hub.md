@@ -208,7 +208,7 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 3
   slug: artifact-hub-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Artifact Hub Rate Limits

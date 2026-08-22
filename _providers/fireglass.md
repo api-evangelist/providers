@@ -40,7 +40,7 @@ name: Fireglass
 nav: Providers
 network: true
 overview: Fireglass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Browser Isolation, Web Security, and Acquired.
-random_paper: 66
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

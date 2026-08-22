@@ -164,7 +164,7 @@ overview: 'Caliza publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Caliza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 32
+random_paper: 19
 scopes:
 - name: Caliza Scopes
   scope_count: 10

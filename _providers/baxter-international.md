@@ -149,7 +149,7 @@ press:
 - date: '2026-05-25'
   title: Baxter CIO Rusty Patel on Resilience and AI in Healthcare
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
-random_paper: 5
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Baxter International Rate Limits

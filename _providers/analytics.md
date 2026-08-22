@@ -97,7 +97,7 @@ overview: 'Analytics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Analytics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 74
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []

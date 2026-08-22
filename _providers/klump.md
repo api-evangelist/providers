@@ -177,7 +177,7 @@ overview: 'Klump publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Klump''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: developing
   composite: 51.2

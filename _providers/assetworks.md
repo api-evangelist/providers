@@ -57,7 +57,7 @@ name: AssetWorks
 nav: Providers
 network: true
 overview: AssetWorks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Asset Management, Enterprise Asset Management, and EAM.
-random_paper: 67
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

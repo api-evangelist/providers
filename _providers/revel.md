@@ -113,7 +113,7 @@ plans:
 - name: Revel Plans Pricing
   plan_count: 2
   slug: revel-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Revel Rate Limits

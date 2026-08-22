@@ -227,7 +227,7 @@ overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   AltoIRA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 3
+random_paper: 13
 scopes:
 - name: Altoira Scopes
   scope_count: 0

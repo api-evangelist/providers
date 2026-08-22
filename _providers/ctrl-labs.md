@@ -49,7 +49,7 @@ name: CTRL-labs *
 nav: Providers
 network: true
 overview: CTRL-labs * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Neurotechnology, Neural Interface, and Electromyography.
-random_paper: 6
+random_paper: 18
 score:
   band: minimal
   composite: 5.3

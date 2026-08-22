@@ -65,7 +65,7 @@ name: Beisen
 nav: Providers
 network: true
 overview: Beisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, HR, Human Resources, and Human Capital Management.
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

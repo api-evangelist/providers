@@ -135,7 +135,7 @@ plans:
 - name: Latana Plans Pricing
   plan_count: 3
   slug: latana-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Latana Rate Limits

@@ -97,7 +97,7 @@ overview: 'Dyna Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Dyna Robotics'' developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

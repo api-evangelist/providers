@@ -125,7 +125,7 @@ overview: 'Thingsthinking publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Thingsthinking''s developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: thin
   composite: 29.3

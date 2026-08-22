@@ -84,7 +84,7 @@ overview: 'dreamgames is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   dreamgames'' developer surface includes support and 9 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 10.9

@@ -64,7 +64,7 @@ overview: 'Wise Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wise Systems'' developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 85
+random_paper: 17
 score:
   band: minimal
   composite: 8.5

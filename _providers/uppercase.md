@@ -105,7 +105,7 @@ overview: 'Uppercase publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Uppercase''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 74
+random_paper: 2
 scopes:
 - name: Uppercase Scopes
   scope_count: 4

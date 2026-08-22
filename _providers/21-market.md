@@ -61,7 +61,7 @@ name: 21 Market
 nav: Providers
 network: true
 overview: 21 Market is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Ecommerce, Resale, and Secondhand.
-random_paper: 43
+random_paper: 11
 score:
   band: minimal
   composite: 9.2

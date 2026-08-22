@@ -131,7 +131,7 @@ plans:
 - name: Google Books Plans Pricing
   plan_count: 3
   slug: google-books-plans-pricing
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Books Rate Limits

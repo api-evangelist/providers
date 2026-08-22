@@ -84,7 +84,7 @@ overview: 'Blocks is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Blocks'' developer surface includes pricing, signup flow, support, YouTube channel, and 6 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 11.3

@@ -45,7 +45,7 @@ name: SLM
 nav: Providers
 network: true
 overview: SLM is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 34
+random_paper: 17
 score:
   band: minimal
   composite: 2.6

@@ -128,7 +128,7 @@ overview: 'Lendbuzz is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lendbuzz''s developer surface includes engineering blog, product news, support, FAQ, signup flow, and 18 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 20.2

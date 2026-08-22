@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence (AI) Development Services
   url: https://www.intimetec.com/artificial-intelligence
-random_paper: 39
+random_paper: 1
 score:
   band: minimal
   composite: 2.4

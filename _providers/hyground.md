@@ -100,7 +100,7 @@ overview: 'Hyground is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hyground''s developer surface includes documentation, engineering blog, pricing, sandbox, support, YouTube channel, and 8 more developer resources.'
-random_paper: 135
+random_paper: 19
 score:
   band: emerging
   composite: 20.6

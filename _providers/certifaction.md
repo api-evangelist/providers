@@ -236,7 +236,7 @@ overview: 'Certifaction publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Certifaction''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 83
+random_paper: 15
 score:
   band: developing
   composite: 54.0

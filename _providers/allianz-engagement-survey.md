@@ -313,7 +313,7 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
 
 
   Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
-random_paper: 41
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []

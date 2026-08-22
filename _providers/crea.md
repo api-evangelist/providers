@@ -243,7 +243,7 @@ overview: 'CREA (REALTOR.ca) publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   CREA (REALTOR.ca)''s developer surface includes authentication, changelog, getting-started guide, documentation, support, engineering blog, and 37 more developer resources.'
-random_paper: 113
+random_paper: 12
 scopes:
 - name: Crea Scopes
   scope_count: 5

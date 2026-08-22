@@ -191,7 +191,7 @@ overview: 'ING Australia publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   ING Australia''s developer surface includes authentication, getting-started guide, documentation, API reference, support, and 17 more developer resources.'
-random_paper: 137
+random_paper: 6
 scopes:
 - name: Ing Australia Scopes
   scope_count: 10

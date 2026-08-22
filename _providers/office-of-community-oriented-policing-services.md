@@ -62,7 +62,7 @@ plans:
 - name: Office Of Community Oriented Policing Services Plans Pricing
   plan_count: 3
   slug: office-of-community-oriented-policing-services-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Office Of Community Oriented Policing Services Rate Limits

@@ -110,7 +110,7 @@ overview: 'ARTBIO is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   ARTBIO''s developer surface includes product news and 11 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 9.8

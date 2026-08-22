@@ -100,7 +100,7 @@ overview: 'Stellate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Stellate''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: emerging
   composite: 24.1

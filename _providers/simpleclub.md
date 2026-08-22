@@ -80,7 +80,7 @@ overview: 'Simpleclub is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Simpleclub''s developer surface includes support and 8 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: emerging
   composite: 15.2

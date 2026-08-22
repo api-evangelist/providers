@@ -40,7 +40,7 @@ name: WeMash
 nav: Providers
 network: true
 overview: WeMash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Entertainment, Media, and Mashups.
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

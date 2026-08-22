@@ -581,7 +581,7 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
-random_paper: 142
+random_paper: 5
 score:
   band: developing
   composite: 53.6

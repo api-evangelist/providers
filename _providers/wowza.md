@@ -528,7 +528,7 @@ overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 26 more developer resources.'
-random_paper: 121
+random_paper: 1
 score:
   band: developing
   composite: 46.7

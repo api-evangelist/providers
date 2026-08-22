@@ -116,7 +116,7 @@ overview: 'HashKey Cloud (HashQuark) publishes 2 APIs on the [APIs.io](https://a
 
 
   HashKey Cloud (HashQuark)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: emerging
   composite: 22.5

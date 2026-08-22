@@ -112,7 +112,7 @@ overview: 'Onward Delivery publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Onward Delivery''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 74
+random_paper: 10
 score:
   band: thin
   composite: 28.4

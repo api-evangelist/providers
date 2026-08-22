@@ -199,7 +199,7 @@ plans:
 - name: Offendersearch Api Plans Pricing
   plan_count: 2
   slug: offendersearch-api-plans-pricing
-random_paper: 42
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Offendersearch Api Rate Limits

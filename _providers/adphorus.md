@@ -45,7 +45,7 @@ name: Adphorus
 nav: Providers
 network: true
 overview: Adphorus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Travel, and Marketing.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

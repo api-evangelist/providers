@@ -150,7 +150,7 @@ plans:
 - name: Google Custom Search Plans Pricing
   plan_count: 3
   slug: google-custom-search-plans-pricing
-random_paper: 87
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Google Custom Search Rate Limits

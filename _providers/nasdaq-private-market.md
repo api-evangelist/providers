@@ -147,7 +147,7 @@ overview: 'Nasdaq Private Market publishes 1 API on the [APIs.io](https://apis.i
 
 
   Nasdaq Private Market''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 43
+random_paper: 8
 scopes:
 - name: Nasdaq Private Market Scopes
   scope_count: 7

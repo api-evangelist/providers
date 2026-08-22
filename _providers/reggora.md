@@ -114,7 +114,7 @@ plans:
 - name: Reggora Plans Pricing
   plan_count: 2
   slug: reggora-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Reggora Rate Limits

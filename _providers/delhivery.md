@@ -138,7 +138,7 @@ overview: 'Delhivery publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Delhivery''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: thin
   composite: 31.0

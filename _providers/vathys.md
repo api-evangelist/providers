@@ -49,7 +49,7 @@ name: Vathys
 nav: Providers
 network: true
 overview: Vathys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Deep Learning, Hardware, and Semiconductors.
-random_paper: 75
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

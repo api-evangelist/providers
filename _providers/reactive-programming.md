@@ -40,7 +40,7 @@ name: Reactive Programming
 nav: Providers
 network: true
 overview: Reactive Programming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asynchronous, Event Driven, Reactive Programming, and Streams.
-random_paper: 146
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

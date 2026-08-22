@@ -85,7 +85,7 @@ plans:
 - name: Dados Rs Gov Br Plans Pricing
   plan_count: 1
   slug: dados-rs-gov-br-plans-pricing
-random_paper: 90
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Dados Rs Gov Br Rate Limits

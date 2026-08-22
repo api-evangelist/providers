@@ -77,7 +77,7 @@ name: Vaire Computing
 nav: Providers
 network: true
 overview: Vaire Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Reversible Computing, and Energy Efficiency.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 4.4

@@ -182,7 +182,7 @@ plans:
 - name: Apache Maven Plans Pricing
   plan_count: 3
   slug: apache-maven-plans-pricing
-random_paper: 147
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Apache Maven Rate Limits

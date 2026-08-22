@@ -104,7 +104,7 @@ overview: 'Supernal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Supernal''s developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
   composite: 10.4

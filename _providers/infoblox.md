@@ -346,7 +346,7 @@ plans:
 - name: Infoblox Plans Pricing
   plan_count: 3
   slug: infoblox-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Infoblox Rate Limits

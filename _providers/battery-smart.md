@@ -150,7 +150,7 @@ overview: 'Battery Smart is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Battery Smart''s developer surface includes support, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: emerging
   composite: 11.3

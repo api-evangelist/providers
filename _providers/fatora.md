@@ -153,7 +153,7 @@ overview: 'Fatora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fatora''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, pricing, signup flow, and 19 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: thin
   composite: 35.3

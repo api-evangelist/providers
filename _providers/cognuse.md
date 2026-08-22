@@ -60,7 +60,7 @@ overview: 'Cognuse is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cognuse''s developer surface includes support and 3 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.6

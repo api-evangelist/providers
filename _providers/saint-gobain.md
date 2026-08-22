@@ -89,7 +89,7 @@ overview: 'Saint-Gobain is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Saint-Gobain''s developer surface includes GitHub presence and 10 more developer resources.'
-random_paper: 20
+random_paper: 15
 score:
   band: minimal
   composite: 6.4

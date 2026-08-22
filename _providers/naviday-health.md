@@ -65,7 +65,7 @@ name: Naviday Health
 nav: Providers
 network: true
 overview: Naviday Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Women's Health, Digital Health, and Wearables.
-random_paper: 82
+random_paper: 16
 score:
   band: minimal
   composite: 9.0

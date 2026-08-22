@@ -89,7 +89,7 @@ press:
 - date: '2026-03-31'
   title: Genuine Parts Company to Report First Quarter 2026 Results on April 21, 2026
   url: https://www.genpt.com/2026-03-31-Genuine-Parts-Company-to-Report-First-Quarter-2026-Results-on-April-21,-2026
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 4.6

@@ -49,7 +49,7 @@ name: Pomelo fashion
 nav: Providers
 network: true
 overview: Pomelo fashion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-Commerce, and Apparel.
-random_paper: 100
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

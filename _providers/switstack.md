@@ -195,7 +195,7 @@ plans:
 - name: Switstack Plans Pricing
   plan_count: 0
   slug: switstack-plans-pricing
-random_paper: 95
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Switstack Rate Limits

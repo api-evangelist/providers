@@ -88,7 +88,7 @@ overview: 'Cega is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cega''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 102
+random_paper: 1
 score:
   band: minimal
   composite: 6.6

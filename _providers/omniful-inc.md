@@ -349,7 +349,7 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: developing
   composite: 40.6

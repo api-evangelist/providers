@@ -183,7 +183,7 @@ plans:
 - name: Virtuosis Voice Biomarker Api Plans Pricing
   plan_count: 0
   slug: virtuosis-voice-biomarker-api-plans-pricing
-random_paper: 124
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Virtuosis Voice Biomarker Api Rate Limits

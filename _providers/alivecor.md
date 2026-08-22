@@ -136,7 +136,7 @@ overview: 'Alivecor publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Alivecor''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: thin
   composite: 29.3

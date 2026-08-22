@@ -187,7 +187,7 @@ plans:
 - name: Lokki Plans Pricing
   plan_count: 0
   slug: lokki-plans-pricing
-random_paper: 91
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Lokki Rate Limits

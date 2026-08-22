@@ -111,7 +111,7 @@ plans:
 - name: Pixelixe Plans Pricing
   plan_count: 3
   slug: pixelixe-plans-pricing
-random_paper: 127
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Pixelixe Rate Limits

@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: 2025 Columbia-Dream Sports AI Innovation Symposium
   url: https://www.newswise.com/articles/2025-columbia-dream-sports-ai-innovation-symposium
-random_paper: 67
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Cablevision Systems Rate Limits

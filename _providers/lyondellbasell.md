@@ -89,7 +89,7 @@ name: LyondellBasell
 nav: Providers
 network: true
 overview: LyondellBasell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Petrochemicals, Polymers, Polyolefins, Polyethylene, and Polypropylene.
-random_paper: 4
+random_paper: 3
 score:
   band: minimal
   composite: 5.3

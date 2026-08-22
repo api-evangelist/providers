@@ -214,7 +214,7 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 98
+random_paper: 3
 score:
   band: developing
   composite: 50.5

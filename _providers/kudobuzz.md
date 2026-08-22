@@ -230,7 +230,7 @@ plans:
 - name: Kudobuzz Plans Pricing
   plan_count: 0
   slug: kudobuzz-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Kudobuzz Rate Limits

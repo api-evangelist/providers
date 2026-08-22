@@ -60,7 +60,7 @@ overview: 'YOOX NET-A-PORTER (YNAP) is profiled on the [APIs.io](https://apis.io
 
 
   YOOX NET-A-PORTER (YNAP)''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 142
+random_paper: 20
 score:
   band: minimal
   composite: 5.8

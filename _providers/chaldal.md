@@ -139,7 +139,7 @@ overview: 'Chaldal publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 7 more developer resources.'
-random_paper: 117
+random_paper: 20
 score:
   band: thin
   composite: 27.9

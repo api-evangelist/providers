@@ -90,7 +90,7 @@ overview: 'Cyclic Materials is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cyclic Materials'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 148
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

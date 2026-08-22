@@ -231,7 +231,7 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenPhone''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, signup flow, and 22 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: strong
   composite: 55.5

@@ -133,7 +133,7 @@ plans:
 - name: Shopper Approved Plans Pricing
   plan_count: 3
   slug: shopper-approved-plans-pricing
-random_paper: 40
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Shopper Approved Rate Limits

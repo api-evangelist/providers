@@ -61,7 +61,7 @@ overview: 'Aqrose Technology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Aqrose Technology''s developer surface includes support and 3 more developer resources.'
-random_paper: 141
+random_paper: 16
 score:
   band: minimal
   composite: 6.0

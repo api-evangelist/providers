@@ -76,7 +76,7 @@ overview: 'Herbie, Herbie Plan is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Herbie, Herbie Plan''s developer surface includes pricing, engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 124
+random_paper: 20
 score:
   band: emerging
   composite: 15.4

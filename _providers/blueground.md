@@ -100,7 +100,7 @@ overview: 'Blueground is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blueground''s developer surface includes engineering blog, support, signup flow, pricing, and 12 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: emerging
   composite: 17.5

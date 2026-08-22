@@ -259,7 +259,7 @@ overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ChargeAfter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
-random_paper: 105
+random_paper: 14
 score:
   band: developing
   composite: 45.8

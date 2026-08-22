@@ -49,7 +49,7 @@ name: General Radar
 nav: Providers
 network: true
 overview: General Radar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Radar, Aerospace, and Defense.
-random_paper: 109
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

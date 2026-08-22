@@ -164,7 +164,7 @@ plans:
 - name: Sonarly Plans
   plan_count: 4
   slug: sonarly-plans
-random_paper: 31
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Sonarly Rate Limits

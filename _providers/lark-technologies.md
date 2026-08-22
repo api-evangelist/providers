@@ -108,7 +108,7 @@ overview: 'Lark is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lark''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 116
+random_paper: 12
 score:
   band: emerging
   composite: 25.6

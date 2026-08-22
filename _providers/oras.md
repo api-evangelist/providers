@@ -96,7 +96,7 @@ plans:
 - name: Oras Plans Pricing
   plan_count: 3
   slug: oras-plans-pricing
-random_paper: 139
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Oras Rate Limits

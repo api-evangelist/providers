@@ -61,7 +61,7 @@ name: Wiley
 nav: Providers
 network: true
 overview: Wiley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Publishing, Education, Academic, and Research.
-random_paper: 107
+random_paper: 8
 score:
   band: minimal
   composite: 3.0

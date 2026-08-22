@@ -116,7 +116,7 @@ overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Overhaul''s developer surface includes engineering blog, support, changelog, and 13 more developer resources.'
-random_paper: 125
+random_paper: 9
 score:
   band: emerging
   composite: 21.7

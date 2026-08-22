@@ -139,7 +139,7 @@ plans:
 - name: Imagine Ai Plans Pricing
   plan_count: 3
   slug: imagine-ai-plans-pricing
-random_paper: 83
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Imagine Ai Rate Limits

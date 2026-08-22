@@ -49,7 +49,7 @@ name: Privitar
 nav: Providers
 network: true
 overview: Privitar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Privacy, De-identification, and Data Governance.
-random_paper: 136
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

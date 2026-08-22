@@ -40,7 +40,7 @@ name: QM Technologies
 nav: Providers
 network: true
 overview: QM Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 61
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

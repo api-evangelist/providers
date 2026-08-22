@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: The Andersons, Inc. Reports First Quarter Results
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-reports-first-quarter-results-302762937.html
-random_paper: 79
+random_paper: 7
 score:
   band: minimal
   composite: 6.9

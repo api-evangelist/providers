@@ -61,7 +61,7 @@ name: SmartRent
 nav: Providers
 network: true
 overview: SmartRent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, IoT, PropTech, and Property Management.
-random_paper: 98
+random_paper: 5
 score:
   band: minimal
   composite: 5.3

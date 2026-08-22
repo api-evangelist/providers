@@ -76,7 +76,7 @@ overview: 'BabyList is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BabyList''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 113
+random_paper: 18
 score:
   band: emerging
   composite: 12.9

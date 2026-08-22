@@ -40,7 +40,7 @@ name: Paragon Solutions
 nav: Providers
 network: true
 overview: Paragon Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Surveillance, Security, and Defense.
-random_paper: 9
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

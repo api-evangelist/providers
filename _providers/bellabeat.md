@@ -49,7 +49,7 @@ name: Bellabeat
 nav: Providers
 network: true
 overview: Bellabeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Femtech, Wellness, Wearables, and Health.
-random_paper: 30
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

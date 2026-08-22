@@ -65,7 +65,7 @@ overview: 'KiddoWear is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   KiddoWear''s developer surface includes support and 4 more developer resources.'
-random_paper: 60
+random_paper: 9
 score:
   band: minimal
   composite: 10.0

@@ -137,7 +137,7 @@ plans:
 - name: Kpler Plans Pricing
   plan_count: 3
   slug: kpler-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Kpler Rate Limits

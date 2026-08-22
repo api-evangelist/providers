@@ -76,7 +76,7 @@ overview: 'Smartex is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Smartex''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 11.9

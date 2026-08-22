@@ -201,7 +201,7 @@ plans:
 - name: Eligible Plans Pricing
   plan_count: 2
   slug: eligible-plans-pricing
-random_paper: 84
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Eligible Rate Limits

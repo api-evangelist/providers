@@ -49,7 +49,7 @@ name: Offerfit
 nav: Providers
 network: true
 overview: Offerfit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Marketing, and Personalization.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

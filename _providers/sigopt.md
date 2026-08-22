@@ -61,7 +61,7 @@ name: SigOpt
 nav: Providers
 network: true
 overview: SigOpt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Optimization, Hyperparameter Tuning, and Experimentation.
-random_paper: 66
+random_paper: 11
 score:
   band: minimal
   composite: 6.8

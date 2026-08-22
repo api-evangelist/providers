@@ -124,7 +124,7 @@ overview: 'Clone publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clone''s developer surface includes YouTube channel and 18 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: emerging
   composite: 19.7

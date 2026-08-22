@@ -57,7 +57,7 @@ name: EquiLibre
 nav: Providers
 network: true
 overview: EquiLibre is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Algorithmic Trading.
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 1.2

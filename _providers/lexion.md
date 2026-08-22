@@ -109,7 +109,7 @@ plans:
 - name: Lexion Plans Pricing
   plan_count: 1
   slug: lexion-plans-pricing
-random_paper: 59
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Lexion Rate Limits

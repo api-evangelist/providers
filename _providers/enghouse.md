@@ -49,7 +49,7 @@ name: Enghouse
 nav: Providers
 network: true
 overview: Enghouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software, Contact Center, Customer Experience, and Telecommunications.
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 1.8

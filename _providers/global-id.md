@@ -81,7 +81,7 @@ overview: 'Global ID is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Global ID''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 130
+random_paper: 14
 score:
   band: emerging
   composite: 11.8

@@ -100,7 +100,7 @@ overview: 'Pentagon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pentagon''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, and 9 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: emerging
   composite: 22.5

@@ -75,7 +75,7 @@ overview: 'Entact Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Entact Bio''s developer surface includes product news and 9 more developer resources.'
-random_paper: 59
+random_paper: 8
 score:
   band: minimal
   composite: 3.7

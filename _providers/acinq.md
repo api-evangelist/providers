@@ -169,7 +169,7 @@ plans:
 - name: Acinq Plans Pricing
   plan_count: 0
   slug: acinq-plans-pricing
-random_paper: 77
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Acinq Rate Limits

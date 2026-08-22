@@ -57,7 +57,7 @@ name: Oddsmagnet
 nav: Providers
 network: true
 overview: Oddsmagnet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

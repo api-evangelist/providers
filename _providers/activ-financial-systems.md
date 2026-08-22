@@ -129,7 +129,7 @@ overview: 'ACTIV Financial Systems publishes 1 API on the [APIs.io](https://apis
 
 
   ACTIV Financial Systems'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 115
+random_paper: 19
 score:
   band: emerging
   composite: 23.0

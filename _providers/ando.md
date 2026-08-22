@@ -256,7 +256,7 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ando''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 120
+random_paper: 19
 score:
   band: developing
   composite: 48.5

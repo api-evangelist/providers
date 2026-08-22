@@ -138,7 +138,7 @@ overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Facturama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 54
+random_paper: 3
 score:
   band: thin
   composite: 33.3

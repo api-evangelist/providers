@@ -107,7 +107,7 @@ plans:
 - name: Kotcha Plans Pricing
   plan_count: 0
   slug: kotcha-plans-pricing
-random_paper: 38
+random_paper: 4
 score:
   band: minimal
   composite: 10.7

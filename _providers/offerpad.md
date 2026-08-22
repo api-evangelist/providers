@@ -235,7 +235,7 @@ overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Offerpad''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 94
+random_paper: 20
 scopes:
 - name: Offerpad Scopes
   scope_count: 9

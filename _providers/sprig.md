@@ -197,7 +197,7 @@ overview: 'Sprig publishes 2 APIs on the [APIs.io](https://apis.io/) network: V1
 
 
   Sprig''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 102
+random_paper: 3
 scopes:
 - name: Sprig Scopes
   scope_count: 5

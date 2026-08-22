@@ -116,7 +116,7 @@ overview: 'Shortwave is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Shortwave''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: emerging
   composite: 22.9

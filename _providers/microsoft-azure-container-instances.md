@@ -128,7 +128,7 @@ plans:
 - name: Microsoft Azure Container Instances Plans Pricing
   plan_count: 3
   slug: microsoft-azure-container-instances-plans-pricing
-random_paper: 23
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Container Instances Rate Limits

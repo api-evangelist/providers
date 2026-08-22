@@ -185,7 +185,7 @@ plans:
 - name: Google Cloud Natural Language Plans Pricing
   plan_count: 3
   slug: google-cloud-natural-language-plans-pricing
-random_paper: 71
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Google Cloud Natural Language Rate Limits

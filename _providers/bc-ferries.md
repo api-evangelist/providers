@@ -57,7 +57,7 @@ name: BC Ferries
 nav: Providers
 network: true
 overview: BC Ferries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 100
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

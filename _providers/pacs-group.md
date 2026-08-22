@@ -60,7 +60,7 @@ overview: 'PACS Group is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PACS Group''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 131
+random_paper: 17
 score:
   band: minimal
   composite: 3.2

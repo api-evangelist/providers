@@ -121,7 +121,7 @@ overview: 'Pointfive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pointfive''s developer surface includes documentation, authentication, engineering blog, support, and 14 more developer resources.'
-random_paper: 86
+random_paper: 14
 scopes:
 - name: Pointfive Scopes
   scope_count: 2

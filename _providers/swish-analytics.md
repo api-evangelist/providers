@@ -198,7 +198,7 @@ overview: 'Swish Analytics publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Swish Analytics'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 15 more developer resources.'
-random_paper: 81
+random_paper: 17
 score:
   band: thin
   composite: 29.3

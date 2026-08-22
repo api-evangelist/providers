@@ -169,7 +169,7 @@ overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Authorize.net''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, sandbox, and 20 more developer resources.'
-random_paper: 122
+random_paper: 12
 score:
   band: developing
   composite: 48.6

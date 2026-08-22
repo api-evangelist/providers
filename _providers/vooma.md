@@ -230,7 +230,7 @@ overview: 'Vooma publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vooma''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: developing
   composite: 48.1

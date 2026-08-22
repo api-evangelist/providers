@@ -80,7 +80,7 @@ overview: 'Commerce Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Commerce Bank''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 1
+random_paper: 6
 score:
   band: minimal
   composite: 10.7

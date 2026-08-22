@@ -164,7 +164,7 @@ plans:
 - name: Clarify Health Plans Pricing
   plan_count: 0
   slug: clarify-health-plans-pricing
-random_paper: 80
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Clarify Health Rate Limits

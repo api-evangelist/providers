@@ -112,7 +112,7 @@ overview: 'EditorConfig is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EditorConfig''s developer surface includes engineering blog, documentation, and 15 more developer resources.'
-random_paper: 85
+random_paper: 17
 score:
   band: emerging
   composite: 11.8

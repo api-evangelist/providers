@@ -177,7 +177,7 @@ plans:
 - name: Leadpages Plans Pricing
   plan_count: 6
   slug: leadpages-plans-pricing
-random_paper: 40
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Leadpages Rate Limits

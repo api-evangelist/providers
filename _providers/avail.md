@@ -101,7 +101,7 @@ plans:
 - name: Avail Plans Pricing
   plan_count: 2
   slug: avail-plans-pricing
-random_paper: 78
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Avail Rate Limits

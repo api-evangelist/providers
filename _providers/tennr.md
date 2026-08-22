@@ -73,7 +73,7 @@ name: Tennr
 nav: Providers
 network: true
 overview: Tennr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine Learning, and Document Processing.
-random_paper: 104
+random_paper: 5
 score:
   band: emerging
   composite: 13.1

@@ -118,7 +118,7 @@ overview: 'Dwight Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   Dwight Capital''s developer surface includes product news and 12 more developer resources.'
-random_paper: 85
+random_paper: 19
 score:
   band: minimal
   composite: 5.3

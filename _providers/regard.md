@@ -100,7 +100,7 @@ plans:
 - name: Regard Plans Pricing
   plan_count: 0
   slug: regard-plans-pricing
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 15.7

@@ -123,7 +123,7 @@ plans:
 - name: Endeavor Biomedicines Plans Pricing
   plan_count: 0
   slug: endeavor-biomedicines-plans-pricing
-random_paper: 70
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Endeavor Biomedicines Rate Limits

@@ -96,7 +96,7 @@ overview: 'Tubular Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Tubular Labs'' developer surface includes documentation, API reference, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 38
+random_paper: 12
 score:
   band: emerging
   composite: 22.3

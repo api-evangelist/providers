@@ -153,7 +153,7 @@ overview: 'Smashgg publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Smashgg''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Smashgg Rate Limits

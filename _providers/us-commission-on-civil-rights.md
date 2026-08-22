@@ -146,7 +146,7 @@ plans:
 - name: Us Commission On Civil Rights Plans Pricing
   plan_count: 3
   slug: us-commission-on-civil-rights-plans-pricing
-random_paper: 83
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Us Commission On Civil Rights Rate Limits

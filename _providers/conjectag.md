@@ -40,7 +40,7 @@ name: Conjectag
 nav: Providers
 network: true
 overview: Conjectag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, ConTech, SaaS, and Project Management.
-random_paper: 48
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

@@ -88,7 +88,7 @@ overview: 'SwiftComply is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SwiftComply''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: emerging
   composite: 19.6

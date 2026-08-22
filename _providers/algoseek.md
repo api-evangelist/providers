@@ -366,7 +366,7 @@ overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 98
+random_paper: 3
 score:
   band: developing
   composite: 46.9

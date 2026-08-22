@@ -68,7 +68,7 @@ overview: 'Modern Age is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Modern Age''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 97
+random_paper: 4
 score:
   band: minimal
   composite: 10.5

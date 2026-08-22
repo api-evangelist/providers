@@ -72,7 +72,7 @@ overview: 'Fivestargroup is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Fivestargroup''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 84
+random_paper: 18
 score:
   band: minimal
   composite: 8.5

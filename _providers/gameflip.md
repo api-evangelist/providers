@@ -166,7 +166,7 @@ overview: 'Gameflip publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 92
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Gameflip Rate Limits

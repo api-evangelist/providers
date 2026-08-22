@@ -40,7 +40,7 @@ name: Zeus
 nav: Providers
 network: true
 overview: Zeus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Housing, Real Estate, Furnished Rentals, and Property Technology.
-random_paper: 8
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

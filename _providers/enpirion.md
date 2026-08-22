@@ -40,7 +40,7 @@ name: Enpirion
 nav: Providers
 network: true
 overview: Enpirion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Power Management, Integrated Circuits, and DC-DC Converters.
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 2.1

@@ -53,7 +53,7 @@ name: Uniform Teeth
 nav: Providers
 network: true
 overview: Uniform Teeth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Orthodontics, and Clear Aligners.
-random_paper: 10
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

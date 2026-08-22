@@ -132,7 +132,7 @@ overview: 'Tuum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tuum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: thin
   composite: 34.8

@@ -100,7 +100,7 @@ plans:
 - name: 451 Degrees Plans Pricing
   plan_count: 0
   slug: 451-degrees-plans-pricing
-random_paper: 40
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: 451 Degrees Rate Limits

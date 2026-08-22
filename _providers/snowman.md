@@ -60,7 +60,7 @@ overview: 'Snowman is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Snowman''s developer surface includes support and 3 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 10.2

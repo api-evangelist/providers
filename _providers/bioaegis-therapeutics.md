@@ -241,7 +241,7 @@ overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis
 
 
   BioAegis Therapeutics'' developer surface includes FAQ, product news, support, YouTube channel, authentication, and 28 more developer resources.'
-random_paper: 91
+random_paper: 14
 score:
   band: developing
   composite: 41.3

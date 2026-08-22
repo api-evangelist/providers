@@ -231,7 +231,7 @@ plans:
 - name: Deepl Plans Pricing
   plan_count: 3
   slug: deepl-plans-pricing
-random_paper: 75
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Deepl Rate Limits

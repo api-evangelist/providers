@@ -132,7 +132,7 @@ plans:
 - name: Growthhackers Plans Pricing
   plan_count: 0
   slug: growthhackers-plans-pricing
-random_paper: 63
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Growthhackers Rate Limits

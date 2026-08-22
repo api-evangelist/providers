@@ -215,7 +215,7 @@ overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
-random_paper: 130
+random_paper: 16
 score:
   band: developing
   composite: 49.7

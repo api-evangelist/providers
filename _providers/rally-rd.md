@@ -68,7 +68,7 @@ overview: 'Rally Rd is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rally Rd''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 62
+random_paper: 9
 score:
   band: minimal
   composite: 7.4

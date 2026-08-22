@@ -53,7 +53,7 @@ name: Rizm
 nav: Providers
 network: true
 overview: Rizm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Optimization, Industrial, and Manufacturing.
-random_paper: 3
+random_paper: 9
 score:
   band: minimal
   composite: 4.6

@@ -230,7 +230,7 @@ overview: 'Fnatic publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fnatic''s developer surface includes documentation, authentication, support, engineering blog, signup flow, YouTube channel, and 38 more developer resources.'
-random_paper: 33
+random_paper: 20
 scopes:
 - name: Fnatic Scopes
   scope_count: 4

@@ -123,7 +123,7 @@ overview: 'Capital Markets Gateway publishes 3 APIs on the [APIs.io](https://api
 
 
   Capital Markets Gateway''s developer surface includes engineering blog, signup flow, support, and 11 more developer resources.'
-random_paper: 102
+random_paper: 6
 score:
   band: thin
   composite: 29.8

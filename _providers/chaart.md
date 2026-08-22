@@ -49,7 +49,7 @@ name: Chaart
 nav: Providers
 network: true
 overview: Chaart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art, Marketplace, Collectibles, and Fintech.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

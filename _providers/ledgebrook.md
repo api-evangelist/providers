@@ -96,7 +96,7 @@ overview: 'Ledgebrook is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ledgebrook''s developer surface includes support and 14 more developer resources.'
-random_paper: 11
+random_paper: 4
 score:
   band: minimal
   composite: 10.0

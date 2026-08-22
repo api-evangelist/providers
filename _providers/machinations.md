@@ -80,7 +80,7 @@ overview: 'Machinations is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Machinations'' developer surface includes documentation, changelog, pricing, engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 86
+random_paper: 18
 score:
   band: emerging
   composite: 12.5

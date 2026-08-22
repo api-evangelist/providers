@@ -72,7 +72,7 @@ overview: 'Reflex Careers is profiled on the [APIs.io](https://apis.io/) network
 
 
   Reflex Careers'' developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 91
+random_paper: 4
 score:
   band: emerging
   composite: 12.8

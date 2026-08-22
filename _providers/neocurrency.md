@@ -52,7 +52,7 @@ overview: 'Neocurrency is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Neocurrency''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 5
+random_paper: 0
 score:
   band: minimal
   composite: 3.6

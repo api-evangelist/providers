@@ -156,7 +156,7 @@ plans:
 - name: Languagelayer Plans Pricing
   plan_count: 4
   slug: languagelayer-plans-pricing
-random_paper: 36
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Languagelayer Rate Limits

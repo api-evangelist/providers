@@ -116,7 +116,7 @@ overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sommelier''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: thin
   composite: 27.1

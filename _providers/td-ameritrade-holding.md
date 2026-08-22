@@ -218,7 +218,7 @@ press:
 - date: '2026-05-25'
   title: TD Bank Financial Group - Media Room - Media Releases
   url: https://td.mediaroom.com/index.php?s=19518&%3Bitem=35847&o=965
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Td Ameritrade Holding Rate Limits

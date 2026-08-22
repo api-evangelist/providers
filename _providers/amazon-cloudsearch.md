@@ -305,7 +305,7 @@ overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 68
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []

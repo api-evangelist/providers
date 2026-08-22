@@ -108,7 +108,7 @@ plans:
 - name: Hopstack Plans Pricing
   plan_count: 1
   slug: hopstack-plans-pricing
-random_paper: 116
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Hopstack Rate Limits

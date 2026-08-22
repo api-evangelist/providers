@@ -198,7 +198,7 @@ plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 3
   slug: predictive-oncology-model-and-data-clearinghouse-plans-pricing
-random_paper: 33
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Predictive Oncology Model And Data Clearinghouse Rate Limits

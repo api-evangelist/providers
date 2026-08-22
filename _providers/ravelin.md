@@ -294,7 +294,7 @@ overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: thin
   composite: 37.7

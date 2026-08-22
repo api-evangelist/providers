@@ -160,7 +160,7 @@ overview: 'Sift Science publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sift Science''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 19 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: developing
   composite: 50.3

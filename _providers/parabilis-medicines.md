@@ -64,7 +64,7 @@ overview: 'Parabilis Medicines is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Parabilis Medicines'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 4
+random_paper: 9
 score:
   band: minimal
   composite: 9.5

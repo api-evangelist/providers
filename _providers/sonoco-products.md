@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Sonoco Reports First Quarter 2026 Results
   url: https://investor.sonoco.com/news/news-details/2026/Sonoco-Reports-First-Quarter-2026-Results/default.aspx
-random_paper: 96
+random_paper: 11
 score:
   band: minimal
   composite: 6.9

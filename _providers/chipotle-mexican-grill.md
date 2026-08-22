@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Tyler Hallam's Post
   url: https://www.linkedin.com/posts/tyler-hallam-a385083a_seems-like-every-month-theres-a-press-release-activity-7261723721080463361-jPoZ
-random_paper: 139
+random_paper: 20
 score:
   band: minimal
   composite: 9.6

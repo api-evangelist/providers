@@ -72,7 +72,7 @@ overview: 'Agentero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Agentero''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: emerging
   composite: 11.0

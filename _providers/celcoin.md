@@ -223,7 +223,7 @@ plans:
 - name: Celcoin Plans Pricing
   plan_count: 4
   slug: celcoin-plans-pricing
-random_paper: 137
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Celcoin Rate Limits

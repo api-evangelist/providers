@@ -221,7 +221,7 @@ overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
-random_paper: 98
+random_paper: 17
 score:
   band: developing
   composite: 39.7

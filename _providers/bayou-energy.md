@@ -133,7 +133,7 @@ plans:
 - name: Bayou Energy Plans Pricing
   plan_count: 2
   slug: bayou-energy-plans-pricing
-random_paper: 47
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Bayou Energy Rate Limits

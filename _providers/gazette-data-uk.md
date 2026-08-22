@@ -64,7 +64,7 @@ overview: 'Gazette Data, UK publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Gazette Data, UK''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 139
+random_paper: 10
 score:
   band: minimal
   composite: 4.6

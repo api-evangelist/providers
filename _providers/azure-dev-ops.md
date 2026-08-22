@@ -323,7 +323,7 @@ plans:
 - name: Azure Dev Ops Plans Pricing
   plan_count: 3
   slug: azure-dev-ops-plans-pricing
-random_paper: 106
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Azure Dev Ops Rate Limits

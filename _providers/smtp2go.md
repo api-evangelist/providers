@@ -322,7 +322,7 @@ plans:
 - name: Smtp2Go Plans Pricing
   plan_count: 4
   slug: smtp2go-plans-pricing
-random_paper: 120
+random_paper: 2
 rate_limits:
 - limit_count: 9
   name: Smtp2Go Rate Limits

@@ -182,7 +182,7 @@ plans:
 - name: Taxi Plans Pricing
   plan_count: 7
   slug: taxi-plans-pricing
-random_paper: 140
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Taxi Rate Limits

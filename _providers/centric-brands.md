@@ -236,7 +236,7 @@ plans:
 - name: Centric Brands Plans Pricing
   plan_count: 0
   slug: centric-brands-plans-pricing
-random_paper: 82
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Centric Brands Rate Limits

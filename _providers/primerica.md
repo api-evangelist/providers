@@ -70,7 +70,7 @@ plans:
 - name: Primerica Plans Pricing
   plan_count: 1
   slug: primerica-plans-pricing
-random_paper: 62
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Primerica Rate Limits

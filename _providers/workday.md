@@ -2538,12 +2538,11 @@ overview: 'Workday publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Workday''s developer surface includes CLI, changelog, authentication, getting-started guide, documentation, developer console, engineering blog, and 67 more developer resources.'
-paper_is_own: true
 plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 34
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits

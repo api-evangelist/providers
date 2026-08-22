@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Alcoa Stock Jumps. How Its CEO Plans to Cash in on the AI ...
   url: https://www.barrons.com/articles/alcoa-stock-price-ai-electricity-ceo-875a9f7a
-random_paper: 65
+random_paper: 8
 score:
   band: minimal
   composite: 9.5

@@ -105,7 +105,7 @@ overview: 'Voxer is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Voxer''s developer surface includes documentation, engineering blog, support, pricing, authentication, and 10 more developer resources.'
-random_paper: 117
+random_paper: 18
 score:
   band: emerging
   composite: 20.9

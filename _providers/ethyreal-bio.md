@@ -216,7 +216,7 @@ plans:
 - name: Ethyreal Bio Plans Pricing
   plan_count: 0
   slug: ethyreal-bio-plans-pricing
-random_paper: 29
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Ethyreal Bio Rate Limits

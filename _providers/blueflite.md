@@ -64,7 +64,7 @@ overview: 'blueflite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   blueflite''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: minimal
   composite: 9.5

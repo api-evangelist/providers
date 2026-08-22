@@ -256,7 +256,7 @@ plans:
 - name: Dexterity Plans Pricing
   plan_count: 2
   slug: dexterity-plans-pricing
-random_paper: 100
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Dexterity Rate Limits

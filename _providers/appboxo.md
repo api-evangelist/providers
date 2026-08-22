@@ -148,7 +148,7 @@ overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appboxo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: thin
   composite: 36.9

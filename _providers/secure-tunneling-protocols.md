@@ -40,7 +40,7 @@ name: Secure Tunneling Protocols
 nav: Providers
 network: true
 overview: Secure Tunneling Protocols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Encryption, Networking, Security, and VPN.
-random_paper: 32
+random_paper: 5
 score:
   band: minimal
   composite: 4.3

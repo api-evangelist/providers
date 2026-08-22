@@ -60,7 +60,7 @@ overview: 'Nova is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nova''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: minimal
   composite: 5.5

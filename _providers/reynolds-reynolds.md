@@ -92,7 +92,7 @@ plans:
 - name: Reynolds Reynolds Plans Pricing
   plan_count: 2
   slug: reynolds-reynolds-plans-pricing
-random_paper: 17
+random_paper: 20
 score:
   band: emerging
   composite: 15.2

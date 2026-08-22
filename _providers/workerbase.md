@@ -125,7 +125,7 @@ overview: 'Workerbase is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Workerbase''s developer surface includes pricing, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: emerging
   composite: 21.3

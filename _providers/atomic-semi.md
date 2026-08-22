@@ -69,7 +69,7 @@ name: Atomic Semi
 nav: Providers
 network: true
 overview: Atomic Semi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Manufacturing, and Electronic Design Automation.
-random_paper: 69
+random_paper: 20
 score:
   band: minimal
   composite: 4.6

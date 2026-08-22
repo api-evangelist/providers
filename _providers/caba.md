@@ -57,7 +57,7 @@ name: Caba
 nav: Providers
 network: true
 overview: Caba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Goods, Home Furnishings, and Direct-to-Consumer.
-random_paper: 93
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

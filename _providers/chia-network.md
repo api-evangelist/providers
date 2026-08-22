@@ -161,7 +161,7 @@ overview: 'Chia Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Chia Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, authentication, and 21 more developer resources.'
-random_paper: 36
+random_paper: 10
 score:
   band: thin
   composite: 30.6

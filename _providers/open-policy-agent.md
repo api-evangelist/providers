@@ -234,7 +234,7 @@ plans:
 - name: Open Policy Agent Plans Pricing
   plan_count: 1
   slug: open-policy-agent-plans-pricing
-random_paper: 68
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Open Policy Agent Rate Limits

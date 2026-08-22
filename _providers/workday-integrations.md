@@ -297,7 +297,7 @@ plans:
 - name: Workday Integrations Plans Pricing
   plan_count: 1
   slug: workday-integrations-plans-pricing
-random_paper: 31
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Workday Integrations Rate Limits

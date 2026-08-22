@@ -49,7 +49,7 @@ name: TidalScale
 nav: Providers
 network: true
 overview: TidalScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Server Virtualization, Software-Defined Infrastructure, and In-Memory Computing.
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

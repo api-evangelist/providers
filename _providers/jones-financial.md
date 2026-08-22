@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence in Financial Services
   url: https://reports.weforum.org/docs/WEF_Artificial_Intelligence_in_Financial_Services_2025.pdf
-random_paper: 31
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

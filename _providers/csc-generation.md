@@ -111,7 +111,7 @@ overview: 'CSC Generation publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   CSC Generation''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 85
+random_paper: 19
 score:
   band: emerging
   composite: 12.5

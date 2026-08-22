@@ -139,7 +139,7 @@ plans:
 - name: La Trobe University Plans Pricing
   plan_count: 2
   slug: la-trobe-university-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: La Trobe University Rate Limits

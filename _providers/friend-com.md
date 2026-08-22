@@ -78,7 +78,7 @@ plans:
 - name: Friend Com Plans Pricing
   plan_count: 1
   slug: friend-com-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Friend Com Rate Limits

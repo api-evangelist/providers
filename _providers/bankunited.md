@@ -108,7 +108,7 @@ overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   BankUnited''s developer surface includes authentication, signup flow, developer portal, engineering blog, and 13 more developer resources.'
-random_paper: 18
+random_paper: 11
 scopes:
 - name: Bankunited Scopes
   scope_count: 36

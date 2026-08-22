@@ -171,7 +171,7 @@ plans:
 - name: University Of St Andrews Plans Pricing
   plan_count: 2
   slug: university-of-st-andrews-plans-pricing
-random_paper: 73
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of St Andrews Rate Limits

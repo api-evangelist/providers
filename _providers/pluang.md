@@ -76,7 +76,7 @@ overview: 'Pluang is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pluang''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 10.9

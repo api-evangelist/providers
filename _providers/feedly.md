@@ -330,7 +330,7 @@ plans:
 - name: Feedly Plans Pricing
   plan_count: 2
   slug: feedly-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Feedly Rate Limits

@@ -137,7 +137,7 @@ overview: 'Vectary publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Vectary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: thin
   composite: 34.4

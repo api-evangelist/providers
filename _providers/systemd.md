@@ -472,7 +472,7 @@ overview: 'systemd publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   systemd''s developer surface includes documentation, release notes, changelog, tooling, and 35 more developer resources.'
-random_paper: 32
+random_paper: 0
 rules:
 - effective_rule_count: 5
   extends: []

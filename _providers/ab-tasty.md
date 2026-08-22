@@ -366,7 +366,7 @@ plans:
 - name: Ab Tasty Plans Pricing
   plan_count: 4
   slug: ab-tasty-plans-pricing
-random_paper: 60
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Ab Tasty Rate Limits

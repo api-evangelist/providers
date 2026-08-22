@@ -97,7 +97,7 @@ overview: 'Lenus eHealth is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lenus eHealth''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: emerging
   composite: 12.8

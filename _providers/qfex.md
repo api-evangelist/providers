@@ -215,7 +215,7 @@ overview: 'Qfex publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 24 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: strong
   composite: 55.2

@@ -49,7 +49,7 @@ name: Perion
 nav: Providers
 network: true
 overview: Perion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Web3, and Blockchain.
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

@@ -172,7 +172,7 @@ plans:
 - name: Quora Plans Pricing
   plan_count: 3
   slug: quora-plans-pricing
-random_paper: 105
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Quora Rate Limits

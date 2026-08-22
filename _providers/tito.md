@@ -173,7 +173,7 @@ plans:
 - name: Tito Plans Pricing
   plan_count: 3
   slug: tito-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Tito Rate Limits

@@ -153,7 +153,7 @@ plans:
 - name: Apaleo Plans Pricing
   plan_count: 3
   slug: apaleo-plans-pricing
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Apaleo Rate Limits

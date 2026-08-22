@@ -269,7 +269,7 @@ overview: 'Turntide Technologies publishes 15 APIs on the [APIs.io](https://apis
 
 
   Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 122
+random_paper: 3
 scopes:
 - name: Turntide Technologies Scopes
   scope_count: 1

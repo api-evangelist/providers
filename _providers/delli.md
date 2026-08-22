@@ -84,7 +84,7 @@ overview: 'DELLI is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   DELLI''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 14.0

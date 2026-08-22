@@ -168,7 +168,7 @@ overview: 'Rill Data publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 145
+random_paper: 8
 scopes:
 - name: Rill Data Scopes
   scope_count: 1

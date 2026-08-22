@@ -60,7 +60,7 @@ overview: 'Hertha Metals is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Hertha Metals'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 90
+random_paper: 1
 score:
   band: minimal
   composite: 7.6

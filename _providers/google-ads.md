@@ -373,7 +373,7 @@ plans:
 - name: Google Ads Plans Pricing
   plan_count: 4
   slug: google-ads-plans-pricing
-random_paper: 100
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Google Ads Rate Limits

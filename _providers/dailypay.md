@@ -210,7 +210,7 @@ overview: 'DailyPay publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   DailyPay''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 33 more developer resources.'
-random_paper: 116
+random_paper: 0
 scopes:
 - name: Dailypay Scopes
   scope_count: 5

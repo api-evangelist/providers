@@ -165,7 +165,7 @@ overview: 'Onafriq publishes 9 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Onafriq''s developer surface includes developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 10.4

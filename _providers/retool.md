@@ -240,7 +240,7 @@ plans:
 - name: Retool Plans Pricing
   plan_count: 4
   slug: retool-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Retool Rate Limits

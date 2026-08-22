@@ -91,7 +91,7 @@ overview: 'Biolinq is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Biolinq''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 6.7

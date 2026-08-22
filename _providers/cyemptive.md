@@ -77,7 +77,7 @@ plans:
 - name: Cyemptive Plans Pricing
   plan_count: 0
   slug: cyemptive-plans-pricing
-random_paper: 88
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Cyemptive Rate Limits

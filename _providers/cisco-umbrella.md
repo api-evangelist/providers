@@ -274,7 +274,7 @@ plans:
 - name: Cisco Umbrella Plans Pricing
   plan_count: 0
   slug: cisco-umbrella-plans-pricing
-random_paper: 85
+random_paper: 19
 rate_limits:
 - limit_count: 17
   name: Cisco Umbrella Rate Limits

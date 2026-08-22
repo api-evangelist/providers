@@ -121,7 +121,7 @@ plans:
 - name: Soona Plans Pricing
   plan_count: 4
   slug: soona-plans-pricing
-random_paper: 97
+random_paper: 19
 score:
   band: emerging
   composite: 24.5

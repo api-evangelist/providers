@@ -202,7 +202,7 @@ overview: 'Bucket publishes 1 API on the [APIs.io](https://apis.io/) network: Ap
 
 
   Bucket''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: strong
   composite: 55.1

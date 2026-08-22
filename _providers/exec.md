@@ -264,7 +264,7 @@ plans:
 - name: Exec Plans Pricing
   plan_count: 4
   slug: exec-plans-pricing
-random_paper: 123
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Exec Rate Limits

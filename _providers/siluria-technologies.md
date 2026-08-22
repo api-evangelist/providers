@@ -40,7 +40,7 @@ name: Siluria Technologies
 nav: Providers
 network: true
 overview: Siluria Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Cleantech.
-random_paper: 4
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

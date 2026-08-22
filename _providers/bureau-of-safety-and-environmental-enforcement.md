@@ -95,7 +95,7 @@ plans:
 - name: Bureau Of Safety And Environmental Enforcement Plans Pricing
   plan_count: 3
   slug: bureau-of-safety-and-environmental-enforcement-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Bureau Of Safety And Environmental Enforcement Rate Limits

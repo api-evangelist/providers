@@ -45,7 +45,7 @@ name: Harvest Platform
 nav: Providers
 network: true
 overview: Harvest Platform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Banking, and Consumer Finance.
-random_paper: 40
+random_paper: 20
 score:
   band: minimal
   composite: 0.3

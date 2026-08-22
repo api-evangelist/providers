@@ -117,7 +117,7 @@ overview: 'Machine0 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Machine0''s developer surface includes documentation, quickstart, pricing, changelog, CLI, and 11 more developer resources.'
-random_paper: 28
+random_paper: 17
 scopes:
 - name: Machine0 Scopes
   scope_count: 0

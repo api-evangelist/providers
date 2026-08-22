@@ -295,7 +295,7 @@ overview: 'Popsink publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Popsink''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: developing
   composite: 43.2

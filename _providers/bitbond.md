@@ -179,7 +179,7 @@ overview: 'Bitbond publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Bitbond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: developing
   composite: 45.3

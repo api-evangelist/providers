@@ -315,7 +315,7 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
 
 
   Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 88
+random_paper: 20
 score:
   band: strong
   composite: 59.2

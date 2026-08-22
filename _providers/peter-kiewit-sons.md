@@ -94,7 +94,7 @@ press:
 - date: '2026-04-27'
   title: Protecting What Lies Below
   url: https://www.kiewit.com/newsroom/protecting-what-lies-below/
-random_paper: 99
+random_paper: 16
 score:
   band: minimal
   composite: 6.9

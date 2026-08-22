@@ -104,7 +104,7 @@ overview: 'Lugg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lugg''s developer surface includes documentation, API reference, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 133
+random_paper: 11
 score:
   band: thin
   composite: 29.4

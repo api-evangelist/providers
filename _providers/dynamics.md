@@ -60,7 +60,7 @@ overview: 'Dynamics is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dynamics'' developer surface includes support and 3 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 5.5

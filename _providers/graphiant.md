@@ -267,7 +267,7 @@ overview: 'Graphiant publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 46 more developer resources.'
-random_paper: 64
+random_paper: 13
 score:
   band: developing
   composite: 50.5

@@ -266,7 +266,7 @@ overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://ap
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 75
+random_paper: 9
 score:
   band: developing
   composite: 50.1

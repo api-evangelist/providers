@@ -49,7 +49,7 @@ name: Envision Energy
 nav: Providers
 network: true
 overview: Envision Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Energy, Renewable Energy, and Wind Energy.
-random_paper: 80
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

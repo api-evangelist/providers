@@ -147,7 +147,7 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 
 
   Flight Network''s developer surface includes FAQ, documentation, support, and 23 more developer resources.'
-random_paper: 120
+random_paper: 12
 score:
   band: emerging
   composite: 18.0

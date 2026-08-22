@@ -122,7 +122,7 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: developing
   composite: 41.5

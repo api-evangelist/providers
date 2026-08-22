@@ -103,7 +103,7 @@ plans:
 - name: Alethea Plans Pricing
   plan_count: 0
   slug: alethea-plans-pricing
-random_paper: 128
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Alethea Rate Limits

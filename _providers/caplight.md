@@ -265,7 +265,7 @@ overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: developing
   composite: 44.1

@@ -80,7 +80,7 @@ overview: 'INZMO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   INZMO''s developer surface includes support and 8 more developer resources.'
-random_paper: 110
+random_paper: 11
 score:
   band: minimal
   composite: 7.2

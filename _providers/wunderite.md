@@ -172,7 +172,7 @@ overview: 'Wunderite publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wunderite''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 89
+random_paper: 17
 score:
   band: developing
   composite: 39.6

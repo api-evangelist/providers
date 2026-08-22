@@ -88,7 +88,7 @@ overview: 'AI Build is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AI Build''s developer surface includes pricing, engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 12.7

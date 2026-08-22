@@ -116,7 +116,7 @@ overview: 'ConverSight.ai is profiled on the [APIs.io](https://apis.io/) network
 
 
   ConverSight.ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 57
+random_paper: 12
 score:
   band: emerging
   composite: 23.4

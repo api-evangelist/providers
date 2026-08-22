@@ -57,7 +57,7 @@ name: Green Eye Technology
 nav: Providers
 network: true
 overview: Green Eye Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Artificial Intelligence.
-random_paper: 89
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

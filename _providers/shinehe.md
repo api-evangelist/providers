@@ -64,7 +64,7 @@ overview: 'Shinehe (Hangzhou Xinzeyuan Medical Technology) is profiled on the [A
 
 
   Shinehe (Hangzhou Xinzeyuan Medical Technology)''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: minimal
   composite: 4.7

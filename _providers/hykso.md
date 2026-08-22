@@ -72,7 +72,7 @@ overview: 'Hykso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hykso''s developer surface includes pricing, support, signup flow, and 4 more developer resources.'
-random_paper: 111
+random_paper: 12
 score:
   band: emerging
   composite: 12.1

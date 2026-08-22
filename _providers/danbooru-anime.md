@@ -57,7 +57,7 @@ name: Danbooru Anime
 nav: Providers
 network: true
 overview: Danbooru Anime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 84
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

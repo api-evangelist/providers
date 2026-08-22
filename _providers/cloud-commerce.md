@@ -136,7 +136,7 @@ plans:
 - name: Cloud Commerce Plans Pricing
   plan_count: 0
   slug: cloud-commerce-plans-pricing
-random_paper: 82
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Cloud Commerce Rate Limits

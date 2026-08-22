@@ -670,7 +670,7 @@ plans:
 - name: Pinwheel Plans Pricing
   plan_count: 3
   slug: pinwheel-plans-pricing
-random_paper: 115
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Pinwheel Rate Limits

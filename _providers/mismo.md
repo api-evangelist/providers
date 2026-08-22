@@ -125,7 +125,7 @@ overview: 'MISMO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   MISMO''s developer surface includes developer portal, documentation, product news, and 16 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: minimal
   composite: 8.8

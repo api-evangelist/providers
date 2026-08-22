@@ -162,7 +162,7 @@ plans:
 - name: Google Cloud Video Intelligence Plans Pricing
   plan_count: 3
   slug: google-cloud-video-intelligence-plans-pricing
-random_paper: 129
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Cloud Video Intelligence Rate Limits

@@ -68,7 +68,7 @@ overview: 'Cartography Biosciences is profiled on the [APIs.io](https://apis.io/
 
 
   Cartography Biosciences'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 8
+random_paper: 19
 score:
   band: minimal
   composite: 6.2

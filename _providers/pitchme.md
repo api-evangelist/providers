@@ -110,7 +110,7 @@ plans:
 - name: Pitchme Plans Pricing
   plan_count: 0
   slug: pitchme-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Pitchme Rate Limits

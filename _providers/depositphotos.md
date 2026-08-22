@@ -162,7 +162,7 @@ plans:
 - name: Depositphotos Plans Pricing
   plan_count: 6
   slug: depositphotos-plans-pricing
-random_paper: 88
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Depositphotos Rate Limits

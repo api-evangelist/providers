@@ -117,7 +117,7 @@ overview: 'Fly By Jing publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Fly By Jing''s developer surface includes engineering blog, support, pricing, authentication, and 12 more developer resources.'
-random_paper: 21
+random_paper: 14
 scopes:
 - name: Fly By Jing Scopes
   scope_count: 0

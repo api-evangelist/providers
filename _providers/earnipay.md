@@ -211,7 +211,7 @@ overview: 'Earnipay publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Earnipay''s developer surface includes authentication, documentation, API reference, getting-started guide, and 14 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: thin
   composite: 26.2

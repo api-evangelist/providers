@@ -88,7 +88,7 @@ overview: 'Yardi Propware is profiled on the [APIs.io](https://apis.io/) network
 
 
   Yardi Propware''s developer surface includes documentation, getting-started guide, engineering blog, and 6 more developer resources.'
-random_paper: 121
+random_paper: 13
 score:
   band: emerging
   composite: 12.9

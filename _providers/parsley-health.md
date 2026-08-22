@@ -203,7 +203,7 @@ plans:
 - name: Parsley Health Plans Pricing
   plan_count: 0
   slug: parsley-health-plans-pricing
-random_paper: 102
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Parsley Health Rate Limits

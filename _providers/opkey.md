@@ -249,7 +249,7 @@ overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 105
+random_paper: 6
 score:
   band: developing
   composite: 50.1

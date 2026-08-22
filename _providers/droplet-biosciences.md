@@ -128,7 +128,7 @@ plans:
 - name: Droplet Biosciences Plans Pricing
   plan_count: 0
   slug: droplet-biosciences-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Droplet Biosciences Rate Limits

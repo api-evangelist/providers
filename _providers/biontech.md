@@ -108,7 +108,7 @@ overview: 'BioNTech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BioNTech''s developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 6.7

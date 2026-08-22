@@ -176,7 +176,7 @@ plans:
 - name: Google Cloud Cdn Plans Pricing
   plan_count: 3
   slug: google-cloud-cdn-plans-pricing
-random_paper: 81
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Cloud Cdn Rate Limits

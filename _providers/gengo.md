@@ -205,7 +205,7 @@ overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Gengo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: developing
   composite: 47.1

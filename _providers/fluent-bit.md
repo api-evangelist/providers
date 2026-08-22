@@ -160,7 +160,7 @@ plans:
 - name: Fluent Bit Plans Pricing
   plan_count: 3
   slug: fluent-bit-plans-pricing
-random_paper: 124
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Fluent Bit Rate Limits

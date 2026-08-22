@@ -72,7 +72,7 @@ name: Audio Up Media
 nav: Providers
 network: true
 overview: Audio Up Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Podcasting, and Audio.
-random_paper: 20
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

@@ -140,7 +140,7 @@ plans:
 - name: Apptio Plans Pricing
   plan_count: 3
   slug: apptio-plans-pricing
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Apptio Rate Limits

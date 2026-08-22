@@ -109,7 +109,7 @@ plans:
 - name: Profitero Plans Pricing
   plan_count: 0
   slug: profitero-plans-pricing
-random_paper: 92
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Profitero Rate Limits

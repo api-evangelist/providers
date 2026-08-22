@@ -157,7 +157,7 @@ plans:
 - name: Sec Edgar Plans Pricing
   plan_count: 1
   slug: sec-edgar-plans-pricing
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Sec Edgar Rate Limits

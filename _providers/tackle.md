@@ -359,7 +359,7 @@ plans:
 - name: Tackle Plans Pricing
   plan_count: 0
   slug: tackle-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Tackle Rate Limits

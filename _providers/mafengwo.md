@@ -49,7 +49,7 @@ name: Mafengwo
 nav: Providers
 network: true
 overview: Mafengwo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, China, and Community.
-random_paper: 107
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

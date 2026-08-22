@@ -57,7 +57,7 @@ name: CleanSlate
 nav: Providers
 network: true
 overview: CleanSlate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Behavioral Health, Addiction Treatment, and Opioid Use Disorder.
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 2.9

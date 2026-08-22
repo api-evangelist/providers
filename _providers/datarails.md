@@ -210,7 +210,7 @@ plans:
 - name: Datarails Plans
   plan_count: 3
   slug: datarails-plans
-random_paper: 55
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits

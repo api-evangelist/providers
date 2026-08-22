@@ -253,7 +253,7 @@ overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://
 
 
   Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 27 more developer resources.'
-random_paper: 140
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Landmark Information Rate Limits

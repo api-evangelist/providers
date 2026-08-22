@@ -81,7 +81,7 @@ overview: 'Vedana Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Vedana Therapeutics'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 8.3

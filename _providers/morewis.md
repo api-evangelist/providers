@@ -60,7 +60,7 @@ overview: 'morewis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   morewis'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: minimal
   composite: 8.8

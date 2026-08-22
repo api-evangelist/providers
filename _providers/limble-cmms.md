@@ -450,7 +450,7 @@ overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
-random_paper: 63
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

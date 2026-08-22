@@ -236,7 +236,7 @@ plans:
 - name: Airops Plans Pricing
   plan_count: 3
   slug: airops-plans-pricing
-random_paper: 58
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Airops Rate Limits

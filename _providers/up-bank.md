@@ -298,7 +298,7 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 29 more developer resources.'
-random_paper: 90
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Up Bank Rate Limits

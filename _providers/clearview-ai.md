@@ -114,7 +114,7 @@ overview: 'Clearview AI publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Clearview AI''s developer surface includes product news, engineering blog, and 11 more developer resources.'
-random_paper: 17
+random_paper: 12
 rules:
 - effective_rule_count: 49
   extends:

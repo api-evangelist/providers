@@ -215,7 +215,7 @@ plans:
 - name: Forex Com Plans Pricing
   plan_count: 3
   slug: forex-com-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Forex Com Rate Limits

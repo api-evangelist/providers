@@ -141,7 +141,7 @@ overview: 'Hypercore publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hypercore''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: thin
   composite: 30.0

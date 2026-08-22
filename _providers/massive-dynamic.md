@@ -88,7 +88,7 @@ plans:
 - name: Massive Dynamic Plans Pricing
   plan_count: 0
   slug: massive-dynamic-plans-pricing
-random_paper: 56
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

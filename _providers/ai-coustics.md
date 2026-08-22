@@ -137,7 +137,7 @@ overview: 'ai-coustics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   ai-coustics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
-random_paper: 81
+random_paper: 11
 score:
   band: thin
   composite: 33.3

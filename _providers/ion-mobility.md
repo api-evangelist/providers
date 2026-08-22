@@ -60,7 +60,7 @@ overview: 'Ion Mobility is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ion Mobility''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 52
+random_paper: 5
 score:
   band: minimal
   composite: 5.8

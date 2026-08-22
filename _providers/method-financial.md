@@ -486,7 +486,7 @@ overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/)
 
 
   Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 129
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Method Financial Rate Limits

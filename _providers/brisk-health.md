@@ -61,7 +61,7 @@ name: Brisk Health
 nav: Providers
 network: true
 overview: Brisk Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Urgent Care, Primary Care, and Home Health.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 3.7

@@ -53,7 +53,7 @@ name: Seed&Spark
 nav: Providers
 network: true
 overview: Seed&Spark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Film, Streaming, and Entertainment.
-random_paper: 18
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

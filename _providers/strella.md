@@ -88,7 +88,7 @@ overview: 'Strella is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Strella''s developer surface includes engineering blog, changelog, support, and 8 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: emerging
   composite: 14.0

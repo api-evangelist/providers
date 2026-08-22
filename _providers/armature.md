@@ -133,7 +133,7 @@ overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 14 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 26.0

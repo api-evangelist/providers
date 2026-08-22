@@ -269,7 +269,7 @@ overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 77
+random_paper: 5
 score:
   band: developing
   composite: 51.2

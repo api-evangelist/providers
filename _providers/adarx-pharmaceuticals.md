@@ -229,7 +229,7 @@ overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.
 
 
   ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 30 more developer resources.'
-random_paper: 77
+random_paper: 0
 score:
   band: thin
   composite: 34.2

@@ -65,7 +65,7 @@ name: Data Sutram
 nav: Providers
 network: true
 overview: Data Sutram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Detection, Identity Verification, Financial Services, and Data Intelligence.
-random_paper: 80
+random_paper: 10
 score:
   band: minimal
   composite: 10.9

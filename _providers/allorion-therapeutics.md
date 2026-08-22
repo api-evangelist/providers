@@ -107,7 +107,7 @@ overview: 'Allorion Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Allorion Therapeutics'' developer surface includes product news and 13 more developer resources.'
-random_paper: 120
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

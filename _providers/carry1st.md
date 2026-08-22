@@ -212,7 +212,7 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 80
+random_paper: 6
 score:
   band: developing
   composite: 45.6

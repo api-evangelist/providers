@@ -171,7 +171,7 @@ plans:
 - name: Scalekit Plans Pricing
   plan_count: 5
   slug: scalekit-plans-pricing
-random_paper: 103
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Scalekit Rate Limits

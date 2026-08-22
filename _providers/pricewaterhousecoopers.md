@@ -157,7 +157,7 @@ overview: 'PwC (PricewaterhouseCoopers) is profiled on the [APIs.io](https://api
 
 
   PwC (PricewaterhouseCoopers)''s developer surface includes product news, YouTube channel, legal docs, and 25 more developer resources.'
-random_paper: 5
+random_paper: 16
 score:
   band: minimal
   composite: 6.6

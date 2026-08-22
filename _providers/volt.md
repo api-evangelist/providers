@@ -93,7 +93,7 @@ overview: 'Volt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Volt''s developer surface includes documentation, pricing, engineering blog, changelog, authentication, and 5 more developer resources.'
-random_paper: 6
+random_paper: 12
 score:
   band: emerging
   composite: 16.9

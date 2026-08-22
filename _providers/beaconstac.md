@@ -218,7 +218,7 @@ plans:
 - name: Beaconstac Plans Pricing
   plan_count: 0
   slug: beaconstac-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Beaconstac Rate Limits

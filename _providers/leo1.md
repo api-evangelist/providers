@@ -357,7 +357,7 @@ overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Leo1''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 71
+random_paper: 12
 score:
   band: thin
   composite: 37.1

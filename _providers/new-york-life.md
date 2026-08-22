@@ -57,7 +57,7 @@ name: New York Life
 nav: Providers
 network: true
 overview: New York Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Life Insurance, Wealth Management, and Fortune 100.
-random_paper: 97
+random_paper: 8
 score:
   band: minimal
   composite: 2.3

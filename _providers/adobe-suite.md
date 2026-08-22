@@ -449,7 +449,7 @@ plans:
 - name: Adobe Suite Plans Pricing
   plan_count: 3
   slug: adobe-suite-plans-pricing
-random_paper: 63
+random_paper: 14
 rate_limits:
 - limit_count: 9
   name: Adobe Suite Rate Limits

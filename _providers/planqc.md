@@ -54,7 +54,7 @@ name: Planqc
 nav: Providers
 network: true
 overview: Planqc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Deep Tech, Hardware, and Neutral Atoms.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 5.3

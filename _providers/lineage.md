@@ -154,7 +154,7 @@ overview: 'Lineage is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lineage''s developer surface includes support, engineering blog, YouTube channel, authentication, and 23 more developer resources.'
-random_paper: 129
+random_paper: 11
 scopes:
 - name: Lineage Scopes
   scope_count: 21

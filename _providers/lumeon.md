@@ -72,7 +72,7 @@ overview: 'Lumeon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lumeon''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: emerging
   composite: 12.8

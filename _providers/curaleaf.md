@@ -88,7 +88,7 @@ overview: 'Curaleaf Holdings is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Curaleaf Holdings'' developer surface includes product news and 10 more developer resources.'
-random_paper: 90
+random_paper: 16
 score:
   band: minimal
   composite: 5.8

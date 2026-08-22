@@ -52,7 +52,7 @@ overview: 'Skipthedishes is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Skipthedishes'' developer surface includes signup flow and 1 more developer resources.'
-random_paper: 59
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

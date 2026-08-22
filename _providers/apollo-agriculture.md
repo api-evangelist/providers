@@ -88,7 +88,7 @@ overview: 'Apollo Agriculture is profiled on the [APIs.io](https://apis.io/) net
 
 
   Apollo Agriculture''s developer surface includes support, product news, and 9 more developer resources.'
-random_paper: 95
+random_paper: 14
 score:
   band: minimal
   composite: 9.3

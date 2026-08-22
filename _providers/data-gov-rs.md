@@ -67,7 +67,7 @@ overview: 'data.gov.rs publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   data.gov.rs'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 5.3

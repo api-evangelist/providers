@@ -49,7 +49,7 @@ name: Thread
 nav: Providers
 network: true
 overview: Thread is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, Styling, and Artificial Intelligence.
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

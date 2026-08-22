@@ -45,7 +45,7 @@ name: Shop Circle
 nav: Providers
 network: true
 overview: Shop Circle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ecommerce.
-random_paper: 70
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

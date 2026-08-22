@@ -101,7 +101,7 @@ overview: 'Kodable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kodable''s developer surface includes signup flow, pricing, support, engineering blog, and 10 more developer resources.'
-random_paper: 126
+random_paper: 8
 score:
   band: emerging
   composite: 22.4

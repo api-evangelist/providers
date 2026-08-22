@@ -53,7 +53,7 @@ name: Civitas Resources
 nav: Providers
 network: true
 overview: Civitas Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Upstream, Colorado, and Permian Basin.
-random_paper: 148
+random_paper: 2
 score:
   band: minimal
   composite: 2.7

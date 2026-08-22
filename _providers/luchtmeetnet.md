@@ -57,7 +57,7 @@ name: Luchtmeetnet
 nav: Providers
 network: true
 overview: Luchtmeetnet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 106
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

@@ -230,7 +230,7 @@ overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Turborepo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, code examples, and 26 more developer resources.'
-random_paper: 100
+random_paper: 7
 score:
   band: thin
   composite: 36.9

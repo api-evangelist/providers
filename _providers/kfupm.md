@@ -373,7 +373,7 @@ plans:
 - name: Kfupm Plans Pricing
   plan_count: 2
   slug: kfupm-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Kfupm Rate Limits

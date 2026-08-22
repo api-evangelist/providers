@@ -45,7 +45,7 @@ name: FIVE Below
 nav: Providers
 network: true
 overview: FIVE Below is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 114
+random_paper: 0
 score:
   band: minimal
   composite: 2.6

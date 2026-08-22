@@ -92,7 +92,7 @@ overview: '3T Biosciences is profiled on the [APIs.io](https://apis.io/) network
 
 
   3T Biosciences'' developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 30
+random_paper: 6
 score:
   band: emerging
   composite: 11.4

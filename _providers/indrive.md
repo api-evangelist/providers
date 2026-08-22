@@ -72,7 +72,7 @@ overview: 'Indrive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Indrive''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 11.0

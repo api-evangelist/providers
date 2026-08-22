@@ -1494,7 +1494,7 @@ plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 17
   name: Zendesk Rate Limits

@@ -45,7 +45,7 @@ name: Yoderm
 nav: Providers
 network: true
 overview: Yoderm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telehealth, Dermatology, Skincare, and Healthcare.
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

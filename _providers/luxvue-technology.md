@@ -40,7 +40,7 @@ name: LuxVue Technology
 nav: Providers
 network: true
 overview: LuxVue Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Hardtech.
-random_paper: 22
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

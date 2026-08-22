@@ -357,7 +357,7 @@ plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits

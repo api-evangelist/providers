@@ -96,7 +96,7 @@ overview: 'BuzzFeed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BuzzFeed''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: emerging
   composite: 11.8

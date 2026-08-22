@@ -52,7 +52,7 @@ overview: 'Neuroharmonics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Neuroharmonics'' developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: minimal
   composite: 2.7

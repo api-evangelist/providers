@@ -70,7 +70,7 @@ plans:
 - name: Refundid Plans Pricing
   plan_count: 1
   slug: refundid-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Refundid Rate Limits

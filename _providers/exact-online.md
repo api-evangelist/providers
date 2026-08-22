@@ -155,7 +155,7 @@ overview: 'Exact Online publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Exact Online''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 31
+random_paper: 5
 scopes:
 - name: Exact Online Scopes
   scope_count: 0

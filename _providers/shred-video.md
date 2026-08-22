@@ -84,7 +84,7 @@ overview: 'Shred Video is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Shred Video''s developer surface includes FAQ, signup flow, and 8 more developer resources.'
-random_paper: 71
+random_paper: 1
 score:
   band: emerging
   composite: 11.8

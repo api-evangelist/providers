@@ -435,7 +435,7 @@ plans:
 - name: Sap Concur Expense Plans Pricing
   plan_count: 1
   slug: sap-concur-expense-plans-pricing
-random_paper: 36
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Sap Concur Expense Rate Limits

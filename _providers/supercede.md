@@ -84,7 +84,7 @@ overview: 'Supercede is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Supercede''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 66
+random_paper: 15
 score:
   band: emerging
   composite: 19.6

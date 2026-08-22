@@ -129,7 +129,7 @@ overview: 'Namogoo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Namogoo''s developer surface includes support, authentication, and 18 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
   composite: 24.2

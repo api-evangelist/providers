@@ -113,7 +113,7 @@ overview: 'Revolution Foods is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Revolution Foods'' developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
-random_paper: 56
+random_paper: 15
 score:
   band: minimal
   composite: 7.0

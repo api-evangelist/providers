@@ -199,7 +199,7 @@ overview: 'Tendermint publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tendermint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 20 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: developing
   composite: 42.0

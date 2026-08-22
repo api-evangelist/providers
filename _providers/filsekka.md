@@ -73,7 +73,7 @@ name: FilSekka
 nav: Providers
 network: true
 overview: FilSekka is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pregnancy, Maternal Health, Health, and Mobile App.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

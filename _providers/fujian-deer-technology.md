@@ -92,7 +92,7 @@ overview: 'Fujian Deer Technology is profiled on the [APIs.io](https://apis.io/)
 
 
   Fujian Deer Technology''s developer surface includes product news and 9 more developer resources.'
-random_paper: 141
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

@@ -124,7 +124,7 @@ overview: 'RSA Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   RSA Insurance''s developer surface includes documentation, developer portal, support, engineering blog, authentication, YouTube channel, and 16 more developer resources.'
-random_paper: 147
+random_paper: 16
 score:
   band: emerging
   composite: 25.2

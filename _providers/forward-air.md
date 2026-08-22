@@ -66,7 +66,7 @@ plans:
 - name: Forward Air Plans Pricing
   plan_count: 1
   slug: forward-air-plans-pricing
-random_paper: 75
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Forward Air Rate Limits

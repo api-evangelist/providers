@@ -199,7 +199,7 @@ overview: 'Lemon Cash publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 33 more developer resources.'
-random_paper: 105
+random_paper: 12
 score:
   band: developing
   composite: 43.2

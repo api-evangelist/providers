@@ -60,7 +60,7 @@ overview: 'Sidecar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sidecar''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 7.6

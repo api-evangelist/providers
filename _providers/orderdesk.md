@@ -135,7 +135,7 @@ plans:
 - name: Orderdesk Plans Pricing
   plan_count: 4
   slug: orderdesk-plans-pricing
-random_paper: 69
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Orderdesk Rate Limits

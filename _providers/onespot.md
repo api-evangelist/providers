@@ -79,7 +79,7 @@ plans:
 - name: Onespot Plans Pricing
   plan_count: 0
   slug: onespot-plans-pricing
-random_paper: 31
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Onespot Rate Limits

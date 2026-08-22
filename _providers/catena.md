@@ -128,7 +128,7 @@ overview: 'Catena publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Catena''s developer surface includes engineering blog, signup flow, support, CLI, and 15 more developer resources.'
-random_paper: 24
+random_paper: 11
 score:
   band: emerging
   composite: 16.9

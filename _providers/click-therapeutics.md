@@ -96,7 +96,7 @@ overview: 'Click Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Click Therapeutics'' developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 72
+random_paper: 12
 score:
   band: emerging
   composite: 11.5

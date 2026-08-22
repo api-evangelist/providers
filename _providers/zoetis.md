@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Zoetis announces first AI analyser update Bosses said ...
   url: https://www.facebook.com/vettimesuk/posts/zoetis-announces-first-ai-analyser-updatebosses-said-the-updates-to-the-analyser/1425086699632340/
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Zoetis Rate Limits

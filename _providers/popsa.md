@@ -88,7 +88,7 @@ overview: 'Popsa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Popsa''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: emerging
   composite: 12.7

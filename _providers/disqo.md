@@ -132,7 +132,7 @@ overview: 'DISQO publishes 1 API on the [APIs.io](https://apis.io/) network: Aud
 
 
   DISQO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 14 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: thin
   composite: 28.8

@@ -64,7 +64,7 @@ overview: 'Check24 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Check24''s developer surface includes support and 4 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 6.6

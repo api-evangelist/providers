@@ -80,7 +80,7 @@ overview: 'Hades is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hades'' developer surface includes legal docs and 8 more developer resources.'
-random_paper: 70
+random_paper: 13
 score:
   band: minimal
   composite: 6.2

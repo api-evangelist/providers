@@ -170,7 +170,7 @@ plans:
 - name: Qr Code Crafter Plans Pricing
   plan_count: 1
   slug: qr-code-crafter-plans-pricing
-random_paper: 130
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Qr Code Crafter Rate Limits

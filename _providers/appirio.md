@@ -53,7 +53,7 @@ name: Appirio
 nav: Providers
 network: true
 overview: Appirio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Services, Consulting, Systems Integration, and Salesforce.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

@@ -272,7 +272,7 @@ overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   We > Ultrarich''s developer surface includes pricing, documentation, API reference, getting-started guide, support, FAQ, changelog, and 35 more developer resources.'
-random_paper: 72
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Wegtultrarich Rate Limits

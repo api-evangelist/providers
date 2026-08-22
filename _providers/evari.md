@@ -199,7 +199,7 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
-random_paper: 88
+random_paper: 10
 score:
   band: developing
   composite: 51.1

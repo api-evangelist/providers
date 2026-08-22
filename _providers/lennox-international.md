@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Lennox International Inc. Profile
   url: https://www.bccresearch.com/company-index/profile/lennox-international-inc?srsltid=AfmBOorRBARnkkRZj2UsZOk6uoXXDrepIdMjx4-APHTr8IL-wATR43Ah
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Lennox International Rate Limits

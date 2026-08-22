@@ -95,7 +95,7 @@ name: Factory OS
 nav: Providers
 network: true
 overview: Factory OS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Modular Construction, Offsite Construction, and Manufacturing.
-random_paper: 137
+random_paper: 2
 score:
   band: minimal
   composite: 6.1

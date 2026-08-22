@@ -203,7 +203,7 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 91
+random_paper: 19
 score:
   band: thin
   composite: 27.4

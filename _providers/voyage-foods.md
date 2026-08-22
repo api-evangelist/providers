@@ -160,7 +160,7 @@ overview: 'Voyage Foods publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Voyage Foods'' developer surface includes documentation, authentication, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 43
+random_paper: 17
 scopes:
 - name: Voyage Foods Scopes
   scope_count: 4

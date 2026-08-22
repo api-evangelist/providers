@@ -143,7 +143,7 @@ plans:
 - name: Llmwhisperer Plans Pricing
   plan_count: 3
   slug: llmwhisperer-plans-pricing
-random_paper: 118
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Llmwhisperer Rate Limits

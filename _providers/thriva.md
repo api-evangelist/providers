@@ -244,7 +244,7 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: developing
   composite: 46.5

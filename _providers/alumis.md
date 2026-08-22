@@ -84,7 +84,7 @@ name: Alumis
 nav: Providers
 network: true
 overview: Alumis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Healthcare.
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 6.2

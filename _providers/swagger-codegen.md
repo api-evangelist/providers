@@ -278,7 +278,7 @@ plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
   slug: swagger-codegen-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Swagger Codegen Rate Limits

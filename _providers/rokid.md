@@ -163,7 +163,7 @@ overview: 'Rokid publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rokid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: developing
   composite: 42.6

@@ -233,7 +233,7 @@ plans:
 - name: Heron Plans Pricing
   plan_count: 0
   slug: heron-plans-pricing
-random_paper: 93
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits

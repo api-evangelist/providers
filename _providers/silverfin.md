@@ -160,7 +160,7 @@ overview: 'Silverfin publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Silverfin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, support, and 18 more developer resources.'
-random_paper: 84
+random_paper: 12
 scopes:
 - name: Silverfin Scopes
   scope_count: 19

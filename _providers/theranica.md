@@ -60,7 +60,7 @@ overview: 'Theranica is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Theranica''s developer surface includes product news and 3 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

@@ -134,7 +134,7 @@ overview: 'Forcepoint publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Forcepoint''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: thin
   composite: 29.6

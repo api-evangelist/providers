@@ -68,7 +68,7 @@ overview: 'iChase Co., Ltd. is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   iChase Co., Ltd.''s developer surface includes support and 5 more developer resources.'
-random_paper: 53
+random_paper: 6
 score:
   band: minimal
   composite: 7.9

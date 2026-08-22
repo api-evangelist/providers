@@ -280,7 +280,7 @@ plans:
 - name: Baseten Plans Pricing
   plan_count: 1
   slug: baseten-plans-pricing
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Baseten Rate Limits

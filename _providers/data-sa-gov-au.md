@@ -85,7 +85,7 @@ plans:
 - name: Data Sa Gov Au Plans Pricing
   plan_count: 1
   slug: data-sa-gov-au-plans-pricing
-random_paper: 111
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Data Sa Gov Au Rate Limits

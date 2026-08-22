@@ -240,7 +240,7 @@ overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 21 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: developing
   composite: 44.9

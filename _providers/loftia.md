@@ -96,7 +96,7 @@ overview: 'Loftia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Loftia''s developer surface includes FAQ, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: emerging
   composite: 11.8

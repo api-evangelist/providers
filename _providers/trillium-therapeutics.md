@@ -45,7 +45,7 @@ name: Trillium Therapeutics
 nav: Providers
 network: true
 overview: Trillium Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biopharmaceutical, Oncology, and Immuno-Oncology.
-random_paper: 138
+random_paper: 19
 score:
   band: minimal
   composite: 2.2

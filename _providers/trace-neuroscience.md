@@ -61,7 +61,7 @@ name: Trace Neuroscience
 nav: Providers
 network: true
 overview: Trace Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Neuroscience, and ALS.
-random_paper: 67
+random_paper: 7
 score:
   band: minimal
   composite: 9.8

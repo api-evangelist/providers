@@ -300,7 +300,7 @@ overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 38 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: strong
   composite: 57.5

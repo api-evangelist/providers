@@ -52,7 +52,7 @@ overview: 'Brodo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brodo''s developer surface includes support and 1 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: minimal
   composite: 5.5

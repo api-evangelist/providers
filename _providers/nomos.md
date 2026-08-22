@@ -244,7 +244,7 @@ overview: 'Nomos publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nomos'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 109
+random_paper: 10
 scopes:
 - name: Nomos Scopes
   scope_count: 2

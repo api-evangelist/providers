@@ -238,7 +238,7 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 106
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits

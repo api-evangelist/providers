@@ -299,7 +299,7 @@ plans:
 - name: Peachpayments Plans Pricing
   plan_count: 2
   slug: peachpayments-plans-pricing
-random_paper: 53
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits

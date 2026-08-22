@@ -147,7 +147,7 @@ overview: 'Oddpool publishes 1 API on the [APIs.io](https://apis.io/) network: W
 
 
   Oddpool''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: developing
   composite: 41.1

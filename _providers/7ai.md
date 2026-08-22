@@ -92,7 +92,7 @@ overview: '7AI is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   7AI''s developer surface includes engineering blog, getting-started guide, support, and 9 more developer resources.'
-random_paper: 108
+random_paper: 5
 score:
   band: emerging
   composite: 19.7

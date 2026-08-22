@@ -200,7 +200,7 @@ plans:
 - name: Cisco Support Apis Plans Pricing
   plan_count: 0
   slug: cisco-support-apis-plans-pricing
-random_paper: 57
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cisco Support Apis Rate Limits

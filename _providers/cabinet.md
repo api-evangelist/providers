@@ -80,7 +80,7 @@ overview: 'Cabinet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cabinet''s developer surface includes pricing, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 130
+random_paper: 12
 score:
   band: emerging
   composite: 14.2

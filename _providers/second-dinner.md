@@ -87,7 +87,7 @@ overview: 'Second Dinner is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Second Dinner''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 129
+random_paper: 19
 score:
   band: minimal
   composite: 6.1

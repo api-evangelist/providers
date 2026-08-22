@@ -157,7 +157,7 @@ plans:
 - name: Quartzy Plans Pricing
   plan_count: 3
   slug: quartzy-plans-pricing
-random_paper: 55
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Quartzy Rate Limits

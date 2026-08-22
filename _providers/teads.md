@@ -184,7 +184,7 @@ plans:
 - name: Teads Plans Pricing
   plan_count: 0
   slug: teads-plans-pricing
-random_paper: 82
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Teads Rate Limits

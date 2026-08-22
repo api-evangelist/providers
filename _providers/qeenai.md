@@ -158,7 +158,7 @@ plans:
 - name: Qeenai Plans Pricing
   plan_count: 4
   slug: qeenai-plans-pricing
-random_paper: 31
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Qeenai Rate Limits

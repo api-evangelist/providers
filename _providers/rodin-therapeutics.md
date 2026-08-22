@@ -49,7 +49,7 @@ name: Rodin Therapeutics *
 nav: Providers
 network: true
 overview: Rodin Therapeutics * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Neuroscience, and Pharmaceuticals.
-random_paper: 94
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

@@ -84,7 +84,7 @@ overview: 'Brandback is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brandback''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: emerging
   composite: 14.1

@@ -359,7 +359,7 @@ plans:
 - name: Ollama Plans Pricing
   plan_count: 4
   slug: ollama-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Ollama Rate Limits

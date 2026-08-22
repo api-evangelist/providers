@@ -92,7 +92,7 @@ overview: 'Upstream Security is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Upstream Security''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 26
+random_paper: 8
 score:
   band: emerging
   composite: 18.1

@@ -111,7 +111,7 @@ plans:
 - name: Foresight Diagnostics Plans Pricing
   plan_count: 0
   slug: foresight-diagnostics-plans-pricing
-random_paper: 106
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Foresight Diagnostics Rate Limits

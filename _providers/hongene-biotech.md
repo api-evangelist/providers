@@ -72,7 +72,7 @@ overview: 'Hongene Biotech is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Hongene Biotech''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 8.3

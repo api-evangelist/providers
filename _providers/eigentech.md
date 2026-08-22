@@ -45,7 +45,7 @@ name: Eigentech
 nav: Providers
 network: true
 overview: Eigentech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Enterprise AI, and Automation.
-random_paper: 46
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

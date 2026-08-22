@@ -5755,7 +5755,7 @@ plans:
 - name: Amazon Medialive Plans Pricing
   plan_count: 3
   slug: amazon-medialive-plans-pricing
-random_paper: 145
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Medialive Rate Limits

@@ -76,7 +76,7 @@ overview: 'Numerade is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Numerade''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: minimal
   composite: 9.9

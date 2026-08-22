@@ -133,7 +133,7 @@ plans:
 - name: Liftlab Plans Pricing
   plan_count: 0
   slug: liftlab-plans-pricing
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Liftlab Rate Limits

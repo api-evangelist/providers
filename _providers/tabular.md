@@ -49,7 +49,7 @@ name: Tabular
 nav: Providers
 network: true
 overview: Tabular is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Platform, Apache Iceberg, and Data Lakehouse.
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 5.3

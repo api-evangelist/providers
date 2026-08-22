@@ -112,7 +112,7 @@ plans:
 - name: Corebridge Financial Plans Pricing
   plan_count: 3
   slug: corebridge-financial-plans-pricing
-random_paper: 87
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Corebridge Financial Rate Limits

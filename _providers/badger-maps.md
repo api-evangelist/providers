@@ -242,7 +242,7 @@ plans:
 - name: Badger Maps Plans Pricing
   plan_count: 6
   slug: badger-maps-plans-pricing
-random_paper: 48
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Badger Maps Rate Limits

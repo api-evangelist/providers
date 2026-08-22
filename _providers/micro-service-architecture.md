@@ -40,7 +40,7 @@ name: Micro-Service Architecture
 nav: Providers
 network: true
 overview: Micro-Service Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Distributed Systems, Microservices, and Scalability.
-random_paper: 131
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

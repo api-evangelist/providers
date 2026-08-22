@@ -236,7 +236,7 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
-random_paper: 147
+random_paper: 6
 score:
   band: strong
   composite: 55.7

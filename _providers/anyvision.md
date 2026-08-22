@@ -141,7 +141,7 @@ overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   AnyVision''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 98
+random_paper: 5
 score:
   band: thin
   composite: 32.6

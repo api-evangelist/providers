@@ -64,7 +64,7 @@ overview: 'Swing Education is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Swing Education''s developer surface includes support and 4 more developer resources.'
-random_paper: 63
+random_paper: 20
 score:
   band: minimal
   composite: 8.0

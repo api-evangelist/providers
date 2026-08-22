@@ -100,7 +100,7 @@ overview: 'Snappy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Snappy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 71
+random_paper: 16
 score:
   band: emerging
   composite: 16.0

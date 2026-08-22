@@ -53,7 +53,7 @@ name: Edgar Online (OTC Markets Group)
 nav: Providers
 network: true
 overview: Edgar Online (OTC Markets Group) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Data, SEC Filings, and Market Data.
-random_paper: 2
+random_paper: 0
 score:
   band: minimal
   composite: 2.0

@@ -100,7 +100,7 @@ overview: 'Wispr Flow is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wispr Flow''s developer surface includes documentation, support, engineering blog, changelog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 21.2

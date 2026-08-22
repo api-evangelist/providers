@@ -121,7 +121,7 @@ overview: 'Koda Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Koda Health''s developer surface includes engineering blog, support, FAQ, and 16 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: emerging
   composite: 18.5

@@ -196,7 +196,7 @@ overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
-random_paper: 28
+random_paper: 2
 scopes:
 - name: Knight Frank Scopes
   scope_count: 2

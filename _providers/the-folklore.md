@@ -125,7 +125,7 @@ overview: 'The Folklore publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   The Folklore''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 12 more developer resources.'
-random_paper: 36
+random_paper: 10
 scopes:
 - name: The Folklore Scopes
   scope_count: 4

@@ -84,7 +84,7 @@ overview: 'Beengo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Beengo''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: emerging
   composite: 11.7

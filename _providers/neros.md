@@ -115,7 +115,7 @@ overview: 'Neros publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Neros'' developer surface includes engineering blog, support, changelog, sandbox, and 15 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: emerging
   composite: 19.2

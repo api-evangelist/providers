@@ -49,7 +49,7 @@ name: Philz Coffee
 nav: Providers
 network: true
 overview: Philz Coffee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coffee, Retail, and Beverage.
-random_paper: 20
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

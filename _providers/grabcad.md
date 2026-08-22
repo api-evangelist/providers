@@ -125,7 +125,7 @@ overview: 'GrabCAD publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   GrabCAD''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 112
+random_paper: 15
 score:
   band: emerging
   composite: 25.2

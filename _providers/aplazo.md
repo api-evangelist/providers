@@ -148,7 +148,7 @@ overview: 'Aplazo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aplazo''s developer surface includes support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: thin
   composite: 26.8

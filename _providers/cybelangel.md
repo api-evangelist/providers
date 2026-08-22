@@ -206,7 +206,7 @@ plans:
 - name: Cybelangel Plans Pricing
   plan_count: 0
   slug: cybelangel-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Cybelangel Rate Limits

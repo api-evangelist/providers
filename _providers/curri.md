@@ -152,7 +152,7 @@ overview: 'Curri publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Curri''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: developing
   composite: 42.1

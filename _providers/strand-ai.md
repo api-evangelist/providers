@@ -181,7 +181,7 @@ overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Strand AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, changelog, and 17 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: developing
   composite: 41.0

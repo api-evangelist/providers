@@ -179,7 +179,7 @@ plans:
 - name: Spring Cloud Config Plans Pricing
   plan_count: 3
   slug: spring-cloud-config-plans-pricing
-random_paper: 126
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Config Rate Limits

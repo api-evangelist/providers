@@ -186,7 +186,7 @@ plans:
 - name: Streetmetrics Plans Pricing
   plan_count: 0
   slug: streetmetrics-plans-pricing
-random_paper: 81
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Streetmetrics Rate Limits

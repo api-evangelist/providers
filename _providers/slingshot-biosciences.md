@@ -126,7 +126,7 @@ overview: 'Slingshot Biosciences publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Slingshot Biosciences'' developer surface includes engineering blog, support, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 105
+random_paper: 7
 scopes:
 - name: Slingshot Biosciences Scopes
   scope_count: 4

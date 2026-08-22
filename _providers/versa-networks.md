@@ -148,7 +148,7 @@ overview: 'Versa Networks publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Versa Networks'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 142
+random_paper: 13
 score:
   band: thin
   composite: 28.9

@@ -109,7 +109,7 @@ plans:
 - name: Linkett Plans Pricing
   plan_count: 3
   slug: linkett-plans-pricing
-random_paper: 18
+random_paper: 7
 score:
   band: emerging
   composite: 13.4

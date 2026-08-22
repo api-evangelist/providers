@@ -292,7 +292,7 @@ plans:
 - name: Hightouch Plans Pricing
   plan_count: 3
   slug: hightouch-plans-pricing
-random_paper: 69
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Hightouch Rate Limits

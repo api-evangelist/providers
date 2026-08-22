@@ -88,7 +88,7 @@ overview: 'Avec is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Avec''s developer surface includes signup flow, support, YouTube channel, and 8 more developer resources.'
-random_paper: 117
+random_paper: 16
 score:
   band: emerging
   composite: 12.8

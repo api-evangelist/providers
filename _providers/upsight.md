@@ -72,7 +72,7 @@ overview: 'Upsight is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upsight''s developer surface includes documentation, API reference, and 5 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 11.2

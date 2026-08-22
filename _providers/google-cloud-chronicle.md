@@ -189,7 +189,7 @@ plans:
 - name: Google Cloud Chronicle Plans Pricing
   plan_count: 3
   slug: google-cloud-chronicle-plans-pricing
-random_paper: 127
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Google Cloud Chronicle Rate Limits

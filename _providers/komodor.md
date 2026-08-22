@@ -92,7 +92,7 @@ overview: 'Komodor publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Komodor''s developer surface includes documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: emerging
   composite: 12.0

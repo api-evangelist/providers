@@ -49,7 +49,7 @@ name: Ginger
 nav: Providers
 network: true
 overview: Ginger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Behavioral Health, Healthcare, and Wellness.
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 3.3

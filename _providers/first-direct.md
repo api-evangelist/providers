@@ -219,7 +219,7 @@ overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 29 more developer resources.'
-random_paper: 40
+random_paper: 14
 scopes:
 - name: First Direct Scopes
   scope_count: 3

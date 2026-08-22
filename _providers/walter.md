@@ -78,7 +78,7 @@ name: Walter
 nav: Providers
 network: true
 overview: Walter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agent, Manufacturing, and ERP.
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 7.3

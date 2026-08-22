@@ -49,7 +49,7 @@ name: Pepperfry
 nav: Providers
 network: true
 overview: Pepperfry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Furniture, Home, and Retail.
-random_paper: 95
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

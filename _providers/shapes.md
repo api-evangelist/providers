@@ -168,7 +168,7 @@ overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: developing
   composite: 46.0

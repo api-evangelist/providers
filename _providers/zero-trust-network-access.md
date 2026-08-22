@@ -250,7 +250,7 @@ plans:
 - name: Zero Trust Network Access Plans Pricing
   plan_count: 3
   slug: zero-trust-network-access-plans-pricing
-random_paper: 32
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Zero Trust Network Access Rate Limits

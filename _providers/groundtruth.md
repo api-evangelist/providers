@@ -198,7 +198,7 @@ plans:
 - name: Groundtruth Plans Pricing
   plan_count: 0
   slug: groundtruth-plans-pricing
-random_paper: 30
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Groundtruth Rate Limits

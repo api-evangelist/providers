@@ -369,7 +369,7 @@ plans:
 - name: Oura Plans Pricing
   plan_count: 2
   slug: oura-plans-pricing
-random_paper: 141
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Oura Rate Limits

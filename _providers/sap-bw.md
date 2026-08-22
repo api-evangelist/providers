@@ -131,7 +131,7 @@ plans:
 - name: Sap Bw Plans Pricing
   plan_count: 3
   slug: sap-bw-plans-pricing
-random_paper: 139
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Sap Bw Rate Limits

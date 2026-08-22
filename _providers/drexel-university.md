@@ -76,7 +76,7 @@ overview: 'Drexel University is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Drexel University''s developer surface includes developer portal, GitHub presence, and 6 more developer resources.'
-random_paper: 23
+random_paper: 5
 score:
   band: minimal
   composite: 4.2

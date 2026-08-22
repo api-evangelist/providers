@@ -50,7 +50,7 @@ overview: 'AxyomCore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AxyomCore''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 1.1

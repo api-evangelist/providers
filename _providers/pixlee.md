@@ -199,7 +199,7 @@ overview: 'Pixlee publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Pixlee''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: developing
   composite: 43.6

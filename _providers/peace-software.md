@@ -40,7 +40,7 @@ name: Peace Software
 nav: Providers
 network: true
 overview: Peace Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 89
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

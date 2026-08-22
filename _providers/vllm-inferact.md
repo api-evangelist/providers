@@ -49,7 +49,7 @@ name: Inferact
 nav: Providers
 network: true
 overview: Inferact is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM Inference, and Model Serving.
-random_paper: 140
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

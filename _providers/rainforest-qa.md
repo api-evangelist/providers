@@ -300,7 +300,7 @@ overview: 'Rainforest QA publishes 18 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rainforest QA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 148
+random_paper: 17
 score:
   band: developing
   composite: 52.2

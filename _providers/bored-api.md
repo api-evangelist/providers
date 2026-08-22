@@ -139,7 +139,7 @@ plans:
 - name: Bored Api Plans Pricing
   plan_count: 1
   slug: bored-api-plans-pricing
-random_paper: 138
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Bored Api Rate Limits

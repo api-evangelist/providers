@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Polaris Industries is selling Indian Motorcycle
   url: https://www.ktiv.com/2025/10/14/polaris-industries-is-selling-indian-motorcycle/
-random_paper: 117
+random_paper: 15
 score:
   band: minimal
   composite: 3.5

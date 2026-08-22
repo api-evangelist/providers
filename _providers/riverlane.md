@@ -148,7 +148,7 @@ overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Riverlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: thin
   composite: 29.0

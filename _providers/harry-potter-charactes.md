@@ -57,7 +57,7 @@ name: Harry Potter Charactes
 nav: Providers
 network: true
 overview: Harry Potter Charactes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

@@ -49,7 +49,7 @@ name: Energy Micro
 nav: Providers
 network: true
 overview: Energy Micro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Semiconductors, Microcontrollers, and Embedded.
-random_paper: 41
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

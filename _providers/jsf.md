@@ -73,7 +73,7 @@ plans:
 - name: Jsf Plans Pricing
   plan_count: 3
   slug: jsf-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Jsf Rate Limits

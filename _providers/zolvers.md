@@ -64,7 +64,7 @@ overview: 'Zolvers is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zolvers'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: minimal
   composite: 9.7

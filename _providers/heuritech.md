@@ -214,7 +214,7 @@ plans:
 - name: Heuritech Plans Pricing
   plan_count: 3
   slug: heuritech-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Heuritech Rate Limits

@@ -277,7 +277,7 @@ overview: 'Mireye publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 55
+random_paper: 0
 scopes:
 - name: Mireye Scopes
   scope_count: 1

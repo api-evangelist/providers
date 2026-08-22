@@ -66,7 +66,7 @@ overview: 'Monday publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Monday''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 17.2

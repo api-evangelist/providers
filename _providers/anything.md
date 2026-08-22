@@ -253,7 +253,7 @@ overview: 'Anything publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: developing
   composite: 42.3

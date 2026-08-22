@@ -247,7 +247,7 @@ overview: 'Loopay publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Loopay''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 64
+random_paper: 9
 score:
   band: thin
   composite: 36.5

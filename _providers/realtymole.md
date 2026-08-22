@@ -129,7 +129,7 @@ plans:
 - name: Realtymole Plans Pricing
   plan_count: 5
   slug: realtymole-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Realtymole Rate Limits

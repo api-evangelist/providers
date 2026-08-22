@@ -233,7 +233,7 @@ plans:
 - name: Workfront Plans Pricing
   plan_count: 3
   slug: workfront-plans-pricing
-random_paper: 110
+random_paper: 17
 rate_limits:
 - limit_count: 9
   name: Workfront Rate Limits

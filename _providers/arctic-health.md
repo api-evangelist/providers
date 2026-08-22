@@ -72,7 +72,7 @@ overview: 'Arctic Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Arctic Health''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 113
+random_paper: 3
 score:
   band: minimal
   composite: 10.3

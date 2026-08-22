@@ -60,7 +60,7 @@ overview: 'Payitoff is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Payitoff''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: minimal
   composite: 4.4

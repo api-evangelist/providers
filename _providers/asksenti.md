@@ -100,7 +100,7 @@ overview: 'AskSenti is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AskSenti''s developer surface includes changelog, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: emerging
   composite: 24.9

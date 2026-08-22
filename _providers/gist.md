@@ -199,7 +199,7 @@ plans:
 - name: Gist Plans Pricing
   plan_count: 0
   slug: gist-plans-pricing
-random_paper: 141
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Gist Rate Limits

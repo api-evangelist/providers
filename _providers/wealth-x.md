@@ -216,7 +216,7 @@ plans:
 - name: Wealth X Plans Pricing
   plan_count: 5
   slug: wealth-x-plans-pricing
-random_paper: 65
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Wealth X Rate Limits

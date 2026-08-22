@@ -151,7 +151,7 @@ plans:
 - name: Metamarkets Plans Pricing
   plan_count: 0
   slug: metamarkets-plans-pricing
-random_paper: 139
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits

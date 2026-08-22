@@ -145,7 +145,7 @@ plans:
 - name: Dolls Kill Plans Pricing
   plan_count: 0
   slug: dolls-kill-plans-pricing
-random_paper: 121
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Dolls Kill Rate Limits

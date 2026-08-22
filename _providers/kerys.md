@@ -80,7 +80,7 @@ overview: 'Kerys is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kerys'' developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 111
+random_paper: 12
 score:
   band: emerging
   composite: 11.4

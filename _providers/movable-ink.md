@@ -189,7 +189,7 @@ plans:
 - name: Movable Ink Plans Pricing
   plan_count: 0
   slug: movable-ink-plans-pricing
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Movable Ink Rate Limits

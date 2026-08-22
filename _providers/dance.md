@@ -88,7 +88,7 @@ overview: 'Dance is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dance''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
-random_paper: 60
+random_paper: 3
 score:
   band: emerging
   composite: 14.1

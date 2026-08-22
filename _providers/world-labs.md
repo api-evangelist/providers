@@ -94,7 +94,7 @@ overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Labs'' developer surface includes authentication and 6 more developer resources.'
-random_paper: 121
+random_paper: 7
 score:
   band: emerging
   composite: 24.6

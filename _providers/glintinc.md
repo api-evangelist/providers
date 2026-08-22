@@ -49,7 +49,7 @@ name: Glintinc
 nav: Providers
 network: true
 overview: Glintinc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Engagement, People Analytics, HR Tech, and Surveys.
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

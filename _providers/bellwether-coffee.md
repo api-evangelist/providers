@@ -119,7 +119,7 @@ overview: 'Bellwether Coffee is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bellwether Coffee''s developer surface includes pricing, support, engineering blog, FAQ, and 17 more developer resources.'
-random_paper: 92
+random_paper: 9
 score:
   band: emerging
   composite: 17.3

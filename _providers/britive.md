@@ -646,7 +646,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
-random_paper: 12
+random_paper: 1
 scopes:
 - name: Britive Scopes
   scope_count: 0

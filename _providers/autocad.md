@@ -237,7 +237,7 @@ plans:
 - name: Autocad Plans Pricing
   plan_count: 3
   slug: autocad-plans-pricing
-random_paper: 141
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Autocad Rate Limits

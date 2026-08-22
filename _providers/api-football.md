@@ -107,7 +107,7 @@ plans:
 - name: Api Football Plans Pricing
   plan_count: 3
   slug: api-football-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Api Football Rate Limits

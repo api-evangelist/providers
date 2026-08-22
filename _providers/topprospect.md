@@ -40,7 +40,7 @@ name: TopProspect
 nav: Providers
 network: true
 overview: TopProspect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 27
+random_paper: 1
 score:
   band: minimal
   composite: 3.2

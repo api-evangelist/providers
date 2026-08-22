@@ -109,7 +109,7 @@ plans:
 - name: Anheuser Busch Plans Pricing
   plan_count: 2
   slug: anheuser-busch-plans-pricing
-random_paper: 96
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Anheuser Busch Rate Limits

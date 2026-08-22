@@ -90,7 +90,7 @@ overview: 'Rondo Energy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Rondo Energy''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 49
+random_paper: 2
 score:
   band: emerging
   composite: 14.5

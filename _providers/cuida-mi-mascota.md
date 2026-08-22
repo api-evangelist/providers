@@ -72,7 +72,7 @@ overview: 'Cuida Mi Mascota is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cuida Mi Mascota''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 76
+random_paper: 12
 score:
   band: emerging
   composite: 12.3

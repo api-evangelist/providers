@@ -153,7 +153,7 @@ plans:
 - name: Debank Plans Pricing
   plan_count: 0
   slug: debank-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Debank Rate Limits

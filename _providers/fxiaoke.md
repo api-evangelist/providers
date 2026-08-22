@@ -171,7 +171,7 @@ plans:
 - name: Fxiaoke Plans Pricing
   plan_count: 3
   slug: fxiaoke-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Fxiaoke Rate Limits

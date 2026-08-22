@@ -49,7 +49,7 @@ name: Ampaire
 nav: Providers
 network: true
 overview: Ampaire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Aerospace, Electric Aircraft, and Hybrid-Electric.
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 7.1

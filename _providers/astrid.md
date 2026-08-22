@@ -40,7 +40,7 @@ name: Astrid *
 nav: Providers
 network: true
 overview: Astrid * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Productivity, Task Management, and To-Do List.
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

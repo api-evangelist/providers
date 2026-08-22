@@ -129,7 +129,7 @@ plans:
 - name: Webloyalty Plans Pricing
   plan_count: 0
   slug: webloyalty-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Webloyalty Rate Limits

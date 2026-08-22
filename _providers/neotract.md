@@ -49,7 +49,7 @@ name: NeoTract
 nav: Providers
 network: true
 overview: NeoTract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, MedTech, and Medical.
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

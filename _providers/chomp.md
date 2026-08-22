@@ -57,7 +57,7 @@ name: Chomp
 nav: Providers
 network: true
 overview: Chomp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

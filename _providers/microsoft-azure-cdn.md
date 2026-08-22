@@ -129,7 +129,7 @@ plans:
 - name: Microsoft Azure Cdn Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cdn-plans-pricing
-random_paper: 144
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cdn Rate Limits

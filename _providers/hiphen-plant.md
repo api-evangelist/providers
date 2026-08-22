@@ -73,7 +73,7 @@ plans:
 - name: Hiphen Plant Plans Pricing
   plan_count: 3
   slug: hiphen-plant-plans-pricing
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Hiphen Plant Rate Limits

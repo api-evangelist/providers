@@ -249,7 +249,7 @@ overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 37
+random_paper: 5
 score:
   band: thin
   composite: 34.6

@@ -182,7 +182,7 @@ overview: 'CodeCombat publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodeCombat''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: thin
   composite: 35.8

@@ -174,7 +174,7 @@ plans:
 - name: Gleif Plans Pricing
   plan_count: 1
   slug: gleif-plans-pricing
-random_paper: 72
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Gleif Rate Limits

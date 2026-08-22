@@ -360,7 +360,7 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
 
 
   Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 115
+random_paper: 17
 rules:
 - effective_rule_count: 6
   extends: []

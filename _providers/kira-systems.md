@@ -56,7 +56,7 @@ overview: 'Kira Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Kira Systems'' developer surface includes support and 2 more developer resources.'
-random_paper: 68
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

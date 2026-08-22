@@ -252,7 +252,7 @@ plans:
 - name: Jambase Plans Pricing
   plan_count: 5
   slug: jambase-plans-pricing
-random_paper: 127
+random_paper: 9
 rate_limits:
 - limit_count: 9
   name: Jambase Rate Limits

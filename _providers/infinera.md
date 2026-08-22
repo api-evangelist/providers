@@ -88,7 +88,7 @@ overview: 'Infinera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Infinera''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: emerging
   composite: 17.6

@@ -236,7 +236,7 @@ overview: 'ZenZap publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 68
+random_paper: 13
 scopes:
 - name: Zenzap Scopes
   scope_count: 12

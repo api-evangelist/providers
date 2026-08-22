@@ -76,7 +76,7 @@ overview: 'Smalls is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Smalls'' developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: emerging
   composite: 11.4

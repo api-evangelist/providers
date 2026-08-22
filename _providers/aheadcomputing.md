@@ -83,7 +83,7 @@ overview: 'AheadComputing is profiled on the [APIs.io](https://apis.io/) network
 
 
   AheadComputing''s developer surface includes engineering blog, product news, and 6 more developer resources.'
-random_paper: 140
+random_paper: 11
 score:
   band: minimal
   composite: 7.6

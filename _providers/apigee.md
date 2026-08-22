@@ -1116,7 +1116,7 @@ plans:
 - name: Apigee Plans Pricing
   plan_count: 5
   slug: apigee-plans-pricing
-random_paper: 23
+random_paper: 10
 rate_limits:
 - limit_count: 16
   name: Apigee Rate Limits

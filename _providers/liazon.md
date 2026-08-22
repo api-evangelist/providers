@@ -46,7 +46,7 @@ name: Liazon
 nav: Providers
 network: true
 overview: Liazon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Employee Benefits, Insurance, and Health Insurance.
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 2.3

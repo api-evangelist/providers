@@ -213,7 +213,7 @@ plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
   slug: synchrony-financial-plans-pricing
-random_paper: 46
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Synchrony Financial Rate Limits

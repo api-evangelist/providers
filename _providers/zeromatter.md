@@ -60,7 +60,7 @@ overview: 'Zeromatter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zeromatter''s developer surface includes support and 3 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: minimal
   composite: 8.1

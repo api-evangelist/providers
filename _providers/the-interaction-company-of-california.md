@@ -160,7 +160,7 @@ overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io
 
 
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
-random_paper: 129
+random_paper: 9
 score:
   band: developing
   composite: 40.6

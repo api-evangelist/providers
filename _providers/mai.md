@@ -162,7 +162,7 @@ plans:
 - name: Mai Plans Pricing
   plan_count: 2
   slug: mai-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Mai Rate Limits

@@ -94,7 +94,7 @@ plans:
 - name: Ebbo Plans Pricing
   plan_count: 0
   slug: ebbo-plans-pricing
-random_paper: 110
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Ebbo Rate Limits

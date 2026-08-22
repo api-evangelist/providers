@@ -66,7 +66,7 @@ plans:
 - name: Fox Factory Holding Plans Pricing
   plan_count: 1
   slug: fox-factory-holding-plans-pricing
-random_paper: 136
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Fox Factory Holding Rate Limits

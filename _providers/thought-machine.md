@@ -122,7 +122,7 @@ overview: 'Thought Machine publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Thought Machine''s developer surface includes documentation, engineering blog, support, sandbox, authentication, and 13 more developer resources.'
-random_paper: 51
+random_paper: 8
 scopes:
 - name: Thought Machine Scopes
   scope_count: 5

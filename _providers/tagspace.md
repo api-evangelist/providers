@@ -72,7 +72,7 @@ overview: 'tagSpace is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   tagSpace''s developer surface includes support, YouTube channel, and 5 more developer resources.'
-random_paper: 95
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

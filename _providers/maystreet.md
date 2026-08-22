@@ -91,7 +91,7 @@ overview: 'MayStreet publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   MayStreet''s developer surface includes authentication, sandbox, and 8 more developer resources.'
-random_paper: 96
+random_paper: 3
 score:
   band: minimal
   composite: 8.5

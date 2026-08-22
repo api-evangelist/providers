@@ -518,7 +518,7 @@ overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: developing
   composite: 52.4

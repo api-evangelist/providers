@@ -215,7 +215,7 @@ plans:
 - name: Nthu Plans Pricing
   plan_count: 2
   slug: nthu-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Nthu Rate Limits

@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: Marathon Petroleum's Ehren Powell On Data, AI And ...
   url: https://www.forbes.com/sites/peterhigh/2026/03/13/marathon-petroleums-ehren-powell-on-data-ai-and-operational-safety/
-random_paper: 104
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

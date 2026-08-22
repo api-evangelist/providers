@@ -195,7 +195,7 @@ plans:
 - name: Dartmouth Plans Pricing
   plan_count: 2
   slug: dartmouth-plans-pricing
-random_paper: 90
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Dartmouth Rate Limits

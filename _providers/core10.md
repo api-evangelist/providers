@@ -124,7 +124,7 @@ plans:
 - name: Core10 Plans Pricing
   plan_count: 0
   slug: core10-plans-pricing
-random_paper: 75
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Core10 Rate Limits

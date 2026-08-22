@@ -52,7 +52,7 @@ overview: 'Truvio is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Truvio''s developer surface includes pricing and 1 more developer resources.'
-random_paper: 85
+random_paper: 9
 score:
   band: minimal
   composite: 7.1

@@ -49,7 +49,7 @@ name: Wonderbly *
 nav: Providers
 network: true
 overview: Wonderbly * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Personalization, and Publishing.
-random_paper: 88
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -56,7 +56,7 @@ overview: 'Confluence Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Confluence Labs'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 31
+random_paper: 9
 score:
   band: minimal
   composite: 5.8

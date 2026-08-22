@@ -57,7 +57,7 @@ name: CatalYm
 nav: Providers
 network: true
 overview: CatalYm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immunotherapy, and Oncology.
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 6.1

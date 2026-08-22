@@ -202,7 +202,7 @@ press:
 - date: '2026-05-25'
   title: Technology
   url: https://www.visteon.com/products-technology/technology/default.aspx
-random_paper: 31
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Visteon Rate Limits

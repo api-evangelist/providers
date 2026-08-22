@@ -163,7 +163,7 @@ plans:
 - name: Vonage Video Plans Pricing
   plan_count: 3
   slug: vonage-video-plans-pricing
-random_paper: 28
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Vonage Video Rate Limits

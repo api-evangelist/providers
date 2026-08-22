@@ -149,7 +149,7 @@ overview: 'Tessl is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tessl''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, changelog, CLI, and 18 more developer resources.'
-random_paper: 108
+random_paper: 9
 score:
   band: thin
   composite: 30.6

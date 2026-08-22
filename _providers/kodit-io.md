@@ -40,7 +40,7 @@ name: Kodit.io
 nav: Providers
 network: true
 overview: Kodit.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Marketplace, and Finland.
-random_paper: 55
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

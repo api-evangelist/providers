@@ -129,7 +129,7 @@ overview: 'LIV is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   LIV''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 33
+random_paper: 16
 score:
   band: thin
   composite: 29.9

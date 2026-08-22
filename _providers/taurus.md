@@ -154,7 +154,7 @@ overview: 'Taurus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Taurus'' developer surface includes documentation, API reference, getting-started guide, authentication, and 19 more developer resources.'
-random_paper: 80
+random_paper: 4
 score:
   band: thin
   composite: 36.3

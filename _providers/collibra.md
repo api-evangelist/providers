@@ -140,7 +140,7 @@ overview: 'Collibra publishes 7 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Collibra''s developer surface includes developer portal, documentation, pricing, and 6 more developer resources.'
-random_paper: 95
+random_paper: 0
 score:
   band: emerging
   composite: 11.1

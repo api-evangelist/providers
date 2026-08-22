@@ -163,7 +163,7 @@ plans:
 - name: Black Crow Ai Plans Pricing
   plan_count: 0
   slug: black-crow-ai-plans-pricing
-random_paper: 52
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Black Crow Ai Rate Limits

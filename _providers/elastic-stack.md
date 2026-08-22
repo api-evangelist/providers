@@ -159,7 +159,7 @@ plans:
 - name: Elastic Stack Plans Pricing
   plan_count: 3
   slug: elastic-stack-plans-pricing
-random_paper: 128
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Elastic Stack Rate Limits

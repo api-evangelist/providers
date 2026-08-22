@@ -159,7 +159,7 @@ overview: 'Great-West Lifeco publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
-random_paper: 59
+random_paper: 18
 scopes:
 - name: Great West Lifeco Scopes
   scope_count: 0

@@ -124,7 +124,7 @@ overview: 'WeLab publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   WeLab''s developer surface includes support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: emerging
   composite: 20.9

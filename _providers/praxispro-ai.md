@@ -128,7 +128,7 @@ plans:
 - name: Praxispro Ai Plans Pricing
   plan_count: 0
   slug: praxispro-ai-plans-pricing
-random_paper: 55
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Praxispro Ai Rate Limits

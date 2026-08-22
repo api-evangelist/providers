@@ -137,7 +137,7 @@ overview: 'Preciser publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Preciser''s developer surface includes API reference, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: emerging
   composite: 22.3

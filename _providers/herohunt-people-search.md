@@ -58,7 +58,7 @@ overview: 'HeroHunt People Search publishes 1 API on the [APIs.io](https://apis.
 
 
   HeroHunt People Search''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 7
+random_paper: 16
 score:
   band: minimal
   composite: 5.9

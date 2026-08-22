@@ -84,7 +84,7 @@ overview: 'Pindrop Security is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Pindrop Security''s developer surface includes engineering blog, privacy policy, signup flow, and 7 more developer resources.'
-random_paper: 58
+random_paper: 17
 score:
   band: emerging
   composite: 15.8

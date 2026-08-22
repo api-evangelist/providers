@@ -80,7 +80,7 @@ overview: 'Leland is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Leland''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: emerging
   composite: 13.3

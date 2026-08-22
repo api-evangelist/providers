@@ -103,7 +103,7 @@ overview: 'ZeroAvia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ZeroAvia''s developer surface includes engineering blog, support, FAQ, and 10 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 11.3

@@ -85,7 +85,7 @@ overview: 'Our Place is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Our Place''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 10
+random_paper: 1
 scopes:
 - name: Our Place Scopes
   scope_count: 4

@@ -82,7 +82,7 @@ name: Central Coast Agriculture
 nav: Providers
 network: true
 overview: Central Coast Agriculture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Cannabis, Farming, and Consumer Packaged Goods.
-random_paper: 31
+random_paper: 2
 score:
   band: minimal
   composite: 7.1

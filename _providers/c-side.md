@@ -168,7 +168,7 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   c/side''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 21 more developer resources.'
-random_paper: 118
+random_paper: 19
 score:
   band: developing
   composite: 46.2

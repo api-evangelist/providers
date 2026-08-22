@@ -121,7 +121,7 @@ overview: 'LegitFit publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LegitFit''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 111
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Legitfit Rate Limits

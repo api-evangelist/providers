@@ -139,7 +139,7 @@ overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://
 
 
   Braintrust (Talent Network)''s developer surface includes documentation, engineering blog, pricing, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: thin
   composite: 31.1

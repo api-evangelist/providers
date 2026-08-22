@@ -179,7 +179,7 @@ overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   REKKI''s developer surface includes getting-started guide, support, documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: thin
   composite: 38.8

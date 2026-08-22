@@ -96,7 +96,7 @@ overview: 'Node.js is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Node.js'' developer surface includes documentation, engineering blog, and 11 more developer resources.'
-random_paper: 92
+random_paper: 16
 score:
   band: minimal
   composite: 10.2

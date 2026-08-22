@@ -76,7 +76,7 @@ overview: 'Cerebral is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cerebral''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 87
+random_paper: 13
 score:
   band: emerging
   composite: 12.6

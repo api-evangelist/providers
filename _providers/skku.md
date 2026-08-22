@@ -97,7 +97,7 @@ plans:
 - name: Skku Plans Pricing
   plan_count: 2
   slug: skku-plans-pricing
-random_paper: 148
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Skku Rate Limits

@@ -72,7 +72,7 @@ overview: 'Scodix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Scodix''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.5

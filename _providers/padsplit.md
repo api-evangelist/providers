@@ -72,7 +72,7 @@ overview: 'PadSplit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PadSplit''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 11.9

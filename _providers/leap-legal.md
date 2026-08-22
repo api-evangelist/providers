@@ -89,7 +89,7 @@ plans:
 - name: Leap Legal Plans Pricing
   plan_count: 2
   slug: leap-legal-plans-pricing
-random_paper: 86
+random_paper: 14
 score:
   band: emerging
   composite: 11.2

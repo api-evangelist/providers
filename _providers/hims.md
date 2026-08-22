@@ -65,7 +65,7 @@ name: Hims
 nav: Providers
 network: true
 overview: Hims is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Wellness.
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 5.8

@@ -40,7 +40,7 @@ name: Illuminet
 nav: Providers
 network: true
 overview: Illuminet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Intelligent Network, Billing, and Database Services.
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 0.6

@@ -193,7 +193,7 @@ overview: 'API Style Guides publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   API Style Guides'' developer surface includes code examples and 10 more developer resources.'
-random_paper: 55
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []

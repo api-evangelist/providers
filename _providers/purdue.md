@@ -206,7 +206,7 @@ plans:
 - name: Purdue Plans Pricing
   plan_count: 2
   slug: purdue-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Purdue Rate Limits

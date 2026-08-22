@@ -96,7 +96,7 @@ overview: '8fit is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   8fit''s developer surface includes support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 81
+random_paper: 1
 score:
   band: minimal
   composite: 8.6

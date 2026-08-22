@@ -164,7 +164,7 @@ plans:
 - name: Unisound Plans
   plan_count: 3
   slug: unisound-plans
-random_paper: 140
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Unisound Rate Limits

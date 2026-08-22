@@ -204,7 +204,7 @@ plans:
 - name: Searchstax Plans Pricing
   plan_count: 3
   slug: searchstax-plans-pricing
-random_paper: 35
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Searchstax Rate Limits

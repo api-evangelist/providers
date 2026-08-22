@@ -96,7 +96,7 @@ overview: 'SidelineSwap publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   SidelineSwap''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 96
+random_paper: 7
 score:
   band: emerging
   composite: 21.4

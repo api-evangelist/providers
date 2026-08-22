@@ -40,7 +40,7 @@ name: Cazena
 nav: Providers
 network: true
 overview: Cazena is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Lake, Analytics, and Cloud.
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

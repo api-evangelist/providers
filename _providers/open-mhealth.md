@@ -145,7 +145,7 @@ overview: 'Open mHealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Open mHealth''s developer surface includes documentation, engineering blog, and 23 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

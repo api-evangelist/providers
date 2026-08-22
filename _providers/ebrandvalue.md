@@ -126,7 +126,7 @@ plans:
 - name: Ebrandvalue Plans Pricing
   plan_count: 3
   slug: ebrandvalue-plans-pricing
-random_paper: 118
+random_paper: 6
 score:
   band: emerging
   composite: 23.6

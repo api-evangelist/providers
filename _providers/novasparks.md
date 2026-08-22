@@ -60,7 +60,7 @@ overview: 'NovaSparks is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   NovaSparks'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: minimal
   composite: 1.2

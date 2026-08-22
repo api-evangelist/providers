@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: LPL Welcomes Vaughn Harvey as Chief Data and AI Officer
   url: https://www.lpl.com/news-media/press-releases/lpl-financial-welcomes-vaughn-harvey-as-chief-data-and-ai-officer.html
-random_paper: 121
+random_paper: 2
 score:
   band: minimal
   composite: 1.2

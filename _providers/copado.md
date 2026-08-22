@@ -149,7 +149,7 @@ overview: 'Copado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Copado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 19 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: thin
   composite: 38.1

@@ -203,7 +203,7 @@ overview: 'Arctic Wolf publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arctic Wolf''s developer surface includes authentication, documentation, API reference, getting-started guide, developer portal, support, engineering blog, and 24 more developer resources.'
-random_paper: 72
+random_paper: 2
 score:
   band: developing
   composite: 45.0

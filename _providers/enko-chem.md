@@ -103,7 +103,7 @@ overview: 'Enko Chem is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Enko Chem''s developer surface includes engineering blog, legal docs, and 11 more developer resources.'
-random_paper: 142
+random_paper: 5
 score:
   band: minimal
   composite: 7.7

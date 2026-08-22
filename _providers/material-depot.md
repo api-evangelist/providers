@@ -64,7 +64,7 @@ overview: 'Material Depot is profiled on the [APIs.io](https://apis.io/) network
 
 
   Material Depot''s developer surface includes support and 4 more developer resources.'
-random_paper: 91
+random_paper: 4
 score:
   band: minimal
   composite: 6.7

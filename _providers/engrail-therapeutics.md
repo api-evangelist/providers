@@ -139,7 +139,7 @@ overview: 'Engrail Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Engrail Therapeutics'' developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 143
+random_paper: 1
 scopes:
 - name: Engrail Therapeutics Scopes
   scope_count: 1

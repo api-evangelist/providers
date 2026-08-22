@@ -49,7 +49,7 @@ name: Epiodyne
 nav: Providers
 network: true
 overview: Epiodyne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Drug Discovery, and Pain Management.
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

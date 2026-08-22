@@ -338,7 +338,7 @@ overview: 'VersusGame publishes 32 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VersusGame''s developer surface includes authentication and 22 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: thin
   composite: 29.8

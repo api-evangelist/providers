@@ -170,7 +170,7 @@ plans:
 - name: Bybe Plans Pricing
   plan_count: 2
   slug: bybe-plans-pricing
-random_paper: 120
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Bybe Rate Limits

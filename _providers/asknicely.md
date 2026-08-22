@@ -217,7 +217,7 @@ overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 69
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Asknicely Rate Limits

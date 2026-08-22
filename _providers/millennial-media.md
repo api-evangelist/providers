@@ -40,7 +40,7 @@ name: Millennial Media
 nav: Providers
 network: true
 overview: Millennial Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and Defunct.
-random_paper: 128
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

@@ -179,7 +179,7 @@ plans:
 - name: Sync Labs Plans Pricing
   plan_count: 5
   slug: sync-labs-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 7
   name: Sync Labs Rate Limits

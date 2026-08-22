@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Climate and Energy
   url: https://www.asyousow.org/our-work/climate-and-energy
-random_paper: 39
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Wgl Holdings Rate Limits

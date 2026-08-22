@@ -167,7 +167,7 @@ plans:
 - name: Admakeai Plans Pricing
   plan_count: 4
   slug: admakeai-plans-pricing
-random_paper: 68
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Admakeai Rate Limits

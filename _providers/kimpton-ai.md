@@ -92,7 +92,7 @@ overview: 'Kimpton AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kimpton AI''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 123
+random_paper: 9
 score:
   band: emerging
   composite: 14.9

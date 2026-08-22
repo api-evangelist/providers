@@ -96,7 +96,7 @@ overview: 'HDVI (High Definition Vehicle Insurance) is profiled on the [APIs.io]
 
 
   HDVI (High Definition Vehicle Insurance)''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: emerging
   composite: 19.1

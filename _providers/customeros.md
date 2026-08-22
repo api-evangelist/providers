@@ -285,7 +285,7 @@ plans:
 - name: Customeros Plans Pricing
   plan_count: 2
   slug: customeros-plans-pricing
-random_paper: 65
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Customeros Rate Limits

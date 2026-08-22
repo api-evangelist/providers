@@ -100,7 +100,7 @@ overview: 'Scene Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Scene Health''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: emerging
   composite: 22.0

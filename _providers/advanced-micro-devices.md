@@ -397,7 +397,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 103
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits

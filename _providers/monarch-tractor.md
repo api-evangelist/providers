@@ -99,7 +99,7 @@ overview: 'Monarch Tractor is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Monarch Tractor''s developer surface includes engineering blog, documentation, support, and 9 more developer resources.'
-random_paper: 66
+random_paper: 2
 score:
   band: emerging
   composite: 14.9

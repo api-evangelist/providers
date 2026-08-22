@@ -49,7 +49,7 @@ name: Natalist
 nav: Providers
 network: true
 overview: Natalist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fertility, Pregnancy, and Women's Health.
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Hilton Worldwide Holdings Inc. Common Stock (HLT)
   url: https://www.financialcontent.com/quote/NY:HLT/pressReleases
-random_paper: 58
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Hilton Rate Limits

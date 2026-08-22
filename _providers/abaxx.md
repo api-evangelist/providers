@@ -73,7 +73,7 @@ overview: 'Abaxx is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Abaxx''s developer surface includes support and 6 more developer resources.'
-random_paper: 85
+random_paper: 7
 score:
   band: minimal
   composite: 4.2

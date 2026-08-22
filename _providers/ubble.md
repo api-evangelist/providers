@@ -247,7 +247,7 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: developing
   composite: 44.0

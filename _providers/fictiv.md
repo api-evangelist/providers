@@ -88,7 +88,7 @@ overview: 'Fictiv is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fictiv''s developer surface includes engineering blog, changelog, support, signup flow, and 7 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 16.4

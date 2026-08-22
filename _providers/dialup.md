@@ -57,7 +57,7 @@ name: Dialup
 nav: Providers
 network: true
 overview: Dialup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Social, Communication, and Consumer App.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 9.2

@@ -233,7 +233,7 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WAODAO''s developer surface includes documentation, support, authentication, code examples, and 28 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: thin
   composite: 35.4

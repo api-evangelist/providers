@@ -93,7 +93,7 @@ overview: 'Vertical Bar Inc. publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Vertical Bar Inc.''s developer surface includes authentication, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 81
+random_paper: 17
 score:
   band: emerging
   composite: 14.7

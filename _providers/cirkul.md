@@ -156,7 +156,7 @@ overview: 'Cirkul publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cirkul''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 54
+random_paper: 20
 scopes:
 - name: Cirkul Scopes
   scope_count: 4

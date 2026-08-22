@@ -227,7 +227,7 @@ overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abcuro''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 21 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: thin
   composite: 27.4

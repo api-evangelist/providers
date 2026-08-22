@@ -161,7 +161,7 @@ overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 103
+random_paper: 3
 scopes:
 - name: Lloyds Banking Group Scopes
   scope_count: 3

@@ -49,7 +49,7 @@ name: Otis
 nav: Providers
 network: true
 overview: Otis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Alternative Assets, and Collectibles.
-random_paper: 0
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

@@ -64,7 +64,7 @@ overview: 'INDOS is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   INDOS''s developer surface includes support and 4 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 8.1

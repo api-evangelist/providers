@@ -80,7 +80,7 @@ overview: 'Divi Official is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Divi Official''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 65
+random_paper: 18
 score:
   band: emerging
   composite: 11.9

@@ -49,7 +49,7 @@ name: Spoke
 nav: Providers
 network: true
 overview: Spoke is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Menswear, Apparel, and Retail.
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

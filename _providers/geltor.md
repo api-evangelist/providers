@@ -119,7 +119,7 @@ overview: 'Geltor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Geltor''s developer surface includes engineering blog, support, and 19 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 10.7

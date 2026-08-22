@@ -68,7 +68,7 @@ overview: 'Quantive (fka Gtmhub) is profiled on the [APIs.io](https://apis.io/) 
 
 
   Quantive (fka Gtmhub)''s developer surface includes CLI and 5 more developer resources.'
-random_paper: 132
+random_paper: 9
 score:
   band: minimal
   composite: 8.2

@@ -962,7 +962,7 @@ plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 70
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits

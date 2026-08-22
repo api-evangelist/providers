@@ -140,7 +140,7 @@ overview: 'Zenlytic publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Zenlytic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: developing
   composite: 44.1

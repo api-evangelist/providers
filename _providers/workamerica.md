@@ -53,7 +53,7 @@ name: WorkAmerica
 nav: Providers
 network: true
 overview: WorkAmerica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Skilled Labor, and Employment.
-random_paper: 130
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

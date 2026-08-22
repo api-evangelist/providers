@@ -85,7 +85,7 @@ plans:
 - name: Mainframe Plans Pricing
   plan_count: 0
   slug: mainframe-plans-pricing
-random_paper: 50
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Mainframe Rate Limits

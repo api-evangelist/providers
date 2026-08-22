@@ -229,7 +229,7 @@ overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 28 more developer resources.'
-random_paper: 26
+random_paper: 15
 scopes:
 - name: Vaultre Scopes
   scope_count: 0

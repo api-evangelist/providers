@@ -49,7 +49,7 @@ name: nested
 nav: Providers
 network: true
 overview: nested is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Estate Agency, and Property.
-random_paper: 47
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

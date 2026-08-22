@@ -157,7 +157,7 @@ overview: 'Raid AI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Raid AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 67
+random_paper: 12
 scopes:
 - name: Raid Ai Scopes
   scope_count: 0

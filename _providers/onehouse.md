@@ -141,7 +141,7 @@ overview: 'Onehouse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Onehouse''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, authentication, and 16 more developer resources.'
-random_paper: 125
+random_paper: 9
 score:
   band: thin
   composite: 31.5

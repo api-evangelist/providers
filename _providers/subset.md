@@ -64,7 +64,7 @@ overview: 'Subset is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Subset''s developer surface includes documentation, signup flow, support, and 2 more developer resources.'
-random_paper: 66
+random_paper: 11
 score:
   band: minimal
   composite: 8.2

@@ -72,7 +72,7 @@ overview: 'Branch8 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Branch8''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 82
+random_paper: 6
 score:
   band: emerging
   composite: 11.4

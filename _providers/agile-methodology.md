@@ -98,7 +98,7 @@ overview: 'Agile Methodology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Agile Methodology''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 115
+random_paper: 11
 rules:
 - effective_rule_count: 4
   extends: []

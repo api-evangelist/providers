@@ -72,7 +72,7 @@ overview: 'Hydroleap is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hydroleap''s developer surface includes engineering blog, support, YouTube channel, and 4 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 6.4

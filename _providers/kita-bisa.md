@@ -101,7 +101,7 @@ overview: 'Kita Bisa is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kita Bisa''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: emerging
   composite: 13.6

@@ -180,7 +180,7 @@ plans:
 - name: Fluentd Plans Pricing
   plan_count: 3
   slug: fluentd-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Fluentd Rate Limits

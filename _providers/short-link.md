@@ -53,7 +53,7 @@ name: Short Link
 nav: Providers
 network: true
 overview: Short Link publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 141
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

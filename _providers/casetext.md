@@ -133,7 +133,7 @@ plans:
 - name: Casetext Plans Pricing
   plan_count: 0
   slug: casetext-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Casetext Rate Limits

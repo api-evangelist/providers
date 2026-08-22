@@ -76,7 +76,7 @@ overview: '1Huddle is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   1Huddle''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 83
+random_paper: 7
 score:
   band: emerging
   composite: 14.1

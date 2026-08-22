@@ -49,7 +49,7 @@ name: Apex Space
 nav: Providers
 network: true
 overview: Apex Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellites, Aerospace, and Manufacturing.
-random_paper: 105
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

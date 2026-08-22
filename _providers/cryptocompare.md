@@ -491,7 +491,7 @@ plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 75
+random_paper: 9
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits

@@ -72,7 +72,7 @@ overview: 'Nofence is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nofence''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 6.4

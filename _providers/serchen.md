@@ -80,7 +80,7 @@ overview: 'Serchen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Serchen''s developer surface includes getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 10.2

@@ -53,7 +53,7 @@ name: Veo Robotics
 nav: Providers
 network: true
 overview: Veo Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Robotics, Industrial Automation, and Machine Safety.
-random_paper: 52
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

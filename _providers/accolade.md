@@ -72,7 +72,7 @@ overview: 'Accolade is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Accolade''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 67
+random_paper: 14
 score:
   band: emerging
   composite: 12.6

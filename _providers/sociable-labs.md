@@ -40,7 +40,7 @@ name: Sociable Labs
 nav: Providers
 network: true
 overview: Sociable Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 105
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

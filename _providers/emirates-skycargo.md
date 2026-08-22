@@ -84,7 +84,7 @@ overview: 'Emirates SkyCargo publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Emirates SkyCargo''s developer surface includes developer portal, documentation, support, FAQ, training material, engineering blog, and 5 more developer resources.'
-random_paper: 131
+random_paper: 6
 score:
   band: emerging
   composite: 15.4

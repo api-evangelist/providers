@@ -60,7 +60,7 @@ overview: 'Elemental is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Elemental''s developer surface includes documentation, API reference, engineering blog, and 1 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: minimal
   composite: 8.8

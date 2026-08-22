@@ -141,7 +141,7 @@ overview: 'BitClout (DeSo) publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   BitClout (DeSo)''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 15 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: thin
   composite: 26.7

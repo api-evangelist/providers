@@ -104,7 +104,7 @@ overview: 'Hummingbird RegTech publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Hummingbird RegTech''s developer surface includes developer portal, documentation, support, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: emerging
   composite: 21.9

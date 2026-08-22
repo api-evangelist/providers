@@ -121,7 +121,7 @@ plans:
 - name: Myob Plans Pricing
   plan_count: 3
   slug: myob-plans-pricing
-random_paper: 141
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Myob Rate Limits

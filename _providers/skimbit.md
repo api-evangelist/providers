@@ -249,7 +249,7 @@ plans:
 - name: Skimbit Plans Pricing
   plan_count: 0
   slug: skimbit-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Skimbit Rate Limits

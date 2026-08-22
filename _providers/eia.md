@@ -235,7 +235,7 @@ overview: 'EIA publishes 1 API on the [APIs.io](https://apis.io/) network: Open 
 
 
   EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 37 more developer resources.'
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Eia Rate Limits

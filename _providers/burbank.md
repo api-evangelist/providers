@@ -80,7 +80,7 @@ overview: 'Burbank is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Burbank''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 9.8

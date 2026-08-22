@@ -353,7 +353,7 @@ overview: 'Reonic publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Reonic''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 44.5

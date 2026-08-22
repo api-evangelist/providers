@@ -73,7 +73,7 @@ overview: 'The Helper Bees is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Helper Bees'' developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 125
+random_paper: 17
 score:
   band: emerging
   composite: 12.6

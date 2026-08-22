@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: American Tower Advances Network Operations With AI ...
   url: https://www.americantower.com/media-hub/blog/american-tower-advances-network-operations-ai-and-analytics
-random_paper: 97
+random_paper: 10
 score:
   band: minimal
   composite: 1.8

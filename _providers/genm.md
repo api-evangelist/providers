@@ -80,7 +80,7 @@ overview: 'GenM is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   GenM''s developer surface includes signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 8.5

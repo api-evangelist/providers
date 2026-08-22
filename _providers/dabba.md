@@ -96,7 +96,7 @@ overview: 'Dabba is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dabba''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 43
+random_paper: 7
 score:
   band: emerging
   composite: 18.4

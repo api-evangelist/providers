@@ -100,7 +100,7 @@ overview: 'Traba is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Traba''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 15.8

@@ -529,7 +529,7 @@ plans:
 - name: Iterable Plans Pricing
   plan_count: 3
   slug: iterable-plans-pricing
-random_paper: 95
+random_paper: 0
 rate_limits:
 - limit_count: 54
   name: Iterable Rate Limits

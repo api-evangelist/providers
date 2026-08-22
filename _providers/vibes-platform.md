@@ -325,7 +325,7 @@ plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 4
   slug: vibes-platform-plans-pricing
-random_paper: 110
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Vibes Platform Rate Limits

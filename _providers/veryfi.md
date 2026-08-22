@@ -288,7 +288,7 @@ plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits

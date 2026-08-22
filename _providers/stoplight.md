@@ -200,7 +200,7 @@ plans:
 - name: Stoplight Plans Pricing
   plan_count: 3
   slug: stoplight-plans-pricing
-random_paper: 96
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Stoplight Rate Limits

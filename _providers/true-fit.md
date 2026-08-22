@@ -328,7 +328,7 @@ overview: 'True Fit publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 71
+random_paper: 18
 score:
   band: developing
   composite: 41.8

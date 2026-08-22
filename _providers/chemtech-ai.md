@@ -57,7 +57,7 @@ name: ChemTech AI
 nav: Providers
 network: true
 overview: ChemTech AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Industrial Automation, Chemical Manufacturing, and Process Optimization.
-random_paper: 37
+random_paper: 9
 score:
   band: minimal
   composite: 9.2

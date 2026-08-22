@@ -49,7 +49,7 @@ name: Junlebao
 nav: Providers
 network: true
 overview: Junlebao is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Dairy, Food and Beverage, and Infant Formula.
-random_paper: 103
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

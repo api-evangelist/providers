@@ -85,7 +85,7 @@ overview: 'Five Lives is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Five Lives'' developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 124
+random_paper: 10
 score:
   band: emerging
   composite: 12.6

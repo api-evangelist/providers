@@ -84,7 +84,7 @@ overview: 'Vannevar Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Vannevar Labs'' developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: minimal
   composite: 3.9

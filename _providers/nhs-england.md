@@ -218,7 +218,7 @@ overview: 'NHS England publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 60
+random_paper: 11
 score:
   band: developing
   composite: 52.7

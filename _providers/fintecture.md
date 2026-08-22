@@ -524,7 +524,7 @@ plans:
 - name: Fintecture Plans Pricing
   plan_count: 9
   slug: fintecture-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Fintecture Rate Limits

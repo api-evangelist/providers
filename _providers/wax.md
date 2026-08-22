@@ -128,7 +128,7 @@ overview: 'WAX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   WAX''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 38
+random_paper: 0
 score:
   band: thin
   composite: 27.6

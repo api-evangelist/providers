@@ -40,7 +40,7 @@ name: Modular Wind Energy
 nav: Providers
 network: true
 overview: Modular Wind Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wind Energy, Renewable Energy, Clean Energy, and Wind Turbine Blades.
-random_paper: 142
+random_paper: 19
 score:
   band: minimal
   composite: 2.1

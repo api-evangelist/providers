@@ -129,7 +129,7 @@ overview: 'Molecule publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Molecule''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 109
+random_paper: 14
 score:
   band: emerging
   composite: 23.4

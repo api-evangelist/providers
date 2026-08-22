@@ -246,7 +246,7 @@ overview: 'Replica is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Replica''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 33 more developer resources.'
-random_paper: 140
+random_paper: 1
 score:
   band: emerging
   composite: 18.6

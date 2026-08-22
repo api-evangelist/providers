@@ -84,7 +84,7 @@ overview: 'Kindor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kindor''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 10.8

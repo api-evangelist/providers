@@ -40,7 +40,7 @@ name: Mapper.ai
 nav: Providers
 network: true
 overview: Mapper.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 102
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

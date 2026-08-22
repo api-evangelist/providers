@@ -234,7 +234,7 @@ overview: 'B3 (Brasil Bolsa Balcão) publishes 8 APIs on the [APIs.io](https://a
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
-random_paper: 135
+random_paper: 0
 scopes:
 - name: B3 Exchange Scopes
   scope_count: 2

@@ -230,7 +230,7 @@ overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
-random_paper: 17
+random_paper: 8
 score:
   band: developing
   composite: 51.0

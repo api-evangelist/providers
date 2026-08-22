@@ -69,7 +69,7 @@ overview: 'Gyre Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Gyre Energy''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 91
+random_paper: 0
 score:
   band: minimal
   composite: 5.5

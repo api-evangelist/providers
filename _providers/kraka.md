@@ -84,7 +84,7 @@ overview: 'Kraka is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kraka''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 11.7

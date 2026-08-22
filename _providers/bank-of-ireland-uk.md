@@ -187,7 +187,7 @@ overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
-random_paper: 80
+random_paper: 18
 scopes:
 - name: Bank Of Ireland Uk Scopes
   scope_count: 4

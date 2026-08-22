@@ -77,7 +77,7 @@ plans:
 - name: Keystatic Plans Pricing
   plan_count: 3
   slug: keystatic-plans-pricing
-random_paper: 83
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Keystatic Rate Limits

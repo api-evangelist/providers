@@ -251,7 +251,7 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 15 more developer resources.'
-random_paper: 20
+random_paper: 13
 rules:
 - effective_rule_count: 33
   extends:

@@ -60,7 +60,7 @@ overview: 'ImmuneBridge is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ImmuneBridge''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 80
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

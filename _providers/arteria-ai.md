@@ -68,7 +68,7 @@ overview: 'Arteria AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Arteria AI''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 97
+random_paper: 4
 score:
   band: minimal
   composite: 8.9

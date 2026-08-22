@@ -40,7 +40,7 @@ name: Yoplait China
 nav: Providers
 network: true
 overview: Yoplait China is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 138
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

@@ -317,7 +317,7 @@ overview: 'ArangoDB publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 85
+random_paper: 11
 score:
   band: developing
   composite: 50.3

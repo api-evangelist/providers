@@ -142,7 +142,7 @@ plans:
 - name: Abacatepay Plans Pricing
   plan_count: 2
   slug: abacatepay-plans-pricing
-random_paper: 141
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Abacatepay Rate Limits

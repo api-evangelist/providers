@@ -60,7 +60,7 @@ overview: 'data.gov.mk publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   data.gov.mk''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 5.5

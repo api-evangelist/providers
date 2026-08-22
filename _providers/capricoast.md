@@ -45,7 +45,7 @@ name: CapriCoast
 nav: Providers
 network: true
 overview: CapriCoast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Home Improvement, Modular Kitchens, and Furniture.
-random_paper: 22
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

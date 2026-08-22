@@ -235,7 +235,7 @@ overview: 'Form3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
-random_paper: 40
+random_paper: 4
 scopes:
 - name: Form3 Scopes
   scope_count: 0

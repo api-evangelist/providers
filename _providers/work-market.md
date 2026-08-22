@@ -272,7 +272,7 @@ overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
-random_paper: 97
+random_paper: 6
 score:
   band: developing
   composite: 44.5

@@ -147,7 +147,7 @@ overview: 'Toggl Track publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Toggl Track''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: thin
   composite: 33.8

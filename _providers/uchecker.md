@@ -167,7 +167,7 @@ plans:
 - name: Uchecker Plans Pricing
   plan_count: 11
   slug: uchecker-plans-pricing
-random_paper: 97
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Uchecker Rate Limits

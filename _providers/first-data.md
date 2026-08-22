@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: First Data Center Project Gains Permitting Council's FAST ...
   url: https://www.permitting.gov/newsroom/press-releases/first-data-center-project-gains-permitting-councils-fast-41-coverage
-random_paper: 113
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: First Data Rate Limits

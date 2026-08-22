@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Analysis of Key Market Segments Driving the Artificial
   url: https://www.openpr.com/news/4512210/analysis-of-key-market-segments-driving-the-artificial
-random_paper: 33
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

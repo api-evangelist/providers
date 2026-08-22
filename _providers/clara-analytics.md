@@ -125,7 +125,7 @@ overview: 'CLARA Analytics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   CLARA Analytics'' developer surface includes engineering blog, product news, support, and 16 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: emerging
   composite: 18.1

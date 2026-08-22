@@ -152,7 +152,7 @@ overview: 'Jerry is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jerry''s developer surface includes support, engineering blog, product news, signup flow, authentication, and 24 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: thin
   composite: 29.8

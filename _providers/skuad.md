@@ -84,7 +84,7 @@ overview: 'Skuad is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Skuad''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 16.1

@@ -53,7 +53,7 @@ name: Chai Shots
 nav: Providers
 network: true
 overview: Chai Shots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, OTT, Streaming, Entertainment, and Video.
-random_paper: 117
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -108,7 +108,7 @@ overview: 'Hotel Tonight publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Hotel Tonight''s developer surface includes support, documentation, signup flow, authentication, and 11 more developer resources.'
-random_paper: 9
+random_paper: 6
 score:
   band: thin
   composite: 27.1

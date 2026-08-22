@@ -135,7 +135,7 @@ plans:
 - name: Bridge Interactive Plans Pricing
   plan_count: 3
   slug: bridge-interactive-plans-pricing
-random_paper: 60
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Bridge Interactive Rate Limits

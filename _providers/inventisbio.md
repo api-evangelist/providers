@@ -60,7 +60,7 @@ overview: 'InventisBio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   InventisBio''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: minimal
   composite: 4.7

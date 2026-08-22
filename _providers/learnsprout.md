@@ -40,7 +40,7 @@ name: LearnSprout
 nav: Providers
 network: true
 overview: LearnSprout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, K-12, and Student Information Systems.
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 0.9

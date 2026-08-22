@@ -102,7 +102,7 @@ overview: 'Zipline Ai publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zipline Ai''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 116
+random_paper: 2
 score:
   band: emerging
   composite: 21.6

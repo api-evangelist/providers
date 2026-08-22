@@ -116,7 +116,7 @@ overview: 'Insurf is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Insurf''s developer surface includes documentation, changelog, support, and 15 more developer resources.'
-random_paper: 67
+random_paper: 12
 score:
   band: emerging
   composite: 22.8

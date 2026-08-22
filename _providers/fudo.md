@@ -252,7 +252,7 @@ overview: 'Fudo publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fudo''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: developing
   composite: 42.6

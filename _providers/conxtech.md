@@ -103,7 +103,7 @@ overview: 'ConXtech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ConXtech''s developer surface includes engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: minimal
   composite: 6.2

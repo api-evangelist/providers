@@ -105,7 +105,7 @@ plans:
 - name: Api Blueprint Plans Pricing
   plan_count: 3
   slug: api-blueprint-plans-pricing
-random_paper: 148
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Api Blueprint Rate Limits

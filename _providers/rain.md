@@ -131,7 +131,7 @@ overview: 'Rain is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rain''s developer surface includes documentation, engineering blog, support, signup flow, sandbox, and 14 more developer resources.'
-random_paper: 128
+random_paper: 6
 score:
   band: thin
   composite: 38.9

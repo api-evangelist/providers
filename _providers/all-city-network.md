@@ -72,7 +72,7 @@ overview: 'All City Network is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   All City Network''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 132
+random_paper: 5
 score:
   band: minimal
   composite: 10.6

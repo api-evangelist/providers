@@ -57,7 +57,7 @@ name: Open Government, West Australia
 nav: Providers
 network: true
 overview: Open Government, West Australia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 99
+random_paper: 13
 score:
   band: minimal
   composite: 4.2

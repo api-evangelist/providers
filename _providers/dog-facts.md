@@ -53,7 +53,7 @@ name: Dog Facts
 nav: Providers
 network: true
 overview: Dog Facts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 143
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

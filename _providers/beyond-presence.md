@@ -256,7 +256,7 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 49
+random_paper: 6
 score:
   band: strong
   composite: 56.6

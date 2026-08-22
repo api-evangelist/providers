@@ -72,7 +72,7 @@ overview: 'Brain is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brain''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: minimal
   composite: 9.7

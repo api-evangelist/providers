@@ -203,7 +203,7 @@ overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 134
+random_paper: 18
 score:
   band: thin
   composite: 37.4

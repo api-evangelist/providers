@@ -716,7 +716,7 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
 
 
   Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: developing
   composite: 45.6

@@ -84,7 +84,7 @@ overview: 'DataPeople is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DataPeople''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: emerging
   composite: 19.1

@@ -73,7 +73,7 @@ name: dehaze
 nav: Providers
 network: true
 overview: dehaze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Artificial Intelligence, Machine Learning, and Digital Health.
-random_paper: 29
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

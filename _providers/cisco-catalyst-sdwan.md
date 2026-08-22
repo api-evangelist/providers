@@ -270,7 +270,7 @@ plans:
 - name: Cisco Catalyst Sdwan Plans Pricing
   plan_count: 0
   slug: cisco-catalyst-sdwan-plans-pricing
-random_paper: 92
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Cisco Catalyst Sdwan Rate Limits

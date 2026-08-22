@@ -99,7 +99,7 @@ overview: 'Sage Intacct Accounting publishes 1 API on the [APIs.io](https://apis
 
 
   Sage Intacct Accounting''s developer surface includes documentation, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 80
+random_paper: 5
 score:
   band: emerging
   composite: 22.4

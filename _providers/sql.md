@@ -116,7 +116,7 @@ plans:
 - name: Sql Plans Pricing
   plan_count: 3
   slug: sql-plans-pricing
-random_paper: 38
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Sql Rate Limits

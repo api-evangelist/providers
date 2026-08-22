@@ -121,7 +121,7 @@ overview: 'PayActiv publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PayActiv''s developer surface includes documentation, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: thin
   composite: 26.5

@@ -137,7 +137,7 @@ overview: 'Holded publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Holded''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: thin
   composite: 28.9

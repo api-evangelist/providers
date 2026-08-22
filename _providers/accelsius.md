@@ -228,7 +228,7 @@ overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 24 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: thin
   composite: 30.7

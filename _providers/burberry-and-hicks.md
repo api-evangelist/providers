@@ -45,7 +45,7 @@ name: Burberry & Hicks
 nav: Providers
 network: true
 overview: Burberry & Hicks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Company, and Exited.
-random_paper: 16
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

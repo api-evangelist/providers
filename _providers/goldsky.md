@@ -118,7 +118,7 @@ plans:
 - name: Goldsky Plans Pricing
   plan_count: 1
   slug: goldsky-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Goldsky Rate Limits

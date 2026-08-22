@@ -69,7 +69,7 @@ name: Sygaldry
 nav: Providers
 network: true
 overview: Sygaldry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Artificial Intelligence, AI Infrastructure, and Hardware.
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 6.1

@@ -197,7 +197,7 @@ overview: 'SmartMind publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmartMind''s developer surface includes authentication, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 81
+random_paper: 9
 score:
   band: thin
   composite: 36.0

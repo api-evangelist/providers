@@ -136,7 +136,7 @@ overview: 'Deepwatch publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Deepwatch''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 55
+random_paper: 4
 scopes:
 - name: Deepwatch Scopes
   scope_count: 7

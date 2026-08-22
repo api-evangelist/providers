@@ -165,7 +165,7 @@ plans:
 - name: Credo Ai Plans Pricing
   plan_count: 0
   slug: credo-ai-plans-pricing
-random_paper: 27
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Credo Ai Rate Limits

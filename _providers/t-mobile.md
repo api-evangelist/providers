@@ -104,7 +104,7 @@ overview: 'T-Mobile publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   T-Mobile''s developer surface includes product news and 12 more developer resources.'
-random_paper: 48
+random_paper: 16
 score:
   band: emerging
   composite: 17.3

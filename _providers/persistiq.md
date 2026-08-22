@@ -252,7 +252,7 @@ plans:
 - name: Persistiq Plans Pricing
   plan_count: 0
   slug: persistiq-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits

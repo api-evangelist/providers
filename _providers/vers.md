@@ -230,7 +230,7 @@ overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: developing
   composite: 41.5

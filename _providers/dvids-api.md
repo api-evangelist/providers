@@ -115,7 +115,7 @@ plans:
 - name: Dvids Api Plans Pricing
   plan_count: 3
   slug: dvids-api-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Dvids Api Rate Limits

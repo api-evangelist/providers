@@ -68,7 +68,7 @@ overview: 'Outtake is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Outtake''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: emerging
   composite: 12.3

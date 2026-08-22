@@ -136,7 +136,7 @@ overview: 'Sana Benefits is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Sana Benefits'' developer surface includes engineering blog, support, FAQ, privacy policy, and 21 more developer resources.'
-random_paper: 120
+random_paper: 10
 score:
   band: emerging
   composite: 20.5

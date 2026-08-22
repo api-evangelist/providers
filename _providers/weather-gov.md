@@ -1186,7 +1186,7 @@ plans:
 - name: Weather Gov Plans Pricing
   plan_count: 3
   slug: weather-gov-plans-pricing
-random_paper: 86
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Weather Gov Rate Limits

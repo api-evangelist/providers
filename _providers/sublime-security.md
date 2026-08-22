@@ -264,7 +264,7 @@ overview: 'Sublime Security publishes 16 APIs on the [APIs.io](https://apis.io/)
 
 
   Sublime Security''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 19 more developer resources.'
-random_paper: 47
+random_paper: 6
 score:
   band: developing
   composite: 40.1

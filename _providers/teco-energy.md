@@ -183,7 +183,7 @@ press:
 - date: '2026-05-25'
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
-random_paper: 79
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Teco Energy Rate Limits

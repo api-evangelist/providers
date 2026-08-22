@@ -137,7 +137,7 @@ overview: 'AIMon publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   AIMon''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, pricing, support, and 14 more developer resources.'
-random_paper: 85
+random_paper: 7
 score:
   band: thin
   composite: 28.5

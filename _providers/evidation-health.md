@@ -108,7 +108,7 @@ overview: 'Evidation Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Evidation Health''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 148
+random_paper: 0
 score:
   band: emerging
   composite: 17.1

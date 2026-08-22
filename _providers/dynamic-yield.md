@@ -134,7 +134,7 @@ overview: 'Dynamic Yield publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Dynamic Yield''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 129
+random_paper: 19
 score:
   band: thin
   composite: 27.0

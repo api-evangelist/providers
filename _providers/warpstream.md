@@ -211,7 +211,7 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 51
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Warpstream Rate Limits

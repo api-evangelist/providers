@@ -100,7 +100,7 @@ overview: 'RapidSOS is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RapidSOS''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 124
+random_paper: 8
 score:
   band: emerging
   composite: 21.2

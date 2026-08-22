@@ -309,7 +309,7 @@ plans:
 - name: Airwallex Plans Pricing
   plan_count: 3
   slug: airwallex-plans-pricing
-random_paper: 75
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Airwallex Rate Limits

@@ -8,7 +8,7 @@ modified: '2026-08-19'
 name: Splash 360
 nav: Providers
 network: true
-random_paper: 59
+random_paper: 6
 slug: splash360
 tags:
 - Point of Sale

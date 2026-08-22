@@ -112,7 +112,7 @@ plans:
 - name: Caris Life Sciences Plans Pricing
   plan_count: 2
   slug: caris-life-sciences-plans-pricing
-random_paper: 93
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Caris Life Sciences Rate Limits

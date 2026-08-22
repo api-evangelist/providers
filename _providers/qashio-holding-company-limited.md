@@ -49,7 +49,7 @@ name: Qashio Holding Company Limited
 nav: Providers
 network: true
 overview: Qashio Holding Company Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Corporate Cards, Spend Management, and Expense Management.
-random_paper: 44
+random_paper: 0
 score:
   band: minimal
   composite: 1.5

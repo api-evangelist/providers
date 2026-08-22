@@ -73,7 +73,7 @@ name: Pipelinedb
 nav: Providers
 network: true
 overview: Pipelinedb is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, PostgreSQL, Streaming, and Time Series.
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 8.5

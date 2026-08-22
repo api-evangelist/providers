@@ -130,7 +130,7 @@ overview: 'Getnet publishes 1 API on the [APIs.io](https://apis.io/) network: SA
 
 
   Getnet''s developer surface includes documentation, authentication, FAQ, pricing, sandbox, and 2 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: emerging
   composite: 25.1

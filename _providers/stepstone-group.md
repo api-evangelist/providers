@@ -77,7 +77,7 @@ plans:
 - name: Stepstone Group Plans Pricing
   plan_count: 1
   slug: stepstone-group-plans-pricing
-random_paper: 109
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Stepstone Group Rate Limits

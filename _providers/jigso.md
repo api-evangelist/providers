@@ -118,7 +118,7 @@ plans:
 - name: Jigso Plans Pricing
   plan_count: 0
   slug: jigso-plans-pricing
-random_paper: 93
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Jigso Rate Limits

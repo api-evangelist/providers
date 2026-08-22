@@ -128,7 +128,7 @@ plans:
 - name: Diligent Pharma Plans Pricing
   plan_count: 0
   slug: diligent-pharma-plans-pricing
-random_paper: 36
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Diligent Pharma Rate Limits

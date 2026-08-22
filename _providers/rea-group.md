@@ -274,7 +274,7 @@ plans:
 - name: Rea Group Plans
   plan_count: 2
   slug: rea-group-plans
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 16
   name: Rea Group Rate Limits

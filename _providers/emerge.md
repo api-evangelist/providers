@@ -210,7 +210,7 @@ plans:
 - name: Emerge Plans Pricing
   plan_count: 0
   slug: emerge-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Emerge Rate Limits

@@ -40,7 +40,7 @@ name: Guesser
 nav: Providers
 network: true
 overview: Guesser is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Startup, Prediction, and Gemini.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -117,7 +117,7 @@ overview: 'Nimble Storage publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Nimble Storage''s developer surface includes documentation, API reference, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 92
+random_paper: 5
 score:
   band: emerging
   composite: 18.0

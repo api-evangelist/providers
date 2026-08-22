@@ -165,7 +165,7 @@ overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CoinPaprika''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 126
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

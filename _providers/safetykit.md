@@ -172,7 +172,7 @@ overview: 'SafetyKit publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SafetyKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: developing
   composite: 47.7

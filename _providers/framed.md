@@ -45,7 +45,7 @@ name: Framed *
 nav: Providers
 network: true
 overview: Framed * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Analytics, Machine Learning, and Churn Prediction.
-random_paper: 27
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

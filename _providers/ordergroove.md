@@ -164,7 +164,7 @@ plans:
 - name: Ordergroove Plans Pricing
   plan_count: 2
   slug: ordergroove-plans-pricing
-random_paper: 6
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Ordergroove Rate Limits

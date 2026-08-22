@@ -66,7 +66,7 @@ name: Fenrock AI
 nav: Providers
 network: true
 overview: Fenrock AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Banking, and Financial Services.
-random_paper: 97
+random_paper: 4
 score:
   band: minimal
   composite: 1.5

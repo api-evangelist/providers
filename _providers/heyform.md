@@ -186,7 +186,7 @@ plans:
 - name: Heyform Plans Pricing
   plan_count: 6
   slug: heyform-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 10
   name: Heyform Rate Limits

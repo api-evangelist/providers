@@ -92,7 +92,7 @@ overview: 'Duna is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Duna''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: emerging
   composite: 14.2

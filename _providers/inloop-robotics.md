@@ -49,7 +49,7 @@ name: Inloop Robotics
 nav: Providers
 network: true
 overview: Inloop Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robotics as a Service, Warehouse Automation, and Fulfillment.
-random_paper: 81
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

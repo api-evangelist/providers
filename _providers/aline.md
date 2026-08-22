@@ -108,7 +108,7 @@ overview: 'Aline is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aline''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 74
+random_paper: 17
 score:
   band: emerging
   composite: 19.6

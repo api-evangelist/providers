@@ -61,7 +61,7 @@ name: Acre Homes
 nav: Providers
 network: true
 overview: Acre Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Homeownership, Real Estate, Proptech, and Fintech.
-random_paper: 102
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

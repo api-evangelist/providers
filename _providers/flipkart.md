@@ -120,7 +120,7 @@ overview: 'Flipkart publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Flipkart''s developer surface includes documentation, API reference, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 116
+random_paper: 0
 scopes:
 - name: Flipkart Scopes
   scope_count: 2

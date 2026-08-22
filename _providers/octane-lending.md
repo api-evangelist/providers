@@ -103,7 +103,7 @@ overview: 'Octane Lending is profiled on the [APIs.io](https://apis.io/) network
 
 
   Octane Lending''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 75
+random_paper: 9
 score:
   band: emerging
   composite: 14.3

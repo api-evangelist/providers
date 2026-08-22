@@ -331,7 +331,7 @@ overview: '1KOMMA5° publishes 27 APIs on the [APIs.io](https://apis.io/) networ
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: 1Komma5 Scopes
   scope_count: 14

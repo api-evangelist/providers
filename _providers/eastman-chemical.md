@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Assessing Eastman Chemical (EMN) Valuation As Cost ...
   url: https://finance.yahoo.com/news/assessing-eastman-chemical-emn-valuation-051826475.html
-random_paper: 122
+random_paper: 16
 score:
   band: minimal
   composite: 7.9

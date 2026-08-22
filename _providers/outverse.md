@@ -80,7 +80,7 @@ overview: 'Outverse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Outverse''s developer surface includes support and 8 more developer resources.'
-random_paper: 148
+random_paper: 11
 score:
   band: emerging
   composite: 12.8

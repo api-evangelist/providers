@@ -100,7 +100,7 @@ overview: 'Ambarella is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ambarella''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 35
+random_paper: 5
 score:
   band: emerging
   composite: 15.5

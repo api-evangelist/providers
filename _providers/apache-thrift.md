@@ -139,7 +139,7 @@ plans:
 - name: Apache Thrift Plans Pricing
   plan_count: 3
   slug: apache-thrift-plans-pricing
-random_paper: 120
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Apache Thrift Rate Limits

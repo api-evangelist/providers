@@ -81,7 +81,7 @@ overview: 'Hadrius is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hadrius'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
   composite: 14.6

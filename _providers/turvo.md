@@ -147,7 +147,7 @@ plans:
 - name: Turvo Plans Pricing
   plan_count: 1
   slug: turvo-plans-pricing
-random_paper: 129
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Turvo Rate Limits

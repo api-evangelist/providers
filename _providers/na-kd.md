@@ -49,7 +49,7 @@ name: Na Kd
 nav: Providers
 network: true
 overview: Na Kd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-commerce, and Retail.
-random_paper: 12
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

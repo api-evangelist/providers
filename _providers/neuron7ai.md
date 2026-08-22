@@ -92,7 +92,7 @@ overview: 'Neuron7.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Neuron7.ai''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: emerging
   composite: 17.3

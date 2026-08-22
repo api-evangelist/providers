@@ -148,7 +148,7 @@ overview: 'Real Estate Institute of Australia is profiled on the [APIs.io](https
 
 
   Real Estate Institute of Australia''s developer surface includes pricing, product news, signup flow, and 25 more developer resources.'
-random_paper: 119
+random_paper: 18
 score:
   band: emerging
   composite: 16.3

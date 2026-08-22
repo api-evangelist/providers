@@ -49,7 +49,7 @@ name: DeepWeave
 nav: Providers
 network: true
 overview: DeepWeave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Startup, and Homebrew Portfolio.
-random_paper: 56
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

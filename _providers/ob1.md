@@ -53,7 +53,7 @@ name: OB1
 nav: Providers
 network: true
 overview: OB1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Decentralized, Cryptocurrency, and Bitcoin.
-random_paper: 109
+random_paper: 6
 score:
   band: minimal
   composite: 5.3

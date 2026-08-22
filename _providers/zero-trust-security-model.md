@@ -193,7 +193,7 @@ plans:
 - name: Zero Trust Security Model Plans Pricing
   plan_count: 3
   slug: zero-trust-security-model-plans-pricing
-random_paper: 45
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Zero Trust Security Model Rate Limits

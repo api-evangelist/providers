@@ -72,7 +72,7 @@ overview: 'Folx Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Folx Health''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 73
+random_paper: 3
 score:
   band: minimal
   composite: 10.5

@@ -84,7 +84,7 @@ overview: 'Astelia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Astelia''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 17.4

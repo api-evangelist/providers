@@ -73,7 +73,7 @@ name: Nuance Labs
 nav: Providers
 network: true
 overview: Nuance Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Foundation Model, and Emotional Intelligence.
-random_paper: 54
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

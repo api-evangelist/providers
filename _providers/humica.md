@@ -153,7 +153,7 @@ overview: 'humi.ca publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   humi.ca''s developer surface includes documentation, API reference, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 35
+random_paper: 1
 scopes:
 - name: Humica Scopes
   scope_count: 2

@@ -108,7 +108,7 @@ overview: 'Defense Unicorns is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Defense Unicorns'' developer surface includes documentation, getting-started guide, engineering blog, support, pricing, CLI, and 10 more developer resources.'
-random_paper: 17
+random_paper: 18
 score:
   band: emerging
   composite: 20.5

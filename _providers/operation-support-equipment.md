@@ -58,7 +58,7 @@ plans:
 - name: Operation Support Equipment Plans Pricing
   plan_count: 3
   slug: operation-support-equipment-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Operation Support Equipment Rate Limits

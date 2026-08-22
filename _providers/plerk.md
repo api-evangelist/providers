@@ -49,7 +49,7 @@ name: Plerk
 nav: Providers
 network: true
 overview: Plerk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Fintech, Mexico, and Human Resources.
-random_paper: 95
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

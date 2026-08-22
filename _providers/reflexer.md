@@ -116,7 +116,7 @@ overview: 'Reflexer publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Reflexer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: emerging
   composite: 20.5

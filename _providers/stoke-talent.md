@@ -49,7 +49,7 @@ name: Stoke Talent
 nav: Providers
 network: true
 overview: Stoke Talent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance Management, Contingent Workforce, Contractor Management, and HR Tech.
-random_paper: 51
+random_paper: 4
 score:
   band: minimal
   composite: 1.5

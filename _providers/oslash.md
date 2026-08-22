@@ -56,7 +56,7 @@ overview: 'OSlash is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OSlash''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

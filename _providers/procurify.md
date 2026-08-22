@@ -1273,7 +1273,7 @@ plans:
 - name: Procurify Plans Pricing
   plan_count: 2
   slug: procurify-plans-pricing
-random_paper: 101
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Procurify Rate Limits

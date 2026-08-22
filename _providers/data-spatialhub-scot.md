@@ -85,7 +85,7 @@ plans:
 - name: Data Spatialhub Scot Plans Pricing
   plan_count: 1
   slug: data-spatialhub-scot-plans-pricing
-random_paper: 73
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Data Spatialhub Scot Rate Limits

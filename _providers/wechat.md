@@ -297,7 +297,7 @@ overview: 'WeChat publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WeChat''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, developer console, code examples, and 31 more developer resources.'
-random_paper: 40
+random_paper: 6
 rules:
 - effective_rule_count: 36
   extends:

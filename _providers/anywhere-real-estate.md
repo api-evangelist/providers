@@ -261,7 +261,7 @@ overview: 'Anywhere Real Estate publishes 23 APIs on the [APIs.io](https://apis.
 
 
   Anywhere Real Estate''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, getting-started guide, signup flow, and 29 more developer resources.'
-random_paper: 86
+random_paper: 7
 scopes:
 - name: Anywhere Real Estate Scopes
   scope_count: 0

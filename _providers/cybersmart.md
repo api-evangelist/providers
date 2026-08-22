@@ -125,7 +125,7 @@ overview: 'CyberSmart publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CyberSmart''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: thin
   composite: 32.0

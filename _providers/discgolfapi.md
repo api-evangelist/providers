@@ -191,7 +191,7 @@ plans:
 - name: Discgolfapi Plans Pricing
   plan_count: 2
   slug: discgolfapi-plans-pricing
-random_paper: 114
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Discgolfapi Rate Limits

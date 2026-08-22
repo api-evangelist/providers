@@ -141,7 +141,7 @@ plans:
 - name: Linkup So Plans Pricing
   plan_count: 3
   slug: linkup-so-plans-pricing
-random_paper: 36
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Linkup So Rate Limits

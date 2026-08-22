@@ -151,7 +151,7 @@ plans:
 - name: Zemanta Plans Pricing
   plan_count: 0
   slug: zemanta-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Zemanta Rate Limits

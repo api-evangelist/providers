@@ -69,7 +69,7 @@ plans:
 - name: International Trade Commission Plans Pricing
   plan_count: 3
   slug: international-trade-commission-plans-pricing
-random_paper: 127
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: International Trade Commission Rate Limits

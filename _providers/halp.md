@@ -57,7 +57,7 @@ name: Halp
 nav: Providers
 network: true
 overview: Halp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Help Desk, Ticketing, Customer Support, and Slack.
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

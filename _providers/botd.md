@@ -53,7 +53,7 @@ name: Botd
 nav: Providers
 network: true
 overview: Botd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 127
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

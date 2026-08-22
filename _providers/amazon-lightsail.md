@@ -225,7 +225,7 @@ plans:
 - name: Amazon Lightsail Plans Pricing
   plan_count: 3
   slug: amazon-lightsail-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Lightsail Rate Limits

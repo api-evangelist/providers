@@ -61,7 +61,7 @@ name: Vesta Healthcare
 nav: Providers
 network: true
 overview: Vesta Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Care, Telehealth, and Caregivers.
-random_paper: 143
+random_paper: 16
 score:
   band: minimal
   composite: 4.8

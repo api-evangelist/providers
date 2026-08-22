@@ -175,7 +175,7 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 78
+random_paper: 11
 score:
   band: developing
   composite: 49.5

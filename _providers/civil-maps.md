@@ -124,7 +124,7 @@ overview: 'Civil Maps is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Civil Maps'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 119
+random_paper: 5
 score:
   band: minimal
   composite: 7.7

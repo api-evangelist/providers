@@ -191,7 +191,7 @@ overview: 'Hacware publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: developing
   composite: 41.9

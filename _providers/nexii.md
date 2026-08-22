@@ -96,7 +96,7 @@ overview: 'Nexii is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nexii''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 10.6

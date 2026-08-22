@@ -84,7 +84,7 @@ overview: 'Symmetrical is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Symmetrical''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: emerging
   composite: 18.2

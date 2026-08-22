@@ -45,7 +45,7 @@ name: Lenda
 nav: Providers
 network: true
 overview: Lenda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Portfolio Lead, 500 Global, and No API Surface.
-random_paper: 69
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

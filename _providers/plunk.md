@@ -243,7 +243,7 @@ plans:
 - name: Plunk Plans Pricing
   plan_count: 3
   slug: plunk-plans-pricing
-random_paper: 107
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Plunk Rate Limits

@@ -237,7 +237,7 @@ overview: 'SpyCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 138
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits

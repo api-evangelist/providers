@@ -57,7 +57,7 @@ name: Federal Committee on Statistical Methodology
 nav: Providers
 network: true
 overview: Federal Committee on Statistical Methodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Statistical Methodology, and Statistics.
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 2.5

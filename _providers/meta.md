@@ -582,7 +582,7 @@ plans:
 - name: Meta Plans Pricing
   plan_count: 3
   slug: meta-plans-pricing
-random_paper: 125
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Meta Rate Limits

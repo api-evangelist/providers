@@ -49,7 +49,7 @@ name: Pawsh
 nav: Providers
 network: true
 overview: Pawsh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Care, Grooming, Marketplace, and Booking.
-random_paper: 100
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

@@ -173,7 +173,7 @@ overview: 'Milana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Milana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
-random_paper: 4
+random_paper: 14
 scopes:
 - name: Vantara Scopes
   scope_count: 7

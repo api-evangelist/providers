@@ -141,7 +141,7 @@ overview: 'Konga is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Konga''s developer surface includes YouTube channel, engineering blog, and 22 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 8.1

@@ -120,7 +120,7 @@ plans:
 - name: Mirantis Plans Pricing
   plan_count: 3
   slug: mirantis-plans-pricing
-random_paper: 126
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Mirantis Rate Limits

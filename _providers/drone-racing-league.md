@@ -56,7 +56,7 @@ name: Drone Racing League
 nav: Providers
 network: true
 overview: Drone Racing League is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Esports, Drones, and Racing.
-random_paper: 93
+random_paper: 12
 score:
   band: minimal
   composite: 8.9

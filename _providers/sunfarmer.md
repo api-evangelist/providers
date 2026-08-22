@@ -45,7 +45,7 @@ name: SunFarmer
 nav: Providers
 network: true
 overview: SunFarmer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar Energy, Renewable Energy, Clean Energy, and Agriculture.
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 2.1

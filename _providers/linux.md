@@ -104,7 +104,7 @@ plans:
 - name: Linux Plans Pricing
   plan_count: 3
   slug: linux-plans-pricing
-random_paper: 113
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Linux Rate Limits

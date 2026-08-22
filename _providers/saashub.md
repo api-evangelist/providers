@@ -148,7 +148,7 @@ plans:
 - name: Saashub Plans Pricing
   plan_count: 3
   slug: saashub-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Saashub Rate Limits

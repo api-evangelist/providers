@@ -133,7 +133,7 @@ overview: 'Imperative Execution publishes 1 API on the [APIs.io](https://apis.io
 
 
   Imperative Execution''s developer surface includes documentation, API reference, support, engineering blog, code examples, sandbox, changelog, and 14 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: thin
   composite: 37.6

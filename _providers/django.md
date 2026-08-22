@@ -72,7 +72,7 @@ overview: 'Django is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Django''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 6.6

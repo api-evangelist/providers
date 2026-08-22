@@ -65,7 +65,7 @@ overview: 'Apex.AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Apex.AI''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 81
+random_paper: 5
 score:
   band: minimal
   composite: 7.9

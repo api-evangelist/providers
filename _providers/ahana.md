@@ -49,7 +49,7 @@ name: Ahana
 nav: Providers
 network: true
 overview: Ahana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Presto, PrestoDB, and Data Lakehouse.
-random_paper: 58
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

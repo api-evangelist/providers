@@ -250,7 +250,7 @@ overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 26 more developer resources.'
-random_paper: 121
+random_paper: 3
 scopes:
 - name: 1Kosmos Scopes
   scope_count: 3

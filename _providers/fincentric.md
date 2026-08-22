@@ -40,7 +40,7 @@ name: Fincentric
 nav: Providers
 network: true
 overview: Fincentric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, Credit Unions, and Wealth Management.
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 0.3

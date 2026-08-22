@@ -164,7 +164,7 @@ overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Paack''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, API reference, getting-started guide, and 19 more developer resources.'
-random_paper: 65
+random_paper: 8
 score:
   band: thin
   composite: 37.6

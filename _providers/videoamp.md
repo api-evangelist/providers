@@ -263,7 +263,7 @@ overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
-random_paper: 108
+random_paper: 13
 scopes:
 - name: Videoamp Scopes
   scope_count: 4

@@ -166,7 +166,7 @@ plans:
 - name: Airbus Plans Pricing
   plan_count: 4
   slug: airbus-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Airbus Rate Limits

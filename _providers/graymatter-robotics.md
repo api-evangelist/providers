@@ -160,7 +160,7 @@ overview: 'GrayMatter Robotics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   GrayMatter Robotics'' developer surface includes engineering blog, support, YouTube channel, and 28 more developer resources.'
-random_paper: 65
+random_paper: 7
 score:
   band: minimal
   composite: 9.6

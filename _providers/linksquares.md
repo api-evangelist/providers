@@ -146,7 +146,7 @@ plans:
 - name: Linksquares Plans Pricing
   plan_count: 1
   slug: linksquares-plans-pricing
-random_paper: 10
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Linksquares Rate Limits

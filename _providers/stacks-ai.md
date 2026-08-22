@@ -171,7 +171,7 @@ overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 2
+random_paper: 14
 scopes:
 - name: Stacks Ai Scopes
   scope_count: 0

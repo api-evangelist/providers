@@ -76,7 +76,7 @@ overview: 'Arbor is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Arbor''s developer surface includes signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: emerging
   composite: 13.2

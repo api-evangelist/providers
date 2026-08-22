@@ -62,7 +62,7 @@ name: Chroma Medicine
 nav: Providers
 network: true
 overview: Chroma Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Genetic Medicine, and Epigenetic Editing.
-random_paper: 19
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

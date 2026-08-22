@@ -128,7 +128,7 @@ overview: 'Coast (FKA VayU) publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Coast (FKA VayU)''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 46
+random_paper: 1
 score:
   band: emerging
   composite: 21.7

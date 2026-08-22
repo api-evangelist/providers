@@ -40,7 +40,7 @@ name: Mobile
 nav: Providers
 network: true
 overview: Mobile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 3.2

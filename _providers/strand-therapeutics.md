@@ -112,7 +112,7 @@ overview: 'Strand Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Strand Therapeutics'' developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 57
+random_paper: 20
 score:
   band: minimal
   composite: 7.7

@@ -180,7 +180,7 @@ overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publish
 
 
   WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 60
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Rate Limits

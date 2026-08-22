@@ -68,7 +68,7 @@ overview: 'Brine (Tanx) is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Brine (Tanx)''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 122
+random_paper: 8
 score:
   band: minimal
   composite: 1.6

@@ -84,7 +84,7 @@ overview: 'BallerTV is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BallerTV''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: minimal
   composite: 8.1

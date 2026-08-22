@@ -120,7 +120,7 @@ overview: 'Bezi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bezi''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 128
+random_paper: 6
 score:
   band: thin
   composite: 29.8

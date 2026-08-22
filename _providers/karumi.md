@@ -195,7 +195,7 @@ plans:
 - name: Karumi Plans Pricing
   plan_count: 2
   slug: karumi-plans-pricing
-random_paper: 53
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Karumi Rate Limits

@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: Instacart Announces New Enterprise AI Solutions to ...
   url: https://www.prnewswire.com/news-releases/instacart-announces-new-enterprise-ai-solutions-to-democratize-ai-for-grocers-of-all-sizes-302603735.html
-random_paper: 51
+random_paper: 18
 score:
   band: minimal
   composite: 10.9

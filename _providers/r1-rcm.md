@@ -70,7 +70,7 @@ plans:
 - name: R1 Rcm Plans Pricing
   plan_count: 1
   slug: r1-rcm-plans-pricing
-random_paper: 83
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: R1 Rcm Rate Limits

@@ -80,7 +80,7 @@ overview: 'TourHero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TourHero''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 143
+random_paper: 6
 score:
   band: emerging
   composite: 12.1

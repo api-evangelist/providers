@@ -80,7 +80,7 @@ overview: 'Zebec Network is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Zebec Network''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 86
+random_paper: 5
 score:
   band: minimal
   composite: 6.4

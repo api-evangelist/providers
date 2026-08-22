@@ -122,7 +122,7 @@ plans:
 - name: Ceartas Plans Pricing
   plan_count: 6
   slug: ceartas-plans-pricing
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 25.2

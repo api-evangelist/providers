@@ -143,7 +143,7 @@ overview: 'Everstream Analytics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Everstream Analytics'' developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 20
 score:
   band: thin
   composite: 33.3

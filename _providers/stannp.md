@@ -304,7 +304,7 @@ plans:
 - name: Stannp Plans Pricing
   plan_count: 5
   slug: stannp-plans-pricing
-random_paper: 64
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Stannp Rate Limits

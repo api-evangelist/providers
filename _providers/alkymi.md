@@ -115,7 +115,7 @@ overview: 'Alkymi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkymi''s developer surface includes documentation, engineering blog, signup flow, support, and 11 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: thin
   composite: 35.7

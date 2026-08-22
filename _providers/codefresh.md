@@ -185,7 +185,7 @@ overview: 'Codefresh publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Codefresh''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 53
+random_paper: 2
 score:
   band: thin
   composite: 30.9

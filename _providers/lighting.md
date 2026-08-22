@@ -40,7 +40,7 @@ name: Lighting
 nav: Providers
 network: true
 overview: Lighting is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, IoT, Lighting, and Smart Home.
-random_paper: 109
+random_paper: 14
 score:
   band: minimal
   composite: 3.2

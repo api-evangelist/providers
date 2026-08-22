@@ -108,7 +108,7 @@ plans:
 - name: Monisnap Plans Pricing
   plan_count: 0
   slug: monisnap-plans-pricing
-random_paper: 124
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Monisnap Rate Limits

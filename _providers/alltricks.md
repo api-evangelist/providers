@@ -49,7 +49,7 @@ name: Alltricks
 nav: Providers
 network: true
 overview: Alltricks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Cycling.
-random_paper: 75
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

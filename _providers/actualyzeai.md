@@ -96,7 +96,7 @@ overview: 'Actualyze AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Actualyze AI''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 137
+random_paper: 4
 score:
   band: emerging
   composite: 13.8

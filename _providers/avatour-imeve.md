@@ -76,7 +76,7 @@ overview: 'AVATOUR, Imeve is profiled on the [APIs.io](https://apis.io/) network
 
 
   AVATOUR, Imeve''s developer surface includes support, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: minimal
   composite: 9.9

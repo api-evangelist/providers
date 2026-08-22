@@ -139,7 +139,7 @@ overview: 'Gemnote publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 25.5

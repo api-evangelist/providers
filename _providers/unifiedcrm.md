@@ -57,7 +57,7 @@ name: UnifiedCRM
 nav: Providers
 network: true
 overview: UnifiedCRM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Sales, Artificial Intelligence, and SaaS.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 7.1

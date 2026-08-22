@@ -155,7 +155,7 @@ plans:
 - name: Jampp Plans Pricing
   plan_count: 0
   slug: jampp-plans-pricing
-random_paper: 89
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Jampp Rate Limits

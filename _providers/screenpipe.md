@@ -297,7 +297,7 @@ overview: 'Screenpipe publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 25 more developer resources.'
-random_paper: 27
+random_paper: 20
 score:
   band: developing
   composite: 43.8

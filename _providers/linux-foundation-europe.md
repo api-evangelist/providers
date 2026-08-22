@@ -69,7 +69,7 @@ plans:
 - name: Linux Foundation Europe Plans Pricing
   plan_count: 3
   slug: linux-foundation-europe-plans-pricing
-random_paper: 1
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Linux Foundation Europe Rate Limits

@@ -56,7 +56,7 @@ overview: 'Shotwellai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Shotwellai''s developer surface includes support and 2 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 6.3

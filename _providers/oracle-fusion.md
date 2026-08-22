@@ -982,7 +982,7 @@ plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
   slug: oracle-fusion-plans-pricing
-random_paper: 143
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Oracle Fusion Rate Limits

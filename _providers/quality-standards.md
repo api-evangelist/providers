@@ -40,7 +40,7 @@ name: Quality Standards
 nav: Providers
 network: true
 overview: Quality Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Best Practices, Compliance, Process Improvement, and Quality Assurance.
-random_paper: 147
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

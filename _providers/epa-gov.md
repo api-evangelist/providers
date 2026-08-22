@@ -68,7 +68,7 @@ overview: 'EPA.gov is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EPA.gov''s developer surface includes developer portal and 5 more developer resources.'
-random_paper: 91
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

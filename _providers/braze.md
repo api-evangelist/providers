@@ -435,7 +435,7 @@ plans:
 - name: Braze Plans Pricing
   plan_count: 4
   slug: braze-plans-pricing
-random_paper: 85
+random_paper: 7
 rate_limits:
 - limit_count: 22
   name: Braze Rate Limits

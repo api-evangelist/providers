@@ -131,7 +131,7 @@ plans:
 - name: Brigad Plans Pricing
   plan_count: 0
   slug: brigad-plans-pricing
-random_paper: 21
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Brigad Rate Limits

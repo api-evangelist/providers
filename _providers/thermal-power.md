@@ -142,7 +142,7 @@ plans:
 - name: Thermal Power Plans Pricing
   plan_count: 3
   slug: thermal-power-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Thermal Power Rate Limits

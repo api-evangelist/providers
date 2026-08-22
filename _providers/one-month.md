@@ -72,7 +72,7 @@ overview: 'One Month is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   One Month''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: emerging
   composite: 12.1

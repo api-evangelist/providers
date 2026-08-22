@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Susa Ventures
 nav: Providers
 network: true
-random_paper: 40
+random_paper: 16
 slug: susa-ventures
 tags:
 - Venture Capital

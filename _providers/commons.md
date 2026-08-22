@@ -146,7 +146,7 @@ overview: 'Commons is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Commons'' developer surface includes FAQ, support, engineering blog, and 20 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: emerging
   composite: 11.7

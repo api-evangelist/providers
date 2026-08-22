@@ -92,7 +92,7 @@ overview: 'Lalilo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lalilo''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 14.9

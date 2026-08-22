@@ -64,7 +64,7 @@ overview: 'merama is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   merama''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 8.5

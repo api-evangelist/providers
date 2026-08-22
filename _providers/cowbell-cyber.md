@@ -73,7 +73,7 @@ overview: 'Cowbell Cyber is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Cowbell Cyber''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 130
+random_paper: 20
 score:
   band: minimal
   composite: 9.7

@@ -169,7 +169,7 @@ overview: 'Cartesi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cartesi''s developer surface includes documentation, API reference, CLI, GitHub presence, engineering blog, YouTube channel, and 24 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
   composite: 13.9

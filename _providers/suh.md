@@ -49,7 +49,7 @@ name: SinoUnited Health
 nav: Providers
 network: true
 overview: SinoUnited Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical, Dental, and Clinics.
-random_paper: 38
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

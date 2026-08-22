@@ -49,7 +49,7 @@ name: Flourish
 nav: Providers
 network: true
 overview: Flourish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Research.
-random_paper: 131
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

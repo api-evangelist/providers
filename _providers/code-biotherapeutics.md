@@ -99,7 +99,7 @@ overview: 'Code Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Code Biotherapeutics'' developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 130
+random_paper: 9
 score:
   band: emerging
   composite: 22.0

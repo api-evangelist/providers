@@ -72,7 +72,7 @@ overview: 'ZeroMark is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ZeroMark''s developer surface includes product news and 6 more developer resources.'
-random_paper: 130
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

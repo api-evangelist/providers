@@ -72,7 +72,7 @@ overview: 'Firstjob.me is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Firstjob.me''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: emerging
   composite: 13.0

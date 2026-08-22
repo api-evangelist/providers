@@ -40,7 +40,7 @@ name: Talkray
 nav: Providers
 network: true
 overview: Talkray is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Communications, Voice, and Mobile.
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

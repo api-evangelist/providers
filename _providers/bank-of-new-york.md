@@ -57,7 +57,7 @@ name: Bank of New York
 nav: Providers
 network: true
 overview: Bank of New York is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Historical, and Institutional Banking.
-random_paper: 53
+random_paper: 10
 score:
   band: minimal
   composite: 0.5

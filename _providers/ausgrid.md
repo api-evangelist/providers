@@ -213,7 +213,7 @@ overview: 'Ausgrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ausgrid''s developer surface includes engineering blog, support, authentication, code examples, documentation, developer portal, and 35 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 25.4

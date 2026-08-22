@@ -195,7 +195,7 @@ overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 79
+random_paper: 9
 scopes:
 - name: Buoy Health Scopes
   scope_count: 14

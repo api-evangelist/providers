@@ -225,7 +225,7 @@ plans:
 - name: Bird Plans Pricing
   plan_count: 3
   slug: bird-plans-pricing
-random_paper: 119
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Bird Rate Limits

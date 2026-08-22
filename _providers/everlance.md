@@ -117,7 +117,7 @@ overview: 'Everlance publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Everlance''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 55
+random_paper: 4
 score:
   band: emerging
   composite: 23.1

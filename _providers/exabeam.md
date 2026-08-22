@@ -198,7 +198,7 @@ overview: 'Exabeam publishes 13 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Exabeam''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 127
+random_paper: 9
 scopes:
 - name: Exabeam Scopes
   scope_count: 3

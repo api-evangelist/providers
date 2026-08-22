@@ -173,7 +173,7 @@ overview: 'CaaMTech publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CaaMTech''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
-random_paper: 77
+random_paper: 3
 score:
   band: emerging
   composite: 17.8

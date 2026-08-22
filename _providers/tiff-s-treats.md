@@ -122,7 +122,7 @@ overview: 'Tiff''s Treats is profiled on the [APIs.io](https://apis.io/) network
 
 
   Tiff''s Treats'' developer surface includes FAQ, support, engineering blog, and 14 more developer resources.'
-random_paper: 97
+random_paper: 8
 score:
   band: emerging
   composite: 11.9

@@ -76,7 +76,7 @@ overview: 'HomeTouch is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HomeTouch''s developer surface includes engineering blog, pricing, support, signup flow, and 4 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: emerging
   composite: 15.2

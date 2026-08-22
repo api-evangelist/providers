@@ -224,7 +224,7 @@ overview: 'Canoe Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
-random_paper: 42
+random_paper: 3
 scopes:
 - name: Canoe Intelligence Scopes
   scope_count: 0

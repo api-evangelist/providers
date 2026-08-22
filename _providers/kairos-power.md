@@ -97,7 +97,7 @@ overview: 'Kairos Power is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Kairos Power''s developer surface includes product news, GitHub presence, YouTube channel, and 10 more developer resources.'
-random_paper: 59
+random_paper: 12
 score:
   band: minimal
   composite: 4.0

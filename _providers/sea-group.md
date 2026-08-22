@@ -125,7 +125,7 @@ overview: 'Sea Group (Sea Limited) is profiled on the [APIs.io](https://apis.io/
 
 
   Sea Group (Sea Limited)''s developer surface includes product news, authentication, and 13 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 9.0

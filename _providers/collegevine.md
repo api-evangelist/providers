@@ -60,7 +60,7 @@ overview: 'Collegevine is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Collegevine''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 122
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

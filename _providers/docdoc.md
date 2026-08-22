@@ -49,7 +49,7 @@ name: DocDoc
 nav: Providers
 network: true
 overview: DocDoc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Technology, Patient Empowerment, and Doctor Discovery.
-random_paper: 24
+random_paper: 11
 score:
   band: minimal
   composite: 3.3

@@ -130,7 +130,7 @@ overview: 'Arundo Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Arundo Analytics'' developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 23
+random_paper: 3
 scopes:
 - name: Arundo Analytics Scopes
   scope_count: 14

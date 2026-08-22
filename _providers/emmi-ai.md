@@ -168,7 +168,7 @@ plans:
 - name: Emmi Ai Plans Pricing
   plan_count: 0
   slug: emmi-ai-plans-pricing
-random_paper: 75
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Emmi Ai Rate Limits

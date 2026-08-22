@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Co-location
   url: https://www.exeloncorp.com/policy-and-issues/Co-location
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 6.2

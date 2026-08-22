@@ -64,7 +64,7 @@ overview: 'Touchten is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Touchten''s developer surface includes support and 4 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: minimal
   composite: 8.8

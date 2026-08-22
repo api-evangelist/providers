@@ -53,7 +53,7 @@ name: Greenchoice
 nav: Providers
 network: true
 overview: Greenchoice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Gas, Renewable, and Sustainability.
-random_paper: 105
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

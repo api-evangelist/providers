@@ -63,7 +63,7 @@ name: GTM Release
 nav: Providers
 network: true
 overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Events, Developer Communities, Directories, and GTM.
-random_paper: 67
+random_paper: 18
 score:
   band: minimal
   composite: 6.1

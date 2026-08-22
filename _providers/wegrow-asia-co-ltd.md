@@ -49,7 +49,7 @@ name: WeGrow asia CO., LTD.
 nav: Providers
 network: true
 overview: WeGrow asia CO., LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Smart Farming, and Taiwan.
-random_paper: 111
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

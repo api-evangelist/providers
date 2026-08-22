@@ -49,7 +49,7 @@ name: NAKAD
 nav: Providers
 network: true
 overview: NAKAD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Reconciliation, Invoice Financing, and Working Capital.
-random_paper: 64
+random_paper: 7
 score:
   band: minimal
   composite: 1.5

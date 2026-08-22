@@ -192,7 +192,7 @@ plans:
 - name: University Of Basel Plans Pricing
   plan_count: 2
   slug: university-of-basel-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: University Of Basel Rate Limits

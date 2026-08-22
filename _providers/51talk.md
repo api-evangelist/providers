@@ -53,7 +53,7 @@ name: 51Talk
 nav: Providers
 network: true
 overview: 51Talk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Online Learning.
-random_paper: 83
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

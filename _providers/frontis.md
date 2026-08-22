@@ -49,7 +49,7 @@ name: frontis
 nav: Providers
 network: true
 overview: frontis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 28
+random_paper: 17
 score:
   band: minimal
   composite: 3.2

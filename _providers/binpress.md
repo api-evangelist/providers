@@ -53,7 +53,7 @@ name: Binpress
 nav: Providers
 network: true
 overview: Binpress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Source Code Marketplace, Developer Tools, SDKs, and Software Components.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 5.3

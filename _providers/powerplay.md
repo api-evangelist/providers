@@ -72,7 +72,7 @@ overview: 'Powerplay is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Powerplay''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

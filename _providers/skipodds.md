@@ -169,7 +169,7 @@ plans:
 - name: Skipodds Plans Pricing
   plan_count: 6
   slug: skipodds-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Skipodds Rate Limits

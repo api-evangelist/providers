@@ -84,7 +84,7 @@ overview: 'Upscale AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Upscale AI''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 102
+random_paper: 9
 score:
   band: minimal
   composite: 10.4

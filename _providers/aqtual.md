@@ -92,7 +92,7 @@ overview: 'Aqtual is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aqtual''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: minimal
   composite: 6.4

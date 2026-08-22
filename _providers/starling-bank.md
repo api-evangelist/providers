@@ -211,7 +211,7 @@ overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 133
+random_paper: 2
 score:
   band: developing
   composite: 53.5

@@ -176,7 +176,7 @@ overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: thin
   composite: 35.3

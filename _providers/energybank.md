@@ -58,7 +58,7 @@ name: EnergyBank
 nav: Providers
 network: true
 overview: EnergyBank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Storage, Offshore Wind, and Renewable Energy.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 4.0

@@ -72,7 +72,7 @@ overview: 'Joy is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Joy''s developer surface includes pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 40
+random_paper: 2
 score:
   band: emerging
   composite: 11.8

@@ -121,7 +121,7 @@ overview: 'Sony publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Sony catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 10
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []

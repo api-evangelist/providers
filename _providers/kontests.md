@@ -53,7 +53,7 @@ name: KONTESTS
 nav: Providers
 network: true
 overview: KONTESTS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Programming and Public APIs.
-random_paper: 146
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

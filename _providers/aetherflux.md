@@ -84,7 +84,7 @@ overview: 'Cowboy Space Corporation (formerly Aetherflux) is profiled on the [AP
 
 
   Cowboy Space Corporation (formerly Aetherflux)''s developer surface includes legal docs and 11 more developer resources.'
-random_paper: 37
+random_paper: 9
 score:
   band: minimal
   composite: 10.9

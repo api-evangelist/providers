@@ -68,7 +68,7 @@ overview: 'Discz is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Discz''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 10.5

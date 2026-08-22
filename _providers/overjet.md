@@ -93,7 +93,7 @@ overview: 'Overjet publishes 5 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Overjet''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 9.7

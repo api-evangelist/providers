@@ -72,7 +72,7 @@ overview: 'rekord is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   rekord''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 10.8

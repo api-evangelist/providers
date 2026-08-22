@@ -110,7 +110,7 @@ plans:
 - name: Paradedb Plans Pricing
   plan_count: 4
   slug: paradedb-plans-pricing
-random_paper: 74
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Paradedb Rate Limits

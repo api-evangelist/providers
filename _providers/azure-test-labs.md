@@ -636,7 +636,7 @@ plans:
 - name: Azure Test Labs Plans Pricing
   plan_count: 3
   slug: azure-test-labs-plans-pricing
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Azure Test Labs Rate Limits

@@ -92,7 +92,7 @@ overview: 'Automotus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Automotus'' developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 115
+random_paper: 1
 score:
   band: emerging
   composite: 12.7

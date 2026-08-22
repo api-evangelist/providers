@@ -193,7 +193,7 @@ overview: 'Blink Ledger Systems publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Blink Ledger Systems'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
-random_paper: 100
+random_paper: 0
 score:
   band: thin
   composite: 31.2

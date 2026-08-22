@@ -168,7 +168,7 @@ overview: 'Fama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 107
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Fama Rate Limits

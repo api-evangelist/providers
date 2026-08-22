@@ -169,7 +169,7 @@ overview: 'Linq.gg publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 45.4

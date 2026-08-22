@@ -121,7 +121,7 @@ overview: 'Monte Carlo publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Monte Carlo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: thin
   composite: 34.4

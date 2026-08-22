@@ -863,7 +863,7 @@ plans:
 - name: Ahasend Plans Pricing
   plan_count: 3
   slug: ahasend-plans-pricing
-random_paper: 128
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Ahasend Rate Limits

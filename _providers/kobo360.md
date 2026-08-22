@@ -97,7 +97,7 @@ overview: 'Kobo360 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kobo360''s developer surface includes GitHub presence and 12 more developer resources.'
-random_paper: 133
+random_paper: 13
 score:
   band: minimal
   composite: 2.5

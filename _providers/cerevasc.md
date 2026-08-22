@@ -85,7 +85,7 @@ overview: 'CereVasc is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CereVasc''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 6.7

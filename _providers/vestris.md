@@ -60,7 +60,7 @@ overview: 'Vestris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vestris'' developer surface includes pricing and 3 more developer resources.'
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 4.3

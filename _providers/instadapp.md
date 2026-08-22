@@ -96,7 +96,7 @@ overview: 'Instadapp is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Instadapp''s developer surface includes documentation, getting-started guide, support, and 10 more developer resources.'
-random_paper: 70
+random_paper: 19
 score:
   band: emerging
   composite: 16.3

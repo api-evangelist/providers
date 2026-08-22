@@ -92,7 +92,7 @@ overview: 'AgFunder is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AgFunder''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 10.6

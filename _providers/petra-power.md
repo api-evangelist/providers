@@ -68,7 +68,7 @@ overview: 'Petra Power is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Petra Power''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 99
+random_paper: 8
 score:
   band: minimal
   composite: 5.5

@@ -266,7 +266,7 @@ plans:
 - name: Postscript Plans Pricing
   plan_count: 4
   slug: postscript-plans-pricing
-random_paper: 72
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Postscript Rate Limits

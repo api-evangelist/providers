@@ -76,7 +76,7 @@ overview: 'Horizon Quantum Computing is profiled on the [APIs.io](https://apis.i
 
 
   Horizon Quantum Computing''s developer surface includes signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 95
+random_paper: 3
 score:
   band: emerging
   composite: 14.0

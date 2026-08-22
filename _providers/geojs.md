@@ -57,7 +57,7 @@ name: GeoJS
 nav: Providers
 network: true
 overview: GeoJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 89
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

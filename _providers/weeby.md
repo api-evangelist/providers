@@ -49,7 +49,7 @@ name: Weeby
 nav: Providers
 network: true
 overview: Weeby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Social Games, and Portfolio Company.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

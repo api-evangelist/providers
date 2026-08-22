@@ -57,7 +57,7 @@ name: Trumark Financial
 nav: Providers
 network: true
 overview: Trumark Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Union, Banking, Financial Services, and Philadelphia.
-random_paper: 113
+random_paper: 9
 score:
   band: minimal
   composite: 0.2

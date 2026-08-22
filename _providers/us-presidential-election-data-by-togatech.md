@@ -57,7 +57,7 @@ name: US Presidential Election Data by TogaTech
 nav: Providers
 network: true
 overview: US Presidential Election Data by TogaTech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 45
+random_paper: 15
 score:
   band: minimal
   composite: 4.2

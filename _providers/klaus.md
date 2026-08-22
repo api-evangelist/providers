@@ -206,7 +206,7 @@ overview: 'Klaus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klaus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 97
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Klaus Rate Limits

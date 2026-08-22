@@ -72,7 +72,7 @@ overview: 'Projectx is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Projectx''s developer surface includes documentation, pricing, support, signup flow, and 3 more developer resources.'
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

@@ -80,7 +80,7 @@ overview: 'DXY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DXY''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
-random_paper: 43
+random_paper: 5
 score:
   band: emerging
   composite: 11.4

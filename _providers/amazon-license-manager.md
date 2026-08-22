@@ -193,7 +193,7 @@ plans:
 - name: Amazon License Manager Plans Pricing
   plan_count: 3
   slug: amazon-license-manager-plans-pricing
-random_paper: 120
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon License Manager Rate Limits

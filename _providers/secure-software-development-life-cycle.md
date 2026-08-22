@@ -40,7 +40,7 @@ name: Secure Software Development Life Cycle
 nav: Providers
 network: true
 overview: Secure Software Development Life Cycle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Application Security, DevSecOps, SDLC, Secure Development, and Security Engineering.
-random_paper: 108
+random_paper: 11
 score:
   band: minimal
   composite: 5.2

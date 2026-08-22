@@ -152,7 +152,7 @@ plans:
 - name: Anyimagedetector Plans Pricing
   plan_count: 5
   slug: anyimagedetector-plans-pricing
-random_paper: 62
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Anyimagedetector Rate Limits

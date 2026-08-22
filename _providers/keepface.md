@@ -202,7 +202,7 @@ plans:
 - name: Keepface Plans Pricing
   plan_count: 0
   slug: keepface-plans-pricing
-random_paper: 75
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Keepface Rate Limits

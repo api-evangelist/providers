@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Sierra Ventures
 nav: Providers
 network: true
-random_paper: 93
+random_paper: 8
 slug: sierra-ventures
 tags:
 - Venture Capital

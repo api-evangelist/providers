@@ -184,7 +184,7 @@ plans:
 - name: What3Words Plans Pricing
   plan_count: 1
   slug: what3words-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: What3Words Rate Limits

@@ -517,7 +517,7 @@ plans:
 - name: Bentoml Plans Pricing
   plan_count: 3
   slug: bentoml-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Bentoml Rate Limits

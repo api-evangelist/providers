@@ -66,7 +66,7 @@ plans:
 - name: Blue Owl Capital Plans Pricing
   plan_count: 1
   slug: blue-owl-capital-plans-pricing
-random_paper: 96
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Blue Owl Capital Rate Limits

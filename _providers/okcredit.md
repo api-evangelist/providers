@@ -49,7 +49,7 @@ name: Okcredit
 nav: Providers
 network: true
 overview: Okcredit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bookkeeping, Digital Ledger, and Small Business.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 1.5

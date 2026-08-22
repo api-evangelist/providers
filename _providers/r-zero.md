@@ -139,7 +139,7 @@ overview: 'R-Zero publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   R-Zero''s developer surface includes documentation, API reference, support, engineering blog, and 20 more developer resources.'
-random_paper: 11
+random_paper: 19
 score:
   band: thin
   composite: 28.1

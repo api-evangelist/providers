@@ -157,7 +157,7 @@ plans:
 - name: Recorded Future Plans Pricing
   plan_count: 1
   slug: recorded-future-plans-pricing
-random_paper: 62
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Recorded Future Rate Limits

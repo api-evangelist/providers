@@ -239,7 +239,7 @@ plans:
 - name: Hubstaff Plans Pricing
   plan_count: 6
   slug: hubstaff-plans-pricing
-random_paper: 106
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Hubstaff Rate Limits

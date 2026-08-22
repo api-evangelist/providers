@@ -80,7 +80,7 @@ overview: 'Amplication is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Amplication''s developer surface includes CLI, changelog, documentation, support, and 5 more developer resources.'
-random_paper: 126
+random_paper: 14
 score:
   band: minimal
   composite: 10.7

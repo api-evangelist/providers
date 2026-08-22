@@ -45,7 +45,7 @@ name: Wecare Probiotics
 nav: Providers
 network: true
 overview: Wecare Probiotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Probiotics, Biotechnology, Life Sciences, and Manufacturing.
-random_paper: 96
+random_paper: 3
 score:
   band: minimal
   composite: 2.2

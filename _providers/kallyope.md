@@ -108,7 +108,7 @@ overview: 'Kallyope publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Kallyope''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 14.2

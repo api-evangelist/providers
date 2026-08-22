@@ -168,7 +168,7 @@ overview: 'Sinai Technologies publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Sinai Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 73
+random_paper: 13
 scopes:
 - name: Sinai Technologies Scopes
   scope_count: 6

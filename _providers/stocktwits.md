@@ -231,7 +231,7 @@ overview: 'StockTwits publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   StockTwits'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 76
+random_paper: 6
 scopes:
 - name: Stocktwits Scopes
   scope_count: 6

@@ -152,7 +152,7 @@ plans:
 - name: Elephas Biosciences Plans Pricing
   plan_count: 0
   slug: elephas-biosciences-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Elephas Biosciences Rate Limits

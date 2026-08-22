@@ -96,7 +96,7 @@ overview: 'Nauto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nauto''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: emerging
   composite: 16.1

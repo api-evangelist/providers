@@ -205,7 +205,7 @@ plans:
 - name: Basis Theory Plans Pricing
   plan_count: 4
   slug: basis-theory-plans-pricing
-random_paper: 50
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Basis Theory Rate Limits

@@ -47,7 +47,7 @@ name: Adona Medical
 nav: Providers
 network: true
 overview: Adona Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Medical Technology, Healthcare, and Cardiovascular.
-random_paper: 87
+random_paper: 19
 score:
   band: minimal
   composite: 2.9

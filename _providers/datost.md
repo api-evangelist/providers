@@ -53,7 +53,7 @@ name: Datost
 nav: Providers
 network: true
 overview: Datost is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Augmented Reality, Wearables, and Artificial Intelligence.
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

@@ -184,7 +184,7 @@ plans:
 - name: Zettle Plans Pricing
   plan_count: 1
   slug: zettle-plans-pricing
-random_paper: 68
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Zettle Rate Limits

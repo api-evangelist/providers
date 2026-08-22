@@ -109,7 +109,7 @@ plans:
 - name: Watershed Plans Pricing
   plan_count: 1
   slug: watershed-plans-pricing
-random_paper: 73
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Watershed Rate Limits

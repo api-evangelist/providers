@@ -203,7 +203,7 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 121
+random_paper: 20
 rules:
 - effective_rule_count: 35
   extends:

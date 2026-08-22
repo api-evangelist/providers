@@ -106,7 +106,7 @@ overview: 'Agile SDLC is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Agile SDLC''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 87
+random_paper: 15
 rules:
 - effective_rule_count: 4
   extends: []

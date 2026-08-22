@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: How DICK'S Sporting Goods uses AI to elevate team skills
   url: https://eightfold.ai/blog/how-dicks-sporting-goods-uses-ai-to-elevate-team-skills-in-a-changing-workplace/
-random_paper: 105
+random_paper: 5
 score:
   band: minimal
   composite: 4.4

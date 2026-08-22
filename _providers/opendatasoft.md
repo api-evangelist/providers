@@ -201,7 +201,7 @@ plans:
 - name: Opendatasoft Explore Api
   plan_count: 3
   slug: opendatasoft-explore-api
-random_paper: 96
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Opendatasoft Explore Api

@@ -155,7 +155,7 @@ plans:
 - name: Subbly Plans Pricing
   plan_count: 5
   slug: subbly-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Subbly Rate Limits

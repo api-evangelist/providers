@@ -262,7 +262,7 @@ plans:
 - name: Fullcontact Plans Pricing
   plan_count: 0
   slug: fullcontact-plans-pricing
-random_paper: 140
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Fullcontact Rate Limits

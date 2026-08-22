@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: ADP AUTHORIZED TO PURCHASE $6 BILLION OF ITS ...
   url: https://www.prnewswire.com/news-releases/adp-authorized-to-purchase-6-billion-of-its-common-stock-302661248.html
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Automatic Data Processing Rate Limits

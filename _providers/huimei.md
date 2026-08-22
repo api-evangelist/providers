@@ -53,7 +53,7 @@ name: huimei
 nav: Providers
 network: true
 overview: huimei is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical AI, Clinical Decision Support, and CDSS.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 3.3

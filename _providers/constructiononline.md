@@ -105,7 +105,7 @@ plans:
 - name: Constructiononline Plans Pricing
   plan_count: 3
   slug: constructiononline-plans-pricing
-random_paper: 31
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Constructiononline Rate Limits

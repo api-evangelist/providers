@@ -100,7 +100,7 @@ overview: 'Speero is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Speero''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: emerging
   composite: 14.0

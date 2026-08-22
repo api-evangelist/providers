@@ -222,7 +222,7 @@ plans:
 - name: Telefonie Plans Pricing
   plan_count: 1
   slug: telefonie-plans-pricing
-random_paper: 61
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Telefonie Rate Limits

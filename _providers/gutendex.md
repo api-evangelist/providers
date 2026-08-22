@@ -239,7 +239,7 @@ plans:
 - name: Gutendex Plans Pricing
   plan_count: 2
   slug: gutendex-plans-pricing
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Gutendex Rate Limits

@@ -80,7 +80,7 @@ overview: 'Mobagel is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mobagel''s developer surface includes support and 8 more developer resources.'
-random_paper: 131
+random_paper: 13
 score:
   band: emerging
   composite: 13.2

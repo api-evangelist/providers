@@ -120,7 +120,7 @@ overview: 'Red 6 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Red 6''s developer surface includes engineering blog, support, YouTube channel, and 18 more developer resources.'
-random_paper: 71
+random_paper: 12
 score:
   band: minimal
   composite: 10.9

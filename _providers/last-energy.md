@@ -120,7 +120,7 @@ overview: 'Last Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Last Energy''s developer surface includes FAQ, support, product news, signup flow, and 17 more developer resources.'
-random_paper: 88
+random_paper: 18
 score:
   band: emerging
   composite: 13.5

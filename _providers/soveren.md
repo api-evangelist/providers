@@ -207,7 +207,7 @@ overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 25
+random_paper: 14
 score:
   band: developing
   composite: 42.4

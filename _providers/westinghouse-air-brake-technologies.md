@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Westinghouse Air Brake Technologies Corp (NYSE:WAB) ...
   url: https://www.proactiveinvestors.com/NYSE:WAB/Westinghouse-Air-Brake-Technologies-Corp
-random_paper: 142
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Westinghouse Air Brake Technologies Rate Limits

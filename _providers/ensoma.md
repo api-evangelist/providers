@@ -92,7 +92,7 @@ overview: 'Ensoma is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ensoma''s developer surface includes product news and 13 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: minimal
   composite: 10.1

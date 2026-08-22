@@ -92,7 +92,7 @@ overview: 'Granthika is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Granthika''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 59
+random_paper: 8
 score:
   band: emerging
   composite: 15.2

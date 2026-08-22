@@ -119,7 +119,7 @@ overview: 'Crimson Education publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Crimson Education''s developer surface includes engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 125
+random_paper: 0
 score:
   band: emerging
   composite: 20.6

@@ -49,7 +49,7 @@ name: Flex
 nav: Providers
 network: true
 overview: Flex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Financial Services, Payments, and Rent Payments.
-random_paper: 133
+random_paper: 11
 score:
   band: minimal
   composite: 1.5

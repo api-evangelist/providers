@@ -253,7 +253,7 @@ plans:
 - name: Brandwatch Plans Pricing
   plan_count: 0
   slug: brandwatch-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Brandwatch Rate Limits

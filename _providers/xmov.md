@@ -40,7 +40,7 @@ name: XMOV
 nav: Providers
 network: true
 overview: XMOV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 11
+random_paper: 17
 score:
   band: minimal
   composite: 4.1

@@ -117,7 +117,7 @@ plans:
 - name: Clearvin Plans Pricing
   plan_count: 5
   slug: clearvin-plans-pricing
-random_paper: 107
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Clearvin Rate Limits

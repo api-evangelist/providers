@@ -255,7 +255,7 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
-random_paper: 127
+random_paper: 11
 score:
   band: strong
   composite: 60.8

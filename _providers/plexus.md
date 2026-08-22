@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Plexus Secures $6 Million to Accelerate AI-Driven Growth ...
   url: https://www.businesswire.com/news/home/20250513494756/en/Plexus-Secures-%246-Million-to-Accelerate-AI-Driven-Growth-Strategy
-random_paper: 77
+random_paper: 1
 score:
   band: minimal
   composite: 3.8

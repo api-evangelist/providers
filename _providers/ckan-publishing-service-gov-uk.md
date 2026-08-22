@@ -89,7 +89,7 @@ plans:
 - name: Ckan Publishing Service Gov Uk Plans Pricing
   plan_count: 1
   slug: ckan-publishing-service-gov-uk-plans-pricing
-random_paper: 148
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Ckan Publishing Service Gov Uk Rate Limits

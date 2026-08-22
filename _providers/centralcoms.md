@@ -72,7 +72,7 @@ overview: 'CentralComs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CentralComs'' developer surface includes signup flow and 6 more developer resources.'
-random_paper: 136
+random_paper: 3
 score:
   band: emerging
   composite: 12.6

@@ -61,7 +61,7 @@ name: Aera Therapeutics
 nav: Providers
 network: true
 overview: Aera Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Genetic Medicine, and Therapeutics.
-random_paper: 112
+random_paper: 8
 score:
   band: minimal
   composite: 9.0

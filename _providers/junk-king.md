@@ -76,7 +76,7 @@ overview: 'Junk King is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Junk King''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 13.5

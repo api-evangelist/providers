@@ -90,7 +90,7 @@ overview: 'UPMC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   UPMC''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
-random_paper: 139
+random_paper: 17
 score:
   band: minimal
   composite: 6.4

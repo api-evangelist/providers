@@ -366,7 +366,7 @@ plans:
 - name: Queens University Belfast Plans Pricing
   plan_count: 2
   slug: queens-university-belfast-plans-pricing
-random_paper: 73
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Queens University Belfast Rate Limits

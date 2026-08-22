@@ -81,7 +81,7 @@ overview: 'MicroTech Medical publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   MicroTech Medical''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 124
+random_paper: 12
 score:
   band: minimal
   composite: 9.4

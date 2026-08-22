@@ -198,7 +198,7 @@ plans:
 - name: Apache Spark Plans Pricing
   plan_count: 3
   slug: apache-spark-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Spark Rate Limits

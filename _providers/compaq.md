@@ -41,7 +41,7 @@ name: Compaq
 nav: Providers
 network: true
 overview: Compaq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Personal Computers, and Hardware.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

@@ -450,7 +450,7 @@ overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: developing
   composite: 50.9

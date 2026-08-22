@@ -167,7 +167,7 @@ overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
   band: developing
   composite: 46.3

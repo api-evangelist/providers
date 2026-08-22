@@ -183,7 +183,7 @@ overview: 'Jiko publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jiko''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, developer portal, and 23 more developer resources.'
-random_paper: 131
+random_paper: 9
 rate_limits:
 - limit_count: 16
   name: Jiko Rate Limits

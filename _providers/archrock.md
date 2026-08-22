@@ -238,7 +238,7 @@ press:
 - date: '2026-05-25'
   title: AI Power, LNG Growth Sparking Natural Gas Compression ...
   url: https://naturalgasintel.com/news/ai-power-lng-growth-sparking-natural-gas-compression-boom-for-archrock/
-random_paper: 100
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Archrock Rate Limits

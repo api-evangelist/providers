@@ -164,7 +164,7 @@ overview: 'Celona publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Celona''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: developing
   composite: 50.7

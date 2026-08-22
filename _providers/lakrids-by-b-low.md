@@ -120,7 +120,7 @@ overview: 'LAKRIDS BY BÜLOW publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   LAKRIDS BY BÜLOW''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 46
+random_paper: 3
 score:
   band: emerging
   composite: 18.2

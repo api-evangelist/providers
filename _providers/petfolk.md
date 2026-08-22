@@ -96,7 +96,7 @@ overview: 'Petfolk is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Petfolk''s developer surface includes signup flow, support, FAQ, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: emerging
   composite: 15.9

@@ -190,7 +190,7 @@ plans:
 - name: Dotfile Plans Pricing
   plan_count: 0
   slug: dotfile-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Dotfile Rate Limits

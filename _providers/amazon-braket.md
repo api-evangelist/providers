@@ -217,7 +217,7 @@ overview: 'Amazon Braket publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 132
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

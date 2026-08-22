@@ -178,7 +178,7 @@ overview: 'DataLoop publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   DataLoop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: developing
   composite: 51.7

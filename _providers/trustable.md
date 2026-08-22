@@ -40,7 +40,7 @@ name: Trustable
 nav: Providers
 network: true
 overview: Trustable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 88
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

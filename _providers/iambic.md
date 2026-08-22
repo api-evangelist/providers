@@ -125,7 +125,7 @@ overview: 'Iambic Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Iambic Therapeutics'' developer surface includes engineering blog, authentication, and 10 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 9.8

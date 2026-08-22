@@ -88,7 +88,7 @@ overview: 'ExaCare AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ExaCare AI''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 82
+random_paper: 10
 score:
   band: emerging
   composite: 14.1

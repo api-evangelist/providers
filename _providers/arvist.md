@@ -96,7 +96,7 @@ overview: 'Arvist is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arvist''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 69
+random_paper: 14
 score:
   band: emerging
   composite: 15.1

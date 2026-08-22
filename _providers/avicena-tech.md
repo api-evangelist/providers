@@ -112,7 +112,7 @@ overview: 'Avicena Tech is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Avicena Tech''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
   composite: 8.3

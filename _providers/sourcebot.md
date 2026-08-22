@@ -207,7 +207,7 @@ overview: 'Sourcebot publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: developing
   composite: 48.2

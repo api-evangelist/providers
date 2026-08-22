@@ -57,7 +57,7 @@ name: Creative Commons Catalog
 nav: Providers
 network: true
 overview: Creative Commons Catalog publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source Projects and Public APIs.
-random_paper: 52
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

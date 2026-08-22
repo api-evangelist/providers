@@ -320,7 +320,7 @@ plans:
 - name: Quandela Plans Pricing
   plan_count: 0
   slug: quandela-plans-pricing
-random_paper: 98
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Quandela Rate Limits

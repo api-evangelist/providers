@@ -157,7 +157,7 @@ plans:
 - name: Ezr Plans Pricing
   plan_count: 0
   slug: ezr-plans-pricing
-random_paper: 39
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Ezr Rate Limits

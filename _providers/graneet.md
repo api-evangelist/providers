@@ -84,7 +84,7 @@ overview: 'Graneet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Graneet''s developer surface includes support, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 146
+random_paper: 7
 score:
   band: emerging
   composite: 14.1

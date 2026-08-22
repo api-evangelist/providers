@@ -85,7 +85,7 @@ overview: 'Fluxx publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fluxx''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 75
+random_paper: 7
 score:
   band: emerging
   composite: 11.2

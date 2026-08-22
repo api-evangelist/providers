@@ -109,7 +109,7 @@ overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.i
 
 
   AWS Elastic Beanstalk''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 25
+random_paper: 11
 score:
   band: thin
   composite: 31.9

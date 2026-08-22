@@ -267,7 +267,7 @@ plans:
 - name: Transmit Security Plans Pricing
   plan_count: 4
   slug: transmit-security-plans-pricing
-random_paper: 27
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Transmit Security Rate Limits

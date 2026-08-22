@@ -116,7 +116,7 @@ overview: 'Voquill is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Voquill''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 11 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: emerging
   composite: 22.9

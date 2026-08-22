@@ -155,7 +155,7 @@ plans:
 - name: Vizion Plans Pricing
   plan_count: 3
   slug: vizion-plans-pricing
-random_paper: 75
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Vizion Rate Limits

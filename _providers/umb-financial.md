@@ -84,7 +84,7 @@ overview: 'UMB Bank publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   UMB Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, and 7 more developer resources.'
-random_paper: 110
+random_paper: 0
 score:
   band: emerging
   composite: 15.9

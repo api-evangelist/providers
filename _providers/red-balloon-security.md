@@ -112,7 +112,7 @@ overview: 'Red Balloon Security is profiled on the [APIs.io](https://apis.io/) n
 
 
   Red Balloon Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 10 more developer resources.'
-random_paper: 99
+random_paper: 20
 score:
   band: thin
   composite: 26.9

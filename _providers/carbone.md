@@ -152,7 +152,7 @@ plans:
 - name: Carbone Plans Pricing
   plan_count: 11
   slug: carbone-plans-pricing
-random_paper: 134
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Carbone Rate Limits

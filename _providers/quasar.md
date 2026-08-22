@@ -225,7 +225,7 @@ overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 19 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: developing
   composite: 40.5

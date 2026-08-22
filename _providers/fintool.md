@@ -49,7 +49,7 @@ name: Fintool
 nav: Providers
 network: true
 overview: Fintool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Artificial Intelligence, Equity Research, and Investment Research.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 1.2

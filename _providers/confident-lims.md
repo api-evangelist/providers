@@ -247,7 +247,7 @@ overview: 'Confident LIMS publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Confident LIMS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 95
+random_paper: 8
 score:
   band: developing
   composite: 49.2

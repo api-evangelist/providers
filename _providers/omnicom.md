@@ -94,7 +94,7 @@ name: Omnicom Group
 nav: Providers
 network: true
 overview: Omnicom Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Advertising, Marketing, Holding Company, and Media.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 10.3

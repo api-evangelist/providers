@@ -209,7 +209,7 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 95
+random_paper: 0
 score:
   band: developing
   composite: 54.2

@@ -45,7 +45,7 @@ name: Netwerken
 nav: Providers
 network: true
 overview: Netwerken is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Connectivity, Infrastructure, Network Management, and Networks.
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 5.5

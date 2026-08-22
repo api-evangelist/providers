@@ -49,7 +49,7 @@ name: Cargon Tech B.V.
 nav: Providers
 network: true
 overview: Cargon Tech B.V. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Logistics, Freight, and Transport Management.
-random_paper: 19
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -96,7 +96,7 @@ overview: 'Granulate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Granulate''s developer surface includes documentation, CLI, and 11 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: emerging
   composite: 12.1

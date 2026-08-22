@@ -65,7 +65,7 @@ name: TradeKing
 nav: Providers
 network: true
 overview: TradeKing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brokerage, Trading, Investing, and Stocks.
-random_paper: 59
+random_paper: 8
 score:
   band: minimal
   composite: 2.6

@@ -84,7 +84,7 @@ overview: 'XebiaLabs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   XebiaLabs'' developer surface includes documentation, support, CLI, and 7 more developer resources.'
-random_paper: 45
+random_paper: 15
 score:
   band: minimal
   composite: 10.8

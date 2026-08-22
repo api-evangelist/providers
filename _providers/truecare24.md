@@ -80,7 +80,7 @@ overview: 'TrueCare24 is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TrueCare24''s developer surface includes support and 8 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: emerging
   composite: 12.0

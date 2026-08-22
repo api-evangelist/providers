@@ -1320,7 +1320,7 @@ plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 81
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits

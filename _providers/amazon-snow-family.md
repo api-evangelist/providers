@@ -1279,7 +1279,7 @@ plans:
 - name: Amazon Snow Family Plans Pricing
   plan_count: 3
   slug: amazon-snow-family-plans-pricing
-random_paper: 45
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Snow Family Rate Limits

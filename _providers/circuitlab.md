@@ -76,7 +76,7 @@ overview: 'CircuitLab is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CircuitLab''s developer surface includes documentation, support, engineering blog, pricing, and 4 more developer resources.'
-random_paper: 15
+random_paper: 8
 score:
   band: emerging
   composite: 14.4

@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: Mortgage Lender Sentiment Survey
   url: https://www.fanniemae.com/data-and-insights/surveys/mortgage-lender-sentiment-survey
-random_paper: 83
+random_paper: 11
 score:
   band: minimal
   composite: 6.1

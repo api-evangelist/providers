@@ -49,7 +49,7 @@ name: Getlinks
 nav: Providers
 network: true
 overview: Getlinks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Jobs.
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

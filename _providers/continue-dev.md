@@ -342,7 +342,7 @@ plans:
 - name: Continue Dev Plans Pricing
   plan_count: 4
   slug: continue-dev-plans-pricing
-random_paper: 41
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Continue Dev Rate Limits

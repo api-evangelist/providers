@@ -148,7 +148,7 @@ overview: 'GS1 publishes 1 API on the [APIs.io](https://apis.io/) network: EPCIS
 
 
   GS1''s developer surface includes documentation, tooling, and 18 more developer resources.'
-random_paper: 118
+random_paper: 15
 score:
   band: emerging
   composite: 23.9

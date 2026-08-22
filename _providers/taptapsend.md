@@ -80,7 +80,7 @@ overview: 'Taptap Send is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Taptap Send''s developer surface includes support and 8 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: emerging
   composite: 12.9

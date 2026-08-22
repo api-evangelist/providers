@@ -123,7 +123,7 @@ plans:
 - name: Markerly Plans Pricing
   plan_count: 0
   slug: markerly-plans-pricing
-random_paper: 126
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Markerly Rate Limits

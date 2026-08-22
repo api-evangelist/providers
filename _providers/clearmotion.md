@@ -99,7 +99,7 @@ name: ClearMotion
 nav: Providers
 network: true
 overview: ClearMotion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Automotive Technology, Suspension, and Mobility.
-random_paper: 138
+random_paper: 5
 score:
   band: minimal
   composite: 8.2

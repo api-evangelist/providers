@@ -174,7 +174,7 @@ overview: 'Ki Insurance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 33
+random_paper: 7
 scopes:
 - name: Ki Insurance Scopes
   scope_count: 14

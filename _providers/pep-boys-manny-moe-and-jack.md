@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
-random_paper: 46
+random_paper: 17
 score:
   band: minimal
   composite: 3.2

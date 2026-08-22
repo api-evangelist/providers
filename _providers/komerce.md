@@ -281,7 +281,7 @@ plans:
 - name: Komerce Plans
   plan_count: 3
   slug: komerce-plans
-random_paper: 146
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Komerce Rate Limits

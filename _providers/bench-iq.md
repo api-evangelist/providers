@@ -81,7 +81,7 @@ name: Bench IQ
 nav: Providers
 network: true
 overview: Bench IQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and Judicial Analytics.
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 11.4

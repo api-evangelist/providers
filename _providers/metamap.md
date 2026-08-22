@@ -614,7 +614,7 @@ plans:
 - name: Metamap Plans Pricing
   plan_count: 2
   slug: metamap-plans-pricing
-random_paper: 145
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Metamap Rate Limits

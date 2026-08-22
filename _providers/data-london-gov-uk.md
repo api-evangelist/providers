@@ -89,7 +89,7 @@ plans:
 - name: Data London Gov Uk Plans Pricing
   plan_count: 1
   slug: data-london-gov-uk-plans-pricing
-random_paper: 112
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Data London Gov Uk Rate Limits

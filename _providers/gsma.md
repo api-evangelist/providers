@@ -380,7 +380,7 @@ overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 126
+random_paper: 4
 scopes:
 - name: Gsma Scopes
   scope_count: 30

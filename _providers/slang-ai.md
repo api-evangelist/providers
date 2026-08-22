@@ -100,7 +100,7 @@ overview: 'Slang Ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Slang Ai''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: emerging
   composite: 16.6

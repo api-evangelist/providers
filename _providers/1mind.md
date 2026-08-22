@@ -148,7 +148,7 @@ plans:
 - name: 1Mind Plans Pricing
   plan_count: 0
   slug: 1mind-plans-pricing
-random_paper: 26
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: 1Mind Rate Limits

@@ -216,7 +216,7 @@ overview: 'Realtime publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Realtime''s developer surface includes developer portal, GitHub presence, code examples, and 7 more developer resources.'
-random_paper: 106
+random_paper: 11
 rules:
 - effective_rule_count: 5
   extends: []

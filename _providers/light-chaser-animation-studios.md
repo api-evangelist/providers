@@ -61,7 +61,7 @@ name: Light Chaser Animation Studios
 nav: Providers
 network: true
 overview: Light Chaser Animation Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Animation, Film, and Media.
-random_paper: 60
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

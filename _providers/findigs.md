@@ -193,7 +193,7 @@ plans:
 - name: Findigs Plans Pricing
   plan_count: 3
   slug: findigs-plans-pricing
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Findigs Rate Limits

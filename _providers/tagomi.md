@@ -49,7 +49,7 @@ name: Tagomi
 nav: Providers
 network: true
 overview: Tagomi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Prime Brokerage, and Institutional Trading.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 1.2

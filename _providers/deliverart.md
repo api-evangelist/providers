@@ -261,7 +261,7 @@ overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 31
+random_paper: 3
 scopes:
 - name: Deliverart Scopes
   scope_count: 44

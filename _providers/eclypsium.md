@@ -96,7 +96,7 @@ overview: 'Eclypsium is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Eclypsium''s developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
-random_paper: 93
+random_paper: 0
 score:
   band: emerging
   composite: 11.4

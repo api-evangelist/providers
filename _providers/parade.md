@@ -197,7 +197,7 @@ overview: 'Parade publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: thin
   composite: 38.8

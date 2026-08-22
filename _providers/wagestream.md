@@ -201,7 +201,7 @@ overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: developing
   composite: 45.9

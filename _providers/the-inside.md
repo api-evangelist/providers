@@ -45,7 +45,7 @@ name: The Inside
 nav: Providers
 network: true
 overview: The Inside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Furnishings, E-Commerce, and Direct-to-Consumer.
-random_paper: 108
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

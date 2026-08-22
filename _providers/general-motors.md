@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Using AI to advance manufacturing at General Motors
   url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html
-random_paper: 114
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: General Motors Rate Limits

@@ -193,7 +193,7 @@ plans:
 - name: Apiida Plans Pricing
   plan_count: 3
   slug: apiida-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apiida Rate Limits

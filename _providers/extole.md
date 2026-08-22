@@ -511,7 +511,7 @@ plans:
 - name: Extole Plans Pricing
   plan_count: 0
   slug: extole-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Extole Rate Limits

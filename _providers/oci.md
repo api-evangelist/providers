@@ -53,7 +53,7 @@ name: OCI
 nav: Providers
 network: true
 overview: OCI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Containers, OCI, Open Source, and Standards.
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 4.4

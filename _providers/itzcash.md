@@ -49,7 +49,7 @@ name: Itzcash
 nav: Providers
 network: true
 overview: Itzcash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Prepaid Cards, Digital Payments, and Fintech.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 1.5

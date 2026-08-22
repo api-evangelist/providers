@@ -80,7 +80,7 @@ overview: 'Akido Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Akido Labs'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 9.9

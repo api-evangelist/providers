@@ -1569,7 +1569,7 @@ plans:
 - name: Mews Systems Plans Pricing
   plan_count: 5
   slug: mews-systems-plans-pricing
-random_paper: 89
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Mews Systems Rate Limits

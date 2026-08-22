@@ -260,7 +260,7 @@ overview: 'Pixxel publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pixxel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: developing
   composite: 40.0

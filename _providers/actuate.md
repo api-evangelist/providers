@@ -49,7 +49,7 @@ name: Actuate
 nav: Providers
 network: true
 overview: Actuate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Intelligence, Reporting, Analytics, and BIRT.
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

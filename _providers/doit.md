@@ -268,7 +268,7 @@ plans:
 - name: Doit Plans Pricing
   plan_count: 6
   slug: doit-plans-pricing
-random_paper: 134
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Doit Rate Limits

@@ -92,7 +92,7 @@ overview: 'Akston Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   Akston Biosciences'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 72
+random_paper: 12
 score:
   band: minimal
   composite: 3.8

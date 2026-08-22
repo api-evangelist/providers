@@ -49,7 +49,7 @@ name: Diamanti
 nav: Providers
 network: true
 overview: Diamanti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Infrastructure, Kubernetes, and Containers.
-random_paper: 94
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

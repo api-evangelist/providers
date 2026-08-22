@@ -50,7 +50,7 @@ name: cutt
 nav: Providers
 network: true
 overview: cutt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Qiming Portfolio, China, and Portfolio Lead.
-random_paper: 1
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -76,7 +76,7 @@ overview: 'Fashinza is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fashinza''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: emerging
   composite: 11.5

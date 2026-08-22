@@ -110,7 +110,7 @@ overview: 'Offchain Labs publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Offchain Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, and 9 more developer resources.'
-random_paper: 101
+random_paper: 12
 score:
   band: emerging
   composite: 22.2

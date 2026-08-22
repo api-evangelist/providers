@@ -95,7 +95,7 @@ name: Wren
 nav: Providers
 network: true
 overview: Wren publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Offset Orders API, Portfolios API, and 4 more. Tagged areas include Company.
-random_paper: 146
+random_paper: 3
 score:
   band: minimal
   composite: 7.4

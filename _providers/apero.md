@@ -96,7 +96,7 @@ overview: 'Apero publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Apero''s developer surface includes documentation, signup flow, support, and 9 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 15.6

@@ -40,7 +40,7 @@ name: Object-Oriented Programming
 nav: Providers
 network: true
 overview: Object-Oriented Programming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Object-Oriented Programming, OOP, and Software Development.
-random_paper: 84
+random_paper: 15
 score:
   band: minimal
   composite: 4.1

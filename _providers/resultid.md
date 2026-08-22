@@ -160,7 +160,7 @@ plans:
 - name: Resultid Plans Pricing
   plan_count: 0
   slug: resultid-plans-pricing
-random_paper: 131
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Resultid Rate Limits

@@ -141,7 +141,7 @@ overview: 'LearnPlatform is profiled on the [APIs.io](https://apis.io/) network.
 
 
   LearnPlatform''s developer surface includes developer portal, documentation, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 58
+random_paper: 13
 score:
   band: thin
   composite: 35.7

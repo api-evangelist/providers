@@ -97,7 +97,7 @@ overview: 'Metamarkets Group publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Metamarkets Group''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 8 more developer resources.'
-random_paper: 145
+random_paper: 20
 score:
   band: emerging
   composite: 15.3

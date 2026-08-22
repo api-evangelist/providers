@@ -81,7 +81,7 @@ plans:
 - name: Lf Decentralized Trust Plans Pricing
   plan_count: 3
   slug: lf-decentralized-trust-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Lf Decentralized Trust Rate Limits

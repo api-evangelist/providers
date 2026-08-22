@@ -226,7 +226,7 @@ overview: 'HackMD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Hackmd Rate Limits

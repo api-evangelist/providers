@@ -66,7 +66,7 @@ plans:
 - name: Graco Plans Pricing
   plan_count: 1
   slug: graco-plans-pricing
-random_paper: 77
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Graco Rate Limits

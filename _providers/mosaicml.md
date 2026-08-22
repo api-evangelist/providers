@@ -129,7 +129,7 @@ overview: 'MosaicML is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MosaicML''s developer surface includes documentation, GitHub presence, code examples, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: emerging
   composite: 11.5

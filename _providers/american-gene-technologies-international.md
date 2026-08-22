@@ -322,7 +322,7 @@ overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https:/
 
 
   American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 32 more developer resources.'
-random_paper: 43
+random_paper: 13
 score:
   band: emerging
   composite: 21.2

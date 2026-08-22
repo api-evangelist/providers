@@ -133,7 +133,7 @@ overview: 'River Financial publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   River Financial''s developer surface includes support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 40
+random_paper: 18
 scopes:
 - name: River Financial Scopes
   scope_count: 6

@@ -203,7 +203,7 @@ overview: 'Cedarai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cedarai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 117
+random_paper: 20
 score:
   band: developing
   composite: 43.1

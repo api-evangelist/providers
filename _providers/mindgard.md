@@ -149,7 +149,7 @@ overview: 'Mindgard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mindgard''s developer surface includes documentation, API reference, GitHub presence, engineering blog, and 22 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: minimal
   composite: 9.5

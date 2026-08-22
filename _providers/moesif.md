@@ -313,7 +313,7 @@ plans:
 - name: Moesif Plans Pricing
   plan_count: 3
   slug: moesif-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Moesif Rate Limits

@@ -92,7 +92,7 @@ overview: 'Ndea is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ndea''s developer surface includes YouTube channel and 11 more developer resources.'
-random_paper: 110
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

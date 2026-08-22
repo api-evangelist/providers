@@ -133,7 +133,7 @@ overview: 'Agentsync publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Agentsync''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, sandbox, and 14 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: thin
   composite: 37.2

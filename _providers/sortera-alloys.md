@@ -94,7 +94,7 @@ overview: 'Sortera Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Sortera Technologies'' developer surface includes product news and 7 more developer resources.'
-random_paper: 132
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

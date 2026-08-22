@@ -152,7 +152,7 @@ plans:
 - name: Estated Plans Pricing
   plan_count: 3
   slug: estated-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Estated Rate Limits

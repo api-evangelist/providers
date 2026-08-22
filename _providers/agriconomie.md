@@ -96,7 +96,7 @@ overview: 'Agryco is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Agryco''s developer surface includes engineering blog, support, YouTube channel, and 8 more developer resources.'
-random_paper: 122
+random_paper: 10
 score:
   band: minimal
   composite: 9.1

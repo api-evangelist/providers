@@ -248,7 +248,7 @@ overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dialect''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 130
+random_paper: 12
 score:
   band: developing
   composite: 50.5

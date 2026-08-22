@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: QXO launches $11 billion tender offer for Beacon Roofing ...
   url: https://www.investing.com/news/company-news/qxo-launches-11-billion-tender-offer-for-beacon-roofing-supply-93CH-3831708
-random_paper: 61
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Beacon Roofing Supply Rate Limits

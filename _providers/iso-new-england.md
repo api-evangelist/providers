@@ -292,7 +292,7 @@ overview: 'ISO New England publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 36 more developer resources.'
-random_paper: 139
+random_paper: 10
 score:
   band: strong
   composite: 55.9

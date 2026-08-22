@@ -76,7 +76,7 @@ overview: 'Locale is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Locale''s developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: emerging
   composite: 14.2

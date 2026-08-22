@@ -45,7 +45,7 @@ name: Charles River Laboratories International
 nav: Providers
 network: true
 overview: Charles River Laboratories International is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 2.6

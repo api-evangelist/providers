@@ -174,7 +174,7 @@ overview: 'World Bank publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Bank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 9
   name: Worldbank Rate Limits

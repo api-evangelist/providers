@@ -93,7 +93,7 @@ name: Slingshot AI
 nav: Providers
 network: true
 overview: Slingshot AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Artificial Intelligence, Healthcare, and Digital Therapeutics.
-random_paper: 42
+random_paper: 16
 score:
   band: minimal
   composite: 9.4

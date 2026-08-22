@@ -153,7 +153,7 @@ plans:
 - name: Arphie Plans Pricing
   plan_count: 0
   slug: arphie-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Arphie Rate Limits

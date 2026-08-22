@@ -85,7 +85,7 @@ plans:
 - name: React Native Plans Pricing
   plan_count: 3
   slug: react-native-plans-pricing
-random_paper: 27
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: React Native Rate Limits

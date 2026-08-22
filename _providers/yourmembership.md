@@ -146,7 +146,7 @@ plans:
 - name: Yourmembership Plans Pricing
   plan_count: 4
   slug: yourmembership-plans-pricing
-random_paper: 41
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Yourmembership Rate Limits

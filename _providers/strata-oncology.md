@@ -204,7 +204,7 @@ overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Strata Oncology''s developer surface includes engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 84
+random_paper: 20
 score:
   band: emerging
   composite: 25.9

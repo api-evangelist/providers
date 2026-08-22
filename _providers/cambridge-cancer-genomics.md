@@ -49,7 +49,7 @@ name: Cambridge Cancer Genomics
 nav: Providers
 network: true
 overview: Cambridge Cancer Genomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Precision Oncology, Genomics, and Machine Learning.
-random_paper: 105
+random_paper: 11
 score:
   band: minimal
   composite: 2.5

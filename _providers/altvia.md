@@ -72,7 +72,7 @@ overview: 'Altvia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Altvia''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 9.3

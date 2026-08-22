@@ -57,7 +57,7 @@ name: Internal Control Standards
 nav: Providers
 network: true
 overview: Internal Control Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Auditing, Compliance, COSO, Governance, and Internal Controls.
-random_paper: 2
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

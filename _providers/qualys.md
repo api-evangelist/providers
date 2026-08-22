@@ -103,7 +103,7 @@ overview: 'Qualys publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Qualys'' developer surface includes documentation, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 75
+random_paper: 20
 score:
   band: emerging
   composite: 22.3

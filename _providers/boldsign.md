@@ -217,7 +217,7 @@ plans:
 - name: Boldsign Plans Pricing
   plan_count: 6
   slug: boldsign-plans-pricing
-random_paper: 105
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Boldsign Rate Limits

@@ -88,7 +88,7 @@ overview: 'AMMP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AMMP''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: emerging
   composite: 15.6

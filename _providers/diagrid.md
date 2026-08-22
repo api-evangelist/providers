@@ -141,7 +141,7 @@ overview: 'Diagrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Diagrid''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 128
+random_paper: 10
 score:
   band: thin
   composite: 32.0

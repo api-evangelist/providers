@@ -168,7 +168,7 @@ overview: 'Nymcard publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nymcard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: developing
   composite: 48.8

@@ -149,7 +149,7 @@ overview: 'Thinknum publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Thinknum''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 17 more developer resources.'
-random_paper: 133
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Thinknum Rate Limits

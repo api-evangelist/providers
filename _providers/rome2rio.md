@@ -123,7 +123,7 @@ plans:
 - name: Rome2Rio Plans Pricing
   plan_count: 2
   slug: rome2rio-plans-pricing
-random_paper: 70
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Rome2Rio Rate Limits

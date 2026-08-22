@@ -158,7 +158,7 @@ plans:
 - name: Google Cloud Operations Suite Plans Pricing
   plan_count: 3
   slug: google-cloud-operations-suite-plans-pricing
-random_paper: 122
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Cloud Operations Suite Rate Limits

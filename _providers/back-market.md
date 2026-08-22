@@ -246,7 +246,7 @@ overview: 'Back Market publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Back Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 13
   name: Back Market Rate Limits

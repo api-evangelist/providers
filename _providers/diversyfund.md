@@ -103,7 +103,7 @@ overview: 'DiversyFund is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   DiversyFund''s developer surface includes engineering blog, support, signup flow, legal docs, and 13 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: emerging
   composite: 12.7

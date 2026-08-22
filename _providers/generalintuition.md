@@ -69,7 +69,7 @@ name: General Intuition
 nav: Providers
 network: true
 overview: General Intuition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, World Models, AI Agents, and Robotics.
-random_paper: 90
+random_paper: 7
 score:
   band: emerging
   composite: 12.2

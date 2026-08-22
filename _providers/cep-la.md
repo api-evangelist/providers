@@ -57,7 +57,7 @@ name: Cep.la
 nav: Providers
 network: true
 overview: Cep.la publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 115
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

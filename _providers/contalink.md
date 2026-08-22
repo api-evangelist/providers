@@ -193,7 +193,7 @@ overview: 'Contalink publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Contalink''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: developing
   composite: 41.7

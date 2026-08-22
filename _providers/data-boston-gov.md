@@ -85,7 +85,7 @@ plans:
 - name: Data Boston Gov Plans Pricing
   plan_count: 1
   slug: data-boston-gov-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Data Boston Gov Rate Limits

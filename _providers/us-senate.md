@@ -144,7 +144,7 @@ plans:
 - name: Us Senate Plans Pricing
   plan_count: 3
   slug: us-senate-plans-pricing
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Us Senate Rate Limits

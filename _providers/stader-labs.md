@@ -76,7 +76,7 @@ overview: 'Stader Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Stader Labs'' developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 63
+random_paper: 14
 score:
   band: emerging
   composite: 12.9

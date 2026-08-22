@@ -346,7 +346,7 @@ plans:
 - name: Nuclei Plans Pricing
   plan_count: 3
   slug: nuclei-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Nuclei Rate Limits

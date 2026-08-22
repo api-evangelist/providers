@@ -280,7 +280,7 @@ plans:
 - name: Google Analytics 4 Plans Pricing
   plan_count: 2
   slug: google-analytics-4-plans-pricing
-random_paper: 108
+random_paper: 4
 rate_limits:
 - limit_count: 15
   name: Google Analytics 4 Rate Limits

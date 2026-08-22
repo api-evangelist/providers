@@ -167,7 +167,7 @@ overview: 'Red Canary publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Red Canary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 25 more developer resources.'
-random_paper: 104
+random_paper: 11
 score:
   band: developing
   composite: 39.3

@@ -1050,7 +1050,7 @@ plans:
 - name: Amazon Dms Plans Pricing
   plan_count: 3
   slug: amazon-dms-plans-pricing
-random_paper: 121
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Dms Rate Limits

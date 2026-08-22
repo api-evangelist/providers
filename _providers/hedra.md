@@ -219,7 +219,7 @@ overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: developing
   composite: 51.3

@@ -200,7 +200,7 @@ overview: 'Conviva publishes 9 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Conviva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Conviva Rate Limits

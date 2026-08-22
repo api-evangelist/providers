@@ -68,7 +68,7 @@ overview: 'Carbon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Carbon''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 12.1

@@ -135,7 +135,7 @@ plans:
 - name: Simplecast Plans Pricing
   plan_count: 5
   slug: simplecast-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Simplecast Rate Limits

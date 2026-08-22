@@ -40,7 +40,7 @@ name: Joyride
 nav: Providers
 network: true
 overview: Joyride is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Audio, Mobile, and Automotive.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

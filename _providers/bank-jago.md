@@ -69,7 +69,7 @@ name: Bank Jago
 nav: Providers
 network: true
 overview: Bank Jago is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Bank, and Indonesia.
-random_paper: 129
+random_paper: 13
 score:
   band: emerging
   composite: 11.1

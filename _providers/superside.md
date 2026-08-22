@@ -140,7 +140,7 @@ plans:
 - name: Superside Plans Pricing
   plan_count: 4
   slug: superside-plans-pricing
-random_paper: 86
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Superside Rate Limits

@@ -83,7 +83,7 @@ name: Verso Corporation
 nav: Providers
 network: true
 overview: Verso Corporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Paper, Coated Paper, Specialty Paper, Pulp, and Manufacturing.
-random_paper: 112
+random_paper: 13
 score:
   band: minimal
   composite: 6.5

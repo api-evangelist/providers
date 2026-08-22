@@ -114,7 +114,7 @@ overview: 'Canadian National Railway publishes 5 APIs on the [APIs.io](https://a
 
 
   Canadian National Railway''s developer surface includes developer portal and 6 more developer resources.'
-random_paper: 136
+random_paper: 0
 score:
   band: minimal
   composite: 8.4

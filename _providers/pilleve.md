@@ -53,7 +53,7 @@ name: Pilleve
 nav: Providers
 network: true
 overview: Pilleve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Healthcare, Medication Adherence, and Controlled Substances.
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 4.6

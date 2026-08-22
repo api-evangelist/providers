@@ -72,7 +72,7 @@ overview: 'Travelstop is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Travelstop''s developer surface includes pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: emerging
   composite: 11.6

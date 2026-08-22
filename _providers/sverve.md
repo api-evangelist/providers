@@ -49,7 +49,7 @@ name: Sverve
 nav: Providers
 network: true
 overview: Sverve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio Lead, 500 Global, Inactive, and Influencer Marketing.
-random_paper: 71
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

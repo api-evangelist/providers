@@ -96,7 +96,7 @@ overview: 'UXD Protocol is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UXD Protocol''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 72
+random_paper: 4
 score:
   band: emerging
   composite: 13.4

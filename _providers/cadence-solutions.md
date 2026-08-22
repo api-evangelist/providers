@@ -104,7 +104,7 @@ overview: 'Cadence Solutions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Cadence Solutions'' developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 121
+random_paper: 17
 score:
   band: emerging
   composite: 16.2

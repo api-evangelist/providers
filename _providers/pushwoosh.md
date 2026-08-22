@@ -130,7 +130,7 @@ plans:
 - name: Pushwoosh Plans Pricing
   plan_count: 1
   slug: pushwoosh-plans-pricing
-random_paper: 114
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Pushwoosh Rate Limits

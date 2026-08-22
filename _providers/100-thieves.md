@@ -137,7 +137,7 @@ overview: '100 Thieves publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   100 Thieves'' developer surface includes documentation, authentication, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 56
+random_paper: 5
 scopes:
 - name: 100 Thieves Scopes
   scope_count: 4

@@ -150,7 +150,7 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
-random_paper: 71
+random_paper: 3
 score:
   band: thin
   composite: 37.5

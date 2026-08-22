@@ -88,7 +88,7 @@ plans:
 - name: Shareroot Plans Pricing
   plan_count: 0
   slug: shareroot-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Shareroot Rate Limits

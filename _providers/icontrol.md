@@ -68,7 +68,7 @@ overview: 'iControl is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   iControl''s developer surface includes pricing, support, signup flow, and 3 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: minimal
   composite: 9.4

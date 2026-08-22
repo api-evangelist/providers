@@ -151,7 +151,7 @@ plans:
 - name: Whippy Plans Pricing
   plan_count: 6
   slug: whippy-plans-pricing
-random_paper: 77
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Whippy Rate Limits

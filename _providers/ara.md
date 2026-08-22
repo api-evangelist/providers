@@ -119,7 +119,7 @@ plans:
 - name: Ara Plans Pricing
   plan_count: 0
   slug: ara-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Ara Rate Limits

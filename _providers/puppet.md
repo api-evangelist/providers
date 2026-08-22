@@ -160,7 +160,7 @@ plans:
 - name: Puppet Plans Pricing
   plan_count: 3
   slug: puppet-plans-pricing
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Puppet Rate Limits

@@ -191,7 +191,7 @@ plans:
 - name: Windfall Data Plans Pricing
   plan_count: 0
   slug: windfall-data-plans-pricing
-random_paper: 112
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Windfall Data Rate Limits

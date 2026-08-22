@@ -74,7 +74,7 @@ plans:
 - name: Denso Plans Pricing
   plan_count: 1
   slug: denso-plans-pricing
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Denso Rate Limits

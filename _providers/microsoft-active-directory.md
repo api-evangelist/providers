@@ -152,7 +152,7 @@ plans:
 - name: Microsoft Active Directory Plans Pricing
   plan_count: 3
   slug: microsoft-active-directory-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Microsoft Active Directory Rate Limits

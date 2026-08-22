@@ -64,7 +64,7 @@ overview: 'Axio Biosolutions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Axio Biosolutions'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

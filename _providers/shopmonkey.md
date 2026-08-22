@@ -163,7 +163,7 @@ plans:
 - name: Shopmonkey Plans Pricing
   plan_count: 4
   slug: shopmonkey-plans-pricing
-random_paper: 58
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Shopmonkey Rate Limits

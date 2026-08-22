@@ -53,7 +53,7 @@ name: Cherwell Software
 nav: Providers
 network: true
 overview: Cherwell Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Service Management, ITSM, Enterprise Service Management, and IT Asset Management.
-random_paper: 135
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

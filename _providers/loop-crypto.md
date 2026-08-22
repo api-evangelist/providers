@@ -132,7 +132,7 @@ overview: 'Loop Crypto publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Loop Crypto''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 12 more developer resources.'
-random_paper: 117
+random_paper: 5
 score:
   band: thin
   composite: 31.2

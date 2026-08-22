@@ -57,7 +57,7 @@ name: Jump
 nav: Providers
 network: true
 overview: Jump is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Ticketing, Fan Experience, and Events.
-random_paper: 146
+random_paper: 3
 score:
   band: minimal
   composite: 9.2

@@ -199,7 +199,7 @@ overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: age
 
 
   Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
-random_paper: 133
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits

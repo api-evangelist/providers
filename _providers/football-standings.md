@@ -53,7 +53,7 @@ name: Football Standings
 nav: Providers
 network: true
 overview: Football Standings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 79
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

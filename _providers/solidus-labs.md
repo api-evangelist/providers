@@ -238,7 +238,7 @@ plans:
 - name: Solidus Labs Plans
   plan_count: 2
   slug: solidus-labs-plans
-random_paper: 42
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Solidus Labs Rate Limits

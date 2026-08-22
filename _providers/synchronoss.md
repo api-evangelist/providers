@@ -92,7 +92,7 @@ overview: 'Synchronoss is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Synchronoss'' developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 33
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

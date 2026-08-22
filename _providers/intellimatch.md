@@ -49,7 +49,7 @@ name: IntelliMatch
 nav: Providers
 network: true
 overview: IntelliMatch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Reconciliation, Financial Services, Matching, and Exception Management.
-random_paper: 86
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

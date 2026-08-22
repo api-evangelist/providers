@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: DaVita HealthCare Partners Coverage
   url: https://medcitynews.com/tag/davita-healthcare-partners/
-random_paper: 110
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

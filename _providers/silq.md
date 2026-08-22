@@ -72,7 +72,7 @@ overview: 'Silq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Silq''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: emerging
   composite: 13.1

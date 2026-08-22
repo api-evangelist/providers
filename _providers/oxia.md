@@ -62,7 +62,7 @@ plans:
 - name: Oxia Plans Pricing
   plan_count: 3
   slug: oxia-plans-pricing
-random_paper: 135
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Oxia Rate Limits

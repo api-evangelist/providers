@@ -72,7 +72,7 @@ overview: 'Fuse Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Fuse Energy''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 87
+random_paper: 17
 score:
   band: emerging
   composite: 13.2

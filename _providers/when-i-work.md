@@ -295,7 +295,7 @@ plans:
 - name: When I Work Plans Pricing
   plan_count: 3
   slug: when-i-work-plans-pricing
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: When I Work Rate Limits

@@ -168,7 +168,7 @@ plans:
 - name: Lotame Solutions Plans Pricing
   plan_count: 0
   slug: lotame-solutions-plans-pricing
-random_paper: 56
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Lotame Solutions Rate Limits

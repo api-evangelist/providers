@@ -103,7 +103,7 @@ overview: 'Barnes & Noble is profiled on the [APIs.io](https://apis.io/) network
 
 
   Barnes & Noble''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 131
+random_paper: 0
 score:
   band: minimal
   composite: 7.4

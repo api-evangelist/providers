@@ -125,7 +125,7 @@ plans:
 - name: Dock Plans Pricing
   plan_count: 0
   slug: dock-plans-pricing
-random_paper: 119
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Dock Rate Limits

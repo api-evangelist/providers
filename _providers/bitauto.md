@@ -53,7 +53,7 @@ name: Bitauto
 nav: Providers
 network: true
 overview: Bitauto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Cars, and China.
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

@@ -136,7 +136,7 @@ overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Lamina Labs'' developer surface includes documentation, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 46
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Lamina Labs Rate Limits

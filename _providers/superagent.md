@@ -81,7 +81,7 @@ plans:
 - name: Superagent Plans Pricing
   plan_count: 3
   slug: superagent-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Superagent Rate Limits

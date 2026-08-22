@@ -72,7 +72,7 @@ overview: 'Konfio is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Konfio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 1.5

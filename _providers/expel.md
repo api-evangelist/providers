@@ -145,7 +145,7 @@ plans:
 - name: Expel Plans Pricing
   plan_count: 1
   slug: expel-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Expel Rate Limits

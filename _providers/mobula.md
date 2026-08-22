@@ -144,7 +144,7 @@ plans:
 - name: Mobula Plans Pricing
   plan_count: 4
   slug: mobula-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Mobula Rate Limits

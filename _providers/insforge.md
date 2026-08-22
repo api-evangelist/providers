@@ -256,7 +256,7 @@ overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 116
+random_paper: 0
 scopes:
 - name: Insforge Scopes
   scope_count: 11

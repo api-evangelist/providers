@@ -271,7 +271,7 @@ overview: 'Salsify publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Salsify Rate Limits

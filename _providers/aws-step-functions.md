@@ -1960,7 +1960,7 @@ plans:
 - name: Aws Step Functions Plans Pricing
   plan_count: 3
   slug: aws-step-functions-plans-pricing
-random_paper: 62
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Aws Step Functions Rate Limits

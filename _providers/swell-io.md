@@ -697,7 +697,7 @@ plans:
 - name: Swell Io Plans Pricing
   plan_count: 5
   slug: swell-io-plans-pricing
-random_paper: 67
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Swell Io Rate Limits

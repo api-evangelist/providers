@@ -100,7 +100,7 @@ overview: 'Bright Machines is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Bright Machines'' developer surface includes engineering blog, product news, support, and 13 more developer resources.'
-random_paper: 35
+random_paper: 13
 score:
   band: emerging
   composite: 11.7

@@ -49,7 +49,7 @@ name: Teligene
 nav: Providers
 network: true
 overview: Teligene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Oncology.
-random_paper: 100
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

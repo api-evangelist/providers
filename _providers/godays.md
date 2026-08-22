@@ -49,7 +49,7 @@ name: GoDays
 nav: Providers
 network: true
 overview: GoDays is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Analytics, People Analytics, Employee Experience, and Burnout Prevention.
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

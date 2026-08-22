@@ -259,7 +259,7 @@ overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Vitally Rate Limits

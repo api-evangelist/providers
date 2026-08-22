@@ -53,7 +53,7 @@ name: Cult of the North
 nav: Providers
 network: true
 overview: Cult of the North is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Studio, Game Development, and Multiplayer.
-random_paper: 25
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

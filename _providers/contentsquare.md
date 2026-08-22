@@ -142,7 +142,7 @@ overview: 'Contentsquare publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Contentsquare''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 79
+random_paper: 13
 score:
   band: thin
   composite: 33.2

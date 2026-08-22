@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Enabling Artificial Intelligence through advanced ...
   url: https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Ametek Rate Limits

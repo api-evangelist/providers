@@ -49,7 +49,7 @@ name: B2B-Center
 nav: Providers
 network: true
 overview: B2B-Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, E-Procurement, Marketplace, and B2B.
-random_paper: 38
+random_paper: 8
 score:
   band: minimal
   composite: 1.2

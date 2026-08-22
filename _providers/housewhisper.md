@@ -85,7 +85,7 @@ overview: 'Housewhisper is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Housewhisper''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 126
+random_paper: 16
 score:
   band: emerging
   composite: 14.0

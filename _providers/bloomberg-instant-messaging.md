@@ -97,7 +97,7 @@ plans:
 - name: Bloomberg Instant Messaging Plans Pricing
   plan_count: 3
   slug: bloomberg-instant-messaging-plans-pricing
-random_paper: 88
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bloomberg Instant Messaging Rate Limits

@@ -49,7 +49,7 @@ name: Sprout Wellness Solutions
 nav: Providers
 network: true
 overview: Sprout Wellness Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellness, Health, Employee Wellbeing, and Corporate Wellness.
-random_paper: 127
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

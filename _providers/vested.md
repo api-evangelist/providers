@@ -88,7 +88,7 @@ overview: 'Vested is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vested''s developer surface includes support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: emerging
   composite: 13.6

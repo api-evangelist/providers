@@ -544,7 +544,7 @@ plans:
 - name: Sumup Plans Pricing
   plan_count: 5
   slug: sumup-plans-pricing
-random_paper: 123
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Sumup Rate Limits

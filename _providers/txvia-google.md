@@ -57,7 +57,7 @@ name: TxVia (Google)
 nav: Providers
 network: true
 overview: TxVia (Google) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Prepaid Cards, and Payment Processing.
-random_paper: 46
+random_paper: 20
 score:
   band: minimal
   composite: 2.3

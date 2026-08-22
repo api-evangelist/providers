@@ -88,7 +88,7 @@ overview: 'Money View is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Money View''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 146
+random_paper: 11
 score:
   band: emerging
   composite: 19.2

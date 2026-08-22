@@ -137,7 +137,7 @@ plans:
 - name: Flatpay Plans Pricing
   plan_count: 4
   slug: flatpay-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Flatpay Rate Limits

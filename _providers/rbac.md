@@ -138,7 +138,7 @@ overview: 'RBAC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   RBAC''s developer surface includes code examples, documentation, and 12 more developer resources.'
-random_paper: 110
+random_paper: 9
 rules:
 - effective_rule_count: 5
   extends: []

@@ -49,7 +49,7 @@ name: Camping World Holdings
 nav: Providers
 network: true
 overview: Camping World Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 147
+random_paper: 7
 score:
   band: minimal
   composite: 2.9

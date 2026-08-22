@@ -170,7 +170,7 @@ overview: 'Quanergy publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Quanergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, YouTube channel, CLI, and 24 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: developing
   composite: 39.5

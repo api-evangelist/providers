@@ -49,7 +49,7 @@ name: Everyone Medicines
 nav: Providers
 network: true
 overview: Everyone Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Therapeutics, Precision Medicine, Biotechnology, and Life Sciences.
-random_paper: 34
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

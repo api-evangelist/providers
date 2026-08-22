@@ -57,7 +57,7 @@ name: Lumeris
 nav: Providers
 network: true
 overview: Lumeris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Value-Based Care, Primary Care, and Artificial Intelligence.
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 9.0

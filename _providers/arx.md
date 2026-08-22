@@ -89,7 +89,7 @@ overview: 'ARX Robotics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ARX Robotics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 33
+random_paper: 16
 score:
   band: emerging
   composite: 11.4

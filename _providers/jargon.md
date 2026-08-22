@@ -81,7 +81,7 @@ plans:
 - name: Jargon Plans Pricing
   plan_count: 3
   slug: jargon-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Jargon Rate Limits

@@ -57,7 +57,7 @@ name: Zenaton
 nav: Providers
 network: true
 overview: Zenaton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apis, Workflow Orchestration, Background Jobs, and Workflow As Code.
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 6.8

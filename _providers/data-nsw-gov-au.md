@@ -89,7 +89,7 @@ plans:
 - name: Data Nsw Gov Au Plans Pricing
   plan_count: 1
   slug: data-nsw-gov-au-plans-pricing
-random_paper: 94
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Data Nsw Gov Au Rate Limits

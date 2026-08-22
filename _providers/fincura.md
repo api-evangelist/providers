@@ -272,7 +272,7 @@ overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fincura''s developer surface includes authentication and 19 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: thin
   composite: 30.9

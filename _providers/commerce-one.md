@@ -112,7 +112,7 @@ overview: 'Commerce One publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Commerce One''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, code examples, changelog, and 9 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: emerging
   composite: 25.8

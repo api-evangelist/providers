@@ -954,7 +954,7 @@ plans:
 - name: Propertyware Plans Pricing
   plan_count: 3
   slug: propertyware-plans-pricing
-random_paper: 140
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Propertyware Rate Limits

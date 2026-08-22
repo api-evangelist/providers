@@ -80,7 +80,7 @@ overview: 'Anchor Protocol is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Anchor Protocol''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 72
+random_paper: 8
 score:
   band: emerging
   composite: 11.3

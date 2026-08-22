@@ -108,7 +108,7 @@ overview: 'ConnectDER is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ConnectDER''s developer surface includes FAQ, support, status page, and 15 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 10.8

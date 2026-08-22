@@ -52,7 +52,7 @@ overview: 'Theorycraft Games is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Theorycraft Games'' developer surface includes support and 1 more developer resources.'
-random_paper: 126
+random_paper: 1
 score:
   band: minimal
   composite: 6.0

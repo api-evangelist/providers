@@ -52,7 +52,7 @@ overview: 'Fyodor Biotechnologies is profiled on the [APIs.io](https://apis.io/)
 
 
   Fyodor Biotechnologies'' developer surface includes support and 1 more developer resources.'
-random_paper: 67
+random_paper: 13
 score:
   band: minimal
   composite: 3.2

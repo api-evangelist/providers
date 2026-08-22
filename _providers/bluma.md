@@ -189,7 +189,7 @@ plans:
 - name: Bluma Plans Pricing
   plan_count: 6
   slug: bluma-plans-pricing
-random_paper: 82
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Bluma Rate Limits

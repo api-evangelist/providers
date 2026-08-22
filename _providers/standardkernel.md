@@ -68,7 +68,7 @@ overview: 'Standardkernel is profiled on the [APIs.io](https://apis.io/) network
 
 
   Standardkernel''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 20
 score:
   band: minimal
   composite: 6.8

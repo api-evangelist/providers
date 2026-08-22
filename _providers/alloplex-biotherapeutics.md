@@ -219,7 +219,7 @@ overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://ap
 
 
   Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 27 more developer resources.'
-random_paper: 137
+random_paper: 1
 score:
   band: developing
   composite: 42.0

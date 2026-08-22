@@ -168,7 +168,7 @@ overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onb
 
 
   IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 141
+random_paper: 19
 score:
   band: developing
   composite: 40.4

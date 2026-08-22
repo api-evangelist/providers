@@ -53,7 +53,7 @@ name: Marinus Pharmaceuticals
 nav: Providers
 network: true
 overview: Marinus Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Life Sciences, Biotechnology, and Healthcare.
-random_paper: 18
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

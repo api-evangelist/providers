@@ -144,7 +144,7 @@ press:
 - date: '2026-05-25'
   title: Cracker Barrel introduced a new look this week, but it was ...
   url: https://www.facebook.com/KTSM9News/posts/cracker-barrel-introduced-a-new-look-this-week-but-it-was-met-with-backlash-and-/1185710306926708/
-random_paper: 78
+random_paper: 15
 score:
   band: minimal
   composite: 8.5

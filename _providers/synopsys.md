@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
-random_paper: 26
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Synopsys Rate Limits

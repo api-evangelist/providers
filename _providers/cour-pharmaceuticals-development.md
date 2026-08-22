@@ -97,7 +97,7 @@ overview: 'Cour Pharmaceuticals Development is profiled on the [APIs.io](https:/
 
 
   Cour Pharmaceuticals Development''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 30
+random_paper: 11
 score:
   band: minimal
   composite: 9.5

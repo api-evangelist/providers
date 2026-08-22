@@ -68,7 +68,7 @@ overview: 'Myndlift is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Myndlift''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 126
+random_paper: 10
 score:
   band: emerging
   composite: 12.1

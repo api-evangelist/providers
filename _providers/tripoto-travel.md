@@ -53,7 +53,7 @@ name: Tripoto Travel
 nav: Providers
 network: true
 overview: Tripoto Travel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, Tourism, and Travel Community.
-random_paper: 143
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

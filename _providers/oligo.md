@@ -69,7 +69,7 @@ overview: 'Oligo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oligo''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: minimal
   composite: 9.7

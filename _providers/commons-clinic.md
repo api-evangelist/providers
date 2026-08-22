@@ -110,7 +110,7 @@ overview: 'Commons Clinic is profiled on the [APIs.io](https://apis.io/) network
 
 
   Commons Clinic''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: minimal
   composite: 10.3

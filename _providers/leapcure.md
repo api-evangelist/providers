@@ -184,7 +184,7 @@ overview: 'Leapcure publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leapcure''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: thin
   composite: 33.8

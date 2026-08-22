@@ -53,7 +53,7 @@ name: Kinnser Software
 nav: Providers
 network: true
 overview: Kinnser Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Health, Hospice, and Post-Acute Care.
-random_paper: 43
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

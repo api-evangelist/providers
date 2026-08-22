@@ -225,7 +225,7 @@ plans:
 - name: F5 Load Balancer Plans Pricing
   plan_count: 4
   slug: f5-load-balancer-plans-pricing
-random_paper: 144
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: F5 Load Balancer Rate Limits

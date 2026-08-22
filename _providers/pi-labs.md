@@ -97,7 +97,7 @@ overview: 'Pi Labs publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Pi Labs'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 7 more developer resources.'
-random_paper: 84
+random_paper: 8
 score:
   band: emerging
   composite: 16.9

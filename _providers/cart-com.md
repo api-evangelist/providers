@@ -197,7 +197,7 @@ overview: 'Cart.com publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cart.com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 45
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Cart Com Rate Limits

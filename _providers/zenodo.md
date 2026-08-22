@@ -305,7 +305,7 @@ plans:
 - name: Zenodo Plans Pricing
   plan_count: 2
   slug: zenodo-plans-pricing
-random_paper: 59
+random_paper: 4
 rate_limits:
 - limit_count: 7
   name: Zenodo Rate Limits

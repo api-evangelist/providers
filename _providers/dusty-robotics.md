@@ -76,7 +76,7 @@ overview: 'Dusty Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Dusty Robotics'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 142
+random_paper: 13
 score:
   band: emerging
   composite: 12.6

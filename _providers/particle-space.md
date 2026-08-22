@@ -135,7 +135,7 @@ plans:
 - name: Particle Space Plans Pricing
   plan_count: 3
   slug: particle-space-plans-pricing
-random_paper: 80
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Particle Space Rate Limits

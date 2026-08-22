@@ -189,7 +189,7 @@ plans:
 - name: Petexec Plans Pricing
   plan_count: 3
   slug: petexec-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Petexec Rate Limits

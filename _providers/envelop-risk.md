@@ -76,7 +76,7 @@ overview: 'Envelop Risk is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Envelop Risk''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 55
+random_paper: 8
 score:
   band: minimal
   composite: 8.5

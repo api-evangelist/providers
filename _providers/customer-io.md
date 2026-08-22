@@ -468,7 +468,7 @@ plans:
 - name: Customer Io Plans Pricing
   plan_count: 4
   slug: customer-io-plans-pricing
-random_paper: 100
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Customer Io Rate Limits

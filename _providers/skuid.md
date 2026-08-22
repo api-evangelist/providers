@@ -120,7 +120,7 @@ overview: 'Skuid is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Skuid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 12 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: thin
   composite: 27.1

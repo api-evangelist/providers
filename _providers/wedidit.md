@@ -49,7 +49,7 @@ name: WeDidIt
 nav: Providers
 network: true
 overview: WeDidIt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofits, Fundraising, Crowdfunding, and Donations.
-random_paper: 1
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

@@ -60,7 +60,7 @@ overview: 'Vertical Semiconductor is profiled on the [APIs.io](https://apis.io/)
 
 
   Vertical Semiconductor''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 75
+random_paper: 0
 score:
   band: minimal
   composite: 5.5

@@ -53,7 +53,7 @@ name: PRC Exam Schedule
 nav: Providers
 network: true
 overview: PRC Exam Schedule publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 48
+random_paper: 7
 score:
   band: minimal
   composite: 2.5

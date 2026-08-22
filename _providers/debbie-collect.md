@@ -195,7 +195,7 @@ plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
   slug: debbie-collect-plans-pricing
-random_paper: 49
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Debbie Collect Rate Limits

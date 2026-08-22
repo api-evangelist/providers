@@ -107,7 +107,7 @@ plans:
 - name: Educ Up Plans Pricing
   plan_count: 0
   slug: educ-up-plans-pricing
-random_paper: 95
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Educ Up Rate Limits

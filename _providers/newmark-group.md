@@ -84,7 +84,7 @@ overview: 'Newmark Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Newmark Group''s developer surface includes product news, YouTube channel, and 8 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

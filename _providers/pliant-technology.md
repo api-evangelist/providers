@@ -40,7 +40,7 @@ name: Pliant Technology
 nav: Providers
 network: true
 overview: Pliant Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Solid State Drive, Enterprise Storage, and Semiconductors.
-random_paper: 138
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

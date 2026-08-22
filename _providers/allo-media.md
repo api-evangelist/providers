@@ -195,7 +195,7 @@ plans:
 - name: Allo Media Plans Pricing
   plan_count: 0
   slug: allo-media-plans-pricing
-random_paper: 87
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Allo Media Rate Limits

@@ -40,7 +40,7 @@ name: Bix
 nav: Providers
 network: true
 overview: Bix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Video, User-Generated Content, and Talent Competition.
-random_paper: 25
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

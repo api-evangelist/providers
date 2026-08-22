@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Schema Validation
 nav: Providers
 network: true
-random_paper: 98
+random_paper: 15
 slug: schema-validation
 tags:
 - API Governance

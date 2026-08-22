@@ -109,7 +109,7 @@ overview: 'Retro Biosciences is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Retro Biosciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 121
+random_paper: 17
 score:
   band: minimal
   composite: 4.9

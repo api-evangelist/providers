@@ -172,7 +172,7 @@ overview: 'Predoc publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Predoc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: developing
   composite: 49.8

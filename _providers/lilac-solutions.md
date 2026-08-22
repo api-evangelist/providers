@@ -91,7 +91,7 @@ overview: 'Lilac Solutions is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Lilac Solutions'' developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 80
+random_paper: 16
 score:
   band: minimal
   composite: 7.4

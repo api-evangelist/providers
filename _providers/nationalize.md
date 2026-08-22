@@ -150,7 +150,7 @@ plans:
 - name: Nationalize Plans Pricing
   plan_count: 4
   slug: nationalize-plans-pricing
-random_paper: 139
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Nationalize Rate Limits

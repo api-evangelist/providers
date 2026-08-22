@@ -58,7 +58,7 @@ plans:
 - name: Pawfinity Plans Pricing
   plan_count: 4
   slug: pawfinity-plans-pricing
-random_paper: 93
+random_paper: 0
 score:
   band: emerging
   composite: 11.3

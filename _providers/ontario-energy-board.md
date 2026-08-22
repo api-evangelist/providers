@@ -181,7 +181,7 @@ overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 87
+random_paper: 8
 score:
   band: developing
   composite: 47.1

@@ -53,7 +53,7 @@ name: Parhelion Studio Co.
 nav: Providers
 network: true
 overview: Parhelion Studio Co. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Anime, and Entertainment.
-random_paper: 138
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

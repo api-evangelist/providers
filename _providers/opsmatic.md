@@ -45,7 +45,7 @@ name: opsmatic
 nav: Providers
 network: true
 overview: opsmatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Monitoring, DevOps, Observability, and Configuration Management.
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

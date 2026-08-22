@@ -80,7 +80,7 @@ overview: 'InDrive (fka inDriver) is profiled on the [APIs.io](https://apis.io/)
 
 
   InDrive (fka inDriver)''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 79
+random_paper: 0
 score:
   band: minimal
   composite: 10.8

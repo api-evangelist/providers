@@ -146,7 +146,7 @@ plans:
 - name: Targon Plans Pricing
   plan_count: 2
   slug: targon-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Targon Rate Limits

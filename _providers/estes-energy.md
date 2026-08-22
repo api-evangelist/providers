@@ -49,7 +49,7 @@ name: Estes Energy
 nav: Providers
 network: true
 overview: Estes Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Batteries, Manufacturing, and Hardware.
-random_paper: 51
+random_paper: 4
 score:
   band: minimal
   composite: 2.1

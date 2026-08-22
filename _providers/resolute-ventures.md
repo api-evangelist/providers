@@ -80,7 +80,7 @@ overview: 'Resolute Ventures is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Resolute Ventures'' developer surface includes YouTube channel and 8 more developer resources.'
-random_paper: 32
+random_paper: 14
 score:
   band: minimal
   composite: 7.6

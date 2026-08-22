@@ -117,7 +117,7 @@ plans:
 - name: University Of Waikato Plans Pricing
   plan_count: 2
   slug: university-of-waikato-plans-pricing
-random_paper: 91
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Waikato Rate Limits

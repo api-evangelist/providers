@@ -285,7 +285,7 @@ overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendAPI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 137
+random_paper: 19
 score:
   band: developing
   composite: 53.6

@@ -76,7 +76,7 @@ overview: 'PictorLabs.ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   PictorLabs.ai''s developer surface includes support and 7 more developer resources.'
-random_paper: 85
+random_paper: 17
 score:
   band: minimal
   composite: 10.3

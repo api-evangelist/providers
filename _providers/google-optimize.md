@@ -97,7 +97,7 @@ plans:
 - name: Google Optimize Plans Pricing
   plan_count: 3
   slug: google-optimize-plans-pricing
-random_paper: 73
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Optimize Rate Limits

@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Qualcomm Technologies, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/qualcomm-technologies%2C-inc./
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Qualcomm Rate Limits

@@ -53,7 +53,7 @@ name: Open Skills
 nav: Providers
 network: true
 overview: Open Skills publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
-random_paper: 94
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

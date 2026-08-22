@@ -80,7 +80,7 @@ overview: 'Oasis Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Oasis Security''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 135
+random_paper: 6
 score:
   band: emerging
   composite: 14.4

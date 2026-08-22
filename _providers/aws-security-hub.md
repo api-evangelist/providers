@@ -169,7 +169,7 @@ overview: 'AWS Security Hub publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   AWS Security Hub''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 138
+random_paper: 11
 score:
   band: thin
   composite: 30.9

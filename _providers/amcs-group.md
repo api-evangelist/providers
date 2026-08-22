@@ -1711,7 +1711,7 @@ overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 128
+random_paper: 14
 score:
   band: developing
   composite: 41.9

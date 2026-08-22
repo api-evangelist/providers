@@ -284,7 +284,7 @@ overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
-random_paper: 116
+random_paper: 15
 scopes:
 - name: Bria Scopes
   scope_count: 3

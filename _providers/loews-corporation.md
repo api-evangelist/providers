@@ -84,7 +84,7 @@ overview: 'Loews Corporation is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Loews Corporation''s developer surface includes product news and 9 more developer resources.'
-random_paper: 11
+random_paper: 14
 score:
   band: minimal
   composite: 2.3

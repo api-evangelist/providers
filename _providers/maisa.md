@@ -126,7 +126,7 @@ overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Maisa''s developer surface includes authentication, API reference, documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: emerging
   composite: 17.9

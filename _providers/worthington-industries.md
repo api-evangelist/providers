@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Worthington Steel CEO Geoff Gilmore on EVs, AI and tariffs
   url: https://www.bizjournals.com/columbus/news/2025/02/26/worthington-steel-ceo-on-evs-ai-and-m-a.html
-random_paper: 127
+random_paper: 10
 score:
   band: minimal
   composite: 10.1

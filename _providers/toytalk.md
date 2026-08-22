@@ -61,7 +61,7 @@ name: ToyTalk
 nav: Providers
 network: true
 overview: ToyTalk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Voice, Chatbots, and Entertainment.
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 7.2

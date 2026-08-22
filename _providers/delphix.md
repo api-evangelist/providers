@@ -557,7 +557,7 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: developing
   composite: 48.2

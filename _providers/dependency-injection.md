@@ -74,7 +74,7 @@ plans:
 - name: Dependency Injection Plans Pricing
   plan_count: 3
   slug: dependency-injection-plans-pricing
-random_paper: 126
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Dependency Injection Rate Limits

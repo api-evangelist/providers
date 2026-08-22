@@ -588,7 +588,7 @@ overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Crusoe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: strong
   composite: 61.0

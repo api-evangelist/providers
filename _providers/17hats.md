@@ -119,7 +119,7 @@ overview: '17hats is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   17hats'' developer surface includes authentication, documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: thin
   composite: 26.8

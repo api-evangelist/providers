@@ -80,7 +80,7 @@ overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
-random_paper: 123
+random_paper: 11
 score:
   band: minimal
   composite: 10.0

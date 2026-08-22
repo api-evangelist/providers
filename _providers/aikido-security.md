@@ -217,7 +217,7 @@ plans:
 - name: Aikido Security Plans Pricing
   plan_count: 1
   slug: aikido-security-plans-pricing
-random_paper: 68
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Aikido Security Rate Limits

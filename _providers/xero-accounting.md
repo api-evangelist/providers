@@ -155,7 +155,7 @@ overview: 'Xero Accounting publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Xero Accounting''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 68
+random_paper: 4
 scopes:
 - name: Xero Accounting Scopes
   scope_count: 6

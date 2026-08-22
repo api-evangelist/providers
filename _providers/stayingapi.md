@@ -247,7 +247,7 @@ plans:
 - name: Stayingapi Plans
   plan_count: 5
   slug: stayingapi-plans
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Stayingapi Rate Limits

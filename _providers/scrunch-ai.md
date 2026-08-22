@@ -306,7 +306,7 @@ plans:
 - name: Scrunch Ai Plans Pricing
   plan_count: 3
   slug: scrunch-ai-plans-pricing
-random_paper: 111
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Scrunch Ai Rate Limits

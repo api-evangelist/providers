@@ -64,7 +64,7 @@ overview: 'Bindbridge is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bindbridge''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 140
+random_paper: 5
 score:
   band: minimal
   composite: 7.9

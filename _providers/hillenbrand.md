@@ -60,7 +60,7 @@ overview: 'Hillenbrand is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hillenbrand''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 112
+random_paper: 0
 score:
   band: minimal
   composite: 4.9

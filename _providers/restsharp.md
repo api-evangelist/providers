@@ -117,7 +117,7 @@ plans:
 - name: Restsharp Plans Pricing
   plan_count: 3
   slug: restsharp-plans-pricing
-random_paper: 94
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Restsharp Rate Limits

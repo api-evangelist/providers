@@ -57,7 +57,7 @@ name: Setpointmedical
 nav: Providers
 network: true
 overview: Setpointmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Device, Bioelectronic Medicine, Neuromodulation, and Rheumatoid Arthritis.
-random_paper: 115
+random_paper: 9
 score:
   band: minimal
   composite: 5.8

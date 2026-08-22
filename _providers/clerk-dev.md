@@ -207,7 +207,7 @@ plans:
 - name: Clerk Dev Plans Pricing
   plan_count: 4
   slug: clerk-dev-plans-pricing
-random_paper: 148
+random_paper: 11
 rate_limits:
 - limit_count: 10
   name: Clerk Dev Rate Limits

@@ -93,7 +93,7 @@ overview: 'Experic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Experic''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 8.3

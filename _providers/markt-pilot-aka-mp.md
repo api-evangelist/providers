@@ -81,7 +81,7 @@ overview: 'Markt Pilot (aka MP) is profiled on the [APIs.io](https://apis.io/) n
 
 
   Markt Pilot (aka MP)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 113
+random_paper: 9
 score:
   band: emerging
   composite: 11.0

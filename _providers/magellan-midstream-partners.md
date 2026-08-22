@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: 'Magellan Midstream Partners L P : Announces Sale of Independent ...'
   url: https://www.marketscreener.com/quote/stock/MAGELLAN-MIDSTREAM-PARTNE-13575/news/Magellan-Midstream-Partners-L-P-Announces-Sale-of-Independent-Terminals-35570366/
-random_paper: 86
+random_paper: 17
 score:
   band: minimal
   composite: 2.1

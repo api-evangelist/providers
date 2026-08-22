@@ -40,7 +40,7 @@ name: Bumped
 nav: Providers
 network: true
 overview: Bumped is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Investing, and Loyalty Rewards.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

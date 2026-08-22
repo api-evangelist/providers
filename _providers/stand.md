@@ -64,7 +64,7 @@ overview: 'STAND+ is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   STAND+''s developer surface includes support and 4 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: minimal
   composite: 10.0

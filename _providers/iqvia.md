@@ -57,7 +57,7 @@ name: IQVIA
 nav: Providers
 network: true
 overview: IQVIA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Clinical Research, Fortune 500, Healthcare, and Life Sciences.
-random_paper: 91
+random_paper: 13
 score:
   band: minimal
   composite: 3.7

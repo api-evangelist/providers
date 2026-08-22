@@ -144,7 +144,7 @@ overview: 'Finaeo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Finaeo''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 22 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: emerging
   composite: 20.2

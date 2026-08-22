@@ -152,7 +152,7 @@ overview: 'Bruin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bruin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 19 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: thin
   composite: 32.4

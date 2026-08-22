@@ -76,7 +76,7 @@ overview: 'Age of Learning is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Age of Learning''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 111
+random_paper: 3
 score:
   band: minimal
   composite: 10.7

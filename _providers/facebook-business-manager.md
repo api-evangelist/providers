@@ -557,7 +557,7 @@ plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
   slug: facebook-business-manager-plans-pricing
-random_paper: 139
+random_paper: 3
 rate_limits:
 - limit_count: 11
   name: Facebook Business Manager Rate Limits

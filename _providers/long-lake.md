@@ -53,7 +53,7 @@ name: Long Lake
 nav: Providers
 network: true
 overview: Long Lake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Holding Company, Services, and Roll-up.
-random_paper: 145
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

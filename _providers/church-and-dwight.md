@@ -160,7 +160,7 @@ press:
 - date: '2026-05-25'
   title: Church & Dwight Leverages Data & AI for E-commerce ...
   url: https://www.linkedin.com/posts/consumer-goods-technology_church-dwight-looks-to-ai-to-capture-consumer-activity-7424529260817772544-Q6Qg
-random_paper: 42
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

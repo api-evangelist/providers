@@ -80,7 +80,7 @@ overview: 'DayDream Dental is profiled on the [APIs.io](https://apis.io/) networ
 
 
   DayDream Dental''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 94
+random_paper: 20
 score:
   band: emerging
   composite: 15.1

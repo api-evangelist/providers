@@ -45,7 +45,7 @@ name: Masergy
 nav: Providers
 network: true
 overview: Masergy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, SD-WAN, SASE, and Managed Security.
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

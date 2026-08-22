@@ -100,7 +100,7 @@ overview: 'Exodigo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Exodigo''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 11.3

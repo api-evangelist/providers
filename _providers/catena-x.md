@@ -169,7 +169,7 @@ overview: 'Catena-X is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Catena-X''s developer surface includes developer portal, documentation, product news, YouTube channel, and 26 more developer resources.'
-random_paper: 40
+random_paper: 8
 score:
   band: emerging
   composite: 11.2

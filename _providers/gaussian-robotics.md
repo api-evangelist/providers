@@ -133,7 +133,7 @@ overview: 'Gaussian Robotics publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Gaussian Robotics'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 13 more developer resources.'
-random_paper: 134
+random_paper: 9
 score:
   band: thin
   composite: 29.5

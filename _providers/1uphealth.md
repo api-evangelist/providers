@@ -286,7 +286,7 @@ plans:
 - name: 1Uphealth Plans Pricing
   plan_count: 6
   slug: 1uphealth-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: 1Uphealth Rate Limits

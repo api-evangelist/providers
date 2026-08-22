@@ -127,7 +127,7 @@ overview: 'Hexcel publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Hexcel''s developer surface includes product news and 7 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 6.8

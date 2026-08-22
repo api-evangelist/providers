@@ -94,7 +94,7 @@ overview: 'Aeroseal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Aeroseal''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 9.7

@@ -81,7 +81,7 @@ plans:
 - name: Rafay Product Documentation Plans Pricing
   plan_count: 3
   slug: rafay-product-documentation-plans-pricing
-random_paper: 110
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Rafay Product Documentation Rate Limits

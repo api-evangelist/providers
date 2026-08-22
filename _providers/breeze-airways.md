@@ -147,7 +147,7 @@ overview: 'Breeze Airways publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Breeze Airways'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 109
+random_paper: 1
 scopes:
 - name: Breeze Airways Scopes
   scope_count: 0

@@ -314,7 +314,7 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moveworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
-random_paper: 111
+random_paper: 18
 score:
   band: strong
   composite: 59.3

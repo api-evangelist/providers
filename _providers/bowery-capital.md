@@ -84,7 +84,7 @@ overview: 'Bowery Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bowery Capital''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 102
+random_paper: 15
 score:
   band: minimal
   composite: 6.2

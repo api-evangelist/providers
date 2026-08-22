@@ -80,7 +80,7 @@ overview: 'Ossium Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ossium Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: minimal
   composite: 10.5

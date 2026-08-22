@@ -40,7 +40,7 @@ name: Foodzie
 nav: Providers
 network: true
 overview: Foodzie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Marketplace, Ecommerce, and Subscription.
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

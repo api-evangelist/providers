@@ -297,7 +297,7 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: thin
   composite: 27.2

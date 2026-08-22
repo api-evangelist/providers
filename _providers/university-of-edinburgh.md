@@ -191,7 +191,7 @@ plans:
 - name: University Of Edinburgh Plans Pricing
   plan_count: 2
   slug: university-of-edinburgh-plans-pricing
-random_paper: 142
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: University Of Edinburgh Rate Limits

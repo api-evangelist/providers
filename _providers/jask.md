@@ -40,7 +40,7 @@ name: Jask
 nav: Providers
 network: true
 overview: Jask is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Security.
-random_paper: 127
+random_paper: 5
 score:
   band: minimal
   composite: 4.1

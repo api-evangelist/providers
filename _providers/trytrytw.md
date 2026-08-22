@@ -49,7 +49,7 @@ name: TryTry (穿穿)
 nav: Providers
 network: true
 overview: TryTry (穿穿) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Retail, and Taiwan.
-random_paper: 43
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

@@ -337,7 +337,7 @@ overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis
 
 
   Sarj AI Developer API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 112
+random_paper: 12
 scopes:
 - name: Sarj Ai Developer Api Scopes
   scope_count: 1

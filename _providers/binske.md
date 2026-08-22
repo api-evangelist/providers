@@ -130,7 +130,7 @@ overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: Binske Scopes
   scope_count: 0

@@ -134,7 +134,7 @@ overview: 'Werf is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Werf''s developer surface includes documentation, getting-started guide, CLI, changelog, support, and 10 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: emerging
   composite: 14.8

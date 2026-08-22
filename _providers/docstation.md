@@ -159,7 +159,7 @@ plans:
 - name: Docstation Plans Pricing
   plan_count: 3
   slug: docstation-plans-pricing
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Docstation Rate Limits

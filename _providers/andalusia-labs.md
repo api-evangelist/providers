@@ -100,7 +100,7 @@ overview: 'Andalusia Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Andalusia Labs'' developer surface includes documentation, getting-started guide, sandbox, support, and 10 more developer resources.'
-random_paper: 68
+random_paper: 2
 score:
   band: emerging
   composite: 19.7

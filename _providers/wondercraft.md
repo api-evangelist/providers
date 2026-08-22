@@ -133,7 +133,7 @@ plans:
 - name: Wondercraft Plans Pricing
   plan_count: 4
   slug: wondercraft-plans-pricing
-random_paper: 140
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Wondercraft Rate Limits

@@ -243,7 +243,7 @@ plans:
 - name: Watchguard Plans Pricing
   plan_count: 3
   slug: watchguard-plans-pricing
-random_paper: 23
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Watchguard Rate Limits

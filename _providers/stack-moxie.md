@@ -217,7 +217,7 @@ plans:
 - name: Stack Moxie Plans Pricing
   plan_count: 4
   slug: stack-moxie-plans-pricing
-random_paper: 82
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Stack Moxie Rate Limits

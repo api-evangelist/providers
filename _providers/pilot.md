@@ -80,7 +80,7 @@ overview: 'Pilot is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pilot''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 105
+random_paper: 6
 score:
   band: emerging
   composite: 15.4

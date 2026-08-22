@@ -96,7 +96,7 @@ overview: 'Mela Works is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mela Works'' developer surface includes engineering blog, pricing, support, signup flow, and 9 more developer resources.'
-random_paper: 132
+random_paper: 18
 score:
   band: emerging
   composite: 18.8

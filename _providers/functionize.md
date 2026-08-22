@@ -95,7 +95,7 @@ plans:
 - name: Functionize Plans Pricing
   plan_count: 1
   slug: functionize-plans-pricing
-random_paper: 6
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Functionize Rate Limits

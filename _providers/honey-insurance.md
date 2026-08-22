@@ -129,7 +129,7 @@ overview: 'Honey Insurance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Honey Insurance''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 18 more developer resources.'
-random_paper: 70
+random_paper: 6
 scopes:
 - name: Honey Insurance Scopes
   scope_count: 14

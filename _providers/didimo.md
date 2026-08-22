@@ -104,7 +104,7 @@ overview: 'Didimo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Didimo''s developer surface includes documentation, getting-started guide, CLI, support, signup flow, and 10 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 19.4

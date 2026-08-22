@@ -208,7 +208,7 @@ plans:
 - name: Expedia Group Plans Pricing
   plan_count: 1
   slug: expedia-group-plans-pricing
-random_paper: 146
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Expedia Group Rate Limits

@@ -110,7 +110,7 @@ plans:
 - name: University Of Pittsburgh Plans Pricing
   plan_count: 2
   slug: university-of-pittsburgh-plans-pricing
-random_paper: 141
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: University Of Pittsburgh Rate Limits

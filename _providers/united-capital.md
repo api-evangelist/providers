@@ -53,7 +53,7 @@ name: United Capital
 nav: Providers
 network: true
 overview: United Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Wealth Management, Financial Advisors, and Financial Planning.
-random_paper: 87
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

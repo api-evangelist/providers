@@ -53,7 +53,7 @@ name: Intelligence X
 nav: Providers
 network: true
 overview: Intelligence X publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 91
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

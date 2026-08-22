@@ -137,7 +137,7 @@ overview: 'BitSight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   BitSight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: thin
   composite: 30.2

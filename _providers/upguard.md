@@ -312,7 +312,7 @@ overview: 'UpGuard publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: developing
   composite: 53.7

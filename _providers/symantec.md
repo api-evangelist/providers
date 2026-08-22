@@ -219,7 +219,7 @@ press:
 - date: '2026-05-25'
   title: Cyber Security - Symantec Enterprise Cloud
   url: https://jp.broadcom.com/products/cybersecurity?ver=1.11.4
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Symantec Rate Limits

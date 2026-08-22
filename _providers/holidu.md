@@ -339,7 +339,7 @@ overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 49
+random_paper: 15
 scopes:
 - name: Holidu Scopes
   scope_count: 0

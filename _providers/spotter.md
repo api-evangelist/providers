@@ -118,7 +118,7 @@ plans:
 - name: Spotter Plans Pricing
   plan_count: 0
   slug: spotter-plans-pricing
-random_paper: 40
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Spotter Rate Limits

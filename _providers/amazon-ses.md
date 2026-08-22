@@ -453,7 +453,7 @@ plans:
 - name: Amazon Ses Plans Pricing
   plan_count: 4
   slug: amazon-ses-plans-pricing
-random_paper: 128
+random_paper: 14
 rate_limits:
 - limit_count: 24
   name: Amazon Ses Rate Limits

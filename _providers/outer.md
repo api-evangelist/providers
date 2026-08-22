@@ -111,7 +111,7 @@ overview: 'Outer publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Outer''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 112
+random_paper: 13
 scopes:
 - name: Outer Scopes
   scope_count: 4

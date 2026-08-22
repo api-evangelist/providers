@@ -149,7 +149,7 @@ overview: 'Supernova is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Supernova''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 18 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: thin
   composite: 28.4

@@ -40,7 +40,7 @@ name: CliQr Technologies *
 nav: Providers
 network: true
 overview: CliQr Technologies * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cloud Management, Hybrid Cloud, and Cloud Orchestration.
-random_paper: 80
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

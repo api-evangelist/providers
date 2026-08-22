@@ -61,7 +61,7 @@ name: Temple
 nav: Providers
 network: true
 overview: Temple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Digital Assets, and Hedge Fund.
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 2.0

@@ -181,7 +181,7 @@ overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ma
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 56
+random_paper: 20
 score:
   band: thin
   composite: 35.7

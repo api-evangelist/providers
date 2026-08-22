@@ -131,7 +131,7 @@ overview: 'Hydro One publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hydro One''s developer surface includes authentication, sandbox, documentation, getting-started guide, signup flow, support, product news, and 13 more developer resources.'
-random_paper: 23
+random_paper: 14
 scopes:
 - name: Hydro One Scopes
   scope_count: 0

@@ -64,7 +64,7 @@ overview: 'LocalGov.jp publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   LocalGov.jp''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 75
+random_paper: 5
 score:
   band: minimal
   composite: 4.6

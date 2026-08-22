@@ -267,7 +267,7 @@ overview: 'BurstIQ publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BurstIQ''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 15 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: thin
   composite: 30.6

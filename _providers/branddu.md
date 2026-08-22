@@ -88,7 +88,7 @@ overview: 'Branddu is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Branddu''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 140
+random_paper: 1
 score:
   band: emerging
   composite: 12.3

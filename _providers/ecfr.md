@@ -224,7 +224,7 @@ plans:
 - name: Ecfr Plans Pricing
   plan_count: 1
   slug: ecfr-plans-pricing
-random_paper: 118
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Ecfr Rate Limits

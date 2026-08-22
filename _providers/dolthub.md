@@ -158,7 +158,7 @@ plans:
 - name: Dolthub Plans Pricing
   plan_count: 2
   slug: dolthub-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Dolthub Rate Limits

@@ -294,7 +294,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 3
+random_paper: 13
 scopes:
 - name: Viagogo Scopes
   scope_count: 17

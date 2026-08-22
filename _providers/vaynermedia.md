@@ -209,7 +209,7 @@ plans:
 - name: Vaynermedia Plans Pricing
   plan_count: 0
   slug: vaynermedia-plans-pricing
-random_paper: 130
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Vaynermedia Rate Limits

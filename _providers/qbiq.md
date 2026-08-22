@@ -72,7 +72,7 @@ overview: 'Qbiq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Qbiq''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: emerging
   composite: 11.9

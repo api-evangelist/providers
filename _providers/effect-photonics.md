@@ -218,7 +218,7 @@ plans:
 - name: Effect Photonics Plans Pricing
   plan_count: 0
   slug: effect-photonics-plans-pricing
-random_paper: 10
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Effect Photonics Rate Limits

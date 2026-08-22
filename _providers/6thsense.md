@@ -53,7 +53,7 @@ name: 6thSense
 nav: Providers
 network: true
 overview: 6thSense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Tactile Sensing, and Hardware.
-random_paper: 71
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

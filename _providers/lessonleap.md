@@ -53,7 +53,7 @@ name: LessonLeap
 nav: Providers
 network: true
 overview: LessonLeap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Tutoring.
-random_paper: 35
+random_paper: 7
 score:
   band: minimal
   composite: 2.9

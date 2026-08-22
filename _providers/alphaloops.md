@@ -194,7 +194,7 @@ plans:
 - name: Alphaloops Plans Pricing
   plan_count: 6
   slug: alphaloops-plans-pricing
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Alphaloops Rate Limits

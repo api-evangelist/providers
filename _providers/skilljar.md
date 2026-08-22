@@ -652,7 +652,7 @@ overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 115
+random_paper: 20
 scopes:
 - name: Skilljar Scopes
   scope_count: 89

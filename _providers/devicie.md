@@ -112,7 +112,7 @@ overview: 'Devicie is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Devicie''s developer surface includes documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 133
+random_paper: 15
 score:
   band: emerging
   composite: 20.6

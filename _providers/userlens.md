@@ -160,7 +160,7 @@ overview: 'Userlens publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Userlens'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 136
+random_paper: 20
 score:
   band: thin
   composite: 36.6

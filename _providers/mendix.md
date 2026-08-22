@@ -147,7 +147,7 @@ overview: 'Mendix publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mendix''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: thin
   composite: 30.2

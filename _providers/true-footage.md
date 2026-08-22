@@ -121,7 +121,7 @@ overview: 'True Footage publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   True Footage''s developer surface includes engineering blog, pricing, signup flow, YouTube channel, authentication, and 11 more developer resources.'
-random_paper: 42
+random_paper: 16
 score:
   band: emerging
   composite: 19.8

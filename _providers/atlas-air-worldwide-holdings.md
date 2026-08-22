@@ -105,7 +105,7 @@ overview: 'Atlas Air Worldwide Holdings is profiled on the [APIs.io](https://api
 
 
   Atlas Air Worldwide Holdings'' developer surface includes developer portal, developer console, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 135
+random_paper: 3
 score:
   band: emerging
   composite: 11.5

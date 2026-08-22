@@ -57,7 +57,7 @@ name: Andco
 nav: Providers
 network: true
 overview: Andco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Personal Injury, Legal, and AI Agents.
-random_paper: 70
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

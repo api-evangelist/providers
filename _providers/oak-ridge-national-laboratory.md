@@ -80,7 +80,7 @@ overview: 'Oak Ridge National Laboratory is profiled on the [APIs.io](https://ap
 
 
   Oak Ridge National Laboratory''s developer surface includes product news and 8 more developer resources.'
-random_paper: 83
+random_paper: 16
 score:
   band: minimal
   composite: 4.0

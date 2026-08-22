@@ -155,7 +155,7 @@ plans:
 - name: Smart Data Plans Pricing
   plan_count: 4
   slug: smart-data-plans-pricing
-random_paper: 112
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Smart Data Rate Limits

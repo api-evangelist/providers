@@ -158,7 +158,7 @@ overview: 'itslearning publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   itslearning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 141
+random_paper: 8
 score:
   band: developing
   composite: 44.1

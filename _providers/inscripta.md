@@ -91,7 +91,7 @@ overview: 'Inscripta is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Inscripta''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: minimal
   composite: 7.9

@@ -309,7 +309,7 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Aurora DSQL''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 34
+random_paper: 16
 rules:
 - effective_rule_count: 4
   extends: []

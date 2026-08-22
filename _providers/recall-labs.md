@@ -235,7 +235,7 @@ overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Recall Labs'' developer surface includes documentation, API reference, engineering blog, changelog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: developing
   composite: 45.1

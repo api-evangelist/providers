@@ -163,7 +163,7 @@ plans:
 - name: Printnode Plans Pricing
   plan_count: 7
   slug: printnode-plans-pricing
-random_paper: 85
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Printnode Rate Limits

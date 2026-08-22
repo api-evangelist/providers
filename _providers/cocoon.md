@@ -80,7 +80,7 @@ overview: 'Cocoon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cocoon''s developer surface includes engineering blog, pricing, changelog, and 6 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
   composite: 16.8

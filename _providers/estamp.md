@@ -40,7 +40,7 @@ name: Estamp
 nav: Providers
 network: true
 overview: Estamp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet Postage, Postage, Shipping, and E-Commerce.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

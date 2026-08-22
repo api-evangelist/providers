@@ -370,7 +370,7 @@ plans:
 - name: Eindhoven University Of Technology Plans Pricing
   plan_count: 2
   slug: eindhoven-university-of-technology-plans-pricing
-random_paper: 87
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Eindhoven University Of Technology Rate Limits

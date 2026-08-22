@@ -49,7 +49,7 @@ name: Studio
 nav: Providers
 network: true
 overview: Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Art, Creative, and Software.
-random_paper: 68
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

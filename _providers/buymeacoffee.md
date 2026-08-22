@@ -126,7 +126,7 @@ plans:
 - name: Buymeacoffee Plans Pricing
   plan_count: 2
   slug: buymeacoffee-plans-pricing
-random_paper: 67
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Buymeacoffee Rate Limits

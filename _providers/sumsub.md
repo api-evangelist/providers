@@ -217,7 +217,7 @@ plans:
 - name: Sumsub Plans Pricing
   plan_count: 4
   slug: sumsub-plans-pricing
-random_paper: 75
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Sumsub Rate Limits

@@ -200,7 +200,7 @@ overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 131
+random_paper: 0
 score:
   band: developing
   composite: 48.0

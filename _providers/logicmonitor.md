@@ -81,7 +81,7 @@ plans:
 - name: Logicmonitor Plans Pricing
   plan_count: 3
   slug: logicmonitor-plans-pricing
-random_paper: 110
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Logicmonitor Rate Limits

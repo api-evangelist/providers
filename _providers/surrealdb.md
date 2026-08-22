@@ -140,7 +140,7 @@ plans:
 - name: Surrealdb Plans Pricing
   plan_count: 3
   slug: surrealdb-plans-pricing
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Surrealdb Rate Limits

@@ -105,7 +105,7 @@ overview: 'Karaz Platform publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Karaz Platform''s developer surface includes documentation, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 110
+random_paper: 2
 score:
   band: thin
   composite: 27.0

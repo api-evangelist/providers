@@ -80,7 +80,7 @@ overview: 'Route is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Route''s developer surface includes documentation, API reference, support, pricing, and 5 more developer resources.'
-random_paper: 112
+random_paper: 13
 score:
   band: emerging
   composite: 11.0

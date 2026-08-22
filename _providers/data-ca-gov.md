@@ -89,7 +89,7 @@ plans:
 - name: Data Ca Gov Plans Pricing
   plan_count: 1
   slug: data-ca-gov-plans-pricing
-random_paper: 134
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Data Ca Gov Rate Limits

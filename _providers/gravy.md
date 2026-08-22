@@ -65,7 +65,7 @@ name: Gravy
 nav: Providers
 network: true
 overview: Gravy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personal Finance, Fintech, AI, and Consumer.
-random_paper: 106
+random_paper: 7
 score:
   band: minimal
   composite: 9.2

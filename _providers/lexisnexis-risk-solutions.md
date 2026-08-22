@@ -206,7 +206,7 @@ overview: 'LexisNexis Risk Solutions publishes 7 APIs on the [APIs.io](https://a
 
 
   LexisNexis Risk Solutions'' developer surface includes documentation, support, engineering blog, authentication, sandbox, and 32 more developer resources.'
-random_paper: 106
+random_paper: 14
 score:
   band: thin
   composite: 37.5

@@ -193,7 +193,7 @@ overview: 'Prometheus Fuels publishes 12 APIs on the [APIs.io](https://apis.io/)
 
 
   Prometheus Fuels'' developer surface includes authentication, YouTube channel, and 17 more developer resources.'
-random_paper: 49
+random_paper: 8
 score:
   band: thin
   composite: 28.1

@@ -68,7 +68,7 @@ overview: 'Vital Lyfe is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Vital Lyfe''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 127
+random_paper: 13
 score:
   band: emerging
   composite: 12.3

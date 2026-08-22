@@ -57,7 +57,7 @@ name: Launch Library 2
 nav: Providers
 network: true
 overview: Launch Library 2 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 42
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

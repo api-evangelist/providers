@@ -137,7 +137,7 @@ plans:
 - name: Garden Io Plans Pricing
   plan_count: 1
   slug: garden-io-plans-pricing
-random_paper: 141
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Garden Io Rate Limits

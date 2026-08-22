@@ -116,7 +116,7 @@ overview: 'Astronergy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Astronergy''s developer surface includes engineering blog, product news, and 14 more developer resources.'
-random_paper: 59
+random_paper: 10
 score:
   band: emerging
   composite: 12.9

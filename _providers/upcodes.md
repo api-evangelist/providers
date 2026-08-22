@@ -88,7 +88,7 @@ overview: 'UpCodes is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   UpCodes'' developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: emerging
   composite: 16.4

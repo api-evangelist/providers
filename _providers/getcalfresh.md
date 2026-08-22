@@ -53,7 +53,7 @@ name: GetCalFresh
 nav: Providers
 network: true
 overview: GetCalFresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Civic Tech, Nonprofit, Government, Public Benefits, and SNAP.
-random_paper: 117
+random_paper: 5
 score:
   band: minimal
   composite: 3.7

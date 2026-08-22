@@ -111,7 +111,7 @@ overview: 'AccessFintech publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AccessFintech''s developer surface includes engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 22
+random_paper: 19
 scopes:
 - name: Accessfintech Scopes
   scope_count: 7

@@ -78,7 +78,7 @@ press:
 - date: '2026-05-25'
   title: WILLBROS GROUP INC (DE) Reports Operating Results ...
   url: https://www.gurufocus.com/news/174979/willbros-group-inc-de-reports-operating-results-10q?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-random_paper: 139
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

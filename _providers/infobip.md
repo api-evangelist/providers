@@ -736,7 +736,7 @@ overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits

@@ -219,7 +219,7 @@ overview: 'Tata Communications publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 27 more developer resources.'
-random_paper: 47
+random_paper: 10
 score:
   band: developing
   composite: 49.0

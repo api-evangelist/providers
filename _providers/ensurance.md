@@ -66,7 +66,7 @@ name: Ensurance
 nav: Providers
 network: true
 overview: Ensurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Underwriting, Property and Casualty, and Construction Insurance.
-random_paper: 70
+random_paper: 19
 score:
   band: minimal
   composite: 4.2

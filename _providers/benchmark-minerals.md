@@ -95,7 +95,7 @@ plans:
 - name: Benchmark Minerals Plans Pricing
   plan_count: 3
   slug: benchmark-minerals-plans-pricing
-random_paper: 55
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Benchmark Minerals Rate Limits

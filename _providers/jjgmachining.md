@@ -49,7 +49,7 @@ name: Jjgmachining
 nav: Providers
 network: true
 overview: Jjgmachining is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Precision Machining, Aerospace, and Automotive.
-random_paper: 65
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

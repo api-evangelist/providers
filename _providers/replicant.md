@@ -174,7 +174,7 @@ plans:
 - name: Replicant Plans Pricing
   plan_count: 3
   slug: replicant-plans-pricing
-random_paper: 68
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Replicant Rate Limits

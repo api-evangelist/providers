@@ -93,7 +93,7 @@ plans:
 - name: Insurify Plans Pricing
   plan_count: 1
   slug: insurify-plans-pricing
-random_paper: 144
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Insurify Rate Limits

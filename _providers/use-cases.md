@@ -68,7 +68,7 @@ overview: 'Use Cases is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Use Cases'' developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 10.3

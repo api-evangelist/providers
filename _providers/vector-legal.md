@@ -88,7 +88,7 @@ overview: 'Vector Legal is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Vector Legal''s developer surface includes engineering blog, support, FAQ, and 8 more developer resources.'
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 7.8

@@ -755,7 +755,7 @@ plans:
 - name: Planable Plans Pricing
   plan_count: 4
   slug: planable-plans-pricing
-random_paper: 86
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Planable Rate Limits

@@ -340,7 +340,7 @@ overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hevn Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 19 more developer resources.'
-random_paper: 47
+random_paper: 15
 score:
   band: developing
   composite: 42.1

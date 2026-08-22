@@ -40,7 +40,7 @@ name: Videoplaza
 nav: Providers
 network: true
 overview: Videoplaza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Other.
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

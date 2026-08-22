@@ -104,7 +104,7 @@ overview: 'Airtime is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Airtime''s developer surface includes pricing, signup flow, engineering blog, support, and 11 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
   composite: 19.9

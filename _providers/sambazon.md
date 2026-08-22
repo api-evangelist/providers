@@ -122,7 +122,7 @@ overview: 'Sambazon publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Sambazon''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 114
+random_paper: 19
 scopes:
 - name: Sambazon Scopes
   scope_count: 0

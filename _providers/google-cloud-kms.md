@@ -176,7 +176,7 @@ plans:
 - name: Google Cloud Kms Plans Pricing
   plan_count: 3
   slug: google-cloud-kms-plans-pricing
-random_paper: 103
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Cloud Kms Rate Limits

@@ -117,7 +117,7 @@ overview: 'Deduce is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Deduce''s developer surface includes engineering blog, signup flow, GitHub presence, and 15 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 10.1

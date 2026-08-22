@@ -88,7 +88,7 @@ overview: 'XPO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   XPO''s developer surface includes changelog, engineering blog, and 9 more developer resources.'
-random_paper: 45
+random_paper: 7
 score:
   band: minimal
   composite: 7.9

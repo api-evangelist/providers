@@ -65,7 +65,7 @@ overview: 'Clinflash is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clinflash''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 54
+random_paper: 3
 score:
   band: minimal
   composite: 6.1

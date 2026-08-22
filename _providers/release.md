@@ -247,7 +247,7 @@ overview: 'Release publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: developing
   composite: 51.0

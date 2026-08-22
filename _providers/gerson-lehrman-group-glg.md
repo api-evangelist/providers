@@ -72,7 +72,7 @@ overview: 'Gerson Lehrman Group (GLG) is profiled on the [APIs.io](https://apis.
 
 
   Gerson Lehrman Group (GLG)''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: emerging
   composite: 11.4

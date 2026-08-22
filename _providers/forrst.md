@@ -49,7 +49,7 @@ name: Forrst
 nav: Providers
 network: true
 overview: Forrst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Design, Developer, and Feedback.
-random_paper: 76
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

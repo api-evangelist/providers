@@ -146,7 +146,7 @@ plans:
 - name: Valueray Plans Pricing
   plan_count: 2
   slug: valueray-plans-pricing
-random_paper: 128
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Valueray Rate Limits

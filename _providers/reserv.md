@@ -69,7 +69,7 @@ name: Reserv
 nav: Providers
 network: true
 overview: Reserv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Claims Management, Insurtech, and Third-Party Administrator.
-random_paper: 67
+random_paper: 12
 score:
   band: minimal
   composite: 8.3

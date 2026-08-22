@@ -351,7 +351,7 @@ overview: 'Shop-Ware publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shop-Ware''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: developing
   composite: 44.3

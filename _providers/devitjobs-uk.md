@@ -61,7 +61,7 @@ name: DevITjobs UK
 nav: Providers
 network: true
 overview: DevITjobs UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
-random_paper: 47
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

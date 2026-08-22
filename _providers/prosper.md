@@ -133,7 +133,7 @@ overview: 'Prosper publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 13 more developer resources.'
-random_paper: 34
+random_paper: 2
 score:
   band: thin
   composite: 27.7

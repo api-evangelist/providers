@@ -85,7 +85,7 @@ overview: 'Amartha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Amartha''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 9.8

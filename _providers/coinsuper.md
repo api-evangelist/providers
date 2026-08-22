@@ -53,7 +53,7 @@ name: Coinsuper
 nav: Providers
 network: true
 overview: Coinsuper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Exchange, and Trading.
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 1.2

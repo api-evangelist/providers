@@ -76,7 +76,7 @@ overview: 'Venue is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Venue''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: emerging
   composite: 14.1

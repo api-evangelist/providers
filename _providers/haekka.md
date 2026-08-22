@@ -210,7 +210,7 @@ overview: 'Haekka publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Haekka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: developing
   composite: 40.6

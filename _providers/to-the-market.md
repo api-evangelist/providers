@@ -109,7 +109,7 @@ overview: 'TO THE MARKET publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   TO THE MARKET''s developer surface includes authentication, signup flow, support, and 11 more developer resources.'
-random_paper: 90
+random_paper: 1
 scopes:
 - name: To The Market Scopes
   scope_count: 4

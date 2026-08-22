@@ -57,7 +57,7 @@ name: BaconMockup
 nav: Providers
 network: true
 overview: BaconMockup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 127
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

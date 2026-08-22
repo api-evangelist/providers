@@ -51,7 +51,7 @@ overview: 'ISSUE_TEMPLATE.md is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ISSUE_TEMPLATE.md''s developer surface includes documentation.'
-random_paper: 73
+random_paper: 11
 rules:
 - effective_rule_count: 0
   extends: []

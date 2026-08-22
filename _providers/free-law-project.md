@@ -161,7 +161,7 @@ plans:
 - name: Free Law Project Plans Pricing
   plan_count: 3
   slug: free-law-project-plans-pricing
-random_paper: 101
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Free Law Project Rate Limits

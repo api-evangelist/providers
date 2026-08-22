@@ -128,7 +128,7 @@ overview: 'Probabl publishes 1 API on the [APIs.io](https://apis.io/) network: S
 
 
   Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 14 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: thin
   composite: 38.1

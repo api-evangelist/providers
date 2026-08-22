@@ -150,7 +150,7 @@ overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
-random_paper: 50
+random_paper: 1
 score:
   band: thin
   composite: 32.3

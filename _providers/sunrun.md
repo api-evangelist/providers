@@ -74,7 +74,7 @@ plans:
 - name: Sunrun Plans Pricing
   plan_count: 1
   slug: sunrun-plans-pricing
-random_paper: 87
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Sunrun Rate Limits

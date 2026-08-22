@@ -153,7 +153,7 @@ overview: 'Tenfold publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tenfold''s developer surface includes API reference, documentation, authentication, and 8 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: thin
   composite: 34.1

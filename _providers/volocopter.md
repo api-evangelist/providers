@@ -124,7 +124,7 @@ overview: 'Volocopter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Volocopter''s developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: minimal
   composite: 10.4

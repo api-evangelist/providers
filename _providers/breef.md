@@ -147,7 +147,7 @@ plans:
 - name: Breef Plans Pricing
   plan_count: 3
   slug: breef-plans-pricing
-random_paper: 69
+random_paper: 12
 score:
   band: emerging
   composite: 20.8

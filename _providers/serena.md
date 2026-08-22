@@ -21,7 +21,7 @@ modified: '2026-08-17'
 name: Serena
 nav: Providers
 network: true
-random_paper: 42
+random_paper: 8
 slug: serena
 tags:
 - Venture Capital

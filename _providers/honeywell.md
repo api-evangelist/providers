@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: 'Industrial AI Insights: Key Findings from Honeywell'
   url: https://www.honeywell.com/us/en/ai/research
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Honeywell Rate Limits

@@ -186,7 +186,7 @@ overview: 'AgiBot publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   AgiBot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 27 more developer resources.'
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Agibot Rate Limits

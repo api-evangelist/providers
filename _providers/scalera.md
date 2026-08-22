@@ -64,7 +64,7 @@ overview: 'Scalera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scalera''s developer surface includes pricing, support, and 3 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 10.2

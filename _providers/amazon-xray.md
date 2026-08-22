@@ -2214,7 +2214,7 @@ plans:
 - name: Amazon Xray Plans Pricing
   plan_count: 3
   slug: amazon-xray-plans-pricing
-random_paper: 100
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Xray Rate Limits

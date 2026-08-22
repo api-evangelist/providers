@@ -465,7 +465,7 @@ plans:
 - name: M3Ter Plans Pricing
   plan_count: 3
   slug: m3ter-plans-pricing
-random_paper: 44
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: M3Ter Rate Limits

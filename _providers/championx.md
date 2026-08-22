@@ -61,7 +61,7 @@ name: ChampionX
 nav: Providers
 network: true
 overview: ChampionX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Oilfield Services, Chemical Technologies, and Industrial.
-random_paper: 73
+random_paper: 1
 score:
   band: minimal
   composite: 4.0

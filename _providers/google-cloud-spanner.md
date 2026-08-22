@@ -180,7 +180,7 @@ plans:
 - name: Google Cloud Spanner Plans Pricing
   plan_count: 3
   slug: google-cloud-spanner-plans-pricing
-random_paper: 84
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Google Cloud Spanner Rate Limits

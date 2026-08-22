@@ -226,7 +226,7 @@ plans:
 - name: Demandsphere Plans Pricing
   plan_count: 3
   slug: demandsphere-plans-pricing
-random_paper: 72
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Demandsphere Rate Limits

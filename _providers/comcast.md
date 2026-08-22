@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: 'Comcast''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/comcast-ai-strategy-analysis-of-dominance-in-telecommunications-and-media/
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Comcast Rate Limits

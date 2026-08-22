@@ -108,7 +108,7 @@ overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Valtix''s developer surface includes documentation, getting-started guide, support, changelog, authentication, and 9 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: thin
   composite: 28.4

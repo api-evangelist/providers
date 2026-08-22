@@ -120,7 +120,7 @@ overview: 'Sierra Space is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Sierra Space''s developer surface includes engineering blog, product news, and 19 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 10.4

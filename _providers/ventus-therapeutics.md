@@ -56,7 +56,7 @@ overview: 'Ventus Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Ventus Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 82
+random_paper: 3
 score:
   band: minimal
   composite: 3.8

@@ -477,7 +477,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 1
+random_paper: 11
 scopes:
 - name: Chariot Scopes
   scope_count: 4

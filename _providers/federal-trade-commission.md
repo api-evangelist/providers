@@ -102,7 +102,7 @@ plans:
 - name: Federal Trade Commission Plans Pricing
   plan_count: 3
   slug: federal-trade-commission-plans-pricing
-random_paper: 46
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Federal Trade Commission Rate Limits

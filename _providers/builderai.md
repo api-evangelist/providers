@@ -49,7 +49,7 @@ name: Builder.ai
 nav: Providers
 network: true
 overview: Builder.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Application Development, No Code, and Low Code.
-random_paper: 51
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

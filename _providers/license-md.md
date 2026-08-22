@@ -53,7 +53,7 @@ name: LICENSE.md
 nav: Providers
 network: true
 overview: LICENSE.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Legal, Licensing, Open Source, and SPDX.
-random_paper: 99
+random_paper: 6
 score:
   band: minimal
   composite: 6.4

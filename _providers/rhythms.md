@@ -219,7 +219,7 @@ overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: thin
   composite: 30.0

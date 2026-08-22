@@ -104,7 +104,7 @@ plans:
 - name: Microsoft Dotnet Plans Pricing
   plan_count: 3
   slug: microsoft-dotnet-plans-pricing
-random_paper: 42
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Microsoft Dotnet Rate Limits

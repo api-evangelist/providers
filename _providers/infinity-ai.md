@@ -49,7 +49,7 @@ name: Infinity AI
 nav: Providers
 network: true
 overview: Infinity AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 78
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

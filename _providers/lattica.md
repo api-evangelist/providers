@@ -153,7 +153,7 @@ overview: 'Lattica publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Lattica''s developer surface includes documentation, getting-started guide, signup flow, support, pricing, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: thin
   composite: 29.0

@@ -136,7 +136,7 @@ overview: 'Wallex publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wallex''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 13 more developer resources.'
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Wallex Rate Limits

@@ -226,7 +226,7 @@ overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: developing
   composite: 40.9

@@ -64,7 +64,7 @@ overview: 'Assemble Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Assemble Labs'' developer surface includes signup flow and 4 more developer resources.'
-random_paper: 115
+random_paper: 5
 score:
   band: minimal
   composite: 8.0

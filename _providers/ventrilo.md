@@ -120,7 +120,7 @@ overview: 'Ventrilo.ai is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Ventrilo.ai''s developer surface includes pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 138
+random_paper: 1
 score:
   band: emerging
   composite: 19.6

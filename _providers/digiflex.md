@@ -60,7 +60,7 @@ name: Digiflex
 nav: Providers
 network: true
 overview: Digiflex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Lead, and Exited.
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

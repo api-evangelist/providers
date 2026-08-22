@@ -85,7 +85,7 @@ overview: 'Axiamatic is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Axiamatic''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 51
+random_paper: 0
 score:
   band: emerging
   composite: 12.8

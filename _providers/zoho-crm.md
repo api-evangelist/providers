@@ -590,7 +590,7 @@ plans:
 - name: Zoho Crm Plans Pricing
   plan_count: 5
   slug: zoho-crm-plans-pricing
-random_paper: 70
+random_paper: 17
 rate_limits:
 - limit_count: 12
   name: Zoho Crm Rate Limits

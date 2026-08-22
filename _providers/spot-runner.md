@@ -106,7 +106,7 @@ plans:
 - name: Spot Runner Plans Pricing
   plan_count: 0
   slug: spot-runner-plans-pricing
-random_paper: 122
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Spot Runner Rate Limits

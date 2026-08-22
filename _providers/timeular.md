@@ -214,7 +214,7 @@ overview: 'Timeular publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Timeular''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: developing
   composite: 43.6

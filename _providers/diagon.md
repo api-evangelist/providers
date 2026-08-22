@@ -84,7 +84,7 @@ overview: 'Diagon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Diagon''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: emerging
   composite: 14.0

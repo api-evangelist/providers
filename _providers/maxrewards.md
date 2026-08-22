@@ -65,7 +65,7 @@ name: MaxRewards
 nav: Providers
 network: true
 overview: MaxRewards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit Cards, Rewards, and Personal Finance.
-random_paper: 43
+random_paper: 15
 score:
   band: minimal
   composite: 8.3

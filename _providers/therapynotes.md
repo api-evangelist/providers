@@ -86,7 +86,7 @@ plans:
 - name: Therapynotes Plans Pricing
   plan_count: 3
   slug: therapynotes-plans-pricing
-random_paper: 126
+random_paper: 16
 score:
   band: emerging
   composite: 14.1

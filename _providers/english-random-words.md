@@ -57,7 +57,7 @@ name: English Random Words
 nav: Providers
 network: true
 overview: English Random Words publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 99
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

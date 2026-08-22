@@ -57,7 +57,7 @@ name: Nager.Date
 nav: Providers
 network: true
 overview: Nager.Date publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

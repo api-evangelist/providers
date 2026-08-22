@@ -88,7 +88,7 @@ overview: 'Kandou is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kandou''s developer surface includes engineering blog, support, YouTube channel, and 8 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 10.6

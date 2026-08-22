@@ -1708,7 +1708,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Shopify Rate Limits

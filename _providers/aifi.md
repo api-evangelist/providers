@@ -111,7 +111,7 @@ overview: 'AiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AiFi''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
-random_paper: 111
+random_paper: 10
 scopes:
 - name: Aifi Scopes
   scope_count: 10

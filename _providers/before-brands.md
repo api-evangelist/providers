@@ -57,7 +57,7 @@ name: Before Brands
 nav: Providers
 network: true
 overview: Before Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Nutrition, and Health.
-random_paper: 114
+random_paper: 4
 score:
   band: minimal
   composite: 1.8

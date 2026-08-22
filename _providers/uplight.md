@@ -128,7 +128,7 @@ overview: 'Uplight publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Uplight''s developer surface includes documentation, API reference, engineering blog, privacy policy, and 18 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: emerging
   composite: 19.5

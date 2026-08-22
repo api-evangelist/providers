@@ -64,7 +64,7 @@ overview: 'Cholamandalam is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Cholamandalam''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 8.5

@@ -75,7 +75,7 @@ overview: 'Heska publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Heska''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: minimal
   composite: 9.3

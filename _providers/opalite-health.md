@@ -88,7 +88,7 @@ overview: 'Opalite Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Opalite Health''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 84
+random_paper: 18
 score:
   band: emerging
   composite: 15.7

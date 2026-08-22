@@ -116,7 +116,7 @@ overview: 'Audigo Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Audigo Labs'' developer surface includes engineering blog, support, getting-started guide, pricing, signup flow, and 12 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: emerging
   composite: 18.8

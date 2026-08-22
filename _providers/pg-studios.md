@@ -49,7 +49,7 @@ name: PG Studios
 nav: Providers
 network: true
 overview: PG Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Animation, Film Production, Creative Media, and Game Development.
-random_paper: 145
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

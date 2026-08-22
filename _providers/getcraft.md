@@ -94,7 +94,7 @@ overview: 'GetCraft is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GetCraft''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 103
+random_paper: 8
 score:
   band: minimal
   composite: 10.5

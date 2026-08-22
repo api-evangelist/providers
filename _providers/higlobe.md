@@ -100,7 +100,7 @@ overview: 'Higlobe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Higlobe''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 134
+random_paper: 16
 score:
   band: emerging
   composite: 21.6

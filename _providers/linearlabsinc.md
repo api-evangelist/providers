@@ -72,7 +72,7 @@ overview: 'Linear Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Linear Labs'' developer surface includes YouTube channel and 6 more developer resources.'
-random_paper: 26
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

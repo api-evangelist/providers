@@ -478,7 +478,7 @@ plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 61
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits

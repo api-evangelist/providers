@@ -324,7 +324,7 @@ plans:
 - name: Insider Plans Pricing
   plan_count: 0
   slug: insider-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 60
   name: Insider Rate Limits

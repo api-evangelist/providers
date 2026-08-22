@@ -339,7 +339,7 @@ plans:
 - name: Lusha Plans Pricing
   plan_count: 4
   slug: lusha-plans-pricing
-random_paper: 94
+random_paper: 16
 rate_limits:
 - limit_count: 13
   name: Lusha Rate Limits

@@ -117,7 +117,7 @@ plans:
 - name: Abstract Plans Pricing
   plan_count: 5
   slug: abstract-plans-pricing
-random_paper: 107
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Abstract Rate Limits

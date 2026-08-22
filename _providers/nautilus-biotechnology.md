@@ -72,7 +72,7 @@ overview: 'Nautilus Biotechnology is profiled on the [APIs.io](https://apis.io/)
 
 
   Nautilus Biotechnology''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 93
+random_paper: 18
 score:
   band: minimal
   composite: 10.8

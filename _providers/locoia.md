@@ -101,7 +101,7 @@ plans:
 - name: Locoia Plans Pricing
   plan_count: 3
   slug: locoia-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Locoia Rate Limits

@@ -537,7 +537,7 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 6
+random_paper: 12
 score:
   band: developing
   composite: 44.5

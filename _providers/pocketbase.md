@@ -129,7 +129,7 @@ plans:
 - name: Pocketbase Plans Pricing
   plan_count: 1
   slug: pocketbase-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Pocketbase Rate Limits

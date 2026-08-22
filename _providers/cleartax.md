@@ -149,7 +149,7 @@ overview: 'Cleartax publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Cleartax''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: thin
   composite: 37.2

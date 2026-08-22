@@ -56,7 +56,7 @@ overview: 'vivino is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   vivino''s developer surface includes support and 2 more developer resources.'
-random_paper: 71
+random_paper: 16
 score:
   band: minimal
   composite: 6.0

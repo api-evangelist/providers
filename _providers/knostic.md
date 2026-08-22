@@ -220,7 +220,7 @@ overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Knostic Rate Limits

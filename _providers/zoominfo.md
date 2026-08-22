@@ -3058,7 +3058,7 @@ plans:
 - name: Zoominfo Plans Pricing
   plan_count: 3
   slug: zoominfo-plans-pricing
-random_paper: 136
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Zoominfo Rate Limits

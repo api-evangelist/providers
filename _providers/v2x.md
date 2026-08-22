@@ -53,7 +53,7 @@ name: V2X
 nav: Providers
 network: true
 overview: V2X is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, National Security, Government Services, Aerospace, and Cybersecurity.
-random_paper: 139
+random_paper: 15
 score:
   band: minimal
   composite: 2.9

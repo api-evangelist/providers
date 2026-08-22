@@ -109,7 +109,7 @@ plans:
 - name: Sessionstack Plans Pricing
   plan_count: 4
   slug: sessionstack-plans-pricing
-random_paper: 114
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Sessionstack Rate Limits

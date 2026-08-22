@@ -57,7 +57,7 @@ name: Open Government, Canada
 nav: Providers
 network: true
 overview: Open Government, Canada publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 131
+random_paper: 12
 score:
   band: minimal
   composite: 4.2

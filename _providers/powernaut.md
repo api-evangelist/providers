@@ -234,7 +234,7 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 103
+random_paper: 10
 score:
   band: developing
   composite: 41.6

@@ -40,7 +40,7 @@ name: Soasta
 nav: Providers
 network: true
 overview: Soasta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Performance Testing, Load Testing, Real User Monitoring, and Web Performance.
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

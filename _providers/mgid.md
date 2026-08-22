@@ -187,7 +187,7 @@ plans:
 - name: Mgid Plans Pricing
   plan_count: 3
   slug: mgid-plans-pricing
-random_paper: 119
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Mgid Rate Limits

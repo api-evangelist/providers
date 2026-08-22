@@ -160,7 +160,7 @@ plans:
 - name: Episode Six Plans Pricing
   plan_count: 0
   slug: episode-six-plans-pricing
-random_paper: 87
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Episode Six Rate Limits

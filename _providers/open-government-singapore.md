@@ -57,7 +57,7 @@ name: Open Government, Singapore
 nav: Providers
 network: true
 overview: Open Government, Singapore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 52
+random_paper: 2
 score:
   band: minimal
   composite: 4.2

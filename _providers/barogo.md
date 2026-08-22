@@ -220,7 +220,7 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Barogo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, product news, and 25 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: developing
   composite: 42.2

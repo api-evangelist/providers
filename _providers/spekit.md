@@ -228,7 +228,7 @@ plans:
 - name: Spekit Plans Pricing
   plan_count: 0
   slug: spekit-plans-pricing
-random_paper: 60
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Spekit Rate Limits

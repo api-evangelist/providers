@@ -100,7 +100,7 @@ overview: 'Luminal is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Luminal''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
   composite: 15.3

@@ -45,7 +45,7 @@ name: Long Game
 nav: Providers
 network: true
 overview: Long Game is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Gamification, and Savings.
-random_paper: 142
+random_paper: 5
 score:
   band: minimal
   composite: 0.3

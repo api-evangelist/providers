@@ -112,7 +112,7 @@ overview: 'Halo Investing is profiled on the [APIs.io](https://apis.io/) network
 
 
   Halo Investing''s developer surface includes engineering blog, signup flow, YouTube channel, and 16 more developer resources.'
-random_paper: 107
+random_paper: 20
 score:
   band: emerging
   composite: 11.2

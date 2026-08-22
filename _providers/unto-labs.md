@@ -160,7 +160,7 @@ overview: 'Unto Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Unto Labs'' developer surface includes documentation, getting-started guide, support, changelog, CLI, authentication, sandbox, and 19 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: thin
   composite: 31.8

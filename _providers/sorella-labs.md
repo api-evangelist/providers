@@ -125,7 +125,7 @@ overview: 'Sorella Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sorella Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: emerging
   composite: 23.0

@@ -189,7 +189,7 @@ plans:
 - name: Dexcare Plans Pricing
   plan_count: 0
   slug: dexcare-plans-pricing
-random_paper: 136
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Dexcare Rate Limits

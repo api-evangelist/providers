@@ -53,7 +53,7 @@ name: Again
 nav: Providers
 network: true
 overview: Again is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Biotechnology, Carbon Utilization, and Climate Tech.
-random_paper: 65
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

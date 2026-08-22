@@ -111,7 +111,7 @@ plans:
 - name: Cuemath Plans Pricing
   plan_count: 0
   slug: cuemath-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Cuemath Rate Limits

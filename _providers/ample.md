@@ -60,7 +60,7 @@ overview: 'Ample is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ample''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 80
+random_paper: 2
 score:
   band: minimal
   composite: 4.0

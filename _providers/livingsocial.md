@@ -68,7 +68,7 @@ overview: 'LivingSocial is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   LivingSocial''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 92
+random_paper: 3
 score:
   band: minimal
   composite: 10.7

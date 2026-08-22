@@ -68,7 +68,7 @@ overview: 'Apollomics, Inc. is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Apollomics, Inc.''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 48
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

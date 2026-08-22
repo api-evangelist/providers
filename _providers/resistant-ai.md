@@ -196,7 +196,7 @@ overview: 'Resistant AI publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Resistant AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Resistant Ai Rate Limits

@@ -179,7 +179,7 @@ overview: 'SnackMagic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SnackMagic''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: developing
   composite: 47.2

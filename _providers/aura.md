@@ -84,7 +84,7 @@ overview: 'Aura is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aura''s developer surface includes pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 127
+random_paper: 5
 score:
   band: emerging
   composite: 17.2

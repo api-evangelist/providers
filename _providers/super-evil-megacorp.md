@@ -104,7 +104,7 @@ overview: 'Super Evil Megacorp is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Super Evil Megacorp''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 139
+random_paper: 16
 score:
   band: minimal
   composite: 10.6

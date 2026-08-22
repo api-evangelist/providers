@@ -79,7 +79,7 @@ overview: 'Bombas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bombas'' developer surface includes documentation, support, signup flow, and 6 more developer resources.'
-random_paper: 32
+random_paper: 19
 scopes:
 - name: Bombas Scopes
   scope_count: 4

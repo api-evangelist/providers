@@ -113,7 +113,7 @@ overview: 'kWh Analytics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   kWh Analytics'' developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: minimal
   composite: 9.1

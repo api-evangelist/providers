@@ -154,7 +154,7 @@ overview: 'HiBob publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   HiBob''s developer surface includes authentication, documentation, support, pricing, and 6 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: emerging
   composite: 24.2

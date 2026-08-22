@@ -89,7 +89,7 @@ plans:
 - name: Opendata Swiss Plans Pricing
   plan_count: 1
   slug: opendata-swiss-plans-pricing
-random_paper: 117
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Opendata Swiss Rate Limits

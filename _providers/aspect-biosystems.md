@@ -88,7 +88,7 @@ overview: 'Aspect Biosystems is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Aspect Biosystems'' developer surface includes product news, YouTube channel, and 11 more developer resources.'
-random_paper: 3
+random_paper: 6
 score:
   band: minimal
   composite: 7.2

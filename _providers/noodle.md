@@ -72,7 +72,7 @@ overview: 'Noodle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Noodle''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 10.4

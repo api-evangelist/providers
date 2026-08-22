@@ -238,7 +238,7 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 
 
   OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 22 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: thin
   composite: 34.4

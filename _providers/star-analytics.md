@@ -49,7 +49,7 @@ name: Star Analytics
 nav: Providers
 network: true
 overview: Star Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Intelligence, Data Integration, Process Automation, and Application Integration.
-random_paper: 114
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

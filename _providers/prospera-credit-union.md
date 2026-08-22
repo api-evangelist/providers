@@ -72,7 +72,7 @@ overview: 'Prospera Credit Union is profiled on the [APIs.io](https://apis.io/) 
 
 
   Prospera Credit Union''s developer surface includes YouTube channel, support, and 7 more developer resources.'
-random_paper: 68
+random_paper: 12
 score:
   band: minimal
   composite: 5.3

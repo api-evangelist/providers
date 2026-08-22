@@ -53,7 +53,7 @@ name: Docplanner
 nav: Providers
 network: true
 overview: Docplanner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, HealthTech, Appointments, and Booking.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 5.8

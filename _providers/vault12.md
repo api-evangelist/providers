@@ -129,7 +129,7 @@ overview: 'Vault12 publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 14 more developer resources.'
-random_paper: 59
+random_paper: 4
 scopes:
 - name: Vault12 Scopes
   scope_count: 4

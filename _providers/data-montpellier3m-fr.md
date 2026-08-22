@@ -85,7 +85,7 @@ plans:
 - name: Data Montpellier3M Fr Plans Pricing
   plan_count: 1
   slug: data-montpellier3m-fr-plans-pricing
-random_paper: 134
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Data Montpellier3M Fr Rate Limits

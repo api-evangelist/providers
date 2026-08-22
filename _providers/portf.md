@@ -72,7 +72,7 @@ overview: 'PortF is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PortF''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 108
+random_paper: 9
 score:
   band: minimal
   composite: 8.9

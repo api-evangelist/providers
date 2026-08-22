@@ -79,7 +79,7 @@ plans:
 - name: Piscescsm Plans Pricing
   plan_count: 3
   slug: piscescsm-plans-pricing
-random_paper: 76
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Piscescsm Rate Limits

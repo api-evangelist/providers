@@ -187,7 +187,7 @@ plans:
 - name: Mattermark Plans Pricing
   plan_count: 4
   slug: mattermark-plans-pricing
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Mattermark Rate Limits

@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: J. Crew Group Inc. Downgraded To'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/11477263
-random_paper: 98
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -132,7 +132,7 @@ overview: 'Otonomo publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 9 more developer resources.'
-random_paper: 34
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Otonomo Rate Limits

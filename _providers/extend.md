@@ -168,7 +168,7 @@ overview: 'Extend publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Extend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: developing
   composite: 43.1

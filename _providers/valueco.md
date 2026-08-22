@@ -72,7 +72,7 @@ overview: 'ValueCo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ValueCo''s developer surface includes product news and 6 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

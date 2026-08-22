@@ -69,7 +69,7 @@ overview: 'Daivin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Daivin''s developer surface includes engineering blog, YouTube channel, and 4 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 5.5

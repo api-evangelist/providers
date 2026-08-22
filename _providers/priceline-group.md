@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Priceline Launches New AI-Powered Trip Intelligence ...
   url: https://www.hotelnewsresource.com/article130195.html
-random_paper: 67
+random_paper: 3
 score:
   band: minimal
   composite: 3.9

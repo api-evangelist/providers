@@ -266,7 +266,7 @@ overview: 'Sentio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sentio''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: developing
   composite: 48.1

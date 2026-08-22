@@ -195,7 +195,7 @@ plans:
 - name: Noded Ai Plans Pricing
   plan_count: 4
   slug: noded-ai-plans-pricing
-random_paper: 24
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Noded Ai Rate Limits

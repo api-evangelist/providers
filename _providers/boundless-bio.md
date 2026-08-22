@@ -204,7 +204,7 @@ overview: 'Boundless Bio publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Boundless Bio''s developer surface includes support, authentication, and 22 more developer resources.'
-random_paper: 142
+random_paper: 11
 score:
   band: emerging
   composite: 24.2

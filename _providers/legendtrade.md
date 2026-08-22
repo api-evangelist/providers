@@ -172,7 +172,7 @@ overview: 'LegendTrade publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LegendTrade''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 14 more developer resources.'
-random_paper: 108
+random_paper: 17
 score:
   band: developing
   composite: 46.2

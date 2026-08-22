@@ -45,7 +45,7 @@ name: Springpath
 nav: Providers
 network: true
 overview: Springpath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Hyperconverged Infrastructure, Data Storage, and Enterprise Infrastructure.
-random_paper: 45
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

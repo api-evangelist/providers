@@ -84,7 +84,7 @@ overview: 'Jupiter Intelligence publishes 1 API on the [APIs.io](https://apis.io
 
 
   Jupiter Intelligence''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 146
+random_paper: 4
 score:
   band: emerging
   composite: 18.3

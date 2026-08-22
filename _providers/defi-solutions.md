@@ -76,7 +76,7 @@ overview: 'defi SOLUTIONS is profiled on the [APIs.io](https://apis.io/) network
 
 
   defi SOLUTIONS''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 120
+random_paper: 12
 score:
   band: emerging
   composite: 11.9

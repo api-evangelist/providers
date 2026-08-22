@@ -341,7 +341,7 @@ overview: 'Armory publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armory''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, authentication, and 31 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: developing
   composite: 41.2

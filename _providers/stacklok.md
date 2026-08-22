@@ -145,7 +145,7 @@ name: Stacklok
 nav: Providers
 network: true
 overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open Source.
-random_paper: 115
+random_paper: 20
 score:
   band: emerging
   composite: 19.9

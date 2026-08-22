@@ -354,7 +354,7 @@ plans:
 - name: Redox Plans Pricing
   plan_count: 0
   slug: redox-plans-pricing
-random_paper: 99
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Redox Rate Limits

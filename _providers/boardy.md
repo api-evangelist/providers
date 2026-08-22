@@ -76,7 +76,7 @@ overview: 'Boardy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Boardy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 10.4

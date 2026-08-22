@@ -185,7 +185,7 @@ plans:
 - name: Google Merchant Center Plans Pricing
   plan_count: 3
   slug: google-merchant-center-plans-pricing
-random_paper: 132
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Merchant Center Rate Limits

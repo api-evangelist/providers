@@ -88,7 +88,7 @@ plans:
 - name: Data Neolaiacampus Eu Plans Pricing
   plan_count: 0
   slug: data-neolaiacampus-eu-plans-pricing
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Data Neolaiacampus Eu Rate Limits

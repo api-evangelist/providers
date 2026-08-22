@@ -137,7 +137,7 @@ overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   RapidCanvas'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, changelog, and 15 more developer resources.'
-random_paper: 121
+random_paper: 9
 scopes:
 - name: Rapidcanvas Scopes
   scope_count: 4

@@ -180,7 +180,7 @@ plans:
 - name: Pulsemcp Plans Pricing
   plan_count: 0
   slug: pulsemcp-plans-pricing
-random_paper: 128
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Pulsemcp Rate Limits

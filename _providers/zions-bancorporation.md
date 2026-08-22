@@ -52,7 +52,7 @@ overview: 'Zions Bancorporation is profiled on the [APIs.io](https://apis.io/) n
 
 
   Zions Bancorporation''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 27
+random_paper: 13
 score:
   band: minimal
   composite: 3.4

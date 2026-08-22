@@ -127,7 +127,7 @@ overview: 'o9 Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   o9 Solutions'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 29
+random_paper: 3
 scopes:
 - name: O9 Solutions Scopes
   scope_count: 3

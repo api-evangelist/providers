@@ -57,7 +57,7 @@ overview: 'Rainmaker Live is profiled on the [APIs.io](https://apis.io/) network
 
 
   The Rainmaker Live catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 90
+random_paper: 3
 score:
   band: minimal
   composite: 9.6

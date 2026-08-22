@@ -45,7 +45,7 @@ name: RiskPulse
 nav: Providers
 network: true
 overview: RiskPulse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Weather, Risk, and Analytics.
-random_paper: 100
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

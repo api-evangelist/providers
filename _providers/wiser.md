@@ -72,7 +72,7 @@ overview: 'Wiser is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Wiser''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: emerging
   composite: 11.0

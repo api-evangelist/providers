@@ -544,7 +544,7 @@ plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
   slug: oracle-weblogic-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Oracle Weblogic Rate Limits

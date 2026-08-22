@@ -113,7 +113,7 @@ overview: 'Woodstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Woodstock''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: thin
   composite: 27.4

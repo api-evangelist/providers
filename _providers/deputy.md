@@ -128,7 +128,7 @@ overview: 'Deputy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Deputy''s developer surface includes documentation, getting-started guide, authentication, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 71
+random_paper: 16
 score:
   band: emerging
   composite: 22.8

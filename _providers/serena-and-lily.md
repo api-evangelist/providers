@@ -49,7 +49,7 @@ name: Serena & Lily
 nav: Providers
 network: true
 overview: Serena & Lily is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Furnishings, Retail, E-Commerce, and Interior Design.
-random_paper: 136
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -282,7 +282,7 @@ plans:
 - name: Pverify Plans Pricing
   plan_count: 8
   slug: pverify-plans-pricing
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Pverify Rate Limits

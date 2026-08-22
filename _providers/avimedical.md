@@ -49,7 +49,7 @@ name: avimedical
 nav: Providers
 network: true
 overview: avimedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Primary Care, and Digital Health.
-random_paper: 145
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

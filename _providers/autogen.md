@@ -69,7 +69,7 @@ plans:
 - name: Autogen Plans Pricing
   plan_count: 3
   slug: autogen-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Autogen Rate Limits

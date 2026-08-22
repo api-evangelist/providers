@@ -49,7 +49,7 @@ name: Aggra
 nav: Providers
 network: true
 overview: Aggra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Debt Collection, Lending, and Collections.
-random_paper: 67
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -171,7 +171,7 @@ plans:
 - name: Tekmetric Plans Pricing
   plan_count: 6
   slug: tekmetric-plans-pricing
-random_paper: 74
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Tekmetric Rate Limits

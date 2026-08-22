@@ -262,7 +262,7 @@ press:
 - date: '2026-05-25'
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
-random_paper: 111
+random_paper: 9
 score:
   band: developing
   composite: 42.9

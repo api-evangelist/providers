@@ -60,7 +60,7 @@ overview: 'Já Entendi is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Já Entendi''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 3.0

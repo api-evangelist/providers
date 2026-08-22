@@ -49,7 +49,7 @@ name: Athletes First
 nav: Providers
 network: true
 overview: Athletes First is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Sports, Sports Representation, and Talent Agency.
-random_paper: 114
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

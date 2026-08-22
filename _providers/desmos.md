@@ -125,7 +125,7 @@ overview: 'Desmos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Desmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: thin
   composite: 31.2

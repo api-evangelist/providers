@@ -72,7 +72,7 @@ overview: 'Grover is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Grover''s developer surface includes engineering blog, support, getting-started guide, and 4 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: emerging
   composite: 13.0

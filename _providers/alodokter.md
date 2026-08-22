@@ -64,7 +64,7 @@ overview: 'Alodokter is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alodokter''s developer surface includes support and 4 more developer resources.'
-random_paper: 71
+random_paper: 20
 score:
   band: minimal
   composite: 10.0

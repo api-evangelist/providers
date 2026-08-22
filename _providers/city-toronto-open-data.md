@@ -64,7 +64,7 @@ overview: 'City, Toronto Open Data publishes 1 API on the [APIs.io](https://apis
 
 
   City, Toronto Open Data''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 123
+random_paper: 4
 score:
   band: minimal
   composite: 4.6

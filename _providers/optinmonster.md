@@ -145,7 +145,7 @@ plans:
 - name: Optinmonster Plans Pricing
   plan_count: 4
   slug: optinmonster-plans-pricing
-random_paper: 138
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Optinmonster Rate Limits

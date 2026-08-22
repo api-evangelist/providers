@@ -61,7 +61,7 @@ name: 24/7 Real Media
 nav: Providers
 network: true
 overview: 24/7 Real Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, AdTech, and Ad Serving.
-random_paper: 32
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

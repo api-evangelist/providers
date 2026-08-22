@@ -88,7 +88,7 @@ overview: 'Baton Market is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Baton Market''s developer surface includes pricing, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 29
+random_paper: 3
 score:
   band: emerging
   composite: 15.7

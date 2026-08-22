@@ -76,7 +76,7 @@ overview: 'First Nations Bank of Canada is profiled on the [APIs.io](https://api
 
 
   First Nations Bank of Canada''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 39
+random_paper: 12
 score:
   band: minimal
   composite: 8.6

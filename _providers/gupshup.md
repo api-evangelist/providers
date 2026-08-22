@@ -136,7 +136,7 @@ plans:
 - name: Gupshup Plans Pricing
   plan_count: 4
   slug: gupshup-plans-pricing
-random_paper: 35
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Gupshup Rate Limits

@@ -295,7 +295,7 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
 
 
   Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 46
+random_paper: 13
 score:
   band: developing
   composite: 44.5

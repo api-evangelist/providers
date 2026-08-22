@@ -473,7 +473,7 @@ plans:
 - name: Oxylabs Plans Pricing
   plan_count: 3
   slug: oxylabs-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits

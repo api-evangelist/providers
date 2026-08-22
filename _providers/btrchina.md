@@ -49,7 +49,7 @@ name: BTR New Material Group
 nav: Providers
 network: true
 overview: BTR New Material Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Materials, Lithium-Ion Batteries, Anode Materials, and Cathode Materials.
-random_paper: 98
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

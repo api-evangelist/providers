@@ -121,7 +121,7 @@ overview: 'Bentolabs AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bentolabs AI''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, and 13 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: emerging
   composite: 24.9

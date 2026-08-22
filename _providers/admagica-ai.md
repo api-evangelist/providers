@@ -113,7 +113,7 @@ plans:
 - name: Admagica Ai Plans Pricing
   plan_count: 37
   slug: admagica-ai-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Admagica Ai Rate Limits

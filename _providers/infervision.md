@@ -68,7 +68,7 @@ overview: 'Infervision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Infervision''s developer surface includes support and 5 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: minimal
   composite: 10.7

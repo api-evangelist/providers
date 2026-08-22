@@ -292,7 +292,7 @@ plans:
 - name: Elasticsearch Plans Pricing
   plan_count: 3
   slug: elasticsearch-plans-pricing
-random_paper: 30
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Elasticsearch Rate Limits

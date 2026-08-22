@@ -80,7 +80,7 @@ overview: 'Praxis Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Praxis Labs'' developer surface includes engineering blog, documentation, and 7 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: minimal
   composite: 9.5

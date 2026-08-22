@@ -209,7 +209,7 @@ plans:
 - name: Btc War Live Market Data Api Plans Pricing
   plan_count: 1
   slug: btc-war-live-market-data-api-plans-pricing
-random_paper: 135
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Btc War Live Market Data Api Rate Limits

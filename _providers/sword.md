@@ -93,7 +93,7 @@ name: Sword
 nav: Providers
 network: true
 overview: Sword is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Healthcare, Physical Therapy, and Musculoskeletal.
-random_paper: 112
+random_paper: 13
 score:
   band: emerging
   composite: 13.9

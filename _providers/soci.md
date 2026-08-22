@@ -143,7 +143,7 @@ overview: 'SOCi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SOCi''s developer surface includes engineering blog, changelog, support, and 20 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: emerging
   composite: 22.7

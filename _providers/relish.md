@@ -49,7 +49,7 @@ name: Relish
 nav: Providers
 network: true
 overview: Relish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Venture Backed, Bullpen Capital, and No Public API.
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

@@ -195,7 +195,7 @@ overview: 'Montonio publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Montonio''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 138
+random_paper: 1
 score:
   band: developing
   composite: 45.2

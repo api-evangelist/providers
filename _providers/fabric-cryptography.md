@@ -78,7 +78,7 @@ plans:
 - name: Fabric Cryptography Plans Pricing
   plan_count: 0
   slug: fabric-cryptography-plans-pricing
-random_paper: 47
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

@@ -105,7 +105,7 @@ overview: 'CHEQ AI Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   CHEQ AI Technologies'' developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 56
+random_paper: 19
 score:
   band: emerging
   composite: 18.2

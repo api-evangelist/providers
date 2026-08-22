@@ -80,7 +80,7 @@ overview: 'LiveAuctioneers is profiled on the [APIs.io](https://apis.io/) networ
 
 
   LiveAuctioneers'' developer surface includes getting-started guide, support, engineering blog, and 6 more developer resources.'
-random_paper: 128
+random_paper: 1
 score:
   band: emerging
   composite: 15.1

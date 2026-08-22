@@ -96,7 +96,7 @@ overview: 'Penn Mutual is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Penn Mutual''s developer surface includes GitHub presence and 12 more developer resources.'
-random_paper: 99
+random_paper: 8
 score:
   band: minimal
   composite: 4.3

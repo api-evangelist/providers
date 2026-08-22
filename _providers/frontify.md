@@ -225,7 +225,7 @@ plans:
 - name: Frontify Plans Pricing
   plan_count: 0
   slug: frontify-plans-pricing
-random_paper: 136
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Frontify Rate Limits

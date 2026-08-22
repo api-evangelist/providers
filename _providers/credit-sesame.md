@@ -88,7 +88,7 @@ overview: 'Credit Sesame is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Credit Sesame''s developer surface includes signup flow, support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 126
+random_paper: 16
 score:
   band: emerging
   composite: 15.1

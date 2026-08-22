@@ -57,7 +57,7 @@ name: Circularity Fuels
 nav: Providers
 network: true
 overview: Circularity Fuels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainable Aviation Fuel, Clean Energy, Carbon Capture, and Climate Tech.
-random_paper: 144
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

@@ -68,7 +68,7 @@ overview: 'Blubblub is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Blubblub''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 3.4

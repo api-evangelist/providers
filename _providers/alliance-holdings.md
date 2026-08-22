@@ -52,7 +52,7 @@ name: alliance-holdings
 nav: Providers
 network: true
 overview: alliance-holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Coal, Mining, Natural Resources, and Financial Services.
-random_paper: 87
+random_paper: 4
 score:
   band: minimal
   composite: 2.7

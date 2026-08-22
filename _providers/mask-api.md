@@ -66,7 +66,7 @@ plans:
 - name: Mask Api Plans Pricing
   plan_count: 3
   slug: mask-api-plans-pricing
-random_paper: 42
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Mask Api Rate Limits

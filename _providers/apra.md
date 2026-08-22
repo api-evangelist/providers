@@ -208,7 +208,7 @@ overview: 'APRA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   APRA''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 36 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: thin
   composite: 33.0

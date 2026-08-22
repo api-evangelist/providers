@@ -879,7 +879,7 @@ plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
   slug: mews-com-plans-pricing
-random_paper: 63
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Mews Com Rate Limits

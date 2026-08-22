@@ -149,7 +149,7 @@ plans:
 - name: Greptile Plans Pricing
   plan_count: 4
   slug: greptile-plans-pricing
-random_paper: 115
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Greptile Rate Limits

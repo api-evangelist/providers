@@ -80,7 +80,7 @@ overview: 'Photobucket is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Photobucket''s developer surface includes signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
   composite: 7.6

@@ -80,7 +80,7 @@ overview: 'Bunch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bunch''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: emerging
   composite: 11.3

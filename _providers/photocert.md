@@ -72,7 +72,7 @@ overview: 'Photocert is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Photocert''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 6.7

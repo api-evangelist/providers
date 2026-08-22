@@ -57,7 +57,7 @@ name: Mocky
 nav: Providers
 network: true
 overview: Mocky publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 100
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

@@ -194,7 +194,7 @@ plans:
 - name: Responsys Plans Pricing
   plan_count: 0
   slug: responsys-plans-pricing
-random_paper: 120
+random_paper: 6
 rate_limits:
 - limit_count: 7
   name: Responsys Rate Limits

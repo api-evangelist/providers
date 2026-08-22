@@ -120,7 +120,7 @@ overview: 'Tovala is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tovala''s developer surface includes engineering blog, support, signup flow, pricing, FAQ, YouTube channel, and 13 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: minimal
   composite: 10.1

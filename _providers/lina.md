@@ -96,7 +96,7 @@ overview: 'Lina is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lina''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: emerging
   composite: 11.2

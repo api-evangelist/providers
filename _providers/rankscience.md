@@ -106,7 +106,7 @@ plans:
 - name: Rankscience Plans Pricing
   plan_count: 0
   slug: rankscience-plans-pricing
-random_paper: 115
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Rankscience Rate Limits

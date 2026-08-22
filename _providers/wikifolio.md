@@ -76,7 +76,7 @@ overview: 'Wikifolio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wikifolio''s developer surface includes engineering blog, getting-started guide, and 6 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: emerging
   composite: 12.0

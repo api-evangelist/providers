@@ -84,7 +84,7 @@ overview: 'One is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   One''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: emerging
   composite: 12.6

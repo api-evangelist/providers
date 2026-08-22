@@ -45,7 +45,7 @@ name: Rise Reforming
 nav: Providers
 network: true
 overview: Rise Reforming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Biogas, Chemicals, and Methanol.
-random_paper: 108
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

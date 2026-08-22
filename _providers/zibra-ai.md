@@ -92,7 +92,7 @@ overview: 'Zibra AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Zibra AI''s developer surface includes documentation, engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: emerging
   composite: 15.3

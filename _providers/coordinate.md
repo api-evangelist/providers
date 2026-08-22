@@ -239,7 +239,7 @@ overview: 'Coordinate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: developing
   composite: 45.4

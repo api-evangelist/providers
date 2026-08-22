@@ -40,7 +40,7 @@ name: Jet (Walmart)
 nav: Providers
 network: true
 overview: Jet (Walmart) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-commerce, Retail, and Marketplace.
-random_paper: 85
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

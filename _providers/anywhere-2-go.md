@@ -60,7 +60,7 @@ overview: 'Anywhere 2 Go is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Anywhere 2 Go''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 5.8

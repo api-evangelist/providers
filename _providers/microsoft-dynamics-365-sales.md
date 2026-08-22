@@ -325,7 +325,7 @@ plans:
 - name: Microsoft Dynamics 365 Sales Plans Pricing
   plan_count: 4
   slug: microsoft-dynamics-365-sales-plans-pricing
-random_paper: 134
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Microsoft Dynamics 365 Sales Rate Limits

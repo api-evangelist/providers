@@ -57,7 +57,7 @@ name: QR code
 nav: Providers
 network: true
 overview: QR code publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 126
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

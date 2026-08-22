@@ -57,7 +57,7 @@ name: MyAnimeList
 nav: Providers
 network: true
 overview: MyAnimeList publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 4
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

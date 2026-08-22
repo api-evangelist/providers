@@ -57,7 +57,7 @@ name: INFURA Ethereum
 nav: Providers
 network: true
 overview: INFURA Ethereum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 63
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

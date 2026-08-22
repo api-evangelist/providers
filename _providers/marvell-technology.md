@@ -68,7 +68,7 @@ overview: 'Marvell Technology is profiled on the [APIs.io](https://apis.io/) net
 
 
   Marvell Technology''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 96
+random_paper: 15
 score:
   band: minimal
   composite: 6.2

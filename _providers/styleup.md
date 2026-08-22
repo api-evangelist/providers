@@ -40,7 +40,7 @@ name: Styleup
 nav: Providers
 network: true
 overview: Styleup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, Recommendations, and Consumer.
-random_paper: 45
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

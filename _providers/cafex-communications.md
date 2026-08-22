@@ -123,7 +123,7 @@ overview: 'CafeX Communications publishes 1 API on the [APIs.io](https://apis.io
 
 
   CafeX Communications'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 140
+random_paper: 19
 score:
   band: thin
   composite: 29.4

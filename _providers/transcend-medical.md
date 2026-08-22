@@ -40,7 +40,7 @@ name: Transcend Medical
 nav: Providers
 network: true
 overview: Transcend Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Glaucoma, Ophthalmology, and MedTech.
-random_paper: 87
+random_paper: 4
 score:
   band: minimal
   composite: 2.2

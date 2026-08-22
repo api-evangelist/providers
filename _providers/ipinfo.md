@@ -711,7 +711,7 @@ plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits

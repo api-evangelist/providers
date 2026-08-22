@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Lowe's deploys First at-scale AI assistant for Retail ...
   url: https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25
-random_paper: 107
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Lowes Rate Limits

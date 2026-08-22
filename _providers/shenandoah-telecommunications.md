@@ -84,7 +84,7 @@ overview: 'Shenandoah Telecommunications is profiled on the [APIs.io](https://ap
 
 
   Shenandoah Telecommunications'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 53
+random_paper: 9
 score:
   band: minimal
   composite: 5.2

@@ -140,7 +140,7 @@ overview: 'BostonGene is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BostonGene''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 21 more developer resources.'
-random_paper: 33
+random_paper: 5
 scopes:
 - name: Bostongene Scopes
   scope_count: 36

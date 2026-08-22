@@ -145,7 +145,7 @@ overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: thin
   composite: 32.1

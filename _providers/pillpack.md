@@ -49,7 +49,7 @@ name: PillPack
 nav: Providers
 network: true
 overview: PillPack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Pharmacy, Healthcare, and Health.
-random_paper: 103
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

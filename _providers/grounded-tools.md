@@ -126,7 +126,7 @@ plans:
 - name: Grounded Tools Plans Pricing
   plan_count: 3
   slug: grounded-tools-plans-pricing
-random_paper: 121
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Grounded Tools Rate Limits

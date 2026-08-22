@@ -830,7 +830,7 @@ plans:
 - name: Zoom Plans Pricing
   plan_count: 4
   slug: zoom-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Zoom Rate Limits

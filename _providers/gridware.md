@@ -80,7 +80,7 @@ overview: 'Gridware is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gridware''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: emerging
   composite: 11.8

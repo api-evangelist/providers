@@ -133,7 +133,7 @@ overview: 'Jedify publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jedify''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 13 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 22.6

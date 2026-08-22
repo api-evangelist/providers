@@ -542,7 +542,7 @@ overview: 'Outdoorsy publishes 62 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 122
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Outdoorsy Rate Limits

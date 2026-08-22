@@ -72,7 +72,7 @@ overview: 'Junto Education is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Junto Education''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 71
+random_paper: 7
 score:
   band: minimal
   composite: 6.8

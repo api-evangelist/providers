@@ -117,7 +117,7 @@ overview: 'Zeni is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zeni''s developer surface includes documentation, pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: thin
   composite: 27.3

@@ -191,7 +191,7 @@ overview: 'Devialet publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: thin
   composite: 28.6

@@ -214,7 +214,7 @@ overview: 'Endeavour Energy publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
-random_paper: 25
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Endeavour Energy Rate Limits

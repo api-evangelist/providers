@@ -57,7 +57,7 @@ name: Tydo
 nav: Providers
 network: true
 overview: Tydo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Shopify, eCommerce, and Audits.
-random_paper: 1
+random_paper: 7
 score:
   band: minimal
   composite: 6.1

@@ -222,7 +222,7 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: developing
   composite: 40.3

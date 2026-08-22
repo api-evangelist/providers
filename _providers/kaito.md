@@ -123,7 +123,7 @@ plans:
 - name: Kaito Plans Pricing
   plan_count: 3
   slug: kaito-plans-pricing
-random_paper: 89
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Kaito Rate Limits

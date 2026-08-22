@@ -121,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: 'Jon Vander Ark: AI is ''wildly oversold,'' but it can provide ...'
   url: https://www.wastedive.com/news/republic-services-jon-vander-ark-technology-initiatives-artificial-intelligence/748588/
-random_paper: 128
+random_paper: 3
 score:
   band: minimal
   composite: 7.2

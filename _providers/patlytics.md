@@ -152,7 +152,7 @@ overview: 'Patlytics publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Patlytics'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 95
+random_paper: 2
 scopes:
 - name: Patlytics Scopes
   scope_count: 2

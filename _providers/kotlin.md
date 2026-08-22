@@ -92,7 +92,7 @@ plans:
 - name: Kotlin Plans Pricing
   plan_count: 3
   slug: kotlin-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Kotlin Rate Limits

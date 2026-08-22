@@ -57,7 +57,7 @@ name: Arbeitsamt
 nav: Providers
 network: true
 overview: Arbeitsamt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
-random_paper: 25
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

@@ -198,7 +198,7 @@ overview: 'Amber Electric publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 66
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Amber Electric Rate Limits

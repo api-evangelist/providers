@@ -230,7 +230,7 @@ plans:
 - name: Uncodie Plans Pricing
   plan_count: 3
   slug: uncodie-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Uncodie Rate Limits

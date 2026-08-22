@@ -224,7 +224,7 @@ plans:
 - name: Skyvia Plans Pricing
   plan_count: 0
   slug: skyvia-plans-pricing
-random_paper: 67
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Skyvia Rate Limits

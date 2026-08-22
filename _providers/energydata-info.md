@@ -85,7 +85,7 @@ plans:
 - name: Energydata Info Plans Pricing
   plan_count: 1
   slug: energydata-info-plans-pricing
-random_paper: 43
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Energydata Info Rate Limits

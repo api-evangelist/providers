@@ -53,7 +53,7 @@ name: Mya Systems
 nav: Providers
 network: true
 overview: Mya Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Recruiting, Conversational AI, and Talent Acquisition.
-random_paper: 121
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

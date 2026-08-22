@@ -51,7 +51,7 @@ name: Phishin
 nav: Providers
 network: true
 overview: Phishin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 5.4

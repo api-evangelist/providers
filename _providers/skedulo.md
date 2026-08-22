@@ -595,7 +595,7 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: developing
   composite: 50.3

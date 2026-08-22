@@ -68,7 +68,7 @@ overview: 'Remedee Labs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Remedee Labs'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 147
+random_paper: 14
 score:
   band: minimal
   composite: 10.5

@@ -117,7 +117,7 @@ overview: 'KokkanLogis Co.,Ltd. is profiled on the [APIs.io](https://apis.io/) n
 
 
   KokkanLogis Co.,Ltd.''s developer surface includes support, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 121
+random_paper: 17
 score:
   band: emerging
   composite: 11.4

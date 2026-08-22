@@ -205,7 +205,7 @@ overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.
 
 
   Belharra Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
-random_paper: 89
+random_paper: 12
 score:
   band: developing
   composite: 40.3

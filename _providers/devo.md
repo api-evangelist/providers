@@ -164,7 +164,7 @@ overview: 'Devo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Devo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: thin
   composite: 34.5

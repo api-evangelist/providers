@@ -103,7 +103,7 @@ overview: 'Octave Bioscience is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Octave Bioscience''s developer surface includes support, product news, and 11 more developer resources.'
-random_paper: 92
+random_paper: 9
 score:
   band: emerging
   composite: 14.8

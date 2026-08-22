@@ -101,7 +101,7 @@ overview: 'HackerRank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   HackerRank''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 6 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 22.9

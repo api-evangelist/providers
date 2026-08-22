@@ -40,7 +40,7 @@ name: Skip Scooters
 nav: Providers
 network: true
 overview: Skip Scooters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Micromobility, Scooters, and Mobility.
-random_paper: 25
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

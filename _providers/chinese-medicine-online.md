@@ -110,7 +110,7 @@ overview: 'Chinese Medicine Online is profiled on the [APIs.io](https://apis.io/
 
 
   Chinese Medicine Online''s developer surface includes support, signup flow, product news, and 11 more developer resources.'
-random_paper: 65
+random_paper: 11
 score:
   band: emerging
   composite: 12.6

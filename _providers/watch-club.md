@@ -64,7 +64,7 @@ overview: 'Watch Club is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Watch Club''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

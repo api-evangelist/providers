@@ -52,7 +52,7 @@ overview: 'UpKeep Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   UpKeep Technologies'' developer surface includes documentation and 1 more developer resources.'
-random_paper: 42
+random_paper: 5
 score:
   band: minimal
   composite: 6.0

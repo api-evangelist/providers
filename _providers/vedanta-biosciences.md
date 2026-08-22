@@ -148,7 +148,7 @@ overview: 'Vedanta Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Vedanta Biosciences'' developer surface includes support and 27 more developer resources.'
-random_paper: 6
+random_paper: 11
 score:
   band: emerging
   composite: 12.0

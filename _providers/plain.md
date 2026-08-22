@@ -185,7 +185,7 @@ overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 24 more developer resources.'
-random_paper: 85
+random_paper: 7
 score:
   band: developing
   composite: 52.7

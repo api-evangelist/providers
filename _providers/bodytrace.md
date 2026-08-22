@@ -135,7 +135,7 @@ plans:
 - name: Bodytrace Plans Pricing
   plan_count: 2
   slug: bodytrace-plans-pricing
-random_paper: 63
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Bodytrace Rate Limits

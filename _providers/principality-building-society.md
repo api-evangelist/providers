@@ -101,7 +101,7 @@ overview: 'Principality Building Society publishes 1 API on the [APIs.io](https:
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 9 more developer resources.'
-random_paper: 28
+random_paper: 5
 score:
   band: thin
   composite: 33.4

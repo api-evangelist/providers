@@ -40,7 +40,7 @@ name: Yao Hu Town
 nav: Providers
 network: true
 overview: Yao Hu Town is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer Technology.
-random_paper: 53
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

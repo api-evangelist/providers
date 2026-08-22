@@ -49,7 +49,7 @@ name: HopShop Inc.
 nav: Providers
 network: true
 overview: HopShop Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-Commerce, and Visual Search.
-random_paper: 85
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -144,7 +144,7 @@ overview: 'GoGet publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   GoGet''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: thin
   composite: 37.6

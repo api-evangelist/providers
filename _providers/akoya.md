@@ -219,7 +219,7 @@ plans:
 - name: Akoya Plans Pricing
   plan_count: 2
   slug: akoya-plans-pricing
-random_paper: 86
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Akoya Rate Limits

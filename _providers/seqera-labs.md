@@ -354,7 +354,7 @@ overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
   band: strong
   composite: 56.9

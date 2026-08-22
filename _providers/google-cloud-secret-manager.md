@@ -171,7 +171,7 @@ plans:
 - name: Google Cloud Secret Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-secret-manager-plans-pricing
-random_paper: 2
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Cloud Secret Manager Rate Limits

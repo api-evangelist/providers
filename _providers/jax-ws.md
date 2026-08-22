@@ -79,7 +79,7 @@ plans:
 - name: Jax Ws Plans Pricing
   plan_count: 3
   slug: jax-ws-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Jax Ws Rate Limits

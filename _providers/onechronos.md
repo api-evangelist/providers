@@ -114,7 +114,7 @@ overview: 'OneChronos publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OneChronos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: emerging
   composite: 21.5

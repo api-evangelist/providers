@@ -50,7 +50,7 @@ name: DataFox
 nav: Providers
 network: true
 overview: DataFox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Company Data, Sales Intelligence, and Data Enrichment.
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

@@ -208,7 +208,7 @@ plans:
 - name: Checkly Plans Pricing
   plan_count: 3
   slug: checkly-plans-pricing
-random_paper: 143
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Checkly Rate Limits

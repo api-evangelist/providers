@@ -277,7 +277,7 @@ plans:
 - name: Cb Insights Plans Pricing
   plan_count: 0
   slug: cb-insights-plans-pricing
-random_paper: 72
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Cb Insights Rate Limits

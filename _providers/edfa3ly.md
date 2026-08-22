@@ -49,7 +49,7 @@ name: Edfa3ly
 nav: Providers
 network: true
 overview: Edfa3ly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Online Shopping, and Cross-Border.
-random_paper: 84
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

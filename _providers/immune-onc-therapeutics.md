@@ -117,7 +117,7 @@ overview: 'Immune-Onc Therapeutics is profiled on the [APIs.io](https://apis.io/
 
 
   Immune-Onc Therapeutics'' developer surface includes product news, engineering blog, and 16 more developer resources.'
-random_paper: 123
+random_paper: 6
 score:
   band: minimal
   composite: 4.5

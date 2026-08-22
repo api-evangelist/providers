@@ -89,7 +89,7 @@ overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joor''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 144
+random_paper: 1
 scopes:
 - name: Joor Scopes
   scope_count: 9

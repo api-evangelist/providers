@@ -509,7 +509,7 @@ overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 33 more developer resources.'
-random_paper: 145
+random_paper: 4
 scopes:
 - name: Va Gov Scopes
   scope_count: 35

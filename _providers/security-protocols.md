@@ -40,7 +40,7 @@ name: Security Protocols
 nav: Providers
 network: true
 overview: Security Protocols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Encryption, Networking, and Security.
-random_paper: 142
+random_paper: 19
 score:
   band: minimal
   composite: 4.3

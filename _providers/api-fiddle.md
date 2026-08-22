@@ -163,7 +163,7 @@ plans:
 - name: Api Fiddle Plans Pricing
   plan_count: 3
   slug: api-fiddle-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Api Fiddle Rate Limits

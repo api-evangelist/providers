@@ -169,7 +169,7 @@ overview: 'Parafi publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 15 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: developing
   composite: 46.7

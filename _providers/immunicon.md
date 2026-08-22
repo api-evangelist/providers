@@ -40,7 +40,7 @@ name: Immunicon
 nav: Providers
 network: true
 overview: Immunicon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Diagnostics, Oncology, and Medical Devices.
-random_paper: 81
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

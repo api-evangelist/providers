@@ -202,7 +202,7 @@ plans:
 - name: Rubicon Project Plans Pricing
   plan_count: 0
   slug: rubicon-project-plans-pricing
-random_paper: 68
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Rubicon Project Rate Limits

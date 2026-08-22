@@ -87,7 +87,7 @@ name: Super.com
 nav: Providers
 network: true
 overview: Super.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hotels, Booking, and Flights.
-random_paper: 133
+random_paper: 17
 score:
   band: minimal
   composite: 10.3

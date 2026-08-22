@@ -53,7 +53,7 @@ name: SLF
 nav: Providers
 network: true
 overview: SLF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 27
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -242,7 +242,7 @@ overview: 'Nx publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nx''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 147
+random_paper: 6
 score:
   band: emerging
   composite: 24.0

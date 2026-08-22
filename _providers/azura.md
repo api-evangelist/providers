@@ -100,7 +100,7 @@ overview: 'Azura is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Azura''s developer surface includes documentation, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: emerging
   composite: 13.4

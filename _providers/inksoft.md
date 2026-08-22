@@ -106,7 +106,7 @@ plans:
 - name: Inksoft Plans Pricing
   plan_count: 3
   slug: inksoft-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Inksoft Rate Limits

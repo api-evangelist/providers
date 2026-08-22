@@ -53,7 +53,7 @@ name: prcxi
 nav: Providers
 network: true
 overview: prcxi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Laboratory Automation, Biotechnology, and Liquid Handling.
-random_paper: 103
+random_paper: 4
 score:
   band: minimal
   composite: 3.3

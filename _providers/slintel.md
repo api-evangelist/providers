@@ -72,7 +72,7 @@ name: Slintel
 nav: Providers
 network: true
 overview: Slintel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Sales Intelligence, Market Intelligence, and Data Enrichment.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

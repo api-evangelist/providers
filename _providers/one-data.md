@@ -80,7 +80,7 @@ overview: 'One Data is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   One Data''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: emerging
   composite: 14.4

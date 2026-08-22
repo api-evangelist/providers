@@ -100,7 +100,7 @@ plans:
 - name: University Of Gothenburg Plans Pricing
   plan_count: 2
   slug: university-of-gothenburg-plans-pricing
-random_paper: 118
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: University Of Gothenburg Rate Limits

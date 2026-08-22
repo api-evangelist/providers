@@ -63,7 +63,7 @@ name: Forever Oceans
 nav: Providers
 network: true
 overview: Forever Oceans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, Seafood, Food Production, and Sustainability.
-random_paper: 98
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

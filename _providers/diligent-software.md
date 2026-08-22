@@ -41,7 +41,7 @@ name: Diligent Software
 nav: Providers
 network: true
 overview: Diligent Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Lead, and Exited.
-random_paper: 129
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

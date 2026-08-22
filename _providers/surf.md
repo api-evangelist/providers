@@ -235,7 +235,7 @@ overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 15 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: developing
   composite: 42.1

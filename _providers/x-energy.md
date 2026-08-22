@@ -113,7 +113,7 @@ overview: 'X-energy is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   X-energy''s developer surface includes product news, engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 70
+random_paper: 17
 score:
   band: minimal
   composite: 3.8

@@ -161,7 +161,7 @@ plans:
 - name: Test Plans Plans Pricing
   plan_count: 3
   slug: test-plans-plans-pricing
-random_paper: 141
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Test Plans Rate Limits

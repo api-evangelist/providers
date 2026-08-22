@@ -133,7 +133,7 @@ overview: 'Console Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Console Group''s developer surface includes changelog, pricing, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 16
+random_paper: 13
 score:
   band: emerging
   composite: 22.0

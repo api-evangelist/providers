@@ -80,7 +80,7 @@ overview: 'Parasma is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parasma''s developer surface includes engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 5.5

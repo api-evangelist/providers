@@ -84,7 +84,7 @@ overview: 'MyFavorito is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MyFavorito''s developer surface includes pricing, support, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
   band: emerging
   composite: 15.4

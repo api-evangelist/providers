@@ -78,7 +78,7 @@ plans:
 - name: Defense Contract Audit Agency Plans Pricing
   plan_count: 1
   slug: defense-contract-audit-agency-plans-pricing
-random_paper: 62
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Defense Contract Audit Agency Rate Limits

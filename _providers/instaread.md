@@ -84,7 +84,7 @@ overview: 'Instaread is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Instaread''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: emerging
   composite: 12.7

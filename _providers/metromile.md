@@ -105,7 +105,7 @@ plans:
 - name: Metromile Plans Pricing
   plan_count: 2
   slug: metromile-plans-pricing
-random_paper: 80
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Metromile Rate Limits

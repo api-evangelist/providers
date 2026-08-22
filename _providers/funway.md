@@ -49,7 +49,7 @@ name: Funway
 nav: Providers
 network: true
 overview: Funway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Esports, and Gaming.
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 3.2

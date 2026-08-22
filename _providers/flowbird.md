@@ -81,7 +81,7 @@ overview: 'Flowbird publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Flowbird''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 7.2

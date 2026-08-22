@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Essendant invests in marketing innovations to help dealers ...
   url: https://www.essendant.com/wp-content/uploads/2024/03/Independent-Dealer-2024-Essendant-Marketing-new.pdf
-random_paper: 71
+random_paper: 20
 score:
   band: minimal
   composite: 3.5

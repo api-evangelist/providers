@@ -134,7 +134,7 @@ overview: 'BookNook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BookNook''s developer surface includes support, engineering blog, changelog, and 17 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: emerging
   composite: 23.4

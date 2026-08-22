@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: AI disruption and the implications for real estate
   url: https://brandassets.principal.com/m/55ca51235964976/original/Principal-Real-Estate-AI-and-Real-Estate-Series-Part-2.pdf
-random_paper: 3
+random_paper: 8
 score:
   band: minimal
   composite: 2.9

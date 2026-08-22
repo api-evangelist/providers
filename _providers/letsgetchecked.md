@@ -194,7 +194,7 @@ overview: 'LetsGetChecked publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   LetsGetChecked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 130
+random_paper: 1
 score:
   band: developing
   composite: 53.5

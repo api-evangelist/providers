@@ -208,7 +208,7 @@ plans:
 - name: Liquid M Plans Pricing
   plan_count: 0
   slug: liquid-m-plans-pricing
-random_paper: 57
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Liquid M Rate Limits

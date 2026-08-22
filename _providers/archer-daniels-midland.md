@@ -242,7 +242,7 @@ press:
 - date: '2026-05-25'
   title: AI could pose risk for food and ag companies
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
-random_paper: 98
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Archer Daniels Midland Rate Limits

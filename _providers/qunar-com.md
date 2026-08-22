@@ -49,7 +49,7 @@ name: Qunar Com
 nav: Providers
 network: true
 overview: Qunar Com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hotels, Flights, and Travel Booking.
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

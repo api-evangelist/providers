@@ -197,7 +197,7 @@ overview: 'Chargefox publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Chargefox''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, code examples, and 26 more developer resources.'
-random_paper: 57
+random_paper: 6
 rate_limits:
 - limit_count: 25
   name: Chargefox Rate Limits

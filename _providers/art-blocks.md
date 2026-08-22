@@ -148,7 +148,7 @@ plans:
 - name: Art Blocks Plans
   plan_count: 4
   slug: art-blocks-plans
-random_paper: 116
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Art Blocks Rate Limits

@@ -155,7 +155,7 @@ plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
   slug: minimax-ai-plans-pricing
-random_paper: 108
+random_paper: 15
 rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits

@@ -49,7 +49,7 @@ name: thebeans
 nav: Providers
 network: true
 overview: thebeans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 3.2

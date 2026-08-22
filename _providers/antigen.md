@@ -64,7 +64,7 @@ overview: 'Antigen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Antigen''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 6.3

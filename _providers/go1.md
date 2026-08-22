@@ -239,7 +239,7 @@ overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 114
+random_paper: 11
 scopes:
 - name: Go1 Scopes
   scope_count: 8

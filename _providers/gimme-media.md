@@ -49,7 +49,7 @@ name: Gimme Media
 nav: Providers
 network: true
 overview: Gimme Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Streaming, Media, and Radio.
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

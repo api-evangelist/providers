@@ -101,7 +101,7 @@ overview: 'Merkle Manufactory Inc. publishes 1 API on the [APIs.io](https://apis
 
 
   Merkle Manufactory Inc.''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 2
+random_paper: 11
 score:
   band: thin
   composite: 28.6

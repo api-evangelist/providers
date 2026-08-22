@@ -80,7 +80,7 @@ overview: 'Grapes is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Grapes'' developer surface includes documentation, support, and 7 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 12.3

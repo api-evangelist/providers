@@ -80,7 +80,7 @@ overview: 'AvantStay is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AvantStay''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 93
+random_paper: 0
 score:
   band: emerging
   composite: 11.9

@@ -89,7 +89,7 @@ overview: '88rising is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   88rising''s developer surface includes YouTube channel and 9 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 6.1

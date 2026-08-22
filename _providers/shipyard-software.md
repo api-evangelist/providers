@@ -124,7 +124,7 @@ overview: 'Shipyard Software publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Shipyard Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 0
+random_paper: 3
 score:
   band: thin
   composite: 33.6

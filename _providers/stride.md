@@ -92,7 +92,7 @@ overview: 'Stride is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stride''s developer surface includes documentation, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 8.9

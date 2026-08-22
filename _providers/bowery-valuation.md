@@ -109,7 +109,7 @@ overview: 'Bowery Valuation is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bowery Valuation''s developer surface includes support, FAQ, YouTube channel, and 11 more developer resources.'
-random_paper: 49
+random_paper: 8
 score:
   band: emerging
   composite: 11.3

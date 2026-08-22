@@ -232,7 +232,7 @@ plans:
 - name: Truist Financial Plans Pricing
   plan_count: 1
   slug: truist-financial-plans-pricing
-random_paper: 22
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Truist Financial Rate Limits

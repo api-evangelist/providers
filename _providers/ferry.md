@@ -120,7 +120,7 @@ overview: 'Ferry is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ferry''s developer surface includes documentation, getting-started guide, engineering blog, support, and 15 more developer resources.'
-random_paper: 105
+random_paper: 6
 score:
   band: emerging
   composite: 19.1

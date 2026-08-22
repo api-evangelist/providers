@@ -123,7 +123,7 @@ overview: 'BlackLine publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   BlackLine''s developer surface includes documentation, API reference, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 39
+random_paper: 9
 score:
   band: emerging
   composite: 21.9

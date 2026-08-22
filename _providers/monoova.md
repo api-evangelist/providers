@@ -225,7 +225,7 @@ overview: 'Monoova publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 31 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: strong
   composite: 57.7

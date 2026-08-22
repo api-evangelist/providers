@@ -162,7 +162,7 @@ overview: 'Knowde publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Knowde''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, support, and 23 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: thin
   composite: 34.5

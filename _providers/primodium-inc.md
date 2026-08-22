@@ -84,7 +84,7 @@ overview: 'Primodium Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Primodium Inc.''s developer surface includes documentation, getting-started guide, changelog, and 7 more developer resources.'
-random_paper: 0
+random_paper: 18
 score:
   band: emerging
   composite: 15.8

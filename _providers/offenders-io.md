@@ -99,7 +99,7 @@ plans:
 - name: Offenders Io Plans Pricing
   plan_count: 3
   slug: offenders-io-plans-pricing
-random_paper: 25
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Offenders Io Rate Limits

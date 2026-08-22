@@ -104,7 +104,7 @@ plans:
 - name: Ctrl Plans Pricing
   plan_count: 3
   slug: ctrl-plans-pricing
-random_paper: 139
+random_paper: 17
 score:
   band: emerging
   composite: 18.9

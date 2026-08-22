@@ -40,7 +40,7 @@ name: Omniata
 nav: Providers
 network: true
 overview: Omniata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Saas.
-random_paper: 0
+random_paper: 10
 score:
   band: minimal
   composite: 4.1

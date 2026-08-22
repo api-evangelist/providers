@@ -95,7 +95,7 @@ overview: 'BlueNalu is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlueNalu''s developer surface includes product news, FAQ, and 13 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 10.0

@@ -68,7 +68,7 @@ overview: 'PC Financial is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   PC Financial''s developer surface includes support, documentation, and 6 more developer resources.'
-random_paper: 146
+random_paper: 13
 score:
   band: minimal
   composite: 9.4

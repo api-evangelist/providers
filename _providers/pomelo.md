@@ -149,7 +149,7 @@ plans:
 - name: Pomelo Plans Pricing
   plan_count: 2
   slug: pomelo-plans-pricing
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Pomelo Rate Limits

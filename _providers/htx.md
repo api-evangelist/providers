@@ -132,7 +132,7 @@ overview: 'HTX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HTX''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 42
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Htx Rate Limits

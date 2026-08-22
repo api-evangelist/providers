@@ -80,7 +80,7 @@ overview: 'Inkling is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Inkling''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: emerging
   composite: 14.7

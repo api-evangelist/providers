@@ -839,7 +839,7 @@ overview: 'Tricentis publishes 102 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
-random_paper: 87
+random_paper: 15
 scopes:
 - name: Tricentis Scopes
   scope_count: 1

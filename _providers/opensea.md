@@ -1142,7 +1142,7 @@ plans:
 - name: Opensea Plans
   plan_count: 2
   slug: opensea-plans
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Opensea Rate Limits

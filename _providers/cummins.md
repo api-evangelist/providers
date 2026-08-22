@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Cummins CEO Explains How to Manage the AI Boom
   url: https://www.barrons.com/articles/cummins-stock-ai-boom-ceo-a6532eff
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 3.6

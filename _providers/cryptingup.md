@@ -57,7 +57,7 @@ name: CryptingUp
 nav: Providers
 network: true
 overview: CryptingUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 66
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

@@ -106,7 +106,7 @@ plans:
 - name: Braid Social Plans Pricing
   plan_count: 3
   slug: braid-social-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Braid Social Rate Limits

@@ -49,7 +49,7 @@ name: Raw Apothecary
 nav: Providers
 network: true
 overview: Raw Apothecary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Consumer, and Shopify.
-random_paper: 106
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

@@ -211,7 +211,7 @@ overview: 'Cariqa publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cariqa''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, quickstart, and 20 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: developing
   composite: 48.0

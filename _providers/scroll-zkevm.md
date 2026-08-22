@@ -134,7 +134,7 @@ plans:
 - name: Scroll Zkevm Plans Pricing
   plan_count: 1
   slug: scroll-zkevm-plans-pricing
-random_paper: 65
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Scroll Zkevm Rate Limits

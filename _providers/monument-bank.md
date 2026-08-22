@@ -154,7 +154,7 @@ overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 16 more developer resources.'
-random_paper: 148
+random_paper: 17
 scopes:
 - name: Monument Bank Scopes
   scope_count: 3

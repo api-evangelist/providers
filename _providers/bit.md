@@ -153,7 +153,7 @@ overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bit''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, changelog, and 18 more developer resources.'
-random_paper: 21
+random_paper: 4
 score:
   band: thin
   composite: 28.9

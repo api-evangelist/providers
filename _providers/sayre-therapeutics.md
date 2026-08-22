@@ -49,7 +49,7 @@ name: Sayre Therapeutics
 nav: Providers
 network: true
 overview: Sayre Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Clinical Research.
-random_paper: 102
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

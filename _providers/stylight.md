@@ -88,7 +88,7 @@ overview: 'Stylight is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stylight''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 143
+random_paper: 6
 score:
   band: minimal
   composite: 8.7

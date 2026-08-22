@@ -52,7 +52,7 @@ overview: 'MetaStable Capital is profiled on the [APIs.io](https://apis.io/) net
 
 
   MetaStable Capital''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 49
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -225,7 +225,7 @@ overview: 'Lorum publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 112
+random_paper: 13
 score:
   band: developing
   composite: 43.4

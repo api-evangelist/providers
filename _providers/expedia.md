@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Expedia Group sees reward and risk in the rise of AI- ...
   url: https://www.geekwire.com/2026/expedia-group-sees-reward-and-risk-in-the-rise-of-ai-powered-travel/
-random_paper: 140
+random_paper: 1
 score:
   band: emerging
   composite: 17.7

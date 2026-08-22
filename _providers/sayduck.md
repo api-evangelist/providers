@@ -124,7 +124,7 @@ overview: 'SayDuck publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SayDuck''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 25.3

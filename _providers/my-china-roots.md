@@ -56,7 +56,7 @@ overview: 'My China Roots is profiled on the [APIs.io](https://apis.io/) network
 
 
   My China Roots'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 61
+random_paper: 16
 score:
   band: minimal
   composite: 5.5

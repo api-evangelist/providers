@@ -195,7 +195,7 @@ overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
-random_paper: 145
+random_paper: 20
 score:
   band: developing
   composite: 39.8

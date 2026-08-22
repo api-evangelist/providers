@@ -195,7 +195,7 @@ overview: 'Napkin.AI publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Napkin.AI''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 98
+random_paper: 3
 scopes:
 - name: Napkinai Scopes
   scope_count: 2

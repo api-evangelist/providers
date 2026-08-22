@@ -172,7 +172,7 @@ plans:
 - name: Triblio Plans Pricing
   plan_count: 0
   slug: triblio-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Triblio Rate Limits

@@ -123,7 +123,7 @@ overview: 'M&T Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   M&T Bank''s developer surface includes documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
-random_paper: 131
+random_paper: 13
 score:
   band: emerging
   composite: 11.2

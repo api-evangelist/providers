@@ -57,7 +57,7 @@ name: Remix 3
 nav: Providers
 network: true
 overview: Remix 3 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Generation, Social Media, and Creative Tools.
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 9.2

@@ -204,7 +204,7 @@ plans:
 - name: Culture Amp Plans Pricing
   plan_count: 4
   slug: culture-amp-plans-pricing
-random_paper: 92
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Culture Amp Rate Limits

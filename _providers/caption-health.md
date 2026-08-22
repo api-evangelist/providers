@@ -46,7 +46,7 @@ name: Caption Health
 nav: Providers
 network: true
 overview: Caption Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Healthcare, and Medical Imaging.
-random_paper: 84
+random_paper: 18
 score:
   band: minimal
   composite: 2.2

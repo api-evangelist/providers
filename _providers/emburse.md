@@ -448,7 +448,7 @@ plans:
 - name: Emburse Plans Pricing
   plan_count: 7
   slug: emburse-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Emburse Rate Limits

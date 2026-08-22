@@ -57,7 +57,7 @@ name: JCR
 nav: Providers
 network: true
 overview: JCR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Repository, Java, JCR, and JSR-283.
-random_paper: 21
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

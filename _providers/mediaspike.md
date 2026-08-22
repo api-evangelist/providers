@@ -40,7 +40,7 @@ name: MediaSpike
 nav: Providers
 network: true
 overview: MediaSpike is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Gaming, and In-Game Advertising.
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

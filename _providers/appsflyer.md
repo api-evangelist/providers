@@ -367,7 +367,7 @@ plans:
 - name: Appsflyer Plans Pricing
   plan_count: 3
   slug: appsflyer-plans-pricing
-random_paper: 88
+random_paper: 16
 rate_limits:
 - limit_count: 11
   name: Appsflyer Rate Limits

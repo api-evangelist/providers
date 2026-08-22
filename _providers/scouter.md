@@ -76,7 +76,7 @@ overview: 'Scouter is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scouter''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 28
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

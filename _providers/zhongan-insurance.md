@@ -56,7 +56,7 @@ overview: 'ZhongAn Insurance is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ZhongAn Insurance''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 131
+random_paper: 6
 score:
   band: minimal
   composite: 4.2

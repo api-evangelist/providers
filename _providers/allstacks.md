@@ -105,7 +105,7 @@ overview: 'Allstacks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Allstacks'' developer surface includes engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 68
+random_paper: 17
 scopes:
 - name: Allstacks Scopes
   scope_count: 1

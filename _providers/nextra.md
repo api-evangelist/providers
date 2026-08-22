@@ -125,7 +125,7 @@ plans:
 - name: Nextra Plans Pricing
   plan_count: 3
   slug: nextra-plans-pricing
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Nextra Rate Limits

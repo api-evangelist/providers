@@ -132,7 +132,7 @@ overview: 'OnFabric is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OnFabric''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, changelog, and 14 more developer resources.'
-random_paper: 91
+random_paper: 17
 score:
   band: thin
   composite: 28.4

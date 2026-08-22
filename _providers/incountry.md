@@ -157,7 +157,7 @@ overview: 'InCountry publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   InCountry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 109
+random_paper: 16
 score:
   band: developing
   composite: 39.8

@@ -136,7 +136,7 @@ overview: 'Easebuzz publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Easebuzz''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 128
+random_paper: 12
 score:
   band: thin
   composite: 36.6

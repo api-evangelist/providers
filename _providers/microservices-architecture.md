@@ -49,7 +49,7 @@ name: Microservices Architecture
 nav: Providers
 network: true
 overview: Microservices Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Cloud Native, Distributed Systems, and Microservices.
-random_paper: 52
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

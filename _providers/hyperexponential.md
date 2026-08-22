@@ -80,7 +80,7 @@ overview: 'hyperexponential is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   hyperexponential''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 104
+random_paper: 0
 score:
   band: emerging
   composite: 14.2

@@ -64,7 +64,7 @@ overview: 'Byanat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Byanat''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 4.0

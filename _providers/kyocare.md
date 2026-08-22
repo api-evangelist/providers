@@ -105,7 +105,7 @@ overview: 'Kyo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kyo''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 5
+random_paper: 15
 scopes:
 - name: Kyocare Scopes
   scope_count: 2

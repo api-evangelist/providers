@@ -80,7 +80,7 @@ overview: 'AOne is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AOne''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 121
+random_paper: 20
 score:
   band: emerging
   composite: 12.4

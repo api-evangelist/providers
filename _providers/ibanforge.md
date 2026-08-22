@@ -168,7 +168,7 @@ overview: 'IBANforge publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
-random_paper: 47
+random_paper: 17
 score:
   band: thin
   composite: 33.4

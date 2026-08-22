@@ -104,7 +104,7 @@ overview: 'eBPF Foundation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   eBPF Foundation''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 47
+random_paper: 4
 score:
   band: minimal
   composite: 6.2

@@ -89,7 +89,7 @@ plans:
 - name: Data Chhs Ca Gov Plans Pricing
   plan_count: 1
   slug: data-chhs-ca-gov-plans-pricing
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Data Chhs Ca Gov Rate Limits

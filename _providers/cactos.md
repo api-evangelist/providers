@@ -88,7 +88,7 @@ overview: 'Cactos is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cactos'' developer surface includes pricing, support, engineering blog, product news, and 7 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 11.1

@@ -104,7 +104,7 @@ overview: 'EZKL is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   EZKL''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 10 more developer resources.'
-random_paper: 140
+random_paper: 18
 score:
   band: emerging
   composite: 18.1

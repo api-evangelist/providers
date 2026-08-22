@@ -45,7 +45,7 @@ name: Vivace Therapeutics
 nav: Providers
 network: true
 overview: Vivace Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Healthcare.
-random_paper: 43
+random_paper: 6
 score:
   band: minimal
   composite: 2.2

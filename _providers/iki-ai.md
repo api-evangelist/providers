@@ -80,7 +80,7 @@ overview: 'IKI AI is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   IKI AI''s developer surface includes pricing, signup flow, engineering blog, support, changelog, and 4 more developer resources.'
-random_paper: 117
+random_paper: 18
 score:
   band: emerging
   composite: 14.8

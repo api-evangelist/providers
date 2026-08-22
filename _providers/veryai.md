@@ -40,7 +40,7 @@ name: VeryAI
 nav: Providers
 network: true
 overview: VeryAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 3.2

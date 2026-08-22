@@ -251,7 +251,7 @@ plans:
 - name: Pubchem Pug Rest
   plan_count: 1
   slug: pubchem-pug-rest
-random_paper: 114
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Blast

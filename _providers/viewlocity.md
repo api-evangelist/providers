@@ -68,7 +68,7 @@ overview: 'Viewlocity is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Viewlocity''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 60
+random_paper: 11
 score:
   band: minimal
   composite: 10.6

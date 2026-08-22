@@ -92,7 +92,7 @@ overview: 'BITE Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BITE Data''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, changelog, and 5 more developer resources.'
-random_paper: 130
+random_paper: 14
 score:
   band: emerging
   composite: 19.8

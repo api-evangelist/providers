@@ -40,7 +40,7 @@ name: Safire
 nav: Providers
 network: true
 overview: Safire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Batteries, Energy Storage, Materials Science, and Deep Tech.
-random_paper: 38
+random_paper: 4
 score:
   band: minimal
   composite: 2.1

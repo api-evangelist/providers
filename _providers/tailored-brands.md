@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Men's Wearhouse Unveils Next-Gen Stores
   url: https://www.tailoredbrands.com/2021/02/04/mens-wearhouse-unveils-next-gen-stores/
-random_paper: 41
+random_paper: 19
 score:
   band: minimal
   composite: 4.6

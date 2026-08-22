@@ -258,7 +258,7 @@ plans:
 - name: Air Quality Programmatic Apis Plans Pricing
   plan_count: 3
   slug: air-quality-programmatic-apis-plans-pricing
-random_paper: 112
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Air Quality Programmatic Apis Rate Limits

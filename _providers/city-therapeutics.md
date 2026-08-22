@@ -96,7 +96,7 @@ overview: 'City Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   City Therapeutics'' developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 144
+random_paper: 19
 score:
   band: minimal
   composite: 10.3

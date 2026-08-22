@@ -117,7 +117,7 @@ overview: 'Supper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Supper''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 75
+random_paper: 20
 score:
   band: emerging
   composite: 21.4

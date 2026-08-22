@@ -146,7 +146,7 @@ overview: 'Anvilogic publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anvilogic''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, pricing, support, authentication, and 18 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: thin
   composite: 29.6

@@ -104,7 +104,7 @@ overview: 'DataMind is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DataMind''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, changelog, and 7 more developer resources.'
-random_paper: 89
+random_paper: 15
 score:
   band: emerging
   composite: 17.0

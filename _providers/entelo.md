@@ -84,7 +84,7 @@ overview: 'Entelo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Entelo''s developer surface includes changelog and 9 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: emerging
   composite: 14.1

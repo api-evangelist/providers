@@ -89,7 +89,7 @@ press:
 - date: '2026-04-30'
   title: Global Partners Declares First-Quarter 2026 Cash Distribution of $0.7650  on Common Units
   url: https://www.globalp.com/who-we-are/news-media/global-partners-declares-first-quarter-2026-cash-distribution-of-0-7650-on-common-units
-random_paper: 59
+random_paper: 16
 score:
   band: minimal
   composite: 3.8

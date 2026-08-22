@@ -390,7 +390,7 @@ plans:
 - name: Leandata Plans Pricing
   plan_count: 8
   slug: leandata-plans-pricing
-random_paper: 81
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Leandata Rate Limits

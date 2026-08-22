@@ -104,7 +104,7 @@ overview: 'Peoples Group publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Peoples Group''s developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
-random_paper: 21
+random_paper: 18
 score:
   band: emerging
   composite: 21.1

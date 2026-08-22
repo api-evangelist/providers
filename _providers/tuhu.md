@@ -45,7 +45,7 @@ name: tuhu
 nav: Providers
 network: true
 overview: tuhu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Auto Services, Tires, and Car Maintenance.
-random_paper: 7
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

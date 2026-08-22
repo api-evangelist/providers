@@ -181,7 +181,7 @@ overview: 'Hostfully publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hostfully''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: emerging
   composite: 18.9

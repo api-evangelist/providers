@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: EOG Resources
   url: https://decarbonfuse.com/companies/eog-resources
-random_paper: 6
+random_paper: 3
 score:
   band: minimal
   composite: 2.9

@@ -99,7 +99,7 @@ plans:
 - name: Defense Intelligence Agency Plans Pricing
   plan_count: 3
   slug: defense-intelligence-agency-plans-pricing
-random_paper: 36
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Defense Intelligence Agency Rate Limits

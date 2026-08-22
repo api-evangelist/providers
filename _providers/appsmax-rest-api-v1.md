@@ -255,7 +255,7 @@ plans:
 - name: Appsmax Rest Api V1 Plans
   plan_count: 5
   slug: appsmax-rest-api-v1-plans
-random_paper: 36
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Appsmax Rest Api V1 Rate Limits

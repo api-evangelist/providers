@@ -145,7 +145,7 @@ plans:
 - name: Europeana Plans Pricing
   plan_count: 3
   slug: europeana-plans-pricing
-random_paper: 66
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Europeana Rate Limits

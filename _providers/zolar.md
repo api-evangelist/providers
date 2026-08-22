@@ -49,7 +49,7 @@ name: Zolar
 nav: Providers
 network: true
 overview: Zolar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Climate.
-random_paper: 105
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

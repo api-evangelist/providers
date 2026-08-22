@@ -213,7 +213,7 @@ overview: 'ColdSnap publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   ColdSnap''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, YouTube channel, authentication, and 32 more developer resources.'
-random_paper: 107
+random_paper: 12
 scopes:
 - name: Coldsnap Scopes
   scope_count: 4

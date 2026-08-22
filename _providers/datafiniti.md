@@ -199,7 +199,7 @@ plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
   slug: datafiniti-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Datafiniti Rate Limits

@@ -109,7 +109,7 @@ overview: 'USPL Wrogn is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   USPL Wrogn''s developer surface includes authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Uspl Wrogn Rate Limits

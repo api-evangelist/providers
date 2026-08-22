@@ -294,7 +294,7 @@ overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Inthegame''s developer surface includes documentation, API reference, authentication, code examples, sandbox, engineering blog, support, and 17 more developer resources.'
-random_paper: 52
+random_paper: 1
 score:
   band: thin
   composite: 38.0

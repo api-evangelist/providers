@@ -149,7 +149,7 @@ plans:
 - name: Nacos Plans Pricing
   plan_count: 3
   slug: nacos-plans-pricing
-random_paper: 85
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Nacos Rate Limits

@@ -238,7 +238,7 @@ overview: 'BitFury publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   BitFury''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, changelog, and 41 more developer resources.'
-random_paper: 34
+random_paper: 10
 score:
   band: developing
   composite: 42.6

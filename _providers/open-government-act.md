@@ -61,7 +61,7 @@ name: Open Government, ACT
 nav: Providers
 network: true
 overview: Open Government, ACT publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 141
+random_paper: 18
 score:
   band: minimal
   composite: 5.8

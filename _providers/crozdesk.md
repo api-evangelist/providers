@@ -100,7 +100,7 @@ overview: 'Crozdesk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crozdesk''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
-random_paper: 124
+random_paper: 8
 score:
   band: emerging
   composite: 14.6

@@ -150,7 +150,7 @@ plans:
 - name: Stotles Plans Pricing
   plan_count: 11
   slug: stotles-plans-pricing
-random_paper: 37
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Stotles Rate Limits

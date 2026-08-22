@@ -80,7 +80,7 @@ overview: '7 Chord is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   7 Chord''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 2.2

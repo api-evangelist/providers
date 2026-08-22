@@ -104,7 +104,7 @@ overview: 'Atmosphere is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Atmosphere''s developer surface includes support, getting-started guide, engineering blog, signup flow, FAQ, changelog, and 11 more developer resources.'
-random_paper: 37
+random_paper: 9
 score:
   band: emerging
   composite: 20.6

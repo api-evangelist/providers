@@ -95,7 +95,7 @@ plans:
 - name: I2X Plans Pricing
   plan_count: 0
   slug: i2x-plans-pricing
-random_paper: 126
+random_paper: 2
 score:
   band: minimal
   composite: 10.0

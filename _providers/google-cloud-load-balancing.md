@@ -176,7 +176,7 @@ plans:
 - name: Google Cloud Load Balancing Plans Pricing
   plan_count: 3
   slug: google-cloud-load-balancing-plans-pricing
-random_paper: 117
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Google Cloud Load Balancing Rate Limits

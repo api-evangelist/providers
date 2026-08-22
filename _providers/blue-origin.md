@@ -137,7 +137,7 @@ overview: 'Blue Origin publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blue Origin''s developer surface includes engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 74
+random_paper: 4
 scopes:
 - name: Blue Origin Scopes
   scope_count: 38

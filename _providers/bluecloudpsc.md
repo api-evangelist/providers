@@ -49,7 +49,7 @@ name: Blue Cloud Pediatric Surgery Centers
 nav: Providers
 network: true
 overview: Blue Cloud Pediatric Surgery Centers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pediatric, Dental, and Oral Surgery.
-random_paper: 93
+random_paper: 4
 score:
   band: minimal
   composite: 3.3

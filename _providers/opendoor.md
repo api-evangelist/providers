@@ -121,7 +121,7 @@ plans:
 - name: Opendoor Plans Pricing
   plan_count: 1
   slug: opendoor-plans-pricing
-random_paper: 125
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Opendoor Rate Limits

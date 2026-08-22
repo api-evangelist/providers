@@ -145,7 +145,7 @@ overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Apache Solr''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
   composite: 24.4

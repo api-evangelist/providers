@@ -53,7 +53,7 @@ name: TTAGG
 nav: Providers
 network: true
 overview: TTAGG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Sentiment Analysis, and Brand Monitoring.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

@@ -552,7 +552,7 @@ plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
   slug: regal-ai-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Regal Ai Rate Limits

@@ -72,7 +72,7 @@ overview: 'Tailorbird is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tailorbird''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: emerging
   composite: 12.3

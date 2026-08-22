@@ -72,7 +72,7 @@ overview: 'Beeline Bikes is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Beeline Bikes'' developer surface includes support and 6 more developer resources.'
-random_paper: 103
+random_paper: 14
 score:
   band: minimal
   composite: 7.3

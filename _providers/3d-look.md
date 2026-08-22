@@ -132,7 +132,7 @@ overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   3D Look''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: emerging
   composite: 25.8

@@ -117,7 +117,7 @@ overview: 'ANDPAD publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   ANDPAD''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 7
 score:
   band: emerging
   composite: 20.4

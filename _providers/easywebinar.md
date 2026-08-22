@@ -139,7 +139,7 @@ plans:
 - name: Easywebinar Plans Pricing
   plan_count: 5
   slug: easywebinar-plans-pricing
-random_paper: 135
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Easywebinar Rate Limits

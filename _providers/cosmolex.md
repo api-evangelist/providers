@@ -109,7 +109,7 @@ plans:
 - name: Cosmolex Plans Pricing
   plan_count: 3
   slug: cosmolex-plans-pricing
-random_paper: 129
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Cosmolex Rate Limits

@@ -172,7 +172,7 @@ overview: 'Crate Io publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 43
+random_paper: 11
 score:
   band: thin
   composite: 37.4

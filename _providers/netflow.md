@@ -48,7 +48,7 @@ overview: 'NetFlow is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NetFlow''s developer surface includes documentation.'
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 6.0

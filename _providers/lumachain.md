@@ -53,7 +53,7 @@ name: Lumachain
 nav: Providers
 network: true
 overview: Lumachain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Artificial Intelligence, Computer Vision, and Food Supply Chain.
-random_paper: 52
+random_paper: 1
 score:
   band: minimal
   composite: 7.1

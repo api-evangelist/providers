@@ -200,7 +200,7 @@ overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 21 more developer resources.'
-random_paper: 102
+random_paper: 9
 scopes:
 - name: Splitwise Scopes
   scope_count: 0

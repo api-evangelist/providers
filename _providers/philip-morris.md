@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Philip Morris International Opens Dialogue on the Future of ...
   url: https://finance.yahoo.com/news/philip-morris-international-opens-dialogue-100300894.html
-random_paper: 18
+random_paper: 15
 score:
   band: minimal
   composite: 2.9

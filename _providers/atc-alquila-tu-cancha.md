@@ -76,7 +76,7 @@ overview: 'ATC (Alquila tu cancha) is profiled on the [APIs.io](https://apis.io/
 
 
   ATC (Alquila tu cancha)''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 94
+random_paper: 15
 score:
   band: minimal
   composite: 8.9

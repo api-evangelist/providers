@@ -40,7 +40,7 @@ name: Qube Horizon
 nav: Providers
 network: true
 overview: Qube Horizon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Resource Planning, and Analytics.
-random_paper: 59
+random_paper: 12
 score:
   band: minimal
   composite: 4.1

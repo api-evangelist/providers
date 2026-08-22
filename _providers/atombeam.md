@@ -127,7 +127,7 @@ overview: 'AtomBeam is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AtomBeam''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 15 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: emerging
   composite: 14.1

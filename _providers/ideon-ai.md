@@ -64,7 +64,7 @@ overview: 'Ideon Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Ideon Technologies'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

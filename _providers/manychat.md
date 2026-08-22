@@ -229,7 +229,7 @@ plans:
 - name: Manychat Plans Pricing
   plan_count: 0
   slug: manychat-plans-pricing
-random_paper: 108
+random_paper: 13
 rate_limits:
 - limit_count: 35
   name: Manychat Rate Limits

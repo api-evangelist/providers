@@ -52,7 +52,7 @@ overview: 'Elodie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Elodie''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 5.5

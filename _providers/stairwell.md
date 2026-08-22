@@ -152,7 +152,7 @@ overview: 'Stairwell publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Stairwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 89
+random_paper: 17
 score:
   band: thin
   composite: 35.5

@@ -109,7 +109,7 @@ plans:
 - name: Designstripe Plans Pricing
   plan_count: 0
   slug: designstripe-plans-pricing
-random_paper: 105
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Designstripe Rate Limits

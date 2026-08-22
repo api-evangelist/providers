@@ -262,7 +262,7 @@ overview: 'Lightup publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: developing
   composite: 49.2

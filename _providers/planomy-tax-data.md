@@ -155,7 +155,7 @@ plans:
 - name: Planomy Tax Data Plans Pricing
   plan_count: 5
   slug: planomy-tax-data-plans-pricing
-random_paper: 111
+random_paper: 5
 score:
   band: thin
   composite: 38.1

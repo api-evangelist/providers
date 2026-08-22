@@ -93,7 +93,7 @@ overview: 'OZON.ru publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   OZON.ru''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 89
+random_paper: 13
 score:
   band: emerging
   composite: 12.4

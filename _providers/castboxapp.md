@@ -68,7 +68,7 @@ overview: 'Castbox is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Castbox''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

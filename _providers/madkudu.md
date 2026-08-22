@@ -189,7 +189,7 @@ plans:
 - name: Madkudu Plans Pricing
   plan_count: 0
   slug: madkudu-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Madkudu Rate Limits

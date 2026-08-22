@@ -58,7 +58,7 @@ name: EasyKnock
 nav: Providers
 network: true
 overview: EasyKnock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Real Estate, PropTech, and Fintech.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 4.6

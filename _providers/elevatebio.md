@@ -84,7 +84,7 @@ overview: 'ElevateBio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ElevateBio''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 13
+random_paper: 6
 score:
   band: minimal
   composite: 8.3

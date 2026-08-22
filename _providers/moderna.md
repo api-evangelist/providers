@@ -49,7 +49,7 @@ name: Moderna
 nav: Providers
 network: true
 overview: Moderna is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 2.9

@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: Southern Company--AGL Resources combination ...
   url: https://www.prnewswire.com/news-releases/southern-company--agl-resources-combination-enhances-customer-focused-business-model-300132249.html
-random_paper: 148
+random_paper: 17
 score:
   band: minimal
   composite: 2.7

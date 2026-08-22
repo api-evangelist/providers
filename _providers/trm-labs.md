@@ -187,7 +187,7 @@ overview: 'TRM Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TRM Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 57
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Trm Labs Rate Limits

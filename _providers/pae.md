@@ -60,7 +60,7 @@ overview: 'PAE is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PAE''s developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 2.4

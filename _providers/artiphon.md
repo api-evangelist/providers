@@ -57,7 +57,7 @@ name: Artiphon
 nav: Providers
 network: true
 overview: Artiphon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Musical Instruments, MIDI, and Hardware.
-random_paper: 124
+random_paper: 8
 score:
   band: minimal
   composite: 6.3

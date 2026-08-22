@@ -53,7 +53,7 @@ name: weather-api
 nav: Providers
 network: true
 overview: weather-api publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 68
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

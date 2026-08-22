@@ -231,7 +231,7 @@ overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Chargebee''s developer surface includes sandbox, changelog, getting-started guide, authentication, documentation, API reference, pricing, and 22 more developer resources.'
-random_paper: 24
+random_paper: 15
 rules:
 - effective_rule_count: 36
   extends:

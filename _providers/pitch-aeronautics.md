@@ -45,7 +45,7 @@ name: Pitch Aeronautics
 nav: Providers
 network: true
 overview: Pitch Aeronautics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Utilities, Energy Grid, Drones, and Weather Intelligence.
-random_paper: 124
+random_paper: 20
 score:
   band: minimal
   composite: 2.1

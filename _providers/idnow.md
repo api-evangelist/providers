@@ -137,7 +137,7 @@ plans:
 - name: Idnow Plans Pricing
   plan_count: 1
   slug: idnow-plans-pricing
-random_paper: 98
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Idnow Rate Limits

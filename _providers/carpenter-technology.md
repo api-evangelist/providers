@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: A Look At Carpenter Technology (CRS) Valuation After ...
   url: https://finance.yahoo.com/news/look-carpenter-technology-crs-valuation-151330338.html
-random_paper: 7
+random_paper: 14
 score:
   band: minimal
   composite: 6.4

@@ -101,7 +101,7 @@ overview: 'Linc''well is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Linc''well''s developer surface includes engineering blog, support, product news, and 11 more developer resources.'
-random_paper: 109
+random_paper: 3
 score:
   band: minimal
   composite: 10.0

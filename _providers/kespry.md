@@ -40,7 +40,7 @@ name: Kespry
 nav: Providers
 network: true
 overview: Kespry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Aerial Intelligence, Geospatial, and Mining.
-random_paper: 74
+random_paper: 19
 score:
   band: minimal
   composite: 0.9

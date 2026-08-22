@@ -61,7 +61,7 @@ name: Trash Nothing
 nav: Providers
 network: true
 overview: Trash Nothing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
-random_paper: 9
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

@@ -68,7 +68,7 @@ overview: 'Swift Charge is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Swift Charge''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 28
+random_paper: 2
 score:
   band: minimal
   composite: 10.6

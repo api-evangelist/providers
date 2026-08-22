@@ -195,7 +195,7 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
-random_paper: 148
+random_paper: 6
 score:
   band: developing
   composite: 41.3

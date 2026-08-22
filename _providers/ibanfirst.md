@@ -217,7 +217,7 @@ plans:
 - name: Ibanfirst Plans Pricing
   plan_count: 1
   slug: ibanfirst-plans-pricing
-random_paper: 68
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Ibanfirst Rate Limits

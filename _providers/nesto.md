@@ -186,7 +186,7 @@ overview: 'Nesto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nesto''s developer surface includes engineering blog, support, FAQ, and 32 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: emerging
   composite: 26.0

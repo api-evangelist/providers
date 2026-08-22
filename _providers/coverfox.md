@@ -68,7 +68,7 @@ overview: 'Coverfox is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coverfox''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: minimal
   composite: 9.7

@@ -454,7 +454,7 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 92
+random_paper: 14
 scopes:
 - name: Slash Scopes
   scope_count: 0

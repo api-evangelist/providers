@@ -193,7 +193,7 @@ overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: strong
   composite: 57.1

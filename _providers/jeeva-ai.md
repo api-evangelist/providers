@@ -155,7 +155,7 @@ plans:
 - name: Jeeva Ai Plans Pricing
   plan_count: 4
   slug: jeeva-ai-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Jeeva Ai Rate Limits

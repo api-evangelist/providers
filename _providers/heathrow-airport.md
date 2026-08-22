@@ -157,7 +157,7 @@ overview: 'Heathrow Airport publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Heathrow Airport''s developer surface includes documentation, signup flow, authentication, changelog, support, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 41
+random_paper: 0
 score:
   band: thin
   composite: 27.6

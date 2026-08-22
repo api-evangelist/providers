@@ -85,7 +85,7 @@ overview: 'MTN OPS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   MTN OPS''s developer surface includes support, signup flow, authentication, and 7 more developer resources.'
-random_paper: 77
+random_paper: 1
 score:
   band: emerging
   composite: 15.9

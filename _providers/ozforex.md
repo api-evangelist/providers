@@ -121,7 +121,7 @@ overview: 'OFX (OzForex) publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   OFX (OzForex)''s developer surface includes documentation, getting-started guide, signup flow, pricing, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: thin
   composite: 28.0

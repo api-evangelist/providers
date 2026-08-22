@@ -95,7 +95,7 @@ overview: 'Phantom Space is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Phantom Space''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: minimal
   composite: 5.5

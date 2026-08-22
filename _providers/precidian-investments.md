@@ -49,7 +49,7 @@ name: Precidian Investments
 nav: Providers
 network: true
 overview: Precidian Investments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Asset Management, Exchange Traded Funds, and Mutual Funds.
-random_paper: 118
+random_paper: 20
 score:
   band: minimal
   composite: 1.2

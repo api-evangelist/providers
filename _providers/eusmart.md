@@ -40,7 +40,7 @@ name: EuSmart
 nav: Providers
 network: true
 overview: EuSmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Internet Service Provider, Telecommunications, and Connectivity.
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 0.6

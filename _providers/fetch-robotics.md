@@ -88,7 +88,7 @@ overview: 'Fetch Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Fetch Robotics'' developer surface includes documentation and 10 more developer resources.'
-random_paper: 95
+random_paper: 8
 score:
   band: emerging
   composite: 11.6

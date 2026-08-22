@@ -73,7 +73,7 @@ name: Kilsar
 nav: Providers
 network: true
 overview: Kilsar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Maintenance, Aviation, and Defense.
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 10.8

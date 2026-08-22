@@ -149,7 +149,7 @@ plans:
 - name: Google Gmail Plans Pricing
   plan_count: 3
   slug: google-gmail-plans-pricing
-random_paper: 12
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google Gmail Rate Limits

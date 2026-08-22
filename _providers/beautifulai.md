@@ -101,7 +101,7 @@ overview: 'beautiful.ai is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   beautiful.ai''s developer surface includes support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 120
+random_paper: 8
 score:
   band: emerging
   composite: 22.1

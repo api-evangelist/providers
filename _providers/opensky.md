@@ -175,7 +175,7 @@ plans:
 - name: Opensky Trino Api
   plan_count: 2
   slug: opensky-trino-api
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Opensky Rest Api

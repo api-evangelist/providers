@@ -873,7 +873,7 @@ plans:
 - name: Microsoft Azure Databricks Plans Pricing
   plan_count: 6
   slug: microsoft-azure-databricks-plans-pricing
-random_paper: 138
+random_paper: 4
 rate_limits:
 - limit_count: 23
   name: Azure Databricks Rate Limits

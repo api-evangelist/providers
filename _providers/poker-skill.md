@@ -76,7 +76,7 @@ overview: 'Poker Skill is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Poker Skill''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 90
+random_paper: 20
 score:
   band: emerging
   composite: 11.1

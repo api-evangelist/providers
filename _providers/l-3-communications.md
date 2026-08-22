@@ -101,7 +101,7 @@ press:
 - date: '2026-05-20'
   title: VAMPIRE Confirms Integrated Capability During Live Exercises
   url: https://www.l3harris.com/newsroom/editorial/2026/05/vampire-confirms-integrated-capability-during-live-exercises
-random_paper: 123
+random_paper: 19
 score:
   band: minimal
   composite: 3.9

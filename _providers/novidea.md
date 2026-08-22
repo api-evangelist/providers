@@ -72,7 +72,7 @@ overview: 'Novidea is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Novidea''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 9.7

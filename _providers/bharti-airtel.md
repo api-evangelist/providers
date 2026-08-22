@@ -231,7 +231,7 @@ overview: 'Bharti Airtel publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 30 more developer resources.'
-random_paper: 128
+random_paper: 18
 scopes:
 - name: Bharti Airtel Scopes
   scope_count: 4

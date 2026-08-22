@@ -55,7 +55,7 @@ name: AI Bank
 nav: Providers
 network: true
 overview: AI Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Digital Banking, Financial Services, and Consumer Finance.
-random_paper: 63
+random_paper: 8
 score:
   band: minimal
   composite: 1.8

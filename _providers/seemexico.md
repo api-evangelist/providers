@@ -49,7 +49,7 @@ name: SeeMexico
 nav: Providers
 network: true
 overview: SeeMexico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Corporate Travel, Travel Management, and Mexico.
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

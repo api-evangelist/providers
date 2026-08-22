@@ -117,7 +117,7 @@ plans:
 - name: Sesame Plans Pricing
   plan_count: 3
   slug: sesame-plans-pricing
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 22.6

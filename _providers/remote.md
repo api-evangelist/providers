@@ -1107,7 +1107,7 @@ overview: 'Remote publishes 101 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Remote Rate Limits

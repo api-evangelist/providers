@@ -65,7 +65,7 @@ name: Drivemate
 nav: Providers
 network: true
 overview: Drivemate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Sharing, Car Rental, Mobility, and Peer-to-Peer.
-random_paper: 67
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

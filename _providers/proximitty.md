@@ -68,7 +68,7 @@ overview: 'Proximitty is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Proximitty''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 86
+random_paper: 16
 score:
   band: minimal
   composite: 6.7

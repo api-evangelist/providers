@@ -226,7 +226,7 @@ plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
   slug: apple-pay-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Apple Pay Rate Limits

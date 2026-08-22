@@ -398,7 +398,7 @@ overview: 'Bullish publishes 30 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 32 more developer resources.'
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits

@@ -64,7 +64,7 @@ overview: 'Geneva is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Geneva''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

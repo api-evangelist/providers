@@ -177,7 +177,7 @@ overview: 'Mobilecoin publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Mobilecoin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 24 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: thin
   composite: 36.7

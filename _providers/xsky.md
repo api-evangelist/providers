@@ -886,7 +886,7 @@ overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 16
+random_paper: 1
 score:
   band: thin
   composite: 32.1

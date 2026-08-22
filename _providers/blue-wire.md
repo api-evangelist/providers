@@ -90,7 +90,7 @@ plans:
 - name: Blue Wire Plans Pricing
   plan_count: 0
   slug: blue-wire-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Blue Wire Rate Limits

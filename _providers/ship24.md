@@ -210,7 +210,7 @@ overview: 'Ship24 publishes 3 APIs on the [APIs.io](https://apis.io/) network: â
 
 
   Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 15 more developer resources.'
-random_paper: 91
+random_paper: 13
 rules:
 - effective_rule_count: 5
   extends: []

@@ -64,7 +64,7 @@ overview: 'Crewline is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crewline''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 8.5

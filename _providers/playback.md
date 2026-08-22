@@ -60,7 +60,7 @@ overview: 'Playback is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Playback''s developer surface includes support and 3 more developer resources.'
-random_paper: 94
+random_paper: 20
 score:
   band: minimal
   composite: 5.8

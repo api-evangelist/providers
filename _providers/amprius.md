@@ -113,7 +113,7 @@ overview: 'Amprius Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Amprius Technologies'' developer surface includes product news, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 3.8

@@ -141,7 +141,7 @@ overview: 'Succinct is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Succinct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, CLI, and 17 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: thin
   composite: 34.2

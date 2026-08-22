@@ -128,7 +128,7 @@ overview: 'Polyai publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Polyai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 13 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: thin
   composite: 36.4

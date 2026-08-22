@@ -701,7 +701,7 @@ plans:
 - name: Basecamp Plans Pricing
   plan_count: 4
   slug: basecamp-plans-pricing
-random_paper: 83
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Basecamp Rate Limits

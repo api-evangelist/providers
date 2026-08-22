@@ -92,7 +92,7 @@ overview: 'MoreMarkets is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MoreMarkets'' developer surface includes documentation, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: emerging
   composite: 17.8

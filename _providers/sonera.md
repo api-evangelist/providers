@@ -45,7 +45,7 @@ name: Sonera
 nav: Providers
 network: true
 overview: Sonera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine Learning, and Startup.
-random_paper: 52
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

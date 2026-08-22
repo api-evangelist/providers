@@ -207,7 +207,7 @@ plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
   slug: tier-mobility-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Tier Mobility Rate Limits

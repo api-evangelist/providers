@@ -95,7 +95,7 @@ plans:
 - name: Ms Projects Plans Pricing
   plan_count: 3
   slug: ms-projects-plans-pricing
-random_paper: 100
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Ms Projects Rate Limits

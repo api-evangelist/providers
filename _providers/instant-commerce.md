@@ -198,7 +198,7 @@ plans:
 - name: Instant Commerce Plans Pricing
   plan_count: 5
   slug: instant-commerce-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Instant Commerce Rate Limits

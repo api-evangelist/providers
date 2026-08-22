@@ -57,7 +57,7 @@ name: Thirty Madison
 nav: Providers
 network: true
 overview: Thirty Madison is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Telemedicine, and Digital Health.
-random_paper: 127
+random_paper: 19
 score:
   band: minimal
   composite: 5.8

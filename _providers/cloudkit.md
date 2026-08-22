@@ -159,7 +159,7 @@ overview: 'Apple CloudKit publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Apple CloudKit''s developer surface includes authentication, documentation, developer console, and 7 more developer resources.'
-random_paper: 118
+random_paper: 2
 rules:
 - effective_rule_count: 53
   extends:

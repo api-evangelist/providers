@@ -243,7 +243,7 @@ plans:
 - name: National Council On Disability Plans Pricing
   plan_count: 3
   slug: national-council-on-disability-plans-pricing
-random_paper: 49
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: National Council On Disability Rate Limits

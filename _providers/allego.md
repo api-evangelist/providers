@@ -172,7 +172,7 @@ plans:
 - name: Allego Plans Pricing
   plan_count: 4
   slug: allego-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Allego Rate Limits

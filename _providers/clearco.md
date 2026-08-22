@@ -76,7 +76,7 @@ overview: 'Clearco is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clearco''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 133
+random_paper: 15
 score:
   band: emerging
   composite: 13.3

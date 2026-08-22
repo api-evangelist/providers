@@ -103,7 +103,7 @@ plans:
 - name: Decisionnext Plans Pricing
   plan_count: 1
   slug: decisionnext-plans-pricing
-random_paper: 101
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Decisionnext Rate Limits

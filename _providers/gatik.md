@@ -91,7 +91,7 @@ overview: 'Gatik is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Gatik''s developer surface includes engineering blog, product news, YouTube channel, and 11 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 8.3

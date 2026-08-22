@@ -311,7 +311,7 @@ plans:
 - name: Openobserve Plans Pricing
   plan_count: 3
   slug: openobserve-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Openobserve Rate Limits

@@ -143,7 +143,7 @@ plans:
 - name: Helsing Plans Pricing
   plan_count: 1
   slug: helsing-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Helsing Rate Limits

@@ -117,7 +117,7 @@ overview: 'ArmorCode publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   ArmorCode''s developer surface includes developer portal, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 62
+random_paper: 11
 score:
   band: thin
   composite: 27.6

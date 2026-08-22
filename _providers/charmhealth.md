@@ -306,7 +306,7 @@ plans:
 - name: Charmhealth Plans Pricing
   plan_count: 3
   slug: charmhealth-plans-pricing
-random_paper: 110
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Charmhealth Rate Limits

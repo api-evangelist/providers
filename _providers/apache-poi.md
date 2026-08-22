@@ -300,7 +300,7 @@ plans:
 - name: Apache Poi Plans Pricing
   plan_count: 3
   slug: apache-poi-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Apache Poi Rate Limits

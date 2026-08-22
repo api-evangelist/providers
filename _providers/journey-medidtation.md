@@ -72,7 +72,7 @@ overview: 'Journey Medidtation is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Journey Medidtation''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 58
+random_paper: 0
 score:
   band: minimal
   composite: 10.5

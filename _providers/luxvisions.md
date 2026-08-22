@@ -53,7 +53,7 @@ name: Luxvisions Innovation Limited
 nav: Providers
 network: true
 overview: Luxvisions Innovation Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Camera Modules, Imaging, and Semiconductors.
-random_paper: 81
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

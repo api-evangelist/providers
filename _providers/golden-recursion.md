@@ -211,7 +211,7 @@ plans:
 - name: Golden Recursion Plans Pricing
   plan_count: 4
   slug: golden-recursion-plans-pricing
-random_paper: 25
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Golden Recursion Rate Limits

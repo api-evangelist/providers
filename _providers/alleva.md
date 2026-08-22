@@ -367,7 +367,7 @@ overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 33
+random_paper: 20
 scopes:
 - name: Alleva Scopes
   scope_count: 1

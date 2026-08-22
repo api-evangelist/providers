@@ -100,7 +100,7 @@ overview: 'Reactiv is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Reactiv''s developer surface includes documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 19.3

@@ -153,7 +153,7 @@ plans:
 - name: Usadata Inc Plans Pricing
   plan_count: 0
   slug: usadata-inc-plans-pricing
-random_paper: 55
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Usadata Inc Rate Limits

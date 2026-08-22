@@ -194,7 +194,7 @@ plans:
 - name: Fooddata Central Plans Pricing
   plan_count: 3
   slug: fooddata-central-plans-pricing
-random_paper: 134
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Fooddata Central Rate Limits

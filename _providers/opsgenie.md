@@ -644,7 +644,7 @@ plans:
 - name: Opsgenie Plans Pricing
   plan_count: 5
   slug: opsgenie-plans-pricing
-random_paper: 113
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Opsgenie Rate Limits

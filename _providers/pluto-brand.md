@@ -68,7 +68,7 @@ overview: 'Pluto Brand is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Pluto Brand''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 85
+random_paper: 15
 score:
   band: minimal
   composite: 10.6

@@ -64,7 +64,7 @@ overview: 'Postcodes.io publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Postcodes.io''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 49
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

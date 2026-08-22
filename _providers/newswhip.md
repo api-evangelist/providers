@@ -244,7 +244,7 @@ plans:
 - name: Newswhip Plans Pricing
   plan_count: 3
   slug: newswhip-plans-pricing
-random_paper: 140
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Newswhip Rate Limits

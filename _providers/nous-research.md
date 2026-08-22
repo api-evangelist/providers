@@ -165,7 +165,7 @@ overview: 'Nous Research publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nous Research''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: emerging
   composite: 21.5

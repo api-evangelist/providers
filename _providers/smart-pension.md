@@ -1078,7 +1078,7 @@ overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Smart Pension Rate Limits

@@ -64,7 +64,7 @@ overview: 'Web of Trust publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Web of Trust''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 7
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

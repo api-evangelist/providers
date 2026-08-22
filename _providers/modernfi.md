@@ -203,7 +203,7 @@ overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 107
+random_paper: 12
 score:
   band: developing
   composite: 46.0

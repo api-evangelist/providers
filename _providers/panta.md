@@ -60,7 +60,7 @@ overview: 'Panta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Panta''s developer surface includes support and 3 more developer resources.'
-random_paper: 85
+random_paper: 7
 score:
   band: minimal
   composite: 6.3

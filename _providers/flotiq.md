@@ -92,7 +92,7 @@ overview: 'Flotiq publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flotiq''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: emerging
   composite: 21.6

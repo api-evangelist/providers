@@ -57,7 +57,7 @@ name: Tapshots
 nav: Providers
 network: true
 overview: Tapshots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Mobile, Video Capture, and Survey.
-random_paper: 141
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

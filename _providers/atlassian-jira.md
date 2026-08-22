@@ -223,7 +223,7 @@ plans:
 - name: Atlassian Jira Plans Pricing
   plan_count: 3
   slug: atlassian-jira-plans-pricing
-random_paper: 86
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Atlassian Jira Rate Limits

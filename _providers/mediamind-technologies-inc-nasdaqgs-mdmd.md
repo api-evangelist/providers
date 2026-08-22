@@ -45,7 +45,7 @@ name: MediaMind Technologies Inc. (NasdaqGS:MDMD)
 nav: Providers
 network: true
 overview: MediaMind Technologies Inc. (NasdaqGS:MDMD) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

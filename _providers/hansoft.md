@@ -170,7 +170,7 @@ overview: 'Hansoft publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: developing
   composite: 47.4

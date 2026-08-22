@@ -93,7 +93,7 @@ overview: 'Splash Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Splash Financial''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 139
+random_paper: 12
 score:
   band: emerging
   composite: 12.6

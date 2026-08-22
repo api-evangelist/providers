@@ -87,7 +87,7 @@ overview: 'Galvanize Therapeutics is profiled on the [APIs.io](https://apis.io/)
 
 
   Galvanize Therapeutics'' developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 68
+random_paper: 14
 score:
   band: emerging
   composite: 11.2

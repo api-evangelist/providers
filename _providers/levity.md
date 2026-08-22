@@ -113,7 +113,7 @@ overview: 'Levity is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Levity''s developer surface includes engineering blog, support, FAQ, and 14 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 18.0

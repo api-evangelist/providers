@@ -154,7 +154,7 @@ plans:
 - name: Franklin Whole Home Plans Pricing
   plan_count: 0
   slug: franklin-whole-home-plans-pricing
-random_paper: 123
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Franklin Whole Home Rate Limits

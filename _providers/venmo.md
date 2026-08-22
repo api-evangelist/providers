@@ -116,7 +116,7 @@ overview: 'Venmo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Venmo''s developer surface includes signup flow, documentation, API reference, and 15 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: thin
   composite: 31.1

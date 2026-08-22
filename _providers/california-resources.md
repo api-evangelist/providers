@@ -45,7 +45,7 @@ name: California Resources
 nav: Providers
 network: true
 overview: California Resources is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 143
+random_paper: 1
 score:
   band: minimal
   composite: 2.6

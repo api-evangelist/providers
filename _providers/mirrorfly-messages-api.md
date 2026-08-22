@@ -143,7 +143,7 @@ overview: 'MirrorFly Messages API publishes 1 API on the [APIs.io](https://apis.
 
 
   MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 23
+random_paper: 11
 score:
   band: developing
   composite: 40.3

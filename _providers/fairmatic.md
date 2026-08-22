@@ -54,7 +54,7 @@ name: Fairmatic
 nav: Providers
 network: true
 overview: Fairmatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Commercial Auto Insurance, and Telematics.
-random_paper: 50
+random_paper: 20
 score:
   band: minimal
   composite: 0.5

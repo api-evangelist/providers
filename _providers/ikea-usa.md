@@ -176,7 +176,7 @@ overview: 'IKEA U.S. is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   IKEA U.S.''s developer surface includes support, FAQ, GitHub presence, YouTube channel, and 29 more developer resources.'
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 6.6

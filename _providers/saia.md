@@ -70,7 +70,7 @@ plans:
 - name: Saia Plans Pricing
   plan_count: 1
   slug: saia-plans-pricing
-random_paper: 116
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Saia Rate Limits

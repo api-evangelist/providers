@@ -265,7 +265,7 @@ overview: 'Elementum publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Elementum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: developing
   composite: 42.5

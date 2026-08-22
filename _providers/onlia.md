@@ -112,7 +112,7 @@ overview: 'Onlia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Onlia''s developer surface includes engineering blog, support, developer portal, and 16 more developer resources.'
-random_paper: 84
+random_paper: 6
 score:
   band: emerging
   composite: 12.4

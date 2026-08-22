@@ -49,7 +49,7 @@ name: Vidcaster
 nav: Providers
 network: true
 overview: Vidcaster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Platform, Video Marketing, and Video Hosting.
-random_paper: 71
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

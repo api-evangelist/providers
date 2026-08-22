@@ -89,7 +89,7 @@ plans:
 - name: Rtsp Plans Pricing
   plan_count: 3
   slug: rtsp-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Rtsp Rate Limits

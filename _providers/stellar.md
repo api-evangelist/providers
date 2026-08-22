@@ -861,7 +861,7 @@ plans:
 - name: Stellar Plans Pricing
   plan_count: 3
   slug: stellar-plans-pricing
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Stellar Rate Limits

@@ -178,7 +178,7 @@ overview: 'The Token Company publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   The Token Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 76
+random_paper: 14
 score:
   band: developing
   composite: 41.1

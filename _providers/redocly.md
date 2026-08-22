@@ -234,7 +234,7 @@ plans:
 - name: Redocly Plans Pricing
   plan_count: 13
   slug: redocly-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Redocly Rate Limits

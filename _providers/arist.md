@@ -139,7 +139,7 @@ overview: 'Arist publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Arist''s developer surface includes documentation, support, getting-started guide, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 100
+random_paper: 1
 scopes:
 - name: Arist Scopes
   scope_count: 14

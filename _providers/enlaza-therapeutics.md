@@ -57,7 +57,7 @@ name: Enlaza Therapeutics
 nav: Providers
 network: true
 overview: Enlaza Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Oncology.
-random_paper: 40
+random_paper: 3
 score:
   band: minimal
   composite: 9.0

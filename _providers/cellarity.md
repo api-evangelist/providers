@@ -240,7 +240,7 @@ overview: 'Cellarity publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cellarity''s developer surface includes product news, support, authentication, and 21 more developer resources.'
-random_paper: 75
+random_paper: 3
 score:
   band: emerging
   composite: 24.6

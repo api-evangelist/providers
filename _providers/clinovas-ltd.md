@@ -49,7 +49,7 @@ name: Clinovas LTD
 nav: Providers
 network: true
 overview: Clinovas LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Patient Recruitment, AI Matching, and EHR Integration.
-random_paper: 40
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

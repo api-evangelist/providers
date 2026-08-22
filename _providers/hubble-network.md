@@ -316,7 +316,7 @@ plans:
 - name: Hubble Network Plans Pricing
   plan_count: 4
   slug: hubble-network-plans-pricing
-random_paper: 108
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Hubble Network Rate Limits

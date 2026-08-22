@@ -60,7 +60,7 @@ overview: 'Cassie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cassie''s developer surface includes support and 3 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 4.3

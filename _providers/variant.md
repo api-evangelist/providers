@@ -60,7 +60,7 @@ overview: 'Variant is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Variant''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

@@ -84,7 +84,7 @@ overview: 'Comun is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Comun''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: emerging
   composite: 11.3

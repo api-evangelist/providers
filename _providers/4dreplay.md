@@ -104,7 +104,7 @@ overview: '4DReplay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   4DReplay''s developer surface includes documentation, support, signup flow, YouTube channel, and 13 more developer resources.'
-random_paper: 60
+random_paper: 7
 score:
   band: emerging
   composite: 16.0

@@ -105,7 +105,7 @@ plans:
 - name: Ellevest Plans Pricing
   plan_count: 2
   slug: ellevest-plans-pricing
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Ellevest Rate Limits

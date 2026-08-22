@@ -68,7 +68,7 @@ overview: 'Polycom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Polycom''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 9.7

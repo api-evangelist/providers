@@ -80,7 +80,7 @@ overview: 'Dollar Shave is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Dollar Shave''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: emerging
   composite: 11.9

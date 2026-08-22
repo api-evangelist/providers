@@ -172,7 +172,7 @@ overview: 'Checkmate publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 39
+random_paper: 9
 score:
   band: developing
   composite: 43.8

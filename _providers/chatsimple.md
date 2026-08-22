@@ -183,7 +183,7 @@ plans:
 - name: Chatsimple Plans
   plan_count: 9
   slug: chatsimple-plans
-random_paper: 23
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Chatsimple Rate Limits

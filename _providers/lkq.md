@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Infosys
   url: https://www.facebook.com/Infosys/posts/infosys-announced-a-5-year-collaboration-with-lkq-europe-as-a-strategic-partner-/755228826639312/
-random_paper: 30
+random_paper: 13
 score:
   band: minimal
   composite: 5.5

@@ -568,7 +568,7 @@ plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
   slug: f5-networks-plans-pricing
-random_paper: 50
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: F5 Networks Rate Limits

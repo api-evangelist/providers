@@ -97,7 +97,7 @@ overview: 'Vivoo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vivoo''s developer surface includes authentication, support, and 9 more developer resources.'
-random_paper: 116
+random_paper: 17
 scopes:
 - name: Vivoo Scopes
   scope_count: 4

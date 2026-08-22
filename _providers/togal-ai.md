@@ -109,7 +109,7 @@ overview: 'Togal.AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Togal.AI''s developer surface includes pricing, engineering blog, FAQ, support, GitHub presence, and 11 more developer resources.'
-random_paper: 37
+random_paper: 5
 score:
   band: minimal
   composite: 10.5

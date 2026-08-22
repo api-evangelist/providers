@@ -40,7 +40,7 @@ name: Briko Robotics
 nav: Providers
 network: true
 overview: Briko Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Robotics, and Hardware.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 0.9

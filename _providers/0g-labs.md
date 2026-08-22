@@ -262,7 +262,7 @@ overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 36 more developer resources.'
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: 0G Labs Rate Limits

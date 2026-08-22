@@ -49,7 +49,7 @@ name: SDSA
 nav: Providers
 network: true
 overview: SDSA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Agentic, and Operating System.
-random_paper: 129
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

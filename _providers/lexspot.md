@@ -50,7 +50,7 @@ name: LexSpot
 nav: Providers
 network: true
 overview: LexSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stub, Portfolio, 500 Global, and Unverified.
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

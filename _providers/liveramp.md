@@ -339,7 +339,7 @@ plans:
 - name: Liveramp Plans Pricing
   plan_count: 0
   slug: liveramp-plans-pricing
-random_paper: 119
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Liveramp Rate Limits

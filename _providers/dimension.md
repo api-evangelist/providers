@@ -72,7 +72,7 @@ overview: 'Dimension is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dimension''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 72
+random_paper: 0
 score:
   band: minimal
   composite: 6.4

@@ -190,7 +190,7 @@ overview: 'dxFeed publishes 2 APIs on the [APIs.io](https://apis.io/) network: d
 
 
   dxFeed''s developer surface includes authentication, sandbox, getting-started guide, API reference, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: developing
   composite: 45.7

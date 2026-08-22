@@ -53,7 +53,7 @@ name: Standard AI
 nav: Providers
 network: true
 overview: Standard AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Computer Vision, Artificial Intelligence, and Autonomous Checkout.
-random_paper: 53
+random_paper: 4
 score:
   band: minimal
   composite: 1.9

@@ -227,7 +227,7 @@ overview: 'Mon Ami publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 12 more developer resources.'
-random_paper: 90
+random_paper: 14
 score:
   band: developing
   composite: 42.2

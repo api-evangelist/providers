@@ -136,7 +136,7 @@ overview: 'Swiftly publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Swiftly''s developer surface includes engineering blog, product news, support, authentication, and 20 more developer resources.'
-random_paper: 41
+random_paper: 9
 score:
   band: thin
   composite: 28.1

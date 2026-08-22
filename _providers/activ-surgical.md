@@ -96,7 +96,7 @@ overview: 'Activ Surgical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Activ Surgical''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 97
+random_paper: 10
 score:
   band: emerging
   composite: 14.0

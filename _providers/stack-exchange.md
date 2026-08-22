@@ -201,7 +201,7 @@ plans:
 - name: Stack Exchange Plans Pricing
   plan_count: 3
   slug: stack-exchange-plans-pricing
-random_paper: 73
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Stack Exchange Rate Limits

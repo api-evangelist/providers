@@ -222,7 +222,7 @@ plans:
 - name: Whiplash Plans Pricing
   plan_count: 1
   slug: whiplash-plans-pricing
-random_paper: 119
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Whiplash Rate Limits

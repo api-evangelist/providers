@@ -120,7 +120,7 @@ overview: 'Fluidity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fluidity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 13 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: emerging
   composite: 19.5

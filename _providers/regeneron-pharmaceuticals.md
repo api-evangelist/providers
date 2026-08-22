@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: Emerging AI - The Nucleus | Regeneron Stories
   url: https://www.regeneron.com/stories/the-nucleus-emerging-ai-tools
-random_paper: 67
+random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []

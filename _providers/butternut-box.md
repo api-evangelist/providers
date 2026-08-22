@@ -95,7 +95,7 @@ overview: 'Butternut Box is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Butternut Box''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 38
+random_paper: 14
 score:
   band: emerging
   composite: 15.4

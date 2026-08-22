@@ -346,7 +346,7 @@ plans:
 - name: Cisco Catalyst Center Plans Pricing
   plan_count: 0
   slug: cisco-catalyst-center-plans-pricing
-random_paper: 43
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Cisco Catalyst Center Rate Limits

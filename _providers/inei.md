@@ -57,7 +57,7 @@ name: INEI
 nav: Providers
 network: true
 overview: INEI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 4.2

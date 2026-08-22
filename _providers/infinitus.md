@@ -157,7 +157,7 @@ plans:
 - name: Infinitus Plans Pricing
   plan_count: 0
   slug: infinitus-plans-pricing
-random_paper: 91
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Infinitus Rate Limits

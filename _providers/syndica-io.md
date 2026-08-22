@@ -193,7 +193,7 @@ overview: 'Syndica publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Syndica''s developer surface includes developer portal, documentation, FAQ, support, engineering blog, signup flow, pricing, and 18 more developer resources.'
-random_paper: 114
+random_paper: 0
 rules:
 - effective_rule_count: 34
   extends:

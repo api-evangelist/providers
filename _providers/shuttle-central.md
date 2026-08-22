@@ -88,7 +88,7 @@ overview: 'Shuttle Central is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Shuttle Central''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 77
+random_paper: 13
 score:
   band: emerging
   composite: 11.9

@@ -64,7 +64,7 @@ overview: 'Longdo Map publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Longdo Map''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 112
+random_paper: 19
 score:
   band: minimal
   composite: 6.2

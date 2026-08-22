@@ -93,7 +93,7 @@ plans:
 - name: Walgreens Boots Alliance Plans Pricing
   plan_count: 1
   slug: walgreens-boots-alliance-plans-pricing
-random_paper: 50
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Walgreens Boots Alliance Rate Limits

@@ -104,7 +104,7 @@ overview: 'DeepMind is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DeepMind''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 9 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: emerging
   composite: 23.1

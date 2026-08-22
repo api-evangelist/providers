@@ -157,7 +157,7 @@ plans:
 - name: Sinclair Broadcast Group Plans Pricing
   plan_count: 0
   slug: sinclair-broadcast-group-plans-pricing
-random_paper: 63
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Sinclair Broadcast Group Rate Limits

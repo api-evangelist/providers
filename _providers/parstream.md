@@ -40,7 +40,7 @@ name: Parstream
 nav: Providers
 network: true
 overview: Parstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Big Data, Database, and Internet of Things.
-random_paper: 81
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

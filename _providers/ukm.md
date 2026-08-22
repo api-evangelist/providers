@@ -93,7 +93,7 @@ plans:
 - name: Ukm Plans Pricing
   plan_count: 2
   slug: ukm-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Ukm Rate Limits

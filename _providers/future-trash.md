@@ -60,7 +60,7 @@ overview: 'Future Trash is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Future Trash''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 66
+random_paper: 19
 score:
   band: minimal
   composite: 8.5

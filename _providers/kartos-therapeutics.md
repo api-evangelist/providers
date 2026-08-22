@@ -171,7 +171,7 @@ overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
-random_paper: 65
+random_paper: 7
 score:
   band: emerging
   composite: 20.5

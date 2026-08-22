@@ -244,7 +244,7 @@ plans:
 - name: Dealhub Plans Pricing
   plan_count: 0
   slug: dealhub-plans-pricing
-random_paper: 129
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Dealhub Rate Limits

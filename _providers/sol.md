@@ -72,7 +72,7 @@ overview: 'Sol is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Sol''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: emerging
   composite: 12.7

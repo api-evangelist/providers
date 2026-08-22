@@ -57,7 +57,7 @@ name: ELV8
 nav: Providers
 network: true
 overview: ELV8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, NIL, and College Athletics.
-random_paper: 85
+random_paper: 5
 score:
   band: minimal
   composite: 7.6

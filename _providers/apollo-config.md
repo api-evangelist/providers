@@ -286,7 +286,7 @@ plans:
 - name: Apollo Config Plans Pricing
   plan_count: 3
   slug: apollo-config-plans-pricing
-random_paper: 130
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Apollo Config Rate Limits

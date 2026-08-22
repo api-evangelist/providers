@@ -88,7 +88,7 @@ overview: 'ABILITY Network (Inovalon) is profiled on the [APIs.io](https://apis.
 
 
   ABILITY Network (Inovalon)''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 104
+random_paper: 10
 score:
   band: emerging
   composite: 11.5

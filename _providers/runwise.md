@@ -76,7 +76,7 @@ overview: 'Runwise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Runwise''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: emerging
   composite: 13.2

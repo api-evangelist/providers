@@ -244,7 +244,7 @@ plans:
 - name: Lucidya Ltd Plans Pricing
   plan_count: 5
   slug: lucidya-ltd-plans-pricing
-random_paper: 73
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Lucidya Ltd Rate Limits

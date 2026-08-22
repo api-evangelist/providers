@@ -53,7 +53,7 @@ name: Dream Finders Homes
 nav: Providers
 network: true
 overview: Dream Finders Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilding, Real Estate, Construction, Residential, and Housing.
-random_paper: 110
+random_paper: 8
 score:
   band: minimal
   composite: 4.4

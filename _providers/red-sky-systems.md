@@ -40,7 +40,7 @@ name: Red Sky Systems
 nav: Providers
 network: true
 overview: Red Sky Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 50
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

@@ -101,7 +101,7 @@ overview: 'Kimba is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kimba''s developer surface includes engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 69
+random_paper: 12
 scopes:
 - name: Kimba Scopes
   scope_count: 4

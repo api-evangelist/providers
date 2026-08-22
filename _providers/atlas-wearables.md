@@ -45,7 +45,7 @@ name: Atlas Wearables
 nav: Providers
 network: true
 overview: Atlas Wearables is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wearables, Fitness, Hardware, and Health.
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 2.2

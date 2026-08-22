@@ -84,7 +84,7 @@ overview: 'Vancity Community Investment Bank is profiled on the [APIs.io](https:
 
 
   Vancity Community Investment Bank''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 133
+random_paper: 9
 score:
   band: emerging
   composite: 12.8

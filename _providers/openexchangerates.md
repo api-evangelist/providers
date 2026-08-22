@@ -238,7 +238,7 @@ plans:
 - name: Openexchangerates Plans Pricing
   plan_count: 5
   slug: openexchangerates-plans-pricing
-random_paper: 24
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Openexchangerates Rate Limits

@@ -109,7 +109,7 @@ plans:
 - name: Dxc Technology Plans Pricing
   plan_count: 1
   slug: dxc-technology-plans-pricing
-random_paper: 107
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Dxc Technology Rate Limits

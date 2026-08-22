@@ -109,7 +109,7 @@ overview: '4M Analytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   4M Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 131
+random_paper: 19
 score:
   band: thin
   composite: 29.1

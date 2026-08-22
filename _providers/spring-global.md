@@ -60,7 +60,7 @@ overview: 'Spring Global is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Spring Global''s developer surface includes support and 3 more developer resources.'
-random_paper: 137
+random_paper: 6
 score:
   band: minimal
   composite: 8.1

@@ -714,7 +714,7 @@ plans:
 - name: Salesforce Marketing Cloud Plans Pricing
   plan_count: 10
   slug: salesforce-marketing-cloud-plans-pricing
-random_paper: 117
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Salesforce Marketing Cloud Rate Limits

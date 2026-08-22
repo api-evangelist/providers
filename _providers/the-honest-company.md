@@ -85,7 +85,7 @@ overview: 'The Honest Company is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Honest Company''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
-random_paper: 39
+random_paper: 0
 scopes:
 - name: The Honest Company Scopes
   scope_count: 4

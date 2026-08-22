@@ -76,7 +76,7 @@ overview: 'Zorus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zorus'' developer surface includes developer portal, engineering blog, support, and 5 more developer resources.'
-random_paper: 132
+random_paper: 12
 score:
   band: emerging
   composite: 11.5

@@ -84,7 +84,7 @@ overview: 'Kiva Systems (Amazon Robotics since 2012) is profiled on the [APIs.io
 
 
   Kiva Systems (Amazon Robotics since 2012)''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 110
+random_paper: 11
 score:
   band: minimal
   composite: 7.6

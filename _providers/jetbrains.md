@@ -347,7 +347,7 @@ plans:
 - name: Jetbrains Plans Pricing
   plan_count: 7
   slug: jetbrains-plans-pricing
-random_paper: 68
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Jetbrains Rate Limits

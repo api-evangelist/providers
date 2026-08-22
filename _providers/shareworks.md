@@ -465,7 +465,7 @@ plans:
 - name: Shareworks Plans Pricing
   plan_count: 2
   slug: shareworks-plans-pricing
-random_paper: 54
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Shareworks Rate Limits

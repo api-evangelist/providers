@@ -106,7 +106,7 @@ plans:
 - name: Imperson Plans Pricing
   plan_count: 0
   slug: imperson-plans-pricing
-random_paper: 132
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Imperson Rate Limits

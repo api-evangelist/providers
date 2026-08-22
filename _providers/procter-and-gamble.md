@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: How Procter & Gamble is Leveraging AI to Democratize ...
   url: https://www.youtube.com/watch?v=DjxguIe1tqc
-random_paper: 141
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Procter And Gamble Rate Limits

@@ -88,7 +88,7 @@ overview: 'Xpeng is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xpeng''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: emerging
   composite: 13.1

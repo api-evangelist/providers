@@ -267,7 +267,7 @@ overview: 'VCV publishes 17 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: developing
   composite: 40.7

@@ -45,7 +45,7 @@ name: RolePoint
 nav: Providers
 network: true
 overview: RolePoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, Employee Referrals, and Internal Mobility.
-random_paper: 94
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

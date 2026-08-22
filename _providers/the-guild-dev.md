@@ -496,7 +496,7 @@ plans:
 - name: Schema Stitching Plans Pricing
   plan_count: 3
   slug: schema-stitching-plans-pricing
-random_paper: 71
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Graphql Codegen Rate Limits

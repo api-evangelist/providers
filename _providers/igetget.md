@@ -53,7 +53,7 @@ name: igetget
 nav: Providers
 network: true
 overview: igetget is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Knowledge, Education, E-Learning, and Audiobooks.
-random_paper: 0
+random_paper: 10
 score:
   band: minimal
   composite: 4.4

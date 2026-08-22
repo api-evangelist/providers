@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence
   url: https://news.northropgrumman.com/artificial-intelligence
-random_paper: 57
+random_paper: 16
 score:
   band: minimal
   composite: 3.9

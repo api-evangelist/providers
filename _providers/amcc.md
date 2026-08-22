@@ -40,7 +40,7 @@ name: AMCC
 nav: Providers
 network: true
 overview: AMCC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chips, Processors, and ARM.
-random_paper: 106
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

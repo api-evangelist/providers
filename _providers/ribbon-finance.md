@@ -180,7 +180,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 64
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aevo Websocket

@@ -145,7 +145,7 @@ plans:
 - name: Google Play Console Plans Pricing
   plan_count: 3
   slug: google-play-console-plans-pricing
-random_paper: 132
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Play Console Rate Limits

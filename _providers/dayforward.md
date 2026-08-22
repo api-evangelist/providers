@@ -95,7 +95,7 @@ overview: 'Dayforward publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Dayforward''s developer surface includes signup flow, support, FAQ, and 11 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: minimal
   composite: 8.0

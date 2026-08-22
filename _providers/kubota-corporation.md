@@ -92,7 +92,7 @@ overview: 'Kubota Corporation is profiled on the [APIs.io](https://apis.io/) net
 
 
   Kubota Corporation''s developer surface includes product news and 11 more developer resources.'
-random_paper: 103
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

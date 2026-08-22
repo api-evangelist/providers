@@ -261,7 +261,7 @@ plans:
 - name: Hustle Plans Pricing
   plan_count: 2
   slug: hustle-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Hustle Rate Limits

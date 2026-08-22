@@ -177,7 +177,7 @@ plans:
 - name: Newfold Plans Pricing
   plan_count: 0
   slug: newfold-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Newfold Rate Limits

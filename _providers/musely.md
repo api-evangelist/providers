@@ -76,7 +76,7 @@ overview: 'Musely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Musely''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 75
+random_paper: 20
 score:
   band: emerging
   composite: 12.6

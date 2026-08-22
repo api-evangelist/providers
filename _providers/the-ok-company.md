@@ -45,7 +45,7 @@ name: The OK Company
 nav: Providers
 network: true
 overview: The OK Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile Apps, Parenting, and Children.
-random_paper: 47
+random_paper: 2
 score:
   band: minimal
   composite: 0.9

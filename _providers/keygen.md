@@ -193,7 +193,7 @@ plans:
 - name: Keygen Plans Pricing
   plan_count: 5
   slug: keygen-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Keygen Rate Limits

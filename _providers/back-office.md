@@ -88,7 +88,7 @@ overview: 'Back Office is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Back Office''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 23
+random_paper: 16
 score:
   band: emerging
   composite: 16.8

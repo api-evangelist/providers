@@ -200,7 +200,7 @@ plans:
 - name: Triplelift Plans Pricing
   plan_count: 0
   slug: triplelift-plans-pricing
-random_paper: 44
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Triplelift Rate Limits

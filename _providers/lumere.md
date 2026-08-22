@@ -49,7 +49,7 @@ name: Lumere
 nav: Providers
 network: true
 overview: Lumere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Clinical Analytics, and Supply Chain.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

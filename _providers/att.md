@@ -1146,7 +1146,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits

@@ -80,7 +80,7 @@ overview: '01 Exchange is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   01 Exchange''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: minimal
   composite: 6.1

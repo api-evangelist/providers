@@ -129,7 +129,7 @@ overview: 'Balance publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Balance''s developer surface includes documentation, engineering blog, support, signup flow, changelog, and 14 more developer resources.'
-random_paper: 114
+random_paper: 17
 score:
   band: thin
   composite: 32.0

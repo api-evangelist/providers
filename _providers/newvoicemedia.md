@@ -104,7 +104,7 @@ overview: 'NewVoiceMedia publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   NewVoiceMedia''s developer surface includes documentation, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 35
+random_paper: 11
 scopes:
 - name: Newvoicemedia Scopes
   scope_count: 10

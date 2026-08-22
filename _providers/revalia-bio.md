@@ -57,7 +57,7 @@ name: Revalia Bio
 nav: Providers
 network: true
 overview: Revalia Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, AI, Drug Development, and Medical Devices.
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 9.0

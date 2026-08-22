@@ -137,7 +137,7 @@ overview: 'MagicX publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   MagicX''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 16 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 32.8

@@ -179,7 +179,7 @@ plans:
 - name: Rely Plans Pricing
   plan_count: 3
   slug: rely-plans-pricing
-random_paper: 146
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Rely Rate Limits

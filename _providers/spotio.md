@@ -453,7 +453,7 @@ plans:
 - name: Spotio Plans Pricing
   plan_count: 3
   slug: spotio-plans-pricing
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Spotio Rate Limits

@@ -97,7 +97,7 @@ overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Academia''s developer surface includes support and 10 more developer resources.'
-random_paper: 60
+random_paper: 7
 score:
   band: emerging
   composite: 15.2

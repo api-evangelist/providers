@@ -84,7 +84,7 @@ overview: 'Rupifi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rupifi''s developer surface includes documentation, API reference, support, and 7 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 9.9

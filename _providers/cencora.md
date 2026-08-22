@@ -65,7 +65,7 @@ name: Cencora
 nav: Providers
 network: true
 overview: Cencora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Cell and Gene Therapy, EDI, Healthcare, and Pharmaceutical Distribution.
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

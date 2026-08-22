@@ -53,7 +53,7 @@ name: Clicker
 nav: Providers
 network: true
 overview: Clicker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Streaming, Entertainment, Media, and Movies.
-random_paper: 137
+random_paper: 19
 score:
   band: minimal
   composite: 9.2

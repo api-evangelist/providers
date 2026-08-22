@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: The Apache Software Foundation Launches Responsible ...
   url: https://www.hpcwire.com/aiwire/2026/04/10/the-apache-software-foundation-launches-responsible-ai-initiative/
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Apache Rate Limits

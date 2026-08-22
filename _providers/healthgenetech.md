@@ -49,7 +49,7 @@ name: healthgenetech
 nav: Providers
 network: true
 overview: healthgenetech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Genomics, Diagnostics, and Bioinformatics.
-random_paper: 124
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

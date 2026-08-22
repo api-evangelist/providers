@@ -100,7 +100,7 @@ overview: 'Teladoc Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Teladoc Health''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 66
+random_paper: 0
 score:
   band: minimal
   composite: 2.8

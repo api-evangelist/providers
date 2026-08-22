@@ -124,7 +124,7 @@ plans:
 - name: Carbonfarm Plans Pricing
   plan_count: 0
   slug: carbonfarm-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Carbonfarm Rate Limits

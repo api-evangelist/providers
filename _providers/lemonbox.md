@@ -89,7 +89,7 @@ overview: 'LemonBox is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LemonBox''s developer surface includes engineering blog, FAQ, and 9 more developer resources.'
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 4.5

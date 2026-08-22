@@ -72,7 +72,7 @@ overview: 'Uhura Solutions is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Uhura Solutions'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 112
+random_paper: 6
 score:
   band: minimal
   composite: 9.4

@@ -85,7 +85,7 @@ overview: 'Cirius Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cirius Therapeutics'' developer surface includes product news and 7 more developer resources.'
-random_paper: 60
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

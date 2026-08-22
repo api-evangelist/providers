@@ -296,7 +296,7 @@ overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: developing
   composite: 44.7

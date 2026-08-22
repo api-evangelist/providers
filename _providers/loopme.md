@@ -203,7 +203,7 @@ plans:
 - name: Loopme Plans Pricing
   plan_count: 0
   slug: loopme-plans-pricing
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Loopme Rate Limits

@@ -97,7 +97,7 @@ overview: 'CrowdMade publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CrowdMade''s developer surface includes documentation, authentication, and 9 more developer resources.'
-random_paper: 56
+random_paper: 5
 scopes:
 - name: Crowdmade Scopes
   scope_count: 4

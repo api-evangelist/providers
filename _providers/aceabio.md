@@ -49,7 +49,7 @@ name: aceabio
 nav: Providers
 network: true
 overview: aceabio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Cell Analysis, and Diagnostics.
-random_paper: 112
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

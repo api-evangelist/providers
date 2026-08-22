@@ -440,7 +440,7 @@ plans:
 - name: Bamboo Plans Pricing
   plan_count: 3
   slug: bamboo-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Bamboo Rate Limits

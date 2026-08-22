@@ -68,7 +68,7 @@ overview: 'August Home is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   August Home''s developer surface includes support and 5 more developer resources.'
-random_paper: 92
+random_paper: 1
 score:
   band: minimal
   composite: 10.2

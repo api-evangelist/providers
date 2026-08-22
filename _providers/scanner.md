@@ -224,7 +224,7 @@ overview: 'Scanner publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Scanner''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: developing
   composite: 41.7

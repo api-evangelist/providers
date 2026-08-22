@@ -303,7 +303,7 @@ overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Ripio Rate Limits

@@ -1802,7 +1802,7 @@ plans:
 - name: Keboola Plans Pricing
   plan_count: 2
   slug: keboola-plans-pricing
-random_paper: 137
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Keboola Rate Limits

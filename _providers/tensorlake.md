@@ -143,7 +143,7 @@ plans:
 - name: Tensorlake Plans Pricing
   plan_count: 4
   slug: tensorlake-plans-pricing
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Tensorlake Rate Limits

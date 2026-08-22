@@ -138,7 +138,7 @@ plans:
 - name: Ms Office Plans Pricing
   plan_count: 3
   slug: ms-office-plans-pricing
-random_paper: 144
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Ms Office Rate Limits

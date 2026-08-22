@@ -201,7 +201,7 @@ overview: 'GumGum publishes 1 API on the [APIs.io](https://apis.io/) network: Co
 
 
   GumGum''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: developing
   composite: 54.0

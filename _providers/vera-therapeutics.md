@@ -61,7 +61,7 @@ name: Vera Therapeutics
 nav: Providers
 network: true
 overview: Vera Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biopharmaceutical, Pharmaceuticals, and Nephrology.
-random_paper: 133
+random_paper: 8
 score:
   band: minimal
   composite: 9.0

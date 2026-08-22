@@ -337,7 +337,7 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
 
 
   Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 44 more developer resources.'
-random_paper: 56
+random_paper: 7
 rules:
 - effective_rule_count: 5
   extends: []

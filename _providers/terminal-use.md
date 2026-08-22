@@ -332,7 +332,7 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
 
   Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: developing
   composite: 39.3

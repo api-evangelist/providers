@@ -240,7 +240,7 @@ overview: 'NetBox Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NetBox Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 76
+random_paper: 6
 score:
   band: developing
   composite: 52.2

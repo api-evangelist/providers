@@ -185,7 +185,7 @@ plans:
 - name: Sessionai Plans Pricing
   plan_count: 0
   slug: sessionai-plans-pricing
-random_paper: 80
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Sessionai Rate Limits

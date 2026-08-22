@@ -189,7 +189,7 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pliant''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: developing
   composite: 48.8

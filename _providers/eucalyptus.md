@@ -80,7 +80,7 @@ overview: 'Eucalyptus is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Eucalyptus'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 60
+random_paper: 11
 score:
   band: minimal
   composite: 10.1

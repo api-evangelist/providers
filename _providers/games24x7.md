@@ -113,7 +113,7 @@ plans:
 - name: Games24X7 Plans Pricing
   plan_count: 0
   slug: games24x7-plans-pricing
-random_paper: 57
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Games24X7 Rate Limits

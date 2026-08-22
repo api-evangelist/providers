@@ -156,7 +156,7 @@ plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
   slug: 2020-police-brutality-plans-pricing
-random_paper: 126
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: 2020 Police Brutality Rate Limits

@@ -57,7 +57,7 @@ name: Tokopedia
 nav: Providers
 network: true
 overview: Tokopedia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping and Public APIs.
-random_paper: 66
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

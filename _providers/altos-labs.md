@@ -57,7 +57,7 @@ name: Altos Labs
 nav: Providers
 network: true
 overview: Altos Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Life Sciences, and Longevity.
-random_paper: 116
+random_paper: 2
 score:
   band: minimal
   composite: 6.5

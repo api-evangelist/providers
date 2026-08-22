@@ -386,7 +386,7 @@ plans:
 - name: Splunk Observability Plans Pricing
   plan_count: 10
   slug: splunk-observability-plans-pricing
-random_paper: 35
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Splunk Observability Rate Limits

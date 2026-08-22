@@ -183,7 +183,7 @@ overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis
 
 
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 23 more developer resources.'
-random_paper: 29
+random_paper: 17
 score:
   band: thin
   composite: 30.9

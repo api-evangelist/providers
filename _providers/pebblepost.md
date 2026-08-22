@@ -164,7 +164,7 @@ plans:
 - name: Pebblepost Plans Pricing
   plan_count: 0
   slug: pebblepost-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Pebblepost Rate Limits

@@ -64,7 +64,7 @@ overview: 'Stone Ridge is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Stone Ridge''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: minimal
   composite: 3.7

@@ -275,7 +275,7 @@ plans:
 - name: Mparticle Plans Pricing
   plan_count: 0
   slug: mparticle-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 14
   name: Mparticle Rate Limits

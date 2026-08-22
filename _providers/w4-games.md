@@ -129,7 +129,7 @@ overview: 'W4 Games publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   W4 Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: thin
   composite: 28.1

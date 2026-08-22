@@ -173,7 +173,7 @@ overview: 'Cobee by Pluxee publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 18 more developer resources.'
-random_paper: 63
+random_paper: 6
 score:
   band: developing
   composite: 46.0

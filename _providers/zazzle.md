@@ -194,7 +194,7 @@ overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
-random_paper: 76
+random_paper: 0
 score:
   band: thin
   composite: 29.2

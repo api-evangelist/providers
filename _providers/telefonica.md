@@ -265,7 +265,7 @@ plans:
 - name: Telefonica Plans Pricing
   plan_count: 2
   slug: telefonica-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Telefonica Rate Limits

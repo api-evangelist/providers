@@ -72,7 +72,7 @@ overview: 'Lyten is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lyten''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: minimal
   composite: 7.4

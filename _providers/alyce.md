@@ -114,7 +114,7 @@ plans:
 - name: Alyce Plans Pricing
   plan_count: 3
   slug: alyce-plans-pricing
-random_paper: 79
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Alyce Rate Limits

@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: eqr-def14a_20200625.htm
   url: https://www.sec.gov/Archives/edgar/data/906107/000156459020017733/eqr-def14a_20200625.htm
-random_paper: 102
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

@@ -144,7 +144,7 @@ overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Circle Pharma''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 112
+random_paper: 2
 score:
   band: thin
   composite: 34.0

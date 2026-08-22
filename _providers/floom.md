@@ -53,7 +53,7 @@ name: Floom
 nav: Providers
 network: true
 overview: Floom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flowers, Floristry, Marketplace, and E-Commerce.
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

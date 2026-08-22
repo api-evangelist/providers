@@ -93,7 +93,7 @@ overview: 'ISAAC Instruments publishes 8 APIs on the [APIs.io](https://apis.io/)
 
 
   ISAAC Instruments'' developer surface includes documentation and 5 more developer resources.'
-random_paper: 147
+random_paper: 1
 score:
   band: minimal
   composite: 8.4

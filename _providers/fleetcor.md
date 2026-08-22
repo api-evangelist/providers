@@ -102,7 +102,7 @@ name: Corpay (formerly FLEETCOR)
 nav: Providers
 network: true
 overview: Corpay (formerly FLEETCOR) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Payments, Corporate Payments, Fleet Cards, Fuel Cards, and Commercial Cards.
-random_paper: 107
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

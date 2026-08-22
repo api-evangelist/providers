@@ -45,7 +45,7 @@ name: Omvana
 nav: Providers
 network: true
 overview: Omvana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meditation, Mindfulness, Wellness, and Personal Growth.
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

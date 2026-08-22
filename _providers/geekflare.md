@@ -64,7 +64,7 @@ overview: 'GeekFlare publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   GeekFlare''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 40
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

@@ -76,7 +76,7 @@ overview: 'Art19 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Art19''s developer surface includes support and 7 more developer resources.'
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 8.1

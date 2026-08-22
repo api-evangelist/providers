@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: Murphy Oil Corporation announces second quarter 2023 ...
   url: https://energynow.com/2023/08/murphy-oil-corporation-announces-second-quarter-2023-financial-and-operating-results-strategic-portfolio-repositioning/
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 1.2

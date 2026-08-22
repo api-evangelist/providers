@@ -327,7 +327,7 @@ plans:
 - name: Trellix Web Gateway Plans Pricing
   plan_count: 1
   slug: trellix-web-gateway-plans-pricing
-random_paper: 146
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Trellix Web Gateway Rate Limits

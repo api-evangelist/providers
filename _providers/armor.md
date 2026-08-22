@@ -596,7 +596,7 @@ overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 98
+random_paper: 20
 scopes:
 - name: Armor Scopes
   scope_count: 4

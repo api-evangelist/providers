@@ -80,7 +80,7 @@ overview: 'HiGuest is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HiGuest''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
   composite: 12.7

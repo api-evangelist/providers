@@ -89,7 +89,7 @@ overview: 'Aurorin CAD is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Aurorin CAD''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 66
+random_paper: 17
 score:
   band: minimal
   composite: 7.5

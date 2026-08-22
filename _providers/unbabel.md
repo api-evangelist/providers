@@ -157,7 +157,7 @@ plans:
 - name: Unbabel Plans Pricing
   plan_count: 3
   slug: unbabel-plans-pricing
-random_paper: 133
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Unbabel Rate Limits

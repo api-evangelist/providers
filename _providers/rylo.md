@@ -72,7 +72,7 @@ overview: 'Rylo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rylo''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
   band: emerging
   composite: 12.7

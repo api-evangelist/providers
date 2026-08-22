@@ -796,7 +796,7 @@ plans:
 - name: Github Copilot Plans Pricing
   plan_count: 5
   slug: github-copilot-plans-pricing
-random_paper: 109
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Github Copilot Rate Limits

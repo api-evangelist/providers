@@ -53,7 +53,7 @@ name: DHCP
 nav: Providers
 network: true
 overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Addresses, and Lease Management.
-random_paper: 117
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

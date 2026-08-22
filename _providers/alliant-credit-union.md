@@ -59,7 +59,7 @@ overview: 'Alliant Credit Union is profiled on the [APIs.io](https://apis.io/) n
 
 
   Alliant Credit Union''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 82
+random_paper: 3
 score:
   band: minimal
   composite: 5.8

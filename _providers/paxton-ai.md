@@ -117,7 +117,7 @@ overview: 'Paxton AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Paxton AI''s developer surface includes pricing, signup flow, engineering blog, GitHub presence, and 14 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 7.4

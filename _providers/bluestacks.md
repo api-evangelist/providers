@@ -181,7 +181,7 @@ overview: 'Bluestacks publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bluestacks'' developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 30
+random_paper: 2
 scopes:
 - name: Bluestacks Scopes
   scope_count: 3

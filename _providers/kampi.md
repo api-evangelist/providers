@@ -88,7 +88,7 @@ overview: 'Kampi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kampi''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 83
+random_paper: 5
 score:
   band: emerging
   composite: 11.4

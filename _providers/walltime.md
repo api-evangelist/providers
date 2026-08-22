@@ -53,7 +53,7 @@ name: Walltime
 nav: Providers
 network: true
 overview: Walltime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain and Public APIs.
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

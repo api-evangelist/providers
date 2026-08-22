@@ -77,7 +77,7 @@ plans:
 - name: Advolveai Plans Pricing
   plan_count: 0
   slug: advolveai-plans-pricing
-random_paper: 61
+random_paper: 10
 score:
   band: minimal
   composite: 5.3

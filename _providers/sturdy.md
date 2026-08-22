@@ -72,7 +72,7 @@ overview: 'Sturdy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sturdy''s developer surface includes documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 87
+random_paper: 11
 score:
   band: minimal
   composite: 9.4

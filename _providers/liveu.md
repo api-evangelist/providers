@@ -96,7 +96,7 @@ overview: 'Liveu is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Liveu''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: emerging
   composite: 15.9

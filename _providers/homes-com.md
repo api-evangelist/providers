@@ -157,7 +157,7 @@ overview: 'Homes.com is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Homes.com''s developer surface includes support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: emerging
   composite: 25.4

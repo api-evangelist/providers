@@ -45,7 +45,7 @@ name: Bluetalon
 nav: Providers
 network: true
 overview: Bluetalon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Security, Data Access Control, Data Masking, and Data Governance.
-random_paper: 72
+random_paper: 0
 score:
   band: minimal
   composite: 5.3

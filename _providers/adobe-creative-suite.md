@@ -1259,7 +1259,7 @@ plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
   slug: adobe-creative-suite-plans-pricing
-random_paper: 65
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Adobe Creative Suite Rate Limits

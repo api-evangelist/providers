@@ -277,7 +277,7 @@ plans:
 - name: Vim Plans Pricing
   plan_count: 0
   slug: vim-plans-pricing
-random_paper: 34
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Vim Rate Limits

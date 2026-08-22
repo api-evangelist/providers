@@ -76,7 +76,7 @@ overview: 'Everdrop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Everdrop''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 126
+random_paper: 10
 score:
   band: minimal
   composite: 10.6

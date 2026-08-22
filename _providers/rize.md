@@ -49,7 +49,7 @@ name: Rize
 nav: Providers
 network: true
 overview: Rize is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Embedded Finance.
-random_paper: 144
+random_paper: 1
 score:
   band: minimal
   composite: 1.5

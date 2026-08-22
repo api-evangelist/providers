@@ -268,7 +268,7 @@ overview: 'Flock Safety publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 28 more developer resources.'
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Flock Safety Rate Limits

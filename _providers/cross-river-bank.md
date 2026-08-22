@@ -114,7 +114,7 @@ plans:
 - name: Cross River Bank Plans Pricing
   plan_count: 1
   slug: cross-river-bank-plans-pricing
-random_paper: 118
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Cross River Bank Rate Limits

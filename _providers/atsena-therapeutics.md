@@ -216,7 +216,7 @@ overview: 'Atsena Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io
 
 
   Atsena Therapeutics'' developer surface includes engineering blog, product news, support, authentication, and 27 more developer resources.'
-random_paper: 41
+random_paper: 4
 score:
   band: thin
   composite: 31.5

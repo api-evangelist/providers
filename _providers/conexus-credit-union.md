@@ -76,7 +76,7 @@ overview: 'Conexus Credit Union is profiled on the [APIs.io](https://apis.io/) n
 
 
   Conexus Credit Union''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 114
+random_paper: 14
 score:
   band: minimal
   composite: 10.7

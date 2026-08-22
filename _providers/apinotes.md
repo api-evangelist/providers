@@ -104,7 +104,7 @@ plans:
 - name: Apinotes Plans Pricing
   plan_count: 3
   slug: apinotes-plans-pricing
-random_paper: 122
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Apinotes Rate Limits

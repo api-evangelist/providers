@@ -66,7 +66,7 @@ plans:
 - name: Circor International Plans Pricing
   plan_count: 1
   slug: circor-international-plans-pricing
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Circor International Rate Limits

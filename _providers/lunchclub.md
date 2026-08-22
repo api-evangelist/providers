@@ -49,7 +49,7 @@ name: Lunchclub
 nav: Providers
 network: true
 overview: Lunchclub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Professional Networking, Artificial Intelligence, Matching, and Introductions.
-random_paper: 66
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

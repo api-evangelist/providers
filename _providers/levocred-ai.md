@@ -65,7 +65,7 @@ name: Levocred AI
 nav: Providers
 network: true
 overview: Levocred AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Private Credit, and Lending.
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 10.0

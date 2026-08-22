@@ -230,7 +230,7 @@ overview: 'Meow publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 142
+random_paper: 20
 scopes:
 - name: Meow Scopes
   scope_count: 0

@@ -186,7 +186,7 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 16 more developer resources.'
-random_paper: 103
+random_paper: 8
 score:
   band: thin
   composite: 35.0

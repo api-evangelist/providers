@@ -145,7 +145,7 @@ plans:
 - name: Tax Reporting Templates Plans Pricing
   plan_count: 3
   slug: tax-reporting-templates-plans-pricing
-random_paper: 0
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Tax Reporting Templates Rate Limits

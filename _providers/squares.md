@@ -68,7 +68,7 @@ overview: 'Squares is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Squares'' developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 12.3

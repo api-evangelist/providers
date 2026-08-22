@@ -68,7 +68,7 @@ overview: 'Infermedica publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Infermedica''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 100
+random_paper: 9
 score:
   band: minimal
   composite: 7.1

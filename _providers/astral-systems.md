@@ -68,7 +68,7 @@ overview: 'Astral Systems is profiled on the [APIs.io](https://apis.io/) network
 
 
   Astral Systems'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 143
+random_paper: 14
 score:
   band: minimal
   composite: 4.7

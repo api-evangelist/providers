@@ -133,7 +133,7 @@ overview: 'nib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   nib''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
-random_paper: 87
+random_paper: 2
 scopes:
 - name: Nib Health Funds Scopes
   scope_count: 14

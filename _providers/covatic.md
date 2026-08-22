@@ -171,7 +171,7 @@ plans:
 - name: Covatic Plans Pricing
   plan_count: 0
   slug: covatic-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Covatic Rate Limits

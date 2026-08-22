@@ -173,7 +173,7 @@ plans:
 - name: Flume Health Plans Pricing
   plan_count: 0
   slug: flume-health-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Flume Health Rate Limits

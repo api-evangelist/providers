@@ -201,7 +201,7 @@ overview: 'Embroker is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Embroker''s developer surface includes signup flow, engineering blog, tooling, privacy policy, terms of service, GitHub presence, and 32 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: emerging
   composite: 18.6

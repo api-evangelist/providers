@@ -57,7 +57,7 @@ name: openAFRICA
 nav: Providers
 network: true
 overview: openAFRICA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 4.2

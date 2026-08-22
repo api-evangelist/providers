@@ -92,7 +92,7 @@ overview: 'Xamarin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Xamarin''s developer surface includes documentation, engineering blog, support, changelog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
   composite: 13.9

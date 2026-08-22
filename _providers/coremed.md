@@ -45,7 +45,7 @@ name: coremed
 nav: Providers
 network: true
 overview: coremed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical Research, Contract Research Organization, and Medical Devices.
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 2.2

@@ -92,7 +92,7 @@ plans:
 - name: Wintrust Financial Plans Pricing
   plan_count: 1
   slug: wintrust-financial-plans-pricing
-random_paper: 102
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Wintrust Financial Rate Limits

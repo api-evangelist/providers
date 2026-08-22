@@ -61,7 +61,7 @@ name: Digimon TCG
 nav: Providers
 network: true
 overview: Digimon TCG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 63
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

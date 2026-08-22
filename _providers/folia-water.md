@@ -49,7 +49,7 @@ name: Folia Water
 nav: Providers
 network: true
 overview: Folia Water is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Water Filtration, Clean Technology, and Nanotechnology.
-random_paper: 72
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -76,7 +76,7 @@ overview: 'Alpha Natural Resources is profiled on the [APIs.io](https://apis.io/
 
 
   Alpha Natural Resources'' developer surface includes support and 4 more developer resources.'
-random_paper: 119
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

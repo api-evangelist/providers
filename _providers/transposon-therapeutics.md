@@ -68,7 +68,7 @@ overview: 'Transposon Therapeutics is profiled on the [APIs.io](https://apis.io/
 
 
   Transposon Therapeutics'' developer surface includes support, product news, and 4 more developer resources.'
-random_paper: 69
+random_paper: 17
 score:
   band: minimal
   composite: 10.0

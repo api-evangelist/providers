@@ -228,7 +228,7 @@ overview: 'Figure publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Figure''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 41.0

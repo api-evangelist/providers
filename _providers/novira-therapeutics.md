@@ -40,7 +40,7 @@ name: Novira Therapeutics
 nav: Providers
 network: true
 overview: Novira Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Hepatitis B, and Antivirals.
-random_paper: 60
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

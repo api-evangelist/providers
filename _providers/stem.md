@@ -65,7 +65,7 @@ overview: 'Stem AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Stem AI''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

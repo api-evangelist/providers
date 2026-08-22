@@ -53,7 +53,7 @@ name: Terranox AI
 nav: Providers
 network: true
 overview: Terranox AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Energy, and Nuclear.
-random_paper: 87
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

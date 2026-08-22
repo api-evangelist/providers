@@ -125,7 +125,7 @@ overview: 'Three UK is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Three UK''s developer surface includes engineering blog, support, pricing, and 19 more developer resources.'
-random_paper: 60
+random_paper: 7
 score:
   band: emerging
   composite: 21.1

@@ -312,7 +312,7 @@ plans:
 - name: Encharge Plans Pricing
   plan_count: 3
   slug: encharge-plans-pricing
-random_paper: 84
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Encharge Rate Limits

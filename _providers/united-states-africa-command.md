@@ -96,7 +96,7 @@ overview: 'United States Africa Command is profiled on the [APIs.io](https://api
 
 
   United States Africa Command''s developer surface includes YouTube channel and 10 more developer resources.'
-random_paper: 111
+random_paper: 0
 score:
   band: minimal
   composite: 7.8

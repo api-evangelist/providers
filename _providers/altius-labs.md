@@ -72,7 +72,7 @@ overview: 'Altius Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Altius Labs'' developer surface includes documentation, getting-started guide, engineering blog, and 4 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: minimal
   composite: 10.8

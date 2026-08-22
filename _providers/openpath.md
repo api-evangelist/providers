@@ -671,7 +671,7 @@ overview: 'Openpath publishes 89 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 118
+random_paper: 2
 scopes:
 - name: Openpath Scopes
   scope_count: 3

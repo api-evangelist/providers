@@ -330,7 +330,7 @@ plans:
 - name: Amazon Vpc Plans Pricing
   plan_count: 3
   slug: amazon-vpc-plans-pricing
-random_paper: 126
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Rate Limits

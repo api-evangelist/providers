@@ -193,7 +193,7 @@ plans:
 - name: Nekosia Plans Pricing
   plan_count: 0
   slug: nekosia-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Nekosia Rate Limits

@@ -211,7 +211,7 @@ overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: thin
   composite: 31.4

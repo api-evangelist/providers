@@ -99,7 +99,7 @@ plans:
 - name: Greymatter Plans Pricing
   plan_count: 3
   slug: greymatter-plans-pricing
-random_paper: 49
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Greymatter Rate Limits

@@ -49,7 +49,7 @@ name: AutoTrader.com
 nav: Providers
 network: true
 overview: AutoTrader.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Marketplace, and Vehicles.
-random_paper: 61
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

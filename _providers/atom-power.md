@@ -93,7 +93,7 @@ overview: 'Atom Power is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Atom Power''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 141
+random_paper: 6
 score:
   band: emerging
   composite: 11.3

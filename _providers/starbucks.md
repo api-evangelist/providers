@@ -217,7 +217,7 @@ press:
 - date: '2026-05-25'
   title: News Blog
   url: https://about.starbucks.com/press/news-blog/
-random_paper: 84
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Starbucks Rate Limits

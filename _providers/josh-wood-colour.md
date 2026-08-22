@@ -76,7 +76,7 @@ overview: 'Josh Wood Colour is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Josh Wood Colour''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 137
+random_paper: 10
 score:
   band: emerging
   composite: 13.3

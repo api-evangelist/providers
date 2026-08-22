@@ -120,7 +120,7 @@ overview: 'HopSkipDrive is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   HopSkipDrive''s developer surface includes support, engineering blog, pricing, changelog, and 17 more developer resources.'
-random_paper: 112
+random_paper: 2
 score:
   band: emerging
   composite: 25.5

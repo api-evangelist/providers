@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Lennar buys CalAtlantic to become largest U.S. homebuilder
   url: https://www.reuters.com/article/world/americas/lennar-buys-calatlantic-to-become-largest-us-homebuilder-idUSKBN1CZ10I/
-random_paper: 115
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

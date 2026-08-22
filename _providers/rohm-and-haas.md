@@ -57,7 +57,7 @@ name: Rohm and Haas
 nav: Providers
 network: true
 overview: Rohm and Haas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Chemicals, Materials Science, Defunct, and Acquired.
-random_paper: 56
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

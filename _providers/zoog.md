@@ -72,7 +72,7 @@ overview: 'Zoog is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zoog''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: emerging
   composite: 12.5

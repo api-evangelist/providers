@@ -68,7 +68,7 @@ overview: 'Goop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Goop''s developer surface includes support and 5 more developer resources.'
-random_paper: 139
+random_paper: 17
 score:
   band: minimal
   composite: 10.0

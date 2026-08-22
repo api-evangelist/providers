@@ -72,7 +72,7 @@ overview: 'Baton Systems is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Baton Systems'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: minimal
   composite: 8.6

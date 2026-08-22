@@ -168,7 +168,7 @@ overview: 'IncidentFox (Brownie) publishes 1 API on the [APIs.io](https://apis.i
 
 
   IncidentFox (Brownie)''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Brownie Rate Limits

@@ -179,7 +179,7 @@ plans:
 - name: Food Info Plans
   plan_count: 0
   slug: food-info-plans
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Food Info Rate Limits

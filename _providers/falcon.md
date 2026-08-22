@@ -125,7 +125,7 @@ overview: 'Falcon publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Falcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: emerging
   composite: 19.6

@@ -252,7 +252,7 @@ overview: 'Schrödinger is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Schrödinger''s developer surface includes developer portal, documentation, support, training material, tooling, engineering blog, YouTube channel, and 41 more developer resources.'
-random_paper: 133
+random_paper: 0
 score:
   band: minimal
   composite: 8.9

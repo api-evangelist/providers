@@ -71,7 +71,7 @@ name: Tidal Vision
 nav: Providers
 network: true
 overview: Tidal Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Specialty Chemicals, Materials Science, and Water Treatment.
-random_paper: 43
+random_paper: 17
 score:
   band: minimal
   composite: 5.4

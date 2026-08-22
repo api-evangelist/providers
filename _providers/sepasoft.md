@@ -70,7 +70,7 @@ plans:
 - name: Sepasoft Plans Pricing
   plan_count: 3
   slug: sepasoft-plans-pricing
-random_paper: 124
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Sepasoft Rate Limits

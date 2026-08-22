@@ -68,7 +68,7 @@ overview: 'Inventa is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Inventa''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: minimal
   composite: 7.6

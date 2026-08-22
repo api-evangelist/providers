@@ -321,7 +321,7 @@ overview: 'BVNK publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BVNK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 135
+random_paper: 13
 scopes:
 - name: Bvnk Scopes
   scope_count: 156

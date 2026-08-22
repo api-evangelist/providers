@@ -304,7 +304,7 @@ plans:
 - name: Braintrust Plans Pricing
   plan_count: 1
   slug: braintrust-plans-pricing
-random_paper: 59
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Braintrust Rate Limits

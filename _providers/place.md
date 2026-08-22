@@ -139,7 +139,7 @@ overview: 'PLACE is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PLACE''s developer surface includes authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 70
+random_paper: 13
 scopes:
 - name: Place Scopes
   scope_count: 8

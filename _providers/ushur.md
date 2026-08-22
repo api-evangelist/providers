@@ -109,7 +109,7 @@ overview: 'Ushur publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ushur''s developer surface includes engineering blog, documentation, support, authentication, and 11 more developer resources.'
-random_paper: 120
+random_paper: 0
 score:
   band: emerging
   composite: 22.4

@@ -245,7 +245,7 @@ overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 126
+random_paper: 18
 score:
   band: developing
   composite: 42.9

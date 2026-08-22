@@ -81,7 +81,7 @@ overview: 'Carefull Corporation is profiled on the [APIs.io](https://apis.io/) n
 
 
   Carefull Corporation''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 5
+random_paper: 12
 score:
   band: minimal
   composite: 8.4

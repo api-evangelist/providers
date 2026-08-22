@@ -201,7 +201,7 @@ overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SimpliVity''s developer surface includes documentation, API reference, and 18 more developer resources.'
-random_paper: 71
+random_paper: 1
 scopes:
 - name: Simplivity Scopes
   scope_count: 2

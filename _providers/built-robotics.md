@@ -131,7 +131,7 @@ overview: 'Built Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Built Robotics'' developer surface includes support, YouTube channel, and 22 more developer resources.'
-random_paper: 117
+random_paper: 9
 score:
   band: emerging
   composite: 16.7

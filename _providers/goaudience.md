@@ -100,7 +100,7 @@ plans:
 - name: Goaudience Plans Pricing
   plan_count: 5
   slug: goaudience-plans-pricing
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
   composite: 20.5

@@ -384,7 +384,7 @@ plans:
 - name: Token Io Plans Pricing
   plan_count: 4
   slug: token-io-plans-pricing
-random_paper: 61
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Token Io Rate Limits

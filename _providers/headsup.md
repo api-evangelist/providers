@@ -57,7 +57,7 @@ name: HeadsUp
 nav: Providers
 network: true
 overview: HeadsUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product-Led Growth, Go-To-Market, Sales, and Product Analytics.
-random_paper: 1
+random_paper: 11
 score:
   band: minimal
   composite: 5.3

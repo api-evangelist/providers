@@ -61,7 +61,7 @@ name: City, Nantes Open Data
 nav: Providers
 network: true
 overview: City, Nantes Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 132
+random_paper: 11
 score:
   band: minimal
   composite: 5.8

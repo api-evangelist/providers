@@ -242,7 +242,7 @@ plans:
 - name: Alphaai Plans Pricing
   plan_count: 4
   slug: alphaai-plans-pricing
-random_paper: 124
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Alphaai Rate Limits

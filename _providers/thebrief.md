@@ -193,7 +193,7 @@ plans:
 - name: Thebrief Plans Pricing
   plan_count: 4
   slug: thebrief-plans-pricing
-random_paper: 96
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Thebrief Rate Limits

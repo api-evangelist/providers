@@ -128,7 +128,7 @@ plans:
 - name: Superviz Plans Pricing
   plan_count: 3
   slug: superviz-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Superviz Rate Limits

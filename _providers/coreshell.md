@@ -89,7 +89,7 @@ overview: 'Coreshell is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Coreshell''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: minimal
   composite: 4.5

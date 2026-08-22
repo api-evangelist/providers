@@ -96,7 +96,7 @@ overview: 'AMBOSS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AMBOSS''s developer surface includes pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 17.6

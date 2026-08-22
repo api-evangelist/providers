@@ -92,7 +92,7 @@ overview: 'HighRadius is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HighRadius'' developer surface includes documentation, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: emerging
   composite: 11.3

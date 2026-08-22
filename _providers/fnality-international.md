@@ -114,7 +114,7 @@ plans:
 - name: Fnality International Plans Pricing
   plan_count: 0
   slug: fnality-international-plans-pricing
-random_paper: 118
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Fnality International Rate Limits

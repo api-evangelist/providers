@@ -91,7 +91,7 @@ overview: 'Aardvark Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Aardvark Therapeutics'' developer surface includes product news and 9 more developer resources.'
-random_paper: 100
+random_paper: 2
 score:
   band: minimal
   composite: 10.1

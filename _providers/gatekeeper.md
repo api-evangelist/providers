@@ -88,7 +88,7 @@ overview: 'Gatekeeper publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Gatekeeper''s developer surface includes documentation, pricing, signup flow, support, academy / training, engineering blog, and 3 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: emerging
   composite: 25.8

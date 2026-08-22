@@ -99,7 +99,7 @@ overview: 'Evozyne is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Evozyne''s developer surface includes product news and 11 more developer resources.'
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 10.1

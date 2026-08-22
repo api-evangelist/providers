@@ -149,7 +149,7 @@ plans:
 - name: Kapa Ai Plans Pricing
   plan_count: 3
   slug: kapa-ai-plans-pricing
-random_paper: 64
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Kapa Ai Rate Limits

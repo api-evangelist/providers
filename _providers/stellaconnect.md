@@ -217,7 +217,7 @@ overview: 'Stella Connect (Medallia Agent Connect) publishes 6 APIs on the [APIs
 
 
   Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 23 more developer resources.'
-random_paper: 50
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Stellaconnect Rate Limits

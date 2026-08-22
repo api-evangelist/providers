@@ -45,7 +45,7 @@ name: Storicity
 nav: Providers
 network: true
 overview: Storicity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Mobile App, and Consumer.
-random_paper: 108
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

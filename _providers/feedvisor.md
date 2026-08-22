@@ -93,7 +93,7 @@ overview: 'Feedvisor publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Feedvisor''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: emerging
   composite: 17.2

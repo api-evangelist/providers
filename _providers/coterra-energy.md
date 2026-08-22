@@ -66,7 +66,7 @@ plans:
 - name: Coterra Energy Plans Pricing
   plan_count: 0
   slug: coterra-energy-plans-pricing
-random_paper: 106
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Coterra Energy Rate Limits

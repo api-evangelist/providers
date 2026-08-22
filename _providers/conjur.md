@@ -180,7 +180,7 @@ overview: 'Conjur publishes 1 API on the [APIs.io](https://apis.io/) network: / 
 
 
   Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 19 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: thin
   composite: 32.1

@@ -91,7 +91,7 @@ overview: 'TeamViewer publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TeamViewer''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: emerging
   composite: 14.8

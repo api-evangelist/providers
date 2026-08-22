@@ -57,7 +57,7 @@ name: Scorce
 nav: Providers
 network: true
 overview: Scorce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, KYC, Identity Verification, Fraud Prevention, and Authentication.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

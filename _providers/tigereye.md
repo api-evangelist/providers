@@ -57,7 +57,7 @@ name: TigerEye
 nav: Providers
 network: true
 overview: TigerEye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Construction, Construction Technology, and Business Intelligence.
-random_paper: 117
+random_paper: 1
 score:
   band: minimal
   composite: 9.2

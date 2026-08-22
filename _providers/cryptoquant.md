@@ -159,7 +159,7 @@ plans:
 - name: Cryptoquant Plans Pricing
   plan_count: 3
   slug: cryptoquant-plans-pricing
-random_paper: 34
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Cryptoquant Rate Limits

@@ -107,7 +107,7 @@ plans:
 - name: Tel Aviv University Plans Pricing
   plan_count: 2
   slug: tel-aviv-university-plans-pricing
-random_paper: 38
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Tel Aviv University Rate Limits

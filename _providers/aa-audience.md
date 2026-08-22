@@ -78,7 +78,7 @@ plans:
 - name: Aa Audience Plans Pricing
   plan_count: 0
   slug: aa-audience-plans-pricing
-random_paper: 26
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

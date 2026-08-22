@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.opportunitylouisiana.gov/news/first-solar-inaugurates-new-1-1-billion-ai-enabled-louisiana-manufacturing-facility
-random_paper: 99
+random_paper: 8
 score:
   band: minimal
   composite: 3.6

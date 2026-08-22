@@ -199,7 +199,7 @@ plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
   slug: imgauth-api-di-attestazione-opere-digitali-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits

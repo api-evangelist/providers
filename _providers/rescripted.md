@@ -76,7 +76,7 @@ overview: 'Rescripted is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rescripted''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: emerging
   composite: 11.7

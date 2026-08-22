@@ -96,7 +96,7 @@ overview: 'Apron is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apron''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: emerging
   composite: 14.5

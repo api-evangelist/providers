@@ -64,7 +64,7 @@ overview: 'Orca Bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Orca Bio''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 4.7

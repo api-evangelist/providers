@@ -58,7 +58,7 @@ name: Linear Technology
 nav: Providers
 network: true
 overview: Linear Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductor, Analog, and Integrated Circuits.
-random_paper: 125
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

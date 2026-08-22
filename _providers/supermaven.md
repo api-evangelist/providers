@@ -93,7 +93,7 @@ overview: 'Supermaven is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Supermaven''s developer surface includes pricing, engineering blog, GitHub presence, and 9 more developer resources.'
-random_paper: 51
+random_paper: 2
 score:
   band: minimal
   composite: 9.6

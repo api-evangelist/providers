@@ -126,7 +126,7 @@ plans:
 - name: Google Meet Plans Pricing
   plan_count: 3
   slug: google-meet-plans-pricing
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Meet Rate Limits

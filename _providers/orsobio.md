@@ -112,7 +112,7 @@ overview: 'OrsoBio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OrsoBio''s developer surface includes product news, engineering blog, and 14 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

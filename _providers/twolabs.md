@@ -65,7 +65,7 @@ name: Twolabs
 nav: Providers
 network: true
 overview: Twolabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Humanoid Robots, Artificial Intelligence, and Hardware.
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

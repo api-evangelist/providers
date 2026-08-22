@@ -162,7 +162,7 @@ plans:
 - name: Buildops Plans Pricing
   plan_count: 0
   slug: buildops-plans-pricing
-random_paper: 121
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Buildops Rate Limits

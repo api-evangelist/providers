@@ -88,7 +88,7 @@ overview: 'Playabl is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Playabl''s developer surface includes signup flow, YouTube channel, and 9 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: emerging
   composite: 12.6

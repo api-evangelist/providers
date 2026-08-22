@@ -72,7 +72,7 @@ overview: 'Porters is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Porters'' developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 7.5

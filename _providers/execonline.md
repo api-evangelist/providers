@@ -115,7 +115,7 @@ overview: 'ExecOnline is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ExecOnline''s developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 23
+random_paper: 16
 score:
   band: emerging
   composite: 24.1

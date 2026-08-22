@@ -72,7 +72,7 @@ overview: 'Shriram Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Shriram Finance''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 141
+random_paper: 12
 score:
   band: minimal
   composite: 9.7

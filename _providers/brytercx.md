@@ -51,7 +51,7 @@ name: BryterCX
 nav: Providers
 network: true
 overview: BryterCX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Experience, Customer Journey Analytics, Journey Intelligence, and Analytics.
-random_paper: 138
+random_paper: 1
 score:
   band: minimal
   composite: 4.6

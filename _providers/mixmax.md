@@ -226,7 +226,7 @@ plans:
 - name: Mixmax Plans Pricing
   plan_count: 6
   slug: mixmax-plans-pricing
-random_paper: 64
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Mixmax Rate Limits

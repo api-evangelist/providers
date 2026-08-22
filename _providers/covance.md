@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Covance and Definiens Collaborate to Integrate Digital ...
   url: https://ir.labcorp.com/news-releases/news-release-details/covance-and-definiens-collaborate-integrate-digital-pathology
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 3.8

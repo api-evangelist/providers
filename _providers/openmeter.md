@@ -173,7 +173,7 @@ plans:
 - name: Openmeter Plans Pricing
   plan_count: 4
   slug: openmeter-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Openmeter Rate Limits

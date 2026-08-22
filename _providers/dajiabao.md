@@ -49,7 +49,7 @@ name: dajiabao
 nav: Providers
 network: true
 overview: dajiabao is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Qiming, China, and Portfolio Lead.
-random_paper: 66
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

@@ -133,7 +133,7 @@ overview: 'Plus One Robotics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Plus One Robotics'' developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 94
+random_paper: 11
 score:
   band: emerging
   composite: 11.7

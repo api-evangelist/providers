@@ -49,7 +49,7 @@ name: 555 Comic
 nav: Providers
 network: true
 overview: 555 Comic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Media, Storytelling, and Virtual Influencers.
-random_paper: 131
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

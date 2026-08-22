@@ -302,7 +302,7 @@ overview: 'Zenduty publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zenduty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 42
+random_paper: 10
 score:
   band: thin
   composite: 33.6

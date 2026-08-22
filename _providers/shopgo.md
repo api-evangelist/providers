@@ -163,7 +163,7 @@ overview: 'ShopGo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ShopGo''s developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: thin
   composite: 34.3

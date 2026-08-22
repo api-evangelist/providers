@@ -155,7 +155,7 @@ plans:
 - name: First Digital Trust Plans Pricing
   plan_count: 0
   slug: first-digital-trust-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: First Digital Trust Rate Limits

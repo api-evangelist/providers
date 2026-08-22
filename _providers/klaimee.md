@@ -85,7 +85,7 @@ overview: 'Klaimee is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Klaimee''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 132
+random_paper: 14
 score:
   band: minimal
   composite: 7.1

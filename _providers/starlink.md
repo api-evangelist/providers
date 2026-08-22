@@ -272,7 +272,7 @@ overview: 'Starlink publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 41 more developer resources.'
-random_paper: 127
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Starlink Rate Limits

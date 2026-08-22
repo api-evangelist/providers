@@ -131,7 +131,7 @@ plans:
 - name: Google Dialogflow Plans Pricing
   plan_count: 3
   slug: google-dialogflow-plans-pricing
-random_paper: 107
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Dialogflow Rate Limits

@@ -278,7 +278,7 @@ plans:
 - name: Apache Geode Plans Pricing
   plan_count: 3
   slug: apache-geode-plans-pricing
-random_paper: 128
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Apache Geode Rate Limits

@@ -102,7 +102,7 @@ overview: 'Thrasio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Thrasio''s developer surface includes engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 10.4

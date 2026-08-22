@@ -68,7 +68,7 @@ overview: 'SiamSquared is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SiamSquared''s developer surface includes signup flow, engineering blog, support, and 3 more developer resources.'
-random_paper: 140
+random_paper: 7
 score:
   band: minimal
   composite: 9.1

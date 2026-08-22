@@ -76,7 +76,7 @@ overview: 'Sagence AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sagence AI''s developer surface includes engineering blog, support, YouTube channel, and 5 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: minimal
   composite: 6.4

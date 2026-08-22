@@ -254,7 +254,7 @@ plans:
 - name: Shipfinder Ais Data Api Plans
   plan_count: 4
   slug: shipfinder-ais-data-api-plans
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Shipfinder Ais Data Api Rate Limits

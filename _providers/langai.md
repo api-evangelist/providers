@@ -225,7 +225,7 @@ plans:
 - name: Langai Plans Pricing
   plan_count: 3
   slug: langai-plans-pricing
-random_paper: 24
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Langai Rate Limits

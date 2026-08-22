@@ -40,7 +40,7 @@ name: Driveway Corporation
 nav: Providers
 network: true
 overview: Driveway Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Storage, File Sharing, and Cloud Storage.
-random_paper: 130
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

@@ -64,7 +64,7 @@ overview: 'Prosperity Bank is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Prosperity Bank''s developer surface includes support and 6 more developer resources.'
-random_paper: 88
+random_paper: 3
 score:
   band: minimal
   composite: 8.9

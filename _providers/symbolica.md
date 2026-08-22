@@ -125,7 +125,7 @@ overview: 'Symbolica is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Symbolica''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: thin
   composite: 27.8

@@ -157,7 +157,7 @@ overview: 'Hinge Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hinge Health''s developer surface includes engineering blog, privacy policy, terms of service, GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 6
+random_paper: 1
 score:
   band: minimal
   composite: 6.9

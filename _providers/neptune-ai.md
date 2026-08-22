@@ -109,7 +109,7 @@ plans:
 - name: Neptune Ai Plans Pricing
   plan_count: 1
   slug: neptune-ai-plans-pricing
-random_paper: 120
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Neptune Ai Rate Limits

@@ -64,7 +64,7 @@ overview: 'DEFCON AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DEFCON AI''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 8.5

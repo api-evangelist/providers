@@ -64,7 +64,7 @@ overview: 'Sonus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sonus'' developer surface includes support and 4 more developer resources.'
-random_paper: 121
+random_paper: 1
 score:
   band: minimal
   composite: 5.4

@@ -92,7 +92,7 @@ overview: 'ChinaCache (EdgeNext) publishes 1 API on the [APIs.io](https://apis.i
 
 
   ChinaCache (EdgeNext)''s developer surface includes documentation, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 121
+random_paper: 7
 score:
   band: emerging
   composite: 17.8

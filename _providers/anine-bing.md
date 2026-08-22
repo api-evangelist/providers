@@ -101,7 +101,7 @@ overview: 'Anine Bing is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Anine Bing''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
-random_paper: 90
+random_paper: 18
 scopes:
 - name: Anine Bing Scopes
   scope_count: 4

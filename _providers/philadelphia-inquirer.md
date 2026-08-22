@@ -256,7 +256,7 @@ plans:
 - name: Philadelphia Inquirer Plans Pricing
   plan_count: 1
   slug: philadelphia-inquirer-plans-pricing
-random_paper: 91
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Philadelphia Inquirer Rate Limits

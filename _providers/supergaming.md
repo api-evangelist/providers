@@ -65,7 +65,7 @@ name: SuperGaming
 nav: Providers
 network: true
 overview: SuperGaming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Game Development, and Multiplayer.
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

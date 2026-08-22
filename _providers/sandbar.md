@@ -53,7 +53,7 @@ name: Sandbar
 nav: Providers
 network: true
 overview: Sandbar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Hardware, Wearables, Voice, and Artificial Intelligence.
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

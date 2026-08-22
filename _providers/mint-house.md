@@ -93,7 +93,7 @@ overview: 'Mint House is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mint House''s developer surface includes support and 8 more developer resources.'
-random_paper: 139
+random_paper: 4
 score:
   band: minimal
   composite: 10.2

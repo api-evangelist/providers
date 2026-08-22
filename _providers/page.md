@@ -88,7 +88,7 @@ overview: 'Page is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Page''s developer surface includes engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 115
+random_paper: 14
 score:
   band: emerging
   composite: 16.3

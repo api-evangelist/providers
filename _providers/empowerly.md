@@ -171,7 +171,7 @@ plans:
 - name: Empowerly Plans Pricing
   plan_count: 0
   slug: empowerly-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Empowerly Rate Limits

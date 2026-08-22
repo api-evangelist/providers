@@ -76,7 +76,7 @@ overview: 'Assemble is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Assemble''s developer surface includes support and 7 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: emerging
   composite: 11.5

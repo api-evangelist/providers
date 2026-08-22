@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Privacy Policy
   url: https://www.mgmresorts.com/policies/privacy-policy.html
-random_paper: 64
+random_paper: 14
 score:
   band: minimal
   composite: 5.3

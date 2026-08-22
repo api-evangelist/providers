@@ -68,7 +68,7 @@ overview: 'Udemy(instructor) publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Udemy(instructor)''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 71
+random_paper: 9
 score:
   band: minimal
   composite: 7.8

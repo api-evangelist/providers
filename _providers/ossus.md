@@ -64,7 +64,7 @@ overview: 'Ossus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ossus'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 126
+random_paper: 6
 score:
   band: minimal
   composite: 7.6

@@ -40,7 +40,7 @@ name: Vexata
 nav: Providers
 network: true
 overview: Vexata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Storage, Enterprise Storage, and NVMe.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

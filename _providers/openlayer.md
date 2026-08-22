@@ -153,7 +153,7 @@ plans:
 - name: Openlayer Plans Pricing
   plan_count: 2
   slug: openlayer-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Openlayer Rate Limits

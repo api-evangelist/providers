@@ -64,7 +64,7 @@ overview: 'Roon is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Roon''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 148
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

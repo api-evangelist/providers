@@ -76,7 +76,7 @@ overview: 'SplashLearn is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SplashLearn''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 138
+random_paper: 5
 score:
   band: emerging
   composite: 13.0

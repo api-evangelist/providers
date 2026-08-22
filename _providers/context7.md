@@ -161,7 +161,7 @@ plans:
 - name: Context7 Plans Pricing
   plan_count: 3
   slug: context7-plans-pricing
-random_paper: 83
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Context7 Rate Limits

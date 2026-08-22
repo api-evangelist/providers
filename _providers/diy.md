@@ -80,7 +80,7 @@ overview: 'DIY is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   DIY''s developer surface includes signup flow, pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 28
+random_paper: 11
 score:
   band: emerging
   composite: 15.1

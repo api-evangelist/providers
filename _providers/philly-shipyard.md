@@ -69,7 +69,7 @@ name: Philly Shipyard
 nav: Providers
 network: true
 overview: Philly Shipyard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Maritime, Manufacturing, Shipbuilding, and Jones Act.
-random_paper: 81
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

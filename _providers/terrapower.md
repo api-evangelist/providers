@@ -117,7 +117,7 @@ overview: 'TerraPower is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TerraPower''s developer surface includes product news, GitHub presence, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 4.5

@@ -125,7 +125,7 @@ overview: 'KDDI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KDDI''s developer surface includes product news, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 114
+random_paper: 13
 score:
   band: minimal
   composite: 4.4

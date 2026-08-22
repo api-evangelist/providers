@@ -211,7 +211,7 @@ overview: 'Vodafone publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vodafone''s developer surface includes getting-started guide, sandbox, GitHub presence, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: minimal
   composite: 8.7

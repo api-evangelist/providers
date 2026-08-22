@@ -371,7 +371,7 @@ plans:
 - name: Cordial Plans Pricing
   plan_count: 0
   slug: cordial-plans-pricing
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits

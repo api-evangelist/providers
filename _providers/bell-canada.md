@@ -200,7 +200,7 @@ overview: 'Bell Canada publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 23 more developer resources.'
-random_paper: 17
+random_paper: 10
 score:
   band: developing
   composite: 49.4

@@ -209,7 +209,7 @@ overview: 'Kyber Network publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kyber Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 23
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Kyber Network Rate Limits

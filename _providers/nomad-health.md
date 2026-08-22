@@ -143,7 +143,7 @@ overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Nomad Health''s developer surface includes API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: thin
   composite: 32.8

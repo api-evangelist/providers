@@ -101,7 +101,7 @@ plans:
 - name: Mirado Plans Pricing
   plan_count: 0
   slug: mirado-plans-pricing
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 8.4

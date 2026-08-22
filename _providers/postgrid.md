@@ -131,7 +131,7 @@ plans:
 - name: Postgrid Plans Pricing
   plan_count: 13
   slug: postgrid-plans-pricing
-random_paper: 131
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Postgrid Rate Limits

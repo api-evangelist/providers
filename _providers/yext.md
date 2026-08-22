@@ -305,7 +305,7 @@ plans:
 - name: Yext Plans Pricing
   plan_count: 5
   slug: yext-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Yext Rate Limits

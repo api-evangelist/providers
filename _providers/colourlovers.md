@@ -57,7 +57,7 @@ name: ColourLovers
 nav: Providers
 network: true
 overview: ColourLovers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 135
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

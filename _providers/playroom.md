@@ -149,7 +149,7 @@ overview: 'Playroom is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Playroom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 138
+random_paper: 1
 score:
   band: emerging
   composite: 22.6

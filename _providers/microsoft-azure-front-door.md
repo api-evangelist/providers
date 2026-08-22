@@ -125,7 +125,7 @@ plans:
 - name: Microsoft Azure Front Door Plans Pricing
   plan_count: 3
   slug: microsoft-azure-front-door-plans-pricing
-random_paper: 124
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Front Door Rate Limits

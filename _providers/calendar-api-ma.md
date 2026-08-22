@@ -158,7 +158,7 @@ plans:
 - name: Calendar Api Ma Plans Pricing
   plan_count: 1
   slug: calendar-api-ma-plans-pricing
-random_paper: 95
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Calendar Api Ma Rate Limits

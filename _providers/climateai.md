@@ -242,7 +242,7 @@ overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 43
+random_paper: 13
 score:
   band: developing
   composite: 44.6

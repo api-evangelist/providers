@@ -41,7 +41,7 @@ name: AdNectar
 nav: Providers
 network: true
 overview: AdNectar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Social, Virtual Goods, and Marketing.
-random_paper: 89
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

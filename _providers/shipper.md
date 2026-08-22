@@ -132,7 +132,7 @@ overview: 'Shipper publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Shipper''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, support, and 11 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: thin
   composite: 33.3

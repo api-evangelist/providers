@@ -86,7 +86,7 @@ overview: 'HavocAI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HavocAI''s developer surface includes engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 9.7

@@ -117,7 +117,7 @@ overview: 'Epirus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Epirus'' developer surface includes YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: minimal
   composite: 3.9

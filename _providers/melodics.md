@@ -80,7 +80,7 @@ overview: 'Melodics is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Melodics'' developer surface includes support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 103
+random_paper: 8
 score:
   band: emerging
   composite: 13.8

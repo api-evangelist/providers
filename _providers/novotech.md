@@ -49,7 +49,7 @@ name: Novotech
 nav: Providers
 network: true
 overview: Novotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Contract Research Organization, Clinical Trials, and Clinical Research.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

@@ -45,7 +45,7 @@ name: Proterra
 nav: Providers
 network: true
 overview: Proterra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Planetary Health, Electric Vehicles, Batteries, and Energy Storage.
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 2.1

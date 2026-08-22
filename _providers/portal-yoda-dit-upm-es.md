@@ -84,7 +84,7 @@ plans:
 - name: Portal Yoda Dit Upm Es Plans Pricing
   plan_count: 0
   slug: portal-yoda-dit-upm-es-plans-pricing
-random_paper: 56
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Portal Yoda Dit Upm Es Rate Limits

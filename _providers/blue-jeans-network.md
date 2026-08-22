@@ -53,7 +53,7 @@ name: Blue Jeans Network
 nav: Providers
 network: true
 overview: Blue Jeans Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Video Conferencing, Communications, and WebRTC.
-random_paper: 33
+random_paper: 15
 score:
   band: minimal
   composite: 6.4

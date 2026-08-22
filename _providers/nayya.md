@@ -235,7 +235,7 @@ overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: developing
   composite: 52.2

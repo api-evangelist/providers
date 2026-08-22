@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: American Express Global Business Travel Unveils New ...
   url: https://www.amexglobalbusinesstravel.com/press-releases/american-express-global-business-travel-unveils-new-initiative-to-drive-ai-innovation-and-governance/
-random_paper: 33
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Express Rate Limits

@@ -107,7 +107,7 @@ overview: 'Betr is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Betr''s developer surface includes support, signup flow, and 16 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: emerging
   composite: 14.2

@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Leading Drive-Thru Innovation with Wendy's FreshAi
   url: https://www.wendys.com/blog/drive-thru-innovation-wendys-freshai
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 9.9

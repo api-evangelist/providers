@@ -109,7 +109,7 @@ plans:
 - name: Case Western Reserve University Plans Pricing
   plan_count: 2
   slug: case-western-reserve-university-plans-pricing
-random_paper: 80
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Case Western Reserve University Rate Limits

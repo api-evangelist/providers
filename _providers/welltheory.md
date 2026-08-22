@@ -84,7 +84,7 @@ overview: 'WellTheory is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   WellTheory''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 60
+random_paper: 11
 score:
   band: emerging
   composite: 12.8

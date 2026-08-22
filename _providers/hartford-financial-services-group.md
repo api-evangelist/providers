@@ -92,7 +92,7 @@ press:
 - date: ''
   title: Hartford Financial Services Group Digital Transformation ...
   url: https://www.businesswire.com/news/home/20240708152618/en/Hartford-Financial-Services-Group-Digital-Transformation-Strategies-2024-Innovation-Programs-Technology-Initiatives-Estimated-ICT-Budget-and-Major-ICT-Contracts
-random_paper: 73
+random_paper: 12
 score:
   band: minimal
   composite: 2.6

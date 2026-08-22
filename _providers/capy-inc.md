@@ -173,7 +173,7 @@ plans:
 - name: Capy Inc Plans
   plan_count: 2
   slug: capy-inc-plans
-random_paper: 43
+random_paper: 11
 score:
   band: developing
   composite: 48.0

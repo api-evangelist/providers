@@ -57,7 +57,7 @@ name: Irreverent Labs
 nav: Providers
 network: true
 overview: Irreverent Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Foundation Models.
-random_paper: 67
+random_paper: 3
 score:
   band: minimal
   composite: 7.4

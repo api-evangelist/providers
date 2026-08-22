@@ -89,7 +89,7 @@ press:
 - date: '2026-02-17'
   title: QVC Group, Inc. Announces Semi-Annual Interest Payment and Regular Additional Distribution on 3.75% Senior Exchangeable Debentures Due 2030
   url: https://investors.qvcgrp.com/news-media/press-releases/detail/665/qvc-group-inc-announces-semi-annual-interest-payment-and
-random_paper: 53
+random_paper: 16
 score:
   band: minimal
   composite: 5.5

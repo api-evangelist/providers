@@ -134,7 +134,7 @@ plans:
 - name: Beacon Health Plans Pricing
   plan_count: 0
   slug: beacon-health-plans-pricing
-random_paper: 99
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Beacon Health Rate Limits

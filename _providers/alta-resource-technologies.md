@@ -69,7 +69,7 @@ overview: 'Alta Resource Technologies is profiled on the [APIs.io](https://apis.
 
 
   Alta Resource Technologies'' developer surface includes support and 5 more developer resources.'
-random_paper: 131
+random_paper: 18
 score:
   band: minimal
   composite: 10.2

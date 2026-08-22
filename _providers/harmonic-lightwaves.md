@@ -88,7 +88,7 @@ overview: 'Harmonic Lightwaves is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Harmonic Lightwaves'' developer surface includes documentation, API reference, support, engineering blog, and 7 more developer resources.'
-random_paper: 43
+random_paper: 6
 score:
   band: emerging
   composite: 12.3

@@ -89,7 +89,7 @@ overview: 'Replica Studios publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Replica Studios'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 5 more developer resources.'
-random_paper: 70
+random_paper: 6
 score:
   band: emerging
   composite: 14.7

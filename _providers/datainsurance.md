@@ -40,7 +40,7 @@ name: Datainsurance
 nav: Providers
 network: true
 overview: Datainsurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Risk Management, Insurtech, and Venture Backed.
-random_paper: 37
+random_paper: 13
 score:
   band: minimal
   composite: 0.9

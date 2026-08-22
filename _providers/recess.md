@@ -80,7 +80,7 @@ overview: 'Recess is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Recess'' developer surface includes signup flow, pricing, and 7 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 9.6

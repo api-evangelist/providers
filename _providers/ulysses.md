@@ -116,7 +116,7 @@ overview: 'Ulysses (Kaminashi) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Ulysses (Kaminashi)''s developer surface includes engineering blog, support, FAQ, product news, and 14 more developer resources.'
-random_paper: 47
+random_paper: 15
 score:
   band: emerging
   composite: 15.5

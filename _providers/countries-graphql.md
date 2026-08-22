@@ -88,7 +88,7 @@ overview: 'Countries GraphQL API publishes 1 API on the [APIs.io](https://apis.i
 
 
   Countries GraphQL API''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 145
+random_paper: 20
 score:
   band: emerging
   composite: 19.0

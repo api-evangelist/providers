@@ -2467,7 +2467,7 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 24 more developer resources.'
-random_paper: 140
+random_paper: 13
 rules:
 - effective_rule_count: 5
   extends: []

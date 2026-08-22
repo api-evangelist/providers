@@ -144,7 +144,7 @@ plans:
 - name: Actively Plans Pricing
   plan_count: 0
   slug: actively-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Actively Rate Limits

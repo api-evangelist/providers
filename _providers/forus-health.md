@@ -60,7 +60,7 @@ overview: 'Forus Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Forus Health''s developer surface includes support and 3 more developer resources.'
-random_paper: 42
+random_paper: 16
 score:
   band: minimal
   composite: 7.1

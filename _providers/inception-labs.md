@@ -204,7 +204,7 @@ overview: 'Inception Labs publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Inception Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 91
+random_paper: 4
 score:
   band: developing
   composite: 45.8

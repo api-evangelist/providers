@@ -561,7 +561,7 @@ plans:
 - name: Typesense Plans Pricing
   plan_count: 5
   slug: typesense-plans-pricing
-random_paper: 98
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Typesense Rate Limits

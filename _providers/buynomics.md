@@ -76,7 +76,7 @@ overview: 'buynomics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   buynomics'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 91
+random_paper: 19
 score:
   band: emerging
   composite: 13.3

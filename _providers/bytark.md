@@ -127,7 +127,7 @@ plans:
 - name: Bytark Plans Pricing
   plan_count: 4
   slug: bytark-plans-pricing
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Bytark Rate Limits

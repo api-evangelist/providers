@@ -164,7 +164,7 @@ plans:
 - name: Pusher Plans Pricing
   plan_count: 9
   slug: pusher-plans-pricing
-random_paper: 67
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Pusher Rate Limits

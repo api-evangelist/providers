@@ -145,7 +145,7 @@ plans:
 - name: Bluevine Plans Pricing
   plan_count: 3
   slug: bluevine-plans-pricing
-random_paper: 113
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Bluevine Rate Limits

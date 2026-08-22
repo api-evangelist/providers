@@ -60,7 +60,7 @@ overview: 'Ephemeral Solutions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Ephemeral Solutions'' developer surface includes support and 3 more developer resources.'
-random_paper: 63
+random_paper: 5
 score:
   band: minimal
   composite: 8.1

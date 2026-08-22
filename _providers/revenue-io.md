@@ -197,7 +197,7 @@ plans:
 - name: Revenue Io Plans Pricing
   plan_count: 3
   slug: revenue-io-plans-pricing
-random_paper: 129
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Revenue Io Rate Limits

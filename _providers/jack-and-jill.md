@@ -117,7 +117,7 @@ overview: 'Jack & Jill is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Jack & Jill''s developer surface includes documentation, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 41
+random_paper: 15
 score:
   band: emerging
   composite: 20.0

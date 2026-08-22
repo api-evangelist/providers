@@ -50,7 +50,7 @@ name: Genomics Medicine Ireland
 nav: Providers
 network: true
 overview: Genomics Medicine Ireland is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Precision Medicine, and Healthcare.
-random_paper: 124
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

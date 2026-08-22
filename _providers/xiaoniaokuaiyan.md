@@ -49,7 +49,7 @@ name: xiaoniaokuaiyan
 nav: Providers
 network: true
 overview: xiaoniaokuaiyan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Medical Testing, and Diagnostics.
-random_paper: 120
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

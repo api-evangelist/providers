@@ -40,7 +40,7 @@ name: Sockeye Networks
 nav: Providers
 network: true
 overview: Sockeye Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Internet, Routing, and Network Management.
-random_paper: 54
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

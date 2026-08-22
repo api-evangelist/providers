@@ -60,7 +60,7 @@ overview: 'State Employees'' Credit Union is profiled on the [APIs.io](https://a
 
 
   State Employees'' Credit Union''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 6.2

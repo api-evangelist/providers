@@ -195,7 +195,7 @@ plans:
 - name: Famous Plans Pricing
   plan_count: 3
   slug: famous-plans-pricing
-random_paper: 55
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Famous Rate Limits

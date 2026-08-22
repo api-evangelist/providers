@@ -283,7 +283,7 @@ plans:
 - name: Forethought Plans Pricing
   plan_count: 6
   slug: forethought-plans-pricing
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Forethought Rate Limits

@@ -448,7 +448,7 @@ overview: 'Scout RFP (Workday Strategic Sourcing) publishes 46 APIs on the [APIs
 
 
   Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 25 more developer resources.'
-random_paper: 141
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Scoutrfp Rate Limits

@@ -108,7 +108,7 @@ plans:
 - name: Confidential Computing Consortium Plans Pricing
   plan_count: 3
   slug: confidential-computing-consortium-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Confidential Computing Consortium Rate Limits

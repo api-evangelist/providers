@@ -96,7 +96,7 @@ overview: 'CaptureProof is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CaptureProof''s developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 114
+random_paper: 4
 score:
   band: emerging
   composite: 21.5

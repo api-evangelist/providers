@@ -163,7 +163,7 @@ overview: 'Sanas publishes 1 API on the [APIs.io](https://apis.io/) network: Str
 
 
   Sanas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: developing
   composite: 48.3

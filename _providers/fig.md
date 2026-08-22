@@ -76,7 +76,7 @@ overview: 'Fig is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Fig''s developer surface includes engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 6.0

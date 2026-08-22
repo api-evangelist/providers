@@ -411,7 +411,7 @@ overview: 'Creed publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Creed''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 68
+random_paper: 11
 score:
   band: thin
   composite: 28.6

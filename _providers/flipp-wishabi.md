@@ -162,7 +162,7 @@ plans:
 - name: Flipp Wishabi Plans Pricing
   plan_count: 0
   slug: flipp-wishabi-plans-pricing
-random_paper: 135
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Flipp Wishabi Rate Limits

@@ -61,7 +61,7 @@ name: Rovi Health
 nav: Providers
 network: true
 overview: Rovi Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Health Insurance.
-random_paper: 80
+random_paper: 10
 score:
   band: minimal
   composite: 10.3

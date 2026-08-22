@@ -152,7 +152,7 @@ overview: 'Helika publishes 1 API on the [APIs.io](https://apis.io/) network: Ev
 
 
   Helika''s developer surface includes documentation, getting-started guide, API reference, support, authentication, and 18 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: thin
   composite: 35.2

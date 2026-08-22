@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Reflecting its commitment to delivering advisor-first ...
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
-random_paper: 113
+random_paper: 12
 rules:
 - effective_rule_count: 7
   extends: []

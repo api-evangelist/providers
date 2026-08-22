@@ -49,7 +49,7 @@ name: Medico.com
 nav: Providers
 network: true
 overview: Medico.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Consumer Health, and Q&A Community.
-random_paper: 50
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

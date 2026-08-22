@@ -213,7 +213,7 @@ plans:
 - name: Gamesight Plans Pricing
   plan_count: 0
   slug: gamesight-plans-pricing
-random_paper: 59
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Gamesight Rate Limits

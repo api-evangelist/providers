@@ -80,7 +80,7 @@ overview: 'BrightSource Energy is profiled on the [APIs.io](https://apis.io/) ne
 
 
   BrightSource Energy''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 55
+random_paper: 18
 score:
   band: minimal
   composite: 5.5

@@ -376,7 +376,7 @@ plans:
 - name: Coingecko Plans Pricing
   plan_count: 5
   slug: coingecko-plans-pricing
-random_paper: 52
+random_paper: 1
 rate_limits:
 - limit_count: 9
   name: Coingecko Rate Limits

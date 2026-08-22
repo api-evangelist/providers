@@ -180,7 +180,7 @@ plans:
 - name: Klue Plans Pricing
   plan_count: 0
   slug: klue-plans-pricing
-random_paper: 135
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Klue Rate Limits

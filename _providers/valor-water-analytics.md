@@ -53,7 +53,7 @@ name: Valor Water Analytics
 nav: Providers
 network: true
 overview: Valor Water Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Analytics, Utilities, and Data.
-random_paper: 67
+random_paper: 11
 score:
   band: minimal
   composite: 4.0

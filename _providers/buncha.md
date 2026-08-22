@@ -68,7 +68,7 @@ overview: 'Buncha is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Buncha''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: emerging
   composite: 12.3

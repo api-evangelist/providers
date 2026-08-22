@@ -168,7 +168,7 @@ overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 101
+random_paper: 6
 scopes:
 - name: Neurable Scopes
   scope_count: 5

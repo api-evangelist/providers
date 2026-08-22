@@ -166,7 +166,7 @@ plans:
 - name: Openprise Plans Pricing
   plan_count: 2
   slug: openprise-plans-pricing
-random_paper: 87
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Openprise Rate Limits

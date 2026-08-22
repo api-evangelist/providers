@@ -61,7 +61,7 @@ name: Enigma Public
 nav: Providers
 network: true
 overview: Enigma Public publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 117
+random_paper: 7
 score:
   band: minimal
   composite: 5.8

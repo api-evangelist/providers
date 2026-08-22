@@ -151,7 +151,7 @@ plans:
 - name: Game Of Thrones Plans Pricing
   plan_count: 1
   slug: game-of-thrones-plans-pricing
-random_paper: 143
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Game Of Thrones Rate Limits

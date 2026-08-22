@@ -313,7 +313,7 @@ plans:
 - name: Encore Dev Plans Pricing
   plan_count: 3
   slug: encore-dev-plans-pricing
-random_paper: 106
+random_paper: 13
 rate_limits:
 - limit_count: 9
   name: Encore Dev Rate Limits

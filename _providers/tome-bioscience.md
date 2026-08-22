@@ -40,7 +40,7 @@ name: Tome Bioscience
 nav: Providers
 network: true
 overview: Tome Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Genome Editing, Gene Therapy, and CRISPR.
-random_paper: 36
+random_paper: 14
 score:
   band: minimal
   composite: 2.2

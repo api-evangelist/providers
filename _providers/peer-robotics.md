@@ -64,7 +64,7 @@ overview: 'Peer Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Peer Robotics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
   composite: 6.8

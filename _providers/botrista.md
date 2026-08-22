@@ -108,7 +108,7 @@ overview: 'Botrista publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Botrista''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 127
+random_paper: 11
 score:
   band: emerging
   composite: 12.7

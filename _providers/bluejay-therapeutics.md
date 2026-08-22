@@ -165,7 +165,7 @@ overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 11
 score:
   band: thin
   composite: 27.5

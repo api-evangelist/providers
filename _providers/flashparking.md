@@ -145,7 +145,7 @@ plans:
 - name: Flashparking Plans Pricing
   plan_count: 0
   slug: flashparking-plans-pricing
-random_paper: 82
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Flashparking Rate Limits

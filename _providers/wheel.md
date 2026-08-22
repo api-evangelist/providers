@@ -132,7 +132,7 @@ plans:
 - name: Wheel Plans Pricing
   plan_count: 0
   slug: wheel-plans-pricing
-random_paper: 86
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Wheel Rate Limits

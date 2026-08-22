@@ -183,7 +183,7 @@ plans:
 - name: Hume Ai Plans Pricing
   plan_count: 8
   slug: hume-ai-plans-pricing
-random_paper: 82
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Hume Ai Rate Limits

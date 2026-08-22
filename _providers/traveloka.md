@@ -269,7 +269,7 @@ overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 75
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Traveloka Rate Limits

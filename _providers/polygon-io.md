@@ -154,7 +154,7 @@ plans:
 - name: Polygon Io Plans Pricing
   plan_count: 5
   slug: polygon-io-plans-pricing
-random_paper: 143
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Polygon Io Rate Limits

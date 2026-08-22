@@ -186,7 +186,7 @@ plans:
 - name: Novita Ai Plans Pricing
   plan_count: 1
   slug: novita-ai-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Novita Ai Rate Limits

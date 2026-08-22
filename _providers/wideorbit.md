@@ -169,7 +169,7 @@ plans:
 - name: Wideorbit Plans Pricing
   plan_count: 0
   slug: wideorbit-plans-pricing
-random_paper: 75
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Wideorbit Rate Limits

@@ -92,7 +92,7 @@ plans:
 - name: Corwave Plans Pricing
   plan_count: 0
   slug: corwave-plans-pricing
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Corwave Rate Limits

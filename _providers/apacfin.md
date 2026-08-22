@@ -94,7 +94,7 @@ overview: 'APAC Financial Services is profiled on the [APIs.io](https://apis.io/
 
 
   APAC Financial Services'' developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 126
+random_paper: 8
 score:
   band: emerging
   composite: 13.5

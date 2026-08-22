@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Wolverine Worldwide To Acquire Collective Brands ...
   url: https://www.prnewswire.com/news-releases/wolverine-worldwide-to-acquire-collective-brands-performance--lifestyle-group-149646735.html
-random_paper: 117
+random_paper: 17
 score:
   band: minimal
   composite: 6.0

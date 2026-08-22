@@ -183,7 +183,7 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 116
+random_paper: 17
 score:
   band: thin
   composite: 32.5

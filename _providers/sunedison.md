@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: SunEdison CEO resigns amid bankruptcy
   url: https://www.latimes.com/business/la-fi-sunedison-ceo-20160623-snap-story.html
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 7.2

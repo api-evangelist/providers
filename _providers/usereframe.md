@@ -72,7 +72,7 @@ overview: 'Reframe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Reframe''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 7.1

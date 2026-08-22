@@ -53,7 +53,7 @@ name: Office of Inspector General
 nav: Providers
 network: true
 overview: Office of Inspector General is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Government, Inspector General, and Oversight.
-random_paper: 3
+random_paper: 18
 score:
   band: minimal
   composite: 2.5

@@ -132,7 +132,7 @@ plans:
 - name: Powersync Plans Pricing
   plan_count: 4
   slug: powersync-plans-pricing
-random_paper: 108
+random_paper: 15
 rate_limits:
 - limit_count: 10
   name: Powersync Rate Limits

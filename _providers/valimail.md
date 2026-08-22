@@ -328,7 +328,7 @@ plans:
 - name: Valimail Plans Pricing
   plan_count: 5
   slug: valimail-plans-pricing
-random_paper: 102
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Valimail Rate Limits

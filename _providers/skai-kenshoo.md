@@ -206,7 +206,7 @@ plans:
 - name: Skai Kenshoo Plans Pricing
   plan_count: 5
   slug: skai-kenshoo-plans-pricing
-random_paper: 36
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Skai Kenshoo Rate Limits

@@ -49,7 +49,7 @@ name: Switch
 nav: Providers
 network: true
 overview: Switch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Yoga, Wellness, and Virtual Classes.
-random_paper: 62
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

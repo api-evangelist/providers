@@ -297,7 +297,7 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 23 more developer resources.'
-random_paper: 140
+random_paper: 1
 rules:
 - effective_rule_count: 6
   extends: []

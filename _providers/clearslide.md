@@ -241,7 +241,7 @@ plans:
 - name: Clearslide Plans Pricing
   plan_count: 2
   slug: clearslide-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Clearslide Rate Limits

@@ -199,7 +199,7 @@ overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Verta''s developer surface includes authentication, changelog, documentation, and 15 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: emerging
   composite: 25.0

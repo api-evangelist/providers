@@ -57,7 +57,7 @@ name: Vineti
 nav: Providers
 network: true
 overview: Vineti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cell and Gene Therapy, Life Sciences, Supply Chain, and Healthcare.
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 2.5

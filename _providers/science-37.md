@@ -76,7 +76,7 @@ overview: 'Science 37 * is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Science 37 *''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 136
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

@@ -52,7 +52,7 @@ overview: 'Cloudcoreo is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cloudcoreo''s developer surface includes CLI and 1 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 6.8

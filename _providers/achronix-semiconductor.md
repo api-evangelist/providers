@@ -72,7 +72,7 @@ overview: 'Achronix Semiconductor is profiled on the [APIs.io](https://apis.io/)
 
 
   Achronix Semiconductor''s developer surface includes support, documentation, engineering blog, and 4 more developer resources.'
-random_paper: 77
+random_paper: 2
 score:
   band: emerging
   composite: 12.6

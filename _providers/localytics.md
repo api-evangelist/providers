@@ -265,7 +265,7 @@ plans:
 - name: Localytics Plans Pricing
   plan_count: 0
   slug: localytics-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Localytics Rate Limits

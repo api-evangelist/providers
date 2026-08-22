@@ -194,7 +194,7 @@ overview: 'Totogi publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 29 more developer resources.'
-random_paper: 66
+random_paper: 11
 scopes:
 - name: Totogi Scopes
   scope_count: 0

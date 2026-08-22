@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft Virtualization Beats VMware at CH2M Hill - Datamation
   url: https://www.datamation.com/applications/microsoft-virtualization-beats-vmware-at-ch2m-hill/
-random_paper: 87
+random_paper: 13
 score:
   band: minimal
   composite: 3.4

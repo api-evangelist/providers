@@ -84,7 +84,7 @@ overview: 'Charter Space is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Charter Space''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 122
+random_paper: 12
 score:
   band: emerging
   composite: 12.1

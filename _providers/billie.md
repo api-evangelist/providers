@@ -196,7 +196,7 @@ overview: 'Billie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Billie''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 27 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: developing
   composite: 40.3

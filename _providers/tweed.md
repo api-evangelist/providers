@@ -218,7 +218,7 @@ overview: 'Tweed publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tweed''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: developing
   composite: 40.8

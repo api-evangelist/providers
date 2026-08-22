@@ -49,7 +49,7 @@ name: acxel
 nav: Providers
 network: true
 overview: acxel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Microfluidics, and Digital Biology.
-random_paper: 78
+random_paper: 0
 score:
   band: minimal
   composite: 3.3

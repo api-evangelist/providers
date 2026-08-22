@@ -68,7 +68,7 @@ overview: 'Icardio.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Icardio.AI''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 39
+random_paper: 9
 score:
   band: minimal
   composite: 6.9

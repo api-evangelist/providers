@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Cooper-Standard Holdings Stock Price, News & Analysis
   url: https://www.stocktitan.net/overview/CPS/
-random_paper: 59
+random_paper: 7
 score:
   band: minimal
   composite: 7.1

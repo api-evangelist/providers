@@ -49,7 +49,7 @@ name: abillion
 nav: Providers
 network: true
 overview: abillion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, Food, Reviews, and Consumer.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

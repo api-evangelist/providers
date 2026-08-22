@@ -49,7 +49,7 @@ name: Concerto
 nav: Providers
 network: true
 overview: Concerto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit Cards, Payments, and Cards.
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 1.5

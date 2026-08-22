@@ -49,7 +49,7 @@ name: Whereto
 nav: Providers
 network: true
 overview: Whereto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 3.2

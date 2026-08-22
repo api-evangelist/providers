@@ -85,7 +85,7 @@ name: Paramount
 nav: Providers
 network: true
 overview: Paramount is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Media, Streaming, Television, and Film.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 5.3

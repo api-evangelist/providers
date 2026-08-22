@@ -76,7 +76,7 @@ overview: 'EAS Innovations Inc is profiled on the [APIs.io](https://apis.io/) ne
 
 
   EAS Innovations Inc''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
-random_paper: 137
+random_paper: 14
 score:
   band: minimal
   composite: 10.3

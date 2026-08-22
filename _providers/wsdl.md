@@ -244,7 +244,7 @@ overview: 'WSDL is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   WSDL''s developer surface includes documentation and 26 more developer resources.'
-random_paper: 144
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

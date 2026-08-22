@@ -49,7 +49,7 @@ name: Topography
 nav: Providers
 network: true
 overview: Topography is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Clinical Research, Healthcare, and Life Sciences.
-random_paper: 58
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

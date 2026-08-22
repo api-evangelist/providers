@@ -65,7 +65,7 @@ name: Angie’s List
 nav: Providers
 network: true
 overview: Angie’s List is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, Reviews, and Ratings.
-random_paper: 77
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

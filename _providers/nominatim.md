@@ -309,7 +309,7 @@ plans:
 - name: Nominatim Plans Pricing
   plan_count: 2
   slug: nominatim-plans-pricing
-random_paper: 78
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Nominatim Rate Limits

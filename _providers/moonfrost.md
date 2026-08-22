@@ -60,7 +60,7 @@ overview: 'MoonFrost is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MoonFrost''s developer surface includes support and 3 more developer resources.'
-random_paper: 105
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

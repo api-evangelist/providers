@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: HP acquires Humane Platform and team for $116M
   url: https://www.facebook.com/groups/AIUGM/posts/4020109041603394/
-random_paper: 67
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Hp Rate Limits

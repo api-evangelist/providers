@@ -183,7 +183,7 @@ overview: 'Cat Facts (catfact.ninja) publishes 2 APIs on the [APIs.io](https://a
 
 
   Cat Facts (catfact.ninja)''s developer surface includes authentication, tooling, and 12 more developer resources.'
-random_paper: 18
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []

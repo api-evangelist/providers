@@ -119,7 +119,7 @@ plans:
 - name: Pelico Plans Pricing
   plan_count: 0
   slug: pelico-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Pelico Rate Limits

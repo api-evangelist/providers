@@ -229,7 +229,7 @@ plans:
 - name: Clearbit Plans Pricing
   plan_count: 1
   slug: clearbit-plans-pricing
-random_paper: 93
+random_paper: 19
 rate_limits:
 - limit_count: 9
   name: Clearbit Rate Limits

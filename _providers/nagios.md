@@ -317,7 +317,7 @@ plans:
 - name: Nagios Plans Pricing
   plan_count: 4
   slug: nagios-plans-pricing
-random_paper: 45
+random_paper: 11
 rules:
 - effective_rule_count: 5
   extends: []

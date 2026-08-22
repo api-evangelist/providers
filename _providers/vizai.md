@@ -72,7 +72,7 @@ overview: 'Viz.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Viz.ai''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: emerging
   composite: 11.7

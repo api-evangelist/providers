@@ -49,7 +49,7 @@ name: Manulife Bank
 nav: Providers
 network: true
 overview: Manulife Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Direct Bank.
-random_paper: 114
+random_paper: 4
 score:
   band: minimal
   composite: 1.5

@@ -101,7 +101,7 @@ overview: 'Lawhive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lawhive''s developer surface includes support, signup flow, and 12 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 8.3

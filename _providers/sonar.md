@@ -220,7 +220,7 @@ plans:
 - name: Sonar Plans Pricing
   plan_count: 3
   slug: sonar-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sonar Rate Limits

@@ -116,7 +116,7 @@ overview: 'Bending Spoons is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bending Spoons'' developer surface includes support, engineering blog, and 18 more developer resources.'
-random_paper: 105
+random_paper: 18
 score:
   band: emerging
   composite: 13.1

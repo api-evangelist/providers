@@ -360,7 +360,7 @@ plans:
 - name: Trustradius Plans Pricing
   plan_count: 2
   slug: trustradius-plans-pricing
-random_paper: 34
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Trustradius Rate Limits

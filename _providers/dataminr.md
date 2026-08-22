@@ -117,7 +117,7 @@ overview: 'Dataminr publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dataminr''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 103
+random_paper: 8
 score:
   band: thin
   composite: 27.1

@@ -142,7 +142,7 @@ overview: 'Stackdriver (Google) publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Stackdriver (Google)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 80
+random_paper: 20
 score:
   band: thin
   composite: 29.0

@@ -64,7 +64,7 @@ overview: 'Jingle Pay is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jingle Pay''s developer surface includes support and 4 more developer resources.'
-random_paper: 114
+random_paper: 0
 score:
   band: minimal
   composite: 8.6

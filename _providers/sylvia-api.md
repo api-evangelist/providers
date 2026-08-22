@@ -189,7 +189,7 @@ plans:
 - name: Sylvia Api Plans Pricing
   plan_count: 4
   slug: sylvia-api-plans-pricing
-random_paper: 129
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Sylvia Api Rate Limits

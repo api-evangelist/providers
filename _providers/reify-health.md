@@ -68,7 +68,7 @@ overview: 'Reify Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Reify Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

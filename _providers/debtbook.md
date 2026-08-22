@@ -148,7 +148,7 @@ overview: 'DebtBook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DebtBook''s developer surface includes support, engineering blog, pricing, signup flow, legal docs, changelog, authentication, and 21 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: thin
   composite: 36.3

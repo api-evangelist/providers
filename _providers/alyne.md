@@ -53,7 +53,7 @@ name: Alyne
 nav: Providers
 network: true
 overview: Alyne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance Risk and Compliance, GRC, Risk Management, and Compliance.
-random_paper: 90
+random_paper: 12
 score:
   band: minimal
   composite: 6.3

@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Grainger expands AI in sales, marketing, and KeepStock ...
   url: https://www.digitalcommerce360.com/2026/02/04/grainger-ai-sales-marketing-keepstock-tools/
-random_paper: 87
+random_paper: 17
 score:
   band: minimal
   composite: 2.9

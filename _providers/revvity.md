@@ -57,7 +57,7 @@ name: Revvity
 nav: Providers
 network: true
 overview: Revvity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Life Sciences, Diagnostics, Healthcare, Laboratory, and Biotechnology.
-random_paper: 48
+random_paper: 16
 score:
   band: minimal
   composite: 3.1

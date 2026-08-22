@@ -223,7 +223,7 @@ overview: 'Brightseed publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Brightseed''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: thin
   composite: 34.1

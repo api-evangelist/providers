@@ -49,7 +49,7 @@ name: atantares
 nav: Providers
 network: true
 overview: atantares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Synthetic Biology, DNA Synthesis, and Genomics.
-random_paper: 69
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

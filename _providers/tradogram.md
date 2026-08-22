@@ -113,7 +113,7 @@ plans:
 - name: Tradogram Plans Pricing
   plan_count: 4
   slug: tradogram-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Tradogram Rate Limits

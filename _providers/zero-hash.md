@@ -395,7 +395,7 @@ overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 19
+random_paper: 10
 scopes:
 - name: Zero Hash Scopes
   scope_count: 4

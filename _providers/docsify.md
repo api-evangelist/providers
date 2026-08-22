@@ -81,7 +81,7 @@ plans:
 - name: Docsify Plans Pricing
   plan_count: 3
   slug: docsify-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Docsify Rate Limits

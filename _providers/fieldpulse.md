@@ -353,7 +353,7 @@ plans:
 - name: Fieldpulse Plans
   plan_count: 3
   slug: fieldpulse-plans
-random_paper: 26
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Fieldpulse Rate Limits

@@ -137,7 +137,7 @@ overview: 'Univers publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Univers'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: thin
   composite: 36.6

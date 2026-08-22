@@ -80,7 +80,7 @@ overview: 'Williams Companies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Williams Companies'' developer surface includes engineering blog, developer portal, and 2 more developer resources.'
-random_paper: 82
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

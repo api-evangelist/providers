@@ -64,7 +64,7 @@ overview: 'Gan & Lee Pharmaceuticals is profiled on the [APIs.io](https://apis.i
 
 
   Gan & Lee Pharmaceuticals'' developer surface includes support and 4 more developer resources.'
-random_paper: 119
+random_paper: 6
 score:
   band: minimal
   composite: 10.0

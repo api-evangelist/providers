@@ -88,7 +88,7 @@ overview: 'Floreo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Floreo''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: emerging
   composite: 15.2

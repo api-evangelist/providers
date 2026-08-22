@@ -210,7 +210,7 @@ overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 135
+random_paper: 6
 score:
   band: strong
   composite: 58.0

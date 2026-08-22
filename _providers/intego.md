@@ -84,7 +84,7 @@ overview: 'Intego is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Intego''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 18.1

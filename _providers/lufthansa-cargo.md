@@ -135,7 +135,7 @@ overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 6 more developer resources.'
-random_paper: 45
+random_paper: 2
 score:
   band: emerging
   composite: 20.7

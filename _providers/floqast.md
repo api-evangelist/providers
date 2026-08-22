@@ -92,7 +92,7 @@ overview: 'FloQast is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   FloQast''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: emerging
   composite: 19.6

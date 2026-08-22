@@ -183,7 +183,7 @@ plans:
 - name: Chainguard Plans Pricing
   plan_count: 3
   slug: chainguard-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Chainguard Rate Limits

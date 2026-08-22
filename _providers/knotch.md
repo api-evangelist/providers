@@ -168,7 +168,7 @@ plans:
 - name: Knotch Plans Pricing
   plan_count: 0
   slug: knotch-plans-pricing
-random_paper: 51
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Knotch Rate Limits

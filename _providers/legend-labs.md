@@ -40,7 +40,7 @@ name: Legend Labs
 nav: Providers
 network: true
 overview: Legend Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, a16z, Portfolio Lead, and Unverified.
-random_paper: 43
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

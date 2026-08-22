@@ -181,7 +181,7 @@ plans:
 - name: Cubby Plans Pricing
   plan_count: 0
   slug: cubby-plans-pricing
-random_paper: 86
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Cubby Rate Limits

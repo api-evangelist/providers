@@ -204,7 +204,7 @@ plans:
 - name: Shipbob Plans Pricing
   plan_count: 1
   slug: shipbob-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Shipbob Rate Limits

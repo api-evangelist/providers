@@ -64,7 +64,7 @@ overview: 'So Sure is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   So Sure''s developer surface includes support and 4 more developer resources.'
-random_paper: 122
+random_paper: 4
 score:
   band: minimal
   composite: 9.3

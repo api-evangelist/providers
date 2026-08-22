@@ -57,7 +57,7 @@ name: Data USA
 nav: Providers
 network: true
 overview: Data USA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 4.2

@@ -180,7 +180,7 @@ overview: 'Skyflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Skyflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: developing
   composite: 42.2

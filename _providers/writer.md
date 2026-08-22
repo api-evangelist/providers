@@ -159,7 +159,7 @@ plans:
 - name: Writer Plans Pricing
   plan_count: 3
   slug: writer-plans-pricing
-random_paper: 73
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Writer Rate Limits

@@ -217,7 +217,7 @@ plans:
 - name: Community Plans Pricing
   plan_count: 3
   slug: community-plans-pricing
-random_paper: 103
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Community Rate Limits

@@ -125,7 +125,7 @@ plans:
 - name: Avarra Plans Pricing
   plan_count: 0
   slug: avarra-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Avarra Rate Limits

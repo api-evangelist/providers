@@ -214,7 +214,7 @@ overview: 'LAPIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   LAPIS''s developer surface includes developer portal, documentation, getting-started guide, changelog, CLI, sandbox, code examples, and 20 more developer resources.'
-random_paper: 90
+random_paper: 12
 rules:
 - effective_rule_count: 6
   extends: []

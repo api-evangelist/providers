@@ -172,7 +172,7 @@ overview: 'Cuenca publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cuenca''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 21 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: developing
   composite: 41.5

@@ -92,7 +92,7 @@ overview: 'Raya is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Raya''s developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: minimal
   composite: 10.2

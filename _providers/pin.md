@@ -72,7 +72,7 @@ overview: 'PIN is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PIN''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 29
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

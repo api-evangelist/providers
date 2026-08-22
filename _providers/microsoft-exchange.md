@@ -686,7 +686,7 @@ plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
   slug: microsoft-exchange-plans-pricing
-random_paper: 74
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Microsoft Exchange Rate Limits

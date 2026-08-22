@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/912767/000091276723000013/ufpi-20230502x8k.htm
-random_paper: 85
+random_paper: 14
 score:
   band: minimal
   composite: 9.7

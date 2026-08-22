@@ -166,7 +166,7 @@ overview: 'ether.fi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ether.fi''s developer surface includes documentation, engineering blog, and 23 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 5.2

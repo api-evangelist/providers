@@ -129,7 +129,7 @@ plans:
 - name: Vida Health Plans Pricing
   plan_count: 0
   slug: vida-health-plans-pricing
-random_paper: 52
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Vida Health Rate Limits

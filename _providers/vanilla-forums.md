@@ -530,7 +530,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
 
 
   Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 115
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits

@@ -49,7 +49,7 @@ name: LucidAct
 nav: Providers
 network: true
 overview: LucidAct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Care Management, and Artificial Intelligence.
-random_paper: 96
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

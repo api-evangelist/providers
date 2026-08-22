@@ -80,7 +80,7 @@ overview: 'Aculys is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aculys'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: minimal
   composite: 4.7

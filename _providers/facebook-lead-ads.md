@@ -274,7 +274,7 @@ plans:
 - name: Facebook Lead Ads Plans Pricing
   plan_count: 0
   slug: facebook-lead-ads-plans-pricing
-random_paper: 144
+random_paper: 17
 rate_limits:
 - limit_count: 10
   name: Facebook Lead Ads Rate Limits

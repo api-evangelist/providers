@@ -256,7 +256,7 @@ plans:
 - name: Crunchbase Data Plans Pricing
   plan_count: 8
   slug: crunchbase-data-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Crunchbase Data Rate Limits

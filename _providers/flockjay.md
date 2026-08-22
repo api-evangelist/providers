@@ -169,7 +169,7 @@ plans:
 - name: Flockjay Plans Pricing
   plan_count: 0
   slug: flockjay-plans-pricing
-random_paper: 106
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Flockjay Rate Limits

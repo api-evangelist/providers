@@ -143,7 +143,7 @@ plans:
 - name: Pokemon Tcg Plans Pricing
   plan_count: 3
   slug: pokemon-tcg-plans-pricing
-random_paper: 81
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Pokemon Tcg Rate Limits

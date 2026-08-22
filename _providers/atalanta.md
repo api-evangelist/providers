@@ -84,7 +84,7 @@ overview: 'Atalanta is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Atalanta''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: emerging
   composite: 11.4

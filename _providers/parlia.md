@@ -53,7 +53,7 @@ name: Parlia
 nav: Providers
 network: true
 overview: Parlia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Opinion, Content, Media, and Debate.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 3.4

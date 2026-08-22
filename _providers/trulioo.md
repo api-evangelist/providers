@@ -635,7 +635,7 @@ plans:
 - name: Trulioo Plans Pricing
   plan_count: 6
   slug: trulioo-plans-pricing
-random_paper: 37
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Trulioo Rate Limits

@@ -113,7 +113,7 @@ plans:
 - name: Postalytics Plans Pricing
   plan_count: 4
   slug: postalytics-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Postalytics Rate Limits

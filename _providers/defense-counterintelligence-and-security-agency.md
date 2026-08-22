@@ -72,7 +72,7 @@ overview: 'Defense Counterintelligence and Security Agency is profiled on the [A
 
 
   Defense Counterintelligence and Security Agency''s developer surface includes product news and 6 more developer resources.'
-random_paper: 3
+random_paper: 4
 score:
   band: minimal
   composite: 3.4

@@ -211,7 +211,7 @@ overview: 'Gauntlet publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gauntlet''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 123
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Gauntlet Rate Limits

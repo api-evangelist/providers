@@ -49,7 +49,7 @@ name: Deserve
 nav: Providers
 network: true
 overview: Deserve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fintech, Credit Cards, and Card Issuing.
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 1.5

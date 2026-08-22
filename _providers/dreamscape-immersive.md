@@ -80,7 +80,7 @@ plans:
 - name: Dreamscape Immersive Plans Pricing
   plan_count: 0
   slug: dreamscape-immersive-plans-pricing
-random_paper: 130
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Dreamscape Immersive Rate Limits

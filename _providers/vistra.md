@@ -176,7 +176,7 @@ plans:
 - name: Vistra Plans Pricing
   plan_count: 1
   slug: vistra-plans-pricing
-random_paper: 69
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Vistra Rate Limits

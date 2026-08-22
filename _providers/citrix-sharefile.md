@@ -147,7 +147,7 @@ overview: 'Citrix ShareFile publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 12
+random_paper: 13
 score:
   band: thin
   composite: 31.4

@@ -64,7 +64,7 @@ overview: 'Clairity is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Clairity''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 5.5

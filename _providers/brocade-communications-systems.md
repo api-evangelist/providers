@@ -175,7 +175,7 @@ press:
 - date: '2026-05-25'
   title: World's first successful AI-assisted automated network ...
   url: https://www.kddi-research.jp/english/newsrelease/2016/022201.html
-random_paper: 135
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Brocade Communications Systems Rate Limits

@@ -57,7 +57,7 @@ name: Ajar Online
 nav: Providers
 network: true
 overview: Ajar Online publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Property Management, and Rent Payments.
-random_paper: 61
+random_paper: 12
 score:
   band: minimal
   composite: 4.1

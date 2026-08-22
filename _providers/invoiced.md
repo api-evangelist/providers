@@ -167,7 +167,7 @@ plans:
 - name: Invoiced Plans Pricing
   plan_count: 2
   slug: invoiced-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Invoiced Rate Limits

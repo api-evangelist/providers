@@ -53,7 +53,7 @@ name: Dayjob
 nav: Providers
 network: true
 overview: Dayjob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Transportation, Waste Management, and Fleet Management.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

@@ -113,7 +113,7 @@ overview: 'CRB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CRB''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: emerging
   composite: 25.3

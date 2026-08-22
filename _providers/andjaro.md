@@ -49,7 +49,7 @@ name: andjaro
 nav: Providers
 network: true
 overview: andjaro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Workforce Management, Staffing, and SaaS.
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

@@ -120,7 +120,7 @@ plans:
 - name: Hkust Plans Pricing
   plan_count: 2
   slug: hkust-plans-pricing
-random_paper: 112
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Hkust Rate Limits

@@ -325,7 +325,7 @@ plans:
 - name: Thetadata Plans
   plan_count: 7
   slug: thetadata-plans
-random_paper: 50
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits

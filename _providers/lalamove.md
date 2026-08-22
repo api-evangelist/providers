@@ -168,7 +168,7 @@ overview: 'Lalamove publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Lalamove''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: developing
   composite: 44.8

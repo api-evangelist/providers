@@ -68,7 +68,7 @@ overview: 'Time is Ltd is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Time is Ltd''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 22
+random_paper: 15
 score:
   band: emerging
   composite: 11.0

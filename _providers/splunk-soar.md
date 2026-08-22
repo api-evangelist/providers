@@ -183,7 +183,7 @@ plans:
 - name: Splunk Soar Plans Pricing
   plan_count: 0
   slug: splunk-soar-plans-pricing
-random_paper: 108
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Splunk Soar Rate Limits

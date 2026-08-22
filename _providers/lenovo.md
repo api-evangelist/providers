@@ -131,7 +131,7 @@ overview: 'Lenovo publishes 2 APIs on the [APIs.io](https://apis.io/) network: I
 
 
   Lenovo''s developer surface includes authentication, product news, engineering blog, and 11 more developer resources.'
-random_paper: 63
+random_paper: 8
 score:
   band: emerging
   composite: 23.1

@@ -53,7 +53,7 @@ name: Airbrite
 nav: Providers
 network: true
 overview: Airbrite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Order Management, Payments, and Checkout.
-random_paper: 105
+random_paper: 10
 score:
   band: minimal
   composite: 1.9

@@ -40,7 +40,7 @@ name: Praecis Pharmaceuticals
 nav: Providers
 network: true
 overview: Praecis Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 143
+random_paper: 5
 score:
   band: minimal
   composite: 4.1

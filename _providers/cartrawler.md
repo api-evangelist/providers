@@ -80,7 +80,7 @@ overview: 'Cartrawler is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cartrawler''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: minimal
   composite: 9.7

@@ -125,7 +125,7 @@ overview: 'Lookout publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Lookout''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 36
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Lookout Rate Limits

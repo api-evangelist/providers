@@ -64,7 +64,7 @@ overview: 'Braveheart Bio is profiled on the [APIs.io](https://apis.io/) network
 
 
   Braveheart Bio''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 17
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

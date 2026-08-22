@@ -169,7 +169,7 @@ plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
   slug: tuva-health-plans-pricing
-random_paper: 80
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Tuva Health Rate Limits

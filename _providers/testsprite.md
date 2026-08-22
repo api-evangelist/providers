@@ -165,7 +165,7 @@ overview: 'TestSprite is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TestSprite''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, changelog, support, and 22 more developer resources.'
-random_paper: 68
+random_paper: 19
 scopes:
 - name: Testsprite Scopes
   scope_count: 5

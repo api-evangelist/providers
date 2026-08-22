@@ -88,7 +88,7 @@ name: Cognito Therapeutics
 nav: Providers
 network: true
 overview: Cognito Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Medical Devices, Neurotechnology, and Neuroscience.
-random_paper: 11
+random_paper: 18
 score:
   band: minimal
   composite: 7.2

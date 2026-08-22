@@ -61,7 +61,7 @@ name: DCP Midstream (Acquired by Phillips 66)
 nav: Providers
 network: true
 overview: DCP Midstream (Acquired by Phillips 66) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct, Acquired, Phillips 66, Midstream, and Natural Gas.
-random_paper: 130
+random_paper: 20
 score:
   band: minimal
   composite: 2.1

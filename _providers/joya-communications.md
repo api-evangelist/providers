@@ -72,7 +72,7 @@ overview: 'Joya Communications is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Joya Communications'' developer surface includes support, signup flow, pricing, and 4 more developer resources.'
-random_paper: 56
+random_paper: 19
 score:
   band: emerging
   composite: 14.9

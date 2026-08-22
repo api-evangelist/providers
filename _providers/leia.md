@@ -200,7 +200,7 @@ plans:
 - name: Leia Plans
   plan_count: 6
   slug: leia-plans
-random_paper: 113
+random_paper: 12
 scopes:
 - name: Leia Scopes
   scope_count: 20

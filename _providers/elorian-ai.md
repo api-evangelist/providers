@@ -120,7 +120,7 @@ plans:
 - name: Elorian Ai Plans Pricing
   plan_count: 0
   slug: elorian-ai-plans-pricing
-random_paper: 99
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Elorian Ai Rate Limits

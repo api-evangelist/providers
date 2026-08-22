@@ -216,7 +216,7 @@ overview: 'TypingDNA publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   TypingDNA''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 80
+random_paper: 8
 scopes:
 - name: Typingdna Scopes
   scope_count: 3

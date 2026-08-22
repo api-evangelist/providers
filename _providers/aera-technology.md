@@ -141,7 +141,7 @@ overview: 'Aera Technology publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Aera Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 48
+random_paper: 5
 scopes:
 - name: Aera Technology Scopes
   scope_count: 1

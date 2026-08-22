@@ -115,7 +115,7 @@ overview: 'Alamar Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   Alamar Biosciences'' developer surface includes documentation, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 38
+random_paper: 20
 score:
   band: minimal
   composite: 9.5

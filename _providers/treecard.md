@@ -57,7 +57,7 @@ name: Treecard
 nav: Providers
 network: true
 overview: Treecard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Sustainability, Reforestation, and Fitness.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 6.1

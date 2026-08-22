@@ -49,7 +49,7 @@ name: PPS (pps.tv)
 nav: Providers
 network: true
 overview: PPS (pps.tv) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Online Video, Video Streaming, Media and Entertainment, and Consumer.
-random_paper: 41
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

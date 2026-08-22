@@ -179,7 +179,7 @@ plans:
 - name: Ezrentout Plans Pricing
   plan_count: 5
   slug: ezrentout-plans-pricing
-random_paper: 114
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Ezrentout Rate Limits

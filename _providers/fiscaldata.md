@@ -136,7 +136,7 @@ plans:
 - name: Fiscaldata Plans Pricing
   plan_count: 1
   slug: fiscaldata-plans-pricing
-random_paper: 142
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Fiscaldata Rate Limits

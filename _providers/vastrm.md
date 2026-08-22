@@ -72,7 +72,7 @@ overview: 'Vastrm is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vastrm''s developer surface includes support and 6 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 12.2

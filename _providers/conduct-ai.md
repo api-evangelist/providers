@@ -76,7 +76,7 @@ overview: 'Conduct AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Conduct AI''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 105
+random_paper: 12
 score:
   band: emerging
   composite: 12.7

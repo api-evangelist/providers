@@ -80,7 +80,7 @@ overview: 'Bloom Institute of Technology is profiled on the [APIs.io](https://ap
 
 
   Bloom Institute of Technology''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 139
+random_paper: 9
 score:
   band: emerging
   composite: 13.8

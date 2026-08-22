@@ -103,7 +103,7 @@ plans:
 - name: Politecnico Di Milano Plans Pricing
   plan_count: 2
   slug: politecnico-di-milano-plans-pricing
-random_paper: 26
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Milano Rate Limits

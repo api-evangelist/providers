@@ -181,7 +181,7 @@ overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 142
+random_paper: 11
 score:
   band: developing
   composite: 42.3

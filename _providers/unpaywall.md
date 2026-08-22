@@ -147,7 +147,7 @@ plans:
 - name: Unpaywall Plans Pricing
   plan_count: 3
   slug: unpaywall-plans-pricing
-random_paper: 95
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Unpaywall Rate Limits

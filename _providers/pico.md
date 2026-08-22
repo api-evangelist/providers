@@ -97,7 +97,7 @@ plans:
 - name: Pico Plans Pricing
   plan_count: 0
   slug: pico-plans-pricing
-random_paper: 129
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Pico Rate Limits

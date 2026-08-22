@@ -49,7 +49,7 @@ name: Onera (acquired by Lyniate in 2021)
 nav: Providers
 network: true
 overview: Onera (acquired by Lyniate in 2021) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Supply Chain, Inventory, and Order Management.
-random_paper: 13
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

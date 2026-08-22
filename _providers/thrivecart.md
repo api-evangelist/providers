@@ -201,7 +201,7 @@ plans:
 - name: Thrivecart Plans Pricing
   plan_count: 3
   slug: thrivecart-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Thrivecart Rate Limits

@@ -97,7 +97,7 @@ overview: 'Sunlight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sunlight''s developer surface includes documentation, API reference, authentication, and 9 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 18.0

@@ -49,7 +49,7 @@ name: SolarBridge Technologies
 nav: Providers
 network: true
 overview: SolarBridge Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Renewable Energy, and Microinverter.
-random_paper: 111
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

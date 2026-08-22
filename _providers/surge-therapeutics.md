@@ -85,7 +85,7 @@ overview: 'SURGE Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   SURGE Therapeutics'' developer surface includes product news and 7 more developer resources.'
-random_paper: 104
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

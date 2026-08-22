@@ -57,7 +57,7 @@ name: Rebellion Defense
 nav: Providers
 network: true
 overview: Rebellion Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, Defense, National Security, and Artificial Intelligence.
-random_paper: 92
+random_paper: 9
 score:
   band: minimal
   composite: 6.6

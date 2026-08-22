@@ -213,7 +213,7 @@ overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 27 more developer resources.'
-random_paper: 8
+random_paper: 7
 scopes:
 - name: Triodos Bank Uk Scopes
   scope_count: 5

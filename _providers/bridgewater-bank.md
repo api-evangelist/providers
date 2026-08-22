@@ -64,7 +64,7 @@ overview: 'Bridgewater Bank is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bridgewater Bank''s developer surface includes developer portal, support, and 5 more developer resources.'
-random_paper: 135
+random_paper: 8
 score:
   band: minimal
   composite: 10.1

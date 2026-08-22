@@ -61,7 +61,7 @@ name: AVO
 nav: Providers
 network: true
 overview: AVO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Delivery, Logistics, Last Mile Delivery, and Grocery.
-random_paper: 28
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

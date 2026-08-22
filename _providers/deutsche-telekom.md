@@ -500,7 +500,7 @@ overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/)
 
 
   Deutsche Telekom''s developer surface includes authentication, YouTube channel, documentation, getting-started guide, engineering blog, and 30 more developer resources.'
-random_paper: 12
+random_paper: 13
 scopes:
 - name: Deutsche Telekom Scopes
   scope_count: 13

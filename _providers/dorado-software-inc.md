@@ -64,7 +64,7 @@ overview: 'Dorado Software Inc is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Dorado Software Inc''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 124
+random_paper: 1
 score:
   band: minimal
   composite: 8.5

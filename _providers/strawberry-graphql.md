@@ -88,7 +88,7 @@ overview: 'Strawberry GraphQL publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Strawberry GraphQL''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 117
+random_paper: 15
 score:
   band: emerging
   composite: 23.1

@@ -88,7 +88,7 @@ overview: 'Finli is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Finli''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 83
+random_paper: 5
 score:
   band: emerging
   composite: 19.0

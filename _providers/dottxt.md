@@ -165,7 +165,7 @@ overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   dottxt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 83
+random_paper: 7
 score:
   band: thin
   composite: 30.1

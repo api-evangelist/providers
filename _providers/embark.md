@@ -72,7 +72,7 @@ overview: 'Embark is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Embark''s developer surface includes support, engineering blog, pricing, and 4 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: emerging
   composite: 11.4

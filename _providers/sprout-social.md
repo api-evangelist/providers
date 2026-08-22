@@ -213,7 +213,7 @@ plans:
 - name: Sprout Social Plans Pricing
   plan_count: 5
   slug: sprout-social-plans-pricing
-random_paper: 24
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Sprout Social Rate Limits

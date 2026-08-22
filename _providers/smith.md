@@ -49,7 +49,7 @@ name: Smith
 nav: Providers
 network: true
 overview: Smith is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Improvement, Home Services, Marketplace, and Contractors.
-random_paper: 102
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

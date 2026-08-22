@@ -109,7 +109,7 @@ overview: 'Hireology is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hireology''s developer surface includes engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 84
+random_paper: 12
 score:
   band: emerging
   composite: 20.4

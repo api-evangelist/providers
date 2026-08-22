@@ -93,7 +93,7 @@ overview: 'Pensando * publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Pensando *''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 10.8

@@ -76,7 +76,7 @@ overview: 'Zarna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zarna''s developer surface includes engineering blog, pricing, and 6 more developer resources.'
-random_paper: 93
+random_paper: 15
 score:
   band: emerging
   composite: 15.0

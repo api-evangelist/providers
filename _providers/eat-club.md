@@ -104,7 +104,7 @@ plans:
 - name: Eat Club Plans Pricing
   plan_count: 0
   slug: eat-club-plans-pricing
-random_paper: 36
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Eat Club Rate Limits

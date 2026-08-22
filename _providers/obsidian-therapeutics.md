@@ -64,7 +64,7 @@ overview: 'Obsidian Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Obsidian Therapeutics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 97
+random_paper: 20
 score:
   band: minimal
   composite: 9.1

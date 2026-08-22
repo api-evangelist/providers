@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: Superior Energy Services - Rental & Well Service Brands
   url: https://superiorenergy.com/
-random_paper: 113
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

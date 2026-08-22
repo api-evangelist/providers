@@ -158,7 +158,7 @@ plans:
 - name: Sendowl Plans Pricing
   plan_count: 4
   slug: sendowl-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Sendowl Rate Limits

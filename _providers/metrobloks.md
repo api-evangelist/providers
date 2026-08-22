@@ -118,7 +118,7 @@ plans:
 - name: Metrobloks Plans Pricing
   plan_count: 0
   slug: metrobloks-plans-pricing
-random_paper: 47
+random_paper: 19
 score:
   band: emerging
   composite: 15.1

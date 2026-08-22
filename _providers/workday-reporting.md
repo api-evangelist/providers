@@ -213,7 +213,7 @@ plans:
 - name: Workday Reporting Plans Pricing
   plan_count: 1
   slug: workday-reporting-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Workday Reporting Rate Limits

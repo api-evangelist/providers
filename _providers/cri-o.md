@@ -171,7 +171,7 @@ plans:
 - name: Cri O Plans Pricing
   plan_count: 1
   slug: cri-o-plans-pricing
-random_paper: 27
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Cri O Rate Limits

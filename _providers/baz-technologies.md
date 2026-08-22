@@ -140,7 +140,7 @@ overview: 'Baz Technologies is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Baz Technologies'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 16 more developer resources.'
-random_paper: 7
+random_paper: 8
 score:
   band: thin
   composite: 32.1

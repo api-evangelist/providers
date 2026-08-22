@@ -57,7 +57,7 @@ name: Degla Inc
 nav: Providers
 network: true
 overview: Degla Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Autonomous Systems, Artificial Intelligence, and Aerospace.
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

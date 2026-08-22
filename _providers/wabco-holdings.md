@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: WABCO Holdings Inc. Business Report FY ended Dec. 2017
   url: https://www.marklines.com/en/top500/cf/s500_370_hl2017
-random_paper: 84
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Wabco Holdings Rate Limits

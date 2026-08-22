@@ -80,7 +80,7 @@ overview: 'Mobilize is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mobilize''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 114
+random_paper: 19
 score:
   band: emerging
   composite: 12.0

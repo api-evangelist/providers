@@ -121,7 +121,7 @@ overview: 'Aurora Innovation is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Aurora Innovation''s developer surface includes engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 0
+random_paper: 3
 score:
   band: minimal
   composite: 5.5

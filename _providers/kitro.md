@@ -109,7 +109,7 @@ overview: 'KITRO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   KITRO''s developer surface includes pricing, engineering blog, support, and 13 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: emerging
   composite: 12.7

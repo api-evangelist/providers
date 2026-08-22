@@ -80,7 +80,7 @@ overview: 'OakNorth is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OakNorth''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 125
+random_paper: 9
 score:
   band: emerging
   composite: 11.1

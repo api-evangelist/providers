@@ -49,7 +49,7 @@ name: Genuity
 nav: Providers
 network: true
 overview: Genuity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Internet Infrastructure, Legacy, and Acquired.
-random_paper: 28
+random_paper: 17
 score:
   band: minimal
   composite: 0.0

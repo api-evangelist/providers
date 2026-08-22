@@ -248,7 +248,7 @@ plans:
 - name: Openchargemap Plans
   plan_count: 2
   slug: openchargemap-plans
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Openchargemap Rate Limits

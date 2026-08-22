@@ -312,7 +312,7 @@ overview: 'Root (fka Slim.ai) publishes 20 APIs on the [APIs.io](https://apis.io
 
 
   Root (fka Slim.ai)''s developer surface includes authentication, changelog, CLI, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 146
+random_paper: 17
 score:
   band: developing
   composite: 45.7

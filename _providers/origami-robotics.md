@@ -49,7 +49,7 @@ name: Origami Robotics
 nav: Providers
 network: true
 overview: Origami Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robotic Hands, Machine Learning, and Manipulation.
-random_paper: 19
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

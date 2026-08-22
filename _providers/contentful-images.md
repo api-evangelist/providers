@@ -72,7 +72,7 @@ overview: 'Contentful Images publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Contentful Images'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 126
+random_paper: 1
 score:
   band: minimal
   composite: 7.8

@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: 'Warren Buffett''s $10 billion mistake: Precision Castparts'
   url: https://www.reuters.com/article/business/warren-buffetts-10-billion-mistake-precision-castparts-idUSKCN2AR0MY/
-random_paper: 61
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

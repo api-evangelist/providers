@@ -158,7 +158,7 @@ plans:
 - name: Inato Plans Pricing
   plan_count: 0
   slug: inato-plans-pricing
-random_paper: 92
+random_paper: 14
 score:
   band: emerging
   composite: 19.1

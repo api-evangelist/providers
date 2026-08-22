@@ -223,7 +223,7 @@ plans:
 - name: Substack Plans Pricing
   plan_count: 2
   slug: substack-plans-pricing
-random_paper: 119
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Substack Rate Limits

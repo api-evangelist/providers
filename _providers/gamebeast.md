@@ -129,7 +129,7 @@ overview: 'Gamebeast publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Gamebeast''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 13 more developer resources.'
-random_paper: 43
+random_paper: 13
 score:
   band: thin
   composite: 30.7

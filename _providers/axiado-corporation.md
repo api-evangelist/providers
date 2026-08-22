@@ -156,7 +156,7 @@ overview: 'Axiado Corporation publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Axiado Corporation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 87
+random_paper: 6
 score:
   band: emerging
   composite: 23.8

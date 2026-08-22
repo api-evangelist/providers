@@ -49,7 +49,7 @@ name: iceonline
 nav: Providers
 network: true
 overview: iceonline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ice Rink, Facility Management, Enterprise Software, and Sports and Recreation.
-random_paper: 56
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -262,7 +262,7 @@ overview: 'Wish publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 13 more developer resources.'
-random_paper: 145
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Wish Rate Limits

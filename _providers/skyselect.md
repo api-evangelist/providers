@@ -89,7 +89,7 @@ overview: 'SkySelect is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SkySelect''s developer surface includes pricing, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 89
+random_paper: 17
 score:
   band: emerging
   composite: 16.4

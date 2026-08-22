@@ -322,7 +322,7 @@ plans:
 - name: Azure Function Apps Plans Pricing
   plan_count: 3
   slug: azure-function-apps-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Azure Function Apps Rate Limits

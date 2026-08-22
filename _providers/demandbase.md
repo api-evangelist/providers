@@ -321,7 +321,7 @@ plans:
 - name: Demandbase Plans Pricing
   plan_count: 0
   slug: demandbase-plans-pricing
-random_paper: 134
+random_paper: 20
 rate_limits:
 - limit_count: 15
   name: Demandbase Rate Limits

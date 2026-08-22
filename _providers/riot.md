@@ -286,7 +286,7 @@ overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 29 more developer resources.'
-random_paper: 148
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Riot Rate Limits

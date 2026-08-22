@@ -121,7 +121,7 @@ overview: 'Biosplice Therapeutics is profiled on the [APIs.io](https://apis.io/)
 
 
   Biosplice Therapeutics'' developer surface includes product news, engineering blog, support, and 14 more developer resources.'
-random_paper: 61
+random_paper: 7
 score:
   band: minimal
   composite: 10.8

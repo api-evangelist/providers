@@ -100,7 +100,7 @@ overview: 'StreamSets publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   StreamSets'' developer surface includes documentation, pricing, support, signup flow, and 9 more developer resources.'
-random_paper: 56
+random_paper: 7
 score:
   band: emerging
   composite: 21.2

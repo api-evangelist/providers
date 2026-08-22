@@ -79,7 +79,7 @@ plans:
 - name: Oracle Platforms Plans Pricing
   plan_count: 3
   slug: oracle-platforms-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Oracle Platforms Rate Limits

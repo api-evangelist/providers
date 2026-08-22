@@ -83,7 +83,7 @@ overview: 'Eat Just is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eat Just''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 68
+random_paper: 15
 score:
   band: emerging
   composite: 11.7

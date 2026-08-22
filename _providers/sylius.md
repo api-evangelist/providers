@@ -109,7 +109,7 @@ plans:
 - name: Sylius Plans Pricing
   plan_count: 4
   slug: sylius-plans-pricing
-random_paper: 85
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Sylius Rate Limits

@@ -53,7 +53,7 @@ name: Axelrod
 nav: Providers
 network: true
 overview: Axelrod is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Travel, and Artificial Intelligence.
-random_paper: 6
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

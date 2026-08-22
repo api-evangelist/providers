@@ -93,7 +93,7 @@ name: AutoGrid
 nav: Providers
 network: true
 overview: AutoGrid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Utilities, Electricity, and Grid.
-random_paper: 118
+random_paper: 2
 score:
   band: emerging
   composite: 11.3

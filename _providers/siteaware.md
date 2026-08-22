@@ -104,7 +104,7 @@ overview: 'SiteAware is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SiteAware''s developer surface includes engineering blog, product news, signup flow, and 12 more developer resources.'
-random_paper: 71
+random_paper: 20
 score:
   band: emerging
   composite: 12.3

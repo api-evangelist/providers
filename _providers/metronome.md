@@ -221,7 +221,7 @@ plans:
 - name: Metronome Plans Pricing
   plan_count: 3
   slug: metronome-plans-pricing
-random_paper: 88
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Metronome Rate Limits

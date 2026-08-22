@@ -101,7 +101,7 @@ overview: 'Ashr is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ashr''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, and 8 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: emerging
   composite: 22.9

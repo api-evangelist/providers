@@ -45,7 +45,7 @@ name: Yellow Card
 nav: Providers
 network: true
 overview: Yellow Card is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Exchange.
-random_paper: 80
+random_paper: 10
 score:
   band: minimal
   composite: 0.0

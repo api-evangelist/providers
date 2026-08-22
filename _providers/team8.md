@@ -72,7 +72,7 @@ overview: 'Team8 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Team8''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 9.5

@@ -239,7 +239,7 @@ overview: 'Lightricks publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Lightricks'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 33
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Lightricks Rate Limits

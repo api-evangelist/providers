@@ -154,7 +154,7 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Reachware Inc.''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 113
+random_paper: 3
 score:
   band: developing
   composite: 42.6

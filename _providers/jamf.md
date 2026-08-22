@@ -186,7 +186,7 @@ overview: 'JAMF publishes 1 API on the [APIs.io](https://apis.io/) network: Pro 
 
 
   JAMF''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 116
+random_paper: 15
 score:
   band: developing
   composite: 50.2

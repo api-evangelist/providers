@@ -64,7 +64,7 @@ overview: 'GOTCHA Technology Inc. is profiled on the [APIs.io](https://apis.io/)
 
 
   GOTCHA Technology Inc.''s developer surface includes support, FAQ, product news, and 2 more developer resources.'
-random_paper: 32
+random_paper: 18
 score:
   band: minimal
   composite: 5.5

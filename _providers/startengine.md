@@ -109,7 +109,7 @@ overview: 'StartEngine is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   StartEngine''s developer surface includes engineering blog, support, signup flow, pricing, and 11 more developer resources.'
-random_paper: 145
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

@@ -130,7 +130,7 @@ overview: 'Acturis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Acturis'' developer surface includes FAQ, engineering blog, and 19 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: emerging
   composite: 12.5

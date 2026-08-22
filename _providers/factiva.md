@@ -281,7 +281,7 @@ plans:
 - name: Factiva Plans Pricing
   plan_count: 0
   slug: factiva-plans-pricing
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Factiva Rate Limits

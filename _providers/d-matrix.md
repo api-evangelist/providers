@@ -88,7 +88,7 @@ overview: 'd-Matrix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   d-Matrix''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 61
+random_paper: 8
 score:
   band: emerging
   composite: 15.1

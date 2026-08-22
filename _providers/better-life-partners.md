@@ -126,7 +126,7 @@ overview: 'Better Life Partners is profiled on the [APIs.io](https://apis.io/) n
 
 
   Better Life Partners'' developer surface includes engineering blog, support, FAQ, pricing, signup flow, and 12 more developer resources.'
-random_paper: 94
+random_paper: 15
 score:
   band: emerging
   composite: 13.1

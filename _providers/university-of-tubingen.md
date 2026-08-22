@@ -104,7 +104,7 @@ plans:
 - name: University Of Tubingen Plans Pricing
   plan_count: 2
   slug: university-of-tubingen-plans-pricing
-random_paper: 50
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: University Of Tubingen Rate Limits

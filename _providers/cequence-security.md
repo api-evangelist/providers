@@ -151,7 +151,7 @@ overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Cequence Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 20 more developer resources.'
-random_paper: 135
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Cequence Security Rate Limits

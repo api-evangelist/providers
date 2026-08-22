@@ -50,7 +50,7 @@ name: Knote
 nav: Providers
 network: true
 overview: Knote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Knowledge Management, Notes, and Productivity.
-random_paper: 98
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

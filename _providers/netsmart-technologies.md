@@ -76,7 +76,7 @@ overview: 'Netsmart Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   Netsmart Technologies'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 121
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

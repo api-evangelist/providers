@@ -121,7 +121,7 @@ overview: 'Buildertrend is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Buildertrend''s developer surface includes pricing, support, engineering blog, GitHub presence, YouTube channel, and 14 more developer resources.'
-random_paper: 92
+random_paper: 3
 score:
   band: minimal
   composite: 10.1

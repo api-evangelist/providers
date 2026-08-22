@@ -64,7 +64,7 @@ overview: 'Pathios Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Pathios Therapeutics'' developer surface includes product news and 4 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: minimal
   composite: 2.2

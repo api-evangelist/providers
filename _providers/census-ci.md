@@ -155,7 +155,7 @@ plans:
 - name: Census Ci Plans Pricing
   plan_count: 3
   slug: census-ci-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Census Ci Rate Limits

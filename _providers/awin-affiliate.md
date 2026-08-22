@@ -278,7 +278,7 @@ plans:
 - name: Awin Affiliate Plans Pricing
   plan_count: 4
   slug: awin-affiliate-plans-pricing
-random_paper: 68
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Awin Affiliate Rate Limits

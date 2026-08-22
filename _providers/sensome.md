@@ -60,7 +60,7 @@ overview: 'Sensome is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sensome''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 6.5

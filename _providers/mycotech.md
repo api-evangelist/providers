@@ -56,7 +56,7 @@ overview: 'Mycotech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mycotech''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

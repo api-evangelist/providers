@@ -915,7 +915,7 @@ plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
   slug: aws-api-gateway-plans-pricing
-random_paper: 148
+random_paper: 19
 rate_limits:
 - limit_count: 12
   name: Aws Api Gateway Rate Limits

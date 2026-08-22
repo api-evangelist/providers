@@ -68,7 +68,7 @@ overview: 'Teserac is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Teserac''s developer surface includes support and 5 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 9.4

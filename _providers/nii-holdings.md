@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: Mike Tolber - NII Holdings, Inc.
   url: https://www.linkedin.com/in/mike-tolber-53b433180
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 2.6

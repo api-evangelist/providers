@@ -93,7 +93,7 @@ overview: 'Leapmotor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Leapmotor''s developer surface includes support and 11 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: emerging
   composite: 12.0

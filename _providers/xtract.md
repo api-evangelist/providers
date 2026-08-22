@@ -45,7 +45,7 @@ name: Xtract
 nav: Providers
 network: true
 overview: Xtract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Analytics, Social Intelligence, and Telecom.
-random_paper: 66
+random_paper: 11
 score:
   band: minimal
   composite: 1.3

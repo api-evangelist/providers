@@ -52,7 +52,7 @@ overview: 'Physera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Physera''s developer surface includes support and 1 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 3.2

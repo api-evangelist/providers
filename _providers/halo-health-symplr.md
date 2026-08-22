@@ -80,7 +80,7 @@ overview: 'Halo Health (Symplr) is profiled on the [APIs.io](https://apis.io/) n
 
 
   Halo Health (Symplr)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 31
+random_paper: 13
 score:
   band: emerging
   composite: 11.2

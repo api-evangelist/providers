@@ -88,7 +88,7 @@ overview: 'Opensesame is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Opensesame''s developer surface includes engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: emerging
   composite: 19.1

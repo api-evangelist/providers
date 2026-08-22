@@ -92,7 +92,7 @@ overview: 'SNMP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   SNMP''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 148
+random_paper: 5
 score:
   band: emerging
   composite: 11.2

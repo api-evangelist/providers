@@ -108,7 +108,7 @@ overview: 'Looking Glass Factory publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Looking Glass Factory''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 57
+random_paper: 1
 score:
   band: emerging
   composite: 22.0

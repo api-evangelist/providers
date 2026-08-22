@@ -117,7 +117,7 @@ overview: 'VIPShop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   VIPShop''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, sandbox, and 10 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: thin
   composite: 26.5

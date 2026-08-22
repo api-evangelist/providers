@@ -53,7 +53,7 @@ name: Y&S
 nav: Providers
 network: true
 overview: Y&S is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Booking, Appointments, Beauty, and Wellness.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

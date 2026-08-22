@@ -84,7 +84,7 @@ plans:
 - name: Economic Research Service Plans Pricing
   plan_count: 3
   slug: economic-research-service-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Economic Research Service Rate Limits

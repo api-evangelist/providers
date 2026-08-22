@@ -211,7 +211,7 @@ plans:
 - name: Supermetrics Plans Pricing
   plan_count: 3
   slug: supermetrics-plans-pricing
-random_paper: 126
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Supermetrics Rate Limits

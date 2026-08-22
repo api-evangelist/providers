@@ -193,7 +193,7 @@ overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: developing
   composite: 49.3

@@ -148,7 +148,7 @@ overview: 'Azumio publishes 1 API on the [APIs.io](https://apis.io/) network: Fo
 
 
   Azumio''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: developing
   composite: 42.0

@@ -92,7 +92,7 @@ overview: 'Ashvattha Therapeutics is profiled on the [APIs.io](https://apis.io/)
 
 
   Ashvattha Therapeutics'' developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 71
+random_paper: 17
 score:
   band: minimal
   composite: 7.4

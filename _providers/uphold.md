@@ -372,7 +372,7 @@ overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 56
+random_paper: 1
 scopes:
 - name: Uphold Scopes
   scope_count: 64

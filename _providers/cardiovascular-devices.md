@@ -40,7 +40,7 @@ name: Cardiovascular Devices
 nav: Providers
 network: true
 overview: Cardiovascular Devices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Cardiovascular, and Medical Technology.
-random_paper: 40
+random_paper: 7
 score:
   band: minimal
   composite: 2.2

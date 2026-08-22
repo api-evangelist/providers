@@ -265,7 +265,7 @@ plans:
 - name: N8N Plans Pricing
   plan_count: 4
   slug: n8n-plans-pricing
-random_paper: 127
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: N8N Rate Limits

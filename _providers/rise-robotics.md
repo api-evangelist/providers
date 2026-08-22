@@ -49,7 +49,7 @@ name: Rise Robotics
 nav: Providers
 network: true
 overview: Rise Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Actuation, Industrial, and Hardware.
-random_paper: 8
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

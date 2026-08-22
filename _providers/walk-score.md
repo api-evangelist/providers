@@ -157,7 +157,7 @@ plans:
 - name: Walk Score Plans Pricing
   plan_count: 3
   slug: walk-score-plans-pricing
-random_paper: 122
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Walk Score Rate Limits

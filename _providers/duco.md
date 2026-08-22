@@ -97,7 +97,7 @@ overview: 'Duco is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Duco''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: emerging
   composite: 15.9

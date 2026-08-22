@@ -57,7 +57,7 @@ name: Covid-19 JHU CSSE
 nav: Providers
 network: true
 overview: Covid-19 JHU CSSE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 41
+random_paper: 19
 score:
   band: minimal
   composite: 4.1

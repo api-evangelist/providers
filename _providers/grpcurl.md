@@ -81,7 +81,7 @@ plans:
 - name: Grpcurl Plans Pricing
   plan_count: 3
   slug: grpcurl-plans-pricing
-random_paper: 22
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Grpcurl Rate Limits

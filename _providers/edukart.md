@@ -45,7 +45,7 @@ name: Edukart
 nav: Providers
 network: true
 overview: Edukart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, Online Courses, and India.
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 0.9

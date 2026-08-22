@@ -80,7 +80,7 @@ overview: 'Stockbit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stockbit''s developer surface includes support and 8 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: minimal
   composite: 8.7

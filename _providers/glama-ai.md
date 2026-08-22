@@ -225,7 +225,7 @@ overview: 'Glama publishes 7 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Glama''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, support, and 27 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: thin
   composite: 30.3

@@ -110,7 +110,7 @@ plans:
 - name: Pimento Plans Pricing
   plan_count: 0
   slug: pimento-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Pimento Rate Limits

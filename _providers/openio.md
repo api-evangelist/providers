@@ -105,7 +105,7 @@ overview: 'OpenIO publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   OpenIO''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 9 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: emerging
   composite: 17.3

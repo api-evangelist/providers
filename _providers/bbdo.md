@@ -254,7 +254,7 @@ plans:
 - name: Bbdo Plans Pricing
   plan_count: 0
   slug: bbdo-plans-pricing
-random_paper: 109
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Bbdo Rate Limits

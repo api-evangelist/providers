@@ -6791,12 +6791,11 @@ overview: 'Palo Alto Networks publishes 732 APIs on the [APIs.io](https://apis.i
 
 
   Palo Alto Networks'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, tooling, and 71 more developer resources.'
-paper_is_own: true
 plans:
 - name: Palo Alto Networks Plans Pricing
   plan_count: 1
   slug: palo-alto-networks-plans-pricing
-random_paper: 30
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Palo Alto Networks Rate Limits

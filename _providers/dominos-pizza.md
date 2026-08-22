@@ -94,7 +94,7 @@ plans:
 - name: Dominos Pizza Plans Pricing
   plan_count: 1
   slug: dominos-pizza-plans-pricing
-random_paper: 23
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Dominos Pizza Rate Limits

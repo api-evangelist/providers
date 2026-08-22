@@ -96,7 +96,7 @@ overview: 'Conception is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Conception''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 31
+random_paper: 3
 score:
   band: minimal
   composite: 6.4

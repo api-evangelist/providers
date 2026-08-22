@@ -187,7 +187,7 @@ plans:
 - name: Loomly Plans Pricing
   plan_count: 4
   slug: loomly-plans-pricing
-random_paper: 72
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Loomly Rate Limits

@@ -2106,7 +2106,7 @@ plans:
 - name: Amazon Inspector Plans Pricing
   plan_count: 3
   slug: amazon-inspector-plans-pricing
-random_paper: 35
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Inspector Rate Limits

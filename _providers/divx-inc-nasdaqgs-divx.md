@@ -56,7 +56,7 @@ overview: 'DivX, Inc. (NasdaqGS:DIVX) is profiled on the [APIs.io](https://apis.
 
 
   DivX, Inc. (NasdaqGS:DIVX)''s developer surface includes support and 2 more developer resources.'
-random_paper: 99
+random_paper: 1
 score:
   band: minimal
   composite: 6.0

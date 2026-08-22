@@ -139,7 +139,7 @@ plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
   slug: infer-by-flow7-plans-pricing
-random_paper: 144
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Infer By Flow7 Rate Limits

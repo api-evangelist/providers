@@ -178,7 +178,7 @@ overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 19 more developer resources.'
-random_paper: 29
+random_paper: 9
 score:
   band: developing
   composite: 39.5

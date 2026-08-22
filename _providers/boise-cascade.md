@@ -146,7 +146,7 @@ press:
 - date: '2026-04-21'
   title: Boise Cascade schedules first quarter 2026 earnings webcast and conference call
   url: https://www.bc.com/boise-cascade-first-quarter-2026-earnings-webcast-and-conference-call/
-random_paper: 91
+random_paper: 2
 score:
   band: minimal
   composite: 5.5

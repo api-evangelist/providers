@@ -174,7 +174,7 @@ plans:
 - name: Playht Plans Pricing
   plan_count: 1
   slug: playht-plans-pricing
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Playht Rate Limits

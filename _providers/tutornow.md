@@ -45,7 +45,7 @@ name: Tutornow
 nav: Providers
 network: true
 overview: Tutornow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Tutoring, and Online Learning.
-random_paper: 20
+random_paper: 11
 score:
   band: minimal
   composite: 0.9

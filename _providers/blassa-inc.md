@@ -104,7 +104,7 @@ overview: 'Blassa Inc. is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Blassa Inc.''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: thin
   composite: 27.7

@@ -128,7 +128,7 @@ overview: 'Terrastruct is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Terrastruct''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 27
+random_paper: 1
 score:
   band: thin
   composite: 26.8

@@ -166,7 +166,7 @@ overview: 'Emitwise publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Emitwise''s developer surface includes authentication, documentation, privacy policy, engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 126
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []

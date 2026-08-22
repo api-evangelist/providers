@@ -49,7 +49,7 @@ name: Aliena
 nav: Providers
 network: true
 overview: Aliena is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellites, Electric Propulsion, and Aerospace.
-random_paper: 22
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

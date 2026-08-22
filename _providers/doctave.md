@@ -144,7 +144,7 @@ plans:
 - name: Doctave Plans Pricing
   plan_count: 3
   slug: doctave-plans-pricing
-random_paper: 146
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Doctave Rate Limits

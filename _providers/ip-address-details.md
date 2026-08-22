@@ -64,7 +64,7 @@ overview: 'IP Address Details publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   IP Address Details'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 3
+random_paper: 6
 score:
   band: minimal
   composite: 6.2

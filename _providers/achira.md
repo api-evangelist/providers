@@ -57,7 +57,7 @@ name: Achira
 nav: Providers
 network: true
 overview: Achira is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Drug Discovery, Molecular Simulation, and Machine Learning.
-random_paper: 20
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

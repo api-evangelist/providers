@@ -49,7 +49,7 @@ name: Teamnote
 nav: Providers
 network: true
 overview: Teamnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Messaging, Mobile, Collaboration, and Productivity.
-random_paper: 116
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

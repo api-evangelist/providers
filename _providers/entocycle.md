@@ -60,7 +60,7 @@ overview: 'Entocycle is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Entocycle''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 72
+random_paper: 0
 score:
   band: minimal
   composite: 7.9

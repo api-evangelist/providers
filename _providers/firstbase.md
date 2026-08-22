@@ -100,7 +100,7 @@ overview: 'Firstbase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Firstbase''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: emerging
   composite: 20.5

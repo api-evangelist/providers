@@ -244,7 +244,7 @@ plans:
 - name: Mikmak Plans Pricing
   plan_count: 0
   slug: mikmak-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Mikmak Rate Limits

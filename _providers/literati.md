@@ -121,7 +121,7 @@ overview: 'Literati is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Literati''s developer surface includes support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: emerging
   composite: 19.3

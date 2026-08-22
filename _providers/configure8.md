@@ -154,7 +154,7 @@ plans:
 - name: Configure8 Plans Pricing
   plan_count: 3
   slug: configure8-plans-pricing
-random_paper: 124
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Configure8 Rate Limits

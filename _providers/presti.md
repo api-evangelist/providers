@@ -68,7 +68,7 @@ overview: 'Presti is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Presti''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 67
+random_paper: 12
 score:
   band: minimal
   composite: 10.7

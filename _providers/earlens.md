@@ -83,7 +83,7 @@ overview: 'EarLens is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EarLens'' developer surface includes support, engineering blog, FAQ, and 9 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: emerging
   composite: 11.5

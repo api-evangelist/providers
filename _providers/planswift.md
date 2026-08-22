@@ -73,7 +73,7 @@ plans:
 - name: Planswift Plans Pricing
   plan_count: 2
   slug: planswift-plans-pricing
-random_paper: 90
+random_paper: 18
 score:
   band: emerging
   composite: 11.5

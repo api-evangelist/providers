@@ -69,7 +69,7 @@ name: Pollinate
 nav: Providers
 network: true
 overview: Pollinate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Merchant Acquiring, Merchant Services, and Banking.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 7.6

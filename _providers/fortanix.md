@@ -210,7 +210,7 @@ overview: 'Fortanix publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 29 more developer resources.'
-random_paper: 130
+random_paper: 14
 scopes:
 - name: Fortanix Scopes
   scope_count: 0

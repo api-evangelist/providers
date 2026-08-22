@@ -105,7 +105,7 @@ plans:
 - name: Mediaspectrum Plans Pricing
   plan_count: 0
   slug: mediaspectrum-plans-pricing
-random_paper: 54
+random_paper: 9
 score:
   band: minimal
   composite: 7.8

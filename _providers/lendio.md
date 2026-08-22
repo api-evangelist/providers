@@ -108,7 +108,7 @@ plans:
 - name: Lendio Plans Pricing
   plan_count: 3
   slug: lendio-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Lendio Rate Limits

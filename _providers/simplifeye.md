@@ -68,7 +68,7 @@ overview: 'Simplifeye is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Simplifeye''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: emerging
   composite: 11.7

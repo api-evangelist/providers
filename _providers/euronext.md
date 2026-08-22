@@ -137,7 +137,7 @@ overview: 'Euronext publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Euronext''s developer surface includes authentication, changelog, sandbox, getting-started guide, developer portal, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 145
+random_paper: 8
 score:
   band: thin
   composite: 28.4

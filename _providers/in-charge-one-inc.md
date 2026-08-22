@@ -46,7 +46,7 @@ name: In Charge One, Inc.
 nav: Providers
 network: true
 overview: In Charge One, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, IoT, Charging, and Electric Vehicle Charging.
-random_paper: 114
+random_paper: 8
 score:
   band: minimal
   composite: 2.1

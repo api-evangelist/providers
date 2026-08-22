@@ -123,7 +123,7 @@ plans:
 - name: 23Andme Plans Pricing
   plan_count: 4
   slug: 23andme-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: 23Andme Rate Limits

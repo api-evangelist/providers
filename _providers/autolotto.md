@@ -57,7 +57,7 @@ name: AutoLotto
 nav: Providers
 network: true
 overview: AutoLotto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lottery, Gaming, Consumer, and Mobile.
-random_paper: 109
+random_paper: 16
 score:
   band: minimal
   composite: 9.2

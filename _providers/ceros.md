@@ -217,7 +217,7 @@ overview: 'Ceros publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ceros'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 93
+random_paper: 15
 score:
   band: developing
   composite: 52.8

@@ -60,7 +60,7 @@ overview: 'Bybit publishes 1 API on the [APIs.io](https://apis.io/) network: Byb
 
 
   The Bybit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 91
+random_paper: 13
 rules:
 - effective_rule_count: 35
   extends:

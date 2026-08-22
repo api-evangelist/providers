@@ -49,7 +49,7 @@ name: Jüsto
 nav: Providers
 network: true
 overview: Jüsto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery, E-commerce, Retail, and Food Delivery.
-random_paper: 46
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -116,7 +116,7 @@ plans:
 - name: Feedough Plans Pricing
   plan_count: 3
   slug: feedough-plans-pricing
-random_paper: 94
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Feedough Rate Limits

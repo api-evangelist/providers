@@ -128,7 +128,7 @@ plans:
 - name: Arcjet Plans Pricing
   plan_count: 5
   slug: arcjet-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Arcjet Rate Limits

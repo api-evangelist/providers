@@ -162,7 +162,7 @@ plans:
 - name: Stay Ai Plans Pricing
   plan_count: 2
   slug: stay-ai-plans-pricing
-random_paper: 100
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Stay Ai Rate Limits

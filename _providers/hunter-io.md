@@ -454,7 +454,7 @@ plans:
 - name: Hunter Io Plans Pricing
   plan_count: 5
   slug: hunter-io-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 8
   name: Hunter Io Rate Limits

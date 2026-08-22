@@ -142,7 +142,7 @@ plans:
 - name: Sparx Enterprise Architect Plans Pricing
   plan_count: 3
   slug: sparx-enterprise-architect-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Sparx Enterprise Architect Rate Limits

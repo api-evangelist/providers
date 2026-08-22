@@ -53,7 +53,7 @@ name: Entity Relationship
 nav: Providers
 network: true
 overview: Entity Relationship is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Modeling, Database Design, ER Diagrams, and Systems Analysis.
-random_paper: 75
+random_paper: 17
 score:
   band: minimal
   composite: 6.2

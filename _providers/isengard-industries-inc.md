@@ -69,7 +69,7 @@ name: Isengard Industries Inc
 nav: Providers
 network: true
 overview: Isengard Industries Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-UAS, Counter-Drone, and Autonomous Systems.
-random_paper: 112
+random_paper: 16
 score:
   band: minimal
   composite: 6.4

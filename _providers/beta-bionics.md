@@ -108,7 +108,7 @@ overview: 'Beta Bionics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Beta Bionics'' developer surface includes support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 3
 scopes:
 - name: Beta Bionics Scopes
   scope_count: 4

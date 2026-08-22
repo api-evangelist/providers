@@ -68,7 +68,7 @@ overview: 'Rohirrim is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rohirrim''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: minimal
   composite: 10.8

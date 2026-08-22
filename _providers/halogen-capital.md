@@ -76,7 +76,7 @@ overview: 'Halogen Capital is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Halogen Capital''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: emerging
   composite: 11.9

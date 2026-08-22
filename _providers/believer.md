@@ -57,7 +57,7 @@ name: Believer
 nav: Providers
 network: true
 overview: Believer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Video Games, and Interactive Entertainment.
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

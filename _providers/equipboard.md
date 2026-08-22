@@ -80,7 +80,7 @@ overview: 'Equipboard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Equipboard''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: emerging
   composite: 13.5

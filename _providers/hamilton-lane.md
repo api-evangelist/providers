@@ -70,7 +70,7 @@ plans:
 - name: Hamilton Lane Plans Pricing
   plan_count: 1
   slug: hamilton-lane-plans-pricing
-random_paper: 129
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Hamilton Lane Rate Limits

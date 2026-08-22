@@ -153,7 +153,7 @@ overview: 'ENMAX publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   ENMAX''s developer surface includes authentication, code examples, documentation, engineering blog, signup flow, support, status page, and 15 more developer resources.'
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Enmax Rate Limits

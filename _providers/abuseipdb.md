@@ -349,7 +349,7 @@ plans:
 - name: Abuseipdb Plans Pricing
   plan_count: 4
   slug: abuseipdb-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 25
   name: Abuseipdb Rate Limits

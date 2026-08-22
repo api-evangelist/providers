@@ -188,7 +188,7 @@ overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 115
+random_paper: 1
 score:
   band: developing
   composite: 46.5

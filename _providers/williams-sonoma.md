@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Williams-Sonoma's AI-powered customer service boosts ...
   url: https://www.linkedin.com/posts/marcbenioff_how-williams-sonoma-went-from-ai-concept-activity-7389392655702552577-8Nsj
-random_paper: 74
+random_paper: 10
 score:
   band: minimal
   composite: 5.3

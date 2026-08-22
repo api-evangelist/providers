@@ -73,7 +73,7 @@ plans:
 - name: Clean Energy Fuels Plans Pricing
   plan_count: 1
   slug: clean-energy-fuels-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Clean Energy Fuels Rate Limits

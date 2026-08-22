@@ -96,7 +96,7 @@ overview: 'Conicle is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Conicle''s developer surface includes developer portal, engineering blog, support, signup flow, pricing, and 8 more developer resources.'
-random_paper: 137
+random_paper: 19
 score:
   band: emerging
   composite: 13.8

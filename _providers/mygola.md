@@ -49,7 +49,7 @@ name: MyGola
 nav: Providers
 network: true
 overview: MyGola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, and Startup.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 3.2

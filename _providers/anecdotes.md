@@ -221,7 +221,7 @@ overview: 'anecdotes publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   anecdotes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 56
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Anecdotes Rate Limits

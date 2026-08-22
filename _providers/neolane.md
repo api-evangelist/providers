@@ -45,7 +45,7 @@ name: Neolane
 nav: Providers
 network: true
 overview: Neolane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing Automation, Campaign Management, Email Marketing, and Acquired.
-random_paper: 142
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

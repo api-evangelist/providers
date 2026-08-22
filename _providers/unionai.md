@@ -172,7 +172,7 @@ plans:
 - name: Unionai Plans Pricing
   plan_count: 3
   slug: unionai-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Unionai Rate Limits

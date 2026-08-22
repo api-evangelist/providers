@@ -101,7 +101,7 @@ overview: 'Ramper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ramper''s developer surface includes documentation, getting-started guide, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: emerging
   composite: 20.6

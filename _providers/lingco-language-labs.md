@@ -117,7 +117,7 @@ overview: 'Lingco Language Labs publishes 1 API on the [APIs.io](https://apis.io
 
 
   Lingco Language Labs'' developer surface includes documentation, support, authentication, and 14 more developer resources.'
-random_paper: 43
+random_paper: 6
 score:
   band: thin
   composite: 28.0

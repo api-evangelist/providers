@@ -57,7 +57,7 @@ name: Brazil Receita WS
 nav: Providers
 network: true
 overview: Brazil Receita WS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 62
+random_paper: 0
 score:
   band: minimal
   composite: 4.2

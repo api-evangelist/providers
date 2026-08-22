@@ -57,7 +57,7 @@ name: Interpol Red Notices
 nav: Providers
 network: true
 overview: Interpol Red Notices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 102
+random_paper: 2
 score:
   band: minimal
   composite: 4.2

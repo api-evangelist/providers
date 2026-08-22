@@ -68,7 +68,7 @@ overview: 'Instalily is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Instalily''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 91
+random_paper: 19
 score:
   band: minimal
   composite: 10.0

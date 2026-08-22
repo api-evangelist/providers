@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: Exide Technologies to present energy storage solutions for ...
   url: https://www.exidegroup.com/eu/en/news/exide-technologies-present-energy-storage-solutions-data-center-applications-data-centre-world
-random_paper: 68
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

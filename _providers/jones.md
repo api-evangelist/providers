@@ -88,7 +88,7 @@ overview: 'Jones is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jones'' developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: emerging
   composite: 11.3

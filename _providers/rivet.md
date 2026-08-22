@@ -181,7 +181,7 @@ overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ac
 
 
   Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: thin
   composite: 38.0

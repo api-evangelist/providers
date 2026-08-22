@@ -115,7 +115,7 @@ overview: 'Boat Lifestyle publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Boat Lifestyle''s developer surface includes engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 103
+random_paper: 16
 scopes:
 - name: Boat Lifestyle Scopes
   scope_count: 4

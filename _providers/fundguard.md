@@ -144,7 +144,7 @@ overview: 'FundGuard publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   FundGuard''s developer surface includes documentation, support, engineering blog, signup flow, YouTube channel, authentication, and 19 more developer resources.'
-random_paper: 66
+random_paper: 15
 scopes:
 - name: Fundguard Scopes
   scope_count: 1

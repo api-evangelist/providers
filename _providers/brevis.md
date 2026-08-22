@@ -92,7 +92,7 @@ overview: 'Brevis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Brevis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, and 8 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: emerging
   composite: 13.7

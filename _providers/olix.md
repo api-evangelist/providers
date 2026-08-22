@@ -45,7 +45,7 @@ name: Olix
 nav: Providers
 network: true
 overview: Olix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Hardware, Semiconductors, and Photonics.
-random_paper: 146
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

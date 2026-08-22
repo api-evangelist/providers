@@ -330,7 +330,7 @@ plans:
 - name: Bazaarvoice Plans Pricing
   plan_count: 9
   slug: bazaarvoice-plans-pricing
-random_paper: 116
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Bazaarvoice Rate Limits

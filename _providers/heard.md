@@ -80,7 +80,7 @@ overview: 'Heard is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Heard''s developer surface includes getting-started guide, support, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: emerging
   composite: 12.7

@@ -129,7 +129,7 @@ overview: 'Zapmap publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zapmap''s developer surface includes authentication, documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 19.9

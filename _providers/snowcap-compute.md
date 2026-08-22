@@ -57,7 +57,7 @@ name: Snowcap Compute
 nav: Providers
 network: true
 overview: Snowcap Compute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, Superconducting, Semiconductor, and Hardware.
-random_paper: 83
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

@@ -106,7 +106,7 @@ overview: 'Quanta Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Quanta Therapeutics'' developer surface includes product news and 12 more developer resources.'
-random_paper: 55
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

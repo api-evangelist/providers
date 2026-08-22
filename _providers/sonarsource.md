@@ -383,7 +383,7 @@ overview: 'SonarSource publishes 33 APIs on the [APIs.io](https://apis.io/) netw
 
 
   SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: developing
   composite: 52.2

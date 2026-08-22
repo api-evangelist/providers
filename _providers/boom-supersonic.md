@@ -68,7 +68,7 @@ overview: 'Boom Supersonic is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Boom Supersonic''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 83
+random_paper: 19
 score:
   band: minimal
   composite: 10.6

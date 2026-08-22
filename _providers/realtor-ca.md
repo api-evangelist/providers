@@ -215,7 +215,7 @@ overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 108
+random_paper: 15
 scopes:
 - name: Realtor Ca Scopes
   scope_count: 5

@@ -255,7 +255,7 @@ plans:
 - name: Akuity Plans
   plan_count: 3
   slug: akuity-plans
-random_paper: 67
+random_paper: 12
 score:
   band: exemplar
   composite: 68.3

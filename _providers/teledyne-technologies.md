@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
-random_paper: 101
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Teledyne Technologies Rate Limits

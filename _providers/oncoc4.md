@@ -107,7 +107,7 @@ overview: 'OncoC4 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OncoC4''s developer surface includes authentication, product news, and 12 more developer resources.'
-random_paper: 135
+random_paper: 15
 scopes:
 - name: Oncoc4 Scopes
   scope_count: 0

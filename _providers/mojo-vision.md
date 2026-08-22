@@ -91,7 +91,7 @@ overview: 'Mojo Vision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Mojo Vision''s developer surface includes product news and 13 more developer resources.'
-random_paper: 103
+random_paper: 12
 score:
   band: minimal
   composite: 10.0

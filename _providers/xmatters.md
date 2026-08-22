@@ -187,7 +187,7 @@ overview: 'xMatters publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   xMatters'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 143
+random_paper: 6
 scopes:
 - name: Xmatters Scopes
   scope_count: 0

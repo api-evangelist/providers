@@ -178,7 +178,7 @@ plans:
 - name: Doceree Plans Pricing
   plan_count: 0
   slug: doceree-plans-pricing
-random_paper: 131
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Doceree Rate Limits

@@ -40,7 +40,7 @@ name: Paydiant
 nav: Providers
 network: true
 overview: Paydiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Wallet, Point of Sale, and Loyalty.
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 0.1

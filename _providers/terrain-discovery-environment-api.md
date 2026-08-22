@@ -179,7 +179,7 @@ plans:
 - name: Terrain Discovery Environment Api Plans Pricing
   plan_count: 3
   slug: terrain-discovery-environment-api-plans-pricing
-random_paper: 117
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Terrain Discovery Environment Api Rate Limits

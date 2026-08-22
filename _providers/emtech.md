@@ -129,7 +129,7 @@ overview: 'EMTECH is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EMTECH''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: thin
   composite: 32.1

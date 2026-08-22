@@ -64,7 +64,7 @@ overview: 'Veritasfin is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Veritasfin''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 40
+random_paper: 12
 score:
   band: minimal
   composite: 8.5

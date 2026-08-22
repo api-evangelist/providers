@@ -201,7 +201,7 @@ plans:
 - name: Crescendo Lab Plans Pricing
   plan_count: 8
   slug: crescendo-lab-plans-pricing
-random_paper: 106
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Crescendo Lab Rate Limits

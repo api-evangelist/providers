@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Ventas Reports Fourth Quarter and Full Year 2025 Results ...
   url: https://ir.ventasreit.com/news/news-details/2026/Ventas-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Outlook-and-Increases-Dividend/default.aspx
-random_paper: 61
+random_paper: 6
 rules:
 - effective_rule_count: 5
   extends: []

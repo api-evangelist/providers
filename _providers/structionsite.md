@@ -49,7 +49,7 @@ name: StructionSite
 nav: Providers
 network: true
 overview: StructionSite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Reality Capture, and Jobsite Documentation.
-random_paper: 99
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

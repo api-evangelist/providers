@@ -64,7 +64,7 @@ overview: 'Ionic Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ionic Security''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 122
+random_paper: 14
 score:
   band: minimal
   composite: 8.5

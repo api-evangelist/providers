@@ -194,7 +194,7 @@ overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 31
+random_paper: 9
 scopes:
 - name: Virgin Money Uk Scopes
   scope_count: 4

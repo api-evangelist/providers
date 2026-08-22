@@ -57,7 +57,7 @@ name: Solomon
 nav: Providers
 network: true
 overview: Solomon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Tax, Accounting, and Artificial Intelligence.
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 9.2

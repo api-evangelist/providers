@@ -176,7 +176,7 @@ overview: 'Judo Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Judo Bank''s developer surface includes authentication, documentation, and 16 more developer resources.'
-random_paper: 146
+random_paper: 9
 score:
   band: thin
   composite: 29.3

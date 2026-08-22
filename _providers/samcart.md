@@ -145,7 +145,7 @@ plans:
 - name: Samcart Plans Pricing
   plan_count: 6
   slug: samcart-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Samcart Rate Limits

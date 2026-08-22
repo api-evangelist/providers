@@ -57,7 +57,7 @@ name: RXO
 nav: Providers
 network: true
 overview: RXO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Transportation, Freight, Supply Chain, and Trucking.
-random_paper: 47
+random_paper: 9
 score:
   band: minimal
   composite: 4.4

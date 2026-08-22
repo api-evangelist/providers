@@ -78,7 +78,7 @@ plans:
 - name: Personifycorp Plans Pricing
   plan_count: 0
   slug: personifycorp-plans-pricing
-random_paper: 86
+random_paper: 20
 score:
   band: minimal
   composite: 7.4

@@ -68,7 +68,7 @@ overview: 'Integration Patterns is profiled on the [APIs.io](https://apis.io/) n
 
 
   The Integration Patterns catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 28
+random_paper: 14
 rules:
 - effective_rule_count: 0
   extends: []

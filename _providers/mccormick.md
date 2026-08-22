@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Representative Mccormick
   url: https://mccormick.house.gov/media/press-releases?page=3
-random_paper: 58
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

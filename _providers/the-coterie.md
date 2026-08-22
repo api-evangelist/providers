@@ -53,7 +53,7 @@ name: The Coterie
 nav: Providers
 network: true
 overview: The Coterie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Wealth Management, and Venture Capital.
-random_paper: 70
+random_paper: 0
 score:
   band: minimal
   composite: 7.1

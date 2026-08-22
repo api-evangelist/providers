@@ -289,7 +289,7 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Captions Rate Limits

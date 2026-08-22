@@ -57,7 +57,7 @@ name: Senti Biosciences
 nav: Providers
 network: true
 overview: Senti Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biotechnology, Cell and Gene Therapy, and Gene Circuits.
-random_paper: 112
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

@@ -185,7 +185,7 @@ overview: 'SynFutures publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 85
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Synfutures Rate Limits

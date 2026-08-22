@@ -100,7 +100,7 @@ plans:
 - name: Newton Research Plans Pricing
   plan_count: 0
   slug: newton-research-plans-pricing
-random_paper: 67
+random_paper: 3
 score:
   band: emerging
   composite: 12.6

@@ -382,7 +382,7 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 77
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits

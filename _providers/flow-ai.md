@@ -153,7 +153,7 @@ overview: 'Flow AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Flow AI''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, YouTube channel, and 19 more developer resources.'
-random_paper: 91
+random_paper: 15
 score:
   band: thin
   composite: 32.2

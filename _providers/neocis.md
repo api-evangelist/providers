@@ -53,7 +53,7 @@ name: Neocis
 nav: Providers
 network: true
 overview: Neocis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Dental, Robotics, and Surgery.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 6.2

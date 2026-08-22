@@ -134,7 +134,7 @@ overview: 'Antora Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Antora Energy''s developer surface includes engineering blog and 19 more developer resources.'
-random_paper: 148
+random_paper: 17
 score:
   band: minimal
   composite: 10.4

@@ -145,7 +145,7 @@ plans:
 - name: Geocodio Plans Pricing
   plan_count: 3
   slug: geocodio-plans-pricing
-random_paper: 96
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Geocodio Rate Limits

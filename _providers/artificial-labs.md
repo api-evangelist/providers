@@ -141,7 +141,7 @@ overview: 'Artificial Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Artificial Labs'' developer surface includes documentation, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 21
+random_paper: 20
 scopes:
 - name: Artificial Labs Scopes
   scope_count: 14

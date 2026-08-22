@@ -122,7 +122,7 @@ plans:
 - name: Whylabs Plans Pricing
   plan_count: 1
   slug: whylabs-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Whylabs Rate Limits

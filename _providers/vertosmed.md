@@ -49,7 +49,7 @@ name: Vertosmed
 nav: Providers
 network: true
 overview: Vertosmed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Device, Healthcare, Spine, and Interventional Spine.
-random_paper: 91
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

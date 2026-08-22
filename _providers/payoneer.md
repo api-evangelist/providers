@@ -150,7 +150,7 @@ plans:
 - name: Payoneer Plans Pricing
   plan_count: 2
   slug: payoneer-plans-pricing
-random_paper: 122
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Payoneer Rate Limits

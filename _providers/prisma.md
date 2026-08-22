@@ -655,7 +655,7 @@ plans:
 - name: Prisma Plans Pricing
   plan_count: 5
   slug: prisma-plans-pricing
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Prisma Rate Limits

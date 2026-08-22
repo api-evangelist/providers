@@ -80,7 +80,7 @@ overview: 'Aily Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aily Labs'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
   composite: 14.0

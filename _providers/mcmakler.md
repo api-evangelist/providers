@@ -49,7 +49,7 @@ name: mcmakler
 nav: Providers
 network: true
 overview: mcmakler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Germany, and Brokerage.
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 1.2

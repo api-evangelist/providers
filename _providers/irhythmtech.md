@@ -84,7 +84,7 @@ overview: 'Irhythmtech is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Irhythmtech''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: emerging
   composite: 14.5

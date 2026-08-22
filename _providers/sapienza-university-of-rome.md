@@ -100,7 +100,7 @@ plans:
 - name: Sapienza University Of Rome Plans Pricing
   plan_count: 2
   slug: sapienza-university-of-rome-plans-pricing
-random_paper: 82
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Sapienza University Of Rome Rate Limits

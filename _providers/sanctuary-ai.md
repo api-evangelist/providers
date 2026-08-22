@@ -113,7 +113,7 @@ overview: 'Sanctuary AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Sanctuary AI''s developer surface includes product news, engineering blog, terms of service, and 12 more developer resources.'
-random_paper: 41
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

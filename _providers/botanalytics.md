@@ -156,7 +156,7 @@ overview: 'Botanalytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Botanalytics'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 101
+random_paper: 12
 score:
   band: developing
   composite: 42.7

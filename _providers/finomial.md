@@ -49,7 +49,7 @@ name: Finomial
 nav: Providers
 network: true
 overview: Finomial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 102
+random_paper: 7
 score:
   band: minimal
   composite: 3.2

@@ -40,7 +40,7 @@ name: Amalfi Semiconductor
 nav: Providers
 network: true
 overview: Amalfi Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, RF, CMOS, and Power Amplifiers.
-random_paper: 133
+random_paper: 12
 score:
   band: minimal
   composite: 2.1

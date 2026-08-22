@@ -116,7 +116,7 @@ overview: 'CareRev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   CareRev''s developer surface includes support, FAQ, engineering blog, product news, signup flow, and 14 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: emerging
   composite: 17.9

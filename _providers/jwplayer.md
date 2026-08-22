@@ -135,7 +135,7 @@ plans:
 - name: Jwplayer Plans Pricing
   plan_count: 3
   slug: jwplayer-plans-pricing
-random_paper: 133
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Jwplayer Rate Limits

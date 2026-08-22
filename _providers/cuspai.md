@@ -57,7 +57,7 @@ name: Cuspai
 nav: Providers
 network: true
 overview: Cuspai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Materials Discovery, Materials Science, and Deep Learning.
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 5.3

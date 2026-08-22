@@ -129,7 +129,7 @@ overview: 'EasyPay publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   EasyPay''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Easypay Rate Limits

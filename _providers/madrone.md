@@ -45,7 +45,7 @@ name: Madrone
 nav: Providers
 network: true
 overview: Madrone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Center, Cooling, Infrastructure, and Energy Efficiency.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 2.1

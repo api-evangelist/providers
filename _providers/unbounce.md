@@ -415,7 +415,7 @@ plans:
 - name: Unbounce Plans Pricing
   plan_count: 6
   slug: unbounce-plans-pricing
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Unbounce Rate Limits

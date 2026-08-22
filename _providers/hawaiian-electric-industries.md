@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: 'Wall Street Recap: Can Hawaiian Electric Industries Inc. (HWI) stock ...'
   url: https://www.fitnessatfive.com/ati-del/258/Can-Hawaiian-Electric-Industries-Inc.-(HWI)-stock-sustain-institutional-flows
-random_paper: 34
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

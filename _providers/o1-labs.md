@@ -124,7 +124,7 @@ overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 13 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: emerging
   composite: 24.3

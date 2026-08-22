@@ -64,7 +64,7 @@ overview: 'Quickshipper is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Quickshipper''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 112
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

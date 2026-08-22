@@ -129,7 +129,7 @@ overview: 'Level AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Level AI''s developer surface includes engineering blog, GitHub presence, and 19 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 9.1

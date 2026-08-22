@@ -141,7 +141,7 @@ overview: 'Quizlet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Quizlet''s developer surface includes engineering blog, privacy policy, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 37
+random_paper: 5
 score:
   band: emerging
   composite: 14.0

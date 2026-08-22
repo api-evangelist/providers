@@ -313,7 +313,7 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: developing
   composite: 51.2

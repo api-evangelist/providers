@@ -100,7 +100,7 @@ overview: 'Trumid is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Trumid''s developer surface includes support, signup flow, engineering blog, and 13 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: emerging
   composite: 20.8

@@ -53,7 +53,7 @@ name: KaliSpot
 nav: Providers
 network: true
 overview: KaliSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Payments, and Financial Inclusion.
-random_paper: 126
+random_paper: 10
 score:
   band: minimal
   composite: 1.5

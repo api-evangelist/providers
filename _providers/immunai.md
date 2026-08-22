@@ -112,7 +112,7 @@ overview: 'Immunai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Immunai''s developer surface includes engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 8.3

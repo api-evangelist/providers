@@ -152,7 +152,7 @@ overview: 'AppNeta (Broadcom Software) publishes 1 API on the [APIs.io](https://
 
 
   AppNeta (Broadcom Software)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, changelog, support, and 17 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: developing
   composite: 43.7

@@ -2862,7 +2862,7 @@ plans:
 - name: Vapi Plans Pricing
   plan_count: 2
   slug: vapi-plans-pricing
-random_paper: 134
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Vapi Rate Limits

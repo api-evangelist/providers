@@ -149,7 +149,7 @@ plans:
 - name: Mashable Plans Pricing
   plan_count: 3
   slug: mashable-plans-pricing
-random_paper: 84
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Mashable Rate Limits

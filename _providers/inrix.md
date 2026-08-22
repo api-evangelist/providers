@@ -249,7 +249,7 @@ overview: 'INRIX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Us
 
 
   INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 29 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: developing
   composite: 50.2

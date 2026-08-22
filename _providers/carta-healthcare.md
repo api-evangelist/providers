@@ -100,7 +100,7 @@ overview: 'Carta Healthcare is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Carta Healthcare''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 119
+random_paper: 13
 score:
   band: emerging
   composite: 13.0

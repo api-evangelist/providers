@@ -76,7 +76,7 @@ overview: 'Hipcamp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hipcamp''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 142
+random_paper: 3
 score:
   band: emerging
   composite: 14.0

@@ -57,7 +57,7 @@ name: LPL Financial
 nav: Providers
 network: true
 overview: LPL Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Advisory, Broker-Dealer, and Wealth Management.
-random_paper: 114
+random_paper: 4
 score:
   band: minimal
   composite: 0.3

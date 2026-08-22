@@ -85,7 +85,7 @@ overview: 'Beacon Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Beacon Therapeutics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 6.7

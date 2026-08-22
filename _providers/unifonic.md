@@ -263,7 +263,7 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 27 more developer resources.'
-random_paper: 114
+random_paper: 19
 score:
   band: strong
   composite: 62.0

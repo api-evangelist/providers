@@ -72,7 +72,7 @@ overview: 'Taxdoo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Taxdoo''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 10.6

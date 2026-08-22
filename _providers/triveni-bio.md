@@ -104,7 +104,7 @@ overview: 'Triveni Bio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Triveni Bio''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 85
+random_paper: 15
 score:
   band: minimal
   composite: 10.3

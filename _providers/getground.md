@@ -80,7 +80,7 @@ overview: 'Getground is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Getground''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 81
+random_paper: 9
 score:
   band: minimal
   composite: 5.3

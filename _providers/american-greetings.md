@@ -66,7 +66,7 @@ plans:
 - name: American Greetings Plans Pricing
   plan_count: 1
   slug: american-greetings-plans-pricing
-random_paper: 57
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: American Greetings Rate Limits

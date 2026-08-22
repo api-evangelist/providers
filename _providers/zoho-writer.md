@@ -165,7 +165,7 @@ plans:
 - name: Zoho Writer Plans Pricing
   plan_count: 4
   slug: zoho-writer-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Zoho Writer Rate Limits

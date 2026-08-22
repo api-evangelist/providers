@@ -201,7 +201,7 @@ overview: 'Scalapay publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Scalapay''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 26 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: developing
   composite: 50.8

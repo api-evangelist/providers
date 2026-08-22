@@ -109,7 +109,7 @@ overview: 'My AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   My AI''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 30
+random_paper: 15
 score:
   band: emerging
   composite: 14.9

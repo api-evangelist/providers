@@ -116,7 +116,7 @@ overview: 'LUMICKS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LUMICKS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 13 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: emerging
   composite: 16.3

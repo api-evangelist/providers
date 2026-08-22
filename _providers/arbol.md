@@ -131,7 +131,7 @@ overview: 'Arbol is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Arbol''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, legal docs, and 18 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: emerging
   composite: 22.2

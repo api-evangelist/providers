@@ -467,7 +467,7 @@ plans:
 - name: Binance Plans Pricing
   plan_count: 4
   slug: binance-plans-pricing
-random_paper: 124
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Binance Rate Limits

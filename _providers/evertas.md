@@ -119,7 +119,7 @@ overview: 'Evertas is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Evertas'' developer surface includes engineering blog, product news, FAQ, support, legal docs, and 12 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: emerging
   composite: 11.2

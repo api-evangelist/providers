@@ -96,7 +96,7 @@ name: Adcendo
 nav: Providers
 network: true
 overview: Adcendo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Life Sciences.
-random_paper: 122
+random_paper: 4
 score:
   band: minimal
   composite: 6.9

@@ -113,7 +113,7 @@ overview: 'LabGenius Therapeutics is profiled on the [APIs.io](https://apis.io/)
 
 
   LabGenius Therapeutics'' developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 60
+random_paper: 9
 score:
   band: emerging
   composite: 11.2

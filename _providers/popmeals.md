@@ -60,7 +60,7 @@ overview: 'Popmeals is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Popmeals'' developer surface includes support and 3 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 6.0

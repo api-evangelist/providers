@@ -135,7 +135,7 @@ overview: 'Gymshark publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gymshark''s developer surface includes engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 125
+random_paper: 9
 scopes:
 - name: Gymshark Scopes
   scope_count: 14

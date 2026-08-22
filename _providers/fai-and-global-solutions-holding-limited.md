@@ -49,7 +49,7 @@ name: FAI & GLOBAL SOLUTIONS HOLDING LIMITED
 nav: Providers
 network: true
 overview: FAI & GLOBAL SOLUTIONS HOLDING LIMITED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Holding Company, Saudi Arabia, Middle East, and Venture Backed.
-random_paper: 80
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

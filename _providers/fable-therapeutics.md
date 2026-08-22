@@ -49,7 +49,7 @@ name: Fable Therapeutics
 nav: Providers
 network: true
 overview: Fable Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Obesity.
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

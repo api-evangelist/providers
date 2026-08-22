@@ -53,7 +53,7 @@ name: Luminate
 nav: Providers
 network: true
 overview: Luminate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Home Health, and Cancer Care.
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

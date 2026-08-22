@@ -133,7 +133,7 @@ plans:
 - name: Payhawk Plans Pricing
   plan_count: 3
   slug: payhawk-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Payhawk Rate Limits

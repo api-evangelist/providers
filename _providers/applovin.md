@@ -457,7 +457,7 @@ plans:
 - name: Applovin Plans Pricing
   plan_count: 0
   slug: applovin-plans-pricing
-random_paper: 128
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits

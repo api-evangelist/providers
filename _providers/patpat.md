@@ -53,7 +53,7 @@ name: PatPat
 nav: Providers
 network: true
 overview: PatPat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

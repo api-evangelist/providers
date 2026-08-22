@@ -145,7 +145,7 @@ overview: 'RingCaptcha (ThriveCom) publishes 1 API on the [APIs.io](https://apis
 
 
   RingCaptcha (ThriveCom)''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 16 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: thin
   composite: 31.1

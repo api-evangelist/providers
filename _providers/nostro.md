@@ -45,7 +45,7 @@ name: Nostro
 nav: Providers
 network: true
 overview: Nostro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Correspondent Banking, Liquidity Management, Nostro Accounts, and Reconciliation.
-random_paper: 81
+random_paper: 5
 score:
   band: minimal
   composite: 0.3

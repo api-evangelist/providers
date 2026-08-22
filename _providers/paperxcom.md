@@ -40,7 +40,7 @@ name: PaperX.com
 nav: Providers
 network: true
 overview: PaperX.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Paper Industry, Marketplace, and B2B.
-random_paper: 81
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

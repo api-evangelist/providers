@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Why Are Public Storage and Welltower Partnering on AI
   url: https://www.kavout.com/market-lens/why-are-public-storage-and-welltower-partnering-on-ai
-random_paper: 100
+random_paper: 13
 score:
   band: minimal
   composite: 5.5

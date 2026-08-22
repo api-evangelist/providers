@@ -144,7 +144,7 @@ overview: 'StoreDot is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   StoreDot''s developer surface includes tooling, engineering blog, product news, FAQ, support, YouTube channel, and 21 more developer resources.'
-random_paper: 139
+random_paper: 2
 score:
   band: emerging
   composite: 11.3

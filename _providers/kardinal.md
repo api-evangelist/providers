@@ -178,7 +178,7 @@ plans:
 - name: Kardinal Plans Pricing
   plan_count: 2
   slug: kardinal-plans-pricing
-random_paper: 93
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Kardinal Rate Limits

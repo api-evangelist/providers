@@ -49,7 +49,7 @@ name: Arrail Group
 nav: Providers
 network: true
 overview: Arrail Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Dental Services, and China.
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

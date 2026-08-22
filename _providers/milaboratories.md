@@ -116,7 +116,7 @@ overview: 'Milaboratories is profiled on the [APIs.io](https://apis.io/) network
 
 
   Milaboratories'' developer surface includes documentation, API reference, getting-started guide, SDKs, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 11
+random_paper: 10
 score:
   band: emerging
   composite: 21.7

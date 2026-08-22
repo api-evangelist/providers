@@ -80,7 +80,7 @@ overview: 'Ipsy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ipsy''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

@@ -45,7 +45,7 @@ name: 1-Automotive
 nav: Providers
 network: true
 overview: 1-Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Vehicles, and Fortune 500.
-random_paper: 3
+random_paper: 19
 score:
   band: minimal
   composite: 3.2

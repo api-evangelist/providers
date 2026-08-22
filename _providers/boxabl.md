@@ -115,7 +115,7 @@ overview: 'Boxabl is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Boxabl''s developer surface includes support, FAQ, pricing, YouTube channel, and 16 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: emerging
   composite: 15.5

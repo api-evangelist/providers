@@ -40,7 +40,7 @@ name: Appionics
 nav: Providers
 network: true
 overview: Appionics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Mobile Games, Games, and Apps.
-random_paper: 72
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

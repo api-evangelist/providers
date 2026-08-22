@@ -53,7 +53,7 @@ name: Breaking Bad Quotes
 nav: Providers
 network: true
 overview: Breaking Bad Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 105
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -291,7 +291,7 @@ overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 44 more developer resources.'
-random_paper: 26
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Green Button Alliance Rate Limits

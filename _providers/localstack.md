@@ -197,7 +197,7 @@ overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: developing
   composite: 46.1

@@ -93,7 +93,7 @@ overview: 'Remarcable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Remarcable''s developer surface includes signup flow, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 144
+random_paper: 9
 score:
   band: emerging
   composite: 16.6

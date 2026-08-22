@@ -143,7 +143,7 @@ plans:
 - name: Guidewheel Plans
   plan_count: 1
   slug: guidewheel-plans
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Guidewheel Rate Limits

@@ -49,7 +49,7 @@ name: Amino
 nav: Providers
 network: true
 overview: Amino is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Community, Mobile, and Consumer.
-random_paper: 85
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

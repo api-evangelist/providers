@@ -103,7 +103,7 @@ overview: 'Lycia Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Lycia Therapeutics'' developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 84
+random_paper: 3
 score:
   band: minimal
   composite: 10.3

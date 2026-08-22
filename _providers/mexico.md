@@ -53,7 +53,7 @@ name: Mexico
 nav: Providers
 network: true
 overview: Mexico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

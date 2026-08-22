@@ -49,7 +49,7 @@ name: Samara Aerospace
 nav: Providers
 network: true
 overview: Samara Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Startup, Techstars, and Technology.
-random_paper: 131
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

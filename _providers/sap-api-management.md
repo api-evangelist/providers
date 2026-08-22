@@ -245,7 +245,7 @@ plans:
 - name: Sap Api Management Plans Pricing
   plan_count: 1
   slug: sap-api-management-plans-pricing
-random_paper: 142
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Sap Api Management Rate Limits

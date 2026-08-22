@@ -114,7 +114,7 @@ plans:
 - name: Epic Cleantec Plans Pricing
   plan_count: 0
   slug: epic-cleantec-plans-pricing
-random_paper: 101
+random_paper: 12
 score:
   band: emerging
   composite: 11.4

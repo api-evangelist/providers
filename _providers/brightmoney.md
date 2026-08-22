@@ -80,7 +80,7 @@ overview: 'Brightmoney is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Brightmoney''s developer surface includes signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
   composite: 12.7

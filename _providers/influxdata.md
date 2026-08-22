@@ -475,7 +475,7 @@ overview: 'InfluxData publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   InfluxData''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: developing
   composite: 53.6

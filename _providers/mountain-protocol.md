@@ -92,7 +92,7 @@ overview: 'Mountain Protocol is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Mountain Protocol''s developer surface includes documentation, getting-started guide, API reference, support, and 8 more developer resources.'
-random_paper: 14
+random_paper: 17
 score:
   band: emerging
   composite: 18.3

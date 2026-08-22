@@ -113,7 +113,7 @@ overview: 'Italist publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Italist''s developer surface includes support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 17
+random_paper: 6
 scopes:
 - name: Italist Scopes
   scope_count: 4

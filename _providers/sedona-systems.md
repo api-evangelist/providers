@@ -49,7 +49,7 @@ name: Sedona Systems
 nav: Providers
 network: true
 overview: Sedona Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Networking, Network Optimization, and Optical Networking.
-random_paper: 130
+random_paper: 1
 score:
   band: minimal
   composite: 1.8

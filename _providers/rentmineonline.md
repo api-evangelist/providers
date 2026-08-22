@@ -53,7 +53,7 @@ name: RentMineOnline
 nav: Providers
 network: true
 overview: RentMineOnline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Multifamily, Real Estate, Apartment Marketing, and Social Marketing.
-random_paper: 21
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

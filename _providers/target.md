@@ -231,7 +231,7 @@ press:
 - date: '2026-05-25'
   title: Target's Using Artificial Intelligence to Make Your Shopping ...
   url: https://corporate.target.com/news-features/article/2023/12/artificial-intelligence
-random_paper: 51
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Target Rate Limits

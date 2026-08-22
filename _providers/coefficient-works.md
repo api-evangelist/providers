@@ -152,7 +152,7 @@ plans:
 - name: Coefficient Works Plans Pricing
   plan_count: 4
   slug: coefficient-works-plans-pricing
-random_paper: 123
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Coefficient Works Rate Limits

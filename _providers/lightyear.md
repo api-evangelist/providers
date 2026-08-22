@@ -165,7 +165,7 @@ overview: 'Lightyear is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lightyear''s developer surface includes pricing, signup flow, engineering blog, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 75
+random_paper: 3
 scopes:
 - name: Lightyear Scopes
   scope_count: 1

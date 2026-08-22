@@ -57,7 +57,7 @@ name: AllTrails
 nav: Providers
 network: true
 overview: AllTrails is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Outdoor Recreation, Trails, Hiking, and Maps.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

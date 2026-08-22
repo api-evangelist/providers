@@ -149,7 +149,7 @@ plans:
 - name: Microsoft Products Plans Pricing
   plan_count: 3
   slug: microsoft-products-plans-pricing
-random_paper: 123
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Products Rate Limits

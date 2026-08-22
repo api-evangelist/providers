@@ -108,7 +108,7 @@ overview: 'Reliable Robotics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Reliable Robotics'' developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 107
+random_paper: 3
 score:
   band: minimal
   composite: 10.4

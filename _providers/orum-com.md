@@ -209,7 +209,7 @@ plans:
 - name: Orum Com Plans Pricing
   plan_count: 2
   slug: orum-com-plans-pricing
-random_paper: 70
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Orum Com Rate Limits

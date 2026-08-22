@@ -229,7 +229,7 @@ overview: 'Bear Robotics publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bear Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 132
+random_paper: 1
 score:
   band: developing
   composite: 48.3

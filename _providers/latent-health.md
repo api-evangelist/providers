@@ -85,7 +85,7 @@ overview: 'Latent Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Latent Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 131
+random_paper: 0
 score:
   band: emerging
   composite: 15.3

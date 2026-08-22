@@ -116,7 +116,7 @@ overview: 'Almanac Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Almanac Labs'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 137
+random_paper: 4
 score:
   band: emerging
   composite: 16.1

@@ -147,7 +147,7 @@ overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 114
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []

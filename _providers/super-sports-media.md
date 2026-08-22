@@ -45,7 +45,7 @@ name: Super Sports Media
 nav: Providers
 network: true
 overview: Super Sports Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Sports, Media, and Streaming.
-random_paper: 56
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

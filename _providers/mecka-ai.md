@@ -73,7 +73,7 @@ name: Mecka AI
 nav: Providers
 network: true
 overview: Mecka AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Physical AI, Robotics, and Embodied AI.
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

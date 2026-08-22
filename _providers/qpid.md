@@ -40,7 +40,7 @@ name: QPID
 nav: Providers
 network: true
 overview: QPID is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthtech.
-random_paper: 132
+random_paper: 10
 score:
   band: minimal
   composite: 4.1

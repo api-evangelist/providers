@@ -109,7 +109,7 @@ overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
-random_paper: 101
+random_paper: 2
 score:
   band: emerging
   composite: 15.8

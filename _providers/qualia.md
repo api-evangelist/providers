@@ -140,7 +140,7 @@ overview: 'Qualia publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qualia''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: thin
   composite: 32.6

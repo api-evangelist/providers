@@ -56,7 +56,7 @@ overview: 'OMass Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   OMass Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 101
+random_paper: 20
 score:
   band: minimal
   composite: 3.8

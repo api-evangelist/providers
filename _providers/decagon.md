@@ -240,7 +240,7 @@ plans:
 - name: Decagon Plans Pricing
   plan_count: 1
   slug: decagon-plans-pricing
-random_paper: 125
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Decagon Rate Limits

@@ -189,7 +189,7 @@ overview: 'Lemma publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: developing
   composite: 45.2

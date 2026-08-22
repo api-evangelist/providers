@@ -316,7 +316,7 @@ plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 69
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits

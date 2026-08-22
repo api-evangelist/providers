@@ -331,7 +331,7 @@ overview: 'TOP Group (The Open Platform) publishes 23 APIs on the [APIs.io](http
 
 
   TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 47
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Top Group Rate Limits

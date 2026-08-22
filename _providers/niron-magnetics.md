@@ -111,7 +111,7 @@ overview: 'Niron Magnetics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Niron Magnetics'' developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
-random_paper: 60
+random_paper: 17
 score:
   band: minimal
   composite: 10.4

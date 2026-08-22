@@ -112,7 +112,7 @@ overview: 'Efficient Computer is profiled on the [APIs.io](https://apis.io/) net
 
 
   Efficient Computer''s developer surface includes documentation, getting-started guide, sandbox, signup flow, engineering blog, support, FAQ, and 10 more developer resources.'
-random_paper: 77
+random_paper: 17
 score:
   band: emerging
   composite: 13.3

@@ -112,7 +112,7 @@ overview: 'Archlet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Archlet''s developer surface includes signup flow, engineering blog, support, and 14 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 20.3

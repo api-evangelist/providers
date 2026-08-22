@@ -128,7 +128,7 @@ overview: 'QurAlis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   QurAlis'' developer surface includes product news, engineering blog, support, and 16 more developer resources.'
-random_paper: 24
+random_paper: 13
 score:
   band: emerging
   composite: 11.2

@@ -45,7 +45,7 @@ name: HAGS
 nav: Providers
 network: true
 overview: HAGS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Startup, Venture-Backed, and GV.
-random_paper: 121
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

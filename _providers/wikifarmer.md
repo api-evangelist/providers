@@ -60,7 +60,7 @@ overview: 'Wikifarmer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wikifarmer''s developer surface includes support and 3 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: minimal
   composite: 4.2

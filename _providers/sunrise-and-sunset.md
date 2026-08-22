@@ -57,7 +57,7 @@ name: Sunrise and Sunset
 nav: Providers
 network: true
 overview: Sunrise and Sunset publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

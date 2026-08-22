@@ -115,7 +115,7 @@ plans:
 - name: Allianz Plans Pricing
   plan_count: 1
   slug: allianz-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Allianz Rate Limits

@@ -444,7 +444,7 @@ plans:
 - name: Honeycomb Plans Pricing
   plan_count: 3
   slug: honeycomb-plans-pricing
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Honeycomb Rate Limits

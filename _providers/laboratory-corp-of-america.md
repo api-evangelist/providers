@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Earnings for Laboratory Corp. Of America Expected to Fall
   url: https://www.forbes.com/sites/narrativescience/2014/07/16/earnings-for-laboratory-corp-of-america-expected-to-fall/
-random_paper: 60
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Laboratory Corp Of America Rate Limits

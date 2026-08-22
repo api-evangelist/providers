@@ -217,7 +217,7 @@ overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Hakuna Rate Limits

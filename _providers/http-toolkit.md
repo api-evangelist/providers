@@ -197,7 +197,7 @@ plans:
 - name: Http Toolkit Plans Pricing
   plan_count: 3
   slug: http-toolkit-plans-pricing
-random_paper: 75
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Http Toolkit Rate Limits

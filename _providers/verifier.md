@@ -57,7 +57,7 @@ name: Verifier
 nav: Providers
 network: true
 overview: Verifier publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 115
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

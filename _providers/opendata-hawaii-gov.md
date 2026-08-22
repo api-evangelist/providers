@@ -85,7 +85,7 @@ plans:
 - name: Opendata Hawaii Gov Plans Pricing
   plan_count: 1
   slug: opendata-hawaii-gov-plans-pricing
-random_paper: 105
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Opendata Hawaii Gov Rate Limits

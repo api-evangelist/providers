@@ -40,7 +40,7 @@ name: Excite@Home
 nav: Providers
 network: true
 overview: Excite@Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Broadband, Internet Service Provider, and Web Portal.
-random_paper: 69
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

@@ -77,7 +77,7 @@ overview: 'Treet is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Treet''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 101
+random_paper: 2
 score:
   band: minimal
   composite: 8.5

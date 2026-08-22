@@ -159,7 +159,7 @@ overview: 'Influitive publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Influitive''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 44
+random_paper: 16
 score:
   band: developing
   composite: 43.1

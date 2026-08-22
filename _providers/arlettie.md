@@ -174,7 +174,7 @@ plans:
 - name: Arlettie Plans Pricing
   plan_count: 0
   slug: arlettie-plans-pricing
-random_paper: 113
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Arlettie Rate Limits

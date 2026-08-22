@@ -95,7 +95,7 @@ overview: 'Casma Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Casma Therapeutics'' developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 71
+random_paper: 11
 score:
   band: minimal
   composite: 10.3

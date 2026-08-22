@@ -246,7 +246,7 @@ plans:
 - name: Intelligems Plans Pricing
   plan_count: 2
   slug: intelligems-plans-pricing
-random_paper: 138
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Intelligems Rate Limits

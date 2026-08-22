@@ -88,7 +88,7 @@ overview: 'Stack Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Stack Health''s developer surface includes signup flow and 10 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 18.4

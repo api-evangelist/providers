@@ -106,7 +106,7 @@ name: PECO Energy
 nav: Providers
 network: true
 overview: PECO Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electric, Energy, Exelon, Mobile App, and Natural Gas.
-random_paper: 75
+random_paper: 5
 score:
   band: minimal
   composite: 4.2

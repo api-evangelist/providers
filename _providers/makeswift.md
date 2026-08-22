@@ -164,7 +164,7 @@ overview: 'Makeswift publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Makeswift''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
-random_paper: 77
+random_paper: 5
 score:
   band: developing
   composite: 47.9

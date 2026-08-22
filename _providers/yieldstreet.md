@@ -91,7 +91,7 @@ overview: 'Willow Wealth is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Willow Wealth''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 6
+random_paper: 1
 score:
   band: minimal
   composite: 7.2

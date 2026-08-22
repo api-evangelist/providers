@@ -57,7 +57,7 @@ overview: 'ITA Software is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ITA Software''s developer surface includes tooling and 2 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

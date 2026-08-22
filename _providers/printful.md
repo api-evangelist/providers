@@ -165,7 +165,7 @@ plans:
 - name: Printful Plans Pricing
   plan_count: 2
   slug: printful-plans-pricing
-random_paper: 139
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Printful Rate Limits

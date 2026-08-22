@@ -77,7 +77,7 @@ overview: 'Glen is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Glen''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: emerging
   composite: 12.3

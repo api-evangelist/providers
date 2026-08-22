@@ -118,7 +118,7 @@ plans:
 - name: Pg And E Plans Pricing
   plan_count: 1
   slug: pg-and-e-plans-pricing
-random_paper: 117
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Pg And E Rate Limits

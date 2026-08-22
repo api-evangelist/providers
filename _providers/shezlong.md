@@ -49,7 +49,7 @@ name: Shezlong
 nav: Providers
 network: true
 overview: Shezlong is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Mental Health, and Telehealth.
-random_paper: 129
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

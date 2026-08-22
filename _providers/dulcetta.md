@@ -49,7 +49,7 @@ name: Dulcetta
 nav: Providers
 network: true
 overview: Dulcetta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Productivity, Streaming, and Focus.
-random_paper: 109
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

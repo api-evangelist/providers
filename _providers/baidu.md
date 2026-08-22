@@ -104,7 +104,7 @@ overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Baidu''s developer surface includes documentation, API reference, signup flow, authentication, and 8 more developer resources.'
-random_paper: 70
+random_paper: 13
 score:
   band: emerging
   composite: 19.6

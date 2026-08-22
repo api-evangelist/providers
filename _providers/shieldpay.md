@@ -169,7 +169,7 @@ overview: 'Shieldpay publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Shieldpay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 69
+random_paper: 18
 score:
   band: developing
   composite: 50.7

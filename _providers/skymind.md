@@ -121,7 +121,7 @@ overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 14 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: thin
   composite: 31.1

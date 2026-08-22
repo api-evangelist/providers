@@ -110,7 +110,7 @@ overview: 'Avathon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Avathon''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 11.3

@@ -57,7 +57,7 @@ name: The Farmer's Dog
 nav: Providers
 network: true
 overview: The Farmer's Dog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Pet Food, Subscription, and Direct to Consumer.
-random_paper: 136
+random_paper: 7
 score:
   band: minimal
   composite: 7.4

@@ -235,7 +235,7 @@ plans:
 - name: Elliptic Plans
   plan_count: 1
   slug: elliptic-plans
-random_paper: 109
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Aml Api

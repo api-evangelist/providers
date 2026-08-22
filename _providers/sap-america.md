@@ -125,7 +125,7 @@ overview: 'SAP America publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SAP America''s developer surface includes privacy policy, legal docs, engineering blog, and 16 more developer resources.'
-random_paper: 48
+random_paper: 20
 score:
   band: emerging
   composite: 15.1

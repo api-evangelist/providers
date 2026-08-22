@@ -183,7 +183,7 @@ overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hive''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, pricing, support, and 5 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: thin
   composite: 31.7

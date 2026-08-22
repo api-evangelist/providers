@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: EXECUTING FOR GROWTH
   url: https://www.sec.gov/Archives/edgar/data/1519751/000119312524075285/d600382dars.pdf
-random_paper: 76
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

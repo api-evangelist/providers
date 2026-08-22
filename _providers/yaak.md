@@ -89,7 +89,7 @@ plans:
 - name: Yaak Plans Pricing
   plan_count: 3
   slug: yaak-plans-pricing
-random_paper: 124
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Yaak Rate Limits

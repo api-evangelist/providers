@@ -73,7 +73,7 @@ name: CoinTracker
 nav: Providers
 network: true
 overview: CoinTracker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Tax, and Portfolio Tracking.
-random_paper: 130
+random_paper: 18
 score:
   band: minimal
   composite: 9.6

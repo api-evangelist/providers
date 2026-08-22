@@ -65,7 +65,7 @@ overview: 'HyperStrong is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HyperStrong''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 9.6

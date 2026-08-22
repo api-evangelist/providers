@@ -92,7 +92,7 @@ overview: 'Fantasy Akhada is profiled on the [APIs.io](https://apis.io/) network
 
 
   Fantasy Akhada''s developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 64
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

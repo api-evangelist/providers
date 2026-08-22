@@ -112,7 +112,7 @@ plans:
 - name: Paradox Ai Plans Pricing
   plan_count: 1
   slug: paradox-ai-plans-pricing
-random_paper: 104
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Paradox Ai Rate Limits

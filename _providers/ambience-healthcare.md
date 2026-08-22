@@ -127,7 +127,7 @@ overview: 'Ambience Healthcare publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Ambience Healthcare''s developer surface includes authentication, documentation, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 118
+random_paper: 16
 scopes:
 - name: Ambience Healthcare Scopes
   scope_count: 14

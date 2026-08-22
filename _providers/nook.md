@@ -53,7 +53,7 @@ name: Nook
 nav: Providers
 network: true
 overview: Nook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounts Payable, Payments, and Invoice Automation.
-random_paper: 141
+random_paper: 19
 score:
   band: minimal
   composite: 2.9

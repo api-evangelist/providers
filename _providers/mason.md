@@ -236,7 +236,7 @@ overview: 'Mason publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mason''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 95
+random_paper: 17
 scopes:
 - name: Mason Scopes
   scope_count: 0

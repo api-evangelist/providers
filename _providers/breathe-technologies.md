@@ -49,7 +49,7 @@ name: Breathe Technologies
 nav: Providers
 network: true
 overview: Breathe Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Ventilators, and Respiratory Care.
-random_paper: 123
+random_paper: 2
 score:
   band: minimal
   composite: 3.6

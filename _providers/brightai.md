@@ -121,7 +121,7 @@ overview: 'BrightAI publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   BrightAI''s developer surface includes documentation, authentication, support, signup flow, and 13 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: emerging
   composite: 25.6

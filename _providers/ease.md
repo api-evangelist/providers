@@ -220,7 +220,7 @@ overview: 'Ease publishes 2 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 116
+random_paper: 15
 score:
   band: developing
   composite: 44.5

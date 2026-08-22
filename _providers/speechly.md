@@ -117,7 +117,7 @@ overview: 'Speechly publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Speechly''s developer surface includes CLI, authentication, and 14 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: emerging
   composite: 20.8

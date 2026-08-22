@@ -205,7 +205,7 @@ plans:
 - name: Doubleverify Plans Pricing
   plan_count: 0
   slug: doubleverify-plans-pricing
-random_paper: 104
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Doubleverify Rate Limits

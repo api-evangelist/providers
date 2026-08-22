@@ -86,7 +86,7 @@ overview: 'Synthesis AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Synthesis AI''s developer surface includes code examples and 7 more developer resources.'
-random_paper: 57
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

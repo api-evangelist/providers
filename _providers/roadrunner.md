@@ -49,7 +49,7 @@ name: Roadrunner
 nav: Providers
 network: true
 overview: Roadrunner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Waste Management, Recycling, and Sustainability.
-random_paper: 45
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

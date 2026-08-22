@@ -57,7 +57,7 @@ name: Nature's Fynd
 nav: Providers
 network: true
 overview: Nature's Fynd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food, Biotechnology, and Fermentation.
-random_paper: 56
+random_paper: 9
 score:
   band: minimal
   composite: 9.2

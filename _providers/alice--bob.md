@@ -178,7 +178,7 @@ plans:
 - name: Alice  Bob Plans
   plan_count: 3
   slug: alice--bob-plans
-random_paper: 13
+random_paper: 4
 score:
   band: developing
   composite: 52.1

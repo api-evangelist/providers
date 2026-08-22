@@ -40,7 +40,7 @@ name: Corrent
 nav: Providers
 network: true
 overview: Corrent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Portfolio, Battery Ventures, and Exited.
-random_paper: 20
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

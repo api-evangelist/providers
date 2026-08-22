@@ -216,7 +216,7 @@ plans:
 - name: Deluxe Plans Pricing
   plan_count: 0
   slug: deluxe-plans-pricing
-random_paper: 51
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Deluxe Rate Limits

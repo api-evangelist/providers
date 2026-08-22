@@ -151,7 +151,7 @@ plans:
 - name: Chatbase Plans Pricing
   plan_count: 6
   slug: chatbase-plans-pricing
-random_paper: 82
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Chatbase Rate Limits

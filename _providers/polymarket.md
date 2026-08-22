@@ -173,7 +173,7 @@ plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
   slug: polymarket-plans-pricing
-random_paper: 53
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Polymarket Rate Limits

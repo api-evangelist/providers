@@ -112,7 +112,7 @@ plans:
 - name: University Of Otago Plans Pricing
   plan_count: 2
   slug: university-of-otago-plans-pricing
-random_paper: 26
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: University Of Otago Rate Limits

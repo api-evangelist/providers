@@ -49,7 +49,7 @@ name: Fanatics Holdings
 nav: Providers
 network: true
 overview: Fanatics Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, E-Commerce, Retail, and Collectibles.
-random_paper: 103
+random_paper: 20
 score:
   band: minimal
   composite: 1.5

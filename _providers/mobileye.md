@@ -129,7 +129,7 @@ overview: 'Mobileye is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mobileye''s developer surface includes engineering blog, YouTube channel, and 19 more developer resources.'
-random_paper: 109
+random_paper: 14
 score:
   band: minimal
   composite: 5.5

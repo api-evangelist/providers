@@ -344,7 +344,7 @@ plans:
 - name: Explorium Plans Pricing
   plan_count: 5
   slug: explorium-plans-pricing
-random_paper: 103
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Explorium Rate Limits

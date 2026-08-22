@@ -45,7 +45,7 @@ name: Medikine
 nav: Providers
 network: true
 overview: Medikine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Life Sciences, and Drug Discovery.
-random_paper: 93
+random_paper: 19
 score:
   band: minimal
   composite: 2.2

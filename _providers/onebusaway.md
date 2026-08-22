@@ -465,7 +465,7 @@ plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
   slug: onebusaway-plans-pricing
-random_paper: 43
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []

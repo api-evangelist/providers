@@ -124,7 +124,7 @@ plans:
 - name: Fake Store Api Plans Pricing
   plan_count: 3
   slug: fake-store-api-plans-pricing
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Fake Store Api Rate Limits

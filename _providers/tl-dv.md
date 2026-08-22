@@ -216,7 +216,7 @@ plans:
 - name: Tl Dv Plans Pricing
   plan_count: 5
   slug: tl-dv-plans-pricing
-random_paper: 40
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Tl Dv Rate Limits

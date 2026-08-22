@@ -69,7 +69,7 @@ name: National Cemetery Administration
 nav: Providers
 network: true
 overview: National Cemetery Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cemetery, Federal Government, Veterans, and Burial.
-random_paper: 38
+random_paper: 19
 score:
   band: minimal
   composite: 4.9

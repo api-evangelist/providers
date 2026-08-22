@@ -147,7 +147,7 @@ plans:
 - name: Testmo Plans Pricing
   plan_count: 4
   slug: testmo-plans-pricing
-random_paper: 72
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Testmo Rate Limits

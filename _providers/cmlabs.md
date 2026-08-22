@@ -49,7 +49,7 @@ name: cmlabs
 nav: Providers
 network: true
 overview: cmlabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical Laboratory, Diagnostics, and Medical Testing.
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

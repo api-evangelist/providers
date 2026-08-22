@@ -154,7 +154,7 @@ overview: 'Ursa Major Technologies is profiled on the [APIs.io](https://apis.io/
 
 
   Ursa Major Technologies'' developer surface includes engineering blog, YouTube channel, and 24 more developer resources.'
-random_paper: 119
+random_paper: 2
 score:
   band: emerging
   composite: 14.2

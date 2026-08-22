@@ -56,7 +56,7 @@ overview: 'Maqsad is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Maqsad''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: minimal
   composite: 3.0

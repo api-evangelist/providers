@@ -108,7 +108,7 @@ plans:
 - name: Heriot Watt Plans Pricing
   plan_count: 2
   slug: heriot-watt-plans-pricing
-random_paper: 101
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Heriot Watt Rate Limits

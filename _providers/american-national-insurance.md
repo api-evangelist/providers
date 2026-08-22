@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: American National Insurance Company Experiences Data ...
   url: https://www.jdsupra.com/legalnews/american-national-insurance-company-3470457/
-random_paper: 62
+random_paper: 14
 score:
   band: minimal
   composite: 2.3

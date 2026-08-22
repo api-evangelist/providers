@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Berry Plastics Shares Details of Financial Performance and Plasti...
   url: https://www.industrialinfo.com/news/article/berry-plastics-shares-details-of-financial-performance-and-plastics-industry--231672
-random_paper: 125
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

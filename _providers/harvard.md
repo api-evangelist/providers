@@ -122,7 +122,7 @@ plans:
 - name: Harvard Plans Pricing
   plan_count: 2
   slug: harvard-plans-pricing
-random_paper: 148
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Harvard Rate Limits

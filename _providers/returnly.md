@@ -49,7 +49,7 @@ name: Returnly
 nav: Providers
 network: true
 overview: Returnly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, E-commerce, Returns, and Exchanges.
-random_paper: 7
+random_paper: 19
 score:
   band: minimal
   composite: 1.5

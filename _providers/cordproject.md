@@ -49,7 +49,7 @@ name: cordproject
 nav: Providers
 network: true
 overview: cordproject is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice Messaging, Audio, Messaging, and Consumer.
-random_paper: 140
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

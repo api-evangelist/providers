@@ -72,7 +72,7 @@ overview: 'On is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   On''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 72
+random_paper: 11
 score:
   band: minimal
   composite: 5.5

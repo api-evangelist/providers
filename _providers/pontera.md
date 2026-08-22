@@ -92,7 +92,7 @@ overview: 'Pontera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pontera''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
   composite: 17.2

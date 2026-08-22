@@ -80,7 +80,7 @@ overview: 'Inkblot Therapy is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Inkblot Therapy''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 75
+random_paper: 11
 score:
   band: emerging
   composite: 11.8

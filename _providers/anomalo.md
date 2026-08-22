@@ -166,7 +166,7 @@ overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 147
+random_paper: 8
 scopes:
 - name: Anomalo Scopes
   scope_count: 3

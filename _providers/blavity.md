@@ -61,7 +61,7 @@ name: Blavity
 nav: Providers
 network: true
 overview: Blavity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Digital Media, Content, and Publishing.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 9.2

@@ -68,7 +68,7 @@ overview: 'Wineaccess is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wineaccess'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 5.5

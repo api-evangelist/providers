@@ -221,7 +221,7 @@ plans:
 - name: Crunchbase Plans Pricing
   plan_count: 3
   slug: crunchbase-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Crunchbase Rate Limits

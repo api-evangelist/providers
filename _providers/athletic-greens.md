@@ -145,7 +145,7 @@ overview: 'AG1 publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AG1''s developer surface includes FAQ, support, signup flow, documentation, authentication, and 18 more developer resources.'
-random_paper: 45
+random_paper: 2
 scopes:
 - name: Athletic Greens Scopes
   scope_count: 4

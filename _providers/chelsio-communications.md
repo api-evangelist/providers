@@ -77,7 +77,7 @@ overview: 'Chelsio Communications is profiled on the [APIs.io](https://apis.io/)
 
 
   Chelsio Communications'' developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 66
+random_paper: 12
 score:
   band: emerging
   composite: 11.2

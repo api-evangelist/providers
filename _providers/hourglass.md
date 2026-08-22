@@ -88,7 +88,7 @@ overview: 'Hourglass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hourglass'' developer surface includes documentation and 10 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 10.1

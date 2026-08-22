@@ -141,7 +141,7 @@ plans:
 - name: Nowcerts Plans Pricing
   plan_count: 4
   slug: nowcerts-plans-pricing
-random_paper: 140
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Nowcerts Rate Limits

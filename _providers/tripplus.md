@@ -49,7 +49,7 @@ name: Tripplus
 nav: Providers
 network: true
 overview: Tripplus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Loyalty, Rewards, and Points.
-random_paper: 5
+random_paper: 17
 score:
   band: minimal
   composite: 1.5

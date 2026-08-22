@@ -103,7 +103,7 @@ overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Truist''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, support, and 9 more developer resources.'
-random_paper: 87
+random_paper: 11
 score:
   band: emerging
   composite: 15.2

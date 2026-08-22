@@ -72,7 +72,7 @@ overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bitcoin''s developer surface includes documentation, API reference, getting-started guide, code examples, and 3 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 7.9

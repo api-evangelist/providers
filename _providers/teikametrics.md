@@ -108,7 +108,7 @@ overview: 'Teikametrics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Teikametrics'' developer surface includes documentation, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 93
+random_paper: 4
 score:
   band: emerging
   composite: 16.8

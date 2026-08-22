@@ -120,7 +120,7 @@ overview: 'Kamal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kamal''s developer surface includes documentation, getting-started guide, release notes, changelog, CLI, and 12 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: emerging
   composite: 15.9

@@ -56,7 +56,7 @@ overview: 'Anoria is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Anoria''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: minimal
   composite: 6.0

@@ -49,7 +49,7 @@ name: Cakeshop
 nav: Providers
 network: true
 overview: Cakeshop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Commerce, Monetization, and Creators.
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

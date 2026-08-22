@@ -113,7 +113,7 @@ overview: 'AWS WAF publishes 1 API on the [APIs.io](https://apis.io/) network: A
 
 
   AWS WAF''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 98
+random_paper: 1
 score:
   band: thin
   composite: 32.6

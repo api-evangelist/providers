@@ -148,7 +148,7 @@ overview: 'DigitalGenius publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   DigitalGenius'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 44
+random_paper: 20
 score:
   band: thin
   composite: 38.8

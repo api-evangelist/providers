@@ -649,7 +649,7 @@ plans:
 - name: Kinde Plans Pricing
   plan_count: 5
   slug: kinde-plans-pricing
-random_paper: 76
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Kinde Rate Limits

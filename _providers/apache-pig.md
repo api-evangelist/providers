@@ -207,7 +207,7 @@ plans:
 - name: Apache Pig Plans Pricing
   plan_count: 3
   slug: apache-pig-plans-pricing
-random_paper: 81
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Apache Pig Rate Limits

@@ -69,7 +69,7 @@ name: Numbi
 nav: Providers
 network: true
 overview: Numbi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Payroll, and Tax Compliance.
-random_paper: 92
+random_paper: 14
 score:
   band: minimal
   composite: 10.0

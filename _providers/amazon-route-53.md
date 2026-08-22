@@ -604,7 +604,7 @@ plans:
 - name: Amazon Route 53 Plans Pricing
   plan_count: 1
   slug: amazon-route-53-plans-pricing
-random_paper: 58
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Amazon Route 53 Rate Limits

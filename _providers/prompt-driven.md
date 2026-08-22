@@ -104,7 +104,7 @@ overview: 'Prompt Driven is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Prompt Driven''s developer surface includes documentation, support, CLI, changelog, and 11 more developer resources.'
-random_paper: 26
+random_paper: 2
 score:
   band: emerging
   composite: 18.1

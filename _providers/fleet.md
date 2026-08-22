@@ -206,7 +206,7 @@ overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network: Fle
 
 
   Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: strong
   composite: 55.5

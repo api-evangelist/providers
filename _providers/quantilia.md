@@ -126,7 +126,7 @@ plans:
 - name: Quantilia Plans Pricing
   plan_count: 0
   slug: quantilia-plans-pricing
-random_paper: 74
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Quantilia Rate Limits

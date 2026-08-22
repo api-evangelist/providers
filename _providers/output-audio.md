@@ -121,7 +121,7 @@ overview: 'Output is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Output''s developer surface includes developer portal, pricing, signup flow, support, YouTube channel, engineering blog, and 13 more developer resources.'
-random_paper: 72
+random_paper: 4
 score:
   band: minimal
   composite: 10.6

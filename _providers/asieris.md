@@ -76,7 +76,7 @@ overview: 'asieris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   asieris'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 10.5

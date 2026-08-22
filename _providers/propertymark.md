@@ -193,7 +193,7 @@ overview: 'Propertymark is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Propertymark''s developer surface includes signup flow, developer portal, engineering blog, support, YouTube channel, and 34 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: emerging
   composite: 18.0

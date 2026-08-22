@@ -149,7 +149,7 @@ plans:
 - name: Hyperbolic Plans Pricing
   plan_count: 1
   slug: hyperbolic-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Hyperbolic Rate Limits

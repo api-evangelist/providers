@@ -49,7 +49,7 @@ name: ResearchGate
 nav: Providers
 network: true
 overview: ResearchGate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Internet, Research, Academic, and Social Network.
-random_paper: 70
+random_paper: 2
 score:
   band: minimal
   composite: 2.5

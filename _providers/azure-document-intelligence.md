@@ -179,7 +179,7 @@ plans:
 - name: Azure Document Intelligence Plans Pricing
   plan_count: 5
   slug: azure-document-intelligence-plans-pricing
-random_paper: 89
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Azure Document Intelligence Rate Limits

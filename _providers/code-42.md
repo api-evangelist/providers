@@ -133,7 +133,7 @@ overview: 'Code 42 publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Code 42''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 14 more developer resources.'
-random_paper: 111
+random_paper: 12
 score:
   band: thin
   composite: 29.4

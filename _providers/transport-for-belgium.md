@@ -57,7 +57,7 @@ name: Transport for Belgium
 nav: Providers
 network: true
 overview: Transport for Belgium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 77
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

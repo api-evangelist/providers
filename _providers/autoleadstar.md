@@ -202,7 +202,7 @@ plans:
 - name: Autoleadstar Plans Pricing
   plan_count: 0
   slug: autoleadstar-plans-pricing
-random_paper: 97
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Autoleadstar Rate Limits

@@ -60,7 +60,7 @@ overview: 'Delphia Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Delphia Therapeutics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 132
+random_paper: 11
 score:
   band: minimal
   composite: 6.7

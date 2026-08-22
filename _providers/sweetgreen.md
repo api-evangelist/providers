@@ -49,7 +49,7 @@ name: Sweetgreen
 nav: Providers
 network: true
 overview: Sweetgreen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Restaurants, Food Delivery, and Loyalty.
-random_paper: 38
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

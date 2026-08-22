@@ -68,7 +68,7 @@ name: Murmur Technologies INC
 nav: Providers
 network: true
 overview: Murmur Technologies INC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Out-of-Home Advertising, and Digital Billboards.
-random_paper: 133
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

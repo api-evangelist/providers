@@ -121,7 +121,7 @@ overview: 'Formic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Formic''s developer surface includes pricing, getting-started guide, GitHub presence, YouTube channel, and 13 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: emerging
   composite: 13.0

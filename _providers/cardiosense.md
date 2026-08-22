@@ -119,7 +119,7 @@ overview: 'Cardiosense publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cardiosense''s developer surface includes engineering blog, authentication, and 17 more developer resources.'
-random_paper: 125
+random_paper: 13
 scopes:
 - name: Cardiosense Scopes
   scope_count: 0

@@ -84,7 +84,7 @@ overview: 'Carrot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Carrot''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: emerging
   composite: 16.6

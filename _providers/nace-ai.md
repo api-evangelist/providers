@@ -149,7 +149,7 @@ overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Nace Ai''s developer surface includes authentication, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 58
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Nace Ai Rate Limits

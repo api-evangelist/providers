@@ -60,7 +60,7 @@ overview: 'Tomo Guides is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Tomo Guides'' developer surface includes engineering blog, signup flow, and 2 more developer resources.'
-random_paper: 90
+random_paper: 20
 score:
   band: minimal
   composite: 9.1

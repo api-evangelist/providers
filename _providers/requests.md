@@ -135,7 +135,7 @@ plans:
 - name: Requests Plans Pricing
   plan_count: 3
   slug: requests-plans-pricing
-random_paper: 147
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Requests Rate Limits

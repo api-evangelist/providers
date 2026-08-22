@@ -83,7 +83,7 @@ overview: 'Phononic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Phononic''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: emerging
   composite: 13.6

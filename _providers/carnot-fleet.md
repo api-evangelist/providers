@@ -61,7 +61,7 @@ name: Carnot Fleet
 nav: Providers
 network: true
 overview: Carnot Fleet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cold Chain, Logistics, Supply Chain, and Refrigeration.
-random_paper: 28
+random_paper: 2
 score:
   band: minimal
   composite: 9.6

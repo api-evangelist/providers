@@ -372,7 +372,7 @@ plans:
 - name: Middesk Plans Pricing
   plan_count: 3
   slug: middesk-plans-pricing
-random_paper: 141
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []

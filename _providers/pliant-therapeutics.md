@@ -57,7 +57,7 @@ name: Pliant Therapeutics
 nav: Providers
 network: true
 overview: Pliant Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Biotechnology, and Healthcare.
-random_paper: 53
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

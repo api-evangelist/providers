@@ -87,7 +87,7 @@ overview: 'Netskope publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Netskope''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 128
+random_paper: 12
 score:
   band: emerging
   composite: 11.7

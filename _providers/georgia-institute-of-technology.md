@@ -163,7 +163,7 @@ plans:
 - name: Georgia Institute Of Technology Plans Pricing
   plan_count: 2
   slug: georgia-institute-of-technology-plans-pricing
-random_paper: 38
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Georgia Institute Of Technology Rate Limits

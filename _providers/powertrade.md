@@ -163,7 +163,7 @@ overview: 'PowerTrade publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PowerTrade''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: thin
   composite: 34.6

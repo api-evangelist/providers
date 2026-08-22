@@ -197,7 +197,7 @@ plans:
 - name: Apache Cordova Plans Pricing
   plan_count: 3
   slug: apache-cordova-plans-pricing
-random_paper: 64
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Apache Cordova Rate Limits

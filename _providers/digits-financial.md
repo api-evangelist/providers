@@ -49,7 +49,7 @@ name: Digits
 nav: Providers
 network: true
 overview: Digits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, General Ledger, and Financial Reporting.
-random_paper: 132
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

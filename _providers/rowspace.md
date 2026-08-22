@@ -57,7 +57,7 @@ name: Rowspace
 nav: Providers
 network: true
 overview: Rowspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Artificial Intelligence, Financial Services, and Asset Management.
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

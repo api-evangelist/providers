@@ -64,7 +64,7 @@ overview: 'ProxyCrawl publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ProxyCrawl''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 72
+random_paper: 2
 score:
   band: minimal
   composite: 6.2

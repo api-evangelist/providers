@@ -60,7 +60,7 @@ overview: 'Spacee is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spacee''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: minimal
   composite: 8.5

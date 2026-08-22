@@ -166,7 +166,7 @@ overview: 'Everything But The House is profiled on the [APIs.io](https://apis.io
 
 
   Everything But The House''s developer surface includes support, engineering blog, getting-started guide, YouTube channel, and 22 more developer resources.'
-random_paper: 44
+random_paper: 13
 score:
   band: emerging
   composite: 16.2

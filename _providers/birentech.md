@@ -60,7 +60,7 @@ overview: 'Biren Technology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Biren Technology''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 54
+random_paper: 3
 score:
   band: minimal
   composite: 8.8

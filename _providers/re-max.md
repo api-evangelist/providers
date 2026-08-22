@@ -162,7 +162,7 @@ overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
-random_paper: 139
+random_paper: 19
 score:
   band: emerging
   composite: 19.8

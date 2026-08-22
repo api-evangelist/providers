@@ -76,7 +76,7 @@ overview: 'Citi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Citi''s developer surface includes developer portal, sandbox, and 6 more developer resources.'
-random_paper: 127
+random_paper: 5
 score:
   band: minimal
   composite: 3.7

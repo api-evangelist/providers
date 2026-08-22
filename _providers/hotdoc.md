@@ -128,7 +128,7 @@ overview: 'HotDoc publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   HotDoc''s developer surface includes developer portal, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 45
+random_paper: 11
 scopes:
 - name: Hotdoc Scopes
   scope_count: 1

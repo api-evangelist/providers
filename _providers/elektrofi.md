@@ -64,7 +64,7 @@ overview: 'Elektrofi is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Elektrofi''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 71
+random_paper: 20
 score:
   band: minimal
   composite: 3.8

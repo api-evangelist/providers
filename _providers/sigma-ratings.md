@@ -218,7 +218,7 @@ overview: 'Sigma360 publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sigma360''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 142
+random_paper: 11
 score:
   band: developing
   composite: 49.1

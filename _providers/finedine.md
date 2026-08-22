@@ -84,7 +84,7 @@ overview: 'FineDine is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FineDine''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 89
+random_paper: 15
 score:
   band: emerging
   composite: 14.8

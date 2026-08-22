@@ -60,7 +60,7 @@ overview: 'Vsim is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vsim''s developer surface includes support and 3 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: minimal
   composite: 6.7

@@ -137,7 +137,7 @@ overview: 'Definity Financial is profiled on the [APIs.io](https://apis.io/) net
 
 
   Definity Financial''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 50
+random_paper: 11
 score:
   band: emerging
   composite: 24.0

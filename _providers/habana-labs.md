@@ -60,7 +60,7 @@ overview: 'Habana Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Habana Labs'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 23
+random_paper: 16
 score:
   band: minimal
   composite: 7.2

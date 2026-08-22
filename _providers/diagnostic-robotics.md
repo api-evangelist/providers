@@ -175,7 +175,7 @@ plans:
 - name: Diagnostic Robotics Plans Pricing
   plan_count: 0
   slug: diagnostic-robotics-plans-pricing
-random_paper: 38
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Diagnostic Robotics Rate Limits

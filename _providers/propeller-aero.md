@@ -164,7 +164,7 @@ plans:
 - name: Propeller Aero Plans Pricing
   plan_count: 3
   slug: propeller-aero-plans-pricing
-random_paper: 108
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Propeller Aero Rate Limits

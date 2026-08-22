@@ -72,7 +72,7 @@ overview: 'Visibly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Visibly''s developer surface includes pricing, support, and 5 more developer resources.'
-random_paper: 25
+random_paper: 14
 score:
   band: emerging
   composite: 13.4

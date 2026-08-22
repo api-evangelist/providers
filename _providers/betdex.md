@@ -76,7 +76,7 @@ overview: 'Betdex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Betdex''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 11.3

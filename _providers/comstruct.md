@@ -69,7 +69,7 @@ name: Comstruct
 nav: Providers
 network: true
 overview: Comstruct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Construction, Construction Technology, and Procurement.
-random_paper: 102
+random_paper: 9
 score:
   band: emerging
   composite: 12.8

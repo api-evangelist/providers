@@ -72,7 +72,7 @@ overview: 'EverestLabs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   EverestLabs'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 141
+random_paper: 8
 score:
   band: minimal
   composite: 8.2

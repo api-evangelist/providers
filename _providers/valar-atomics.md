@@ -73,7 +73,7 @@ name: Valar Atomics
 nav: Providers
 network: true
 overview: Valar Atomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Nuclear Energy, Energy, and Hydrogen.
-random_paper: 139
+random_paper: 8
 score:
   band: minimal
   composite: 4.4

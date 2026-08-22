@@ -53,7 +53,7 @@ name: Causal
 nav: Providers
 network: true
 overview: Causal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Planning, FP&A, and Business Modeling.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 6.3

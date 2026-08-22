@@ -66,7 +66,7 @@ plans:
 - name: Race Protocol Plans Pricing
   plan_count: 3
   slug: race-protocol-plans-pricing
-random_paper: 146
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Race Protocol Rate Limits

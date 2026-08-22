@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Indices Plans Pricing
   plan_count: 3
   slug: bloomberg-indices-plans-pricing
-random_paper: 94
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Bloomberg Indices Rate Limits

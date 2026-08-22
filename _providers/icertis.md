@@ -80,7 +80,7 @@ overview: 'Icertis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Icertis'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: emerging
   composite: 13.7

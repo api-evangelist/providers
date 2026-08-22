@@ -615,7 +615,7 @@ plans:
 - name: Indeed Plans Pricing
   plan_count: 2
   slug: indeed-plans-pricing
-random_paper: 21
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Indeed Rate Limits

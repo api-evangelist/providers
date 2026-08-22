@@ -284,7 +284,7 @@ plans:
 - name: Autoderm Ai Dermatology Api Plans
   plan_count: 3
   slug: autoderm-ai-dermatology-api-plans
-random_paper: 25
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits

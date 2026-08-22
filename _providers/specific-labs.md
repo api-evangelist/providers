@@ -57,7 +57,7 @@ name: Specific Labs
 nav: Providers
 network: true
 overview: Specific Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Datasets, Machine Learning, and Benchmarks.
-random_paper: 109
+random_paper: 20
 score:
   band: minimal
   composite: 7.1

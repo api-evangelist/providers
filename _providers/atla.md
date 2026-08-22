@@ -144,7 +144,7 @@ overview: 'Atla publishes 1 API on the [APIs.io](https://apis.io/) network: SDK 
 
 
   Atla''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 120
+random_paper: 19
 score:
   band: thin
   composite: 36.6

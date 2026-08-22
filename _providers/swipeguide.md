@@ -125,7 +125,7 @@ overview: 'Swipeguide publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Swipeguide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 11 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: emerging
   composite: 25.1

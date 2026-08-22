@@ -183,7 +183,7 @@ plans:
 - name: Speechmatics Plans Pricing
   plan_count: 4
   slug: speechmatics-plans-pricing
-random_paper: 81
+random_paper: 13
 rate_limits:
 - limit_count: 11
   name: Speechmatics Rate Limits

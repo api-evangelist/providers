@@ -256,7 +256,7 @@ overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: Tigera Scopes
   scope_count: 1

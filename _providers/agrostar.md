@@ -84,7 +84,7 @@ overview: 'Agrostar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Agrostar''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: minimal
   composite: 7.5

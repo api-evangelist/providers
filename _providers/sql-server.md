@@ -271,7 +271,7 @@ plans:
 - name: Sql Server Plans Pricing
   plan_count: 3
   slug: sql-server-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Sql Server Rate Limits

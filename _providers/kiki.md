@@ -64,7 +64,7 @@ overview: 'Kiki is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kiki''s developer surface includes support and 4 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: minimal
   composite: 10.2

@@ -68,7 +68,7 @@ overview: 'XSquare is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   XSquare''s developer surface includes pricing and 5 more developer resources.'
-random_paper: 40
+random_paper: 8
 score:
   band: emerging
   composite: 12.4

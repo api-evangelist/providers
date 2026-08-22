@@ -80,7 +80,7 @@ overview: 'Electric Hydrogen is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Electric Hydrogen''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 113
+random_paper: 9
 score:
   band: minimal
   composite: 10.4

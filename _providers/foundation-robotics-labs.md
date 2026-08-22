@@ -102,7 +102,7 @@ overview: 'Foundation Robotics Labs is profiled on the [APIs.io](https://apis.io
 
 
   Foundation Robotics Labs'' developer surface includes YouTube channel and 11 more developer resources.'
-random_paper: 72
+random_paper: 20
 score:
   band: minimal
   composite: 5.3

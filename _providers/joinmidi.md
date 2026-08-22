@@ -84,7 +84,7 @@ overview: 'Joinmidi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joinmidi''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: emerging
   composite: 15.2

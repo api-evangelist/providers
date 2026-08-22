@@ -66,7 +66,7 @@ name: Presidio Medical
 nav: Providers
 network: true
 overview: Presidio Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Neuromodulation, Neurotechnology, and Spinal Cord Stimulation.
-random_paper: 137
+random_paper: 10
 score:
   band: minimal
   composite: 3.7

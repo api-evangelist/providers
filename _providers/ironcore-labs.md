@@ -224,7 +224,7 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: strong
   composite: 55.7

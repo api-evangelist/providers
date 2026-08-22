@@ -53,7 +53,7 @@ name: Tenders in Hungary
 nav: Providers
 network: true
 overview: Tenders in Hungary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 40
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

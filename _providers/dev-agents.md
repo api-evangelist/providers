@@ -49,7 +49,7 @@ name: /dev/agents
 nav: Providers
 network: true
 overview: /dev/agents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, AI Agents, Agent Operating System, and Autonomous Agents.
-random_paper: 112
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

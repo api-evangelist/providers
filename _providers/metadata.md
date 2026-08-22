@@ -132,7 +132,7 @@ plans:
 - name: Metadata Plans Pricing
   plan_count: 0
   slug: metadata-plans-pricing
-random_paper: 88
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Metadata Rate Limits

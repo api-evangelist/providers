@@ -80,7 +80,7 @@ overview: 'Native Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Native Security''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 90
+random_paper: 5
 score:
   band: emerging
   composite: 15.1

@@ -165,7 +165,7 @@ plans:
 - name: Testmail App Plans Pricing
   plan_count: 4
   slug: testmail-app-plans-pricing
-random_paper: 41
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Testmail App Rate Limits

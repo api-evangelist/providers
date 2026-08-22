@@ -149,7 +149,7 @@ overview: 'Neubird publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Neubird''s developer surface includes documentation, API reference, quickstart, authentication, sandbox, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: thin
   composite: 35.3

@@ -405,7 +405,7 @@ plans:
 - name: Structify Plans Pricing
   plan_count: 3
   slug: structify-plans-pricing
-random_paper: 111
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Structify Rate Limits

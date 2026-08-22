@@ -49,7 +49,7 @@ name: StarOfService
 nav: Providers
 network: true
 overview: StarOfService is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Local Services, Home Services, and Professional Services.
-random_paper: 67
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

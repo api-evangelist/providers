@@ -84,7 +84,7 @@ overview: 'Hark is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hark''s developer surface includes signup flow, product news, and 10 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: emerging
   composite: 12.6

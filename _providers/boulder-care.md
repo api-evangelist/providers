@@ -142,7 +142,7 @@ overview: 'Boulder Care is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Boulder Care''s developer surface includes engineering blog, support, FAQ, signup flow, pricing, legal docs, and 16 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: emerging
   composite: 20.5

@@ -141,7 +141,7 @@ overview: 'JumpCloud publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   JumpCloud''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: thin
   composite: 33.4

@@ -125,7 +125,7 @@ plans:
 - name: Platformable Plans Pricing
   plan_count: 3
   slug: platformable-plans-pricing
-random_paper: 81
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Platformable Rate Limits

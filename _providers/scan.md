@@ -40,7 +40,7 @@ name: Scan *
 nav: Providers
 network: true
 overview: Scan * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 123
+random_paper: 1
 score:
   band: minimal
   composite: 3.2

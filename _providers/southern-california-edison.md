@@ -143,7 +143,7 @@ overview: 'Southern California Edison publishes 1 API on the [APIs.io](https://a
 
 
   Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 18 more developer resources.'
-random_paper: 135
+random_paper: 1
 score:
   band: thin
   composite: 32.4

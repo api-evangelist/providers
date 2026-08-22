@@ -49,7 +49,7 @@ name: Traffix
 nav: Providers
 network: true
 overview: Traffix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Networking, Signaling, and Diameter.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 1.8

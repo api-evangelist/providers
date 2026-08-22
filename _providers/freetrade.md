@@ -132,7 +132,7 @@ overview: 'Freetrade is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Freetrade''s developer surface includes engineering blog, product news, changelog, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 52
+random_paper: 1
 score:
   band: emerging
   composite: 24.1

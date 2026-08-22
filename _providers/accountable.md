@@ -68,7 +68,7 @@ name: Accountable
 nav: Providers
 network: true
 overview: 'Accountable publishes 3 APIs on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Crypto.'
-random_paper: 110
+random_paper: 19
 score:
   band: emerging
   composite: 17.3

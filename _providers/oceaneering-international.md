@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: AI-Powered Inform Predict™ Software Optimizes Inspection ...
   url: https://www.oceaneering.com/case-studies/inform-predict-software-optimizes-nocs-inspection-intervals/
-random_paper: 64
+random_paper: 14
 score:
   band: minimal
   composite: 4.1

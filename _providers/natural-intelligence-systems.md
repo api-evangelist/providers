@@ -49,7 +49,7 @@ name: Natural Intelligence Systems
 nav: Providers
 network: true
 overview: Natural Intelligence Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Artificial Intelligence, Hardware, and Neural Processor.
-random_paper: 77
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

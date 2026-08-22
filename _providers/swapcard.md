@@ -104,7 +104,7 @@ plans:
 - name: Swapcard Plans Pricing
   plan_count: 3
   slug: swapcard-plans-pricing
-random_paper: 108
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Swapcard Rate Limits

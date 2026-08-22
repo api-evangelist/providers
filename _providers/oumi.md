@@ -128,7 +128,7 @@ overview: 'Oumi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Oumi''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 144
+random_paper: 1
 score:
   band: emerging
   composite: 18.6

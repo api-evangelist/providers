@@ -184,7 +184,7 @@ overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: developing
   composite: 39.8

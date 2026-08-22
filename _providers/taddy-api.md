@@ -199,7 +199,7 @@ plans:
 - name: Taddy Api Plans Pricing
   plan_count: 3
   slug: taddy-api-plans-pricing
-random_paper: 148
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Taddy Api Rate Limits

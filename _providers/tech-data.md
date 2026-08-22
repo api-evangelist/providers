@@ -224,7 +224,7 @@ press:
 - date: '2026-05-25'
   title: data & AI
   url: https://aholddelhaize.com/about/technology-innovation/data-ai/
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Tech Data Rate Limits

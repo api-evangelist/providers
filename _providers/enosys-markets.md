@@ -76,7 +76,7 @@ overview: 'Enosys Markets is profiled on the [APIs.io](https://apis.io/) network
 
 
   Enosys Markets'' developer surface includes developer portal, documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 136
+random_paper: 7
 score:
   band: emerging
   composite: 13.4

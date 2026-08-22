@@ -64,7 +64,7 @@ overview: 'CollegeFootballData.com publishes 1 API on the [APIs.io](https://apis
 
 
   CollegeFootballData.com''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 121
+random_paper: 4
 score:
   band: minimal
   composite: 6.2

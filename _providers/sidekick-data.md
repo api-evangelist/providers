@@ -68,7 +68,7 @@ overview: 'Sidekick Data is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Sidekick Data''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 102
+random_paper: 13
 score:
   band: minimal
   composite: 2.6

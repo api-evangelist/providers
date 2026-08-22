@@ -177,7 +177,7 @@ plans:
 - name: Whisperr Inc Plans Pricing
   plan_count: 0
   slug: whisperr-inc-plans-pricing
-random_paper: 51
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Whisperr Inc Rate Limits

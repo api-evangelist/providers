@@ -230,7 +230,7 @@ plans:
 - name: Trelica Plans Pricing
   plan_count: 3
   slug: trelica-plans-pricing
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Trelica Rate Limits

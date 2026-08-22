@@ -151,7 +151,7 @@ plans:
 - name: Websitepros Plans Pricing
   plan_count: 0
   slug: websitepros-plans-pricing
-random_paper: 15
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Websitepros Rate Limits

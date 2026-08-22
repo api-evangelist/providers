@@ -748,7 +748,7 @@ plans:
 - name: Gong Plans Pricing
   plan_count: 0
   slug: gong-plans-pricing
-random_paper: 129
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Gong Rate Limits

@@ -116,7 +116,7 @@ overview: 'Aon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aon''s developer surface includes YouTube channel and 16 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 4.6

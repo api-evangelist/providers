@@ -180,7 +180,7 @@ overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 17 more developer resources.'
-random_paper: 128
+random_paper: 16
 score:
   band: developing
   composite: 44.9

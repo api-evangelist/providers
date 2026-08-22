@@ -232,7 +232,7 @@ overview: 'Fixture publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 30
+random_paper: 19
 scopes:
 - name: Fixture Scopes
   scope_count: 0

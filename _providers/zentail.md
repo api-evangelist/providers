@@ -121,7 +121,7 @@ overview: 'Zentail publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Zentail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: thin
   composite: 31.7

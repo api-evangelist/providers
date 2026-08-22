@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: OGE Energy Corp. Announces Public Offering of $345 ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-public-offering-of-345-million-of-shares-of-common-stock-302622405.html
-random_paper: 116
+random_paper: 2
 score:
   band: minimal
   composite: 0.6

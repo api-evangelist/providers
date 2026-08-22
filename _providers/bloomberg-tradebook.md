@@ -104,7 +104,7 @@ plans:
 - name: Bloomberg Tradebook Plans Pricing
   plan_count: 3
   slug: bloomberg-tradebook-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tradebook Rate Limits

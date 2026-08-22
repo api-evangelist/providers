@@ -76,7 +76,7 @@ overview: 'Sylvamo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sylvamo''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 34
+random_paper: 2
 score:
   band: minimal
   composite: 4.9

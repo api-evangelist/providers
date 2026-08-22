@@ -64,7 +64,7 @@ overview: 'P.F. Chang''s is profiled on the [APIs.io](https://apis.io/) network.
 
 
   P.F. Chang''s'' developer surface includes support and 4 more developer resources.'
-random_paper: 142
+random_paper: 5
 score:
   band: minimal
   composite: 10.2

@@ -72,7 +72,7 @@ overview: 'Abodu is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Abodu''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: emerging
   composite: 12.7

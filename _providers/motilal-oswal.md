@@ -72,7 +72,7 @@ overview: 'Motilal Oswal is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Motilal Oswal''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: emerging
   composite: 11.8

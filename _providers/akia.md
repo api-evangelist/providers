@@ -169,7 +169,7 @@ overview: 'Akia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Akia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 108
+random_paper: 7
 scopes:
 - name: Akia Scopes
   scope_count: 16

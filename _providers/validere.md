@@ -480,7 +480,7 @@ overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Validere''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 18 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: developing
   composite: 48.4

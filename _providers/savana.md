@@ -135,7 +135,7 @@ overview: 'Savana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Savana''s developer surface includes support, engineering blog, product news, YouTube channel, and 17 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 15.4

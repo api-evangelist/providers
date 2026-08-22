@@ -137,7 +137,7 @@ press:
 - date: '2026-05-25'
   title: Carlyle Agrees to Acquire Adastra
   url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Carlyle Group Rate Limits

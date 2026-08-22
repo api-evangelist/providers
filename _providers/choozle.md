@@ -229,7 +229,7 @@ plans:
 - name: Choozle Plans Pricing
   plan_count: 2
   slug: choozle-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Choozle Rate Limits

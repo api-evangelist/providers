@@ -202,7 +202,7 @@ plans:
 - name: Windfall Plans Pricing
   plan_count: 0
   slug: windfall-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Windfall Rate Limits

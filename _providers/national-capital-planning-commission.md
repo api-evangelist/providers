@@ -72,7 +72,7 @@ overview: 'National Capital Planning Commission is profiled on the [APIs.io](htt
 
 
   National Capital Planning Commission''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: minimal
   composite: 3.0

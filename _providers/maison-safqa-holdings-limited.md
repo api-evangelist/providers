@@ -153,7 +153,7 @@ overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https
 
 
   Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 75
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Maison Safqa Holdings Limited Rate Limits

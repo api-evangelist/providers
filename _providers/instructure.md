@@ -300,7 +300,7 @@ plans:
 - name: Instructure Plans Pricing
   plan_count: 3
   slug: instructure-plans-pricing
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Instructure Rate Limits

@@ -280,7 +280,7 @@ overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 24 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: strong
   composite: 56.0

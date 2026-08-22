@@ -64,7 +64,7 @@ overview: 'SavePage.io publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SavePage.io''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: minimal
   composite: 6.2

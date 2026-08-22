@@ -45,7 +45,7 @@ name: Dealflo
 nav: Providers
 network: true
 overview: Dealflo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Electronic Signature, Digital Agreements, and Identity Verification.
-random_paper: 131
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

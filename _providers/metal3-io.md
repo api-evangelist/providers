@@ -73,7 +73,7 @@ plans:
 - name: Metal3 Io Plans Pricing
   plan_count: 3
   slug: metal3-io-plans-pricing
-random_paper: 98
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Metal3 Io Rate Limits

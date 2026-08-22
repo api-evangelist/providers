@@ -57,7 +57,7 @@ name: Blockspring
 nav: Providers
 network: true
 overview: Blockspring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Integration, Enrichment, and Spreadsheets.
-random_paper: 139
+random_paper: 6
 score:
   band: minimal
   composite: 6.0

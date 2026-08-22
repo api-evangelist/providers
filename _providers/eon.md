@@ -255,7 +255,7 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Eon''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: developing
   composite: 48.0

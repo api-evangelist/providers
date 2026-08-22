@@ -137,7 +137,7 @@ overview: 'Breathe HR publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Breathe HR''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 100
+random_paper: 7
 score:
   band: thin
   composite: 31.0

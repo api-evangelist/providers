@@ -117,7 +117,7 @@ plans:
 - name: Rent Manager Plans Pricing
   plan_count: 5
   slug: rent-manager-plans-pricing
-random_paper: 25
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Rent Manager Rate Limits

@@ -168,7 +168,7 @@ overview: 'API Linting publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   The API Linting catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 12
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

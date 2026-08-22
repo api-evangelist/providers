@@ -49,7 +49,7 @@ name: Exo Therapeutics
 nav: Providers
 network: true
 overview: Exo Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Drug Discovery, and Pharmaceuticals.
-random_paper: 35
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

@@ -105,7 +105,7 @@ overview: 'LightForce Orthodontics is profiled on the [APIs.io](https://apis.io/
 
 
   LightForce Orthodontics'' developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 36
+random_paper: 5
 scopes:
 - name: Lightforce Orthodontics Scopes
   scope_count: 14

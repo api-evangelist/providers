@@ -143,7 +143,7 @@ overview: 'TradingView publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   TradingView''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 16 more developer resources.'
-random_paper: 145
+random_paper: 12
 score:
   band: thin
   composite: 28.0

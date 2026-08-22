@@ -64,7 +64,7 @@ overview: 'PlayQ is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PlayQ''s developer surface includes support and 4 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: minimal
   composite: 10.2

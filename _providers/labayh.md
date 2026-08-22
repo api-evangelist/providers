@@ -216,7 +216,7 @@ overview: 'Labayh publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Labayh''s developer surface includes support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: developing
   composite: 40.6

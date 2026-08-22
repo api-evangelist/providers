@@ -111,7 +111,7 @@ overview: 'Redaptive publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Redaptive''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 70
+random_paper: 19
 score:
   band: emerging
   composite: 21.6

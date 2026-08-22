@@ -76,7 +76,7 @@ overview: 'Boltzbit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Boltzbit''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 129
+random_paper: 13
 score:
   band: emerging
   composite: 12.7

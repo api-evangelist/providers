@@ -124,7 +124,7 @@ overview: 'Letswork is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Letswork''s developer surface includes pricing, engineering blog, support, YouTube channel, and 16 more developer resources.'
-random_paper: 146
+random_paper: 9
 score:
   band: emerging
   composite: 13.5

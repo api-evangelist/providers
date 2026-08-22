@@ -228,7 +228,7 @@ overview: 'LocoNav publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LocoNav''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Loconav Rate Limits

@@ -77,7 +77,7 @@ plans:
 - name: Pika Art Plans Pricing
   plan_count: 4
   slug: pika-art-plans-pricing
-random_paper: 48
+random_paper: 16
 score:
   band: emerging
   composite: 16.7

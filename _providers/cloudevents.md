@@ -210,7 +210,7 @@ plans:
 - name: Cloudevents Plans Pricing
   plan_count: 1
   slug: cloudevents-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Cloudevents Rate Limits

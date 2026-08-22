@@ -117,7 +117,7 @@ overview: 'Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Alan''s developer surface includes engineering blog, GitHub presence, and 16 more developer resources.'
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 5.5

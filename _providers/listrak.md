@@ -601,7 +601,7 @@ plans:
 - name: Listrak Plans Pricing
   plan_count: 1
   slug: listrak-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Listrak Rate Limits

@@ -121,7 +121,7 @@ plans:
 - name: Nickelytics Plans Pricing
   plan_count: 0
   slug: nickelytics-plans-pricing
-random_paper: 143
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Nickelytics Rate Limits

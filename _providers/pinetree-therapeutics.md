@@ -91,7 +91,7 @@ overview: 'PineTree Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   PineTree Therapeutics'' developer surface includes product news and 8 more developer resources.'
-random_paper: 116
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

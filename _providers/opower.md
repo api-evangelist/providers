@@ -128,7 +128,7 @@ overview: 'OPOWER publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   OPOWER''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 11 more developer resources.'
-random_paper: 72
+random_paper: 17
 score:
   band: emerging
   composite: 24.7

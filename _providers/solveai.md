@@ -53,7 +53,7 @@ name: SolveAI
 nav: Providers
 network: true
 overview: SolveAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Enterprise AI, and AI Applications.
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

@@ -158,7 +158,7 @@ overview: 'Sentrial publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sentrial''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 16 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: thin
   composite: 37.1

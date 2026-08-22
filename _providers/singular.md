@@ -236,7 +236,7 @@ plans:
 - name: Singular Plans Pricing
   plan_count: 3
   slug: singular-plans-pricing
-random_paper: 124
+random_paper: 8
 rate_limits:
 - limit_count: 11
   name: Singular Rate Limits

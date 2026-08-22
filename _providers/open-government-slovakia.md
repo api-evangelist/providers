@@ -57,7 +57,7 @@ name: Open Government, Slovakia
 nav: Providers
 network: true
 overview: Open Government, Slovakia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 91
+random_paper: 18
 score:
   band: minimal
   composite: 4.2

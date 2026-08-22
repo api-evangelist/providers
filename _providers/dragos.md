@@ -206,7 +206,7 @@ overview: 'Dragos publishes 3 APIs on the [APIs.io](https://apis.io/) network: I
 
 
   Dragos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 47.6

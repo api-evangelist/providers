@@ -60,7 +60,7 @@ overview: 'InRisk is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   InRisk''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 3.5

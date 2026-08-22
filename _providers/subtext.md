@@ -49,7 +49,7 @@ name: Subtext *
 nav: Providers
 network: true
 overview: Subtext * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, and Acquired.
-random_paper: 38
+random_paper: 6
 score:
   band: minimal
   composite: 1.6

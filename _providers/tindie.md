@@ -147,7 +147,7 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 
 
   Tindie''s developer surface includes API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: thin
   composite: 31.1

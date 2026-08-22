@@ -254,7 +254,7 @@ overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: developing
   composite: 53.1

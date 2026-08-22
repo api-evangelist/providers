@@ -64,7 +64,7 @@ overview: 'Aurora Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Aurora Therapeutics'' developer surface includes product news and 4 more developer resources.'
-random_paper: 55
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

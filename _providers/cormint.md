@@ -87,7 +87,7 @@ plans:
 - name: Cormint Plans Pricing
   plan_count: 0
   slug: cormint-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Cormint Rate Limits

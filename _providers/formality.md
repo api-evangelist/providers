@@ -181,7 +181,7 @@ plans:
 - name: Formality Plans Pricing
   plan_count: 0
   slug: formality-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Formality Rate Limits

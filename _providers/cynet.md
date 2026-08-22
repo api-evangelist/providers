@@ -156,7 +156,7 @@ overview: 'Cynet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cynet''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 100
+random_paper: 1
 score:
   band: thin
   composite: 37.8

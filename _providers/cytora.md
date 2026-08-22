@@ -143,7 +143,7 @@ overview: 'Cytora publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cytora''s developer surface includes documentation, engineering blog, authentication, support, and 21 more developer resources.'
-random_paper: 62
+random_paper: 7
 scopes:
 - name: Cytora Scopes
   scope_count: 14

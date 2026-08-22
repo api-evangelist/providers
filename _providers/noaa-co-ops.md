@@ -244,7 +244,7 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
-random_paper: 10
+random_paper: 3
 rules:
 - effective_rule_count: 5
   extends: []

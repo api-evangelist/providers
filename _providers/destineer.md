@@ -45,7 +45,7 @@ name: Destineer
 nav: Providers
 network: true
 overview: Destineer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Telecommunications, Networking, and Carrier Networks.
-random_paper: 69
+random_paper: 18
 score:
   band: minimal
   composite: 0.6

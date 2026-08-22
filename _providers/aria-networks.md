@@ -104,7 +104,7 @@ overview: 'Aria Networks publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Aria Networks'' developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: emerging
   composite: 16.7

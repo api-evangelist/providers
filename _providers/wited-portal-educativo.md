@@ -92,7 +92,7 @@ overview: 'Wited (Portal Educativo) is profiled on the [APIs.io](https://apis.io
 
 
   Wited (Portal Educativo)''s developer surface includes signup flow, pricing, support, and 9 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
   composite: 14.4

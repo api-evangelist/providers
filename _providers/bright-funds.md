@@ -109,7 +109,7 @@ overview: 'Bright Funds is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bright Funds'' developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 37
+random_paper: 11
 scopes:
 - name: Bright Funds Scopes
   scope_count: 7

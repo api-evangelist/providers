@@ -111,7 +111,7 @@ plans:
 - name: Music Id
   plan_count: 2
   slug: music-id
-random_paper: 52
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Houndify Voice Ai

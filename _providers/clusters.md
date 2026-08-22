@@ -228,7 +228,7 @@ overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: thin
   composite: 38.4

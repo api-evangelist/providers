@@ -72,7 +72,7 @@ overview: 'Spoiler Alert is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Spoiler Alert''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: emerging
   composite: 12.6

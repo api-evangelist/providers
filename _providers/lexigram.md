@@ -57,7 +57,7 @@ name: Lexigram
 nav: Providers
 network: true
 overview: Lexigram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 4.1

@@ -104,7 +104,7 @@ overview: 'Flow is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Flow''s developer surface includes documentation, pricing, signup flow, support, changelog, and 10 more developer resources.'
-random_paper: 142
+random_paper: 20
 score:
   band: emerging
   composite: 19.9

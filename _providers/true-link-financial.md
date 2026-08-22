@@ -49,7 +49,7 @@ name: True Link Financial
 nav: Providers
 network: true
 overview: True Link Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Prepaid Cards, and Wealth Management.
-random_paper: 113
+random_paper: 11
 score:
   band: minimal
   composite: 1.5

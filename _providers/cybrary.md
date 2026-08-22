@@ -182,7 +182,7 @@ overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Cybrary Rate Limits

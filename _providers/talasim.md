@@ -45,7 +45,7 @@ name: Talasim
 nav: Providers
 network: true
 overview: Talasim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, Local, User Generated Content, and Comedy.
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

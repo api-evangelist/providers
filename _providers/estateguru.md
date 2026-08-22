@@ -76,7 +76,7 @@ overview: 'Estateguru is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Estateguru''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 54
+random_paper: 5
 score:
   band: minimal
   composite: 6.7

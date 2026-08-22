@@ -40,7 +40,7 @@ name: CONXUS Communications
 nav: Providers
 network: true
 overview: CONXUS Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Messaging, Paging, and Wireless.
-random_paper: 144
+random_paper: 4
 score:
   band: minimal
   composite: 0.6

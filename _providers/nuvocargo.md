@@ -68,7 +68,7 @@ overview: 'Nuvocargo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nuvocargo''s developer surface includes engineering blog, changelog, and 4 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: emerging
   composite: 11.8

@@ -159,7 +159,7 @@ plans:
 - name: Qase Plans Pricing
   plan_count: 4
   slug: qase-plans-pricing
-random_paper: 128
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Qase Rate Limits

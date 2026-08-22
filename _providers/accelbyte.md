@@ -191,7 +191,7 @@ plans:
 - name: Accelbyte Plans Pricing
   plan_count: 3
   slug: accelbyte-plans-pricing
-random_paper: 46
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Accelbyte Rate Limits

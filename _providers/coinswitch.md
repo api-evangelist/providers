@@ -152,7 +152,7 @@ overview: 'CoinSwitch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CoinSwitch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 16 more developer resources.'
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 17
   name: Coinswitch Rate Limits

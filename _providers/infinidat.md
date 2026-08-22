@@ -154,7 +154,7 @@ overview: 'Infinidat publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Infinidat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 19 more developer resources.'
-random_paper: 56
+random_paper: 5
 score:
   band: developing
   composite: 46.1

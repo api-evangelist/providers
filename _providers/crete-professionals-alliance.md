@@ -60,7 +60,7 @@ overview: 'Crete Professionals Alliance is profiled on the [APIs.io](https://api
 
 
   Crete Professionals Alliance''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: minimal
   composite: 7.6

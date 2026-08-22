@@ -91,7 +91,7 @@ plans:
 - name: Carepatron Plans Pricing
   plan_count: 3
   slug: carepatron-plans-pricing
-random_paper: 28
+random_paper: 0
 score:
   band: emerging
   composite: 18.0

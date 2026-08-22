@@ -127,7 +127,7 @@ overview: 'BioIntelliSense publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   BioIntelliSense''s developer surface includes documentation, support, engineering blog, legal docs, authentication, and 17 more developer resources.'
-random_paper: 119
+random_paper: 13
 score:
   band: thin
   composite: 29.0

@@ -168,7 +168,7 @@ plans:
 - name: Gigacatalyst Plans Pricing
   plan_count: 0
   slug: gigacatalyst-plans-pricing
-random_paper: 85
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Gigacatalyst Rate Limits

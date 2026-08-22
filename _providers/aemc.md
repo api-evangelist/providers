@@ -190,7 +190,7 @@ overview: 'Australian Energy Market Commission publishes 1 API on the [APIs.io](
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
-random_paper: 108
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits

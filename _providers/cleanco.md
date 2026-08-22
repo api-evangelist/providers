@@ -53,7 +53,7 @@ name: CleanCo
 nav: Providers
 network: true
 overview: CleanCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverage, Spirits, Non-Alcoholic, and Low-Alcohol.
-random_paper: 129
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

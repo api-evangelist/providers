@@ -51,7 +51,7 @@ name: Concentric Analgesics
 nav: Providers
 network: true
 overview: Concentric Analgesics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Clinical Trials.
-random_paper: 73
+random_paper: 17
 score:
   band: minimal
   composite: 1.8

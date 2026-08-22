@@ -246,7 +246,7 @@ plans:
 - name: Crypto Com Plans Pricing
   plan_count: 0
   slug: crypto-com-plans-pricing
-random_paper: 143
+random_paper: 8
 rate_limits:
 - limit_count: 11
   name: Crypto Com Rate Limits

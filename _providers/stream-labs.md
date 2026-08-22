@@ -145,7 +145,7 @@ overview: 'Stream Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Stream Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, pricing, and 16 more developer resources.'
-random_paper: 72
+random_paper: 2
 scopes:
 - name: Stream Labs Scopes
   scope_count: 13

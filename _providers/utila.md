@@ -264,7 +264,7 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: strong
   composite: 56.8

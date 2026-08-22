@@ -108,7 +108,7 @@ plans:
 - name: Echoleads Plans Pricing
   plan_count: 0
   slug: echoleads-plans-pricing
-random_paper: 42
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Echoleads Rate Limits

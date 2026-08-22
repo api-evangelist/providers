@@ -184,7 +184,7 @@ plans:
 - name: Stagwell Plans Pricing
   plan_count: 8
   slug: stagwell-plans-pricing
-random_paper: 122
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Stagwell Rate Limits

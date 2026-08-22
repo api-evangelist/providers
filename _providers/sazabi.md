@@ -104,7 +104,7 @@ overview: 'Sazabi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sazabi''s developer surface includes documentation, engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 15.9

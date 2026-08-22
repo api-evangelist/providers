@@ -337,7 +337,7 @@ plans:
 - name: Google Marketing Platform Plans Pricing
   plan_count: 0
   slug: google-marketing-platform-plans-pricing
-random_paper: 25
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Google Marketing Platform Rate Limits

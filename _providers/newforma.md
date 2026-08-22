@@ -186,7 +186,7 @@ overview: 'Newforma publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 118
+random_paper: 2
 scopes:
 - name: Newforma Scopes
   scope_count: 14

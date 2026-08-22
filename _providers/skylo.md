@@ -72,7 +72,7 @@ overview: 'Skylo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Skylo''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 115
+random_paper: 16
 score:
   band: minimal
   composite: 7.4

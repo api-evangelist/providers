@@ -73,7 +73,7 @@ overview: 'Capstack is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Capstack''s developer surface includes engineering blog, product news, and 5 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 9.0

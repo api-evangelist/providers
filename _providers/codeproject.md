@@ -238,7 +238,7 @@ plans:
 - name: Codeproject Plans Pricing
   plan_count: 3
   slug: codeproject-plans-pricing
-random_paper: 127
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Codeproject Rate Limits

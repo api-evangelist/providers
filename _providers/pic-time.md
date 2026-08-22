@@ -73,7 +73,7 @@ plans:
 - name: Pic Time Plans Pricing
   plan_count: 4
   slug: pic-time-plans-pricing
-random_paper: 47
+random_paper: 15
 score:
   band: emerging
   composite: 11.8

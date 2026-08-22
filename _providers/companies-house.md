@@ -595,7 +595,7 @@ plans:
 - name: Companies House Plans Pricing
   plan_count: 2
   slug: companies-house-plans-pricing
-random_paper: 62
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Companies House Rate Limits

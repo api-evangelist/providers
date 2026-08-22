@@ -80,7 +80,7 @@ overview: 'Uare.ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Uare.ai''s developer surface includes engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 80
+random_paper: 4
 score:
   band: emerging
   composite: 16.7

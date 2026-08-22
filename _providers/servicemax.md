@@ -88,7 +88,7 @@ overview: 'ServiceMax is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ServiceMax''s developer surface includes support, documentation, and 9 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: emerging
   composite: 14.5

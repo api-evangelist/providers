@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Corning Launches GlassWorks AI™ Solutions, a One-Stop ...
   url: https://investor.corning.com/news-and-events/news/news-details/2025/Corning-Launches-GlassWorks-AI-Solutions-a-One-Stop-Shop-for-AI-Data-Center-Infrastructure-Needs/default.aspx
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 9.4

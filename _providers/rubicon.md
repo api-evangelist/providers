@@ -62,7 +62,7 @@ overview: 'Rubicon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rubicon''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.5

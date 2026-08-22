@@ -49,7 +49,7 @@ name: Paytm Payments Bank
 nav: Providers
 network: true
 overview: Paytm Payments Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Banking, and India.
-random_paper: 1
+random_paper: 6
 score:
   band: minimal
   composite: 1.5

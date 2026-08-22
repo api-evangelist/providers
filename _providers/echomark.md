@@ -125,7 +125,7 @@ overview: 'EchoMark publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EchoMark''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 12 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: thin
   composite: 32.0

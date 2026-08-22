@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Accelerating innovation at Liberty Mutual Insurance | InsTech
   url: https://www.instech.co/knowledge-centre/accelerating-innovation-at-liberty-mutual-insurance/
-random_paper: 101
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Liberty Mutual Insurance Rate Limits

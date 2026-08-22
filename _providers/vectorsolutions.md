@@ -245,7 +245,7 @@ overview: 'Vector Solutions publishes 14 APIs on the [APIs.io](https://apis.io/)
 
 
   Vector Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 28
+random_paper: 8
 score:
   band: developing
   composite: 41.2

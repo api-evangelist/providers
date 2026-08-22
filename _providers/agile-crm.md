@@ -266,7 +266,7 @@ plans:
 - name: Agile Crm Plans Pricing
   plan_count: 4
   slug: agile-crm-plans-pricing
-random_paper: 136
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Agile Crm Rate Limits

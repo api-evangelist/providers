@@ -104,7 +104,7 @@ overview: 'LJ Hooker is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LJ Hooker''s developer surface includes engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 9.9

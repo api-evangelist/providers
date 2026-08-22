@@ -68,7 +68,7 @@ overview: 'Quris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Quris'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 117
+random_paper: 18
 score:
   band: minimal
   composite: 7.6

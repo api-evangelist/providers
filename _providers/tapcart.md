@@ -235,7 +235,7 @@ overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: strong
   composite: 55.1

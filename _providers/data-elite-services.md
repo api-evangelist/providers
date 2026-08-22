@@ -40,7 +40,7 @@ name: Data Elite Services
 nav: Providers
 network: true
 overview: Data Elite Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accelerator, Venture Lab, Big Data, and Data Science.
-random_paper: 111
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

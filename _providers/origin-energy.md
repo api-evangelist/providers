@@ -290,7 +290,7 @@ overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Origin Energy Rate Limits

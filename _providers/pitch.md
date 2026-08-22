@@ -96,7 +96,7 @@ overview: 'Pitch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pitch''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 16.9

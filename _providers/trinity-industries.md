@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: TrinityRail Enters Joint Venture to Transform North America's ...
   url: https://www.trin.net/investor/press-releases/news-details/2020/TrinityRail-Enters-Joint-Venture-to-Transform-North-Americas-Rail-Industry/default.aspx
-random_paper: 142
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

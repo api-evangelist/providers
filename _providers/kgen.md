@@ -117,7 +117,7 @@ overview: 'KGeN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   KGeN''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: emerging
   composite: 20.5

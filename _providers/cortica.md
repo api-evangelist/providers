@@ -76,7 +76,7 @@ name: Cortica
 nav: Providers
 network: true
 overview: Cortica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Machine Learning, and Autonomous Systems.
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 9.2

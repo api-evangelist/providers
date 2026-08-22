@@ -136,7 +136,7 @@ plans:
 - name: Brightside Health Plans Pricing
   plan_count: 0
   slug: brightside-health-plans-pricing
-random_paper: 97
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Brightside Health Rate Limits

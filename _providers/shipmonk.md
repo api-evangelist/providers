@@ -266,7 +266,7 @@ overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 128
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits

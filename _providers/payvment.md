@@ -49,7 +49,7 @@ name: Payvment
 nav: Providers
 network: true
 overview: Payvment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Commerce, Ecommerce, Payments, and Facebook Commerce.
-random_paper: 139
+random_paper: 2
 score:
   band: minimal
   composite: 1.5

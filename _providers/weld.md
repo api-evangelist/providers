@@ -252,7 +252,7 @@ overview: 'Weld publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weld''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 21 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: developing
   composite: 47.8

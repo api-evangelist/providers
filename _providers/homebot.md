@@ -135,7 +135,7 @@ overview: 'Homebot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Homebot''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: developing
   composite: 42.9

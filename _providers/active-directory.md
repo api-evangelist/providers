@@ -422,7 +422,7 @@ plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
   slug: active-directory-plans-pricing
-random_paper: 23
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Active Directory Rate Limits

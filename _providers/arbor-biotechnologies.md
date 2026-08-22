@@ -140,7 +140,7 @@ overview: 'Arbor Biotechnologies publishes 1 API on the [APIs.io](https://apis.i
 
 
   Arbor Biotechnologies'' developer surface includes engineering blog, support, and 22 more developer resources.'
-random_paper: 91
+random_paper: 14
 score:
   band: emerging
   composite: 18.8

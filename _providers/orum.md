@@ -283,7 +283,7 @@ overview: 'Orum publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orum''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 4
+random_paper: 10
 scopes:
 - name: Orum Scopes
   scope_count: 29

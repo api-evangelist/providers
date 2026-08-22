@@ -207,7 +207,7 @@ overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 25 more developer resources.'
-random_paper: 119
+random_paper: 15
 score:
   band: developing
   composite: 50.6

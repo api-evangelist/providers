@@ -96,7 +96,7 @@ overview: 'Zafran Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Zafran Security''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 85
+random_paper: 0
 score:
   band: emerging
   composite: 17.2

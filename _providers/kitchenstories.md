@@ -356,7 +356,7 @@ overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) 
 
 
   Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 16 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: thin
   composite: 33.6

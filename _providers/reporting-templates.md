@@ -89,7 +89,7 @@ overview: 'Reporting Templates is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The Reporting Templates catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 69
+random_paper: 11
 score:
   band: minimal
   composite: 7.8

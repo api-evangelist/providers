@@ -213,7 +213,7 @@ overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://api
 
 
   TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 17
 score:
   band: emerging
   composite: 22.9

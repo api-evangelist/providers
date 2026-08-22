@@ -81,7 +81,7 @@ plans:
 - name: Overture Maps Foundation Plans Pricing
   plan_count: 3
   slug: overture-maps-foundation-plans-pricing
-random_paper: 110
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Overture Maps Foundation Rate Limits

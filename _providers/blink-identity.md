@@ -64,7 +64,7 @@ overview: 'Blink Identity is profiled on the [APIs.io](https://apis.io/) network
 
 
   Blink Identity''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 106
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

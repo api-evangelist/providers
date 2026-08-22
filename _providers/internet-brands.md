@@ -76,7 +76,7 @@ overview: 'Internet Brands is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Internet Brands'' developer surface includes product news, engineering blog, support, and 5 more developer resources.'
-random_paper: 62
+random_paper: 19
 score:
   band: emerging
   composite: 11.2

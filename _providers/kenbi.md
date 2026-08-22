@@ -53,7 +53,7 @@ name: Kenbi
 nav: Providers
 network: true
 overview: Kenbi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Nursing, Education, and Training.
-random_paper: 74
+random_paper: 17
 score:
   band: minimal
   composite: 7.9

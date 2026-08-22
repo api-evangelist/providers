@@ -123,7 +123,7 @@ plans:
 - name: Ziff Davis Enterprise Plans Pricing
   plan_count: 0
   slug: ziff-davis-enterprise-plans-pricing
-random_paper: 59
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Ziff Davis Enterprise Rate Limits

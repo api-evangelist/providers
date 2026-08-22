@@ -49,7 +49,7 @@ name: venusmedtech
 nav: Providers
 network: true
 overview: venusmedtech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Structural Heart, and Cardiovascular.
-random_paper: 99
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

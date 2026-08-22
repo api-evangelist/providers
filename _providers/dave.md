@@ -86,7 +86,7 @@ overview: 'Dave is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dave''s developer surface includes signup flow, engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 118
+random_paper: 17
 score:
   band: emerging
   composite: 13.7

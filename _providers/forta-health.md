@@ -324,7 +324,7 @@ overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) net
 
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: thin
   composite: 36.1

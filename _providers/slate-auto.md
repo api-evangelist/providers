@@ -92,7 +92,7 @@ overview: 'Slate Auto is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Slate Auto''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 129
+random_paper: 15
 score:
   band: emerging
   composite: 13.3

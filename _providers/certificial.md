@@ -100,7 +100,7 @@ overview: 'Certificial publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Certificial''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 108
+random_paper: 17
 score:
   band: emerging
   composite: 22.6

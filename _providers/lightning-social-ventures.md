@@ -174,7 +174,7 @@ overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://a
 
 
   Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 19 more developer resources.'
-random_paper: 48
+random_paper: 19
 score:
   band: thin
   composite: 33.4

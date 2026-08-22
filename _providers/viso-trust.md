@@ -241,7 +241,7 @@ overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VISO Trust''s developer surface includes documentation, API reference, quickstart, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: developing
   composite: 49.5

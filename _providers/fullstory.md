@@ -289,7 +289,7 @@ plans:
 - name: Fullstory Plans Pricing
   plan_count: 1
   slug: fullstory-plans-pricing
-random_paper: 118
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Fullstory Rate Limits

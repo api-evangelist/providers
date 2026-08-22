@@ -68,7 +68,7 @@ overview: 'Venwiz is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Venwiz''s developer surface includes support, engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 79
+random_paper: 3
 score:
   band: emerging
   composite: 11.2

@@ -84,7 +84,7 @@ overview: 'LifeMine Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   LifeMine Therapeutics'' developer surface includes engineering blog, product news, and 8 more developer resources.'
-random_paper: 97
+random_paper: 20
 score:
   band: minimal
   composite: 7.4

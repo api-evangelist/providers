@@ -177,7 +177,7 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 16 more developer resources.'
-random_paper: 81
+random_paper: 2
 score:
   band: developing
   composite: 46.0

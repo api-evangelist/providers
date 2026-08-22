@@ -128,7 +128,7 @@ overview: 'Steno publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Steno''s developer surface includes documentation, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: thin
   composite: 26.2

@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: 'Hovnanian Enterprises : Q2 2026 Earnings Release'
   url: https://www.marketscreener.com/news/hovnanian-enterprises-q2-2026-earnings-release-ce7f5adedc81f423
-random_paper: 125
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

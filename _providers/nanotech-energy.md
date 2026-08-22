@@ -84,7 +84,7 @@ overview: 'Nanotech Energy is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Nanotech Energy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 53
+random_paper: 10
 score:
   band: minimal
   composite: 9.3

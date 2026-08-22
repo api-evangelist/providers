@@ -139,7 +139,7 @@ plans:
 - name: Google Cloud Talent Solution Plans Pricing
   plan_count: 3
   slug: google-cloud-talent-solution-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Cloud Talent Solution Rate Limits

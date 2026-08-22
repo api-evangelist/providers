@@ -436,7 +436,7 @@ overview: 'Finix publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Finix Rate Limits

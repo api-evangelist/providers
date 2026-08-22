@@ -40,7 +40,7 @@ name: TellApart (acquired by Twitter in 2015)
 nav: Providers
 network: true
 overview: TellApart (acquired by Twitter in 2015) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Advertising, Adtech, and Retargeting.
-random_paper: 34
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

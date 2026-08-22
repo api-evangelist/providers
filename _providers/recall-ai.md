@@ -121,7 +121,7 @@ plans:
 - name: Recall Ai Plans Pricing
   plan_count: 3
   slug: recall-ai-plans-pricing
-random_paper: 129
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Recall Ai Rate Limits

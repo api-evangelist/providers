@@ -88,7 +88,7 @@ overview: 'AWST is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AWST''s developer surface includes pricing, engineering blog, support, signup flow, YouTube channel, and 6 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: emerging
   composite: 13.3

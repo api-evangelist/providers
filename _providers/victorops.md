@@ -107,7 +107,7 @@ overview: 'Splunk On-Call (VictorOps) publishes 2 APIs on the [APIs.io](https://
 
 
   Splunk On-Call (VictorOps)''s developer surface includes documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 107
+random_paper: 14
 score:
   band: thin
   composite: 27.3

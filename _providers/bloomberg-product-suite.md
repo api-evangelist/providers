@@ -104,7 +104,7 @@ plans:
 - name: Bloomberg Product Suite Plans Pricing
   plan_count: 3
   slug: bloomberg-product-suite-plans-pricing
-random_paper: 131
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Bloomberg Product Suite Rate Limits

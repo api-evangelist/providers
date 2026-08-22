@@ -186,7 +186,7 @@ overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Workstream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 60
+random_paper: 11
 scopes:
 - name: Workstream Scopes
   scope_count: 10

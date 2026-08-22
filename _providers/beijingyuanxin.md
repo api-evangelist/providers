@@ -49,7 +49,7 @@ name: beijingyuanxin
 nav: Providers
 network: true
 overview: beijingyuanxin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beijing, China, Portfolio, and Qiming.
-random_paper: 18
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

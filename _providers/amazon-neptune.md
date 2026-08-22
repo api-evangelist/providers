@@ -2141,7 +2141,7 @@ plans:
 - name: Amazon Neptune Plans Pricing
   plan_count: 4
   slug: amazon-neptune-plans-pricing
-random_paper: 117
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Amazon Neptune Rate Limits

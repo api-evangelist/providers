@@ -125,7 +125,7 @@ plans:
 - name: Autodesk Powermill Plans Pricing
   plan_count: 3
   slug: autodesk-powermill-plans-pricing
-random_paper: 108
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Autodesk Powermill Rate Limits

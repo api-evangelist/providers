@@ -49,7 +49,7 @@ name: Metsera *
 nav: Providers
 network: true
 overview: Metsera * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biopharmaceutical, Pharmaceuticals, and Obesity.
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

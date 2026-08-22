@@ -212,7 +212,7 @@ overview: 'TruVideo publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   TruVideo''s developer surface includes authentication, sandbox, documentation, pricing, support, and 18 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: developing
   composite: 40.4

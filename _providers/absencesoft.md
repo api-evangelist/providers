@@ -124,7 +124,7 @@ overview: 'AbsenceSoft publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   AbsenceSoft''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 122
+random_paper: 10
 score:
   band: thin
   composite: 39.0

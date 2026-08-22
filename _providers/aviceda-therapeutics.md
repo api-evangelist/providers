@@ -87,7 +87,7 @@ overview: 'Aviceda Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Aviceda Therapeutics'' developer surface includes product news and 9 more developer resources.'
-random_paper: 122
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

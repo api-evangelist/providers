@@ -148,7 +148,7 @@ overview: 'Passbase publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Passbase''s developer surface includes authentication and 16 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: thin
   composite: 31.8

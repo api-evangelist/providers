@@ -57,7 +57,7 @@ name: National Security Agency
 nav: Providers
 network: true
 overview: National Security Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Intelligence, and Security.
-random_paper: 79
+random_paper: 6
 score:
   band: minimal
   composite: 3.6

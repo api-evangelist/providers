@@ -254,7 +254,7 @@ plans:
 - name: Kickbox Plans Pricing
   plan_count: 13
   slug: kickbox-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Kickbox Rate Limits

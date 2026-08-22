@@ -80,7 +80,7 @@ overview: 'BrightHire is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BrightHire''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: emerging
   composite: 17.4

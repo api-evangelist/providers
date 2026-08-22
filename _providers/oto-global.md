@@ -297,7 +297,7 @@ overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 114
+random_paper: 0
 score:
   band: developing
   composite: 52.5

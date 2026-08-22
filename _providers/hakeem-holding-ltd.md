@@ -65,7 +65,7 @@ name: HAKEEM HOLDING LTD
 nav: Providers
 network: true
 overview: HAKEEM HOLDING LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, HealthTech, Clinical Decision Support, and Medical Education.
-random_paper: 135
+random_paper: 10
 score:
   band: minimal
   composite: 9.0

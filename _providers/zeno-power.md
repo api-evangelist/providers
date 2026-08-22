@@ -52,7 +52,7 @@ overview: 'Zeno Power is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zeno Power''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 2.6

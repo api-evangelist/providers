@@ -84,7 +84,7 @@ overview: 'Scopio, Scopio LLC is profiled on the [APIs.io](https://apis.io/) net
 
 
   Scopio, Scopio LLC''s developer surface includes signup flow, pricing, support, getting-started guide, and 6 more developer resources.'
-random_paper: 72
+random_paper: 10
 score:
   band: emerging
   composite: 17.3

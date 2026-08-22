@@ -181,7 +181,7 @@ plans:
 - name: Segmentstream Plans Pricing
   plan_count: 3
   slug: segmentstream-plans-pricing
-random_paper: 66
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Segmentstream Rate Limits

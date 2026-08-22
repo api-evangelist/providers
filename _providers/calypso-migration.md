@@ -81,7 +81,7 @@ plans:
 - name: Calypso Migration Plans Pricing
   plan_count: 3
   slug: calypso-migration-plans-pricing
-random_paper: 139
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Calypso Migration Rate Limits

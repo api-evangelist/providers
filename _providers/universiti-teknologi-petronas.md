@@ -97,7 +97,7 @@ plans:
 - name: Universiti Teknologi Petronas Plans Pricing
   plan_count: 2
   slug: universiti-teknologi-petronas-plans-pricing
-random_paper: 64
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Universiti Teknologi Petronas Rate Limits

@@ -166,7 +166,7 @@ plans:
 - name: Ciloo Plans Pricing
   plan_count: 0
   slug: ciloo-plans-pricing
-random_paper: 87
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Ciloo Rate Limits

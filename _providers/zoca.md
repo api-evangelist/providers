@@ -187,7 +187,7 @@ plans:
 - name: Zoca Plans Pricing
   plan_count: 3
   slug: zoca-plans-pricing
-random_paper: 131
+random_paper: 9
 rate_limits:
 - limit_count: 11
   name: Zoca Rate Limits

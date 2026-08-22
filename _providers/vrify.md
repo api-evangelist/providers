@@ -194,7 +194,7 @@ overview: 'VRIFY is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   VRIFY''s developer surface includes documentation, getting-started guide, support, pricing, changelog, authentication, legal docs, and 29 more developer resources.'
-random_paper: 113
+random_paper: 14
 score:
   band: thin
   composite: 28.7

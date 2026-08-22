@@ -40,7 +40,7 @@ name: Run The World
 nav: Providers
 network: true
 overview: Run The World is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 112
+random_paper: 2
 score:
   band: minimal
   composite: 3.2

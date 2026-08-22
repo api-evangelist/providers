@@ -53,7 +53,7 @@ name: Seek AI
 nav: Providers
 network: true
 overview: Seek AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Data Analytics, and Natural Language Query.
-random_paper: 75
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

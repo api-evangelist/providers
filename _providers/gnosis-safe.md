@@ -611,7 +611,7 @@ plans:
 - name: Gnosis Safe Plans Pricing
   plan_count: 4
   slug: gnosis-safe-plans-pricing
-random_paper: 76
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Gnosis Safe Rate Limits

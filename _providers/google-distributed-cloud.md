@@ -188,7 +188,7 @@ plans:
 - name: Google Distributed Cloud Plans Pricing
   plan_count: 3
   slug: google-distributed-cloud-plans-pricing
-random_paper: 65
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Distributed Cloud Rate Limits

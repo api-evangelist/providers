@@ -56,7 +56,7 @@ overview: 'Epic! Creations is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Epic! Creations'' developer surface includes pricing and 2 more developer resources.'
-random_paper: 89
+random_paper: 2
 score:
   band: minimal
   composite: 4.6

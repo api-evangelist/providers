@@ -233,7 +233,7 @@ plans:
 - name: Cruz Foam Plans Pricing
   plan_count: 0
   slug: cruz-foam-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Cruz Foam Rate Limits

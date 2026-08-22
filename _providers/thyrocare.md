@@ -80,7 +80,7 @@ overview: 'Thyrocare publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Thyrocare''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: emerging
   composite: 11.4

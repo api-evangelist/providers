@@ -210,7 +210,7 @@ plans:
 - name: Vendia Plans
   plan_count: 3
   slug: vendia-plans
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Vendia Rate Limits

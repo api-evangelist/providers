@@ -221,7 +221,7 @@ overview: 'Moneris publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 26 more developer resources.'
-random_paper: 20
+random_paper: 9
 scopes:
 - name: Moneris Scopes
   scope_count: 14

@@ -68,7 +68,7 @@ overview: 'Inviscid AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Inviscid AI''s developer surface includes support and 5 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

@@ -152,7 +152,7 @@ overview: 'Aerin Medical publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Aerin Medical''s developer surface includes engineering blog, product news, support, documentation, authentication, and 22 more developer resources.'
-random_paper: 99
+random_paper: 10
 score:
   band: developing
   composite: 41.9

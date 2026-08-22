@@ -332,7 +332,7 @@ overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 84
+random_paper: 6
 scopes:
 - name: Canix Scopes
   scope_count: 1

@@ -222,7 +222,7 @@ overview: 'Lucid publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lucid''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 82
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Lucid Rate Limits

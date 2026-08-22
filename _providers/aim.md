@@ -40,7 +40,7 @@ name: AIM
 nav: Providers
 network: true
 overview: AIM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Startup, and General Catalyst Portfolio.
-random_paper: 13
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

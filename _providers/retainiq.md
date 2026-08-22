@@ -120,7 +120,7 @@ plans:
 - name: Retainiq Plans Pricing
   plan_count: 2
   slug: retainiq-plans-pricing
-random_paper: 116
+random_paper: 0
 score:
   band: emerging
   composite: 16.2

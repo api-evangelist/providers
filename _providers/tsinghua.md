@@ -127,7 +127,7 @@ plans:
 - name: Tsinghua Plans Pricing
   plan_count: 2
   slug: tsinghua-plans-pricing
-random_paper: 122
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Tsinghua Rate Limits

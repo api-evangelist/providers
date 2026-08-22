@@ -169,7 +169,7 @@ overview: 'Apptentive publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 17 more developer resources.'
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Apptentive Rate Limits

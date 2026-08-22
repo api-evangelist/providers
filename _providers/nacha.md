@@ -293,7 +293,7 @@ overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
-random_paper: 60
+random_paper: 3
 score:
   band: thin
   composite: 38.7

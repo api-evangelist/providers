@@ -142,7 +142,7 @@ plans:
 - name: Carvana Plans Pricing
   plan_count: 3
   slug: carvana-plans-pricing
-random_paper: 136
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Carvana Rate Limits

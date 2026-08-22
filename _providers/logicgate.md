@@ -247,7 +247,7 @@ overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: developing
   composite: 47.4

@@ -49,7 +49,7 @@ name: Your Super
 nav: Providers
 network: true
 overview: Your Super is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Superfoods, Consumer Packaged Goods, Direct to Consumer, and E-commerce.
-random_paper: 116
+random_paper: 10
 score:
   band: minimal
   composite: 2.2

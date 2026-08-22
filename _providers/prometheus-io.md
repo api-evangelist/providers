@@ -376,7 +376,7 @@ overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Prometheus'' developer surface includes developer portal, documentation, changelog, engineering blog, tooling, and 37 more developer resources.'
-random_paper: 20
+random_paper: 17
 rules:
 - effective_rule_count: 6
   extends: []

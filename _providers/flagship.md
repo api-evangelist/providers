@@ -49,7 +49,7 @@ name: Flagship
 nav: Providers
 network: true
 overview: Flagship is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Shopping, and Consumer.
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

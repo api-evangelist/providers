@@ -56,7 +56,7 @@ overview: 'Mirana Toys is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Mirana Toys'' developer surface includes support and 2 more developer resources.'
-random_paper: 97
+random_paper: 6
 score:
   band: minimal
   composite: 6.3

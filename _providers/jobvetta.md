@@ -57,7 +57,7 @@ overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Jobvetta''s developer surface includes documentation, signup flow, and 1 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

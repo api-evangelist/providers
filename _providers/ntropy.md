@@ -322,7 +322,7 @@ plans:
 - name: Ntropy Plans Pricing
   plan_count: 0
   slug: ntropy-plans-pricing
-random_paper: 88
+random_paper: 12
 rate_limits:
 - limit_count: 24
   name: Ntropy Rate Limits

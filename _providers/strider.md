@@ -134,7 +134,7 @@ overview: 'Strider publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Strider''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: emerging
   composite: 25.0

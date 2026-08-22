@@ -124,7 +124,7 @@ plans:
 - name: Sentilink Plans Pricing
   plan_count: 2
   slug: sentilink-plans-pricing
-random_paper: 83
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Sentilink Rate Limits

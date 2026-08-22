@@ -68,7 +68,7 @@ overview: 'Higharc is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Higharc''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 130
+random_paper: 12
 score:
   band: minimal
   composite: 9.8

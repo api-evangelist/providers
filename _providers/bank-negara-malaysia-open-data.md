@@ -61,7 +61,7 @@ name: Bank Negara Malaysia Open Data
 nav: Providers
 network: true
 overview: Bank Negara Malaysia Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 76
+random_paper: 9
 score:
   band: minimal
   composite: 5.8

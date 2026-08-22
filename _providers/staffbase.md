@@ -177,7 +177,7 @@ overview: 'Staffbase publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Staffbase''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: thin
   composite: 38.7

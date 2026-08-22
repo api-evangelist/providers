@@ -68,7 +68,7 @@ overview: 'Picnic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Picnic''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 12.8

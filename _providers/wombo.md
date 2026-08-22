@@ -174,7 +174,7 @@ overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 101
+random_paper: 2
 score:
   band: thin
   composite: 31.6

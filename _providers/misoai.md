@@ -230,7 +230,7 @@ overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 22 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: thin
   composite: 39.0

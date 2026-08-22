@@ -72,7 +72,7 @@ overview: 'Xalts is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xalts'' developer surface includes support and 6 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: minimal
   composite: 8.9

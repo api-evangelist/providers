@@ -68,7 +68,7 @@ overview: 'Grain is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Grain''s developer surface includes support and 5 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 6.0

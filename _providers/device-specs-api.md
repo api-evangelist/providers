@@ -200,7 +200,7 @@ plans:
 - name: Device Specs Api Plans
   plan_count: 4
   slug: device-specs-api-plans
-random_paper: 80
+random_paper: 16
 rate_limits:
 - limit_count: 9
   name: Device Specs Api Rate Limits

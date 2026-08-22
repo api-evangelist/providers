@@ -49,7 +49,7 @@ name: Velocity
 nav: Providers
 network: true
 overview: Velocity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, SRE, Incident Management, and Developer Environments.
-random_paper: 134
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

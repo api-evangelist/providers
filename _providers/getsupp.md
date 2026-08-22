@@ -40,7 +40,7 @@ name: Getsupp
 nav: Providers
 network: true
 overview: Getsupp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Wellness, Nutrition, and Supplements.
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

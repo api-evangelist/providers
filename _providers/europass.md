@@ -60,7 +60,7 @@ overview: 'Europass is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Europass'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: minimal
   composite: 3.0

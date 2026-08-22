@@ -80,7 +80,7 @@ overview: 'Faro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Faro''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: emerging
   composite: 16.1

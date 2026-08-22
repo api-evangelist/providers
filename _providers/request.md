@@ -168,7 +168,7 @@ overview: 'Request Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Request Rate Limits

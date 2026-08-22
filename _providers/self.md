@@ -84,7 +84,7 @@ overview: 'Self is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Self''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 128
+random_paper: 6
 score:
   band: emerging
   composite: 17.0

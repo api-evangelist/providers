@@ -367,7 +367,7 @@ plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 83
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits

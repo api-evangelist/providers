@@ -223,7 +223,7 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: thin
   composite: 38.6

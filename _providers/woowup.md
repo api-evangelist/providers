@@ -175,7 +175,7 @@ plans:
 - name: Woowup Plans Pricing
   plan_count: 4
   slug: woowup-plans-pricing
-random_paper: 93
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Woowup Rate Limits

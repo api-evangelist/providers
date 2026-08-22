@@ -127,7 +127,7 @@ plans:
 - name: Replyrai Plans Pricing
   plan_count: 0
   slug: replyrai-plans-pricing
-random_paper: 127
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Replyrai Rate Limits

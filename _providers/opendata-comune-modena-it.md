@@ -85,7 +85,7 @@ plans:
 - name: Opendata Comune Modena It Plans Pricing
   plan_count: 1
   slug: opendata-comune-modena-it-plans-pricing
-random_paper: 91
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Opendata Comune Modena It Rate Limits

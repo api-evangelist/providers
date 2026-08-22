@@ -91,7 +91,7 @@ name: Mighty Buildings
 nav: Providers
 network: true
 overview: Mighty Buildings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Contech, and 3D Printing.
-random_paper: 25
+random_paper: 5
 score:
   band: minimal
   composite: 7.4

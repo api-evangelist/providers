@@ -123,7 +123,7 @@ plans:
 - name: Lovo Ai Plans Pricing
   plan_count: 5
   slug: lovo-ai-plans-pricing
-random_paper: 99
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Lovo Ai Rate Limits

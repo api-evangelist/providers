@@ -120,7 +120,7 @@ plans:
 - name: Netflix Conductor Plans Pricing
   plan_count: 3
   slug: netflix-conductor-plans-pricing
-random_paper: 145
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Netflix Conductor Rate Limits

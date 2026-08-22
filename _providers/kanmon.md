@@ -261,7 +261,7 @@ overview: 'Kanmon publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kanmon''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 21 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: developing
   composite: 40.8

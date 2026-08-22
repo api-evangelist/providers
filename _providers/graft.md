@@ -53,7 +53,7 @@ name: Graft
 nav: Providers
 network: true
 overview: Graft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Machine Learning, Foundation Models, and LLM.
-random_paper: 85
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

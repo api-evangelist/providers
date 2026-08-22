@@ -250,7 +250,7 @@ overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 25 more developer resources.'
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Qubiqle Rate Limits

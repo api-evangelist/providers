@@ -72,7 +72,7 @@ overview: 'The Modern Milkman is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Modern Milkman''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 16
 score:
   band: minimal
   composite: 10.4

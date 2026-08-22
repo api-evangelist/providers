@@ -85,7 +85,7 @@ plans:
 - name: Data Nt Gov Au Plans Pricing
   plan_count: 1
   slug: data-nt-gov-au-plans-pricing
-random_paper: 125
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Data Nt Gov Au Rate Limits

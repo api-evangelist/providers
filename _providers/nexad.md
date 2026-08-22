@@ -212,7 +212,7 @@ plans:
 - name: Nexad Plans Pricing
   plan_count: 4
   slug: nexad-plans-pricing
-random_paper: 81
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Nexad Rate Limits

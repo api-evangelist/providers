@@ -215,7 +215,7 @@ press:
 - date: '2026-05-25'
   title: Ciena Solidifies AI Networking Leadership, Unveils New ...
   url: https://www.ciena.com/about/newsroom/press-releases/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-for-high-speed-connectivity
-random_paper: 65
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Ciena Rate Limits

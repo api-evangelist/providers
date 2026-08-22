@@ -423,7 +423,7 @@ plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
   slug: musicbrainz-plans-pricing
-random_paper: 148
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Musicbrainz Rate Limits

@@ -222,7 +222,7 @@ plans:
 - name: Digitail Plans Pricing
   plan_count: 4
   slug: digitail-plans-pricing
-random_paper: 94
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Digitail Rate Limits

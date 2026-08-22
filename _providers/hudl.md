@@ -158,7 +158,7 @@ overview: 'Hudl is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hudl''s developer surface includes changelog, engineering blog, support, GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: minimal
   composite: 8.7

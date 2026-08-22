@@ -109,7 +109,7 @@ overview: 'AlternativeTo is profiled on the [APIs.io](https://apis.io/) network.
 
 
   AlternativeTo''s developer surface includes FAQ, product news, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 69
+random_paper: 3
 score:
   band: emerging
   composite: 12.1

@@ -68,7 +68,7 @@ overview: 'Ayenda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ayenda''s developer surface includes support and 5 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 10.9

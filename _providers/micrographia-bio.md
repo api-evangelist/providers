@@ -49,7 +49,7 @@ name: Micrographia Bio
 nav: Providers
 network: true
 overview: Micrographia Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, and Startup.
-random_paper: 139
+random_paper: 12
 score:
   band: minimal
   composite: 1.5

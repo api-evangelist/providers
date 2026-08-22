@@ -115,7 +115,7 @@ overview: 'DataVisor publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   DataVisor''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 79
+random_paper: 7
 score:
   band: emerging
   composite: 22.8

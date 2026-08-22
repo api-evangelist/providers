@@ -273,7 +273,7 @@ overview: 'Sheeva publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sheeva''s developer surface includes documentation, API reference, engineering blog, support, signup flow, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 47.9

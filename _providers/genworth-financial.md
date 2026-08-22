@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Genworth Financial Announces First Quarter 2026 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1056/genworth-financial-announces-first-quarter-2026-results
-random_paper: 68
+random_paper: 8
 score:
   band: minimal
   composite: 1.8

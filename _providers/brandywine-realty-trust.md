@@ -112,7 +112,7 @@ overview: 'Brandywine Realty Trust is profiled on the [APIs.io](https://apis.io/
 
 
   Brandywine Realty Trust''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 16
+random_paper: 6
 rules:
 - effective_rule_count: 5
   extends: []

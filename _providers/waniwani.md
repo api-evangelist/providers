@@ -185,7 +185,7 @@ overview: 'Waniwani publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Waniwani''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
-random_paper: 117
+random_paper: 1
 scopes:
 - name: Waniwani Scopes
   scope_count: 25

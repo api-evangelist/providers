@@ -40,7 +40,7 @@ name: Heartport
 nav: Providers
 network: true
 overview: Heartport is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 91
+random_paper: 19
 score:
   band: minimal
   composite: 1.3

@@ -58,7 +58,7 @@ name: Bzaar
 nav: Providers
 network: true
 overview: Bzaar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Marketplace, Wholesale, and E-Commerce.
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

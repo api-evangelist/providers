@@ -101,7 +101,7 @@ overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Qwak''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 8 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: emerging
   composite: 15.3

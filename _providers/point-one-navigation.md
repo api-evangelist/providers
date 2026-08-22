@@ -177,7 +177,7 @@ overview: 'Point One Navigation publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 101
+random_paper: 1
 score:
   band: thin
   composite: 35.4

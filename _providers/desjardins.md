@@ -84,7 +84,7 @@ overview: 'Desjardins Group is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Desjardins Group''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: emerging
   composite: 11.9

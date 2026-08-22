@@ -49,7 +49,7 @@ name: PACT Pharma
 nav: Providers
 network: true
 overview: PACT Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Cell Therapy, and Immunotherapy.
-random_paper: 59
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

@@ -186,7 +186,7 @@ overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 80
+random_paper: 8
 score:
   band: developing
   composite: 46.4

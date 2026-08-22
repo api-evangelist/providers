@@ -40,7 +40,7 @@ name: Space Monkey *
 nav: Providers
 network: true
 overview: Space Monkey * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Frontier Tech.
-random_paper: 36
+random_paper: 10
 score:
   band: minimal
   composite: 4.1

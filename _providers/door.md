@@ -221,7 +221,7 @@ overview: 'Door publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Door''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: developing
   composite: 44.7

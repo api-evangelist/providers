@@ -202,7 +202,7 @@ overview: 'CLEAR publishes 1 API on the [APIs.io](https://apis.io/) network: Ver
 
 
   CLEAR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
-random_paper: 72
+random_paper: 15
 scopes:
 - name: Clear Scopes
   scope_count: 3

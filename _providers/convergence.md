@@ -68,7 +68,7 @@ overview: 'convergence is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   convergence''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 124
+random_paper: 12
 score:
   band: minimal
   composite: 8.7

@@ -75,7 +75,7 @@ name: Nas Academy
 nav: Providers
 network: true
 overview: 'Nas Academy publishes 2 APIs on the [APIs.io](https://apis.io/) network: AI discovery API and Developer discovery API. Tagged areas include Company.'
-random_paper: 48
+random_paper: 20
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6

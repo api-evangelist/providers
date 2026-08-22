@@ -212,7 +212,7 @@ overview: 'Syndicate publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syndicate''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 70
+random_paper: 19
 score:
   band: developing
   composite: 47.3

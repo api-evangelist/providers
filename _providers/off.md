@@ -49,7 +49,7 @@ name: 'OFF'
 nav: Providers
 network: true
 overview: OFF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Image Generation.
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: mucho
 nav: Providers
 network: true
 overview: mucho is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Commerce, E-Commerce, Group Buying, and Retail.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

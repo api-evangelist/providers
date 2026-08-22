@@ -49,7 +49,7 @@ name: Trisk Bio
 nav: Providers
 network: true
 overview: Trisk Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Biotechnology, Gene Therapy, and AAV Manufacturing.
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

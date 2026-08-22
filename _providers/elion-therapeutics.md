@@ -62,7 +62,7 @@ name: Elion Therapeutics
 nav: Providers
 network: true
 overview: Elion Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Life Sciences.
-random_paper: 89
+random_paper: 8
 score:
   band: minimal
   composite: 3.7

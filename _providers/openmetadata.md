@@ -782,7 +782,7 @@ plans:
 - name: Openmetadata Plans Pricing
   plan_count: 5
   slug: openmetadata-plans-pricing
-random_paper: 75
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Openmetadata Rate Limits

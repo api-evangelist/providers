@@ -84,7 +84,7 @@ overview: 'TRDATA is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   TRDATA''s developer surface includes pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: emerging
   composite: 11.0

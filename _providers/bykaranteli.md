@@ -191,7 +191,7 @@ plans:
 - name: Bykaranteli Plans
   plan_count: 5
   slug: bykaranteli-plans
-random_paper: 131
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Bykaranteli Rate Limits

@@ -57,7 +57,7 @@ name: Remora
 nav: Providers
 network: true
 overview: Remora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Capture, Climate Tech, Transportation, and Emissions.
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

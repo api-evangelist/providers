@@ -80,7 +80,7 @@ overview: 'Frame Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Frame Security''s developer surface includes pricing, support, and 7 more developer resources.'
-random_paper: 115
+random_paper: 7
 score:
   band: emerging
   composite: 16.7

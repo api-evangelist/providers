@@ -167,7 +167,7 @@ plans:
 - name: Betterstack Plans Pricing
   plan_count: 3
   slug: betterstack-plans-pricing
-random_paper: 137
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Betterstack Rate Limits

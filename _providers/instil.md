@@ -130,7 +130,7 @@ plans:
 - name: Instil Plans Pricing
   plan_count: 0
   slug: instil-plans-pricing
-random_paper: 63
+random_paper: 8
 score:
   band: emerging
   composite: 13.1

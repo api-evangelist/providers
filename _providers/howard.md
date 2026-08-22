@@ -40,7 +40,7 @@ name: Howard
 nav: Providers
 network: true
 overview: Howard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Commercial Real Estate, and Flexible Workspace.
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

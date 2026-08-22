@@ -82,7 +82,7 @@ name: Doxel
 nav: Providers
 network: true
 overview: Doxel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Construction Technology, ConTech, AI, and Computer Vision.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 4.6

@@ -124,7 +124,7 @@ overview: 'Geneoscopy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Geneoscopy''s developer surface includes engineering blog and 21 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: emerging
   composite: 12.8

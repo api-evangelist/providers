@@ -40,7 +40,7 @@ name: Primus Senior Living
 nav: Providers
 network: true
 overview: Primus Senior Living is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Senior Living, Assisted Living, Elder Care, and Healthcare.
-random_paper: 130
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

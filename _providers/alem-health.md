@@ -72,7 +72,7 @@ overview: 'Alem Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Alem Health''s developer surface includes pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 7.9

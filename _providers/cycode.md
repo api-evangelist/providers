@@ -145,7 +145,7 @@ overview: 'Cycode publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cycode''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: thin
   composite: 29.9

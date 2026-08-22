@@ -190,7 +190,7 @@ overview: 'Shapeshift publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: developing
   composite: 45.7

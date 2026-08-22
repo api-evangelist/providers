@@ -51,7 +51,7 @@ name: Drone Capital I
 nav: Providers
 network: true
 overview: Drone Capital I is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, a16z, Portfolio Company, Venture Backed, and Investment Vehicle.
-random_paper: 124
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

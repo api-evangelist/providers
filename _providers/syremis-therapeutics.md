@@ -49,7 +49,7 @@ name: Syremis Therapeutics
 nav: Providers
 network: true
 overview: Syremis Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Mental Health.
-random_paper: 36
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

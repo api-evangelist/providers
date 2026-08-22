@@ -92,7 +92,7 @@ overview: 'Fastshot is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fastshot''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: emerging
   composite: 12.9

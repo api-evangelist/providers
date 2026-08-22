@@ -130,7 +130,7 @@ plans:
 - name: Central Intelligence Agency Plans Pricing
   plan_count: 3
   slug: central-intelligence-agency-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Central Intelligence Agency Rate Limits

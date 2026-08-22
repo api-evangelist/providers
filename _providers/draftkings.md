@@ -77,7 +77,7 @@ name: DraftKings
 nav: Providers
 network: true
 overview: DraftKings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Daily Fantasy Sports, Gaming, iGaming, Online Casino, and Sports Betting.
-random_paper: 26
+random_paper: 19
 score:
   band: minimal
   composite: 6.9

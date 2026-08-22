@@ -65,7 +65,7 @@ name: lovecrafts
 nav: Providers
 network: true
 overview: lovecrafts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crafts, E-Commerce, Retail, and Marketplace.
-random_paper: 38
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

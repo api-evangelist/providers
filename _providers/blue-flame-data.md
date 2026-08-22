@@ -40,7 +40,7 @@ name: Blue Flame Data
 nav: Providers
 network: true
 overview: Blue Flame Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Consumer Insights, Market Research, and Data.
-random_paper: 100
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: District
 nav: Providers
 network: true
 overview: District is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 3.2

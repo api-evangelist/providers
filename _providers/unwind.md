@@ -61,7 +61,7 @@ name: Unwind Me
 nav: Providers
 network: true
 overview: Unwind Me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Massage, Wellness, On-Demand Services, and Consumer.
-random_paper: 65
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

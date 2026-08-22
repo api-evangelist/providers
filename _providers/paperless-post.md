@@ -131,7 +131,7 @@ overview: 'Paperless Post publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Paperless Post''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 133
+random_paper: 4
 scopes:
 - name: Paperless Post Scopes
   scope_count: 4

@@ -303,7 +303,7 @@ plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 35
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits

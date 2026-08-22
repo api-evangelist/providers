@@ -108,7 +108,7 @@ overview: 'Built is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Built''s developer surface includes documentation, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: emerging
   composite: 17.1

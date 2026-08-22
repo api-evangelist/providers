@@ -116,7 +116,7 @@ overview: 'Vecna Robotics publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vecna Robotics'' developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 98
+random_paper: 11
 scopes:
 - name: Vecna Robotics Scopes
   scope_count: 36

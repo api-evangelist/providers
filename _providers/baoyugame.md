@@ -49,7 +49,7 @@ name: baoyugame
 nav: Providers
 network: true
 overview: baoyugame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Game Development, Mobile Games, and Web Games.
-random_paper: 60
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

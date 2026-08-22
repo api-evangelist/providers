@@ -372,7 +372,7 @@ plans:
 - name: Treasure Data Plans Pricing
   plan_count: 3
   slug: treasure-data-plans-pricing
-random_paper: 138
+random_paper: 7
 rate_limits:
 - limit_count: 17
   name: Treasure Data Rate Limits

@@ -60,7 +60,7 @@ overview: 'Happy World is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Happy World''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 100
+random_paper: 9
 score:
   band: minimal
   composite: 8.8

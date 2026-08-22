@@ -109,7 +109,7 @@ overview: 'Bitwise Investments publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Bitwise Investments'' developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 83
+random_paper: 4
 score:
   band: emerging
   composite: 24.8

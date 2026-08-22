@@ -102,7 +102,7 @@ plans:
 - name: Bloomberg Financial Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-financial-solutions-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Bloomberg Financial Solutions Rate Limits

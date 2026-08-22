@@ -242,7 +242,7 @@ plans:
 - name: Rb2B Plans Pricing
   plan_count: 5
   slug: rb2b-plans-pricing
-random_paper: 62
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Rb2B Rate Limits

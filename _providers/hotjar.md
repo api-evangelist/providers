@@ -202,7 +202,7 @@ plans:
 - name: Hotjar Plans Pricing
   plan_count: 6
   slug: hotjar-plans-pricing
-random_paper: 52
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Hotjar Rate Limits

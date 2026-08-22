@@ -146,7 +146,7 @@ overview: 'Cerebelly publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cerebelly''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 57
+random_paper: 6
 scopes:
 - name: Cerebelly Scopes
   scope_count: 0

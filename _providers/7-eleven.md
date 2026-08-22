@@ -109,7 +109,7 @@ plans:
 - name: 7 Eleven Plans Pricing
   plan_count: 1
   slug: 7-eleven-plans-pricing
-random_paper: 143
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: 7 Eleven Rate Limits

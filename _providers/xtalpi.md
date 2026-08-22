@@ -141,7 +141,7 @@ overview: 'XtalPi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   XtalPi''s developer surface includes product news, GitHub presence, and 22 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: minimal
   composite: 4.0

@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: DSW partners with Marketing Evolution on AI-powered ...
   url: https://www.marketingdive.com/news/dsw-partners-with-marketing-evolution-on-ai-powered-personalization-strateg/517594/
-random_paper: 36
+random_paper: 19
 score:
   band: minimal
   composite: 2.6

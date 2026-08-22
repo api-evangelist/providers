@@ -76,7 +76,7 @@ overview: 'Cleverdeck is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cleverdeck''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
   composite: 11.8

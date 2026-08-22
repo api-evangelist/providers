@@ -283,7 +283,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 82
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []

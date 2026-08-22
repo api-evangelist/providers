@@ -40,7 +40,7 @@ name: Talaria Technologies
 nav: Providers
 network: true
 overview: Talaria Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Web Application Server, PHP, and JIT Compiler.
-random_paper: 126
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

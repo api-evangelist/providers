@@ -126,7 +126,7 @@ overview: 'Anitian publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Anitian''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 12 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: thin
   composite: 26.9

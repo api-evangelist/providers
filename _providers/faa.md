@@ -298,7 +298,7 @@ plans:
 - name: Faa Plans
   plan_count: 5
   slug: faa-plans
-random_paper: 147
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Faa Rate Limits

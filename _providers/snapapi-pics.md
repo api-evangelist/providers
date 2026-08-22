@@ -163,7 +163,7 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SnapAPI''s developer surface includes documentation, API reference, signup flow, pricing, changelog, engineering blog, and 3 more developer resources.'
-random_paper: 32
+random_paper: 6
 score:
   band: thin
   composite: 34.8

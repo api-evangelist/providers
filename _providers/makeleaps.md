@@ -125,7 +125,7 @@ overview: 'MakeLeaps publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   MakeLeaps'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 53
+random_paper: 2
 score:
   band: thin
   composite: 28.4

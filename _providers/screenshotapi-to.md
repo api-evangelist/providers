@@ -41,7 +41,7 @@ name: ScreenshotAPI
 nav: Providers
 network: true
 overview: 'ScreenshotAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Screenshots API. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.'
-random_paper: 33
+random_paper: 13
 score:
   band: emerging
   composite: 22.4

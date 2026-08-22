@@ -76,7 +76,7 @@ overview: 'Warbler Labs Incorporated is profiled on the [APIs.io](https://apis.i
 
 
   Warbler Labs Incorporated''s developer surface includes documentation, getting-started guide, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
   composite: 12.7

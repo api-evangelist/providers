@@ -231,7 +231,7 @@ overview: 'Reliance Jio publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 33 more developer resources.'
-random_paper: 10
+random_paper: 5
 scopes:
 - name: Reliance Jio Scopes
   scope_count: 6

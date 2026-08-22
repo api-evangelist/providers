@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Dairyland Privacy Policy
   url: https://www.dairylandinsurance.com/privacy
-random_paper: 57
+random_paper: 3
 score:
   band: minimal
   composite: 2.9

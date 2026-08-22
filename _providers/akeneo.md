@@ -210,7 +210,7 @@ overview: 'Akeneo publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Akeneo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 31
+random_paper: 18
 scopes:
 - name: Akeneo Scopes
   scope_count: 36

@@ -90,7 +90,7 @@ name: Olive AI
 nav: Providers
 network: true
 overview: Olive AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Healthcare Automation, Revenue Cycle Management, Prior Authorization, and Patient Access.
-random_paper: 45
+random_paper: 13
 score:
   band: minimal
   composite: 7.0

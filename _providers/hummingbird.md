@@ -92,7 +92,7 @@ overview: 'Hummingbird is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hummingbird''s developer surface includes support, engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 131
+random_paper: 19
 score:
   band: emerging
   composite: 18.5

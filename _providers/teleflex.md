@@ -45,7 +45,7 @@ name: Teleflex
 nav: Providers
 network: true
 overview: Teleflex is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 2.6

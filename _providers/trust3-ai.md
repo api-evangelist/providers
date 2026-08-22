@@ -141,7 +141,7 @@ overview: 'Trust3 AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Trust3 AI''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: thin
   composite: 30.4

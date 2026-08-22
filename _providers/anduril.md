@@ -160,7 +160,7 @@ plans:
 - name: Anduril Plans Pricing
   plan_count: 1
   slug: anduril-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Anduril Rate Limits

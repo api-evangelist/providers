@@ -45,7 +45,7 @@ name: Wavii
 nav: Providers
 network: true
 overview: Wavii is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, News Summarization, and Natural Language Processing.
-random_paper: 97
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

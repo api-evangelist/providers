@@ -113,7 +113,7 @@ overview: 'Althea publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Althea''s developer surface includes engineering blog, support, documentation, authentication, and 11 more developer resources.'
-random_paper: 27
+random_paper: 14
 scopes:
 - name: Althea Scopes
   scope_count: 4

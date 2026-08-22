@@ -99,7 +99,7 @@ plans:
 - name: Field Medical Plans Pricing
   plan_count: 0
   slug: field-medical-plans-pricing
-random_paper: 88
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Field Medical Rate Limits

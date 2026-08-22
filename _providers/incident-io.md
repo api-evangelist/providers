@@ -298,7 +298,7 @@ plans:
 - name: Incident Io Plans Pricing
   plan_count: 5
   slug: incident-io-plans-pricing
-random_paper: 64
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Incident Io Rate Limits

@@ -72,7 +72,7 @@ overview: 'Volter is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Volter''s developer surface includes support and 6 more developer resources.'
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 9.2

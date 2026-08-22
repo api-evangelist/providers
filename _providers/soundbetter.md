@@ -68,7 +68,7 @@ overview: 'SoundBetter is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SoundBetter''s developer surface includes support, FAQ, and 4 more developer resources.'
-random_paper: 7
+random_paper: 2
 score:
   band: minimal
   composite: 8.1

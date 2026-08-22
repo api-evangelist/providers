@@ -122,7 +122,7 @@ plans:
 - name: Pomo Plans Pricing
   plan_count: 5
   slug: pomo-plans-pricing
-random_paper: 145
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Pomo Rate Limits

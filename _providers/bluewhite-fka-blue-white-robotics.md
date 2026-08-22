@@ -68,7 +68,7 @@ overview: 'Bluewhite (fka Blue White Robotics) is profiled on the [APIs.io](http
 
 
   Bluewhite (fka Blue White Robotics)''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: minimal
   composite: 10.6

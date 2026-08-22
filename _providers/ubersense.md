@@ -53,7 +53,7 @@ name: UberSense
 nav: Providers
 network: true
 overview: UberSense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Sports, Video, and Coaching.
-random_paper: 78
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

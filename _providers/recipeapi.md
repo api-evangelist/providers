@@ -57,7 +57,7 @@ name: RecipeAPI
 nav: Providers
 network: true
 overview: RecipeAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 52
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

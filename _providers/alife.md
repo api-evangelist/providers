@@ -92,7 +92,7 @@ overview: 'Alife is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alife''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 66
+random_paper: 9
 score:
   band: emerging
   composite: 20.4

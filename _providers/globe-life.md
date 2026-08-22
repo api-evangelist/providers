@@ -66,7 +66,7 @@ plans:
 - name: Globe Life Plans Pricing
   plan_count: 2
   slug: globe-life-plans-pricing
-random_paper: 88
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Globe Life Rate Limits

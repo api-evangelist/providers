@@ -80,7 +80,7 @@ overview: 'Greenlite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Greenlite''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 65
+random_paper: 14
 score:
   band: emerging
   composite: 17.1

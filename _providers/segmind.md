@@ -124,7 +124,7 @@ plans:
 - name: Segmind Plans Pricing
   plan_count: 3
   slug: segmind-plans-pricing
-random_paper: 147
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Segmind Rate Limits

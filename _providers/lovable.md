@@ -108,7 +108,7 @@ plans:
 - name: Lovable Plans Pricing
   plan_count: 1
   slug: lovable-plans-pricing
-random_paper: 145
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Lovable Rate Limits

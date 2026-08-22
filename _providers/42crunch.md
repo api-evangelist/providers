@@ -277,7 +277,7 @@ plans:
 - name: 42Crunch Plans Pricing
   plan_count: 4
   slug: 42crunch-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: 42Crunch Rate Limits

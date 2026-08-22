@@ -200,7 +200,7 @@ plans:
 - name: Tines Plans Pricing
   plan_count: 3
   slug: tines-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Tines Rate Limits

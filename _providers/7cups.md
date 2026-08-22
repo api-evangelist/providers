@@ -104,7 +104,7 @@ overview: '7 Cups is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   7 Cups'' developer surface includes support, signup flow, pricing, and 12 more developer resources.'
-random_paper: 51
+random_paper: 15
 score:
   band: emerging
   composite: 15.8

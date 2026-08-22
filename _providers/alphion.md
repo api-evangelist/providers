@@ -52,7 +52,7 @@ overview: 'Alphion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alphion''s developer surface includes support and 1 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 1.5

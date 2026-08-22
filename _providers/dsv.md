@@ -288,7 +288,7 @@ overview: 'DSV publishes 29 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 12 more developer resources.'
-random_paper: 35
+random_paper: 18
 score:
   band: thin
   composite: 39.1

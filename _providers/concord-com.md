@@ -132,7 +132,7 @@ plans:
 - name: Concord Com Plans Pricing
   plan_count: 3
   slug: concord-com-plans-pricing
-random_paper: 65
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Concord Com Rate Limits

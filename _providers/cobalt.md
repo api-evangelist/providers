@@ -1361,7 +1361,7 @@ plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
   slug: cobalt-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Cobalt Rate Limits

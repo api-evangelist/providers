@@ -201,7 +201,7 @@ plans:
 - name: Stats Perform Plans Pricing
   plan_count: 3
   slug: stats-perform-plans-pricing
-random_paper: 26
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Stats Perform Rate Limits

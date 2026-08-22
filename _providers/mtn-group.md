@@ -934,7 +934,7 @@ overview: 'MTN Group publishes 115 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 43 more developer resources.'
-random_paper: 43
+random_paper: 13
 scopes:
 - name: Mtn Group Scopes
   scope_count: 2

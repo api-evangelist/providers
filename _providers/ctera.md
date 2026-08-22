@@ -149,7 +149,7 @@ overview: 'CTERA publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CTERA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, CLI, and 17 more developer resources.'
-random_paper: 80
+random_paper: 2
 score:
   band: thin
   composite: 27.5

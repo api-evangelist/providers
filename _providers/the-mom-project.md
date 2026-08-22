@@ -76,7 +76,7 @@ overview: 'The Mom Project is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Mom Project''s developer surface includes support, signup flow, pricing, and 5 more developer resources.'
-random_paper: 9
+random_paper: 8
 score:
   band: emerging
   composite: 14.9

@@ -113,7 +113,7 @@ plans:
 - name: Expressable Plans Pricing
   plan_count: 0
   slug: expressable-plans-pricing
-random_paper: 139
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Expressable Rate Limits

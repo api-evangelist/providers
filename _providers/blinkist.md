@@ -49,7 +49,7 @@ name: Blinkist
 nav: Providers
 network: true
 overview: Blinkist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Learning, Books, and Audiobooks.
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 2.5

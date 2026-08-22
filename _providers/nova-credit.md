@@ -156,7 +156,7 @@ overview: 'Nova Credit publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Nova Credit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 73
+random_paper: 3
 score:
   band: developing
   composite: 42.4

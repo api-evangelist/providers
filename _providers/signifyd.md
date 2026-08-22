@@ -186,7 +186,7 @@ overview: 'Signifyd publishes 8 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Signifyd''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 116
+random_paper: 0
 score:
   band: emerging
   composite: 26.1

@@ -60,7 +60,7 @@ overview: 'Beefy Finance publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Beefy Finance''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 100
+random_paper: 11
 score:
   band: emerging
   composite: 18.0

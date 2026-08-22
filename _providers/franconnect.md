@@ -97,7 +97,7 @@ plans:
 - name: Franconnect Plans Pricing
   plan_count: 1
   slug: franconnect-plans-pricing
-random_paper: 126
+random_paper: 14
 score:
   band: emerging
   composite: 15.1

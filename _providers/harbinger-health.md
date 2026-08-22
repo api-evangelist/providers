@@ -445,7 +445,7 @@ overview: 'Harbinger Health publishes 36 APIs on the [APIs.io](https://apis.io/)
 
 
   Harbinger Health''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 31 more developer resources.'
-random_paper: 131
+random_paper: 4
 scopes:
 - name: Harbinger Health Scopes
   scope_count: 1

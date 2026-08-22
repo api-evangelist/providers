@@ -147,7 +147,7 @@ overview: 'Directus publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Directus'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, YouTube channel, sandbox, and 16 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: emerging
   composite: 25.4

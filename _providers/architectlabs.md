@@ -52,7 +52,7 @@ overview: 'Architect Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Architect Labs'' developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: minimal
   composite: 5.5

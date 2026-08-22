@@ -155,7 +155,7 @@ plans:
 - name: Badgr Plans Pricing
   plan_count: 4
   slug: badgr-plans-pricing
-random_paper: 65
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Badgr Rate Limits

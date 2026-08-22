@@ -72,7 +72,7 @@ overview: 'birchbox is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   birchbox''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 104
+random_paper: 9
 score:
   band: emerging
   composite: 12.3

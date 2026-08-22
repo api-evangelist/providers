@@ -84,7 +84,7 @@ overview: '2ULaundry is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   2ULaundry''s developer surface includes pricing, getting-started guide, support, engineering blog, and 6 more developer resources.'
-random_paper: 40
+random_paper: 10
 score:
   band: emerging
   composite: 15.5

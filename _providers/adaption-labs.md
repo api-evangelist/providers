@@ -177,7 +177,7 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 119
+random_paper: 9
 score:
   band: thin
   composite: 36.5

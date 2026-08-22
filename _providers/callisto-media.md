@@ -66,7 +66,7 @@ name: Callisto Media
 nav: Providers
 network: true
 overview: Callisto Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Publishing, Book Publishing, Educational Publishing, and Children's Books.
-random_paper: 75
+random_paper: 9
 score:
   band: minimal
   composite: 6.9

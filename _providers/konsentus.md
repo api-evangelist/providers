@@ -194,7 +194,7 @@ overview: 'Konsentus publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 20 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: thin
   composite: 38.0

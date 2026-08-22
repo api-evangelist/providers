@@ -190,7 +190,7 @@ plans:
 - name: Cognito Forms Plans Pricing
   plan_count: 4
   slug: cognito-forms-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Cognito Forms Rate Limits

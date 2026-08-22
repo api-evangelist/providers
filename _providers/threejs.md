@@ -224,7 +224,7 @@ overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 22 more developer resources.'
-random_paper: 12
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

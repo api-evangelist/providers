@@ -60,7 +60,7 @@ overview: 'PhishMe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   PhishMe''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

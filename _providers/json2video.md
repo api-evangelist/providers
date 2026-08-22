@@ -57,7 +57,7 @@ name: JSON2Video
 nav: Providers
 network: true
 overview: JSON2Video publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 133
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

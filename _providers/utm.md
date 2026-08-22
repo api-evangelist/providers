@@ -105,7 +105,7 @@ plans:
 - name: Utm Plans Pricing
   plan_count: 2
   slug: utm-plans-pricing
-random_paper: 44
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Utm Rate Limits

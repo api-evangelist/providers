@@ -72,7 +72,7 @@ overview: 'ExpressSteuer (fka Express Group) is profiled on the [APIs.io](https:
 
 
   ExpressSteuer (fka Express Group)''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 89
+random_paper: 5
 score:
   band: minimal
   composite: 8.5

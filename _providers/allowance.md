@@ -214,7 +214,7 @@ overview: 'Allowance publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 56
+random_paper: 5
 scopes:
 - name: Allowance Scopes
   scope_count: 3

@@ -321,7 +321,7 @@ overview: 'Firely publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Firely''s developer surface includes developer portal, documentation, tooling, code examples, pricing, signup flow, training material, and 48 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: thin
   composite: 27.3

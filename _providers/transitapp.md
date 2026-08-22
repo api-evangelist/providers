@@ -155,7 +155,7 @@ plans:
 - name: Transitapp Plans Pricing
   plan_count: 2
   slug: transitapp-plans-pricing
-random_paper: 51
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Transitapp Rate Limits

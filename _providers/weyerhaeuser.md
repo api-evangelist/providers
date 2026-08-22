@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: America's Largest Landowner Is Using AI to Digitize the ...
   url: https://www.wsj.com/tech/ai/americas-largest-landowner-is-using-ai-to-digitize-the-forest-bd3eec86
-random_paper: 113
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Weyerhaeuser Rate Limits

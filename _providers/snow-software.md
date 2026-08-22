@@ -332,7 +332,7 @@ plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
   slug: snow-software-plans-pricing
-random_paper: 34
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Snow Software Rate Limits

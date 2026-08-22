@@ -1011,7 +1011,7 @@ plans:
 - name: Databricks Plans Pricing
   plan_count: 5
   slug: databricks-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Databricks Rate Limits

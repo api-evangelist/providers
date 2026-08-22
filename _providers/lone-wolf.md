@@ -338,7 +338,7 @@ plans:
 - name: Lone Wolf Plans Pricing
   plan_count: 0
   slug: lone-wolf-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Lone Wolf Rate Limits

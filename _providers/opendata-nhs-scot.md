@@ -85,7 +85,7 @@ plans:
 - name: Opendata Nhs Scot Plans Pricing
   plan_count: 1
   slug: opendata-nhs-scot-plans-pricing
-random_paper: 65
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Opendata Nhs Scot Rate Limits

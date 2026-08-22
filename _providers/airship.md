@@ -191,7 +191,7 @@ plans:
 - name: Airship Plans Pricing
   plan_count: 1
   slug: airship-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Airship Rate Limits

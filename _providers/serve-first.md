@@ -100,7 +100,7 @@ overview: 'Serve First is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Serve First''s developer surface includes engineering blog, product news, support, and 11 more developer resources.'
-random_paper: 103
+random_paper: 12
 score:
   band: emerging
   composite: 12.0

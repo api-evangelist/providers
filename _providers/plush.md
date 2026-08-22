@@ -76,7 +76,7 @@ overview: 'Plush is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plush''s developer surface includes support and 7 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: emerging
   composite: 11.5

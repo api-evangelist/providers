@@ -149,7 +149,7 @@ overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modern''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: thin
   composite: 33.5

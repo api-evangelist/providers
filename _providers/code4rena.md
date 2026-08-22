@@ -96,7 +96,7 @@ overview: 'Code4rena is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Code4rena''s developer surface includes documentation, getting-started guide, support, and 10 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: emerging
   composite: 16.2

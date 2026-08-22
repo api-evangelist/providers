@@ -227,7 +227,7 @@ overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 133
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Deepdub Rate Limits

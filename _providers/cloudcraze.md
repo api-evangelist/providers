@@ -56,7 +56,7 @@ overview: 'CloudCraze is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CloudCraze''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: minimal
   composite: 6.9

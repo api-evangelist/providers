@@ -104,7 +104,7 @@ overview: 'Fearn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fearn''s developer surface includes pricing, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: emerging
   composite: 19.9

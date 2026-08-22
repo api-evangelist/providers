@@ -76,7 +76,7 @@ overview: 'ClassWallet is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ClassWallet''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 140
+random_paper: 7
 score:
   band: emerging
   composite: 12.4

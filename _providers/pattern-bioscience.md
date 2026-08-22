@@ -125,7 +125,7 @@ overview: 'Pattern Bioscience is profiled on the [APIs.io](https://apis.io/) net
 
 
   Pattern Bioscience''s developer surface includes engineering blog, product news, support, and 15 more developer resources.'
-random_paper: 67
+random_paper: 7
 score:
   band: emerging
   composite: 11.2

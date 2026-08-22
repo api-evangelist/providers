@@ -167,7 +167,7 @@ overview: 'Follow Up Boss publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Follow Up Boss'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 76
+random_paper: 10
 score:
   band: thin
   composite: 30.9

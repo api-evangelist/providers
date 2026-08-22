@@ -151,7 +151,7 @@ plans:
 - name: Decodable Plans Pricing
   plan_count: 3
   slug: decodable-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Decodable Rate Limits

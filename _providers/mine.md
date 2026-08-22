@@ -297,7 +297,7 @@ overview: 'MINE publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 24 more developer resources.'
-random_paper: 127
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Mine Rate Limits

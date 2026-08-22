@@ -88,7 +88,7 @@ overview: 'iGent is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   iGent''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 21.3

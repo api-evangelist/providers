@@ -191,7 +191,7 @@ overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 23 more developer resources.'
-random_paper: 120
+random_paper: 4
 scopes:
 - name: Investec Scopes
   scope_count: 4

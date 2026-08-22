@@ -65,7 +65,7 @@ name: MoonActive
 nav: Providers
 network: true
 overview: MoonActive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Entertainment.
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 6.4

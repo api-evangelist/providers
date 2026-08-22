@@ -76,7 +76,7 @@ overview: 'Bonnet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bonnet''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 12.7

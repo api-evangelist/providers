@@ -88,7 +88,7 @@ overview: 'Volteum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Volteum''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: minimal
   composite: 7.8

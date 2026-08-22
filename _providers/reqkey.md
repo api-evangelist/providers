@@ -155,7 +155,7 @@ plans:
 - name: Reqkey Plans
   plan_count: 3
   slug: reqkey-plans
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Reqkey Rate Limits

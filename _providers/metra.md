@@ -73,7 +73,7 @@ plans:
 - name: Metra Plans Pricing
   plan_count: 3
   slug: metra-plans-pricing
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Metra Rate Limits

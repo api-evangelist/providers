@@ -40,7 +40,7 @@ name: Internet Security Systems
 nav: Providers
 network: true
 overview: Internet Security Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Network Security, and Vulnerability Management.
-random_paper: 110
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

@@ -695,7 +695,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 38
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits

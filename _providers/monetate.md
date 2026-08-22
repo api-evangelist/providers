@@ -208,7 +208,7 @@ plans:
 - name: Monetate Plans Pricing
   plan_count: 0
   slug: monetate-plans-pricing
-random_paper: 116
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Monetate Rate Limits

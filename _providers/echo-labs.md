@@ -88,7 +88,7 @@ overview: 'Echo Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Echo Labs'' developer surface includes changelog, engineering blog, and 9 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: minimal
   composite: 6.4

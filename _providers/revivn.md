@@ -76,7 +76,7 @@ overview: 'Revivn is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Revivn''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: emerging
   composite: 12.3

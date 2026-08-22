@@ -330,7 +330,7 @@ plans:
 - name: Whoisfreaks Plans
   plan_count: 5
   slug: whoisfreaks-plans
-random_paper: 147
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Whoisfreaks Rate Limits

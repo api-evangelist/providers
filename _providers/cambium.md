@@ -60,7 +60,7 @@ overview: 'Cambium is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cambium''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 7.6

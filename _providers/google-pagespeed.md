@@ -238,7 +238,7 @@ plans:
 - name: Google Pagespeed Plans Pricing
   plan_count: 0
   slug: google-pagespeed-plans-pricing
-random_paper: 134
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Google Pagespeed Rate Limits

@@ -45,7 +45,7 @@ name: OpenToken
 nav: Providers
 network: true
 overview: OpenToken is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Tokenization, and Fundraising.
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

@@ -57,7 +57,7 @@ name: Open Government, Slovenia
 nav: Providers
 network: true
 overview: Open Government, Slovenia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 98
+random_paper: 4
 score:
   band: minimal
   composite: 4.2

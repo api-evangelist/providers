@@ -65,7 +65,7 @@ name: Unamo
 nav: Providers
 network: true
 overview: Unamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SEO, Social Media, Analytics, and Monitoring.
-random_paper: 97
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

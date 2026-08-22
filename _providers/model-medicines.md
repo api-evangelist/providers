@@ -53,7 +53,7 @@ name: Model Medicines
 nav: Providers
 network: true
 overview: Model Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Artificial Intelligence, and Pharmaceuticals.
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

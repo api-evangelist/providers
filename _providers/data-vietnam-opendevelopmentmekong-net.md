@@ -89,7 +89,7 @@ plans:
 - name: Data Vietnam Opendevelopmentmekong Net Plans Pricing
   plan_count: 1
   slug: data-vietnam-opendevelopmentmekong-net-plans-pricing
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Data Vietnam Opendevelopmentmekong Net Rate Limits

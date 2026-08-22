@@ -227,7 +227,7 @@ overview: 'HorizonIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   HorizonIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: developing
   composite: 43.6

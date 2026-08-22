@@ -164,7 +164,7 @@ overview: 'LiveLike publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LiveLike''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 19 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: thin
   composite: 36.1

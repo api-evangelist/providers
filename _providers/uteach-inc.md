@@ -140,7 +140,7 @@ overview: 'Uteach, Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Uteach, Inc.''s developer surface includes pricing, engineering blog, support, signup flow, FAQ, YouTube channel, authentication, and 15 more developer resources.'
-random_paper: 99
+random_paper: 6
 score:
   band: thin
   composite: 38.7

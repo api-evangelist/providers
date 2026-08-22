@@ -92,7 +92,7 @@ plans:
 - name: Vauto Plans Pricing
   plan_count: 2
   slug: vauto-plans-pricing
-random_paper: 112
+random_paper: 13
 score:
   band: emerging
   composite: 13.1

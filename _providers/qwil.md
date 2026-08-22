@@ -69,7 +69,7 @@ overview: 'Qwil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Qwil''s developer surface includes authentication and 4 more developer resources.'
-random_paper: 147
+random_paper: 4
 score:
   band: minimal
   composite: 8.9

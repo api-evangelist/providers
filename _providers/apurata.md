@@ -220,7 +220,7 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apurata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: developing
   composite: 53.1

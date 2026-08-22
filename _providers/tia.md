@@ -112,7 +112,7 @@ overview: 'Tia is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Tia''s developer surface includes signup flow, support, and 15 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: emerging
   composite: 14.0

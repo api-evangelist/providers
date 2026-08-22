@@ -284,7 +284,7 @@ plans:
 - name: Apache Livy Plans Pricing
   plan_count: 3
   slug: apache-livy-plans-pricing
-random_paper: 64
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Apache Livy Rate Limits

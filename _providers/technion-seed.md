@@ -40,7 +40,7 @@ name: Technion Seed
 nav: Providers
 network: true
 overview: Technion Seed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Incubator, Israel, and Technion.
-random_paper: 126
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

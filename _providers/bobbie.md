@@ -161,7 +161,7 @@ overview: 'Bobbie publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Bobbie''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 15
+random_paper: 2
 scopes:
 - name: Bobbie Scopes
   scope_count: 4

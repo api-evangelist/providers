@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Lithia & Driveway (LAD) Continues Strategic Luxury ...
   url: https://www.prnewswire.com/news-releases/lithia--driveway-lad-continues-strategic-luxury-network-expansion-and-is-named-to-time-americas-growth-leaders-list-302611044.html
-random_paper: 15
+random_paper: 12
 score:
   band: minimal
   composite: 4.0

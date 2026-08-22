@@ -100,7 +100,7 @@ overview: 'Edge Case Research publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Edge Case Research''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 113
+random_paper: 9
 score:
   band: emerging
   composite: 11.4

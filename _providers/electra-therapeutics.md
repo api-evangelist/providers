@@ -92,7 +92,7 @@ overview: 'Electra Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Electra Therapeutics'' developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 141
+random_paper: 20
 score:
   band: minimal
   composite: 10.3

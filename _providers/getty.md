@@ -151,7 +151,7 @@ plans:
 - name: Getty Plans Pricing
   plan_count: 1
   slug: getty-plans-pricing
-random_paper: 110
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Getty Rate Limits

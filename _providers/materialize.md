@@ -143,7 +143,7 @@ plans:
 - name: Materialize Plans Pricing
   plan_count: 3
   slug: materialize-plans-pricing
-random_paper: 132
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Materialize Rate Limits

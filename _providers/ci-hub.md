@@ -154,7 +154,7 @@ plans:
 - name: Ci Hub Plans Pricing
   plan_count: 12
   slug: ci-hub-plans-pricing
-random_paper: 121
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Ci Hub Rate Limits

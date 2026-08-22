@@ -197,7 +197,7 @@ overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/)
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
-random_paper: 135
+random_paper: 10
 score:
   band: thin
   composite: 33.4

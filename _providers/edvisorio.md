@@ -176,7 +176,7 @@ overview: 'Edvisor.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Edvisor.io''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: developing
   composite: 50.5

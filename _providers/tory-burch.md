@@ -136,7 +136,7 @@ overview: 'Tory Burch is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tory Burch''s developer surface includes support, YouTube channel, and 19 more developer resources.'
-random_paper: 145
+random_paper: 10
 score:
   band: emerging
   composite: 13.1

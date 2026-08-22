@@ -57,7 +57,7 @@ name: VR Medical
 nav: Providers
 network: true
 overview: VR Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Respiratory Care, and Wound Care.
-random_paper: 57
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

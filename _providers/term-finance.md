@@ -92,7 +92,7 @@ overview: 'Term Finance is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Term Finance''s developer surface includes documentation, API reference, engineering blog, support, and 8 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 17.0

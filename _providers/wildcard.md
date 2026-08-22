@@ -64,7 +64,7 @@ overview: 'Wildcard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Wildcard''s developer surface includes engineering blog, support, signup flow, and 2 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 5.6

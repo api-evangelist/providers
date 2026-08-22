@@ -66,7 +66,7 @@ plans:
 - name: American Woodmark Plans Pricing
   plan_count: 1
   slug: american-woodmark-plans-pricing
-random_paper: 106
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: American Woodmark Rate Limits

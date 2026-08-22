@@ -93,7 +93,7 @@ overview: 'MUBI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MUBI''s developer surface includes support, engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 131
+random_paper: 9
 score:
   band: emerging
   composite: 16.8

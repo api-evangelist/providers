@@ -188,7 +188,7 @@ plans:
 - name: Skyslope Plans Pricing
   plan_count: 3
   slug: skyslope-plans-pricing
-random_paper: 145
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Skyslope Rate Limits

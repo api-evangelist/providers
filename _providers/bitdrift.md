@@ -172,7 +172,7 @@ overview: 'bitdrift publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   bitdrift''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: developing
   composite: 50.4

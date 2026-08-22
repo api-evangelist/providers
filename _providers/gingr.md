@@ -163,7 +163,7 @@ plans:
 - name: Gingr Plans Pricing
   plan_count: 4
   slug: gingr-plans-pricing
-random_paper: 88
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Gingr Rate Limits

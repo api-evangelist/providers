@@ -80,7 +80,7 @@ overview: 'Qognitive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Qognitive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 5 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: emerging
   composite: 14.5

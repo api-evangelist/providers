@@ -303,7 +303,7 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
-random_paper: 6
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []

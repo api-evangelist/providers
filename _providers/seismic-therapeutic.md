@@ -72,7 +72,7 @@ overview: 'Seismic Therapeutic is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Seismic Therapeutic''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 39
+random_paper: 2
 score:
   band: minimal
   composite: 8.5

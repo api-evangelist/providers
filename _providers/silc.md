@@ -103,7 +103,7 @@ overview: 'SiLC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   SiLC''s developer surface includes engineering blog, product news, and 11 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

@@ -68,7 +68,7 @@ name: Bionaut Labs
 nav: Providers
 network: true
 overview: Bionaut Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Robotics, Healthcare, and Biotechnology.
-random_paper: 25
+random_paper: 20
 score:
   band: minimal
   composite: 4.1

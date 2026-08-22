@@ -57,7 +57,7 @@ name: Lattice Engines
 nav: Providers
 network: true
 overview: Lattice Engines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Predictive Marketing, Account Based Marketing, and Sales Intelligence.
-random_paper: 42
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

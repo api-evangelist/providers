@@ -142,7 +142,7 @@ overview: 'CIONIC publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   CIONIC''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: thin
   composite: 32.5

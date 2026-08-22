@@ -93,7 +93,7 @@ overview: 'AIRNA is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AIRNA''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: minimal
   composite: 9.5

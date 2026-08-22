@@ -40,7 +40,7 @@ name: Barneyscan
 nav: Providers
 network: true
 overview: Barneyscan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Scanners, Color Imaging, Graphic Arts, and Prepress.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

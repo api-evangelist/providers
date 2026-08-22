@@ -112,7 +112,7 @@ plans:
 - name: Sap Commerce Plans Pricing
   plan_count: 3
   slug: sap-commerce-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Sap Commerce Rate Limits

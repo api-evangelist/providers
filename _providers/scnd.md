@@ -105,7 +105,7 @@ overview: 'Second (scnd) is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Second (scnd)''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 126
+random_paper: 4
 scopes:
 - name: Scnd Scopes
   scope_count: 2

@@ -49,7 +49,7 @@ name: supermag
 nav: Providers
 network: true
 overview: supermag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Magnetic Levitation, Semiconductors, and Biopharmaceuticals.
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

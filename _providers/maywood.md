@@ -88,7 +88,7 @@ overview: 'Maywood is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Maywood''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 23
+random_paper: 12
 score:
   band: minimal
   composite: 6.1

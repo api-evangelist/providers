@@ -201,7 +201,7 @@ plans:
 - name: Dust Identity Plans Pricing
   plan_count: 0
   slug: dust-identity-plans-pricing
-random_paper: 26
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Dust Identity Rate Limits

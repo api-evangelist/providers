@@ -77,7 +77,7 @@ overview: 'Bright Moments DAO is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bright Moments DAO''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
   composite: 12.7

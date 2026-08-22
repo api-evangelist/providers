@@ -197,7 +197,7 @@ plans:
 - name: Checkr Plans Pricing
   plan_count: 5
   slug: checkr-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Checkr Rate Limits

@@ -84,7 +84,7 @@ overview: 'Venice is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Venice''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 15.5

@@ -126,7 +126,7 @@ overview: 'Builder Prime publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Builder Prime''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 137
+random_paper: 6
 score:
   band: thin
   composite: 37.5

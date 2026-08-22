@@ -179,7 +179,7 @@ plans:
 - name: Eclipse Plans Pricing
   plan_count: 3
   slug: eclipse-plans-pricing
-random_paper: 145
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Eclipse Rate Limits

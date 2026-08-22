@@ -209,7 +209,7 @@ plans:
 - name: Cutiss Plans Pricing
   plan_count: 0
   slug: cutiss-plans-pricing
-random_paper: 71
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Cutiss Rate Limits

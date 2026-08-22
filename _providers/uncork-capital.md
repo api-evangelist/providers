@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Uncork Capital
 nav: Providers
 network: true
-random_paper: 96
+random_paper: 9
 slug: uncork-capital
 tags:
 - Venture Capital

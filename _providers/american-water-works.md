@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: Financial Release Details
   url: https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2019/American-Water-Announces-10-Year-Capital-Spending-Plan-Sets-Long-Term-Growth-Targets-and-Announces-2020-Earnings-Guidance/default.aspx
-random_paper: 98
+random_paper: 19
 score:
   band: minimal
   composite: 6.8

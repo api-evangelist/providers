@@ -53,7 +53,7 @@ name: Mozilla http scanner
 nav: Providers
 network: true
 overview: Mozilla http scanner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 107
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

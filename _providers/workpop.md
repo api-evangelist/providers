@@ -53,7 +53,7 @@ name: Workpop
 nav: Providers
 network: true
 overview: Workpop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Human Resources, Recruiting, and Hourly Workers.
-random_paper: 41
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

@@ -88,7 +88,7 @@ overview: 'Teller Finance is profiled on the [APIs.io](https://apis.io/) network
 
 
   Teller Finance''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 76
+random_paper: 10
 score:
   band: minimal
   composite: 9.9

@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Panera tests automated coffee brewing system
   url: https://www.facebook.com/groups/334753240947835/posts/653552035734619/
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 4.1

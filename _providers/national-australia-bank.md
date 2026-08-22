@@ -211,7 +211,7 @@ overview: 'National Australia Bank publishes 7 APIs on the [APIs.io](https://api
 
 
   National Australia Bank''s developer surface includes developer portal, documentation, API reference, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 87
+random_paper: 12
 scopes:
 - name: National Australia Bank Scopes
   scope_count: 11

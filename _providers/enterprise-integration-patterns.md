@@ -80,7 +80,7 @@ overview: 'Enterprise Integration Patterns is profiled on the [APIs.io](https://
 
 
   Enterprise Integration Patterns'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 119
+random_paper: 14
 score:
   band: minimal
   composite: 7.6

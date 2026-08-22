@@ -108,7 +108,7 @@ overview: 'LawTrades is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LawTrades'' developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: emerging
   composite: 12.7

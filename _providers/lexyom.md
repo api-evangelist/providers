@@ -88,7 +88,7 @@ overview: 'Lexyom is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lexyom''s developer surface includes engineering blog, product news, support, signup flow, and 7 more developer resources.'
-random_paper: 74
+random_paper: 19
 score:
   band: minimal
   composite: 7.1

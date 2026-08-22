@@ -204,7 +204,7 @@ plans:
 - name: Gptzero Plans
   plan_count: 4
   slug: gptzero-plans
-random_paper: 34
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Gptzero Rate Limits

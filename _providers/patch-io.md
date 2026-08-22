@@ -212,7 +212,7 @@ plans:
 - name: Patch Io Plans Pricing
   plan_count: 1
   slug: patch-io-plans-pricing
-random_paper: 44
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Patch Io Rate Limits

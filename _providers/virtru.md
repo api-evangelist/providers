@@ -281,7 +281,7 @@ overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Virtru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 27 more developer resources.'
-random_paper: 88
+random_paper: 12
 score:
   band: developing
   composite: 49.9

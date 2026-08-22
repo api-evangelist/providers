@@ -112,7 +112,7 @@ plans:
 - name: Cosmose Ai Plans Pricing
   plan_count: 0
   slug: cosmose-ai-plans-pricing
-random_paper: 114
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Cosmose Ai Rate Limits

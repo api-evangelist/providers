@@ -247,7 +247,7 @@ plans:
 - name: Gameball Plans Pricing
   plan_count: 2
   slug: gameball-plans-pricing
-random_paper: 76
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Gameball Rate Limits

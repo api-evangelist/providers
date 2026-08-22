@@ -68,7 +68,7 @@ overview: 'Broadvision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Broadvision''s developer surface includes support and 5 more developer resources.'
-random_paper: 141
+random_paper: 8
 score:
   band: minimal
   composite: 6.0

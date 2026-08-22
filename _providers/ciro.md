@@ -114,7 +114,7 @@ plans:
 - name: Ciro Plans Pricing
   plan_count: 0
   slug: ciro-plans-pricing
-random_paper: 131
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Ciro Rate Limits

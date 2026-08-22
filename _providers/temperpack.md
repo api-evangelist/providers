@@ -100,7 +100,7 @@ overview: 'TemperPack is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TemperPack''s developer surface includes engineering blog, support, signup flow, and 13 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: emerging
   composite: 15.3

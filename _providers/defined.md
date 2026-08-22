@@ -164,7 +164,7 @@ overview: 'Defined publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 123
+random_paper: 5
 score:
   band: developing
   composite: 51.7

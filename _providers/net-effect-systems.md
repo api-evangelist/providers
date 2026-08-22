@@ -40,7 +40,7 @@ name: Net Effect Systems
 nav: Providers
 network: true
 overview: Net Effect Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Customer Service Software, Live Help, and Defunct.
-random_paper: 42
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

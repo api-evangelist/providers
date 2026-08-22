@@ -123,7 +123,7 @@ plans:
 - name: Realpage Plans Pricing
   plan_count: 1
   slug: realpage-plans-pricing
-random_paper: 88
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Realpage Rate Limits

@@ -211,7 +211,7 @@ plans:
 - name: Ipify Plans Pricing
   plan_count: 6
   slug: ipify-plans-pricing
-random_paper: 98
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Ipify Rate Limits

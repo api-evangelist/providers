@@ -84,7 +84,7 @@ plans:
 - name: Opendata Agriculture Gov Ie Plans Pricing
   plan_count: 0
   slug: opendata-agriculture-gov-ie-plans-pricing
-random_paper: 26
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Opendata Agriculture Gov Ie Rate Limits

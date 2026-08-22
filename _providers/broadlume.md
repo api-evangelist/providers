@@ -173,7 +173,7 @@ plans:
 - name: Broadlume Plans Pricing
   plan_count: 0
   slug: broadlume-plans-pricing
-random_paper: 61
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Broadlume Rate Limits

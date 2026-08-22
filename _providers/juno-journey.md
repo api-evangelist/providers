@@ -88,7 +88,7 @@ overview: 'Juno Journey is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Juno Journey''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 77
+random_paper: 9
 score:
   band: emerging
   composite: 16.7

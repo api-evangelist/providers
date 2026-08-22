@@ -381,7 +381,7 @@ overview: 'LanzaTech publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 60
+random_paper: 9
 score:
   band: thin
   composite: 35.1

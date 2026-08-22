@@ -68,7 +68,7 @@ overview: 'Coffee Meets Bagel is profiled on the [APIs.io](https://apis.io/) net
 
 
   Coffee Meets Bagel''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 116
+random_paper: 12
 score:
   band: minimal
   composite: 10.6

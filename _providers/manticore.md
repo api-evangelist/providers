@@ -306,7 +306,7 @@ plans:
 - name: Manticore Plans Pricing
   plan_count: 3
   slug: manticore-plans-pricing
-random_paper: 68
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Manticore Rate Limits

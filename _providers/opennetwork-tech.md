@@ -40,7 +40,7 @@ name: OpenNetwork Tech.
 nav: Providers
 network: true
 overview: OpenNetwork Tech. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Single Sign-On, Web Access Management, and Authentication.
-random_paper: 38
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

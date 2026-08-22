@@ -221,7 +221,7 @@ plans:
 - name: Navistone Plans Pricing
   plan_count: 0
   slug: navistone-plans-pricing
-random_paper: 89
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Navistone Rate Limits

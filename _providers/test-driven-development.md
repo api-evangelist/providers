@@ -197,7 +197,7 @@ plans:
 - name: Test Driven Development Plans Pricing
   plan_count: 3
   slug: test-driven-development-plans-pricing
-random_paper: 138
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Test Driven Development Rate Limits

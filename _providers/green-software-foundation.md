@@ -73,7 +73,7 @@ plans:
 - name: Green Software Foundation Plans Pricing
   plan_count: 3
   slug: green-software-foundation-plans-pricing
-random_paper: 40
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Green Software Foundation Rate Limits

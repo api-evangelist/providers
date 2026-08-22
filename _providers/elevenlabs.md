@@ -517,7 +517,7 @@ plans:
 - name: Elevenlabs Plans Pricing
   plan_count: 7
   slug: elevenlabs-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Elevenlabs Rate Limits

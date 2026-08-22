@@ -72,7 +72,7 @@ overview: 'Enable is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enable''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: emerging
   composite: 11.8

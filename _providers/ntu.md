@@ -178,7 +178,7 @@ plans:
 - name: Ntu Plans Pricing
   plan_count: 2
   slug: ntu-plans-pricing
-random_paper: 45
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Ntu Rate Limits

@@ -205,7 +205,7 @@ plans:
 - name: Zulip Plans Pricing
   plan_count: 3
   slug: zulip-plans-pricing
-random_paper: 117
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Zulip Rate Limits

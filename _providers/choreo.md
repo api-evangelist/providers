@@ -380,7 +380,7 @@ plans:
 - name: Choreo Plans Pricing
   plan_count: 3
   slug: choreo-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Choreo Rate Limits

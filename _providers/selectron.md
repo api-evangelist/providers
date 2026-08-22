@@ -109,7 +109,7 @@ plans:
 - name: Selectron Plans Pricing
   plan_count: 0
   slug: selectron-plans-pricing
-random_paper: 81
+random_paper: 9
 score:
   band: emerging
   composite: 17.8

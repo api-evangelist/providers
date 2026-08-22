@@ -168,7 +168,7 @@ overview: 'Azure Cosmos DB publishes 9 APIs on the [APIs.io](https://apis.io/) n
 
 
   Azure Cosmos DB''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 9
+random_paper: 8
 scopes:
 - name: Azure Cosmos Db Scopes
   scope_count: 1

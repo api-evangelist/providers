@@ -89,7 +89,7 @@ overview: 'Better Mortgage publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Better Mortgage''s developer surface includes engineering blog, support, pricing, authentication, and 6 more developer resources.'
-random_paper: 55
+random_paper: 12
 scopes:
 - name: Better Mortgage Scopes
   scope_count: 4

@@ -165,7 +165,7 @@ overview: 'Aalyria publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Aalyria''s developer surface includes documentation, API reference, getting-started guide, authentication, support, CLI, changelog, and 21 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: thin
   composite: 38.3

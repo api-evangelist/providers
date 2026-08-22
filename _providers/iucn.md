@@ -57,7 +57,7 @@ name: IUCN
 nav: Providers
 network: true
 overview: IUCN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 133
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

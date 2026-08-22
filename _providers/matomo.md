@@ -466,7 +466,7 @@ plans:
 - name: Matomo Plans Pricing
   plan_count: 7
   slug: matomo-plans-pricing
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Matomo Rate Limits

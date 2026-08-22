@@ -49,7 +49,7 @@ name: Collaborate *
 nav: Providers
 network: true
 overview: Collaborate * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Collaboration, Team Messaging, and File Sharing.
-random_paper: 117
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

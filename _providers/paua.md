@@ -116,7 +116,7 @@ overview: 'Paua publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Paua''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 12 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: emerging
   composite: 18.1

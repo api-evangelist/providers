@@ -102,7 +102,7 @@ plans:
 - name: Sync Api Plans Pricing
   plan_count: 0
   slug: sync-api-plans-pricing
-random_paper: 59
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Sync Api Rate Limits

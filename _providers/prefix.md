@@ -80,7 +80,7 @@ overview: 'PreFix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   PreFix''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: emerging
   composite: 15.4

@@ -62,7 +62,7 @@ name: Optimotive
 nav: Providers
 network: true
 overview: Optimotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Robots, Construction, and Mining.
-random_paper: 61
+random_paper: 12
 score:
   band: minimal
   composite: 2.1

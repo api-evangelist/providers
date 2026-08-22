@@ -246,7 +246,7 @@ plans:
 - name: Semrush Plans Pricing
   plan_count: 6
   slug: semrush-plans-pricing
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 13
   name: Semrush Rate Limits

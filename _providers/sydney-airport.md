@@ -131,7 +131,7 @@ overview: 'Sydney Airport is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sydney Airport''s developer surface includes authentication, support, engineering blog, and 18 more developer resources.'
-random_paper: 141
+random_paper: 12
 scopes:
 - name: Sydney Airport Scopes
   scope_count: 8

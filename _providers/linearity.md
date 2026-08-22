@@ -113,7 +113,7 @@ overview: 'Linearity is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Linearity''s developer surface includes engineering blog, pricing, signup flow, support, documentation, getting-started guide, changelog, and 10 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: emerging
   composite: 11.0

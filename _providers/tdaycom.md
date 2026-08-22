@@ -166,7 +166,7 @@ plans:
 - name: Tdaycom Plans Pricing
   plan_count: 3
   slug: tdaycom-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Tdaycom Rate Limits

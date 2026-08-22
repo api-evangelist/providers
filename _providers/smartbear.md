@@ -227,7 +227,7 @@ plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
   slug: smartbear-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Smartbear Rate Limits

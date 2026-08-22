@@ -501,7 +501,7 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 27 more developer resources.'
-random_paper: 135
+random_paper: 13
 score:
   band: developing
   composite: 50.8

@@ -70,7 +70,7 @@ plans:
 - name: Carmd Plans Pricing
   plan_count: 3
   slug: carmd-plans-pricing
-random_paper: 72
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Carmd Rate Limits

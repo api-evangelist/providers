@@ -53,7 +53,7 @@ name: Web Series Quotes Generator
 nav: Providers
 network: true
 overview: Web Series Quotes Generator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 62
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

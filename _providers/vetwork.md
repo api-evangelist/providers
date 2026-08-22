@@ -45,7 +45,7 @@ name: Vetwork
 nav: Providers
 network: true
 overview: Vetwork is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 41
+random_paper: 9
 score:
   band: minimal
   composite: 3.2

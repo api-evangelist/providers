@@ -40,7 +40,7 @@ name: Sabanto
 nav: Providers
 network: true
 overview: Sabanto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Autonomy, Robotics, and Farming.
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

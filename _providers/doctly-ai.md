@@ -121,7 +121,7 @@ plans:
 - name: Doctly Ai Plans Pricing
   plan_count: 3
   slug: doctly-ai-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Doctly Ai Rate Limits

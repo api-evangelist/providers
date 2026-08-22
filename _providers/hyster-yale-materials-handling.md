@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Privacy Policy
   url: https://www.hyster-yale.com/en-us/privacy-policy/
-random_paper: 52
+random_paper: 8
 score:
   band: minimal
   composite: 5.3

@@ -72,7 +72,7 @@ overview: 'Forwardlane is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Forwardlane''s developer surface includes pricing and 6 more developer resources.'
-random_paper: 130
+random_paper: 18
 score:
   band: minimal
   composite: 9.5

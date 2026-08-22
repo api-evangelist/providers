@@ -276,7 +276,7 @@ plans:
 - name: Hootsuite Plans Pricing
   plan_count: 4
   slug: hootsuite-plans-pricing
-random_paper: 102
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Hootsuite Rate Limits

@@ -84,7 +84,7 @@ overview: 'Emidat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Emidat''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 10.0

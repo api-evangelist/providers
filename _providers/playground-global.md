@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Playground Global
 nav: Providers
 network: true
-random_paper: 124
+random_paper: 20
 slug: playground-global
 tags:
 - Venture Capital

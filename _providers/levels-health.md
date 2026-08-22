@@ -102,7 +102,7 @@ plans:
 - name: Levels Health Plans Pricing
   plan_count: 4
   slug: levels-health-plans-pricing
-random_paper: 134
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Levels Health Rate Limits

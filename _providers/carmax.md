@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: CarMax Partners with UVeye to Automate Inspections at ...
   url: https://uveye.com/carmax-partners-with-uveye/
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Carmax Rate Limits

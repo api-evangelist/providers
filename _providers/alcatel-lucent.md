@@ -49,7 +49,7 @@ name: Alcatel-lucent
 nav: Providers
 network: true
 overview: Alcatel-lucent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Networking, Telecom Equipment, and Broadband.
-random_paper: 81
+random_paper: 15
 score:
   band: minimal
   composite: 1.8

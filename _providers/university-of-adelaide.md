@@ -202,7 +202,7 @@ plans:
 - name: University Of Adelaide Plans Pricing
   plan_count: 2
   slug: university-of-adelaide-plans-pricing
-random_paper: 148
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of Adelaide Rate Limits

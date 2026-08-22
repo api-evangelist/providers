@@ -108,7 +108,7 @@ overview: 'Maxima is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Maxima''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 16.3

@@ -65,7 +65,7 @@ name: Bsquare
 nav: Providers
 network: true
 overview: Bsquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Edge Computing, Device Management, and Windows IoT.
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

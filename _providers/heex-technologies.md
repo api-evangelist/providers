@@ -109,7 +109,7 @@ overview: 'Heex Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Heex Technologies'' developer surface includes documentation, getting-started guide, CLI, authentication, changelog, support, and 10 more developer resources.'
-random_paper: 116
+random_paper: 12
 score:
   band: emerging
   composite: 16.7

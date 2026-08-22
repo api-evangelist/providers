@@ -143,7 +143,7 @@ plans:
 - name: Per Vices Plans Pricing
   plan_count: 13
   slug: per-vices-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Per Vices Rate Limits

@@ -57,7 +57,7 @@ name: Chariot Defense
 nav: Providers
 network: true
 overview: Chariot Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Energy, and Power Systems.
-random_paper: 31
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

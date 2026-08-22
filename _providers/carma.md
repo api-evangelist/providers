@@ -92,7 +92,7 @@ overview: 'Carma is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Carma''s developer surface includes support and 11 more developer resources.'
-random_paper: 69
+random_paper: 12
 score:
   band: emerging
   composite: 12.3

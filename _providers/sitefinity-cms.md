@@ -194,7 +194,7 @@ plans:
 - name: Sitefinity Cms Plans Pricing
   plan_count: 1
   slug: sitefinity-cms-plans-pricing
-random_paper: 123
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Sitefinity Cms Rate Limits

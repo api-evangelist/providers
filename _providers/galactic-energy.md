@@ -68,7 +68,7 @@ overview: 'Galactic Energy is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Galactic Energy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

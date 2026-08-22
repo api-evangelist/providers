@@ -72,7 +72,7 @@ overview: 'InventoryQuant is profiled on the [APIs.io](https://apis.io/) network
 
 
   InventoryQuant''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 69
+random_paper: 5
 score:
   band: emerging
   composite: 11.9

@@ -160,7 +160,7 @@ overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis
 
 
   Ikas, IKAS Teknoloji AS''s developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
-random_paper: 84
+random_paper: 7
 scopes:
 - name: Ikas Ikas Teknoloji As Scopes
   scope_count: 10

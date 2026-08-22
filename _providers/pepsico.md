@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: PepsiCo Announces Industry-First AI and Digital Twin ...
   url: https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Pepsico Rate Limits

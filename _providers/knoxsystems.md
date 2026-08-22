@@ -116,7 +116,7 @@ overview: 'Knox Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Knox Systems'' developer surface includes engineering blog, pricing, and 16 more developer resources.'
-random_paper: 48
+random_paper: 1
 score:
   band: emerging
   composite: 19.5

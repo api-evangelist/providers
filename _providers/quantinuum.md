@@ -205,7 +205,7 @@ overview: 'Quantinuum publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 21 more developer resources.'
-random_paper: 68
+random_paper: 19
 score:
   band: emerging
   composite: 20.4

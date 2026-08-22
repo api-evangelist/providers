@@ -177,7 +177,7 @@ overview: 'Everclear publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Everclear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: thin
   composite: 35.3

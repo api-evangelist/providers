@@ -96,7 +96,7 @@ overview: 'Amber Group publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Amber Group''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: emerging
   composite: 19.6

@@ -143,7 +143,7 @@ plans:
 - name: 46Elks Plans Pricing
   plan_count: 2
   slug: 46elks-plans-pricing
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: 46Elks Rate Limits

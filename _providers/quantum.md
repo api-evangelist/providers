@@ -83,7 +83,7 @@ plans:
 - name: Quantum Plans Pricing
   plan_count: 0
   slug: quantum-plans-pricing
-random_paper: 34
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Quantum Rate Limits

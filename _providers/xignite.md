@@ -299,7 +299,7 @@ overview: 'Xignite publishes 22 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xignite''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, API reference, and 19 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: developing
   composite: 41.8

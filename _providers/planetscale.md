@@ -314,7 +314,7 @@ plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
   slug: planetscale-plans-pricing
-random_paper: 121
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Planetscale Rate Limits

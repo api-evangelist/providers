@@ -2613,7 +2613,7 @@ plans:
 - name: Datadog Plans Pricing
   plan_count: 7
   slug: datadog-plans-pricing
-random_paper: 128
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Datadog Rate Limits

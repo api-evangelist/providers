@@ -158,7 +158,7 @@ overview: 'AlgoDriven publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   AlgoDriven''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 24
+random_paper: 17
 score:
   band: thin
   composite: 37.7

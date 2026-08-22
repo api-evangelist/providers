@@ -186,7 +186,7 @@ plans:
 - name: Diffbot Plans Pricing
   plan_count: 3
   slug: diffbot-plans-pricing
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Diffbot Rate Limits

@@ -249,7 +249,7 @@ plans:
 - name: Kno2 Plans Pricing
   plan_count: 2
   slug: kno2-plans-pricing
-random_paper: 80
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Kno2 Rate Limits

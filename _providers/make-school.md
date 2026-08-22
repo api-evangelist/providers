@@ -45,7 +45,7 @@ name: Make School
 nav: Providers
 network: true
 overview: Make School is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Bootcamp, Computer Science, and EdTech.
-random_paper: 64
+random_paper: 15
 score:
   band: minimal
   composite: 0.9

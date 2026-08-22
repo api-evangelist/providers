@@ -89,7 +89,7 @@ overview: 'Casper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Casper''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 42
+random_paper: 8
 scopes:
 - name: Casper Scopes
   scope_count: 4

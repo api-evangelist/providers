@@ -256,7 +256,7 @@ plans:
 - name: Nextroll Plans
   plan_count: 2
   slug: nextroll-plans
-random_paper: 143
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Nextroll Rate Limits

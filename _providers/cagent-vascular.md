@@ -99,7 +99,7 @@ overview: 'Cagent Vascular is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Cagent Vascular''s developer surface includes engineering blog, support, FAQ, and 9 more developer resources.'
-random_paper: 46
+random_paper: 3
 score:
   band: emerging
   composite: 11.2

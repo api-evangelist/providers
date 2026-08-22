@@ -92,7 +92,7 @@ overview: 'TriNet Zenefits publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   TriNet Zenefits'' developer surface includes documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 127
+random_paper: 11
 score:
   band: emerging
   composite: 17.4

@@ -76,7 +76,7 @@ overview: 'Vake is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vake''s developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 10.4

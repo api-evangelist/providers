@@ -182,7 +182,7 @@ overview: 'Black Buffalo publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Black Buffalo''s developer surface includes documentation, authentication, FAQ, engineering blog, support, signup flow, and 25 more developer resources.'
-random_paper: 97
+random_paper: 8
 scopes:
 - name: Black Buffalo Scopes
   scope_count: 4

@@ -80,7 +80,7 @@ overview: 'KiwiCo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   KiwiCo''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 15.8

@@ -57,7 +57,7 @@ name: Guerrilla Mail
 nav: Providers
 network: true
 overview: Guerrilla Mail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 90
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

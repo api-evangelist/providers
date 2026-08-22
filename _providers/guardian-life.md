@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: AM Best Affirms Credit Ratings of Guardian Life Insurance ...
   url: https://news.ambest.com/newscontent.aspx?refnum=242902&altsrc=23
-random_paper: 112
+random_paper: 2
 score:
   band: emerging
   composite: 17.4

@@ -124,7 +124,7 @@ overview: 'DNA Script publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   DNA Script''s developer surface includes FAQ, support, engineering blog, product news, YouTube channel, and 16 more developer resources.'
-random_paper: 119
+random_paper: 5
 score:
   band: emerging
   composite: 22.9

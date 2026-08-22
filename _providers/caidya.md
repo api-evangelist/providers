@@ -96,7 +96,7 @@ overview: 'Caidya is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Caidya''s developer surface includes engineering blog, product news, support, and 8 more developer resources.'
-random_paper: 23
+random_paper: 10
 score:
   band: emerging
   composite: 16.8

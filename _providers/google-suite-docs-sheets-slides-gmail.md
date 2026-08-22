@@ -145,7 +145,7 @@ plans:
 - name: Google Suite Docs Sheets Slides Gmail Plans Pricing
   plan_count: 3
   slug: google-suite-docs-sheets-slides-gmail-plans-pricing
-random_paper: 83
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Google Suite Docs Sheets Slides Gmail Rate Limits

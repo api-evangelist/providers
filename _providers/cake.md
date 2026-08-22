@@ -92,7 +92,7 @@ plans:
 - name: Cake Plans Pricing
   plan_count: 0
   slug: cake-plans-pricing
-random_paper: 106
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Cake Rate Limits

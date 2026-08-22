@@ -184,7 +184,7 @@ overview: 'Agentuity publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Agentuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: developing
   composite: 49.1

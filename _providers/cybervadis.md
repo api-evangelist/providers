@@ -108,7 +108,7 @@ overview: 'CyberVadis is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CyberVadis'' developer surface includes pricing, support, and 14 more developer resources.'
-random_paper: 25
+random_paper: 18
 score:
   band: emerging
   composite: 15.3

@@ -72,7 +72,7 @@ overview: 'Zoog.A.I. Ltd. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Zoog.A.I. Ltd.''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 124
+random_paper: 10
 score:
   band: emerging
   composite: 12.7

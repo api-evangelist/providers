@@ -227,7 +227,7 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: strong
   composite: 55.1

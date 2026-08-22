@@ -107,7 +107,7 @@ overview: 'Coco Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Coco Robotics'' developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: emerging
   composite: 11.7

@@ -69,7 +69,7 @@ name: Kobalt Music
 nav: Providers
 network: true
 overview: Kobalt Music is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Music Publishing, Royalties, and Rights Management.
-random_paper: 139
+random_paper: 6
 score:
   band: minimal
   composite: 6.4

@@ -212,7 +212,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments to acquire TSYS in $21.5B merger
   url: https://www.atmmarketplace.com/articles/global-payments-to-acquire-tsys-in-215b-merger/
-random_paper: 97
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Total System Services Rate Limits

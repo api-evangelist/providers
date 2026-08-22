@@ -68,7 +68,7 @@ overview: 'Crew is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Crew''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 10.5

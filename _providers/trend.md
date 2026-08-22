@@ -159,7 +159,7 @@ plans:
 - name: Trend Plans Pricing
   plan_count: 4
   slug: trend-plans-pricing
-random_paper: 94
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Trend Rate Limits

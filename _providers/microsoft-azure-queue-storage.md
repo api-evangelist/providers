@@ -131,7 +131,7 @@ plans:
 - name: Microsoft Azure Queue Storage Plans Pricing
   plan_count: 3
   slug: microsoft-azure-queue-storage-plans-pricing
-random_paper: 143
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Queue Storage Rate Limits

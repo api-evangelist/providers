@@ -151,7 +151,7 @@ plans:
 - name: Voiceops Plans Pricing
   plan_count: 0
   slug: voiceops-plans-pricing
-random_paper: 127
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Voiceops Rate Limits

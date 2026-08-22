@@ -97,7 +97,7 @@ plans:
 - name: Leiden Plans Pricing
   plan_count: 2
   slug: leiden-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Leiden Rate Limits

@@ -49,7 +49,7 @@ name: Awake
 nav: Providers
 network: true
 overview: Awake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Detection and Response, Network Security, and Threat Detection.
-random_paper: 74
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

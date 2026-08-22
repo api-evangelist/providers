@@ -70,7 +70,7 @@ plans:
 - name: Mettler Toledo Plans Pricing
   plan_count: 1
   slug: mettler-toledo-plans-pricing
-random_paper: 116
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Mettler Toledo Rate Limits

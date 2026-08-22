@@ -204,7 +204,7 @@ overview: 'Axle Energy publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 78
+random_paper: 8
 score:
   band: developing
   composite: 39.9

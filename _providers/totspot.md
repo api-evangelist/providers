@@ -53,7 +53,7 @@ name: TotSpot
 nav: Providers
 network: true
 overview: TotSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Kids Fashion, Resale, Marketplace, and Mobile Commerce.
-random_paper: 52
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

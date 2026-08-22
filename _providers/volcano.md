@@ -182,7 +182,7 @@ plans:
 - name: Volcano Plans Pricing
   plan_count: 1
   slug: volcano-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Volcano Rate Limits

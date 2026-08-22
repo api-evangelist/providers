@@ -49,7 +49,7 @@ name: Gritstone Oncology
 nav: Providers
 network: true
 overview: Gritstone Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Oncology, Biotechnology, and Cancer Immunotherapy.
-random_paper: 122
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

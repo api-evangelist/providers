@@ -108,7 +108,7 @@ plans:
 - name: Kaavio Plans Pricing
   plan_count: 0
   slug: kaavio-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Kaavio Rate Limits

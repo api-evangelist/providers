@@ -104,7 +104,7 @@ overview: 'Homa Games is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Homa Games'' developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 97
+random_paper: 4
 score:
   band: emerging
   composite: 19.7

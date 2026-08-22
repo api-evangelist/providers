@@ -196,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: Financials - Quarterly Results - Unum Group - Investor Relations
   url: https://investors.unum.com/financials/quarterly-results/default.aspx
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Unum Rate Limits

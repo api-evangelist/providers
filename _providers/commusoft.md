@@ -206,7 +206,7 @@ plans:
 - name: Commusoft Plans Pricing
   plan_count: 5
   slug: commusoft-plans-pricing
-random_paper: 95
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Commusoft Rate Limits

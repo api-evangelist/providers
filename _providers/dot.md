@@ -391,7 +391,7 @@ plans:
 - name: Dot Plans Pricing
   plan_count: 1
   slug: dot-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Dot Rate Limits

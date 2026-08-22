@@ -157,7 +157,7 @@ plans:
 - name: Ground Plans Pricing
   plan_count: 2
   slug: ground-plans-pricing
-random_paper: 59
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Ground Rate Limits

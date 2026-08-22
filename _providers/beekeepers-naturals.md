@@ -134,7 +134,7 @@ overview: 'Beekeeper''s Naturals publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Beekeeper''s Naturals'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 33
+random_paper: 17
 scopes:
 - name: Beekeepers Naturals Scopes
   scope_count: 4

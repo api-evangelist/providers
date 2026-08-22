@@ -85,7 +85,7 @@ plans:
 - name: B2Find Eudat Eu Plans Pricing
   plan_count: 1
   slug: b2find-eudat-eu-plans-pricing
-random_paper: 63
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: B2Find Eudat Eu Rate Limits

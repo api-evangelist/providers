@@ -292,7 +292,7 @@ plans:
 - name: Highnote Plans Pricing
   plan_count: 2
   slug: highnote-plans-pricing
-random_paper: 109
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits

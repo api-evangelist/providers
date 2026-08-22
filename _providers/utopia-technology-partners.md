@@ -45,7 +45,7 @@ name: Utopia Technology Partners
 nav: Providers
 network: true
 overview: Utopia Technology Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Help Desk, IT Support, Customer Service, and Enterprise Software.
-random_paper: 29
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

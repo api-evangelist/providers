@@ -40,7 +40,7 @@ name: Calixa Therapeutics
 nav: Providers
 network: true
 overview: Calixa Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Antibiotics, and Anti-Infectives.
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 2.2

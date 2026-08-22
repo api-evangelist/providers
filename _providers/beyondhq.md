@@ -84,7 +84,7 @@ overview: 'BeyondHQ is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BeyondHQ''s developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 113
+random_paper: 18
 score:
   band: emerging
   composite: 11.7

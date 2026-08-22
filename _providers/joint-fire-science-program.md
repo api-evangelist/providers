@@ -60,7 +60,7 @@ overview: 'Joint Fire Science Program is profiled on the [APIs.io](https://apis.
 
 
   Joint Fire Science Program''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 62
+random_paper: 12
 score:
   band: minimal
   composite: 4.4

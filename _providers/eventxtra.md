@@ -215,7 +215,7 @@ plans:
 - name: Eventxtra Plans Pricing
   plan_count: 4
   slug: eventxtra-plans-pricing
-random_paper: 99
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Eventxtra Rate Limits

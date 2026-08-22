@@ -143,7 +143,7 @@ overview: 'Carbyne is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Carbyne''s developer surface includes engineering blog, support, legal docs, authentication, and 23 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: emerging
   composite: 21.3

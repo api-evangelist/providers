@@ -383,7 +383,7 @@ plans:
 - name: Battle Net Plans Pricing
   plan_count: 1
   slug: battle-net-plans-pricing
-random_paper: 114
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Battle Net Rate Limits

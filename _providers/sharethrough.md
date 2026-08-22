@@ -172,7 +172,7 @@ plans:
 - name: Sharethrough Plans Pricing
   plan_count: 2
   slug: sharethrough-plans-pricing
-random_paper: 108
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Sharethrough Rate Limits

@@ -40,7 +40,7 @@ name: AMCC (Applied Micro Circuits Corporation)
 nav: Providers
 network: true
 overview: AMCC (Applied Micro Circuits Corporation) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, ASIC, and Networking.
-random_paper: 53
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

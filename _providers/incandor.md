@@ -61,7 +61,7 @@ overview: 'Incandor is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Incandor''s developer surface includes support and 3 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 6.3

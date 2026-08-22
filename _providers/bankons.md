@@ -49,7 +49,7 @@ name: BankOns
 nav: Providers
 network: true
 overview: BankOns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Financial Services, and Fintech.
-random_paper: 3
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

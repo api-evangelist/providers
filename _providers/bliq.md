@@ -64,7 +64,7 @@ overview: 'Bliq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bliq''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: minimal
   composite: 9.2

@@ -307,7 +307,7 @@ overview: 'Didit publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Didit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 79
+random_paper: 1
 scopes:
 - name: Didit Scopes
   scope_count: 5

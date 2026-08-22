@@ -133,7 +133,7 @@ overview: 'Snaptrude publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Snaptrude''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 14 more developer resources.'
-random_paper: 88
+random_paper: 16
 score:
   band: thin
   composite: 26.6

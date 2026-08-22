@@ -410,7 +410,7 @@ plans:
 - name: Tibber Plans Pricing
   plan_count: 4
   slug: tibber-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Tibber Rate Limits

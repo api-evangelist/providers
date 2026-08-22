@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: 'Stock Of The Day: Quanta Services Forges New Buy Point'
   url: https://www.investors.com/research/ibd-stock-of-the-day/quanta-services-stock-buy-point/
-random_paper: 73
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

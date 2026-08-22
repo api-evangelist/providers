@@ -113,7 +113,7 @@ overview: 'DiscGenics is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DiscGenics'' developer surface includes engineering blog, product news, and 13 more developer resources.'
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 10.3

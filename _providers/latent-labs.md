@@ -137,7 +137,7 @@ overview: 'Latent Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Latent Labs'' developer surface includes documentation, getting-started guide, changelog, and 20 more developer resources.'
-random_paper: 68
+random_paper: 19
 score:
   band: minimal
   composite: 9.3

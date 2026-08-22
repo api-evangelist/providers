@@ -238,7 +238,7 @@ overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: developing
   composite: 52.5

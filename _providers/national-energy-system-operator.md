@@ -120,7 +120,7 @@ plans:
 - name: National Energy System Operator Plans Pricing
   plan_count: 3
   slug: national-energy-system-operator-plans-pricing
-random_paper: 63
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: National Energy System Operator Rate Limits

@@ -183,7 +183,7 @@ overview: 'Universal Music Group publishes 5 APIs on the [APIs.io](https://apis.
 
 
   Universal Music Group''s developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 91
+random_paper: 14
 score:
   band: minimal
   composite: 8.2

@@ -80,7 +80,7 @@ overview: 'Pomelo Care is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Pomelo Care''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: emerging
   composite: 12.0

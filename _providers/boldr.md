@@ -72,7 +72,7 @@ overview: 'Boldr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Boldr''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 84
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

@@ -179,7 +179,7 @@ overview: 'Oximy publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Oximy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 119
+random_paper: 20
 score:
   band: developing
   composite: 46.3

@@ -172,7 +172,7 @@ overview: 'Cardstream publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cardstream''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, changelog, sandbox, and 22 more developer resources.'
-random_paper: 19
+random_paper: 12
 score:
   band: developing
   composite: 50.9

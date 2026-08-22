@@ -149,7 +149,7 @@ plans:
 - name: Minute Media Plans Pricing
   plan_count: 0
   slug: minute-media-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Minute Media Rate Limits

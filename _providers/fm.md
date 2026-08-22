@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: FM in the News
   url: https://newsroom.fmglobal.com/news
-random_paper: 62
+random_paper: 1
 score:
   band: minimal
   composite: 2.6

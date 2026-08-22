@@ -80,7 +80,7 @@ overview: 'Cardboard is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cardboard''s developer surface includes pricing, signup flow, changelog, and 6 more developer resources.'
-random_paper: 36
+random_paper: 6
 score:
   band: emerging
   composite: 16.0

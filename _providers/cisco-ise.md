@@ -451,7 +451,7 @@ plans:
 - name: Cisco Ise Plans Pricing
   plan_count: 6
   slug: cisco-ise-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Cisco Ise Rate Limits

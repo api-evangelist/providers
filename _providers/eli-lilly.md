@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent ...
   url: https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 3.2

@@ -76,7 +76,7 @@ overview: 'The Exploration Company is profiled on the [APIs.io](https://apis.io/
 
 
   The Exploration Company''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 6.4

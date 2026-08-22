@@ -91,7 +91,7 @@ overview: 'Black Unicorn Factory is profiled on the [APIs.io](https://apis.io/) 
 
 
   Black Unicorn Factory''s developer surface includes engineering blog, product news, support, signup flow, and 10 more developer resources.'
-random_paper: 39
+random_paper: 4
 score:
   band: emerging
   composite: 14.0

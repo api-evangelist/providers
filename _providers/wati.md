@@ -141,7 +141,7 @@ overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 139
+random_paper: 17
 score:
   band: thin
   composite: 33.3

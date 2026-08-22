@@ -90,7 +90,7 @@ name: Bunge
 nav: Providers
 network: true
 overview: Bunge publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agribusiness, Food, Manufacturing, Commodities, and Oilseeds.
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 5.9

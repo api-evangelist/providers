@@ -49,7 +49,7 @@ name: Qualified
 nav: Providers
 network: true
 overview: Qualified is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 54
+random_paper: 3
 score:
   band: minimal
   composite: 3.5

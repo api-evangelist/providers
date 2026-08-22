@@ -347,7 +347,7 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: developing
   composite: 45.2

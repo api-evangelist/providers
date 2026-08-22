@@ -156,7 +156,7 @@ plans:
 - name: Firebolt Plans Pricing
   plan_count: 3
   slug: firebolt-plans-pricing
-random_paper: 110
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Firebolt Rate Limits

@@ -64,7 +64,7 @@ overview: 'The Human Utility is profiled on the [APIs.io](https://apis.io/) netw
 
 
   The Human Utility''s developer surface includes support and 4 more developer resources.'
-random_paper: 97
+random_paper: 14
 score:
   band: minimal
   composite: 7.5

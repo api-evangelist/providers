@@ -211,7 +211,7 @@ plans:
 - name: Enigma Analytics Plans Pricing
   plan_count: 4
   slug: enigma-analytics-plans-pricing
-random_paper: 148
+random_paper: 0
 rate_limits:
 - limit_count: 12
   name: Enigma Analytics Rate Limits

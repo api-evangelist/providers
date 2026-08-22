@@ -253,7 +253,7 @@ overview: 'CyCognito publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CyCognito''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 81
+random_paper: 9
 score:
   band: developing
   composite: 48.0

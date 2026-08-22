@@ -81,7 +81,7 @@ press:
 - date: ''
   title: Nortek Security & Control to Present at CONNECTIONS
   url: https://www.parksassociates.com/blogs/industrypressreleases/nortek-security
-random_paper: 63
+random_paper: 8
 score:
   band: minimal
   composite: 5.3

@@ -72,7 +72,7 @@ overview: 'ING publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ING''s developer surface includes developer portal and 5 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 4.6

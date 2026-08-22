@@ -72,7 +72,7 @@ overview: 'Slauson & Co. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Slauson & Co.''s developer surface includes YouTube channel and 6 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -127,7 +127,7 @@ overview: 'Arbital Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Arbital Health''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
-random_paper: 69
+random_paper: 3
 scopes:
 - name: Arbital Health Scopes
   scope_count: 3

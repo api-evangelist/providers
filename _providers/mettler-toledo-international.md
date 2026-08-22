@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: 'retaawards #ehi #ai #artificialintelligence #retail #innovation'
   url: https://www.linkedin.com/posts/mettlertoledo_retaawards-ehi-ai-activity-7432001584852701184-uPVL
-random_paper: 71
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

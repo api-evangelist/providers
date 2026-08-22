@@ -168,7 +168,7 @@ overview: 'fiddler.ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   fiddler.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
-random_paper: 38
+random_paper: 8
 score:
   band: developing
   composite: 47.8

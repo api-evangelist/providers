@@ -137,7 +137,7 @@ plans:
 - name: Shipday Plans Pricing
   plan_count: 5
   slug: shipday-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Shipday Rate Limits

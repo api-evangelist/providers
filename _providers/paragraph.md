@@ -268,7 +268,7 @@ plans:
 - name: Paragraph Plans Pricing
   plan_count: 5
   slug: paragraph-plans-pricing
-random_paper: 56
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Paragraph Rate Limits

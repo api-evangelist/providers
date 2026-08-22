@@ -57,7 +57,7 @@ name: Grace
 nav: Providers
 network: true
 overview: Grace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Fintech, and Luxury.
-random_paper: 67
+random_paper: 10
 score:
   band: minimal
   composite: 4.7

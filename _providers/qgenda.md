@@ -328,7 +328,7 @@ overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: developing
   composite: 53.9

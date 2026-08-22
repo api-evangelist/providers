@@ -201,7 +201,7 @@ overview: 'GTE publishes 6 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   GTE''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 22
+random_paper: 5
 score:
   band: thin
   composite: 33.9

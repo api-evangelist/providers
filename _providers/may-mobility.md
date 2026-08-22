@@ -174,7 +174,7 @@ overview: 'May Mobility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   May Mobility''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
-random_paper: 53
+random_paper: 6
 scopes:
 - name: May Mobility Scopes
   scope_count: 0

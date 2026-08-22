@@ -64,7 +64,7 @@ overview: 'Pop.in is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pop.in''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 103
+random_paper: 4
 score:
   band: emerging
   composite: 11.8

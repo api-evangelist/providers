@@ -92,7 +92,7 @@ overview: 'Startup Buffer is profiled on the [APIs.io](https://apis.io/) network
 
 
   Startup Buffer''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 125
+random_paper: 17
 score:
   band: emerging
   composite: 12.0

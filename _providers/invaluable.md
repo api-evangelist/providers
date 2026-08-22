@@ -84,7 +84,7 @@ overview: 'Invaluable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Invaluable''s developer surface includes API reference, support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 16
+random_paper: 9
 score:
   band: emerging
   composite: 15.3

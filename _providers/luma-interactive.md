@@ -40,7 +40,7 @@ name: Luma Interactive
 nav: Providers
 network: true
 overview: Luma Interactive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 19
+random_paper: 20
 score:
   band: minimal
   composite: 3.2

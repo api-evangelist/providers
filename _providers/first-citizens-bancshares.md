@@ -176,7 +176,7 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
 
 
   First Citizens BancShares'' developer surface includes engineering blog, signup flow, authentication, sandbox, documentation, support, and 17 more developer resources.'
-random_paper: 32
+random_paper: 3
 score:
   band: thin
   composite: 36.1

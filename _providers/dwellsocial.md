@@ -57,7 +57,7 @@ name: DwellSocial
 nav: Providers
 network: true
 overview: DwellSocial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Drink, Food Delivery, Restaurants, and Community.
-random_paper: 128
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -66,7 +66,7 @@ name: Zocomputer
 nav: Providers
 network: true
 overview: 'Zocomputer publishes 2 APIs on the [APIs.io](https://apis.io/) network: AI API and Personas API. Tagged areas include Company.'
-random_paper: 69
+random_paper: 20
 score:
   band: emerging
   composite: 18.4

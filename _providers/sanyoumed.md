@@ -49,7 +49,7 @@ name: sanyoumed
 nav: Providers
 network: true
 overview: sanyoumed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 87
+random_paper: 15
 score:
   band: minimal
   composite: 3.2

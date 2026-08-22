@@ -45,7 +45,7 @@ name: Solvvy
 nav: Providers
 network: true
 overview: Solvvy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Conversational AI, Customer Support, and Automation.
-random_paper: 95
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

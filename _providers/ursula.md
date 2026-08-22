@@ -53,7 +53,7 @@ name: Ursula
 nav: Providers
 network: true
 overview: Ursula is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, AI Characters, and Gaming.
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

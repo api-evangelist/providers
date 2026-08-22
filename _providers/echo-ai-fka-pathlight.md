@@ -86,7 +86,7 @@ plans:
 - name: Echo Ai Fka Pathlight Plans Pricing
   plan_count: 0
   slug: echo-ai-fka-pathlight-plans-pricing
-random_paper: 86
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Echo Ai Fka Pathlight Rate Limits

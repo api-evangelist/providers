@@ -121,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: BD Helps Scientists Advance Immunology and Cancer ...
   url: https://www.prnewswire.com/news-releases/bd-helps-scientists-advance-immunology-and-cancer-research-with-ai-powered-insights-and-automation-302668624.html
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Becton Dickinson Rate Limits

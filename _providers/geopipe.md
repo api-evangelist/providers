@@ -80,7 +80,7 @@ overview: 'Geopipe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Geopipe''s developer surface includes signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: minimal
   composite: 9.3

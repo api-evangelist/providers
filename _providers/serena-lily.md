@@ -133,7 +133,7 @@ overview: 'Serena & Lily is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Serena & Lily''s developer surface includes support, signup flow, and 18 more developer resources.'
-random_paper: 82
+random_paper: 12
 score:
   band: emerging
   composite: 13.1

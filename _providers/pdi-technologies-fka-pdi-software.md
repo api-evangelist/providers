@@ -72,7 +72,7 @@ overview: 'PDI Technologies (fka PDI Software) is profiled on the [APIs.io](http
 
 
   PDI Technologies (fka PDI Software)''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: minimal
   composite: 9.8

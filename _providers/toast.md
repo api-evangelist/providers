@@ -1235,7 +1235,7 @@ plans:
 - name: Toast Plans Pricing
   plan_count: 1
   slug: toast-plans-pricing
-random_paper: 108
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Toast Rate Limits

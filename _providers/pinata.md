@@ -137,7 +137,7 @@ plans:
 - name: Pinata Plans Pricing
   plan_count: 5
   slug: pinata-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Pinata Rate Limits

@@ -294,7 +294,7 @@ overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fordefi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 24 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: strong
   composite: 56.7

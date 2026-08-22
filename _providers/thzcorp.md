@@ -84,7 +84,7 @@ overview: 'Cambridge Terahertz is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cambridge Terahertz''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: minimal
   composite: 8.3

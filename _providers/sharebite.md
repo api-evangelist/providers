@@ -128,7 +128,7 @@ overview: 'Sharebite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sharebite''s developer surface includes support, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: thin
   composite: 26.8

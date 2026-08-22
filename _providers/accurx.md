@@ -92,7 +92,7 @@ overview: 'Accurx is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Accurx''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 16.1

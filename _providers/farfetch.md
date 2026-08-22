@@ -49,7 +49,7 @@ name: Farfetch
 nav: Providers
 network: true
 overview: Farfetch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Ecommerce, Fashion, and Luxury.
-random_paper: 90
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

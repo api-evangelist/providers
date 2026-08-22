@@ -282,7 +282,7 @@ overview: 'BlindInsight publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   BlindInsight''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, signup flow, and 18 more developer resources.'
-random_paper: 87
+random_paper: 19
 score:
   band: developing
   composite: 39.7

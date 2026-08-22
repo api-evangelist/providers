@@ -84,7 +84,7 @@ overview: 'Amer Sports is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Amer Sports'' developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 106
+random_paper: 15
 score:
   band: emerging
   composite: 11.3

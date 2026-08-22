@@ -206,7 +206,7 @@ overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 45
+random_paper: 11
 scopes:
 - name: Vidmob Scopes
   scope_count: 12

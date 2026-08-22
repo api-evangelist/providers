@@ -80,7 +80,7 @@ overview: 'Skyryse is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Skyryse''s developer surface includes engineering blog, product news, support, and 8 more developer resources.'
-random_paper: 49
+random_paper: 17
 score:
   band: emerging
   composite: 11.7

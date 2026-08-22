@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Anchor Health Properties Engaged to Develop Tampa ...
   url: https://www.tgh.org/news/tgh-press-releases/2020/october/anchor-health-properties-engaged-to-develop-tampa-general-hospital-and-kindred-healthcares-first
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 9.0

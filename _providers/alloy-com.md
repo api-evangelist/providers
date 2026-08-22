@@ -377,7 +377,7 @@ plans:
 - name: Alloy Plans Pricing
   plan_count: 2
   slug: alloy-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Alloy Com Rate Limits

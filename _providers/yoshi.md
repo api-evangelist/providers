@@ -68,7 +68,7 @@ overview: 'Yoshi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Yoshi''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: minimal
   composite: 6.4

@@ -76,7 +76,7 @@ overview: 'Aspect Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Aspect Health''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 123
+random_paper: 13
 score:
   band: emerging
   composite: 11.2

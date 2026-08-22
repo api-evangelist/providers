@@ -92,7 +92,7 @@ overview: 'Hearth is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hearth''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 17.3

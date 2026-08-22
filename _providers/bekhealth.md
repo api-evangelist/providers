@@ -142,7 +142,7 @@ overview: 'BEKHealth is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BEKHealth''s developer surface includes engineering blog, support, pricing, FAQ, authentication, and 17 more developer resources.'
-random_paper: 42
+random_paper: 12
 scopes:
 - name: Bekhealth Scopes
   scope_count: 0

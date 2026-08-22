@@ -40,7 +40,7 @@ name: Silver Tail
 nav: Providers
 network: true
 overview: Silver Tail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Fraud Detection, Anti-Fraud, and Predictive Analytics.
-random_paper: 89
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

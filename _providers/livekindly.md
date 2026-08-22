@@ -235,7 +235,7 @@ overview: 'LIVEKINDLY publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 40
+random_paper: 12
 scopes:
 - name: Livekindly Scopes
   scope_count: 1

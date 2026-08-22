@@ -159,7 +159,7 @@ plans:
 - name: Botpress Plans Pricing
   plan_count: 6
   slug: botpress-plans-pricing
-random_paper: 137
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Botpress Rate Limits

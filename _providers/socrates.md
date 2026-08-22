@@ -49,7 +49,7 @@ name: Socrates
 nav: Providers
 network: true
 overview: Socrates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, AI Assistant, Employee Experience, and Conversational AI.
-random_paper: 123
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

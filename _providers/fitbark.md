@@ -163,7 +163,7 @@ overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 13 more developer resources.'
-random_paper: 143
+random_paper: 4
 scopes:
 - name: Fitbark Scopes
   scope_count: 1

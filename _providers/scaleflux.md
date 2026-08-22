@@ -103,7 +103,7 @@ overview: 'ScaleFlux is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ScaleFlux''s developer surface includes CLI, engineering blog, product news, FAQ, support, and 12 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: emerging
   composite: 12.9

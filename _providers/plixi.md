@@ -109,7 +109,7 @@ plans:
 - name: Plixi Plans Pricing
   plan_count: 3
   slug: plixi-plans-pricing
-random_paper: 103
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Plixi Rate Limits

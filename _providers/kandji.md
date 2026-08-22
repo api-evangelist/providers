@@ -231,7 +231,7 @@ overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endp
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Kandji Rate Limits

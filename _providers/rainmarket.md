@@ -62,7 +62,7 @@ name: Rainmarket
 nav: Providers
 network: true
 overview: Rainmarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trade Intelligence, Financial Markets, Supply Chain, and Data.
-random_paper: 27
+random_paper: 20
 score:
   band: minimal
   composite: 9.2

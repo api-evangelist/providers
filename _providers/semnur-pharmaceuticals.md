@@ -53,7 +53,7 @@ name: Semnur Pharmaceuticals
 nav: Providers
 network: true
 overview: Semnur Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biopharmaceutical, Healthcare, and Pain Management.
-random_paper: 66
+random_paper: 12
 score:
   band: minimal
   composite: 2.2

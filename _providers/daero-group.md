@@ -56,7 +56,7 @@ overview: 'Daero Group is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Daero Group''s developer surface includes support and 2 more developer resources.'
-random_paper: 82
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

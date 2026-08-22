@@ -118,7 +118,7 @@ plans:
 - name: Cultfit Plans Pricing
   plan_count: 0
   slug: cultfit-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Cultfit Rate Limits

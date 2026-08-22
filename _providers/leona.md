@@ -80,7 +80,7 @@ overview: 'Leona is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Leona''s developer surface includes signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 80
+random_paper: 2
 score:
   band: emerging
   composite: 14.2

@@ -628,7 +628,7 @@ overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
-random_paper: 104
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits

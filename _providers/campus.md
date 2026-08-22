@@ -88,7 +88,7 @@ overview: 'Campus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Campus'' developer surface includes engineering blog, pricing, and 9 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 15.2

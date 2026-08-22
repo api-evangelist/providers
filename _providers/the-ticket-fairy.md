@@ -151,7 +151,7 @@ plans:
 - name: The Ticket Fairy Plans Pricing
   plan_count: 0
   slug: the-ticket-fairy-plans-pricing
-random_paper: 104
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: The Ticket Fairy Rate Limits

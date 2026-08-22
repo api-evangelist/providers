@@ -128,7 +128,7 @@ plans:
 - name: Bolt Eu Plans Pricing
   plan_count: 3
   slug: bolt-eu-plans-pricing
-random_paper: 100
+random_paper: 3
 score:
   band: thin
   composite: 32.5

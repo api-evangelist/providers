@@ -69,7 +69,7 @@ overview: 'Tejas Networks is profiled on the [APIs.io](https://apis.io/) network
 
 
   Tejas Networks'' developer surface includes documentation, engineering blog, support, and 3 more developer resources.'
-random_paper: 132
+random_paper: 3
 score:
   band: minimal
   composite: 8.1

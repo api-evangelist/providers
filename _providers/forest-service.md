@@ -57,7 +57,7 @@ name: Forest Service
 nav: Providers
 network: true
 overview: Forest Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Federal Government, and Forests.
-random_paper: 116
+random_paper: 8
 score:
   band: minimal
   composite: 1.9

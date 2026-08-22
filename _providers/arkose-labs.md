@@ -175,7 +175,7 @@ overview: 'Arkose Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arkose Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: thin
   composite: 38.5

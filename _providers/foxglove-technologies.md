@@ -364,7 +364,7 @@ plans:
 - name: Foxglove Technologies Plans Pricing
   plan_count: 4
   slug: foxglove-technologies-plans-pricing
-random_paper: 117
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Foxglove Technologies Rate Limits

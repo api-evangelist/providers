@@ -181,7 +181,7 @@ overview: 'Chronicle publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Chronicle''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 57
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Chronicle Rate Limits

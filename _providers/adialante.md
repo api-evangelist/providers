@@ -53,7 +53,7 @@ name: Adialante
 nav: Providers
 network: true
 overview: Adialante is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, MRI, Cancer Screening, and Healthcare.
-random_paper: 37
+random_paper: 7
 score:
   band: minimal
   composite: 2.2

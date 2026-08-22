@@ -172,7 +172,7 @@ plans:
 - name: Catnip Plans Pricing
   plan_count: 2
   slug: catnip-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Catnip Rate Limits

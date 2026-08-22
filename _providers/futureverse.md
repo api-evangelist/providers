@@ -181,7 +181,7 @@ plans:
 - name: Futureverse Plans Pricing
   plan_count: 0
   slug: futureverse-plans-pricing
-random_paper: 24
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Futureverse Rate Limits

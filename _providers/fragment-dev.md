@@ -120,7 +120,7 @@ plans:
 - name: Fragment Dev Plans Pricing
   plan_count: 3
   slug: fragment-dev-plans-pricing
-random_paper: 24
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Fragment Dev Rate Limits

@@ -244,7 +244,7 @@ overview: 'OpenSERP publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 37 more developer resources.'
-random_paper: 131
+random_paper: 15
 score:
   band: developing
   composite: 50.9

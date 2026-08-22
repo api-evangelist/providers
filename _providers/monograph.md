@@ -84,7 +84,7 @@ overview: 'Monograph is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monograph''s developer surface includes support, engineering blog, pricing, getting-started guide, changelog, and 5 more developer resources.'
-random_paper: 77
+random_paper: 5
 score:
   band: emerging
   composite: 18.5

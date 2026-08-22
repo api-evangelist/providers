@@ -112,7 +112,7 @@ plans:
 - name: Kitex Plans Pricing
   plan_count: 3
   slug: kitex-plans-pricing
-random_paper: 102
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Kitex Rate Limits

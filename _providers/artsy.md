@@ -103,7 +103,7 @@ plans:
 - name: Artsy Plans Pricing
   plan_count: 3
   slug: artsy-plans-pricing
-random_paper: 116
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Artsy Rate Limits

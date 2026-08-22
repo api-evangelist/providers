@@ -49,7 +49,7 @@ name: Keys
 nav: Providers
 network: true
 overview: Keys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 146
+random_paper: 3
 score:
   band: minimal
   composite: 3.2

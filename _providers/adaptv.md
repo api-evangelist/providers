@@ -45,7 +45,7 @@ name: Adap.tv
 nav: Providers
 network: true
 overview: Adap.tv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Video Advertising, and Programmatic.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

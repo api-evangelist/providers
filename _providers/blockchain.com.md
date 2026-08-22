@@ -287,7 +287,7 @@ overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 62
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Blockchain.Com Rate Limits

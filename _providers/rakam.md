@@ -121,7 +121,7 @@ overview: 'rakam is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   rakam''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 77
+random_paper: 20
 score:
   band: emerging
   composite: 24.5

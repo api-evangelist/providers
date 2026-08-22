@@ -149,7 +149,7 @@ overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 11 more developer resources.'
-random_paper: 115
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Aquabyte Rate Limits

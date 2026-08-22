@@ -92,7 +92,7 @@ overview: 'Pave is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pave''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: emerging
   composite: 18.2

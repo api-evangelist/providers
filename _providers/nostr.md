@@ -129,7 +129,7 @@ plans:
 - name: Nostr Plans Pricing
   plan_count: 1
   slug: nostr-plans-pricing
-random_paper: 119
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Nostr Rate Limits

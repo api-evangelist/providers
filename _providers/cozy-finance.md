@@ -104,7 +104,7 @@ overview: 'Cozy Finance is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cozy Finance''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 30
+random_paper: 4
 score:
   band: emerging
   composite: 19.6

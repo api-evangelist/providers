@@ -73,7 +73,7 @@ name: Theorem
 nav: Providers
 network: true
 overview: Theorem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit Underwriting, Machine Learning, and Consumer Lending.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

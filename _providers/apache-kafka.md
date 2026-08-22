@@ -567,7 +567,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 122
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits

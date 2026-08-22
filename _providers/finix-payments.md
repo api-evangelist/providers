@@ -402,7 +402,7 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
 
 
   Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 127
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Finix Payments Rate Limits

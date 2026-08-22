@@ -256,7 +256,7 @@ overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 22 more developer resources.'
-random_paper: 54
+random_paper: 3
 scopes:
 - name: Clarifeye Scopes
   scope_count: 3

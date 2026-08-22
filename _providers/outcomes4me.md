@@ -68,7 +68,7 @@ overview: 'Outcomes4Me is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Outcomes4Me''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 98
+random_paper: 7
 score:
   band: minimal
   composite: 10.5

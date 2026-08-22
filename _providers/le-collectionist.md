@@ -60,7 +60,7 @@ overview: 'Le Collectionist is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Le Collectionist''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 19
+random_paper: 20
 score:
   band: minimal
   composite: 6.4

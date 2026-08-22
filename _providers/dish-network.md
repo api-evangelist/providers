@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: DISH Selects Palo Alto Networks to Help Secure 5G Network
   url: https://www.paloaltonetworks.com/company/press/2021/dish-selects-palo-alto-networks-to-help-secure-5g-network
-random_paper: 55
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

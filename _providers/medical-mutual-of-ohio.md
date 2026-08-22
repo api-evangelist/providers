@@ -73,7 +73,7 @@ press:
 - date: ''
   title: Medical Mutual of Ohio
   url: https://www.medmutual.com/-/media/MedMutual/Files/Employers/FINAL-2021-Plan-Brochure-SW-OH-73-899
-random_paper: 76
+random_paper: 20
 score:
   band: minimal
   composite: 1.4

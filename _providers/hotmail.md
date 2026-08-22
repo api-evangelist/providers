@@ -53,7 +53,7 @@ name: Hotmail
 nav: Providers
 network: true
 overview: Hotmail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Webmail, Consumer, and Communication.
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

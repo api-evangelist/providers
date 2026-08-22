@@ -53,7 +53,7 @@ name: GETPing
 nav: Providers
 network: true
 overview: GETPing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

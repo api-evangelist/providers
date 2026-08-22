@@ -92,7 +92,7 @@ overview: 'Etched is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Etched''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

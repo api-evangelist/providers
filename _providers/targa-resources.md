@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: 'Targa Resources (TRGP): Dominating the Permian Basin ...'
   url: https://finance.yahoo.com/news/targa-resources-trgp-dominating-permian-212533352.html
-random_paper: 69
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

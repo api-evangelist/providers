@@ -49,7 +49,7 @@ name: DCS-Touristik (DCS Travel)
 nav: Providers
 network: true
 overview: DCS-Touristik (DCS Travel) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Cruises, and River Cruises.
-random_paper: 119
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

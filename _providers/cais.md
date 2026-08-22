@@ -148,7 +148,7 @@ overview: 'CAIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CAIS''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 118
+random_paper: 17
 scopes:
 - name: Cais Scopes
   scope_count: 12

@@ -207,7 +207,7 @@ plans:
 - name: Act On Plans Pricing
   plan_count: 2
   slug: act-on-plans-pricing
-random_paper: 131
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Act On Rate Limits

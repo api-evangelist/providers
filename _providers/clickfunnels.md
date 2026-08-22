@@ -250,7 +250,7 @@ plans:
 - name: Clickfunnels Plans Pricing
   plan_count: 4
   slug: clickfunnels-plans-pricing
-random_paper: 89
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Clickfunnels Rate Limits

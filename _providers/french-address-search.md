@@ -64,7 +64,7 @@ overview: 'French Address Search publishes 1 API on the [APIs.io](https://apis.i
 
 
   French Address Search''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: minimal
   composite: 4.6

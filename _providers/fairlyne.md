@@ -76,7 +76,7 @@ overview: 'Fairlyne is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fairlyne''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 10.6

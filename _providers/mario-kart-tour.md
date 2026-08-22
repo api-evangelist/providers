@@ -57,7 +57,7 @@ name: Mario Kart Tour
 nav: Providers
 network: true
 overview: Mario Kart Tour publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 28
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

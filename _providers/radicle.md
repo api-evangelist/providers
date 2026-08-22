@@ -204,7 +204,7 @@ overview: 'Radicle publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Radicle''s developer surface includes documentation, getting-started guide, API reference, engineering blog, FAQ, support, CLI, and 20 more developer resources.'
-random_paper: 128
+random_paper: 10
 score:
   band: developing
   composite: 46.5

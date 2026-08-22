@@ -61,7 +61,7 @@ name: Culinarybrands
 nav: Providers
 network: true
 overview: Culinarybrands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Beverage, Foodservice, and QSR.
-random_paper: 15
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

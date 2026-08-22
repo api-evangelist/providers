@@ -95,7 +95,7 @@ overview: '1touch.io is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   1touch.io''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: emerging
   composite: 16.0

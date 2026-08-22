@@ -438,7 +438,7 @@ press:
 - date: '2026-05-07'
   title: Introducing the Teradata Autonomous Knowledge Platform
   url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
-random_paper: 93
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Teradata Rate Limits

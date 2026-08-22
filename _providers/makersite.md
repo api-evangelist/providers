@@ -92,7 +92,7 @@ overview: 'Makersite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Makersite''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 71
+random_paper: 20
 score:
   band: emerging
   composite: 15.9

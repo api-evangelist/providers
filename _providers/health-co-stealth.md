@@ -49,7 +49,7 @@ name: Health Co (Stealth)
 nav: Providers
 network: true
 overview: Health Co (Stealth) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Startup, and Stealth.
-random_paper: 48
+random_paper: 7
 score:
   band: minimal
   composite: 2.4

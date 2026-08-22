@@ -322,7 +322,7 @@ overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: developing
   composite: 42.8

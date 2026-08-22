@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at The Standard
   url: https://www.standard.com/get-to-know-standard/legal-privacy/artificial-intelligence
-random_paper: 70
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

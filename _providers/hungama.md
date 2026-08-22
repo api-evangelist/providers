@@ -53,7 +53,7 @@ name: Hungama
 nav: Providers
 network: true
 overview: Hungama is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Entertainment, Streaming, and Music.
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

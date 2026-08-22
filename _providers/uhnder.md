@@ -97,7 +97,7 @@ overview: 'Uhnder is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Uhnder''s developer surface includes support and 10 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 14.7

@@ -57,7 +57,7 @@ name: Bay Area Rapid Transit
 nav: Providers
 network: true
 overview: Bay Area Rapid Transit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 75
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

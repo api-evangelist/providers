@@ -342,7 +342,7 @@ plans:
 - name: Mailerlite Plans Pricing
   plan_count: 4
   slug: mailerlite-plans-pricing
-random_paper: 21
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Mailerlite Rate Limits

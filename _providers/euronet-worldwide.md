@@ -52,7 +52,7 @@ overview: 'Euronet Worldwide is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Euronet Worldwide''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 4
+random_paper: 7
 score:
   band: minimal
   composite: 3.1

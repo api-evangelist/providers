@@ -199,7 +199,7 @@ overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 20 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: developing
   composite: 46.4

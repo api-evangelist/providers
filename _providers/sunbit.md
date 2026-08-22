@@ -169,7 +169,7 @@ overview: 'Sunbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Sunbit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 65
+random_paper: 10
 score:
   band: developing
   composite: 48.3

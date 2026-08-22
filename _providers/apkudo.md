@@ -151,7 +151,7 @@ overview: 'Apkudo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Apkudo''s developer surface includes engineering blog, support, legal docs, and 26 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 21.7

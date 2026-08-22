@@ -121,7 +121,7 @@ overview: 'Equinox Holdings publishes 8 APIs on the [APIs.io](https://apis.io/) 
 
 
   Equinox Holdings'' developer surface includes privacy policy, YouTube channel, and 11 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: minimal
   composite: 8.6

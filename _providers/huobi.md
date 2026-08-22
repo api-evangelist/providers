@@ -60,7 +60,7 @@ overview: 'Huobi publishes 1 API on the [APIs.io](https://apis.io/) network: Huo
 
 
   The Huobi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 88
+random_paper: 10
 rules:
 - effective_rule_count: 34
   extends:

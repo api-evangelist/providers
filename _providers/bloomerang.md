@@ -175,7 +175,7 @@ plans:
 - name: Bloomerang Plans Pricing
   plan_count: 4
   slug: bloomerang-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Bloomerang Rate Limits

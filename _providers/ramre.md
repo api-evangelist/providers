@@ -53,7 +53,7 @@ name: Ramre
 nav: Providers
 network: true
 overview: Ramre is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Reinsurance, Financial Services, and Auto Insurance.
-random_paper: 88
+random_paper: 10
 score:
   band: minimal
   composite: 5.3

@@ -304,7 +304,7 @@ plans:
 - name: Parallel Plans Pricing
   plan_count: 1
   slug: parallel-plans-pricing
-random_paper: 100
+random_paper: 5
 rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits

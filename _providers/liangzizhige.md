@@ -53,7 +53,7 @@ name: liangzizhige
 nav: Providers
 network: true
 overview: liangzizhige is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Online Learning, Consumer, and Personal Finance.
-random_paper: 93
+random_paper: 4
 score:
   band: minimal
   composite: 2.5

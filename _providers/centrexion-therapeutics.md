@@ -185,7 +185,7 @@ overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://ap
 
 
   Centrexion Therapeutics'' developer surface includes authentication and 20 more developer resources.'
-random_paper: 45
+random_paper: 14
 score:
   band: developing
   composite: 39.8

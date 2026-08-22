@@ -159,7 +159,7 @@ plans:
 - name: Sterling Check Plans Pricing
   plan_count: 3
   slug: sterling-check-plans-pricing
-random_paper: 86
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Sterling Check Rate Limits

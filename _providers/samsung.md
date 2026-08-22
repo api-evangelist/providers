@@ -262,7 +262,7 @@ plans:
 - name: Samsung Plans Pricing
   plan_count: 1
   slug: samsung-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Samsung Rate Limits

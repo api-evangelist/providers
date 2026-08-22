@@ -100,7 +100,7 @@ overview: 'Hello Patient is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Hello Patient''s developer surface includes engineering blog, signup flow, support, and 11 more developer resources.'
-random_paper: 142
+random_paper: 11
 score:
   band: emerging
   composite: 16.6

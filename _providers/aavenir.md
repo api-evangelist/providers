@@ -49,7 +49,7 @@ name: Aavenir
 nav: Providers
 network: true
 overview: Aavenir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Contract Lifecycle Management, Procurement, and Source To Pay.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

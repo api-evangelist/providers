@@ -156,7 +156,7 @@ overview: 'Brain Corp is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Brain Corp''s developer surface includes legal docs, developer portal, engineering blog, and 25 more developer resources.'
-random_paper: 111
+random_paper: 18
 score:
   band: emerging
   composite: 12.4

@@ -83,7 +83,7 @@ plans:
 - name: Graph8 Plans
   plan_count: 0
   slug: graph8-plans
-random_paper: 139
+random_paper: 19
 score:
   band: emerging
   composite: 17.6

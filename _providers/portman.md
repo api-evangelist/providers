@@ -81,7 +81,7 @@ plans:
 - name: Portman Plans Pricing
   plan_count: 3
   slug: portman-plans-pricing
-random_paper: 24
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Portman Rate Limits

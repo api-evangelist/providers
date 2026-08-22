@@ -59,7 +59,7 @@ overview: 'Instructions.md is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Instructions.md''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 97
+random_paper: 12
 rules:
 - effective_rule_count: 4
   extends: []

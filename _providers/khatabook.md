@@ -133,7 +133,7 @@ overview: 'Khatabook is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Khatabook''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 54
+random_paper: 3
 score:
   band: minimal
   composite: 8.8

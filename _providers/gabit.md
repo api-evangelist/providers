@@ -72,7 +72,7 @@ overview: 'Gabit is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Gabit''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 72
+random_paper: 15
 score:
   band: minimal
   composite: 7.9

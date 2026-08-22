@@ -349,7 +349,7 @@ overview: 'VSCO publishes 34 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   VSCO''s developer surface includes documentation, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 145
+random_paper: 2
 score:
   band: developing
   composite: 42.5

@@ -169,7 +169,7 @@ overview: 'Gunzilla Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Gunzilla Games'' developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 99
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Gunzilla Games Rate Limits

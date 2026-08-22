@@ -149,7 +149,7 @@ plans:
 - name: Ambee Plans Pricing
   plan_count: 2
   slug: ambee-plans-pricing
-random_paper: 59
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Ambee Rate Limits

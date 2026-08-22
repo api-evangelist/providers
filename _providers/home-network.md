@@ -40,7 +40,7 @@ name: '@Home Network'
 nav: Providers
 network: true
 overview: '@Home Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Broadband, Internet Service Provider, and Cable.'
-random_paper: 56
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

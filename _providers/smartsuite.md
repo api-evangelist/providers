@@ -84,7 +84,7 @@ overview: 'SmartSuite publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   SmartSuite''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: emerging
   composite: 13.7

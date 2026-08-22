@@ -151,7 +151,7 @@ overview: 'Splitgate publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 79
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Splitgate Rate Limits

@@ -61,7 +61,7 @@ overview: 'Lean Six Sigma is profiled on the [APIs.io](https://apis.io/) network
 
 
   The Lean Six Sigma catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 34
+random_paper: 10
 score:
   band: minimal
   composite: 8.6

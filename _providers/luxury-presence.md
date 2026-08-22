@@ -202,7 +202,7 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 105
+random_paper: 20
 score:
   band: developing
   composite: 43.1

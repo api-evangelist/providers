@@ -40,7 +40,7 @@ name: Airware
 nav: Providers
 network: true
 overview: Airware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, UAV, Aerial Analytics, and Enterprise Software.
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

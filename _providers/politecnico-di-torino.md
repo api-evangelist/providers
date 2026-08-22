@@ -252,7 +252,7 @@ plans:
 - name: Politecnico Di Torino Plans Pricing
   plan_count: 2
   slug: politecnico-di-torino-plans-pricing
-random_paper: 53
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Torino Rate Limits

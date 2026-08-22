@@ -104,7 +104,7 @@ overview: 'Rakuten Medical is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Rakuten Medical''s developer surface includes engineering blog, product news, support, and 9 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: minimal
   composite: 8.3

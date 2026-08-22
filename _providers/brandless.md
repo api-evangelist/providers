@@ -51,7 +51,7 @@ name: Brandless
 nav: Providers
 network: true
 overview: Brandless is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Consumer Packaged Goods, and Direct To Consumer.
-random_paper: 64
+random_paper: 13
 score:
   band: minimal
   composite: 4.6

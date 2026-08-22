@@ -215,7 +215,7 @@ overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: emerging
   composite: 24.3

@@ -80,7 +80,7 @@ overview: 'rebtel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   rebtel''s developer surface includes support and 8 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: minimal
   composite: 10.6

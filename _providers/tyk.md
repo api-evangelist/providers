@@ -2530,7 +2530,7 @@ plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 46
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits

@@ -170,7 +170,7 @@ plans:
 - name: Scala Plans Pricing
   plan_count: 3
   slug: scala-plans-pricing
-random_paper: 69
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Scala Rate Limits

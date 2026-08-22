@@ -84,7 +84,7 @@ overview: 'Carmoola is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Carmoola''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 101
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

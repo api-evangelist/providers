@@ -57,7 +57,7 @@ name: Business Insider
 nav: Providers
 network: true
 overview: Business Insider is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, News, Business, and Finance.
-random_paper: 32
+random_paper: 12
 score:
   band: minimal
   composite: 9.2

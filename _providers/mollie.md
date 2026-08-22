@@ -226,7 +226,7 @@ overview: 'Mollie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mollie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 46
+random_paper: 12
 scopes:
 - name: Mollie Scopes
   scope_count: 61

@@ -49,7 +49,7 @@ name: Diapers.com
 nav: Providers
 network: true
 overview: Diapers.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail, Baby Products, and Consumer Goods.
-random_paper: 20
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

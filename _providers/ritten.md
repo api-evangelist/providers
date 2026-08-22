@@ -163,7 +163,7 @@ plans:
 - name: Ritten Plans Pricing
   plan_count: 0
   slug: ritten-plans-pricing
-random_paper: 66
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Ritten Rate Limits

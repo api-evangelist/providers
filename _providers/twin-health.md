@@ -116,7 +116,7 @@ overview: 'Twin Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Twin Health''s developer surface includes engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 82
+random_paper: 12
 score:
   band: emerging
   composite: 22.6

@@ -53,7 +53,7 @@ name: Oddup
 nav: Providers
 network: true
 overview: Oddup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Prediction Markets, Trading, Cryptocurrency, and Fintech.
-random_paper: 93
+random_paper: 15
 score:
   band: minimal
   composite: 1.2

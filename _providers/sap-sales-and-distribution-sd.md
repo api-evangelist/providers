@@ -980,7 +980,7 @@ plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
   slug: sap-sales-and-distribution-sd-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Sap Sales And Distribution Sd Rate Limits

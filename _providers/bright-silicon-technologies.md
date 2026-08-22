@@ -66,7 +66,7 @@ name: Bright Silicon Technologies
 nav: Providers
 network: true
 overview: Bright Silicon Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Semiconductors, Optical Communications, and Beam Steering.
-random_paper: 85
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

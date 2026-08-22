@@ -101,7 +101,7 @@ overview: 'Rouje publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rouje''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 102
+random_paper: 3
 scopes:
 - name: Rouje Scopes
   scope_count: 4

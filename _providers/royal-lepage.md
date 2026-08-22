@@ -147,7 +147,7 @@ overview: 'Royal LePage is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Royal LePage''s developer surface includes developer portal, support, YouTube channel, and 20 more developer resources.'
-random_paper: 26
+random_paper: 0
 score:
   band: emerging
   composite: 17.3

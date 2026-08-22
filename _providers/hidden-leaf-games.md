@@ -49,7 +49,7 @@ name: Hidden Leaf Games
 nav: Providers
 network: true
 overview: Hidden Leaf Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Game Development, and Multiplayer.
-random_paper: 4
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

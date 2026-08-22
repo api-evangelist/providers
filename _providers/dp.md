@@ -243,7 +243,7 @@ overview: 'DP Technology (Bohrium) publishes 15 APIs on the [APIs.io](https://ap
 
 
   DP Technology (Bohrium)''s developer surface includes authentication, CLI, documentation, API reference, signup flow, support, and 17 more developer resources.'
-random_paper: 63
+random_paper: 2
 score:
   band: thin
   composite: 35.4

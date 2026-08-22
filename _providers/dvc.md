@@ -113,7 +113,7 @@ plans:
 - name: Dvc Plans Pricing
   plan_count: 1
   slug: dvc-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Dvc Rate Limits

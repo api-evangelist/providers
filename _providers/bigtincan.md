@@ -212,7 +212,7 @@ plans:
 - name: Bigtincan Plans Pricing
   plan_count: 5
   slug: bigtincan-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Bigtincan Rate Limits

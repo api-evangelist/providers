@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Private Hospital Global Market Report 2023
   url: https://finance.yahoo.com/news/private-hospital-global-market-report-141000773.html
-random_paper: 133
+random_paper: 6
 score:
   band: minimal
   composite: 2.4

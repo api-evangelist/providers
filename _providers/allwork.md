@@ -139,7 +139,7 @@ overview: 'AllWork is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AllWork''s developer surface includes documentation, support, engineering blog, FAQ, authentication, and 17 more developer resources.'
-random_paper: 19
+random_paper: 8
 scopes:
 - name: Allwork Scopes
   scope_count: 10

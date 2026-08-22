@@ -85,7 +85,7 @@ plans:
 - name: Data Gov Au Plans Pricing
   plan_count: 1
   slug: data-gov-au-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Data Gov Au Rate Limits

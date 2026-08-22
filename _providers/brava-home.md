@@ -100,7 +100,7 @@ overview: 'Brava Home publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Brava Home''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 100
+random_paper: 7
 score:
   band: emerging
   composite: 18.0

@@ -88,7 +88,7 @@ overview: 'Simantic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Simantic''s developer surface includes documentation, pricing, engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 6.3

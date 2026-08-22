@@ -57,7 +57,7 @@ name: MailCheck.ai
 nav: Providers
 network: true
 overview: MailCheck.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 133
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

@@ -78,7 +78,7 @@ plans:
 - name: Spectora Plans Pricing
   plan_count: 4
   slug: spectora-plans-pricing
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 13.2

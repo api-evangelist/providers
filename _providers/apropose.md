@@ -40,7 +40,7 @@ name: Apropose
 nav: Providers
 network: true
 overview: Apropose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Web Design, Design Analytics, and Machine Learning.
-random_paper: 128
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: Buffd
 nav: Providers
 network: true
 overview: Buffd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Esports, Consumer, and Progressive Web App.
-random_paper: 72
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

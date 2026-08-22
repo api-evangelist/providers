@@ -60,7 +60,7 @@ overview: 'ScaleArc (IgniteTech) is profiled on the [APIs.io](https://apis.io/) 
 
 
   ScaleArc (IgniteTech)''s developer surface includes support and 3 more developer resources.'
-random_paper: 147
+random_paper: 3
 score:
   band: minimal
   composite: 6.0

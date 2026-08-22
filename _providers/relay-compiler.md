@@ -112,7 +112,7 @@ plans:
 - name: Relay Compiler Plans Pricing
   plan_count: 3
   slug: relay-compiler-plans-pricing
-random_paper: 104
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Relay Compiler Rate Limits

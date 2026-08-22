@@ -185,7 +185,7 @@ plans:
 - name: Us Patent And Trademark Office Plans Pricing
   plan_count: 3
   slug: us-patent-and-trademark-office-plans-pricing
-random_paper: 115
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Us Patent And Trademark Office Rate Limits

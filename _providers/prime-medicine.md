@@ -77,7 +77,7 @@ name: Prime Medicine
 nav: Providers
 network: true
 overview: Prime Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Gene Editing, and Prime Editing.
-random_paper: 75
+random_paper: 9
 score:
   band: minimal
   composite: 9.0

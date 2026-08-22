@@ -81,7 +81,7 @@ overview: 'Bitstrips publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bitstrips'' developer surface includes documentation, authentication, and 6 more developer resources.'
-random_paper: 102
+random_paper: 9
 score:
   band: emerging
   composite: 12.7

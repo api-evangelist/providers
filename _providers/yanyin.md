@@ -120,7 +120,7 @@ overview: 'Yanyin Technology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Yanyin Technology''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: thin
   composite: 34.9

@@ -105,7 +105,7 @@ plans:
 - name: Pie Plans Pricing
   plan_count: 1
   slug: pie-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Pie Rate Limits

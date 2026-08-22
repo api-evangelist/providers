@@ -56,7 +56,7 @@ overview: 'CourseGuide is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CourseGuide''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 140
+random_paper: 7
 score:
   band: minimal
   composite: 3.0

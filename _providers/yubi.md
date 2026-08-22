@@ -88,7 +88,7 @@ overview: 'Yubi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Yubi''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 143
+random_paper: 0
 score:
   band: emerging
   composite: 15.5

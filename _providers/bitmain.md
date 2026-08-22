@@ -89,7 +89,7 @@ overview: 'Bitmain publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Bitmain''s developer surface includes support, documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Bitmain Rate Limits

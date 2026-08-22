@@ -171,7 +171,7 @@ plans:
 - name: Simpro Plans Pricing
   plan_count: 3
   slug: simpro-plans-pricing
-random_paper: 70
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Simpro Rate Limits

@@ -211,7 +211,7 @@ plans:
 - name: Reprise Plans Pricing
   plan_count: 0
   slug: reprise-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Reprise Rate Limits

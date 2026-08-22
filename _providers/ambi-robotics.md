@@ -138,7 +138,7 @@ overview: 'Ambi Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ambi Robotics'' developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 131
+random_paper: 0
 score:
   band: emerging
   composite: 13.5

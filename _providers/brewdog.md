@@ -162,7 +162,7 @@ overview: 'BrewDog publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   BrewDog''s developer surface includes documentation, signup flow, support, engineering blog, YouTube channel, authentication, code examples, and 21 more developer resources.'
-random_paper: 1
+random_paper: 11
 scopes:
 - name: Brewdog Scopes
   scope_count: 4

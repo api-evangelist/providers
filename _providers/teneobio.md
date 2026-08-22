@@ -40,7 +40,7 @@ name: Teneobio
 nav: Providers
 network: true
 overview: Teneobio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Antibody Therapeutics, and Life Sciences.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 2.2

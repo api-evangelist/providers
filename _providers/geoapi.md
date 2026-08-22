@@ -57,7 +57,7 @@ name: GeoApi
 nav: Providers
 network: true
 overview: GeoApi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

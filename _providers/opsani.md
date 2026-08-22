@@ -65,7 +65,7 @@ name: Opsani
 nav: Providers
 network: true
 overview: Opsani is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optimization, Kubernetes, Cloud Native, and Machine Learning.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 6.8

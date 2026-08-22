@@ -80,7 +80,7 @@ overview: 'Blink Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Blink Health''s developer surface includes support and 8 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: emerging
   composite: 11.4

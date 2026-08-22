@@ -183,7 +183,7 @@ overview: 'Octopus Deploy publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Octopus Deploy''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, CLI, and 13 more developer resources.'
-random_paper: 138
+random_paper: 9
 scopes:
 - name: Octopus Deploy Scopes
   scope_count: 0

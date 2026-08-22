@@ -68,7 +68,7 @@ overview: 'K4Connect is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   K4Connect''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

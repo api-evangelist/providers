@@ -303,7 +303,7 @@ plans:
 - name: Digits Com Plans Pricing
   plan_count: 2
   slug: digits-com-plans-pricing
-random_paper: 114
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Digits Com Rate Limits

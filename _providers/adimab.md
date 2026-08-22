@@ -96,7 +96,7 @@ name: Adimab
 nav: Providers
 network: true
 overview: Adimab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Antibody Discovery, and Protein Engineering.
-random_paper: 10
+random_paper: 18
 score:
   band: minimal
   composite: 9.8

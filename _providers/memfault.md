@@ -234,7 +234,7 @@ plans:
 - name: Memfault Plans Pricing
   plan_count: 1
   slug: memfault-plans-pricing
-random_paper: 114
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Memfault Rate Limits

@@ -95,7 +95,7 @@ plans:
 - name: Congressional Budget Office Plans Pricing
   plan_count: 3
   slug: congressional-budget-office-plans-pricing
-random_paper: 62
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Congressional Budget Office Rate Limits

@@ -152,7 +152,7 @@ plans:
 - name: Ownlocal Plans Pricing
   plan_count: 0
   slug: ownlocal-plans-pricing
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Ownlocal Rate Limits

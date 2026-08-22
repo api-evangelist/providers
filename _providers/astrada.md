@@ -346,7 +346,7 @@ overview: 'Astrada publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 140
+random_paper: 1
 scopes:
 - name: Astrada Scopes
   scope_count: 34

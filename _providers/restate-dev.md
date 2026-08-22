@@ -223,7 +223,7 @@ overview: 'Restate publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Restate''s developer surface includes developer portal, documentation, getting-started guide, tutorials, CLI, pricing, engineering blog, and 16 more developer resources.'
-random_paper: 81
+random_paper: 11
 score:
   band: emerging
   composite: 25.0

@@ -88,7 +88,7 @@ overview: 'RedwoodJS publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RedwoodJS''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 83
+random_paper: 11
 score:
   band: emerging
   composite: 20.8

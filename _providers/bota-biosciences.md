@@ -104,7 +104,7 @@ overview: 'Bota Biosciences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bota Biosciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 136
+random_paper: 9
 score:
   band: minimal
   composite: 7.3

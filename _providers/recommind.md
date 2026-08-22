@@ -49,7 +49,7 @@ name: Recommind
 nav: Providers
 network: true
 overview: Recommind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, eDiscovery, Legal Tech, and Information Governance.
-random_paper: 64
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

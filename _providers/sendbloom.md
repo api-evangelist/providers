@@ -49,7 +49,7 @@ name: sendbloom
 nav: Providers
 network: true
 overview: sendbloom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 69
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

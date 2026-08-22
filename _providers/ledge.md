@@ -194,7 +194,7 @@ overview: 'Ledge publishes 2 APIs on the [APIs.io](https://apis.io/) network: So
 
 
   Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 25 more developer resources.'
-random_paper: 66
+random_paper: 9
 scopes:
 - name: Ledge Scopes
   scope_count: 0

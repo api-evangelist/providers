@@ -49,7 +49,7 @@ name: Gymboree
 nav: Providers
 network: true
 overview: Gymboree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Children, and Apparel.
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

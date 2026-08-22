@@ -223,7 +223,7 @@ overview: 'Doppel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 23 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: developing
   composite: 48.4

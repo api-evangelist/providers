@@ -53,7 +53,7 @@ name: HF Sinclair
 nav: Providers
 network: true
 overview: HF Sinclair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, Fuel, Lubricants, and Refining.
-random_paper: 61
+random_paper: 12
 score:
   band: minimal
   composite: 3.3

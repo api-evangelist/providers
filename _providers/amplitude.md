@@ -1734,7 +1734,7 @@ plans:
 - name: Amplitude Plans Pricing
   plan_count: 4
   slug: amplitude-plans-pricing
-random_paper: 71
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amplitude Rate Limits

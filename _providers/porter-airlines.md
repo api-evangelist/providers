@@ -100,7 +100,7 @@ overview: 'Porter Airlines is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Porter Airlines'' developer surface includes signup flow, support, and 14 more developer resources.'
-random_paper: 78
+random_paper: 14
 score:
   band: emerging
   composite: 14.1

@@ -68,7 +68,7 @@ overview: 'SmarterDx is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SmarterDx''s developer surface includes support and 5 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: minimal
   composite: 10.3

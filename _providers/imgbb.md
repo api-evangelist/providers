@@ -148,7 +148,7 @@ plans:
 - name: Imgbb Plans Pricing
   plan_count: 4
   slug: imgbb-plans-pricing
-random_paper: 66
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Imgbb Rate Limits

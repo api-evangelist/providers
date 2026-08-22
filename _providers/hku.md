@@ -226,7 +226,7 @@ plans:
 - name: Hku Plans Pricing
   plan_count: 2
   slug: hku-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Hku Rate Limits

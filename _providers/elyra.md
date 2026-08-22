@@ -92,7 +92,7 @@ overview: 'Elyra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Elyra''s developer surface includes support, engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: emerging
   composite: 19.8

@@ -85,7 +85,7 @@ name: Docura Health
 nav: Providers
 network: true
 overview: Docura Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Medical-Legal, and Medical Records.
-random_paper: 121
+random_paper: 11
 score:
   band: minimal
   composite: 10.3

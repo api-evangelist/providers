@@ -89,7 +89,7 @@ plans:
 - name: Dsg Sports Analytics Plans Pricing
   plan_count: 3
   slug: dsg-sports-analytics-plans-pricing
-random_paper: 122
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dsg Sports Analytics Rate Limits

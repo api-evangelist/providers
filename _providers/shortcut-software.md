@@ -442,7 +442,7 @@ overview: 'Shortcut Software publishes 25 APIs on the [APIs.io](https://apis.io/
 
 
   Shortcut Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 24
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Shortcut Software Rate Limits

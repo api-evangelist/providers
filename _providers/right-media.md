@@ -45,7 +45,7 @@ name: Right Media
 nav: Providers
 network: true
 overview: Right Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 56
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

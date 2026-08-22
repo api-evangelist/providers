@@ -138,7 +138,7 @@ plans:
 - name: Outfront Media Plans Pricing
   plan_count: 0
   slug: outfront-media-plans-pricing
-random_paper: 113
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Outfront Media Rate Limits

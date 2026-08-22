@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence and the Future of Work
   url: https://www.nationalacademies.org/event/44014_11-2024_artificial-intelligence-and-the-future-of-work-report-release-webinar
-random_paper: 115
+random_paper: 17
 score:
   band: minimal
   composite: 6.3

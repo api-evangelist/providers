@@ -112,7 +112,7 @@ overview: 'Prodly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Prodly''s developer surface includes documentation, support, pricing, signup flow, engineering blog, CLI, and 11 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: thin
   composite: 26.9

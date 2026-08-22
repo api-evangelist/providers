@@ -96,7 +96,7 @@ overview: 'Zama is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zama''s developer surface includes documentation, getting-started guide, API reference, engineering blog, and 9 more developer resources.'
-random_paper: 127
+random_paper: 5
 score:
   band: emerging
   composite: 17.0

@@ -84,7 +84,7 @@ overview: 'Booster Fuels is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Booster Fuels'' developer surface includes signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 13
+random_paper: 10
 score:
   band: minimal
   composite: 10.9

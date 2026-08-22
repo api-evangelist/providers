@@ -85,7 +85,7 @@ overview: 'BrightPlan is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BrightPlan''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 24
+random_paper: 17
 score:
   band: emerging
   composite: 12.7

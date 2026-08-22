@@ -53,7 +53,7 @@ name: Office of the Comptroller of the Currency
 nav: Providers
 network: true
 overview: Office of the Comptroller of the Currency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Banking, and Financial Regulation.
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 0.5

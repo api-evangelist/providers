@@ -250,7 +250,7 @@ plans:
 - name: Bindbee Plans Pricing
   plan_count: 3
   slug: bindbee-plans-pricing
-random_paper: 117
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bindbee Rate Limits

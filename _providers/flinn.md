@@ -104,7 +104,7 @@ overview: 'Flinn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Flinn''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 20.8

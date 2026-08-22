@@ -229,7 +229,7 @@ plans:
 - name: Cloudflare Ai Gateway Plans Pricing
   plan_count: 1
   slug: cloudflare-ai-gateway-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Cloudflare Ai Gateway Rate Limits

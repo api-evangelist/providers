@@ -395,7 +395,7 @@ overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 37
+random_paper: 3
 scopes:
 - name: Depict Scopes
   scope_count: 3

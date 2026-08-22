@@ -165,7 +165,7 @@ overview: 'SignalFx publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SignalFx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 21 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: thin
   composite: 31.9

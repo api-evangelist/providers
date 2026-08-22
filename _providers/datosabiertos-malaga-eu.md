@@ -85,7 +85,7 @@ plans:
 - name: Datosabiertos Malaga Eu Plans Pricing
   plan_count: 1
   slug: datosabiertos-malaga-eu-plans-pricing
-random_paper: 80
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Datosabiertos Malaga Eu Rate Limits

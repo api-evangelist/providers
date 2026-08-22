@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: RFID
 nav: Providers
 network: true
-random_paper: 123
+random_paper: 1
 slug: rfid
 tags:
 - RFID

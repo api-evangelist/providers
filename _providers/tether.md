@@ -210,7 +210,7 @@ overview: 'Tether publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
-random_paper: 56
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits

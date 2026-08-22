@@ -185,7 +185,7 @@ plans:
 - name: Open Library Plans Pricing
   plan_count: 3
   slug: open-library-plans-pricing
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Open Library Rate Limits

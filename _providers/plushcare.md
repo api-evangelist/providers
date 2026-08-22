@@ -121,7 +121,7 @@ plans:
 - name: Plushcare Plans Pricing
   plan_count: 1
   slug: plushcare-plans-pricing
-random_paper: 73
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Plushcare Rate Limits

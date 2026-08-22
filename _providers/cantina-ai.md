@@ -72,7 +72,7 @@ overview: 'Cantina AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cantina AI''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: emerging
   composite: 12.8

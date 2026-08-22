@@ -293,7 +293,7 @@ overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   watchTowr''s developer surface includes documentation, developer portal, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: thin
   composite: 36.6

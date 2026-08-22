@@ -156,7 +156,7 @@ overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 25
+random_paper: 14
 score:
   band: thin
   composite: 33.6

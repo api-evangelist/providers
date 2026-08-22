@@ -110,7 +110,7 @@ plans:
 - name: Tattle Plans Pricing
   plan_count: 6
   slug: tattle-plans-pricing
-random_paper: 58
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Tattle Rate Limits

@@ -207,7 +207,7 @@ overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: developing
   composite: 47.2

@@ -265,7 +265,7 @@ plans:
 - name: Flora Fauna Plans Pricing
   plan_count: 5
   slug: flora-fauna-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Flora Fauna Rate Limits

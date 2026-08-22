@@ -186,7 +186,7 @@ overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 15
+random_paper: 18
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1

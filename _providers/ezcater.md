@@ -84,7 +84,7 @@ overview: 'ezCater is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ezCater''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 11.4

@@ -223,7 +223,7 @@ overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 117
+random_paper: 16
 score:
   band: developing
   composite: 42.9

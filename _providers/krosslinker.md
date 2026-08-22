@@ -80,7 +80,7 @@ overview: 'Krosslinker is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Krosslinker''s developer surface includes YouTube channel and 8 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

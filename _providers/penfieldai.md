@@ -92,7 +92,7 @@ overview: 'Penfield.AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Penfield.AI''s developer surface includes documentation, getting-started guide, pricing, signup flow, and 8 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: emerging
   composite: 24.1

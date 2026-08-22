@@ -156,7 +156,7 @@ overview: 'PayFit publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayFit''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 57
+random_paper: 2
 score:
   band: thin
   composite: 27.8

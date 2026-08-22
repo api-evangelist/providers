@@ -80,7 +80,7 @@ overview: 'Bayapay Sdn Bhd is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Bayapay Sdn Bhd''s developer surface includes support and 7 more developer resources.'
-random_paper: 119
+random_paper: 11
 score:
   band: minimal
   composite: 9.3

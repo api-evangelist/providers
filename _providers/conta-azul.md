@@ -176,7 +176,7 @@ overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 128
+random_paper: 14
 scopes:
 - name: Conta Azul Scopes
   scope_count: 3

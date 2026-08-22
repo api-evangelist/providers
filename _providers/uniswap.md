@@ -423,7 +423,7 @@ plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
   slug: uniswap-plans-pricing
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Uniswap Rate Limits

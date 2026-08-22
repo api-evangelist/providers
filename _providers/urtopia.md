@@ -101,7 +101,7 @@ overview: 'Urtopia publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Urtopia''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 27
+random_paper: 16
 scopes:
 - name: Urtopia Scopes
   scope_count: 4

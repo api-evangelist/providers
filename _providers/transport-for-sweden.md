@@ -57,7 +57,7 @@ name: Transport for Sweden
 nav: Providers
 network: true
 overview: Transport for Sweden publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 131
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

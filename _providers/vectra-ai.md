@@ -141,7 +141,7 @@ plans:
 - name: Vectra Ai Plans Pricing
   plan_count: 1
   slug: vectra-ai-plans-pricing
-random_paper: 147
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Vectra Ai Rate Limits

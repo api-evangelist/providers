@@ -92,7 +92,7 @@ overview: 'Kigen is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kigen''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 79
+random_paper: 1
 score:
   band: minimal
   composite: 6.1

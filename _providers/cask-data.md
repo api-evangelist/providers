@@ -169,7 +169,7 @@ overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 23 more developer resources.'
-random_paper: 128
+random_paper: 12
 score:
   band: emerging
   composite: 23.1

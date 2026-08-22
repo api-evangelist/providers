@@ -121,7 +121,7 @@ overview: 'Skyscanner is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Skyscanner''s developer surface includes GitHub presence and 18 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

@@ -88,7 +88,7 @@ overview: 'Virgin Pulse is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Virgin Pulse''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 61
+random_paper: 14
 score:
   band: emerging
   composite: 12.2

@@ -79,7 +79,7 @@ overview: '280 Earth is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   280 Earth''s developer surface includes product news and 10 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 7.3

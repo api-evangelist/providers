@@ -57,7 +57,7 @@ name: RSS feed to JSON
 nav: Providers
 network: true
 overview: RSS feed to JSON publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 62
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

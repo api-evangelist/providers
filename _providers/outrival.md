@@ -342,7 +342,7 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 141
+random_paper: 4
 score:
   band: developing
   composite: 52.3

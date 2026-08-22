@@ -49,7 +49,7 @@ name: SQZ Biotech
 nav: Providers
 network: true
 overview: SQZ Biotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Cell Therapy, and Immunotherapy.
-random_paper: 86
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

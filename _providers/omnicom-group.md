@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: 'Omnicom AI: Strategy in PR Dominance'
   url: https://www.klover.ai/omnicom_ai_strategy_in_pr_dominance/
-random_paper: 15
+random_paper: 12
 score:
   band: minimal
   composite: 2.6

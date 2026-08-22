@@ -112,7 +112,7 @@ overview: 'Cape is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cape''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 111
+random_paper: 10
 score:
   band: emerging
   composite: 19.3

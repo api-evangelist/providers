@@ -64,7 +64,7 @@ overview: 'Retailo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Retailo''s developer surface includes support and 4 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 7.6

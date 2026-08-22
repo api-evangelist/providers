@@ -84,7 +84,7 @@ overview: 'Delphia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Delphia''s developer surface includes support and 9 more developer resources.'
-random_paper: 131
+random_paper: 13
 score:
   band: emerging
   composite: 12.3

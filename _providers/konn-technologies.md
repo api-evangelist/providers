@@ -125,7 +125,7 @@ overview: 'Konn Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Konn Technologies'' developer surface includes engineering blog, FAQ, and 18 more developer resources.'
-random_paper: 128
+random_paper: 3
 score:
   band: minimal
   composite: 10.8

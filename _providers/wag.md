@@ -84,7 +84,7 @@ overview: 'Wag! is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Wag!''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 4
 score:
   band: emerging
   composite: 12.4

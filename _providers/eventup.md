@@ -72,7 +72,7 @@ overview: 'Eventup is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Eventup''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 7.3

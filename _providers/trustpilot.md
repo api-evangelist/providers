@@ -297,7 +297,7 @@ plans:
 - name: Trustpilot Plans Pricing
   plan_count: 5
   slug: trustpilot-plans-pricing
-random_paper: 87
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Trustpilot Rate Limits

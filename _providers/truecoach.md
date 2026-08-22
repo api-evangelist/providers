@@ -101,7 +101,7 @@ overview: 'TrueCoach is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TrueCoach''s developer surface includes support, engineering blog, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 64
+random_paper: 13
 score:
   band: emerging
   composite: 20.5

@@ -115,7 +115,7 @@ plans:
 - name: Protomaps Plans Pricing
   plan_count: 4
   slug: protomaps-plans-pricing
-random_paper: 103
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Protomaps Rate Limits

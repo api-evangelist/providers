@@ -425,7 +425,7 @@ plans:
 - name: Have I Been Pwned Plans Pricing
   plan_count: 6
   slug: have-i-been-pwned-plans-pricing
-random_paper: 122
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Have I Been Pwned Rate Limits

@@ -445,7 +445,7 @@ overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 95
+random_paper: 2
 score:
   band: developing
   composite: 42.2

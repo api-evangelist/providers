@@ -168,7 +168,7 @@ overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: developing
   composite: 43.6

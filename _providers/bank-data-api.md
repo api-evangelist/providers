@@ -57,7 +57,7 @@ name: Bank Data API
 nav: Providers
 network: true
 overview: Bank Data API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 34
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

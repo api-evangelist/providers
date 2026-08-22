@@ -195,7 +195,7 @@ plans:
 - name: Giantbomb Plans Pricing
   plan_count: 1
   slug: giantbomb-plans-pricing
-random_paper: 53
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Giantbomb Rate Limits

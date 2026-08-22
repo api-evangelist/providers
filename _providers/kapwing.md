@@ -100,7 +100,7 @@ overview: 'Kapwing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kapwing''s developer surface includes pricing, engineering blog, support, and 11 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 17.3

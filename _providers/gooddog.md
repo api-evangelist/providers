@@ -76,7 +76,7 @@ overview: 'Good Dog is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Good Dog''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 12.4

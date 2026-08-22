@@ -589,7 +589,7 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
 
 
   Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 48
+random_paper: 0
 scopes:
 - name: Soldo Software And Services Scopes
   scope_count: 59

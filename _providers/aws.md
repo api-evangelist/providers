@@ -183,7 +183,7 @@ plans:
 - name: Aws Plans Pricing
   plan_count: 3
   slug: aws-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Aws Rate Limits

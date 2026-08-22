@@ -151,7 +151,7 @@ plans:
 - name: Eko Health Plans
   plan_count: 5
   slug: eko-health-plans
-random_paper: 100
+random_paper: 7
 scopes:
 - name: Eko Health Scopes
   scope_count: 4

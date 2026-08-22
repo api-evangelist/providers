@@ -72,7 +72,7 @@ overview: 'Oxyzo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oxyzo''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 138
+random_paper: 18
 score:
   band: minimal
   composite: 6.3

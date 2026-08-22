@@ -84,7 +84,7 @@ overview: 'Donuts publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Donuts'' developer surface includes documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 16.9

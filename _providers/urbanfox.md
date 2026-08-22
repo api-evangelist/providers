@@ -193,7 +193,7 @@ overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 124
+random_paper: 8
 scopes:
 - name: Urbanfox Scopes
   scope_count: 13

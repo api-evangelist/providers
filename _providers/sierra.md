@@ -169,7 +169,7 @@ plans:
 - name: Sierra Plans Pricing
   plan_count: 1
   slug: sierra-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Sierra Rate Limits

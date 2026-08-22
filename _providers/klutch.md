@@ -193,7 +193,7 @@ overview: 'Klutch publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klutch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 55
+random_paper: 0
 scopes:
 - name: Klutch Scopes
   scope_count: 4

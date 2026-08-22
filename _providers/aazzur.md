@@ -76,7 +76,7 @@ overview: 'AAZZUR is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AAZZUR''s developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: minimal
   composite: 10.6

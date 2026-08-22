@@ -103,7 +103,7 @@ overview: 'Beaconcure publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beaconcure''s developer surface includes documentation, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: emerging
   composite: 17.9

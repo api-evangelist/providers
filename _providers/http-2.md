@@ -61,7 +61,7 @@ name: HTTP/2
 nav: Providers
 network: true
 overview: HTTP/2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Framing, HPACK, HTTP, HTTP/2, and IETF.
-random_paper: 96
+random_paper: 18
 score:
   band: minimal
   composite: 6.8

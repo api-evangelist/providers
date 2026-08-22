@@ -68,7 +68,7 @@ overview: 'Via Global Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Via Global Health''s developer surface includes support and 5 more developer resources.'
-random_paper: 26
+random_paper: 6
 score:
   band: minimal
   composite: 7.9

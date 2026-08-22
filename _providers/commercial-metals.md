@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Commercial Metals Company (CMC-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/CMC/pressreleases/
-random_paper: 104
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

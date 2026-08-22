@@ -133,7 +133,7 @@ overview: 'AnyDesk publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AnyDesk''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: thin
   composite: 30.9

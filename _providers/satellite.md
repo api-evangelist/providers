@@ -84,7 +84,7 @@ overview: 'Satellite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Satellite''s developer surface includes documentation, changelog, and 8 more developer resources.'
-random_paper: 73
+random_paper: 1
 score:
   band: emerging
   composite: 11.5

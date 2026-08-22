@@ -255,7 +255,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 106
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits

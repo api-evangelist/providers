@@ -517,7 +517,7 @@ plans:
 - name: Azure Logic Apps Plans Pricing
   plan_count: 3
   slug: azure-logic-apps-plans-pricing
-random_paper: 113
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Azure Logic Apps Rate Limits

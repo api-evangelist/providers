@@ -49,7 +49,7 @@ name: Renotag, Inc.
 nav: Providers
 network: true
 overview: Renotag, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Cost Estimation, Home Renovation, and Contractors.
-random_paper: 68
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

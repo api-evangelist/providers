@@ -49,7 +49,7 @@ name: Tola
 nav: Providers
 network: true
 overview: Tola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Other.
-random_paper: 134
+random_paper: 12
 score:
   band: minimal
   composite: 3.2

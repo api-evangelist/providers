@@ -84,7 +84,7 @@ overview: 'Bedrock Data is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bedrock Data''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 142
+random_paper: 9
 score:
   band: emerging
   composite: 14.4

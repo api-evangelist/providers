@@ -72,7 +72,7 @@ overview: 'Athos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Athos'' developer surface includes support, engineering blog, pricing, and 4 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: emerging
   composite: 11.4

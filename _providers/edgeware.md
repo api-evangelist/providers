@@ -52,7 +52,7 @@ overview: 'Edgeware is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Edgeware''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 91
+random_paper: 17
 score:
   band: minimal
   composite: 6.9

@@ -109,7 +109,7 @@ overview: 'RoomRaccoon is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RoomRaccoon''s developer surface includes pricing, engineering blog, support, and 13 more developer resources.'
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 5.1

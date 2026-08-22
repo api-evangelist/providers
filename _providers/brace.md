@@ -74,7 +74,7 @@ name: Brace
 nav: Providers
 network: true
 overview: Brace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Mortgage Servicing, Loss Mitigation, and Default Servicing.
-random_paper: 62
+random_paper: 5
 score:
   band: minimal
   composite: 4.6

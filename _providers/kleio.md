@@ -142,7 +142,7 @@ plans:
 - name: Kleio Plans Pricing
   plan_count: 0
   slug: kleio-plans-pricing
-random_paper: 85
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Kleio Rate Limits

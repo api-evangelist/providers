@@ -130,7 +130,7 @@ overview: 'Oishii publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Oishii''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 49
+random_paper: 15
 scopes:
 - name: Oishii Scopes
   scope_count: 4

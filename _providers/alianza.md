@@ -535,7 +535,7 @@ overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 23 more developer resources.'
-random_paper: 140
+random_paper: 1
 score:
   band: thin
   composite: 35.4

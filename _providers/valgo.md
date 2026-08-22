@@ -201,7 +201,7 @@ overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: thin
   composite: 38.3

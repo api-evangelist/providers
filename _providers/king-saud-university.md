@@ -101,7 +101,7 @@ plans:
 - name: King Saud University Plans Pricing
   plan_count: 2
   slug: king-saud-university-plans-pricing
-random_paper: 129
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: King Saud University Rate Limits

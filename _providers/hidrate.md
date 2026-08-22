@@ -80,7 +80,7 @@ overview: 'Hidrate is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hidrate''s developer surface includes support and 7 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 10.7

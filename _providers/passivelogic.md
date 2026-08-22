@@ -270,7 +270,7 @@ overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   PassiveLogic''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, sandbox, and 20 more developer resources.'
-random_paper: 97
+random_paper: 8
 scopes:
 - name: Passivelogic Scopes
   scope_count: 13

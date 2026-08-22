@@ -140,7 +140,7 @@ plans:
 - name: University Of Birmingham Plans Pricing
   plan_count: 2
   slug: university-of-birmingham-plans-pricing
-random_paper: 95
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: University Of Birmingham Rate Limits

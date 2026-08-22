@@ -72,7 +72,7 @@ name: Printi
 nav: Providers
 network: true
 overview: Printi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Printing, Print on Demand, Commercial Print, Marketplace, and Ecommerce.
-random_paper: 66
+random_paper: 11
 score:
   band: minimal
   composite: 6.5

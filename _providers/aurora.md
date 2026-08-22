@@ -141,7 +141,7 @@ overview: 'Aurora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aurora''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: emerging
   composite: 24.3

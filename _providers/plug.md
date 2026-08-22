@@ -323,7 +323,7 @@ overview: 'Malga publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Malga''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 29 more developer resources.'
-random_paper: 142
+random_paper: 20
 score:
   band: developing
   composite: 54.2

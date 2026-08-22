@@ -155,7 +155,7 @@ plans:
 - name: Apiwiz Plans Pricing
   plan_count: 3
   slug: apiwiz-plans-pricing
-random_paper: 64
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Apiwiz Rate Limits

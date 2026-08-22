@@ -93,7 +93,7 @@ overview: 'Tebi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tebi''s developer surface includes pricing, engineering blog, support, signup flow, changelog, and 7 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: emerging
   composite: 15.8

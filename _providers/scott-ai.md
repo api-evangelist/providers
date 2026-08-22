@@ -358,7 +358,7 @@ overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 23 more developer resources.'
-random_paper: 59
+random_paper: 6
 score:
   band: developing
   composite: 44.3

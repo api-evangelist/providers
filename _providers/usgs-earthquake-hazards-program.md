@@ -57,7 +57,7 @@ name: USGS Earthquake Hazards Program
 nav: Providers
 network: true
 overview: USGS Earthquake Hazards Program publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 32
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

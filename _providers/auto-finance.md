@@ -76,7 +76,7 @@ overview: 'Auto Finance is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Auto Finance''s developer surface includes documentation, getting-started guide, engineering blog, support, and 4 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: emerging
   composite: 11.8

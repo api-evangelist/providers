@@ -45,7 +45,7 @@ name: Saude Bliss
 nav: Providers
 network: true
 overview: Saude Bliss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, and Wellness.
-random_paper: 73
+random_paper: 3
 score:
   band: minimal
   composite: 1.3

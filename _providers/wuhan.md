@@ -97,7 +97,7 @@ plans:
 - name: Wuhan Plans Pricing
   plan_count: 2
   slug: wuhan-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Wuhan Rate Limits

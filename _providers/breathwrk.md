@@ -80,7 +80,7 @@ overview: 'Breathwrk is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Breathwrk''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: minimal
   composite: 10.5

@@ -226,7 +226,7 @@ overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: developing
   composite: 41.1

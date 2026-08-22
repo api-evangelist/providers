@@ -57,7 +57,7 @@ name: Dominion Energy
 nav: Providers
 network: true
 overview: Dominion Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Natural Gas, Utility, and Fortune 500.
-random_paper: 66
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

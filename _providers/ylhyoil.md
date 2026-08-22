@@ -49,7 +49,7 @@ name: ylhyoil
 nav: Providers
 network: true
 overview: ylhyoil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oilfield Services, Oil and Gas, Energy, and Upstream.
-random_paper: 33
+random_paper: 1
 score:
   band: minimal
   composite: 3.3

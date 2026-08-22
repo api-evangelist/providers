@@ -61,7 +61,7 @@ name: ChangeTip
 nav: Providers
 network: true
 overview: ChangeTip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin, Cryptocurrency, Micropayments, and Payments.
-random_paper: 53
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

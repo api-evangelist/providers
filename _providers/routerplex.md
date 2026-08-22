@@ -234,7 +234,7 @@ plans:
 - name: Routerplex Plans
   plan_count: 4
   slug: routerplex-plans
-random_paper: 71
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Routerplex Rate Limits

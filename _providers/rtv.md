@@ -49,7 +49,7 @@ name: Rtv
 nav: Providers
 network: true
 overview: Rtv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials, Recycling, Sustainability, and Circular Economy.
-random_paper: 50
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

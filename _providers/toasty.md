@@ -65,7 +65,7 @@ name: Toasty
 nav: Providers
 network: true
 overview: Toasty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Consumer, Shopping, and Sustainability.
-random_paper: 80
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

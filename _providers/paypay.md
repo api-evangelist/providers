@@ -192,7 +192,7 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   PayPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 64
+random_paper: 9
 score:
   band: thin
   composite: 38.1

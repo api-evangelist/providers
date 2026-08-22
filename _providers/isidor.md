@@ -49,7 +49,7 @@ name: Isidor
 nav: Providers
 network: true
 overview: Isidor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise AI, Machine Learning, and Data Pipelines.
-random_paper: 54
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

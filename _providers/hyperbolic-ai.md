@@ -456,7 +456,7 @@ plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
   slug: hyperbolic-ai-plans-pricing
-random_paper: 128
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Hyperbolic Ai Rate Limits

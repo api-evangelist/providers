@@ -52,7 +52,7 @@ overview: 'Meta4 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Meta4''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 28
+random_paper: 13
 score:
   band: minimal
   composite: 8.8

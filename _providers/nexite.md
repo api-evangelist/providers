@@ -49,7 +49,7 @@ name: Nexite
 nav: Providers
 network: true
 overview: Nexite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Technology, IoT, and Connected Retail.
-random_paper: 57
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

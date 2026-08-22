@@ -129,7 +129,7 @@ overview: 'Macro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Macro''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 12 more developer resources.'
-random_paper: 83
+random_paper: 5
 score:
   band: thin
   composite: 28.7

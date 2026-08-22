@@ -432,7 +432,7 @@ plans:
 - name: Lobcom Plans Pricing
   plan_count: 4
   slug: lobcom-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Lobcom Rate Limits

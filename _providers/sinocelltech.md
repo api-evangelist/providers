@@ -49,7 +49,7 @@ name: sinocelltech
 nav: Providers
 network: true
 overview: sinocelltech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Pharmaceutical, and Vaccines.
-random_paper: 85
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

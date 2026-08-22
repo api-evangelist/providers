@@ -92,7 +92,7 @@ overview: 'Core & Main is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Core & Main''s developer surface includes product news and 11 more developer resources.'
-random_paper: 51
+random_paper: 4
 score:
   band: minimal
   composite: 3.3

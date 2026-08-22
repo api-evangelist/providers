@@ -93,7 +93,7 @@ overview: 'SideCare is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SideCare''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 87
+random_paper: 13
 scopes:
 - name: Sidecare Scopes
   scope_count: 4

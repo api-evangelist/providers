@@ -64,7 +64,7 @@ name: Myra Vision
 nav: Providers
 network: true
 overview: Myra Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Ophthalmology, and Glaucoma.
-random_paper: 107
+random_paper: 16
 score:
   band: minimal
   composite: 2.9

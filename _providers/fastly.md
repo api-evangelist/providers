@@ -1300,7 +1300,7 @@ plans:
 - name: Fastly Plans Pricing
   plan_count: 12
   slug: fastly-plans-pricing
-random_paper: 63
+random_paper: 8
 rate_limits:
 - limit_count: 13
   name: Fastly Rate Limits

@@ -45,7 +45,7 @@ name: Gridsnap
 nav: Providers
 network: true
 overview: Gridsnap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Game Studio, and User-Generated Content.
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

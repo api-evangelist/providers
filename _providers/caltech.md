@@ -103,7 +103,7 @@ plans:
 - name: Caltech Plans Pricing
   plan_count: 2
   slug: caltech-plans-pricing
-random_paper: 128
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Caltech Rate Limits

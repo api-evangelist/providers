@@ -131,7 +131,7 @@ overview: 'Replika is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Replika''s developer surface includes support and 16 more developer resources.'
-random_paper: 97
+random_paper: 4
 score:
   band: minimal
   composite: 10.9

@@ -301,7 +301,7 @@ overview: 'Demisto publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Demisto''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: thin
   composite: 38.3

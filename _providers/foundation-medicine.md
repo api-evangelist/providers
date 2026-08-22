@@ -84,7 +84,7 @@ overview: 'Foundation Medicine is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Foundation Medicine''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 10.8

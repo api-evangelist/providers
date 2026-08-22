@@ -157,7 +157,7 @@ overview: 'Constructor publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Constructor''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, release notes, and 19 more developer resources.'
-random_paper: 30
+random_paper: 4
 score:
   band: thin
   composite: 30.5

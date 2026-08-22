@@ -49,7 +49,7 @@ name: The Players' Tribune
 nav: Providers
 network: true
 overview: The Players' Tribune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Media, Sports, and Publishing.
-random_paper: 3
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

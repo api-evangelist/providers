@@ -203,7 +203,7 @@ overview: 'Goethena publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Goethena''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 98
+random_paper: 3
 score:
   band: developing
   composite: 52.2

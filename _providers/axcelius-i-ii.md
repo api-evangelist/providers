@@ -53,7 +53,7 @@ name: Axcelius I/II
 nav: Providers
 network: true
 overview: Axcelius I/II is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Company Creation, Biopharmaceutical, and Life Sciences.
-random_paper: 75
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

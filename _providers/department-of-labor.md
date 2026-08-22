@@ -157,7 +157,7 @@ plans:
 - name: Department Of Labor Plans Pricing
   plan_count: 3
   slug: department-of-labor-plans-pricing
-random_paper: 119
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Department Of Labor Rate Limits

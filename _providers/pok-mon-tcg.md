@@ -57,7 +57,7 @@ name: Pokémon TCG
 nav: Providers
 network: true
 overview: Pokémon TCG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 25
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

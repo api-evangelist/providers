@@ -46,7 +46,7 @@ name: Thistle Technologies
 nav: Providers
 network: true
 overview: Thistle Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Device Security, Embedded Security, IoT Security, and Firmware Updates.
-random_paper: 8
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

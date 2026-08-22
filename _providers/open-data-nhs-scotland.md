@@ -57,7 +57,7 @@ name: Open Data NHS Scotland
 nav: Providers
 network: true
 overview: Open Data NHS Scotland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 78
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

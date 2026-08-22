@@ -53,7 +53,7 @@ name: Cabinet Health
 nav: Providers
 network: true
 overview: Cabinet Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Over-the-Counter Medicine, and Supply Chain.
-random_paper: 60
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

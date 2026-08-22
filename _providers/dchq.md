@@ -53,7 +53,7 @@ name: DCHQ
 nav: Providers
 network: true
 overview: DCHQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Containers, Docker, Container Management, and Cloud Automation.
-random_paper: 118
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

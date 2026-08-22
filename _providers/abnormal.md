@@ -293,7 +293,7 @@ overview: 'Abnormal AI publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: strong
   composite: 56.2

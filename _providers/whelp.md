@@ -84,7 +84,7 @@ overview: 'Whelp is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Whelp''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: emerging
   composite: 14.4

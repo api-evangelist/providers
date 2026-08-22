@@ -80,7 +80,7 @@ overview: 'Juniper Behavioral Health is profiled on the [APIs.io](https://apis.i
 
 
   Juniper Behavioral Health''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 98
+random_paper: 2
 score:
   band: emerging
   composite: 12.0

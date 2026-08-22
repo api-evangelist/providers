@@ -89,7 +89,7 @@ plans:
 - name: Pabbly Connect Plans Pricing
   plan_count: 3
   slug: pabbly-connect-plans-pricing
-random_paper: 84
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Pabbly Connect Rate Limits

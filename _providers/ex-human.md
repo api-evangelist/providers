@@ -185,7 +185,7 @@ overview: 'Ex-Human publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ex-Human''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 58
+random_paper: 5
 score:
   band: thin
   composite: 36.7

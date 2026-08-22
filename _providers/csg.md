@@ -194,7 +194,7 @@ plans:
 - name: Csg Plans Pricing
   plan_count: 1
   slug: csg-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Csg Rate Limits

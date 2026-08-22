@@ -64,7 +64,7 @@ overview: 'Source.dev is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Source.dev''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 82
+random_paper: 10
 score:
   band: minimal
   composite: 6.8

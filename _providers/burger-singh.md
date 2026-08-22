@@ -186,7 +186,7 @@ overview: 'Burger Singh publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Burger Singh''s developer surface includes support, authentication, code examples, and 19 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: thin
   composite: 33.1

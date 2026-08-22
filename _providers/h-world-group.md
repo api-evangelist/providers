@@ -49,7 +49,7 @@ name: H World Group
 nav: Providers
 network: true
 overview: H World Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Hotels, Hospitality, and Travel.
-random_paper: 111
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

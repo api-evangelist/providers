@@ -45,7 +45,7 @@ name: Dingdong
 nav: Providers
 network: true
 overview: Dingdong is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, E-Commerce, Grocery, and Food Delivery.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

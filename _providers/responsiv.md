@@ -69,7 +69,7 @@ name: Responsiv
 nav: Providers
 network: true
 overview: Responsiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Regulatory Compliance, RegTech, and Governance Risk and Compliance.
-random_paper: 107
+random_paper: 14
 score:
   band: minimal
   composite: 9.6

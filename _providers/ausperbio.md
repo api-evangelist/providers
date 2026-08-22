@@ -122,7 +122,7 @@ overview: 'AusperBio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AusperBio''s developer surface includes engineering blog, product news, support, and 12 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

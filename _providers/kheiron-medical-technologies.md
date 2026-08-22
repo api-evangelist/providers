@@ -84,7 +84,7 @@ overview: 'Kheiron Medical Technologies is profiled on the [APIs.io](https://api
 
 
   Kheiron Medical Technologies'' developer surface includes support and 9 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: emerging
   composite: 12.5

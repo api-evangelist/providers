@@ -117,7 +117,7 @@ overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 17.5

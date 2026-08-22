@@ -60,7 +60,7 @@ overview: 'Insight Lifetech is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Insight Lifetech''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 70
+random_paper: 0
 score:
   band: minimal
   composite: 3.8

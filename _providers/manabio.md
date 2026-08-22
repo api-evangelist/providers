@@ -76,7 +76,7 @@ overview: 'Mana.bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mana.bio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 131
+random_paper: 13
 score:
   band: minimal
   composite: 6.2

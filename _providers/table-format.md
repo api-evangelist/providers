@@ -194,7 +194,7 @@ plans:
 - name: Table Format Plans Pricing
   plan_count: 3
   slug: table-format-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Table Format Rate Limits

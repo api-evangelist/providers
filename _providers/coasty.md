@@ -297,7 +297,7 @@ plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 63
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Coasty Rate Limits

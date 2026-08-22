@@ -57,7 +57,7 @@ name: IAD
 nav: Providers
 network: true
 overview: IAD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Network Marketing, and Property Listings.
-random_paper: 4
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

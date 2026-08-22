@@ -64,7 +64,7 @@ overview: 'API Setu publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   API Setu''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 63
+random_paper: 10
 score:
   band: minimal
   composite: 4.6

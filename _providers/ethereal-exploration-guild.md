@@ -49,7 +49,7 @@ name: Ethereal Exploration Guild
 nav: Providers
 network: true
 overview: Ethereal Exploration Guild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Aerospace, Spacetech, and Launch Vehicles.
-random_paper: 137
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

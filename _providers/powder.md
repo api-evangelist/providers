@@ -67,7 +67,7 @@ name: Powder
 nav: Providers
 network: true
 overview: Powder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video, Artificial Intelligence, and Content Creation.
-random_paper: 61
+random_paper: 6
 score:
   band: minimal
   composite: 9.2

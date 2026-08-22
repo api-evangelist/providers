@@ -117,7 +117,7 @@ overview: 'ConcertAI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ConcertAI''s developer surface includes engineering blog, support, product news, authentication, and 13 more developer resources.'
-random_paper: 58
+random_paper: 7
 scopes:
 - name: Concertai Scopes
   scope_count: 14

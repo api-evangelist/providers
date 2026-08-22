@@ -45,7 +45,7 @@ name: Waffl
 nav: Providers
 network: true
 overview: Waffl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, Website, and Small Business.
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

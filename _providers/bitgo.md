@@ -183,7 +183,7 @@ plans:
 - name: Bitgo Plans Pricing
   plan_count: 4
   slug: bitgo-plans-pricing
-random_paper: 86
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Bitgo Rate Limits

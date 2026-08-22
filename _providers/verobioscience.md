@@ -49,7 +49,7 @@ name: Verobioscience
 nav: Providers
 network: true
 overview: Verobioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Proteomics, Longevity, and Aging.
-random_paper: 147
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

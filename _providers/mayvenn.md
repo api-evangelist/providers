@@ -72,7 +72,7 @@ overview: 'Mayvenn is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mayvenn''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: emerging
   composite: 11.9

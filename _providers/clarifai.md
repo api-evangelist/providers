@@ -231,7 +231,7 @@ plans:
 - name: Clarifai Plans Pricing
   plan_count: 4
   slug: clarifai-plans-pricing
-random_paper: 82
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Clarifai Rate Limits

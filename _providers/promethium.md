@@ -125,7 +125,7 @@ overview: 'Promethium publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Promethium''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 55
+random_paper: 6
 score:
   band: thin
   composite: 29.2

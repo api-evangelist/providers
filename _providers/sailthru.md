@@ -178,7 +178,7 @@ plans:
 - name: Sailthru Plans Pricing
   plan_count: 0
   slug: sailthru-plans-pricing
-random_paper: 131
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Sailthru Rate Limits

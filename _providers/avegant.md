@@ -49,7 +49,7 @@ name: Avegant
 nav: Providers
 network: true
 overview: Avegant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Reality, Display Technology, Hardware, and Wearables.
-random_paper: 146
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

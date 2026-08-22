@@ -121,7 +121,7 @@ plans:
 - name: Irs Plans Pricing
   plan_count: 2
   slug: irs-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Irs Rate Limits

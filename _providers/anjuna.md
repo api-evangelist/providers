@@ -96,7 +96,7 @@ overview: 'Anjuna is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Anjuna''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, and 7 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 17.2

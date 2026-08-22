@@ -68,7 +68,7 @@ overview: 'Sunday Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sunday Robotics'' developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 84
+random_paper: 20
 score:
   band: emerging
   composite: 12.3

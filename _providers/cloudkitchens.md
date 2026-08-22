@@ -182,7 +182,7 @@ overview: 'CloudKitchens publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   CloudKitchens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 51
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Cloudkitchens Rate Limits

@@ -172,7 +172,7 @@ plans:
 - name: Carbon Intensity Plans
   plan_count: 1
   slug: carbon-intensity-plans
-random_paper: 34
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Carbon Intensity Rate Limits

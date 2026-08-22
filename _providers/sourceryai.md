@@ -124,7 +124,7 @@ overview: 'Sourcery.AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Sourcery.AI''s developer surface includes CLI, documentation, getting-started guide, pricing, engineering blog, signup flow, changelog, and 13 more developer resources.'
-random_paper: 51
+random_paper: 2
 score:
   band: emerging
   composite: 25.0

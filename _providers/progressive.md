@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: Progressive Insurance tests limits of AI-generated ads
   url: https://www.thedrum.com/news/progressive-insurance-tests-limits-ai-generated-ads-and-learns-when-pull-back
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Progressive Rate Limits

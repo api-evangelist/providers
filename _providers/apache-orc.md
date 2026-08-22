@@ -262,7 +262,7 @@ plans:
 - name: Apache Orc Plans Pricing
   plan_count: 3
   slug: apache-orc-plans-pricing
-random_paper: 85
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Orc Rate Limits

@@ -619,7 +619,7 @@ overview: 'Morningstar publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 12
+random_paper: 7
 scopes:
 - name: Morningstar Scopes
   scope_count: 4

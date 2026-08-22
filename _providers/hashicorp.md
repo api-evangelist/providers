@@ -159,7 +159,7 @@ plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
   slug: hashicorp-plans-pricing
-random_paper: 67
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Hashicorp Rate Limits

@@ -64,7 +64,7 @@ overview: 'Bridg Payment Solutions is profiled on the [APIs.io](https://apis.io/
 
 
   Bridg Payment Solutions'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 0
+random_paper: 11
 score:
   band: minimal
   composite: 10.3

@@ -57,7 +57,7 @@ name: TeamUp Inc.
 nav: Providers
 network: true
 overview: TeamUp Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Football, Fan Engagement, and Fantasy Sports.
-random_paper: 117
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

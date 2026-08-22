@@ -71,7 +71,7 @@ overview: 'Vulcan Elements is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Vulcan Elements'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 65
+random_paper: 1
 score:
   band: minimal
   composite: 5.5

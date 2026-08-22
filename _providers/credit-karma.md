@@ -116,7 +116,7 @@ overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Credit Karma''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 9.8

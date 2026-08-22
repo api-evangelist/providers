@@ -108,7 +108,7 @@ plans:
 - name: Dbpedia Plans Pricing
   plan_count: 2
   slug: dbpedia-plans-pricing
-random_paper: 117
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Dbpedia Rate Limits

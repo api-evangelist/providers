@@ -207,7 +207,7 @@ overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 22 more developer resources.'
-random_paper: 119
+random_paper: 18
 score:
   band: developing
   composite: 45.0

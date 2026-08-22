@@ -880,12 +880,11 @@ overview: 'Postman publishes 35 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Postman''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, support, changelog, and 76 more developer resources.'
-paper_is_own: true
 plans:
 - name: Postman Plans Pricing
   plan_count: 4
   slug: postman-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Postman Rate Limits

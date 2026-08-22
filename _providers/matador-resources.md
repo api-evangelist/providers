@@ -53,7 +53,7 @@ name: Matador Resources
 nav: Providers
 network: true
 overview: Matador Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Exploration and Production, and Upstream.
-random_paper: 137
+random_paper: 12
 score:
   band: minimal
   composite: 1.8

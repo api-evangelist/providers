@@ -109,7 +109,7 @@ overview: 'WIBMO publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   WIBMO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: thin
   composite: 27.1

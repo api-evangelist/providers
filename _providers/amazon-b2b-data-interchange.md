@@ -207,7 +207,7 @@ overview: 'Amazon B2B Data Interchange publishes 6 APIs on the [APIs.io](https:/
 
 
   Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 14 more developer resources.'
-random_paper: 64
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

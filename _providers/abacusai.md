@@ -141,7 +141,7 @@ overview: 'Abacus.ai publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Abacus.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 80
+random_paper: 6
 score:
   band: thin
   composite: 36.5

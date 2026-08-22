@@ -89,7 +89,7 @@ plans:
 - name: Data Opendevelopmentmyanmar Net Plans Pricing
   plan_count: 1
   slug: data-opendevelopmentmyanmar-net-plans-pricing
-random_paper: 76
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Data Opendevelopmentmyanmar Net Rate Limits

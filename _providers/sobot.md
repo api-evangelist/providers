@@ -197,7 +197,7 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 104
+random_paper: 5
 score:
   band: developing
   composite: 40.4

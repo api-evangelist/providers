@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Evergy Releases 2025 Results, Announces New Large ...
   url: https://investors.evergy.com/news-releases/news-release-details/evergy-releases-2025-results-announces-new-large-customers
-random_paper: 130
+random_paper: 7
 score:
   band: minimal
   composite: 2.4

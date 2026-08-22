@@ -157,7 +157,7 @@ plans:
 - name: Ematic Solutions Plans Pricing
   plan_count: 0
   slug: ematic-solutions-plans-pricing
-random_paper: 41
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Ematic Solutions Rate Limits

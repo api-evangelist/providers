@@ -503,7 +503,7 @@ plans:
 - name: Brightedge Plans Pricing
   plan_count: 0
   slug: brightedge-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Brightedge Rate Limits

@@ -64,7 +64,7 @@ overview: 'Autositu is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Autositu''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 8.9

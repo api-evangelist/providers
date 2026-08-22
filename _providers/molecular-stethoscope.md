@@ -57,7 +57,7 @@ name: Molecular Stethoscope
 nav: Providers
 network: true
 overview: Molecular Stethoscope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diagnostics, Healthcare, Life Sciences, and Alzheimers.
-random_paper: 124
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

@@ -76,7 +76,7 @@ overview: 'heva is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   heva''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 122
+random_paper: 0
 score:
   band: emerging
   composite: 12.5

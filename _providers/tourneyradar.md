@@ -57,7 +57,7 @@ name: TourneyRadar
 nav: Providers
 network: true
 overview: TourneyRadar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 120
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

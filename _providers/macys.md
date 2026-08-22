@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: 'A New Era for Online Shopping: How Macy''s Built the ''Ask ...'
   url: https://www.googlecloudpresscorner.com/2026-04-22-A-New-Era-for-Online-Shopping-How-Macys-Built-the-Ask-Macys-AI-Agent-in-4-Weeks-With-Gemini-Enterprise-for-Customer-Experience
-random_paper: 94
+random_paper: 16
 score:
   band: minimal
   composite: 4.4

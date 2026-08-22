@@ -262,7 +262,7 @@ overview: 'Evals publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   The Evals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 92
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

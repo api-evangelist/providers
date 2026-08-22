@@ -89,7 +89,7 @@ overview: 'Eloquent AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Eloquent AI''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: emerging
   composite: 15.3

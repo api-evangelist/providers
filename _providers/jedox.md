@@ -96,7 +96,7 @@ overview: 'Jedox is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jedox''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: emerging
   composite: 19.9

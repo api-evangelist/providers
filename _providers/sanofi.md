@@ -76,7 +76,7 @@ name: Sanofi
 nav: Providers
 network: true
 overview: Sanofi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Healthcare, Vaccines, and Biotechnology.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 5.8

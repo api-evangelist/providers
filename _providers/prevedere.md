@@ -244,7 +244,7 @@ overview: 'Prevedere publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prevedere''s developer surface includes authentication, documentation, API reference, pricing, support, and 14 more developer resources.'
-random_paper: 68
+random_paper: 17
 score:
   band: thin
   composite: 33.5

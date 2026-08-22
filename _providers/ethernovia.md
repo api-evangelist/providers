@@ -238,7 +238,7 @@ overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 21 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: thin
   composite: 38.2

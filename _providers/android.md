@@ -863,7 +863,7 @@ plans:
 - name: Android Plans Pricing
   plan_count: 6
   slug: android-plans-pricing
-random_paper: 141
+random_paper: 2
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits

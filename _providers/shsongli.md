@@ -49,7 +49,7 @@ name: shsongli
 nav: Providers
 network: true
 overview: shsongli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Medical Devices, Healthcare, and Hemostatic Products.
-random_paper: 126
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

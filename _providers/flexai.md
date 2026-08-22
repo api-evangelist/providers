@@ -245,7 +245,7 @@ plans:
 - name: Flexai Plans
   plan_count: 3
   slug: flexai-plans
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Flexai Rate Limits

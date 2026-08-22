@@ -217,7 +217,7 @@ plans:
 - name: Epic Systems Plans Pricing
   plan_count: 2
   slug: epic-systems-plans-pricing
-random_paper: 62
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Epic Systems Rate Limits

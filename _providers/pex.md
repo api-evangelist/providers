@@ -151,7 +151,7 @@ overview: 'Pex publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pex''s developer surface includes documentation, API reference, signup flow, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 35
+random_paper: 18
 score:
   band: thin
   composite: 28.6

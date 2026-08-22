@@ -136,7 +136,7 @@ overview: 'EarthOptics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EarthOptics'' developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 43
+random_paper: 17
 score:
   band: emerging
   composite: 23.6

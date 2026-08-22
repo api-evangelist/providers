@@ -95,7 +95,7 @@ overview: 'Ampersand Biomedicines is profiled on the [APIs.io](https://apis.io/)
 
 
   Ampersand Biomedicines'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 24
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

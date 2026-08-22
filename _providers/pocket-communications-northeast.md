@@ -40,7 +40,7 @@ name: Pocket Communications Northeast
 nav: Providers
 network: true
 overview: Pocket Communications Northeast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 104
+random_paper: 20
 score:
   band: minimal
   composite: 4.1

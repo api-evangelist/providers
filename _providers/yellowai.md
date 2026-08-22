@@ -45,7 +45,7 @@ name: Yellow.ai
 nav: Providers
 network: true
 overview: Yellow.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

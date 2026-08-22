@@ -53,7 +53,7 @@ name: Covid-19 Live Data
 nav: Providers
 network: true
 overview: Covid-19 Live Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 126
+random_paper: 20
 score:
   band: minimal
   composite: 2.2

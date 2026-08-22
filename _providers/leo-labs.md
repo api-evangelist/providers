@@ -162,7 +162,7 @@ overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 18 more developer resources.'
-random_paper: 38
+random_paper: 6
 scopes:
 - name: Leo Labs Scopes
   scope_count: 0

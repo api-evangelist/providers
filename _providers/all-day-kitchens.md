@@ -45,7 +45,7 @@ name: All Day Kitchens
 nav: Providers
 network: true
 overview: All Day Kitchens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Kitchens, Ghost Kitchens, Food Delivery, and Restaurant Infrastructure.
-random_paper: 88
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

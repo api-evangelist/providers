@@ -76,7 +76,7 @@ overview: 'OurCrowd is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OurCrowd''s developer surface includes support, getting-started guide, and 6 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: emerging
   composite: 12.6

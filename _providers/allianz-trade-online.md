@@ -412,7 +412,7 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 14 more developer resources.'
-random_paper: 73
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []

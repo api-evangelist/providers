@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Boyd Gaming Completes Acquisition Of Four Pinnacle ...
   url: https://www.prnewswire.com/news-releases/boyd-gaming-completes-acquisition-of-four-pinnacle-entertainment-assets-300730881.html
-random_paper: 58
+random_paper: 4
 score:
   band: minimal
   composite: 2.6

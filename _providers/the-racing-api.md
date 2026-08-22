@@ -1353,7 +1353,7 @@ plans:
 - name: The Racing Api Plans Pricing
   plan_count: 1
   slug: the-racing-api-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: The Racing Api Rate Limits

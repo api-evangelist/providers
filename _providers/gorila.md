@@ -129,7 +129,7 @@ overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gorila''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: thin
   composite: 30.3

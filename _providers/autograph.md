@@ -72,7 +72,7 @@ overview: 'Autograph is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Autograph''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 77
+random_paper: 5
 score:
   band: emerging
   composite: 12.3

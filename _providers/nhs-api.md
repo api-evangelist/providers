@@ -217,7 +217,7 @@ overview: 'NHS API publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 13 more developer resources.'
-random_paper: 92
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []

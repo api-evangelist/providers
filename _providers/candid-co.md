@@ -68,7 +68,7 @@ overview: 'Candid Co. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Candid Co.''s developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 121
+random_paper: 5
 score:
   band: emerging
   composite: 12.1

@@ -203,7 +203,7 @@ plans:
 - name: Faturapdf Brazilian Invoice Receipt Pdf Api Plans
   plan_count: 4
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-plans
-random_paper: 91
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Faturapdf Brazilian Invoice Receipt Pdf Api Rate Limits

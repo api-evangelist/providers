@@ -153,7 +153,7 @@ overview: 'InnerSpace publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   InnerSpace''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, support, and 18 more developer resources.'
-random_paper: 21
+random_paper: 14
 score:
   band: thin
   composite: 33.1

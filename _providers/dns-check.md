@@ -105,7 +105,7 @@ overview: 'DNS Check publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   DNS Check''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 135
+random_paper: 19
 score:
   band: thin
   composite: 30.1

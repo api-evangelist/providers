@@ -220,7 +220,7 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
 
 
   Kotoba''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 46.8

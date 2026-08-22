@@ -96,7 +96,7 @@ overview: 'Fetch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fetch''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 12.4

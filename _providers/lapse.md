@@ -92,7 +92,7 @@ overview: 'Lapse is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lapse''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: emerging
   composite: 11.4

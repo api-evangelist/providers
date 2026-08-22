@@ -45,7 +45,7 @@ name: Clothes Horse
 nav: Providers
 network: true
 overview: Clothes Horse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Retail, and E-commerce.
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

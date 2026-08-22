@@ -73,7 +73,7 @@ plans:
 - name: Jpa Plans Pricing
   plan_count: 3
   slug: jpa-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Jpa Rate Limits

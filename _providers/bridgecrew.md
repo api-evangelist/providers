@@ -112,7 +112,7 @@ overview: 'Bridgecrew is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bridgecrew''s developer surface includes documentation, getting-started guide, signup flow, CLI, changelog, and 12 more developer resources.'
-random_paper: 11
+random_paper: 4
 score:
   band: emerging
   composite: 19.0

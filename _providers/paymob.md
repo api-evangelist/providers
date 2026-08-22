@@ -504,7 +504,7 @@ plans:
 - name: Paymob Plans Pricing
   plan_count: 3
   slug: paymob-plans-pricing
-random_paper: 52
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Paymob Rate Limits

@@ -312,7 +312,7 @@ plans:
 - name: Spruce Health Plans Pricing
   plan_count: 3
   slug: spruce-health-plans-pricing
-random_paper: 141
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Spruce Health Rate Limits

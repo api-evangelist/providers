@@ -61,7 +61,7 @@ name: Xiaomishu (订餐小秘书)
 nav: Providers
 network: true
 overview: Xiaomishu (订餐小秘书) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Reservations, Dining, and Food.
-random_paper: 89
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

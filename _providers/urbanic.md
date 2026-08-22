@@ -72,7 +72,7 @@ overview: 'Urbanic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Urbanic''s developer surface includes support and 6 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: minimal
   composite: 10.9

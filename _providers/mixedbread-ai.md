@@ -376,7 +376,7 @@ plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 4
   slug: mixedbread-ai-plans-pricing
-random_paper: 100
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Mixedbread Ai Rate Limits

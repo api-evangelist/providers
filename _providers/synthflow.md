@@ -293,7 +293,7 @@ plans:
 - name: Synthflow Plans Pricing
   plan_count: 1
   slug: synthflow-plans-pricing
-random_paper: 112
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Synthflow Rate Limits

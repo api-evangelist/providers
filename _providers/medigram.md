@@ -69,7 +69,7 @@ overview: 'Medigram is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Medigram''s developer surface includes support and 5 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

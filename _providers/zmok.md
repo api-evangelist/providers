@@ -57,7 +57,7 @@ name: ZMOK
 nav: Providers
 network: true
 overview: ZMOK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 2
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

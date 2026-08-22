@@ -156,7 +156,7 @@ overview: 'Codafication publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Codafication''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
-random_paper: 60
+random_paper: 13
 score:
   band: thin
   composite: 38.9

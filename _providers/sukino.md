@@ -68,7 +68,7 @@ overview: 'Sukino is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sukino''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 69
+random_paper: 14
 score:
   band: minimal
   composite: 10.5

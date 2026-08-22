@@ -139,7 +139,7 @@ plans:
 - name: Listennotes Plans Pricing
   plan_count: 3
   slug: listennotes-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 8
   name: Listennotes Rate Limits

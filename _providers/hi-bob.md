@@ -184,7 +184,7 @@ overview: 'Hi Bob publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hi Bob''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 114
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Hi Bob Rate Limits

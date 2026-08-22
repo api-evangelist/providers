@@ -40,7 +40,7 @@ name: Zero Rfi
 nav: Providers
 network: true
 overview: Zero Rfi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 69
+random_paper: 16
 score:
   band: minimal
   composite: 3.2

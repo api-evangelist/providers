@@ -274,7 +274,7 @@ overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: strong
   composite: 55.8

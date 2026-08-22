@@ -85,7 +85,7 @@ plans:
 - name: Dati Trentino It Plans Pricing
   plan_count: 1
   slug: dati-trentino-it-plans-pricing
-random_paper: 122
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Dati Trentino It Rate Limits

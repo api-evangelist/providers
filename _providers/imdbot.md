@@ -53,7 +53,7 @@ name: IMDbOT
 nav: Providers
 network: true
 overview: IMDbOT publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

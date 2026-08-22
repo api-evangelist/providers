@@ -40,7 +40,7 @@ name: Casai
 nav: Providers
 network: true
 overview: Casai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Travel, Short-Term Rentals, and Proptech.
-random_paper: 66
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

@@ -368,7 +368,7 @@ plans:
 - name: Apifreaks Api Hub For Developers Plans
   plan_count: 5
   slug: apifreaks-api-hub-for-developers-plans
-random_paper: 42
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Apifreaks Api Hub For Developers Rate Limits

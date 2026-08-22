@@ -40,7 +40,7 @@ name: Cortina Systems
 nav: Providers
 network: true
 overview: Cortina Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Telecommunications, and Optical Networking.
-random_paper: 99
+random_paper: 14
 score:
   band: minimal
   composite: 0.6

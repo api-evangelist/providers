@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: ExxonMobil + Intel | ExxonMobil Product Solutions
   url: https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids/intel
-random_paper: 95
+random_paper: 4
 score:
   band: minimal
   composite: 4.9

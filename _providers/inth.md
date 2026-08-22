@@ -212,7 +212,7 @@ overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 137
+random_paper: 15
 score:
   band: strong
   composite: 54.3

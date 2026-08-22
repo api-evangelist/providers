@@ -68,7 +68,7 @@ overview: 'React Foundation is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   React Foundation''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 12
+random_paper: 13
 score:
   band: minimal
   composite: 8.8

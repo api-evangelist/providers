@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Analytics, Extensive Financial Metrics, and Benchmarks Against ...
   url: https://www.plunkettresearch.com/core-mark-holding-company-inc-corenas-analytics-extensive-financial-metrics-and-benchmarks-against-averages-and-top-companies-within-its-industry
-random_paper: 44
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: Higo
 nav: Providers
 network: true
 overview: Higo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Payments.
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 0.0

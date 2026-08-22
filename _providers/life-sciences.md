@@ -183,7 +183,7 @@ overview: 'Life Sciences publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Life Sciences catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 114
+random_paper: 4
 rules:
 - effective_rule_count: 5
   extends: []

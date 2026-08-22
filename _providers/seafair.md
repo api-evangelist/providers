@@ -53,7 +53,7 @@ name: Seafair
 nav: Providers
 network: true
 overview: Seafair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Shipping, ERP, and Compliance.
-random_paper: 135
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

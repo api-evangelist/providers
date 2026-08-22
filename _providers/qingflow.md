@@ -103,7 +103,7 @@ overview: 'qingflow is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   qingflow''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 126
+random_paper: 10
 score:
   band: thin
   composite: 29.2

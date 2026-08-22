@@ -80,7 +80,7 @@ overview: 'Cala Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Cala Health''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: emerging
   composite: 14.2

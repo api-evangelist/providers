@@ -182,7 +182,7 @@ overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
-random_paper: 32
+random_paper: 2
 score:
   band: thin
   composite: 29.6

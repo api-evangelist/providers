@@ -266,7 +266,7 @@ plans:
 - name: Fabric8Labs Plans Pricing
   plan_count: 0
   slug: fabric8labs-plans-pricing
-random_paper: 46
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Fabric8Labs Rate Limits

@@ -57,7 +57,7 @@ name: Janssen Pharmaceuticals
 nav: Providers
 network: true
 overview: Janssen Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct Brand, Healthcare, Johnson & Johnson, and Pharmaceutical.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 2.4

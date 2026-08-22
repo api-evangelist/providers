@@ -49,7 +49,7 @@ name: Metis Labs
 nav: Providers
 network: true
 overview: Metis Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Manufacturing, Industrial IoT, and Factory Optimization.
-random_paper: 115
+random_paper: 1
 score:
   band: minimal
   composite: 5.3

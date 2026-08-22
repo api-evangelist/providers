@@ -304,7 +304,7 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
 
 
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
-random_paper: 122
+random_paper: 13
 rules:
 - effective_rule_count: 5
   extends: []

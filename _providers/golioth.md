@@ -420,7 +420,7 @@ plans:
 - name: Golioth Plans Pricing
   plan_count: 1
   slug: golioth-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Golioth Rate Limits

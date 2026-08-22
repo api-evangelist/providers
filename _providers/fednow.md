@@ -143,7 +143,7 @@ overview: 'FedNow Service publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   FedNow Service''s developer surface includes documentation, API reference, pricing, signup flow, support, getting-started guide, engineering blog, and 13 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: thin
   composite: 38.2

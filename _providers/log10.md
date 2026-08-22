@@ -219,7 +219,7 @@ plans:
 - name: Log10 Plans Pricing
   plan_count: 3
   slug: log10-plans-pricing
-random_paper: 121
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Log10 Rate Limits

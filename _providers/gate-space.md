@@ -65,7 +65,7 @@ name: GATE Space
 nav: Providers
 network: true
 overview: GATE Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Satellite, and Propulsion.
-random_paper: 92
+random_paper: 20
 score:
   band: minimal
   composite: 7.1

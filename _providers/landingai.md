@@ -321,7 +321,7 @@ plans:
 - name: Landingai Plans
   plan_count: 3
   slug: landingai-plans
-random_paper: 41
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Landingai Rate Limits

@@ -40,7 +40,7 @@ name: FORE Systems
 nav: Providers
 network: true
 overview: FORE Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, ATM, Telecommunications, and Networking Hardware.
-random_paper: 73
+random_paper: 5
 score:
   band: minimal
   composite: 0.6

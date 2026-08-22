@@ -80,7 +80,7 @@ overview: 'Ro is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   Ro''s developer surface includes support and 8 more developer resources.'
-random_paper: 76
+random_paper: 15
 score:
   band: emerging
   composite: 12.5

@@ -76,7 +76,7 @@ overview: 'Kinvey is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kinvey''s developer surface includes CLI and 7 more developer resources.'
-random_paper: 66
+random_paper: 11
 score:
   band: minimal
   composite: 8.9

@@ -175,7 +175,7 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   QuanTemplate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 105
+random_paper: 16
 score:
   band: developing
   composite: 48.9

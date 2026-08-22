@@ -161,7 +161,7 @@ plans:
 - name: Akute Plans Pricing
   plan_count: 4
   slug: akute-plans-pricing
-random_paper: 91
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Akute Rate Limits

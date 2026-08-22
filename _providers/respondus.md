@@ -72,7 +72,7 @@ overview: 'Respondus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Respondus'' developer surface includes support, SDKs, and 5 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: minimal
   composite: 4.9

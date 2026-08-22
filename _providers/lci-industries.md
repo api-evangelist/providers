@@ -45,7 +45,7 @@ name: LCI Industries
 nav: Providers
 network: true
 overview: LCI Industries is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 114
+random_paper: 6
 score:
   band: minimal
   composite: 2.6

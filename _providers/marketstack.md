@@ -178,7 +178,7 @@ plans:
 - name: Marketstack Plans
   plan_count: 5
   slug: marketstack-plans
-random_paper: 135
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Marketstack Rate Limits

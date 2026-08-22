@@ -92,7 +92,7 @@ overview: 'feld.energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   feld.energy''s developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 7.6

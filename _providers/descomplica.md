@@ -72,7 +72,7 @@ overview: 'Descomplica is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Descomplica''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 113
+random_paper: 1
 score:
   band: minimal
   composite: 10.4

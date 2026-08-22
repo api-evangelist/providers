@@ -231,7 +231,7 @@ overview: 'Biolevate publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: developing
   composite: 45.4

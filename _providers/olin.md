@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Investors
   url: https://olin.com/investors/
-random_paper: 136
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

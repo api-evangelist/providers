@@ -96,7 +96,7 @@ overview: 'Beep is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Beep''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 114
+random_paper: 13
 score:
   band: emerging
   composite: 15.5

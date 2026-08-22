@@ -135,7 +135,7 @@ overview: 'PSC Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   PSC Insurance''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 147
+random_paper: 16
 scopes:
 - name: Psc Insurance Scopes
   scope_count: 14

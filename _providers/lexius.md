@@ -76,7 +76,7 @@ overview: 'Lexius is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lexius'' developer surface includes pricing, signup flow, and 6 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: minimal
   composite: 7.1

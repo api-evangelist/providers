@@ -250,7 +250,7 @@ plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
   slug: gitbook-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Gitbook Rate Limits

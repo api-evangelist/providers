@@ -53,7 +53,7 @@ name: teaBOT
 nav: Providers
 network: true
 overview: teaBOT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Food Service, and Tea.
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 7.1

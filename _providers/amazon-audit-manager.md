@@ -720,7 +720,7 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Amazon Audit Manager''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 65
+random_paper: 7
 rules:
 - effective_rule_count: 4
   extends: []

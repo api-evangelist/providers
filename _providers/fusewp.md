@@ -152,7 +152,7 @@ plans:
 - name: Fusewp Plans Pricing
   plan_count: 7
   slug: fusewp-plans-pricing
-random_paper: 70
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Fusewp Rate Limits

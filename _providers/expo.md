@@ -147,7 +147,7 @@ plans:
 - name: Expo Plans Pricing
   plan_count: 4
   slug: expo-plans-pricing
-random_paper: 146
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Expo Rate Limits

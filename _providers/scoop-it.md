@@ -57,7 +57,7 @@ name: Scoop.it
 nav: Providers
 network: true
 overview: Scoop.it publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 69
+random_paper: 16
 score:
   band: minimal
   composite: 4.2

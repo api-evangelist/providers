@@ -60,7 +60,7 @@ overview: 'FindMeCure is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   FindMeCure''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 15
+random_paper: 8
 score:
   band: minimal
   composite: 4.5

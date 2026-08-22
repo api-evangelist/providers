@@ -45,7 +45,7 @@ name: Power Tools
 nav: Providers
 network: true
 overview: Power Tools is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Utilities, Automation, and Productivity.
-random_paper: 120
+random_paper: 8
 score:
   band: minimal
   composite: 1.2

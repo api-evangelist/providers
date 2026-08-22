@@ -177,7 +177,7 @@ overview: 'Quantum Machines publishes 13 APIs on the [APIs.io](https://apis.io/)
 
 
   Quantum Machines'' developer surface includes documentation, GitHub presence, engineering blog, product news, support, YouTube channel, and 17 more developer resources.'
-random_paper: 25
+random_paper: 5
 score:
   band: minimal
   composite: 10.5

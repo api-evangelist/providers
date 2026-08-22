@@ -76,7 +76,7 @@ overview: 'Bloomy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bloomy''s developer surface includes signup flow, support, and 6 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: emerging
   composite: 12.0

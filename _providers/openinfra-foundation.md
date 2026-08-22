@@ -165,7 +165,7 @@ plans:
 - name: Openinfra Foundation Plans Pricing
   plan_count: 3
   slug: openinfra-foundation-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Openinfra Foundation Rate Limits

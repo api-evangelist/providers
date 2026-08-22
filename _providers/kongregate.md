@@ -265,7 +265,7 @@ overview: 'Kongregate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kongregate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: developing
   composite: 47.5

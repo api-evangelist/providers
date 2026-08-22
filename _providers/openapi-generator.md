@@ -188,7 +188,7 @@ plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
   slug: openapi-generator-plans-pricing
-random_paper: 121
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Openapi Generator Rate Limits

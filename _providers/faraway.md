@@ -92,7 +92,7 @@ overview: 'Faraway publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Faraway''s developer surface includes documentation, API reference, signup flow, support, and 7 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
   composite: 18.0

@@ -53,7 +53,7 @@ name: Altru
 nav: Providers
 network: true
 overview: Altru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Talent Acquisition, Recruitment Marketing, HR Tech, and Video.
-random_paper: 105
+random_paper: 6
 score:
   band: minimal
   composite: 6.3

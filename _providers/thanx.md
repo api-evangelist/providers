@@ -701,7 +701,7 @@ plans:
 - name: Thanx Plans Pricing
   plan_count: 1
   slug: thanx-plans-pricing
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Thanx Rate Limits

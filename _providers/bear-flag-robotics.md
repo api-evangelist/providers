@@ -49,7 +49,7 @@ name: Bear Flag Robotics
 nav: Providers
 network: true
 overview: Bear Flag Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Autonomous Vehicles, and Agriculture.
-random_paper: 140
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

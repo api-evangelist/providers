@@ -70,7 +70,7 @@ plans:
 - name: Healthequity Plans Pricing
   plan_count: 1
   slug: healthequity-plans-pricing
-random_paper: 111
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Healthequity Rate Limits

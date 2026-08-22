@@ -125,7 +125,7 @@ plans:
 - name: A Place For Mom Plans Pricing
   plan_count: 0
   slug: a-place-for-mom-plans-pricing
-random_paper: 64
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: A Place For Mom Rate Limits

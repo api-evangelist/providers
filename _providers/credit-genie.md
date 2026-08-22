@@ -107,7 +107,7 @@ plans:
 - name: Credit Genie Plans Pricing
   plan_count: 0
   slug: credit-genie-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Credit Genie Rate Limits

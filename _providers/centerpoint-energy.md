@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Palantir Launches Chain Reaction to Build American AI ...
   url: https://www.businesswire.com/news/home/20251204391468/en/Palantir-Launches-Chain-Reaction-to-Build-American-AI-Infrastructure-Founding-Partners-Include-CenterPoint-Energy-and-NVIDIA
-random_paper: 102
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Centerpoint Energy Rate Limits

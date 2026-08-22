@@ -223,7 +223,7 @@ plans:
 - name: Lead Bank Plans Pricing
   plan_count: 1
   slug: lead-bank-plans-pricing
-random_paper: 118
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Lead Bank Rate Limits

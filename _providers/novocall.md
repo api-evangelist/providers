@@ -84,7 +84,7 @@ plans:
 - name: Novocall Plans Pricing
   plan_count: 0
   slug: novocall-plans-pricing
-random_paper: 117
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Novocall Rate Limits

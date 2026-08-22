@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Redpoint Ventures
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 0
 slug: redpoint-ventures
 tags:
 - Venture Capital

@@ -116,7 +116,7 @@ overview: 'Tonal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tonal''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: emerging
   composite: 17.6

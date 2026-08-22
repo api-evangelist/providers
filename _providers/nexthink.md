@@ -233,7 +233,7 @@ overview: 'Nexthink publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nexthink''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 24 more developer resources.'
-random_paper: 128
+random_paper: 12
 scopes:
 - name: Nexthink Scopes
   scope_count: 1

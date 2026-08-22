@@ -108,7 +108,7 @@ overview: 'LightSource is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   LightSource''s developer surface includes documentation, support, engineering blog, and 13 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: emerging
   composite: 12.7

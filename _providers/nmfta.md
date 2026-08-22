@@ -161,7 +161,7 @@ overview: 'NMFTA publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   NMFTA''s developer surface includes developer portal, product news, and 17 more developer resources.'
-random_paper: 87
+random_paper: 9
 score:
   band: emerging
   composite: 20.8

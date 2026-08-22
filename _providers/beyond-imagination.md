@@ -100,7 +100,7 @@ overview: 'Beyond Imagination is profiled on the [APIs.io](https://apis.io/) net
 
 
   Beyond Imagination''s developer surface includes product news, engineering blog, and 14 more developer resources.'
-random_paper: 66
+random_paper: 6
 score:
   band: minimal
   composite: 4.5

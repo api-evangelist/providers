@@ -402,7 +402,7 @@ plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 102
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits

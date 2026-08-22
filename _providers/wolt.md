@@ -171,7 +171,7 @@ overview: 'Wolt publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wolt''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 7
+random_paper: 13
 scopes:
 - name: Wolt Scopes
   scope_count: 1

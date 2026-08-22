@@ -60,7 +60,7 @@ overview: 'Ninjacart is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ninjacart''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 60
+random_paper: 9
 score:
   band: minimal
   composite: 5.5

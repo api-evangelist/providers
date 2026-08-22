@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: WYNDHAM HOTELS & RESORTS REPORTS STRONG ...
   url: https://www.prnewswire.com/news-releases/wyndham-hotels--resorts-reports-strong-first-quarter-results-302757605.html
-random_paper: 143
+random_paper: 18
 score:
   band: minimal
   composite: 3.5

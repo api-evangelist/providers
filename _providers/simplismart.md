@@ -225,7 +225,7 @@ overview: 'Simplismart publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: developing
   composite: 53.7

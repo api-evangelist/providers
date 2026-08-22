@@ -49,7 +49,7 @@ name: Seasats
 nav: Providers
 network: true
 overview: Seasats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Autonomous Vehicles, Robotics, and Defense.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

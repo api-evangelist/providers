@@ -347,7 +347,7 @@ plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
   slug: hong-kong-baptist-university-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits

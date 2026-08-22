@@ -121,7 +121,7 @@ overview: 'Verve Motion is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Verve Motion''s developer surface includes FAQ, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 67
+random_paper: 20
 score:
   band: emerging
   composite: 11.7

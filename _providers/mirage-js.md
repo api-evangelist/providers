@@ -77,7 +77,7 @@ plans:
 - name: Mirage Js Plans Pricing
   plan_count: 3
   slug: mirage-js-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Mirage Js Rate Limits

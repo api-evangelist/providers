@@ -133,7 +133,7 @@ plans:
 - name: National Renewable Energy Laboratory Plans Pricing
   plan_count: 2
   slug: national-renewable-energy-laboratory-plans-pricing
-random_paper: 99
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: National Renewable Energy Laboratory Rate Limits

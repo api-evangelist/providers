@@ -53,7 +53,7 @@ name: Geometer
 nav: Providers
 network: true
 overview: Geometer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Incubator, Accelerator, Startup Studio, and Venture.
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

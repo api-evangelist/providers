@@ -176,7 +176,7 @@ plans:
 - name: Jeeng Plans Pricing
   plan_count: 0
   slug: jeeng-plans-pricing
-random_paper: 74
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Jeeng Rate Limits

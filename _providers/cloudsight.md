@@ -153,7 +153,7 @@ overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: thin
   composite: 35.6

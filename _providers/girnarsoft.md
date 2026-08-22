@@ -107,7 +107,7 @@ overview: 'GirnarSoft is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GirnarSoft''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 44
+random_paper: 16
 score:
   band: emerging
   composite: 15.1

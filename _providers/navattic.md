@@ -244,7 +244,7 @@ plans:
 - name: Navattic Plans Pricing
   plan_count: 5
   slug: navattic-plans-pricing
-random_paper: 113
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Navattic Rate Limits

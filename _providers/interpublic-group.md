@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: We are in the News
   url: https://www.intelligencenode.com/in-the-news/
-random_paper: 148
+random_paper: 2
 score:
   band: minimal
   composite: 2.6

@@ -145,7 +145,7 @@ plans:
 - name: Software Advice Plans Pricing
   plan_count: 3
   slug: software-advice-plans-pricing
-random_paper: 50
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Software Advice Rate Limits

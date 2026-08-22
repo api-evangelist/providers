@@ -174,7 +174,7 @@ plans:
 - name: Curve Finance Plans Pricing
   plan_count: 2
   slug: curve-finance-plans-pricing
-random_paper: 126
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Curve Finance Rate Limits

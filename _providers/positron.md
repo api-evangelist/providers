@@ -208,7 +208,7 @@ overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: thin
   composite: 36.6

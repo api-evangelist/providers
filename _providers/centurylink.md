@@ -125,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: Finance Press
   url: https://centurylink.net/finance/category/press
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Centurylink Rate Limits

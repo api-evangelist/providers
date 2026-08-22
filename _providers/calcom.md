@@ -100,7 +100,7 @@ overview: 'Cal.com publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cal.com''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: emerging
   composite: 23.1

@@ -158,7 +158,7 @@ plans:
 - name: Sense Street Plans Pricing
   plan_count: 0
   slug: sense-street-plans-pricing
-random_paper: 58
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Sense Street Rate Limits

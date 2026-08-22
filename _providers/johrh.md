@@ -130,7 +130,7 @@ name: Johrh
 nav: Providers
 network: true
 overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Categories API, and 9 more. Tagged areas include Company, Retail, E-commerce, Fashion, and Apparel.
-random_paper: 92
+random_paper: 14
 score:
   band: emerging
   composite: 17.7

@@ -417,7 +417,7 @@ overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 46.6

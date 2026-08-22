@@ -57,7 +57,7 @@ name: Peak Games
 nav: Providers
 network: true
 overview: Peak Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Development, and Entertainment.
-random_paper: 93
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

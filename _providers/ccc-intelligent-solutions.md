@@ -170,7 +170,7 @@ overview: 'CCC Intelligent Solutions publishes 3 APIs on the [APIs.io](https://a
 
 
   CCC Intelligent Solutions'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 45
+random_paper: 16
 scopes:
 - name: Ccc Intelligent Solutions Scopes
   scope_count: 9

@@ -72,7 +72,7 @@ overview: '2NDNATURE is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   2NDNATURE''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 9.7

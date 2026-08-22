@@ -663,7 +663,7 @@ plans:
 - name: Temenos Transact Plans Pricing
   plan_count: 1
   slug: temenos-transact-plans-pricing
-random_paper: 33
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Temenos Transact Rate Limits

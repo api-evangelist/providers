@@ -121,7 +121,7 @@ overview: 'Listia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Listia''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 15 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 14.3

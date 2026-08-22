@@ -85,7 +85,7 @@ overview: 'Easel AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Easel AI''s developer surface includes support and 9 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: minimal
   composite: 6.7

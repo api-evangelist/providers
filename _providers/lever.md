@@ -351,7 +351,7 @@ plans:
 - name: Lever Plans Pricing
   plan_count: 4
   slug: lever-plans-pricing
-random_paper: 95
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Lever Rate Limits

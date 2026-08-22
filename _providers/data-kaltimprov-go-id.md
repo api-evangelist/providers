@@ -85,7 +85,7 @@ plans:
 - name: Data Kaltimprov Go Id Plans Pricing
   plan_count: 1
   slug: data-kaltimprov-go-id-plans-pricing
-random_paper: 124
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Data Kaltimprov Go Id Rate Limits

@@ -297,7 +297,7 @@ plans:
 - name: Packagist Plans Pricing
   plan_count: 3
   slug: packagist-plans-pricing
-random_paper: 57
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Packagist Rate Limits

@@ -124,7 +124,7 @@ plans:
 - name: Rogers Plans
   plan_count: 3
   slug: rogers-plans
-random_paper: 62
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Rogers Rate Limits

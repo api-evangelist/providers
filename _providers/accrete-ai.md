@@ -104,7 +104,7 @@ overview: 'Accrete is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Accrete''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 80
+random_paper: 8
 score:
   band: emerging
   composite: 23.2

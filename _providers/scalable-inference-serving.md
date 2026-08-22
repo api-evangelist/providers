@@ -244,7 +244,7 @@ plans:
 - name: Scalable Inference Serving Plans Pricing
   plan_count: 1
   slug: scalable-inference-serving-plans-pricing
-random_paper: 89
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Scalable Inference Serving Rate Limits

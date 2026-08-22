@@ -60,7 +60,7 @@ overview: 'Edviro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Edviro''s developer surface includes FAQ and 3 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

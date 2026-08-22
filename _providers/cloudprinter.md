@@ -133,7 +133,7 @@ plans:
 - name: Cloudprinter Plans Pricing
   plan_count: 3
   slug: cloudprinter-plans-pricing
-random_paper: 115
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Cloudprinter Rate Limits

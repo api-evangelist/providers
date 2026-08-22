@@ -92,7 +92,7 @@ overview: 'Pontem is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pontem''s developer surface includes documentation, API reference, getting-started guide, CLI, and 8 more developer resources.'
-random_paper: 63
+random_paper: 8
 score:
   band: emerging
   composite: 13.1

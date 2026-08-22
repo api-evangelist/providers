@@ -100,7 +100,7 @@ overview: 'Unchained Capital is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Unchained Capital''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 83
+random_paper: 0
 score:
   band: emerging
   composite: 22.8

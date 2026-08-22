@@ -293,7 +293,7 @@ plans:
 - name: Loc Plans Pricing
   plan_count: 3
   slug: loc-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Loc Rate Limits

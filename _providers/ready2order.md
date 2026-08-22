@@ -381,7 +381,7 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 80
+random_paper: 10
 score:
   band: developing
   composite: 46.6

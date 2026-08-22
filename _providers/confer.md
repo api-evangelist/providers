@@ -50,7 +50,7 @@ name: Confer Technologies
 nav: Providers
 network: true
 overview: Confer Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Security, Endpoint Security, and Cybersecurity.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

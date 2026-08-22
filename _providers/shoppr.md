@@ -45,7 +45,7 @@ name: Shoppr
 nav: Providers
 network: true
 overview: Shoppr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-commerce, and Analytics.
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

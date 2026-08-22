@@ -210,7 +210,7 @@ overview: 'LevelBlue publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   LevelBlue''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 66
+random_paper: 15
 scopes:
 - name: Levelblue Scopes
   scope_count: 3

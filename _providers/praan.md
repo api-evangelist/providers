@@ -61,7 +61,7 @@ name: Praan
 nav: Providers
 network: true
 overview: Praan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Climate, Air Quality, and Clean Tech.
-random_paper: 83
+random_paper: 5
 score:
   band: minimal
   composite: 7.4

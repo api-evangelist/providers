@@ -237,7 +237,7 @@ plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
   slug: trakstar-plans-pricing
-random_paper: 131
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Trakstar Rate Limits

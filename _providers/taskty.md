@@ -49,7 +49,7 @@ name: Taskty
 nav: Providers
 network: true
 overview: Taskty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, On-Demand, and Cleaning.
-random_paper: 76
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

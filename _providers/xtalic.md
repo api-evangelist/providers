@@ -76,7 +76,7 @@ overview: 'Xtalic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Xtalic''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 9.3

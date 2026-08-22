@@ -202,7 +202,7 @@ overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
-random_paper: 54
+random_paper: 16
 score:
   band: developing
   composite: 42.7

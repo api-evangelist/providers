@@ -153,7 +153,7 @@ overview: 'Knewton publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Knewton''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 29
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Knewton Rate Limits

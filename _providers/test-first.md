@@ -165,7 +165,7 @@ plans:
 - name: Test First Plans Pricing
   plan_count: 3
   slug: test-first-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Test First Rate Limits

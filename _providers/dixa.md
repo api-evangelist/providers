@@ -301,7 +301,7 @@ plans:
 - name: Dixa Plans Pricing
   plan_count: 3
   slug: dixa-plans-pricing
-random_paper: 124
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Dixa Rate Limits

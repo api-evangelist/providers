@@ -157,7 +157,7 @@ plans:
 - name: Okra Ng Plans Pricing
   plan_count: 3
   slug: okra-ng-plans-pricing
-random_paper: 91
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Okra Ng Rate Limits

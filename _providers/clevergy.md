@@ -192,7 +192,7 @@ plans:
 - name: Clevergy Plans Pricing
   plan_count: 2
   slug: clevergy-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Clevergy Rate Limits

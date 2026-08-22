@@ -214,7 +214,7 @@ overview: 'Confident Cannabis publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 42
+random_paper: 3
 score:
   band: developing
   composite: 47.3

@@ -123,7 +123,7 @@ overview: 'Toutiao publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Toutiao''s developer surface includes documentation, API reference, signup flow, authentication, and 13 more developer resources.'
-random_paper: 28
+random_paper: 17
 scopes:
 - name: Toutiao Scopes
   scope_count: 1

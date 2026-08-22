@@ -64,7 +64,7 @@ overview: 'Veolia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Veolia''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 4.7

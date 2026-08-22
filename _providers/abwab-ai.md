@@ -107,7 +107,7 @@ overview: 'Abwab Ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Abwab Ai''s developer surface includes documentation, API reference, engineering blog, support, and 9 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: thin
   composite: 33.5

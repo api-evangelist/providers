@@ -195,7 +195,7 @@ plans:
 - name: Stainless Api Plans Pricing
   plan_count: 1
   slug: stainless-api-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Stainless Api Rate Limits

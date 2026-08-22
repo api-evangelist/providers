@@ -108,7 +108,7 @@ overview: 'Humio publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Humio''s developer surface includes documentation, API reference, engineering blog, CLI, and 11 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: emerging
   composite: 17.1

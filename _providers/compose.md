@@ -77,7 +77,7 @@ overview: 'Compose is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Compose''s developer surface includes CLI and 7 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 10.3

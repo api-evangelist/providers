@@ -262,7 +262,7 @@ overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 124
+random_paper: 8
 scopes:
 - name: Coinlist Scopes
   scope_count: 0

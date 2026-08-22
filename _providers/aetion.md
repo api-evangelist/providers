@@ -75,7 +75,7 @@ overview: 'Aetion is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aetion''s developer surface includes support and 5 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 7.0

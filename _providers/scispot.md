@@ -157,7 +157,7 @@ plans:
 - name: Scispot Plans Pricing
   plan_count: 3
   slug: scispot-plans-pricing
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Scispot Rate Limits

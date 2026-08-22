@@ -60,7 +60,7 @@ overview: 'Permian Resources is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Permian Resources'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 141
+random_paper: 16
 score:
   band: minimal
   composite: 3.2

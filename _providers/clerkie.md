@@ -92,7 +92,7 @@ overview: 'Clerkie publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Clerkie''s developer surface includes developer portal, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: emerging
   composite: 13.8

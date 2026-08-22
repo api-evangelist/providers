@@ -101,7 +101,7 @@ overview: 'Chobani is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Chobani''s developer surface includes support and 13 more developer resources.'
-random_paper: 128
+random_paper: 10
 score:
   band: emerging
   composite: 12.0

@@ -161,7 +161,7 @@ plans:
 - name: Accenta Plans Pricing
   plan_count: 0
   slug: accenta-plans-pricing
-random_paper: 123
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Accenta Rate Limits

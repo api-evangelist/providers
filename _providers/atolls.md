@@ -113,7 +113,7 @@ overview: 'Atolls is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atolls'' developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 59
+random_paper: 4
 scopes:
 - name: Atolls Scopes
   scope_count: 0

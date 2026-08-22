@@ -196,7 +196,7 @@ plans:
 - name: Matik Plans Pricing
   plan_count: 0
   slug: matik-plans-pricing
-random_paper: 87
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Matik Rate Limits

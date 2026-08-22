@@ -514,7 +514,7 @@ plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits

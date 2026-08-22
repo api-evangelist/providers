@@ -57,7 +57,7 @@ name: PM2.5 Open Data Portal
 nav: Providers
 network: true
 overview: PM2.5 Open Data Portal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 69
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

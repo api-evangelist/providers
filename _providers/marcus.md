@@ -64,7 +64,7 @@ overview: 'Marcus by Goldman Sachs publishes 1 API on the [APIs.io](https://apis
 
 
   Marcus by Goldman Sachs'' developer surface includes support and 5 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

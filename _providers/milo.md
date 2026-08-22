@@ -40,7 +40,7 @@ name: Milo
 nav: Providers
 network: true
 overview: Milo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 135
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

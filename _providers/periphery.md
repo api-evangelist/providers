@@ -80,7 +80,7 @@ overview: 'Periphery is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Periphery''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: emerging
   composite: 13.6

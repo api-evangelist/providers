@@ -66,7 +66,7 @@ name: Mathem
 nav: Providers
 network: true
 overview: Mathem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Grocery, E-Commerce, and Retail.
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 6.4

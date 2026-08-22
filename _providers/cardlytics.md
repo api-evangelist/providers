@@ -222,7 +222,7 @@ plans:
 - name: Cardlytics Plans Pricing
   plan_count: 0
   slug: cardlytics-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Cardlytics Rate Limits

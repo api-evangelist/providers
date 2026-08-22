@@ -84,7 +84,7 @@ overview: 'Based is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Based''s developer surface includes documentation, support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 64
+random_paper: 7
 score:
   band: emerging
   composite: 11.1

@@ -275,7 +275,7 @@ overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 110
+random_paper: 2
 score:
   band: strong
   composite: 56.1

@@ -104,7 +104,7 @@ overview: 'PSEG is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   PSEG''s developer surface includes engineering blog, support, documentation, and 14 more developer resources.'
-random_paper: 133
+random_paper: 11
 score:
   band: minimal
   composite: 6.8

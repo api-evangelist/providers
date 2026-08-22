@@ -40,7 +40,7 @@ name: BeBop Sensors
 nav: Providers
 network: true
 overview: BeBop Sensors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Haptics, Sensors, Wearables, and Virtual Reality.
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

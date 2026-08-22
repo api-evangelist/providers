@@ -84,7 +84,7 @@ overview: 'Click Mechanic is profiled on the [APIs.io](https://apis.io/) network
 
 
   Click Mechanic''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 46
+random_paper: 1
 score:
   band: emerging
   composite: 14.2

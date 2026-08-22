@@ -149,7 +149,7 @@ plans:
 - name: Mapquest Plans Pricing
   plan_count: 3
   slug: mapquest-plans-pricing
-random_paper: 135
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Mapquest Rate Limits

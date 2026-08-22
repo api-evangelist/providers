@@ -49,7 +49,7 @@ name: Cmd *
 nav: Providers
 network: true
 overview: Cmd * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Security, Cybersecurity, and Linux.
-random_paper: 10
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

@@ -127,7 +127,7 @@ overview: 'Forescout publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Forescout''s developer surface includes documentation, API reference, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 92
+random_paper: 20
 score:
   band: emerging
   composite: 22.5

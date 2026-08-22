@@ -89,7 +89,7 @@ overview: 'Meal Ticket is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Meal Ticket''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
   band: emerging
   composite: 15.4

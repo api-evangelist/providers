@@ -146,7 +146,7 @@ plans:
 - name: Benevity Plans Pricing
   plan_count: 1
   slug: benevity-plans-pricing
-random_paper: 125
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Benevity Rate Limits

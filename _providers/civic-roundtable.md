@@ -92,7 +92,7 @@ overview: 'Civic Roundtable is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Civic Roundtable''s developer surface includes signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 4
+random_paper: 5
 score:
   band: emerging
   composite: 19.9

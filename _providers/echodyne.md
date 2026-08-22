@@ -131,7 +131,7 @@ overview: 'Echodyne publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Echodyne''s developer surface includes documentation, support, developer portal, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 102
+random_paper: 7
 scopes:
 - name: Echodyne Scopes
   scope_count: 36

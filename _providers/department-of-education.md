@@ -168,7 +168,7 @@ plans:
 - name: Department Of Education Plans Pricing
   plan_count: 3
   slug: department-of-education-plans-pricing
-random_paper: 100
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Department Of Education Rate Limits

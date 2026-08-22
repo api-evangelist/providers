@@ -69,7 +69,7 @@ plans:
 - name: Innroad Plans Pricing
   plan_count: 3
   slug: innroad-plans-pricing
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
   composite: 11.8

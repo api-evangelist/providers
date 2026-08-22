@@ -49,7 +49,7 @@ name: Luna Park
 nav: Providers
 network: true
 overview: Luna Park is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, GV, Portfolio, and AI.
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

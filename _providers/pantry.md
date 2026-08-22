@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: Purdue professor uses AI technology to help food pantries
   url: https://www.purdueexponent.org/city_state/purdue-alex-psomas-indianapolis-artificial-intelligence/article_07b6cdae-a219-11ef-866e-17a294dc19fd.html
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Pantry Rate Limits

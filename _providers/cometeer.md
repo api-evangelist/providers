@@ -126,7 +126,7 @@ overview: 'Cometeer publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 107
+random_paper: 12
 scopes:
 - name: Cometeer Scopes
   scope_count: 4

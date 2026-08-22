@@ -80,7 +80,7 @@ overview: 'The Business of Fashion is profiled on the [APIs.io](https://apis.io/
 
 
   The Business of Fashion''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 54
+random_paper: 0
 score:
   band: emerging
   composite: 15.7

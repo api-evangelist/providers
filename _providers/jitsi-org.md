@@ -277,7 +277,7 @@ overview: 'Jitsi publishes 10 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Jitsi''s developer surface includes developer portal, sandbox, documentation, getting-started guide, signup flow, pricing, tooling, and 33 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: thin
   composite: 32.2

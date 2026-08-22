@@ -140,7 +140,7 @@ plans:
 - name: Haus Plans Pricing
   plan_count: 4
   slug: haus-plans-pricing
-random_paper: 135
+random_paper: 13
 score:
   band: thin
   composite: 30.1

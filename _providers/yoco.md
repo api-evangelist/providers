@@ -135,7 +135,7 @@ plans:
 - name: Yoco Plans Pricing
   plan_count: 3
   slug: yoco-plans-pricing
-random_paper: 144
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Yoco Rate Limits

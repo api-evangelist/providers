@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: After-Action Review for AI (AAR/AI)
   url: https://dl.acm.org/doi/10.1145/3453173
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Aar Rate Limits

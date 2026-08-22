@@ -149,7 +149,7 @@ overview: 'Standard Industries is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Standard Industries'' developer surface includes developer portal, documentation, engineering blog, GitHub presence, and 20 more developer resources.'
-random_paper: 55
+random_paper: 18
 score:
   band: emerging
   composite: 17.0

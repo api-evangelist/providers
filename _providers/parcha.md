@@ -577,7 +577,7 @@ overview: 'Parcha publishes 66 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parcha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: developing
   composite: 50.1

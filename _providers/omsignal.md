@@ -49,7 +49,7 @@ name: OMsignal
 nav: Providers
 network: true
 overview: OMsignal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Wearables, Biometrics, and Smart Clothing.
-random_paper: 113
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

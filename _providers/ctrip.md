@@ -60,7 +60,7 @@ overview: 'Ctrip is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ctrip''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 99
+random_paper: 0
 score:
   band: minimal
   composite: 8.8

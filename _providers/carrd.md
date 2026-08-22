@@ -111,7 +111,7 @@ plans:
 - name: Carrd Plans Pricing
   plan_count: 17
   slug: carrd-plans-pricing
-random_paper: 77
+random_paper: 20
 score:
   band: thin
   composite: 28.3

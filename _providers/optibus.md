@@ -324,7 +324,7 @@ overview: 'Optibus publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Optibus'' developer surface includes documentation, API reference, engineering blog, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: developing
   composite: 48.7

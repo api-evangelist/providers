@@ -178,7 +178,7 @@ overview: 'char.gy publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: developing
   composite: 47.9

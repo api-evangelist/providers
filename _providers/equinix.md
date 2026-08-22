@@ -570,7 +570,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Equinix
   url: https://newsroom.equinix.com/press-releases-canada-en
-random_paper: 26
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Equinix Rate Limits

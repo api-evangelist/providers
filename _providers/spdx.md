@@ -73,7 +73,7 @@ plans:
 - name: Spdx Plans Pricing
   plan_count: 3
   slug: spdx-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Spdx Rate Limits

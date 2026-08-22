@@ -68,7 +68,7 @@ overview: 'Affirmed Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Affirmed Networks'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 129
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

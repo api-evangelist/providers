@@ -266,7 +266,7 @@ overview: 'ComboCurve publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: developing
   composite: 46.1

@@ -53,7 +53,7 @@ name: View
 nav: Providers
 network: true
 overview: View is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Smart Glass, Smart Buildings, and IoT.
-random_paper: 145
+random_paper: 2
 score:
   band: minimal
   composite: 5.3

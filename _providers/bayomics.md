@@ -49,7 +49,7 @@ name: bayomics
 nav: Providers
 network: true
 overview: bayomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Proteomics, Mass Spectrometry, and Life Sciences.
-random_paper: 110
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

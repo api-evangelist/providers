@@ -49,7 +49,7 @@ name: Viasat
 nav: Providers
 network: true
 overview: Viasat is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 52
+random_paper: 18
 score:
   band: minimal
   composite: 2.9

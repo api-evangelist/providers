@@ -345,7 +345,7 @@ plans:
 - name: Scalar Plans Pricing
   plan_count: 3
   slug: scalar-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Scalar Rate Limits

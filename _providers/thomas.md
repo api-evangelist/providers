@@ -53,7 +53,7 @@ name: Thomas
 nav: Providers
 network: true
 overview: Thomas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Autonomous Agents, and B2B.
-random_paper: 56
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

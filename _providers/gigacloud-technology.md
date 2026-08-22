@@ -49,7 +49,7 @@ name: GigaCloud Technology
 nav: Providers
 network: true
 overview: GigaCloud Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, E-Commerce, Marketplace, and B2B.
-random_paper: 135
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

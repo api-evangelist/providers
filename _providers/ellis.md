@@ -76,7 +76,7 @@ overview: 'Ellis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ellis'' developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: emerging
   composite: 11.5

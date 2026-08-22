@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Avantor® Completes Acquisition of VWR
   url: https://www.labmanager.com/avantor-completes-acquisition-of-vwr-5935
-random_paper: 53
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Vwr Rate Limits

@@ -84,7 +84,7 @@ overview: 'Education Holdings 1 (The Princeton Review) is profiled on the [APIs.
 
 
   Education Holdings 1 (The Princeton Review)''s developer surface includes support and 9 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: emerging
   composite: 12.0

@@ -137,7 +137,7 @@ overview: 'Unsloth is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Unsloth''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, CLI, and 16 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: thin
   composite: 26.3

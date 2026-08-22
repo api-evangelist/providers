@@ -128,7 +128,7 @@ overview: 'Coverforce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Coverforce''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 27
+random_paper: 20
 score:
   band: thin
   composite: 28.7

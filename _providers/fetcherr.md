@@ -68,7 +68,7 @@ overview: 'Fetcherr is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fetcherr''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 10.0

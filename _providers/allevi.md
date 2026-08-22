@@ -56,7 +56,7 @@ overview: 'Allevi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Allevi''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 3.6

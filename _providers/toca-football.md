@@ -149,7 +149,7 @@ overview: 'TOCA Football is profiled on the [APIs.io](https://apis.io/) network.
 
 
   TOCA Football''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 19 more developer resources.'
-random_paper: 127
+random_paper: 17
 score:
   band: emerging
   composite: 13.0

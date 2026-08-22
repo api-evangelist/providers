@@ -194,7 +194,7 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 25
+random_paper: 4
 score:
   band: thin
   composite: 33.8

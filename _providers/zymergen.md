@@ -53,7 +53,7 @@ name: Zymergen
 nav: Providers
 network: true
 overview: Zymergen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Bio-manufacturing, and Materials Science.
-random_paper: 136
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

@@ -45,7 +45,7 @@ name: Crocodoc
 nav: Providers
 network: true
 overview: Crocodoc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documents, Document Viewer, PDF, and Annotation.
-random_paper: 99
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

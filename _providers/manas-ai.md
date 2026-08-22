@@ -40,7 +40,7 @@ name: Manas AI
 nav: Providers
 network: true
 overview: Manas AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Drug Discovery, Biotechnology, and Healthcare.
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 2.2

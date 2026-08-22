@@ -49,7 +49,7 @@ name: digitalsurgery
 nav: Providers
 network: true
 overview: digitalsurgery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Surgery, Healthcare, Artificial Intelligence, and Medical Devices.
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

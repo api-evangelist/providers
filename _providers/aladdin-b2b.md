@@ -80,7 +80,7 @@ overview: 'Aladdin B2B is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Aladdin B2B''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 114
+random_paper: 0
 score:
   band: minimal
   composite: 6.3

@@ -108,7 +108,7 @@ overview: 'LanzaJet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LanzaJet''s developer surface includes product news and 17 more developer resources.'
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 9.9

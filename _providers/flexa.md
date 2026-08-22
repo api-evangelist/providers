@@ -208,7 +208,7 @@ overview: 'Flexa publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Flexa''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: developing
   composite: 50.2

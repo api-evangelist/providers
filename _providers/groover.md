@@ -72,7 +72,7 @@ overview: 'Groover is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Groover''s developer surface includes pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 12.7

@@ -203,7 +203,7 @@ plans:
 - name: Powerreviews Plans Pricing
   plan_count: 0
   slug: powerreviews-plans-pricing
-random_paper: 138
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Powerreviews Rate Limits

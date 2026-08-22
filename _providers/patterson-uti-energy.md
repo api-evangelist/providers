@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: PATTERSON UTI ENERGY INC Earnings Call Transcript ...
   url: https://www.stockinsights.ai/us/PTEN/earnings-transcript/fy25-q3-ad15
-random_paper: 133
+random_paper: 12
 score:
   band: minimal
   composite: 2.4

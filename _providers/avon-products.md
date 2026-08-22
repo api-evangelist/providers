@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Avon announces partnership to deliver global training ...
   url: https://www.newswire.ca/news-releases/avon-announces-partnership-to-deliver-global-training-platform-for-independent-sales-representatives-897384276.html
-random_paper: 24
+random_paper: 0
 score:
   band: minimal
   composite: 6.3

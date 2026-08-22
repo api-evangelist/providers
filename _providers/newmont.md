@@ -52,7 +52,7 @@ name: newmont
 nav: Providers
 network: true
 overview: newmont is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 2.6

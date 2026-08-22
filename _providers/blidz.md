@@ -72,7 +72,7 @@ overview: 'Blidz is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Blidz''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: emerging
   composite: 11.9

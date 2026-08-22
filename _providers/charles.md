@@ -168,7 +168,7 @@ plans:
 - name: Charles Plans Pricing
   plan_count: 2
   slug: charles-plans-pricing
-random_paper: 142
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Charles Rate Limits

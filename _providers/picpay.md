@@ -182,7 +182,7 @@ overview: 'PicPay publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   PicPay''s developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 26 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 14.5

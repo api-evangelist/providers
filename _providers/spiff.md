@@ -49,7 +49,7 @@ name: Spiff
 nav: Providers
 network: true
 overview: Spiff is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Commissions, Incentive Compensation, and Compensation Management.
-random_paper: 89
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

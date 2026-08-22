@@ -144,7 +144,7 @@ plans:
 - name: Deep Sentinel Plans Pricing
   plan_count: 6
   slug: deep-sentinel-plans-pricing
-random_paper: 133
+random_paper: 2
 scopes:
 - name: Deep Sentinel Scopes
   scope_count: 4

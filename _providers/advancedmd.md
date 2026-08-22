@@ -256,7 +256,7 @@ plans:
 - name: Advancedmd Plans Pricing
   plan_count: 6
   slug: advancedmd-plans-pricing
-random_paper: 137
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits

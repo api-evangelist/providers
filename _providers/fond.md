@@ -60,7 +60,7 @@ overview: 'Fond is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fond''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

@@ -143,7 +143,7 @@ overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Level Home''s developer surface includes documentation, support, engineering blog, pricing, signup flow, legal docs, and 19 more developer resources.'
-random_paper: 112
+random_paper: 19
 score:
   band: thin
   composite: 30.5

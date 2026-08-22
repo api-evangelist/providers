@@ -147,7 +147,7 @@ plans:
 - name: Colossyan Plans Pricing
   plan_count: 5
   slug: colossyan-plans-pricing
-random_paper: 93
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Colossyan Rate Limits

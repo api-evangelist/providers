@@ -93,7 +93,7 @@ plans:
 - name: Microsoft Forms Plans Pricing
   plan_count: 3
   slug: microsoft-forms-plans-pricing
-random_paper: 88
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Forms Rate Limits

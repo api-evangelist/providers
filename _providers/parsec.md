@@ -241,7 +241,7 @@ overview: 'Parsec publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits

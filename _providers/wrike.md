@@ -471,7 +471,7 @@ plans:
 - name: Wrike Plans Pricing
   plan_count: 11
   slug: wrike-plans-pricing
-random_paper: 99
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Wrike Rate Limits

@@ -1024,7 +1024,7 @@ plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
   slug: power-bi-plans-pricing
-random_paper: 60
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Power Bi Rate Limits

@@ -84,7 +84,7 @@ overview: 'Vera is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vera''s developer surface includes changelog and 9 more developer resources.'
-random_paper: 132
+random_paper: 10
 score:
   band: emerging
   composite: 12.3

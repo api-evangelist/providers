@@ -109,7 +109,7 @@ overview: 'LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LevelUp''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: emerging
   composite: 16.1

@@ -174,7 +174,7 @@ plans:
 - name: Cybersecurity And Infrastructure Security Agency Plans Pricing
   plan_count: 3
   slug: cybersecurity-and-infrastructure-security-agency-plans-pricing
-random_paper: 47
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Cybersecurity And Infrastructure Security Agency Rate Limits

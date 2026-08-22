@@ -104,7 +104,7 @@ overview: 'Almabase is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Almabase''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 77
+random_paper: 3
 score:
   band: emerging
   composite: 19.8

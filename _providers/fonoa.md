@@ -181,7 +181,7 @@ plans:
 - name: Fonoa Plans Pricing
   plan_count: 1
   slug: fonoa-plans-pricing
-random_paper: 84
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Fonoa Rate Limits

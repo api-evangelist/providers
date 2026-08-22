@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Evergy Announces Second Quarter 2025 Results ...
   url: https://investors.evergy.com/news-releases/news-release-details/evergy-announces-second-quarter-2025-results-declares-quarterly
-random_paper: 16
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

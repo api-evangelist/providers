@@ -310,7 +310,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
-random_paper: 127
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []

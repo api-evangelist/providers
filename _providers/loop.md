@@ -254,7 +254,7 @@ overview: 'Loop publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Loop''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 144
+random_paper: 1
 score:
   band: developing
   composite: 47.8

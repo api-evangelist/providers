@@ -166,7 +166,7 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
 
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 103
+random_paper: 11
 score:
   band: developing
   composite: 42.2

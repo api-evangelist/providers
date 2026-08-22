@@ -409,7 +409,7 @@ overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 62
+random_paper: 7
 score:
   band: thin
   composite: 36.7

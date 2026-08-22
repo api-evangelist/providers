@@ -170,7 +170,7 @@ plans:
 - name: Aspentech Plans Pricing
   plan_count: 1
   slug: aspentech-plans-pricing
-random_paper: 61
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Aspentech Rate Limits

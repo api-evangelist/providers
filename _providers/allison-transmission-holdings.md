@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Allison Transmission Holdings, Inc. (ALSN) Q1 2026 ...
   url: https://seekingalpha.com/article/4898143-allison-transmission-holdings-inc-alsn-q1-2026-earnings-call-transcript
-random_paper: 42
+random_paper: 19
 score:
   band: minimal
   composite: 3.1

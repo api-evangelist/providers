@@ -719,7 +719,7 @@ overview: 'Genesys publishes 87 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 21
+random_paper: 10
 scopes:
 - name: Genesys Scopes
   scope_count: 135

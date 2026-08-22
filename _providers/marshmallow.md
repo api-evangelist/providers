@@ -125,7 +125,7 @@ overview: 'Marshmallow is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Marshmallow''s developer surface includes engineering blog, authentication, support, and 19 more developer resources.'
-random_paper: 148
+random_paper: 15
 scopes:
 - name: Marshmallow Scopes
   scope_count: 1

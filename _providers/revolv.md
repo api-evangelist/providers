@@ -49,7 +49,7 @@ name: Revolv
 nav: Providers
 network: true
 overview: Revolv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Internet of Things, Home Automation, and Consumer Electronics.
-random_paper: 74
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

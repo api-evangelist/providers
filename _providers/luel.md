@@ -80,7 +80,7 @@ overview: 'Luel is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Luel''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 136
+random_paper: 14
 score:
   band: emerging
   composite: 13.3

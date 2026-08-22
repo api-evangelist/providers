@@ -170,7 +170,7 @@ plans:
 - name: Tu Dresden Plans Pricing
   plan_count: 2
   slug: tu-dresden-plans-pricing
-random_paper: 125
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Tu Dresden Rate Limits

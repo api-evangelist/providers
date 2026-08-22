@@ -40,7 +40,7 @@ name: London International Financial Futures and Options Exchange
 nav: Providers
 network: true
 overview: London International Financial Futures and Options Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 146
+random_paper: 14
 score:
   band: minimal
   composite: 4.1

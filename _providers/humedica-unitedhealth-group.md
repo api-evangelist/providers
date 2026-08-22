@@ -49,7 +49,7 @@ name: Humedica (UnitedHealth Group)
 nav: Providers
 network: true
 overview: Humedica (UnitedHealth Group) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Healthcare, Health Analytics, and Clinical Data.
-random_paper: 76
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

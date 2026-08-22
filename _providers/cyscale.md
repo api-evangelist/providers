@@ -112,7 +112,7 @@ overview: 'Cyscale is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cyscale''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: emerging
   composite: 25.5

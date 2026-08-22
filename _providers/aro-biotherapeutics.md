@@ -83,7 +83,7 @@ overview: 'Aro Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Aro Biotherapeutics'' developer surface includes authentication, engineering blog, support, and 7 more developer resources.'
-random_paper: 41
+random_paper: 4
 score:
   band: emerging
   composite: 19.7

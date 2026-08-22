@@ -125,7 +125,7 @@ overview: 'Alectra Utilities publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 15 more developer resources.'
-random_paper: 126
+random_paper: 1
 scopes:
 - name: Alectra Utilities Scopes
   scope_count: 0

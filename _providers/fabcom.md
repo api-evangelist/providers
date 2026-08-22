@@ -92,7 +92,7 @@ overview: 'Fab.com is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fab.com''s developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
-random_paper: 20
+random_paper: 7
 score:
   band: emerging
   composite: 13.9

@@ -77,7 +77,7 @@ plans:
 - name: Podcastpage Api Podcastpage Io Plans Pricing
   plan_count: 3
   slug: podcastpage-api-podcastpage-io-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Podcastpage Api Podcastpage Io Rate Limits

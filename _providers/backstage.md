@@ -414,7 +414,7 @@ plans:
 - name: Backstage Plans Pricing
   plan_count: 4
   slug: backstage-plans-pricing
-random_paper: 39
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Backstage Rate Limits

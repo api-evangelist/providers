@@ -2130,7 +2130,7 @@ plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
   slug: airbus-oneatlas-plans-pricing
-random_paper: 56
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Airbus Oneatlas Rate Limits

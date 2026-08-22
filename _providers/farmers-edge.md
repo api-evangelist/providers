@@ -180,7 +180,7 @@ overview: 'Farmers Edge publishes 11 APIs on the [APIs.io](https://apis.io/) net
 
 
   Farmers Edge''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: thin
   composite: 27.6

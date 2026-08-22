@@ -68,7 +68,7 @@ overview: 'ChurchTrac is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ChurchTrac''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: minimal
   composite: 6.4

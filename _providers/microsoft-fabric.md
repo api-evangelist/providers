@@ -168,7 +168,7 @@ plans:
 - name: Microsoft Fabric Plans Pricing
   plan_count: 3
   slug: microsoft-fabric-plans-pricing
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Microsoft Fabric Rate Limits

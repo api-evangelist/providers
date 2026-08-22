@@ -193,7 +193,7 @@ overview: 'EigenDA publishes 5 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 27 more developer resources.'
-random_paper: 121
+random_paper: 3
 score:
   band: emerging
   composite: 18.9

@@ -40,7 +40,7 @@ name: Graft Concepts
 nav: Providers
 network: true
 overview: Graft Concepts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Mobile Accessories, Hardware, and iPhone Cases.
-random_paper: 99
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

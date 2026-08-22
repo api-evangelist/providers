@@ -128,7 +128,7 @@ overview: 'Alloy Enterprises is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Alloy Enterprises'' developer surface includes engineering blog, FAQ, YouTube channel, and 16 more developer resources.'
-random_paper: 6
+random_paper: 9
 score:
   band: minimal
   composite: 9.9

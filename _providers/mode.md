@@ -227,7 +227,7 @@ overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
-random_paper: 123
+random_paper: 1
 score:
   band: developing
   composite: 46.1

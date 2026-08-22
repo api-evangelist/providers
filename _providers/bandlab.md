@@ -72,7 +72,7 @@ overview: 'BandLab is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BandLab''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 112
+random_paper: 15
 score:
   band: minimal
   composite: 6.3

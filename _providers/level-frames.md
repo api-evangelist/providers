@@ -88,7 +88,7 @@ overview: 'Level Frames is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Level Frames'' developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 27
+random_paper: 1
 score:
   band: emerging
   composite: 16.1

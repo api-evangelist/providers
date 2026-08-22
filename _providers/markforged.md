@@ -152,7 +152,7 @@ plans:
 - name: Markforged Plans Pricing
   plan_count: 4
   slug: markforged-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Markforged Rate Limits

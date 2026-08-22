@@ -46,7 +46,7 @@ name: AnswerSoft
 nav: Providers
 network: true
 overview: AnswerSoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Computer Telephony Integration, Call Center Software, and CRM.
-random_paper: 57
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

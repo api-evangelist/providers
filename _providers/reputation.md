@@ -352,7 +352,7 @@ plans:
 - name: Reputation Plans Pricing
   plan_count: 4
   slug: reputation-plans-pricing
-random_paper: 56
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Reputation Rate Limits

@@ -66,7 +66,7 @@ plans:
 - name: Race Result Plans Pricing
   plan_count: 3
   slug: race-result-plans-pricing
-random_paper: 84
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Race Result Rate Limits

@@ -101,7 +101,7 @@ overview: 'Pocket Gems is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Pocket Gems'' developer surface includes support and 11 more developer resources.'
-random_paper: 76
+random_paper: 6
 score:
   band: emerging
   composite: 11.3

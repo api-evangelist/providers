@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Chesapeake Energy Corp. is buying Southwestern ...
   url: https://www.facebook.com/Investopedia/posts/chesapeake-energy-corp-is-buying-southwestern-energy-co-to-become-the-largest-na/765851035566707/
-random_paper: 97
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Southwestern Energy Rate Limits

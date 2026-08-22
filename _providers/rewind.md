@@ -112,7 +112,7 @@ overview: 'Rewind is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rewind''s developer surface includes support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 20.2

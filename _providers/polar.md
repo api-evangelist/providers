@@ -319,7 +319,7 @@ overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
-random_paper: 95
+random_paper: 17
 scopes:
 - name: Polar Scopes
   scope_count: 2

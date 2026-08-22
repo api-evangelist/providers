@@ -248,7 +248,7 @@ plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-net-zero-cloud-plans-pricing
-random_paper: 124
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Salesforce Net Zero Cloud Rate Limits

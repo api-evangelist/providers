@@ -90,7 +90,7 @@ overview: 'Lantum is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lantum''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 61
+random_paper: 6
 score:
   band: minimal
   composite: 8.7

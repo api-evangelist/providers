@@ -179,7 +179,7 @@ plans:
 - name: Madvertise Plans Pricing
   plan_count: 0
   slug: madvertise-plans-pricing
-random_paper: 33
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Madvertise Rate Limits

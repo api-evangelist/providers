@@ -192,7 +192,7 @@ plans:
 - name: Talkwalker Plans Pricing
   plan_count: 3
   slug: talkwalker-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Talkwalker Rate Limits

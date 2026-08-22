@@ -167,7 +167,7 @@ overview: 'Stamped publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Stamped''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
   composite: 34.2

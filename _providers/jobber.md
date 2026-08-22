@@ -256,7 +256,7 @@ plans:
 - name: Jobber Plans Pricing
   plan_count: 4
   slug: jobber-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Jobber Rate Limits

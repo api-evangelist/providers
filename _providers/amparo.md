@@ -60,7 +60,7 @@ overview: 'Amparo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Amparo''s developer surface includes support and 3 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 6.3

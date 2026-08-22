@@ -427,7 +427,7 @@ plans:
 - name: Grafana Com Plans Pricing
   plan_count: 5
   slug: grafana-com-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Grafana Com Rate Limits

@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Exelon to Acquire Pepco Holdings Inc., Creating the ...
   url: https://njbmagazine.com/njb-news-now/exelon-acquire-pepco-holdings-inc-creating-leading-mid-atlantic-electric-gas-utility/
-random_paper: 95
+random_paper: 8
 score:
   band: minimal
   composite: 1.8

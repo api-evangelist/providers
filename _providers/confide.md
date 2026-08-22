@@ -72,7 +72,7 @@ overview: 'Confide * is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Confide *''s developer surface includes support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 132
+random_paper: 14
 score:
   band: emerging
   composite: 14.9

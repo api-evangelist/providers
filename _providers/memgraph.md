@@ -120,7 +120,7 @@ plans:
 - name: Memgraph Plans Pricing
   plan_count: 3
   slug: memgraph-plans-pricing
-random_paper: 104
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Memgraph Rate Limits

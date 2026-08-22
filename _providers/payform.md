@@ -92,7 +92,7 @@ overview: 'Payform is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Payform''s developer surface includes signup flow, pricing, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: emerging
   composite: 17.5

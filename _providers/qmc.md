@@ -68,7 +68,7 @@ overview: 'QMC is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   QMC''s developer surface includes support and 5 more developer resources.'
-random_paper: 23
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

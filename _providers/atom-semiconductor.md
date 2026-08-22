@@ -60,7 +60,7 @@ overview: 'Atom Semiconductor is profiled on the [APIs.io](https://apis.io/) net
 
 
   Atom Semiconductor''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 97
+random_paper: 16
 score:
   band: minimal
   composite: 6.4

@@ -45,7 +45,7 @@ name: amberjack
 nav: Providers
 network: true
 overview: amberjack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, Ecommerce, Direct to Consumer, and Retail.
-random_paper: 34
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

@@ -92,7 +92,7 @@ overview: 'Rebellions is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rebellions'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: emerging
   composite: 15.3

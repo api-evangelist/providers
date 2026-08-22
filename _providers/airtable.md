@@ -790,7 +790,7 @@ plans:
 - name: Airtable Plans Pricing
   plan_count: 4
   slug: airtable-plans-pricing
-random_paper: 91
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Airtable Rate Limits

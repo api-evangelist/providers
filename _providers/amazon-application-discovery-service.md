@@ -764,7 +764,7 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
 
 
   Amazon Application Discovery Service''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 114
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []

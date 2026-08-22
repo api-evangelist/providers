@@ -646,7 +646,7 @@ plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
   slug: marqeta-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Marqeta Rate Limits

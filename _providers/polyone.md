@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Innodata Selected by Palantir to Accelerate Advanced ...
   url: https://via.ritzau.dk/pressemeddelelse/14773949/innodata-selected-by-palantir-to-accelerate-advanced-initiatives-in-ai-powered-rodeo-modernization?publisherId=13560585&lang=en
-random_paper: 29
+random_paper: 18
 score:
   band: minimal
   composite: 4.0

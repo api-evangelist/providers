@@ -53,7 +53,7 @@ name: Amodo
 nav: Providers
 network: true
 overview: Amodo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Telematics, and Usage-Based Insurance.
-random_paper: 81
+random_paper: 3
 score:
   band: minimal
   composite: 2.3

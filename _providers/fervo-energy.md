@@ -68,7 +68,7 @@ overview: 'Fervo Energy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Fervo Energy''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 49
+random_paper: 2
 score:
   band: minimal
   composite: 2.1

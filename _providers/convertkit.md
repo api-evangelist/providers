@@ -1164,7 +1164,7 @@ plans:
 - name: Convertkit Plans Pricing
   plan_count: 3
   slug: convertkit-plans-pricing
-random_paper: 54
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Convertkit Rate Limits

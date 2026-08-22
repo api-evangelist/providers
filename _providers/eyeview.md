@@ -40,7 +40,7 @@ name: Eyeview
 nav: Providers
 network: true
 overview: Eyeview is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Video Advertising, Marketing Technology, and Programmatic Advertising.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

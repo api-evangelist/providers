@@ -245,7 +245,7 @@ plans:
 - name: Nhost Plans Pricing
   plan_count: 4
   slug: nhost-plans-pricing
-random_paper: 109
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Nhost Rate Limits

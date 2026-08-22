@@ -60,7 +60,7 @@ overview: 'Realta Fusion is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Realta Fusion''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 101
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

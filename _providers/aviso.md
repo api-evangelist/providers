@@ -120,7 +120,7 @@ plans:
 - name: Aviso Plans Pricing
   plan_count: 0
   slug: aviso-plans-pricing
-random_paper: 99
+random_paper: 0
 score:
   band: emerging
   composite: 20.1

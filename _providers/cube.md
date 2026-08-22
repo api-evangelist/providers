@@ -96,7 +96,7 @@ overview: 'Cube publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cube''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 117
+random_paper: 16
 score:
   band: emerging
   composite: 22.9

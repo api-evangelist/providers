@@ -49,7 +49,7 @@ name: Nse-india
 nav: Providers
 network: true
 overview: Nse-india is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Financial Services, Market Data, and Capital Markets.
-random_paper: 143
+random_paper: 6
 score:
   band: minimal
   composite: 1.2

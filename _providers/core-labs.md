@@ -45,7 +45,7 @@ name: Core Labs
 nav: Providers
 network: true
 overview: Core Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Studio, Professional Identity, Portfolio, and Mentorship.
-random_paper: 143
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

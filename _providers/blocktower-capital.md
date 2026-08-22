@@ -49,7 +49,7 @@ name: BlockTower Capital
 nav: Providers
 network: true
 overview: BlockTower Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, Investment Management, and Blockchain.
-random_paper: 75
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -72,7 +72,7 @@ overview: 'Cado Gifts, Inc. is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cado Gifts, Inc.''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: emerging
   composite: 11.0

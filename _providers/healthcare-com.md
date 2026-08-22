@@ -107,7 +107,7 @@ overview: 'Healthcare.com is profiled on the [APIs.io](https://apis.io/) network
 
 
   Healthcare.com''s developer surface includes support, engineering blog, and 16 more developer resources.'
-random_paper: 64
+random_paper: 19
 score:
   band: emerging
   composite: 11.9

@@ -49,7 +49,7 @@ name: Eventtus
 nav: Providers
 network: true
 overview: Eventtus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Event Technology, Event Management, and Mobile App.
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 5.3

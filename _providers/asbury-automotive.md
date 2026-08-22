@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Asbury Automotive Group chooses Tekion Corp's DMS
   url: https://www.linkedin.com/posts/colintrichardson_asbury-tekion-rollout-reaches-jim-koons-dealerships-activity-7325886275754885120-NLKR
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Asbury Automotive Rate Limits

@@ -156,7 +156,7 @@ plans:
 - name: Mybotspro Plans Pricing
   plan_count: 5
   slug: mybotspro-plans-pricing
-random_paper: 113
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Mybotspro Rate Limits

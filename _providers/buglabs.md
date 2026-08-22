@@ -84,7 +84,7 @@ overview: 'Bug Labs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bug Labs'' developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 140
+random_paper: 1
 score:
   band: minimal
   composite: 8.6

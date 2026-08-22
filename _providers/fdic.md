@@ -186,7 +186,7 @@ plans:
 - name: Fdic Plans Pricing
   plan_count: 1
   slug: fdic-plans-pricing
-random_paper: 108
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Fdic Rate Limits

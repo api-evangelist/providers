@@ -156,7 +156,7 @@ overview: 'Coro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 137
+random_paper: 15
 score:
   band: developing
   composite: 44.7

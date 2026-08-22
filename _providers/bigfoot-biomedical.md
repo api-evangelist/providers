@@ -111,7 +111,7 @@ overview: 'Bigfoot Biomedical is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bigfoot Biomedical''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 36
+random_paper: 18
 scopes:
 - name: Bigfoot Biomedical Scopes
   scope_count: 36

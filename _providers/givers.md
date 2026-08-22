@@ -64,7 +64,7 @@ overview: 'Givers is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Givers'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 9.5

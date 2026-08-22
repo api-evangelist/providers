@@ -81,7 +81,7 @@ name: Knowable
 nav: Providers
 network: true
 overview: Knowable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Learning, Education, and Media.
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 3.6

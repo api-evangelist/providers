@@ -40,7 +40,7 @@ name: Advanced Computer Communications
 nav: Providers
 network: true
 overview: Advanced Computer Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Routers, Wide Area Networking, and Remote Access.
-random_paper: 26
+random_paper: 7
 score:
   band: minimal
   composite: 0.6

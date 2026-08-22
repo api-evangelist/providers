@@ -53,7 +53,7 @@ name: Playbook
 nav: Providers
 network: true
 overview: Playbook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Career Development, Community, Education, and Women in Leadership.
-random_paper: 120
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

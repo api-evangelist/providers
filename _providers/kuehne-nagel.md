@@ -172,7 +172,7 @@ overview: 'Kuehne+Nagel publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 5 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: emerging
   composite: 24.2

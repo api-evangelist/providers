@@ -57,7 +57,7 @@ name: Styvio
 nav: Providers
 network: true
 overview: Styvio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 90
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

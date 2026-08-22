@@ -312,7 +312,7 @@ overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Domain Group''s developer surface includes authentication, documentation, API reference, signup flow, getting-started guide, sandbox, support, and 44 more developer resources.'
-random_paper: 42
+random_paper: 16
 scopes:
 - name: Domain Group Scopes
   scope_count: 25

@@ -88,7 +88,7 @@ overview: 'Goat Group is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Goat Group''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 135
+random_paper: 0
 score:
   band: emerging
   composite: 11.6

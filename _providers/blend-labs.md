@@ -128,7 +128,7 @@ overview: 'Blend Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Blend Labs'' developer surface includes documentation, API reference, getting-started guide, support, changelog, signup flow, pricing, and 10 more developer resources.'
-random_paper: 86
+random_paper: 14
 score:
   band: thin
   composite: 34.1

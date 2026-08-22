@@ -49,7 +49,7 @@ name: View The Space (Fmr Hightower)
 nav: Providers
 network: true
 overview: View The Space (Fmr Hightower) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Commercial Real Estate, Real Estate, and PropTech.
-random_paper: 88
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

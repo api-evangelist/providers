@@ -628,7 +628,7 @@ press:
 - date: '2026-05-25'
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
-random_paper: 73
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Intuit Rate Limits

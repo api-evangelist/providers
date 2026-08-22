@@ -136,7 +136,7 @@ plans:
 - name: Linguidoor Plans Pricing
   plan_count: 3
   slug: linguidoor-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Linguidoor Rate Limits

@@ -114,7 +114,7 @@ overview: 'Mammoth Brands publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Mammoth Brands'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 114
+random_paper: 17
 scopes:
 - name: Harry S Scopes
   scope_count: 4

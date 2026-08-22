@@ -568,7 +568,7 @@ overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 20 more developer resources.'
-random_paper: 138
+random_paper: 5
 scopes:
 - name: Wegalvanize Scopes
   scope_count: 7

@@ -431,7 +431,7 @@ plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
   slug: storyblok-plans-pricing
-random_paper: 107
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Storyblok Rate Limits

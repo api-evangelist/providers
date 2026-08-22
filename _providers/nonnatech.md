@@ -116,7 +116,7 @@ plans:
 - name: Nonnatech Plans Pricing
   plan_count: 0
   slug: nonnatech-plans-pricing
-random_paper: 64
+random_paper: 13
 score:
   band: emerging
   composite: 13.3

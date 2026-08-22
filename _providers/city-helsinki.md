@@ -57,7 +57,7 @@ name: City, Helsinki
 nav: Providers
 network: true
 overview: City, Helsinki publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 0
+random_paper: 18
 score:
   band: minimal
   composite: 4.2

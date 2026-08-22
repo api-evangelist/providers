@@ -92,7 +92,7 @@ overview: 'ReDEF is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   ReDEF''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 71
+random_paper: 14
 score:
   band: emerging
   composite: 13.9

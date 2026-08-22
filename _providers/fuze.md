@@ -49,7 +49,7 @@ name: Fuze
 nav: Providers
 network: true
 overview: Fuze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Unified Communications, UCaaS, and Communications.
-random_paper: 144
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

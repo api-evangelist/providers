@@ -61,7 +61,7 @@ name: Open Government, Switzerland
 nav: Providers
 network: true
 overview: Open Government, Switzerland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 142
+random_paper: 10
 score:
   band: minimal
   composite: 5.8

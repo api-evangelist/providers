@@ -57,7 +57,7 @@ name: Govport
 nav: Providers
 network: true
 overview: Govport is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government Contracting, GovCon, Compliance, and Subcontractor Management.
-random_paper: 40
+random_paper: 8
 score:
   band: minimal
   composite: 6.6

@@ -226,7 +226,7 @@ overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.i
 
 
   Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 38
+random_paper: 1
 score:
   band: emerging
   composite: 24.7

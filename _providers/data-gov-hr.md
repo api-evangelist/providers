@@ -64,7 +64,7 @@ overview: 'data.gov.hr publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   data.gov.hr''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: minimal
   composite: 7.2

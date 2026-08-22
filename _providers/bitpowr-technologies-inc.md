@@ -228,7 +228,7 @@ overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https:/
 
 
   BitPowr Technologies, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
-random_paper: 79
+random_paper: 6
 score:
   band: developing
   composite: 44.2

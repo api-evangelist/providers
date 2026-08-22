@@ -356,7 +356,7 @@ overview: 'Coins.ph publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coins.ph''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: developing
   composite: 51.7

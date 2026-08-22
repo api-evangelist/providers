@@ -155,7 +155,7 @@ plans:
 - name: Jifflenow Plans Pricing
   plan_count: 0
   slug: jifflenow-plans-pricing
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Jifflenow Rate Limits

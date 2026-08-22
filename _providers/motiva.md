@@ -142,7 +142,7 @@ plans:
 - name: Motiva Plans Pricing
   plan_count: 1
   slug: motiva-plans-pricing
-random_paper: 60
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Motiva Rate Limits

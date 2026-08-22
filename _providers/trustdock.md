@@ -84,7 +84,7 @@ overview: 'Trustdock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Trustdock''s developer surface includes pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 101
+random_paper: 8
 score:
   band: emerging
   composite: 19.1

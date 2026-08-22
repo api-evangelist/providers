@@ -149,7 +149,7 @@ plans:
 - name: Jupiter Ag Plans Pricing
   plan_count: 1
   slug: jupiter-ag-plans-pricing
-random_paper: 122
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Jupiter Ag Rate Limits

@@ -68,7 +68,7 @@ name: Candid Therapeutics
 nav: Providers
 network: true
 overview: Candid Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Immunology.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 6.9

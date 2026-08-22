@@ -281,7 +281,7 @@ overview: 'Resourcly publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Resourcly''s developer surface includes authentication, documentation, API reference, support, changelog, and 17 more developer resources.'
-random_paper: 106
+random_paper: 13
 score:
   band: thin
   composite: 38.2

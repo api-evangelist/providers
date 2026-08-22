@@ -263,7 +263,7 @@ overview: 'Alphaus publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 5
+random_paper: 15
 scopes:
 - name: Alphaus Scopes
   scope_count: 1

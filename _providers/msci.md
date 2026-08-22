@@ -152,7 +152,7 @@ overview: 'MSCI publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   MSCI''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 130
+random_paper: 8
 score:
   band: emerging
   composite: 21.7

@@ -49,7 +49,7 @@ name: Illume Labs
 nav: Providers
 network: true
 overview: Illume Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Health, Longevity, and Wearables.
-random_paper: 68
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

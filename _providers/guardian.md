@@ -185,7 +185,7 @@ plans:
 - name: Guardian Plans Pricing
   plan_count: 2
   slug: guardian-plans-pricing
-random_paper: 98
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Guardian Rate Limits

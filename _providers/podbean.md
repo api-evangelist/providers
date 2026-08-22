@@ -157,7 +157,7 @@ plans:
 - name: Podbean Plans Pricing
   plan_count: 5
   slug: podbean-plans-pricing
-random_paper: 133
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Podbean Rate Limits

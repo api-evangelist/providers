@@ -270,7 +270,7 @@ overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Atomicwork''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: developing
   composite: 48.8

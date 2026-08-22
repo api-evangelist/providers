@@ -45,7 +45,7 @@ name: mindie
 nav: Providers
 network: true
 overview: mindie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

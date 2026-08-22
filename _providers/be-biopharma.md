@@ -74,7 +74,7 @@ name: Be Biopharma
 nav: Providers
 network: true
 overview: Be Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Cell Therapy, and Gene Therapy.
-random_paper: 148
+random_paper: 15
 score:
   band: minimal
   composite: 3.7

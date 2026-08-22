@@ -76,7 +76,7 @@ overview: 'Ratify is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ratify''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 59
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

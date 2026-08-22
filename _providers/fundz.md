@@ -233,7 +233,7 @@ plans:
 - name: Fundz Plans
   plan_count: 0
   slug: fundz-plans
-random_paper: 104
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Fundz Rate Limits

@@ -96,7 +96,7 @@ overview: 'ACV is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   ACV''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: emerging
   composite: 14.4

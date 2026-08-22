@@ -49,7 +49,7 @@ name: Treat.co
 nav: Providers
 network: true
 overview: Treat.co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gifting, E-Commerce, Consumer, and Retail.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

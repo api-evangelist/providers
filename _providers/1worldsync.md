@@ -187,7 +187,7 @@ overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 23 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: developing
   composite: 52.4

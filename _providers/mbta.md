@@ -177,7 +177,7 @@ plans:
 - name: Mbta Plans Pricing
   plan_count: 3
   slug: mbta-plans-pricing
-random_paper: 122
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Mbta Rate Limits

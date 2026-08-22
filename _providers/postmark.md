@@ -633,7 +633,7 @@ plans:
 - name: Postmark Plans Pricing
   plan_count: 4
   slug: postmark-plans-pricing
-random_paper: 136
+random_paper: 20
 rate_limits:
 - limit_count: 11
   name: Postmark Rate Limits

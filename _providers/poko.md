@@ -45,7 +45,7 @@ name: Poko
 nav: Providers
 network: true
 overview: Poko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Cryptocurrency, Web3, and Payments.
-random_paper: 143
+random_paper: 0
 score:
   band: minimal
   composite: 0.1

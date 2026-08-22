@@ -295,7 +295,7 @@ overview: 'Distru publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Distru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 71
+random_paper: 16
 score:
   band: developing
   composite: 44.1

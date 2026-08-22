@@ -105,7 +105,7 @@ overview: 'RLY Network is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RLY Network''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 123
+random_paper: 11
 score:
   band: emerging
   composite: 23.2

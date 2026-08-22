@@ -57,7 +57,7 @@ name: Wallhaven
 nav: Providers
 network: true
 overview: Wallhaven publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

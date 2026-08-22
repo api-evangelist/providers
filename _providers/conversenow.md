@@ -113,7 +113,7 @@ overview: 'ConverseNow is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ConverseNow''s developer surface includes engineering blog, signup flow, changelog, and 12 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 16.1

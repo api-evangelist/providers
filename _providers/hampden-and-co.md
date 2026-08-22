@@ -181,7 +181,7 @@ overview: 'Hampden & Co publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 19 more developer resources.'
-random_paper: 148
+random_paper: 17
 scopes:
 - name: Hampden And Co Scopes
   scope_count: 3

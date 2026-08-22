@@ -76,7 +76,7 @@ overview: 'Day One Biopharmaceuticals is profiled on the [APIs.io](https://apis.
 
 
   Day One Biopharmaceuticals'' developer surface includes support and 7 more developer resources.'
-random_paper: 101
+random_paper: 9
 score:
   band: minimal
   composite: 10.7

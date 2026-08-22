@@ -110,7 +110,7 @@ plans:
 - name: Das Technology Plans Pricing
   plan_count: 0
   slug: das-technology-plans-pricing
-random_paper: 100
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Das Technology Rate Limits

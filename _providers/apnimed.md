@@ -113,7 +113,7 @@ overview: 'Apnimed is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Apnimed''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 138
+random_paper: 20
 score:
   band: emerging
   composite: 11.2

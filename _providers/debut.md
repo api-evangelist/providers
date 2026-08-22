@@ -152,7 +152,7 @@ plans:
 - name: Debut Plans Pricing
   plan_count: 0
   slug: debut-plans-pricing
-random_paper: 85
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Debut Rate Limits

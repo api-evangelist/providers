@@ -255,7 +255,7 @@ overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 20 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: thin
   composite: 27.0

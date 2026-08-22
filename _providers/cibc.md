@@ -76,7 +76,7 @@ overview: 'CIBC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CIBC''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 103
+random_paper: 2
 score:
   band: minimal
   composite: 10.2

@@ -184,7 +184,7 @@ overview: 'Picogrid publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Picogrid''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 104
+random_paper: 9
 scopes:
 - name: Picogrid Scopes
   scope_count: 7

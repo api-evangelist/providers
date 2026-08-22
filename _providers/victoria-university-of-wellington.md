@@ -144,7 +144,7 @@ plans:
 - name: Victoria University Of Wellington Plans Pricing
   plan_count: 2
   slug: victoria-university-of-wellington-plans-pricing
-random_paper: 148
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Victoria University Of Wellington Rate Limits

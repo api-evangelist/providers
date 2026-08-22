@@ -1213,7 +1213,7 @@ plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
   slug: gitlab-plans-pricing
-random_paper: 31
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Gitlab Rate Limits

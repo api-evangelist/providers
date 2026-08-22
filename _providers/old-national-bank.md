@@ -68,7 +68,7 @@ overview: 'Old National Bank is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Old National Bank''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 36
+random_paper: 16
 score:
   band: minimal
   composite: 9.0

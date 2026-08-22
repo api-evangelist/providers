@@ -115,7 +115,7 @@ overview: 'Plai Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Plai Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 140
+random_paper: 3
 score:
   band: thin
   composite: 30.8

@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Dana and Chrysler relations fester as costs rise
   url: https://www.autonews.com/article/20080807/OEM02/308079998/dana-and-chrysler-relations-fester-as-costs-rise/
-random_paper: 106
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Dana Rate Limits

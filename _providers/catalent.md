@@ -77,7 +77,7 @@ plans:
 - name: Catalent Plans Pricing
   plan_count: 1
   slug: catalent-plans-pricing
-random_paper: 99
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Catalent Rate Limits

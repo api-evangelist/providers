@@ -136,7 +136,7 @@ overview: 'Garten publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Garten''s developer surface includes engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 45
+random_paper: 11
 scopes:
 - name: Garten Scopes
   scope_count: 7

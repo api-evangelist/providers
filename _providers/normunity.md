@@ -53,7 +53,7 @@ name: Normunity
 nav: Providers
 network: true
 overview: Normunity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immuno-Oncology, Oncology, and Cancer.
-random_paper: 119
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

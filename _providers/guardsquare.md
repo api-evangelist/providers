@@ -129,7 +129,7 @@ overview: 'GuardSquare is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   GuardSquare''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, and 15 more developer resources.'
-random_paper: 145
+random_paper: 12
 score:
   band: emerging
   composite: 24.9

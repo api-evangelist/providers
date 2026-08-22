@@ -159,7 +159,7 @@ overview: 'Agentic Resource Discovery (ARD) publishes 1 API on the [APIs.io](htt
 
 
   Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
-random_paper: 144
+random_paper: 10
 score:
   band: emerging
   composite: 24.3

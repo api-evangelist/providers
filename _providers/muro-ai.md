@@ -60,7 +60,7 @@ overview: 'Muro AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Muro AI''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 102
+random_paper: 5
 score:
   band: minimal
   composite: 5.8

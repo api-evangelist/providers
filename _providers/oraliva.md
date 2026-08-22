@@ -60,7 +60,7 @@ overview: 'Oraliva is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oraliva''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 3.6

@@ -480,7 +480,7 @@ plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
   slug: solo-io-plans-pricing
-random_paper: 110
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Solo Io Rate Limits

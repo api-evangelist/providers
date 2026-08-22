@@ -133,7 +133,7 @@ overview: 'TourRadar publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TourRadar''s developer surface includes documentation, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 86
+random_paper: 14
 scopes:
 - name: Tourradar Scopes
   scope_count: 24

@@ -163,7 +163,7 @@ plans:
 - name: Envato Plans Pricing
   plan_count: 2
   slug: envato-plans-pricing
-random_paper: 57
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Envato Rate Limits

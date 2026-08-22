@@ -175,7 +175,7 @@ overview: 'ReadMe.io publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   ReadMe.io''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 93
+random_paper: 19
 score:
   band: thin
   composite: 37.2

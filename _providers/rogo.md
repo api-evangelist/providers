@@ -84,7 +84,7 @@ overview: 'Rogo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rogo''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 141
+random_paper: 19
 score:
   band: minimal
   composite: 10.9

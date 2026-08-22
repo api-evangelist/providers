@@ -40,7 +40,7 @@ name: Manifest OS
 nav: Providers
 network: true
 overview: Manifest OS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Legal, Legal Tech, and Law Firm.
-random_paper: 83
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

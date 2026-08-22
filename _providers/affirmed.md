@@ -57,7 +57,7 @@ name: Affirmed Networks
 nav: Providers
 network: true
 overview: Affirmed Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, 5G, and Mobile Core.
-random_paper: 85
+random_paper: 11
 score:
   band: minimal
   composite: 7.7

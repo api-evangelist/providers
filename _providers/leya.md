@@ -77,7 +77,7 @@ overview: 'Leya is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Leya''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: minimal
   composite: 5.5

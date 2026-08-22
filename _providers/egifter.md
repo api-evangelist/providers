@@ -81,7 +81,7 @@ plans:
 - name: Egifter Plans Pricing
   plan_count: 3
   slug: egifter-plans-pricing
-random_paper: 146
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Egifter Rate Limits

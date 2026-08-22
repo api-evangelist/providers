@@ -64,7 +64,7 @@ overview: 'TMRW Sports is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   TMRW Sports'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 8.5

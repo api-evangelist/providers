@@ -271,7 +271,7 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 24 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: developing
   composite: 53.4

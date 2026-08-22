@@ -229,7 +229,7 @@ plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
   slug: green-dot-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Green Dot Rate Limits

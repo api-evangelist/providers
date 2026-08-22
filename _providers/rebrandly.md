@@ -65,7 +65,7 @@ name: Rebrandly
 nav: Providers
 network: true
 overview: Rebrandly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 69
+random_paper: 18
 score:
   band: minimal
   composite: 7.3

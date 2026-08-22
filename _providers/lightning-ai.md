@@ -181,7 +181,7 @@ plans:
 - name: Lightning Ai Plans
   plan_count: 4
   slug: lightning-ai-plans
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Lightning Ai Rate Limits

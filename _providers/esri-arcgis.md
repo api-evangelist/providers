@@ -185,7 +185,7 @@ plans:
 - name: Esri Arcgis Plans Pricing
   plan_count: 9
   slug: esri-arcgis-plans-pricing
-random_paper: 70
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Esri Arcgis Rate Limits

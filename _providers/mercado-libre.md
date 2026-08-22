@@ -96,7 +96,7 @@ plans:
 - name: Mercado Libre Plans Pricing
   plan_count: 2
   slug: mercado-libre-plans-pricing
-random_paper: 110
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Mercado Libre Rate Limits

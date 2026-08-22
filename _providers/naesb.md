@@ -177,7 +177,7 @@ overview: 'NAESB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   NAESB''s developer surface includes documentation, tooling, pricing, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 74
+random_paper: 17
 score:
   band: thin
   composite: 33.0

@@ -139,7 +139,7 @@ overview: 'Colony Capital (DigitalBridge Group) is profiled on the [APIs.io](htt
 
 
   Colony Capital (DigitalBridge Group)''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 98
+random_paper: 11
 score:
   band: minimal
   composite: 5.5

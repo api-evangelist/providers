@@ -53,7 +53,7 @@ name: Broadsoft
 nav: Providers
 network: true
 overview: Broadsoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unified Communications, UCaaS, VoIP, and Telecommunications.
-random_paper: 70
+random_paper: 19
 score:
   band: minimal
   composite: 1.8

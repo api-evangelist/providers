@@ -119,7 +119,7 @@ overview: 'SmithRx is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SmithRx''s developer surface includes engineering blog, support, FAQ, product news, and 17 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: emerging
   composite: 22.1

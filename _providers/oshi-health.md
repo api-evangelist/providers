@@ -68,7 +68,7 @@ overview: 'Oshi Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Oshi Health''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
-random_paper: 67
+random_paper: 18
 score:
   band: emerging
   composite: 11.6

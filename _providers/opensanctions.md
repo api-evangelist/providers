@@ -64,7 +64,7 @@ overview: 'OpenSanctions publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   OpenSanctions'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 71
+random_paper: 5
 score:
   band: minimal
   composite: 4.6

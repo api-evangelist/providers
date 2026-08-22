@@ -76,7 +76,7 @@ overview: 'Calo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Calo''s developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 117
+random_paper: 16
 score:
   band: emerging
   composite: 12.9

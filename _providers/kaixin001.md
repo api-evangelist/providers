@@ -45,7 +45,7 @@ name: Kaixin001
 nav: Providers
 network: true
 overview: Kaixin001 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Social Media, and China.
-random_paper: 44
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at AbbVie - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-abbvie-two-use-cases/
-random_paper: 21
+random_paper: 8
 score:
   band: minimal
   composite: 9.9

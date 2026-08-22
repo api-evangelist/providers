@@ -139,7 +139,7 @@ overview: 'Canada Life publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Canada Life''s developer surface includes support, engineering blog, product news, authentication, and 20 more developer resources.'
-random_paper: 18
+random_paper: 11
 scopes:
 - name: Canada Life Scopes
   scope_count: 36

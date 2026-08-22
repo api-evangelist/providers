@@ -96,7 +96,7 @@ overview: 'Ntopology is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ntopology''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, and 8 more developer resources.'
-random_paper: 109
+random_paper: 16
 score:
   band: emerging
   composite: 14.7

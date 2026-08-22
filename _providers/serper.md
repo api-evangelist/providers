@@ -308,7 +308,7 @@ plans:
 - name: Serper Plans Pricing
   plan_count: 5
   slug: serper-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Serper Rate Limits

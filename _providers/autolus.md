@@ -57,7 +57,7 @@ name: Autolus *
 nav: Providers
 network: true
 overview: Autolus * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biopharmaceutical, Biotechnology, and Cell Therapy.
-random_paper: 36
+random_paper: 4
 score:
   band: minimal
   composite: 3.3

@@ -187,7 +187,7 @@ overview: 'Scribe publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
 
 
   Scribe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Scribe Rate Limits

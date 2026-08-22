@@ -40,7 +40,7 @@ name: Fanhouse
 nav: Providers
 network: true
 overview: Fanhouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Social, Subscriptions, and Fan Engagement.
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

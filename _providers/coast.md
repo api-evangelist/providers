@@ -108,7 +108,7 @@ overview: 'Coast publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Coast''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: emerging
   composite: 18.4

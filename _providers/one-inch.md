@@ -180,7 +180,7 @@ plans:
 - name: One Inch Plans Pricing
   plan_count: 4
   slug: one-inch-plans-pricing
-random_paper: 40
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: One Inch Rate Limits

@@ -139,7 +139,7 @@ overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 16 more developer resources.'
-random_paper: 27
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Catalog Guard Api Rate Limits

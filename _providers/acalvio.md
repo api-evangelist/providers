@@ -60,7 +60,7 @@ overview: 'Acalvio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Acalvio''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

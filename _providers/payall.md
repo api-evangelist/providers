@@ -80,7 +80,7 @@ overview: 'Payall is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Payall''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: minimal
   composite: 9.1

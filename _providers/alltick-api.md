@@ -173,7 +173,7 @@ plans:
 - name: Alltick Api Plans Pricing
   plan_count: 8
   slug: alltick-api-plans-pricing
-random_paper: 56
+random_paper: 7
 rate_limits:
 - limit_count: 13
   name: Alltick Api Rate Limits

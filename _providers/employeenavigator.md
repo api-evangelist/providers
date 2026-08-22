@@ -103,7 +103,7 @@ overview: 'Employee Navigator publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Employee Navigator''s developer surface includes engineering blog, pricing, support, authentication, and 11 more developer resources.'
-random_paper: 47
+random_paper: 8
 scopes:
 - name: Employeenavigator Scopes
   scope_count: 66

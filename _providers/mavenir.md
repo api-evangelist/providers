@@ -207,7 +207,7 @@ overview: 'Mavenir publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 29 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: developing
   composite: 39.6

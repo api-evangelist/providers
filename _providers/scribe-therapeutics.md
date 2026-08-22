@@ -81,7 +81,7 @@ overview: 'Scribe Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Scribe Therapeutics'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 0
 score:
   band: minimal
   composite: 7.6

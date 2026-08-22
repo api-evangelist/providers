@@ -45,7 +45,7 @@ name: Bev
 nav: Providers
 network: true
 overview: Bev is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Wine, Alcohol, and Ecommerce.
-random_paper: 19
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

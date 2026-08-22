@@ -183,7 +183,7 @@ overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](h
 
 
   Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 80
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Infoway Real Time Market Data Api Rate Limits

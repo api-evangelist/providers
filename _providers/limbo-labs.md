@@ -54,7 +54,7 @@ name: Limbo Labs (limbolabs.com)
 nav: Providers
 network: true
 overview: Limbo Labs (limbolabs.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Startup, San Francisco, and Venture Backed.
-random_paper: 100
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

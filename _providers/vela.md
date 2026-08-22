@@ -88,7 +88,7 @@ overview: 'Vela is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vela''s developer surface includes support and 10 more developer resources.'
-random_paper: 126
+random_paper: 4
 score:
   band: emerging
   composite: 11.6

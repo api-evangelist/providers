@@ -70,7 +70,7 @@ name: Laelaps AI
 nav: Providers
 network: true
 overview: Laelaps AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Autonomous Systems, and Security.
-random_paper: 91
+random_paper: 19
 score:
   band: minimal
   composite: 10.3

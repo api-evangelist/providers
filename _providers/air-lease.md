@@ -45,7 +45,7 @@ name: Air Lease
 nav: Providers
 network: true
 overview: Air Lease is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 138
+random_paper: 1
 score:
   band: minimal
   composite: 2.6

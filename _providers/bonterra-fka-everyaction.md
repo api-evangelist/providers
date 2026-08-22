@@ -117,7 +117,7 @@ overview: 'Bonterra (fka EveryAction) publishes 1 API on the [APIs.io](https://a
 
 
   Bonterra (fka EveryAction)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 11 more developer resources.'
-random_paper: 66
+random_paper: 14
 score:
   band: emerging
   composite: 17.1

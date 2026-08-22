@@ -49,7 +49,7 @@ name: Redcarpetup
 nav: Providers
 network: true
 overview: Redcarpetup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Consumer Credit, and India.
-random_paper: 140
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

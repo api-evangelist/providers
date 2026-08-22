@@ -80,7 +80,7 @@ overview: 'DoNotPay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DoNotPay''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: emerging
   composite: 13.3

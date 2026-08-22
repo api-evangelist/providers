@@ -290,7 +290,7 @@ plans:
 - name: Sequel Plans Pricing
   plan_count: 3
   slug: sequel-plans-pricing
-random_paper: 59
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Sequel Rate Limits

@@ -60,7 +60,7 @@ overview: 'Stealth Worker is profiled on the [APIs.io](https://apis.io/) network
 
 
   Stealth Worker''s developer surface includes support and 3 more developer resources.'
-random_paper: 127
+random_paper: 19
 score:
   band: minimal
   composite: 7.1

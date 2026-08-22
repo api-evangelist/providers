@@ -78,7 +78,7 @@ name: Soley Therapeutics
 nav: Providers
 network: true
 overview: Soley Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Drug Discovery, and Oncology.
-random_paper: 110
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

@@ -80,7 +80,7 @@ overview: 'Tigerconnect is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Tigerconnect''s developer surface includes engineering blog, support, changelog, and 6 more developer resources.'
-random_paper: 93
+random_paper: 4
 score:
   band: minimal
   composite: 6.1

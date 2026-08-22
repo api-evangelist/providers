@@ -68,7 +68,7 @@ overview: 'Nectero Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Nectero Therapeutics'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 112
+random_paper: 12
 score:
   band: minimal
   composite: 4.7

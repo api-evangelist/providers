@@ -662,7 +662,7 @@ plans:
 - name: Spree Commerce Plans Pricing
   plan_count: 2
   slug: spree-commerce-plans-pricing
-random_paper: 90
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Spree Commerce Rate Limits

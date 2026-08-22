@@ -172,7 +172,7 @@ overview: 'Lime publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Lime''s developer surface includes support and 18 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: thin
   composite: 31.9

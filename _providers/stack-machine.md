@@ -161,7 +161,7 @@ overview: 'Stack Machine publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Stack Machine''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 112
+random_paper: 2
 score:
   band: developing
   composite: 40.2

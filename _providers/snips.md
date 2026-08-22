@@ -53,7 +53,7 @@ name: Snips
 nav: Providers
 network: true
 overview: Snips is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Artificial Intelligence, Natural Language Understanding, and Voice Assistant.
-random_paper: 110
+random_paper: 11
 score:
   band: minimal
   composite: 5.3

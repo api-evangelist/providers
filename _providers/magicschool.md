@@ -104,7 +104,7 @@ overview: 'MagicSchool is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MagicSchool''s developer surface includes engineering blog, pricing, support, and 12 more developer resources.'
-random_paper: 118
+random_paper: 6
 score:
   band: emerging
   composite: 20.1

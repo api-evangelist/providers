@@ -72,7 +72,7 @@ overview: 'Plink is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plink''s developer surface includes developer portal, signup flow, support, and 4 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: emerging
   composite: 13.1

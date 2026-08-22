@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: Media Consolidation — News & Updates from Open MIC
   url: https://www.openmic.org/news/category/Media+Consolidation
-random_paper: 88
+random_paper: 18
 rules:
 - effective_rule_count: 5
   extends: []

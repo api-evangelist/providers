@@ -53,7 +53,7 @@ name: Ticketmonster
 nav: Providers
 network: true
 overview: Ticketmonster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Social Commerce, Retail, and Marketplace.
-random_paper: 79
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

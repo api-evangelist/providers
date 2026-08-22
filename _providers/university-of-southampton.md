@@ -127,7 +127,7 @@ plans:
 - name: University Of Southampton Plans Pricing
   plan_count: 2
   slug: university-of-southampton-plans-pricing
-random_paper: 110
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: University Of Southampton Rate Limits

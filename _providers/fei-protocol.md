@@ -45,7 +45,7 @@ name: Fei Protocol
 nav: Providers
 network: true
 overview: Fei Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Stablecoin, Ethereum, and Smart Contracts.
-random_paper: 43
+random_paper: 17
 score:
   band: minimal
   composite: 5.3

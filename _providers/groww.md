@@ -248,7 +248,7 @@ plans:
 - name: Groww Plans
   plan_count: 1
   slug: groww-plans
-random_paper: 119
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Groww Rate Limits

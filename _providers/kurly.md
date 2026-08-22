@@ -217,7 +217,7 @@ overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 25 more developer resources.'
-random_paper: 120
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits

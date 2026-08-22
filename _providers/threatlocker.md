@@ -297,7 +297,7 @@ overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) net
 
 
   ThreatLocker''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 96
+random_paper: 7
 score:
   band: developing
   composite: 54.0

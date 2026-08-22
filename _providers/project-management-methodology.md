@@ -40,7 +40,7 @@ name: Project Management Methodology
 nav: Providers
 network: true
 overview: Project Management Methodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Control, Execution, Methodology, Planning, and Project Management.
-random_paper: 117
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

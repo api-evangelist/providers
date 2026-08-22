@@ -65,7 +65,7 @@ name: Haaven
 nav: Providers
 network: true
 overview: Haaven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speedinvest, and Portfolio.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 5.4

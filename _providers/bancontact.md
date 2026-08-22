@@ -112,7 +112,7 @@ plans:
 - name: Bancontact Plans Pricing
   plan_count: 3
   slug: bancontact-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bancontact Rate Limits

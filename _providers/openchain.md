@@ -81,7 +81,7 @@ plans:
 - name: Openchain Plans Pricing
   plan_count: 3
   slug: openchain-plans-pricing
-random_paper: 55
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Openchain Rate Limits

@@ -327,7 +327,7 @@ plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
   slug: vespa-ai-plans-pricing
-random_paper: 45
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Vespa Ai Rate Limits

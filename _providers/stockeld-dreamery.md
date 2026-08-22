@@ -80,7 +80,7 @@ overview: 'Stockeld Dreamery is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Stockeld Dreamery''s developer surface includes support and 8 more developer resources.'
-random_paper: 120
+random_paper: 16
 score:
   band: minimal
   composite: 10.2

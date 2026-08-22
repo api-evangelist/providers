@@ -88,7 +88,7 @@ overview: 'ReadyAPI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ReadyAPI''s developer surface includes developer portal, documentation, pricing, support, and 6 more developer resources.'
-random_paper: 102
+random_paper: 7
 score:
   band: emerging
   composite: 12.8

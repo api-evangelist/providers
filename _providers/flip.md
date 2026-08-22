@@ -162,7 +162,7 @@ overview: 'Flip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flip''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 129
+random_paper: 7
 score:
   band: developing
   composite: 41.1

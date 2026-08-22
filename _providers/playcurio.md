@@ -49,7 +49,7 @@ name: Playcurio
 nav: Providers
 network: true
 overview: Playcurio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Augmented Reality, EdTech, and Children.
-random_paper: 90
+random_paper: 18
 score:
   band: minimal
   composite: 2.5

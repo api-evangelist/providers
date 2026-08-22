@@ -176,7 +176,7 @@ overview: 'Ring publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ring''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 134
+random_paper: 12
 score:
   band: developing
   composite: 44.3

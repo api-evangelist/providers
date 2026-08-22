@@ -138,7 +138,7 @@ overview: 'Kotak Mahindra Bank publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Kotak Mahindra Bank''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, sandbox, and 15 more developer resources.'
-random_paper: 91
+random_paper: 13
 score:
   band: thin
   composite: 27.2

@@ -49,7 +49,7 @@ name: Threadless ( Skinny CM Holdings)
 nav: Providers
 network: true
 overview: Threadless ( Skinny CM Holdings) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Apparel, E-commerce, and Marketplace.
-random_paper: 107
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

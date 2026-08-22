@@ -149,7 +149,7 @@ overview: 'Theta Lake publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Theta Lake''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, getting-started guide, and 16 more developer resources.'
-random_paper: 98
+random_paper: 5
 scopes:
 - name: Theta Lake Scopes
   scope_count: 70

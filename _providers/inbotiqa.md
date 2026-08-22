@@ -72,7 +72,7 @@ overview: 'INBOTIQA is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   INBOTIQA''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: emerging
   composite: 11.9

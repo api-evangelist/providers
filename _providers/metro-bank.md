@@ -151,7 +151,7 @@ overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 114
+random_paper: 0
 scopes:
 - name: Metro Bank Scopes
   scope_count: 4

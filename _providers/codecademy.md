@@ -169,7 +169,7 @@ overview: 'Codecademy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Codecademy''s developer surface includes pricing, documentation, engineering blog, status page, terms of service, privacy policy, GitHub presence, and 23 more developer resources.'
-random_paper: 144
+random_paper: 9
 score:
   band: emerging
   composite: 23.4

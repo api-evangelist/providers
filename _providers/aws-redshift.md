@@ -6699,7 +6699,7 @@ plans:
 - name: Aws Redshift Plans Pricing
   plan_count: 7
   slug: aws-redshift-plans-pricing
-random_paper: 41
+random_paper: 15
 rate_limits:
 - limit_count: 23
   name: Aws Redshift Rate Limits

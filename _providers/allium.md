@@ -211,7 +211,7 @@ overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: strong
   composite: 58.7

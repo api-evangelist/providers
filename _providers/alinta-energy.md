@@ -204,7 +204,7 @@ overview: 'Alinta Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 29 more developer resources.'
-random_paper: 136
+random_paper: 5
 rate_limits:
 - limit_count: 7
   name: Alinta Energy Rate Limits

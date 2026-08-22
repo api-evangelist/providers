@@ -238,7 +238,7 @@ plans:
 - name: Business Software And Services Reviews G2 Plans Pricing
   plan_count: 0
   slug: business-software-and-services-reviews-g2-plans-pricing
-random_paper: 54
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Business Software And Services Reviews G2 Rate Limits

@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Regency Energy to buy field services co for $185 million
   url: https://www.reuters.com/article/business/regency-energy-to-buy-field-services-co-for-185-million-idUSTRE67822L/
-random_paper: 133
+random_paper: 16
 score:
   band: minimal
   composite: 8.4

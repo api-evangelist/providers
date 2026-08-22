@@ -49,7 +49,7 @@ name: acorn systems
 nav: Providers
 network: true
 overview: acorn systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Profitability Management, Activity-Based Costing, Cost Management, and Analytics.
-random_paper: 27
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

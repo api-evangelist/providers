@@ -76,7 +76,7 @@ overview: 'Buildforever is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Buildforever''s developer surface includes engineering blog, support, changelog, getting-started guide, and 4 more developer resources.'
-random_paper: 97
+random_paper: 8
 score:
   band: emerging
   composite: 15.8

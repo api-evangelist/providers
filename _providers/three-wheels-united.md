@@ -49,7 +49,7 @@ name: Three Wheels United
 nav: Providers
 network: true
 overview: Three Wheels United is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Lending, and Electric Vehicles.
-random_paper: 135
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

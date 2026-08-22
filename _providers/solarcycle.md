@@ -68,7 +68,7 @@ overview: 'SolarCycle is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SolarCycle''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: minimal
   composite: 9.4

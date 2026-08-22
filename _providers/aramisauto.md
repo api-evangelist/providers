@@ -191,7 +191,7 @@ plans:
 - name: Aramisauto Plans Pricing
   plan_count: 0
   slug: aramisauto-plans-pricing
-random_paper: 35
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Aramisauto Rate Limits

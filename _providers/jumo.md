@@ -81,7 +81,7 @@ overview: 'Jumo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jumo''s developer surface includes support and 8 more developer resources.'
-random_paper: 145
+random_paper: 2
 score:
   band: minimal
   composite: 1.9

@@ -40,7 +40,7 @@ name: Nanoconduction
 nav: Providers
 network: true
 overview: Nanoconduction is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Nanotechnology, Thermal Management, and Carbon Nanotubes.
-random_paper: 16
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

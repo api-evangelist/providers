@@ -80,7 +80,7 @@ overview: 'sophiagenetics is profiled on the [APIs.io](https://apis.io/) network
 
 
   sophiagenetics'' developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 4
+random_paper: 3
 score:
   band: emerging
   composite: 14.2

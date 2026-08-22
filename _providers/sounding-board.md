@@ -64,7 +64,7 @@ overview: 'Sounding Board is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sounding Board''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 95
+random_paper: 8
 score:
   band: minimal
   composite: 9.7

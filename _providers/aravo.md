@@ -112,7 +112,7 @@ overview: 'Aravo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aravo''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: minimal
   composite: 10.9

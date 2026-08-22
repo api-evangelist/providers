@@ -233,7 +233,7 @@ overview: 'Fluence publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fluence''s developer surface includes documentation, API reference, getting-started guide, developer console, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 142
+random_paper: 3
 scopes:
 - name: Fluence Scopes
   scope_count: 34

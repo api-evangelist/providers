@@ -116,7 +116,7 @@ overview: 'Vizgen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vizgen''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, code examples, and 10 more developer resources.'
-random_paper: 63
+random_paper: 8
 score:
   band: emerging
   composite: 21.1

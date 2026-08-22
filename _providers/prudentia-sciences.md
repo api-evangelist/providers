@@ -69,7 +69,7 @@ name: Prudentia Sciences
 nav: Providers
 network: true
 overview: Prudentia Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, Biotech, and Mergers and Acquisitions.
-random_paper: 74
+random_paper: 14
 score:
   band: minimal
   composite: 9.0

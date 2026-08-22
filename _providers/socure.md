@@ -435,7 +435,7 @@ plans:
 - name: Socure Plans Pricing
   plan_count: 3
   slug: socure-plans-pricing
-random_paper: 61
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Socure Rate Limits

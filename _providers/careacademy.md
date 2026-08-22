@@ -184,7 +184,7 @@ overview: 'CareAcademy publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 92
+random_paper: 1
 score:
   band: developing
   composite: 41.7

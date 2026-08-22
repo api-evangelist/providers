@@ -80,7 +80,7 @@ overview: 'Flexkeeping is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Flexkeeping''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 127
+random_paper: 15
 score:
   band: minimal
   composite: 8.5

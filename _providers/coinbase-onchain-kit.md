@@ -114,7 +114,7 @@ plans:
 - name: Coinbase Onchain Kit Plans Pricing
   plan_count: 1
   slug: coinbase-onchain-kit-plans-pricing
-random_paper: 53
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Coinbase Onchain Kit Rate Limits

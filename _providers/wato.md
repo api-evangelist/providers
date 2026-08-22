@@ -142,7 +142,7 @@ plans:
 - name: Wato Plans
   plan_count: 3
   slug: wato-plans
-random_paper: 145
+random_paper: 2
 scopes:
 - name: Wato Scopes
   scope_count: 4

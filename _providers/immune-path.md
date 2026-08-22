@@ -45,7 +45,7 @@ name: immune-path
 nav: Providers
 network: true
 overview: immune-path is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Vaccines, Immunology, and Pharmaceuticals.
-random_paper: 82
+random_paper: 12
 score:
   band: minimal
   composite: 2.2

@@ -116,7 +116,7 @@ overview: 'Arbor Networks publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Arbor Networks'' developer surface includes documentation, API reference, and 14 more developer resources.'
-random_paper: 131
+random_paper: 2
 score:
   band: emerging
   composite: 20.6

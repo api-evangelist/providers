@@ -76,7 +76,7 @@ plans:
 - name: Tempo Labs Plans Pricing
   plan_count: 1
   slug: tempo-labs-plans-pricing
-random_paper: 118
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Tempo Labs Rate Limits

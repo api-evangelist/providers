@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Harley-Davidson Delivers First Quarter Financial Results
   url: https://www.prnewswire.com/news-releases/harley-davidson-delivers-first-quarter-financial-results-302762342.html
-random_paper: 56
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

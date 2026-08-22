@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: AI Engine Technology
   url: https://www.amd.com/en/products/adaptive-socs-and-fpgas/technologies/ai-engine.html
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 2.9

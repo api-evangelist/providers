@@ -159,7 +159,7 @@ plans:
 - name: Sniffcat Plans Pricing
   plan_count: 0
   slug: sniffcat-plans-pricing
-random_paper: 101
+random_paper: 6
 rate_limits:
 - limit_count: 11
   name: Sniffcat Rate Limits

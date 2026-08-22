@@ -84,7 +84,7 @@ plans:
 - name: Data Kildarecoco Ie Plans Pricing
   plan_count: 0
   slug: data-kildarecoco-ie-plans-pricing
-random_paper: 70
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Data Kildarecoco Ie Rate Limits

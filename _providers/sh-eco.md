@@ -49,7 +49,7 @@ name: sh-eco
 nav: Providers
 network: true
 overview: sh-eco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Materials, Manufacturing, and Healthcare.
-random_paper: 128
+random_paper: 8
 score:
   band: minimal
   composite: 3.3

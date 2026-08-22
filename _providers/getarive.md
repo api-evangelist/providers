@@ -60,7 +60,7 @@ overview: 'ARIVE is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   ARIVE''s developer surface includes legal docs and 3 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: minimal
   composite: 9.2

@@ -49,7 +49,7 @@ name: Drafted
 nav: Providers
 network: true
 overview: Drafted is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Employee Referrals, and Talent Acquisition.
-random_paper: 134
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

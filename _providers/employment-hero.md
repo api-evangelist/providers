@@ -182,7 +182,7 @@ overview: 'Employment Hero publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Employment Hero''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 83
+random_paper: 19
 scopes:
 - name: Employment Hero Scopes
   scope_count: 0

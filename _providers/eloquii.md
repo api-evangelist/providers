@@ -68,7 +68,7 @@ overview: 'Eloquii is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Eloquii''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: emerging
   composite: 11.8

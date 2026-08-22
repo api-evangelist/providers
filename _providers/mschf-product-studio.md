@@ -49,7 +49,7 @@ name: Mschf Product Studio
 nav: Providers
 network: true
 overview: Mschf Product Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art Collective, Product Studio, Consumer, and E-commerce.
-random_paper: 115
+random_paper: 15
 score:
   band: minimal
   composite: 5.3

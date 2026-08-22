@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Gilead and Genesis Therapeutics Announce Strategic ...
   url: https://www.gilead.com/news/news-details/2024/gilead-and-genesis-therapeutics-announce-strategic-collaboration-to-discover-and-develop-novel-therapies
-random_paper: 14
+random_paper: 13
 score:
   band: minimal
   composite: 2.4

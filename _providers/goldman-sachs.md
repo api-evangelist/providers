@@ -168,7 +168,7 @@ plans:
 - name: Goldman Sachs Plans Pricing
   plan_count: 2
   slug: goldman-sachs-plans-pricing
-random_paper: 121
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Goldman Sachs Rate Limits

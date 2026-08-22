@@ -99,7 +99,7 @@ overview: 'Wenrix publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Wenrix''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 73
+random_paper: 18
 score:
   band: emerging
   composite: 15.3

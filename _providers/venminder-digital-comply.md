@@ -259,7 +259,7 @@ overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https:/
 
 
   Venminder (Digital Comply)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 68
+random_paper: 16
 scopes:
 - name: Venminder Digital Comply Scopes
   scope_count: 1

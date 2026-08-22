@@ -97,7 +97,7 @@ overview: 'Athos Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Athos Therapeutics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 97
+random_paper: 16
 score:
   band: minimal
   composite: 4.7

@@ -76,7 +76,7 @@ plans:
 - name: Contributing Md Plans Pricing
   plan_count: 3
   slug: contributing-md-plans-pricing
-random_paper: 68
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Contributing Md Rate Limits

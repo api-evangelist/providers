@@ -220,7 +220,7 @@ overview: 'Matrix publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Matrix''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 10
 rules:
 - effective_rule_count: 32
   extends:

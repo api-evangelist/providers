@@ -68,7 +68,7 @@ overview: 'GeoGrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GeoGrid''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 6.4

@@ -64,7 +64,7 @@ overview: 'VideoPoint is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   VideoPoint''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 8.6

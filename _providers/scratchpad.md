@@ -167,7 +167,7 @@ plans:
 - name: Scratchpad Plans Pricing
   plan_count: 0
   slug: scratchpad-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Scratchpad Rate Limits

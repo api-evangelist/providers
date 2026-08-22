@@ -168,7 +168,7 @@ overview: 'Banked publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Banked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: developing
   composite: 40.9

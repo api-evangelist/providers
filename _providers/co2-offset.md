@@ -57,7 +57,7 @@ name: CO2 Offset
 nav: Providers
 network: true
 overview: CO2 Offset publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 58
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

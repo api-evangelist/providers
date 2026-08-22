@@ -105,7 +105,7 @@ overview: 'Lisan is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lisan''s developer surface includes pricing, support, YouTube channel, and 12 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 16.8

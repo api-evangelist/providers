@@ -43,7 +43,7 @@ name: 大易有塑 (dayi35.com)
 nav: Providers
 network: true
 overview: 大易有塑 (dayi35.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Plastics, Chemicals, B2B Marketplace, and E-Commerce.
-random_paper: 146
+random_paper: 9
 score:
   band: minimal
   composite: 0.8

@@ -161,7 +161,7 @@ plans:
 - name: Memberclicks Plans Pricing
   plan_count: 3
   slug: memberclicks-plans-pricing
-random_paper: 73
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Memberclicks Rate Limits

@@ -106,7 +106,7 @@ overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 67
+random_paper: 20
 score:
   band: emerging
   composite: 26.0

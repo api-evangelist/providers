@@ -105,7 +105,7 @@ plans:
 - name: Open Corporates Plans Pricing
   plan_count: 6
   slug: open-corporates-plans-pricing
-random_paper: 79
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Open Corporates Rate Limits

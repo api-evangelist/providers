@@ -205,7 +205,7 @@ overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
-random_paper: 108
+random_paper: 13
 score:
   band: thin
   composite: 26.9

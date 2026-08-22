@@ -140,7 +140,7 @@ overview: 'Accelerant publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Accelerant''s developer surface includes documentation, support, engineering blog, product news, authentication, and 20 more developer resources.'
-random_paper: 148
+random_paper: 13
 scopes:
 - name: Accelerant Scopes
   scope_count: 4

@@ -76,7 +76,7 @@ overview: 'CyberTalents is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CyberTalents'' developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 104
+random_paper: 15
 score:
   band: emerging
   composite: 13.3

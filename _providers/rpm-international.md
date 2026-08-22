@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: RPM completes Kalzip acquisition for Tremco unit
   url: https://www.stocktitan.net/news/RPM/rpm-completes-acquisition-of-cc1zaqwdo451.html
-random_paper: 141
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []

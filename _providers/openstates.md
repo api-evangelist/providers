@@ -184,7 +184,7 @@ plans:
 - name: Openstates Plans Pricing
   plan_count: 4
   slug: openstates-plans-pricing
-random_paper: 51
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Openstates Rate Limits

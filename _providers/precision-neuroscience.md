@@ -124,7 +124,7 @@ overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/)
 
 
   Precision Neuroscience''s developer surface includes product news, engineering blog, and 16 more developer resources.'
-random_paper: 65
+random_paper: 11
 score:
   band: emerging
   composite: 12.1

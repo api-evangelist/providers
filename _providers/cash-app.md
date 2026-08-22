@@ -340,7 +340,7 @@ overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 37 more developer resources.'
-random_paper: 36
+random_paper: 4
 scopes:
 - name: Cash App Scopes
   scope_count: 4

@@ -56,7 +56,7 @@ overview: 'AssetVault is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AssetVault''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 57
+random_paper: 8
 score:
   band: minimal
   composite: 2.8

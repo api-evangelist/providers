@@ -303,7 +303,7 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
 
 
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
-random_paper: 3
+random_paper: 9
 rules:
 - effective_rule_count: 5
   extends: []

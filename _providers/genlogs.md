@@ -211,7 +211,7 @@ overview: 'GenLogs publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   GenLogs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: developing
   composite: 46.0

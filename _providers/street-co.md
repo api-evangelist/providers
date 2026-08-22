@@ -242,7 +242,7 @@ overview: 'Street.co.uk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Street.co.uk''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 24
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Street Co Rate Limits

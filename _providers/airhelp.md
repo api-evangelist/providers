@@ -76,7 +76,7 @@ overview: 'Airhelp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Airhelp''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 145
+random_paper: 6
 score:
   band: minimal
   composite: 10.1

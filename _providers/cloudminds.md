@@ -140,7 +140,7 @@ plans:
 - name: Cloudminds Plans Pricing
   plan_count: 0
   slug: cloudminds-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Cloudminds Rate Limits

@@ -131,7 +131,7 @@ plans:
 - name: Algolia Plans Pricing
   plan_count: 4
   slug: algolia-plans-pricing
-random_paper: 133
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Algolia Rate Limits

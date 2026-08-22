@@ -113,7 +113,7 @@ plans:
 - name: Westock Plans Pricing
   plan_count: 3
   slug: westock-plans-pricing
-random_paper: 23
+random_paper: 12
 score:
   band: emerging
   composite: 20.9

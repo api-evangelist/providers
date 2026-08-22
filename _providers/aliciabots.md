@@ -60,7 +60,7 @@ overview: 'AliciaBots is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AliciaBots'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 6.4

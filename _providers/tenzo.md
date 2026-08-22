@@ -129,7 +129,7 @@ overview: 'Tenzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tenzo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 12 more developer resources.'
-random_paper: 113
+random_paper: 14
 scopes:
 - name: Tenzo Scopes
   scope_count: 4

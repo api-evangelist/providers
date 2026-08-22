@@ -53,7 +53,7 @@ name: Open Government, Romania
 nav: Providers
 network: true
 overview: Open Government, Romania publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 125
+random_paper: 8
 score:
   band: minimal
   composite: 2.5

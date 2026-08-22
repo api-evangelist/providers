@@ -64,7 +64,7 @@ overview: 'CraftMyPDF publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CraftMyPDF''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: minimal
   composite: 6.2

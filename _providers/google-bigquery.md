@@ -299,7 +299,7 @@ plans:
 - name: Google Bigquery Plans Pricing
   plan_count: 6
   slug: google-bigquery-plans-pricing
-random_paper: 64
+random_paper: 0
 rate_limits:
 - limit_count: 15
   name: Google Bigquery Rate Limits

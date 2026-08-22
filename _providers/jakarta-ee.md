@@ -128,7 +128,7 @@ plans:
 - name: Jakarta Ee Plans Pricing
   plan_count: 3
   slug: jakarta-ee-plans-pricing
-random_paper: 87
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Jakarta Ee Rate Limits

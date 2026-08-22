@@ -217,7 +217,7 @@ plans:
 - name: Socialbakers Plans Pricing
   plan_count: 9
   slug: socialbakers-plans-pricing
-random_paper: 75
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Socialbakers Rate Limits

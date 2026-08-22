@@ -132,7 +132,7 @@ overview: 'Thea Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Thea Energy''s developer surface includes engineering blog and 19 more developer resources.'
-random_paper: 70
+random_paper: 0
 score:
   band: minimal
   composite: 10.7

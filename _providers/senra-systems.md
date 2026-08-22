@@ -64,7 +64,7 @@ overview: 'Senra Systems is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Senra Systems'' developer surface includes support and 4 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: minimal
   composite: 10.2

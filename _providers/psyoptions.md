@@ -84,7 +84,7 @@ overview: 'PsyOptions is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PsyOptions'' developer surface includes documentation and 9 more developer resources.'
-random_paper: 85
+random_paper: 15
 score:
   band: minimal
   composite: 7.8

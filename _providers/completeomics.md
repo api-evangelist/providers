@@ -57,7 +57,7 @@ name: Complete Omics
 nav: Providers
 network: true
 overview: Complete Omics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Molecular Diagnostics, Proteomics, Multi-Omics, and Genomics.
-random_paper: 55
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

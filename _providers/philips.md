@@ -78,7 +78,7 @@ name: Philips
 nav: Providers
 network: true
 overview: Philips publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Connected Care, Patient Monitoring, and HealthSuite.
-random_paper: 16
+random_paper: 5
 score:
   band: minimal
   composite: 6.6

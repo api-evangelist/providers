@@ -49,7 +49,7 @@ name: cansinotech
 nav: Providers
 network: true
 overview: cansinotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceuticals, Vaccines, Healthcare, and Life Sciences.
-random_paper: 124
+random_paper: 12
 score:
   band: minimal
   composite: 3.3

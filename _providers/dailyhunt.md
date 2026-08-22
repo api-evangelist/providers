@@ -227,7 +227,7 @@ overview: 'Dailyhunt publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dailyhunt''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 84
+random_paper: 12
 score:
   band: developing
   composite: 47.9

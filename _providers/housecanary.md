@@ -116,7 +116,7 @@ plans:
 - name: Housecanary Plans Pricing
   plan_count: 4
   slug: housecanary-plans-pricing
-random_paper: 143
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Housecanary Rate Limits

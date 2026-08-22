@@ -64,7 +64,7 @@ overview: 'Vayu Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Vayu Robotics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 130
+random_paper: 20
 score:
   band: minimal
   composite: 7.2

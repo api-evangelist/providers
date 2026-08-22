@@ -159,7 +159,7 @@ overview: 'Vori publishes 1 API on the [APIs.io](https://apis.io/) network: Stor
 
 
   Vori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: developing
   composite: 39.4

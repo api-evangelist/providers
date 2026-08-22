@@ -166,7 +166,7 @@ plans:
 - name: Honeybook Plans Pricing
   plan_count: 4
   slug: honeybook-plans-pricing
-random_paper: 80
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Honeybook Rate Limits

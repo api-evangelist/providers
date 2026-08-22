@@ -121,7 +121,7 @@ overview: 'Axena Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Axena Health''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 3
 scopes:
 - name: Axena Health Scopes
   scope_count: 0

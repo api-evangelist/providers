@@ -120,7 +120,7 @@ overview: 'Urban Jungle is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Urban Jungle''s developer surface includes engineering blog, support, legal docs, YouTube channel, and 17 more developer resources.'
-random_paper: 34
+random_paper: 8
 score:
   band: minimal
   composite: 9.1

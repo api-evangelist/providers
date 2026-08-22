@@ -64,7 +64,7 @@ overview: 'Open Government, Italy publishes 1 API on the [APIs.io](https://apis.
 
 
   Open Government, Italy''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 78
+random_paper: 1
 score:
   band: minimal
   composite: 4.6

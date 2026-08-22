@@ -159,7 +159,7 @@ overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 15 more developer resources.'
-random_paper: 79
+random_paper: 5
 score:
   band: developing
   composite: 43.5

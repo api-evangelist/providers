@@ -173,7 +173,7 @@ plans:
 - name: Vehicles Dev Api Plans Pricing
   plan_count: 3
   slug: vehicles-dev-api-plans-pricing
-random_paper: 84
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Vehicles Dev Api Rate Limits

@@ -100,7 +100,7 @@ overview: 'Being is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Being''s developer surface includes support and 13 more developer resources.'
-random_paper: 70
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

@@ -89,7 +89,7 @@ overview: 'Ohmconnect is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ohmconnect''s developer surface includes support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 27
+random_paper: 20
 score:
   band: emerging
   composite: 17.4

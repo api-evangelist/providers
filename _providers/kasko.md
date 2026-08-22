@@ -144,7 +144,7 @@ overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kasko''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 90
+random_paper: 12
 score:
   band: developing
   composite: 43.5

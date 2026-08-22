@@ -45,7 +45,7 @@ name: LNKO
 nav: Providers
 network: true
 overview: LNKO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Eyewear, Ecommerce, Retail, and Fashion.
-random_paper: 138
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

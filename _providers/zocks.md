@@ -112,7 +112,7 @@ overview: 'Zocks is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zocks'' developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 107
+random_paper: 8
 score:
   band: emerging
   composite: 22.9

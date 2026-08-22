@@ -91,7 +91,7 @@ overview: 'Rénibus Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Rénibus Therapeutics'' developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

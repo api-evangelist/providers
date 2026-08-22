@@ -76,7 +76,7 @@ overview: 'Belong Home is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Belong Home''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
-random_paper: 58
+random_paper: 9
 score:
   band: emerging
   composite: 13.3

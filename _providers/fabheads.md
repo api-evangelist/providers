@@ -60,7 +60,7 @@ overview: 'Fabheads is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fabheads'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 69
+random_paper: 16
 score:
   band: minimal
   composite: 6.4

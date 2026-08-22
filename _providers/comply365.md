@@ -80,7 +80,7 @@ overview: 'Comply365 is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Comply365''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 73
+random_paper: 20
 score:
   band: emerging
   composite: 15.1

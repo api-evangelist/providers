@@ -628,7 +628,7 @@ plans:
 - name: Affinda Plans Pricing
   plan_count: 3
   slug: affinda-plans-pricing
-random_paper: 117
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Affinda Rate Limits

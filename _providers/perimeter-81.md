@@ -231,7 +231,7 @@ overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 80
+random_paper: 10
 score:
   band: thin
   composite: 32.0

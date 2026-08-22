@@ -90,7 +90,7 @@ plans:
 - name: Surewaves Plans Pricing
   plan_count: 0
   slug: surewaves-plans-pricing
-random_paper: 103
+random_paper: 10
 score:
   band: minimal
   composite: 10.0

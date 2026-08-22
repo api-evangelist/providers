@@ -205,7 +205,7 @@ plans:
 - name: Cornell Plans Pricing
   plan_count: 2
   slug: cornell-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Cornell Rate Limits

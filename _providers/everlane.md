@@ -105,7 +105,7 @@ overview: 'everlane publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   everlane''s developer surface includes support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 105
+random_paper: 10
 scopes:
 - name: Everlane Scopes
   scope_count: 4

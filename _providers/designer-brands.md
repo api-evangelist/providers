@@ -45,7 +45,7 @@ name: Designer Brands
 nav: Providers
 network: true
 overview: Designer Brands is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 2.6

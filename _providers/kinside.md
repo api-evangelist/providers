@@ -72,7 +72,7 @@ overview: 'Kinside is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kinside''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 147
+random_paper: 8
 score:
   band: emerging
   composite: 13.4

@@ -176,7 +176,7 @@ overview: 'Aldermore Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Aldermore Bank''s developer surface includes authentication, support, legal docs, and 25 more developer resources.'
-random_paper: 61
+random_paper: 10
 scopes:
 - name: Aldermore Scopes
   scope_count: 3

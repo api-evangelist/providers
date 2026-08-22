@@ -176,7 +176,7 @@ overview: 'Vana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 124
+random_paper: 2
 score:
   band: thin
   composite: 35.5

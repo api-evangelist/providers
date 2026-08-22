@@ -73,7 +73,7 @@ plans:
 - name: Mediabeacon Plans Pricing
   plan_count: 3
   slug: mediabeacon-plans-pricing
-random_paper: 85
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Mediabeacon Rate Limits

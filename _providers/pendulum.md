@@ -77,7 +77,7 @@ name: Pendulum
 nav: Providers
 network: true
 overview: Pendulum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Microbiome, Probiotics, and Metabolic Health.
-random_paper: 129
+random_paper: 13
 score:
   band: emerging
   composite: 11.2

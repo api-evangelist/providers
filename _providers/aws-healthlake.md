@@ -375,7 +375,7 @@ plans:
 - name: Aws Healthlake Plans
   plan_count: 2
   slug: aws-healthlake-plans
-random_paper: 78
+random_paper: 12
 rate_limits:
 - limit_count: 33
   name: Aws Healthlake Rate Limits

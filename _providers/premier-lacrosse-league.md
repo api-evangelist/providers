@@ -127,7 +127,7 @@ overview: 'Premier Lacrosse League publishes 2 APIs on the [APIs.io](https://api
 
 
   Premier Lacrosse League''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 98
+random_paper: 2
 scopes:
 - name: Premier Lacrosse League Scopes
   scope_count: 4

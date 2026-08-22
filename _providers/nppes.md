@@ -57,7 +57,7 @@ name: NPPES
 nav: Providers
 network: true
 overview: NPPES publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 103
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

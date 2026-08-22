@@ -88,7 +88,7 @@ overview: 'Studocu is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Studocu''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 7.0

@@ -84,7 +84,7 @@ overview: 'UBQ Materials is profiled on the [APIs.io](https://apis.io/) network.
 
 
   UBQ Materials'' developer surface includes engineering blog, product news, and 8 more developer resources.'
-random_paper: 143
+random_paper: 12
 score:
   band: minimal
   composite: 10.4

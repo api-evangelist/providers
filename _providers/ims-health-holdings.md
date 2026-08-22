@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: NC-QUINTILES-NCTA | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/5955995/nc-quintiles-ncta?publisherId=90456
-random_paper: 117
+random_paper: 15
 score:
   band: minimal
   composite: 2.5

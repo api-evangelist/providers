@@ -72,7 +72,7 @@ overview: 'Harmonycares is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Harmonycares'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 100
+random_paper: 11
 score:
   band: emerging
   composite: 11.8

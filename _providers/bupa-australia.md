@@ -129,7 +129,7 @@ overview: 'Bupa Australia is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bupa Australia''s developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 94
+random_paper: 7
 scopes:
 - name: Bupa Australia Scopes
   scope_count: 4

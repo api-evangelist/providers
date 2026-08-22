@@ -72,7 +72,7 @@ overview: 'Wenspiredata is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wenspiredata''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: emerging
   composite: 11.7

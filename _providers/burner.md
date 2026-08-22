@@ -140,7 +140,7 @@ overview: 'Burner publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Burner''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: developing
   composite: 40.0

@@ -49,7 +49,7 @@ name: Flapping Airplanes
 nav: Providers
 network: true
 overview: Flapping Airplanes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Data Efficiency, and Frontier AI.
-random_paper: 65
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

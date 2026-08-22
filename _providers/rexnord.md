@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Regal Rexnord Q1 2026 results, EPS guidance held
   url: https://www.stocktitan.net/sec-filings/RRX/8-k-regal-rexnord-corp-reports-material-event-31cbc937a3d0.html
-random_paper: 25
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

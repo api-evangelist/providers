@@ -49,7 +49,7 @@ name: MySpace
 nav: Providers
 network: true
 overview: MySpace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Social Network, Entertainment, and Media.
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

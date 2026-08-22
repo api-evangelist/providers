@@ -455,7 +455,7 @@ overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 29 more developer resources.'
-random_paper: 69
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Currencycloud Rate Limits

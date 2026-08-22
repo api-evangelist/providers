@@ -45,7 +45,7 @@ name: Swarm Technologies
 nav: Providers
 network: true
 overview: Swarm Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellite, IoT, and Connectivity.
-random_paper: 95
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

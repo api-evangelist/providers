@@ -154,7 +154,7 @@ plans:
 - name: Agify Plans Pricing
   plan_count: 3
   slug: agify-plans-pricing
-random_paper: 81
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Agify Rate Limits

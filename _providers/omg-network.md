@@ -69,7 +69,7 @@ name: OMG Network
 nav: Providers
 network: true
 overview: OMG Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Ethereum, and Layer 2.
-random_paper: 103
+random_paper: 12
 score:
   band: minimal
   composite: 6.8

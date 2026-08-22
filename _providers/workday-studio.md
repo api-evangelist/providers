@@ -492,7 +492,7 @@ plans:
 - name: Workday Studio Plans Pricing
   plan_count: 1
   slug: workday-studio-plans-pricing
-random_paper: 137
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Workday Studio Rate Limits

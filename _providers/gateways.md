@@ -40,7 +40,7 @@ name: Gateways
 nav: Providers
 network: true
 overview: Gateways is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Gateways, API Gateways, Data Gateways, Event Gateways, and Gateways.
-random_paper: 124
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

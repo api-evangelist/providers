@@ -90,7 +90,7 @@ overview: 'DB Schenker publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   DB Schenker''s developer surface includes API reference, documentation, and 5 more developer resources.'
-random_paper: 51
+random_paper: 2
 score:
   band: emerging
   composite: 23.7

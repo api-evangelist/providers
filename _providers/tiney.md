@@ -68,7 +68,7 @@ overview: 'Tiney is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tiney''s developer surface includes support and 5 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: minimal
   composite: 8.0

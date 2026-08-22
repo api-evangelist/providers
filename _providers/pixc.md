@@ -202,7 +202,7 @@ plans:
 - name: Pixc Plans Pricing
   plan_count: 4
   slug: pixc-plans-pricing
-random_paper: 138
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Pixc Rate Limits

@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: EQT Introduces AI Infrastructure Strategy to Help Build ...
   url: https://www.prnewswire.com/news-releases/eqt-introduces-ai-infrastructure-strategy-to-help-build-the-foundation-of-the-ai-economy-302748973.html
-random_paper: 32
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

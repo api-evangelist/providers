@@ -132,7 +132,7 @@ plans:
 - name: Sejda Plans Pricing
   plan_count: 9
   slug: sejda-plans-pricing
-random_paper: 72
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Sejda Rate Limits

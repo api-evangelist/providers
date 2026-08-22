@@ -1341,12 +1341,11 @@ overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 99 more developer resources.'
-paper_is_own: true
 plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 33
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits

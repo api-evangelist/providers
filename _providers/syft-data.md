@@ -216,7 +216,7 @@ plans:
 - name: Syft Data Plans Pricing
   plan_count: 3
   slug: syft-data-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Syft Data Rate Limits

@@ -149,7 +149,7 @@ press:
 - date: ''
   title: Two-thirds of organizations invest in AI training as adoption ...
   url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Arthur J Gallagher Rate Limits

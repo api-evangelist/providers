@@ -60,7 +60,7 @@ overview: 'Fabletics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fabletics'' developer surface includes signup flow and 3 more developer resources.'
-random_paper: 47
+random_paper: 17
 score:
   band: minimal
   composite: 9.7

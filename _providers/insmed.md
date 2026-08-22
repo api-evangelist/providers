@@ -64,7 +64,7 @@ overview: 'Insmed is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Insmed''s developer surface includes support and 4 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 10.0

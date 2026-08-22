@@ -78,7 +78,7 @@ plans:
 - name: Teesnap Plans Pricing
   plan_count: 1
   slug: teesnap-plans-pricing
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
   composite: 11.1

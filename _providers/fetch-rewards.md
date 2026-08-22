@@ -128,7 +128,7 @@ overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
-random_paper: 135
+random_paper: 4
 score:
   band: thin
   composite: 27.5

@@ -533,7 +533,7 @@ overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: thin
   composite: 32.1

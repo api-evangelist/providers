@@ -72,7 +72,7 @@ overview: 'Dewpoint Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Dewpoint Therapeutics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 130
+random_paper: 11
 score:
   band: minimal
   composite: 9.3

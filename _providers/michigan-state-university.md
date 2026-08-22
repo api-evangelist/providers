@@ -167,7 +167,7 @@ plans:
 - name: Michigan State University Plans Pricing
   plan_count: 2
   slug: michigan-state-university-plans-pricing
-random_paper: 56
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Michigan State University Rate Limits

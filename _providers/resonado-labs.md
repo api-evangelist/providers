@@ -49,7 +49,7 @@ name: Resonado Labs
 nav: Providers
 network: true
 overview: Resonado Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Acoustics, Hardware, and Speakers.
-random_paper: 130
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

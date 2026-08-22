@@ -127,7 +127,7 @@ overview: 'Rocket Lab is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rocket Lab''s developer surface includes YouTube channel, authentication, and 10 more developer resources.'
-random_paper: 102
+random_paper: 9
 score:
   band: emerging
   composite: 13.6

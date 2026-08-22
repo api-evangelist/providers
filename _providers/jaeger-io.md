@@ -281,7 +281,7 @@ overview: 'Jaeger publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Jaeger''s developer surface includes developer portal, documentation, getting-started guide, tooling, engineering blog, signup flow, changelog, and 35 more developer resources.'
-random_paper: 138
+random_paper: 1
 rules:
 - effective_rule_count: 6
   extends: []

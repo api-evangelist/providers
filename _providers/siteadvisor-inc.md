@@ -40,7 +40,7 @@ name: SiteAdvisor, Inc.
 nav: Providers
 network: true
 overview: SiteAdvisor, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Website Safety, Web Security, and Defunct.
-random_paper: 66
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Owens & Minor is in talks to sell Products & Healthcare ...
   url: https://www.massdevice.com/owens-minor-to-sell-products-healthcare-services/
-random_paper: 12
+random_paper: 11
 score:
   band: minimal
   composite: 4.5

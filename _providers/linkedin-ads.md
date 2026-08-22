@@ -252,7 +252,7 @@ plans:
 - name: Linkedin Ads Plans Pricing
   plan_count: 2
   slug: linkedin-ads-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Linkedin Ads Rate Limits

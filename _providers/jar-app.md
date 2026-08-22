@@ -161,7 +161,7 @@ overview: 'Jar is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Jar''s developer surface includes engineering blog, FAQ, YouTube channel, and 15 more developer resources.'
-random_paper: 87
+random_paper: 11
 score:
   band: minimal
   composite: 6.8

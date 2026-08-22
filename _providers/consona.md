@@ -40,7 +40,7 @@ name: Consona
 nav: Providers
 network: true
 overview: Consona is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, CRM, Enterprise Software, and Manufacturing.
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

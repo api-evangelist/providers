@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Ulta Beauty Privacy Policy | How We Use and Protect ...
   url: https://www.ulta.com/company/privacy
-random_paper: 95
+random_paper: 13
 score:
   band: minimal
   composite: 7.9

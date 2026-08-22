@@ -161,7 +161,7 @@ plans:
 - name: Useparagon Plans Pricing
   plan_count: 4
   slug: useparagon-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Useparagon Rate Limits

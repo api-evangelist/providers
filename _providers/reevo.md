@@ -195,7 +195,7 @@ plans:
 - name: Reevo Plans Pricing
   plan_count: 3
   slug: reevo-plans-pricing
-random_paper: 98
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Reevo Rate Limits

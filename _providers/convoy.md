@@ -648,7 +648,7 @@ plans:
 - name: Convoy Plans Pricing
   plan_count: 3
   slug: convoy-plans-pricing
-random_paper: 74
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Convoy Rate Limits

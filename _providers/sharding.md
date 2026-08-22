@@ -40,7 +40,7 @@ name: Sharding
 nav: Providers
 network: true
 overview: Sharding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sharding.
-random_paper: 103
+random_paper: 8
 score:
   band: minimal
   composite: 3.5

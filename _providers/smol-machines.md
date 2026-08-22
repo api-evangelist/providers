@@ -307,7 +307,7 @@ overview: 'Smol Machines publishes 19 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Smol Machines'' developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 26 more developer resources.'
-random_paper: 136
+random_paper: 5
 score:
   band: developing
   composite: 49.0

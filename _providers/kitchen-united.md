@@ -62,7 +62,7 @@ name: Kitchen United
 nav: Providers
 network: true
 overview: Kitchen United is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Ghost Kitchens, Restaurants, and Food Delivery.
-random_paper: 95
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

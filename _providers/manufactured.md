@@ -53,7 +53,7 @@ name: Manufactured
 nav: Providers
 network: true
 overview: Manufactured is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Supply Chain, Sourcing, and Procurement.
-random_paper: 87
+random_paper: 19
 score:
   band: minimal
   composite: 6.3

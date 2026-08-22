@@ -68,7 +68,7 @@ overview: 'Cherrypick is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cherrypick''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: emerging
   composite: 12.8

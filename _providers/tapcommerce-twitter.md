@@ -40,7 +40,7 @@ name: TapCommerce (Twitter)
 nav: Providers
 network: true
 overview: TapCommerce (Twitter) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Advertising, AdTech, and Mobile.
-random_paper: 63
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -57,7 +57,7 @@ name: USAspending.gov
 nav: Providers
 network: true
 overview: USAspending.gov publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 72
+random_paper: 8
 score:
   band: minimal
   composite: 4.2

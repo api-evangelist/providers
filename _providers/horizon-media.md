@@ -261,7 +261,7 @@ plans:
 - name: Horizon Media Plans Pricing
   plan_count: 0
   slug: horizon-media-plans-pricing
-random_paper: 142
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Horizon Media Rate Limits

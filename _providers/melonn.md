@@ -72,7 +72,7 @@ overview: 'Melonn publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Melonn''s developer surface includes documentation, engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 12.8

@@ -88,7 +88,7 @@ name: Ablative Solutions
 nav: Providers
 network: true
 overview: Ablative Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Hypertension, and Renal Denervation.
-random_paper: 105
+random_paper: 3
 score:
   band: minimal
   composite: 9.4

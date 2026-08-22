@@ -72,7 +72,7 @@ overview: 'Dare Drop is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dare Drop''s developer surface includes signup flow, engineering blog, support, and 4 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 9.6

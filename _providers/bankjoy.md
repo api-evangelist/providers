@@ -88,7 +88,7 @@ overview: 'Bankjoy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bankjoy''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 16.4

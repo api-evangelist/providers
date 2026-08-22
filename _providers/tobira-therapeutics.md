@@ -40,7 +40,7 @@ name: Tobira Therapeutics
 nav: Providers
 network: true
 overview: Tobira Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Healthcare.
-random_paper: 46
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

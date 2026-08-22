@@ -177,7 +177,7 @@ overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 10 more developer resources.'
-random_paper: 87
+random_paper: 6
 rules:
 - effective_rule_count: 4
   extends: []

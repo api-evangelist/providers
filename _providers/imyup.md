@@ -60,7 +60,7 @@ overview: 'imyup is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   imyup''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 117
+random_paper: 18
 score:
   band: minimal
   composite: 6.2

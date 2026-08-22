@@ -45,7 +45,7 @@ name: SynergyList
 nav: Providers
 network: true
 overview: SynergyList is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 37
+random_paper: 11
 score:
   band: minimal
   composite: 3.2

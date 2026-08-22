@@ -134,7 +134,7 @@ overview: 'Govdash is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Govdash''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: developing
   composite: 42.1

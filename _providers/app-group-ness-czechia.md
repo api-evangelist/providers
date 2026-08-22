@@ -57,7 +57,7 @@ name: APP Group  Ness Czechia
 nav: Providers
 network: true
 overview: APP Group  Ness Czechia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Systems Integration, SAP, and ERP.
-random_paper: 95
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

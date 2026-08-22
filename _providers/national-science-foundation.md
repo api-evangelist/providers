@@ -108,7 +108,7 @@ plans:
 - name: National Science Foundation Plans Pricing
   plan_count: 3
   slug: national-science-foundation-plans-pricing
-random_paper: 71
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: National Science Foundation Rate Limits

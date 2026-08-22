@@ -84,7 +84,7 @@ overview: 'Careem is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Careem''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 9.4

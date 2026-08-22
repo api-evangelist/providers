@@ -49,7 +49,7 @@ name: ThirtyFiveBio
 nav: Providers
 network: true
 overview: ThirtyFiveBio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Gastrointestinal.
-random_paper: 75
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

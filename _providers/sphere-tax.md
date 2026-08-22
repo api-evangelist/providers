@@ -121,7 +121,7 @@ plans:
 - name: Sphere Tax Plans Pricing
   plan_count: 2
   slug: sphere-tax-plans-pricing
-random_paper: 131
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Sphere Tax Rate Limits

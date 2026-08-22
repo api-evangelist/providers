@@ -113,7 +113,7 @@ overview: 'Jules publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jules'' developer surface includes documentation, API reference, CLI, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: emerging
   composite: 18.4

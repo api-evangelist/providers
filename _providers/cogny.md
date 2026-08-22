@@ -249,7 +249,7 @@ plans:
 - name: Cogny Plans Pricing
   plan_count: 3
   slug: cogny-plans-pricing
-random_paper: 97
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Cogny Rate Limits

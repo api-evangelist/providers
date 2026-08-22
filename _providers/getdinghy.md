@@ -49,7 +49,7 @@ name: getdinghy
 nav: Providers
 network: true
 overview: getdinghy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Freelancers, and Contractors.
-random_paper: 69
+random_paper: 18
 score:
   band: minimal
   composite: 2.3

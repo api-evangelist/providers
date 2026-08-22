@@ -45,7 +45,7 @@ name: Octarine
 nav: Providers
 network: true
 overview: Octarine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Kubernetes, Cloud Native, and Container Security.
-random_paper: 108
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

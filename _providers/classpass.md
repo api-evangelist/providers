@@ -81,7 +81,7 @@ plans:
 - name: Classpass Plans Pricing
   plan_count: 2
   slug: classpass-plans-pricing
-random_paper: 79
+random_paper: 7
 score:
   band: emerging
   composite: 13.0

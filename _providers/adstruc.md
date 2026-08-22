@@ -82,7 +82,7 @@ plans:
 - name: Adstruc Plans Pricing
   plan_count: 0
   slug: adstruc-plans-pricing
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 7.1

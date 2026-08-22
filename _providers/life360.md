@@ -117,7 +117,7 @@ overview: 'Life360 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Life360''s developer surface includes support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 122
+random_paper: 2
 score:
   band: emerging
   composite: 20.4

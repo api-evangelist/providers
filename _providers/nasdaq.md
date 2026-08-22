@@ -64,7 +64,7 @@ overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cl
 
 
   The Nasdaq catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 36
+random_paper: 2
 rules:
 - effective_rule_count: 33
   extends:

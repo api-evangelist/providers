@@ -49,7 +49,7 @@ name: Myntra
 nav: Providers
 network: true
 overview: Myntra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-commerce, and Retail.
-random_paper: 71
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

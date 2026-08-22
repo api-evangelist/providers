@@ -201,7 +201,7 @@ overview: 'Spring Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Spring Health''s developer surface includes engineering blog, product news, GitHub presence, and 36 more developer resources.'
-random_paper: 142
+random_paper: 11
 score:
   band: emerging
   composite: 12.7

@@ -214,7 +214,7 @@ overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 57
+random_paper: 2
 scopes:
 - name: Botify Scopes
   scope_count: 0

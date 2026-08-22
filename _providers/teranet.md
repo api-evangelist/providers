@@ -156,7 +156,7 @@ overview: 'Teranet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Teranet''s developer surface includes authentication, changelog, sandbox, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: thin
   composite: 27.4

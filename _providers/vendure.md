@@ -219,7 +219,7 @@ plans:
 - name: Vendure Plans Pricing
   plan_count: 3
   slug: vendure-plans-pricing
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Vendure Rate Limits

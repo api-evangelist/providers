@@ -80,7 +80,7 @@ overview: 'Zuma is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zuma''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 147
+random_paper: 4
 score:
   band: emerging
   composite: 12.7

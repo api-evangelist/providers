@@ -96,7 +96,7 @@ overview: 'Successfactors publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Successfactors'' developer surface includes documentation, API reference, support, and 9 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: emerging
   composite: 12.7

@@ -45,7 +45,7 @@ name: Spirit Airlines
 nav: Providers
 network: true
 overview: Spirit Airlines is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 77
+random_paper: 13
 score:
   band: minimal
   composite: 2.6

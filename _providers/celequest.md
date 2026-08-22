@@ -45,7 +45,7 @@ name: Celequest
 nav: Providers
 network: true
 overview: Celequest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Intelligence, Analytics, Operational Intelligence, and Data.
-random_paper: 77
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

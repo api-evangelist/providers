@@ -53,7 +53,7 @@ name: MedSci
 nav: Providers
 network: true
 overview: MedSci is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical, Physician Platform, and Artificial Intelligence.
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 3.3

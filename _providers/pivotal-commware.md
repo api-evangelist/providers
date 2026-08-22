@@ -64,7 +64,7 @@ overview: 'Pivotal Commware is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Pivotal Commware''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 32
+random_paper: 12
 score:
   band: minimal
   composite: 6.2

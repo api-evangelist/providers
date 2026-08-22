@@ -63,7 +63,7 @@ name: Oasis Petroleum
 nav: Providers
 network: true
 overview: Oasis Petroleum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil And Gas, Exploration And Production, Upstream, Bakken, and Williston Basin.
-random_paper: 87
+random_paper: 2
 score:
   band: minimal
   composite: 2.8

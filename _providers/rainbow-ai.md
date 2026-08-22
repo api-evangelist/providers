@@ -194,7 +194,7 @@ plans:
 - name: Rainbow Ai Plans Pricing
   plan_count: 3
   slug: rainbow-ai-plans-pricing
-random_paper: 107
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Rainbow Ai Rate Limits

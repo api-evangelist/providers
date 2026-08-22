@@ -65,7 +65,7 @@ name: Molten Industries
 nav: Providers
 network: true
 overview: Molten Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Hydrogen, Graphite, and Clean Energy.
-random_paper: 10
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

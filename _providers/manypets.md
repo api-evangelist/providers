@@ -131,7 +131,7 @@ overview: 'ManyPets is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ManyPets'' developer surface includes support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 136
+random_paper: 20
 score:
   band: emerging
   composite: 22.4

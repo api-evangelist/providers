@@ -145,7 +145,7 @@ overview: 'Clutch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Clutch''s developer surface includes documentation, support, engineering blog, and 16 more developer resources.'
-random_paper: 44
+random_paper: 16
 score:
   band: emerging
   composite: 20.3

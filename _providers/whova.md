@@ -89,7 +89,7 @@ plans:
 - name: Whova Plans Pricing
   plan_count: 2
   slug: whova-plans-pricing
-random_paper: 102
+random_paper: 3
 score:
   band: emerging
   composite: 12.5

@@ -121,7 +121,7 @@ overview: 'Openart publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Openart''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 16
+random_paper: 5
 scopes:
 - name: Openart Scopes
   scope_count: 1

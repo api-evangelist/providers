@@ -89,7 +89,7 @@ plans:
 - name: Digital Room Plans Pricing
   plan_count: 0
   slug: digital-room-plans-pricing
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Digital Room Rate Limits

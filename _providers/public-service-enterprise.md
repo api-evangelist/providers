@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: PSEG ANNOUNCES FIRST QUARTER 2026 RESULTS
   url: https://www.prnewswire.com/news-releases/pseg-announces-first-quarter-2026-results-302762109.html
-random_paper: 38
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

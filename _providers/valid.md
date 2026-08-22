@@ -115,7 +115,7 @@ plans:
 - name: Valid Plans Pricing
   plan_count: 0
   slug: valid-plans-pricing
-random_paper: 81
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Valid Rate Limits

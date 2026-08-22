@@ -181,7 +181,7 @@ plans:
 - name: Caretta Plans Pricing
   plan_count: 0
   slug: caretta-plans-pricing
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Caretta Rate Limits

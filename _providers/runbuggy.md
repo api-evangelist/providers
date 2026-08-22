@@ -212,7 +212,7 @@ overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 138
+random_paper: 1
 scopes:
 - name: Runbuggy Scopes
   scope_count: 0

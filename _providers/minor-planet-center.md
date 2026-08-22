@@ -57,7 +57,7 @@ name: Minor Planet Center
 nav: Providers
 network: true
 overview: Minor Planet Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 136
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

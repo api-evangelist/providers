@@ -264,7 +264,7 @@ overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 25 more developer resources.'
-random_paper: 65
+random_paper: 16
 score:
   band: thin
   composite: 37.3

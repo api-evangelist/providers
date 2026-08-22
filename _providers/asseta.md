@@ -72,7 +72,7 @@ overview: 'Asseta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Asseta''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
   composite: 12.8

@@ -85,7 +85,7 @@ plans:
 - name: Donnees Ville Montreal Qc Ca Plans Pricing
   plan_count: 1
   slug: donnees-ville-montreal-qc-ca-plans-pricing
-random_paper: 60
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Donnees Ville Montreal Qc Ca Rate Limits

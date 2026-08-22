@@ -79,7 +79,7 @@ overview: '3D Glass Solutions is profiled on the [APIs.io](https://apis.io/) net
 
 
   3D Glass Solutions'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 148
+random_paper: 2
 score:
   band: minimal
   composite: 9.7

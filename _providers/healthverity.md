@@ -154,7 +154,7 @@ plans:
 - name: Healthverity Plans Pricing
   plan_count: 0
   slug: healthverity-plans-pricing
-random_paper: 113
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Healthverity Rate Limits

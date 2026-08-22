@@ -40,7 +40,7 @@ name: Minghui Pharmaceutical
 nav: Providers
 network: true
 overview: Minghui Pharmaceutical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceutical, Biotechnology, and Drug Development.
-random_paper: 38
+random_paper: 5
 score:
   band: minimal
   composite: 2.2

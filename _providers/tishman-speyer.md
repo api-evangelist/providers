@@ -109,7 +109,7 @@ overview: 'Tishman Speyer is profiled on the [APIs.io](https://apis.io/) network
 
 
   Tishman Speyer''s developer surface includes product news, GitHub presence, and 14 more developer resources.'
-random_paper: 124
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

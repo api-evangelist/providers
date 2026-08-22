@@ -40,7 +40,7 @@ name: Orative
 nav: Providers
 network: true
 overview: Orative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Conferencing, Collaboration, and Mobile.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

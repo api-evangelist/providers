@@ -68,7 +68,7 @@ overview: 'Allset is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Allset''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

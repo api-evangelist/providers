@@ -195,7 +195,7 @@ plans:
 - name: Telefono Plans Pricing
   plan_count: 1
   slug: telefono-plans-pricing
-random_paper: 115
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Telefono Rate Limits

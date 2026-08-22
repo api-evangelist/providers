@@ -89,7 +89,7 @@ overview: 'Jump &#8211; Advisor AI is profiled on the [APIs.io](https://apis.io/
 
 
   Jump &#8211; Advisor AI''s developer surface includes engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 11
+random_paper: 18
 score:
   band: emerging
   composite: 17.6

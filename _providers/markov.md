@@ -53,7 +53,7 @@ name: Markov
 nav: Providers
 network: true
 overview: Markov is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data, and Computer Use.
-random_paper: 60
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

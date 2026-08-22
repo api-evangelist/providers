@@ -40,7 +40,7 @@ name: VSS Monitoring
 nav: Providers
 network: true
 overview: VSS Monitoring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Network Monitoring, Network Packet Broker, Network Visibility, and Network Security.
-random_paper: 146
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

@@ -49,7 +49,7 @@ name: Arilinc
 nav: Providers
 network: true
 overview: Arilinc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, AI Processors, RISC-V, and Memory.
-random_paper: 142
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

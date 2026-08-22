@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: The ODP Corporation Expands Collaboration with Microsoft to ...
   url: https://newsroom.officedepot.com/news-releases/news-release-details/odp-corporation-expands-collaboration-microsoft-leverage-power
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 3.5

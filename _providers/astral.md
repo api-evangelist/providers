@@ -104,7 +104,7 @@ overview: 'Astral is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Astral''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 10 more developer resources.'
-random_paper: 51
+random_paper: 17
 score:
   band: emerging
   composite: 17.2

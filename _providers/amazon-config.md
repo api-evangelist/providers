@@ -4439,7 +4439,7 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 129
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []

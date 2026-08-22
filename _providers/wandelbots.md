@@ -145,7 +145,7 @@ overview: 'Wandelbots publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Wandelbots'' developer surface includes documentation, API reference, getting-started guide, developer portal, engineering blog, support, CLI, and 16 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: emerging
   composite: 25.8

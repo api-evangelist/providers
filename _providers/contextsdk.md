@@ -125,7 +125,7 @@ overview: 'ContextSDK is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ContextSDK''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 52
+random_paper: 3
 score:
   band: thin
   composite: 29.5

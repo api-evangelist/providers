@@ -115,7 +115,7 @@ overview: 'Cerapedics publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cerapedics'' developer surface includes authentication, engineering blog, and 16 more developer resources.'
-random_paper: 0
+random_paper: 14
 scopes:
 - name: Cerapedics Scopes
   scope_count: 4

@@ -84,7 +84,7 @@ overview: 'Polymorph is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Polymorph''s developer surface includes legal docs, support, and 8 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: emerging
   composite: 11.5

@@ -72,7 +72,7 @@ overview: 'Parkhub is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parkhub''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: minimal
   composite: 5.6

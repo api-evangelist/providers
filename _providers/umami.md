@@ -527,7 +527,7 @@ plans:
 - name: Umami Plans Pricing
   plan_count: 4
   slug: umami-plans-pricing
-random_paper: 90
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Umami Rate Limits

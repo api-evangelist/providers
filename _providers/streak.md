@@ -157,7 +157,7 @@ overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Streak''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: thin
   composite: 30.3

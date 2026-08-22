@@ -161,7 +161,7 @@ overview: 'RunReveal publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RunReveal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 86
+random_paper: 14
 scopes:
 - name: Runreveal Scopes
   scope_count: 37

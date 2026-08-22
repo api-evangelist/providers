@@ -140,7 +140,7 @@ overview: 'Clockworks Analytics publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: thin
   composite: 38.7

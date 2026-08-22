@@ -106,7 +106,7 @@ plans:
 - name: Tongal Plans Pricing
   plan_count: 0
   slug: tongal-plans-pricing
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 9.5

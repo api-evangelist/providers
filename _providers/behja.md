@@ -49,7 +49,7 @@ name: Behja
 nav: Providers
 network: true
 overview: Behja is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Rent-to-Own, and Housing.
-random_paper: 59
+random_paper: 2
 score:
   band: minimal
   composite: 7.1

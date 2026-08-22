@@ -49,7 +49,7 @@ name: Prime Life Science
 nav: Providers
 network: true
 overview: Prime Life Science is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Clinical Research, Healthcare, and Artificial Intelligence.
-random_paper: 48
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

@@ -212,7 +212,7 @@ plans:
 - name: W3C Plans Pricing
   plan_count: 3
   slug: w3c-plans-pricing
-random_paper: 120
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: W3C Rate Limits

@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Colgate - Harnessing AI for innovative oral care
   url: https://www.efp.org/publications-hub/colgate-harnessing-ai-for-innovative-oral-care-how-colgate-palmolive-is-taking-on-the-charge/
-random_paper: 110
+random_paper: 6
 score:
   band: minimal
   composite: 5.3

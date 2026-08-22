@@ -104,7 +104,7 @@ overview: 'actnano is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   actnano''s developer surface includes support, engineering blog, product news, FAQ, YouTube channel, and 8 more developer resources.'
-random_paper: 144
+random_paper: 5
 score:
   band: emerging
   composite: 11.2

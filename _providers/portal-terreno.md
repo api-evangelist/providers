@@ -49,7 +49,7 @@ name: Portal Terreno
 nav: Providers
 network: true
 overview: Portal Terreno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Classifieds, Marketplace, and Land.
-random_paper: 129
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

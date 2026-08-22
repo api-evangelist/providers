@@ -52,7 +52,7 @@ overview: 'CQuotient is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CQuotient''s developer surface includes documentation and API reference.'
-random_paper: 94
+random_paper: 1
 score:
   band: minimal
   composite: 8.3

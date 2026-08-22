@@ -286,7 +286,7 @@ overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: developing
   composite: 44.7

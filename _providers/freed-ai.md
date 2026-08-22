@@ -101,7 +101,7 @@ overview: 'Freed is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Freed''s developer surface includes pricing, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 20
+random_paper: 9
 score:
   band: emerging
   composite: 13.4

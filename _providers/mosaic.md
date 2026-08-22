@@ -156,7 +156,7 @@ press:
 - date: '2026-05-25'
   title: MOSAIC Coalition Launches to Operationalize AI Security ...
   url: https://www.cisecurity.org/about-us/media/press-release/mosaic-coalition-launches-to-operationalize-ai-security-standards-and-reduce-industry-fragmentation
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 14.9

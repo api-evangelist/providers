@@ -246,7 +246,7 @@ plans:
 - name: Microsoft Dynamics 365 Plans Pricing
   plan_count: 19
   slug: microsoft-dynamics-365-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Microsoft Dynamics 365 Rate Limits

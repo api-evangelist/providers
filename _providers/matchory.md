@@ -189,7 +189,7 @@ plans:
 - name: Matchory Plans Pricing
   plan_count: 3
   slug: matchory-plans-pricing
-random_paper: 126
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Matchory Rate Limits

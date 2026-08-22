@@ -215,7 +215,7 @@ plans:
 - name: Spredfast Plans Pricing
   plan_count: 0
   slug: spredfast-plans-pricing
-random_paper: 78
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Spredfast Rate Limits

@@ -117,7 +117,7 @@ overview: 'Waldo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waldo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, CLI, and 10 more developer resources.'
-random_paper: 88
+random_paper: 10
 score:
   band: emerging
   composite: 17.9

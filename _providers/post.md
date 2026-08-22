@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Privacy Notice
   url: https://www.postholdings.com/privacy-notice/
-random_paper: 7
+random_paper: 13
 score:
   band: minimal
   composite: 4.6

@@ -148,7 +148,7 @@ overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OpenLattice''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 133
+random_paper: 0
 score:
   band: thin
   composite: 26.3

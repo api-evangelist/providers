@@ -494,7 +494,7 @@ overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
-random_paper: 27
+random_paper: 20
 scopes:
 - name: Tradeshift Scopes
   scope_count: 7

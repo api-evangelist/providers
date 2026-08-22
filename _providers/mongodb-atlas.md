@@ -132,7 +132,7 @@ overview: 'MongoDB Atlas publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   MongoDB Atlas'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 128
+random_paper: 18
 score:
   band: thin
   composite: 34.2

@@ -68,7 +68,7 @@ overview: 'IONA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   IONA''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 5.5

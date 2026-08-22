@@ -88,7 +88,7 @@ overview: 'Andustry is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Andustry''s developer surface includes support and 10 more developer resources.'
-random_paper: 145
+random_paper: 8
 score:
   band: minimal
   composite: 6.6

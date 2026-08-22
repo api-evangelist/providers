@@ -40,7 +40,7 @@ name: ONDisplay
 nav: Providers
 network: true
 overview: ONDisplay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and B2B.
-random_paper: 85
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

@@ -40,7 +40,7 @@ name: Yardbook
 nav: Providers
 network: true
 overview: Yardbook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 114
+random_paper: 19
 score:
   band: minimal
   composite: 3.2

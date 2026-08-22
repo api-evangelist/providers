@@ -40,7 +40,7 @@ name: Product Backlog Items
 nav: Providers
 network: true
 overview: Product Backlog Items is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agile, Product Management, Project Management, Scrum, and Requirements Management.
-random_paper: 42
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -81,7 +81,7 @@ plans:
 - name: Institute Of Museum And Library Services Plans Pricing
   plan_count: 3
   slug: institute-of-museum-and-library-services-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Institute Of Museum And Library Services Rate Limits

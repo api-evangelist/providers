@@ -216,7 +216,7 @@ plans:
 - name: Memo Bank Plans Pricing
   plan_count: 2
   slug: memo-bank-plans-pricing
-random_paper: 142
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Memo Bank Rate Limits

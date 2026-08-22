@@ -198,7 +198,7 @@ plans:
 - name: Amuncore Plans Pricing
   plan_count: 4
   slug: amuncore-plans-pricing
-random_paper: 113
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Amuncore Rate Limits

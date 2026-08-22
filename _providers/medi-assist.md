@@ -49,7 +49,7 @@ name: Medi Assist
 nav: Providers
 network: true
 overview: Medi Assist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Diagnostics.
-random_paper: 80
+random_paper: 10
 score:
   band: minimal
   composite: 2.3

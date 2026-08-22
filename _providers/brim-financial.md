@@ -88,7 +88,7 @@ overview: 'Brim Financial is profiled on the [APIs.io](https://apis.io/) network
 
 
   Brim Financial''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 63
+random_paper: 18
 score:
   band: minimal
   composite: 2.9

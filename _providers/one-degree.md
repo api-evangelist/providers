@@ -189,7 +189,7 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 93
+random_paper: 0
 score:
   band: developing
   composite: 43.1

@@ -66,7 +66,7 @@ plans:
 - name: Encurate Plans Pricing
   plan_count: 3
   slug: encurate-plans-pricing
-random_paper: 110
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Encurate Rate Limits

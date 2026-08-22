@@ -56,7 +56,7 @@ overview: 'Tammwel is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tammwel''s developer surface includes support and 2 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: minimal
   composite: 6.0

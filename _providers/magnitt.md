@@ -49,7 +49,7 @@ name: MAGNiTT
 nav: Providers
 network: true
 overview: MAGNiTT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Startups, Data Platform, and Market Research.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

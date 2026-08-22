@@ -125,7 +125,7 @@ overview: 'Humanity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Humanity''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 134
+random_paper: 18
 score:
   band: thin
   composite: 27.3

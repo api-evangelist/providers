@@ -152,7 +152,7 @@ overview: 'takepayments publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   takepayments'' developer surface includes documentation, API reference, SDKs, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 110
+random_paper: 0
 score:
   band: thin
   composite: 35.1

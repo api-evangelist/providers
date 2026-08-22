@@ -281,7 +281,7 @@ overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network
 
 
   Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 15 more developer resources.'
-random_paper: 68
+random_paper: 15
 score:
   band: thin
   composite: 36.0

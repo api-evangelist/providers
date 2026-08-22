@@ -72,7 +72,7 @@ overview: 'Its Good is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Its Good''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 61
+random_paper: 8
 score:
   band: emerging
   composite: 11.8

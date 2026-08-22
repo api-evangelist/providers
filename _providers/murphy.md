@@ -73,7 +73,7 @@ name: Murphy
 nav: Providers
 network: true
 overview: Murphy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Artificial Intelligence, Debt Collection, and Voice AI.
-random_paper: 81
+random_paper: 5
 score:
   band: emerging
   composite: 12.1

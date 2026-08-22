@@ -230,7 +230,7 @@ plans:
 - name: Dog Api Plans Pricing
   plan_count: 3
   slug: dog-api-plans-pricing
-random_paper: 77
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dog Api Rate Limits

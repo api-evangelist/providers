@@ -121,7 +121,7 @@ plans:
 - name: Shiphero Plans Pricing
   plan_count: 3
   slug: shiphero-plans-pricing
-random_paper: 121
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Shiphero Rate Limits

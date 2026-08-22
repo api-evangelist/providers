@@ -76,7 +76,7 @@ overview: 'Novi Connect is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Novi Connect''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 147
+random_paper: 14
 score:
   band: minimal
   composite: 8.9

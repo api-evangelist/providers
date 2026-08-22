@@ -287,7 +287,7 @@ plans:
 - name: Instantly Ai Plans Pricing
   plan_count: 13
   slug: instantly-ai-plans-pricing
-random_paper: 53
+random_paper: 6
 rate_limits:
 - limit_count: 7
   name: Instantly Ai Rate Limits

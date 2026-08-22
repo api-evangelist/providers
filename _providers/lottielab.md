@@ -104,7 +104,7 @@ overview: 'Lottielab is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lottielab''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 66
+random_paper: 15
 score:
   band: emerging
   composite: 22.8

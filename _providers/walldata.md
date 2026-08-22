@@ -40,7 +40,7 @@ name: WallData
 nav: Providers
 network: true
 overview: WallData is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Terminal Emulation, Host Connectivity, and Legacy Software.
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

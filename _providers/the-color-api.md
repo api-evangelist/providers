@@ -127,7 +127,7 @@ plans:
 - name: The Color Api Plans Pricing
   plan_count: 3
   slug: the-color-api-plans-pricing
-random_paper: 76
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: The Color Api Rate Limits

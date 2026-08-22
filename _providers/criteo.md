@@ -266,7 +266,7 @@ plans:
 - name: Criteo Plans Pricing
   plan_count: 0
   slug: criteo-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Criteo Rate Limits

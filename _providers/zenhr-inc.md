@@ -529,7 +529,7 @@ overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ZenHR Inc''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 16
+random_paper: 7
 scopes:
 - name: Zenhr Inc Scopes
   scope_count: 9

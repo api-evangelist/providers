@@ -355,7 +355,7 @@ press:
 - date: '2026-05-25'
   title: 'Xcel Energy: Brings AI-driven wildfire detection to Wisconsin'
   url: https://www.wispolitics.com/2026/xcel-energy-brings-ai-driven-wildfire-detection-to-wisconsin/
-random_paper: 80
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Xcel Energy Rate Limits

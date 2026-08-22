@@ -108,7 +108,7 @@ overview: 'Council on Environmental Quality is profiled on the [APIs.io](https:/
 
 
   Council on Environmental Quality''s developer surface includes product news and 15 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: minimal
   composite: 6.6

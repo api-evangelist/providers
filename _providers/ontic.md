@@ -88,7 +88,7 @@ overview: 'Ontic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ontic''s developer surface includes pricing and 10 more developer resources.'
-random_paper: 94
+random_paper: 16
 score:
   band: emerging
   composite: 19.3

@@ -88,7 +88,7 @@ overview: 'Citus Data is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Citus Data''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 6 more developer resources.'
-random_paper: 113
+random_paper: 20
 score:
   band: emerging
   composite: 15.0

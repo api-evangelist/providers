@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: A proprietary artificial intelligence (AI) agent, dubbed Rai ...
   url: https://www.facebook.com/RaymondJames/posts/a-proprietary-artificial-intelligence-ai-agent-dubbed-rai-will-deliver-enhanced-/1312009590958420/
-random_paper: 78
+random_paper: 3
 score:
   band: minimal
   composite: 6.2

@@ -204,7 +204,7 @@ overview: 'Prophecy.io publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Prophecy.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: developing
   composite: 42.8

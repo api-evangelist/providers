@@ -255,7 +255,7 @@ plans:
 - name: Clozd Plans Pricing
   plan_count: 0
   slug: clozd-plans-pricing
-random_paper: 93
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Clozd Rate Limits

@@ -45,7 +45,7 @@ name: Luminus Devices
 nav: Providers
 network: true
 overview: Luminus Devices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optoelectronics, LED, Photonics, and Lighting.
-random_paper: 75
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

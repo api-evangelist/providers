@@ -146,7 +146,7 @@ overview: 'Lemon Perfect publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Lemon Perfect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 137
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Lemon Perfect Rate Limits

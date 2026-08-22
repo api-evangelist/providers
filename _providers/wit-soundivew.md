@@ -40,7 +40,7 @@ name: WIT Soundivew
 nav: Providers
 network: true
 overview: WIT Soundivew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

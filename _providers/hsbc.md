@@ -76,7 +76,7 @@ overview: 'HSBC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HSBC''s developer surface includes developer portal and 6 more developer resources.'
-random_paper: 118
+random_paper: 17
 score:
   band: minimal
   composite: 5.8

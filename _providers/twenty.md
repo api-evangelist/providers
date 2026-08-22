@@ -224,7 +224,7 @@ plans:
 - name: Twenty Plans Pricing
   plan_count: 3
   slug: twenty-plans-pricing
-random_paper: 87
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Twenty Rate Limits

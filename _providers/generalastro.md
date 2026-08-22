@@ -57,7 +57,7 @@ name: Generalastro
 nav: Providers
 network: true
 overview: Generalastro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Robotics, Aerospace, and Microgravity.
-random_paper: 95
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

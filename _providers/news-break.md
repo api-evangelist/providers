@@ -176,7 +176,7 @@ overview: 'News Break publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 113
+random_paper: 20
 rate_limits:
 - limit_count: 9
   name: News Break Rate Limits

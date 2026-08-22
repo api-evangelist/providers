@@ -40,7 +40,7 @@ name: Magmatic Games
 nav: Providers
 network: true
 overview: Magmatic Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Portfolio Lead.
-random_paper: 64
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

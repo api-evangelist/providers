@@ -60,7 +60,7 @@ overview: 'Creator Stack is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Creator Stack''s developer surface includes signup flow, support, and 2 more developer resources.'
-random_paper: 139
+random_paper: 8
 score:
   band: minimal
   composite: 7.3

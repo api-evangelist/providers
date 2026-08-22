@@ -120,7 +120,7 @@ plans:
 - name: Landbot Plans Pricing
   plan_count: 6
   slug: landbot-plans-pricing
-random_paper: 144
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Landbot Rate Limits

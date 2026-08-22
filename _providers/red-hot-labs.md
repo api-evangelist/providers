@@ -40,7 +40,7 @@ name: Red Hot Labs
 nav: Providers
 network: true
 overview: Red Hot Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 111
+random_paper: 20
 score:
   band: minimal
   composite: 3.2

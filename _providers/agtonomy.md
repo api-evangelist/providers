@@ -72,7 +72,7 @@ overview: 'Agtonomy is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Agtonomy''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 133
+random_paper: 17
 score:
   band: minimal
   composite: 10.6

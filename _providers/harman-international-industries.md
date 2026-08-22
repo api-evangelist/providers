@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: HARMAN and Baidu DuerOS Collaborate on AI Solutions for ...
   url: https://news.harman.com/releases/harman-and-baidu-dueros-collaborate-on-ai-solutions-for-china-automotive-market
-random_paper: 90
+random_paper: 6
 score:
   band: minimal
   composite: 5.3

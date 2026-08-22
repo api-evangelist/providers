@@ -57,7 +57,7 @@ name: Wuxi Vision Pro
 nav: Providers
 network: true
 overview: Wuxi Vision Pro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Ophthalmology, Intraocular Lenses, and Healthcare.
-random_paper: 93
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

@@ -185,7 +185,7 @@ overview: 'SonicWall is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SonicWall''s developer surface includes developer portal, documentation, support, signup flow, engineering blog, YouTube channel, tooling, and 28 more developer resources.'
-random_paper: 78
+random_paper: 6
 score:
   band: emerging
   composite: 17.7

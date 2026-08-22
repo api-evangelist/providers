@@ -585,7 +585,7 @@ overview: 'ArthurAI publishes 68 APIs on the [APIs.io](https://apis.io/) network
 
 
   ArthurAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 119
+random_paper: 3
 scopes:
 - name: Arthurai Scopes
   scope_count: 191

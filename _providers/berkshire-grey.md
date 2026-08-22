@@ -145,7 +145,7 @@ overview: 'Berkshire Grey is profiled on the [APIs.io](https://apis.io/) network
 
 
   Berkshire Grey''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 102
+random_paper: 15
 score:
   band: emerging
   composite: 11.6

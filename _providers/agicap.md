@@ -676,7 +676,7 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 17
+random_paper: 4
 scopes:
 - name: Agicap Scopes
   scope_count: 5

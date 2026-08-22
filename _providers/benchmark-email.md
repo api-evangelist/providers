@@ -418,7 +418,7 @@ plans:
 - name: Benchmark Email Plans Pricing
   plan_count: 3
   slug: benchmark-email-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Benchmark Email Rate Limits

@@ -73,7 +73,7 @@ plans:
 - name: Zype Plans Pricing
   plan_count: 3
   slug: zype-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Zype Rate Limits

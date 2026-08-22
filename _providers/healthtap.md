@@ -103,7 +103,7 @@ overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HealthTap''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: emerging
   composite: 23.1

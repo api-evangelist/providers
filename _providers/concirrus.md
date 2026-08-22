@@ -108,7 +108,7 @@ overview: 'Concirrus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Concirrus'' developer surface includes engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: emerging
   composite: 12.5

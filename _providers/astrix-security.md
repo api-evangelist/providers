@@ -108,7 +108,7 @@ overview: 'Astrix Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Astrix Security''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
-random_paper: 110
+random_paper: 4
 score:
   band: emerging
   composite: 15.5

@@ -215,7 +215,7 @@ overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 88
+random_paper: 12
 score:
   band: developing
   composite: 50.5

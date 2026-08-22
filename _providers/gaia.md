@@ -76,7 +76,7 @@ overview: 'Gaia is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Gaia''s developer surface includes pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 104
+random_paper: 3
 score:
   band: emerging
   composite: 14.5

@@ -68,7 +68,7 @@ overview: 'Sidewinder Therapeutics is profiled on the [APIs.io](https://apis.io/
 
 
   Sidewinder Therapeutics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 28
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

@@ -68,7 +68,7 @@ overview: 'MEQ Solutions is profiled on the [APIs.io](https://apis.io/) network.
 
 
   MEQ Solutions'' developer surface includes support and 5 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 9.4

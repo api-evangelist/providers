@@ -40,7 +40,7 @@ name: Huon Holdings
 nav: Providers
 network: true
 overview: Huon Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Property and Casualty, and Insurance Software.
-random_paper: 2
+random_paper: 20
 score:
   band: minimal
   composite: 0.9

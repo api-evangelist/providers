@@ -130,7 +130,7 @@ overview: 'Zeller publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zeller''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 58
+random_paper: 3
 score:
   band: thin
   composite: 32.2

@@ -60,7 +60,7 @@ overview: 'Plant Cartridge is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Plant Cartridge''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 47
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

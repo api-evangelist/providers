@@ -112,7 +112,7 @@ overview: 'OSCAR EMR publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   OSCAR EMR''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 11 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: thin
   composite: 27.9

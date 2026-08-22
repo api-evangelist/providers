@@ -420,7 +420,7 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: strong
   composite: 55.8

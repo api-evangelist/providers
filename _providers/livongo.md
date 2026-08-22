@@ -49,7 +49,7 @@ name: Livongo
 nav: Providers
 network: true
 overview: Livongo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Chronic Care, and Diabetes Management.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

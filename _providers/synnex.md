@@ -190,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: TD SYNNEX Evolves AI Go-to-Market Strategy Through ...
   url: https://www.thecannatareport.com/td-synnex-ai-gtm/
-random_paper: 81
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Synnex Rate Limits

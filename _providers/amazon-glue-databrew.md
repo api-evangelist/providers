@@ -2308,7 +2308,7 @@ plans:
 - name: Amazon Glue Databrew Plans Pricing
   plan_count: 3
   slug: amazon-glue-databrew-plans-pricing
-random_paper: 70
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Databrew Rate Limits

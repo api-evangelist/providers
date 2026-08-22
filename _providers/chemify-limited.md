@@ -68,7 +68,7 @@ overview: 'Chemify Limited is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Chemify Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 40
+random_paper: 18
 score:
   band: minimal
   composite: 10.6

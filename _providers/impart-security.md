@@ -113,7 +113,7 @@ overview: 'Impart Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Impart Security''s developer surface includes documentation, engineering blog, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 96
+random_paper: 11
 score:
   band: emerging
   composite: 23.7

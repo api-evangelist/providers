@@ -82,7 +82,7 @@ plans:
 - name: Xinhe Technology Plans Pricing
   plan_count: 0
   slug: xinhe-technology-plans-pricing
-random_paper: 30
+random_paper: 10
 score:
   band: minimal
   composite: 8.7

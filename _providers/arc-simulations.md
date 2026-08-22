@@ -65,7 +65,7 @@ overview: 'Arc Simulations is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Arc Simulations'' developer surface includes support, signup flow, and 3 more developer resources.'
-random_paper: 73
+random_paper: 9
 score:
   band: minimal
   composite: 8.1

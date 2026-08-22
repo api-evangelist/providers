@@ -153,7 +153,7 @@ overview: 'Underdog publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Underdog''s developer surface includes documentation, authentication, support, and 22 more developer resources.'
-random_paper: 111
+random_paper: 16
 score:
   band: thin
   composite: 31.4

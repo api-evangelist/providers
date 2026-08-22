@@ -100,7 +100,7 @@ overview: 'Air Company is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Air Company''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 77
+random_paper: 7
 score:
   band: minimal
   composite: 10.4

@@ -57,7 +57,7 @@ name: MaxPoint
 nav: Providers
 network: true
 overview: MaxPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, AdTech, and Programmatic Advertising.
-random_paper: 135
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

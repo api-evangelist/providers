@@ -145,7 +145,7 @@ plans:
 - name: Microsoft Azure Service Fabric Plans Pricing
   plan_count: 3
   slug: microsoft-azure-service-fabric-plans-pricing
-random_paper: 56
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Service Fabric Rate Limits

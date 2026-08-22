@@ -60,7 +60,7 @@ overview: 'Market IQ is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Market IQ''s developer surface includes support and 3 more developer resources.'
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 3.8

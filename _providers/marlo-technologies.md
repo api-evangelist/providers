@@ -92,7 +92,7 @@ overview: 'Marlo Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Marlo Technologies'' developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 80
+random_paper: 20
 score:
   band: emerging
   composite: 17.5

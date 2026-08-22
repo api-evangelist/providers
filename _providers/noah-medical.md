@@ -68,7 +68,7 @@ overview: 'Noah Medical is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Noah Medical''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 143
+random_paper: 10
 score:
   band: minimal
   composite: 10.5

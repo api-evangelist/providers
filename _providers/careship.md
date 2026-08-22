@@ -72,7 +72,7 @@ overview: 'Careship is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Careship''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 102
+random_paper: 7
 score:
   band: emerging
   composite: 12.6

@@ -53,7 +53,7 @@ name: GMR
 nav: Providers
 network: true
 overview: GMR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Mining, Research, and Blockchain.
-random_paper: 28
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

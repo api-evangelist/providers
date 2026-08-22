@@ -174,7 +174,7 @@ overview: 'Pinkfish publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 115
+random_paper: 20
 score:
   band: thin
   composite: 33.3

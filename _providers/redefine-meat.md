@@ -175,7 +175,7 @@ overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 110
+random_paper: 0
 scopes:
 - name: Redefine Meat Scopes
   scope_count: 1

@@ -312,7 +312,7 @@ plans:
 - name: Fern Plans Pricing
   plan_count: 3
   slug: fern-plans-pricing
-random_paper: 129
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Fern Rate Limits

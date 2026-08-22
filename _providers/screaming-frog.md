@@ -161,7 +161,7 @@ plans:
 - name: Screaming Frog Plans Pricing
   plan_count: 4
   slug: screaming-frog-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Screaming Frog Rate Limits

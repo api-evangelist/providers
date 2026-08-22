@@ -45,7 +45,7 @@ name: Syntax Bio
 nav: Providers
 network: true
 overview: Syntax Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Cell Therapy, and Life Sciences.
-random_paper: 144
+random_paper: 9
 score:
   band: minimal
   composite: 2.2

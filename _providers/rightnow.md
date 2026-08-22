@@ -224,7 +224,7 @@ overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: developing
   composite: 52.8

@@ -60,7 +60,7 @@ overview: 'CIX Technology is profiled on the [APIs.io](https://apis.io/) network
 
 
   CIX Technology''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 5.5

@@ -74,7 +74,7 @@ name: CRU Kafe
 nav: Providers
 network: true
 overview: CRU Kafe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coffee, Ecommerce, Retail, and Consumer Goods.
-random_paper: 37
+random_paper: 5
 scopes:
 - name: Cru Kafe Scopes
   scope_count: 0

@@ -60,7 +60,7 @@ overview: 'sento is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   sento''s developer surface includes support and 3 more developer resources.'
-random_paper: 106
+random_paper: 7
 score:
   band: minimal
   composite: 8.1

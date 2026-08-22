@@ -246,7 +246,7 @@ overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: developing
   composite: 49.3

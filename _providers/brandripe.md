@@ -110,7 +110,7 @@ plans:
 - name: Brandripe Plans Pricing
   plan_count: 4
   slug: brandripe-plans-pricing
-random_paper: 57
+random_paper: 6
 score:
   band: emerging
   composite: 24.8

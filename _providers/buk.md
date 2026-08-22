@@ -640,7 +640,7 @@ overview: 'Buk publishes 66 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Buk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 41 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: developing
   composite: 51.8

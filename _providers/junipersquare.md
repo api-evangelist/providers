@@ -120,7 +120,7 @@ overview: 'Juniper Square publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Juniper Square''s developer surface includes engineering blog, documentation, support, and 14 more developer resources.'
-random_paper: 81
+random_paper: 15
 score:
   band: emerging
   composite: 25.1

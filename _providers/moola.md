@@ -92,7 +92,7 @@ overview: 'Moola is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Moola''s developer surface includes documentation, support, signup flow, and 9 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 17.7

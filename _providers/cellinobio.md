@@ -53,7 +53,7 @@ name: Cellinobio
 nav: Providers
 network: true
 overview: Cellinobio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Regenerative Medicine, Cell Therapy, and Artificial Intelligence.
-random_paper: 13
+random_paper: 6
 score:
   band: minimal
   composite: 6.2

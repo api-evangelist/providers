@@ -80,7 +80,7 @@ overview: 'Valinor is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Valinor''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 5.3

@@ -235,7 +235,7 @@ overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io
 
 
   The API Specifications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 2
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

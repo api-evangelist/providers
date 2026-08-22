@@ -336,7 +336,7 @@ overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 122
+random_paper: 18
 rules:
 - effective_rule_count: 5
   extends: []

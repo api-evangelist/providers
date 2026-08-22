@@ -51,7 +51,7 @@ name: Capstan Therapeutics
 nav: Providers
 network: true
 overview: Capstan Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Cell Therapy, and Immunology.
-random_paper: 2
+random_paper: 9
 score:
   band: minimal
   composite: 1.8

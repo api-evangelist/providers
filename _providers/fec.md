@@ -57,7 +57,7 @@ name: FEC
 nav: Providers
 network: true
 overview: FEC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 4
+random_paper: 8
 score:
   band: minimal
   composite: 4.2

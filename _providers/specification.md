@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Specification
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 12
 slug: specification
 tags:
 - API Design

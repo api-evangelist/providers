@@ -53,7 +53,7 @@ name: Ricursive
 nav: Providers
 network: true
 overview: Ricursive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Chip Design, and Semiconductors.
-random_paper: 94
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

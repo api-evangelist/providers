@@ -139,7 +139,7 @@ plans:
 - name: N2Yo Plans Pricing
   plan_count: 3
   slug: n2yo-plans-pricing
-random_paper: 94
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: N2Yo Rate Limits

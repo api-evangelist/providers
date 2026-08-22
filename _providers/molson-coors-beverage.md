@@ -60,7 +60,7 @@ overview: 'Molson Coors Beverage is profiled on the [APIs.io](https://apis.io/) 
 
 
   Molson Coors Beverage''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 51
+random_paper: 16
 score:
   band: minimal
   composite: 3.6

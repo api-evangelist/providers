@@ -207,7 +207,7 @@ overview: 'BT Group publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   BT Group''s developer surface includes documentation, signup flow, GitHub presence, YouTube channel, and 25 more developer resources.'
-random_paper: 131
+random_paper: 11
 score:
   band: minimal
   composite: 8.5

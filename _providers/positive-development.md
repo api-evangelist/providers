@@ -64,7 +64,7 @@ overview: 'Positive Development is profiled on the [APIs.io](https://apis.io/) n
 
 
   Positive Development''s developer surface includes engineering blog, getting-started guide, support, and 2 more developer resources.'
-random_paper: 29
+random_paper: 15
 score:
   band: minimal
   composite: 7.1

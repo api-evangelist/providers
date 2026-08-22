@@ -310,7 +310,7 @@ overview: 'Rocket Pool publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rocket Pool''s developer surface includes documentation, getting-started guide, and 30 more developer resources.'
-random_paper: 92
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []

@@ -88,7 +88,7 @@ overview: 'Probe Information publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Probe Information''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 132
+random_paper: 7
 score:
   band: emerging
   composite: 15.6

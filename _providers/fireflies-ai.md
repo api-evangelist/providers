@@ -181,7 +181,7 @@ overview: 'Fireflies.ai publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Fireflies.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Fireflies Ai Rate Limits

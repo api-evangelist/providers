@@ -198,7 +198,7 @@ plans:
 - name: Lunary Plans Pricing
   plan_count: 4
   slug: lunary-plans-pricing
-random_paper: 71
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Lunary Rate Limits

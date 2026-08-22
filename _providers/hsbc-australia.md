@@ -211,7 +211,7 @@ overview: 'HSBC Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 86
+random_paper: 20
 scopes:
 - name: Hsbc Australia Scopes
   scope_count: 10

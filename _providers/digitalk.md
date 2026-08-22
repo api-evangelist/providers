@@ -50,7 +50,7 @@ name: Digitalk
 nav: Providers
 network: true
 overview: Digitalk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Developer Tools, Programming Languages, and Smalltalk.
-random_paper: 96
+random_paper: 1
 score:
   band: minimal
   composite: 6.4

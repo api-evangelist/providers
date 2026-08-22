@@ -77,7 +77,7 @@ name: Voya
 nav: Providers
 network: true
 overview: Voya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, Consulting, Artificial Intelligence, and Automotive.
-random_paper: 0
+random_paper: 6
 score:
   band: emerging
   composite: 11.1

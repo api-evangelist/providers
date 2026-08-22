@@ -49,7 +49,7 @@ name: Ai Vivo
 nav: Providers
 network: true
 overview: Ai Vivo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Drug Discovery, Systems Pharmacology, and Biotechnology.
-random_paper: 103
+random_paper: 6
 score:
   band: minimal
   composite: 2.2

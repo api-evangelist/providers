@@ -68,7 +68,7 @@ overview: 'Hemster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hemster''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: minimal
   composite: 6.3

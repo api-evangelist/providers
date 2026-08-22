@@ -76,7 +76,7 @@ overview: 'Artofsport is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Artofsport''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 65
+random_paper: 16
 scopes:
 - name: Artofsport Scopes
   scope_count: 4

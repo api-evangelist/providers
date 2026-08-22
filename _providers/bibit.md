@@ -88,7 +88,7 @@ overview: 'Bibit is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bibit''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: emerging
   composite: 12.1

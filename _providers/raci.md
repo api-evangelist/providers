@@ -40,7 +40,7 @@ name: RACI
 nav: Providers
 network: true
 overview: RACI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Decision Making, Project Management, Stakeholder Management, Team Collaboration, and Governance.
-random_paper: 117
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

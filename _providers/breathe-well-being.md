@@ -49,7 +49,7 @@ name: Breathe Well-being
 nav: Providers
 network: true
 overview: Breathe Well-being is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Therapeutics, Diabetes, and Chronic Care.
-random_paper: 135
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

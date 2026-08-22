@@ -93,7 +93,7 @@ overview: '8Tracks publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 108
+random_paper: 11
 score:
   band: emerging
   composite: 13.4

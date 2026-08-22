@@ -475,7 +475,7 @@ plans:
 - name: Relativity Plans Pricing
   plan_count: 3
   slug: relativity-plans-pricing
-random_paper: 58
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Relativity Rate Limits

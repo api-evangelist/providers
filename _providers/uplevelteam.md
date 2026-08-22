@@ -96,7 +96,7 @@ overview: 'Uplevel is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Uplevel''s developer surface includes engineering blog, YouTube channel, changelog, and 10 more developer resources.'
-random_paper: 145
+random_paper: 12
 score:
   band: emerging
   composite: 13.9

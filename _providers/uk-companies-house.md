@@ -64,7 +64,7 @@ overview: 'UK Companies House publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   UK Companies House''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 33
+random_paper: 15
 score:
   band: minimal
   composite: 4.6

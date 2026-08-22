@@ -276,7 +276,7 @@ overview: 'Tyro Payments publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 15
+random_paper: 0
 score:
   band: developing
   composite: 46.0

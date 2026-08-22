@@ -121,7 +121,7 @@ overview: 'Alluxio publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Alluxio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: thin
   composite: 26.7

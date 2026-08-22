@@ -105,7 +105,7 @@ overview: 'Tesorio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tesorio''s developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 28
+random_paper: 17
 score:
   band: emerging
   composite: 20.5

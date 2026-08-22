@@ -40,7 +40,7 @@ name: Ping An HealthKonnect
 nav: Providers
 network: true
 overview: Ping An HealthKonnect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Managed Care, Health Insurance, and Healthcare.
-random_paper: 25
+random_paper: 11
 score:
   band: minimal
   composite: 0.9

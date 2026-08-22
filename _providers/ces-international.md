@@ -40,7 +40,7 @@ name: CES International
 nav: Providers
 network: true
 overview: CES International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Utilities, Energy, Outage Management, and Operations Management.
-random_paper: 121
+random_paper: 17
 score:
   band: minimal
   composite: 2.1

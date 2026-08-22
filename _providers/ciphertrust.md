@@ -117,7 +117,7 @@ overview: 'CipherTrust publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   CipherTrust''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: emerging
   composite: 22.2

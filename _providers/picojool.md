@@ -64,7 +64,7 @@ overview: 'PicoJool is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PicoJool''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 118
+random_paper: 2
 score:
   band: minimal
   composite: 4.7

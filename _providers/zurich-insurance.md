@@ -131,7 +131,7 @@ overview: 'Zurich Insurance publishes 12 APIs on the [APIs.io](https://apis.io/)
 
 
   Zurich Insurance''s developer surface includes developer portal, documentation, and 5 more developer resources.'
-random_paper: 35
+random_paper: 15
 score:
   band: minimal
   composite: 7.4

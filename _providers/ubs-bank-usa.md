@@ -88,7 +88,7 @@ overview: 'UBS Bank USA is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UBS Bank USA''s developer surface includes signup flow, documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 118
+random_paper: 6
 score:
   band: emerging
   composite: 13.7

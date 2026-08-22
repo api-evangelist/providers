@@ -56,7 +56,7 @@ overview: 'The Lowdown is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The Lowdown''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 101
+random_paper: 10
 score:
   band: minimal
   composite: 3.8

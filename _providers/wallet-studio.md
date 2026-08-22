@@ -88,7 +88,7 @@ overview: 'Wallet Studio is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Wallet Studio''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 17
+random_paper: 14
 score:
   band: emerging
   composite: 12.1

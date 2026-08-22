@@ -65,7 +65,7 @@ name: AVI Networks
 nav: Providers
 network: true
 overview: AVI Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Load Balancing, Application Delivery, and Networking.
-random_paper: 66
+random_paper: 19
 score:
   band: minimal
   composite: 8.7

@@ -146,7 +146,7 @@ plans:
 - name: Cometh Plans Pricing
   plan_count: 0
   slug: cometh-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Cometh Rate Limits

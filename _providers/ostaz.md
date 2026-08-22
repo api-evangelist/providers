@@ -45,7 +45,7 @@ name: Ostaz
 nav: Providers
 network: true
 overview: Ostaz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 114
+random_paper: 15
 score:
   band: minimal
   composite: 3.2

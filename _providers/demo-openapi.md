@@ -107,7 +107,7 @@ plans:
 - name: Demo Openapi Plans Pricing
   plan_count: 3
   slug: demo-openapi-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Demo Openapi Rate Limits

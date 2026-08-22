@@ -40,7 +40,7 @@ name: Jungla
 nav: Providers
 network: true
 overview: Jungla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Precision Medicine, Genomics, Bioinformatics, and Healthcare.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 2.2

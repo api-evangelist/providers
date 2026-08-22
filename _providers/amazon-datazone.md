@@ -411,7 +411,7 @@ plans:
 - name: Amazon Datazone Plans Pricing
   plan_count: 3
   slug: amazon-datazone-plans-pricing
-random_paper: 55
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Datazone Rate Limits

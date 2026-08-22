@@ -100,7 +100,7 @@ overview: 'CleanCapital is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CleanCapital''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 57
+random_paper: 10
 score:
   band: minimal
   composite: 7.4

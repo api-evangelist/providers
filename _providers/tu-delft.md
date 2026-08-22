@@ -125,7 +125,7 @@ plans:
 - name: Tu Delft Plans Pricing
   plan_count: 2
   slug: tu-delft-plans-pricing
-random_paper: 60
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Tu Delft Rate Limits

@@ -113,7 +113,7 @@ overview: 'Sensu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sensu''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 111
+random_paper: 12
 score:
   band: thin
   composite: 28.1

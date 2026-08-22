@@ -57,7 +57,7 @@ name: Onsitedental
 nav: Providers
 network: true
 overview: Onsitedental is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Employee Benefits, and Corporate Wellness.
-random_paper: 98
+random_paper: 9
 score:
   band: minimal
   composite: 9.0

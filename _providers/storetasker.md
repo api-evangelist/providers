@@ -76,7 +76,7 @@ overview: 'Storetasker is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Storetasker''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: emerging
   composite: 14.1

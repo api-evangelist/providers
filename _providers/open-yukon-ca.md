@@ -89,7 +89,7 @@ plans:
 - name: Open Yukon Ca Plans Pricing
   plan_count: 1
   slug: open-yukon-ca-plans-pricing
-random_paper: 94
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Open Yukon Ca Rate Limits

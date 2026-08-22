@@ -178,7 +178,7 @@ plans:
 - name: Modivo Plans Pricing
   plan_count: 0
   slug: modivo-plans-pricing
-random_paper: 58
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Modivo Rate Limits

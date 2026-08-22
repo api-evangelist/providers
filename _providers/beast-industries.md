@@ -49,7 +49,7 @@ name: Beast Industries
 nav: Providers
 network: true
 overview: Beast Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Media, Entertainment, and Consumer Products.
-random_paper: 31
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

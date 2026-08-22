@@ -57,7 +57,7 @@ name: Numlookup
 nav: Providers
 network: true
 overview: Numlookup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Phone and Public APIs.
-random_paper: 108
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

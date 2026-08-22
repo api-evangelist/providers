@@ -72,7 +72,7 @@ overview: 'Nobell Foods is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Nobell Foods'' developer surface includes FAQ and 6 more developer resources.'
-random_paper: 28
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

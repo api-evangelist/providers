@@ -161,7 +161,7 @@ plans:
 - name: Aurora Solar Plans Pricing
   plan_count: 5
   slug: aurora-solar-plans-pricing
-random_paper: 48
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Aurora Solar Rate Limits

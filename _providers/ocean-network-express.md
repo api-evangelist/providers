@@ -117,7 +117,7 @@ overview: 'Ocean Network Express is profiled on the [APIs.io](https://apis.io/) 
 
 
   Ocean Network Express'' developer surface includes product news, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 78
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

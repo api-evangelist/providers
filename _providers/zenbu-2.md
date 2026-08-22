@@ -96,7 +96,7 @@ overview: 'Zenbu 2 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zenbu 2''s developer surface includes documentation, quickstart, changelog, support, CLI, and 8 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 16.1

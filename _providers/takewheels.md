@@ -45,7 +45,7 @@ name: TakeWheels
 nav: Providers
 network: true
 overview: TakeWheels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Transportation, Electric Vehicles, and Mobility.
-random_paper: 26
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

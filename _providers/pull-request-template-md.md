@@ -40,7 +40,7 @@ name: PULL_REQUEST_TEMPLATE.md
 nav: Providers
 network: true
 overview: PULL_REQUEST_TEMPLATE.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Code Review, Collaboration, Repository, and Templates.
-random_paper: 42
+random_paper: 11
 score:
   band: minimal
   composite: 3.2

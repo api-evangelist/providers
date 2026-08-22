@@ -204,7 +204,7 @@ overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ev
 
 
   UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 95
+random_paper: 17
 score:
   band: developing
   composite: 51.1

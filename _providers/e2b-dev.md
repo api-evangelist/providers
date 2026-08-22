@@ -425,7 +425,7 @@ plans:
 - name: E2B Dev Plans Pricing
   plan_count: 3
   slug: e2b-dev-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 8
   name: E2B Dev Rate Limits

@@ -72,7 +72,7 @@ overview: 'FITCO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FITCO''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: emerging
   composite: 11.0

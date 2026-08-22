@@ -68,7 +68,7 @@ overview: 'Sidechat is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sidechat''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 92
+random_paper: 18
 score:
   band: emerging
   composite: 12.5

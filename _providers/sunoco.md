@@ -106,7 +106,7 @@ overview: 'Sunoco LP is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sunoco LP''s developer surface includes product news, authentication, and 4 more developer resources.'
-random_paper: 67
+random_paper: 12
 score:
   band: minimal
   composite: 9.5

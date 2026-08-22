@@ -49,7 +49,7 @@ name: Olly
 nav: Providers
 network: true
 overview: Olly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Human Health.
-random_paper: 1
+random_paper: 7
 score:
   band: minimal
   composite: 2.4

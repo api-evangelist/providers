@@ -205,7 +205,7 @@ plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 92
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De

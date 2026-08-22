@@ -77,7 +77,7 @@ plans:
 - name: Open Service Mesh Plans Pricing
   plan_count: 3
   slug: open-service-mesh-plans-pricing
-random_paper: 67
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Open Service Mesh Rate Limits

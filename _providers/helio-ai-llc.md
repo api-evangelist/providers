@@ -76,7 +76,7 @@ overview: 'Helio AI LLC is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Helio AI LLC''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 93
+random_paper: 2
 score:
   band: emerging
   composite: 11.0

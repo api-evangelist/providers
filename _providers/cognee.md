@@ -227,7 +227,7 @@ plans:
 - name: Cognee Plans Pricing
   plan_count: 4
   slug: cognee-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Cognee Rate Limits

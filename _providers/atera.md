@@ -155,7 +155,7 @@ overview: 'Atera publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 20 more developer resources.'
-random_paper: 78
+random_paper: 0
 score:
   band: developing
   composite: 44.9

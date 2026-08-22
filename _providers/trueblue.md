@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: TrueBlue's PeopleScout Advances Proprietary Talent Tech ...
   url: https://investor.trueblue.com/news-events/press-releases/detail/403/trueblues-peoplescout-advances-proprietary-talent-tech
-random_paper: 127
+random_paper: 11
 score:
   band: minimal
   composite: 10.1

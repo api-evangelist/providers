@@ -82,7 +82,7 @@ plans:
 - name: Rabbit R1 Plans Pricing
   plan_count: 1
   slug: rabbit-r1-plans-pricing
-random_paper: 91
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Rabbit R1 Rate Limits

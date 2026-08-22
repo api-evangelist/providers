@@ -76,7 +76,7 @@ overview: 'PHP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PHP''s developer surface includes documentation, GitHub presence, support, and 5 more developer resources.'
-random_paper: 30
+random_paper: 13
 score:
   band: minimal
   composite: 8.5

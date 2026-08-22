@@ -64,7 +64,7 @@ overview: 'Tessera Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Tessera Therapeutics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 4.7

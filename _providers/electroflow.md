@@ -54,7 +54,7 @@ name: Electroflow
 nav: Providers
 network: true
 overview: Electroflow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Battery Materials, Lithium, and Clean Technology.
-random_paper: 147
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

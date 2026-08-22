@@ -172,7 +172,7 @@ overview: 'SiteMinder publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SiteMinder''s developer surface includes developer portal, getting-started guide, signup flow, pricing, support, FAQ, engineering blog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: emerging
   composite: 21.5

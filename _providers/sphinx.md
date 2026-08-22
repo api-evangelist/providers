@@ -122,7 +122,7 @@ overview: 'Sphinx is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sphinx''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 70
+random_paper: 15
 score:
   band: emerging
   composite: 23.1

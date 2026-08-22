@@ -123,7 +123,7 @@ plans:
 - name: Logmeal Plans Pricing
   plan_count: 3
   slug: logmeal-plans-pricing
-random_paper: 141
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Logmeal Rate Limits

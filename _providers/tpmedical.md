@@ -49,7 +49,7 @@ name: SMTP Technology
 nav: Providers
 network: true
 overview: SMTP Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Surgical Equipment, and Ultrasonic Surgery.
-random_paper: 53
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

@@ -407,7 +407,7 @@ overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 25 more developer resources.'
-random_paper: 140
+random_paper: 3
 scopes:
 - name: Openwork Scopes
   scope_count: 0

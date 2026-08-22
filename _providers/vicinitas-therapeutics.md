@@ -49,7 +49,7 @@ name: Vicinitas Therapeutics
 nav: Providers
 network: true
 overview: Vicinitas Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Pharmaceuticals, and Drug Discovery.
-random_paper: 77
+random_paper: 2
 score:
   band: minimal
   composite: 3.3

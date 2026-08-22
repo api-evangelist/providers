@@ -49,7 +49,7 @@ name: FiftyThree
 nav: Providers
 network: true
 overview: FiftyThree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creativity, Design, Mobile, and iPad.
-random_paper: 39
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

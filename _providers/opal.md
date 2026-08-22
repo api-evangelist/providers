@@ -191,7 +191,7 @@ plans:
 - name: Opal Plans Pricing
   plan_count: 0
   slug: opal-plans-pricing
-random_paper: 130
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Opal Rate Limits

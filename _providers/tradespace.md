@@ -116,7 +116,7 @@ overview: 'Tradespace is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tradespace''s developer surface includes engineering blog, support, YouTube channel, product news, and 14 more developer resources.'
-random_paper: 9
+random_paper: 2
 score:
   band: emerging
   composite: 14.1

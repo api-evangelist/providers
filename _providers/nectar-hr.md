@@ -146,7 +146,7 @@ plans:
 - name: Nectar Hr Plans Pricing
   plan_count: 4
   slug: nectar-hr-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Nectar Hr Rate Limits

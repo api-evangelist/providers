@@ -127,7 +127,7 @@ name: Assembly OSM
 nav: Providers
 network: true
 overview: Assembly OSM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Modular Construction, Off-Site Manufacturing, and Prefabrication.
-random_paper: 52
+random_paper: 5
 score:
   band: minimal
   composite: 8.2

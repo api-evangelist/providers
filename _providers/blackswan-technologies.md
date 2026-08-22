@@ -80,7 +80,7 @@ overview: 'BlackSwan Technologies is profiled on the [APIs.io](https://apis.io/)
 
 
   BlackSwan Technologies'' developer surface includes documentation, CLI, changelog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 11
 score:
   band: emerging
   composite: 11.8

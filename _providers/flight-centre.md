@@ -148,7 +148,7 @@ overview: 'Flight Centre Travel Group is profiled on the [APIs.io](https://apis.
 
 
   Flight Centre Travel Group''s developer surface includes product news, support, engineering blog, documentation, and 24 more developer resources.'
-random_paper: 132
+random_paper: 1
 score:
   band: emerging
   composite: 16.6

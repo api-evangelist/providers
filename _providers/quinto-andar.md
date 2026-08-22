@@ -81,7 +81,7 @@ name: Quinto Andar
 nav: Providers
 network: true
 overview: Quinto Andar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Marketplace, and Rentals.
-random_paper: 43
+random_paper: 17
 score:
   band: emerging
   composite: 11.9

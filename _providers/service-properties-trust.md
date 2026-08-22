@@ -89,7 +89,7 @@ name: Service Properties Trust
 nav: Providers
 network: true
 overview: Service Properties Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, REIT, Hospitality, Hotels, and Net Lease.
-random_paper: 138
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

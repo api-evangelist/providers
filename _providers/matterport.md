@@ -161,7 +161,7 @@ overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MatterPort''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 63
+random_paper: 14
 score:
   band: thin
   composite: 37.4

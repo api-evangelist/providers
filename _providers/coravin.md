@@ -97,7 +97,7 @@ overview: 'Coravin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Coravin''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 9
+random_paper: 19
 scopes:
 - name: Coravin Scopes
   scope_count: 4

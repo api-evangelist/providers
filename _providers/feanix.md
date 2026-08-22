@@ -45,7 +45,7 @@ name: Feanix
 nav: Providers
 network: true
 overview: Feanix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise Saas.
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 4.1

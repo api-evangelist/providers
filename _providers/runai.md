@@ -530,7 +530,7 @@ overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 20 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: developing
   composite: 47.8

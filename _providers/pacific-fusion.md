@@ -60,7 +60,7 @@ overview: 'Pacific Fusion is profiled on the [APIs.io](https://apis.io/) network
 
 
   Pacific Fusion''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 83
+random_paper: 17
 score:
   band: minimal
   composite: 3.8

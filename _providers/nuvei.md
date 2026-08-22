@@ -274,7 +274,7 @@ plans:
 - name: Nuvei Plans Pricing
   plan_count: 1
   slug: nuvei-plans-pricing
-random_paper: 104
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Nuvei Rate Limits

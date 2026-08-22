@@ -290,7 +290,7 @@ plans:
 - name: Apache Superset Plans Pricing
   plan_count: 3
   slug: apache-superset-plans-pricing
-random_paper: 56
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Superset Rate Limits

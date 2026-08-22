@@ -144,7 +144,7 @@ plans:
 - name: Google Cloud Artifact Registry Plans Pricing
   plan_count: 3
   slug: google-cloud-artifact-registry-plans-pricing
-random_paper: 62
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Cloud Artifact Registry Rate Limits

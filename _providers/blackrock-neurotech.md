@@ -105,7 +105,7 @@ overview: 'Blackrock Neurotech is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Blackrock Neurotech''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
   composite: 14.9

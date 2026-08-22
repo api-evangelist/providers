@@ -65,7 +65,7 @@ name: Herman Miller
 nav: Providers
 network: true
 overview: Herman Miller is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Furniture, Design, Office Furnishings, Workplace, and Contract Furniture.
-random_paper: 133
+random_paper: 2
 score:
   band: minimal
   composite: 4.4

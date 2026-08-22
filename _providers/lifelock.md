@@ -92,7 +92,7 @@ overview: 'LifeLock is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LifeLock''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 96
+random_paper: 1
 score:
   band: emerging
   composite: 17.5

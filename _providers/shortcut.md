@@ -155,7 +155,7 @@ overview: 'Shortcut publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Shortcut''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 7 more developer resources.'
-random_paper: 147
+random_paper: 10
 score:
   band: thin
   composite: 32.7

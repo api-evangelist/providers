@@ -40,7 +40,7 @@ name: Healthmode
 nav: Providers
 network: true
 overview: Healthmode is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Clinical Trials, Digital Biomarkers, and Machine Learning.
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 2.2

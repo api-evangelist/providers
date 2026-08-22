@@ -40,7 +40,7 @@ name: Vertical Circuits
 nav: Providers
 network: true
 overview: Vertical Circuits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Chip Packaging, and Semiconductor Memory.
-random_paper: 134
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

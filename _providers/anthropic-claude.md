@@ -215,7 +215,7 @@ overview: 'Anthropic Claude publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Anthropic Claude''s developer surface includes authentication, documentation, API reference, developer console, signup flow, pricing, support, and 23 more developer resources.'
-random_paper: 145
+random_paper: 18
 rules:
 - effective_rule_count: 33
   extends:

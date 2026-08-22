@@ -149,7 +149,7 @@ plans:
 - name: Apicbase Plans Pricing
   plan_count: 4
   slug: apicbase-plans-pricing
-random_paper: 79
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Apicbase Rate Limits

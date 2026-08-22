@@ -144,7 +144,7 @@ plans:
 - name: Opensense Formerly Sendergen Plans Pricing
   plan_count: 0
   slug: opensense-formerly-sendergen-plans-pricing
-random_paper: 70
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Opensense Formerly Sendergen Rate Limits

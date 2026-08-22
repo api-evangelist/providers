@@ -584,7 +584,7 @@ plans:
 - name: Isports Api Plans
   plan_count: 14
   slug: isports-api-plans
-random_paper: 104
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Isports Api Rate Limits

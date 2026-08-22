@@ -161,7 +161,7 @@ plans:
 - name: Warner Bros Discovery Plans Pricing
   plan_count: 1
   slug: warner-bros-discovery-plans-pricing
-random_paper: 81
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Warner Bros Discovery Rate Limits

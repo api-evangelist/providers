@@ -143,7 +143,7 @@ plans:
 - name: Okx Plans Pricing
   plan_count: 6
   slug: okx-plans-pricing
-random_paper: 40
+random_paper: 2
 rate_limits:
 - limit_count: 10
   name: Okx Rate Limits

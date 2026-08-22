@@ -264,7 +264,7 @@ overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: strong
   composite: 54.3

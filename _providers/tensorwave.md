@@ -178,7 +178,7 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TensorWave''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, and 20 more developer resources.'
-random_paper: 59
+random_paper: 10
 score:
   band: developing
   composite: 47.3

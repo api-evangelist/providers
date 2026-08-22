@@ -68,7 +68,7 @@ overview: 'All City Communications is profiled on the [APIs.io](https://apis.io/
 
 
   All City Communications'' developer surface includes pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 122
+random_paper: 5
 score:
   band: minimal
   composite: 9.2

@@ -234,7 +234,7 @@ plans:
 - name: Architect Of The Capitol Plans Pricing
   plan_count: 3
   slug: architect-of-the-capitol-plans-pricing
-random_paper: 133
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Architect Of The Capitol Rate Limits

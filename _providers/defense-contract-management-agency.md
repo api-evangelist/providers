@@ -81,7 +81,7 @@ plans:
 - name: Defense Contract Management Agency Plans Pricing
   plan_count: 1
   slug: defense-contract-management-agency-plans-pricing
-random_paper: 133
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Defense Contract Management Agency Rate Limits

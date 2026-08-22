@@ -205,7 +205,7 @@ plans:
 - name: University Of Sussex Plans Pricing
   plan_count: 2
   slug: university-of-sussex-plans-pricing
-random_paper: 22
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of Sussex Rate Limits

@@ -249,7 +249,7 @@ plans:
 - name: Integration App Plans Pricing
   plan_count: 3
   slug: integration-app-plans-pricing
-random_paper: 64
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Integration App Rate Limits

@@ -214,7 +214,7 @@ overview: 'Banzai publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Banzai''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Banzai Rate Limits

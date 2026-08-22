@@ -40,7 +40,7 @@ name: Pub/Sub
 nav: Providers
 network: true
 overview: Pub/Sub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Asynchronous, Distributed Systems, Messaging, and Pub Sub.
-random_paper: 106
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

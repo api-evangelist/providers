@@ -68,7 +68,7 @@ overview: 'High Mark Credit Information Services is profiled on the [APIs.io](ht
 
 
   High Mark Credit Information Services'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 140
+random_paper: 20
 score:
   band: minimal
   composite: 9.8

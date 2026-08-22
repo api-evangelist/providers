@@ -152,7 +152,7 @@ overview: 'Teahouse Finance publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Teahouse Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 117
+random_paper: 1
 score:
   band: thin
   composite: 39.1

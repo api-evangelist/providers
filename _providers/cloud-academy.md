@@ -191,7 +191,7 @@ overview: 'Cloud Academy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cloud Academy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 112
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Cloud Academy Rate Limits

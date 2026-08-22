@@ -109,7 +109,7 @@ overview: 'SenseTime publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SenseTime''s developer surface includes documentation, pricing, authentication, CLI, and 11 more developer resources.'
-random_paper: 79
+random_paper: 7
 scopes:
 - name: Sensetime Scopes
   scope_count: 3

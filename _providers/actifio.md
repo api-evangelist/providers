@@ -68,7 +68,7 @@ overview: 'Actifio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Actifio''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 139
+random_paper: 0
 score:
   band: emerging
   composite: 12.1

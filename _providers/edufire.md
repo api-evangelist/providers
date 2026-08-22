@@ -40,7 +40,7 @@ name: eduFire
 nav: Providers
 network: true
 overview: eduFire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Defunct.
-random_paper: 144
+random_paper: 5
 score:
   band: minimal
   composite: 0.9

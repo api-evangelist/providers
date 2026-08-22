@@ -57,7 +57,7 @@ name: LinkPreview
 nav: Providers
 network: true
 overview: LinkPreview publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 8
+random_paper: 3
 score:
   band: minimal
   composite: 4.2

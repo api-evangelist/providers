@@ -159,7 +159,7 @@ plans:
 - name: Shovels Plans Pricing
   plan_count: 3
   slug: shovels-plans-pricing
-random_paper: 27
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Shovels Rate Limits

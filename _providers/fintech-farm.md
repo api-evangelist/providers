@@ -97,7 +97,7 @@ plans:
 - name: Fintech Farm Plans Pricing
   plan_count: 0
   slug: fintech-farm-plans-pricing
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 6.5

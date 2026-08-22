@@ -111,7 +111,7 @@ plans:
 - name: Tu Berlin Plans Pricing
   plan_count: 2
   slug: tu-berlin-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Tu Berlin Rate Limits

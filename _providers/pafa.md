@@ -165,7 +165,7 @@ overview: 'Pennsylvania Academy of the Fine Arts (PAFA) is profiled on the [APIs
 
 
   Pennsylvania Academy of the Fine Arts (PAFA)''s developer surface includes support, YouTube channel, and 19 more developer resources.'
-random_paper: 110
+random_paper: 9
 score:
   band: minimal
   composite: 8.0

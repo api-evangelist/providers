@@ -110,7 +110,7 @@ overview: 'BetaPage is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BetaPage''s developer surface includes developer portal, engineering blog, support, getting-started guide, and 8 more developer resources.'
-random_paper: 80
+random_paper: 6
 score:
   band: minimal
   composite: 8.8

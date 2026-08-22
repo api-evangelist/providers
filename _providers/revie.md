@@ -118,7 +118,7 @@ plans:
 - name: Revie Plans Pricing
   plan_count: 7
   slug: revie-plans-pricing
-random_paper: 92
+random_paper: 14
 score:
   band: emerging
   composite: 22.2

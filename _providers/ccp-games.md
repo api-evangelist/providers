@@ -359,7 +359,7 @@ overview: 'CCP Games publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 135
+random_paper: 19
 scopes:
 - name: Ccp Games Scopes
   scope_count: 70

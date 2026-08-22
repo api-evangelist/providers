@@ -148,7 +148,7 @@ overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Santander UK''s developer surface includes authentication, documentation, sandbox, and 18 more developer resources.'
-random_paper: 37
+random_paper: 11
 scopes:
 - name: Santander Uk Scopes
   scope_count: 3

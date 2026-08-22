@@ -178,7 +178,7 @@ plans:
 - name: Geoapify Plans Pricing
   plan_count: 7
   slug: geoapify-plans-pricing
-random_paper: 107
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Geoapify Rate Limits

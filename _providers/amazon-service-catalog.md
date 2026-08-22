@@ -254,7 +254,7 @@ plans:
 - name: Amazon Service Catalog Plans Pricing
   plan_count: 3
   slug: amazon-service-catalog-plans-pricing
-random_paper: 134
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Service Catalog Rate Limits

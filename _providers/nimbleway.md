@@ -264,7 +264,7 @@ overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 74
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits

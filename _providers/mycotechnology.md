@@ -99,7 +99,7 @@ overview: 'MycoTechnology is profiled on the [APIs.io](https://apis.io/) network
 
 
   MycoTechnology''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 10.6

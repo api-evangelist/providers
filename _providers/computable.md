@@ -73,7 +73,7 @@ name: Computable
 nav: Providers
 network: true
 overview: Computable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Ethereum, and Data Markets.
-random_paper: 25
+random_paper: 18
 score:
   band: minimal
   composite: 8.8

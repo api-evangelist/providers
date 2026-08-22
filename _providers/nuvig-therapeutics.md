@@ -122,7 +122,7 @@ overview: 'Nuvig Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Nuvig Therapeutics'' developer surface includes product news, engineering blog, and 16 more developer resources.'
-random_paper: 107
+random_paper: 5
 score:
   band: minimal
   composite: 10.3

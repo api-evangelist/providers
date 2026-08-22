@@ -123,7 +123,7 @@ plans:
 - name: Digital Shadows Plans Pricing
   plan_count: 0
   slug: digital-shadows-plans-pricing
-random_paper: 50
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Digital Shadows Rate Limits

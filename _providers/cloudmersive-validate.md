@@ -57,7 +57,7 @@ name: Cloudmersive Validate
 nav: Providers
 network: true
 overview: Cloudmersive Validate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 99
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

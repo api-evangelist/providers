@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Untether AI Partners with Colfax International to Provide ...
   url: https://www.businesswire.com/news/home/20210204005099/en/Untether-AI-Partners-with-Colfax-International-to-Provide-Peak-Performance-in-AI-Edge-Servers
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 2.2

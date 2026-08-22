@@ -88,7 +88,7 @@ overview: 'Valerie Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Valerie Health''s developer surface includes support and 10 more developer resources.'
-random_paper: 78
+random_paper: 12
 score:
   band: emerging
   composite: 12.6

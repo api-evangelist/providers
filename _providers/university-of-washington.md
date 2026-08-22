@@ -307,7 +307,7 @@ plans:
 - name: University Of Washington Plans Pricing
   plan_count: 2
   slug: university-of-washington-plans-pricing
-random_paper: 131
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Washington Rate Limits

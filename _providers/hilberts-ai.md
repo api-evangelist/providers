@@ -97,7 +97,7 @@ plans:
 - name: Hilberts Ai Plans Pricing
   plan_count: 0
   slug: hilberts-ai-plans-pricing
-random_paper: 65
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Hilberts Ai Rate Limits

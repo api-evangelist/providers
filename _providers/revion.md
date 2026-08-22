@@ -100,7 +100,7 @@ overview: 'Revion is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Revion''s developer surface includes signup flow and 13 more developer resources.'
-random_paper: 63
+random_paper: 8
 score:
   band: emerging
   composite: 17.1

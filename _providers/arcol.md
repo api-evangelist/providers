@@ -72,7 +72,7 @@ overview: 'Arcol is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Arcol''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 9.7

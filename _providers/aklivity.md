@@ -148,7 +148,7 @@ plans:
 - name: Aklivity Plans Pricing
   plan_count: 3
   slug: aklivity-plans-pricing
-random_paper: 132
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Aklivity Rate Limits

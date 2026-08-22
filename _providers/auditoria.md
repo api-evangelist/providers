@@ -152,7 +152,7 @@ overview: 'Auditoria.AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Auditoria.AI''s developer surface includes documentation, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 68
+random_paper: 17
 scopes:
 - name: Auditoria Scopes
   scope_count: 14

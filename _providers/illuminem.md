@@ -49,7 +49,7 @@ name: illuminem
 nav: Providers
 network: true
 overview: illuminem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, ESG, Climate, and Energy Transition.
-random_paper: 78
+random_paper: 6
 score:
   band: minimal
   composite: 3.3

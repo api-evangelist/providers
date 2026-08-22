@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: CUNA Mutual Group Announces Plans To Unify Under ...
   url: https://www.prnewswire.com/news-releases/cuna-mutual-group-announces-plans-to-unify-under-one-brand-in-2023-301540615.html
-random_paper: 95
+random_paper: 12
 score:
   band: minimal
   composite: 2.3

@@ -80,7 +80,7 @@ overview: 'Blend Financial is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Blend Financial''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 5
+random_paper: 4
 score:
   band: emerging
   composite: 12.7

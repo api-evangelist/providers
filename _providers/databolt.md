@@ -87,7 +87,7 @@ name: Databolt
 nav: Providers
 network: true
 overview: Databolt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agency, Custom Applications, Data Processing, Digital Design, and SEO.
-random_paper: 98
+random_paper: 3
 score:
   band: minimal
   composite: 7.8

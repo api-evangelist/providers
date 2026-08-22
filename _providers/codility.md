@@ -108,7 +108,7 @@ overview: 'Codility is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Codility''s developer surface includes pricing, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 120
+random_paper: 4
 score:
   band: emerging
   composite: 23.8

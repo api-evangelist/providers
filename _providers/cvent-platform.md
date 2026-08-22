@@ -193,7 +193,7 @@ plans:
 - name: Cvent Platform Plans Pricing
   plan_count: 3
   slug: cvent-platform-plans-pricing
-random_paper: 117
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Cvent Platform Rate Limits

@@ -133,7 +133,7 @@ plans:
 - name: The Open Movie Database Plans Pricing
   plan_count: 3
   slug: the-open-movie-database-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: The Open Movie Database Rate Limits

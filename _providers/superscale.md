@@ -193,7 +193,7 @@ plans:
 - name: Superscale Plans Pricing
   plan_count: 6
   slug: superscale-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 8
   name: Superscale Rate Limits

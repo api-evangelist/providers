@@ -197,7 +197,7 @@ plans:
 - name: Tablecheck Plans Pricing
   plan_count: 2
   slug: tablecheck-plans-pricing
-random_paper: 136
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Tablecheck Rate Limits

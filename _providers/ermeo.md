@@ -101,7 +101,7 @@ overview: 'Ermeo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ermeo''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 89
+random_paper: 11
 score:
   band: emerging
   composite: 17.2

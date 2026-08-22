@@ -114,7 +114,7 @@ overview: 'Arzeda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arzeda''s developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

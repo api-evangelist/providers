@@ -129,7 +129,7 @@ overview: 'Byteport publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Byteport''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 144
+random_paper: 7
 score:
   band: emerging
   composite: 23.4

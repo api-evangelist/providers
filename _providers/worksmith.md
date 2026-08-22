@@ -88,7 +88,7 @@ overview: 'Worksmith is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Worksmith''s developer surface includes support and 10 more developer resources.'
-random_paper: 106
+random_paper: 13
 score:
   band: emerging
   composite: 17.4

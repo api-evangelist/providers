@@ -277,7 +277,7 @@ plans:
 - name: Acoustic Plans Pricing
   plan_count: 3
   slug: acoustic-plans-pricing
-random_paper: 114
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Acoustic Rate Limits

@@ -146,7 +146,7 @@ overview: '2ndKitchen publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 3 more developer resources.'
-random_paper: 108
+random_paper: 15
 score:
   band: emerging
   composite: 22.0

@@ -78,7 +78,7 @@ overview: 'Corsair Pharma is profiled on the [APIs.io](https://apis.io/) network
 
 
   Corsair Pharma''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 92
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

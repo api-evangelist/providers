@@ -265,7 +265,7 @@ plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
   slug: jupyter-notebook-plans-pricing
-random_paper: 58
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Jupyter Notebook Rate Limits

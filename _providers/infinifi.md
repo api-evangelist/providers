@@ -108,7 +108,7 @@ overview: 'Infinifi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Infinifi''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, and 10 more developer resources.'
-random_paper: 99
+random_paper: 4
 score:
   band: emerging
   composite: 18.1

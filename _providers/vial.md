@@ -53,7 +53,7 @@ name: Vial
 nav: Providers
 network: true
 overview: Vial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Clinical Trials, and Drug Discovery.
-random_paper: 130
+random_paper: 8
 score:
   band: minimal
   composite: 6.2

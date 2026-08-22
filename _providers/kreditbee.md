@@ -140,7 +140,7 @@ overview: 'KreditBee is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   KreditBee''s developer surface includes engineering blog, support, product news, and 23 more developer resources.'
-random_paper: 49
+random_paper: 19
 score:
   band: minimal
   composite: 10.1

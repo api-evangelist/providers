@@ -68,7 +68,7 @@ overview: 'Siren is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Siren''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 98
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

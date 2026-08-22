@@ -61,7 +61,7 @@ name: Akkari
 nav: Providers
 network: true
 overview: Akkari is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Operations, Customer Success, Artificial Intelligence, and Automation.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

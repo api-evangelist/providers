@@ -133,7 +133,7 @@ overview: 'VNLIFE publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   VNLIFE''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, sandbox, authentication, and 13 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 22.3

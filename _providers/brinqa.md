@@ -109,7 +109,7 @@ overview: 'Brinqa publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Brinqa''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 21.2

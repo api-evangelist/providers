@@ -141,7 +141,7 @@ overview: 'KartRocket publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   KartRocket''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: thin
   composite: 26.8

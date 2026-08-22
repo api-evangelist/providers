@@ -93,7 +93,7 @@ name: Vanilla Steel
 nav: Providers
 network: true
 overview: Vanilla Steel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Steel, Metals, Marketplace, and Trading.
-random_paper: 137
+random_paper: 6
 score:
   band: emerging
   composite: 16.1

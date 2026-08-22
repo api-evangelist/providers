@@ -222,7 +222,7 @@ plans:
 - name: Nabla Plans Pricing
   plan_count: 1
   slug: nabla-plans-pricing
-random_paper: 63
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Nabla Rate Limits

@@ -181,7 +181,7 @@ plans:
 - name: Okra Africa Plans Pricing
   plan_count: 4
   slug: okra-africa-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Okra Africa Rate Limits

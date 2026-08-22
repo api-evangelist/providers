@@ -96,7 +96,7 @@ overview: 'Tonk is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tonk''s developer surface includes documentation, getting-started guide, support, CLI, and 8 more developer resources.'
-random_paper: 146
+random_paper: 3
 score:
   band: emerging
   composite: 15.1

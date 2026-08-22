@@ -160,7 +160,7 @@ overview: 'OpenWeb publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   OpenWeb''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: thin
   composite: 34.7

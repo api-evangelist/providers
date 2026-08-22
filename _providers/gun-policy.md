@@ -57,7 +57,7 @@ name: Gun Policy
 nav: Providers
 network: true
 overview: Gun Policy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 137
+random_paper: 2
 score:
   band: minimal
   composite: 4.2

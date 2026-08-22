@@ -194,7 +194,7 @@ plans:
 - name: Rtcstats Plans
   plan_count: 3
   slug: rtcstats-plans
-random_paper: 143
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Rtcstats Rate Limits

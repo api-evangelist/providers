@@ -255,7 +255,7 @@ overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 53
+random_paper: 4
 scopes:
 - name: Happyrobot Scopes
   scope_count: 8

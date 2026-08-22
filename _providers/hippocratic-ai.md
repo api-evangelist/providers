@@ -127,7 +127,7 @@ overview: 'Hippocratic AI is profiled on the [APIs.io](https://apis.io/) network
 
 
   Hippocratic AI''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 80
+random_paper: 14
 score:
   band: emerging
   composite: 13.0

@@ -179,7 +179,7 @@ overview: 'Teammates publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Teammates'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: thin
   composite: 38.6

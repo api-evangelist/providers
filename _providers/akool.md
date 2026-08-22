@@ -151,7 +151,7 @@ plans:
 - name: Akool Plans Pricing
   plan_count: 5
   slug: akool-plans-pricing
-random_paper: 87
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Akool Rate Limits

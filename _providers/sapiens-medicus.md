@@ -49,7 +49,7 @@ name: Sapiens Medicus
 nav: Providers
 network: true
 overview: Sapiens Medicus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Artificial Intelligence, and Medical.
-random_paper: 56
+random_paper: 13
 score:
   band: minimal
   composite: 3.3

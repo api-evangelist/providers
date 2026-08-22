@@ -49,7 +49,7 @@ name: Launchbit
 nav: Providers
 network: true
 overview: Launchbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Email Marketing, and Lead Generation.
-random_paper: 60
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

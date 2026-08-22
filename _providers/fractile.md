@@ -76,7 +76,7 @@ overview: 'Fractile is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fractile''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 97
+random_paper: 2
 score:
   band: minimal
   composite: 10.6

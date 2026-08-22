@@ -121,7 +121,7 @@ overview: 'Parsec Finance publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Parsec Finance''s developer surface includes documentation, API reference, pricing, authentication, and 13 more developer resources.'
-random_paper: 66
+random_paper: 0
 score:
   band: emerging
   composite: 21.0

@@ -53,7 +53,7 @@ name: tempow
 nav: Providers
 network: true
 overview: tempow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bluetooth, Audio, Wireless, and Connectivity.
-random_paper: 72
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

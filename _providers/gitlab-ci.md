@@ -722,7 +722,7 @@ plans:
 - name: Gitlab Ci Plans Pricing
   plan_count: 5
   slug: gitlab-ci-plans-pricing
-random_paper: 131
+random_paper: 15
 rate_limits:
 - limit_count: 10
   name: Gitlab Ci Rate Limits

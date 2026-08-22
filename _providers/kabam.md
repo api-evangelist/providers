@@ -68,7 +68,7 @@ overview: 'Kabam is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kabam''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 61
+random_paper: 4
 score:
   band: minimal
   composite: 10.6

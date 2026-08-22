@@ -121,7 +121,7 @@ plans:
 - name: Reonomy Plans Pricing
   plan_count: 2
   slug: reonomy-plans-pricing
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Reonomy Rate Limits

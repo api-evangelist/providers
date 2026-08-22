@@ -80,7 +80,7 @@ overview: 'Nuvolo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nuvolo''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 79
+random_paper: 3
 score:
   band: emerging
   composite: 17.2

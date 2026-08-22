@@ -61,7 +61,7 @@ overview: 'AdStage.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   AdStage.io''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 51
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

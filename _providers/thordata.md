@@ -213,7 +213,7 @@ plans:
 - name: Thordata Plans Pricing
   plan_count: 0
   slug: thordata-plans-pricing
-random_paper: 110
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Thordata Rate Limits

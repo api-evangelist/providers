@@ -45,7 +45,7 @@ name: FamilyLeaf
 nav: Providers
 network: true
 overview: FamilyLeaf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Family, Photo Sharing, and Consumer.
-random_paper: 7
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

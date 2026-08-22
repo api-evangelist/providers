@@ -49,7 +49,7 @@ name: Piñata Farms
 nav: Providers
 network: true
 overview: Piñata Farms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, AI Video, Memes, and Consumer App.
-random_paper: 111
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

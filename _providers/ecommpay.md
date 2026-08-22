@@ -171,7 +171,7 @@ overview: 'ECOMMPAY publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   ECOMMPAY''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 114
+random_paper: 19
 score:
   band: thin
   composite: 34.9

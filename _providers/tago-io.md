@@ -378,7 +378,7 @@ plans:
 - name: Tago Io Plans Pricing
   plan_count: 4
   slug: tago-io-plans-pricing
-random_paper: 92
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Tago Io Rate Limits

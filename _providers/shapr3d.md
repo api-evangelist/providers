@@ -92,7 +92,7 @@ overview: 'Shapr3D is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Shapr3D''s developer surface includes pricing, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 97
+random_paper: 0
 score:
   band: emerging
   composite: 17.3

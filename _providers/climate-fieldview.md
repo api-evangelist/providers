@@ -206,7 +206,7 @@ plans:
 - name: Climate Fieldview Plans Pricing
   plan_count: 3
   slug: climate-fieldview-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Climate Fieldview Rate Limits

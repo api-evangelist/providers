@@ -79,7 +79,7 @@ name: Cera
 nav: Providers
 network: true
 overview: Cera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United Kingdom, Telehealth, Home Care, and Remote Monitoring.
-random_paper: 113
+random_paper: 12
 score:
   band: minimal
   composite: 3.7

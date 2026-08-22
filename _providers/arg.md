@@ -49,7 +49,7 @@ name: ARG
 nav: Providers
 network: true
 overview: ARG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Sports, Snowboarding, and Skiing.
-random_paper: 16
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

@@ -53,7 +53,7 @@ name: Apreohealth
 nav: Providers
 network: true
 overview: Apreohealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Respiratory, and Emphysema.
-random_paper: 122
+random_paper: 10
 score:
   band: minimal
   composite: 6.2

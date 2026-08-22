@@ -741,7 +741,7 @@ plans:
 - name: Hunter Plans Pricing
   plan_count: 6
   slug: hunter-plans-pricing
-random_paper: 66
+random_paper: 11
 rate_limits:
 - limit_count: 15
   name: Hunter Rate Limits

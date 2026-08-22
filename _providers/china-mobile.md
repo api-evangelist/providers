@@ -211,7 +211,7 @@ overview: 'China Mobile publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: developing
   composite: 44.9

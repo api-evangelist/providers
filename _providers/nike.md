@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Nike Creates New Innovation Engine to Power Athletes ...
   url: https://about.nike.com/en/newsroom/releases/nike-new-innovation-engine-announcement
-random_paper: 125
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Nike Rate Limits

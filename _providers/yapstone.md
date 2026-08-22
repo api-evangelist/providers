@@ -45,7 +45,7 @@ name: YapStone
 nav: Providers
 network: true
 overview: YapStone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Payments.
-random_paper: 138
+random_paper: 1
 score:
   band: minimal
   composite: 0.0

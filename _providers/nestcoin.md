@@ -302,7 +302,7 @@ overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 122
+random_paper: 6
 score:
   band: developing
   composite: 44.1

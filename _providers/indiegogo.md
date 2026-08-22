@@ -173,7 +173,7 @@ overview: 'Indiegogo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indiegogo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 55
+random_paper: 4
 score:
   band: developing
   composite: 43.1

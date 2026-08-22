@@ -161,7 +161,7 @@ plans:
 - name: Redux Plans Pricing
   plan_count: 3
   slug: redux-plans-pricing
-random_paper: 105
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Redux Rate Limits

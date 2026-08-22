@@ -80,7 +80,7 @@ overview: 'Saffron is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Saffron''s developer surface includes pricing, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 11.8

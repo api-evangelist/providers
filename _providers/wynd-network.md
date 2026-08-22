@@ -100,7 +100,7 @@ overview: 'Wynd Network is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wynd Network''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 81
+random_paper: 13
 score:
   band: emerging
   composite: 18.6

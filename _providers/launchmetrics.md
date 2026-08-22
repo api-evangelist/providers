@@ -159,7 +159,7 @@ plans:
 - name: Launchmetrics Plans Pricing
   plan_count: 0
   slug: launchmetrics-plans-pricing
-random_paper: 53
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Launchmetrics Rate Limits

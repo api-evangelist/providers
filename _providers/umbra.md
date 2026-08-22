@@ -266,7 +266,7 @@ overview: 'Umbra publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 88
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Umbra Rate Limits

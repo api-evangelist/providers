@@ -125,7 +125,7 @@ overview: 'Tiptop publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tiptop''s developer surface includes documentation, getting-started guide, API reference, engineering blog, authentication, sandbox, and 12 more developer resources.'
-random_paper: 76
+random_paper: 0
 score:
   band: emerging
   composite: 19.0

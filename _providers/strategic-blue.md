@@ -88,7 +88,7 @@ overview: 'Strategic Blue is profiled on the [APIs.io](https://apis.io/) network
 
 
   Strategic Blue''s developer surface includes developer portal, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: emerging
   composite: 18.1

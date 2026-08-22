@@ -156,7 +156,7 @@ plans:
 - name: Danish Meteorological Institutes Plans Pricing
   plan_count: 3
   slug: danish-meteorological-institutes-plans-pricing
-random_paper: 53
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Danish Meteorological Institutes Rate Limits

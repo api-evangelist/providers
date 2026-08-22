@@ -354,7 +354,7 @@ plans:
 - name: Amazon Resource Explorer Plans Pricing
   plan_count: 3
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 105
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits

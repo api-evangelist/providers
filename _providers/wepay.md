@@ -49,7 +49,7 @@ name: WePay
 nav: Providers
 network: true
 overview: WePay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Payment Processing, Platform Payments, Marketplaces, and Fintech.
-random_paper: 103
+random_paper: 4
 score:
   band: minimal
   composite: 1.5

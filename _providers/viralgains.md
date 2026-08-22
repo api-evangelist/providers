@@ -118,7 +118,7 @@ plans:
 - name: Viralgains Plans Pricing
   plan_count: 0
   slug: viralgains-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Viralgains Rate Limits

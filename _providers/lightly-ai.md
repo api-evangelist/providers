@@ -158,7 +158,7 @@ plans:
 - name: Lightly Ai Plans Pricing
   plan_count: 4
   slug: lightly-ai-plans-pricing
-random_paper: 118
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Lightly Ai Rate Limits

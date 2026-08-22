@@ -96,7 +96,7 @@ overview: 'Royco is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Royco''s developer surface includes documentation, support, and 11 more developer resources.'
-random_paper: 109
+random_paper: 10
 score:
   band: emerging
   composite: 16.5

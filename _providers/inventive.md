@@ -124,7 +124,7 @@ plans:
 - name: Inventive Plans Pricing
   plan_count: 1
   slug: inventive-plans-pricing
-random_paper: 90
+random_paper: 18
 score:
   band: emerging
   composite: 24.6

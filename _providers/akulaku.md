@@ -68,7 +68,7 @@ overview: 'Akulaku is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Akulaku''s developer surface includes documentation, API reference, support, and 3 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
   composite: 7.7

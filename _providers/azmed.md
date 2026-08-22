@@ -72,7 +72,7 @@ overview: 'AZmed is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AZmed''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 10.8

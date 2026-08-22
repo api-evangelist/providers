@@ -115,7 +115,7 @@ plans:
 - name: Cox Plans Pricing
   plan_count: 5
   slug: cox-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Cox Rate Limits

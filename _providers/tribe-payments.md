@@ -265,7 +265,7 @@ overview: 'Tribe Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tribe Payments'' developer surface includes authentication, documentation, API reference, changelog, engineering blog, support, getting-started guide, and 23 more developer resources.'
-random_paper: 119
+random_paper: 11
 score:
   band: developing
   composite: 46.1

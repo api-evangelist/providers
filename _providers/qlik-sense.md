@@ -282,7 +282,7 @@ plans:
 - name: Qlik Sense Plans Pricing
   plan_count: 1
   slug: qlik-sense-plans-pricing
-random_paper: 126
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Rate Limits

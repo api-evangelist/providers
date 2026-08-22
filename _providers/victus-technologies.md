@@ -56,7 +56,7 @@ overview: 'VICTUS Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   VICTUS Technologies'' developer surface includes support and 2 more developer resources.'
-random_paper: 62
+random_paper: 4
 score:
   band: minimal
   composite: 6.0

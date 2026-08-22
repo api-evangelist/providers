@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Whiting and Oasis Complete Combination, Establishing ...
   url: https://www.prnewswire.com/news-releases/whiting-and-oasis-complete-combination-establishing-chord-energy-301579674.html
-random_paper: 8
+random_paper: 11
 score:
   band: minimal
   composite: 7.2

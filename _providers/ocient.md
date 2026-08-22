@@ -201,7 +201,7 @@ overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 50.7

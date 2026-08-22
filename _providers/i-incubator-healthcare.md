@@ -40,7 +40,7 @@ name: i-Incubator Healthcare
 nav: Providers
 network: true
 overview: i-Incubator Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotech, and Drug Discovery.
-random_paper: 117
+random_paper: 19
 score:
   band: minimal
   composite: 2.2

@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Energy Department Announces Partnership to Ensure ...
   url: https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai
-random_paper: 143
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Southern Rate Limits

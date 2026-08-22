@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Momentive Performance Materials Inc. Upgraded to
   url: https://www.spglobal.com/ratings/es/regulatory/article/-/view/type/HTML/id/3305974
-random_paper: 73
+random_paper: 10
 score:
   band: minimal
   composite: 4.1

@@ -105,7 +105,7 @@ overview: '98point6 Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   98point6 Technologies'' developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 125
+random_paper: 7
 score:
   band: emerging
   composite: 18.3

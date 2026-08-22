@@ -101,7 +101,7 @@ plans:
 - name: Apinity Io Plans Pricing
   plan_count: 3
   slug: apinity-io-plans-pricing
-random_paper: 133
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Apinity Io Rate Limits

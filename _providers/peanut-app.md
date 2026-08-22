@@ -80,7 +80,7 @@ overview: 'Peanut App is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Peanut App''s developer surface includes engineering blog, signup flow, support, getting-started guide, and 5 more developer resources.'
-random_paper: 125
+random_paper: 11
 score:
   band: emerging
   composite: 16.2

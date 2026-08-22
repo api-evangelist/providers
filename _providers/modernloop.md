@@ -100,7 +100,7 @@ overview: 'ModernLoop is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ModernLoop''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 44
+random_paper: 16
 score:
   band: emerging
   composite: 17.9

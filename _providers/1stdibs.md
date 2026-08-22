@@ -84,7 +84,7 @@ overview: '1stdibs publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   1stdibs'' developer surface includes support and 7 more developer resources.'
-random_paper: 102
+random_paper: 5
 score:
   band: emerging
   composite: 13.1

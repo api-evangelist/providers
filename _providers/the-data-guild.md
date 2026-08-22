@@ -65,7 +65,7 @@ name: The Data Guild
 nav: Providers
 network: true
 overview: The Data Guild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Studio, Data Science, Machine Learning, and Artificial Intelligence.
-random_paper: 13
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

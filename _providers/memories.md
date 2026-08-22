@@ -194,7 +194,7 @@ overview: 'Memories publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Memories'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Memories Rate Limits

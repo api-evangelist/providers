@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: 0001140361-25-015822 | DEF 14A | iXBRL Viewer
   url: https://investors.pennentertainment.com/node/22021/ixbrl-viewer
-random_paper: 67
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

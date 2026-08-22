@@ -200,7 +200,7 @@ plans:
 - name: Truex Media Plans Pricing
   plan_count: 0
   slug: truex-media-plans-pricing
-random_paper: 82
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Truex Media Rate Limits

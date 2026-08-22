@@ -76,7 +76,7 @@ overview: 'Ineffable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ineffable''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 30
+random_paper: 0
 score:
   band: minimal
   composite: 9.7

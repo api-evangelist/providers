@@ -158,7 +158,7 @@ overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 135
+random_paper: 17
 score:
   band: developing
   composite: 46.5

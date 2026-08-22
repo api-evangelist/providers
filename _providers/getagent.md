@@ -53,7 +53,7 @@ name: Getagent
 nav: Providers
 network: true
 overview: Getagent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Estate Agents, and Property.
-random_paper: 102
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

@@ -128,7 +128,7 @@ overview: 'Gluwa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gluwa''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, changelog, and 11 more developer resources.'
-random_paper: 97
+random_paper: 19
 score:
   band: thin
   composite: 34.8

@@ -68,7 +68,7 @@ overview: 'OpenID Connect is profiled on the [APIs.io](https://apis.io/) network
 
 
   OpenID Connect''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 89
+random_paper: 2
 score:
   band: minimal
   composite: 9.5

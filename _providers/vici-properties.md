@@ -76,7 +76,7 @@ overview: 'VICI Properties is profiled on the [APIs.io](https://apis.io/) networ
 
 
   VICI Properties'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 83
+random_paper: 19
 score:
   band: minimal
   composite: 4.9

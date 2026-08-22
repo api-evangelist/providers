@@ -40,7 +40,7 @@ name: MapReduce
 nav: Providers
 network: true
 overview: MapReduce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, Data Processing, Distributed Computing, Hadoop, and MapReduce.
-random_paper: 56
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

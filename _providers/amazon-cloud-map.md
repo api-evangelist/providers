@@ -345,7 +345,7 @@ overview: 'Amazon Cloud Map publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 99
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []

@@ -190,7 +190,7 @@ overview: 'Customer Database is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Customer Database''s developer surface includes code examples and 23 more developer resources.'
-random_paper: 109
+random_paper: 5
 rules:
 - effective_rule_count: 15
   extends: []

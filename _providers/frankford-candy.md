@@ -117,7 +117,7 @@ overview: 'Frankford Candy is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Frankford Candy''s developer surface includes FAQ, engineering blog, and 16 more developer resources.'
-random_paper: 39
+random_paper: 17
 score:
   band: minimal
   composite: 9.7

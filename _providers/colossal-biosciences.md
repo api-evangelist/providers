@@ -206,7 +206,7 @@ overview: 'Colossal Biosciences publishes 10 APIs on the [APIs.io](https://apis.
 
 
   Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 131
+random_paper: 10
 score:
   band: thin
   composite: 26.7

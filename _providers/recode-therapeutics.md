@@ -223,7 +223,7 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
-random_paper: 31
+random_paper: 15
 score:
   band: developing
   composite: 39.8

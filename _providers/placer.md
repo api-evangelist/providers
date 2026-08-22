@@ -217,7 +217,7 @@ overview: 'Placer publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 7
   name: Placer Rate Limits

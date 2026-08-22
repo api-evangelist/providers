@@ -49,7 +49,7 @@ name: Recordgram
 nav: Providers
 network: true
 overview: Recordgram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Music Creation, Audio, and Recording.
-random_paper: 19
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

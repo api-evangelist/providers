@@ -252,7 +252,7 @@ overview: 'Bored API publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bored API''s developer surface includes developer portal, GitHub presence, documentation, and 13 more developer resources.'
-random_paper: 77
+random_paper: 20
 rules:
 - effective_rule_count: 5
   extends: []

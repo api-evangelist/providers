@@ -325,7 +325,7 @@ overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
-random_paper: 34
+random_paper: 2
 scopes:
 - name: Kurrent Scopes
   scope_count: 14

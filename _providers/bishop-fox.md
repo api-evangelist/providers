@@ -128,7 +128,7 @@ overview: 'Bishop Fox publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bishop Fox''s developer surface includes developer portal, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 129
+random_paper: 15
 scopes:
 - name: Bishop Fox Scopes
   scope_count: 7

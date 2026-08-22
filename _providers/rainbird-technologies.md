@@ -196,7 +196,7 @@ overview: 'Rainbird Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Rainbird Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 23 more developer resources.'
-random_paper: 86
+random_paper: 9
 score:
   band: developing
   composite: 41.8

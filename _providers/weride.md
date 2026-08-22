@@ -57,7 +57,7 @@ name: WeRide
 nav: Providers
 network: true
 overview: WeRide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Driving, Robotaxi, Self-Driving, and Mobility.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

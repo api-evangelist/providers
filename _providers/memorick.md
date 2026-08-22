@@ -69,7 +69,7 @@ overview: 'Memorick is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Memorick''s developer surface includes authentication, signup flow, and 4 more developer resources.'
-random_paper: 110
+random_paper: 15
 score:
   band: emerging
   composite: 12.1

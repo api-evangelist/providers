@@ -61,7 +61,7 @@ name: Shibe.Online
 nav: Providers
 network: true
 overview: Shibe.Online publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

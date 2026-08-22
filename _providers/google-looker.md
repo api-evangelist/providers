@@ -158,7 +158,7 @@ plans:
 - name: Google Looker Plans Pricing
   plan_count: 4
   slug: google-looker-plans-pricing
-random_paper: 142
+random_paper: 11
 rate_limits:
 - limit_count: 7
   name: Google Looker Rate Limits

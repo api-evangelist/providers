@@ -53,7 +53,7 @@ name: LotusFlare
 nav: Providers
 network: true
 overview: LotusFlare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Telecommunications, BSS, and Digital Commerce.
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 2.6

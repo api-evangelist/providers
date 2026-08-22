@@ -224,7 +224,7 @@ overview: 'Raken publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Raken''s developer surface includes developer portal, documentation, changelog, signup flow, pricing, engineering blog, support, and 32 more developer resources.'
-random_paper: 82
+random_paper: 4
 score:
   band: emerging
   composite: 23.5

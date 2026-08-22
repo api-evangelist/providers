@@ -174,7 +174,7 @@ plans:
 - name: Appnexus Plans Pricing
   plan_count: 0
   slug: appnexus-plans-pricing
-random_paper: 139
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Appnexus Rate Limits

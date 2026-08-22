@@ -157,7 +157,7 @@ overview: 'Accelo publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Accelo''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 19
+random_paper: 6
 scopes:
 - name: Accelo Scopes
   scope_count: 4

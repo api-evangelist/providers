@@ -200,7 +200,7 @@ overview: 'Verkada publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Verkada''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 138
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Verkada Rate Limits

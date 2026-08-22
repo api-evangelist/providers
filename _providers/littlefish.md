@@ -61,7 +61,7 @@ name: littlefish
 nav: Providers
 network: true
 overview: littlefish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Merchant Services, Payments, and Fintech.
-random_paper: 37
+random_paper: 9
 score:
   band: minimal
   composite: 1.5

@@ -68,7 +68,7 @@ overview: 'Efreshli is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Efreshli''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 105
+random_paper: 10
 score:
   band: emerging
   composite: 11.2

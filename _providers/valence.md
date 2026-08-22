@@ -65,7 +65,7 @@ name: Valence
 nav: Providers
 network: true
 overview: Valence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Healthcare, Therapy, and Artificial Intelligence.
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 4.4

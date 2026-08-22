@@ -51,7 +51,7 @@ name: Garuda Therapeutics
 nav: Providers
 network: true
 overview: Garuda Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Cell Therapy, and Stem Cells.
-random_paper: 33
+random_paper: 17
 score:
   band: minimal
   composite: 1.8

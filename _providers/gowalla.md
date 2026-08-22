@@ -57,7 +57,7 @@ name: Gowalla
 nav: Providers
 network: true
 overview: Gowalla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Location, Social, and Check-In.
-random_paper: 147
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

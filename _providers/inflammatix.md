@@ -158,7 +158,7 @@ overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Inflammatix''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 135
+random_paper: 2
 score:
   band: developing
   composite: 40.1

@@ -49,7 +49,7 @@ name: Vimaan
 nav: Providers
 network: true
 overview: Vimaan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Apps, Computer Vision, Machine Learning, and Inventory.
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

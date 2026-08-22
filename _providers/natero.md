@@ -40,7 +40,7 @@ name: Natero
 nav: Providers
 network: true
 overview: Natero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Success, Predictive Analytics, SaaS, and Machine Learning.
-random_paper: 53
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

@@ -93,7 +93,7 @@ overview: 'Asher Biotherapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Asher Biotherapeutics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 101
+random_paper: 3
 score:
   band: minimal
   composite: 9.5

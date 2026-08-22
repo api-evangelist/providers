@@ -40,7 +40,7 @@ name: Newport Communications
 nav: Providers
 network: true
 overview: Newport Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Optical Networking, and Telecommunications.
-random_paper: 106
+random_paper: 10
 score:
   band: minimal
   composite: 0.6

@@ -231,7 +231,7 @@ overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://api
 
 
   Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: thin
   composite: 34.4

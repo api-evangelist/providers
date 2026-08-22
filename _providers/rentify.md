@@ -49,7 +49,7 @@ name: rentify
 nav: Providers
 network: true
 overview: rentify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Property Management, and Lettings.
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

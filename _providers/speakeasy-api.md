@@ -191,7 +191,7 @@ plans:
 - name: Speakeasy Api Plans Pricing
   plan_count: 3
   slug: speakeasy-api-plans-pricing
-random_paper: 133
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Speakeasy Api Rate Limits

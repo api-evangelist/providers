@@ -80,7 +80,7 @@ overview: 'Flatiron Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Flatiron Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 48
+random_paper: 5
 score:
   band: emerging
   composite: 12.9

@@ -185,7 +185,7 @@ overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
-random_paper: 109
+random_paper: 14
 score:
   band: developing
   composite: 44.4

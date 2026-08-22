@@ -76,7 +76,7 @@ overview: 'Air Doctor is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Air Doctor''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 118
+random_paper: 4
 score:
   band: emerging
   composite: 13.1

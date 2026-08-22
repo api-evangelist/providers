@@ -96,7 +96,7 @@ overview: 'DiscoverCloud is profiled on the [APIs.io](https://apis.io/) network.
 
 
   DiscoverCloud''s developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
-random_paper: 57
+random_paper: 12
 score:
   band: emerging
   composite: 12.6

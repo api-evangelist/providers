@@ -45,7 +45,7 @@ name: Noise & Vibration Technologies
 nav: Providers
 network: true
 overview: Noise & Vibration Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Vibration Testing, Noise, and Instrumentation.
-random_paper: 113
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

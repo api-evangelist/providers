@@ -216,7 +216,7 @@ overview: 'Jane publishes 1 API on the [APIs.io](https://apis.io/) network: JDP 
 
 
   Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 26 more developer resources.'
-random_paper: 35
+random_paper: 3
 scopes:
 - name: Jane App Scopes
   scope_count: 30

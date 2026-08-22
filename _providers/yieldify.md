@@ -123,7 +123,7 @@ plans:
 - name: Yieldify Plans Pricing
   plan_count: 0
   slug: yieldify-plans-pricing
-random_paper: 118
+random_paper: 2
 score:
   band: emerging
   composite: 16.0

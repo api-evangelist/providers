@@ -49,7 +49,7 @@ name: Itch
 nav: Providers
 network: true
 overview: Itch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, Pet Care, Pet Wellness, and Subscription.
-random_paper: 126
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

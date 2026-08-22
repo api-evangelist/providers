@@ -57,7 +57,7 @@ name: Zen Quotes
 nav: Providers
 network: true
 overview: Zen Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

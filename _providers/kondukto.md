@@ -324,7 +324,7 @@ plans:
 - name: Kondukto Plans
   plan_count: 2
   slug: kondukto-plans
-random_paper: 134
+random_paper: 18
 score:
   band: strong
   composite: 63.0

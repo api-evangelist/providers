@@ -88,7 +88,7 @@ overview: 'Planera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Planera''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 14.3

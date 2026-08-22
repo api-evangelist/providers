@@ -128,7 +128,7 @@ overview: 'iTrustCapital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   iTrustCapital''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, product news, and 17 more developer resources.'
-random_paper: 76
+random_paper: 10
 score:
   band: emerging
   composite: 13.0

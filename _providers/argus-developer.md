@@ -123,7 +123,7 @@ plans:
 - name: Argus Developer Plans Pricing
   plan_count: 3
   slug: argus-developer-plans-pricing
-random_paper: 67
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Argus Developer Rate Limits

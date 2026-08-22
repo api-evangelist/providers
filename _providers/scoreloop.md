@@ -40,7 +40,7 @@ name: Scoreloop
 nav: Providers
 network: true
 overview: Scoreloop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social, Mobile, and SDK.
-random_paper: 88
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

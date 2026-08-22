@@ -49,7 +49,7 @@ name: Excision
 nav: Providers
 network: true
 overview: Excision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, CRISPR, Gene Editing, and Therapeutics.
-random_paper: 121
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

@@ -57,7 +57,7 @@ name: Premier League Standings
 nav: Providers
 network: true
 overview: Premier League Standings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 60
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

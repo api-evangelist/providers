@@ -49,7 +49,7 @@ name: Tidemark
 nav: Providers
 network: true
 overview: Tidemark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Performance Management, Financial Planning, Budgeting and Forecasting, and Analytics.
-random_paper: 104
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

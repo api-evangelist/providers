@@ -117,7 +117,7 @@ overview: 'Domino Data Lab is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Domino Data Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 108
+random_paper: 0
 score:
   band: emerging
   composite: 17.5

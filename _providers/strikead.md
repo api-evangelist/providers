@@ -57,7 +57,7 @@ name: StrikeAd
 nav: Providers
 network: true
 overview: StrikeAd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, AdTech, and Programmatic.
-random_paper: 110
+random_paper: 15
 score:
   band: minimal
   composite: 6.1

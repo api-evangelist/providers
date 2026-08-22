@@ -49,7 +49,7 @@ name: Gem
 nav: Providers
 network: true
 overview: Gem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Cloud Detection and Response, and CDR.
-random_paper: 15
+random_paper: 19
 score:
   band: minimal
   composite: 1.5

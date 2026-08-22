@@ -76,7 +76,7 @@ overview: 'Enplug is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enplug''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: emerging
   composite: 14.1

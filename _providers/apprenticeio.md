@@ -113,7 +113,7 @@ overview: 'apprentice.io is profiled on the [APIs.io](https://apis.io/) network.
 
 
   apprentice.io''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 91
+random_paper: 2
 score:
   band: emerging
   composite: 23.2

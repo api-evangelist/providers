@@ -100,7 +100,7 @@ overview: 'Linker Finance is profiled on the [APIs.io](https://apis.io/) network
 
 
   Linker Finance''s developer surface includes engineering blog, product news, support, and 11 more developer resources.'
-random_paper: 73
+random_paper: 7
 score:
   band: emerging
   composite: 16.6

@@ -112,7 +112,7 @@ plans:
 - name: Ecorobotix Plans Pricing
   plan_count: 0
   slug: ecorobotix-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Ecorobotix Rate Limits

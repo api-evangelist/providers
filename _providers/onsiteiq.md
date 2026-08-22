@@ -65,7 +65,7 @@ name: OnsiteIQ
 nav: Providers
 network: true
 overview: OnsiteIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Reality Capture, and 360 Imaging.
-random_paper: 131
+random_paper: 15
 score:
   band: minimal
   composite: 10.5

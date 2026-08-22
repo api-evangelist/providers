@@ -225,7 +225,7 @@ overview: 'Lloyd''s of London publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Lloyd''s of London''s developer surface includes authentication, code examples, changelog, sandbox, support, engineering blog, documentation, and 20 more developer resources.'
-random_paper: 126
+random_paper: 20
 scopes:
 - name: Lloyds Of London Scopes
   scope_count: 1

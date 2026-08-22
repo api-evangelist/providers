@@ -156,7 +156,7 @@ overview: 'AEB publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   AEB''s developer surface includes documentation, changelog, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 147
+random_paper: 2
 score:
   band: emerging
   composite: 23.1

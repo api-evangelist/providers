@@ -99,7 +99,7 @@ overview: 'Shiftsmart publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shiftsmart''s developer surface includes engineering blog, support, product news, and 12 more developer resources.'
-random_paper: 50
+random_paper: 1
 score:
   band: emerging
   composite: 14.9

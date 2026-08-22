@@ -133,7 +133,7 @@ plans:
 - name: Promptlayer Plans Pricing
   plan_count: 4
   slug: promptlayer-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Promptlayer Rate Limits

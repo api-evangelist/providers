@@ -297,7 +297,7 @@ plans:
 - name: Weave Plans Pricing
   plan_count: 4
   slug: weave-plans-pricing
-random_paper: 89
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Weave Rate Limits

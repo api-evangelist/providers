@@ -72,7 +72,7 @@ overview: 'Mooncard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mooncard''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 10.5

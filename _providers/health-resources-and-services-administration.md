@@ -88,7 +88,7 @@ plans:
 - name: Health Resources And Services Administration Plans Pricing
   plan_count: 3
   slug: health-resources-and-services-administration-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Health Resources And Services Administration Rate Limits

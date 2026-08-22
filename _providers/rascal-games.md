@@ -49,7 +49,7 @@ name: Rascal Games
 nav: Providers
 network: true
 overview: Rascal Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Game Studio, and Multiplayer.
-random_paper: 8
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

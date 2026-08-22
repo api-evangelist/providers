@@ -271,7 +271,7 @@ overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 23 more developer resources.'
-random_paper: 55
+random_paper: 6
 score:
   band: developing
   composite: 53.5

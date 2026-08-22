@@ -112,7 +112,7 @@ plans:
 - name: Goodvest Plans Pricing
   plan_count: 3
   slug: goodvest-plans-pricing
-random_paper: 130
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Goodvest Rate Limits

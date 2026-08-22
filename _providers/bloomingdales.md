@@ -100,7 +100,7 @@ name: Bloomingdale's
 nav: Providers
 network: true
 overview: Bloomingdale's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, Department Store, and Luxury.
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 7.8

@@ -85,7 +85,7 @@ plans:
 - name: Opendata Ugr Es Plans Pricing
   plan_count: 1
   slug: opendata-ugr-es-plans-pricing
-random_paper: 143
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Opendata Ugr Es Rate Limits

@@ -137,7 +137,7 @@ plans:
 - name: Winnai Plans Pricing
   plan_count: 2
   slug: winnai-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Winnai Rate Limits

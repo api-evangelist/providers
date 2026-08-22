@@ -53,7 +53,7 @@ name: AlmostApps
 nav: Providers
 network: true
 overview: AlmostApps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Sports, Mobile, and Entertainment.
-random_paper: 49
+random_paper: 0
 score:
   band: minimal
   composite: 9.2

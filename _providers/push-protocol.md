@@ -132,7 +132,7 @@ plans:
 - name: Push Protocol Plans
   plan_count: 1
   slug: push-protocol-plans
-random_paper: 34
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Push Protocol Rate Limits

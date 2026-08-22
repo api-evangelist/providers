@@ -72,7 +72,7 @@ overview: 'Second Home is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Second Home''s developer surface includes pricing, support, and 5 more developer resources.'
-random_paper: 63
+random_paper: 14
 score:
   band: emerging
   composite: 11.5

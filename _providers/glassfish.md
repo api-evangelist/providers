@@ -96,7 +96,7 @@ overview: 'Eclipse GlassFish publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Eclipse GlassFish''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 70
+random_paper: 19
 score:
   band: emerging
   composite: 11.6

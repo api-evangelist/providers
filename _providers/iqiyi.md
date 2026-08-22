@@ -84,7 +84,7 @@ overview: 'iQIYI publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   iQIYI''s developer surface includes documentation, API reference, getting-started guide, support, and 5 more developer resources.'
-random_paper: 102
+random_paper: 3
 score:
   band: emerging
   composite: 12.7

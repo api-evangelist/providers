@@ -93,7 +93,7 @@ overview: 'Lara AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lara AI''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 67
+random_paper: 12
 score:
   band: emerging
   composite: 14.2

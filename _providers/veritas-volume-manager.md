@@ -115,7 +115,7 @@ plans:
 - name: Veritas Volume Manager Plans Pricing
   plan_count: 3
   slug: veritas-volume-manager-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Veritas Volume Manager Rate Limits

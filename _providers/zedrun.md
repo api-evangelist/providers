@@ -53,7 +53,7 @@ name: Zed.run
 nav: Providers
 network: true
 overview: Zed.run is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Blockchain, NFT, and Web3.
-random_paper: 68
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

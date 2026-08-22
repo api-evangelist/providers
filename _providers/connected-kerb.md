@@ -134,7 +134,7 @@ overview: 'Connected Kerb publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Connected Kerb''s developer surface includes engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 71
+random_paper: 5
 score:
   band: emerging
   composite: 23.7

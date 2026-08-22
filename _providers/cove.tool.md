@@ -137,7 +137,7 @@ plans:
 - name: Cove.Tool Plans Pricing
   plan_count: 0
   slug: cove.tool-plans-pricing
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cove.Tool Rate Limits

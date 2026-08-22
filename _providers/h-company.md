@@ -249,7 +249,7 @@ overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: strong
   composite: 55.6

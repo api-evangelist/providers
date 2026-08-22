@@ -187,7 +187,7 @@ overview: 'supernormal publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   supernormal''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 16
+random_paper: 11
 scopes:
 - name: Supernormal Scopes
   scope_count: 11

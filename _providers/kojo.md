@@ -100,7 +100,7 @@ overview: 'Kojo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kojo''s developer surface includes support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 137
+random_paper: 15
 score:
   band: emerging
   composite: 20.1

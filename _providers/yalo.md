@@ -108,7 +108,7 @@ overview: 'Yalo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Yalo''s developer surface includes engineering blog, support, changelog, and 13 more developer resources.'
-random_paper: 139
+random_paper: 17
 score:
   band: emerging
   composite: 25.4

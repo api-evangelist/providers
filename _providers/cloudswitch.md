@@ -40,7 +40,7 @@ name: CloudSwitch
 nav: Providers
 network: true
 overview: CloudSwitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Cloud, Cloud Migration, and Hybrid Cloud.
-random_paper: 1
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

@@ -231,7 +231,7 @@ overview: 'Rigetti & Co publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rigetti & Co''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 26
+random_paper: 2
 score:
   band: developing
   composite: 40.0

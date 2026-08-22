@@ -80,7 +80,7 @@ overview: 'Showbie is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Showbie''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 14.7

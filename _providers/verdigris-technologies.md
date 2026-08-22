@@ -210,7 +210,7 @@ overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://api
 
 
   Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 18 more developer resources.'
-random_paper: 69
+random_paper: 15
 scopes:
 - name: Verdigris Technologies Scopes
   scope_count: 0

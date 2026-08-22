@@ -49,7 +49,7 @@ name: LongBio Pharma
 nav: Providers
 network: true
 overview: LongBio Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Healthcare, and Drug Discovery.
-random_paper: 1
+random_paper: 11
 score:
   band: minimal
   composite: 2.2

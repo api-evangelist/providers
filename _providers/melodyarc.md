@@ -80,7 +80,7 @@ overview: 'MelodyArc is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MelodyArc''s developer surface includes documentation, signup flow, and 7 more developer resources.'
-random_paper: 66
+random_paper: 15
 score:
   band: emerging
   composite: 12.6

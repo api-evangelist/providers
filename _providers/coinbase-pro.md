@@ -72,7 +72,7 @@ overview: 'Coinbase Pro publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   The Coinbase Pro catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 26
+random_paper: 0
 rules:
 - effective_rule_count: 36
   extends:

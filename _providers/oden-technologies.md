@@ -225,7 +225,7 @@ overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 112
+random_paper: 8
 score:
   band: developing
   composite: 40.6

@@ -49,7 +49,7 @@ name: The Rounds
 nav: Providers
 network: true
 overview: The Rounds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery Delivery, Sustainability, Zero Waste, and E-Commerce.
-random_paper: 139
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

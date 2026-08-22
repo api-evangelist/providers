@@ -219,7 +219,7 @@ overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 24 more developer resources.'
-random_paper: 137
+random_paper: 6
 score:
   band: developing
   composite: 39.4

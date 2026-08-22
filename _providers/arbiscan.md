@@ -166,7 +166,7 @@ plans:
 - name: Arbiscan Plans Pricing
   plan_count: 7
   slug: arbiscan-plans-pricing
-random_paper: 90
+random_paper: 16
 rate_limits:
 - limit_count: 14
   name: Arbiscan Rate Limits

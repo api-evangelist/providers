@@ -192,7 +192,7 @@ press:
 - date: '2026-05-25'
   title: Governor Hochul Announces $78 Million Investment by ...
   url: https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-78-million-investment-broadridge
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Broadridge Rate Limits

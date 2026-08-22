@@ -80,7 +80,7 @@ overview: 'Revel Ai Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Revel Ai Health''s developer surface includes support and 8 more developer resources.'
-random_paper: 123
+random_paper: 15
 score:
   band: emerging
   composite: 13.7

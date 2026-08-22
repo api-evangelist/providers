@@ -151,7 +151,7 @@ plans:
 - name: Google Colab Plans Pricing
   plan_count: 5
   slug: google-colab-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Google Colab Rate Limits

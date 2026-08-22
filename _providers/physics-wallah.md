@@ -73,7 +73,7 @@ overview: 'Physics Wallah is profiled on the [APIs.io](https://apis.io/) network
 
 
   Physics Wallah''s developer surface includes support and 6 more developer resources.'
-random_paper: 108
+random_paper: 0
 score:
   band: minimal
   composite: 10.3

@@ -161,7 +161,7 @@ overview: 'Limit Break is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 22 more developer resources.'
-random_paper: 62
+random_paper: 13
 score:
   band: thin
   composite: 31.1

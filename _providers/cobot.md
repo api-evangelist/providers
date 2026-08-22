@@ -444,7 +444,7 @@ overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 88
+random_paper: 10
 scopes:
 - name: Cobot Scopes
   scope_count: 60

@@ -72,7 +72,7 @@ overview: 'CNC24 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   CNC24''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 112
+random_paper: 11
 score:
   band: emerging
   composite: 11.9

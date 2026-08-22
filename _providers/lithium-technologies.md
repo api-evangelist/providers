@@ -181,7 +181,7 @@ overview: 'Lithium Technologies publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lithium Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 21 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: developing
   composite: 45.6

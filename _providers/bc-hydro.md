@@ -156,7 +156,7 @@ overview: 'BC Hydro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BC Hydro''s developer surface includes authentication, documentation, support, engineering blog, product news, and 21 more developer resources.'
-random_paper: 47
+random_paper: 15
 score:
   band: emerging
   composite: 15.8

@@ -72,7 +72,7 @@ overview: 'Beam Dental is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Beam Dental''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: minimal
   composite: 8.9

@@ -53,7 +53,7 @@ name: Revolving Games
 nav: Providers
 network: true
 overview: Revolving Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Studio, and Game Publisher.
-random_paper: 68
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Intellectual Property Policy Strategist Kirsten Donaldson ...
   url: https://www.hklaw.com/en/news/pressreleases/2026/04/intellectual-property-policy-strategist-kirsten-donaldson-joins
-random_paper: 68
+random_paper: 17
 score:
   band: minimal
   composite: 4.1

@@ -64,7 +64,7 @@ overview: 'Knife River is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Knife River''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 79
+random_paper: 9
 score:
   band: minimal
   composite: 6.8

@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Hub Group Using AI, Machine Learning for Real-Time ...
   url: https://www.truckinginfo.com/news/hub-group-using-ai-machine-learning-for-real-time-visibility-of-shipments
-random_paper: 27
+random_paper: 18
 rules:
 - effective_rule_count: 0
   extends: []

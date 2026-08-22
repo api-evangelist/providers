@@ -64,7 +64,7 @@ overview: 'MeetFuture Technology is profiled on the [APIs.io](https://apis.io/) 
 
 
   MeetFuture Technology''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 51
+random_paper: 2
 score:
   band: minimal
   composite: 8.5

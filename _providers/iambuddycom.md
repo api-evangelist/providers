@@ -112,7 +112,7 @@ overview: 'iambuddy.com is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   iambuddy.com''s developer surface includes support, engineering blog, and 14 more developer resources.'
-random_paper: 123
+random_paper: 11
 score:
   band: emerging
   composite: 21.1

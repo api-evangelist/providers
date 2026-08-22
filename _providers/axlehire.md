@@ -223,7 +223,7 @@ overview: 'AxleHire (Jitsu) publishes 5 APIs on the [APIs.io](https://apis.io/) 
 
 
   AxleHire (Jitsu)''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 26 more developer resources.'
-random_paper: 105
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Axlehire Rate Limits

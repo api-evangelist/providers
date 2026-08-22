@@ -133,7 +133,7 @@ overview: 'QuoteMedia publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   QuoteMedia''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 27
+random_paper: 20
 score:
   band: emerging
   composite: 22.0

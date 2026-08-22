@@ -171,7 +171,7 @@ overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 19 more developer resources.'
-random_paper: 120
+random_paper: 8
 score:
   band: thin
   composite: 36.9

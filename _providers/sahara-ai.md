@@ -161,7 +161,7 @@ overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 126
+random_paper: 10
 score:
   band: developing
   composite: 45.6

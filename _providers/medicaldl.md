@@ -53,7 +53,7 @@ name: Zhuhai DL Biotech (medicaldl)
 nav: Providers
 network: true
 overview: Zhuhai DL Biotech (medicaldl) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, In Vitro Diagnostics, Microbiology, Medical Devices, and Diagnostics.
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 2.2

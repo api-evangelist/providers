@@ -45,7 +45,7 @@ name: Kayou
 nav: Providers
 network: true
 overview: Kayou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 106
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

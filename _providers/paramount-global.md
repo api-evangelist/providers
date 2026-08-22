@@ -49,7 +49,7 @@ name: Paramount Global
 nav: Providers
 network: true
 overview: Paramount Global is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 14
+random_paper: 15
 score:
   band: minimal
   composite: 2.9

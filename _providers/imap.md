@@ -49,7 +49,7 @@ name: IMAP
 nav: Providers
 network: true
 overview: IMAP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Email, IMAP, Messaging, and Protocol.
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 4.1

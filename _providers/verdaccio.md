@@ -208,7 +208,7 @@ plans:
 - name: Verdaccio Plans Pricing
   plan_count: 2
   slug: verdaccio-plans-pricing
-random_paper: 50
+random_paper: 20
 rules:
 - effective_rule_count: 5
   extends: []

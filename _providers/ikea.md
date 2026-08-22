@@ -334,7 +334,7 @@ overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 14 more developer resources.'
-random_paper: 112
+random_paper: 11
 rules:
 - effective_rule_count: 5
   extends: []

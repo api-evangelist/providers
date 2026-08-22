@@ -40,7 +40,7 @@ name: Outil Achats
 nav: Providers
 network: true
 overview: Outil Achats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include France, Procurement, Purchasing, and Public Sector.
-random_paper: 38
+random_paper: 12
 score:
   band: minimal
   composite: 0.8

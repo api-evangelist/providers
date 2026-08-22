@@ -65,7 +65,7 @@ name: Aseon Labs
 nav: Providers
 network: true
 overview: Aseon Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Vehicles, Fleet Operations, and Infrastructure.
-random_paper: 103
+random_paper: 10
 score:
   band: minimal
   composite: 7.9

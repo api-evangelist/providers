@@ -64,7 +64,7 @@ overview: 'Encentive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Encentive''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 67
+random_paper: 16
 score:
   band: minimal
   composite: 7.6

@@ -129,7 +129,7 @@ overview: 'Polestar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Polestar''s developer surface includes support, GitHub presence, YouTube channel, engineering blog, and 17 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 6.2

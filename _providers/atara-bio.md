@@ -49,7 +49,7 @@ name: Atara Bio
 nav: Providers
 network: true
 overview: Atara Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Immunotherapy, and Cell Therapy.
-random_paper: 135
+random_paper: 19
 score:
   band: minimal
   composite: 3.3

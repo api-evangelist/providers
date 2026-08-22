@@ -53,7 +53,7 @@ name: Altera
 nav: Providers
 network: true
 overview: Altera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine Learning, and Multi-Agent Systems.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 5.3

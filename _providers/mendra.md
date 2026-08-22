@@ -45,7 +45,7 @@ name: Mendra
 nav: Providers
 network: true
 overview: Mendra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharma, Rare Diseases, Pharmaceuticals, and Artificial Intelligence.
-random_paper: 35
+random_paper: 1
 score:
   band: minimal
   composite: 2.2

@@ -143,7 +143,7 @@ plans:
 - name: Blubrry Api Restful Api For Podcast Publishing Statistics Plans Pricing
   plan_count: 3
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-plans-pricing
-random_paper: 77
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Blubrry Api Restful Api For Podcast Publishing Statistics Rate Limits

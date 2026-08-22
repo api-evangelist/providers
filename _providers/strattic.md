@@ -49,7 +49,7 @@ name: Strattic
 nav: Providers
 network: true
 overview: Strattic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, WordPress, Static Site Hosting, Headless CMS, and Web Performance.
-random_paper: 133
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

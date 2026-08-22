@@ -80,7 +80,7 @@ overview: 'Baseframe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Baseframe''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 40
+random_paper: 10
 score:
   band: minimal
   composite: 10.9

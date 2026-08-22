@@ -215,7 +215,7 @@ plans:
 - name: Blissfully Plans Pricing
   plan_count: 2
   slug: blissfully-plans-pricing
-random_paper: 54
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Blissfully Rate Limits

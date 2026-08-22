@@ -68,7 +68,7 @@ overview: 'Pharmaron is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pharmaron''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 8.3

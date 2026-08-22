@@ -49,7 +49,7 @@ name: IconOVir Bio
 nav: Providers
 network: true
 overview: IconOVir Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Oncology, and Cancer.
-random_paper: 40
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

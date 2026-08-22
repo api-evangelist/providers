@@ -182,7 +182,7 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 69
+random_paper: 14
 score:
   band: thin
   composite: 30.1

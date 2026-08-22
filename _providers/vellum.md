@@ -222,7 +222,7 @@ plans:
 - name: Vellum Plans Pricing
   plan_count: 1
   slug: vellum-plans-pricing
-random_paper: 65
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Vellum Rate Limits

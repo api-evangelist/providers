@@ -76,7 +76,7 @@ overview: 'Owl Labs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Owl Labs'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 56
+random_paper: 3
 score:
   band: minimal
   composite: 6.4

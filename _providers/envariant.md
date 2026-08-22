@@ -49,7 +49,7 @@ name: Envariant
 nav: Providers
 network: true
 overview: Envariant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Interpretability, Foundation Models, and Machine Learning.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

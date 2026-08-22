@@ -228,7 +228,7 @@ overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 138
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Vinculum Rate Limits

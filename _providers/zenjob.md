@@ -84,7 +84,7 @@ overview: 'Zenjob is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Zenjob''s developer surface includes developer portal, documentation, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 17.4

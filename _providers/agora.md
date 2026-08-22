@@ -187,7 +187,7 @@ overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Agora''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 75
+random_paper: 18
 score:
   band: developing
   composite: 47.2

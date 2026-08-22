@@ -147,7 +147,7 @@ overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
-random_paper: 65
+random_paper: 14
 score:
   band: thin
   composite: 34.4

@@ -166,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: Travelers partners with Anthropic to expand AI assistants ...
   url: https://hartfordbusiness.com/article/travelers-partners-with-anthropic-to-expand-ai-assistants-companywide/
-random_paper: 90
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Travelers Rate Limits

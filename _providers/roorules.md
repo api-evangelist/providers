@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: .Roorules
 nav: Providers
 network: true
-random_paper: 146
+random_paper: 9
 slug: roorules
 tags:
 - AI Agents

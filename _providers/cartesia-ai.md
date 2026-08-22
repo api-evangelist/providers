@@ -277,7 +277,7 @@ plans:
 - name: Cartesia Ai Plans Pricing
   plan_count: 6
   slug: cartesia-ai-plans-pricing
-random_paper: 48
+random_paper: 20
 rate_limits:
 - limit_count: 15
   name: Cartesia Ai Rate Limits

@@ -109,7 +109,7 @@ plans:
 - name: Instaagent Plans Pricing
   plan_count: 0
   slug: instaagent-plans-pricing
-random_paper: 27
+random_paper: 20
 score:
   band: minimal
   composite: 7.8

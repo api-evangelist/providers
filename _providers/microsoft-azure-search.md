@@ -144,7 +144,7 @@ plans:
 - name: Microsoft Azure Search Plans Pricing
   plan_count: 3
   slug: microsoft-azure-search-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Search Rate Limits

@@ -320,7 +320,7 @@ plans:
 - name: Amazon Freertos Plans Pricing
   plan_count: 3
   slug: amazon-freertos-plans-pricing
-random_paper: 75
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Freertos Rate Limits

@@ -60,7 +60,7 @@ overview: 'Edge Markets is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Edge Markets'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

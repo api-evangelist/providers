@@ -153,7 +153,7 @@ plans:
 - name: Instantdb Plans Pricing
   plan_count: 4
   slug: instantdb-plans-pricing
-random_paper: 73
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Instantdb Rate Limits

@@ -96,7 +96,7 @@ overview: 'Angle Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Angle Health''s developer surface includes documentation, API reference, engineering blog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: emerging
   composite: 17.2

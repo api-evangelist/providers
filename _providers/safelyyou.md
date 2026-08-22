@@ -84,7 +84,7 @@ overview: 'SafelyYou is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SafelyYou''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 99
+random_paper: 6
 score:
   band: emerging
   composite: 13.1

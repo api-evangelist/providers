@@ -235,7 +235,7 @@ plans:
 - name: Atmospore Pollen Forecasts Plans
   plan_count: 5
   slug: atmospore-pollen-forecasts-plans
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Atmospore Pollen Forecasts Rate Limits

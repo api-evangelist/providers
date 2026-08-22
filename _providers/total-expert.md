@@ -388,7 +388,7 @@ plans:
 - name: Total Expert Plans Pricing
   plan_count: 0
   slug: total-expert-plans-pricing
-random_paper: 65
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits

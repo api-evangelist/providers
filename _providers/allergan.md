@@ -56,7 +56,7 @@ name: allergan
 nav: Providers
 network: true
 overview: allergan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Medical Aesthetics, Healthcare, Botox, and Eye Care.
-random_paper: 93
+random_paper: 19
 score:
   band: minimal
   composite: 3.5

@@ -80,7 +80,7 @@ overview: 'Arthrosi Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Arthrosi Therapeutics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 132
+random_paper: 13
 score:
   band: minimal
   composite: 4.8

@@ -69,7 +69,7 @@ name: claimsforce
 nav: Providers
 network: true
 overview: claimsforce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Claims Management, and Underwriting.
-random_paper: 117
+random_paper: 5
 score:
   band: emerging
   composite: 15.0

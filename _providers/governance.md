@@ -20,7 +20,7 @@ modified: '2026-07-25'
 name: API Governance
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 14
 slug: governance
 tags:
 - Governance

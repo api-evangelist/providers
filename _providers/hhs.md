@@ -197,7 +197,7 @@ plans:
 - name: Simpler Grants
   plan_count: 2
   slug: simpler-grants
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Openfda

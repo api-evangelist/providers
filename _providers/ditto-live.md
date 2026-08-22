@@ -230,7 +230,7 @@ plans:
 - name: Ditto Live Plans Pricing
   plan_count: 3
   slug: ditto-live-plans-pricing
-random_paper: 131
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Ditto Live Rate Limits

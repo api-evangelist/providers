@@ -88,7 +88,7 @@ overview: 'Sharechat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sharechat''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 53
+random_paper: 2
 score:
   band: minimal
   composite: 9.7

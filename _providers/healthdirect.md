@@ -176,7 +176,7 @@ overview: 'Healthdirect Australia publishes 1 API on the [APIs.io](https://apis.
 
 
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 73
+random_paper: 5
 score:
   band: developing
   composite: 39.5

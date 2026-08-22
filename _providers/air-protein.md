@@ -76,7 +76,7 @@ overview: 'Air Protein is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Air Protein''s developer surface includes FAQ, support, and 6 more developer resources.'
-random_paper: 87
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

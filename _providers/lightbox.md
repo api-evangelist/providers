@@ -62,7 +62,7 @@ plans:
 - name: Lightbox Plans Pricing
   plan_count: 3
   slug: lightbox-plans-pricing
-random_paper: 120
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Lightbox Rate Limits

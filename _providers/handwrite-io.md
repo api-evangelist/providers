@@ -210,7 +210,7 @@ plans:
 - name: Handwrite Io Plans Pricing
   plan_count: 5
   slug: handwrite-io-plans-pricing
-random_paper: 35
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Handwrite Io Rate Limits

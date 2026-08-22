@@ -194,7 +194,7 @@ overview: 'Nextiva publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Nextiva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: developing
   composite: 53.1

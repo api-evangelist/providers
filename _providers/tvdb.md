@@ -894,7 +894,7 @@ plans:
 - name: Tvdb Plans Pricing
   plan_count: 5
   slug: tvdb-plans-pricing
-random_paper: 134
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Tvdb Rate Limits

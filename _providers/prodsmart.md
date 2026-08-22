@@ -225,7 +225,7 @@ overview: 'Prodsmart publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prodsmart''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 11 more developer resources.'
-random_paper: 94
+random_paper: 1
 score:
   band: developing
   composite: 39.7

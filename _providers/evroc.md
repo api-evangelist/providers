@@ -149,7 +149,7 @@ overview: 'evroc is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   evroc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 19 more developer resources.'
-random_paper: 96
+random_paper: 18
 score:
   band: thin
   composite: 36.9

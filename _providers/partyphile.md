@@ -45,7 +45,7 @@ name: Partyphile
 nav: Providers
 network: true
 overview: Partyphile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Nightlife, Ticketing, and Entertainment.
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

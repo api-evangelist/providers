@@ -91,7 +91,7 @@ overview: 'Tamr publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tamr''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: emerging
   composite: 11.7

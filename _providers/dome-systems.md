@@ -161,7 +161,7 @@ overview: 'Dome Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Dome Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 66
+random_paper: 19
 score:
   band: thin
   composite: 36.2

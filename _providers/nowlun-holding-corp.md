@@ -97,7 +97,7 @@ overview: 'Nowlun Holding Corp. publishes 1 API on the [APIs.io](https://apis.io
 
 
   Nowlun Holding Corp.''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 5
+random_paper: 10
 scopes:
 - name: Nowlun Holding Corp Scopes
   scope_count: 3

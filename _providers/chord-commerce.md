@@ -267,7 +267,7 @@ plans:
 - name: Chord Commerce Plans Pricing
   plan_count: 0
   slug: chord-commerce-plans-pricing
-random_paper: 75
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Chord Commerce Rate Limits

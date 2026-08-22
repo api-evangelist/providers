@@ -141,7 +141,7 @@ overview: 'Navy Federal Credit Union publishes 8 APIs on the [APIs.io](https://a
 
 
   Navy Federal Credit Union''s developer surface includes documentation, signup flow, support, API reference, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 108
+random_paper: 14
 score:
   band: thin
   composite: 31.4

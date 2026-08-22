@@ -92,7 +92,7 @@ overview: 'KOHO is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KOHO''s developer surface includes support, signup flow, and 12 more developer resources.'
-random_paper: 135
+random_paper: 13
 score:
   band: emerging
   composite: 14.8

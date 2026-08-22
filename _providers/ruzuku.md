@@ -80,7 +80,7 @@ plans:
 - name: Ruzuku Plans Pricing
   plan_count: 3
   slug: ruzuku-plans-pricing
-random_paper: 98
+random_paper: 1
 score:
   band: emerging
   composite: 14.7

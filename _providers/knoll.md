@@ -66,7 +66,7 @@ plans:
 - name: Knoll Plans Pricing
   plan_count: 1
   slug: knoll-plans-pricing
-random_paper: 97
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Knoll Rate Limits

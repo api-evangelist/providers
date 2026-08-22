@@ -216,7 +216,7 @@ plans:
 - name: Cisco Psirt Plans Pricing
   plan_count: 0
   slug: cisco-psirt-plans-pricing
-random_paper: 93
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Cisco Psirt Rate Limits

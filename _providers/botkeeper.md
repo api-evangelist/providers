@@ -147,7 +147,7 @@ overview: 'Botkeeper publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Botkeeper''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 67
+random_paper: 16
 scopes:
 - name: Botkeeper Scopes
   scope_count: 0

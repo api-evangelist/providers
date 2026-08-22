@@ -61,7 +61,7 @@ name: Novartis
 nav: Providers
 network: true
 overview: Novartis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Healthcare, Biotechnology, Life Sciences, and Open Source Science.
-random_paper: 141
+random_paper: 4
 score:
   band: minimal
   composite: 3.7

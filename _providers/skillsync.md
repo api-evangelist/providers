@@ -113,7 +113,7 @@ overview: 'Skillsync is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Skillsync''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, changelog, and 10 more developer resources.'
-random_paper: 94
+random_paper: 1
 score:
   band: emerging
   composite: 22.6

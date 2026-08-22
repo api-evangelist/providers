@@ -124,7 +124,7 @@ overview: 'Mendral is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mendral''s developer surface includes engineering blog, pricing, signup flow, support, CLI, and 15 more developer resources.'
-random_paper: 143
+random_paper: 4
 score:
   band: emerging
   composite: 22.3

@@ -165,7 +165,7 @@ plans:
 - name: Langbase Plans Pricing
   plan_count: 4
   slug: langbase-plans-pricing
-random_paper: 84
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Langbase Rate Limits

@@ -64,7 +64,7 @@ overview: 'Pillar Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Pillar Technologies'' developer surface includes support and 4 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 9.4

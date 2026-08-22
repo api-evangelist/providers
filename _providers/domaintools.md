@@ -250,7 +250,7 @@ overview: 'DomainTools publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DomainTools'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: developing
   composite: 50.8

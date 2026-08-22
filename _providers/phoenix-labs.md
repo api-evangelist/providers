@@ -68,7 +68,7 @@ overview: 'Phoenix Labs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Phoenix Labs'' developer surface includes support and 5 more developer resources.'
-random_paper: 34
+random_paper: 8
 score:
   band: minimal
   composite: 10.2

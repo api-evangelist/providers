@@ -45,7 +45,7 @@ name: Rogue Wave Software
 nav: Providers
 network: true
 overview: Rogue Wave Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Static Analysis, High Performance Computing, and Numerical Libraries.
-random_paper: 9
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

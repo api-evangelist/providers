@@ -164,7 +164,7 @@ plans:
 - name: Pokkt Plans Pricing
   plan_count: 0
   slug: pokkt-plans-pricing
-random_paper: 106
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Pokkt Rate Limits

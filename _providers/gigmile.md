@@ -61,7 +61,7 @@ name: Gigmile
 nav: Providers
 network: true
 overview: Gigmile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Fintech, Vehicle Financing, and Gig Economy.
-random_paper: 138
+random_paper: 20
 score:
   band: minimal
   composite: 2.3

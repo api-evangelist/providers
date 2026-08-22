@@ -273,7 +273,7 @@ plans:
 - name: Fargate Plans Pricing
   plan_count: 3
   slug: fargate-plans-pricing
-random_paper: 134
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Fargate Rate Limits

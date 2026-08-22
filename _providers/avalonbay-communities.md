@@ -45,7 +45,7 @@ name: AvalonBay Communities
 nav: Providers
 network: true
 overview: AvalonBay Communities is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 113
+random_paper: 15
 score:
   band: minimal
   composite: 2.6

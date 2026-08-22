@@ -45,7 +45,7 @@ name: LittleFund
 nav: Providers
 network: true
 overview: LittleFund is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Consumer Finance, Savings, and Gifting.
-random_paper: 40
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

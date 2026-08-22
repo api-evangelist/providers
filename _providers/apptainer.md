@@ -138,7 +138,7 @@ plans:
 - name: Apptainer Plans Pricing
   plan_count: 3
   slug: apptainer-plans-pricing
-random_paper: 70
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Apptainer Rate Limits

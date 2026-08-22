@@ -200,7 +200,7 @@ overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 91
+random_paper: 12
 score:
   band: developing
   composite: 40.2

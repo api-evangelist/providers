@@ -137,7 +137,7 @@ overview: 'Rohlik publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rohlik''s developer surface includes documentation, authentication, support, pricing, and 17 more developer resources.'
-random_paper: 53
+random_paper: 19
 scopes:
 - name: Rohlik Scopes
   scope_count: 3

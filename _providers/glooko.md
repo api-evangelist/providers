@@ -113,7 +113,7 @@ overview: 'Glooko is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Glooko''s developer surface includes documentation, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 55
+random_paper: 0
 score:
   band: thin
   composite: 27.0

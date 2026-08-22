@@ -92,7 +92,7 @@ overview: 'Lego is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lego''s developer surface includes product news and 11 more developer resources.'
-random_paper: 125
+random_paper: 3
 score:
   band: minimal
   composite: 4.5

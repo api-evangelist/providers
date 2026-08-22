@@ -49,7 +49,7 @@ name: Mogassam
 nav: Providers
 network: true
 overview: Mogassam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, 3D Printing, Digital Dentistry, and Healthcare.
-random_paper: 111
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

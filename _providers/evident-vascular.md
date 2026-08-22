@@ -97,7 +97,7 @@ plans:
 - name: Evident Vascular Plans Pricing
   plan_count: 0
   slug: evident-vascular-plans-pricing
-random_paper: 22
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Evident Vascular Rate Limits

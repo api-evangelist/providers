@@ -53,7 +53,7 @@ name: Science On Call
 nav: Providers
 network: true
 overview: Science On Call is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Technology Support, Point of Sale, and Artificial Intelligence.
-random_paper: 112
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

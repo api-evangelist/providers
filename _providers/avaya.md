@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence | Avaya Trust Center
   url: https://www.avaya.com/en/trust-center/artificial-intelligence/
-random_paper: 83
+random_paper: 5
 score:
   band: minimal
   composite: 6.3

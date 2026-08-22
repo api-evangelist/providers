@@ -164,7 +164,7 @@ overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 9
+random_paper: 15
 score:
   band: thin
   composite: 31.8

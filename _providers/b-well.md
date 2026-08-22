@@ -263,7 +263,7 @@ plans:
 - name: B Well Plans Pricing
   plan_count: 0
   slug: b-well-plans-pricing
-random_paper: 132
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: B Well Rate Limits

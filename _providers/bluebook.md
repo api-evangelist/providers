@@ -74,7 +74,7 @@ name: Bluebook
 nav: Providers
 network: true
 overview: Bluebook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Artificial Intelligence, and AI Agents.
-random_paper: 106
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

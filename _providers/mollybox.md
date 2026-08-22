@@ -133,7 +133,7 @@ overview: 'MollyBox publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MollyBox''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 141
+random_paper: 4
 score:
   band: emerging
   composite: 25.3

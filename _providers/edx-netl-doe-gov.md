@@ -85,7 +85,7 @@ plans:
 - name: Edx Netl Doe Gov Plans Pricing
   plan_count: 1
   slug: edx-netl-doe-gov-plans-pricing
-random_paper: 45
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Edx Netl Doe Gov Rate Limits

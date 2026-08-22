@@ -84,7 +84,7 @@ overview: 'ankar.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ankar.ai''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 131
+random_paper: 13
 score:
   band: emerging
   composite: 17.8

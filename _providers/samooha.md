@@ -60,7 +60,7 @@ overview: 'Samooha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Samooha''s developer surface includes pricing, engineering blog, and 2 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: minimal
   composite: 6.7

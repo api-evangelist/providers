@@ -188,7 +188,7 @@ overview: 'VerbIT publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   VerbIT''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, pricing, and 25 more developer resources.'
-random_paper: 56
+random_paper: 1
 score:
   band: developing
   composite: 47.5

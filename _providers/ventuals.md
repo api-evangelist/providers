@@ -112,7 +112,7 @@ overview: 'Ventuals is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ventuals'' developer surface includes documentation, API reference, getting-started guide, support, pricing, and 12 more developer resources.'
-random_paper: 137
+random_paper: 0
 score:
   band: emerging
   composite: 22.5

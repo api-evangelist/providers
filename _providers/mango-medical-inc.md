@@ -49,7 +49,7 @@ name: Mango Medical Inc
 nav: Providers
 network: true
 overview: Mango Medical Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical, Startup, and Y Combinator.
-random_paper: 14
+random_paper: 15
 score:
   band: minimal
   composite: 3.3

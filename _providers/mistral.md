@@ -565,7 +565,7 @@ plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits

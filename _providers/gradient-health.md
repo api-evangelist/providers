@@ -112,7 +112,7 @@ overview: 'Gradient Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Gradient Health''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 31
+random_paper: 9
 score:
   band: thin
   composite: 26.3

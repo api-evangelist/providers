@@ -156,7 +156,7 @@ plans:
 - name: Google Cloud Api Gateway Plans Pricing
   plan_count: 3
   slug: google-cloud-api-gateway-plans-pricing
-random_paper: 140
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Google Cloud Api Gateway Rate Limits

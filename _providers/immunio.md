@@ -57,7 +57,7 @@ name: Immunio
 nav: Providers
 network: true
 overview: Immunio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, RASP, and Runtime Application Self-Protection.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 6.8

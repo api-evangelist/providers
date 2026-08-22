@@ -40,7 +40,7 @@ name: Terbium Labs
 nav: Providers
 network: true
 overview: Terbium Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Dark Web, Digital Risk Protection, and Threat Intelligence.
-random_paper: 31
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -206,7 +206,7 @@ overview: 'Suncorp Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Suncorp Bank''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 43
+random_paper: 17
 scopes:
 - name: Suncorp Bank Scopes
   scope_count: 10

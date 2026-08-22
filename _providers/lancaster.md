@@ -151,7 +151,7 @@ plans:
 - name: Lancaster Plans Pricing
   plan_count: 2
   slug: lancaster-plans-pricing
-random_paper: 63
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Lancaster Rate Limits

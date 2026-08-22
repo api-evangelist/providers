@@ -85,7 +85,7 @@ plans:
 - name: Datanyze Plans Pricing
   plan_count: 0
   slug: datanyze-plans-pricing
-random_paper: 119
+random_paper: 3
 score:
   band: minimal
   composite: 6.1

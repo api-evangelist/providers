@@ -123,7 +123,7 @@ overview: 'Mission Bio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Mission Bio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 15 more developer resources.'
-random_paper: 86
+random_paper: 16
 score:
   band: thin
   composite: 28.0

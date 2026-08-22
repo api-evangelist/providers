@@ -217,7 +217,7 @@ overview: 'Guru publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Guru''s developer surface includes authentication, documentation, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 4
+random_paper: 10
 score:
   band: thin
   composite: 29.7

@@ -188,7 +188,7 @@ plans:
 - name: Samu Plans Pricing
   plan_count: 3
   slug: samu-plans-pricing
-random_paper: 140
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Samu Rate Limits

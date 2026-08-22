@@ -110,7 +110,7 @@ overview: 'Amplify publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Amplify''s developer surface includes engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
   composite: 22.8

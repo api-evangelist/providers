@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: 'Scaling RIA Growth: The Goldman Sachs AI Playbook'
   url: https://www.etftrends.com/future-etfs-content-hub/scaling-ria-growth-goldman-sachs-ai-playbook/
-random_paper: 127
+random_paper: 4
 score:
   band: minimal
   composite: 2.9

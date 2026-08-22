@@ -212,7 +212,7 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 
 
   Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 85
+random_paper: 0
 score:
   band: thin
   composite: 31.8

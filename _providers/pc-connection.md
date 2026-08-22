@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: Connection Wins Intel Partner of the Year Award for AI PC
   url: https://chimecentral.org/resource-press-release/connection-wins-intel-partner-year-award-ai-pc
-random_paper: 136
+random_paper: 5
 score:
   band: minimal
   composite: 4.1

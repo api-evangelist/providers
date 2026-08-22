@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: NextEra-Dominion Deal Signals Era of AI Utility Mega ...
   url: https://www.bloomberg.com/news/articles/2026-05-18/nextera-dominion-deal-signals-new-era-of-ai-utility-mega-mergers
-random_paper: 105
+random_paper: 3
 score:
   band: minimal
   composite: 3.3

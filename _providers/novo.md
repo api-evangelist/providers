@@ -87,7 +87,7 @@ overview: 'Novo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Novo''s developer surface includes support, engineering blog, documentation, signup flow, getting-started guide, and 8 more developer resources.'
-random_paper: 3
+random_paper: 9
 score:
   band: emerging
   composite: 20.4

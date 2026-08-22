@@ -89,7 +89,7 @@ plans:
 - name: Boardroom Governance Plans Pricing
   plan_count: 3
   slug: boardroom-governance-plans-pricing
-random_paper: 137
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Boardroom Governance Rate Limits

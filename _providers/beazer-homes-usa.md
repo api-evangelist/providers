@@ -99,7 +99,7 @@ overview: 'Beazer Homes USA is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Beazer Homes USA''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
-random_paper: 102
+random_paper: 17
 score:
   band: minimal
   composite: 6.5

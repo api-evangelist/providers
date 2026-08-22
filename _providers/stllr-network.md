@@ -141,7 +141,7 @@ plans:
 - name: Stllr Network Plans Pricing
   plan_count: 6
   slug: stllr-network-plans-pricing
-random_paper: 43
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Stllr Network Rate Limits

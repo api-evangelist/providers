@@ -45,7 +45,7 @@ name: Meridian
 nav: Providers
 network: true
 overview: Meridian is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 96
+random_paper: 1
 score:
   band: minimal
   composite: 3.2

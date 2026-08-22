@@ -100,7 +100,7 @@ overview: 'Riverbed Technology is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Riverbed Technology''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 43
+random_paper: 6
 score:
   band: emerging
   composite: 21.9

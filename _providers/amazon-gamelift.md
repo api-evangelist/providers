@@ -4825,7 +4825,7 @@ plans:
 - name: Amazon Gamelift Plans Pricing
   plan_count: 3
   slug: amazon-gamelift-plans-pricing
-random_paper: 42
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Gamelift Rate Limits

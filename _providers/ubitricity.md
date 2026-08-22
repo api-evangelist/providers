@@ -92,7 +92,7 @@ overview: 'Ubitricity is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ubitricity''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: emerging
   composite: 18.7

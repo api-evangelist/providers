@@ -73,7 +73,7 @@ overview: 'ShelterLogic Group is profiled on the [APIs.io](https://apis.io/) net
 
 
   The ShelterLogic Group catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 99
+random_paper: 18
 score:
   band: minimal
   composite: 7.8

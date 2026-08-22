@@ -40,7 +40,7 @@ name: Millennium Pharma
 nav: Providers
 network: true
 overview: Millennium Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Genomics, and Drug Discovery.
-random_paper: 121
+random_paper: 17
 score:
   band: minimal
   composite: 2.2

@@ -180,7 +180,7 @@ overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 24 more developer resources.'
-random_paper: 128
+random_paper: 3
 rate_limits:
 - limit_count: 15
   name: Energy Queensland Rate Limits

@@ -99,7 +99,7 @@ overview: 'GLS Group publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 6 more developer resources.'
-random_paper: 34
+random_paper: 4
 score:
   band: emerging
   composite: 23.0

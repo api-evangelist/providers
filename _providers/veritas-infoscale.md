@@ -346,7 +346,7 @@ plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
   slug: veritas-infoscale-plans-pricing
-random_paper: 120
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Veritas Infoscale Rate Limits

@@ -131,7 +131,7 @@ overview: 'Stackmint publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stackmint''s developer surface includes authentication, documentation, API reference, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 80
+random_paper: 8
 score:
   band: thin
   composite: 31.0

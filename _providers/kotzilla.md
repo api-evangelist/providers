@@ -183,7 +183,7 @@ plans:
 - name: Kotzilla Plans Pricing
   plan_count: 2
   slug: kotzilla-plans-pricing
-random_paper: 129
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Kotzilla Rate Limits

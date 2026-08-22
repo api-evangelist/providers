@@ -506,7 +506,7 @@ plans:
 - name: Nationgraph Plans Pricing
   plan_count: 0
   slug: nationgraph-plans-pricing
-random_paper: 136
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Nationgraph Rate Limits

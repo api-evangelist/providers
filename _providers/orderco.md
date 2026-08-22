@@ -255,7 +255,7 @@ overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
   composite: 31.4

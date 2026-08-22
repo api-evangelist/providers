@@ -72,7 +72,7 @@ overview: 'Compass Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Compass Therapeutics'' developer surface includes support and 6 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: minimal
   composite: 10.0

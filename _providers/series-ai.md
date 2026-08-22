@@ -137,7 +137,7 @@ overview: 'Series AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Series AI''s developer surface includes documentation, API reference, getting-started guide, CLI, sandbox, changelog, authentication, and 15 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
   band: thin
   composite: 28.1

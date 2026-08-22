@@ -117,7 +117,7 @@ overview: 'Juli is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juli''s developer surface includes engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 138
+random_paper: 16
 score:
   band: emerging
   composite: 21.1

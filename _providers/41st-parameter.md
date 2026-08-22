@@ -40,7 +40,7 @@ name: 41st Parameter
 nav: Providers
 network: true
 overview: 41st Parameter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Fraud Detection, Device Intelligence, and Web Fraud.
-random_paper: 146
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

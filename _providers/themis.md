@@ -76,7 +76,7 @@ overview: 'Themis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Themis'' developer surface includes support and 7 more developer resources.'
-random_paper: 54
+random_paper: 20
 score:
   band: emerging
   composite: 15.1

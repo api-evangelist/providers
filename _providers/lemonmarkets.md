@@ -302,7 +302,7 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
 
 
   lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 26 more developer resources.'
-random_paper: 106
+random_paper: 17
 score:
   band: developing
   composite: 43.4

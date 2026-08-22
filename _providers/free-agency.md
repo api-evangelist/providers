@@ -107,7 +107,7 @@ plans:
 - name: Free Agency Plans Pricing
   plan_count: 0
   slug: free-agency-plans-pricing
-random_paper: 51
+random_paper: 2
 score:
   band: minimal
   composite: 9.2

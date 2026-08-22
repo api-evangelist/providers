@@ -199,7 +199,7 @@ overview: 'Beyond Bank Australia publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Beyond Bank Australia''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
-random_paper: 55
+random_paper: 6
 scopes:
 - name: Beyond Bank Scopes
   scope_count: 5

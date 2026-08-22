@@ -45,7 +45,7 @@ name: CNANO
 nav: Providers
 network: true
 overview: CNANO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Nanotubes, Graphene, Advanced Materials, and Battery Materials.
-random_paper: 80
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

@@ -273,7 +273,7 @@ overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 42 more developer resources.'
-random_paper: 125
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Uk Power Networks Rate Limits

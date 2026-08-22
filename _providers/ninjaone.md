@@ -308,7 +308,7 @@ overview: 'NinjaOne publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 105
+random_paper: 10
 scopes:
 - name: Ninjaone Scopes
   scope_count: 4

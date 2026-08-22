@@ -199,7 +199,7 @@ overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Mistral AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 72
+random_paper: 0
 score:
   band: thin
   composite: 33.5

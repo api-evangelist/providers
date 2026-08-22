@@ -98,7 +98,7 @@ overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   PostEx''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 79
+random_paper: 3
 score:
   band: emerging
   composite: 24.6

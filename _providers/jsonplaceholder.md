@@ -294,7 +294,7 @@ plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
   slug: jsonplaceholder-plans-pricing
-random_paper: 107
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Jsonplaceholder Rate Limits

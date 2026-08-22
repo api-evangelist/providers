@@ -164,7 +164,7 @@ plans:
 - name: Sophos Plans Pricing
   plan_count: 3
   slug: sophos-plans-pricing
-random_paper: 72
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Sophos Rate Limits

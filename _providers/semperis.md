@@ -72,7 +72,7 @@ overview: 'Semperis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Semperis'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 127
+random_paper: 11
 score:
   band: emerging
   composite: 11.0

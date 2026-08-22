@@ -192,7 +192,7 @@ overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
-random_paper: 148
+random_paper: 9
 score:
   band: strong
   composite: 54.8

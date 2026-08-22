@@ -176,7 +176,7 @@ plans:
 - name: Mutiny Hq Plans Pricing
   plan_count: 3
   slug: mutiny-hq-plans-pricing
-random_paper: 46
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Mutiny Hq Rate Limits

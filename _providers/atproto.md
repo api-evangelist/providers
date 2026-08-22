@@ -208,7 +208,7 @@ plans:
 - name: Atproto Plans Pricing
   plan_count: 3
   slug: atproto-plans-pricing
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 17
   name: Atproto Rate Limits

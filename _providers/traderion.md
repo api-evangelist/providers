@@ -65,7 +65,7 @@ name: Traderion
 nav: Providers
 network: true
 overview: Traderion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, Training, and Simulation.
-random_paper: 74
+random_paper: 2
 score:
   band: minimal
   composite: 2.0

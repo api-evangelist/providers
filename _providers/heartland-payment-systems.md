@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Liquid Payments' Integration with Heartland, a Global ...
   url: https://www.fintechfutures.com/press-releases/liquid-payments-integration-with-heartland-a-global-payments-company-is-good-news-for-healthcare-providers
-random_paper: 62
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Heartland Payment Systems Rate Limits

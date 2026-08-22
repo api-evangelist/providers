@@ -525,7 +525,7 @@ overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 90
+random_paper: 18
 score:
   band: developing
   composite: 51.4

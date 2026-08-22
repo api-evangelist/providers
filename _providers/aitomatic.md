@@ -84,7 +84,7 @@ overview: 'Aitomatic is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aitomatic''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 61
+random_paper: 10
 score:
   band: emerging
   composite: 12.0

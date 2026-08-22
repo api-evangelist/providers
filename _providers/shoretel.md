@@ -49,7 +49,7 @@ name: Shoretel
 nav: Providers
 network: true
 overview: Shoretel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unified Communications, VoIP, Telecommunications, and Contact Center.
-random_paper: 125
+random_paper: 9
 score:
   band: minimal
   composite: 1.8

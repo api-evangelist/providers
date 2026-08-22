@@ -237,7 +237,7 @@ plans:
 - name: Radio Browser Plans Pricing
   plan_count: 1
   slug: radio-browser-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Radio Browser Rate Limits

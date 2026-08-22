@@ -104,7 +104,7 @@ overview: 'Related Companies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Related Companies'' developer surface includes engineering blog, product news, and 6 more developer resources.'
-random_paper: 102
+random_paper: 19
 score:
   band: minimal
   composite: 5.5

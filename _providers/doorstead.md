@@ -106,7 +106,7 @@ plans:
 - name: Doorstead Plans Pricing
   plan_count: 2
   slug: doorstead-plans-pricing
-random_paper: 71
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Doorstead Rate Limits

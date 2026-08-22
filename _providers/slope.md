@@ -284,7 +284,7 @@ overview: 'Slope publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 28 more developer resources.'
-random_paper: 100
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Slope Rate Limits

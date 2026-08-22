@@ -64,7 +64,7 @@ name: data.gov.mt (Open Data Malta)
 nav: Providers
 network: true
 overview: data.gov.mt (Open Data Malta) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Custom Platform, DCAT-AP, Government Data, and National Government.
-random_paper: 14
+random_paper: 7
 score:
   band: minimal
   composite: 6.9

@@ -2308,7 +2308,7 @@ overview: 'Amadeus Solutions publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Amadeus Solutions'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 1
+random_paper: 4
 rules:
 - effective_rule_count: 5
   extends: []

@@ -171,7 +171,7 @@ plans:
 - name: Tadeus Api Plans Pricing
   plan_count: 3
   slug: tadeus-api-plans-pricing
-random_paper: 111
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Tadeus Api Rate Limits

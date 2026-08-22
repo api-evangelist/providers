@@ -49,7 +49,7 @@ name: Dingdong Maicai
 nav: Providers
 network: true
 overview: Dingdong Maicai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Grocery, E-commerce, and Food Delivery.
-random_paper: 9
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

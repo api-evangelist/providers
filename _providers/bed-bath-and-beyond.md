@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Bed Bath & Beyond CEO sends stark AI warning to workers
   url: https://sg.finance.yahoo.com/news/bed-bath-beyond-ceo-sends-150700273.html
-random_paper: 9
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

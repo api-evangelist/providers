@@ -45,7 +45,7 @@ name: cdhot (Hot New Energy Technology)
 nav: Providers
 network: true
 overview: cdhot (Hot New Energy Technology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Efficiency, Waste Heat Recovery, and Industrial.
-random_paper: 83
+random_paper: 5
 score:
   band: minimal
   composite: 2.1

@@ -113,7 +113,7 @@ overview: 'Truveta is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Truveta''s developer surface includes engineering blog, support, authentication, CLI, and 12 more developer resources.'
-random_paper: 34
+random_paper: 2
 scopes:
 - name: Truveta Scopes
   scope_count: 14

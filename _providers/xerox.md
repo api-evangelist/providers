@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: Xerox AI – the future's almost here!
   url: https://www.perfectcolours.com/blog/2018/11/22/xerox-ai-the-futures-almost-here/?srsltid=AfmBOoqAEnZunThO-KFMQdJFUucWJHvzFvh7hZCDOCpuORD4prbBzVA3
-random_paper: 119
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Xerox Rate Limits

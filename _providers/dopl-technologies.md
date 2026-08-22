@@ -61,7 +61,7 @@ name: dopl technologies
 nav: Providers
 network: true
 overview: dopl technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Medical Imaging, Ultrasound, and Robotics.
-random_paper: 121
+random_paper: 17
 score:
   band: minimal
   composite: 6.5

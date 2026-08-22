@@ -243,7 +243,7 @@ overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   TMT ID''s developer surface includes sandbox, authentication, documentation, developer portal, signup flow, engineering blog, support, and 31 more developer resources.'
-random_paper: 144
+random_paper: 3
 score:
   band: developing
   composite: 46.8

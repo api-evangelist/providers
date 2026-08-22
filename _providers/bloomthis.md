@@ -105,7 +105,7 @@ overview: 'BloomThis publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   BloomThis'' developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 83
+random_paper: 11
 scopes:
 - name: Bloomthis Scopes
   scope_count: 4

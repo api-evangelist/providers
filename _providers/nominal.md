@@ -145,7 +145,7 @@ overview: 'Nominal publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nominal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
   composite: 33.0

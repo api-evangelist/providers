@@ -101,7 +101,7 @@ overview: 'Lil Snack is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lil Snack''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
   composite: 11.4

@@ -163,7 +163,7 @@ plans:
 - name: Corbado Plans Pricing
   plan_count: 4
   slug: corbado-plans-pricing
-random_paper: 134
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Corbado Rate Limits

@@ -127,7 +127,7 @@ plans:
 - name: Tvscientific Plans Pricing
   plan_count: 0
   slug: tvscientific-plans-pricing
-random_paper: 99
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Tvscientific Rate Limits

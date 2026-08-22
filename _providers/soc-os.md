@@ -40,7 +40,7 @@ name: Soc Os
 nav: Providers
 network: true
 overview: Soc Os is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, and Acquired.
-random_paper: 0
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

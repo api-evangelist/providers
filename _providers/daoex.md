@@ -58,7 +58,7 @@ name: DAOex
 nav: Providers
 network: true
 overview: DAOex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DAO, Community Management, and Web3.
-random_paper: 82
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

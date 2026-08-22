@@ -145,7 +145,7 @@ overview: 'Connect The Dots publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Connect The Dots'' developer surface includes authentication, API reference, documentation, pricing, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 17
+random_paper: 0
 scopes:
 - name: Ctd Scopes
   scope_count: 0

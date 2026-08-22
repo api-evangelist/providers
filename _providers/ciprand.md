@@ -53,7 +53,7 @@ name: Ciprand
 nav: Providers
 network: true
 overview: Ciprand publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 141
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

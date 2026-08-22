@@ -105,7 +105,7 @@ overview: 'Coupa Software publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Coupa Software''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 9 more developer resources.'
-random_paper: 115
+random_paper: 7
 score:
   band: emerging
   composite: 20.9

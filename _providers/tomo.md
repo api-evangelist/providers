@@ -57,7 +57,7 @@ name: Tomo
 nav: Providers
 network: true
 overview: Tomo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Personal Assistant, Conversational AI, and Consumer AI.
-random_paper: 0
+random_paper: 6
 score:
   band: minimal
   composite: 7.8

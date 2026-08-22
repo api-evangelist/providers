@@ -68,7 +68,7 @@ overview: 'Getsona is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Getsona''s developer surface includes engineering blog, pricing, signup flow, and 3 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
   composite: 12.3

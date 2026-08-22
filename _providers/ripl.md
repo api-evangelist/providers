@@ -127,7 +127,7 @@ plans:
 - name: Ripl Plans Pricing
   plan_count: 2
   slug: ripl-plans-pricing
-random_paper: 141
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Ripl Rate Limits

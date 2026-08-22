@@ -64,7 +64,7 @@ overview: 'Buena is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Buena''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: minimal
   composite: 7.6

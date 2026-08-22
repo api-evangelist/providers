@@ -76,7 +76,7 @@ overview: 'Skip is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Skip''s developer surface includes documentation, API reference, changelog, support, and 4 more developer resources.'
-random_paper: 141
+random_paper: 19
 score:
   band: emerging
   composite: 12.4

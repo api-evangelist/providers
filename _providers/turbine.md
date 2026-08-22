@@ -64,7 +64,7 @@ overview: 'Turbine is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Turbine''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: minimal
   composite: 7.0

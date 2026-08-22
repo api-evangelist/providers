@@ -161,7 +161,7 @@ overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: thin
   composite: 34.7

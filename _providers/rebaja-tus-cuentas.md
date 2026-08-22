@@ -64,7 +64,7 @@ overview: 'Rebaja Tus Cuentas is profiled on the [APIs.io](https://apis.io/) net
 
 
   Rebaja Tus Cuentas'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: minimal
   composite: 6.4

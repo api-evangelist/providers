@@ -167,7 +167,7 @@ overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 134
+random_paper: 16
 score:
   band: developing
   composite: 39.3

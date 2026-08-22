@@ -49,7 +49,7 @@ name: American Aerospace Advisors
 nav: Providers
 network: true
 overview: American Aerospace Advisors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Defense, Unmanned Aircraft Systems, and Drones.
-random_paper: 62
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

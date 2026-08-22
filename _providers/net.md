@@ -40,7 +40,7 @@ name: NET
 nav: Providers
 network: true
 overview: NET is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Telecommunications, Session Border Controller, and Defunct.
-random_paper: 29
+random_paper: 12
 score:
   band: minimal
   composite: 0.6

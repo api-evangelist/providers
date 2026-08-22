@@ -68,7 +68,7 @@ overview: 'Flashfood is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flashfood''s developer surface includes support and 5 more developer resources.'
-random_paper: 56
+random_paper: 5
 score:
   band: minimal
   composite: 10.2

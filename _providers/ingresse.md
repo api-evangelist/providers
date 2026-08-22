@@ -109,7 +109,7 @@ overview: 'Ingresse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ingresse''s developer surface includes documentation, API reference, support, authentication, sandbox, and 10 more developer resources.'
-random_paper: 119
+random_paper: 3
 score:
   band: emerging
   composite: 14.2

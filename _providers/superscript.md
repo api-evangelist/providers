@@ -68,7 +68,7 @@ overview: 'Superscript is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Superscript''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 28
+random_paper: 2
 score:
   band: minimal
   composite: 9.7

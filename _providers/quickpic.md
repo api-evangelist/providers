@@ -53,7 +53,7 @@ name: quickpic
 nav: Providers
 network: true
 overview: quickpic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio, Qiming, South Africa, and Stub.
-random_paper: 112
+random_paper: 17
 score:
   band: minimal
   composite: 4.1

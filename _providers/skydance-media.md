@@ -244,7 +244,7 @@ overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Skydance Media''s developer surface includes authentication, engineering blog, FAQ, YouTube channel, and 27 more developer resources.'
-random_paper: 66
+random_paper: 0
 score:
   band: emerging
   composite: 21.8

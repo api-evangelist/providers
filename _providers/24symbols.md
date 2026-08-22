@@ -80,7 +80,7 @@ overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   24Symbols'' developer surface includes support, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 134
+random_paper: 18
 score:
   band: emerging
   composite: 13.2

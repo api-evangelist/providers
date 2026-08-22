@@ -65,7 +65,7 @@ name: Unmannd
 nav: Providers
 network: true
 overview: Unmannd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Drones, UAV, and Counter-UAS.
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

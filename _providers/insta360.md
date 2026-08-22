@@ -95,7 +95,7 @@ overview: 'Insta360 publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Insta360''s developer surface includes documentation, API reference, and 9 more developer resources.'
-random_paper: 100
+random_paper: 3
 score:
   band: emerging
   composite: 15.9

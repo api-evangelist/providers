@@ -274,7 +274,7 @@ overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](h
 
 
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 106
+random_paper: 20
 score:
   band: developing
   composite: 47.9

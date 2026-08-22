@@ -92,7 +92,7 @@ overview: 'Branching Minds is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Branching Minds'' developer surface includes documentation, support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: emerging
   composite: 21.0

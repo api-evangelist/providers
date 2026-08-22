@@ -217,7 +217,7 @@ overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Workist''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 42
+random_paper: 10
 score:
   band: developing
   composite: 49.2

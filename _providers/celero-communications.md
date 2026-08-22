@@ -48,7 +48,7 @@ name: Celero Communications
 nav: Providers
 network: true
 overview: Celero Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Coherent DSP, Optical Interconnect, and AI Infrastructure.
-random_paper: 106
+random_paper: 8
 score:
   band: minimal
   composite: 4.6

@@ -215,7 +215,7 @@ plans:
 - name: Buildxact Plans Pricing
   plan_count: 4
   slug: buildxact-plans-pricing
-random_paper: 66
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Buildxact Rate Limits

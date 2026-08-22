@@ -116,7 +116,7 @@ overview: 'Exotec is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Exotec''s developer surface includes documentation, support, engineering blog, product news, and 16 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 17.0

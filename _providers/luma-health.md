@@ -235,7 +235,7 @@ plans:
 - name: Luma Health Plans Pricing
   plan_count: 0
   slug: luma-health-plans-pricing
-random_paper: 63
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Luma Health Rate Limits

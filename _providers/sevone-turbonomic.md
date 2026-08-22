@@ -77,7 +77,7 @@ overview: 'SevOne (Turbonomic) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   SevOne (Turbonomic)''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 3
+random_paper: 6
 score:
   band: minimal
   composite: 8.6

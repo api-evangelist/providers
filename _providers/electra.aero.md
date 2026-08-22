@@ -127,7 +127,7 @@ plans:
 - name: Electra.Aero Plans Pricing
   plan_count: 0
   slug: electra.aero-plans-pricing
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Electra.Aero Rate Limits

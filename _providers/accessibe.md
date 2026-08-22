@@ -189,7 +189,7 @@ overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   accessiBe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 36
+random_paper: 6
 score:
   band: developing
   composite: 46.7

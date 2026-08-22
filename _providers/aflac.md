@@ -497,7 +497,7 @@ press:
 - date: '2026-05-25'
   title: Why Aflac isn't rushing generative AI adoption
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
-random_paper: 56
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Aflac Rate Limits

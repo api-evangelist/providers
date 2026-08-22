@@ -131,7 +131,7 @@ overview: 'Cornerstone Robotics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Cornerstone Robotics'' developer surface includes support, product news, training material, and 16 more developer resources.'
-random_paper: 30
+random_paper: 16
 score:
   band: emerging
   composite: 11.1

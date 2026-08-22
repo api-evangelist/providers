@@ -116,7 +116,7 @@ overview: 'Viktor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Viktor''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 75
+random_paper: 20
 score:
   band: emerging
   composite: 21.0

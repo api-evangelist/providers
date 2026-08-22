@@ -92,7 +92,7 @@ overview: 'Bstow is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bstow''s developer surface includes support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 112
+random_paper: 13
 score:
   band: emerging
   composite: 16.7

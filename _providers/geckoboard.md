@@ -131,7 +131,7 @@ overview: 'Geckoboard publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 147
+random_paper: 12
 score:
   band: thin
   composite: 36.0

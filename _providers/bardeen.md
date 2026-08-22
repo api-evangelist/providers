@@ -85,7 +85,7 @@ plans:
 - name: Bardeen Plans Pricing
   plan_count: 3
   slug: bardeen-plans-pricing
-random_paper: 125
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bardeen Rate Limits

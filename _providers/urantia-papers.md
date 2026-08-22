@@ -51,7 +51,7 @@ name: Urantia Papers
 nav: Providers
 network: true
 overview: Urantia Papers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 111
+random_paper: 3
 score:
   band: minimal
   composite: 5.4

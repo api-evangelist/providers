@@ -100,7 +100,7 @@ overview: 'Forma is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Forma''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 86
+random_paper: 8
 score:
   band: emerging
   composite: 18.7

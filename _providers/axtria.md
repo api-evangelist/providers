@@ -136,7 +136,7 @@ overview: 'Axtria is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Axtria''s developer surface includes engineering blog, changelog, YouTube channel, and 22 more developer resources.'
-random_paper: 53
+random_paper: 19
 score:
   band: emerging
   composite: 12.6

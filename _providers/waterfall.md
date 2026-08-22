@@ -90,7 +90,7 @@ overview: 'Waterfall is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waterfall''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 68
+random_paper: 17
 score:
   band: emerging
   composite: 13.3

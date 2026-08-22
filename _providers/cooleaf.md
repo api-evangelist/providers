@@ -68,7 +68,7 @@ overview: 'Cooleaf is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cooleaf''s developer surface includes support and 5 more developer resources.'
-random_paper: 133
+random_paper: 15
 score:
   band: emerging
   composite: 11.5

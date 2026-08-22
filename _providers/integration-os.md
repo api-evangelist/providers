@@ -106,7 +106,7 @@ plans:
 - name: Integration Os Plans Pricing
   plan_count: 3
   slug: integration-os-plans-pricing
-random_paper: 118
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Integration Os Rate Limits

@@ -76,7 +76,7 @@ overview: 'Juleb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Juleb''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 83
+random_paper: 5
 score:
   band: minimal
   composite: 9.9

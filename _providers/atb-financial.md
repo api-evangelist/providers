@@ -72,7 +72,7 @@ overview: 'ATB Financial is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ATB Financial''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 97
+random_paper: 8
 score:
   band: minimal
   composite: 6.8

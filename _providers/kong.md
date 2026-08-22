@@ -5498,7 +5498,7 @@ plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 133
+random_paper: 11
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits

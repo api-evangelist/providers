@@ -170,7 +170,7 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: thin
   composite: 34.4
