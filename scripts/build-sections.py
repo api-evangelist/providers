@@ -105,219 +105,39 @@ INDUSTRY_ICONS = {
     "waste-management": "delete",
 }
 
-# Industries derived from the catalog itself rather than from the jobs taxonomy
-# in industries.yml. A provider joins one of these when any of its top-level
-# apis.yml tags matches an alias below (case-insensitive, exact match on the
-# whole tag). Providers can belong to several — these are lenses, not buckets.
+# The industries whose listing page carries the two interactive market tools —
+# "Pick your priorities" for buyers and "Find your opening" for providers.
 #
-# Where a slug already exists in the jobs taxonomy the two memberships are
-# unioned and the definition here wins for name/description/icon, which is how
-# thin taxonomy pages (Cybersecurity had 9 companies against 1,500+ security
-# providers in the catalog) get filled out.
-# Industry Reports that have shipped, keyed by industry slug. Rendered as the
-# paper-promo band above the listing on that industry's page (see
-# _includes/paper-promo.html). Emitted by the generator so the promo survives a
-# rebuild instead of being hand-added to a generated page and then wiped.
-# The Spectral report has no listing page of its own: its cohort is 1,005 real
-# public CI pipelines, not providers, so there is no roster to rank. It is
-# promoted as a SECOND paper on the two markets it actually speaks to —
-# governance tooling sits between API management and API testing.
-SPECTRAL_PAPER = {
-    "slug": "the-state-of-spectral-in-api-pipelines",
-    "title": "The State of Spectral in API Pipelines",
-    "blurb": "What 1,005 real public pipelines reveal about how teams actually "
-             "govern their APIs — and the blueprint almost none of them have reached.",
-    "price": "500",
-    "kind": "API Evangelist Trend Report",
-}
-
-
-INDUSTRY_PAPERS = {
-    "artificial-intelligence": {
-        "slug": "state-of-artificial-intelligence-apis",
-        "title": "The State of Artificial Intelligence APIs",
-        "blurb": "All 4,904 of these companies scored. The industry selling agents has a median "
-                 "agent-readiness of zero, and its score distribution matches the whole catalog "
-                 "within a rounding error.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "developer-tools": {
-        "slug": "state-of-developer-tools-apis",
-        "title": "The State of Developer Tools APIs",
-        "blurb": "The best-scoring industry in the catalog, first of twenty-five \u2014 and it publishes "
-                 "idempotency at the same 2.8% rate as the worst. The gap was never competence.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "cybersecurity": {
-        "slug": "state-of-cybersecurity-apis",
-        "title": "The State of Cybersecurity APIs",
-        "blurb": "Second-best-scoring market in the catalog \u2014 and 72% of it will not tell you how "
-                 "to report a vulnerability, now that the EU Cyber Resilience Act requires exactly that.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "semiconductors-hardware": {
-        "slug": "state-of-compute-hardware-apis",
-        "title": "The State of Compute & Hardware APIs",
-        "blurb": "The companies that rent the chips score 36.5. The companies that make them score "
-                 "10.7. NVIDIA scores 31.1 and NVIDIA NIM scores 75.7.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "robotics": {
-        "slug": "state-of-robotics-apis",
-        "title": "The State of Robotics & Autonomous Systems APIs",
-        "blurb": "Not short of APIs \u2014 short of PUBLIC ones. 5.8% publish a contract, and the "
-                 "likely reason is security posture rather than absence.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "legal-compliance": {
-        "slug": "state-of-legal-compliance-apis",
-        "title": "The State of Legal & Compliance APIs",
-        "blurb": "The contract lifecycle management segment publishes the fewest contracts in its "
-                 "own market \u2014 18.2%, against e-signature's 55.0%.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "education": {
-        "slug": "state-of-education-apis",
-        "title": "The State of Education & EdTech APIs",
-        "blurb": "The library out-publishes the classroom \u2014 scholarly infrastructure publishes a "
-                 "contract 70.8% of the time, corporate learning 0%.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "blockchain-crypto": {
-        "slug": "state-of-blockchain-crypto-apis",
-        "title": "The State of Blockchain & Crypto APIs",
-        "blurb": "The highest-publishing market in the catalog, and the one that says least about "
-                 "who is allowed to move the money \u2014 scopes at 10.2% of its leaders.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "marketing-advertising": {
-        "slug": "state-of-marketing-advertising-apis",
-        "title": "The State of Marketing & Advertising APIs",
-        "blurb": "The industry whose tracking wrote the world\u2019s consent laws describes consent in "
-                 "its own APIs at 3.1% \u2014 below the whole-catalog rate.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "data-analytics": {
-        "slug": "state-of-data-analytics-apis",
-        "title": "The State of Data & Analytics APIs",
-        "blurb": "One of the best-scoring markets in the catalog \u2014 and the segment selling "
-                 "\u201cknow your data\u201d is the worst-scoring segment inside it.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "digital-health": {
-        "slug": "state-of-digital-health-apis",
-        "title": "The State of Digital Health APIs",
-        "blurb": "The market with the best standard and the most mandates publishes consent as a "
-                 "machine-readable surface at 3.4% \u2014 the same rate as the rest of the catalog.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "supply-chain": {
-        "slug": "state-of-supply-chain-apis",
-        "title": "The State of Supply Chain APIs",
-        "blurb": "Thirteen companies out of 1,124 publish idempotency — in the one industry where "
-                 "a retried request dispatches a second truck. No company here reaches 70.",
-        "price": "500",
-        "kind": "API Evangelist Market Report",
-    },
-    "biotechnology": {
-        "slug": "state-of-biotechnology-apis",
-        "title": "The State of Biotechnology APIs",
-        "blurb": "An industry that built three workflow languages and published zero "
-                 "workflow contracts. Biotechnology solved sequencing, orchestration and "
-                 "reproducibility for compute pipelines over twenty years, and never once "
-                 "pointed that machinery at its own interfaces.",
-        "price": "500",
-    },
-    "climate-sustainability": {
-        "slug": "state-of-climate-sustainability-apis",
-        "title": "The State of Climate, Energy and Sustainability APIs",
-        "blurb": "98% of the upper band publishes a contract — the highest rate measured "
-                 "anywhere — and it is mostly weather APIs. The software that climate "
-                 "regulation created is seventeen companies.",
-        "price": "500",
-    },
-    "creator-economy": {
-        "slug": "state-of-creator-economy-apis",
-        "title": "The State of Creator Economy APIs",
-        "blurb": "The market everyone describes as dependent on platforms turns out to be "
-                 "the one best equipped to survive them.",
-        "price": "500",
-    },
-    "gaming": {
-        "slug": "state-of-gaming-apis",
-        "title": "The State of Gaming APIs",
-        "blurb": "The product is deliberately closed and the supply chain is wide open. "
-                 "Heroic Labs scores 78.8; Take-Two scores 7.1.",
-        "price": "500",
-    },
-    "government": {
-        "slug": "state-of-government-apis",
-        "title": "The State of Government APIs",
-        "blurb": "The most consistently contract-publishing market measured anywhere in this "
-                 "research is also one of the least operable. Government did the part the "
-                 "policy named and stopped precisely there.",
-        "price": "500",
-    },
-    "human-capital-management": {
-        "slug": "state-of-human-capital-management-apis",
-        "title": "The State of HR and Workforce APIs",
-        "blurb": "This market proved it will adopt an API standard when one exists at the "
-                 "right layer. It has done that exactly once, for the narrowest problem in "
-                 "the stack.",
-        "price": "500",
-    },
-    "iot": {
-        "slug": "state-of-iot-apis",
-        "title": "The State of IoT APIs",
-        "blurb": "This market solved interoperability where devices meet networks and left "
-                 "it unsolved where customers and agents meet platforms. The best contracts "
-                 "in the research series; the lowest MCP adoption.",
-        "price": "500",
-    },
-    "mobility": {
-        "slug": "state-of-mobility-apis",
-        "title": "The State of Mobility APIs",
-        "blurb": "The best-documented market in this research is the least agent-ready one. "
-                 "Mobility built excellent interfaces for a world of scheduled integrations "
-                 "and webhooks, and that is precisely the investment that does not carry "
-                 "forward.",
-        "price": "500",
-    },
-    "space": {
-        "slug": "state-of-space-apis",
-        "title": "The State of Space and Aerospace APIs",
-        "blurb": "Forty years of machine-to-machine standards produced spacecraft that talk "
-                 "to each other across agencies and almost nothing a customer's agent can "
-                 "operate.",
-        "price": "500",
-    },
-    "telecommunications": {
-        "slug": "state-of-telecom-apis",
-        "title": "The State of Telecom APIs",
-        "blurb": "What eighty-three telecom organizations worldwide actually publish, scored "
-                 "— the industry that built a real open standard and then published 351 "
-                 "specifications with no hosts in them.",
-        "price": "500",
-    },
-    "weather-geospatial": {
-        "slug": "state-of-weather-geospatial-apis",
-        "title": "The State of Weather and Geospatial APIs",
-        "blurb": "The best-governed market in this research scores badly on an instrument "
-                 "built for agents that write. That is a finding about the instrument as "
-                 "much as the market.",
-        "price": "500",
-    },
+# This used to be INDUSTRY_PAPERS: a table of Trend Report promo copy, rendered
+# as a paper-promo band above the listing, which ALSO served as the gate for the
+# tools. The reports line was retired on 2026-08-21, so the promo is gone and
+# what is left is the gate itself, stated plainly. Add a slug to wire the tools
+# onto another industry; scripts/build-section-tools.py still skips any cohort
+# under MIN_COHORT providers, so this is permission rather than a guarantee.
+INDUSTRY_MARKET_TOOLS = {
+    "artificial-intelligence",
+    "biotechnology",
+    "blockchain-crypto",
+    "climate-sustainability",
+    "creator-economy",
+    "cybersecurity",
+    "data-analytics",
+    "developer-tools",
+    "digital-health",
+    "education",
+    "gaming",
+    "government",
+    "human-capital-management",
+    "iot",
+    "legal-compliance",
+    "marketing-advertising",
+    "mobility",
+    "robotics",
+    "semiconductors-hardware",
+    "space",
+    "supply-chain",
+    "telecommunications",
+    "weather-geospatial",
 }
 
 # Providers a tag rule cannot keep out of an industry, removed by hand.
@@ -1287,8 +1107,8 @@ def separated_tiers(entries, overrides=None):
 # ---------------------------------------------------------------------------
 
 
-def listing_page(title, summary, data_key, rated=False, paper=None,
-                 papers=None, entries=None, tier_blurbs=None, tools=None):
+def listing_page(title, summary, data_key, rated=False, market_tools=False,
+                 entries=None, tier_blurbs=None, tools=None):
     include = "company-listing-rated.html" if rated else "company-listing-plain.html"
     lines = [
         "---",
@@ -1310,33 +1130,13 @@ def listing_page(title, summary, data_key, rated=False, paper=None,
             lines += ['  %s: "%s"' % (label, blurbs[label]) for label in labels]
 
     body = []
-    # Optional sector-report promo band (see _includes/paper-promo.html). Emitted
-    # here so it survives every rebuild rather than being hand-added to the page.
-    # `papers` (several) wins over `paper` (one) — the include accepts either.
-    promo = papers if papers else ([paper] if paper else [])
-    if promo:
-        if papers:
-            lines.append("papers:")
-            for p in papers:
-                lines += [
-                    "  - slug: %s" % p["slug"],
-                    '    title: "%s"' % p["title"],
-                    '    blurb: "%s"' % p["blurb"].replace('"', "'"),
-                    '    price: "%s"' % p.get("price", "500"),
-                ]
-                if p.get("kind"):
-                    lines.append('    kind: "%s"' % p["kind"])
-        else:
-            lines += [
-                "paper:",
-                "  slug: %s" % paper["slug"],
-                '  title: "%s"' % paper["title"],
-                '  blurb: "%s"' % paper["blurb"].replace('"', "'"),
-                '  price: "%s"' % paper.get("price", "500"),
-            ]
-            if paper.get("kind"):
-                lines.append('  kind: "%s"' % paper["kind"])
-        body.append("{% include paper-promo.html %}")
+    # Whether this listing carries the two interactive market tools. The block
+    # itself is written by scripts/build-section-tools.py as a post-pass; this
+    # flag is its gate and MUST be emitted here, because that generator reads
+    # the page it is about to rewrite. Until 2026-08-21 the gate was implicit —
+    # "this market sells a Trend Report" — and vanished with the reports line.
+    if market_tools:
+        lines.append("market_tools: true")
 
     # Interactive tools band. Only build-section-tools.py passes these; see the
     # note above listing_page() for why they are generated as a post-pass.
@@ -1376,14 +1176,15 @@ def esc(text):
 # optional 6th element carrying extras:
 #   tier_labels : per-section tier vocabulary, when the group's shared one
 #                 does not apply (banking has three different taxonomies)
-#   papers      : several promo papers instead of one
+#   market_tools: (5th element) truthy if this listing carries the two
+#                 interactive market tools
 #   tier_blurbs : override a separated tier's blurb for this section
 
 def build_roster_section_group(data_dir, meta_of, scores, sections,
                                tier_labels, counts=None):
     counts = {} if counts is None else counts
     for spec in sections:
-        slug_page, roster_file, title, summary, paper = spec[:5]
+        slug_page, roster_file, title, summary, market_tools = spec[:5]
         extras = spec[5] if len(spec) > 5 else {}
         labels = extras.get("tier_labels") or tier_labels
 
@@ -1407,8 +1208,8 @@ def build_roster_section_group(data_dir, meta_of, scores, sections,
 
         write_page(
             os.path.join(SITE, slug_page, "index.html"),
-            listing_page(title, summary, data_key, rated=True, paper=paper,
-                         papers=extras.get("papers"), entries=entries,
+            listing_page(title, summary, data_key, rated=True,
+                         market_tools=bool(market_tools), entries=entries,
                          tier_blurbs=extras.get("tier_blurbs")),
         )
         counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
@@ -1529,20 +1330,10 @@ def build_vcs(data_dir, delisted):
             'summary: "%d venture capital firms ranked by portfolio strength — how many of the companies they backed publish APIs that score well on the Kin Score."' % len(entries),
             "nav: Providers",
             'data_key: "providers-vcs"',
-            # Promoted here rather than by build-section-tools.py: that pass only
-            # handles listings whose data is band-grouped, and this page is a
-            # portfolio roll-up with no Kin Score of its own. It gets the promo
-            # band, and deliberately no buyer/provider tools — there is no cohort
-            # under it for them to read.
-            "papers:",
-            "  - slug: agentic-readiness-of-venture",
-            '    title: "The Agentic Readiness of Venture"',
-            '    blurb: "The twenty-five most important venture funds, ranked on one axis '
-            '— whether their portfolios are ready for agents that act."',
-            '    price: "1,500"',
-            '    kind: "API Evangelist Trend Report"',
+            # No promo and deliberately no buyer/provider tools: this page is a
+            # portfolio roll-up with no Kin Score of its own, so there is no
+            # band-grouped cohort under it for the tools to read.
             "---",
-            "{% include paper-promo.html %}",
             "{% include vc-listing.html %}",
             "",
         ]),
@@ -1694,7 +1485,7 @@ def main():
                 esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"])),
                 "providers-industry-%s" % ind_slug,
                 rated=True,
-                paper=INDUSTRY_PAPERS.get(ind_slug),
+                market_tools=ind_slug in INDUSTRY_MARKET_TOOLS,
             ),
         )
     industry_cards.sort(key=lambda c: c["name"].lower())
@@ -1824,12 +1615,7 @@ def main():
             "Australian banks ranked by their Kin Score.",
             "providers-australian-banks",
             rated=True,
-            paper={
-                "slug": "state-of-australian-banking-apis",
-                "title": "The State of Australian Banking APIs",
-                "blurb": "Fifty Consumer Data Right banks scored — and not one breaks 51. The anatomy of a mandated-but-mediocre ecosystem: uniform resources, the Kin Score facet-by-facet, the agent-readiness paradox, the FAPI/consent posture, provider-by-provider intelligence, and the investable thesis.",
-                "price": "500",
-            },
+            market_tools=True,
         ),
     )
 
@@ -1867,12 +1653,7 @@ def main():
             "Financial market data providers ranked by their Kin Score, from terminal and feed incumbents to API-first challengers.",
             "providers-market-data",
             rated=True,
-            paper={
-                "slug": "state-of-market-data-apis",
-                "title": "The State of Market Data APIs",
-                "blurb": "Fifty-eight providers scored. The feed is the commodity, the operation is the moat — the resource taxonomy, the Kin Score facet-by-facet, agent-readiness, security posture, provider-by-provider intelligence, and the investable thesis for operators and investors.",
-                "price": "500",
-            },
+            market_tools=True,
         ),
     )
 
@@ -2100,17 +1881,11 @@ def main():
     TELECOM_SECTIONS = [
         ("telecom", "telecom-roster.json", "Telecommunications",
          "The global telecom landscape ranked by Kin Score — mobile network operators across every major market, the CPaaS and messaging aggregators that resell their connectivity, the CAMARA / GSMA Open Gateway network-API exposure layer (Aduna, Nokia Network as Code), the standards bodies that write the specs (CAMARA, GSMA, 3GPP, ETSI, MEF, TM Forum), IoT and eSIM connectivity, UCaaS, wholesale interconnect, satellite and non-terrestrial networks, identity and anti-fraud, network vendors and BSS/OSS, and the regulators.",
-         None,
-         # Two papers, and a regulator blurb specific to this sector: telecom's
-         # supervisors are the ones who conspicuously do NOT require the network
-         # capability that CAMARA standardizes to be exposed at all.
-         {"papers": [
-             {"slug": "state-of-telecom-apis", "title": "The State of Telecom APIs",
-              "blurb": "83 telecom organizations scored — the only sector with a real, industry-built API standard, and the widest gap in the series between signing it and shipping it. The aggregators that resell carrier connectivity out-publish their own suppliers by 19 points, and the standards bodies out-publish the carriers that wrote the standards.", "price": "500"},
-             {"slug": "the-camara-standard", "title": "The CAMARA Standard",
-              "kind": "API Evangelist Standard Report",
-              "blurb": "The standard itself, taken apart: 93 repositories in which 57 are Sandbox, 15 Incubating and none Graduated; 1,369 named participants across 487 organizations mapped for the first time; and exactly one operator on earth publishing a contract a developer can download, price and call self-serve.", "price": "500"},
-          ],
+         True,
+         # A regulator blurb specific to this sector: telecom's supervisors are
+         # the ones who conspicuously do NOT require the network capability that
+         # CAMARA standardizes to be exposed at all.
+         {
           "tier_blurbs": {
              "Regulators": "Supervisory bodies. None of them requires an operator to expose network capability as an API.",
           }}),
@@ -2413,8 +2188,7 @@ def main():
          "The API management market ranked by Kin Score — the 21 full-stack platforms that sell the whole lifecycle as one product (Apigee, Boomi, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Red Hat 3scale, SAP, TIBCO, Software AG, Broadcom, APIwiz, APIIDA, APIPark, Apiman, Apidog) and the 15 gateways, ingress controllers and data planes you put in front of an API (Amazon API Gateway, Google Cloud API Gateway, NGINX, Traefik, Envoy, Envoy Gateway, Apache APISIX, KrakenD, Higress, Solo.io, Emissary-Ingress, Spring Cloud Gateway, Netflix Zuul, Apinizer, Bifrost). API management is a fuzzy category, so this cohort is named by hand rather than matched — developer portals, documentation, metering, analytics, API security and service mesh are real adjacent markets and are covered in their own areas.",
          {"slug": "state-of-management-apis", "title": "The State of API Management",
           "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The cohort averages 53.9 against a whole-catalog average of 22.6, and 33.1 on agent readiness. Solo.io leads at 80.8 on the composite and 59.5 on agents; Apigee scores 74.0 and 30.6. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"},
-         {"papers": [{"slug": "state-of-management-apis", "title": "The State of API Management",
-          "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The cohort averages 53.9 against a whole-catalog average of 22.6, and 33.1 on agent readiness. Solo.io leads at 80.8 on the composite and 59.5 on agents; Apigee scores 74.0 and 30.6. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"}, SPECTRAL_PAPER]}),
+         {}),
     ]
     management_counts = {}
     build_roster_sections(MANAGEMENT_SECTIONS, MANAGEMENT_TIER_LABELS, management_counts)
@@ -2494,8 +2268,7 @@ def main():
          "The API testing market ranked by Kin Score — the commercial testing and quality platforms (Tricentis, SmartBear, APIToolkit, Checkly, Assertible, Speedscale), the mocking and service-virtualization layer (WireMock, Beeceptor, Microcks, Mockoon, MockAPI, MockServer, Mock Service Worker, Hoverfly, Prism), load and performance testing (Apache JMeter, k6, Vegeta, Artillery, GoReplay, Gatling, Locust), contract testing and test frameworks (REST Assured, Pact, SuperTest, Schemathesis, Step CI, Optic, Dredd, Portman, Karate, Newman), the security scanners (Nuclei, OWASP ZAP) and the browser and end-to-end frameworks (Cypress.io, Selenium, Playwright). Testing is the fuzziest category in the series, so this cohort is named by hand rather than matched — API clients, chaos engineering, observability and APM are real adjacent markets covered in their own areas.",
          {"slug": "state-of-testing-apis", "title": "The State of API Testing",
           "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"},
-         {"papers": [{"slug": "state-of-testing-apis", "title": "The State of API Testing",
-          "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"}, SPECTRAL_PAPER]}),
+         {}),
     ]
     testing_counts = {}
     build_roster_sections(TESTING_SECTIONS, TESTING_TIER_LABELS, testing_counts)
