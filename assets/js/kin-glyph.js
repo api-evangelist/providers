@@ -29,10 +29,20 @@
 const FACETS = [
   { id: 'discoverability',          label: 'Discoverability',          light: '#2a78d6', dark: '#3987e5' },
   { id: 'contract_quality',         label: 'Contract Quality',         light: '#eb6834', dark: '#d95926' },
-  { id: 'governance',               label: 'Governance',               light: '#1baf7a', dark: '#199e70' },
+  /* `governance` and `commercial_clarity` keep their IDs and their hues; only the
+     labels moved. Rubric 0.12 renamed them to "Contract Governance" and "Access
+     Clarity" and emits each score under BOTH the old id and a new alias
+     (`emits_as` in scoring.yml), so the id here still resolves and no ring was
+     ever missing — the badge just went on asserting the retired names. The rename
+     was substantive: scoring.yml's own note says Governance "never measured how
+     the organisation governs itself, and the standalone accountability layer now
+     does, so one word could not carry both." Relabelled 0.12, roadmap#89.
+     DO NOT rename the IDs to the aliases. The positional encodings key off these
+     ids, and the scorer writes both names, so the short one still resolves. */
+  { id: 'governance',               label: 'Contract Governance',      light: '#1baf7a', dark: '#199e70' },
   { id: 'operational_transparency', label: 'Operational Transparency', light: '#eda100', dark: '#c98500' },
   { id: 'developer_ergonomics',     label: 'Developer Ergonomics',     light: '#e87ba4', dark: '#d55181' },
-  { id: 'commercial_clarity',       label: 'Commercial Clarity',       light: '#008300', dark: '#008300' },
+  { id: 'commercial_clarity',       label: 'Access Clarity',           light: '#008300', dark: '#008300' },
 ];
 
 /* One ray per agent-readiness dimension, in scoring.yml order. MUST stay in
@@ -42,7 +52,41 @@ const FACETS = [
 
    Fourteen as of 0.6. Was twelve at 0.4; `agent_card` shipped in 0.5.1 and was
    never drawn, so for two days the sun was silently a ray short of the score it
-   was illustrating. `dry_run_mode` is new in 0.6. */
+   was illustrating. `dry_run_mode` is new in 0.6.
+
+   Slot 8 was `asyncapi_events` until rubric 0.9 renamed and widened it to
+   `event_surface_described` — it had read only the asyncapi/ directory, naming the
+   artifact rather than the capability, and so scored false for the 125 providers who
+   describe their event surface in OpenAPI `webhooks`/`callbacks` instead. The rename
+   was not carried here or into build_listings.py, so the index builder dropped the
+   dimension from every badge with a warning nobody was reading. Same slot, same label,
+   so this is a rename and not a reordering.
+
+   FIFTEEN as of 0.12: `reversibility_documented` was added to the rubric and never
+   drawn here, so for every provider, on every badge, the ray simply did not exist —
+   the same failure as `agent_card` at 0.5.1 and `asyncapi_events` at 0.9, printing
+   the same warning nobody read. Third time. roadmap#89.
+
+   IT IS APPENDED AT SLOT 15, NOT INSERTED AT SLOT 3 WHERE scoring.yml PUTS IT.
+   That divergence is deliberate, and it is the one thing to understand before
+   touching this list. Two things consume the positional encoding and only one of
+   them is self-describing:
+
+     - the badge shard carries its own `dim_order` and the badge Lambda decodes
+       against THAT (lambdas/badge/data.mjs), so a stale shard still decodes
+       correctly. Insertion would have been safe here.
+     - the trit string in provider_bands.yml has no such header. The browser glyph
+       decodes it against whatever DIMENSIONS its own vendored bundle happens to
+       carry. Insert at slot 3 and every asset/data skew silently shifts twelve
+       dimensions — each ray reporting its neighbour's grade, with nothing to show
+       anything is wrong.
+
+   Appending shifts nothing: an encoding written before this lands is decoded
+   identically, and the new slot reads absent until the next build fills it. The
+   only cost is that ray order no longer matches scoring.yml order, which is
+   invisible — the rays sit on a circle and each carries its own label. Prefer that
+   cost every time. If a dimension is ever genuinely REMOVED, retire its slot in
+   place rather than closing the gap. */
 const DIMENSIONS = [
   { id: 'spec_presence',      label: 'Machine-Readable Contract' },
   { id: 'agentic_access',     label: 'Agentic Access Contract' },
@@ -52,12 +96,21 @@ const DIMENSIONS = [
   { id: 'error_semantics',    label: 'Stable Error Semantics' },
   { id: 'openapi_examples',   label: 'Request/Response Examples' },
   { id: 'rate_limit_signal',  label: 'Rate-Limit Signaling' },
-  { id: 'asyncapi_events',    label: 'Typed Event Surface' },
+  { id: 'event_surface_described', label: 'Typed Event Surface' },
   { id: 'agent_skills',       label: 'Agent Skills' },
   { id: 'well_known_catalog', label: 'Well-Known Catalog' },
   { id: 'consent_identity',   label: 'Consent & Bot Identity' },
   { id: 'agent_card',         label: 'A2A Agent Card' },
   { id: 'dry_run_mode',       label: 'Dry-Run / Simulate Mode' },
+  // Slot 15, appended 0.12 — see the note above on why this is not at slot 3.
+  { id: 'reversibility_documented', label: 'Documented Reversibility' },
+  // Slot 16, appended 0.13.0 (roadmap#99) — same rule as slot 15.
+  { id: 'delegated_identity', label: 'Delegated User Identity' },
+  // Slots 17-18, appended 0.13.0 (roadmap#98) — RFC 9728 and RFC 7591.
+  { id: 'protected_resource_metadata', label: 'Protected Resource Metadata' },
+  { id: 'dynamic_client_registration', label: 'Registration Without a Human' },
+  // Slot 19, appended 0.13.0 (roadmap#123).
+  { id: 'agentic_commerce', label: 'Agentic Commerce Surface' },
 ];
 
 /* Grades that mean PARTIAL credit rather than full. 0.6 made seven of the
@@ -72,6 +125,17 @@ const DIMENSIONS = [
 const PARTIAL_GRADES = new Set([
   'documented', 'partial', 'derived', 'mixed', 'conformance',
   'near-conformant', 'flavored',
+  // 0.12.2 (roadmap#97) — auth_clarity grades: bound 1.00 / negotiable 0.75 / bearer 0.35.
+  // `bound` is deliberately absent: full credit draws a full ray. Without the other two,
+  // rayState() falls through to its `return 'full'` default and an apiKey-only provider
+  // earning 3.5 of 10 draws a ray identical to a mutualTLS provider earning all ten --
+  // the exact thing partial grading exists to prevent.
+  'negotiable', 'bearer',
+  // 0.13 (roadmap#102) — the OIDC-discovery tier, 0.90. NOT called `verified`: that string
+  // already means 1.00 in five other dimensions and rayState() returns 'full' for it.
+  'served',
+  // 0.13.0 (roadmap#123) — agentic_commerce `platform` at 0.25.
+  'platform',
 ]);
 
 /* off | partial | full — from a bool, a grade string, or a trit char. */
